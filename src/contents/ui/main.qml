@@ -88,6 +88,9 @@ Kirigami.ApplicationWindow {
     pageStack.initialPage: QQC2.SwipeView {
         id: swipeView
 
+        Plasma {}
+        Kickoff {}
+        SystemTray {}
         Discover {}
         Apps {}
         SystemSettings {}
