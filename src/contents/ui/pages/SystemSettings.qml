@@ -24,7 +24,7 @@ Kirigami.Page {
 
     Image {
         anchors.fill: parent
-        anchors.topMargin: Kirigami.Units.gridUnit * 5
+        anchors.topMargin: Kirigami.Units.gridUnit * 7
         fillMode: Image.PreserveAspectFit
         source: "systemsettings.png"
     }
