@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="main.qml">contents/ui/main.qml</file>
+        <file alias="AboutPage.qml">contents/ui/AboutPage.qml</file>
+        <file alias="GlobalMenu.qml">contents/ui/GlobalMenu.qml</file>
+        <!--pages-->
+        <file alias="Done.qml">contents/ui/pages/Done.qml</file>
+        <file alias="Discover.qml">contents/ui/pages/Discover.qml</file>
+        <file alias="Apps.qml">contents/ui/pages/Apps.qml</file>
+        <file alias="SystemSettings.qml">contents/ui/pages/SystemSettings.qml</file>
+        <!--assets-->
+        <file alias="systemsettings.png">contents/assets/systemsettings.png</file>
+        <file alias="discover.png">contents/assets/discover.png</file>
+    </qresource>
+</RCC>
