@@ -4,7 +4,7 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
 Kirigami.Page {
-    title: i18n("Done")
+    title: i18n("All Done")
 
     ColumnLayout {
         anchors.centerIn: parent
