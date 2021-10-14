@@ -53,19 +53,6 @@ Kirigami.ApplicationWindow {
         onClicked: swipeView.currentIndex += 1
     }
 
-    Keys.onPressed: {
-        switch (event.key) {
-            case Qt.Left:
-                swipeView.currentIndex -= 1
-                return;
-            case Qt.Right:
-                swipeView.currentIndex += 1
-                return;
-            default:
-                return;
-        }
-    }
-
     header: QQC2.ToolBar {
         Layout.fillWidth: true
         Layout.preferredHeight: pageStack.globalToolBar.preferredHeight
@@ -88,6 +75,19 @@ Kirigami.ApplicationWindow {
 
     pageStack.initialPage: QQC2.SwipeView {
         id: swipeView
+
+        Keys.onPressed: {
+            switch (event.key) {
+                case Qt.Left:
+                    swipeView.currentIndex -= 1
+                    return;
+                case Qt.Right:
+                    swipeView.currentIndex += 1
+                    return;
+                default:
+                    return;
+            }
+        }
 
         Discover {}
         Apps {}
