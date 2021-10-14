@@ -24,7 +24,7 @@ Kirigami.Page {
 
     GridLayout {
         anchors.centerIn: parent
-        columns: 4
+        columns: 5
         columnSpacing: Kirigami.Units.largeSpacing * 4
         rowSpacing: Kirigami.Units.largeSpacing * 4
 
