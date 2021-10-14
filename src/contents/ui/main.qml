@@ -34,9 +34,15 @@ Kirigami.ApplicationWindow {
         }
         width: Kirigami.Units.gridUnit * 2
         height: width
-        icon.name: "arrow-left"
-        Keys.forwardTo: [root]
-        onClicked: swipeView.currentIndex -= 1
+        action: Kirigami.Action {
+            icon.name: "arrow-left"
+            shortcut: "Left"
+            onTriggered: {
+                if (swipeView.currentIndex != 0) {
+                    swipeView.currentIndex -= 1
+                }
+            }
+        }
     }
 
     QQC2.RoundButton {
@@ -48,9 +54,15 @@ Kirigami.ApplicationWindow {
         }
         width: Kirigami.Units.gridUnit * 2
         height: width
-        radius: width / 2
-        icon.name: "arrow-right"
-        onClicked: swipeView.currentIndex += 1
+        action: Kirigami.Action {
+            icon.name: "arrow-right"
+            shortcut: "Right"
+            onTriggered: {
+                if (swipeView.currentIndex < swipeView.count - 1) {
+                    swipeView.currentIndex += 1
+                }
+            }
+        }
     }
 
     header: QQC2.ToolBar {
@@ -75,19 +87,6 @@ Kirigami.ApplicationWindow {
 
     pageStack.initialPage: QQC2.SwipeView {
         id: swipeView
-
-        Keys.onPressed: {
-            switch (event.key) {
-                case Qt.Left:
-                    swipeView.currentIndex -= 1
-                    return;
-                case Qt.Right:
-                    swipeView.currentIndex += 1
-                    return;
-                default:
-                    return;
-            }
-        }
 
         Discover {}
         Apps {}
