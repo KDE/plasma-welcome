@@ -91,6 +91,7 @@ Kirigami.ApplicationWindow {
         Discover {}
         Apps {}
         SystemSettings {}
+        Contribute {}
         Done {}
     }
 }
