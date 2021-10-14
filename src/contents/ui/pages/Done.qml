@@ -5,7 +5,6 @@ import org.kde.kirigami 2.15 as Kirigami
 
 Kirigami.Page {
     title: i18n("Done")
-    objectName: "done"
 
     ColumnLayout {
         anchors.centerIn: parent
