@@ -34,6 +34,7 @@ Kirigami.Page {
                 ListElement { name: "Blender"; appstream: "org.blender.Blender"; icon: "blender" }
                 ListElement { name: "Inkscape"; appstream: "org.inkscape.Inkscape"; icon: "inkscape" }
                 ListElement { name: "VLC"; appstream: "org.videolan.VLC"; icon: "vlc" }
+                ListElement { name: "Gimp"; appstream: "org.gimp.GIMP"; icon: "gimp" }
             }
             delegate: ColumnLayout {
                 id: applicationItem
