@@ -17,9 +17,6 @@ Kirigami.ApplicationWindow {
     //maximumWidth: Kirigami.Units.gridUnit * 50
     //maximumHeight: Kirigami.Units.gridUnit * 40
 
-    pageStack.defaultColumnWidth: Kirigami.Units.gridUnit * 40
-    pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
-
     Loader {
         active: !Kirigami.Settings.isMobile
         source: Qt.resolvedUrl("GlobalMenu.qml")
