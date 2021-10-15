@@ -22,7 +22,7 @@ Kirigami.Page {
 
         QQC2.Button {
             Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18n("Start")
+            text: i18n("Start Contributing")
             onClicked: Qt.openUrlExternally("https://community.kde.org/Get_Involved")
         }
     }
