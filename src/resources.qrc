@@ -4,6 +4,7 @@
         <file alias="AboutPage.qml">contents/ui/AboutPage.qml</file>
         <file alias="GlobalMenu.qml">contents/ui/GlobalMenu.qml</file>
         <!--pages-->
+        <file alias="Welcome.qml">contents/ui/pages/Welcome.qml</file>
         <file alias="Plasma.qml">contents/ui/pages/Plasma.qml</file>
         <file alias="Kickoff.qml">contents/ui/pages/Kickoff.qml</file>
         <file alias="SystemTray.qml">contents/ui/pages/SystemTray.qml</file>
@@ -12,11 +13,5 @@
         <file alias="SystemSettings.qml">contents/ui/pages/SystemSettings.qml</file>
         <file alias="Contribute.qml">contents/ui/pages/Contribute.qml</file>
         <file alias="Done.qml">contents/ui/pages/Done.qml</file>
-        <!--assets-->
-        <file alias="plasma.webp">contents/assets/plasma.webp</file>
-        <file alias="kickoff.webp">contents/assets/kickoff.webp</file>
-        <file alias="systemtray.png">contents/assets/systemtray.png</file>
-        <file alias="systemsettings.png">contents/assets/systemsettings.png</file>
-        <file alias="discover.png">contents/assets/discover.png</file>
     </qresource>
 </RCC>
