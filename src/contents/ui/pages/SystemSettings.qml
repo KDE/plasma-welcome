@@ -21,11 +21,4 @@ Kirigami.Page {
             wrapMode: Text.WordWrap
         }
     }
-
-    Image {
-        anchors.fill: parent
-        anchors.topMargin: Kirigami.Units.gridUnit * 7
-        fillMode: Image.PreserveAspectFit
-        source: "systemsettings.png"
-    }
 }
