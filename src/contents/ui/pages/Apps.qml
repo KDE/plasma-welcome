@@ -3,24 +3,11 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
-Kirigami.Page {
+GenericPage {
     title: i18n("Managing Software")
 
-    ColumnLayout {
-        width: parent.width - (Kirigami.Units.gridUnit * 4)
-        Kirigami.Heading {
-            Layout.fillWidth: true
-            text: i18n("Popular Applications")
-            wrapMode: Text.WordWrap
-            type: Kirigami.Heading.Primary
-        }
-
-        QQC2.Label {
-            Layout.fillWidth: true
-            text: i18n("Here are some applications to help you be more productive and creative.")
-            wrapMode: Text.WordWrap
-        }
-    }
+    heading: i18n("Popular Applications")
+    description: i18n("Here are some applications to help you be more productive and creative.")
 
     GridLayout {
         anchors.centerIn: parent
