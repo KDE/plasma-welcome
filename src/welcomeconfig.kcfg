@@ -4,9 +4,13 @@
       xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
                           http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
   <group name="General">
-    <entry name="ConfigurationName" type="Bool">
-        <label>Label describing configuration option.</label>
-        <default>true</default>
+    <entry name="Done" type="Bool">
+        <label>Save whenever the user have completed the welcome tour.</label>
+        <default>false</default>
+    </entry>
+    <entry name="Skip" type="Bool">
+        <label>Save whenever the user have skipped the welcome tour.</label>
+        <default>false</default>
     </entry>
   </group>
 </kcfg>

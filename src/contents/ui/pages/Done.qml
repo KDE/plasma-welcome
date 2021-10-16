@@ -3,6 +3,8 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
+import org.kde.welcome 1.0
+
 Kirigami.Page {
     title: i18n("All Done")
 

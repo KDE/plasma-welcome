@@ -3,6 +3,8 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
+import org.kde.welcome 1.0
+
 Kirigami.Page {
     title: i18n("Welcome")
 
@@ -24,7 +26,11 @@ Kirigami.Page {
             Layout.topMargin: Kirigami.Units.largeSpacing
             QQC2.Button {
                 text: i18n("Skip")
-                onClicked: Qt.quit()
+                onClicked: {
+                    Config.skip = true;
+                    Config.save();
+                    Qt.quit();
+                }
             }
 
             QQC2.Button {

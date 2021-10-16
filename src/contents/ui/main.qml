@@ -94,5 +94,12 @@ Kirigami.ApplicationWindow {
         SystemSettings {}
         Contribute {}
         Done {}
+
+        onCurrentIndexChanged: {
+            if (currentIndex == count - 1) {
+                Config.done = true;
+                Config.save();
+            }
+        }
     }
 }
