@@ -8,4 +8,11 @@ GenericPage {
 
     heading: i18n("Discover")
     description: i18n("Discover helps you find and install applications, games, and tools. You can search or browse by category, and look at screenshots and read reviews to help you pick the perfect app.")
+
+    Image {
+        anchors.centerIn: parent
+        height: Kirigami.Units.gridUnit * 16
+        source: "konqi-app-office.png"
+        fillMode: Image.PreserveAspectFit
+    }
 }
