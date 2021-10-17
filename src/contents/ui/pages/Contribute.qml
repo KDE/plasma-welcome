@@ -16,4 +16,11 @@ GenericPage {
             onClicked: Qt.openUrlExternally("https://community.kde.org/Get_Involved")
         }
     ]
+
+    Image {
+        anchors.centerIn: parent
+        height: Kirigami.Units.gridUnit * 16
+        source: "konqi-build.png"
+        fillMode: Image.PreserveAspectFit
+    }
 }
