@@ -2,12 +2,15 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
+import QtGraphicalEffects 1.15
 
 Kirigami.Page {
     id: page
 
     property string heading: undefined
     property string description: undefined
+    property string imageSource
+    property bool imageShadow: true
     property alias topContent: layout.children
 
     leftPadding: Kirigami.Units.gridUnit * 3
@@ -28,5 +31,23 @@ Kirigami.Page {
             text: description
             wrapMode: Text.WordWrap
         }
+    }
+
+    Image {
+        id: image
+        anchors.centerIn: parent
+        height: Kirigami.Units.gridUnit * 22
+        source: imageSource
+        fillMode: Image.PreserveAspectFit
+    }
+
+    DropShadow {
+        anchors.fill: imageShadow ? image : undefined
+        source: imageShadow ? image : undefined
+        horizontalOffset: 0
+        verticalOffset: 5
+        radius: 20
+        samples: 20
+        color: Qt.rgba(0, 0, 0, 0.25)
     }
 }

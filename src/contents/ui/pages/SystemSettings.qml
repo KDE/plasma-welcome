@@ -9,22 +9,5 @@ GenericPage {
 
     heading: i18n("System Settings")
     description: i18n("System Settings let's you tweak your system to your liking. From Wi-Fi to Theme options, you can find everything here.")
-
-    Image {
-        id: image
-        anchors.centerIn: parent
-        height: Kirigami.Units.gridUnit * 22
-        source: "systemsettings.png"
-        fillMode: Image.PreserveAspectFit
-    }
-
-    DropShadow {
-        anchors.fill: image
-        source: image
-        horizontalOffset: 0
-        verticalOffset: 5
-        radius: 20
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.25)
-    }
+    imageSource: "systemsettings.png"
 }

@@ -8,6 +8,8 @@ GenericPage {
 
     heading: i18n("Get Involved")
     description: i18n("Welcome to the KDE Community! By joining our team, you will be part of an international effort by thousands of people working to deliver a stunning Free Software computing experience. You will meet new friends, learn new skills and make a difference to millions of users while working with people from all around the globe. This page will give you a brief introduction to things everyone in KDE should know, and help you get started with contributing.")
+    imageSource: "konqi-build.png"
+    imageShadow: false
 
     topContent: [
         QQC2.Button {
@@ -16,11 +18,4 @@ GenericPage {
             onClicked: Qt.openUrlExternally("https://community.kde.org/Get_Involved")
         }
     ]
-
-    Image {
-        anchors.centerIn: parent
-        height: Kirigami.Units.gridUnit * 16
-        source: "konqi-build.png"
-        fillMode: Image.PreserveAspectFit
-    }
 }
