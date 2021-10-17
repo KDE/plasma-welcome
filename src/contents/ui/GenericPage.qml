@@ -44,9 +44,39 @@ Kirigami.Page {
         anchors.fill: imageShadow ? image : undefined
         source: imageShadow ? image : undefined
         horizontalOffset: 0
-        verticalOffset: 5
-        radius: 20
+        verticalOffset: 1
+        radius: 10
         samples: 20
-        color: Qt.rgba(0, 0, 0, 0.25)
+        color: Qt.rgba(0, 0, 0, 0.1)
+    }
+
+    DropShadow {
+        anchors.fill: imageShadow ? image : undefined
+        source: imageShadow ? image : undefined
+        horizontalOffset: 0
+        verticalOffset: 4
+        radius: 16
+        samples: 20
+        color: Qt.rgba(0, 0, 0, 0.12)
+    }
+
+    DropShadow {
+        anchors.fill: imageShadow ? image : undefined
+        source: imageShadow ? image : undefined
+        horizontalOffset: 0
+        verticalOffset: 40
+        radius: 60
+        samples: 20
+        color: Qt.rgba(0, 0, 0, 0.12)
+    }
+
+    DropShadow {
+        anchors.fill: imageShadow ? image : undefined
+        source: imageShadow ? image : undefined
+        horizontalOffset: 0
+        verticalOffset: 80
+        radius: 120
+        samples: 20
+        color: Qt.rgba(0, 0, 0, 0.06)
     }
 }
