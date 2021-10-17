@@ -9,5 +9,5 @@ GenericPage {
 
     heading: i18n("System Tray")
     description: i18n("Connect to your WiFi network; change the volume; switch to the next song or pause a video; access an external device; change the screen layout. All these and a lot more–directly from the system tray. To conserve the focus on what you’re currently doing, any icon can be hidden if you like. Inactive icons hide themselves unless you tell them to stay where they are.")
-    imageSource: "systemtray.png"
+    image.source: "systemtray.png"
 }

@@ -9,5 +9,13 @@ GenericPage {
 
     heading: i18n("System Settings")
     description: i18n("System Settings let's you tweak your system to your liking. From Wi-Fi to Theme options, you can find everything here.")
-    imageSource: "systemsettings.png"
+    image.source: "systemsettings.png"
+    image.children: [
+        MouseArea {
+            anchors.fill: parent
+
+            cursorShape: Qt.PointingHandCursor
+            onClicked: console.info("Open System Settings") //TODO Make this open system settings
+        }
+    ]
 }

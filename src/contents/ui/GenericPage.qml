@@ -9,7 +9,7 @@ Kirigami.Page {
 
     property string heading: undefined
     property string description: undefined
-    property string imageSource
+    property alias image: image
     property bool imageShadow: true
     property alias topContent: layout.children
 
@@ -37,7 +37,6 @@ Kirigami.Page {
         id: image
         anchors.centerIn: parent
         height: Kirigami.Units.gridUnit * 22
-        source: imageSource
         fillMode: Image.PreserveAspectFit
     }
 
