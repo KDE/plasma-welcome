@@ -5,22 +5,22 @@ import org.kde.kirigami 2.15 as Kirigami
 
 import org.kde.welcome 1.0
 
-Kirigami.Page {
+Kirigami.ScrollablePage {
     title: i18n("Welcome")
 
     ColumnLayout {
-        anchors.centerIn: parent
-        width: parent.width - (Kirigami.Units.gridUnit * 4)
-
-        Kirigami.Heading {
+        Image {
             Layout.fillWidth: true
-            horizontalAlignment: Qt.AlignHCenter
-            verticalAlignment: Qt.AlignVCenter
-            text: i18n("Welcome to Plasma")
-            wrapMode: Text.WordWrap
-            type: Kirigami.Heading.Primary
+            Layout.preferredHeight: Kirigami.Units.gridUnit * 16
+            source: "konqi-kde-hi.png"
+            fillMode: Image.PreserveAspectFit
         }
-
+        QQC2.Label {
+            Layout.fillWidth: true
+            horizontalAlignment: Text.AlignHCenter
+            text: i18n("Welcome to KDE Plasma")
+            font.pixelSize: 25
+        }
         RowLayout {
             Layout.alignment: Qt.AlignCenter
             Layout.topMargin: Kirigami.Units.largeSpacing
