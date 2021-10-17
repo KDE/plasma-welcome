@@ -8,7 +8,7 @@ import org.kde.welcome 1.0
 Kirigami.ApplicationWindow {
     id: root
 
-    title: i18n("Welcome")
+    title: i18n("Plasma Tour")
 
     minimumWidth: Kirigami.Units.gridUnit * 25
     minimumHeight: Kirigami.Units.gridUnit * 20

@@ -22,11 +22,11 @@ int main(int argc, char *argv[])
                          // The program name used internally.
                          QStringLiteral("welcome"),
                          // A displayable program name string.
-                         i18nc("@title", "Welcome"),
+                         i18nc("@title", "Plasma Tour"),
                          // The program version string.
                          QStringLiteral(WELCOME_VERSION_STRING),
                          // Short description of what the app does.
-                         i18n("Plasma's welcome screen"),
+                         i18n("A tour through Plasma"),
                          // The license this code is released under.
                          KAboutLicense::GPL,
                          // Copyright Statement.
