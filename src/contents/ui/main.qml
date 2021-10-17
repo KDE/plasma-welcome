@@ -17,11 +17,6 @@ Kirigami.ApplicationWindow {
     //maximumWidth: Kirigami.Units.gridUnit * 50
     //maximumHeight: Kirigami.Units.gridUnit * 40
 
-    Loader {
-        active: !Kirigami.Settings.isMobile
-        source: Qt.resolvedUrl("GlobalMenu.qml")
-    }
-
     QQC2.RoundButton {
         visible: swipeView.currentIndex > 0
         anchors {
