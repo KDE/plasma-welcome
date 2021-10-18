@@ -94,6 +94,7 @@ Kirigami.ApplicationWindow {
             if (currentIndex == count - 1) {
                 Config.done = true;
                 Config.save();
+                Controller.removeFromAutostart();
             }
         }
     }

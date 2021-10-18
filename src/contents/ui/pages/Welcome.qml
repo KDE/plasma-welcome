@@ -29,6 +29,7 @@ Kirigami.ScrollablePage {
                 onClicked: {
                     Config.skip = true;
                     Config.save();
+                    Controller.removeFromAutostart();
                     Qt.quit();
                 }
             }
