@@ -9,8 +9,6 @@ Kirigami.Page {
 
     property string heading: undefined
     property string description: undefined
-    property alias image: image
-    property bool imageShadow: true
     property alias topContent: layout.children
 
     leftPadding: Kirigami.Units.gridUnit * 3
@@ -31,52 +29,5 @@ Kirigami.Page {
             text: description
             wrapMode: Text.WordWrap
         }
-    }
-
-    Image {
-        id: image
-        anchors.centerIn: parent
-        height: Kirigami.Units.gridUnit * 22
-        fillMode: Image.PreserveAspectFit
-    }
-
-    DropShadow {
-        anchors.fill: imageShadow ? image : undefined
-        source: imageShadow ? image : undefined
-        horizontalOffset: 0
-        verticalOffset: 1
-        radius: 10
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.1)
-    }
-
-    DropShadow {
-        anchors.fill: imageShadow ? image : undefined
-        source: imageShadow ? image : undefined
-        horizontalOffset: 0
-        verticalOffset: 4
-        radius: 16
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.12)
-    }
-
-    DropShadow {
-        anchors.fill: imageShadow ? image : undefined
-        source: imageShadow ? image : undefined
-        horizontalOffset: 0
-        verticalOffset: 40
-        radius: 60
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.12)
-    }
-
-    DropShadow {
-        anchors.fill: imageShadow ? image : undefined
-        source: imageShadow ? image : undefined
-        horizontalOffset: 0
-        verticalOffset: 80
-        radius: 120
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.06)
     }
 }
