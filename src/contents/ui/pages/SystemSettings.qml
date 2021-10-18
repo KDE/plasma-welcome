@@ -11,13 +11,59 @@ GenericPage {
 
     heading: i18n("System Settings")
     description: i18n("System Settings let's you tweak your system to your liking. From Wi-Fi to Theme options, you can find everything here.")
-    image.source: "systemsettings.png"
-    image.children: [
+
+    Kirigami.Icon {
+        id: image
+        anchors.centerIn: parent
+        width: Kirigami.Units.gridUnit * 10
+        height: Kirigami.Units.gridUnit * 10
+        source: "systemsettings"
+
         MouseArea {
             anchors.fill: parent
 
             cursorShape: Qt.PointingHandCursor
             onClicked: Controller.open("systemsettings5")
         }
-    ]
+    }
+
+    DropShadow {
+        anchors.fill: image
+        source: image
+        horizontalOffset: 0
+        verticalOffset: 1
+        radius: 10
+        samples: 20
+        color: Qt.rgba(0, 0, 0, 0.1)
+    }
+
+    DropShadow {
+        anchors.fill: image
+        source: image
+        horizontalOffset: 0
+        verticalOffset: 4
+        radius: 16
+        samples: 20
+        color: Qt.rgba(0, 0, 0, 0.12)
+    }
+
+    DropShadow {
+        anchors.fill: image
+        source: image
+        horizontalOffset: 0
+        verticalOffset: 40
+        radius: 60
+        samples: 20
+        color: Qt.rgba(0, 0, 0, 0.12)
+    }
+
+    DropShadow {
+        anchors.fill: image
+        source: image
+        horizontalOffset: 0
+        verticalOffset: 80
+        radius: 120
+        samples: 20
+        color: Qt.rgba(0, 0, 0, 0.06)
+    }
 }
