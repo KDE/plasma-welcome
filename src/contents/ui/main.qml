@@ -3,12 +3,12 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
-import org.kde.tour 1.0
+import org.kde.welcome 1.0
 
 Kirigami.ApplicationWindow {
     id: root
 
-    title: i18n("Plasma Tour")
+    title: i18n("Plasma Welcome")
 
     minimumWidth: Kirigami.Units.gridUnit * 25
     minimumHeight: Kirigami.Units.gridUnit * 20

@@ -1,5 +1,5 @@
-add_executable(tour main.cpp about.cpp controller.cpp resources.qrc)
-target_link_libraries(tour
+add_executable(welcome main.cpp about.cpp controller.cpp resources.qrc)
+target_link_libraries(welcome
     Qt5::Core
     Qt5::Gui
     Qt5::Qml
@@ -9,5 +9,5 @@ target_link_libraries(tour
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigWidgets)
-kconfig_add_kcfg_files(tour GENERATE_MOC tourconfig.kcfgc)
-install(TARGETS tour ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+kconfig_add_kcfg_files(welcome GENERATE_MOC welcomeconfig.kcfgc)
+install(TARGETS welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

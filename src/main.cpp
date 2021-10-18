@@ -9,26 +9,26 @@
 #include <KLocalizedContext>
 #include <KLocalizedString>
 #include "about.h"
-#include "config-tour.h"
+#include "config-welcome.h"
 
-#include "tourconfig.h"
+#include "welcomeconfig.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
-    QCoreApplication::setApplicationName(QStringLiteral("tour"));
+    QCoreApplication::setApplicationName(QStringLiteral("welcome"));
 
     KAboutData aboutData(
                          // The program name used internally.
-                         QStringLiteral("tour"),
+                         QStringLiteral("welcome"),
                          // A displayable program name string.
-                         i18nc("@title", "Plasma Tour"),
+                         i18nc("@title", "Plasma Welcome"),
                          // The program version string.
-                         QStringLiteral(TOUR_VERSION_STRING),
+                         QStringLiteral(WELCOME_VERSION_STRING),
                          // Short description of what the app does.
-                         i18n("A tour through Plasma"),
+                         i18n("A welcome app to Plasma"),
                          // The license this code is released under.
                          KAboutLicense::GPL,
                          // Copyright Statement.
@@ -38,11 +38,11 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    auto config = TourConfig::self();
-    qmlRegisterSingletonInstance("org.kde.tour", 1, 0, "Config", config);
+    auto config = WelcomeConfig::self();
+    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Config", config);
 
-    qmlRegisterSingletonInstance("org.kde.tour", 1, 0, "AboutType", new AboutType);
-    qmlRegisterSingletonInstance("org.kde.tour", 1, 0, "Controller", new Controller);
+    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "AboutType", new AboutType);
+    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Controller", new Controller);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));

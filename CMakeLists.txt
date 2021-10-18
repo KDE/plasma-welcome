@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(tour VERSION 0.1)
+project(welcome VERSION 0.1)
 
 include(FeatureSummary)
 
@@ -19,8 +19,8 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 
 ecm_setup_version(${PROJECT_VERSION}
-    VARIABLE_PREFIX TOUR
-    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/config-tour.h"
+    VARIABLE_PREFIX WELCOME
+    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/config-welcome.h"
 )
 
 find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
@@ -28,7 +28,7 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Con
 
 add_subdirectory(src)
 
-#install(PROGRAMS org.kde.tour.desktop DESTINATION ${KDE_INSTALL_APPDIR})
-#install(FILES org.kde.tour.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+#install(PROGRAMS org.kde.welcome.desktop DESTINATION ${KDE_INSTALL_APPDIR})
+#install(FILES org.kde.welcome.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)

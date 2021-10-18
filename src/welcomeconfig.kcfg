@@ -5,11 +5,11 @@
                           http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
   <group name="General">
     <entry name="Done" type="Bool">
-        <label>Save whenever the user have completed the welcome tour.</label>
+        <label>Save whenever the user have completed the welcome app.</label>
         <default>false</default>
     </entry>
     <entry name="Skip" type="Bool">
-        <label>Save whenever the user have skipped the welcome tour.</label>
+        <label>Save whenever the user have skipped the welcome app.</label>
         <default>false</default>
     </entry>
   </group>

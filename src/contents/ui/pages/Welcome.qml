@@ -3,7 +3,7 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
-import org.kde.tour 1.0
+import org.kde.welcome 1.0
 
 Kirigami.ScrollablePage {
     title: i18n("Introduction")
@@ -35,7 +35,7 @@ Kirigami.ScrollablePage {
             }
 
             QQC2.Button {
-                text: i18n("Take Tour")
+                text: i18n("Start")
                 onClicked: swipeView.currentIndex += 1
             }
         }

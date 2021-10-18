@@ -5,7 +5,7 @@
 
 #include "controller.h"
 
-#include "tourconfig.h"
+#include "welcomeconfig.h"
 
 void Controller::open(const QString& program)
 {
@@ -14,10 +14,10 @@ void Controller::open(const QString& program)
 
 void Controller::removeFromAutostart()
 {
-    if (TourConfig::self()->skip() == true) {
+    if (WelcomeConfig::self()->skip() == true) {
         QString configPath = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
         QString autoStart = QString::fromUtf8("/autostart/");
-        QString fileName = QString::fromUtf8("tour.desktop");
+        QString fileName = QString::fromUtf8("welcome.desktop");
         QString fullPath = configPath + autoStart + fileName;
         QFile file = fullPath;
         file.remove();
