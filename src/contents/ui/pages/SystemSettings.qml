@@ -4,6 +4,8 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 import QtGraphicalEffects 1.15
 
+import org.kde.welcome 1.0
+
 GenericPage {
     title: i18n("Tweaking your System")
 
@@ -15,7 +17,7 @@ GenericPage {
             anchors.fill: parent
 
             cursorShape: Qt.PointingHandCursor
-            onClicked: console.info("Open System Settings") //TODO Make this open system settings
+            onClicked: Controller.open("systemsettings5")
         }
     ]
 }

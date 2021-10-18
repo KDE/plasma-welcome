@@ -3,6 +3,8 @@
 #include <QUrl>
 #include <QtQml>
 
+#include "controller.h"
+
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
@@ -40,6 +42,7 @@ int main(int argc, char *argv[])
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Config", config);
 
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "AboutType", new AboutType);
+    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Controller", new Controller);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));

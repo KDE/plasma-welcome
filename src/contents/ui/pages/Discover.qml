@@ -3,6 +3,8 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
+import org.kde.welcome 1.0
+
 GenericPage {
     title: i18n("Managing Software")
 
@@ -14,7 +16,7 @@ GenericPage {
             anchors.fill: parent
 
             cursorShape: Qt.PointingHandCursor
-            onClicked: console.info("Open Discover") //TODO Make this open discover
+            onClicked: Controller.open("plasma-discover")
         }
     ]
 }

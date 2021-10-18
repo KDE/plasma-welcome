@@ -1,4 +1,4 @@
-add_executable(welcome main.cpp about.cpp resources.qrc)
+add_executable(welcome main.cpp about.cpp controller.cpp resources.qrc)
 target_link_libraries(welcome
     Qt5::Core
     Qt5::Gui
