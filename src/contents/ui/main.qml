@@ -81,9 +81,6 @@ Kirigami.ApplicationWindow {
         id: swipeView
 
         Welcome {}
-        Plasma {}
-        Kickoff {}
-        SystemTray {}
         Discover {}
         Apps {}
         SystemSettings {}
