@@ -19,10 +19,6 @@ GenericPage {
         height: Kirigami.Units.gridUnit * 10
         source: "plasmadiscover"
 
-        QQC2.ToolTip.text: i18n("Open Discover")
-        QQC2.ToolTip.visible: hovered
-        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
-
         MouseArea {
             anchors.fill: parent
 
