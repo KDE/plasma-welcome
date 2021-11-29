@@ -7,9 +7,7 @@ import QtGraphicalEffects 1.15
 import org.kde.welcome 1.0
 
 GenericPage {
-    title: i18n("Tweaking your System")
-
-    heading: i18n("System Settings")
+    heading: i18n("Tweaking your System")
     description: i18n("System Settings let's you tweak your system to your liking. From Wi-Fi to Theme options, you can find everything here.")
 
     Kirigami.Icon {

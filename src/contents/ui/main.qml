@@ -17,76 +17,55 @@ Kirigami.ApplicationWindow {
     //maximumWidth: Kirigami.Units.gridUnit * 50
     //maximumHeight: Kirigami.Units.gridUnit * 40
 
-    QQC2.RoundButton {
-        visible: swipeView.currentIndex > 0
-        anchors {
-            left: parent.left
-            leftMargin: Kirigami.Units.largeSpacing
-            verticalCenter: parent.verticalCenter
-        }
-        width: Kirigami.Units.gridUnit * 2
-        height: width
-        action: Kirigami.Action {
-            icon.name: "arrow-left"
-            shortcut: "Left"
-            onTriggered: {
-                if (swipeView.currentIndex != 0) {
-                    swipeView.currentIndex -= 1
-                }
-            }
-        }
-    }
-
-    QQC2.RoundButton {
-        visible: swipeView.currentIndex != swipeView.count - 1
-        anchors {
-            right: parent.right
-            rightMargin: Kirigami.Units.largeSpacing
-            verticalCenter: parent.verticalCenter
-        }
-        width: Kirigami.Units.gridUnit * 2
-        height: width
-        action: Kirigami.Action {
-            icon.name: "arrow-right"
-            shortcut: "Right"
-            onTriggered: {
-                if (swipeView.currentIndex < swipeView.count - 1) {
-                    swipeView.currentIndex += 1
-                }
-            }
-        }
-    }
-
-    pageStack.initialPage: Kirigami.Page {
-        title: swipeView.currentItem.title
-
-        QQC2.SwipeView {
-            id: swipeView
+    header: QQC2.ToolBar {
+        RowLayout {
             anchors.fill: parent
-
-            Welcome {}
-            Discover {}
-            SystemSettings {}
-            Contribute {}
-
-            onCurrentIndexChanged: {
-                if (currentIndex == count - 1) {
-                    Config.done = true;
-                    Config.save();
-                    Controller.removeFromAutostart();
+            QQC2.Button {
+                Layout.alignment: Qt.AlignLeft
+                action: Kirigami.Action {
+                    text: swipeView.currentIndex === 0 ? i18n("Skip") : i18n("Back")
+                    icon.name: swipeView.currentIndex === 0 ? "" : "arrow-left"
+                    shortcut: "Left"
+                    onTriggered: {
+                        if (swipeView.currentIndex != 0) {
+                            swipeView.currentIndex -= 1
+                        } else {
+                            Config.skip = true;
+                            Config.save();
+                            Controller.removeFromAutostart();
+                            Qt.quit();
+                        }
+                    }
+                }
+            }
+            QQC2.Button {
+                Layout.alignment: Qt.AlignRight
+                action: Kirigami.Action {
+                    text: swipeView.currentIndex === swipeView.count - 1 ? i18n("Finish") : i18n("Next")
+                    icon.name: swipeView.currentIndex === swipeView.count - 1 ? "" : "arrow-right"
+                    shortcut: "Right"
+                    onTriggered: {
+                        if (swipeView.currentIndex < swipeView.count - 1) {
+                            swipeView.currentIndex += 1
+                        } else {
+                            Config.done = true;
+                            Config.save();
+                            Controller.removeFromAutostart();
+                            Qt.quit()
+                        }
+                    }
                 }
             }
         }
-        footer: ColumnLayout {
-            QQC2.PageIndicator {
-                Layout.alignment: Qt.AlignHCenter
-                Layout.bottomMargin: Kirigami.Units.largeSpacing
+    }
 
-                currentIndex: swipeView.currentIndex
-                count: swipeView.count
-                interactive: true
-                onCurrentIndexChanged: swipeView.currentIndex = currentIndex
-            }
-        }
+    QQC2.SwipeView {
+        id: swipeView
+        anchors.fill: parent
+
+        Welcome {}
+        Discover {}
+        SystemSettings {}
+        Contribute {}
     }
 }
