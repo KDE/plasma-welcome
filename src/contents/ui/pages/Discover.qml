@@ -31,6 +31,50 @@ GenericPage {
         }
     }
 
+    GridLayout {
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: Kirigami.Units.gridUnit * 3
+        columns: 5
+        columnSpacing: Kirigami.Units.largeSpacing * 4
+        rowSpacing: Kirigami.Units.largeSpacing * 4
+
+        Repeater {
+            model: ListModel {
+                ListElement { name: "Krita"; appstream: "org.kde.krita"; icon: "org.kde.krita" }
+                ListElement { name: "Blender"; appstream: "org.blender.Blender"; icon: "blender" }
+                ListElement { name: "Inkscape"; appstream: "org.inkscape.Inkscape"; icon: "inkscape" }
+                ListElement { name: "VLC"; appstream: "org.videolan.VLC"; icon: "vlc" }
+                ListElement { name: "Gimp"; appstream: "org.gimp.GIMP"; icon: "gimp" }
+            }
+            delegate: ColumnLayout {
+                id: applicationItem
+                spacing: Kirigami.Units.smallSpacing
+
+                Kirigami.Icon {
+                    Layout.alignment: Qt.AlignHCenter
+                    Layout.preferredWidth: Kirigami.Units.iconSizes.huge
+                    Layout.preferredHeight: Kirigami.Units.iconSizes.huge
+                    source: model.icon
+                }
+
+                QQC2.Label {
+                    Layout.alignment: Qt.AlignHCenter
+                    text: model.name
+                    wrapMode: Text.WordWrap
+                }
+
+                MouseArea {
+                    width: applicationItem.width
+                    height: applicationItem.height
+
+                    cursorShape: Qt.PointingHandCursor
+                    onClicked: Qt.openUrlExternally(`appstream://${model.appstream}`)
+                }
+            }
+        }
+    }
+
     DropShadow {
         anchors.fill: image
         source: image

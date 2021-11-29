@@ -66,7 +66,6 @@ Kirigami.ApplicationWindow {
 
             Welcome {}
             Discover {}
-            Apps {}
             SystemSettings {}
             Contribute {}
             Done {}
