@@ -68,7 +68,6 @@ Kirigami.ApplicationWindow {
             Discover {}
             SystemSettings {}
             Contribute {}
-            Done {}
 
             onCurrentIndexChanged: {
                 if (currentIndex == count - 1) {
