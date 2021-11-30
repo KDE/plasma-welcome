@@ -19,7 +19,7 @@ GenericPage {
     Image {
         id: image
         anchors.centerIn: parent
-        height: Kirigami.Units.gridUnit * 22
+        height: Kirigami.Units.gridUnit * 20
         fillMode: Image.PreserveAspectFit
         source: "konqi-build.png"
     }

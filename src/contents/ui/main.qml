@@ -10,10 +10,10 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Plasma Welcome")
 
-    minimumWidth: Kirigami.Units.gridUnit * 25
-    minimumHeight: Kirigami.Units.gridUnit * 20
-    width: Kirigami.Units.gridUnit * 50
-    height: Kirigami.Units.gridUnit * 40
+    minimumWidth: Kirigami.Units.gridUnit * 40
+    minimumHeight: Kirigami.Units.gridUnit * 35
+    width: Kirigami.Units.gridUnit * 42
+    height: Kirigami.Units.gridUnit * 37
     //maximumWidth: Kirigami.Units.gridUnit * 50
     //maximumHeight: Kirigami.Units.gridUnit * 40
 
