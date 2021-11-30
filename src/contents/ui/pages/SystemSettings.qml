@@ -25,6 +25,14 @@ GenericPage {
         }
     }
 
+    Kirigami.Heading {
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: image.bottom
+        text: i18n("System Settings")
+        wrapMode: Text.WordWrap
+        level: 3
+    }
+
     DropShadow {
         anchors.fill: image
         source: image

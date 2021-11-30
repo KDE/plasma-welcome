@@ -25,6 +25,14 @@ GenericPage {
         }
     }
 
+    Kirigami.Heading {
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: image.bottom
+        text: i18n("Discover")
+        wrapMode: Text.WordWrap
+        level: 3
+    }
+
     GridLayout {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottom: parent.bottom
