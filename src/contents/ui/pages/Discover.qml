@@ -26,6 +26,7 @@ GenericPage {
     }
 
     Kirigami.Heading {
+        id: label
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: image.bottom
         text: i18n("Discover")
@@ -35,8 +36,8 @@ GenericPage {
 
     GridLayout {
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: Kirigami.Units.gridUnit * 3
+        anchors.top: label.bottom
+        anchors.topMargin: Kirigami.Units.gridUnit * 2
         columns: 5
         columnSpacing: Kirigami.Units.largeSpacing * 4
         rowSpacing: Kirigami.Units.largeSpacing * 4
