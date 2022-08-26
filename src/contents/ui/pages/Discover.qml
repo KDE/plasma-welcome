@@ -54,17 +54,22 @@ GenericPage {
                 id: applicationItem
                 spacing: Kirigami.Units.smallSpacing
 
+                readonly property int itemSize: Kirigami.Units.iconSizes.huge
+
                 Kirigami.Icon {
-                    Layout.alignment: Qt.AlignHCenter
-                    Layout.preferredWidth: Kirigami.Units.iconSizes.huge
-                    Layout.preferredHeight: Kirigami.Units.iconSizes.huge
+                    Layout.preferredWidth: applicationItem.itemSize
+                    Layout.preferredHeight: applicationItem.itemSize
                     source: model.icon
                 }
 
                 QQC2.Label {
                     Layout.alignment: Qt.AlignHCenter
+                    Layout.maximumWidth: applicationItem.itemSize
+                    Layout.minimumHeight: Kirigami.Units.gridUnit * 5
                     text: model.name
-                    wrapMode: Text.WordWrap
+                    wrapMode: Text.Wrap
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignTop
                 }
 
                 HoverHandler {
