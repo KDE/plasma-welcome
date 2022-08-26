@@ -33,8 +33,8 @@ GenericPage {
 
         Image {
             id: image
-            width: Math.round(implicitWidth / Screen.devicePixelRatio)
-            height: Math.round(implicitHeight / Screen.devicePixelRatio)
+            width: Math.round(implicitWidth / 2)
+            height: Math.round(implicitHeight / 2)
             anchors.centerIn: parent
             fillMode: Image.PreserveAspectFit
             source: "system-tray-network-icon.png"
