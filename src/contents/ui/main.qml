@@ -66,6 +66,7 @@ Kirigami.ApplicationWindow {
         anchors.fill: parent
 
         Welcome {}
+        Network {}
         Discover {}
         SystemSettings {}
         Contribute {}
