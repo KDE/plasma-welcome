@@ -25,12 +25,14 @@ Kirigami.ApplicationWindow {
             QQC2.Button {
                 Layout.alignment: Qt.AlignLeft
                 action: Kirigami.Action {
-                    text: swipeView.currentIndex === 0 ? i18nc("@action:button", "Skip") : i18nc("@action:button", "Back")
-                    icon.name: swipeView.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
+                    text: pageStack.currentIndex === 0 ? i18nc("@action:button", "Skip") : i18nc("@action:button", "Back")
+                    icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
                     shortcut: "Left"
                     onTriggered: {
-                        if (swipeView.currentIndex != 0) {
-                            swipeView.currentIndex -= 1
+                        if (pageStack.layers.depth > 1) {
+                            pageStack.layers.pop()
+                        } else if (pageStack.currentIndex != 0) {
+                            pageStack.currentIndex -= 1
                         } else {
                             Config.skip = true;
                             Config.save();
@@ -41,14 +43,15 @@ Kirigami.ApplicationWindow {
                 }
             }
             QQC2.Button {
+                visible: pageStack.layers.depth === 1
                 Layout.alignment: Qt.AlignRight
                 action: Kirigami.Action {
-                    text: swipeView.currentIndex === swipeView.count - 1 ? i18nc("@action:button", "Finish") : i18nc("@action:button", "Next")
-                    icon.name: swipeView.currentIndex === swipeView.count - 1 ? "dialog-ok-apply" : "arrow-right"
+                    text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "Finish") : i18nc("@action:button", "Next")
+                    icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
                     shortcut: "Right"
                     onTriggered: {
-                        if (swipeView.currentIndex < swipeView.count - 1) {
-                            swipeView.currentIndex += 1
+                        if (pageStack.currentIndex < pageStack.depth - 1) {
+                            pageStack.currentIndex += 1
                         } else {
                             Config.done = true;
                             Config.save();
@@ -61,14 +64,49 @@ Kirigami.ApplicationWindow {
         }
     }
 
-    QQC2.SwipeView {
-        id: swipeView
-        anchors.fill: parent
+    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.None
+    pageStack.defaultColumnWidth: width
+    pageStack.initialPage: [welcome, network, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute]
+    Component.onCompleted: pageStack.currentIndex = 0 //TODO: push new pages onlly as needed
 
-        Welcome {}
-        Network {} // TODO: don't show if the system is already connected to the internet
-        Discover {}
-        SystemSettings {}
-        Contribute {}
+    Welcome {id: welcome}
+    Network {id: network}
+    Discover {id: discover}
+    SystemSettings {id:systemsettings}
+    Contribute {id: contribute}
+    KCM {
+        id: kcm_feedback
+        Module {
+            id: moduleFeedback
+            path: "kcm_feedback"
+        }
+        kcm: moduleFeedback.kcm
+        internalPage: moduleFeedback.kcm.mainUi
+    }
+    KCM {
+        id: kcm_kaccounts
+
+        header: ColumnLayout {
+            Kirigami.Heading {
+                Layout.topMargin: Kirigami.Units.gridUnit
+                Layout.leftMargin: Kirigami.Units.gridUnit * 2
+                Layout.rightMargin: Kirigami.Units.gridUnit * 2
+                text: i18n("Online Accounts")
+                type: Kirigami.Heading.Primary
+            }
+            QQC2.Label {
+                Layout.leftMargin: Kirigami.Units.gridUnit * 2
+                Layout.rightMargin: Kirigami.Units.gridUnit * 2
+                Layout.bottomMargin: Kirigami.Units.gridUnit * 2
+                text:i18n("Configure your internet services")
+            }
+        }
+
+        Module {
+            id: moduleAccounts
+            path: "kcm_kaccounts"
+        }
+        kcm: moduleAccounts.kcm
+        internalPage: moduleAccounts.kcm.mainUi
     }
 }

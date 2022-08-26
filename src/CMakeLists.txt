@@ -1,4 +1,4 @@
-add_executable(welcome main.cpp about.cpp controller.cpp resources.qrc)
+add_executable(welcome main.cpp about.cpp controller.cpp resources.qrc module.cpp)
 target_link_libraries(welcome
     Qt5::Core
     Qt5::Gui
@@ -8,6 +8,8 @@ target_link_libraries(welcome
     Qt5::Svg
     KF5::I18n
     KF5::CoreAddons
-    KF5::ConfigWidgets)
+    KF5::ConfigWidgets
+    KF5::QuickAddons
+)
 kconfig_add_kcfg_files(welcome GENERATE_MOC welcomeconfig.kcfgc)
 install(TARGETS welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

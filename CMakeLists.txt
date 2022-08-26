@@ -24,7 +24,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets I18n)
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets Declarative I18n)
 
 add_subdirectory(src)
 

@@ -16,6 +16,7 @@
 #include <KLocalizedContext>
 #include <KLocalizedString>
 #include "about.h"
+#include "module.h"
 #include "config-welcome.h"
 
 #include "welcomeconfig.h"
@@ -57,6 +58,7 @@ int main(int argc, char *argv[])
 
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "AboutType", new AboutType);
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Controller", new Controller);
+    qmlRegisterType<Module>("org.kde.welcome", 1, 0, "Module");
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
