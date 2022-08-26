@@ -19,7 +19,7 @@ Kirigami.ApplicationWindow {
             QQC2.Button {
                 Layout.alignment: Qt.AlignLeft
                 action: Kirigami.Action {
-                    text: swipeView.currentIndex === 0 ? i18n("Skip") : i18n("Back")
+                    text: swipeView.currentIndex === 0 ? i18nc("@action:button", "Skip") : i18nc("@action:button", "Back")
                     icon.name: swipeView.currentIndex === 0 ? "" : "arrow-left"
                     shortcut: "Left"
                     onTriggered: {
@@ -37,7 +37,7 @@ Kirigami.ApplicationWindow {
             QQC2.Button {
                 Layout.alignment: Qt.AlignRight
                 action: Kirigami.Action {
-                    text: swipeView.currentIndex === swipeView.count - 1 ? i18n("Finish") : i18n("Next")
+                    text: swipeView.currentIndex === swipeView.count - 1 ? i18nc("@action:button", "Finish") : i18nc("@action:button", "Next")
                     icon.name: swipeView.currentIndex === swipeView.count - 1 ? "" : "arrow-right"
                     shortcut: "Right"
                     onTriggered: {

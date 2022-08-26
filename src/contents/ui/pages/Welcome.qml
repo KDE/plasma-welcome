@@ -18,7 +18,7 @@ Kirigami.Page {
         QQC2.Label {
             Layout.fillWidth: true
             horizontalAlignment: Text.AlignHCenter
-            text: i18n("Welcome to KDE Plasma")
+            text: i18nc("@info:placeholder", "Welcome to KDE Plasma")
             font.pixelSize: 25
         }
     }

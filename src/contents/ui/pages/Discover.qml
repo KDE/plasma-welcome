@@ -7,8 +7,8 @@ import QtGraphicalEffects 1.15
 import org.kde.welcome 1.0
 
 GenericPage {
-    heading: i18n("Managing Software")
-    description: i18n("Discover helps you find and install applications, games, and tools. You can search or browse by category, and look at screenshots and read reviews to help you pick the perfect app.")
+    heading: i18nc("@title:window", "Managing Software")
+    description: i18nc("@info:usagetip","Discover helps you find and install applications, games, and tools. You can search or browse by category, and look at screenshots and read reviews to help you pick the perfect app.")
 
     Kirigami.Icon {
         id: image
@@ -29,7 +29,7 @@ GenericPage {
         id: label
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: image.bottom
-        text: i18n("Discover")
+        text: i18nc("@title the name of the app 'Discover'", "Discover")
         wrapMode: Text.WordWrap
         level: 3
     }

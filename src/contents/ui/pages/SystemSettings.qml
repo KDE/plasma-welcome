@@ -7,8 +7,8 @@ import QtGraphicalEffects 1.15
 import org.kde.welcome 1.0
 
 GenericPage {
-    heading: i18n("Tweaking your System")
-    description: i18n("System Settings let's you tweak your system to your liking. From Wi-Fi to Theme options, you can find everything here.")
+    heading: i18nc("@info:window", "Tweaking your System")
+    description: i18nc("@info:usagetip", "System Settings let's you tweak your system to your liking. From Wi-Fi to Theme options, you can find everything here.")
 
     Kirigami.Icon {
         id: image
@@ -28,7 +28,7 @@ GenericPage {
     Kirigami.Heading {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: image.bottom
-        text: i18n("System Settings")
+        text: i18nc("@title the name of the 'System Settings' app", "System Settings")
         wrapMode: Text.WordWrap
         level: 3
     }

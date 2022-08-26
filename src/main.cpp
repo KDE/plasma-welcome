@@ -28,11 +28,11 @@ int main(int argc, char *argv[])
                          // The program version string.
                          QStringLiteral(WELCOME_VERSION_STRING),
                          // Short description of what the app does.
-                         i18n("A welcome app for KDE Plasma"),
+                            i18nc("@info:usagetip", "A welcome app for KDE Plasma"),
                          // The license this code is released under.
                          KAboutLicense::GPL,
                          // Copyright Statement.
-                         i18n("(c) 2021"));
+                         i18nc("@info copyright string", "(c) 2021"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io.com"));
     KAboutData::setApplicationData(aboutData);
 
