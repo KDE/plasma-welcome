@@ -17,11 +17,11 @@ GenericPage {
         height: Kirigami.Units.gridUnit * 10
         source: "systemsettings"
 
-        MouseArea {
-            anchors.fill: parent
-
+        HoverHandler {
             cursorShape: Qt.PointingHandCursor
-            onClicked: Controller.open("systemsettings5")
+        }
+        TapHandler {
+            onTapped: Controller.open("systemsettings")
         }
     }
 

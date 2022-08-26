@@ -17,11 +17,11 @@ GenericPage {
         height: Kirigami.Units.gridUnit * 10
         source: "plasmadiscover"
 
-        MouseArea {
-            anchors.fill: parent
-
+        HoverHandler {
             cursorShape: Qt.PointingHandCursor
-            onClicked: Controller.open("plasma-discover")
+        }
+        TapHandler {
+            onTapped: Controller.open("plasma-discover")
         }
     }
 
@@ -67,12 +67,11 @@ GenericPage {
                     wrapMode: Text.WordWrap
                 }
 
-                MouseArea {
-                    width: applicationItem.width
-                    height: applicationItem.height
-
+                HoverHandler {
                     cursorShape: Qt.PointingHandCursor
-                    onClicked: Qt.openUrlExternally(`appstream://${model.appstream}`)
+                }
+                TapHandler {
+                    onTapped: Qt.openUrlExternally(`appstream://${model.appstream}`)
                 }
             }
         }
