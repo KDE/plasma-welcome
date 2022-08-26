@@ -14,8 +14,7 @@ Kirigami.ApplicationWindow {
     height: Kirigami.Units.gridUnit * 37
 
     header: QQC2.ToolBar {
-        RowLayout {
-            anchors.fill: parent
+        contentItem: RowLayout {
             QQC2.Button {
                 Layout.alignment: Qt.AlignLeft
                 action: Kirigami.Action {
