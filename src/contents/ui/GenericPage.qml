@@ -7,8 +7,8 @@ import QtGraphicalEffects 1.15
 Kirigami.Page {
     id: page
 
-    property string heading: undefined
-    property string description: undefined
+    required property string heading
+    required property string description
     property alias topContent: layout.children
 
     leftPadding: Kirigami.Units.gridUnit * 3
@@ -19,14 +19,14 @@ Kirigami.Page {
         width: parent.width - (Kirigami.Units.gridUnit * 4)
         Kirigami.Heading {
             Layout.fillWidth: true
-            text: heading
+            text: page.heading
             wrapMode: Text.WordWrap
             type: Kirigami.Heading.Primary
         }
 
         QQC2.Label {
             Layout.fillWidth: true
-            text: description
+            text: page.description
             wrapMode: Text.WordWrap
         }
     }
