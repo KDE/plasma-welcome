@@ -40,7 +40,14 @@ int main(int argc, char *argv[])
                          KAboutLicense::GPL,
                          // Copyright Statement.
                          i18nc("@info copyright string", "(c) 2021"));
-    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io.com"));
+    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"),
+                        i18nc("@info:credit", "Author"),
+                        QStringLiteral("kinofhek@gmail.com"),
+                        QStringLiteral("https://fhek.gitlab.io.com"));
+    aboutData.addAuthor(i18nc("@info:credit", "Nate Graham"),
+                        i18nc("@info:credit", "Author"),
+                        QStringLiteral("nate@kde.org"),
+                        QStringLiteral("https://pointieststick.com"));
     KAboutData::setApplicationData(aboutData);
 
     QQmlApplicationEngine engine;
