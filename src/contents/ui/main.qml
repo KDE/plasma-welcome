@@ -26,7 +26,7 @@ Kirigami.ApplicationWindow {
                 Layout.alignment: Qt.AlignLeft
                 action: Kirigami.Action {
                     text: swipeView.currentIndex === 0 ? i18nc("@action:button", "Skip") : i18nc("@action:button", "Back")
-                    icon.name: swipeView.currentIndex === 0 ? "" : "arrow-left"
+                    icon.name: swipeView.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
                     shortcut: "Left"
                     onTriggered: {
                         if (swipeView.currentIndex != 0) {
