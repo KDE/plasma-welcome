@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop">
+  <id>org.kde.welcomecenter.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <name>Welcome Center</name>
+  <summary>Friendly onboarding wizard for Plasma</summary>
+  <description>
+    <p>Discover helps you find and install applications, games, and tools. You can search or browse by category, and look at screenshots and read reviews to help you pick the perfect app.</p>
+  </description>https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center</url>
+  <project_group>KDE</project_group>
+  <provides>
+    <binary>welcome</binary>
+  </provides>
+  <compulsory_for_desktop>KDE</compulsory_for_desktop>
+</component>
