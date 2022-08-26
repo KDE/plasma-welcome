@@ -44,7 +44,7 @@ Kirigami.ApplicationWindow {
                 Layout.alignment: Qt.AlignRight
                 action: Kirigami.Action {
                     text: swipeView.currentIndex === swipeView.count - 1 ? i18nc("@action:button", "Finish") : i18nc("@action:button", "Next")
-                    icon.name: swipeView.currentIndex === swipeView.count - 1 ? "" : "arrow-right"
+                    icon.name: swipeView.currentIndex === swipeView.count - 1 ? "dialog-ok-apply" : "arrow-right"
                     shortcut: "Right"
                     onTriggered: {
                         if (swipeView.currentIndex < swipeView.count - 1) {
