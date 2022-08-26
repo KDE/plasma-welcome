@@ -23,6 +23,16 @@ GenericPage {
         TapHandler {
             onTapped: Controller.open("systemsettings")
         }
+
+        layer.enabled: true
+        layer.effect: DropShadow {
+            transparentBorder: true
+            horizontalOffset: 0
+            verticalOffset: 1
+            radius: 20
+            samples: 20
+            color: Qt.rgba(0, 0, 0, 0.2)
+        }
     }
 
     Kirigami.Heading {
@@ -31,45 +41,5 @@ GenericPage {
         text: i18nc("@title the name of the 'System Settings' app", "System Settings")
         wrapMode: Text.WordWrap
         level: 3
-    }
-
-    DropShadow {
-        anchors.fill: image
-        source: image
-        horizontalOffset: 0
-        verticalOffset: 1
-        radius: 10
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.1)
-    }
-
-    DropShadow {
-        anchors.fill: image
-        source: image
-        horizontalOffset: 0
-        verticalOffset: 4
-        radius: 16
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.12)
-    }
-
-    DropShadow {
-        anchors.fill: image
-        source: image
-        horizontalOffset: 0
-        verticalOffset: 40
-        radius: 60
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.12)
-    }
-
-    DropShadow {
-        anchors.fill: image
-        source: image
-        horizontalOffset: 0
-        verticalOffset: 80
-        radius: 120
-        samples: 20
-        color: Qt.rgba(0, 0, 0, 0.06)
     }
 }
