@@ -8,8 +8,6 @@ import org.kde.welcome 1.0
 Kirigami.ApplicationWindow {
     id: root
 
-    title: i18n("Plasma Welcome")
-
     minimumWidth: Kirigami.Units.gridUnit * 40
     minimumHeight: Kirigami.Units.gridUnit * 35
     width: Kirigami.Units.gridUnit * 42

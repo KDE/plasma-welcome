@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
                          // The program name used internally.
                          QStringLiteral("welcome"),
                          // A displayable program name string.
-                         i18nc("@title", "Plasma Welcome"),
+                         i18nc("@title", "Welcome to KDE Plasma"),
                          // The program version string.
                          QStringLiteral(WELCOME_VERSION_STRING),
                          // Short description of what the app does.
