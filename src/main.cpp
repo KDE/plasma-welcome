@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
                          // The program version string.
                          QStringLiteral(WELCOME_VERSION_STRING),
                          // Short description of what the app does.
-                         i18n("A welcome app to Plasma"),
+                         i18n("A welcome app for KDE Plasma"),
                          // The license this code is released under.
                          KAboutLicense::GPL,
                          // Copyright Statement.
