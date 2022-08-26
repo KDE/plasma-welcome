@@ -66,7 +66,7 @@ Kirigami.ApplicationWindow {
         anchors.fill: parent
 
         Welcome {}
-        Network {}
+        Network {} // TODO: don't show if the system is already connected to the internet
         Discover {}
         SystemSettings {}
         Contribute {}
