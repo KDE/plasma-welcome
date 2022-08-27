@@ -22,52 +22,73 @@ Kirigami.ApplicationWindow {
     width: Kirigami.Units.gridUnit * 40
     height: Kirigami.Units.gridUnit * 35
 
-    header: QQC2.ToolBar {
-        contentItem: RowLayout {
-            QQC2.Button {
-                Layout.alignment: Qt.AlignLeft
-                action: Kirigami.Action {
-                    text: pageStack.currentIndex === 0 ? i18nc("@action:button", "Skip") : i18nc("@action:button", "Back")
-                    icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
-                    shortcut: "Left"
-                    onTriggered: {
-                        if (pageStack.layers.depth > 1) {
-                            pageStack.layers.pop()
-                        } else if (pageStack.currentIndex != 0) {
-                            pageStack.currentIndex -= 1
-                        } else {
-                            Config.skip = true;
-                            Config.save();
-                            Controller.removeFromAutostart();
-                            Qt.quit();
+    // We're using a slightly complicated custom implementation of
+    // Kirigami.AbstractApplicationHeader here because QQC2.ToolBar isn't draggable
+    // to move the window (Bug 452180), and using the built-in pageStack's header
+    // doesn't give us adequate control over the presentation; we very specifically
+    // want raised buttons, arbitrary content in the center, page text inline, etc.
+    header: Kirigami.AbstractApplicationHeader {
+        id: header
+        width: page.width
+        height: headerLayout.implicitHeight + (headerLayout.anchors.margins * 2)
+        contentItem: Item {
+            width: header.width
+            height: header.height
+            RowLayout {
+                id: headerLayout
+
+                anchors.fill: parent
+                anchors.margins: Kirigami.Units.smallSpacing
+
+                QQC2.Button {
+                    Layout.alignment: Qt.AlignLeft
+                    action: Kirigami.Action {
+                        text: pageStack.currentIndex === 0 ? i18nc("@action:button", "Skip") : i18nc("@action:button", "Back")
+                        icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
+                        shortcut: "Left"
+                        onTriggered: {
+                            if (pageStack.layers.depth > 1) {
+                                pageStack.layers.pop()
+                            } else if (pageStack.currentIndex != 0) {
+                                pageStack.currentIndex -= 1
+                            } else {
+                                Config.skip = true;
+                                Config.save();
+                                Controller.removeFromAutostart();
+                                Qt.quit();
+                            }
+                        }
+                    }
+                }
+
+                QQC2.Label {
+                    Layout.alignment: Qt.AlignHCenter
+                    text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, initialPages.length + 1)
+                }
+
+                QQC2.Button {
+                    visible: pageStack.layers.depth === 1
+                    Layout.alignment: Qt.AlignRight
+                    action: Kirigami.Action {
+                        text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "Finish") : i18nc("@action:button", "Next")
+                        icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
+                        shortcut: "Right"
+                        onTriggered: {
+                            if (pageStack.currentIndex < pageStack.depth - 1) {
+                                pageStack.currentIndex += 1
+                            } else {
+                                Config.done = true;
+                                Config.save();
+                                Controller.removeFromAutostart();
+                                Qt.quit()
+                            }
                         }
                     }
                 }
             }
-
-            QQC2.Label {
-                Layout.alignment: Qt.AlignHCenter
-                text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, initialPages.length + 1)
-            }
-
-            QQC2.Button {
-                visible: pageStack.layers.depth === 1
-                Layout.alignment: Qt.AlignRight
-                action: Kirigami.Action {
-                    text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "Finish") : i18nc("@action:button", "Next")
-                    icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
-                    shortcut: "Right"
-                    onTriggered: {
-                        if (pageStack.currentIndex < pageStack.depth - 1) {
-                            pageStack.currentIndex += 1
-                        } else {
-                            Config.done = true;
-                            Config.save();
-                            Controller.removeFromAutostart();
-                            Qt.quit()
-                        }
-                    }
-                }
+            Kirigami.Separator {
+                anchors.bottom: parent.bottom
+                width: parent.width
             }
         }
     }
