@@ -77,6 +77,9 @@ Kirigami.ApplicationWindow {
     KCM {
         id: kcm_feedback
 
+        heading: i18nc("@title: window", "Sharing Usage Information with KDE")
+        description: i18nc("@info:usagetip", "In system Settings, you can choose to share anonymous usage information with KDE. You can make that choice here, too.")
+
         Module {
             id: moduleFeedback
             path: "kcm_feedback"
