@@ -78,4 +78,9 @@ GenericPage
             }
         }
     ]
+    Kirigami.Separator {
+        visible: container.heading.length > 0 && container.description.length > 0
+        width: parent.width
+        anchors.bottom: parent.top
+    }
 }
