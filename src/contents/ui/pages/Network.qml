@@ -11,7 +11,6 @@ import org.kde.kirigami 2.15 as Kirigami
 
 GenericPage {
     heading: i18nc("@info:window", "Accessing the Internet")
-    // TODO: handle the case where there's already a wired connection
     description: xi18nc("@info:usagetip", "You can connect to the internet and manage your network connections with the <interface>Networks applet</interface>. To access it, click on the <interface>Networks</interface> icon in your <interface>System Tray</interface>, which lives in the bottom-right corner of the screen.")
 
     Kirigami.ShadowedRectangle {
