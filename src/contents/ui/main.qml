@@ -86,8 +86,8 @@ Kirigami.ApplicationWindow {
     KCM {
         id: kcm_kaccounts
 
-        heading: i18n("Online Accounts")
-        description: i18n("Configure your internet services")
+        heading: i18nc("@title: window", "Connecting your Online Accounts")
+        description: i18nc("@info:usagetip", "In system Settings, you can connect to your online accounts and access their content in KDE apps. You can set it up right now, too.")
 
         Module {
             id: moduleAccounts
