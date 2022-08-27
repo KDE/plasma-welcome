@@ -95,7 +95,7 @@ Kirigami.ApplicationWindow {
         id: kcm_feedback
 
         heading: i18nc("@title: window", "Sharing Usage Information with KDE")
-        description: i18nc("@info:usagetip", "In system Settings, you can choose to share anonymous usage information with KDE. You can make that choice here, too.")
+        description: i18nc("@info:usagetip", "In System Settings, you can choose to share anonymous usage information with KDE. You can make that choice here, too.")
 
         Module {
             id: moduleFeedback
@@ -108,7 +108,7 @@ Kirigami.ApplicationWindow {
         id: kcm_kaccounts
 
         heading: i18nc("@title: window", "Connecting your Online Accounts")
-        description: i18nc("@info:usagetip", "In system Settings, you can connect to your online accounts and access their content in KDE apps. You can set it up right now, too.")
+        description: i18nc("@info:usagetip", "In System Settings, you can connect to your online accounts and access their content in KDE apps. You can set it up right now, too.")
         showSeparator: true
 
         Module {
