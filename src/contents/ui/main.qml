@@ -76,6 +76,7 @@ Kirigami.ApplicationWindow {
     Contribute {id: contribute}
     KCM {
         id: kcm_feedback
+
         Module {
             id: moduleFeedback
             path: "kcm_feedback"
@@ -88,6 +89,7 @@ Kirigami.ApplicationWindow {
 
         heading: i18nc("@title: window", "Connecting your Online Accounts")
         description: i18nc("@info:usagetip", "In system Settings, you can connect to your online accounts and access their content in KDE apps. You can set it up right now, too.")
+        showSeparator: true
 
         Module {
             id: moduleAccounts

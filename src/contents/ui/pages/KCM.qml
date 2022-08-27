@@ -16,6 +16,7 @@ GenericPage
     id: container
     property QtObject kcm
     property Item internalPage
+    property bool showSeparator: false
 
     title: internalPage.title
 
@@ -79,7 +80,7 @@ GenericPage
         }
     ]
     Kirigami.Separator {
-        visible: container.heading.length > 0 && container.description.length > 0
+        visible: container.showSeparator
         width: parent.width
         anchors.bottom: parent.top
     }
