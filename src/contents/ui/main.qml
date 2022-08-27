@@ -41,7 +41,6 @@ Kirigami.ApplicationWindow {
                 anchors.margins: Kirigami.Units.smallSpacing
 
                 QQC2.Button {
-                    Layout.alignment: Qt.AlignLeft
                     action: Kirigami.Action {
                         text: pageStack.currentIndex === 0 ? i18nc("@action:button", "Skip") : i18nc("@action:button", "Back")
                         icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
@@ -62,13 +61,14 @@ Kirigami.ApplicationWindow {
                 }
 
                 QQC2.Label {
-                    Layout.alignment: Qt.AlignHCenter
+                    Layout.fillWidth: true
                     text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, initialPages.length + 1)
+                    horizontalAlignment: Text.AlignHCenter
+                    elide: Text.ElideRight // Should never elide, but set it anyway
                 }
 
                 QQC2.Button {
                     visible: pageStack.layers.depth === 1
-                    Layout.alignment: Qt.AlignRight
                     action: Kirigami.Action {
                         text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "Finish") : i18nc("@action:button", "Next")
                         icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
