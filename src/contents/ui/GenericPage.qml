@@ -17,21 +17,19 @@ Kirigami.Page {
     property string heading: ""
     property string description: ""
     property alias topContent: layout.children
-    leftPadding: Kirigami.Units.gridUnit * 2
-    rightPadding: Kirigami.Units.gridUnit * 2
+    property int margins: Kirigami.Units.gridUnit * 2
+    leftPadding: margins
+    rightPadding: margins
 
     header: Item {
-        id: headerContainer
 
-        property int headerMargins: Kirigami.Units.gridUnit * 2
-
-        visible: page.description.length > 0 && page.heading.length > 0
-        height: visible ? layout.implicitHeight + headerMargins * 2 : 0
+        visible: page.description.length > 0 || page.heading.length > 0
+        height: visible ? layout.implicitHeight + page.margins * 2 : 0
 
         ColumnLayout {
             id: layout
 
-            width: parent.width - (headerContainer.headerMargins * 2)
+            width: parent.width - (page.margins * 2)
             anchors.centerIn: parent
 
             Kirigami.Heading {
