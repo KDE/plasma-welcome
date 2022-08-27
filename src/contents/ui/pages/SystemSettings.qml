@@ -13,7 +13,7 @@ import QtGraphicalEffects 1.15
 
 GenericPage {
     heading: i18nc("@info:window", "Tweaking your System")
-    description: i18nc("@info:usagetip", "System Settings lets you adjust your system to your liking. From Wi-Fi to theme options, you can find everything here.")
+    description: i18nc("@info:usagetip", "System Settings lets you adjust the behaviors and appearance of the whole system. From theme options to device management, you can find it all here.")
 
     Kirigami.Icon {
         id: image
