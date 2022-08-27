@@ -60,7 +60,7 @@ GenericPage {
 
         Repeater {
             model: ListModel {
-                ListElement { name: "Krita"; appstream: "org.kde.krita"; icon: "org.kde.krita" }
+                ListElement { name: "Krita"; appstream: "org.kde.krita"; icon: "krita.png" }
                 ListElement { name: "Blender"; appstream: "org.blender.Blender"; icon: "blender" }
                 ListElement { name: "Inkscape"; appstream: "org.inkscape.Inkscape"; icon: "inkscape" }
                 ListElement { name: "VLC"; appstream: "org.videolan.VLC"; icon: "vlc" }
@@ -72,10 +72,20 @@ GenericPage {
 
                 readonly property int itemSize: Kirigami.Units.iconSizes.huge
 
-                Kirigami.Icon {
+                Loader {
                     Layout.preferredWidth: applicationItem.itemSize
                     Layout.preferredHeight: applicationItem.itemSize
-                    source: model.icon
+
+                    sourceComponent : model.icon.endsWith(".png") ? imageComponent : iconComponent
+
+                    Component {
+                        id: iconComponent
+                        Kirigami.Icon { source: model.icon }
+                    }
+                    Component {
+                        id: imageComponent
+                        Image { source: model.icon }
+                    }
                 }
 
                 QQC2.Label {
