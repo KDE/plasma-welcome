@@ -15,6 +15,8 @@ import org.kde.welcome 1.0
 Kirigami.ApplicationWindow {
     id: root
 
+    readonly property var initialPages: [welcome, network, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute];
+
     minimumWidth: Kirigami.Units.gridUnit * 40
     minimumHeight: Kirigami.Units.gridUnit * 35
     width: Kirigami.Units.gridUnit * 42
@@ -42,6 +44,12 @@ Kirigami.ApplicationWindow {
                     }
                 }
             }
+
+            QQC2.Label {
+                Layout.alignment: Qt.AlignHCenter
+                text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, initialPages.length + 1)
+            }
+
             QQC2.Button {
                 visible: pageStack.layers.depth === 1
                 Layout.alignment: Qt.AlignRight
@@ -66,7 +74,7 @@ Kirigami.ApplicationWindow {
 
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.None
     pageStack.defaultColumnWidth: width
-    pageStack.initialPage: [welcome, network, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute]
+    pageStack.initialPage: initialPages
     Component.onCompleted: pageStack.currentIndex = 0 //TODO: push new pages onlly as needed
 
     Welcome {id: welcome}
