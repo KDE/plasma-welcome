@@ -15,7 +15,7 @@ import org.kde.welcome 1.0
 Kirigami.ApplicationWindow {
     id: root
 
-    readonly property var initialPages: [welcome, network, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute];
+    property var initialPages: [welcome, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute];
 
     minimumWidth: Kirigami.Units.gridUnit * 40
     minimumHeight: Kirigami.Units.gridUnit * 35
@@ -74,11 +74,20 @@ Kirigami.ApplicationWindow {
 
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.None
     pageStack.defaultColumnWidth: width
-    pageStack.initialPage: initialPages
-    Component.onCompleted: pageStack.currentIndex = 0 //TODO: push new pages onlly as needed
+
+    // TODO: push new pages only as needed
+    Component.onCompleted: {
+        if (!Controller.networkAlreadyConnected()) {
+            network.visible = true;
+            initialPages = [welcome, network, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute];
+        }
+
+        pageStack.initialPage = initialPages;
+        pageStack.currentIndex = 0;
+    }
 
     Welcome {id: welcome}
-    Network {id: network}
+    Network {id: network; visible: false}
     Discover {id: discover}
     SystemSettings {id:systemsettings}
     Contribute {id: contribute}

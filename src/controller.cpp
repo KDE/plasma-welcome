@@ -13,6 +13,7 @@
 #include "controller.h"
 
 #include <KIO/ApplicationLauncherJob>
+#include <NetworkManagerQt/Manager>
 #include <KNotificationJobUiDelegate>
 #include <KService>
 
@@ -35,4 +36,9 @@ void Controller::removeFromAutostart()
         QFile file = fullPath;
         file.remove();
     }
+}
+
+bool Controller::networkAlreadyConnected()
+{
+    return NetworkManager::connectivity() == NetworkManager::Connectivity::Full;
 }

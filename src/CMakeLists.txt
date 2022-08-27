@@ -11,6 +11,7 @@ target_link_libraries(welcome
     KF5::ConfigWidgets
     KF5::DBusAddons
     KF5::KIOGui
+    KF5::NetworkManagerQt
     KF5::Notifications
     KF5::QuickAddons
     KF5::Service

@@ -13,4 +13,5 @@ class Controller : public QObject
 public:
     Q_INVOKABLE static void open(const QString& program);
     Q_INVOKABLE static void removeFromAutostart();
+    Q_INVOKABLE bool networkAlreadyConnected();
 };
