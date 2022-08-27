@@ -11,7 +11,7 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 import QtGraphicalEffects 1.15
 
-Kirigami.Page
+GenericPage
 {
     id: container
     property QtObject kcm

@@ -86,21 +86,8 @@ Kirigami.ApplicationWindow {
     KCM {
         id: kcm_kaccounts
 
-        header: ColumnLayout {
-            Kirigami.Heading {
-                Layout.topMargin: Kirigami.Units.gridUnit
-                Layout.leftMargin: Kirigami.Units.gridUnit * 2
-                Layout.rightMargin: Kirigami.Units.gridUnit * 2
-                text: i18n("Online Accounts")
-                type: Kirigami.Heading.Primary
-            }
-            QQC2.Label {
-                Layout.leftMargin: Kirigami.Units.gridUnit * 2
-                Layout.rightMargin: Kirigami.Units.gridUnit * 2
-                Layout.bottomMargin: Kirigami.Units.gridUnit * 2
-                text:i18n("Configure your internet services")
-            }
-        }
+        heading: i18n("Online Accounts")
+        description: i18n("Configure your internet services")
 
         Module {
             id: moduleAccounts
