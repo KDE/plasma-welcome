@@ -13,30 +13,15 @@ import org.kde.kirigami 2.15 as Kirigami
 import org.kde.welcome 1.0
 
 GenericPage {
-    id: root
+    heading: i18nc("@title", "Welcome to KDE Plasma!")
+    description: i18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed if you need to really get things done. Welcome to the KDE Community!")
 
-    ColumnLayout {
+    Image {
         anchors.centerIn: parent
-        spacing: Kirigami.Units.largeSpacing
-
-        Image {
-            Layout.fillWidth: true
-            Layout.preferredHeight: Kirigami.Units.gridUnit * 16
-            source: "konqi-kde-hi.png"
-            fillMode: Image.PreserveAspectFit
-        }
-        Kirigami.Heading {
-            Layout.fillWidth: true
-            level: 1
-            horizontalAlignment: Text.AlignHCenter
-            text: i18nc("@title", "Welcome to KDE Plasma!")
-        }
-        QQC2.Label {
-            Layout.fillWidth: true
-            Layout.maximumWidth: Math.round(root.width/1.5)
-            text: i18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed if you need to really get things done. Welcome to the KDE Community!")
-            horizontalAlignment: Text.AlignHCenter
-            wrapMode: Text.WordWrap
-        }
+        anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 4
+        width: Kirigami.Units.gridUnit * 16
+        height: Kirigami.Units.gridUnit * 16
+        source: "konqi-kde-hi.png"
+        fillMode: Image.PreserveAspectFit
     }
 }
