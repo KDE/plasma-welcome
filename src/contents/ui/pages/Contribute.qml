@@ -25,7 +25,6 @@ GenericPage {
     ]
 
     Image {
-        id: image
         anchors.centerIn: parent
         anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 2
         height: Kirigami.Units.gridUnit * 16
