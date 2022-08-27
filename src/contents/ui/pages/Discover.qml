@@ -15,7 +15,7 @@ import org.kde.welcome 1.0
 
 GenericPage {
     heading: i18nc("@title:window", "Managing Software")
-    description: i18nc("@info:usagetip","Discover helps you find and install applications, games, and tools. You can search or browse by category, and look at screenshots and read reviews to help you pick the perfect app.")
+    description: i18nc("@info:usagetip","Discover helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you pick the perfect app.")
 
     Kirigami.Icon {
         id: image
