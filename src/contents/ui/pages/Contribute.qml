@@ -12,14 +12,14 @@ import org.kde.kirigami 2.15 as Kirigami
 import QtGraphicalEffects 1.15
 
 GenericPage {
-    heading: i18nc("@title:window", "Get Involved")
+    heading: i18nc("@title:window", "Getting Involved")
     description: xi18nc("@info:usagetip", "KDE's software is made by people like you--mostly volunteers. That means you can help make it better! There are many ways to contribute on topics as diverse as bug triaging, programming, translation, visual design, and promotion.<nl/><nl/>By contributing to KDE, you will become part of something special, meet new friends, learn new skills, and make a difference to millions while working with people from around the globe to deliver a stunning Free Software computing experience.")
 
     topContent: [
         QQC2.Button {
             Layout.topMargin: Kirigami.Units.largeSpacing
             icon.name: "love"
-            text: i18nc("@action:button", "Starting Contributing")
+            text: i18nc("@action:button", "Start Contributing")
             onClicked: Qt.openUrlExternally("https://community.kde.org/Get_Involved")
         }
     ]
