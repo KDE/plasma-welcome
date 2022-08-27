@@ -15,7 +15,7 @@ import org.kde.welcome 1.0
 
 GenericPage {
     heading: i18nc("@info:window", "Tweaking your System")
-    description: i18nc("@info:usagetip", "System Settings lets you tweak your system to your liking. From Wi-Fi to Theme options, you can find everything here.")
+    description: i18nc("@info:usagetip", "System Settings lets you adjust your system to your liking. From Wi-Fi to theme options, you can find everything here.")
 
     Kirigami.Icon {
         id: image
