@@ -13,7 +13,7 @@ import QtGraphicalEffects 1.15
 
 GenericPage {
     heading: i18nc("@title:window", "Get Involved")
-    description: i18nc("@info:usagetip", "Welcome to the KDE Community! By joining our team, you will be part of an international effort by thousands of people working to deliver a stunning Free Software computing experience. You will meet new friends, learn new skills and make a difference to millions of users while working with people from all around the globe. This page will give you a brief introduction to things everyone in KDE should know, and help you get started with contributing.")
+    description: xi18nc("@info:usagetip", "KDE's software is made by people like you--mostly volunteers. That means you can help make it better! There are many ways to contribute on topics as diverse as bug triaging, programming, translation, visual design, and promotion.<nl/><nl/>By contributing to KDE, you will become part of something special, meet new friends, learn new skills, and make a difference to millions while working with people from around the globe to deliver a stunning Free Software computing experience.")
 
     topContent: [
         QQC2.Button {

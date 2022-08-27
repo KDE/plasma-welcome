@@ -34,7 +34,7 @@ Kirigami.Page {
         QQC2.Label {
             Layout.fillWidth: true
             Layout.maximumWidth: Math.round(root.width/1.5)
-            text: i18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed if you need to really get things done.")
+            text: i18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed if you need to really get things done. Welcome to the KDE Community!")
             horizontalAlignment: Text.AlignHCenter
             wrapMode: Text.WordWrap
         }
