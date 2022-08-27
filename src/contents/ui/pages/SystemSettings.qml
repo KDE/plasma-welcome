@@ -11,8 +11,6 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 import QtGraphicalEffects 1.15
 
-import org.kde.welcome 1.0
-
 GenericPage {
     heading: i18nc("@info:window", "Tweaking your System")
     description: i18nc("@info:usagetip", "System Settings lets you adjust your system to your liking. From Wi-Fi to theme options, you can find everything here.")

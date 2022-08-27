@@ -10,8 +10,6 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
-import org.kde.welcome 1.0
-
 GenericPage {
     heading: i18nc("@title", "Welcome to KDE Plasma!")
     description: i18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed if you need to really get things done. Welcome to the KDE Community!")
