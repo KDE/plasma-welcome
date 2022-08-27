@@ -29,7 +29,7 @@ GenericPage {
             cursorShape: Qt.PointingHandCursor
         }
         TapHandler {
-            onTapped: Controller.open("plasma-discover")
+            onTapped: Controller.open("org.kde.discover");
         }
 
         layer.enabled: true

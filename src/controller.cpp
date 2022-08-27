@@ -12,11 +12,17 @@
 
 #include "controller.h"
 
+#include <KIO/ApplicationLauncherJob>
+#include <KNotificationJobUiDelegate>
+#include <KService>
+
 #include "welcomeconfig.h"
 
 void Controller::open(const QString& program)
 {
-    QProcess::startDetached(program, {});
+    auto *job = new KIO::ApplicationLauncherJob(KService::serviceByDesktopName(program));
+    job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
+    job->start();
 }
 
 void Controller::removeFromAutostart()

@@ -29,7 +29,7 @@ GenericPage {
             cursorShape: Qt.PointingHandCursor
         }
         TapHandler {
-            onTapped: Controller.open("systemsettings")
+            onTapped: Controller.open("systemsettings"); // Desktop file isn't namespaced, boo!
         }
 
         layer.enabled: true

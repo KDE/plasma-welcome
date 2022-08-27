@@ -9,9 +9,12 @@ target_link_libraries(welcome
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigWidgets
-    KF5::QuickAddons
-    KF5::WindowSystem
     KF5::DBusAddons
+    KF5::KIOGui
+    KF5::Notifications
+    KF5::QuickAddons
+    KF5::Service
+    KF5::WindowSystem
 )
 kconfig_add_kcfg_files(welcome GENERATE_MOC welcomeconfig.kcfgc)
 install(TARGETS welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
