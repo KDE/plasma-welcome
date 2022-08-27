@@ -19,8 +19,8 @@ Kirigami.ApplicationWindow {
 
     minimumWidth: Kirigami.Units.gridUnit * 40
     minimumHeight: Kirigami.Units.gridUnit * 35
-    width: Kirigami.Units.gridUnit * 42
-    height: Kirigami.Units.gridUnit * 37
+    width: Kirigami.Units.gridUnit * 40
+    height: Kirigami.Units.gridUnit * 35
 
     header: QQC2.ToolBar {
         contentItem: RowLayout {
