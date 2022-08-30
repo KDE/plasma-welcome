@@ -62,9 +62,9 @@ GenericPage {
             model: ListModel {
                 ListElement { name: "Krita"; appstream: "org.kde.krita"; icon: "krita.png" }
                 ListElement { name: "Blender"; appstream: "org.blender.Blender"; icon: "blender" }
-                ListElement { name: "Inkscape"; appstream: "org.inkscape.Inkscape"; icon: "inkscape" }
                 ListElement { name: "VLC"; appstream: "org.videolan.VLC"; icon: "vlc" }
                 ListElement { name: "Gimp"; appstream: "org.gimp.GIMP"; icon: "gimp" }
+                ListElement { name: "KStars"; appstream: "org.kde.kstars.desktop"; icon: "kstars" }
             }
             delegate: ColumnLayout {
                 id: applicationItem
