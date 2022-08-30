@@ -66,6 +66,7 @@ GenericPage {
                 ListElement { name: "VLC"; appstream: "org.videolan.VLC"; icon: "vlc" }
                 ListElement { name: "GIMP"; appstream: "org.gimp.GIMP"; icon: "gimp" }
                 ListElement { name: "KStars"; appstream: "org.kde.kstars.desktop"; icon: "kstars" }
+                ListElement { name: "Endless Sky"; appstream: "io.github.endless_sky.endless_sky"; icon: "endlesssky.png" }
             }
             delegate: ColumnLayout {
                 id: applicationItem
