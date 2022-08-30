@@ -54,12 +54,13 @@ GenericPage {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: label.bottom
         anchors.topMargin: Kirigami.Units.gridUnit * 2
-        columns: 5
+        columns: appsModel.count
         columnSpacing: Kirigami.Units.largeSpacing * 4
         rowSpacing: Kirigami.Units.largeSpacing * 4
 
         Repeater {
             model: ListModel {
+                id: appsModel
                 ListElement { name: "Krita"; appstream: "org.kde.krita"; icon: "krita.png" }
                 ListElement { name: "Blender"; appstream: "org.blender.Blender"; icon: "blender" }
                 ListElement { name: "VLC"; appstream: "org.videolan.VLC"; icon: "vlc" }
