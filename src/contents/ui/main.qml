@@ -42,7 +42,7 @@ Kirigami.ApplicationWindow {
 
                 QQC2.Button {
                     action: Kirigami.Action {
-                        text: pageStack.currentIndex === 0 ? i18nc("@action:button", "Skip") : i18nc("@action:button", "Back")
+                        text: pageStack.currentIndex === 0 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
                         icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
                         shortcut: "Left"
                         onTriggered: {
@@ -70,7 +70,7 @@ Kirigami.ApplicationWindow {
                 QQC2.Button {
                     visible: pageStack.layers.depth === 1
                     action: Kirigami.Action {
-                        text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "Finish") : i18nc("@action:button", "Next")
+                        text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
                         icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
                         shortcut: "Right"
                         onTriggered: {

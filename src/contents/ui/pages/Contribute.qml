@@ -18,7 +18,7 @@ GenericPage {
         QQC2.Button {
             Layout.topMargin: Kirigami.Units.largeSpacing
             icon.name: "love"
-            text: i18nc("@action:button", "Start Contributing")
+            text: i18nc("@action:button", "&Start Contributing")
             onClicked: Qt.openUrlExternally("https://community.kde.org/Get_Involved")
         }
     ]
