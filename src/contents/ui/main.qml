@@ -15,7 +15,7 @@ import org.kde.welcome 1.0
 Kirigami.ApplicationWindow {
     id: root
 
-    property var initialPages: [welcome, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute];
+    property var initialPages: [welcome, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute, donate];
 
     minimumWidth: Kirigami.Units.gridUnit * 40
     minimumHeight: Kirigami.Units.gridUnit * 35
@@ -112,6 +112,8 @@ Kirigami.ApplicationWindow {
     Discover {id: discover}
     SystemSettings {id:systemsettings}
     Contribute {id: contribute}
+    Donate {id: donate}
+
     KCM {
         id: kcm_feedback
 
