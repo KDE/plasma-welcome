@@ -100,7 +100,7 @@ Kirigami.ApplicationWindow {
     Component.onCompleted: {
         if (!Controller.networkAlreadyConnected()) {
             network.visible = true;
-            initialPages = [welcome, network, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute];
+            initialPages = [welcome, network, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute, donate];
         }
 
         pageStack.initialPage = initialPages;
