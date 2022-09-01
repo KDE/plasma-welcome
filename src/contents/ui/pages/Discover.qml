@@ -24,10 +24,16 @@ GenericPage {
         source: "plasmadiscover"
 
         HoverHandler {
+            id: hoverhandler
             cursorShape: Qt.PointingHandCursor
         }
         TapHandler {
             onTapped: Controller.open("org.kde.discover");
+        }
+
+        QQC2.ToolTip {
+            visible: hoverhandler.hovered
+            text: i18nc("@action:button", "Launch Discover now")
         }
 
         layer.enabled: true
@@ -101,10 +107,16 @@ GenericPage {
                 }
 
                 HoverHandler {
+                    id: hoverhandler
                     cursorShape: Qt.PointingHandCursor
                 }
                 TapHandler {
                     onTapped: Qt.openUrlExternally(`appstream://${model.appstream}`)
+                }
+
+                QQC2.ToolTip {
+                    visible: hoverhandler.hovered
+                    text: i18nc("@action:button %1 is the name of an app", "Show %1 in Discover", model.name)
                 }
             }
         }

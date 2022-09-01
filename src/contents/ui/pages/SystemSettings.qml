@@ -24,10 +24,16 @@ GenericPage {
         source: "systemsettings"
 
         HoverHandler {
+            id: hoverhandler
             cursorShape: Qt.PointingHandCursor
         }
         TapHandler {
             onTapped: Controller.open("systemsettings"); // Desktop file isn't namespaced, boo!
+        }
+
+        QQC2.ToolTip {
+            visible: hoverhandler.hovered
+            text: i18nc("@action:button", "Launch System Settings now")
         }
 
         layer.enabled: true
