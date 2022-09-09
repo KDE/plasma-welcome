@@ -1,5 +1,5 @@
-add_executable(welcome main.cpp about.cpp controller.cpp resources.qrc module.cpp)
-target_link_libraries(welcome
+add_executable(plasma-welcome main.cpp about.cpp controller.cpp resources.qrc module.cpp)
+target_link_libraries(plasma-welcome
     Qt5::Core
     Qt5::Gui
     Qt5::Qml
@@ -17,5 +17,5 @@ target_link_libraries(welcome
     KF5::Service
     KF5::WindowSystem
 )
-kconfig_add_kcfg_files(welcome GENERATE_MOC welcomeconfig.kcfgc)
-install(TARGETS welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC welcomeconfig.kcfgc)
+install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

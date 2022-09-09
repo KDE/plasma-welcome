@@ -29,11 +29,11 @@ int main(int argc, char *argv[])
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
-    QCoreApplication::setApplicationName(QStringLiteral("welcomecenter"));
+    QCoreApplication::setApplicationName(QStringLiteral("plasma-welcome"));
 
     KAboutData aboutData(
                          // The program name used internally.
-                         QStringLiteral("welcomecenter"),
+                         QStringLiteral("plasma-welcome"),
                          // A displayable program name string.
                          i18nc("@title", "Welcome to KDE Plasma"),
                          // The program version string.
