@@ -21,5 +21,11 @@ GenericPage {
         height: Kirigami.Units.gridUnit * 16
         source: "konqi-kde-hi.png"
         fillMode: Image.PreserveAspectFit
+
+        QQC2.Label {
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: parent.bottom
+            text: i18nc("@info", "Konqi, the KDE mascot")
+        }
     }
 }
