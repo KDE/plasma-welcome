@@ -68,7 +68,7 @@ Kirigami.ApplicationWindow {
                 }
 
                 QQC2.Button {
-                    visible: pageStack.layers.depth === 1
+                    enabled: pageStack.layers.depth === 1
                     action: Kirigami.Action {
                         text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
                         icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
