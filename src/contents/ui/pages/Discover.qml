@@ -11,6 +11,8 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 import QtGraphicalEffects 1.15
 
+import org.kde.welcome 1.0
+
 GenericPage {
     heading: i18nc("@title:window", "Managing Software")
     description: i18nc("@info:usagetip","Discover helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app.")
