@@ -96,7 +96,8 @@ Kirigami.ApplicationWindow {
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.None
     pageStack.defaultColumnWidth: width
 
-    // TODO: push new pages only as needed
+    // FIXME: push new pages only as needed
+    // See https://bugs.kde.org/show_bug.cgi?id=459177
     Component.onCompleted: {
         if (!Controller.networkAlreadyConnected()) {
             network.visible = true;

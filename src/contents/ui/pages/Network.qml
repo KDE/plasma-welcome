@@ -176,7 +176,9 @@ GenericPage {
                 // FIXME: assuming this page's index is 1 is a dirty hack that
                 // will break if we re-arrange the pages, but for now it's
                 // to prevent the animation from constantly playing and wasting
-                // CPU resources
+                // CPU resources.
+                // Once https://bugs.kde.org/show_bug.cgi?id=459177 is fixed, we
+                // can remove this hack.
                 SequentialAnimation on y {
                     running: root.visible && pageStack.currentIndex == 1
                     loops: Animation.Infinite
