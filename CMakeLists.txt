@@ -20,11 +20,10 @@ include(ECMPoQmTools)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX WELCOME
-    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/config-welcome.h"
 )
 
 find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons Declarative I18n KIO NetworkManagerQt Notifications Plasma Service WindowSystem)
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons DBusAddons Declarative I18n KIO NetworkManagerQt Notifications Plasma Service WindowSystem)
 
 add_subdirectory(src)
 

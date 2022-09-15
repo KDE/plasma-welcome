@@ -22,9 +22,6 @@
 #include <KWindowSystem>
 #include "about.h"
 #include "module.h"
-#include "config-welcome.h"
-
-#include "welcomeconfig.h"
 
 int main(int argc, char *argv[])
 {
@@ -40,7 +37,7 @@ int main(int argc, char *argv[])
                          // A displayable program name string.
                          i18nc("@title", "Welcome to KDE Plasma"),
                          // The program version string.
-                         QStringLiteral(WELCOME_VERSION_STRING),
+                         QStringLiteral("1.0"),
                          // Short description of what the app does.
                             description,
                          // The license this code is released under.
@@ -58,9 +55,6 @@ int main(int argc, char *argv[])
     KAboutData::setApplicationData(aboutData);
 
     QQmlApplicationEngine engine;
-
-    auto config = WelcomeConfig::self();
-    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Config", config);
 
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "AboutType", new AboutType);
     Controller controller;

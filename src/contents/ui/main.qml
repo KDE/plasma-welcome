@@ -57,9 +57,6 @@ Kirigami.ApplicationWindow {
                                 } else if (pageStack.currentIndex != 0) {
                                     pageStack.currentIndex -= 1
                                 } else {
-                                    Config.skip = true;
-                                    Config.save();
-                                    Controller.removeFromAutostart();
                                     Qt.quit();
                                 }
                             }
@@ -83,9 +80,6 @@ Kirigami.ApplicationWindow {
                                 if (pageStack.currentIndex < pageStack.depth - 1) {
                                     pageStack.currentIndex += 1
                                 } else {
-                                    Config.done = true;
-                                    Config.save();
-                                    Controller.removeFromAutostart();
                                     Qt.quit()
                                 }
                             }

@@ -17,25 +17,11 @@
 #include <KNotificationJobUiDelegate>
 #include <KService>
 
-#include "welcomeconfig.h"
-
 void Controller::open(const QString& program)
 {
     auto *job = new KIO::ApplicationLauncherJob(KService::serviceByDesktopName(program));
     job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
     job->start();
-}
-
-void Controller::removeFromAutostart()
-{
-    if (WelcomeConfig::self()->skip() == true) {
-        QString configPath = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
-        QString autoStart = QString::fromUtf8("/autostart/");
-        QString fileName = QString::fromUtf8("welcome.desktop");
-        QString fullPath = configPath + autoStart + fileName;
-        QFile file = fullPath;
-        file.remove();
-    }
 }
 
 bool Controller::networkAlreadyConnected()
