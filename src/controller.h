@@ -14,4 +14,13 @@ public:
     Q_INVOKABLE static void open(const QString& program);
     Q_INVOKABLE static void removeFromAutostart();
     Q_INVOKABLE bool networkAlreadyConnected();
+    Q_PROPERTY(QString newPlasmaVersion MEMBER m_newPlasmaVersion NOTIFY newPlasmaVersionChanged)
+
+    void setPlasmaUpgradeVersion(const QString& version);
+
+Q_SIGNALS:
+    void newPlasmaVersionChanged();
+
+private:
+    QString m_newPlasmaVersion;
 };

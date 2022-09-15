@@ -6,6 +6,8 @@
  */
 
 #include <QApplication>
+#include <QCommandLineParser>
+#include <QCommandLineOption>
 #include <QQmlApplicationEngine>
 #include <QUrl>
 #include <QtQml>
@@ -31,6 +33,7 @@ int main(int argc, char *argv[])
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setApplicationName(QStringLiteral("plasma-welcome"));
 
+    const QString description = i18nc("@info:usagetip", "A welcome app for KDE Plasma");
     KAboutData aboutData(
                          // The program name used internally.
                          QStringLiteral("plasma-welcome"),
@@ -39,7 +42,7 @@ int main(int argc, char *argv[])
                          // The program version string.
                          QStringLiteral(WELCOME_VERSION_STRING),
                          // Short description of what the app does.
-                            i18nc("@info:usagetip", "A welcome app for KDE Plasma"),
+                            description,
                          // The license this code is released under.
                          KAboutLicense::GPL,
                          // Copyright Statement.
@@ -60,8 +63,24 @@ int main(int argc, char *argv[])
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Config", config);
 
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "AboutType", new AboutType);
-    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Controller", new Controller);
+    Controller controller;
+    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Controller", &controller);
     qmlRegisterType<Module>("org.kde.welcome", 1, 0, "Module");
+
+    // Parse CLI args
+    QCommandLineParser parser;
+    parser.setApplicationDescription(description);
+    parser.addHelpOption();
+    parser.addVersionOption();
+    parser.addOption(QCommandLineOption(QStringLiteral("after-upgrade-to"),
+                                        i18n("Version number of the Plasma release to display release notes for, e.g. 5.25"),
+                                        QStringLiteral("version number")));
+    parser.process(app);
+    QString versionNumber;
+    if (parser.isSet(QStringLiteral("after-upgrade-to"))) {
+        versionNumber = parser.value(QStringLiteral("after-upgrade-to"));
+        controller.setPlasmaUpgradeVersion(versionNumber);
+    }
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));

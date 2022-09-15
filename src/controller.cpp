@@ -42,3 +42,13 @@ bool Controller::networkAlreadyConnected()
 {
     return NetworkManager::connectivity() == NetworkManager::Connectivity::Full;
 }
+
+void Controller::setPlasmaUpgradeVersion(const QString& version)
+{
+    if (m_newPlasmaVersion == version) {
+        return;
+    }
+
+    m_newPlasmaVersion = version;
+    Q_EMIT newPlasmaVersionChanged();
+}
