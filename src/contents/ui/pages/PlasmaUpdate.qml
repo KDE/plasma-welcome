@@ -19,7 +19,7 @@ GenericPage {
     readonly property int iconSize: Kirigami.Units.iconSizes.enormous
 
     heading: i18nc("@title:window", "Plasma has been updated to version %1", newPlasmaVersion)
-    description: xi18nc("@info:usagetip", "KDE contributors have spent the last four months hard at work on this release, and we hope you'll love it!")
+    description: xi18nc("@info:usagetip", "KDE contributors have spent the last four months hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!")
 
     topContent: [
         Kirigami.UrlButton {
@@ -34,38 +34,26 @@ GenericPage {
         }
     ]
 
-    ColumnLayout {
+    RowLayout {
         anchors.centerIn: parent
         anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 2
-        spacing: Kirigami.Units.largeSpacing *2
+        spacing: Kirigami.Units.largeSpacing * 4
 
-        RowLayout {
-            spacing: Kirigami.Units.largeSpacing * 4
-
-            Kirigami.Icon {
-                Layout.preferredWidth: root.iconSize
-                Layout.preferredHeight: root.iconSize
-                source: "start-here-kde-plasma"
-            }
-
-            QQC2.Label {
-                text: "="
-                font.pointSize: 72
-            }
-
-            Kirigami.Icon {
-                Layout.preferredWidth: root.iconSize
-                Layout.preferredHeight: root.iconSize
-                source: "face-in-love"
-            }
+        Kirigami.Icon {
+            Layout.preferredWidth: root.iconSize
+            Layout.preferredHeight: root.iconSize
+            source: "start-here-kde-plasma"
         }
+
         QQC2.Label {
-            Layout.fillWidth: true
-            Layout.maximumWidth: Kirigami.Units.gridUnit * 12
-            Layout.alignment: Qt.AlignHCenter
-            horizontalAlignment: Text.AlignHCenter
-            wrapMode: Text.Wrap
-            text: i18nc("@info caption", "We hope you enjoy using Plasma as much as we enjoyed making it!")
+            text: "="
+            font.pointSize: 72
+        }
+
+        Kirigami.Icon {
+            Layout.preferredWidth: root.iconSize
+            Layout.preferredHeight: root.iconSize
+            source: "face-in-love"
         }
     }
 }
