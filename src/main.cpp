@@ -29,6 +29,7 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setApplicationName(QStringLiteral("plasma-welcome"));
+    KLocalizedString::setApplicationDomain("plasma-welcome");
 
     const QString description = i18nc("@info:usagetip", "A welcome app for KDE Plasma");
     KAboutData aboutData(
