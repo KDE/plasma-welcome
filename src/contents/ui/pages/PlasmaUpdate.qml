@@ -31,6 +31,11 @@ GenericPage {
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@action:button", "Help work on the next release")
             url: "https://community.kde.org/Get_Involved"
+        },
+        Kirigami.UrlButton {
+            Layout.topMargin: Kirigami.Units.largeSpacing
+            text: i18nc("@action:button", "Make a donation")
+            url: "https://kde.org/community/donations/"
         }
     ]
 
