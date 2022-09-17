@@ -13,8 +13,8 @@ import org.kde.kirigami 2.15 as Kirigami
 Kirigami.Page {
     id: page
 
-    property string heading: ""
-    property string description: ""
+    required property string heading
+    required property string description
     property alias topContent: layout.children
     property int margins: Kirigami.Units.gridUnit * 2
     leftPadding: margins
@@ -22,8 +22,7 @@ Kirigami.Page {
 
     header: Item {
 
-        visible: page.description.length > 0 || page.heading.length > 0
-        height: visible ? layout.implicitHeight + page.margins * 2 : 0
+        height: layout.implicitHeight + page.margins * 2
 
         ColumnLayout {
             id: layout
@@ -33,7 +32,6 @@ Kirigami.Page {
 
             Kirigami.Heading {
                 Layout.fillWidth: true
-                visible: page.heading.length > 0
                 text: page.heading
                 wrapMode: Text.WordWrap
                 type: Kirigami.Heading.Primary
@@ -41,7 +39,6 @@ Kirigami.Page {
 
             QQC2.Label {
                 Layout.fillWidth: true
-                visible: page.description.length > 0
                 text: page.description
                 wrapMode: Text.WordWrap
             }
