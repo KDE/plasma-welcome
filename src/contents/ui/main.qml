@@ -137,7 +137,7 @@ Kirigami.ApplicationWindow {
 
         visible: false
 
-        heading: i18nc("@title: window", "Sharing Usage Information with KDE")
+        heading: i18nc("@title: window", "Sharing Usage Information With KDE")
         description: i18nc("@info:usagetip", "In System Settings, you can choose to share anonymous usage information with KDE. You can make that choice here, too.")
 
         Module {
@@ -152,7 +152,7 @@ Kirigami.ApplicationWindow {
 
         visible: false
 
-        heading: i18nc("@title: window", "Connecting your Online Accounts")
+        heading: i18nc("@title: window", "Connecting Your Online Accounts")
         description: i18nc("@info:usagetip", "In System Settings, you can connect to your online accounts and access their content in KDE apps. You can set it up right now, too.")
         showSeparator: true
 
