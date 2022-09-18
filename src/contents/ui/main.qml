@@ -34,6 +34,7 @@ Kirigami.ApplicationWindow {
         height: root.headerToolbarVisible ? headerLayout.implicitHeight + (headerLayout.anchors.margins * 2) : 0
         Kirigami.AbstractApplicationHeader {
             id: headerToolbar
+            height: parent.height
             Layout.fillWidth: true
             Layout.fillHeight: true
             visible: root.headerToolbarVisible
