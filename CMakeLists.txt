@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.16)
 
 project(welcome VERSION 0.1)
 
+include(FeatureSummary)
+
 set(REQUIRED_QT_VERSION 5.15)
 set(KF5_MIN_VERSION 5.98)
 
@@ -9,13 +11,12 @@ find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 
-include(ECMGenerateHeaders)
-include(ECMPoQmTools)
-include(ECMSetupVersion)
-include(FeatureSummary)
+include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
-include(KDEInstallDirs)
+include(ECMSetupVersion)
+include(ECMGenerateHeaders)
+include(ECMPoQmTools)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX WELCOME
