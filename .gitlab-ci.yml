@@ -4,3 +4,4 @@
 # No FreeBSD because it doesn't have networkmanager-qt, which is a required dep
 include:
   - https://invent.kde.org/sysadmin/ci-utilities/raw/master/gitlab-templates/linux.yml
+  - https://invent.kde.org/sysadmin/ci-utilities/raw/master/gitlab-templates/linux-qt6.yml
