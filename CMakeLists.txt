@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(welcome VERSION 0.1)
+project(welcome)
 
 include(FeatureSummary)
 
+set(PROJECT_VERSION "5.26.80")
 set(REQUIRED_QT_VERSION 5.15)
 set(KF5_MIN_VERSION 5.98)
 
@@ -19,7 +20,8 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 
 ecm_setup_version(${PROJECT_VERSION}
-    VARIABLE_PREFIX WELCOME
+    VARIABLE_PREFIX PLASMA_WELCOME
+    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/plasma-welcome-version.h"
 )
 
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)

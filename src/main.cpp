@@ -14,6 +14,7 @@
 #include <QQuickWindow>
 
 #include "controller.h"
+#include "plasma-welcome-version.h"
 
 #include <KAboutData>
 #include <KDBusService>
@@ -33,18 +34,18 @@ int main(int argc, char *argv[])
 
     const QString description = i18nc("@info:usagetip", "A welcome app for KDE Plasma");
     KAboutData aboutData(
-                         // The program name used internally.
-                         QStringLiteral("plasma-welcome"),
-                         // A displayable program name string.
-                         i18nc("@title", "Welcome to KDE Plasma"),
-                         // The program version string.
-                         QStringLiteral("1.0"),
-                         // Short description of what the app does.
-                            description,
-                         // The license this code is released under.
-                         KAboutLicense::GPL,
-                         // Copyright Statement.
-                         i18nc("@info copyright string", "(c) 2021"));
+        // The program name used internally.
+        QStringLiteral("plasma-welcome"),
+        // A displayable program name string.
+        i18nc("@title", "Welcome to KDE Plasma"),
+        // The program version string.
+        QStringLiteral(PLASMA_WELCOME_VERSION_STRING),
+        // Short description of what the app does.
+        description,
+        // The license this code is released under.
+        KAboutLicense::GPL,
+        // Copyright Statement.
+        i18nc("@info copyright string", "(c) 2021"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"),
                         i18nc("@info:credit", "Author"),
                         QStringLiteral("kinofhek@gmail.com"),
