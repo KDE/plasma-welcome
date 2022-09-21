@@ -6,12 +6,13 @@
  */
 
 #include <QApplication>
-#include <QCommandLineParser>
 #include <QCommandLineOption>
+#include <QCommandLineParser>
 #include <QQmlApplicationEngine>
+#include <QQuickWindow>
+#include <QSurfaceFormat>
 #include <QUrl>
 #include <QtQml>
-#include <QQuickWindow>
 
 #include "controller.h"
 #include "plasma-welcome-version.h"
@@ -26,6 +27,10 @@
 
 int main(int argc, char *argv[])
 {
+    auto format = QSurfaceFormat::defaultFormat();
+    format.setOption(QSurfaceFormat::ResetNotification);
+    QSurfaceFormat::setDefaultFormat(format);
+
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
