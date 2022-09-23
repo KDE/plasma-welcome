@@ -1,3 +1,7 @@
+<!--
+    SPDX-License-Identifier: CC0-1.0
+    SPDX-FileCopyrightText: 2022-Nate Graham <nate@kde.org>
+-->
 # Plasma Welcome App
 
 A Friendly onboarding wizard for Plasma
