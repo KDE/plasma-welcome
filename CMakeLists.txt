@@ -9,7 +9,7 @@ project(welcome)
 include(FeatureSummary)
 
 set(PROJECT_VERSION "5.26.80")
-set(REQUIRED_QT_VERSION 5.15)
+set(REQUIRED_QT_VERSION 5.15.2)
 set(KF5_MIN_VERSION 5.98)
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
