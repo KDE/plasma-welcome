@@ -106,10 +106,10 @@ Kirigami.ApplicationWindow {
             welcome.visible = true;
             discover.visible = true;
             systemsettings.visible = true;
-            contribute.visible = true;
-            donate.visible = true;
             kcm_feedback.visible = true;
             kcm_kaccounts.visible = true;
+            contribute.visible = true;
+            donate.visible = true;
 
             if (!Controller.networkAlreadyConnected()) {
                 network.visible = true;
@@ -129,9 +129,6 @@ Kirigami.ApplicationWindow {
     Network {id: network; visible: false}
     Discover {id: discover; visible: false}
     SystemSettings {id: systemsettings; visible: false}
-    Contribute {id: contribute; visible: false}
-    Donate {id: donate; visible: false}
-
     KCM {
         id: kcm_feedback
 
@@ -163,4 +160,6 @@ Kirigami.ApplicationWindow {
         kcm: moduleAccounts.kcm
         internalPage: moduleAccounts.kcm.mainUi
     }
+    Contribute {id: contribute; visible: false}
+    Donate {id: donate; visible: false}
 }
