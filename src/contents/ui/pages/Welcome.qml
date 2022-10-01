@@ -12,7 +12,7 @@ import org.kde.kirigami 2.15 as Kirigami
 
 GenericPage {
     heading: i18nc("@title", "Welcome to KDE Plasma!")
-    description: i18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed to help you really get things done. Welcome to the KDE Community!")
+    description: xi18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed to help you really get things done.<nl/><nl/>Welcome to the KDE Community!")
 
     Image {
         anchors.centerIn: parent
