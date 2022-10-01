@@ -39,26 +39,23 @@ GenericPage {
         }
     ]
 
-    RowLayout {
+    ColumnLayout {
         anchors.centerIn: parent
         anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 2
-        spacing: Kirigami.Units.largeSpacing * 4
+        spacing: Kirigami.Units.largeSpacing * 2
 
         Kirigami.Icon {
+            Layout.preferredWidth: root.iconSize/1.5
+            Layout.preferredHeight: root.iconSize/1.5
+            Layout.alignment: Qt.AlignHCenter
+            source: "arrow-up-double"
+        }
+
+        Kirigami.Icon {
+            Layout.alignment: Qt.AlignHCenter
             Layout.preferredWidth: root.iconSize
             Layout.preferredHeight: root.iconSize
             source: "start-here-kde-plasma"
-        }
-
-        QQC2.Label {
-            text: "="
-            font.pointSize: 72
-        }
-
-        Kirigami.Icon {
-            Layout.preferredWidth: root.iconSize
-            Layout.preferredHeight: root.iconSize
-            source: "face-in-love"
         }
     }
 }
