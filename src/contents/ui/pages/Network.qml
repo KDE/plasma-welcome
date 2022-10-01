@@ -16,7 +16,7 @@ import org.kde.plasma.core 2.0 as PlasmaCore
 GenericPage {
     id: root
 
-    heading: i18nc("@info:window", "Accessing the Internet")
+    heading: i18nc("@info:window", "Access the Internet")
     description: xi18nc("@info:usagetip", "You can connect to the internet and manage your network connections with the <interface>Networks applet</interface>. To access it, click on the <interface>Networks</interface> icon in your <interface>System Tray</interface>, which lives in the bottom-right corner of the screen.")
 
     // To get the current date and time

@@ -14,7 +14,7 @@ import QtGraphicalEffects 1.15
 import org.kde.welcome 1.0
 
 GenericPage {
-    heading: i18nc("@title:window", "Managing Software")
+    heading: i18nc("@title:window", "Manage Software")
     description: i18nc("@info:usagetip","Discover helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app.")
 
     Kirigami.Icon {

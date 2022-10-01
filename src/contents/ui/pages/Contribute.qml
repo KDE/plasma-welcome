@@ -11,7 +11,7 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
 GenericPage {
-    heading: i18nc("@title:window", "Getting Involved")
+    heading: i18nc("@title:window", "Get Involved")
     description: xi18nc("@info:usagetip", "KDE's software is made by people like you--mostly volunteers. That means you can help make it better! There are many ways to contribute on topics as diverse as bug triaging, programming, translation, visual design, and promotion.<nl/><nl/>By contributing to KDE, you will become part of something special, meet new friends, learn new skills, and make a difference to millions while working with people from around the globe to deliver a stunning free software computing experience.")
 
     topContent: [
