@@ -18,10 +18,10 @@ Kirigami.ApplicationWindow {
     property var initialPages
     readonly property bool headerToolbarVisible: initialPages.length > 1
 
-    minimumWidth: Kirigami.Units.gridUnit * 40
-    minimumHeight: Kirigami.Units.gridUnit * 35
-    width: Kirigami.Units.gridUnit * 40
-    height: Kirigami.Units.gridUnit * 35
+    minimumWidth: Kirigami.Units.gridUnit * 36
+    minimumHeight: Kirigami.Units.gridUnit * 32
+    width: minimumWidth
+    height: minimumHeight
 
     // We're using a slightly complicated custom implementation of
     // Kirigami.AbstractApplicationHeader here because QQC2.ToolBar isn't draggable
