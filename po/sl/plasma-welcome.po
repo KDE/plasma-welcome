@@ -1,0 +1,377 @@
+# Slovenian translation of plasma-welcome.
+# Copyright (C) 2022 KDE.
+# This file is distributed under the same license as the welcome-app package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: welcome-app\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-10-02 00:48+0000\n"
+"PO-Revision-Date: 2022-09-21 07:25+0200\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Srebotnjak"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "miles@filmsi.net"
+
+#: src/contents/ui/main.qml:51
+#, kde-format
+msgctxt "@action:button"
+msgid "&Skip"
+msgstr "Pre&skoči"
+
+#: src/contents/ui/main.qml:51
+#, kde-format
+msgctxt "@action:button"
+msgid "&Back"
+msgstr "Na&zaj"
+
+#: src/contents/ui/main.qml:68
+#, kde-format
+msgctxt "@info"
+msgid "Page %1 of %2"
+msgid_plural "Page %1 of %2"
+msgstr[0] "Stran %1 od %2"
+msgstr[1] "Stran %1 od %2"
+msgstr[2] "Stran %1 od %2"
+msgstr[3] "Stran %1 od %2"
+
+#: src/contents/ui/main.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "&Finish"
+msgstr "&Dokončaj"
+
+#: src/contents/ui/main.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "&Next"
+msgstr "&Naprej"
+
+#: src/contents/ui/main.qml:137
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Sharing Usage Information With KDE"
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information With KDE"
+msgstr "Skupna raba podatkov o uporabi s KDE"
+
+#: src/contents/ui/main.qml:138
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+
+#: src/contents/ui/main.qml:152
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Connecting Your Online Accounts"
+msgctxt "@title: window"
+msgid "Connect Your Online Accounts"
+msgstr "Povezovanje vaših spletnih računov"
+
+#: src/contents/ui/main.qml:153
+#, fuzzy, kde-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "In System Settings, you can connect to your online accounts and access "
+#| "their content in KDE apps. You can set it up right now, too."
+msgctxt "@info:usagetip"
+msgid ""
+"This will let you access their content in KDE apps. You can set it up in "
+"System Settings, and here too."
+msgstr ""
+"V sistemskih nastavitvah se lahko povežete z spletnimi računi in dostopate "
+"do njihove vsebine v aplikacijah KDE. Tudi takoj jih lahko nastavite."
+
+#: src/contents/ui/pages/Contribute.qml:14
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Getting Involved"
+msgctxt "@title:window"
+msgid "Get Involved"
+msgstr "Kako sodelovati"
+
+#: src/contents/ui/pages/Contribute.qml:15
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE's software is made by people like you--mostly volunteers. That means "
+#| "you can help make it better! There are many ways to contribute on topics "
+#| "as diverse as bug triaging, programming, translation, visual design, and "
+#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
+#| "something special, meet new friends, learn new skills, and make a "
+#| "difference to millions while working with people from around the globe to "
+#| "deliver a stunning free software computing experience."
+msgctxt "@info:usagetip"
+msgid ""
+"KDE's software is made by people like you--mostly volunteers. That means you "
+"can help make it better! There are many ways to contribute on topics as "
+"diverse as bug triaging, programming, translation, visual design, and "
+"promotion.<nl/><nl/>By contributing to KDE, you become part of something "
+"special, meet new friends, learn new skills, and make a difference to "
+"millions while working with people from around the globe to deliver a "
+"stunning free software computing experience."
+msgstr ""
+"Programsko opremo KDE pripravljajo ljudje, kot ste vi, večinoma "
+"prostovoljci. To pomeni, da jo lahko pomagate narediti še boljšo! Na več "
+"načinov lahko prispevate k temam, ki so raznolike, kot so opredeljevanje "
+"hroščev, programiranje, prevajanje, grafično oblikovanje in promocija.<nl/"
+"><nl/>S prispevanjem h KDE boste postali del nečesa posebnega, spoznali nove "
+"prijatelje, se priučili novih spretnosti in naredili razliko za milijone "
+"uporabnikov, ob tem ko boste delali z ljudmi s celega sveta, da bi "
+"zagotovili osupljivo računalniško izkušnjo s prosto programsko opremo."
+
+#: src/contents/ui/pages/Contribute.qml:20
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Contributing!"
+msgstr "Začnite prispevati!"
+
+#: src/contents/ui/pages/Discover.qml:17
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Managing Software"
+msgctxt "@title:window"
+msgid "Manage Software"
+msgstr "Upravljanje programske opreme"
+
+#: src/contents/ui/pages/Discover.qml:18
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Discover helps you find and install applications, games, and tools. You can "
+"search or browse by category, look at screenshots, and read reviews to help "
+"you find the perfect app."
+msgstr ""
+"Discover vam pomaga najti in namestiti aplikacije, igre in orodja. Po "
+"kategorijah lahko iščete ali brskate, si ogledate posnetke zaslona in "
+"preberete ocene, ki vam pomagajo najti popolno aplikacijo."
+
+#: src/contents/ui/pages/Discover.qml:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Launch Discover now"
+msgstr "Zaženi Discover zdaj"
+
+#: src/contents/ui/pages/Discover.qml:56
+#, kde-format
+msgctxt "@title the name of the app 'Discover'"
+msgid "Discover"
+msgstr "Odkrijte"
+
+#: src/contents/ui/pages/Discover.qml:121
+#, kde-format
+msgctxt "@action:button %1 is the name of an app"
+msgid "Show %1 in Discover"
+msgstr "Pokaži %1 v Discover"
+
+#: src/contents/ui/pages/Donate.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Freedom Isn't Free"
+msgstr "Svoboda ni brezplačna"
+
+#: src/contents/ui/pages/Donate.qml:15
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"KDE operates on a shoestring budget, relying largely on donations of labor "
+"and resources. You can help change that!<nl/><nl/>Financial donations help "
+"KDE pay for development sprints, hardware and server resources, and expanded "
+"employment. Donations are tax-deductible in Germany."
+msgstr ""
+"KDE deluje z majhnim proračunom, ki se v veliki meri zanaša na donacije v "
+"delu in sredstvih. To lahko pomagate spremeniti!<nl/><nl/>Finančne donacije "
+"pomagajo KDE plačevati razvojne sprinte, strojno opremo in strežniške vire "
+"ter povečati število zaposlenih. Donacije v Nemčiji predstavljajo davčno "
+"olajšavo."
+
+#: src/contents/ui/pages/Donate.qml:20
+#: src/contents/ui/pages/PlasmaUpdate.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Make a donation"
+msgstr "Donirajte"
+
+#: src/contents/ui/pages/Network.qml:19
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Accessing the Internet"
+msgctxt "@info:window"
+msgid "Access the Internet"
+msgstr "Dostop do interneta"
+
+#: src/contents/ui/pages/Network.qml:20
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"You can connect to the internet and manage your network connections with the "
+"<interface>Networks applet</interface>. To access it, click on the "
+"<interface>Networks</interface> icon in your <interface>System Tray</"
+"interface>, which lives in the bottom-right corner of the screen."
+msgstr ""
+"Povežete se lahko z internetom in upravljate omrežne povezave s "
+"<interface>programčkom Omrežja</interface>. Če ga želite odpreti, kliknite "
+"ikono <interface>Omrežja</interface> v <interface>sistemskem pladnju</"
+"interface>, ki se nahaja v spodnjem desnem kotu zaslona."
+
+#: src/contents/ui/pages/PlasmaUpdate.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Plasma has been updated to version %1"
+msgstr "Plazma je posodobljena na različico %1"
+
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"KDE contributors have spent the last four months hard at work on this "
+"release. We hope you enjoy using Plasma as much as we enjoyed making it!"
+msgstr ""
+"Avtorji prispevkov KDE so zadnje štiri mesece trdo delali na tej izdaji. "
+"Upamo, da boste uživali pri delu s Plasma vsaj toliko, kot smo mi uživali "
+"pri njeni izdelavi!"
+
+#: src/contents/ui/pages/PlasmaUpdate.qml:27
+#, kde-format
+msgctxt "@action:button"
+msgid "Find out what's new in Plasma %1"
+msgstr "Preverite, kaj je novega v Plasma %1"
+
+#: src/contents/ui/pages/PlasmaUpdate.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Help work on the next release"
+msgstr "Sodelujte pri naslednji izdaji"
+
+#: src/contents/ui/pages/SystemSettings.qml:17
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Personalizing Your System"
+msgctxt "@info:window"
+msgid "Personalize Your System"
+msgstr "Poosebite sistem"
+
+#: src/contents/ui/pages/SystemSettings.qml:18
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"System Settings lets you adjust the behaviors and appearance of the whole "
+"system. From theme options to device management, you can find it all here."
+msgstr ""
+"Sistemske nastavitve vam omogočajo prilagajanje vedenja in videza celotnega "
+"sistema. Od možnosti tem do upravljanja naprav - prav vse lahko najdete "
+"tukaj."
+
+#: src/contents/ui/pages/SystemSettings.qml:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Launch System Settings now"
+msgstr "Zaženi sistemske nastavitve zdaj"
+
+#: src/contents/ui/pages/SystemSettings.qml:55
+#, kde-format
+msgctxt "@title the name of the 'System Settings' app"
+msgid "System Settings"
+msgstr "Sistemske nastavitve"
+
+#: src/contents/ui/pages/Welcome.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Welcome to KDE Plasma!"
+msgstr "Dobrodošli v KDE Plasma!"
+
+#: src/contents/ui/pages/Welcome.qml:15
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE Plasma is a free and open-source desktop environment made by "
+#| "volunteers around the globe. It's simple by default for a smooth "
+#| "experience, but powerful when needed to help you really get things done. "
+#| "Welcome to the KDE Community!"
+msgctxt "@info:usagetip"
+msgid ""
+"KDE Plasma is a free and open-source desktop environment made by volunteers "
+"around the globe. It's simple by default for a smooth experience, but "
+"powerful when needed to help you really get things done.<nl/><nl/>Welcome to "
+"the KDE Community!"
+msgstr ""
+"KDE Plasma je prosto in odprtokodno namizno okolje, ki so ga ustvarili "
+"prostovoljci s celega sveta. Privzeto je preprosto za prijetno izkušnjo, "
+"vendar sposobno, ko je potrebno, da vam pomaga resnično opraviti stvari. "
+"Dobrodošli v skupnosti KDE!"
+
+#: src/contents/ui/pages/Welcome.qml:28
+#, kde-format
+msgctxt "@info"
+msgid "Konqi, the KDE mascot"
+msgstr "Konqi, maskota KDE"
+
+#: src/main.cpp:44
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "A welcome app for KDE Plasma"
+msgstr "Program dobrodošlice za KDE Plasma"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Welcome to KDE Plasma"
+msgstr "Dobrodošli v KDE Plasma"
+
+#: src/main.cpp:57
+#, kde-format
+msgctxt "@info copyright string"
+msgid "(c) 2021"
+msgstr "(c) 2021"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:59 src/main.cpp:63
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Avtor"
+
+#: src/main.cpp:62
+#, kde-format
+msgctxt "@info:credit"
+msgid "Nate Graham"
+msgstr "Nate Graham"
+
+#: src/main.cpp:81
+#, kde-format
+msgid ""
+"Version number of the Plasma release to display release notes for, e.g. 5.25"
+msgstr "Številka različice izdaje Plasma za prikaz opomb ob izdaji, npr. 5.25"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "In System Settings, you can choose to share anonymous usage information "
+#~ "with KDE. You can make that choice here, too."
+#~ msgstr ""
+#~ "V sistemskih nastavitvah lahko podatke o anonimni uporabi postavite v "
+#~ "skupno rabo s KDE. Tudi tu se lahko odločite."

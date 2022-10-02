@@ -1,0 +1,375 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the welcome-app package.
+# Vincenzo Reale <smart2128vr@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: welcome-app\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-10-02 00:48+0000\n"
+"PO-Revision-Date: 2022-09-19 09:18+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vincenzo Reale"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "smart2128vr@gmail.com"
+
+#: src/contents/ui/main.qml:51
+#, kde-format
+msgctxt "@action:button"
+msgid "&Skip"
+msgstr "&Salta"
+
+#: src/contents/ui/main.qml:51
+#, kde-format
+msgctxt "@action:button"
+msgid "&Back"
+msgstr "&Indietro"
+
+#: src/contents/ui/main.qml:68
+#, kde-format
+msgctxt "@info"
+msgid "Page %1 of %2"
+msgid_plural "Page %1 of %2"
+msgstr[0] "Pagina %1 di %2"
+msgstr[1] "Pagina %1 di %2"
+
+#: src/contents/ui/main.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "&Finish"
+msgstr "&Fine"
+
+#: src/contents/ui/main.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "&Next"
+msgstr "&Successivo"
+
+#: src/contents/ui/main.qml:137
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Sharing Usage Information With KDE"
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information With KDE"
+msgstr "Condivisione delle informazioni sull'utilizzo con KDE"
+
+#: src/contents/ui/main.qml:138
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+
+#: src/contents/ui/main.qml:152
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Connecting Your Online Accounts"
+msgctxt "@title: window"
+msgid "Connect Your Online Accounts"
+msgstr "Collegamento dei tuoi account in linea"
+
+#: src/contents/ui/main.qml:153
+#, fuzzy, kde-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "In System Settings, you can connect to your online accounts and access "
+#| "their content in KDE apps. You can set it up right now, too."
+msgctxt "@info:usagetip"
+msgid ""
+"This will let you access their content in KDE apps. You can set it up in "
+"System Settings, and here too."
+msgstr ""
+"Nelle impostazioni di sistema, puoi connetterti ai tuoi account in linea e "
+"accedere ai loro contenuti nelle applicazioni di KDE. Puoi anche "
+"configurarlo subito."
+
+#: src/contents/ui/pages/Contribute.qml:14
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Getting Involved"
+msgctxt "@title:window"
+msgid "Get Involved"
+msgstr "Per partecipare"
+
+#: src/contents/ui/pages/Contribute.qml:15
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE's software is made by people like you--mostly volunteers. That means "
+#| "you can help make it better! There are many ways to contribute on topics "
+#| "as diverse as bug triaging, programming, translation, visual design, and "
+#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
+#| "something special, meet new friends, learn new skills, and make a "
+#| "difference to millions while working with people from around the globe to "
+#| "deliver a stunning free software computing experience."
+msgctxt "@info:usagetip"
+msgid ""
+"KDE's software is made by people like you--mostly volunteers. That means you "
+"can help make it better! There are many ways to contribute on topics as "
+"diverse as bug triaging, programming, translation, visual design, and "
+"promotion.<nl/><nl/>By contributing to KDE, you become part of something "
+"special, meet new friends, learn new skills, and make a difference to "
+"millions while working with people from around the globe to deliver a "
+"stunning free software computing experience."
+msgstr ""
+"Il software di KDE è realizzato da persone come te, per lo più volontari. "
+"Ciò significa che puoi contribuire a renderlo migliore! Esistono molti modi "
+"per contribuire su argomenti diversi come la valutazione dei bug, la "
+"programmazione, la traduzione, il design visivo e la promozione.<nl/><nl/"
+">Contribuendo a KDE, diventerai parte di qualcosa di speciale, incontrerai "
+"nuovi amici, imparerai nuove abilità e farai la differenza per milioni di "
+"persone, mentre lavorerai con persone da tutto il mondo per offrire una "
+"straordinaria esperienza di elaborazione software gratuita."
+
+#: src/contents/ui/pages/Contribute.qml:20
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Contributing!"
+msgstr "Inizia a contribuire!"
+
+#: src/contents/ui/pages/Discover.qml:17
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Managing Software"
+msgctxt "@title:window"
+msgid "Manage Software"
+msgstr "Gestione del software"
+
+#: src/contents/ui/pages/Discover.qml:18
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Discover helps you find and install applications, games, and tools. You can "
+"search or browse by category, look at screenshots, and read reviews to help "
+"you find the perfect app."
+msgstr ""
+"Discover ti aiuta a trovare e installare applicazioni, giochi e strumenti. "
+"Puoi cercare o sfogliare per categoria, guardare schermate e leggere "
+"recensioni per aiutarti a trovare l'applicazione perfetta."
+
+#: src/contents/ui/pages/Discover.qml:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Launch Discover now"
+msgstr "Avvia subito Discover"
+
+#: src/contents/ui/pages/Discover.qml:56
+#, kde-format
+msgctxt "@title the name of the app 'Discover'"
+msgid "Discover"
+msgstr "Discover"
+
+#: src/contents/ui/pages/Discover.qml:121
+#, kde-format
+msgctxt "@action:button %1 is the name of an app"
+msgid "Show %1 in Discover"
+msgstr "Mostra %1 in Discover."
+
+#: src/contents/ui/pages/Donate.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Freedom Isn't Free"
+msgstr "Libero non è gratuito"
+
+#: src/contents/ui/pages/Donate.qml:15
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"KDE operates on a shoestring budget, relying largely on donations of labor "
+"and resources. You can help change that!<nl/><nl/>Financial donations help "
+"KDE pay for development sprints, hardware and server resources, and expanded "
+"employment. Donations are tax-deductible in Germany."
+msgstr ""
+"KDE opera con un budget ridotto, basandosi principalmente su donazioni di "
+"lavoro e risorse. Puoi contribuire a cambiarlo!<nl/><nl/>Le donazioni "
+"finanziarie aiutano KDE a pagare gli sprint di sviluppo, le risorse hardware "
+"e server e l'ampliamento degli impiegati. Le donazioni sono deducibili dalle "
+"tasse in Germania."
+
+#: src/contents/ui/pages/Donate.qml:20
+#: src/contents/ui/pages/PlasmaUpdate.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Make a donation"
+msgstr "Fai una donazione"
+
+#: src/contents/ui/pages/Network.qml:19
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Accessing the Internet"
+msgctxt "@info:window"
+msgid "Access the Internet"
+msgstr "Accesso a Internet"
+
+#: src/contents/ui/pages/Network.qml:20
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"You can connect to the internet and manage your network connections with the "
+"<interface>Networks applet</interface>. To access it, click on the "
+"<interface>Networks</interface> icon in your <interface>System Tray</"
+"interface>, which lives in the bottom-right corner of the screen."
+msgstr ""
+"Puoi connetterti a Internet e gestire le tue connessioni di rete con "
+"l'<interface>applet Reti</interface>. Per accedervi, fai clic sull'icona "
+"<interface>Reti</interface> nel <interface>vassoio di sistema</interface>, "
+"che si trova nell'angolo in basso a destra dello schermo."
+
+#: src/contents/ui/pages/PlasmaUpdate.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Plasma has been updated to version %1"
+msgstr "Plasma è stato aggiornato alla versione %1"
+
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"KDE contributors have spent the last four months hard at work on this "
+"release. We hope you enjoy using Plasma as much as we enjoyed making it!"
+msgstr ""
+"I contributori di KDE hanno trascorso gli ultimi quattro mesi al lavoro su "
+"questa versione. Ci auguriamo che ti piaccia usare Plasma tanto quanto noi "
+"ci siamo divertiti a realizzarlo!"
+
+#: src/contents/ui/pages/PlasmaUpdate.qml:27
+#, kde-format
+msgctxt "@action:button"
+msgid "Find out what's new in Plasma %1"
+msgstr "Scopri le novità di Plasma %1"
+
+#: src/contents/ui/pages/PlasmaUpdate.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Help work on the next release"
+msgstr "Aiutaci a lavorare sulla prossima versione"
+
+#: src/contents/ui/pages/SystemSettings.qml:17
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Personalizing Your System"
+msgctxt "@info:window"
+msgid "Personalize Your System"
+msgstr "Personalizza il tuo sistema"
+
+#: src/contents/ui/pages/SystemSettings.qml:18
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"System Settings lets you adjust the behaviors and appearance of the whole "
+"system. From theme options to device management, you can find it all here."
+msgstr ""
+"Impostazioni di sistema ti consente di regolare i comportamenti e l'aspetto "
+"dell'intero sistema. Dalle opzioni del tema alla gestione del dispositivo, "
+"puoi trovare tutto qui."
+
+#: src/contents/ui/pages/SystemSettings.qml:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Launch System Settings now"
+msgstr "Avvia subito le impostazioni di sistema"
+
+#: src/contents/ui/pages/SystemSettings.qml:55
+#, kde-format
+msgctxt "@title the name of the 'System Settings' app"
+msgid "System Settings"
+msgstr "Impostazioni di sistema"
+
+#: src/contents/ui/pages/Welcome.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Welcome to KDE Plasma!"
+msgstr "Benvenuti in Plasma di KDE!"
+
+#: src/contents/ui/pages/Welcome.qml:15
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE Plasma is a free and open-source desktop environment made by "
+#| "volunteers around the globe. It's simple by default for a smooth "
+#| "experience, but powerful when needed to help you really get things done. "
+#| "Welcome to the KDE Community!"
+msgctxt "@info:usagetip"
+msgid ""
+"KDE Plasma is a free and open-source desktop environment made by volunteers "
+"around the globe. It's simple by default for a smooth experience, but "
+"powerful when needed to help you really get things done.<nl/><nl/>Welcome to "
+"the KDE Community!"
+msgstr ""
+"KDE Plasma è un ambiente desktop gratuito e open source creato da volontari "
+"in tutto il mondo. È semplice per impostazione predefinita per un'esperienza "
+"fluida, ma potente quando necessario per aiutarti a fare davvero le cose. "
+"Benvenuto nella comunità KDE!"
+
+#: src/contents/ui/pages/Welcome.qml:28
+#, kde-format
+msgctxt "@info"
+msgid "Konqi, the KDE mascot"
+msgstr "Konqi, la mascotte di KDE"
+
+#: src/main.cpp:44
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "A welcome app for KDE Plasma"
+msgstr "Un'applicazione di benvenuto per Plasma di KDE"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Welcome to KDE Plasma"
+msgstr "Benvenuti in Plasma di KDE"
+
+#: src/main.cpp:57
+#, kde-format
+msgctxt "@info copyright string"
+msgid "(c) 2021"
+msgstr "(c) 2021"
+
+#: src/main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:59 src/main.cpp:63
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autore"
+
+#: src/main.cpp:62
+#, kde-format
+msgctxt "@info:credit"
+msgid "Nate Graham"
+msgstr "Nate Graham"
+
+#: src/main.cpp:81
+#, kde-format
+msgid ""
+"Version number of the Plasma release to display release notes for, e.g. 5.25"
+msgstr ""
+"Numero di versione della versione Plasma per visualizzare le note sulla "
+"versione, ad es. 5.25"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "In System Settings, you can choose to share anonymous usage information "
+#~ "with KDE. You can make that choice here, too."
+#~ msgstr ""
+#~ "Nelle impostazioni di sistema, puoi scegliere di condividere informazioni "
+#~ "di utilizzo anonime con KDE. Puoi fare questa scelta anche qui."
