@@ -3,6 +3,9 @@
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
 add_executable(plasma-welcome main.cpp about.cpp controller.cpp resources.qrc module.cpp)
+
+target_compile_definitions(plasma-welcome PRIVATE "DISTRO_PAGE_PATH=\"${DISTRO_PAGE_PATH}\"")
+
 target_link_libraries(plasma-welcome
     Qt::Core
     Qt::Gui
@@ -21,3 +24,8 @@ target_link_libraries(plasma-welcome
     KF5::WindowSystem
 )
 install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+
+ecm_add_qml_module(PlasmaWelcomeModule URI "org.kde.plasma.welcome" NO_PLUGIN VERSION 1.0)
+ecm_target_qml_sources(PlasmaWelcomeModule SOURCES qml/GenericPage.qml)
+ecm_target_qml_sources(PlasmaWelcomeModule SOURCES qml/KCM.qml)
+ecm_finalize_qml_module(PlasmaWelcomeModule DESTINATION ${KDE_INSTALL_QMLDIR})

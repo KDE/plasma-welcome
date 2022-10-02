@@ -11,6 +11,7 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
 import org.kde.welcome 1.0
+import org.kde.plasma.welcome 1.0
 
 GenericPage {
     id: root

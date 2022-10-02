@@ -6,7 +6,6 @@ SPDX-FileCopyrightText: none
 <RCC>
     <qresource prefix="/">
         <file alias="main.qml">contents/ui/main.qml</file>
-        <file alias="GenericPage.qml">contents/ui/GenericPage.qml</file>
         <!--pages-->
         <file alias="PlasmaUpdate.qml">contents/ui/pages/PlasmaUpdate.qml</file>
         <file alias="Network.qml">contents/ui/pages/Network.qml</file>
@@ -15,7 +14,6 @@ SPDX-FileCopyrightText: none
         <file alias="SystemSettings.qml">contents/ui/pages/SystemSettings.qml</file>
         <file alias="Contribute.qml">contents/ui/pages/Contribute.qml</file>
         <file alias="Donate.qml">contents/ui/pages/Donate.qml</file>
-        <file alias="KCM.qml">contents/ui/pages/KCM.qml</file>
         <!--assets-->
         <file alias="konqi.png">contents/assets/konqi.png</file>
         <file alias="konqi-kde-hi.png">contents/assets/konqi-kde-hi.png</file>

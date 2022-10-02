@@ -13,6 +13,8 @@ class Controller : public QObject
 public:
     Q_INVOKABLE static void open(const QString &program);
     Q_INVOKABLE bool networkAlreadyConnected();
+    Q_INVOKABLE QStringList distroPages();
+
     Q_PROPERTY(QString newPlasmaVersion MEMBER m_newPlasmaVersion NOTIFY newPlasmaVersionChanged)
 
     void setPlasmaUpgradeVersion(const QString &version);

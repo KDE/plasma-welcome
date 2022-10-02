@@ -11,12 +11,13 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
 import org.kde.welcome 1.0
+import org.kde.plasma.welcome 1.0
 
 Kirigami.ApplicationWindow {
     id: root
 
     property var initialPages
-    readonly property bool headerToolbarVisible: initialPages.length > 1
+    readonly property bool showingPlasmaUpdate: Controller.newPlasmaVersion.length > 0
 
     minimumWidth: Kirigami.Units.gridUnit * 36
     minimumHeight: Kirigami.Units.gridUnit * 32
@@ -31,12 +32,12 @@ Kirigami.ApplicationWindow {
     header: ColumnLayout {
         width: root.width
         spacing: 0
-        height: root.headerToolbarVisible ? headerLayout.implicitHeight + (headerLayout.anchors.margins * 2) : 0
+        height: root.showingPlasmaUpdate ? 0: headerLayout.implicitHeight + (headerLayout.anchors.margins * 2)
         Kirigami.AbstractApplicationHeader {
             id: headerToolbar
             Layout.fillWidth: true
             Layout.fillHeight: true
-            visible: root.headerToolbarVisible
+            visible: !root.showingPlasmaUpdate
             contentItem: Item {
                 width: headerToolbar.width
                 height: headerToolbar.height
@@ -100,23 +101,46 @@ Kirigami.ApplicationWindow {
     // FIXME: push new pages only as needed
     // See https://bugs.kde.org/show_bug.cgi?id=459177
     Component.onCompleted: {
-        if (Controller.newPlasmaVersion.length > 0) {
+        if (root.showingPlasmaUpdate) {
             initialPages = [plasmaUpdate];
         } else {
             welcome.visible = true;
-            discover.visible = true;
-            systemsettings.visible = true;
-            kcm_feedback.visible = true;
-            kcm_kaccounts.visible = true;
-            contribute.visible = true;
-            donate.visible = true;
+            initialPages = [welcome];
 
             if (!Controller.networkAlreadyConnected()) {
                 network.visible = true;
-                initialPages = [welcome, network, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute, donate];
-            } else {
-                initialPages = [welcome, discover, systemsettings, kcm_kaccounts, kcm_feedback, contribute, donate];
+                initialPages.push (network);
             }
+
+            discover.visible = true;
+            initialPages.push(discover);
+
+            systemsettings.visible = true;
+            initialPages.push(systemsettings);
+
+            kcm_feedback.visible = true;
+            initialPages.push(kcm_feedback);
+
+            kcm_kaccounts.visible = true;
+            initialPages.push(kcm_kaccounts);
+
+            // Append any distro-specific pages that were found
+            let distroPages = Controller.distroPages()
+            if (distroPages.length > 0) {
+                for (let i in distroPages) {
+                    var distroPageComponent = Qt.createComponent(distroPages[i]);
+                    if (distroPageComponent.status !== Component.Error) {
+                        initialPages.push(distroPageComponent);
+                    } else {
+                        console.warn("Error loading Page", distroPages[i], distroPageComponent.status)
+                        Qt.exit(123)
+                    }
+                }
+            }
+
+            // Now show the final pages
+            initialPages.push(contribute);
+            initialPages.push(donate);
         }
 
         pageStack.initialPage = initialPages;
