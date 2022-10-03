@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-02 00:48+0000\n"
-"PO-Revision-Date: 2022-09-18 17:26+0300\n"
+"POT-Creation-Date: 2022-10-03 00:50+0000\n"
+"PO-Revision-Date: 2022-10-02 13:03+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 22.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -60,63 +60,50 @@ msgid "&Next"
 msgstr "&Sonraki"
 
 #: src/contents/ui/main.qml:137
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "KDE ile Kullanım Bilgisi Paylaşım"
+msgstr "KDE ile Anonim Kullanım Bilgisi Paylaş"
 
 #: src/contents/ui/main.qml:138
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-
-#: src/contents/ui/main.qml:152
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
-msgctxt "@title: window"
-msgid "Connect Your Online Accounts"
-msgstr "Çevrimiçi Hesaplarınıza Bağlanma"
-
-#: src/contents/ui/main.qml:153
 #, fuzzy, kde-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#| "Our developers will use this anonymous data to improve KDE software. You "
+#| "choose how much to share in System Settings, and here too."
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Geliştiricilerimiz, anonim sistem verisiyle KDE yazılımlarını "
+"iyileştirirler. Ne kadar veri paylaşabileceğinizi hem burada hem de Sistem "
+"Ayarları'nda belirtebilirsiniz."
+
+#: src/contents/ui/main.qml:152
+#, kde-format
+msgctxt "@title: window"
+msgid "Connect Your Online Accounts"
+msgstr "Çevrimiçi Hesaplarınızı Bağlayın"
+
+#: src/contents/ui/main.qml:153
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Sistem Ayarları'nda, çevrimiçi hesaplarınıza bağlanma ayarlarını ve KDE "
-"uygulamaların içeriklerine ulaşıp ulaşamayacağını seçebilirsiniz. Aynı "
-"ayarı, buradan yapmak da olanaklıdır."
+"Bu, içeriğine KDE uygulamalarında erişmenize izin verir. Ayarları hem burada "
+"hem de Sistem Ayarları'nda yapabilirsiniz."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Katkıda Bulunma"
+msgstr "Katkıda Bulunun"
 
 #: src/contents/ui/pages/Contribute.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
-#| "something special, meet new friends, learn new skills, and make a "
-#| "difference to millions while working with people from around the globe to "
-#| "deliver a stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE's software is made by people like you--mostly volunteers. That means you "
@@ -143,12 +130,10 @@ msgid "Start Contributing!"
 msgstr "Katkıda Bulunmaya Başlayın!"
 
 #: src/contents/ui/pages/Discover.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "Yazılım Yönetimi"
+msgstr "Yazılımları Yönetin"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -210,12 +195,10 @@ msgid "Make a donation"
 msgstr "Bağış Yap"
 
 #: src/contents/ui/pages/Network.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "İnternete Erişim"
+msgstr "İnternete Erişin"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-kuit-format
@@ -260,12 +243,10 @@ msgid "Help work on the next release"
 msgstr "Bir sonraki yayıma yardımcı olun"
 
 #: src/contents/ui/pages/SystemSettings.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
-msgstr "Sisteminizi Kişiselleştirme"
+msgstr "Sisteminizi Kişiselleştirin"
 
 #: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
@@ -297,13 +278,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "KDE Plasma'ya Hoş Geldiniz"
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done. "
-#| "Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -314,7 +289,7 @@ msgstr ""
 "KDE Plasma, dünyanın dört bir yanından gönüllüler tarafından yapılmış, "
 "ücretsiz ve açık kaynaklı bir masaüstü ortamıdır. Pürüzsüz bir deneyim için "
 "öntanımlı ayarları yalındır; ancak üretken olmanız gerekiyorsa tümüyle "
-"güçlüdür. KDE Topluluğu'na hoş geldiniz!"
+"güçlüdür.<nl/><nl/>KDE Topluluğu'na hoş geldiniz!"
 
 #: src/contents/ui/pages/Welcome.qml:28
 #, kde-format

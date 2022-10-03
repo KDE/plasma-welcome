@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-02 00:48+0000\n"
+"POT-Creation-Date: 2022-10-03 00:50+0000\n"
 "PO-Revision-Date: 2022-09-23 09:56+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -70,12 +70,18 @@ msgid "Share Anonymous Usage Information With KDE"
 msgstr "Udostępnianie sposobu używania dla KDE"
 
 #: src/contents/ui/main.qml:138
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "In System Settings, you can connect to your online accounts and access "
+#| "their content in KDE apps. You can set it up right now, too."
 msgctxt "@info:usagetip"
 msgid ""
-"Our developers will use this anonymous data to improve KDE software. You "
+"Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"W ustawieniach systemowych możesz podłączyć swoje konta sieciowe i pobrać "
+"ich treści w aplikacjach KDE. Możesz je ustawić także teraz."
 
 #: src/contents/ui/main.qml:152
 #, fuzzy, kde-format

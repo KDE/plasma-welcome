@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-02 00:48+0000\n"
+"POT-Creation-Date: 2022-10-03 00:50+0000\n"
 "PO-Revision-Date: 2022-09-21 07:25+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -73,12 +73,18 @@ msgid "Share Anonymous Usage Information With KDE"
 msgstr "Skupna raba podatkov o uporabi s KDE"
 
 #: src/contents/ui/main.qml:138
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "In System Settings, you can connect to your online accounts and access "
+#| "their content in KDE apps. You can set it up right now, too."
 msgctxt "@info:usagetip"
 msgid ""
-"Our developers will use this anonymous data to improve KDE software. You "
+"Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"V sistemskih nastavitvah se lahko povežete z spletnimi računi in dostopate "
+"do njihove vsebine v aplikacijah KDE. Tudi takoj jih lahko nastavite."
 
 #: src/contents/ui/main.qml:152
 #, fuzzy, kde-format

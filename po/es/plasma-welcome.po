@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-02 00:48+0000\n"
-"PO-Revision-Date: 2022-09-18 18:24+0200\n"
+"POT-Creation-Date: 2022-10-03 00:50+0000\n"
+"PO-Revision-Date: 2022-10-02 12:05+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -62,63 +62,50 @@ msgid "&Next"
 msgstr "&Siguiente"
 
 #: src/contents/ui/main.qml:137
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "Compartir información de uso con KDE"
+msgstr "Compartir información de uso anónimo con KDE"
 
 #: src/contents/ui/main.qml:138
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Our developers will use this anonymous data to improve KDE software. You "
+#| "choose how much to share in System Settings, and here too."
 msgctxt "@info:usagetip"
 msgid ""
-"Our developers will use this anonymous data to improve KDE software. You "
+"Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"Nuestros desarrolladores usarán estos datos anónimos para mejorar el "
+"software de KDE. Puede elegir cuánto se comparte en las «Preferencias del "
+"sistema» y también aquí."
 
 #: src/contents/ui/main.qml:152
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Conectar sus cuentas en línea"
 
 #: src/contents/ui/main.qml:153
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"En las preferencias del sistema puede conectarse a sus cuentas en línea y "
-"acceder a su contenido con las aplicaciones de KDE. También puede "
-"configurarlas ahora mismo."
+"Esto le permitirá acceder a su contenido en las aplicaciones de KDE. Puede "
+"configurarlas en las «Preferencias del sistema» y también aquí."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
 msgstr "Cómo involucrarse"
 
 #: src/contents/ui/pages/Contribute.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
-#| "something special, meet new friends, learn new skills, and make a "
-#| "difference to millions while working with people from around the globe to "
-#| "deliver a stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE's software is made by people like you--mostly volunteers. That means you "
@@ -133,7 +120,7 @@ msgstr ""
 "voluntarias). Esto significa que usted puede ayudarnos a mejorar. Existen "
 "muchas formas de colaborar en labores tan diversas como la clasificación de "
 "errores, la traducción, el diseño visual y la promoción.<nl/><nl/>Al "
-"contribuir con KDE se convertirá en parte de algo especial, hará nuevas "
+"contribuir con KDE, se convierte en parte de algo especial, hará nuevas "
 "amistades, aprenderá nuevas habilidades y marcará la diferencia para "
 "millones mientras trabaja con personas de todo el mundo para ofrecer una "
 "impresionante experiencia informática de software libre."
@@ -145,9 +132,7 @@ msgid "Start Contributing!"
 msgstr "Empezar a colaborar"
 
 #: src/contents/ui/pages/Discover.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Gestión de software"
@@ -212,12 +197,10 @@ msgid "Make a donation"
 msgstr "Hacer un donativo"
 
 #: src/contents/ui/pages/Network.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "Acceder a Internet"
+msgstr "Acceso a Internet"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-kuit-format
@@ -263,12 +246,10 @@ msgid "Help work on the next release"
 msgstr "Ayudar a trabajar en la próxima versión"
 
 #: src/contents/ui/pages/SystemSettings.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
-msgstr "Personalización del sistema"
+msgstr "Personalizar el sistema"
 
 #: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
@@ -300,13 +281,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "¡Bienvenido a KDE Plasma!"
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done. "
-#| "Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -317,7 +292,7 @@ msgstr ""
 "KDE Plasma es un entorno de escritorio libre y de código abierto creado por "
 "voluntarios de todo el mundo. Es simple de forma predeterminada para que "
 "tenga una experiencia fluida, aunque potente cuando es necesario para "
-"ayudarlo realmente a hacer cosas. ¡Bienvenido a la Comunidad KDE!"
+"ayudarlo realmente a hacer cosas.<nl/><nl/>¡Bienvenido a la Comunidad KDE!"
 
 #: src/contents/ui/pages/Welcome.qml:28
 #, kde-format

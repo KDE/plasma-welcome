@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-02 00:48+0000\n"
-"PO-Revision-Date: 2022-09-19 19:38+0400\n"
+"POT-Creation-Date: 2022-10-03 00:50+0000\n"
+"PO-Revision-Date: 2022-10-02 18:31+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -65,62 +65,49 @@ msgid "&Next"
 msgstr "ال&تالي"
 
 #: src/contents/ui/main.qml:137
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "مشاركة معلومات الاستخدام مع كدي"
+msgstr "مشاركة معلومات الاستخدام بشكل مجهول مع كدي"
 
 #: src/contents/ui/main.qml:138
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-
-#: src/contents/ui/main.qml:152
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
-msgctxt "@title: window"
-msgid "Connect Your Online Accounts"
-msgstr "أضف حساباتك على الإنترنت"
-
-#: src/contents/ui/main.qml:153
 #, fuzzy, kde-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#| "Our developers will use this anonymous data to improve KDE software. You "
+#| "choose how much to share in System Settings, and here too."
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"سيستعمل مطورونا البيانات المجهولة في تحسين تطبيقات كدي. بإمكانك اختيار ما "
+"تريد مشاركته من إعدادات النظام ويمكنك إعداده الآن أيضًا."
+
+#: src/contents/ui/main.qml:152
+#, kde-format
+msgctxt "@title: window"
+msgid "Connect Your Online Accounts"
+msgstr "اتصل بحساباتك على الإنترنت"
+
+#: src/contents/ui/main.qml:153
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"في إعدادات النظام، يمكنك الاتصال بحساباتك عبر الإنترنت والوصول إلى محتواها "
-"في تطبيقات كدي. يمكنك إعداده الآن أيضًا."
+"سيمكنك هذا من جعل تطبيقات كدي تصل إلى محتوياتها. يمكنك إعدادها في إعدادات "
+"النظام ويمكنك إعداده الآن أيضًا."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "المشاركة"
+msgstr "شاركنا"
 
 #: src/contents/ui/pages/Contribute.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
-#| "something special, meet new friends, learn new skills, and make a "
-#| "difference to millions while working with people from around the globe to "
-#| "deliver a stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE's software is made by people like you--mostly volunteers. That means you "
@@ -145,12 +132,10 @@ msgid "Start Contributing!"
 msgstr "ابدأ بالمساهمة"
 
 #: src/contents/ui/pages/Discover.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "إدارة التطبيقات"
+msgstr "أدر التطبيقات"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -210,12 +195,10 @@ msgid "Make a donation"
 msgstr "تبرّع"
 
 #: src/contents/ui/pages/Network.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "الوصول إلى الإنترنت"
+msgstr "اتصل بالإنترنت"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-kuit-format
@@ -260,12 +243,10 @@ msgid "Help work on the next release"
 msgstr "ساعد في الإصدارة القادمة"
 
 #: src/contents/ui/pages/SystemSettings.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
-msgstr "تخصيص نظامك"
+msgstr "خصص نظامك"
 
 #: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
@@ -296,13 +277,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "مرحبا بك في سطح مكتب بلازما!"
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done. "
-#| "Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -311,7 +286,7 @@ msgid ""
 "the KDE Community!"
 msgstr ""
 "كدي بلازما هي بيئة سطح مكتب مجانية ومفتوحة المصدر صنعها المتطوعون في جميع "
-"أنحاء العالم. بسيطة ولكن قوية عن الحاجة. مرحبًا بك في مجتمع كدي!"
+"أنحاء العالم. بسيطة ولكن قوية عن الحاجة. <nl/><nl/>مرحبًا بك في مجتمع كدي!"
 
 #: src/contents/ui/pages/Welcome.qml:28
 #, kde-format

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-02 00:48+0000\n"
-"PO-Revision-Date: 2022-09-19 12:09+0200\n"
+"POT-Creation-Date: 2022-10-03 00:50+0000\n"
+"PO-Revision-Date: 2022-10-02 23:03+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -60,63 +60,49 @@ msgid "&Next"
 msgstr "V&olgende"
 
 #: src/contents/ui/main.qml:137
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "Gebruiksinformatie delen met KDE"
+msgstr "Anonieme gebruiksinformatie delen met KDE"
 
 #: src/contents/ui/main.qml:138
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Our developers will use this anonymous data to improve KDE software. You "
+#| "choose how much to share in System Settings, and here too."
 msgctxt "@info:usagetip"
 msgid ""
-"Our developers will use this anonymous data to improve KDE software. You "
+"Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"Onze ontwikkelaars zullen deze anonieme gegevens gebruiken om KDE software "
+"te verbeteren. U kiest hoeveel u deelt in Systeeminstellingen en ook hier."
 
 #: src/contents/ui/main.qml:152
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Uw online accounts verbinden"
 
 #: src/contents/ui/main.qml:153
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"In systeeminstellingen kunt u verbinden met uw online accounts en toegang "
-"krijgen tot hun inhoud in KDE toepassingen. U kunt dit nu ook direct "
-"opzetten."
+"Dit geeft u toegang tot hun inhoud in KDE toepassingen. U kunt het instellen "
+"in Systeeminstellingen en ook hier."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Meewerken"
+msgstr "Doe mee"
 
 #: src/contents/ui/pages/Contribute.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
-#| "something special, meet new friends, learn new skills, and make a "
-#| "difference to millions while working with people from around the globe to "
-#| "deliver a stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE's software is made by people like you--mostly volunteers. That means you "
@@ -143,9 +129,7 @@ msgid "Start Contributing!"
 msgstr "Begin met bijdragen!"
 
 #: src/contents/ui/pages/Discover.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Software beheren"
@@ -210,9 +194,7 @@ msgid "Make a donation"
 msgstr "Doe een donatie"
 
 #: src/contents/ui/pages/Network.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Toegang tot het internet"
@@ -261,9 +243,7 @@ msgid "Help work on the next release"
 msgstr "Help met het werk aan de volgende uitgave"
 
 #: src/contents/ui/pages/SystemSettings.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
 msgstr "Uw systeem personaliseren"
@@ -298,13 +278,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Welkom bij KDE Plasma!"
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done. "
-#| "Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -315,7 +289,7 @@ msgstr ""
 "KDE Plasma is een vrije en open-source bureaubladomgeving gemaakt door "
 "vrijwilligers van over de gehele wereld. Het is standaard eenvoudig voor een "
 "gladde ervaring, maar krachtig wanneer nodig om u te echt helpen dingen "
-"gedaan te krijgen. Welkom in de KDE-gemeenschap!"
+"gedaan te krijgen.<nl/><nl/>Welkom in de KDE-gemeenschap!"
 
 #: src/contents/ui/pages/Welcome.qml:28
 #, kde-format
