@@ -75,12 +75,12 @@ int main(int argc, char *argv[])
     // Parse CLI args
     QCommandLineParser parser;
     parser.setApplicationDescription(description);
-    parser.addHelpOption();
-    parser.addVersionOption();
+    aboutData.setupCommandLine(&parser);
     parser.addOption(QCommandLineOption(QStringLiteral("after-upgrade-to"),
                                         i18n("Version number of the Plasma release to display release notes for, e.g. 5.25"),
                                         QStringLiteral("version number")));
     parser.process(app);
+    aboutData.processCommandLine(&parser);
     QString versionNumber;
     if (parser.isSet(QStringLiteral("after-upgrade-to"))) {
         versionNumber = parser.value(QStringLiteral("after-upgrade-to"));
