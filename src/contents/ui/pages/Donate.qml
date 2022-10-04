@@ -11,7 +11,7 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
 GenericPage {
-    heading: i18nc("@title:window", "Freedom Isn't Free")
+    heading: i18nc("@title:window", "Support Your Freedom")
     description: xi18nc("@info:usagetip", "KDE operates on a shoestring budget, relying largely on donations of labor and resources. You can help change that!<nl/><nl/>Financial donations help KDE pay for development sprints, hardware and server resources, and expanded employment. Donations are tax-deductible in Germany.")
 
     topContent: [
