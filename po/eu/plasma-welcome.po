@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-03 00:50+0000\n"
-"PO-Revision-Date: 2022-10-02 07:50+0200\n"
+"PO-Revision-Date: 2022-10-03 07:28+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -69,18 +69,14 @@ msgid "Share Anonymous Usage Information With KDE"
 msgstr "Erabileraren informazio anonimoa KDErekin partekatzea"
 
 #: src/contents/ui/main.qml:138
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Our developers will use this anonymous data to improve KDE software. You "
-#| "choose how much to share in System Settings, and here too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
 "Gure garatzaileek datu anonimo hauek KDE softwarea hobetzeko erabiliko dute. "
-"Aukeratu zenbat partekatu Sistema-ezarpenetan, eta baita hemen ere."
+"Sistema-ezarpenetan zenbat partekatu aukera dezakezu, baita hemen ere."
 
 #: src/contents/ui/main.qml:152
 #, kde-format

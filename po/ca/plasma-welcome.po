@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-03 00:50+0000\n"
-"PO-Revision-Date: 2022-10-02 10:26+0200\n"
+"PO-Revision-Date: 2022-10-03 10:24+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -69,19 +69,15 @@ msgid "Share Anonymous Usage Information With KDE"
 msgstr "Compartir la informació anònima d'ús amb KDE"
 
 #: src/contents/ui/main.qml:138
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Our developers will use this anonymous data to improve KDE software. You "
-#| "choose how much to share in System Settings, and here too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
 "Els nostres desenvolupadors utilitzaran aquestes dades anònimes per a "
-"millorar el programari de KDE. Trieu quant voleu compartir a l'Arranjament "
-"del sistema, i també aquí."
+"millorar el programari de KDE. Podeu triar quant voleu compartir a "
+"l'Arranjament del sistema, i també aquí."
 
 #: src/contents/ui/main.qml:152
 #, kde-format

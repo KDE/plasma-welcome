@@ -2,14 +2,15 @@
 # Copyright (C) 2022 KDE.
 # This file is distributed under the same license as the welcome-app package.
 #
-# Martin Srebotnjak <miles@filmsi.net>, 2022.
 #
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-03 00:50+0000\n"
-"PO-Revision-Date: 2022-09-21 07:25+0200\n"
+"PO-Revision-Date: 2022-10-03 07:52+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Lokalize 22.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -65,68 +66,50 @@ msgid "&Next"
 msgstr "&Naprej"
 
 #: src/contents/ui/main.qml:137
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "Skupna raba podatkov o uporabi s KDE"
+msgstr "Deli anonimne podatke o uporabi s KDE"
 
 #: src/contents/ui/main.qml:138
 #, fuzzy, kde-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#| "Our developers will use this anonymous data to improve KDE software. You "
+#| "choose how much to share in System Settings, and here too."
 msgctxt "@info:usagetip"
 msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"V sistemskih nastavitvah se lahko povežete z spletnimi računi in dostopate "
-"do njihove vsebine v aplikacijah KDE. Tudi takoj jih lahko nastavite."
+"Naši razvijalci bodo te anonimne podatke uporabili za izboljšanje programske "
+"opreme KDE. Izberite, koliko podatkov lahko delite v sistemskih nastavitvah "
+"in tudi tukaj."
 
 #: src/contents/ui/main.qml:152
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr "Povezovanje vaših spletnih računov"
+msgstr "Poveže vaše spletne račune"
 
 #: src/contents/ui/main.qml:153
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"V sistemskih nastavitvah se lahko povežete z spletnimi računi in dostopate "
-"do njihove vsebine v aplikacijah KDE. Tudi takoj jih lahko nastavite."
+"To vam bo omogočilo dostop do njihovih vsebin v aplikacijah KDE. To lahko "
+"nastavite v Sistemskih nastavitvah in tudi tukaj."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Kako sodelovati"
+msgstr "Bodite vpleteni"
 
 #: src/contents/ui/pages/Contribute.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
-#| "something special, meet new friends, learn new skills, and make a "
-#| "difference to millions while working with people from around the globe to "
-#| "deliver a stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE's software is made by people like you--mostly volunteers. That means you "
@@ -137,11 +120,11 @@ msgid ""
 "millions while working with people from around the globe to deliver a "
 "stunning free software computing experience."
 msgstr ""
-"Programsko opremo KDE pripravljajo ljudje, kot ste vi, večinoma "
-"prostovoljci. To pomeni, da jo lahko pomagate narediti še boljšo! Na več "
-"načinov lahko prispevate k temam, ki so raznolike, kot so opredeljevanje "
-"hroščev, programiranje, prevajanje, grafično oblikovanje in promocija.<nl/"
-"><nl/>S prispevanjem h KDE boste postali del nečesa posebnega, spoznali nove "
+"Programsko opremo KDE izdelujejo ljudje kot vi - večinoma prostovoljci. To "
+"pomeni, da jo lahko pomagate narediti še boljšo! Na več načinov lahko "
+"prispevate k temam, ki so raznolike, kot so opredeljevanje hroščev, "
+"programiranje, prevajanje, grafično oblikovanje in promocija.<nl/><nl/>S "
+"prispevanjem h KDE boste postali del nečesa posebnega, spoznali nove "
 "prijatelje, se priučili novih spretnosti in naredili razliko za milijone "
 "uporabnikov, ob tem ko boste delali z ljudmi s celega sveta, da bi "
 "zagotovili osupljivo računalniško izkušnjo s prosto programsko opremo."
@@ -153,9 +136,7 @@ msgid "Start Contributing!"
 msgstr "Začnite prispevati!"
 
 #: src/contents/ui/pages/Discover.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Upravljanje programske opreme"
@@ -219,9 +200,7 @@ msgid "Make a donation"
 msgstr "Donirajte"
 
 #: src/contents/ui/pages/Network.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Dostop do interneta"
@@ -270,12 +249,10 @@ msgid "Help work on the next release"
 msgstr "Sodelujte pri naslednji izdaji"
 
 #: src/contents/ui/pages/SystemSettings.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
-msgstr "Poosebite sistem"
+msgstr "Prilagodite sistem prav vam"
 
 #: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
@@ -307,13 +284,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Dobrodošli v KDE Plasma!"
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done. "
-#| "Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -323,8 +294,8 @@ msgid ""
 msgstr ""
 "KDE Plasma je prosto in odprtokodno namizno okolje, ki so ga ustvarili "
 "prostovoljci s celega sveta. Privzeto je preprosto za prijetno izkušnjo, "
-"vendar sposobno, ko je potrebno, da vam pomaga resnično opraviti stvari. "
-"Dobrodošli v skupnosti KDE!"
+"vendar sposobno, ko je potrebno, da vam pomaga resnično opraviti stvari.<nl/"
+"><nl/>Dobrodošli v skupnosti KDE!"
 
 #: src/contents/ui/pages/Welcome.qml:28
 #, kde-format

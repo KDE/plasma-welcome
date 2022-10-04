@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-03 00:50+0000\n"
-"PO-Revision-Date: 2022-09-23 23:10+0300\n"
+"PO-Revision-Date: 2022-10-03 10:08+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -21,12 +21,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Александр Яворский"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "kekcuha@gmail.com"
 
 #: src/contents/ui/main.qml:51
 #, kde-format
@@ -41,13 +41,14 @@ msgid "&Back"
 msgstr "&Назад"
 
 #: src/contents/ui/main.qml:68
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
 msgid_plural "Page %1 of %2"
 msgstr[0] "Страница %1 из %2"
 msgstr[1] "Страница %1 из %2"
 msgstr[2] "Страница %1 из %2"
+msgstr[3] "Страница %1 из %2"
 
 #: src/contents/ui/main.qml:76
 #, kde-format
@@ -65,7 +66,7 @@ msgstr "&Далее"
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr ""
+msgstr "Передача статистики использования приложений в KDE"
 
 #: src/contents/ui/main.qml:138
 #, kde-format
@@ -74,12 +75,15 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"Приложение «Параметры системы» позволяет включить передачу обезличенных "
+"статистических сведений об используемых приложениях разработчикам KDE. "
+"Включить или отключить передачу этих сведений также возможно прямо сейчас."
 
 #: src/contents/ui/main.qml:152
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr ""
+msgstr "Подключение учётных записей"
 
 #: src/contents/ui/main.qml:153
 #, kde-format
@@ -88,14 +92,15 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
+"Приложение «Параметры системы» позволяет подключить свои учётные записи "
+"различных служб, размещённых в интернете. Настроить эти параметры также "
+"возможно прямо сейчас."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Принять участие"
+msgstr "Присоединиться к команде"
 
 #: src/contents/ui/pages/Contribute.qml:15
 #, kde-kuit-format
@@ -109,17 +114,24 @@ msgid ""
 "millions while working with people from around the globe to deliver a "
 "stunning free software computing experience."
 msgstr ""
+"Приложения KDE, в основном, разрабатываются волонтёрами — такими же людьми, "
+"как и вы. Это означает, что вы тоже можете помочь сделать их лучше! "
+"Существует множество способов присоединиться и помочь:  упорядочивать "
+"сообщения об ошибках, программировать, переводить, разрабатывать интерфейсы "
+"или принять участие в продвижении проекта.<nl/><nl/>Приняв участие в проекте "
+"KDE, вы станете частью сообщества, сможете встретить новых друзей, овладеть "
+"новыми навыками, а также изменить мир к лучшему для миллионов людей, "
+"участвуя в создании потрясающего бесплатного программного обеспечения "
+"наравне с остальными участниками со всего мира."
 
 #: src/contents/ui/pages/Contribute.qml:20
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr ""
+msgstr "Принять участие"
 
 #: src/contents/ui/pages/Discover.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Управление приложениями"
@@ -158,7 +170,7 @@ msgstr "Открыть %1 в Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Freedom Isn't Free"
-msgstr ""
+msgstr "Свобода не бесплатна"
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-kuit-format
@@ -169,19 +181,24 @@ msgid ""
 "KDE pay for development sprints, hardware and server resources, and expanded "
 "employment. Donations are tax-deductible in Germany."
 msgstr ""
+"KDE использует ограниченный бюджет, в основном полагаясь на пожертвования "
+"рабочей силы и ресурсов. Вы можете помочь изменить это!<nl/><nl/>Финансовые "
+"пожертвования помогают KDE оплачивать спринты разработки, оборудование и "
+"серверные ресурсы, а также нанимать больше сотрудников. Пожертвования не "
+"облагаются налогом в Германии."
 
 #: src/contents/ui/pages/Donate.qml:20
 #: src/contents/ui/pages/PlasmaUpdate.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr ""
+msgstr "Сделать пожертвование"
 
 #: src/contents/ui/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr ""
+msgstr "Доступ в интернет"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-kuit-format
@@ -192,12 +209,16 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
+"Для настройки подключения к интернету и управления сетевыми подключениями "
+"служит виджет <interface>Сети</interface>, который открывается после нажатия "
+"на значок <interface>Сетевые подключения</interface> в <interface>системном "
+"лотке</interface> в правом нижнем углу экрана."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr ""
+msgstr "Plasma была обновлена до версии %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -206,26 +227,27 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"Участники KDE последние четыре месяца усердно работали над этим выпуском "
+"Plasma. Мы надеемся, что использование этого выпуска доставит вам "
+"удовольствие!"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr ""
+msgstr "Узнать о новшествах в Plasma %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr ""
+msgstr "Помочь подготовке следующего выпуска"
 
 #: src/contents/ui/pages/SystemSettings.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
-msgstr "Персонализация"
+msgstr "Персонализация системы"
 
 #: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
@@ -264,6 +286,10 @@ msgid ""
 "powerful when needed to help you really get things done.<nl/><nl/>Welcome to "
 "the KDE Community!"
 msgstr ""
+"KDE Plasma — бесплатное окружение рабочего стола с открытым исходным кодом, "
+"разрабатываемое добровольными участниками со всего мира. Простое по "
+"умолчанию, но обладающее мощными возможностями настройки для решения сложных "
+"задач.<nl/><nl/>Добро пожаловать в сообщество KDE!"
 
 #: src/contents/ui/pages/Welcome.qml:28
 #, kde-format
@@ -275,7 +301,7 @@ msgstr "Талисман Konqi"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr ""
+msgstr "Приложение первого запуска KDE Plasma"
 
 #: src/main.cpp:49
 #, kde-format
@@ -287,7 +313,7 @@ msgstr "Добро пожаловать в KDE Plasma"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
-msgstr ""
+msgstr "© 2021"
 
 #: src/main.cpp:58
 #, kde-format
@@ -311,4 +337,4 @@ msgstr "Nate Graham"
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr ""
+msgstr "Отображаемый в заметках о выпуске номер версии Plasma, например: 5.25"

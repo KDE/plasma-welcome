@@ -1,70 +1,70 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Shinjo Park <kde@peremen.name>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-03 00:50+0000\n"
-"PO-Revision-Date: 2022-10-03 05:29+0200\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
-"Language: ka\n"
+"PO-Revision-Date: 2022-10-03 16:18+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-i18n-doc@kde.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Temuri Doghonadze"
+msgstr "박신조"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "Temuri.doghonadze@gmail.com"
+msgstr "kde@peremen.name"
 
 #: src/contents/ui/main.qml:51
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
-msgstr "გამო&ტოვება"
+msgstr "건너뛰기(&S)"
 
 #: src/contents/ui/main.qml:51
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
-msgstr "&უკან"
+msgstr "뒤로(&B)"
 
 #: src/contents/ui/main.qml:68
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
 msgid_plural "Page %1 of %2"
-msgstr[0] "გვერდი %1 %2-დან"
-msgstr[1] "გვერდი %1 %2-დან"
+msgstr[0] "%2쪽 중 %1쪽"
 
 #: src/contents/ui/main.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
-msgstr "&დასრულება"
+msgstr "완료(&F)"
 
 #: src/contents/ui/main.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr "&შემდეგი"
+msgstr "다음(&N)"
 
 #: src/contents/ui/main.qml:137
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Sharing Usage Information With KDE"
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "გამოყენების ანონიმური ინფორმაციის გაზიარება KDE-სთან"
+msgstr "KDE와 사용 정보 공유"
 
 #: src/contents/ui/main.qml:138
 #, kde-format
@@ -75,24 +75,34 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/main.qml:152
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Connecting Your Online Accounts"
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr "თქვენი ონლაინ ანგარიშების დამატება"
+msgstr "내 온라인 계정 연결"
 
 #: src/contents/ui/main.qml:153
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "In System Settings, you can connect to your online accounts and access "
+#| "their content in KDE apps. You can set it up right now, too."
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
+"시스템 설정에서 온라인 계정과 연결하고 KDE 앱에서 콘텐츠에 접근할 수 있습니"
+"다. 여기에서도 설정할 수 있습니다."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Getting Involved"
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "შემოგვიერთდით"
+msgstr "참여하기"
 
 #: src/contents/ui/pages/Contribute.qml:15
 #, kde-kuit-format
@@ -111,13 +121,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr "დაიწყეთ წვლილის შეტანა!"
+msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "პროგრამების მართვა"
+msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -132,25 +142,25 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr "გაუშვით Discover ახლა"
+msgstr "Discover 실행"
 
 #: src/contents/ui/pages/Discover.qml:56
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
-msgstr "აღმოაჩინეთ"
+msgstr "Discover"
 
 #: src/contents/ui/pages/Discover.qml:121
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr "%1-ის Discover-ში ჩვენება"
+msgstr "Discover에 %1 표시"
 
 #: src/contents/ui/pages/Donate.qml:14
 #, kde-format
 msgctxt "@title:window"
 msgid "Freedom Isn't Free"
-msgstr "თავისუფლება უფასო არაა"
+msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-kuit-format
@@ -167,13 +177,15 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "გააკეთეთ შემოწირულობა"
+msgstr "기부하기"
 
 #: src/contents/ui/pages/Network.qml:19
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Accessing the Internet"
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "ინტერნეტთან წვდომა"
+msgstr "인터넷에 연결"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-kuit-format
@@ -189,7 +201,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr "Plasma განახლდა ვერსიამდე %1"
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -203,19 +215,19 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr "გაიგეთ, რა არის ახალი Plasma %1-ში"
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr "დაგვეხმარეთ შემდეგი რელიზზე მუშაობაში"
+msgstr ""
 
 #: src/contents/ui/pages/SystemSettings.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
-msgstr "მოირგეთ თქვენი სისტემა"
+msgstr ""
 
 #: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
@@ -229,19 +241,19 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr "სისტემის მორგების ახლა გაშვება"
+msgstr ""
 
 #: src/contents/ui/pages/SystemSettings.qml:55
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
-msgstr "სისტემის მორგება"
+msgstr "시스템 설정"
 
 #: src/contents/ui/pages/Welcome.qml:14
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
-msgstr "მოგესალმებით KDE Plasma-სთან!"
+msgstr ""
 
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-kuit-format
@@ -257,46 +269,54 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Konqi, the KDE mascot"
-msgstr "Konqi, KDE -ის მასკოტი"
+msgstr ""
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr "მისალმების აპი KDE Plasma-სთვის"
+msgstr ""
 
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
-msgstr "მოგესალმებით KDE Plasma-ში"
+msgstr ""
 
 #: src/main.cpp:57
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
-msgstr "(c) 2021"
+msgstr ""
 
 #: src/main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr ""
 
 #: src/main.cpp:59 src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "ავტორი"
+msgstr ""
 
 #: src/main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
-msgstr "Nate Graham"
+msgstr ""
 
 #: src/main.cpp:81
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "In System Settings, you can choose to share anonymous usage information "
+#~ "with KDE. You can make that choice here, too."
+#~ msgstr ""
+#~ "시스템 설정에서 KDE와 익명화된 사용 정보를 공유할지 여부를 선택할 수 있습"
+#~ "니다. 여기에서도 옵션을 선택할 수 있습니다."

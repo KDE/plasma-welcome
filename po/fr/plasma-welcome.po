@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-03 00:50+0000\n"
-"PO-Revision-Date: 2022-09-24 14:24+0200\n"
+"PO-Revision-Date: 2022-10-02 18:51+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -149,12 +149,10 @@ msgid "Start Contributing!"
 msgstr "Démarrer votre contribution !"
 
 #: src/contents/ui/pages/Discover.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "Gestion des logiciels"
+msgstr "Gérer des logiciels"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -216,12 +214,10 @@ msgid "Make a donation"
 msgstr "Faire un don"
 
 #: src/contents/ui/pages/Network.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "Accès à Internet"
+msgstr "Accéder à Internet"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-kuit-format
@@ -267,12 +263,10 @@ msgid "Help work on the next release"
 msgstr "Aider les travaux pour la prochaine version"
 
 #: src/contents/ui/pages/SystemSettings.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
-msgstr "Personnalisation de votre système"
+msgstr "Personnaliser votre système"
 
 #: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
@@ -304,13 +298,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Bienvenue dans KDE Plasma !"
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done. "
-#| "Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -321,7 +309,7 @@ msgstr ""
 "KDE Plasma est un environnement de bureau gratuit et « Open-source », créé "
 "par des volontaires du monde entier. Il est simple par défaut pour une "
 "expérience fluide, mais puissant quand il le faut pour vous aider à "
-"accomplir vos tâches. Bienvenue dans la communauté KDE !"
+"accomplir vos tâches.<nl/><nl/>Bienvenue dans la communauté KDE !"
 
 #: src/contents/ui/pages/Welcome.qml:28
 #, kde-format
