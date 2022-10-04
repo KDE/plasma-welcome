@@ -17,13 +17,13 @@
 #include "controller.h"
 #include "plasma-welcome-version.h"
 
+#include "about.h"
+#include "module.h"
 #include <KAboutData>
 #include <KDBusService>
 #include <KLocalizedContext>
 #include <KLocalizedString>
 #include <KWindowSystem>
-#include "about.h"
-#include "module.h"
 
 int main(int argc, char *argv[])
 {

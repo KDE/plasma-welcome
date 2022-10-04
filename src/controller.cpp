@@ -13,11 +13,11 @@
 #include "controller.h"
 
 #include <KIO/ApplicationLauncherJob>
-#include <NetworkManagerQt/Manager>
 #include <KNotificationJobUiDelegate>
 #include <KService>
+#include <NetworkManagerQt/Manager>
 
-void Controller::open(const QString& program)
+void Controller::open(const QString &program)
 {
     auto *job = new KIO::ApplicationLauncherJob(KService::serviceByDesktopName(program));
     job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
@@ -29,7 +29,7 @@ bool Controller::networkAlreadyConnected()
     return NetworkManager::connectivity() == NetworkManager::Connectivity::Full;
 }
 
-void Controller::setPlasmaUpgradeVersion(const QString& version)
+void Controller::setPlasmaUpgradeVersion(const QString &version)
 {
     if (m_newPlasmaVersion == version) {
         return;
