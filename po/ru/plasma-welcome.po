@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-03 00:50+0000\n"
+"POT-Creation-Date: 2022-10-05 00:48+0000\n"
 "PO-Revision-Date: 2022-10-03 10:08+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -169,8 +169,8 @@ msgstr "Открыть %1 в Discover"
 #: src/contents/ui/pages/Donate.qml:14
 #, kde-format
 msgctxt "@title:window"
-msgid "Freedom Isn't Free"
-msgstr "Свобода не бесплатна"
+msgid "Support Your Freedom"
+msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-kuit-format
@@ -333,8 +333,12 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:81
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr "Отображаемый в заметках о выпуске номер версии Plasma, например: 5.25"
+
+#~ msgctxt "@title:window"
+#~ msgid "Freedom Isn't Free"
+#~ msgstr "Свобода не бесплатна"

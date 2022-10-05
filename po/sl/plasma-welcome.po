@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-03 00:50+0000\n"
+"POT-Creation-Date: 2022-10-05 00:48+0000\n"
 "PO-Revision-Date: 2022-10-03 07:52+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -174,8 +174,8 @@ msgstr "Pokaži %1 v Discover"
 #: src/contents/ui/pages/Donate.qml:14
 #, kde-format
 msgctxt "@title:window"
-msgid "Freedom Isn't Free"
-msgstr "Svoboda ni brezplačna"
+msgid "Support Your Freedom"
+msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-kuit-format
@@ -339,11 +339,15 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:81
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr "Številka različice izdaje Plasma za prikaz opomb ob izdaji, npr. 5.25"
+
+#~ msgctxt "@title:window"
+#~ msgid "Freedom Isn't Free"
+#~ msgstr "Svoboda ni brezplačna"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

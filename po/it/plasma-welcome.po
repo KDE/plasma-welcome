@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-03 00:50+0000\n"
+"POT-Creation-Date: 2022-10-05 00:48+0000\n"
 "PO-Revision-Date: 2022-09-19 09:18+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -190,8 +190,8 @@ msgstr "Mostra %1 in Discover."
 #: src/contents/ui/pages/Donate.qml:14
 #, kde-format
 msgctxt "@title:window"
-msgid "Freedom Isn't Free"
-msgstr "Libero non è gratuito"
+msgid "Support Your Freedom"
+msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-kuit-format
@@ -365,13 +365,17 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:81
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
 "Numero di versione della versione Plasma per visualizzare le note sulla "
 "versione, ad es. 5.25"
+
+#~ msgctxt "@title:window"
+#~ msgid "Freedom Isn't Free"
+#~ msgstr "Libero non è gratuito"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

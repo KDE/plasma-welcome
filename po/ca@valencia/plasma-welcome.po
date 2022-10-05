@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-03 00:50+0000\n"
-"PO-Revision-Date: 2022-10-02 10:26+0200\n"
+"POT-Creation-Date: 2022-10-05 00:48+0000\n"
+"PO-Revision-Date: 2022-10-03 10:24+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -69,18 +69,14 @@ msgid "Share Anonymous Usage Information With KDE"
 msgstr "Compartir la informació anònima d'ús amb KDE"
 
 #: src/contents/ui/main.qml:138
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Our developers will use this anonymous data to improve KDE software. You "
-#| "choose how much to share in System Settings, and here too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
 "Els nostres desenvolupadors utilitzaran estes dades anònimes per a millorar "
-"el programari de KDE. Seleccioneu quant voleu compartir a Configuració del "
+"el programari de KDE. Podeu triar quant voleu compartir a Configuració del "
 "sistema, i també ací."
 
 #: src/contents/ui/main.qml:152
@@ -171,8 +167,8 @@ msgstr "Mostra %1 en Discover"
 #: src/contents/ui/pages/Donate.qml:14
 #, kde-format
 msgctxt "@title:window"
-msgid "Freedom Isn't Free"
-msgstr "La llibertat no és gratuïta"
+msgid "Support Your Freedom"
+msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-kuit-format
@@ -336,10 +332,14 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:81
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
 "Número de versió del llançament de Plasma per a mostrar les notes de la "
 "versió, p. ex. 5.25"
+
+#~ msgctxt "@title:window"
+#~ msgid "Freedom Isn't Free"
+#~ msgstr "La llibertat no és gratuïta"

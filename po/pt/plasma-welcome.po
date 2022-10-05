@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-03 00:50+0000\n"
-"PO-Revision-Date: 2022-09-19 10:49+0100\n"
+"POT-Creation-Date: 2022-10-05 00:48+0000\n"
+"PO-Revision-Date: 2022-10-04 09:56+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -56,70 +56,47 @@ msgid "&Next"
 msgstr "Segui&nte"
 
 #: src/contents/ui/main.qml:137
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "Partilha de Informações de Utilização com o KDE"
+msgstr "Partilha de Informações Anónimas de Utilização com o KDE"
 
 #: src/contents/ui/main.qml:138
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Na Configuração do Sistema, poder-se-á ligar às suas contas 'online' e "
-"aceder aos seus conteúdos nas aplicações do KDE. Também o poderá definir "
-"aqui."
+"Os nossos programas irão usar estes dados anónimos para melhorar as "
+"aplicações do KDE. Poderá escolher quanto deseja partilhar na Configuração "
+"do Sistema ou então aqui."
 
 #: src/contents/ui/main.qml:152
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Ligar-se às Suas Contas 'Online'"
 
 #: src/contents/ui/main.qml:153
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Na Configuração do Sistema, poder-se-á ligar às suas contas 'online' e "
-"aceder aos seus conteúdos nas aplicações do KDE. Também o poderá definir "
+"Isto permite-lhe ligar às suas contas 'online' e aceder aos seus conteúdos "
+"nas aplicações do KDE. Poderá defini-lo na Configuração do Sistema ou então "
 "aqui."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
 msgstr "Envolver-se"
 
 #: src/contents/ui/pages/Contribute.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
-#| "something special, meet new friends, learn new skills, and make a "
-#| "difference to millions while working with people from around the globe to "
-#| "deliver a stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE's software is made by people like you--mostly volunteers. That means you "
@@ -146,9 +123,7 @@ msgid "Start Contributing!"
 msgstr "Começar a Contribuir!"
 
 #: src/contents/ui/pages/Discover.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Gerir as Aplicações"
@@ -186,8 +161,8 @@ msgstr "Mostrar o %1 no Discover"
 #: src/contents/ui/pages/Donate.qml:14
 #, kde-format
 msgctxt "@title:window"
-msgid "Freedom Isn't Free"
-msgstr "A Liberdade não é Gratuita"
+msgid "Support Your Freedom"
+msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-kuit-format
@@ -212,9 +187,7 @@ msgid "Make a donation"
 msgstr "Fazer uma doação"
 
 #: src/contents/ui/pages/Network.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Aceder à Internet"
@@ -263,9 +236,7 @@ msgid "Help work on the next release"
 msgstr "Ajudar no trabalho para a próxima versão"
 
 #: src/contents/ui/pages/SystemSettings.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
 msgstr "Personalizar o seu Sistema"
@@ -300,13 +271,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Bem-vindo ao Plasma do KDE!"
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done. "
-#| "Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -317,7 +282,7 @@ msgstr ""
 "O Plasma do KDE é um ambiente de trabalho gratuito e de código aberto, "
 "criado por voluntários em todo o mundo. É simples por omissão para uma "
 "experiência suave, mas é poderoso quando for necessário para o ajudar "
-"realmente a atingir as coisas. Bem-vindo(a) à Comunidade do KDE!"
+"realmente a atingir as coisas.<nl/><nl/>Bem-vindo(a) à Comunidade do KDE!"
 
 #: src/contents/ui/pages/Welcome.qml:28
 #, kde-format
@@ -361,7 +326,7 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:81
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
@@ -369,10 +334,6 @@ msgstr ""
 "Número da versão do Plasma para a qual apresentar as notas de lançamento, p."
 "ex. 5.25"
 
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "In System Settings, you can choose to share anonymous usage information "
-#~ "with KDE. You can make that choice here, too."
-#~ msgstr ""
-#~ "Na Configuração do Sistema, poderá optar por partilhar dados de "
-#~ "utilização anónimos com o KDE. Também poderá tomar essa decisão aqui."
+#~ msgctxt "@title:window"
+#~ msgid "Freedom Isn't Free"
+#~ msgstr "A Liberdade não é Gratuita"
