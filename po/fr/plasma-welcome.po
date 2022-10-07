@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-05 00:48+0000\n"
-"PO-Revision-Date: 2022-10-02 18:51+0200\n"
+"PO-Revision-Date: 2022-10-05 20:10+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -57,70 +57,46 @@ msgid "&Next"
 msgstr "&Suivant"
 
 #: src/contents/ui/main.qml:137
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "Partage des informations d'utilisation avec KDE"
+msgstr "Partager anonymement les informations d'utilisation avec KDE"
 
 #: src/contents/ui/main.qml:138
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Dans la configuration du système, vous pouvez vous connecter à vos comptes "
-"en ligne et accéder à leur contenu dans les applications KDE. Vous pouvez "
-"également configurer ces connexions dès maintenant."
+"Notre équipe de développement utilisera ces données anonymes pour améliorer "
+"le logiciel KDE. Vous pouvez sélectionner quoi partager dans la "
+"configuration du système et ici aussi."
 
 #: src/contents/ui/main.qml:152
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr "Connexion à vos comptes en ligne"
+msgstr "Connectez vous à vos comptes en ligne"
 
 #: src/contents/ui/main.qml:153
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Dans la configuration du système, vous pouvez vous connecter à vos comptes "
-"en ligne et accéder à leur contenu dans les applications KDE. Vous pouvez "
-"également configurer ces connexions dès maintenant."
+"Cela vous permettra d’accéder à leur contenu dans les applications KDE. Vous "
+"pouvez le configurer dans la configuration du système et ici aussi."
 
 #: src/contents/ui/pages/Contribute.qml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "S'impliquer"
+msgstr "Impliquez vous"
 
 #: src/contents/ui/pages/Contribute.qml:15
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you will become part of "
-#| "something special, meet new friends, learn new skills, and make a "
-#| "difference to millions while working with people from around the globe to "
-#| "deliver a stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE's software is made by people like you--mostly volunteers. That means you "
@@ -131,8 +107,8 @@ msgid ""
 "millions while working with people from around the globe to deliver a "
 "stunning free software computing experience."
 msgstr ""
-"Les logiciels de KDE sont réalisés par des gens comme vous, la plupart du "
-"temps juste des volontaires. Cela signifie que vous pouvez aider à les "
+"Les logiciels de KDE sont réalisés par des personnes comme vous, la plupart "
+"du temps, juste des volontaires. Cela signifie que vous pouvez aider à les "
 "rendre meilleurs ! Il existe de nombreuses façons de contribuer sur des "
 "sujets aussi divers que le tri des bogues, la programmation, la traduction, "
 "la conception visuelle et la promotion.<nl/><nl/>En contribuant à KDE, vous "
@@ -140,7 +116,7 @@ msgstr ""
 "ami(e)s, vous allez acquérir de nouvelles compétences et vous ferez la "
 "différence pour des millions de personnes tout en travaillant avec des gens "
 "du monde entier pour offrir une expérience informatique incroyable avec les "
-"logiciels libre.Traduit avec www.DeepL.com/Translator (version gratuite)"
+"logiciels libres."
 
 #: src/contents/ui/pages/Contribute.qml:20
 #, kde-format
@@ -189,7 +165,7 @@ msgstr "Afficher %1 dans Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr ""
+msgstr "Soutenir votre liberté"
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-kuit-format
