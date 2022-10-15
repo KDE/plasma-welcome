@@ -13,6 +13,7 @@ There are two usage modes:
 - Run the app with the `--after-upgrade-to` argument to show a post-upgrade message. For example: `plasma-welcome --after-upgrade-to 5.25`.
 
 
+## Screenshots
 ![First page](https://cdn.kde.org/screenshots/plasma-welcome/plasma-welcome-page-1.png)
 
 ![Second page](https://cdn.kde.org/screenshots/plasma-welcome/plasma-welcome-page-2.png)
