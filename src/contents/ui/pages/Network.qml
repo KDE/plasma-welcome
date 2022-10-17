@@ -50,7 +50,7 @@ GenericPage {
             Image {
                 anchors.fill: parent
                 fillMode: Image.PreserveAspectCrop
-                source: "file:/usr/share/wallpapers/Next/contents/images/1024x768.jpg"
+                source: "file:/usr/share/wallpapers/Next/contents/images/1024x768.png"
                 // anchor the image to the bottom-right corner of the "screen"
                 sourceClipRect: Qt.rect(1024-parent.width,
                                         768-parent.height,
@@ -62,7 +62,7 @@ GenericPage {
             Image {
                 anchors.fill: panelContainer
                 fillMode: Image.PreserveAspectCrop
-                source: "file:/usr/share/wallpapers/Next/contents/images/1024x768.jpg"
+                source: "file:/usr/share/wallpapers/Next/contents/images/1024x768.png"
                 sourceClipRect: Qt.rect(1024-panelContainer.width,
                                         768-panelContainer.height,
                                         panelContainer.width,
