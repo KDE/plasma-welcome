@@ -29,60 +29,56 @@ Kirigami.ApplicationWindow {
     // to move the window (Bug 452180), and using the built-in pageStack's header
     // doesn't give us adequate control over the presentation; we very specifically
     // want raised buttons, arbitrary content in the center, page text inline, etc.
-    header: ColumnLayout {
+    header: Item {
         width: root.width
-        spacing: 0
         height: root.showingPlasmaUpdate ? 0: headerLayout.implicitHeight + (headerLayout.anchors.margins * 2)
         Kirigami.AbstractApplicationHeader {
             id: headerToolbar
-            Layout.fillWidth: true
-            Layout.fillHeight: true
+            anchors.top: parent.top
+            anchors.bottom: separator.top
+            width: parent.width
             visible: !root.showingPlasmaUpdate
-            contentItem: Item {
-                width: headerToolbar.width
-                height: headerToolbar.height
-                RowLayout {
-                    id: headerLayout
+            contentItem: RowLayout {
+                id: headerLayout
 
-                    anchors.fill: parent
-                    anchors.margins: Kirigami.Units.smallSpacing
+                anchors.fill: parent
+                anchors.margins: Kirigami.Units.smallSpacing
 
-                    QQC2.Button {
-                        action: Kirigami.Action {
-                            text: pageStack.currentIndex === 0 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
-                            icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
-                            shortcut: "Left"
-                            onTriggered: {
-                                if (pageStack.layers.depth > 1) {
-                                    pageStack.layers.pop()
-                                } else if (pageStack.currentIndex != 0) {
-                                    pageStack.currentIndex -= 1
-                                } else {
-                                    Qt.quit();
-                                }
+                QQC2.Button {
+                    action: Kirigami.Action {
+                        text: pageStack.currentIndex === 0 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
+                        icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
+                        shortcut: "Left"
+                        onTriggered: {
+                            if (pageStack.layers.depth > 1) {
+                                pageStack.layers.pop()
+                            } else if (pageStack.currentIndex != 0) {
+                                pageStack.currentIndex -= 1
+                            } else {
+                                Qt.quit();
                             }
                         }
                     }
+                }
 
-                    QQC2.Label {
-                        Layout.fillWidth: true
-                        text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, initialPages.length + 1)
-                        horizontalAlignment: Text.AlignHCenter
-                        elide: Text.ElideRight // Should never elide, but set it anyway
-                    }
+                QQC2.Label {
+                    Layout.fillWidth: true
+                    text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, initialPages.length + 1)
+                    horizontalAlignment: Text.AlignHCenter
+                    elide: Text.ElideRight // Should never elide, but set it anyway
+                }
 
-                    QQC2.Button {
-                        enabled: pageStack.layers.depth === 1
-                        action: Kirigami.Action {
-                            text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
-                            icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
-                            shortcut: "Right"
-                            onTriggered: {
-                                if (pageStack.currentIndex < pageStack.depth - 1) {
-                                    pageStack.currentIndex += 1
-                                } else {
-                                    Qt.quit()
-                                }
+                QQC2.Button {
+                    enabled: pageStack.layers.depth === 1
+                    action: Kirigami.Action {
+                        text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
+                        icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
+                        shortcut: "Right"
+                        onTriggered: {
+                            if (pageStack.currentIndex < pageStack.depth - 1) {
+                                pageStack.currentIndex += 1
+                            } else {
+                                Qt.quit()
                             }
                         }
                     }
@@ -90,8 +86,10 @@ Kirigami.ApplicationWindow {
             }
         }
         Kirigami.Separator {
+            id: separator
             visible: !root.headerToolbarVisible
-            Layout.fillWidth: true
+            anchors.bottom: parent.bottom
+            width: parent.width
         }
     }
 
