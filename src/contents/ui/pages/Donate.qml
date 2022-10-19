@@ -28,6 +28,7 @@ GenericPage {
         anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 2
         height: Kirigami.Units.gridUnit * 16
         fillMode: Image.PreserveAspectFit
-        source: "konqi.png"
+        mipmap: true
+        source: "konqi-donations.png"
     }
 }
