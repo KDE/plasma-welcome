@@ -32,12 +32,15 @@ Kirigami.ApplicationWindow {
     header: Item {
         width: root.width
         height: root.showingPlasmaUpdate ? separator.height: headerLayout.implicitHeight + (headerLayout.anchors.margins * 2)
+
         Kirigami.AbstractApplicationHeader {
             id: headerToolbar
+
             anchors.top: parent.top
             anchors.bottom: separator.top
             width: parent.width
             visible: !root.showingPlasmaUpdate
+
             contentItem: RowLayout {
                 id: headerLayout
 
@@ -89,6 +92,7 @@ Kirigami.ApplicationWindow {
         }
         Kirigami.Separator {
             id: separator
+
             visible: !headerToolbar.visible
             anchors.bottom: parent.bottom
             width: parent.width
