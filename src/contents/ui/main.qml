@@ -44,6 +44,8 @@ Kirigami.ApplicationWindow {
                 anchors.fill: parent
                 anchors.margins: Kirigami.Units.smallSpacing
 
+                spacing: Kirigami.Units.smallSpacing
+
                 QQC2.Button {
                     action: Kirigami.Action {
                         text: pageStack.currentIndex === 0 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
