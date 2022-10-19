@@ -25,9 +25,9 @@ There are two usage modes:
 Custom distro-specific pages can be embedded in the app, and will appear right before the "Get Involved" page. To make custom pages visible to the app, place them in `/var/lib/plasma-welcome-extra-pages`, prefixed with a number and a dash. For example if you define two pages with the following names:
 
 - 01-WelcomeToDistro.qml
-- 02-AcceptDistroLicenseAgreement.qml
+- 02-InstallMediaCodecs.qml
 
-These two pages will be added into the wizard, with WelcomeToDistro shown first, and then AcceptDistroLicenseAgreement.
+These two pages will be added into the wizard, with WelcomeToDistro shown first, and then InstallMediaCodecs.
 
 Custom pages are QML files with a root item that inherits from Kirigami.Page. Any content within the page is supported, though to maintain visual consistency with existing pages, it is recommended to use `GenericPage` or `KCM` as the root item and set the `heading` and `description` properties, with any custom content going beneath them.
 
