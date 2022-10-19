@@ -81,9 +81,8 @@ int main(int argc, char *argv[])
                                         QStringLiteral("version number")));
     parser.process(app);
     aboutData.processCommandLine(&parser);
-    QString versionNumber;
     if (parser.isSet(QStringLiteral("after-upgrade-to"))) {
-        versionNumber = parser.value(QStringLiteral("after-upgrade-to"));
+        const QString versionNumber = parser.value(QStringLiteral("after-upgrade-to"));
         controller.setPlasmaUpgradeVersion(versionNumber);
     }
 
