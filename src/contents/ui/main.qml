@@ -31,7 +31,7 @@ Kirigami.ApplicationWindow {
     // want raised buttons, arbitrary content in the center, page text inline, etc.
     header: Item {
         width: root.width
-        height: root.showingPlasmaUpdate ? 0: headerLayout.implicitHeight + (headerLayout.anchors.margins * 2)
+        height: root.showingPlasmaUpdate ? separator.height: headerLayout.implicitHeight + (headerLayout.anchors.margins * 2)
         Kirigami.AbstractApplicationHeader {
             id: headerToolbar
             anchors.top: parent.top
@@ -87,7 +87,7 @@ Kirigami.ApplicationWindow {
         }
         Kirigami.Separator {
             id: separator
-            visible: !root.headerToolbarVisible
+            visible: !headerToolbar.visible
             anchors.bottom: parent.bottom
             width: parent.width
         }
