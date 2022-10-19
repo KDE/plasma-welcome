@@ -33,7 +33,7 @@ Custom pages are QML files with a root item that inherits from Kirigami.Page. An
 
 Because pages are QML with no additional C++ code being possible, only the following external functions are supported:
 
-## Open a URL in the default we browser
+## Open a URL in the default web browser
 Example:
 ```
 Kirigami.Icon {
