@@ -31,10 +31,10 @@ void Module::setPath(const QString &path)
         // From the command line or DBus we usually get only the plugin id
         if (KPluginMetaData data(QStringLiteral("plasma/kcms/systemsettings/") + path); data.isValid()) {
             kcmMetaData = data;
-        } else if (KPluginMetaData data(QStringLiteral("kcms/") + path); data.isValid()) {
+        } else if (KPluginMetaData altData(QStringLiteral("kcms/") + path); altData.isValid()) {
             // Also check the old "kcms" namespace
             // TODO KF6 remove this branch of the if statement
-            kcmMetaData = data;
+            kcmMetaData = altData;
         }
     }
 
