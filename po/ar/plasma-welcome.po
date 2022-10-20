@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-20 00:52+0000\n"
 "PO-Revision-Date: 2022-10-05 16:46+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -28,19 +28,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zayed.alsaidi@gmail.com"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "ت&خطّ"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&عُد"
 
-#: src/contents/ui/main.qml:68
+#: src/contents/ui/main.qml:71
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -52,25 +52,25 @@ msgstr[3] "الصفحة %1 من %2"
 msgstr[4] "الصفحة %1 من %2"
 msgstr[5] "الصفحة %1 من %2"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "أ&نهِ"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "ال&تالي"
 
-#: src/contents/ui/main.qml:137
+#: src/contents/ui/main.qml:165
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "مشاركة معلومات الاستخدام بشكل مجهول مع كدي"
 
-#: src/contents/ui/main.qml:138
+#: src/contents/ui/main.qml:166
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -80,13 +80,13 @@ msgstr ""
 "سيستعمل مطورونا البيانات المجهولة في تحسين تطبيقات كدي. بإمكانك اختيار ما "
 "تريد مشاركته من إعدادات النظام ويمكنك إعداده الآن أيضًا."
 
-#: src/contents/ui/main.qml:152
+#: src/contents/ui/main.qml:180
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "اتصل بحساباتك على الإنترنت"
 
-#: src/contents/ui/main.qml:153
+#: src/contents/ui/main.qml:181
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -96,13 +96,13 @@ msgstr ""
 "سيمكنك هذا من جعل تطبيقات كدي تصل إلى محتوياتها. يمكنك إعدادها في إعدادات "
 "النظام ويمكنك إعداده الآن أيضًا."
 
-#: src/contents/ui/pages/Contribute.qml:14
+#: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
 msgstr "شاركنا"
 
-#: src/contents/ui/pages/Contribute.qml:15
+#: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -121,19 +121,19 @@ msgstr ""
 "أصدقاء جدد، تعلم مهارات جديدة ، وأحدث تغيير للملايين بالعمل مع أشخاص من جميع "
 "أنحاء العالم لتقديم تجربة حوسبة حرة مذهلة."
 
-#: src/contents/ui/pages/Contribute.qml:20
+#: src/contents/ui/pages/Contribute.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "ابدأ بالمساهمة"
 
-#: src/contents/ui/pages/Discover.qml:17
+#: src/contents/ui/pages/Discover.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "أدر التطبيقات"
 
-#: src/contents/ui/pages/Discover.qml:18
+#: src/contents/ui/pages/Discover.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -145,31 +145,31 @@ msgstr ""
 "البحث أو التصفح حسب الفئة، وإلقاء نظرة على لقطات الشاشة وقراءة المراجعات "
 "لمساعدتك في اختيار التطبيق المثالي."
 
-#: src/contents/ui/pages/Discover.qml:38
+#: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "شغل المستكشف الآن"
 
-#: src/contents/ui/pages/Discover.qml:56
+#: src/contents/ui/pages/Discover.qml:57
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "المستكشف"
 
-#: src/contents/ui/pages/Discover.qml:121
+#: src/contents/ui/pages/Discover.qml:122
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "أظهر %1 في المستكشف"
 
-#: src/contents/ui/pages/Donate.qml:14
+#: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
 msgstr "ادعم حريتك"
 
-#: src/contents/ui/pages/Donate.qml:15
+#: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -183,20 +183,20 @@ msgstr ""
 "كدي في دفع ثمن مسابقات التطوير، والأجهزة والخوادم ، والتوظيف الموسع. "
 "التبرعات معفاة من الضرائب في ألمانيا."
 
-#: src/contents/ui/pages/Donate.qml:20
-#: src/contents/ui/pages/PlasmaUpdate.qml:37
+#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "تبرّع"
 
-#: src/contents/ui/pages/Network.qml:19
+#: src/contents/ui/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "اتصل بالإنترنت"
 
-#: src/contents/ui/pages/Network.qml:20
+#: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -210,13 +210,13 @@ msgstr ""
 "<interface> الشبكات </interface>في <interface>صينية النظام</interface> ، "
 "والتي تعيش في الزاوية السفلية اليسرى من الشاشة."
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
 msgstr "حُدثت بلازما إلى الإصدارة %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -226,25 +226,25 @@ msgstr ""
 "قضى مساهمو كدي الأشهر الأربعة الماضية في العمل بجد على هذه الإصدارة. نأمل أن "
 "تستمتع باستخدام بلازما بقدر ما استمتعنا بصنعها!"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:27
+#: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
 msgstr "ما الجديد في سطح مكتب بلازما %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:32
+#: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "ساعد في الإصدارة القادمة"
 
-#: src/contents/ui/pages/SystemSettings.qml:17
+#: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
 msgstr "خصص نظامك"
 
-#: src/contents/ui/pages/SystemSettings.qml:18
+#: src/contents/ui/pages/SystemSettings.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -254,25 +254,25 @@ msgstr ""
 "تتيح لك إعدادات النظام ضبط السلوكيات ومظهر النظام بأكمله. من خيارات السمة "
 "إلى إدارة الأجهزة ، يمكنك العثور على كل شيء هنا."
 
-#: src/contents/ui/pages/SystemSettings.qml:38
+#: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
 msgstr "شغّل إعدادات النّظام"
 
-#: src/contents/ui/pages/SystemSettings.qml:55
+#: src/contents/ui/pages/SystemSettings.qml:56
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
 msgstr "إعدادات النّظام"
 
-#: src/contents/ui/pages/Welcome.qml:14
+#: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
 msgstr "مرحبا بك في سطح مكتب بلازما!"
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -284,7 +284,7 @@ msgstr ""
 "كدي بلازما هي بيئة سطح مكتب مجانية ومفتوحة المصدر صنعها المتطوعون في جميع "
 "أنحاء العالم. بسيطة ولكن قوية عن الحاجة. <nl/><nl/>مرحبًا بك في مجتمع كدي!"
 
-#: src/contents/ui/pages/Welcome.qml:28
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@info"
 msgid "Konqi, the KDE mascot"

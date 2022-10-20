@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-20 00:52+0000\n"
 "PO-Revision-Date: 2022-09-28 19:00+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -27,19 +27,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Ohita"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Takaisin"
 
-#: src/contents/ui/main.qml:68
+#: src/contents/ui/main.qml:71
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -47,25 +47,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "Sivu %1 / %2"
 msgstr[1] "Sivu %1 / %2"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Viimeistele"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Seuraava"
 
-#: src/contents/ui/main.qml:137
+#: src/contents/ui/main.qml:165
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr ""
 
-#: src/contents/ui/main.qml:138
+#: src/contents/ui/main.qml:166
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -73,13 +73,13 @@ msgid ""
 "choose how much to share in System Settings, and here too."
 msgstr ""
 
-#: src/contents/ui/main.qml:152
+#: src/contents/ui/main.qml:180
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr ""
 
-#: src/contents/ui/main.qml:153
+#: src/contents/ui/main.qml:181
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -87,13 +87,13 @@ msgid ""
 "System Settings, and here too."
 msgstr ""
 
-#: src/contents/ui/pages/Contribute.qml:14
+#: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
 msgstr ""
 
-#: src/contents/ui/pages/Contribute.qml:15
+#: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -106,19 +106,19 @@ msgid ""
 "stunning free software computing experience."
 msgstr ""
 
-#: src/contents/ui/pages/Contribute.qml:20
+#: src/contents/ui/pages/Contribute.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "Ryhdy avustajaksi!"
 
-#: src/contents/ui/pages/Discover.qml:17
+#: src/contents/ui/pages/Discover.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr ""
 
-#: src/contents/ui/pages/Discover.qml:18
+#: src/contents/ui/pages/Discover.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -130,31 +130,31 @@ msgstr ""
 "Täydellistä sovellusta voi etsiä selaamalla luokkia, katsomalla "
 "ruutukaappauskuvia ja lukemalla arvosteluja."
 
-#: src/contents/ui/pages/Discover.qml:38
+#: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "Käynnistä nyt Discover"
 
-#: src/contents/ui/pages/Discover.qml:56
+#: src/contents/ui/pages/Discover.qml:57
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "Discover"
 
-#: src/contents/ui/pages/Discover.qml:121
+#: src/contents/ui/pages/Discover.qml:122
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Näytä %1 Discoverissa"
 
-#: src/contents/ui/pages/Donate.qml:14
+#: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
 msgstr ""
 
-#: src/contents/ui/pages/Donate.qml:15
+#: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -169,20 +169,20 @@ msgstr ""
 "palvelinkustannukset ja lisätyövoiman. Saksassa lahjoitukset voi vähentää "
 "verotuksessa."
 
-#: src/contents/ui/pages/Donate.qml:20
-#: src/contents/ui/pages/PlasmaUpdate.qml:37
+#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Lahjoita"
 
-#: src/contents/ui/pages/Network.qml:19
+#: src/contents/ui/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr ""
 
-#: src/contents/ui/pages/Network.qml:20
+#: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -196,13 +196,13 @@ msgstr ""
 "<interface>Verkot</interface>-kuvaketta <interface>ilmoitusalueella</"
 "interface>, joka löytyy näytön alaoikeasta kulmasta."
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
 msgstr "Plasma on päivittynyt versioon %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -213,25 +213,25 @@ msgstr ""
 "julkaisua varten. Toivomme, että nautit Plasmasta yhtä paljon kuin me sen "
 "tekemisestä!"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:27
+#: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
 msgstr "Katso, mitä uutta Plasma %1 tarjoaa"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:32
+#: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "Auta tekemään seuraavaa julkaisua"
 
-#: src/contents/ui/pages/SystemSettings.qml:17
+#: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
 msgstr ""
 
-#: src/contents/ui/pages/SystemSettings.qml:18
+#: src/contents/ui/pages/SystemSettings.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -241,25 +241,25 @@ msgstr ""
 "Järjestelmäasetuksissa voi muuttaa koko järjestelmän toimintaa ja ulkoasua. "
 "Teemavalinnoista laitehallintaan: sieltä kaikki löytyy."
 
-#: src/contents/ui/pages/SystemSettings.qml:38
+#: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
 msgstr "Käynnistä nyt järjestelmäasetukset"
 
-#: src/contents/ui/pages/SystemSettings.qml:55
+#: src/contents/ui/pages/SystemSettings.qml:56
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
 msgstr "Järjestelmäasetukset"
 
-#: src/contents/ui/pages/Welcome.qml:14
+#: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
 msgstr "Tervetuloa KDE Plasmaan!"
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -269,7 +269,7 @@ msgid ""
 "the KDE Community!"
 msgstr ""
 
-#: src/contents/ui/pages/Welcome.qml:28
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@info"
 msgid "Konqi, the KDE mascot"

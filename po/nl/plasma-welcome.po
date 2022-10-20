@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-20 00:52+0000\n"
 "PO-Revision-Date: 2022-10-05 15:30+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,19 +27,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Over&slaan"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Terug"
 
-#: src/contents/ui/main.qml:68
+#: src/contents/ui/main.qml:71
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -47,25 +47,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "Pagina %1 van %2"
 msgstr[1] "Pagina %1 van %2"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "Vol&tooien"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "V&olgende"
 
-#: src/contents/ui/main.qml:137
+#: src/contents/ui/main.qml:165
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Anonieme gebruiksinformatie delen met KDE"
 
-#: src/contents/ui/main.qml:138
+#: src/contents/ui/main.qml:166
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -75,13 +75,13 @@ msgstr ""
 "Onze ontwikkelaars zullen deze anonieme gegevens gebruiken om KDE software "
 "te verbeteren. U kiest hoeveel u deelt in Systeeminstellingen en ook hier."
 
-#: src/contents/ui/main.qml:152
+#: src/contents/ui/main.qml:180
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Uw online accounts verbinden"
 
-#: src/contents/ui/main.qml:153
+#: src/contents/ui/main.qml:181
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -91,13 +91,13 @@ msgstr ""
 "Dit geeft u toegang tot hun inhoud in KDE toepassingen. U kunt het instellen "
 "in Systeeminstellingen en ook hier."
 
-#: src/contents/ui/pages/Contribute.qml:14
+#: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
 msgstr "Doe mee"
 
-#: src/contents/ui/pages/Contribute.qml:15
+#: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -118,19 +118,19 @@ msgstr ""
 "tijdens het werken met mensen van over de gehele wereld om een "
 "verbazingwekkende vrije software ervaring te leveren."
 
-#: src/contents/ui/pages/Contribute.qml:20
+#: src/contents/ui/pages/Contribute.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "Begin met bijdragen!"
 
-#: src/contents/ui/pages/Discover.qml:17
+#: src/contents/ui/pages/Discover.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Software beheren"
 
-#: src/contents/ui/pages/Discover.qml:18
+#: src/contents/ui/pages/Discover.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -143,31 +143,31 @@ msgstr ""
 "schermafdrukken en reviews lezen om u te helpen de perfecte toepassing te "
 "vinden."
 
-#: src/contents/ui/pages/Discover.qml:38
+#: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "Ontdekken nu starten"
 
-#: src/contents/ui/pages/Discover.qml:56
+#: src/contents/ui/pages/Discover.qml:57
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "Ontdekken"
 
-#: src/contents/ui/pages/Discover.qml:121
+#: src/contents/ui/pages/Discover.qml:122
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "%1 in Ontdekken tonen"
 
-#: src/contents/ui/pages/Donate.qml:14
+#: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
 msgstr "Ondersteun uw vrijheid"
 
-#: src/contents/ui/pages/Donate.qml:15
+#: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -182,20 +182,20 @@ msgstr ""
 "hardware en server-hulpmiddelen en werkgelegenheid uit te breiden. Donaties "
 "zijn in Duitsland aftrekbaar van de belasting."
 
-#: src/contents/ui/pages/Donate.qml:20
-#: src/contents/ui/pages/PlasmaUpdate.qml:37
+#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Doe een donatie"
 
-#: src/contents/ui/pages/Network.qml:19
+#: src/contents/ui/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Toegang tot het internet"
 
-#: src/contents/ui/pages/Network.qml:20
+#: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -209,13 +209,13 @@ msgstr ""
 "het <interface>Netwerken</interface> pictogram in uw <interface>Systeemvak</"
 "interface>, die zich bevindt in de rechtsonder hoek van het scherm."
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
 msgstr "Plasma is bijgewerkt tot versie %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -226,25 +226,25 @@ msgstr ""
 "deze uitgave. We hopen dat u geniet van het gebruik van Plasma evenveel als "
 "wij genieten van het maken!"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:27
+#: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
 msgstr "Ontdek wat is er nieuw sinds Plasma %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:32
+#: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "Help met het werk aan de volgende uitgave"
 
-#: src/contents/ui/pages/SystemSettings.qml:17
+#: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
 msgstr "Uw systeem personaliseren"
 
-#: src/contents/ui/pages/SystemSettings.qml:18
+#: src/contents/ui/pages/SystemSettings.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -255,25 +255,25 @@ msgstr ""
 "aanpassen. Van opties voor het thema tot beheer van apparaten, u kunt het "
 "allemaal hier vinden."
 
-#: src/contents/ui/pages/SystemSettings.qml:38
+#: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
 msgstr "Systeeminstellingen nu starten"
 
-#: src/contents/ui/pages/SystemSettings.qml:55
+#: src/contents/ui/pages/SystemSettings.qml:56
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
 msgstr "Systeeminstellingen"
 
-#: src/contents/ui/pages/Welcome.qml:14
+#: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
 msgstr "Welkom bij KDE Plasma!"
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -287,7 +287,7 @@ msgstr ""
 "gladde ervaring, maar krachtig wanneer nodig om u te echt helpen dingen "
 "gedaan te krijgen.<nl/><nl/>Welkom in de KDE-gemeenschap!"
 
-#: src/contents/ui/pages/Welcome.qml:28
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@info"
 msgid "Konqi, the KDE mascot"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-20 00:52+0000\n"
 "PO-Revision-Date: 2022-10-03 05:29+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -28,19 +28,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "გამო&ტოვება"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&უკან"
 
-#: src/contents/ui/main.qml:68
+#: src/contents/ui/main.qml:71
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -48,25 +48,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "გვერდი %1 %2-დან"
 msgstr[1] "გვერდი %1 %2-დან"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&დასრულება"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&შემდეგი"
 
-#: src/contents/ui/main.qml:137
+#: src/contents/ui/main.qml:165
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "გამოყენების ანონიმური ინფორმაციის გაზიარება KDE-სთან"
 
-#: src/contents/ui/main.qml:138
+#: src/contents/ui/main.qml:166
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -74,13 +74,13 @@ msgid ""
 "choose how much to share in System Settings, and here too."
 msgstr ""
 
-#: src/contents/ui/main.qml:152
+#: src/contents/ui/main.qml:180
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "თქვენი ონლაინ ანგარიშების დამატება"
 
-#: src/contents/ui/main.qml:153
+#: src/contents/ui/main.qml:181
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -88,13 +88,13 @@ msgid ""
 "System Settings, and here too."
 msgstr ""
 
-#: src/contents/ui/pages/Contribute.qml:14
+#: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
 msgstr "შემოგვიერთდით"
 
-#: src/contents/ui/pages/Contribute.qml:15
+#: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -107,19 +107,19 @@ msgid ""
 "stunning free software computing experience."
 msgstr ""
 
-#: src/contents/ui/pages/Contribute.qml:20
+#: src/contents/ui/pages/Contribute.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "დაიწყეთ წვლილის შეტანა!"
 
-#: src/contents/ui/pages/Discover.qml:17
+#: src/contents/ui/pages/Discover.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "პროგრამების მართვა"
 
-#: src/contents/ui/pages/Discover.qml:18
+#: src/contents/ui/pages/Discover.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -128,31 +128,31 @@ msgid ""
 "you find the perfect app."
 msgstr ""
 
-#: src/contents/ui/pages/Discover.qml:38
+#: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "გაუშვით Discover ახლა"
 
-#: src/contents/ui/pages/Discover.qml:56
+#: src/contents/ui/pages/Discover.qml:57
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "აღმოაჩინეთ"
 
-#: src/contents/ui/pages/Discover.qml:121
+#: src/contents/ui/pages/Discover.qml:122
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "%1-ის Discover-ში ჩვენება"
 
-#: src/contents/ui/pages/Donate.qml:14
+#: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
 msgstr ""
 
-#: src/contents/ui/pages/Donate.qml:15
+#: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -162,20 +162,20 @@ msgid ""
 "employment. Donations are tax-deductible in Germany."
 msgstr ""
 
-#: src/contents/ui/pages/Donate.qml:20
-#: src/contents/ui/pages/PlasmaUpdate.qml:37
+#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "გააკეთეთ შემოწირულობა"
 
-#: src/contents/ui/pages/Network.qml:19
+#: src/contents/ui/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "ინტერნეტთან წვდომა"
 
-#: src/contents/ui/pages/Network.qml:20
+#: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -185,13 +185,13 @@ msgid ""
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
 msgstr "Plasma განახლდა ვერსიამდე %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -199,25 +199,25 @@ msgid ""
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:27
+#: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
 msgstr "გაიგეთ, რა არის ახალი Plasma %1-ში"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:32
+#: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "დაგვეხმარეთ შემდეგი რელიზზე მუშაობაში"
 
-#: src/contents/ui/pages/SystemSettings.qml:17
+#: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
 msgstr "მოირგეთ თქვენი სისტემა"
 
-#: src/contents/ui/pages/SystemSettings.qml:18
+#: src/contents/ui/pages/SystemSettings.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -225,25 +225,25 @@ msgid ""
 "system. From theme options to device management, you can find it all here."
 msgstr ""
 
-#: src/contents/ui/pages/SystemSettings.qml:38
+#: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
 msgstr "სისტემის მორგების ახლა გაშვება"
 
-#: src/contents/ui/pages/SystemSettings.qml:55
+#: src/contents/ui/pages/SystemSettings.qml:56
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
 msgstr "სისტემის მორგება"
 
-#: src/contents/ui/pages/Welcome.qml:14
+#: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
 msgstr "მოგესალმებით KDE Plasma-სთან!"
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -253,7 +253,7 @@ msgid ""
 "the KDE Community!"
 msgstr ""
 
-#: src/contents/ui/pages/Welcome.qml:28
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@info"
 msgid "Konqi, the KDE mascot"

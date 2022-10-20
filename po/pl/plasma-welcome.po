@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-20 00:52+0000\n"
 "PO-Revision-Date: 2022-09-23 09:56+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -28,19 +28,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lukasz.wojnilowicz@gmail.com"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Pomiń"
 
-#: src/contents/ui/main.qml:51
+#: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Wstecz"
 
-#: src/contents/ui/main.qml:68
+#: src/contents/ui/main.qml:71
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -49,19 +49,19 @@ msgstr[0] "Strona %1 z %2"
 msgstr[1] "Strona %1 z %2"
 msgstr[2] "Strona %1 z %2"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Zakończ"
 
-#: src/contents/ui/main.qml:76
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Następna"
 
-#: src/contents/ui/main.qml:137
+#: src/contents/ui/main.qml:165
 #, fuzzy, kde-format
 #| msgctxt "@title: window"
 #| msgid "Sharing Usage Information With KDE"
@@ -69,7 +69,7 @@ msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Udostępnianie sposobu używania dla KDE"
 
-#: src/contents/ui/main.qml:138
+#: src/contents/ui/main.qml:166
 #, fuzzy, kde-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -83,7 +83,7 @@ msgstr ""
 "W ustawieniach systemowych możesz podłączyć swoje konta sieciowe i pobrać "
 "ich treści w aplikacjach KDE. Możesz je ustawić także teraz."
 
-#: src/contents/ui/main.qml:152
+#: src/contents/ui/main.qml:180
 #, fuzzy, kde-format
 #| msgctxt "@title: window"
 #| msgid "Connecting Your Online Accounts"
@@ -91,7 +91,7 @@ msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Podłączanie twoich kont sieciowych"
 
-#: src/contents/ui/main.qml:153
+#: src/contents/ui/main.qml:181
 #, fuzzy, kde-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -105,7 +105,7 @@ msgstr ""
 "W ustawieniach systemowych możesz podłączyć swoje konta sieciowe i pobrać "
 "ich treści w aplikacjach KDE. Możesz je ustawić także teraz."
 
-#: src/contents/ui/pages/Contribute.qml:14
+#: src/contents/ui/pages/Contribute.qml:16
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Getting Involved"
@@ -113,7 +113,7 @@ msgctxt "@title:window"
 msgid "Get Involved"
 msgstr "Dołączenie"
 
-#: src/contents/ui/pages/Contribute.qml:15
+#: src/contents/ui/pages/Contribute.qml:17
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -143,13 +143,13 @@ msgstr ""
 "pracując z ludźmi z całej Ziemi nad dostarczeniem darmowego, komputerowego "
 "środowiska pracy."
 
-#: src/contents/ui/pages/Contribute.qml:20
+#: src/contents/ui/pages/Contribute.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "Zacznij współtworzyć!"
 
-#: src/contents/ui/pages/Discover.qml:17
+#: src/contents/ui/pages/Discover.qml:18
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Managing Software"
@@ -157,7 +157,7 @@ msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Zarządzanie oprogramowaniem"
 
-#: src/contents/ui/pages/Discover.qml:18
+#: src/contents/ui/pages/Discover.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -169,31 +169,31 @@ msgstr ""
 "wyszukiwać lub przeglądać po kategorii. Można oglądać zrzuty ekranu i czytać "
 "oceny, aby wybrać najlepszą aplikację."
 
-#: src/contents/ui/pages/Discover.qml:38
+#: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "Uruchom Odkrywcę teraz"
 
-#: src/contents/ui/pages/Discover.qml:56
+#: src/contents/ui/pages/Discover.qml:57
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "Odkrywca"
 
-#: src/contents/ui/pages/Discover.qml:121
+#: src/contents/ui/pages/Discover.qml:122
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Pokaż %1 w Odkrywcy"
 
-#: src/contents/ui/pages/Donate.qml:14
+#: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
 msgstr ""
 
-#: src/contents/ui/pages/Donate.qml:15
+#: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -207,14 +207,14 @@ msgstr ""
 "KDE opłacić sprinty programistyczne, zasoby sprzętowe i serwerowe, a także w "
 "zatrudnianiu. Darowizny można odliczyć sobie od podatku w Niemczech."
 
-#: src/contents/ui/pages/Donate.qml:20
-#: src/contents/ui/pages/PlasmaUpdate.qml:37
+#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Wpłać darowiznę"
 
-#: src/contents/ui/pages/Network.qml:19
+#: src/contents/ui/pages/Network.qml:20
 #, fuzzy, kde-format
 #| msgctxt "@info:window"
 #| msgid "Accessing the Internet"
@@ -222,7 +222,7 @@ msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Dostęp do internetu"
 
-#: src/contents/ui/pages/Network.qml:20
+#: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -236,13 +236,13 @@ msgstr ""
 "naciśnij na ikonę <interface>Sieci</interface> na swojej <interface>Tacce "
 "systemowej</interface>, która znajduje się w dolnym prawym narożniku ekranu."
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:21
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
 msgstr "Uaktualniono Plazmę do wersji %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -253,19 +253,19 @@ msgstr ""
 "wydaniem. Mamy nadzieję, że polubisz Plazmę tak bardzo jak nam sprawiało "
 "radość jej tworzenie!"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:27
+#: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
 msgstr "Dowiedz się co nowego w Plazmie %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:32
+#: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "Pomóż w pracy nad następnym wydaniem"
 
-#: src/contents/ui/pages/SystemSettings.qml:17
+#: src/contents/ui/pages/SystemSettings.qml:18
 #, fuzzy, kde-format
 #| msgctxt "@info:window"
 #| msgid "Personalizing Your System"
@@ -273,7 +273,7 @@ msgctxt "@info:window"
 msgid "Personalize Your System"
 msgstr "Dostosowywanie swojego systemu"
 
-#: src/contents/ui/pages/SystemSettings.qml:18
+#: src/contents/ui/pages/SystemSettings.qml:19
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -284,25 +284,25 @@ msgstr ""
 "systemu. Od zestawów wyglądu do zarządzania urządzeniami, wszystko znajduje "
 "się właśnie tam."
 
-#: src/contents/ui/pages/SystemSettings.qml:38
+#: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
 msgstr "Otwórz ustawienia systemowe teraz"
 
-#: src/contents/ui/pages/SystemSettings.qml:55
+#: src/contents/ui/pages/SystemSettings.qml:56
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
 msgstr "Ustawienia systemowe"
 
-#: src/contents/ui/pages/Welcome.qml:14
+#: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
 msgstr "Witaj w Plazmie KDE!"
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:16
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -322,7 +322,7 @@ msgstr ""
 "dla łatwej obsługi, a także rozbudowana, gdy jest to potrzebne. Witaj w "
 "Społeczności KDE!"
 
-#: src/contents/ui/pages/Welcome.qml:28
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@info"
 msgid "Konqi, the KDE mascot"
