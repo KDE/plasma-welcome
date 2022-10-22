@@ -7,6 +7,7 @@
 
 #include <QDir>
 #include <QFile>
+#include <QNetworkInterface>
 #include <QProcess>
 #include <QStandardPaths>
 #include <QString>
@@ -16,7 +17,6 @@
 #include <KIO/ApplicationLauncherJob>
 #include <KNotificationJobUiDelegate>
 #include <KService>
-#include <NetworkManagerQt/Manager>
 
 void Controller::open(const QString &program)
 {
@@ -27,7 +27,15 @@ void Controller::open(const QString &program)
 
 bool Controller::networkAlreadyConnected()
 {
-    return NetworkManager::connectivity() == NetworkManager::Connectivity::Full;
+    for (QNetworkInterface interface : QNetworkInterface::allInterfaces()) {
+        const QFlags flags = interface.flags();
+        if (flags.testFlag(QNetworkInterface::IsUp) && !flags.testFlag(QNetworkInterface::IsLoopBack)) {
+            if (interface.addressEntries().count() >= 1) {
+                return true;
+            }
+        }
+    }
+    return false;
 }
 
 QStringList Controller::distroPages()

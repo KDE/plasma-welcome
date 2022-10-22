@@ -12,9 +12,7 @@ Dependencies:
     'frameworks/kdeclarative': '@latest'
     'frameworks/kio': '@latest'
     'frameworks/knotifications': '@latest'
-    'frameworks/networkmanager-qt': '@latest'
     'frameworks/plasma-framework': '@latest'
     'frameworks/kwindowsystem': '@latest'
 Options:
-  # No FreeBSD because it doesn't have networkmanager-qt, which is a required dep
-  require-passing-tests-on: [ 'Linux' ]
+  require-passing-tests-on: [ 'Linux', 'FreeBSD' ]

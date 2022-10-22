@@ -9,6 +9,7 @@ target_compile_definitions(plasma-welcome PRIVATE "DISTRO_PAGE_PATH=\"${DISTRO_P
 target_link_libraries(plasma-welcome
     Qt::Core
     Qt::Gui
+    Qt::Network
     Qt::Qml
     Qt::Quick
     Qt::QuickControls2
@@ -17,7 +18,6 @@ target_link_libraries(plasma-welcome
     KF5::CoreAddons
     KF5::DBusAddons
     KF5::KIOGui
-    KF5::NetworkManagerQt
     KF5::Notifications
     KF5::QuickAddons
     KF5::Service
