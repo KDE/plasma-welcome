@@ -18,6 +18,7 @@ GenericPage {
 
     topContent: [
         Kirigami.UrlButton {
+            id: link
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@action:button", "Start Contributing!")
             url: "https://community.kde.org/Get_Involved"
@@ -30,5 +31,17 @@ GenericPage {
         height: Kirigami.Units.gridUnit * 16
         fillMode: Image.PreserveAspectFit
         source: "konqi-build.png"
+
+        HoverHandler {
+            id: hoverhandler
+            cursorShape: Qt.PointingHandCursor
+        }
+        TapHandler {
+            onTapped: Qt.openUrlExternally(link.url)
+        }
+        QQC2.ToolTip {
+            visible: hoverhandler.hovered
+            text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", link.url)
+        }
     }
 }

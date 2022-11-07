@@ -17,6 +17,7 @@ GenericPage {
 
     topContent: [
         Kirigami.UrlButton {
+            id: link
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@action:button", "Make a donation")
             url: "https://kde.org/community/donations/"
@@ -30,5 +31,17 @@ GenericPage {
         fillMode: Image.PreserveAspectFit
         mipmap: true
         source: "konqi-donations.png"
+
+        HoverHandler {
+            id: hoverhandler
+            cursorShape: Qt.PointingHandCursor
+        }
+        TapHandler {
+            onTapped: Qt.openUrlExternally(link.url)
+        }
+        QQC2.ToolTip {
+            visible: hoverhandler.hovered
+            text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", link.url)
+        }
     }
 }
