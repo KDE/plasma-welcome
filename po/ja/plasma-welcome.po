@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-20 00:52+0000\n"
+"POT-Creation-Date: 2022-11-08 00:48+0000\n"
 "PO-Revision-Date: 2022-09-18 21:40-0700\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -103,10 +103,16 @@ msgid ""
 "stunning free software computing experience."
 msgstr ""
 
-#: src/contents/ui/pages/Contribute.qml:22
+#: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
+msgstr ""
+
+#: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
 msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:18
@@ -158,7 +164,7 @@ msgid ""
 "employment. Donations are tax-deductible in Germany."
 msgstr ""
 
-#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"

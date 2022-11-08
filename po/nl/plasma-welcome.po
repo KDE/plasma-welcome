@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-20 00:52+0000\n"
+"POT-Creation-Date: 2022-11-08 00:48+0000\n"
 "PO-Revision-Date: 2022-10-05 15:30+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -118,11 +118,17 @@ msgstr ""
 "tijdens het werken met mensen van over de gehele wereld om een "
 "verbazingwekkende vrije software ervaring te leveren."
 
-#: src/contents/ui/pages/Contribute.qml:22
+#: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "Begin met bijdragen!"
+
+#: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -182,7 +188,7 @@ msgstr ""
 "hardware en server-hulpmiddelen en werkgelegenheid uit te breiden. Donaties "
 "zijn in Duitsland aftrekbaar van de belasting."
 
-#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"

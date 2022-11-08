@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-20 00:52+0000\n"
+"POT-Creation-Date: 2022-11-08 00:48+0000\n"
 "PO-Revision-Date: 2022-09-28 19:00+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -106,11 +106,17 @@ msgid ""
 "stunning free software computing experience."
 msgstr ""
 
-#: src/contents/ui/pages/Contribute.qml:22
+#: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "Ryhdy avustajaksi!"
+
+#: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -169,7 +175,7 @@ msgstr ""
 "palvelinkustannukset ja lisätyövoiman. Saksassa lahjoitukset voi vähentää "
 "verotuksessa."
 
-#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"

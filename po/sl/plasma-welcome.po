@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-20 00:52+0000\n"
+"POT-Creation-Date: 2022-11-08 00:48+0000\n"
 "PO-Revision-Date: 2022-10-05 08:24+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -125,11 +125,17 @@ msgstr ""
 "uporabnikov, ob tem ko boste delali z ljudmi s celega sveta, da bi "
 "zagotovili osupljivo računalniško izkušnjo s prosto programsko opremo."
 
-#: src/contents/ui/pages/Contribute.qml:22
+#: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "Začnite prispevati!"
+
+#: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -188,7 +194,7 @@ msgstr ""
 "ter povečati število zaposlenih. Donacije v Nemčiji predstavljajo davčno "
 "olajšavo."
 
-#: src/contents/ui/pages/Donate.qml:21
+#: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
