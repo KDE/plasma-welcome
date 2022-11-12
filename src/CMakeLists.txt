@@ -16,6 +16,7 @@ target_link_libraries(plasma-welcome
     Qt::Svg
     KF5::I18n
     KF5::CoreAddons
+    KF5::ConfigWidgets
     KF5::DBusAddons
     KF5::KIOGui
     KF5::Notifications
@@ -23,6 +24,7 @@ target_link_libraries(plasma-welcome
     KF5::Service
     KF5::WindowSystem
 )
+kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
 install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
 ecm_add_qml_module(PlasmaWelcomeModule URI "org.kde.plasma.welcome" NO_PLUGIN VERSION 1.0)

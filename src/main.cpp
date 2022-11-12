@@ -14,6 +14,7 @@
 #include <QUrl>
 #include <QtQml>
 
+#include "config.h"
 #include "controller.h"
 #include "plasma-welcome-version.h"
 
@@ -67,6 +68,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
+    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Config", Config::self());
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "AboutType", new AboutType);
     Controller controller;
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Controller", &controller);
