@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-08 00:48+0000\n"
-"PO-Revision-Date: 2022-09-21 15:45+0000\n"
+"PO-Revision-Date: 2022-11-11 18:09+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -60,12 +60,10 @@ msgid "&Next"
 msgstr "&Næsta"
 
 #: src/contents/ui/main.qml:165
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "Deiling upplýsingar um notkun með KDE"
+msgstr "Deila nafnlausum upplýsingum um notkun með KDE"
 
 #: src/contents/ui/main.qml:166
 #, kde-format
@@ -76,9 +74,7 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/main.qml:180
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Tengstu notandaaðgöngum þínum á netinu"
@@ -92,12 +88,10 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/pages/Contribute.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Taka þátt"
+msgstr "Taktu þátt"
 
 #: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -122,12 +116,10 @@ msgstr "Byrjaðu að gefa af þér!"
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "Heimsækja %1"
 
 #: src/contents/ui/pages/Discover.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Managing Software"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Umsýsla hugbúnaðar"
@@ -163,7 +155,7 @@ msgstr "Sýna %1 í Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr ""
+msgstr "Styddu við frelsið þitt"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -183,9 +175,7 @@ msgid "Make a donation"
 msgstr "Styrktu verkefnið"
 
 #: src/contents/ui/pages/Network.qml:20
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Aðgangur að internetinu"
@@ -227,9 +217,7 @@ msgid "Help work on the next release"
 msgstr "Hjálpaðu til við næstu útgáfu"
 
 #: src/contents/ui/pages/SystemSettings.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Personalizing Your System"
+#, kde-format
 msgctxt "@info:window"
 msgid "Personalize Your System"
 msgstr "Persónugerðu kerfið þitt"
