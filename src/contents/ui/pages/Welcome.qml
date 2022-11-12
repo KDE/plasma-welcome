@@ -13,7 +13,16 @@ import org.kde.plasma.welcome 1.0
 
 GenericPage {
     heading: i18nc("@title", "Welcome to KDE Plasma!")
-    description: xi18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed to help you really get things done.<nl/><nl/>Welcome to the KDE Community!")
+    description: xi18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed to help you really get things done.")
+
+    topContent: [
+        Kirigami.UrlButton {
+            id: link
+            Layout.topMargin: Kirigami.Units.largeSpacing
+            text: i18nc("@action:button", "Learn more about the KDE community")
+            url: "https://community.kde.org/Welcome_to_KDE"
+        }
+    ]
 
     Image {
         anchors.centerIn: parent
@@ -26,7 +35,22 @@ GenericPage {
         QQC2.Label {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.bottom
-            text: i18nc("@info", "Konqi, the KDE mascot")
+            width: Math.round(parent.width * 0.75)
+            text: i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
+            wrapMode: Text.Wrap
+            horizontalAlignment: Text.AlignHCenter
+        }
+
+        HoverHandler {
+            id: hoverhandler
+            cursorShape: Qt.PointingHandCursor
+        }
+        TapHandler {
+            onTapped: Qt.openUrlExternally(link.url)
+        }
+        QQC2.ToolTip {
+            visible: hoverhandler.hovered
+            text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", link.url)
         }
     }
 }
