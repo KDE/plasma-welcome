@@ -16,7 +16,7 @@ import org.kde.plasma.welcome 1.0
 
 GenericPage {
     heading: i18nc("@title:window", "Manage Software")
-    description: i18nc("@info:usagetip","Discover helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app.")
+    description: xi18nc("@info:usagetip","The <application>Discover</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app.")
 
     Kirigami.Icon {
         id: image

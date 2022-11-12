@@ -16,7 +16,7 @@ import org.kde.welcome 1.0
 
 GenericPage {
     heading: i18nc("@info:window", "Personalize Your System")
-    description: i18nc("@info:usagetip", "System Settings lets you adjust the behaviors and appearance of the whole system. From theme options to device management, you can find it all here.")
+    description: xi18nc("@info:usagetip", "The <application>System Settings</application> app lets you adjust the behaviors and appearance of the whole system. From theme options to device management, you can find it all here.")
 
     Kirigami.Icon {
         id: image
