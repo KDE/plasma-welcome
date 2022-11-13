@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-11 09:56+0100\n"
+"POT-Creation-Date: 2022-11-13 00:47+0000\n"
+"PO-Revision-Date: 2022-11-12 19:30+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -132,6 +132,7 @@ msgid "Start Contributing!"
 msgstr "Začnite prispevati!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -144,12 +145,17 @@ msgid "Manage Software"
 msgstr "Upravljanje programske opreme"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, kde-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Discover helps you find and install applications, games, and tools. You "
+#| "can search or browse by category, look at screenshots, and read reviews "
+#| "to help you find the perfect app."
 msgctxt "@info:usagetip"
 msgid ""
-"Discover helps you find and install applications, games, and tools. You can "
-"search or browse by category, look at screenshots, and read reviews to help "
-"you find the perfect app."
+"The <application>Discover</application> app helps you find and install "
+"applications, games, and tools. You can search or browse by category, look "
+"at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
 "Discover vam pomaga najti in namestiti aplikacije, igre in orodja. Po "
 "kategorijah lahko iščete ali brskate, si ogledate posnetke zaslona in "
@@ -257,11 +263,16 @@ msgid "Personalize Your System"
 msgstr "Prilagodite sistem prav vam"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, kde-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "System Settings lets you adjust the behaviors and appearance of the whole "
+#| "system. From theme options to device management, you can find it all here."
 msgctxt "@info:usagetip"
 msgid ""
-"System Settings lets you adjust the behaviors and appearance of the whole "
-"system. From theme options to device management, you can find it all here."
+"The <application>System Settings</application> app lets you adjust the "
+"behaviors and appearance of the whole system. From theme options to device "
+"management, you can find it all here."
 msgstr ""
 "Sistemske nastavitve vam omogočajo prilagajanje vedenja in videza celotnega "
 "sistema. Od možnosti tem do upravljanja naprav - prav vse lahko najdete "
@@ -286,24 +297,35 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Dobrodošli v KDE Plasma!"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE Plasma is a free and open-source desktop environment made by "
+#| "volunteers around the globe. It's simple by default for a smooth "
+#| "experience, but powerful when needed to help you really get things done."
+#| "<nl/><nl/>Welcome to the KDE Community!"
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
 "around the globe. It's simple by default for a smooth experience, but "
-"powerful when needed to help you really get things done.<nl/><nl/>Welcome to "
-"the KDE Community!"
+"powerful when needed to help you really get things done."
 msgstr ""
 "KDE Plasma je prosto in odprtokodno namizno okolje, ki so ga ustvarili "
 "prostovoljci s celega sveta. Privzeto je preprosto za prijetno izkušnjo, "
 "vendar sposobno, ko je potrebno, da vam pomaga resnično opraviti stvari.<nl/"
 "><nl/>Dobrodošli v skupnosti KDE!"
 
-#: src/contents/ui/pages/Welcome.qml:29
+#: src/contents/ui/pages/Welcome.qml:22
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
-msgid "Konqi, the KDE mascot"
-msgstr "Konqi, maskota KDE"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgstr ""
 
 #: src/main.cpp:44
 #, kde-format
@@ -346,6 +368,10 @@ msgstr "Nate Graham"
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr "Številka različice izdaje Plasma za prikaz opomb ob izdaji, npr. 5.25"
+
+#~ msgctxt "@info"
+#~ msgid "Konqi, the KDE mascot"
+#~ msgstr "Konqi, maskota KDE"
 
 #~ msgctxt "@title:window"
 #~ msgid "Freedom Isn't Free"

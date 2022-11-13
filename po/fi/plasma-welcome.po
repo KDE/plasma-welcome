@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-08 00:48+0000\n"
+"POT-Creation-Date: 2022-11-13 00:47+0000\n"
 "PO-Revision-Date: 2022-09-28 19:00+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -113,6 +113,7 @@ msgid "Start Contributing!"
 msgstr "Ryhdy avustajaksi!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -125,12 +126,17 @@ msgid "Manage Software"
 msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:19
-#, kde-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Discover helps you find and install applications, games, and tools. You "
+#| "can search or browse by category, look at screenshots, and read reviews "
+#| "to help you find the perfect app."
 msgctxt "@info:usagetip"
 msgid ""
-"Discover helps you find and install applications, games, and tools. You can "
-"search or browse by category, look at screenshots, and read reviews to help "
-"you find the perfect app."
+"The <application>Discover</application> app helps you find and install "
+"applications, games, and tools. You can search or browse by category, look "
+"at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
 "Discover auttaa etsimään ja asentamaan sovelluksia, pelejä ja apuohjelmia. "
 "Täydellistä sovellusta voi etsiä selaamalla luokkia, katsomalla "
@@ -238,11 +244,16 @@ msgid "Personalize Your System"
 msgstr ""
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, kde-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "System Settings lets you adjust the behaviors and appearance of the whole "
+#| "system. From theme options to device management, you can find it all here."
 msgctxt "@info:usagetip"
 msgid ""
-"System Settings lets you adjust the behaviors and appearance of the whole "
-"system. From theme options to device management, you can find it all here."
+"The <application>System Settings</application> app lets you adjust the "
+"behaviors and appearance of the whole system. From theme options to device "
+"management, you can find it all here."
 msgstr ""
 "Järjestelmäasetuksissa voi muuttaa koko järjestelmän toimintaa ja ulkoasua. "
 "Teemavalinnoista laitehallintaan: sieltä kaikki löytyy."
@@ -271,15 +282,20 @@ msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
 "around the globe. It's simple by default for a smooth experience, but "
-"powerful when needed to help you really get things done.<nl/><nl/>Welcome to "
-"the KDE Community!"
+"powerful when needed to help you really get things done."
 msgstr ""
 
-#: src/contents/ui/pages/Welcome.qml:29
+#: src/contents/ui/pages/Welcome.qml:22
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
-msgid "Konqi, the KDE mascot"
-msgstr "Konqi, KDE:n maskotti"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgstr ""
 
 #: src/main.cpp:44
 #, kde-format
@@ -323,3 +339,7 @@ msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
 "Plasma-julkaisun versionumero julkaisutietojen näyttämiseksi, esim. 5.25"
+
+#~ msgctxt "@info"
+#~ msgid "Konqi, the KDE mascot"
+#~ msgstr "Konqi, KDE:n maskotti"

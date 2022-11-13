@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-08 00:48+0000\n"
+"POT-Creation-Date: 2022-11-13 00:47+0000\n"
 "PO-Revision-Date: 2022-11-06 01:07\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -112,6 +112,7 @@ msgid "Start Contributing!"
 msgstr ""
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -124,12 +125,12 @@ msgid "Manage Software"
 msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:19
-#, kde-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Discover helps you find and install applications, games, and tools. You can "
-"search or browse by category, look at screenshots, and read reviews to help "
-"you find the perfect app."
+"The <application>Discover</application> app helps you find and install "
+"applications, games, and tools. You can search or browse by category, look "
+"at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:39
@@ -222,11 +223,12 @@ msgid "Personalize Your System"
 msgstr ""
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, kde-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"System Settings lets you adjust the behaviors and appearance of the whole "
-"system. From theme options to device management, you can find it all here."
+"The <application>System Settings</application> app lets you adjust the "
+"behaviors and appearance of the whole system. From theme options to device "
+"management, you can find it all here."
 msgstr ""
 
 #: src/contents/ui/pages/SystemSettings.qml:39
@@ -253,14 +255,19 @@ msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
 "around the globe. It's simple by default for a smooth experience, but "
-"powerful when needed to help you really get things done.<nl/><nl/>Welcome to "
-"the KDE Community!"
+"powerful when needed to help you really get things done."
 msgstr ""
 
-#: src/contents/ui/pages/Welcome.qml:29
+#: src/contents/ui/pages/Welcome.qml:22
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
-msgid "Konqi, the KDE mascot"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr ""
 
 #: src/main.cpp:44
