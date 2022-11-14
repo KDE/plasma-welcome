@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-13 00:47+0000\n"
-"PO-Revision-Date: 2022-11-08 07:07+0100\n"
+"PO-Revision-Date: 2022-11-13 08:02+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -141,22 +141,17 @@ msgid "Manage Software"
 msgstr "Softwarea kudeatu"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Discover helps you find and install applications, games, and tools. You "
-#| "can search or browse by category, look at screenshots, and read reviews "
-#| "to help you find the perfect app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>Discover</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"«Discover»rek aplikazioak, jokoak  eta tresnak aurkitzen eta instalatzen "
-"laguntzen dizu. Kategoriaren arabera bilatu edo arakatu dezakezu, pantaila-"
-"argazkiak ikusi, eta iritziak irakur ditzakezu aplikazio perfektua aurkitzen "
-"laguntzeko."
+"<application>Discover</application> aplikazioak, jokoak eta tresnak "
+"aurkitzen eta instalatzen laguntzen dizu. Kategoriaren arabera bilatu edo "
+"arakatu dezakezu, pantaila-argazkiak ikusi, eta iritziak irakur ditzakezu "
+"aplikazio perfektua aurkitzen laguntzeko."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -260,20 +255,16 @@ msgid "Personalize Your System"
 msgstr "Zure sistema zure gustura egokitu"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "System Settings lets you adjust the behaviors and appearance of the whole "
-#| "system. From theme options to device management, you can find it all here."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>System Settings</application> app lets you adjust the "
 "behaviors and appearance of the whole system. From theme options to device "
 "management, you can find it all here."
 msgstr ""
-"Sistemaren ezarpenek sistema osoaren jokabidea eta itxura doitzen uzten "
-"dizute. Gaien aukeretatik gailuen kudeaketara, guzti hori hemen aurki "
-"dezakezu."
+"<application>Sistemaren ezarpenak</application> aplikazioak sistema osoaren "
+"jokabidea eta itxura doitzen uzten dizu. Gaien aukeretatik gailuen "
+"kudeaketara, guzti hori hemen aurki dezakezu."
 
 #: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
@@ -294,35 +285,29 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Ongietorri KDE Plasmara!"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
 "around the globe. It's simple by default for a smooth experience, but "
 "powerful when needed to help you really get things done."
 msgstr ""
-"KDE Plasma, mundu osoko boluntarioek egiten duten mahaigain ingurune aske "
-"eta software-irekiko bat da. Era lehenetsian, esperientzia leuna izateko, "
-"sinplea da, baina beharrezkoa denean ahaltsua da, egin beharrekoak egiten "
-"laguntzeko.<nl/><nl/>Ongietorri KDE Komunitatera!"
+"KDE Plasma, mundu osoko boluntarioek egiten duten mahaigain-ingurune aske "
+"eta software-irekiko bat da. Esperientzia leuna izateko, sinplea da era "
+"lehenetsian, baina beharrezkoa denean ahaltsua da, egin beharrekoak egiten "
+"laguntzeko."
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Jakizu gehiago KDE komunitateari buruz"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "KDEren maskota «Konqi»k KDE komunitatera ongietorria ematen dizu!"
 
 #: src/main.cpp:44
 #, kde-format

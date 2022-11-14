@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-13 00:47+0000\n"
-"PO-Revision-Date: 2022-11-08 13:43+0200\n"
+"PO-Revision-Date: 2022-11-13 19:28+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -142,21 +142,17 @@ msgid "Manage Software"
 msgstr "Керування програмним забезпеченням"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Discover helps you find and install applications, games, and tools. You "
-#| "can search or browse by category, look at screenshots, and read reviews "
-#| "to help you find the perfect app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>Discover</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Discover допоможе вам знайти і встановити програми, ігри та інструменти. Ви "
-"можете виконувати пошук або навігацію за категоріями, переглядати знімки "
-"вікон і читати рецензії, щоб знайти ту програму, яка пасує вам найкраще."
+"Програма <application>Discover</application> допоможе вам знайти і "
+"встановити програми, ігри та інструменти. Ви можете виконувати пошук або "
+"навігацію за категоріями, переглядати знімки вікон і читати рецензії, щоб "
+"знайти ту програму, яка пасує вам найкраще."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -261,20 +257,16 @@ msgid "Personalize Your System"
 msgstr "Персоналізація вашої системи"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "System Settings lets you adjust the behaviors and appearance of the whole "
-#| "system. From theme options to device management, you can find it all here."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>System Settings</application> app lets you adjust the "
 "behaviors and appearance of the whole system. From theme options to device "
 "management, you can find it all here."
 msgstr ""
-"За допомогою «Системних параметрів» ви можете скоригувати поведінку і вигляд "
-"усієї системи. Від параметрів теми до керування пристроями — усе це ви "
-"знайдете тут."
+"За допомогою програми <application>Системні параметри</application> ви "
+"можете скоригувати поведінку і вигляд усієї системи. Від параметрів теми до "
+"керування пристроями — усе це ви знайдете тут."
 
 #: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
@@ -295,13 +287,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Вітаємо у Плазмі KDE!"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -310,20 +296,19 @@ msgid ""
 msgstr ""
 "Плазма KDE — вільне стільничне середовище із відкритим кодом, яке створено з "
 "доброї волі людьми з усього світу. Типово, Плазма є простою і ненав'язливою, "
-"але є дуже потужною, коли вам треба допомогти виконати певне завдання.<nl/"
-"><nl/>Вітаємо у спільноті KDE!"
+"але є дуже потужною, коли вам треба допомогти виконати певне завдання."
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Дізнатися більше про спільноту KDE"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "Маскот KDE, Конкі, запрошує вас до спільноти KDE!"
 
 #: src/main.cpp:44
 #, kde-format

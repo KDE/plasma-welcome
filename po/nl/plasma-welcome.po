@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-13 00:47+0000\n"
-"PO-Revision-Date: 2022-11-08 10:15-0400\n"
+"PO-Revision-Date: 2022-11-13 15:27+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -138,22 +138,17 @@ msgid "Manage Software"
 msgstr "Software beheren"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Discover helps you find and install applications, games, and tools. You "
-#| "can search or browse by category, look at screenshots, and read reviews "
-#| "to help you find the perfect app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>Discover</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Ontdekken helpt om toepassingen, spellen en hulpmiddelen te zoeken en te "
-"installeren. U kunt zoeken of bladeren op categorie, kijken naar "
-"schermafdrukken en reviews lezen om u te helpen de perfecte toepassing te "
-"vinden."
+"De toepassing <application>Ontdekken</application> helpt om toepassingen, "
+"spellen en hulpmiddelen te zoeken en te installeren. U kunt zoeken of "
+"bladeren op categorie, kijken naar schermafdrukken en reviews lezen om u te "
+"helpen de perfecte toepassing te vinden."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -257,20 +252,16 @@ msgid "Personalize Your System"
 msgstr "Uw systeem personaliseren"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "System Settings lets you adjust the behaviors and appearance of the whole "
-#| "system. From theme options to device management, you can find it all here."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>System Settings</application> app lets you adjust the "
 "behaviors and appearance of the whole system. From theme options to device "
 "management, you can find it all here."
 msgstr ""
-"Systeeminstellingen laten u het gedrag en uiterlijk van het gehele systeem "
-"aanpassen. Van opties voor het thema tot beheer van apparaten, u kunt het "
-"allemaal hier vinden."
+"<application>Systeeminstellingen</application> laten u het gedrag en "
+"uiterlijk van het gehele systeem aanpassen. Van opties voor het thema tot "
+"beheer van apparaten, u kunt het allemaal hier vinden."
 
 #: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
@@ -291,13 +282,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Welkom bij KDE Plasma!"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -307,19 +292,19 @@ msgstr ""
 "KDE Plasma is een vrije en open-source bureaubladomgeving gemaakt door "
 "vrijwilligers van over de gehele wereld. Het is standaard eenvoudig voor een "
 "gladde ervaring, maar krachtig wanneer nodig om u te echt helpen dingen "
-"gedaan te krijgen.<nl/><nl/>Welkom in de KDE-gemeenschap!"
+"gedaan te krijgen."
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Kom meer te weten over de de KDE-gemeenschap"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "De mascotte va KDE, Konqi, verwelkomt u in de KDE-gemeenschap!"
 
 #: src/main.cpp:44
 #, kde-format

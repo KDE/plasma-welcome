@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-13 00:47+0000\n"
-"PO-Revision-Date: 2022-11-08 11:05+0100\n"
+"PO-Revision-Date: 2022-11-13 09:38+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -142,21 +142,17 @@ msgid "Manage Software"
 msgstr "Gestió del programari"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Discover helps you find and install applications, games, and tools. You "
-#| "can search or browse by category, look at screenshots, and read reviews "
-#| "to help you find the perfect app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>Discover</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Discover ajuda a instal·lar aplicacions, jocs i eines. Podeu buscar o "
-"explorar per categoria, veure les captures de pantalla, i llegir les "
-"ressenyes com a ajuda per a trobar l'aplicació perfecta."
+"L'aplicació <application>Discover</application> ajuda a instal·lar "
+"aplicacions, jocs i eines. Podeu buscar o explorar per categoria, veure les "
+"captures de pantalla, i llegir les ressenyes com a ajuda per a trobar "
+"l'aplicació perfecta."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -260,20 +256,16 @@ msgid "Personalize Your System"
 msgstr "Personalització del sistema"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "System Settings lets you adjust the behaviors and appearance of the whole "
-#| "system. From theme options to device management, you can find it all here."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>System Settings</application> app lets you adjust the "
 "behaviors and appearance of the whole system. From theme options to device "
 "management, you can find it all here."
 msgstr ""
-"Configuració del sistema permet ajustar el comportament i l'aparença de tot "
-"el sistema. Des de les opcions del tema fins a la gestió de dispositius, tot "
-"ho trobareu ací."
+"L'aplicació <application>Configuració del sistema</application> permet "
+"ajustar el comportament i l'aparença de tot el sistema. Des de les opcions "
+"del tema fins a la gestió de dispositius, tot ho trobareu ací."
 
 #: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
@@ -294,13 +286,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Us donem la benvinguda a Plasma de KDE"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -309,20 +295,19 @@ msgid ""
 msgstr ""
 "Plasma de KDE és un entorn d'escriptori lliure i de codi obert creat per "
 "voluntaris de tot el món. De manera predeterminada és senzill per a una "
-"experiència fàcil, però potent quan cal per ajudar-vos a fer les coses.<nl/"
-"><nl/>Us donem la benvinguda a la comunitat KDE!"
+"experiència fàcil, però potent quan cal per a ajudar-vos a fer les coses."
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Apreneu-ne més pel que fa a la Comunitat KDE"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "La mascota Konqui de KDE vos dona la benvinguda a la Comunitat KDE!"
 
 #: src/main.cpp:44
 #, kde-format
@@ -367,7 +352,3 @@ msgid ""
 msgstr ""
 "Número de versió del llançament de Plasma per a mostrar les notes de la "
 "versió, p. ex. 5.25"
-
-#~ msgctxt "@info"
-#~ msgid "Konqi, the KDE mascot"
-#~ msgstr "Konqi, la mascota de KDE"
