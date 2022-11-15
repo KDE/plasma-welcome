@@ -59,13 +59,12 @@ GenericPage {
         level: 3
     }
 
-    GridLayout {
+    RowLayout {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: label.bottom
         anchors.topMargin: Kirigami.Units.gridUnit * 2
-        columns: appsModel.count
-        columnSpacing: Kirigami.Units.largeSpacing * 4
-        rowSpacing: Kirigami.Units.largeSpacing * 4
+
+        spacing: Kirigami.Units.largeSpacing * 4
 
         Repeater {
             model: ListModel {
