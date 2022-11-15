@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-13 00:47+0000\n"
-"PO-Revision-Date: 2022-11-09 20:18+0100\n"
+"PO-Revision-Date: 2022-11-13 19:57+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -138,22 +138,17 @@ msgid "Manage Software"
 msgstr "Gérer des logiciels"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Discover helps you find and install applications, games, and tools. You "
-#| "can search or browse by category, look at screenshots, and read reviews "
-#| "to help you find the perfect app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>Discover</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Discover vous aide à trouver et à installer des applications, des jeux et "
-"des outils. Vous pouvez rechercher ou parcourir par catégorie, regarder des "
-"copies d'écran et lire des critiques pour vous aider à trouver l'application "
-"parfaite."
+"L'application <application>Discover</application> vous aide à trouver et à "
+"installer des applications, des jeux et des outils. Vous pouvez rechercher "
+"ou naviguer par catégorie, regarder des copies d'écran et lire des critiques "
+"pour vous aider à trouver l'application parfaite."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -257,20 +252,16 @@ msgid "Personalize Your System"
 msgstr "Personnaliser votre système"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "System Settings lets you adjust the behaviors and appearance of the whole "
-#| "system. From theme options to device management, you can find it all here."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>System Settings</application> app lets you adjust the "
 "behaviors and appearance of the whole system. From theme options to device "
 "management, you can find it all here."
 msgstr ""
-"La configuration du système vous permet de régler les comportements et "
-"l'apparence de l'ensemble du système. Des options de thèmes à la gestion des "
-"périphériques, vous trouverez tout ici."
+"La <application>configuration du système</application> vous permet de régler "
+"les comportements et l'apparence de l'ensemble du système. Des options de "
+"thèmes à la gestion des périphériques, vous trouverez tout ici."
 
 #: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
@@ -291,13 +282,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Bienvenue dans KDE Plasma !"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -307,19 +292,19 @@ msgstr ""
 "KDE Plasma est un environnement de bureau gratuit et « Open-source », créé "
 "par des volontaires du monde entier. Il est simple par défaut pour une "
 "expérience fluide, mais puissant quand il le faut pour vous aider à "
-"accomplir vos tâches.<nl/><nl/>Bienvenue dans la communauté KDE !"
+"accomplir vos tâches."
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "En apprendre plus sur la communauté KDE"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "La mascotte de KDE Konqi vous accueille dans la communauté KDE !"
 
 #: src/main.cpp:44
 #, kde-format
