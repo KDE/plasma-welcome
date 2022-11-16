@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-13 00:47+0000\n"
-"PO-Revision-Date: 2022-10-05 11:16+0100\n"
+"POT-Creation-Date: 2022-11-16 00:48+0000\n"
+"PO-Revision-Date: 2022-11-15 09:33+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -127,7 +127,7 @@ msgstr "Começar a Contribuir!"
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "Visitar o %1"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -136,21 +136,17 @@ msgid "Manage Software"
 msgstr "Gerir as Aplicações"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Discover helps you find and install applications, games, and tools. You "
-#| "can search or browse by category, look at screenshots, and read reviews "
-#| "to help you find the perfect app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>Discover</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"O Discover ajuda-o a procurar e instalar aplicações, jogos e ferramentas. "
-"Poderá procurar ou navegar por categorias, ver as imagens das aplicações e "
-"ler as revisões e avaliações que o ajudam a encontrar a aplicação perfeita."
+"O <application>Discover</application> ajuda-o a procurar e instalar "
+"aplicações, jogos e ferramentas. Poderá procurar ou navegar por categorias, "
+"ver as imagens das aplicações e ler as revisões e avaliações que o ajudam a "
+"encontrar a aplicação perfeita."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -164,7 +160,7 @@ msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "Discover"
 
-#: src/contents/ui/pages/Discover.qml:122
+#: src/contents/ui/pages/Discover.qml:121
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -254,20 +250,16 @@ msgid "Personalize Your System"
 msgstr "Personalizar o seu Sistema"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "System Settings lets you adjust the behaviors and appearance of the whole "
-#| "system. From theme options to device management, you can find it all here."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>System Settings</application> app lets you adjust the "
 "behaviors and appearance of the whole system. From theme options to device "
 "management, you can find it all here."
 msgstr ""
-"A Configuração do Sistema permite-lhe ajudar os comportamentos e a aparência "
-"do sistema inteiro. Desde as opções dos temas à gestão de dispositivos, "
-"poderá encontrar tudo aqui."
+"A <application>Configuração do Sistema</application> permite-lhe ajudar os "
+"comportamentos e a aparência do sistema inteiro. Desde as opções dos temas à "
+"gestão de dispositivos, poderá encontrar tudo aqui."
 
 #: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
@@ -288,13 +280,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Bem-vindo ao Plasma do KDE!"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -304,19 +290,19 @@ msgstr ""
 "O Plasma do KDE é um ambiente de trabalho gratuito e de código aberto, "
 "criado por voluntários em todo o mundo. É simples por omissão para uma "
 "experiência suave, mas é poderoso quando for necessário para o ajudar "
-"realmente a atingir as coisas.<nl/><nl/>Bem-vindo(a) à Comunidade do KDE!"
+"realmente a atingir as coisas."
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Aprender mais sobre a comunidade do KDE"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "A mascote do KDE Konqi dá-lhe as boas-vindas à comunidade do KDE!"
 
 #: src/main.cpp:44
 #, kde-format
@@ -361,7 +347,3 @@ msgid ""
 msgstr ""
 "Número da versão do Plasma para a qual apresentar as notas de lançamento, p."
 "ex. 5.25"
-
-#~ msgctxt "@info"
-#~ msgid "Konqi, the KDE mascot"
-#~ msgstr "Konqi, a mascote do KDE"
