@@ -1,26 +1,26 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-welcome package.
+#
+# A S Alam <aalam@satluj.org>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-16 00:48+0000\n"
-"PO-Revision-Date: 2022-11-19 14:49\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2022-11-19 06:05-0800\n"
+"Last-Translator: A S Alam <aalam@satluj.org>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf5-trunk/messages/plasma-welcome/plasma-welcome.pot\n"
-"X-Crowdin-File-ID: 40954\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ ੨੦੨੨"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -31,38 +31,39 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
-msgstr ""
+msgstr "ਛੱਡੋ(&S)"
 
 #: src/contents/ui/main.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
-msgstr ""
+msgstr "ਪਿੱਛੇ(&B)"
 
 #: src/contents/ui/main.qml:71
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
 msgid_plural "Page %1 of %2"
-msgstr[0] ""
+msgstr[0] "%2 ਵਿੱਚ %1 ਸਫ਼ਾ"
+msgstr[1] "%2 ਵਿੱਚ %1 ਸਫ਼ਾ"
 
 #: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
-msgstr ""
+msgstr "ਮੁਕੰਮਲ(&F)"
 
 #: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr ""
+msgstr "ਅੱਗੇ(&N)"
 
 #: src/contents/ui/main.qml:165
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr ""
+msgstr "ਵਰਤਣ ਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਅਣਪਛਾਤੇ ਰੂਪ ਵਿੱਚ KDE ਨਾਲ ਸਾਂਝਾ ਕਰੋ"
 
 #: src/contents/ui/main.qml:166
 #, kde-format
@@ -76,7 +77,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr ""
+msgstr "ਆਪਣੇ ਆਨਲਾਈਨ ਖਾਤਿਆਂ ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
 
 #: src/contents/ui/main.qml:181
 #, kde-format
@@ -90,7 +91,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr ""
+msgstr "ਹਿੱਸਾ ਲਵੋ"
 
 #: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -109,20 +110,20 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr ""
+msgstr "ਯੋਗਦਾਨ ਪਾਓ!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "%1 ਖੋਲ੍ਹੋ"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr ""
+msgstr "ਸਾਫਟਵੇਅਰ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ"
 
 #: src/contents/ui/pages/Discover.qml:19
 #, kde-kuit-format
@@ -137,25 +138,25 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr ""
+msgstr "ਡਿਸਕਵਰ ਹੁਣੇ ਚਲਾਓ"
 
 #: src/contents/ui/pages/Discover.qml:57
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
-msgstr ""
+msgstr "ਡਿਸਕਵਰ"
 
 #: src/contents/ui/pages/Discover.qml:121
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr ""
+msgstr "ਡਿਸਕਵਰ ਵਿੱਚ %1 ਵੇਖੋ"
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr ""
+msgstr "ਆਪਣੀ ਆਜ਼ਾਦੀ ਨੂੰ ਸਹਿਯੋਗ ਦਿਓ"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -172,13 +173,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr ""
+msgstr "ਦਾਨ ਦਿਓ"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr ""
+msgstr "ਇੰਟਰਨੈੱਟ ਲਈ ਪਹੁੰਚ"
 
 #: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
@@ -194,7 +195,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr ""
+msgstr "ਪਲਾਜ਼ਮਾ ਨੂੰ %1 ਲਈ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ ਹੈ"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
@@ -214,7 +215,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr ""
+msgstr "ਅਗਲੇ ਰੀਲਿਜ਼ ਲਈ ਕੰਮ ਵਾਸਤੇ ਮਦਦ ਕਰੋ"
 
 #: src/contents/ui/pages/SystemSettings.qml:18
 #, kde-format
@@ -241,7 +242,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
-msgstr ""
+msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ"
 
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
@@ -286,19 +287,19 @@ msgstr ""
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
-msgstr ""
+msgstr "(c) 2021"
 
 #: src/main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:59 src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "ਲੇਖਕ"
 
 #: src/main.cpp:62
 #, kde-format
