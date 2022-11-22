@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-16 00:48+0000\n"
-"PO-Revision-Date: 2022-10-05 16:46+0400\n"
+"PO-Revision-Date: 2022-11-21 20:49+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -132,7 +132,7 @@ msgstr "ابدأ بالمساهمة"
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "زرّ %1"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -141,21 +141,16 @@ msgid "Manage Software"
 msgstr "أدر التطبيقات"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Discover helps you find and install applications, games, and tools. You "
-#| "can search or browse by category, look at screenshots, and read reviews "
-#| "to help you find the perfect app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>Discover</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"يساعدك المستكشف في العثور على التطبيقات والألعاب والأدوات وتثبيتها. يمكنك "
-"البحث أو التصفح حسب الفئة، وإلقاء نظرة على لقطات الشاشة وقراءة المراجعات "
-"لمساعدتك في اختيار التطبيق المثالي."
+"يساعدك تطبيق <application>المستكشف</application> في العثور على التطبيقات "
+"والألعاب والأدوات وتثبيتها. يمكنك البحث أو التصفح حسب الفئة، وإلقاء نظرة على "
+"لقطات الشاشة وقراءة المراجعات لمساعدتك في اختيار التطبيق المثالي."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -257,19 +252,16 @@ msgid "Personalize Your System"
 msgstr "خصص نظامك"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "System Settings lets you adjust the behaviors and appearance of the whole "
-#| "system. From theme options to device management, you can find it all here."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>System Settings</application> app lets you adjust the "
 "behaviors and appearance of the whole system. From theme options to device "
 "management, you can find it all here."
 msgstr ""
-"تتيح لك إعدادات النظام ضبط السلوكيات ومظهر النظام بأكمله. من خيارات السمة "
-"إلى إدارة الأجهزة ، يمكنك العثور على كل شيء هنا."
+"تتيح لك  <application>إعدادات النظام</application> ضبط السلوكيات ومظهر "
+"النظام بأكمله. من خيارات السمة إلى إدارة الأجهزة ، يمكنك العثور على كل شيء "
+"هنا."
 
 #: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
@@ -290,13 +282,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "مرحبا بك في سطح مكتب بلازما!"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Plasma is a free and open-source desktop environment made by volunteers "
@@ -304,19 +290,19 @@ msgid ""
 "powerful when needed to help you really get things done."
 msgstr ""
 "كدي بلازما هي بيئة سطح مكتب مجانية ومفتوحة المصدر صنعها المتطوعون في جميع "
-"أنحاء العالم. بسيطة ولكن قوية عن الحاجة. <nl/><nl/>مرحبًا بك في مجتمع كدي!"
+"أنحاء العالم. بسيطة ولكن قوية عن الحاجة. "
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "تعلم المزيد عن مجتمع كدي"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "تميمة كدي كونكي ترحب بك في مجتمع كدي!"
 
 #: src/main.cpp:44
 #, kde-format
