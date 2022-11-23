@@ -16,8 +16,8 @@ import org.kde.plasma.welcome 1.0
 GenericPage {
     id: root
 
-    heading: i18nc("@title:window", "Make it your own")
-    description: xi18nc("@info:usagetip","Plasma is made of widgets, little modules that can be configured, removed or swapped to something completely different!")
+    heading: i18nc("@title:window", "Make It Your Own")
+    description: xi18nc("@info:usagetip","Plasma is made of widgets: little modules that can be configured, removed, or exchanged for completely different ones! It's easy to adapt Plasma to your needs and workflows.")
 
     AnimatedImage {
         anchors.centerIn: parent
@@ -32,7 +32,7 @@ GenericPage {
             anchors.top: parent.bottom
             anchors.topMargin: Kirigami.Units.largeSpacing
             width: Math.round(parent.width * 0.75)
-            text: i18nc("@info", "Use the default widgets as well as community-made ones.")
+            text: i18nc("@info", "You can use the built-in widgets as well as community-made ones.")
             wrapMode: Text.Wrap
             horizontalAlignment: Text.AlignHCenter
         }
