@@ -111,6 +111,9 @@ Kirigami.ApplicationWindow {
             welcome.visible = true;
             initialPages = [welcome];
 
+            plasma.visible = true;
+            initialPages.push(plasma);
+
             if (!Controller.networkAlreadyConnected()) {
                 network.visible = true;
                 initialPages.push (network);
@@ -154,6 +157,7 @@ Kirigami.ApplicationWindow {
     PlasmaUpdate {id: plasmaUpdate; visible: false}
 
     Welcome {id: welcome; visible: false}
+    Plasma {id: plasma; visible: false}
     Network {id: network; visible: false}
     Discover {id: discover; visible: false}
     SystemSettings {id: systemsettings; visible: false}
