@@ -13,7 +13,7 @@ import org.kde.plasma.welcome 1.0
 
 GenericPage {
     heading: i18nc("@title", "Welcome to KDE Plasma!")
-    description: xi18nc("@info:usagetip", "KDE Plasma is a free and open-source desktop environment made by volunteers around the globe. It's simple by default for a smooth experience, but powerful when needed to help you really get things done.")
+    description: xi18nc("@info:usagetip", "Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. The Plasma desktop environment is simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!")
 
     topContent: [
         Kirigami.UrlButton {
