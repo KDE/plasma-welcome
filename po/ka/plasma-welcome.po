@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-25 00:49+0000\n"
-"PO-Revision-Date: 2022-10-03 05:29+0200\n"
+"PO-Revision-Date: 2022-11-25 06:07+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -73,6 +73,9 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"ჩვენს პროგრამისტები ამ მონაცემებს მხოლოდ KDE-ის პროგრამების გასაუმჯობესებლად "
+"გამოიყენებენ. იმისი არჩევა, რას გაგვიზიარებთ, სისტემის მორგების ფანჯარაში "
+"შეგიძლიათ."
 
 #: src/contents/ui/main.qml:180
 #, kde-format
@@ -87,6 +90,8 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
+"ეს საშუალებას მოგცემთ, KDE-ის აპებში მის შემცველობასთან იქონოთ წვდომა. "
+"მორგება სისტემის მორგების ფანჯარაში შეგიძლიათ."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -119,7 +124,7 @@ msgstr "დაიწყეთ წვლილის შეტანა!"
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "ეწვიეთ %1-ს"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -158,7 +163,7 @@ msgstr "%1-ის Discover-ში ჩვენება"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr ""
+msgstr "მხარი დაუჭირეთ თქვენს თავისუფლებას"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -266,7 +271,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "გაიგეთ მეტი KDE-ის საზოგადოების შესახებ"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
