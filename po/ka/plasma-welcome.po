@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-25 00:49+0000\n"
-"PO-Revision-Date: 2022-11-25 06:07+0100\n"
+"PO-Revision-Date: 2022-12-03 14:57+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -112,6 +112,14 @@ msgid ""
 "difference to millions while working with people from around the globe to "
 "deliver a stunning free software computing experience."
 msgstr ""
+"KDE დიდი კომპანია არაა. ის საერთაშორისო მოხალისეების საზოგადოებაა და მისი "
+"პროგრამები თქვენნაირი ხალხის შემოწირულობებით, მათი დროითა და ღვაწლით "
+"იქმნება. ეს ნიშნავს, რომ დახმარება თქვენც შეგიძლიათ, რომ რაღაც უკეთესად "
+"იყოს! არსებობს ბევრი გზა, რომ დაგვეხმაროთ, მაგალითად, როგორიცაა, შეცდომების "
+"ძებნა, პროგრამირება, თარგმნა, ვიზუალური დიზაინი და წახალისება..<nl/><nl/>KDE-"
+"სთვის შემოწირულობით თქვენ შეგიძლიათ, რაღაც განსაკუთრებულის ნაწილი გახდეთ, "
+"გაიცნოთ ახალი მეგობრები, მიიღოთ ახალი ცოდნა და შეცვალოთ მილიონობით ადამიანის "
+"ცხოვრება ."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -140,6 +148,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"აპი <application>Discover</application> დაგეხმარებათ იპოვოთ და დააყენოთ "
+"აპლიკაციები, თამაშები და პროგრამები. ისინი შეგიძლიათ მოძებნოთ ან "
+"დაათვალიეროთ კატეგორიების მიხედვით, გადახედოთ ეკრანის ანაბეჭდებს და "
+"წაიკითხოთ კომენტარები, რათა თქვენთვის სასურველი პროგრამა იპოვოთ."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -319,7 +331,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr ""
+msgstr "რელიზის შენიშვნებში საჩვენებელი Plasma-ის ვერსია. მაგ: 5.25"
 
 #~ msgctxt "@info"
 #~ msgid "Konqi, the KDE mascot"
