@@ -13,6 +13,7 @@
 #include <QString>
 
 #include "controller.h"
+#include "kuserfeedbacksettings.h"
 
 #include <KIO/ApplicationLauncherJob>
 #include <KNotificationJobUiDelegate>
@@ -36,6 +37,15 @@ bool Controller::networkAlreadyConnected()
         }
     }
     return false;
+}
+
+bool Controller::userFeedbackAvailable()
+{
+#if HAVE_KUSERFEEDBACK
+    return true;
+#else
+    return false;
+#endif
 }
 
 QStringList Controller::distroPages()

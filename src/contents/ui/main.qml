@@ -128,8 +128,10 @@ Kirigami.ApplicationWindow {
             systemsettings.visible = true;
             initialPages.push(systemsettings);
 
-            kcm_feedback.visible = true;
-            initialPages.push(kcm_feedback);
+            if (Controller.userFeedbackAvailable()) {
+                kcm_feedback.visible = true;
+                initialPages.push(kcm_feedback);
+            }
 
             kcm_kaccounts.visible = true;
             initialPages.push(kcm_kaccounts);
