@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-25 00:49+0000\n"
+"POT-Creation-Date: 2022-12-11 00:49+0000\n"
 "PO-Revision-Date: 2022-11-11 18:09+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
@@ -27,19 +27,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sv1@fellsnet.is"
 
-#: src/contents/ui/main.qml:54
+#: src/contents/ui/main.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Sleppa"
 
-#: src/contents/ui/main.qml:54
+#: src/contents/ui/main.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "Til &baka"
 
-#: src/contents/ui/main.qml:71
+#: src/contents/ui/main.qml:77
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -47,25 +47,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "Síða %1 af %2"
 msgstr[1] "Síða %1 af %2"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:85
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Ljúka"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:85
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Næsta"
 
-#: src/contents/ui/main.qml:165
+#: src/contents/ui/main.qml:173
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Deila nafnlausum upplýsingum um notkun með KDE"
 
-#: src/contents/ui/main.qml:166
+#: src/contents/ui/main.qml:174
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -73,13 +73,13 @@ msgid ""
 "choose how much to share in System Settings, and here too."
 msgstr ""
 
-#: src/contents/ui/main.qml:180
+#: src/contents/ui/main.qml:188
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Tengstu notandaaðgöngum þínum á netinu"
 
-#: src/contents/ui/main.qml:181
+#: src/contents/ui/main.qml:189
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -273,43 +273,43 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr ""
 
-#: src/main.cpp:44
+#: src/main.cpp:45
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "Velkomin-forrit fyrir KDE Plasma"
 
-#: src/main.cpp:49
+#: src/main.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
 msgstr "Velkomin í KDE Plasma"
 
-#: src/main.cpp:57
+#: src/main.cpp:58
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:58
+#: src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59 src/main.cpp:63
+#: src/main.cpp:60 src/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Höfundur"
 
-#: src/main.cpp:62
+#: src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:80
+#: src/main.cpp:82
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"

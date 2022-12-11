@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-25 00:49+0000\n"
+"POT-Creation-Date: 2022-12-11 00:49+0000\n"
 "PO-Revision-Date: 2022-11-25 15:11+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,19 +27,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: src/contents/ui/main.qml:54
+#: src/contents/ui/main.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Over&slaan"
 
-#: src/contents/ui/main.qml:54
+#: src/contents/ui/main.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Terug"
 
-#: src/contents/ui/main.qml:71
+#: src/contents/ui/main.qml:77
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -47,25 +47,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "Pagina %1 van %2"
 msgstr[1] "Pagina %1 van %2"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:85
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "Vol&tooien"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:85
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "V&olgende"
 
-#: src/contents/ui/main.qml:165
+#: src/contents/ui/main.qml:173
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Anonieme gebruiksinformatie delen met KDE"
 
-#: src/contents/ui/main.qml:166
+#: src/contents/ui/main.qml:174
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -75,13 +75,13 @@ msgstr ""
 "Onze ontwikkelaars zullen deze anonieme gegevens gebruiken om KDE software "
 "te verbeteren. U kiest hoeveel u deelt in Systeeminstellingen en ook hier."
 
-#: src/contents/ui/main.qml:180
+#: src/contents/ui/main.qml:188
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Uw online accounts verbinden"
 
-#: src/contents/ui/main.qml:181
+#: src/contents/ui/main.qml:189
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -310,43 +310,43 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "De mascotte va KDE, Konqi, verwelkomt u in de KDE-gemeenschap!"
 
-#: src/main.cpp:44
+#: src/main.cpp:45
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "Een welkom-toepassing voor KDE Plasma"
 
-#: src/main.cpp:49
+#: src/main.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
 msgstr "Welkom bij KDE Plasma"
 
-#: src/main.cpp:57
+#: src/main.cpp:58
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:58
+#: src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59 src/main.cpp:63
+#: src/main.cpp:60 src/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Auteur"
 
-#: src/main.cpp:62
+#: src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:80
+#: src/main.cpp:82
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"

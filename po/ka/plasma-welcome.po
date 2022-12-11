@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-25 00:49+0000\n"
+"POT-Creation-Date: 2022-12-11 00:49+0000\n"
 "PO-Revision-Date: 2022-12-05 05:54+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -28,19 +28,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
 
-#: src/contents/ui/main.qml:54
+#: src/contents/ui/main.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "გამო&ტოვება"
 
-#: src/contents/ui/main.qml:54
+#: src/contents/ui/main.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&უკან"
 
-#: src/contents/ui/main.qml:71
+#: src/contents/ui/main.qml:77
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -48,25 +48,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "გვერდი %1 %2-დან"
 msgstr[1] "გვერდი %1 %2-დან"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:85
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&დასრულება"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:85
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&შემდეგი"
 
-#: src/contents/ui/main.qml:165
+#: src/contents/ui/main.qml:173
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "გამოყენების ანონიმური ინფორმაციის გაზიარება KDE-სთან"
 
-#: src/contents/ui/main.qml:166
+#: src/contents/ui/main.qml:174
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -77,13 +77,13 @@ msgstr ""
 "გამოიყენებენ. იმისი არჩევა, რას გაგვიზიარებთ, სისტემის მორგების ფანჯარაში "
 "შეგიძლიათ."
 
-#: src/contents/ui/main.qml:180
+#: src/contents/ui/main.qml:188
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "თქვენი ონლაინ ანგარიშების დამატება"
 
-#: src/contents/ui/main.qml:181
+#: src/contents/ui/main.qml:189
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -308,43 +308,43 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE-ის თილისმა კონქსი მოგესალმებათ KDE-ის საძმოში!"
 
-#: src/main.cpp:44
+#: src/main.cpp:45
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "მისალმების აპი KDE Plasma-სთვის"
 
-#: src/main.cpp:49
+#: src/main.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
 msgstr "მოგესალმებით KDE Plasma-ში"
 
-#: src/main.cpp:57
+#: src/main.cpp:58
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:58
+#: src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59 src/main.cpp:63
+#: src/main.cpp:60 src/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "ავტორი"
 
-#: src/main.cpp:62
+#: src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:80
+#: src/main.cpp:82
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
