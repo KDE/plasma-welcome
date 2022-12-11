@@ -162,7 +162,10 @@ GenericPage {
                 y: parent.height - panelContainer.height - height
                 anchors {
                     right: panelContainer.right
-                    rightMargin: appletContainer.width - ((appletContainer.iconSize + appletContainer.spacing)* 3) - appletContainer.anchors.rightMargin
+                    rightMargin: appletContainer.width + appletContainer.anchors.rightMargin   // Align with the left of the appletContainer
+                                  - ((appletContainer.iconSize + appletContainer.spacing) * 3) // Align with the right of the third icon
+                                  + (appletContainer.iconSize / 2)                             // Align with the center of the icon
+                                  - (width / 2)                                                // Center the arrow on the icon
                 }
                 source: "arrow-down"
 
