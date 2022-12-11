@@ -14,5 +14,7 @@ Dependencies:
     'frameworks/knotifications': '@latest'
     'frameworks/plasma-framework': '@latest'
     'frameworks/kwindowsystem': '@latest'
+    'network/kaccounts-integration': '@latest'
+    'network/kaccounts-providers': '@same'
 Options:
   require-passing-tests-on: [ 'Linux', 'FreeBSD' ]
