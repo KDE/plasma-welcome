@@ -40,7 +40,6 @@ ecm_setup_version(${PROJECT_VERSION}
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons Declarative I18n KIO Notifications Plasma Service WindowSystem)
 find_package(KUserFeedback)
-find_package(KAccounts REQUIRED)
 
 add_subdirectory(src)
 
