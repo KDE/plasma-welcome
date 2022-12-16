@@ -18,7 +18,6 @@
 #include "controller.h"
 #include "plasma-welcome-version.h"
 
-#include "about.h"
 #include "module.h"
 #include <KAboutData>
 #include <KDBusService>
@@ -69,7 +68,6 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
 
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Config", Config::self());
-    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "AboutType", new AboutType);
     Controller controller;
     qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Controller", &controller);
     qmlRegisterType<Module>("org.kde.welcome", 1, 0, "Module");
