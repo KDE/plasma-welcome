@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-11 00:49+0000\n"
-"PO-Revision-Date: 2022-10-19 14:14-0300\n"
+"POT-Creation-Date: 2022-12-17 00:51+0000\n"
+"PO-Revision-Date: 2022-12-15 11:40-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -140,7 +140,7 @@ msgstr "Comece a contribuir!"
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "Visite %1"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
@@ -149,21 +149,17 @@ msgid "Manage Software"
 msgstr "Gerenciar software"
 
 #: src/contents/ui/pages/Discover.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Discover helps you find and install applications, games, and tools. You "
-#| "can search or browse by category, look at screenshots, and read reviews "
-#| "to help you find the perfect app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>Discover</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"O Discover ajuda você a instalar aplicativos, jogos e ferramentas. Você pode "
-"pesquisar ou navegar por categoria, olhar para capturas de tela e ler "
-"análises para te ajudar a encontrar o aplicativo perfeito."
+"O aplicativo <application>Discover</application> ajuda você a instalar "
+"aplicativos, jogos e ferramentas. Você pode pesquisar ou navegar por "
+"categoria, olhar para capturas de tela e ler análises para te ajudar a "
+"encontrar o aplicativo perfeito."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -267,20 +263,16 @@ msgid "Personalize Your System"
 msgstr "Personalizar seu sistema"
 
 #: src/contents/ui/pages/SystemSettings.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "System Settings lets you adjust the behaviors and appearance of the whole "
-#| "system. From theme options to device management, you can find it all here."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The <application>System Settings</application> app lets you adjust the "
 "behaviors and appearance of the whole system. From theme options to device "
 "management, you can find it all here."
 msgstr ""
-"As Configurações do sistema permitem que você ajuste os comportamentos e "
-"aparência do sistema inteiro. Das opções de tema ao gerenciamento de "
-"dispositivos, você pode encontrar tudo aqui."
+"O aplicativo <application>Configurações do sistema</application> permite que "
+"você ajuste os comportamentos e aparência do sistema inteiro. Das opções de "
+"tema ao gerenciamento de dispositivos, você pode encontrar tudo aqui."
 
 #: src/contents/ui/pages/SystemSettings.qml:39
 #, kde-format
@@ -324,7 +316,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Aprenda mais sobre a comunidade KDE"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
@@ -332,43 +324,43 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr ""
 
-#: src/main.cpp:45
+#: src/main.cpp:44
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "Um aplicativo de boas vindas para o KDE Plasma"
 
-#: src/main.cpp:50
+#: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
 msgstr "Bem-vindo ao KDE Plasma"
 
-#: src/main.cpp:58
+#: src/main.cpp:57
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:59
+#: src/main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:60 src/main.cpp:64
+#: src/main.cpp:59 src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: src/main.cpp:63
+#: src/main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:82
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
