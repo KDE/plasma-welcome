@@ -16,12 +16,20 @@
 #include "kuserfeedbacksettings.h"
 
 #include <KIO/ApplicationLauncherJob>
+#include <KIO/CommandLauncherJob>
 #include <KNotificationJobUiDelegate>
 #include <KService>
 
-void Controller::open(const QString &program)
+void Controller::launchApp(const QString &program)
 {
     auto *job = new KIO::ApplicationLauncherJob(KService::serviceByDesktopName(program));
+    job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
+    job->start();
+}
+
+void Controller::runCommand(const QString &command)
+{
+    auto *job = new KIO::CommandLauncherJob(command);
     job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
     job->start();
 }

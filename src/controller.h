@@ -11,7 +11,8 @@ class Controller : public QObject
 {
     Q_OBJECT
 public:
-    Q_INVOKABLE static void open(const QString &program);
+    Q_INVOKABLE static void launchApp(const QString &program);
+    Q_INVOKABLE static void runCommand(const QString &command);
     Q_INVOKABLE bool networkAlreadyConnected();
     Q_INVOKABLE bool userFeedbackAvailable();
     Q_INVOKABLE QStringList distroPages();

@@ -52,12 +52,25 @@ Kirigami.Icon {
 ## Open an external app
 ```
 Kirigami.Icon {
-    source: "media-default-track"
+    source: "document-open-folder"
     HoverHandler {
         cursorShape: Qt.PointingHandCursor
     }
     TapHandler {
-        onTapped: Controller.open("")
+        onTapped: Controller.launchApp("org.kde.dolphin")
+    }
+}
+```
+
+## Run a terminal command
+```
+Kirigami.Icon {
+    source: "notification"
+    HoverHandler {
+        cursorShape: Qt.PointingHandCursor
+    }
+    TapHandler {
+        onTapped: Controller.runCommand("notify-send foo bar")
     }
 }
 ```

@@ -122,11 +122,14 @@ Kirigami.ApplicationWindow {
                 initialPages.push (network);
             }
 
+            simpleByDefault.visible = true;
+            initialPages.push(simpleByDefault);
+
+            powerfulWhenNeeded.visible = true;
+            initialPages.push(powerfulWhenNeeded);
+
             discover.visible = true;
             initialPages.push(discover);
-
-            systemsettings.visible = true;
-            initialPages.push(systemsettings);
 
             if (Controller.userFeedbackAvailable()) {
                 kcm_feedback.visible = true;
@@ -163,8 +166,9 @@ Kirigami.ApplicationWindow {
 
     Welcome {id: welcome; visible: false}
     Network {id: network; visible: false}
+    SimpleByDefault {id: simpleByDefault; visible: false}
+    PowerfulWhenNeeded {id: powerfulWhenNeeded; visible: false}
     Discover {id: discover; visible: false}
-    SystemSettings {id: systemsettings; visible: false}
     KCM {
         id: kcm_feedback
 

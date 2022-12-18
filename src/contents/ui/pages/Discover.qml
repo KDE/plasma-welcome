@@ -31,7 +31,7 @@ GenericPage {
             cursorShape: Qt.PointingHandCursor
         }
         TapHandler {
-            onTapped: Controller.open("org.kde.discover");
+            onTapped: Controller.launchApp("org.kde.discover");
         }
 
         QQC2.ToolTip {
