@@ -49,7 +49,7 @@ GenericPage
         Connections {
             target: kcm
             function onPagePushed(page) {
-                pageStack.layers.push("qrc:/KCM.qml", {kcm: container.kcm, "internalPage": page});
+                pageStack.layers.push(page);
             }
             function onPageRemoved() {
                 pageStack.layers.pop(); //PROBABLY THIS SHOULDN't BE SUPPORTED
