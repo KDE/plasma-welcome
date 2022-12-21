@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-20 00:48+0000\n"
-"PO-Revision-Date: 2022-11-25 09:39+0200\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2022-12-20 12:33+0200\n"
+"Last-Translator: Fracture dept <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -256,7 +256,7 @@ msgstr "Допомогти у роботі над наступним випус�
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr ""
+msgstr "Потужна там, де це потрібно"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -265,24 +265,26 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"Плазма є дуже багатим на можливості середовищем, яке створено, щоб допомогти "
+"вам в усьому! Ось лише частинка того, що ви можете робити з нею:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr ""
+msgstr "Сховища"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr ""
+msgstr "Зберігайте конфіденційні файли безпечно"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr ""
+msgstr "Простори дій"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -290,67 +292,67 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr ""
+msgstr "Відокремте роботу, навчання та домашні завдання"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr ""
+msgstr "З'єднайте ваш телефон з комп'ютером"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr ""
+msgstr "Шукайте будь-що"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Огляд"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "Командний центр вашої системи"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "Отримання нових матеріалів"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "Розширте систему за допомогою додатків"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "Ознайомтеся із іншими можливостями Плазми"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Сховища Плазми"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -364,6 +366,14 @@ msgid ""
 "the <interface>System Tray</interface> to show hidden items, and then click "
 "the <interface>Vaults</interface> icon."
 msgstr ""
+"За допомогою «Сховищ Плазми» ви зможете створювати зашифровані теки, які "
+"називають <interface>сховищами</interface>. У кожному такому сховищі ви "
+"зможете безпечно від сторонніх очей зберігати ваші файли, зображення та "
+"документ. Сховища можуть розташовуватися у теках, які синхронізуються із "
+"«хмарними» службами, забезпечуючи даним додатковий рівень безпеки.<nl/><nl/"
+">Щоб почати користуватися цією можливістю, натисніть стрілочку у "
+"<interface>системному лотку</interface>, щоб відкрити список прихованих "
+"записів, потім натисніть піктограму <interface>Сховища</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -374,13 +384,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "Дізнатися більше"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr ""
+msgstr "Простори дій"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -395,12 +405,22 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"«Просторами дій» можна скористатися для відокремлення високорівневих "
+"проєктів або робочих процесів, що можна було зосередитися на одному з "
+"варіантів. Ви можете створити простори дій «Домашній», «Навчання», «Робота» "
+"тощо. Кожен простір дій має доступу до усіх ваших файлів, але має власний "
+"набір відкритих програм та вікон, нещодавніх документів, вибраних програм та "
+"віджетів на стільниці.<nl/><nl/>Щоб почати користуватися просторами, "
+"запустіть <interface>Системні параметри</interface> і пошукайте розділ "
+"«Простори дій». На відповідній сторінці ви зможете створити додаткові "
+"простори дій. Потім ви зможете перемикатися між ними за допомогою натискання "
+"комбінації клавіш <shortcut>Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:173
 #, kde-kuit-format
@@ -408,12 +428,14 @@ msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
 msgstr ""
+"KDE Connect надає вам змогу інтегрувати ваш телефон з вашим комп'ютером у "
+"кількох напрямках:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
@@ -429,12 +451,19 @@ msgid ""
 "convert between currencies, calculate math problems, and a lot more. Try "
 "typing any of the following into one of those search fields:"
 msgstr ""
+"KRunner — надзвичайно потужна і гнучка система пошуку Плазми. Вона розширює "
+"можливості пошуку меню запуску програм та вікна огляду. Доступ до неї, як "
+"окремої панелі пошуку, можна отримати за допомогою натискання комбінації "
+"клавіш <shortcut>Alt+F2</shortcut>.<nl/><nl/>Окрім пошуку ваших файлів та "
+"тек, KRunner може запускати програми, шукати дані в інтернеті, обчислювати "
+"суми у різних валютах, виконувати математичні обчислення тощо. Спробуйте "
+"ввести такі команди у одне з його можливих полів пошуку:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Огляд"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
 #, kde-kuit-format
@@ -447,12 +476,19 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"«Огляд» є повноекранною панеллю-накладкою, на якій показано усі відкриті "
+"вікна. Ця панель полегшує доступ до будь-якого з вікон. Також на ній буде "
+"показано поточні віртуальні стільниці із можливістю додавання нових, "
+"вилучення стільниць та перемикання між стільницями. Нарешті, на панелі "
+"розміщено поле пошуку на основі KRunner, за допомогою якого можна "
+"фільтрувати список відкритих вікон.<nl/><nl/>Отримати доступ до «Огляду» "
+"можна за допомогою натискання комбінації клавіш <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "Отримання нових матеріалів"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:261
 #, kde-kuit-format
@@ -465,12 +501,20 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"У Плазмі, Системних параметрах та програмах KDE є кнопки із написом "
+"«Отримати нові [дані]…». Натискання цих кнопок відкриває доступ до сторонніх "
+"даних, які розширюють можливості вашої системи і які створено такими самими "
+"користувачами, як ви! За допомогою отриманих даних ви часто зможете додати у "
+"систему можливості, які вам потрібні, не просячи розробників KDE реалізувати "
+"їх окремо.<nl/><nl/>Зауважте, що отримані у такий спосіб можливості не було "
+"перевірено авторами вашого дистрибутива на працездатність або стабільність "
+"роботи."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "Типово проста"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -482,6 +526,11 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"Плазму створено простою і зручною у користуванні без додаткового "
+"налаштовування. Її елементи розташовано там, де їх просто знайти. Тому, "
+"загалом, для комфортної і продуктивної роботи не потрібні якісь додаткові "
+"зусилля.<nl/><nl/>Втім, якщо щось потрібно налаштувати, це можна знайти у "
+"програмі <application>Системні параметри</application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
