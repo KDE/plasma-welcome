@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-20 00:48+0000\n"
-"PO-Revision-Date: 2022-11-25 15:11+0100\n"
+"PO-Revision-Date: 2022-12-20 11:37+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -251,7 +251,7 @@ msgstr "Help met het werk aan de volgende uitgave"
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr ""
+msgstr "Krachtig wanneer nodig"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -260,24 +260,27 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"Plasma is een omgeving extreem rijk aan mogelijkheden, ontworpen om uw "
+"productiviteit aan te jagen! Hier zijn slechts een paar dingen die het voor "
+"u kan doen:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr ""
+msgstr "Kluizen"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr ""
+msgstr "Gevoelige bestanden veilig opslaan"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr ""
+msgstr "Activiteiten"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -285,67 +288,67 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr ""
+msgstr "Taken voor werk, school of thuis scheiden"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr ""
+msgstr "Uw telefoon en uw computer verbinden"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr ""
+msgstr "Zoeken naar alles"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Overzicht"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "Uw centrum voor besturing van het systeem"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "\"Vers van de pers\" ophalen"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "Het systeem uitbreiden met add-ons"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "Maak kennis met meer functies van Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Plasmakluizen"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -359,6 +362,14 @@ msgid ""
 "the <interface>System Tray</interface> to show hidden items, and then click "
 "the <interface>Vaults</interface> icon."
 msgstr ""
+"Plasma Vaults biedt u het aanmaken van versleutelde mappen, genaamd "
+"<interface>Kluizen.</interface> In elke Kluis kunt u veilig uw bestanden, "
+"afbeeldingen en documenten opslaan, veilig voor nieuwsgierige ogen. Kluizen "
+"kunnen aanwezig zijn in mappen die ook gesynchroniseerd zijn in cloud-"
+"opslagservices, waarmee extra privacy voor die inhoud wordt geleverd.<nl/"
+"><nl/>Om er mee te beginnen, klik op de pijl in het <interface>Systeemvak</"
+"interface> om verborgen items te tonen en klik daarna op het pictogram "
+"<interface>Kluizen</interface> icon."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -369,13 +380,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "Zie Meer mogelijkheden"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr ""
+msgstr "Activiteiten"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -390,12 +401,21 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"Activiteiten kunnen gebruikt worden om op hoog niveau projecten of "
+"werkwijzen te scheiden zodat u zich er op een tegelijk kunt focussen. U kunt "
+"een activiteit hebben voor \"Thuis\", \"School\", \"Werk\", enzovoort. Elke "
+"Activiteit heeft toegang tot al uw bestanden maar heeft zijn eigen set van "
+"geopende toepassingen en vensters, recente documenten, \"Favoriete\" "
+"toepassingen en widgets op het bureaublad.<nl/><nl/>Om te beginnen, start "
+"<interface>Systeeminstellingen</interface> en zoek naar \"Activiteiten\". Op "
+"die pagina kunt u meer activiteiten aanmaken. U kunt daarna er tussen "
+"schakelen met de sneltoets<shortcut>Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:173
 #, kde-kuit-format
@@ -403,12 +423,14 @@ msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
 msgstr ""
+"KDE Connect laat u uw telefoon integreren met uw computer op verschillende "
+"manieren:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
@@ -424,12 +446,19 @@ msgid ""
 "convert between currencies, calculate math problems, and a lot more. Try "
 "typing any of the following into one of those search fields:"
 msgstr ""
+"KRunner is het exceptioneel krachtige en veelzijdige zoeksysteem van Plasma. "
+"Het drijft de zoekfunctionaliteit aan in het menu Toepassingenstarter en het "
+"scherm Overzicht en er is toegang als een alleenstaande zoekbalk met de "
+"sneltoets <shortcut>Alt+F2</shortcut>.<nl/><nl/>Naast het vinden van uw "
+"bestanden en mappen, kan KRunner toepassingen starten, in het web zoeken, "
+"valuta converteren, wiskundige problemen berekenen en heel wat meer. Probeer "
+"iets van het volgende in een van die zoekvelden te typen:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Overzicht"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
 #, kde-kuit-format
@@ -442,12 +471,18 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"Overzicht is een overlay over het gehele scherm die al uw open vensters "
+"toont, waarmee u er gemakkelijk toegang toe heeft. Het toont ook uw huidige "
+"Virtuele bureaubladen, waarmee u er meer kunt toevoegen, enige kan "
+"verwijderen en er tussen kan schakelen. Tenslotte biedt het een door KRunner "
+"geleverd zoekveld dat ook open vensters kan filteren.<nl/><nl/>U krijgt "
+"toegang tot Overzicht met de sneltoets <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "\"Vers van de pers\" ophalen"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:261
 #, kde-kuit-format
@@ -460,12 +495,19 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"In geheel Plasma, Systeeminstellingen en KDE toepassingen zult u knoppen "
+"vinden met het opschrift \"Nieuwe [dingen] ophalen…\". Er op klikken toont u "
+"inhoud van derden om het systeem uit te breiden, gemaakt door andere mensen "
+"zoals u! Op die manier is het vaak mogelijk om functionaliteit die u wilt "
+"toe te voegen zonder dat te hoeven vragen aan de KDE-ontwikkelaars om dit te "
+"implementeren.<nl/><nl/>Merk op dat inhoud op deze manier verkregen niet is "
+"beoordeeld door uw distributeur op functionaliteit of stabiliteit."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "Standaard eenvoudig"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -477,6 +519,11 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"Plasma is ontworpen om direct eenvoudig en bruikbaar te zijn. Dingen zijn "
+"waar u ze verwacht en er is in het algemeen geen noodzaak om iets te "
+"configureren alvorens u zich prettig en productief voelt.<nl/><nl/>Hebt u "
+"het gevoel nog wat nodig te hebben dan kunt u dat vinden in de toepassing "
+"<application>Systeeminstellingen</application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format

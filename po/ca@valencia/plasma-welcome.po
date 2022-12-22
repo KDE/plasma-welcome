@@ -5,20 +5,21 @@
 # or the same license as the source of its messages in English.
 #
 # Josep M. Ferrer <txemaq@gmail.com>, 2022.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-20 00:48+0000\n"
-"PO-Revision-Date: 2022-11-25 14:07+0100\n"
-"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"PO-Revision-Date: 2022-12-21 13:28+0100\n"
+"Last-Translator: Antoni Bella <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Kate 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -255,7 +256,7 @@ msgstr "Ajuda en les tasques de la propera versió"
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr ""
+msgstr "Potent quan cal"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -264,24 +265,27 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"Plasma és un entorn extremadament ric en característiques, dissenyat per a "
+"augmentar la productivitat! Ací teniu un resum de les coses que pot fer per "
+"vosaltres:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr ""
+msgstr "Caixes fortes"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr ""
+msgstr "Emmagatzemeu fitxers sensibles de forma segura"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr ""
+msgstr "Activitats"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -289,67 +293,67 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr ""
+msgstr "Separeu les tasques laborals, educatives o de la llar"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr ""
+msgstr "Connecteu el mòbil i l'ordinador"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr ""
+msgstr "Busqueu qualsevol cosa"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Vista general"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "Centre de control del sistema"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "Obtín les novetats candents"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "Amplieu el sistema amb complements"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "Aprendre sobre més característiques de Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Caixes fortes de Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -363,6 +367,15 @@ msgid ""
 "the <interface>System Tray</interface> to show hidden items, and then click "
 "the <interface>Vaults</interface> icon."
 msgstr ""
+"Les Caixes fortes de Plasma permeten crear carpetes encriptades, anomenades "
+"<interface>Caixes fortes</interface>. A dins de cada caixa forta podeu "
+"emmagatzemar de manera segura els fitxers, imatges i documents, a resguard "
+"de mirades indiscretes. Les caixes fortes també poden viure dins de carpetes "
+"sincronitzades amb els serveis d'emmagatzematge al núvol, proporcionant "
+"privadesa addicional per a este contingut.<nl/><nl/>Per a començar, feu clic "
+"en la fletxa de la <interface>safata del sistema</interface> per a mostrar "
+"els elements ocults, i després feu clic en la icona <interface>Caixes "
+"fortes</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -373,13 +386,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "Vegeu més característiques"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr ""
+msgstr "Activitats"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -394,12 +407,21 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"Les activitats es poden utilitzar per a separar projectes d'alt nivell o "
+"fluxos de treball de manera que pugueu centrar-vos en un a la vegada. Podeu "
+"tindre una activitat per a «Llar», «Escola», «Faena», i així successivament. "
+"Cada activitat té accés a tots els vostres fitxers, però té el seu propi "
+"conjunt d'aplicacions i finestres obertes, documents recents, aplicacions "
+"«Favorites» i ginys d'escriptori.<nl/><nl/>Per a començar, llanceu "
+"<interface>Configuració del sistema</interface> i busqueu «Activitats». En "
+"esta pàgina, podreu crear més activitats. Després podeu canviar entre elles "
+"utilitzant la drecera de teclat <shortcut>Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:173
 #, kde-kuit-format
@@ -407,12 +429,14 @@ msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
 msgstr ""
+"KDE Connect permet integrar el vostre mòbil amb l'ordinador de diverses "
+"maneres:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
@@ -428,12 +452,20 @@ msgid ""
 "convert between currencies, calculate math problems, and a lot more. Try "
 "typing any of the following into one of those search fields:"
 msgstr ""
+"KRunner és el sistema de busca versàtil i excepcionalment potent de Plasma. "
+"Potencia la funcionalitat de busca en el menú de l'iniciador d'aplicacions i "
+"a la pantalla de vista general, i s'hi pot accedir com una barra de busca "
+"independent utilitzant la drecera de teclat <shortcut>Alt+F2</shortcut>.<nl/"
+"><nl/>A més de trobar els vostres fitxers i carpetes, KRunner pot iniciar "
+"aplicacions, buscar al web, convertir entre monedes, calcular problemes "
+"matemàtics i molt més. Intenteu escriure qualsevol del que seguix en un "
+"d'estos camps de busca:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Vista general"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
 #, kde-kuit-format
@@ -446,12 +478,19 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"La Vista general és una disposició a pantalla completa que mostra totes les "
+"finestres obertes, permetent-vos accedir amb facilitat a qualsevol d'elles. "
+"També mostra els vostres escriptoris virtuals actuals, permetent-vos afegir-"
+"ne més, eliminar-ne alguns i canviar entre ells. Finalment, oferix un camp "
+"de busca impulsat per KRunner que també pot filtrar entre les finestres "
+"obertes.<nl/><nl/>Podeu accedir a la Vista general utilitzant la drecera de "
+"teclat <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "Obtín les novetats candents"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:261
 #, kde-kuit-format
@@ -464,12 +503,20 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"Per Plasma, Configuració del sistema i les aplicacions KDE, trobareu els "
+"botons marcats «Obtín [alguna cosa] nou…». En fer-hi clic es mostrarà el "
+"contingut de tercers per a ampliar el sistema, creat per altres persones com "
+"vós! D'esta manera, sovint és possible afegir les funcionalitats que vulgueu "
+"sense haver de demanar als desenvolupadors de KDE que les implementen ells "
+"mateixos.<nl/><nl/>Cal tindre en compte que el contingut adquirit d'esta "
+"manera no ha sigut revisat per a funcionalitat o estabilitat pel vostre "
+"distribuïdor."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "Senzill de manera predeterminada"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -481,6 +528,11 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"Plasma està dissenyat per a ser senzill i utilitzable d'entrada. Les coses "
+"es troben on esperaríeu i generalment no cal configurar res perquè vos "
+"sentiu còmode i sigueu productiu.<nl/><nl/>Si en teniu la necessitat, "
+"trobareu el que calga en l'aplicació <application>Configuració del sistema</"
+"application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -569,17 +621,3 @@ msgid ""
 msgstr ""
 "Número de versió del llançament de Plasma per a mostrar les notes de la "
 "versió, p. ex. 5.25"
-
-#~ msgctxt "@info:window"
-#~ msgid "Personalize Your System"
-#~ msgstr "Personalització del sistema"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The <application>System Settings</application> app lets you adjust the "
-#~ "behaviors and appearance of the whole system. From theme options to "
-#~ "device management, you can find it all here."
-#~ msgstr ""
-#~ "L'aplicació <application>Configuració del sistema</application> permet "
-#~ "ajustar el comportament i l'aparença de tot el sistema. Des de les "
-#~ "opcions del tema fins a la gestió de dispositius, tot ho trobareu ací."
