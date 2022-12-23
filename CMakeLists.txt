@@ -25,6 +25,7 @@ include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 include(ECMQmlModule)
+include(ECMDeprecationSettings)
 
 set(DISTRO_PAGE_PATH "/var/lib/plasma-welcome-extra-pages/" CACHE STRING "Path on disk to find custom pages")
 
@@ -41,6 +42,10 @@ find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Co
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons Declarative I18n KIO Notifications Plasma Service WindowSystem)
 find_package(KUserFeedback)
 find_package(KAccounts REQUIRED)
+
+ecm_set_disabled_deprecation_versions(QT 5.15.2
+    KF 5.101
+)
 
 add_subdirectory(src)
 
