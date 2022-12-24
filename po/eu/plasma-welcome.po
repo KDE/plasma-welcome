@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-20 00:48+0000\n"
-"PO-Revision-Date: 2022-11-25 20:00+0100\n"
+"PO-Revision-Date: 2022-12-23 07:41+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -254,7 +254,7 @@ msgstr "Hurrengo askapeneko lanetan lagundu"
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr ""
+msgstr "Ahaltsua beharrezkoa denean"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -263,24 +263,27 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"Plasma ezaugarrietan aberatsa den ingurune bat da, zure emankortasuna "
+"hobetzeko diseinatua! Hona hemen zuregatik egin ditzakeen gauzak "
+"osolaburtuta:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr ""
+msgstr "Kutxa gotorrak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr ""
+msgstr "Babes berezia behar duten fitxategiak era seguruan biltegiratzea"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr ""
+msgstr "Jarduerak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -288,67 +291,67 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr ""
+msgstr "Bereizi laneko, eskolako, edo etxeko zereginak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr ""
+msgstr "Konektatu zure telefonoa eta zure ordenagailua"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr ""
+msgstr "Edozer bilatu"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Ikuspegi orokorra"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "Sistemaren aginte-gunea"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "Eskuratu berrikuntzak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "Hedatu sistema gehigarriekin"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "Plasmaren ezaugarriei buruz gehiago jakitea"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Plasmako Kutxa-gotorrak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -362,6 +365,14 @@ msgid ""
 "the <interface>System Tray</interface> to show hidden items, and then click "
 "the <interface>Vaults</interface> icon."
 msgstr ""
+"Plasma Kutxa-gotorrak (Vaults), <interface>Kutxa-gotorrak</interface> "
+"deituriko zifratutako karpetak sortzeko aukera eskaintzen dizu. Zure kutxa-"
+"gotorren barruan zure fitxategiak, argazkiak, eta dokumentuak era seguruan "
+"gorde ditzakezu inoren begiradatik salbu. Kutxa-gotorrak hodeietako "
+"zerbitzuetan sinkronizatzen diren karpeten barruan ere egon daitezke.<nl/"
+"><nl/>Hasteko, egin klik <interface>Sistemaren erretiluko</interface> "
+"gezian, ezkutuko elementuak erakusteko, eta ondoren egin klik "
+"<interface>Kutxa-gotorrak</interface> ikonoan."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -372,13 +383,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "Ikusi ezaugarri gehiago"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr ""
+msgstr "Jarduerak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -398,7 +409,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:173
 #, kde-kuit-format
@@ -406,12 +417,14 @@ msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
 msgstr ""
+"KDE Connect-ek zure telefonoa zure ordenagailuarekin hainbat eratan "
+"bateratzen uzten dizu:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
@@ -432,7 +445,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Ikuspegi orokorra"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
 #, kde-kuit-format
@@ -450,7 +463,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "Eskuratu berrikuntzak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:261
 #, kde-kuit-format
@@ -468,7 +481,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "Erraza izatez"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -480,6 +493,11 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"Plasma, lehen unetik erraza eta erabilgarria izateko diseinatua dago. Gauzak "
+"esperoko zenukeen lekuan daude, eta orokorrean ez da ezer konfiguratu behar "
+"hartan eroso edo emankor izateko.<nl/><nl/>Beharrik izango bazenu, behar "
+"duzuna <application>Sistema-ezarpenak</application> aplikazioan aurkituko "
+"duzu."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
