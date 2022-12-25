@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-20 00:48+0000\n"
-"PO-Revision-Date: 2022-12-23 07:41+0100\n"
+"PO-Revision-Date: 2022-12-24 09:27+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -76,7 +76,7 @@ msgid ""
 "choose how much to share in System Settings, and here too."
 msgstr ""
 "Gure garatzaileek datu anonimo hauek KDE softwarea hobetzeko erabiliko dute. "
-"Sistema-ezarpenetan zenbat partekatu aukera dezakezu, baita hemen ere."
+"Sistemaren ezarpenetan zenbat partekatu aukera dezakezu, baita hemen ere."
 
 #: src/contents/ui/main.qml:192
 #, kde-format
@@ -404,6 +404,15 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"Jarduerak, maila altuko proiektuak edo lan-fluxuak bereizteko erabil "
+"daitezke, uneoro, bakarrean fokatzeko aukera izan dezazun. «Etxea», "
+"«Ikastetxea», «Lana», eta abarrerako jarduera bana izan dezakezu. Jarduera "
+"guztiek dute zure fitxategietara sarbidea baina bakoitzak irekitako leiho-"
+"multzo, azkenaldiko dokumentu, \"Gogoko\" aplikazio, eta mahaigaineko "
+"trepeta propioak ditu.<nl/><nl/>Erabiltzen hasteko, abiarazi "
+"<interface>Sistemaren ezarpenak</interface> eta bilatu \"Jarduerak\". Orri "
+"horretan, jarduera gehiago sor ditzakezu. Haien artean aldatzeko "
+"<shortcut>Meta+Tab</shortcut> erabil daiteke."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -440,6 +449,14 @@ msgid ""
 "convert between currencies, calculate math problems, and a lot more. Try "
 "typing any of the following into one of those search fields:"
 msgstr ""
+"KRunner Plasmaren trebezia anitzeko bilaketa sistema txit ahaltsua da. "
+"Aplikazioak abiarazteko menuko bilaketa funtzionalitatea eta Ikuspegi "
+"orokorra pantaila elikatzen ditu, eta bilaketa-barra autonomo gisa ere atzi "
+"daiteke teklatuko <shortcut>Alt+F2</shortcut> lasterbidea erabiliz.<nl/><nl/"
+">Zure fitxategiak eta karpetak bilatzeaz gain, «KRunner»rek aplikazioak "
+"abiarazi, webean bilatu, moneten arteko bihurketak egin, matematika "
+"eragiketak kalkulatu, eta askoz gehiago egin dezake. Saia zaitez bilaketa-"
+"eremu horietako batean ondokoetako edozein tekleatzen:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
 #, kde-format
@@ -458,6 +475,13 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"Ikuspegi orokorra, irekita dituzun leiho guztiak erakusten dituen leiho "
+"osoko estaldura bat da, haietako edozein erraz atzitzen uzten dizuna. Zure "
+"uneko alegiazko mahaigain guztiak ere erakusten ditu, gehiago gehitu, batzuk "
+"ezabatu, eta haien artean aldatzeko aukera emanez. Azkenik, irekitako "
+"leihoak iragaz ditzakeen, «KRunner»rek elikatutako bilaketa eremu bat "
+"eskaintzen du.<nl/><nl/>Ikuspegi orokorra atzitzeko teklatuko <shortcut>Meta"
+"+W</shortcut> lasterbidea erabil dezakezu."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
 #, kde-format
@@ -476,6 +500,13 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"Plasma, Sistemaren ezarpenak, eta KDE aplikazioetan, guztietan, \"Lortu "
+"[gauza] berriak...\" erakusten duten botoiak aurkituko dituzu. Haietan klik "
+"egitean zure sistema hedatzeko 3.en edukia erakutsiko du, zu bezalako "
+"jendeak egina! Era horretan, maiz, nahi duzun funtzionalitatea gehi dezakezu "
+"KDE garatzaileei inplementatu dezaten eskatu beharrik izan gabe.<nl/><nl/"
+">Kontuan izan era honetan eskuratutako edukia ez duela zure banatzaileak "
+"berrikusi, ez funtzionaltasunean ez eta egonkortasunean ere."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
@@ -496,14 +527,14 @@ msgstr ""
 "Plasma, lehen unetik erraza eta erabilgarria izateko diseinatua dago. Gauzak "
 "esperoko zenukeen lekuan daude, eta orokorrean ez da ezer konfiguratu behar "
 "hartan eroso edo emankor izateko.<nl/><nl/>Beharrik izango bazenu, behar "
-"duzuna <application>Sistema-ezarpenak</application> aplikazioan aurkituko "
+"duzuna <application>Sistemaren ezarpenak</application> aplikazioan aurkituko "
 "duzu."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr "Abiarazi Sistema-ezarpenak orain"
+msgstr "Abiarazi «Sistemaren ezarpenak» orain"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:56
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-20 00:48+0000\n"
-"PO-Revision-Date: 2022-12-22 16:58+0400\n"
+"PO-Revision-Date: 2022-12-24 18:23+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -361,6 +361,12 @@ msgid ""
 "the <interface>System Tray</interface> to show hidden items, and then click "
 "the <interface>Vaults</interface> icon."
 msgstr ""
+"تتيح لك خزنات بلازما إنشاء مجلدات مشفرة، تسمى <interface> الخزنات.</"
+"interface> داخل كل خزنة، يمكنك تخزين ملفاتك وصورك ومستندات بأمان، وآمنة من "
+"عيون المتطفلين. يمكن أن تكون خزنات داخل مجلدات تتم مزامنتها مع خدمات التخزين "
+"السحابية أيضًا، مما يوفر خصوصية إضافية لهذا المحتوى. <nl/> <nl/> للبدء انقر "
+"فوق السهم على <interface> صينية النظام </interface> لإظهار العناصر المخفية ، "
+"ثم انقر فوق أيقونة <interface> الخزنات</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -392,6 +398,14 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"يمكن استخدام الأنشطة لفصل المشاريع أو آليات سير عمل حتى تتمكن من التركيز كلا "
+"على حدة. يمكنك الحصول على نشاط لـ\"البيت\" و\"المدرسة\" و\"العمل\" وما إلى "
+"ذلك. كل نشاط لديه إمكانية الوصول إلى جميع ملفاتك ولكن يحتوي على مجموعة من "
+"التطبيقات والنوافذ المفتوحة، والمستندات الحديثة، والتطبيقات \"المفضلة\" ، "
+"وأدوات سطح المكتب. <nl/> <nl/> للبدء ، شغّل <interface> إعدادات النظام </"
+"interface> وابحث عن \"الأنشطة\". في تلك الصفحة يمكنك إنشاء الكثير من "
+"الأنشطة. يمكنك بعد ذلك التبديل بينهما باستخدام اختصار لوحة المفاتيح "
+"<shortcut> Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -449,6 +463,12 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"النظرة العامة هي نافذة -تظهر أعلى النوافذ وتغطيها بالكاملة- تُظهر جميع "
+"النوافذ المفتوحة، مما يتيح لك الوصول إلى أي منها بسهولة. وهي إلى ذلك تعرض "
+"أسطح المكتب الافتراضية الحالية، مما يتيح لك إضافة المزيد أو إزالة بعضها أو "
+"التبديل بينهما.أخيرًا توفر حقل بحث لـ\"مشغل.ك\"  والذي يمكنه أيضًا ترشيح "
+"النوافذ المفتوحة  <nl/><nl/> يمكنك الوصول إلى النظرة العامة باستخدام اختصار "
+"لوحة المفاتيح <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
 #, kde-format
@@ -467,6 +487,12 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"في جميع أنحاء بلازما وإعدادات النظام وتطبيقات كدي، ستجد أزرارًا تحمل علامة "
+"\"احصل على [شيء] ...\". سوف يظهر لك النقر عليها محتوى طرف ثالث لتوسيع "
+"النظام، الذي صنعه أشخاص آخرين مثلك! وبهذه الطريقة، غالبًا ما يكون من الممكن "
+"إضافة وظائف تريدها دون الحاجة إلى طلب من مطوري كدي تنفيذها. <nl/> <nl/> لاحظ "
+"أن المحتوى المكتسب بهذه الطريقة لم يُراجع بواسطة توزيعتك للتأكد من للوظائف أو "
+"الاستقرار."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
@@ -484,6 +510,10 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"صُممت بلازما لتكون بسيطة وقابلة للاستخدام دون تدخل منك. كل الأشياء في المكان "
+"الذي تتوقعه، وليس هناك حاجة عمومًا لضبط أي شيء قبل أن تكون مريحًا ومنتجًا. <nl/"
+"> <nl/> إذا شعرت بالحاجة إلى التدخل، ستجد ما تحتاجه في <application> إعدادات "
+"النظام </application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
