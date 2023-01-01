@@ -14,7 +14,7 @@ import org.kde.plasma.welcome 1.0
 
 GenericPage {
     heading: i18nc("@title:window", "Get Involved")
-    description: xi18nc("@info:usagetip", "KDE is not a big company; it's an international volunteer community, and its software is made by people like you donating their time and passion. That means you too can help make things better! There are many ways to contribute on topics as diverse as bug triaging, programming, translation, visual design, and promotion.<nl/><nl/>By contributing to KDE, you can become part of something special, meet new friends, learn new skills, and make a difference to millions while working with people from around the globe to deliver a stunning free software computing experience.")
+    description: xi18nc("@info:usagetip", "KDE is not a big company; it's an international volunteer community, and its software is made by people like you donating their time and passion. You too can help make things better, whether it's through translation, visual design, and promotion, or programming and bug triaging.<nl/><nl/>By contributing to KDE, you can become part of something special, meet new friends, learn new skills, and make a difference to millions while working with people from around the globe to deliver a stunning free software computing experience.")
 
     topContent: [
         Kirigami.UrlButton {
