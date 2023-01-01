@@ -237,7 +237,7 @@ GenericPage {
             globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
 
             heading: i18nc("@info:window The name of a KWin effect", "Overview")
-            description: xi18nc("@info:usagetip", "Overview is a full-screen overlay that show all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows.<nl/><nl/>You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut.")
+            description: xi18nc("@info:usagetip", "Overview is a full-screen overlay that shows all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows.<nl/><nl/>You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut.")
 
             QQC2.Button {
                 anchors.bottom: parent.bottom
