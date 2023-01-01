@@ -119,7 +119,7 @@ GenericPage {
             globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
 
             heading: i18nc("@info:window", "Plasma Vaults")
-            description: xi18nc("@info:usagetip", "Plasma Vaults allows you to create encrypted folders, called <interface>Vaults.</interface> Inside each Vault, you can securely store your files, pictures, and documents, safe from prying eyes. Vaults can live inside folders that are synced to cloud storage services too, providing extra privacy for that content.<nl/><nl/>To get started, click the arrow on the <interface>System Tray</interface> to show hidden items, and then click the <interface>Vaults</interface> icon.")
+            description: xi18nc("@info:usagetip", "Plasma Vaults allows you to create encrypted folders, called <interface>Vaults.</interface> Inside each Vault, you can securely store your passwords, files, pictures, and documents, safe from prying eyes. Vaults can live inside folders that are synced to cloud storage services too, providing extra privacy for that content.<nl/><nl/>To get started, click the arrow on the <interface>System Tray</interface> to show hidden items, and then click the <interface>Vaults</interface> icon.")
 
             QQC2.Button {
                 anchors.bottom: parent.bottom
