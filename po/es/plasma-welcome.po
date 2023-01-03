@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the welcome-app package.
 #
 # Automatically generated, 2022.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2022.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-02 01:06+0000\n"
-"PO-Revision-Date: 2022-12-21 01:08+0100\n"
+"PO-Revision-Date: 2023-01-02 05:06+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -101,18 +101,7 @@ msgid "Get Involved"
 msgstr "Cómo involucrarse"
 
 #: src/contents/ui/pages/Contribute.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE is not a big company; it's an international volunteer community, and "
-#| "its software is made by people like you donating their time and passion. "
-#| "That means you too can help make things better! There are many ways to "
-#| "contribute on topics as diverse as bug triaging, programming, "
-#| "translation, visual design, and promotion.<nl/><nl/>By contributing to "
-#| "KDE, you can become part of something special, meet new friends, learn "
-#| "new skills, and make a difference to millions while working with people "
-#| "from around the globe to deliver a stunning free software computing "
-#| "experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE is not a big company; it's an international volunteer community, and its "
@@ -126,13 +115,12 @@ msgid ""
 msgstr ""
 "KDE no es una gran compañía; es una comunidad internacional de voluntarios "
 "cuyo software está creado por personas como usted que donan su tiempo y su "
-"pasión. ¡Eso significa que usted también puede ayudar a mejorar las cosas! "
-"Existen muchas formas de colaborar en labores tan diversas como la "
-"clasificación de errores, la traducción, el diseño visual y la promoción.<nl/"
-"><nl/>Al contribuir con KDE, se puede convertir en parte de algo especial, "
-"hará nuevas amistades, aprenderá nuevas habilidades y marcará la diferencia "
-"para millones mientras trabaja con personas de todo el mundo para ofrecer "
-"una impresionante experiencia informática de software libre."
+"pasión. Usted también puede ayudar a mejorar las cosas, ya sea mediante la "
+"traducción, el diseño visual y la promoción, o programando y clasificando "
+"errores.<nl/><nl/>Al contribuir con KDE, se puede convertir en parte de algo "
+"especial, hará nuevas amistades, aprenderá nuevas habilidades y marcará la "
+"diferencia para millones mientras trabaja con personas de todo el mundo para "
+"ofrecer una impresionante experiencia informática de software libre."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -191,14 +179,7 @@ msgid "Support Your Freedom"
 msgstr "Apoye su libertad"
 
 #: src/contents/ui/pages/Donate.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE operates on a shoestring budget, relying largely on donations of "
-#| "labor and resources. You can help change that!<nl/><nl/>Financial "
-#| "donations help KDE pay for development sprints, hardware and server "
-#| "resources, and expanded employment. Donations are tax-deductible in "
-#| "Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Miraculously, KDE operates on a shoestring budget, relying largely on "
@@ -207,11 +188,11 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"KDE opera con un presupuesto muy reducido y depende en gran medida de las "
-"donaciones de mano de obra y recursos. ¡Usted puede ayudar a cambiar eso!<nl/"
-"><nl/>Las donaciones financieras ayudan a KDE a pagar los esprints de "
-"desarrollo, los recursos de hardware y de servidores, así como a la "
-"expansión de empleo. Las donaciones son deducibles de los impuestos en "
+"Milagrosamente, KDE opera con un presupuesto muy reducido y depende en gran "
+"medida de las donaciones de mano de obra y recursos. ¡Usted puede ayudar a "
+"cambiar eso!<nl/><nl/>Las donaciones financieras ayudan a KDE a pagar los "
+"esprints de desarrollo, los recursos de hardware y de servidores, así como a "
+"la expansión de empleo. Las donaciones son deducibles de los impuestos en "
 "Alemania."
 
 #: src/contents/ui/pages/Donate.qml:22
@@ -374,16 +355,7 @@ msgid "Plasma Vaults"
 msgstr "Cajas fuertes de Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your files, pictures, and documents, safe from prying eyes. Vaults can "
-#| "live inside folders that are synced to cloud storage services too, "
-#| "providing extra privacy for that content.<nl/><nl/>To get started, click "
-#| "the arrow on the <interface>System Tray</interface> to show hidden items, "
-#| "and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -396,13 +368,13 @@ msgid ""
 msgstr ""
 "Las cajas fuertes de Plasma le permiten crear carpetas cifradas, llamadas "
 "<interface>Cajas fuertes</interface>. Dentro de cada caja fuerte puede "
-"guardar con seguridad archivos, imágenes y documentos, a salvo de miradas "
-"indiscretas. Las cajas fuertes también pueden residir dentro de carpetas "
-"sincronizadas con servicios de almacenamiento en la nube, proporcionando una "
-"privacidad adicional para este contenido.<nl/><nl/>Para empezar, haga clic "
-"en la flecha de la <interface>Bandeja del sistema</interface> para mostrar "
-"los elementos ocultos y pulse el icono de <interface>Cajas fuertes</"
-"interface>."
+"guardar con seguridad sus contraseñas, archivos, imágenes y documentos, a "
+"salvo de miradas indiscretas. Las cajas fuertes también pueden residir "
+"dentro de carpetas sincronizadas con servicios de almacenamiento en la nube, "
+"proporcionando una privacidad adicional para este contenido.<nl/><nl/>Para "
+"empezar, haga clic en la flecha de la <interface>Bandeja del sistema</"
+"interface> para mostrar los elementos ocultos y pulse el icono de "
+"<interface>Cajas fuertes</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -494,15 +466,7 @@ msgid "Overview"
 msgstr "Vista general"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that show all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "

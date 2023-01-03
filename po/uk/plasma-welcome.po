@@ -1,14 +1,14 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-02 01:06+0000\n"
-"PO-Revision-Date: 2022-12-20 12:33+0200\n"
-"Last-Translator: Fracture dept <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2023-01-02 08:54+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -102,18 +102,7 @@ msgid "Get Involved"
 msgstr "Участь у проєкті"
 
 #: src/contents/ui/pages/Contribute.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE is not a big company; it's an international volunteer community, and "
-#| "its software is made by people like you donating their time and passion. "
-#| "That means you too can help make things better! There are many ways to "
-#| "contribute on topics as diverse as bug triaging, programming, "
-#| "translation, visual design, and promotion.<nl/><nl/>By contributing to "
-#| "KDE, you can become part of something special, meet new friends, learn "
-#| "new skills, and make a difference to millions while working with people "
-#| "from around the globe to deliver a stunning free software computing "
-#| "experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE is not a big company; it's an international volunteer community, and its "
@@ -127,13 +116,13 @@ msgid ""
 msgstr ""
 "KDE — не є великою компанією. Це міжнародна спільнота охочих. Програмне "
 "забезпечення KDE створено людьми, подібним до вас, тими, хто присвячує свій "
-"час і натхнення цій роботі. Це означає, що ви можете допомогти у його "
-"поліпшенні! Варіантів участі багато — пошук причин вад, програмування, "
-"переклад, художні роботи та просування.<nl/><nl/>Беручи участь у команді "
-"KDE, ви можете стати частиною чогось особливого, знайомитеся із новими "
-"друзями, оволодіваєте новими знаннями і робите щось важливе для мільйонів "
-"людей, працюючи з мешканцями усього світу з метою створення чудового "
-"вільного комп'ютерного середовища з вільним програмним забезпеченням."
+"час і натхнення цій роботі. Ви також можете допомогти у його поліпшенні! "
+"Варіантів участі багато — переклад, художні роботи та просування або "
+"програмування та пошук причин вад.<nl/><nl/>Беручи участь у команді KDE, ви "
+"можете стати частиною чогось особливого, знайомитеся із новими друзями, "
+"оволодіваєте новими знаннями і робите щось важливе для мільйонів людей, "
+"працюючи з мешканцями усього світу з метою створення чудового вільного "
+"комп'ютерного середовища з вільним програмним забезпеченням."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -192,14 +181,7 @@ msgid "Support Your Freedom"
 msgstr "Підтримка вашої свободи"
 
 #: src/contents/ui/pages/Donate.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE operates on a shoestring budget, relying largely on donations of "
-#| "labor and resources. You can help change that!<nl/><nl/>Financial "
-#| "donations help KDE pay for development sprints, hardware and server "
-#| "resources, and expanded employment. Donations are tax-deductible in "
-#| "Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Miraculously, KDE operates on a shoestring budget, relying largely on "
@@ -208,11 +190,12 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"Бюджет KDE є доволі скромним і складається, здебільшого, з пожертв на роботу "
-"та ресурси. Ви можете це змінити!<nl/><nl/>Фінансова допомога надає змогу "
-"KDE сплачувати рахунки за зустрічні розробників, апаратні та серверні "
-"ресурси та розширювати програму роботи з найманими працівниками. Пожертви "
-"обкладаються податками за законами Федеративної Республіки Німеччини."
+"Чарівним чином, бюджет KDE є доволі скромним і складається, здебільшого, з "
+"пожертв на роботу та ресурси. Ви можете це змінити!<nl/><nl/>Фінансова "
+"допомога надає змогу KDE сплачувати рахунки за зустрічні розробників, "
+"апаратні та серверні ресурси та розширювати програму роботи з найманими "
+"працівниками. Пожертви обкладаються податками за законами Федеративної "
+"Республіки Німеччини."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -374,16 +357,7 @@ msgid "Plasma Vaults"
 msgstr "Сховища Плазми"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your files, pictures, and documents, safe from prying eyes. Vaults can "
-#| "live inside folders that are synced to cloud storage services too, "
-#| "providing extra privacy for that content.<nl/><nl/>To get started, click "
-#| "the arrow on the <interface>System Tray</interface> to show hidden items, "
-#| "and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -396,8 +370,8 @@ msgid ""
 msgstr ""
 "За допомогою «Сховищ Плазми» ви зможете створювати зашифровані теки, які "
 "називають <interface>сховищами</interface>. У кожному такому сховищі ви "
-"зможете безпечно від сторонніх очей зберігати ваші файли, зображення та "
-"документ. Сховища можуть розташовуватися у теках, які синхронізуються із "
+"зможете безпечно від сторонніх очей зберігати ваші паролі, файли, зображення "
+"та документ. Сховища можуть розташовуватися у теках, які синхронізуються із "
 "«хмарними» службами, забезпечуючи даним додатковий рівень безпеки.<nl/><nl/"
 ">Щоб почати користуватися цією можливістю, натисніть стрілочку у "
 "<interface>системному лотку</interface>, щоб відкрити список прихованих "
@@ -494,15 +468,7 @@ msgid "Overview"
 msgstr "Огляд"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that show all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "

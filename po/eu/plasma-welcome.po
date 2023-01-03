@@ -1,16 +1,16 @@
 # Translation for plasma-welcompe.po to Euskara/Basque (eu).
-# Copyright (C) 2022 This file is copyright:
+# Copyright (C) 2022-2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 # KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-02 01:06+0000\n"
-"PO-Revision-Date: 2022-12-24 09:27+0100\n"
+"PO-Revision-Date: 2023-01-02 19:00+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -101,18 +101,7 @@ msgid "Get Involved"
 msgstr "Engaia zaitez"
 
 #: src/contents/ui/pages/Contribute.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE is not a big company; it's an international volunteer community, and "
-#| "its software is made by people like you donating their time and passion. "
-#| "That means you too can help make things better! There are many ways to "
-#| "contribute on topics as diverse as bug triaging, programming, "
-#| "translation, visual design, and promotion.<nl/><nl/>By contributing to "
-#| "KDE, you can become part of something special, meet new friends, learn "
-#| "new skills, and make a difference to millions while working with people "
-#| "from around the globe to deliver a stunning free software computing "
-#| "experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE is not a big company; it's an international volunteer community, and its "
@@ -126,11 +115,10 @@ msgid ""
 msgstr ""
 "KDE ez da konpainia handi bat; nazioarteko boluntarioen komunitate bat da, "
 "eta haren softwarea zu bezalako jendeak egiten du haien denbora eta pasioa "
-"dohaintzan emanez. Horrek esan nahi du zuk ere hura hobetzen lagun "
-"dezakezula! Laguntzeko era asko dago, askotariko gaietan, akatsak aurkitzen, "
-"programatzen, itzultzen, ikus-diseinuan, eta promozioan.<nl/><nl/>KDEri "
-"laguntzean, gauza berezi baten partaide bihurtzen zara, lagun berriak "
-"ezagutu, trebetasun berriak ikasi, eta milioika pertsonentzako aldea "
+"dohaintzan emanez. Zuk ere gauzak hobetzen lagun dezakezu, itzulpenekin, "
+"ikus-diseinuan, eta promozioan, edo programatzen eta akatsak aurkitzen.<nl/"
+"><nl/>KDEri laguntzean, gauza berezi baten partaide bihurtzen zara, lagun "
+"berriak ezagutu, trebetasun berriak ikasi, eta milioika pertsonentzako aldea "
 "markatuko duzu, software askeko konputazio esperientzia zirraragarri bat "
 "eskaintzeko, mundu osoko jendearekin lan egiten duzun bitartean."
 
@@ -191,14 +179,7 @@ msgid "Support Your Freedom"
 msgstr "Lagundu zure askatasunari"
 
 #: src/contents/ui/pages/Donate.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE operates on a shoestring budget, relying largely on donations of "
-#| "labor and resources. You can help change that!<nl/><nl/>Financial "
-#| "donations help KDE pay for development sprints, hardware and server "
-#| "resources, and expanded employment. Donations are tax-deductible in "
-#| "Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Miraculously, KDE operates on a shoestring budget, relying largely on "
@@ -373,16 +354,7 @@ msgid "Plasma Vaults"
 msgstr "Plasmako Kutxa-gotorrak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your files, pictures, and documents, safe from prying eyes. Vaults can "
-#| "live inside folders that are synced to cloud storage services too, "
-#| "providing extra privacy for that content.<nl/><nl/>To get started, click "
-#| "the arrow on the <interface>System Tray</interface> to show hidden items, "
-#| "and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -395,11 +367,11 @@ msgid ""
 msgstr ""
 "Plasma Kutxa-gotorrak (Vaults), <interface>Kutxa-gotorrak</interface> "
 "deituriko zifratutako karpetak sortzeko aukera eskaintzen dizu. Zure kutxa-"
-"gotorren barruan zure fitxategiak, argazkiak, eta dokumentuak era seguruan "
-"gorde ditzakezu inoren begiradatik salbu. Kutxa-gotorrak hodeietako "
-"zerbitzuetan sinkronizatzen diren karpeten barruan ere egon daitezke.<nl/"
-"><nl/>Hasteko, egin klik <interface>Sistemaren erretiluko</interface> "
-"gezian, ezkutuko elementuak erakusteko, eta ondoren egin klik "
+"gotorren barruan zure pasahitzak, fitxategiak, argazkiak, eta dokumentuak "
+"era seguruan gorde ditzakezu inoren begiradatik salbu. Kutxa-gotorrak "
+"hodeietako zerbitzuetan sinkronizatzen diren karpeten barruan ere egon "
+"daitezke.<nl/><nl/>Hasteko, egin klik <interface>Sistemaren erretiluko</"
+"interface> gezian, ezkutuko elementuak erakusteko, eta ondoren egin klik "
 "<interface>Kutxa-gotorrak</interface> ikonoan."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
@@ -493,15 +465,7 @@ msgid "Overview"
 msgstr "Ikuspegi orokorra"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that show all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
