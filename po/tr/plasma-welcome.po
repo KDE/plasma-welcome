@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
 #
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-02 01:06+0000\n"
-"PO-Revision-Date: 2022-12-23 21:33+0300\n"
+"PO-Revision-Date: 2023-01-04 22:36+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -99,18 +99,7 @@ msgid "Get Involved"
 msgstr "Katkıda Bulunun"
 
 #: src/contents/ui/pages/Contribute.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE is not a big company; it's an international volunteer community, and "
-#| "its software is made by people like you donating their time and passion. "
-#| "That means you too can help make things better! There are many ways to "
-#| "contribute on topics as diverse as bug triaging, programming, "
-#| "translation, visual design, and promotion.<nl/><nl/>By contributing to "
-#| "KDE, you can become part of something special, meet new friends, learn "
-#| "new skills, and make a difference to millions while working with people "
-#| "from around the globe to deliver a stunning free software computing "
-#| "experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE is not a big company; it's an international volunteer community, and its "
@@ -123,14 +112,13 @@ msgid ""
 "computing experience."
 msgstr ""
 "KDE büyük bir şirket değil; uluslararası bir gönüllü topluluğudur ve "
-"yazılımları sizin gibi zamanlarını ve tutkularını harcayan insanlar "
-"tarafından yapılmıştır. Bu, sizin de işleri daha iyi hale getirmeye yardımcı "
-"olabileceğiniz anlamına gelir! Hata triyajı, programlama, çeviri, görsel "
-"tasarım ve tanıtım gibi çok çeşitli konularda katkıda bulunmanın birçok yolu "
-"vardır.<nl/><nl/>KDE'ye katkıda bulunarak özel bir şeyin parçası olabilir, "
-"yeni arkadaşlar edinebilir, yeni beceriler kazanabilir ve çarpıcı bir özgür "
-"yazılım bilgi işlem deneyimi sunmak için dünyanın dört bir yanından "
-"insanlarla çalışırken milyonlarca kişi için fark yaratabilirsiniz."
+"yazılımları, sizin gibi zamanlarını ve tutkularını harcayan insanlar "
+"tarafından yapılmıştır. Siz de çeviri, görsel tasarım ve tanıtım ya da "
+"programlama ve hata ayıklama yoluyla işlerin daha iyi olmasına yardımcı "
+"olabilirsiniz.<nl/><nl/>KDE'ye katkıda bulunarak özel bir şeyin parçası "
+"olabilir, yeni arkadaşlar edinebilir, çarpıcı bir özgür yazılım bilgi işlem "
+"deneyimi sunmak için dünyanın dört bir yanından insanlarla çalışırken yeni "
+"beceriler öğrenebilir ve milyonlar için bir fark yaratabilirsiniz."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -189,14 +177,7 @@ msgid "Support Your Freedom"
 msgstr "Özgürlüğünüzü Savunun"
 
 #: src/contents/ui/pages/Donate.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE operates on a shoestring budget, relying largely on donations of "
-#| "labor and resources. You can help change that!<nl/><nl/>Financial "
-#| "donations help KDE pay for development sprints, hardware and server "
-#| "resources, and expanded employment. Donations are tax-deductible in "
-#| "Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Miraculously, KDE operates on a shoestring budget, relying largely on "
@@ -205,11 +186,11 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"KDE, kısıtlı bir bütçe ile çalışmalarını sürdürür ve genelde emek ve "
-"özkaynak bağışlarıyla ayakta kalır. Bunu değiştirmeye yardımcı olabilirsiniz!"
-"<nl/><nl/>Finansal bağışlar; geliştirme hız koşularını, donanım ve sunucu "
-"özkaynaklarını ve uzun süreli maaş ödemelerini finanse etmeye yardımcı olur. "
-"Bağışlar, Almanya için vergiden muaftır."
+"KDE, mucizevi bir biçimde, kısıtlı bir bütçe ile çalışmalarını sürdürür ve "
+"genelde emek ve özkaynak bağışlarıyla ayakta kalır. Bunu değiştirmeye "
+"yardımcı olabilirsiniz!<nl/><nl/>Finansal bağışlar; geliştirme hız "
+"koşularını, donanım ve sunucu özkaynaklarını ve uzun süreli maaş ödemelerini "
+"finanse etmeye yardımcı olur. Bağışlar, Almanya için vergiden muaftır."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -370,16 +351,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma Kasalar"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your files, pictures, and documents, safe from prying eyes. Vaults can "
-#| "live inside folders that are synced to cloud storage services too, "
-#| "providing extra privacy for that content.<nl/><nl/>To get started, click "
-#| "the arrow on the <interface>System Tray</interface> to show hidden items, "
-#| "and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -391,13 +363,13 @@ msgid ""
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
 "Plasma Kasalar, <interface>Kasalar</interface> adı verilen şifreli klasörler "
-"oluşturmanıza olanak tanır. Her kasanın içinde dosyalarınızı, resimlerinizi "
-"ve belgelerinizi meraklı gözlerden koruyarak güvenli bir şekilde "
-"saklayabilirsiniz. Kasalar, bulut depolama hizmetleriyle eşzamanlanan "
-"klasörlerin içinde de bulunabilir ve bu, içerik için ek gizlilik sağlar.<nl/"
-"><nl/>Başlamak için, <interface>Sistem Tepsisi</interface> üzerindeki oku "
-"tıklayarak gizli ögeleri seçin ve ardından <interface>Kasalar</interface> "
-"simgesine tıklayın."
+"oluşturmanıza olanak tanır. Her kasanın içinde parolalarınızı, "
+"dosyalarınızı, resimlerinizi ve belgelerinizi meraklı gözlerden koruyarak "
+"güvenli bir şekilde saklayabilirsiniz. Kasalar, bulut depolama hizmetleriyle "
+"eşzamanlanan klasörlerin içinde de bulunabilir ve bu, içerik için ek "
+"gizlilik sağlar.<nl/><nl/>Başlamak için, <interface>Sistem Tepsisi</"
+"interface> üzerindeki oku tıklayarak gizli ögeleri seçin ve ardından "
+"<interface>Kasalar</interface> simgesine tıklayın."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -490,15 +462,7 @@ msgid "Overview"
 msgstr "Genel Görünüm"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that show all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
