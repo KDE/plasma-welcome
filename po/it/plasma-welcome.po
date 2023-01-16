@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
-# Vincenzo Reale <smart2128vr@gmail.com>, 2022.
+# Vincenzo Reale <smart2128vr@gmail.com>, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-02 01:06+0000\n"
-"PO-Revision-Date: 2022-12-21 11:55+0100\n"
+"PO-Revision-Date: 2023-01-03 08:58+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -99,18 +99,7 @@ msgid "Get Involved"
 msgstr "Partecipa"
 
 #: src/contents/ui/pages/Contribute.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE is not a big company; it's an international volunteer community, and "
-#| "its software is made by people like you donating their time and passion. "
-#| "That means you too can help make things better! There are many ways to "
-#| "contribute on topics as diverse as bug triaging, programming, "
-#| "translation, visual design, and promotion.<nl/><nl/>By contributing to "
-#| "KDE, you can become part of something special, meet new friends, learn "
-#| "new skills, and make a difference to millions while working with people "
-#| "from around the globe to deliver a stunning free software computing "
-#| "experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE is not a big company; it's an international volunteer community, and its "
@@ -124,14 +113,13 @@ msgid ""
 msgstr ""
 "KDE non è una grande azienda; è una comunità internazionale di volontari e "
 "il suo software è realizzato da persone come te che donano il loro tempo e "
-"la loro passione. Ciò significa che anche tu puoi contribuire a migliorare "
-"le cose! Ci sono molti modi per contribuire su argomenti diversi come "
-"analisi dei bug, la programmazione, la traduzione, il design visivo e la "
-"promozione.<nl/><nl/>Contribuendo a KDE, puoi entrare a far parte di "
-"qualcosa di speciale, incontrare nuovi amici, imparare nuove competenze e "
-"fare la differenza per milioni di persone mentre lavori con persone da tutto "
-"il mondo per offrire una straordinaria esperienza di elaborazione software "
-"gratuita."
+"la loro passione. Anche tu puoi contribuire a migliorare le cose, sia "
+"attraverso la traduzione, il design visivo e la promozione, sia la "
+"programmazione e l'analisi dei bug.<nl/><nl/>Contribuendo a KDE, puoi "
+"diventare parte di qualcosa di speciale, incontrare nuovi amici, imparare "
+"nuove competenze e fare la differenza per milioni di persone mentre lavori "
+"con persone da tutto il mondo per offrire una straordinaria esperienza di "
+"elaborazione software gratuita."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -190,14 +178,7 @@ msgid "Support Your Freedom"
 msgstr "Supporta la tua libertà"
 
 #: src/contents/ui/pages/Donate.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE operates on a shoestring budget, relying largely on donations of "
-#| "labor and resources. You can help change that!<nl/><nl/>Financial "
-#| "donations help KDE pay for development sprints, hardware and server "
-#| "resources, and expanded employment. Donations are tax-deductible in "
-#| "Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Miraculously, KDE operates on a shoestring budget, relying largely on "
@@ -372,16 +353,7 @@ msgid "Plasma Vaults"
 msgstr "Caveau di Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your files, pictures, and documents, safe from prying eyes. Vaults can "
-#| "live inside folders that are synced to cloud storage services too, "
-#| "providing extra privacy for that content.<nl/><nl/>To get started, click "
-#| "the arrow on the <interface>System Tray</interface> to show hidden items, "
-#| "and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -398,8 +370,8 @@ msgstr ""
 "occhi indiscreti. Le casseforti possono risiedere all'interno di cartelle "
 "sincronizzate anche con i servizi di archiviazione cloud, fornendo maggiore "
 "riservatezza per quel contenuto.<nl/><nl/>Per iniziare, fai clic sulla "
-"freccia nella <interface>barra delle applicazioni</interface> per mostrare i "
-"file nascosti elementi, quindi fai clic sull'icona <interface>Casseforti</"
+"freccia nella <interface>barra delle applicazioni</interface> per mostrare "
+"gli elementi nascosti, quindi fai clic sull'icona <interface>Casseforti</"
 "interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
@@ -493,15 +465,7 @@ msgid "Overview"
 msgstr "Panoramica"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that show all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
