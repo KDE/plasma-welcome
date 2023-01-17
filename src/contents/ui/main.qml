@@ -16,7 +16,6 @@ import org.kde.plasma.welcome 1.0
 Kirigami.ApplicationWindow {
     id: root
 
-    property var initialPages
     readonly property bool showingPlasmaUpdate: Controller.newPlasmaVersion.length > 0
 
     function quitAndMarkAsCompleted() {
@@ -75,7 +74,7 @@ Kirigami.ApplicationWindow {
 
                 QQC2.Label {
                     Layout.fillWidth: true
-                    text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, initialPages.length + 1)
+                    text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, pageStack.depth)
                     horizontalAlignment: Text.AlignHCenter
                     elide: Text.ElideRight // Should never elide, but set it anyway
                 }
@@ -110,36 +109,25 @@ Kirigami.ApplicationWindow {
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.None
     pageStack.defaultColumnWidth: width
 
-    // FIXME: push new pages only as needed
-    // See https://bugs.kde.org/show_bug.cgi?id=459177
     Component.onCompleted: {
         if (root.showingPlasmaUpdate) {
-            initialPages = [plasmaUpdate];
+            pageStack.push(plasmaUpdate);
         } else {
-            welcome.visible = true;
-            initialPages = [welcome];
+            pageStack.push(welcome);
 
             if (!Controller.networkAlreadyConnected()) {
-                network.visible = true;
-                initialPages.push (network);
+                pageStack.push(network);
             }
 
-            simpleByDefault.visible = true;
-            initialPages.push(simpleByDefault);
-
-            powerfulWhenNeeded.visible = true;
-            initialPages.push(powerfulWhenNeeded);
-
-            discover.visible = true;
-            initialPages.push(discover);
+            pageStack.push(simpleByDefault);
+            pageStack.push(powerfulWhenNeeded);
+            pageStack.push(discover);
 
             if (Controller.userFeedbackAvailable()) {
-                kcm_feedback.visible = true;
-                initialPages.push(kcm_feedback);
+                pageStack.push(kcm_feedback);
             }
 
-            kcm_kaccounts.visible = true;
-            initialPages.push(kcm_kaccounts);
+            pageStack.push(kcm_kaccounts);
 
             // Append any distro-specific pages that were found
             let distroPages = Controller.distroPages()
@@ -147,7 +135,7 @@ Kirigami.ApplicationWindow {
                 for (let i in distroPages) {
                     var distroPageComponent = Qt.createComponent(distroPages[i]);
                     if (distroPageComponent.status !== Component.Error) {
-                        initialPages.push(distroPageComponent);
+                        pageStack.push(distroPageComponent);
                     } else {
                         console.warn("Error loading Page", distroPages[i], distroPageComponent.status)
                         Qt.exit(123)
@@ -155,13 +143,10 @@ Kirigami.ApplicationWindow {
                 }
             }
 
-            // Now show the final pages
-            initialPages.push(contribute);
-            initialPages.push(donate);
+            pageStack.push(contribute);
+            pageStack.push(donate);
+            pageStack.currentIndex = 0;
         }
-
-        pageStack.initialPage = initialPages;
-        pageStack.currentIndex = 0;
     }
 
     PlasmaUpdate {id: plasmaUpdate; visible: false}
