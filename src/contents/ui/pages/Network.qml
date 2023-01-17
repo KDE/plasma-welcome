@@ -28,6 +28,28 @@ GenericPage {
         interval: 1000
     }
 
+    Loader {
+        id: nmLoader
+        source: "NetworkPlasmaNM.qml"
+
+        // Defaults for when PlasmaNM is not available
+        property bool statusIsConnected: false
+        property bool iconIsConnecting: false
+        property string iconConnectionIcon: "network-wireless-available"
+        onLoaded: {
+            statusIsConnected = Qt.binding(function() { return nmLoader.item.statusNetworkStatus == "Connected" })
+            iconIsConnecting = Qt.binding(function() { return nmLoader.item.iconConnecting })
+            iconConnectionIcon = Qt.binding(function() { return nmLoader.item.iconConnectionIcon })
+        }
+
+        // Continue to the next page automatically when connected
+        onStatusIsConnectedChanged: {
+            if (statusIsConnected == true && pageStack.currentItem == network) {
+                pageStack.currentIndex += 1
+            }
+        }
+    }
+
     Kirigami.ShadowedRectangle {
         anchors.centerIn: parent
         width: Kirigami.Units.gridUnit * 20
@@ -129,7 +151,16 @@ GenericPage {
                         implicitWidth: appletContainer.iconSize
                         implicitHeight: appletContainer.iconSize
                         svg: PlasmaCore.Svg { imagePath: "icons/network" }
-                        elementId: "network-wireless-available"
+                        elementId: nmLoader.iconConnectionIcon
+                        PC3.BusyIndicator {
+                            id: connectingIndicator
+
+                            anchors.centerIn: parent
+                            height: Math.min(parent.width, parent.height)
+                            width: height
+                            running: nmLoader.iconIsConnecting
+                            visible: running
+                        }
                     }
                     PlasmaCore.SvgItem {
                         implicitWidth: appletContainer.iconSize
@@ -177,15 +208,10 @@ GenericPage {
                     color: "white"
                 }
 
-                // FIXME: assuming this page's index is 1 is a dirty hack that
-                // will break if we re-arrange the pages, but for now it's
-                // to prevent the animation from constantly playing and wasting
-                // CPU resources.
-                // Once https://bugs.kde.org/show_bug.cgi?id=459177 is fixed, we
-                // can remove this hack.
                 SequentialAnimation on y {
-                    running: root.visible && pageStack.currentIndex == 1
-                    loops: Animation.Infinite
+                    running: pageStack.currentItem == network && !nmLoader.statusIsConnected
+                    loops:  Animation.Infinite
+                    alwaysRunToEnd: true
                     NumberAnimation {
                         from: indicatorArrow.originalY
                         to: indicatorArrow.translatedY
