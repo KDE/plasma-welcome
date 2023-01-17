@@ -60,6 +60,7 @@ Kirigami.ApplicationWindow {
                         text: pageStack.currentIndex === 0 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
                         icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
                         shortcut: "Left"
+                        enabled: headerToolbar.visible
                         onTriggered: {
                             if (pageStack.layers.depth > 1) {
                                 pageStack.layers.pop()
@@ -85,6 +86,7 @@ Kirigami.ApplicationWindow {
                         text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
                         icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
                         shortcut: "Right"
+                        enabled: headerToolbar.visible
                         onTriggered: {
                             if (pageStack.currentIndex < pageStack.depth - 1) {
                                 pageStack.currentIndex += 1
