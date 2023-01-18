@@ -55,11 +55,13 @@ Kirigami.ApplicationWindow {
                 spacing: Kirigami.Units.smallSpacing
 
                 QQC2.Button {
+                    id: prevButton
+                    enabled: headerToolbar.visible
                     action: Kirigami.Action {
                         text: pageStack.currentIndex === 0 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
                         icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
                         shortcut: "Left"
-                        enabled: headerToolbar.visible
+                        enabled: prevButton.enabled
                         onTriggered: {
                             if (pageStack.layers.depth > 1) {
                                 pageStack.layers.pop()
@@ -81,12 +83,12 @@ Kirigami.ApplicationWindow {
 
                 QQC2.Button {
                     id: nextButton
-                    enabled: pageStack.layers.depth === 1
+                    enabled: headerToolbar.visible && pageStack.layers.depth === 1
                     action: Kirigami.Action {
                         text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
                         icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
                         shortcut: "Right"
-                        enabled: headerToolbar.visible && nextButton.enabled
+                        enabled: nextButton.enabled
                         onTriggered: {
                             if (pageStack.currentIndex < pageStack.depth - 1) {
                                 pageStack.currentIndex += 1
