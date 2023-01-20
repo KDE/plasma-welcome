@@ -23,25 +23,31 @@ Kirigami.ApplicationWindow {
     width: minimumWidth
     height: minimumHeight
 
-    // We're using a slightly complicated custom implementation of
-    // Kirigami.AbstractApplicationHeader here because QQC2.ToolBar isn't draggable
-    // to move the window (Bug 452180), and using the built-in pageStack's header
-    // doesn't give us adequate control over the presentation; we very specifically
-    // want raised buttons, arbitrary content in the center, page text inline, etc.
-    header: Item {
+    pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
+
+    footer: Item {
         width: root.width
-        height: root.showingPlasmaUpdate ? separator.height: headerLayout.implicitHeight + (headerLayout.anchors.margins * 2)
+        height: footerLayout.implicitHeight + (footerLayout.anchors.margins * 2)
 
-        Kirigami.AbstractApplicationHeader {
-            id: headerToolbar
+        visible: !root.showingPlasmaUpdate
 
-            anchors.top: parent.top
-            anchors.bottom: separator.top
+        Kirigami.Separator {
+            id: footerSeparator
+
+            anchors.bottom: parent.top
             width: parent.width
-            visible: !root.showingPlasmaUpdate
+        }
+
+        // Not using QQC2.Toolbar so that the window is draggable
+        // from the footer, both appear identical
+        Kirigami.AbstractApplicationHeader {
+            id: footerToolbar
+
+            height: parent.height
+            width: parent.width
 
             contentItem: RowLayout {
-                id: headerLayout
+                id: footerLayout
 
                 anchors.fill: parent
                 anchors.margins: Kirigami.Units.smallSpacing
@@ -50,10 +56,10 @@ Kirigami.ApplicationWindow {
 
                 QQC2.Button {
                     id: prevButton
-                    enabled: headerToolbar.visible
+                    enabled: footerToolbar.visible
                     action: Kirigami.Action {
-                        text: pageStack.currentIndex === 0 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
-                        icon.name: pageStack.currentIndex === 0 ? "dialog-cancel" : "arrow-left"
+                        text: pageStack.currentIndex === 0 && pageStack.layers.depth === 1 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
+                        icon.name: pageStack.currentIndex === 0 && pageStack.layers.depth === 1 ? "dialog-cancel" : "arrow-left"
                         shortcut: "Left"
                         enabled: prevButton.enabled
                         onTriggered: {
@@ -77,7 +83,7 @@ Kirigami.ApplicationWindow {
 
                 QQC2.Button {
                     id: nextButton
-                    enabled: headerToolbar.visible && pageStack.layers.depth === 1
+                    enabled: footerToolbar.visible && pageStack.layers.depth === 1
                     action: Kirigami.Action {
                         text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
                         icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
@@ -94,17 +100,7 @@ Kirigami.ApplicationWindow {
                 }
             }
         }
-        Kirigami.Separator {
-            id: separator
-
-            visible: !headerToolbar.visible
-            anchors.bottom: parent.bottom
-            width: parent.width
-        }
     }
-
-    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.None
-    pageStack.defaultColumnWidth: width
 
     Component.onCompleted: {
         switch (Controller.mode) {
@@ -157,7 +153,6 @@ Kirigami.ApplicationWindow {
     Discover {id: discover; visible: false}
     KCM {
         id: kcm_feedback
-
         visible: false
 
         heading: i18nc("@title: window", "Share Anonymous Usage Information With KDE")
@@ -172,7 +167,6 @@ Kirigami.ApplicationWindow {
     }
     KCM {
         id: kcm_kaccounts
-
         visible: false
 
         heading: i18nc("@title: window", "Connect Your Online Accounts")

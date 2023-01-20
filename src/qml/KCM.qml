@@ -10,16 +10,13 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
-import org.kde.plasma.welcome 1.0
-
 GenericPage
 {
     id: container
-    property QtObject kcm
-    property Item internalPage
     property bool showSeparator: false
 
-    title: internalPage.title
+    required property QtObject kcm
+    required property Item internalPage
 
     topPadding: 0
     leftPadding: 0
@@ -33,6 +30,7 @@ GenericPage
     onInternalPageChanged: {
         internalPage.parent = contentItem;
         internalPage.anchors.fill = contentItem;
+        internalPage.extraFooterTopPadding = false;
     }
     onActiveFocusChanged: {
         if (activeFocus) {
@@ -49,6 +47,7 @@ GenericPage
             target: kcm
             function onPagePushed(page) {
                 pageStack.layers.push(page);
+                page.extraFooterTopPadding = false;
             }
             function onPageRemoved() {
                 pageStack.layers.pop(); //PROBABLY THIS SHOULDN't BE SUPPORTED
