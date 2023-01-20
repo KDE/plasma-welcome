@@ -27,7 +27,7 @@ include(ECMPoQmTools)
 include(ECMQmlModule)
 include(ECMDeprecationSettings)
 
-set(DISTRO_PAGE_PATH "/var/lib/plasma-welcome-extra-pages/" CACHE STRING "Path on disk to find custom pages")
+set(DISTRO_PAGE_PATH "/usr/share/plasma-welcome-extra-pages/" CACHE STRING "Path on disk to find custom pages")
 
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h *.hpp *.c)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
