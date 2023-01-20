@@ -168,11 +168,22 @@ GenericPage {
                         svg: PlasmaCore.Svg { imagePath: "widgets/arrows" }
                         elementId: "up-arrow"
                     }
-                    PC3.Label {
-                        text: Qt.formatDate(timeSource.data["Local"]["DateTime"], Qt.DefaultLocaleShortDate)
-                    }
-                    PC3.Label {
-                        text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
+                    ColumnLayout {
+                        spacing: 0
+                        PC3.Label {
+                            text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
+                            fontSizeMode: Text.Fit
+                            Layout.fillHeight: true
+                            Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
+                            Layout.topMargin: PlasmaCore.Units.smallSpacing
+                        }
+                        PC3.Label {
+                            text: Qt.formatDate(timeSource.data["Local"]["DateTime"], Qt.DefaultLocaleShortDate)
+                            fontSizeMode: Text.Fit
+                            Layout.fillHeight: true
+                            Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
+                            Layout.bottomMargin: PlasmaCore.Units.smallSpacing
+                        }
                     }
                     PlasmaCore.SvgItem {
                         implicitWidth: appletContainer.iconSize
