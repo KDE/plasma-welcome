@@ -37,9 +37,9 @@ GenericPage {
         property bool iconIsConnecting: false
         property string iconConnectionIcon: "network-wireless-available"
         onLoaded: {
-            statusIsConnected = Qt.binding(function() { return nmLoader.item.statusNetworkStatus == "Connected" })
-            iconIsConnecting = Qt.binding(function() { return nmLoader.item.iconConnecting })
-            iconConnectionIcon = Qt.binding(function() { return nmLoader.item.iconConnectionIcon })
+            statusIsConnected = Qt.binding(() => nmLoader.item.statusNetworkStatus == "Connected")
+            iconIsConnecting = Qt.binding(() => nmLoader.item.iconConnecting)
+            iconConnectionIcon = Qt.binding(() => nmLoader.item.iconConnectionIcon)
         }
 
         // Continue to the next page automatically when connected
