@@ -156,7 +156,7 @@ GenericPage {
                 }
                 QQC2.Button {
                     icon.name: "preferences-desktop-activities"
-                    text: "Open Activities Page in System Settings"
+                    text: i18nc("@action:button", "Open Activities Page in System Settings")
                     onClicked: Controller.runCommand("systemsettings kcm_activities");
                 }
             }
@@ -194,7 +194,7 @@ GenericPage {
                 }
                 QQC2.Button {
                     icon.name: "kdeconnect"
-                    text: "Open KDE Connect Page in System Settings"
+                    text: i18nc("@action:button", "Open KDE Connect Page in System Settings")
                     onClicked: Controller.runCommand("systemsettings kcm_kdeconnect");
                 }
             }
@@ -274,7 +274,7 @@ GenericPage {
                 }
                 QQC2.Button {
                     icon.name: "get-hot-new-stuff"
-                    text: "See All Available 3rd-Party Content"
+                    text: i18nc("@action:button", "See All Available 3rd-Party Content")
                     onClicked: Controller.runCommand("knewstuff-dialog");
                 }
             }
