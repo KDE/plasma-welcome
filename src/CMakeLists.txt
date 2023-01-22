@@ -5,7 +5,7 @@
 set(HAVE_KUSERFEEDBACK ${KUserFeedback_FOUND})
 configure_file(kuserfeedbacksettings.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/kuserfeedbacksettings.h)
 
-add_executable(plasma-welcome main.cpp controller.cpp resources.qrc module.cpp)
+add_executable(plasma-welcome main.cpp controller.cpp controller.h resources.qrc module.cpp module.h)
 
 target_compile_definitions(plasma-welcome PRIVATE "DISTRO_PAGE_PATH=\"${DISTRO_PAGE_PATH}\"")
 
