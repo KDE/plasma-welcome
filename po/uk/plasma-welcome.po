@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-19 00:59+0000\n"
+"POT-Creation-Date: 2023-01-22 02:54+0000\n"
 "PO-Revision-Date: 2023-01-02 08:54+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -418,6 +418,12 @@ msgstr ""
 "простори дій. Потім ви зможете перемикатися між ними за допомогою натискання "
 "комбінації клавіш <shortcut>Meta+Tab</shortcut>."
 
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Activities Page in System Settings"
+msgstr ""
+
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
@@ -432,6 +438,12 @@ msgid ""
 msgstr ""
 "KDE Connect надає вам змогу інтегрувати ваш телефон з вашим комп'ютером у "
 "кількох напрямках:"
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#, kde-format
+msgctxt "@action:button"
+msgid "Open KDE Connect Page in System Settings"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
@@ -511,6 +523,12 @@ msgstr ""
 "їх окремо.<nl/><nl/>Зауважте, що отримані у такий спосіб можливості не було "
 "перевірено авторами вашого дистрибутива на працездатність або стабільність "
 "роботи."
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "See All Available 3rd-Party Content"
+msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format

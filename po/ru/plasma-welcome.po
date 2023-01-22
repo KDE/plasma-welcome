@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-19 00:59+0000\n"
-"PO-Revision-Date: 2023-01-15 17:56+0300\n"
+"POT-Creation-Date: 2023-01-22 02:54+0000\n"
+"PO-Revision-Date: 2023-01-21 18:23+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -418,6 +418,12 @@ msgstr ""
 "переключаться между ними с помощью комбинации клавиш <shortcut>Meta+Tab</"
 "shortcut>."
 
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Activities Page in System Settings"
+msgstr ""
+
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
@@ -432,6 +438,12 @@ msgid ""
 msgstr ""
 "Приложение KDE Connect предоставляет следующие возможности совместного "
 "использования телефона и компьютера:"
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#, kde-format
+msgctxt "@action:button"
+msgid "Open KDE Connect Page in System Settings"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
@@ -453,6 +465,14 @@ msgid ""
 "convert between currencies, calculate math problems, and a lot more. Try "
 "typing any of the following into one of those search fields:"
 msgstr ""
+"Строка поиска и запуска KRunner — исключительно мощная и универсальная "
+"поисковая система Plasma. Она поддерживает поиск в меню запуска приложений и "
+"на экране обзора. KRunner возможно использовать и в виде отдельной панели "
+"поиска , для вызова которой служит комбинация клавиш <shortcut>Alt+F2</"
+"shortcut>.<nl/><nl/> В дополнению к поиску файлов и папок KRunner может "
+"запускать приложения, выполнять поиск в Интернете, конвертировать валюты, "
+"решать математические задачи и многое другое. Попробуйте ввести в строку "
+"поиска:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
 #, kde-format
@@ -495,6 +515,18 @@ msgid ""
 "possible to add functionality you want without having to ask KDE developers "
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
+msgstr ""
+"В различных модулях Plasma, параметрах системы и приложениях KDE встречаются "
+"кнопки, подписанные «Загрузить новое…», которые позволяют загружать "
+"различные материалы, созданные другими пользователями. Таким образом часто "
+"можно расширить возможности системы без необходимости просить об этом "
+"разработчиков KDE. <nl/><nl/>Обратите внимание, что содержимое, полученное "
+"таким образом, не проверялось на предмет работоспособности и стабильности."
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "See All Available 3rd-Party Content"
 msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18

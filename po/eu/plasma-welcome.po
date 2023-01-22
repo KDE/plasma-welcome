@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-19 00:59+0000\n"
+"POT-Creation-Date: 2023-01-22 02:54+0000\n"
 "PO-Revision-Date: 2023-01-02 19:00+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -414,6 +414,12 @@ msgstr ""
 "horretan, jarduera gehiago sor ditzakezu. Haien artean aldatzeko "
 "<shortcut>Meta+Tab</shortcut> erabil daiteke."
 
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Activities Page in System Settings"
+msgstr ""
+
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
@@ -428,6 +434,12 @@ msgid ""
 msgstr ""
 "KDE Connect-ek zure telefonoa zure ordenagailuarekin hainbat eratan "
 "bateratzen uzten dizu:"
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#, kde-format
+msgctxt "@action:button"
+msgid "Open KDE Connect Page in System Settings"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
@@ -507,6 +519,12 @@ msgstr ""
 "KDE garatzaileei inplementatu dezaten eskatu beharrik izan gabe.<nl/><nl/"
 ">Kontuan izan era honetan eskuratutako edukia ez duela zure banatzaileak "
 "berrikusi, ez funtzionaltasunean ez eta egonkortasunean ere."
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "See All Available 3rd-Party Content"
+msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format

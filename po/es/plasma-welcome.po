@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-19 00:59+0000\n"
+"POT-Creation-Date: 2023-01-22 02:54+0000\n"
 "PO-Revision-Date: 2023-01-02 05:06+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -416,6 +416,12 @@ msgstr ""
 "«Actividades». En esta página podrá crear más actividades. Puede cambiar "
 "entre ellas usando el atajo de teclado <shortcut>Meta+Tab</shortcut>."
 
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Activities Page in System Settings"
+msgstr ""
+
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
@@ -429,6 +435,12 @@ msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
 msgstr ""
 "KDE Connect le permite integrar el teléfono con su equipo de varias formas:"
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#, kde-format
+msgctxt "@action:button"
+msgid "Open KDE Connect Page in System Settings"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
@@ -509,6 +521,12 @@ msgstr ""
 "desarrolladores de KDE que la implementen ellos mismos.<nl/><nl/>Tenga en "
 "cuenta que su distribuidor no ha revisado la funcionalidad ni la estabilidad "
 "del contenido adquirido de esta manera."
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "See All Available 3rd-Party Content"
+msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
