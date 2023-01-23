@@ -170,15 +170,18 @@ GenericPage {
             globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
 
             heading: i18nc("@info:window", "KDE Connect")
-            description: xi18nc("@info:usagetip", "KDE Connect lets you integrate your phone with your computer in various ways:
-                                <nl/>
-                                <list><item>See notifications from your phone on your computer</item>
-                                <item>Reply to text messages from your phone on your computer</item>
-                                <item>Sync your clipboard contents between your computer and your phone</item>
-                                <item>Make a noise on your phone when it's been misplaced</item>
-                                <item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>
-                                <item>…And much more!</item></list>
-                                <nl/>To get started, launch <interface>System Settings</interface> and search for \"KDE Connect\". On that page, you can pair your phone.")
+
+            // Don't change the weird indentation; it's intentional to make this
+            // long string nicer for translators
+            description: xi18nc("@info:usagetip", "KDE Connect lets you integrate your phone with your computer in various ways:\
+<nl/>\
+<list><item>See notifications from your phone on your computer</item>\
+<item>Reply to text messages from your phone on your computer</item>\
+<item>Sync your clipboard contents between your computer and your phone</item>\
+<item>Make a noise on your phone when it's been misplaced</item>\
+<item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>\
+<item>…And much more!</item></list>\
+<nl/>To get started, launch <interface>System Settings</interface> and search for \"KDE Connect\". On that page, you can pair your phone.")
 
             RowLayout {
                 anchors.bottom: parent.bottom
@@ -208,15 +211,18 @@ GenericPage {
             globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
 
             heading: i18nc("@info:window", "KRunner")
-            description: xi18nc("@info:usagetip translators: if needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:
-            <nl/>
-            <list><item>\"time Shanghai\"</item>
-            <item>\"27/3\"</item>
-            <item>\"200 EUR in USD\"</item>
-            <item>\"25 miles in km\"</item>
-            <item>…And much more!</item></list>
-            <nl/>
-            To learn more, open the KRunner search bar using the <shortcut>Alt+F2</shortcut> keyboard shortcut and click on the question mark icon.")
+
+            // Don't change the weird indentation; it's intentional to make this
+            // long string nicer for translators
+            description: xi18nc("@info:usagetip translators: if needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:\
+<nl/>\
+<list><item>\"time Shanghai\"</item>\
+<item>\"27/3\"</item>\
+<item>\"200 EUR in USD\"</item>\
+<item>\"25 miles in km\"</item>\
+<item>…And much more!</item></list>\
+<nl/>\
+To learn more, open the KRunner search bar using the <shortcut>Alt+F2</shortcut> keyboard shortcut and click on the question mark icon.")
 
             QQC2.Button {
                 anchors.bottom: parent.bottom
