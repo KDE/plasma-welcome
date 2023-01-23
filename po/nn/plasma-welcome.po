@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-19 00:59+0000\n"
+"POT-Creation-Date: 2023-01-22 00:59+0000\n"
 "PO-Revision-Date: 2023-01-21 15:02+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -130,8 +130,8 @@ msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "Vert med no!"
 
-#: src/contents/ui/pages/Contribute.qml:44
-#: src/contents/ui/pages/Donate.qml:44 src/contents/ui/pages/Welcome.qml:53
+#: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -193,11 +193,11 @@ msgid ""
 "Germany."
 msgstr ""
 "KDE har eit trongt budsjett og er avhengig av pengegåver og frivillig "
-"arbeid. Her kan du bidra!<nl/><nl/>Pengegåver finansierer såkalla "
-"utviklings­sprint, teknisk infrastruktur og kjøp av tenester frå eksterne "
-"utviklarar."
+"arbeid. Her kan du bidra!<nl/><nl/>Pengegåver finansierer såkalla utviklings­"
+"sprint, teknisk infrastruktur og kjøp av tenester frå eksterne utviklarar."
 
-#: src/contents/ui/pages/Donate.qml:22 src/contents/ui/pages/PlasmaUpdate.qml:38
+#: src/contents/ui/pages/Donate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -398,10 +398,10 @@ msgstr "Aktivitetar"
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
-"can focus on one at a time. You can have an activity for \"Home\", \"School"
-"\", \"Work\", and so on. Each Activity has access to all your files but has "
-"its own set of open apps and windows, recent documents, \"Favorite\" apps, "
-"and desktop widgets.<nl/><nl/>To get started, launch <interface>System "
+"can focus on one at a time. You can have an activity for \"Home\", "
+"\"School\", \"Work\", and so on. Each Activity has access to all your files "
+"but has its own set of open apps and windows, recent documents, \"Favorite\" "
+"apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System "
 "Settings</interface> and search for \"Activities\". On that page, you can "
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
@@ -410,11 +410,17 @@ msgstr ""
 "arbeidsflytar, slik at du kan fokusera på éin ting om gongen. Du kan for "
 "eksempel ha eigne aktivitetar for «fritid», «skule» og «arbeid». Alle "
 "aktivitetane har tilgang til alle filene dine, men har sitt eige sett med "
-"opne appar og vindauge, oversikt over nyleg brukte dokument, "
-"favoritt­program og skjermelement.<nl/><nl/>Kom i gang ved å starta "
-"<interface>system­oppsettet</interface> og søkja etter «aktivitetar». Der "
-"kan du leggja til nye aktivitetar. Du kan så byta mellom dei med snøggtasten "
+"opne appar og vindauge, oversikt over nyleg brukte dokument, favoritt­program "
+"og skjermelement.<nl/><nl/>Kom i gang ved å starta <interface>system­"
+"oppsettet</interface> og søkja etter «aktivitetar». Der kan du leggja til "
+"nye aktivitetar. Du kan så byta mellom dei med snøggtasten "
 "<shortcut>Meta + T</shortcut>."
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Activities Page in System Settings"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -430,6 +436,12 @@ msgid ""
 msgstr ""
 "Med KDE Connect kan du integrera telefonen din med datamaskina på mange "
 "måtar:"
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#, kde-format
+msgctxt "@action:button"
+msgid "Open KDE Connect Page in System Settings"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
@@ -452,12 +464,12 @@ msgid ""
 "typing any of the following into one of those search fields:"
 msgstr ""
 "KRunner er det svært kraftige og fleksible søkje­systemet i Plasma. Det står "
-"bak søkje­funksjonen i programstart-menyen og Oversikt-biletet. Du kan "
-"starta eit frittståande søkjefelt med det via snøggtasten "
-"<shortcut>Alt + F2</shortcut>.<nl/><nl/>Med KRunner kan du finna filer og "
-"mapper, men òg blant anna starta program, søkja på nettet, rekna pengebeløp "
-"om til ulike valutaar, gjera matematiske utrekningar. Prøv å skriva noko av "
-"følgjande i søkjefelta:"
+"bak søkje­funksjonen i programstart-menyen og Oversikt-biletet. Du kan starta "
+"eit frittståande søkjefelt med det via snøggtasten <shortcut>Alt + F2</"
+"shortcut>.<nl/><nl/>Med KRunner kan du finna filer og mapper, men òg blant "
+"anna starta program, søkja på nettet, rekna pengebeløp om til ulike "
+"valutaar, gjera matematiske utrekningar. Prøv å skriva noko av følgjande i "
+"søkjefelta:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
 #, kde-format
@@ -479,8 +491,8 @@ msgstr ""
 "Oversikt er ein funksjon som viser alle opne vindauge og gjev deg enkel "
 "tilgang til dei. Du kan òg sjå, leggja til og veksla mellom ulike virtuelle "
 "skrivebord. Og så har du eit KRunner-basert søkjefelt der, som lèt deg "
-"filtrera på vindauge etter namn.<nl/><nl/>Du får tilgang til "
-"oversikts­biletet med snøggtasten <shortcut>Meta + W</shortcut>."
+"filtrera på vindauge etter namn.<nl/><nl/>Du får tilgang til oversikts­"
+"biletet med snøggtasten <shortcut>Meta + W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
 #, kde-format
@@ -505,6 +517,12 @@ msgstr ""
 "måtta be KDE-utviklarane utvikla det først.<nl/><nl/>Merk at slikt innhald "
 "som er utvikla av andre, ikkje er kvalitetssikra av KDE eller leverandøren "
 "din, og det er ikkje garantert å verka skikkeleg og stabilt."
+
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "See All Available 3rd-Party Content"
+msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
