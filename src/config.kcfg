@@ -12,5 +12,8 @@
             <label>Whether to show the welcome app on next boot, because the user has not either skipped or completed the initial setup process.</label>
             <default>true</default>
         </entry>
+        <entry name="LastSeenVersion" type="String">
+            <label>The last seen release Plasma version.</label>
+        </entry>
     </group>
 </kcfg>
