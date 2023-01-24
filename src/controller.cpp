@@ -27,9 +27,12 @@ void Controller::launchApp(const QString &program)
     job->start();
 }
 
-void Controller::runCommand(const QString &command)
+void Controller::runCommand(const QString &command, const QString &desktopFilename = QString())
 {
     auto *job = new KIO::CommandLauncherJob(command);
+    if (!desktopFilename.isEmpty()) {
+        job->setDesktopName(desktopFilename);
+    }
     job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
     job->start();
 }
