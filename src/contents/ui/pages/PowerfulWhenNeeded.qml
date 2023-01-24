@@ -281,7 +281,7 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+F2</shortcut>
                 QQC2.Button {
                     icon.name: "get-hot-new-stuff"
                     text: i18nc("@action:button", "See All Available 3rd-Party Content")
-                    onClicked: Controller.runCommand("knewstuff-dialog");
+                    onClicked: Controller.launchApp("org.kde.knewstuff-dialog");
                 }
             }
         }
