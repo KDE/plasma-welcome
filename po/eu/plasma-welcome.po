@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-22 02:54+0000\n"
-"PO-Revision-Date: 2023-01-02 19:00+0100\n"
+"POT-Creation-Date: 2023-01-24 02:50+0000\n"
+"PO-Revision-Date: 2023-01-22 17:27+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -376,10 +376,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:192
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:248
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:233
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:278
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
@@ -418,7 +418,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "Ireki «Jarduerak» orria «Sistema Ezarpenetan»"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -426,29 +426,47 @@ msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:173
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
+"<nl/><list><item>See notifications from your phone on your computer</"
+"item><item>Reply to text messages from your phone on your computer</"
+"item><item>Sync your clipboard contents between your computer and your "
+"phone</item><item>Make a noise on your phone when it's been misplaced</"
+"item><item>Copy pictures, videos, and other files from your phone to your "
+"computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
+"get started, launch <interface>System Settings</interface> and search for "
+"\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
-"KDE Connect-ek zure telefonoa zure ordenagailuarekin hainbat eratan "
-"bateratzen uzten dizu:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "Ireki «KDE Connect» orria «Sistema Ezarpenetan»"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
-#, kde-kuit-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
+#| "on the other side of the world from likely speakers of the language"
+#| msgid ""
+#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more. Try typing any of the following into one of those search "
+#| "fields:"
 msgctxt ""
 "@info:usagetip translators: if needed, change 'Shanghai' to a city that on "
 "the other side of the world from likely speakers of the language"
@@ -459,7 +477,11 @@ msgid ""
 "<shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more. Try "
-"typing any of the following into one of those search fields:"
+"typing any of the following into one of those search fields:<nl/><list><item>"
+"\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in USD\"</"
+"item><item>\"25 miles in km\"</item><item>…And much more!</item></list><nl/"
+">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
+"shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
 "KRunner Plasmaren trebezia anitzeko bilaketa sistema txit ahaltsua da. "
 "Aplikazioak abiarazteko menuko bilaketa funtzionalitatea eta Ikuspegi "
@@ -470,13 +492,13 @@ msgstr ""
 "eragiketak kalkulatu, eta askoz gehiago egin dezake. Saia zaitez bilaketa-"
 "eremu horietako batean ondokoetako edozein tekleatzen:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Ikuspegi orokorra"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -495,13 +517,13 @@ msgstr ""
 "eskaintzen du.<nl/><nl/>Ikuspegi orokorra atzitzeko teklatuko <shortcut>Meta"
 "+W</shortcut> lasterbidea erabil dezakezu."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
 msgstr "Eskuratu berrikuntzak"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:261
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -520,11 +542,11 @@ msgstr ""
 ">Kontuan izan era honetan eskuratutako edukia ez duela zure banatzaileak "
 "berrikusi, ez funtzionaltasunean ez eta egonkortasunean ere."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "Ikusi erabilgarri dagoen hirugarrenen eduki guztia"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
@@ -636,6 +658,14 @@ msgid ""
 msgstr ""
 "Askapen-oharrak, Plasma askapenaren zein bertsio-zenbakirako azaldu, adib. "
 "5.25"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE Connect lets you integrate your phone with your computer in various "
+#~ "ways:"
+#~ msgstr ""
+#~ "KDE Connect-ek zure telefonoa zure ordenagailuarekin hainbat eratan "
+#~ "bateratzen uzten dizu:"
 
 #~ msgctxt "@info:window"
 #~ msgid "Personalize Your System"

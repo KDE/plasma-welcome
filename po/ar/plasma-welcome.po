@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-22 02:54+0000\n"
-"PO-Revision-Date: 2023-01-07 17:22+0400\n"
+"POT-Creation-Date: 2023-01-24 02:50+0000\n"
+"PO-Revision-Date: 2023-01-23 20:14+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -371,10 +371,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:192
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:248
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:233
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:278
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
@@ -412,7 +412,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "افتح صفحة الأنشطة في إعدادات النظام"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -420,27 +420,47 @@ msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "كدي المتّصل"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:173
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
-msgstr "يسمح لك كدي المتصل بأن تكامل بين هاتفك وحاسوبك بعدة طرق:"
+"<nl/><list><item>See notifications from your phone on your computer</"
+"item><item>Reply to text messages from your phone on your computer</"
+"item><item>Sync your clipboard contents between your computer and your "
+"phone</item><item>Make a noise on your phone when it's been misplaced</"
+"item><item>Copy pictures, videos, and other files from your phone to your "
+"computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
+"get started, launch <interface>System Settings</interface> and search for "
+"\"KDE Connect\". On that page, you can pair your phone."
+msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "افتح صفحة كدي المتصل في إعدادات النظام"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "مشغل.ك"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
-#, kde-kuit-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
+#| "on the other side of the world from likely speakers of the language"
+#| msgid ""
+#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more. Try typing any of the following into one of those search "
+#| "fields:"
 msgctxt ""
 "@info:usagetip translators: if needed, change 'Shanghai' to a city that on "
 "the other side of the world from likely speakers of the language"
@@ -451,7 +471,11 @@ msgid ""
 "<shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more. Try "
-"typing any of the following into one of those search fields:"
+"typing any of the following into one of those search fields:<nl/><list><item>"
+"\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in USD\"</"
+"item><item>\"25 miles in km\"</item><item>…And much more!</item></list><nl/"
+">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
+"shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
 "مشغل.ك هو نظام بحث قوي ومتنوع لبلازما. يقدم خدمة البحث لمطلق التطبيقات وشاشة "
 "نظرة عامة، ويمكن الوصول إليه كشريط بحث مستقل باستخدام اختصار لوحة المفاتيح "
@@ -459,13 +483,13 @@ msgstr ""
 "لمشغل.ك تشغيل التطبيقات، والبحث في الويب، وتحويل بين العملات، وحساب مشاكل "
 "الرياضيات، وغير ذلك الكثير. حاول كتابة أي مما يلي في أحد مجالات البحث هذه:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "النظرة العامة"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -483,13 +507,13 @@ msgstr ""
 "النوافذ المفتوحة  <nl/><nl/> يمكنك الوصول إلى النظرة العامة باستخدام اختصار "
 "لوحة المفاتيح <shortcut>Meta+W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
 msgstr "احصل على بيانات جديدة رائعة"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:261
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -507,11 +531,11 @@ msgstr ""
 "أن المحتوى المكتسب بهذه الطريقة لم يُراجع بواسطة توزيعتك للتأكد من للوظائف أو "
 "الاستقرار."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "انظر جميع المحتوى  الطرف الثالث المتوفر"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
@@ -618,6 +642,12 @@ msgstr "نيت جراهام"
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr "رقم إصدار بلازما لعرض ملاحظات الإصدار، على سبيل المثال 5.25"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE Connect lets you integrate your phone with your computer in various "
+#~ "ways:"
+#~ msgstr "يسمح لك كدي المتصل بأن تكامل بين هاتفك وحاسوبك بعدة طرق:"
 
 #~ msgctxt "@info:window"
 #~ msgid "Personalize Your System"

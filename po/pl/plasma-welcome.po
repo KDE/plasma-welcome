@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-22 02:54+0000\n"
+"POT-Creation-Date: 2023-01-24 02:50+0000\n"
 "PO-Revision-Date: 2023-01-21 10:14+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -373,10 +373,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:192
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:248
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:233
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:278
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
@@ -423,29 +423,47 @@ msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:173
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
+"<nl/><list><item>See notifications from your phone on your computer</"
+"item><item>Reply to text messages from your phone on your computer</"
+"item><item>Sync your clipboard contents between your computer and your "
+"phone</item><item>Make a noise on your phone when it's been misplaced</"
+"item><item>Copy pictures, videos, and other files from your phone to your "
+"computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
+"get started, launch <interface>System Settings</interface> and search for "
+"\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
-"KDE Connect umożliwia połączenie twojego telefonu z twoim komputerem na "
-"różne sposoby:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
-#, kde-kuit-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
+#| "on the other side of the world from likely speakers of the language"
+#| msgid ""
+#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more. Try typing any of the following into one of those search "
+#| "fields:"
 msgctxt ""
 "@info:usagetip translators: if needed, change 'Shanghai' to a city that on "
 "the other side of the world from likely speakers of the language"
@@ -456,7 +474,11 @@ msgid ""
 "<shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more. Try "
-"typing any of the following into one of those search fields:"
+"typing any of the following into one of those search fields:<nl/><list><item>"
+"\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in USD\"</"
+"item><item>\"25 miles in km\"</item><item>…And much more!</item></list><nl/"
+">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
+"shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
 "KRunner to wyjątkowo rozbudowane i wszechstronne narzędzie do wyszukiwania w "
 "Plazmie. Napędza wyszukiwanie w menu uruchamiacza aplikacji, a także ekran "
@@ -466,13 +488,13 @@ msgstr ""
 "szukać w sieci, przeliczać waluty, obliczać równania matematyczne i więcej. "
 "Spróbuj wpisać w jego pole wyszukania:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Przegląd"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -490,13 +512,13 @@ msgstr ""
 "jest w stanie filtrować okna.<nl/><nl/> Do Przeglądu można uzyskać dostęp "
 "poprzez skrót klawiszowy <shortcut>Meta+W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
 msgstr "Pobieranie nowych pakietów"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:261
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -515,7 +537,7 @@ msgstr ""
 "uzyskana w ten sposób nie została sprawdzona przez twojego dostawcę w żaden "
 "sposób."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
@@ -629,6 +651,14 @@ msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
 "Numer wersji wydania Plazmy do wyświetlania uwag do wydania dla np. 5.25"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE Connect lets you integrate your phone with your computer in various "
+#~ "ways:"
+#~ msgstr ""
+#~ "KDE Connect umożliwia połączenie twojego telefonu z twoim komputerem na "
+#~ "różne sposoby:"
 
 #~ msgctxt "@info:window"
 #~ msgid "Personalize Your System"

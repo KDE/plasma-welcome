@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-22 02:54+0000\n"
+"POT-Creation-Date: 2023-01-24 02:50+0000\n"
 "PO-Revision-Date: 2022-10-05 07:17+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -334,10 +334,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:192
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:248
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:233
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:278
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
@@ -375,26 +375,34 @@ msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:173
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
+"<nl/><list><item>See notifications from your phone on your computer</"
+"item><item>Reply to text messages from your phone on your computer</"
+"item><item>Sync your clipboard contents between your computer and your "
+"phone</item><item>Make a noise on your phone when it's been misplaced</"
+"item><item>Copy pictures, videos, and other files from your phone to your "
+"computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
+"get started, launch <interface>System Settings</interface> and search for "
+"\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:197
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: if needed, change 'Shanghai' to a city that on "
@@ -406,16 +414,20 @@ msgid ""
 "<shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more. Try "
-"typing any of the following into one of those search fields:"
+"typing any of the following into one of those search fields:<nl/><list><item>"
+"\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in USD\"</"
+"item><item>\"25 miles in km\"</item><item>…And much more!</item></list><nl/"
+">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
+"shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:239
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:240
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -427,13 +439,13 @@ msgid ""
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:260
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:261
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -445,7 +457,7 @@ msgid ""
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:277
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
