@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-24 02:50+0000\n"
-"PO-Revision-Date: 2023-01-02 08:54+0200\n"
+"PO-Revision-Date: 2023-01-24 20:52+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -422,7 +422,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "Відкрити сторінку просторів дій у «Системних параметрах»"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -444,12 +444,23 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"За допомогою KDE Connect ви можете поєднати ваш телефон і комп'ютер у "
+"декілька способів:<nl/><list><item>Переглядати сповіщення з вашого телефону "
+"на вашому комп'ютері</item><item>Відповідати на текстові повідомлення з "
+"вашого телефону на вашому комп'ютері</item><item>Синхронізувати вміст буфера "
+"обміну даними між вашим комп'ютером і вашим телефоном</"
+"item><item>Відтворювати звук на вашому телефоні, коли він не на місці</"
+"item><item>Копіювати зображення, відео та інші файли з вашого телефону на "
+"ваш комп'ютер, і навпаки</item><item>…та багато іншого!</item></list><nl/"
+">Для початку, запустіть <interface>Системні параметри</interface> і "
+"пошукайте «KDE Connect». На відповідній сторінці ви зможете пов'язати ваш "
+"комп'ютер з вашими телефоном."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "Відкрити сторінку KDE Connect у «Системних параметрах»"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
@@ -458,19 +469,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:"
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: if needed, change 'Shanghai' to a city that on "
 "the other side of the world from likely speakers of the language"
@@ -493,7 +492,12 @@ msgstr ""
 "клавіш <shortcut>Alt+F2</shortcut>.<nl/><nl/>Окрім пошуку ваших файлів та "
 "тек, KRunner може запускати програми, шукати дані в інтернеті, обчислювати "
 "суми у різних валютах, виконувати математичні обчислення тощо. Спробуйте "
-"ввести такі команди у одне з його можливих полів пошуку:"
+"ввести такі команди у одне з його можливих полів пошуку:<nl/"
+"><list><item>«time Shanghai»</item><item>«27/3»</item><item>«200 євро у "
+"доларах»</item><item>«25 миль у км»</item><item>…багато іншого!</item></"
+"list><nl/>Щоб дізнатися більше, відкрийте панель пошуку KRunner за допомогою "
+"комбінації клавіш <shortcut>Alt+F2</shortcut> і натисніть піктограму зі "
+"знаком питання."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -550,7 +554,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "Переглянути усі доступні сторонні дані"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
