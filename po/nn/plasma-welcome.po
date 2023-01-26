@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-24 02:50+0000\n"
-"PO-Revision-Date: 2023-01-23 20:54+0100\n"
+"PO-Revision-Date: 2023-01-25 21:41+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -91,8 +91,8 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Du får då tilgang til kontoane i ulike KDE-program. Du kan setja opp "
-"kontoane direkte her eller i system­oppsettet seinare."
+"Du får tilgang til kontoane i ulike KDE-program. Du kan setja opp kontoane "
+"direkte her eller i system­oppsettet seinare."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -153,9 +153,9 @@ msgid ""
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
 "Programmet <application>Discover</application> hjelper deg å finna og "
-"installera program, spel og verktøy. For å finna det du ønskjer, kan du "
-"søkja, bla gjennom program­kategoriar, sjå bilete av programma og lesa "
-"omtalar frå andre brukarar."
+"installera program, spel og verktøy. For å finna fram til programvaren du "
+"treng, kan du søkja, bla gjennom program­kategoriar, sjå bilete av programma "
+"og lesa omtalar frå andre brukarar."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -236,9 +236,9 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"KDE-bidragsytarane har brukt dei siste fire månadane til å arbeida hardt med "
-"denne utgåva. Me håpar du vil lika å bruka Plasma like mykje som me likte å "
-"laga det."
+"KDE-bidragsytarane har dei siste fire månadane arbeida hardt med denne "
+"utgåva. Me håpar du vil få like mykje glede av å bruka Plasma som me har "
+"hatt av å utvikla systemet."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
@@ -410,10 +410,10 @@ msgstr ""
 "arbeidsflytar, slik at du kan fokusera på éin ting om gongen. Du kan for "
 "eksempel ha eigne aktivitetar for «fritid», «skule» og «arbeid». Alle "
 "aktivitetane har tilgang til alle filene dine, men har sitt eige sett med "
-"opne appar og vindauge, oversikt over nyleg brukte dokument, favoritt­program "
-"og skjermelement.<nl/><nl/>Kom i gang ved å starta <interface>system­"
-"oppsettet</interface> og søkja etter «aktivitetar». Der kan du leggja til "
-"nye aktivitetar. Du kan så byta mellom dei med snøggtasten "
+"opne appar og vindauge, oversikt over nyleg brukte dokument, "
+"favoritt­program og skjermelement.<nl/><nl/>Kom i gang ved å opna "
+"<interface>system­oppsettet</interface> og søkja etter «aktivitetar». Der "
+"kan du leggja til nye aktivitetar. Du kan så byta mellom dei med snøggtasten "
 "<shortcut>Meta + T</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
@@ -442,6 +442,15 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"Med KDE Connect kan du kopla telefonen din saman med datamaskina for å<nl/"
+"><list><item>sjå varslingar frå telefonen på maskina</item><item>svara på "
+"tekstmeldingar via maskina</item><item>synkronisera utklipps­tavlene mellom "
+"telefonen og maskina</item><item>spel av ein varslingslyd på telefonen frå "
+"maskina (når du har forlagt telefonen)</item><item>kopiera bilete, videoar "
+"og andre filer frå telefonen til maskina (eller andre vegen)</item><item>… "
+"og mykje meir!</item></list><nl/>Kom i gang ved å opna "
+"<interface>system­oppsettet</interface> og søkja etter «KDE Connect». Der "
+"kan du setja opp saman­koplinga mellom telefonen og datamaskina."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
@@ -474,6 +483,17 @@ msgid ""
 "<shortcut>Alt+F2</shortcut> keyboard shortcut and click on the question mark "
 "icon."
 msgstr ""
+"KRunner er det svært kraftige og fleksible søkje­systemet i Plasma. Det står "
+"bak søkje­funksjonen i programstart-menyen og Oversikt-biletet. Du kan "
+"starta eit frittståande søkjefelt via snøggtasten <shortcut>Alt + Mellomrom</"
+"shortcut>.<nl/><nl/>Med KRunner kan du finna filer og mapper, men òg for "
+"eksempel starta program, søkja på nettet, rekna pengebeløp om til ulike "
+"valutaar og gjera matematiske utrekningar. Prøv å skriva noko av følgjande i "
+"søkjefeltet:<nl/><list><item>«klokka Shanghai»</item><item>«27/3»</"
+"item><item>«200 EUR i NOK»</item><item>«25 miles i km»</item><item>… og "
+"mykje meir!</item></list><nl/>Du kan lesa meir om kva som er mogleg ved å "
+"opna KRunner-feltet med snøggtasten <shortcut>Alt + Mellomrom</shortcut> og "
+"så trykkja på ikonet som viser eit spørjeteikn."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -630,8 +650,9 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
+# Kommandolinjeargumentforklaring, og skal derfor ha avsluttande punktum.
 #: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr "Versjonen versjons­merknadar skal visast for (for eksempel 5.25)"
+msgstr "Versjonen som versjons­merknadar skal visast for (for eksempel 5.25)."
