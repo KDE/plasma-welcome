@@ -21,7 +21,7 @@ GenericPage {
             id: link
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@action:button", "Start Contributing!")
-            url: "https://community.kde.org/Get_Involved"
+            url: "https://community.kde.org/Get_Involved?source=plasma-welcome"
         }
     ]
 
