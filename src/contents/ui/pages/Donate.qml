@@ -20,7 +20,7 @@ GenericPage {
             id: link
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@action:button", "Make a donation")
-            url: "https://kde.org/community/donations/"
+            url: "https://kde.org/community/donations?source=plasma-welcome"
         }
     ]
 

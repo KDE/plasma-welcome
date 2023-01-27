@@ -20,7 +20,7 @@ GenericPage {
             id: link
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@action:button", "Learn more about the KDE community")
-            url: "https://community.kde.org/Welcome_to_KDE"
+            url: "https://community.kde.org/Welcome_to_KDE?source=plasma-welcome"
         }
     ]
 
