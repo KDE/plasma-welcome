@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-24 02:50+0000\n"
-"PO-Revision-Date: 2023-01-29 12:24+0300\n"
+"PO-Revision-Date: 2023-01-31 14:27+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -21,12 +21,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Александр Яворский"
+msgstr "Александр Яворский, Илья Бизяев"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kekcuha@gmail.com"
+msgstr "kekcuha@gmail.com, me@ilyabiz.com"
 
 #: src/contents/ui/main.qml:61
 #, kde-format
@@ -66,7 +66,7 @@ msgstr "&Далее"
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "Передача статистики использования приложений в KDE"
+msgstr "Передача статистики использования в KDE"
 
 #: src/contents/ui/main.qml:168
 #, kde-format
@@ -75,9 +75,9 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Приложение «Параметры системы» позволяет включить передачу обезличенных "
-"статистических сведений об используемых приложениях разработчикам KDE. "
-"Включить или отключить передачу этих сведений также возможно прямо сейчас."
+"Разработчики KDE опираются на обезличенные статистические сведения об "
+"использовании Plasma для улучшения программного обеспечения. Включить "
+"передачу этих данных можно здесь или позже в приложении «Параметры системы»."
 
 #: src/contents/ui/main.qml:182
 #, kde-format
@@ -92,15 +92,15 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Приложение «Параметры системы» позволяет подключить свои учётные записи "
-"различных служб, размещённых в интернете. Настроить эти параметры также "
-"возможно прямо сейчас."
+"Добавить на устройство учётные записи различных служб, доступных в "
+"интернете, для использования приложениями KDE можно сейчас или позже в "
+"приложении «Параметры системы»."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Присоединиться к команде"
+msgstr "Принять участие"
 
 #: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -115,22 +115,20 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
-"KDE не является крупной компанией. KDE — это сообщество добровольных "
-"участников со всего мира, таких же людей, как и вы, вносящих вклад "
-"энтузиазмом и собственным временем. Существует множество способов "
-"присоединиться и помочь: переводить, разрабатывать интерфейсы, принять "
-"участие в продвижении проекта, а также упорядочивать сообщения об ошибках и "
-"программировать.<nl/><nl/>Принимая участие в проекте KDE, вы сможете стать "
-"частью сообщества, встретить новых друзей, овладеть новыми навыками, а также "
-"изменить мир к лучшему для миллионов людей, участвуя в создании потрясающего "
-"бесплатного программного обеспечения наравне с остальными участниками со "
-"всего мира."
+"KDE — это не очередная крупная компания, а сообщество добровольцев со всего "
+"мира, таких же людей, как и вы, вкладывающих душу, время и труд в развитие "
+"свободного программного обеспечения. Есть много способов помочь: дополнение "
+"переводов, разработка интерфейсов, продвижение проекта, разбор сообщений об "
+"ошибках и, разумеется, программирование.<nl/><nl/>Принимая участие в "
+"проектах KDE, вы можете стать частью прекрасного коллектива, встретить новых "
+"друзей, овладеть новыми навыками, а также изменить мир к лучшему для "
+"миллионов людей, воплощая идеи свободного программного обеспечения в жизнь."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr "Принять участие"
+msgstr "Хочу помочь!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:53
@@ -153,9 +151,9 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Центр программ Discover</application> предназначен для поиска, "
-"в числе по категориям и установки приложений и игр. Описания приложений "
-"содержат снимки экрана и отзывы других пользователей."
+"<application>Центр программ Discover</application> предназначен для поиска и "
+"установки приложений и игр. Доступные программы организованы по категориям, "
+"а к описаниям прилагаются снимки экрана и отзывы других пользователей."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -191,11 +189,12 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"KDE использует ограниченный бюджет, в основном полагаясь на пожертвования "
-"рабочей силы и ресурсов. Вы можете помочь изменить это!<nl/><nl/>Финансовые "
-"пожертвования помогают KDE оплачивать спринты разработки, оборудование и "
-"серверные ресурсы, а также нанимать больше сотрудников. Пожертвования не "
-"облагаются налогом в Германии."
+"Деятельность KDE чудесным образом опирается на весьма скромный бюджет, в "
+"основном благодаря содействию рабочей силой и ресурсами. Вы можете помочь "
+"нам изменить это!<nl/><nl/>Денежные пожертвования помогают KDE оплачивать "
+"встречи разработчиков, оборудование и работу серверов, а также нанимать "
+"сотрудников на коммерческой основе. Пожертвования вычитаются из налогов в "
+"Германии."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -237,9 +236,9 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"Участники KDE последние четыре месяца усердно работали над этим выпуском "
-"Plasma. Мы надеемся, что использование этого выпуска доставит вам "
-"удовольствие!"
+"Участники KDE последние четыре месяца усердно работали над этим выпуском. Мы "
+"надеемся, что вы получите от использования новой версии Plasma столько же "
+"удовольствия, сколько нам принесла работа над ней!"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
@@ -251,13 +250,13 @@ msgstr "Узнать о новшествах в Plasma %1"
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr "Помочь подготовке следующего выпуска"
+msgstr "Помочь в подготовке следующего выпуска"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "Мощные возможности"
+msgstr "Мощная по необходимости"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -266,9 +265,8 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plasma — это чрезвычайно многофункциональная рабочее окружение, "
-"предназначенное повышать производительность работы. Вот лишь небольшая часть "
-"возможностей:"
+"Plasma — это чрезвычайно многофункциональная среда, призванная повысить вашу "
+"производительность. Вот лишь маленькая подборка возможностей:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -280,7 +278,7 @@ msgstr "Зашифрованные папки"
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr "Безопасное хранание "
+msgstr "Храните важные файлы в безопасности"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
@@ -294,7 +292,7 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr "Разделение рабочих, школьных и домашних приложений"
+msgstr "Разделите рабочие, образовательные и домашние задачи"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
@@ -306,7 +304,7 @@ msgstr "KDE Connect"
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr "Подключение телефона к компьютеру"
+msgstr "Свяжите телефон и компьютер"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
@@ -318,7 +316,7 @@ msgstr "KRunner"
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "Центр поиска"
+msgstr "Найдёт что угодно"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
@@ -330,7 +328,7 @@ msgstr "Эффект «Обзор»"
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "Центр управления системой"
+msgstr "Система как на ладони"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
@@ -342,7 +340,7 @@ msgstr "Загрузка доп. материалов"
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Дополнительные модули"
+msgstr "Просто добавьте расширения"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
@@ -368,14 +366,14 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Plasma поддерживает создание и работу <interface>зашифрованными папками.</"
-"interface> Внутри каждой зашифрованной папки возможно  безопасно хранить "
-"свои пароли, файлы, изображения и документы, защищёнными от посторонних "
-"глаз. Зашифрованные папки могут синхронизироваться с облачными службами "
-"хранения, обеспечивая дополнительную конфиденциальность. <nl/><nl/>Чтобы "
-"начать пользоваться этой функцией, нажмите стрелку, расположенную на панели "
-"<interface>системного лотка</interface> чтобы отобразить скрытые элементы, а "
-"затем нажмите на значок <interface>Зашифрованные папки</interface>."
+"Plasma поддерживает создание и работу с <interface>зашифрованными папками.</"
+"interface> В зашифрованных папках можно безопасно хранить пароли, файлы, "
+"изображения и документы защищёнными от посторонних глаз. Зашифрованные папки "
+"можно помещать в расположениях, синхронизируемых с облачными хранилищами, "
+"чтобы обеспечить их содержимому дополнительную конфиденциальность. <nl/><nl/"
+">Чтобы начать пользоваться этой функцией, нажмите на стрелку, расположенную "
+"сбоку от <interface>системного лотка</interface>, и среди появившихся "
+"элементов выберите <interface>Зашифрованные папки</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -386,7 +384,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr "Другие возможности"
+msgstr "Больше возможностей"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
@@ -407,16 +405,16 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
-"Комнаты предоставляют возможность разделять проекты или рабочие процессы, "
-"позволяя сосредотачиваться на одном из них. Вы можете создать комнаты «Дом», "
-"«Школа», «Работа» и так далее. Все файлы доступны из каждой из комнат, но "
+"Комнаты позволяют разделять проекты или рабочие процессы, чтобы вы могли "
+"сосредоточиться на одном из них. Например, вы можете создать комнаты «Дом», "
+"«Учёба», «Работа» и так далее. Все файлы доступны из каждой из комнат, но "
 "каждая комната содержит собственный набор открытых приложений и окон, "
-"последних документов,набор «избранных» приложений и виджетов рабочего стола. "
-"<nl/><nl/> Чтобы начать пользоваться этой функцией, запустите приложение "
+"последних документов, «избранных» приложений и виджетов рабочего стола. <nl/"
+"><nl/> Чтобы начать пользоваться этой функцией, запустите приложение "
 "<interface>Параметры системы</interface> и введите «Комнаты» в строку "
-"поиска. В этом разделе вы сможете создавать дополнительные комнаты, а затем "
-"переключаться между ними с помощью комбинации клавиш <shortcut>Meta+Tab</"
-"shortcut>."
+"поиска. На соответствующей странице вы сможете создавать дополнительные "
+"комнаты. Для переключения между ними используйте комбинацию клавиш "
+"<shortcut>Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -444,16 +442,16 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
-"KDE Connect позволяет совместно использовать телефон и компьютер различными "
-"способами:<nl/><list> <item>Просматривать уведомления телефона на компьютере;"
-"</item> <item>Отвечать на текстовые сообщения телефона на компьютере;</item> "
-"<item>Синхронизировать содержимое буфера обмена между компьютером и "
-"телефоном;</item> <item>Запускать воспроизведение звука на телефоне для его "
-"поиска;</item> <item>Копировать изображения, видео и другие файлы с телефона "
-"на компьютер и наоборот;</item> <item>Многое другое!</item></list><nl/> "
-"Чтобы начать, запустите <interface>Параметры системы</interface> и введите "
-"«KDE Connect» в строку поиска. На открывшейся странице будет возможно "
-"настроить подключение телефона."
+"KDE Connect позволяет связывать телефон и компьютер различными способами:<nl/"
+"><list><item>просматривайте уведомления с телефона на компьютере;</item> "
+"<item>отвечайте на сообщения с телефона на компьютере;</item> "
+"<item>синхронизируйте буфер обмена между компьютером и телефоном;</item> "
+"<item>запускайте воспроизведение звука на телефоне, если потеряли его;</"
+"item> <item>копируйте изображения, видео и другие файлы с телефона на "
+"компьютер и наоборот;</item><item>и многое другое!</item></list><nl/> Чтобы "
+"начать, запустите <interface>Параметры системы</interface> и введите «KDE "
+"Connect» в строку поиска. На открывшейся странице вы сможете выполнить "
+"сопряжение телефона."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
@@ -523,19 +521,19 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
-"Эффект «обзор» — это особый режим просмотра рабочего стола, при котором "
-"показаны все открытые окна, позволяющий переключаться в любое из них. Этот "
-"режим также позволяет переключаться между текущими виртуальными столами и "
-"удалять их, а также создавать новые. В режиме обзор присутствует строка "
-"поиска и запуска приложений, основанная на KRunner, которая позволяет "
-"фильтровать открытые окна.<nl/><nl/>Для вызова эффекта «Обзор» используйте "
-"комбинацию клавиш <shortcut>Meta+W</shortcut>."
+"«Обзор» — это особый полноэкранный режим просмотра, где все открытые окна "
+"предстают перед вашими глазами для быстрой навигации между ними. Там также "
+"можно переключаться между виртуальными рабочими столами, создавать и удалять "
+"их. Наконец, в режиме обзора присутствует строка поиска и запуска "
+"приложений, основанная на KRunner, которая заодно позволяет фильтровать "
+"открытые окна.<nl/><nl/>Для вызова эффекта «Обзор» используйте комбинацию "
+"клавиш <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr "Загрузка материалов из Интернета"
+msgstr "Загрузка материалов из интернета"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
@@ -548,12 +546,13 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
-"В различных модулях Plasma, параметрах системы и приложениях KDE встречаются "
-"кнопки, подписанные «Загрузить новое…», которые позволяют загружать "
-"различные материалы, созданные другими пользователями. Таким образом часто "
-"можно расширить возможности системы без необходимости просить об этом "
-"разработчиков KDE. <nl/><nl/>Обратите внимание, что содержимое, полученное "
-"таким образом, не проверялось на предмет работоспособности и стабильности."
+"В различных местах в Plasma, модулях приложения «Параметры системы» и "
+"приложениях KDE встречаются кнопки, подписанные «Загрузить новое…», которые "
+"позволяют скачивать разнообразные материалы, созданные другими "
+"пользователями. Таким образом часто можно расширить возможности программ без "
+"необходимости просить об этом разработчиков KDE.<nl/><nl/>Обратите внимание, "
+"что подобное содержимое не проверяется на предмет работоспособности и "
+"стабильности."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
@@ -565,7 +564,7 @@ msgstr "Просмотреть доп. материалы"
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "Просто по умолчанию"
+msgstr "Простая по умолчанию"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -577,10 +576,10 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
-"Рабочее окружение Plasma создано быть простым и удобным «из коробки». Всё "
-"находится именно там, где вы и ожидаете, и нет необходимости  настраивать "
-"что-либо перед началом работы.<nl/><nl/> Но если всё же потребуется что-то "
-"изменить, все возможные настройки доступны в приложении «Параметры системы»."
+"Plasma призвана быть простой и удобной «из коробки». Всё находится именно "
+"там, где вы и ожидаете, и нет необходимости  настраивать что-либо перед "
+"началом работы.<nl/><nl/>Но если вы всё же захотите что-то изменить, "
+"загляните в приложение <application>Параметры системы</application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -609,10 +608,11 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
-"KDE Plasma — бесплатное окружение рабочего стола с открытым исходным кодом, "
-"разрабатываемое KDE — сообществом добровольных участников со всего мира. "
-"Простое по умолчанию, но обладающее мощными возможностями для решения "
-"сложных задач. Добро пожаловать в KDE!"
+"KDE Plasma — это бесплатная среда рабочего стола с открытым исходным кодом, "
+"разрабатываемая KDE — сообществом добровольцев со всего мира. Plasma простая "
+"по умолчанию, чтобы не мешать вашей работе, но обладает мощными "
+"возможностями, доступными по необходимости для решения сложных задач. "
+"Надеемся, вам понравится!"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
@@ -624,7 +624,7 @@ msgstr "Узнать больше о сообществе KDE"
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "Konqi — маскот KDE, привествует вас!"
+msgstr "Konqi, персонаж-талисман KDE, приветствует вас!"
 
 #: src/main.cpp:44
 #, kde-format
@@ -666,7 +666,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr "Отображаемый в заметках о выпуске номер версии Plasma, например: 5.25"
+msgstr "Отображаемый в заметках к выпуску номер версии Plasma, например, 5.25"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""
