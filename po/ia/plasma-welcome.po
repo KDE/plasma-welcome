@@ -1,69 +1,69 @@
 # Copyright (C) YEAR This file is copyright:
-# This file is distributed under the same license as the welcome-app package.
+# This file is distributed under the same license as the plasma-welcome package.
 #
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# giovanni <g.sora@tiscali.it>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: welcome-app\n"
+"Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-25 00:59+0000\n"
-"PO-Revision-Date: 2023-02-01 21:20+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
-"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
-"Language: tr\n"
+"PO-Revision-Date: 2023-02-01 22:42+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 22.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Emir SARI"
+msgstr "Giovanni Sora"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "emir_sari@icloud.com"
+msgstr "g.sora@tiscali.it"
 
 #: src/contents/ui/main.qml:61
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
-msgstr "&Atla"
+msgstr "&Salta"
 
 #: src/contents/ui/main.qml:61
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
-msgstr "&Geri"
+msgstr "&Retro"
 
 #: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
 msgid_plural "Page %1 of %2"
-msgstr[0] "Sayfa %1/%2"
-msgstr[1] "Sayfa %1/%2"
+msgstr[0] "Pagina %1 de %2"
+msgstr[1] "Pagina %1 de %2"
 
 #: src/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
-msgstr "&Bitir"
+msgstr "&Termina"
 
 #: src/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr "&Sonraki"
+msgstr "Seque&nte"
 
 #: src/contents/ui/main.qml:167
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "KDE ile Anonim Kullanım Bilgisi Paylaş"
+msgstr ""
 
 #: src/contents/ui/main.qml:168
 #, kde-format
@@ -72,15 +72,12 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Geliştiricilerimiz, anonim sistem verisiyle KDE yazılımlarını "
-"iyileştirirler. Ne kadar veri paylaşacağınızı hem buradan hem de Sistem "
-"Ayarları'ndan belirtebilirsiniz."
 
 #: src/contents/ui/main.qml:182
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr "Çevrimiçi Hesaplarınızı Bağlayın"
+msgstr ""
 
 #: src/contents/ui/main.qml:183
 #, kde-format
@@ -89,14 +86,12 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Bu, onların içeriğine KDE uygulamalarında erişmenize izin verir. Ayarları "
-"hem burada hem de Sistem Ayarları'nda yapabilirsiniz."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Katıl"
+msgstr "Sea involvite"
 
 #: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -111,33 +106,25 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
-"KDE büyük bir şirket değil; uluslararası bir gönüllü topluluğudur ve "
-"yazılımları, sizin gibi zamanlarını ve tutkularını harcayan insanlar "
-"tarafından yapılmıştır. Siz de çeviri, görsel tasarım ve tanıtım ya da "
-"programlama ve hata ayıklama yoluyla işlerin daha iyi olmasına yardımcı "
-"olabilirsiniz.<nl/><nl/>KDE'ye katkıda bulunarak özel bir şeyin parçası "
-"olabilir, yeni arkadaşlar edinebilir, çarpıcı bir özgür yazılım bilgi işlem "
-"deneyimi sunmak için dünyanın dört bir yanından insanlarla çalışırken yeni "
-"beceriler öğrenebilir ve milyonlar için bir fark yaratabilirsiniz."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr "Katkıda Bulunmaya Başlayın!"
+msgstr ""
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr "Ziyaret Et: %1"
+msgstr "Visita %1"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "Yazılımları Yönet"
+msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:19
 #, kde-kuit-format
@@ -147,34 +134,30 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Keşfet</application> uygulaması; uygulamalar, oyunlar ve "
-"araçlar bulmanıza ve onlara kurmanıza yardımcı olur. Kategorilere göre arama "
-"yapabilir, ekran görüntülerine bakabilir ve en iyi uygulamayı bulmanıza "
-"yardımcı olmak için gözden geçirmeleri okuyabilirsiniz."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr "Keşfet'i Şimdi Başlat"
+msgstr ""
 
 #: src/contents/ui/pages/Discover.qml:57
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
-msgstr "Keşfet"
+msgstr "Discover (Discoperi)"
 
 #: src/contents/ui/pages/Discover.qml:121
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr "Discover'da Göster: %1"
+msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr "Özgürlüğünüzü Savunun"
+msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -186,24 +169,19 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"KDE, mucizevi bir biçimde, kısıtlı bir bütçe ile çalışmalarını sürdürür ve "
-"genelde emek ve özkaynak bağışlarıyla ayakta kalır. Bunu değiştirmeye "
-"yardımcı olabilirsiniz!<nl/><nl/>Finansal bağışlar; geliştirme hız "
-"koşularını, donanım ve sunucu özkaynaklarını ve uzun süreli maaş ödemelerini "
-"finanse etmeye yardımcı olur. Bağışlar, Almanya için vergiden muaftır."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "Bağış Yap"
+msgstr "Tu face un donation"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "İnternete Erişin"
+msgstr ""
 
 #: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
@@ -214,16 +192,12 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
-"<interface>Ağlar uygulamacığı</interface> ile internete erişebilir ve ağ "
-"bağlantılarınızı yönetebilirsiniz. Erişmek için, ekranınızın sağ alt "
-"köşesindeki <interface>Sistem Tepsisi</interface>'nden <interface>Ağlar</"
-"interface> simgesine tıklayın."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr "Plasma, %1 sürümüne güncellendi"
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
@@ -232,26 +206,24 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"KDE katkıcıları, son dört ayı bu yayımı hazırlamakla geçirdi. Bizim yaparken "
-"zevk aldığımız kadar umarız siz de kullanırken zevk alırsınız!"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr "Plasma %1 sürümünde nelerin yeni olduğunu öğrenin"
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr "Bir sonraki yayıma yardımcı olun"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "Gerektiğinde Güçlü"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -260,27 +232,24 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plasma, üretkenliğinizi güçlendirmek için tasarlanmış, son derece zengin "
-"özelliklere sahip bir ortamdır! İşte sizin için yapabileceklerinden yalnızca "
-"birkaçı:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Kasalar"
+msgstr "Cellarios (Vaults)"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr "Hassas dosyaları güvenle depolayın"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr "Etkinlikler"
+msgstr "Activitates"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -288,67 +257,67 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr "İş, okul veya ev ödevlerinizi ayırın"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr "KDE Bağlan"
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr "Bilgisayarınızı ve telefonunuzu birbirine bağlayın"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr "K Çalıştır"
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "Her şeyi arayın"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr "Genel Görünüm"
+msgstr "Vista de insimul"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "Sistem komuta merkeziniz"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
-msgstr "Yeni Çıkanları Alın"
+msgstr "Obtenite cosas nove e calide"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Sisteminizi, eklentilerle genişletin"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr "Plasma özellikleri hakkında daha fazla bilgi alın"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr "Plasma Kasalar"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -362,14 +331,6 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Plasma Kasalar, <interface>Kasalar</interface> adı verilen şifreli klasörler "
-"oluşturmanıza olanak tanır. Her kasanın içinde parolalarınızı, "
-"dosyalarınızı, resimlerinizi ve belgelerinizi meraklı gözlerden koruyarak "
-"güvenli bir şekilde saklayabilirsiniz. Kasalar, bulut depolama hizmetleriyle "
-"eşzamanlanan klasörlerin içinde de bulunabilir ve bu, içerik için ek "
-"gizlilik sağlar.<nl/><nl/>Başlamak için, <interface>Sistem Tepsisi</"
-"interface> üzerindeki oku tıklayarak gizli ögeleri seçin ve ardından "
-"<interface>Kasalar</interface> simgesine tıklayın."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -380,13 +341,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr "Daha Fazla Özellik Görün"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr "Etkinlikler"
+msgstr "Activitates"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -401,27 +362,18 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
-"Etkinlikler, her seferinde bir projeye odaklanabilmeniz için üst düzey "
-"projeleri veya iş akışlarını ayırmak için kullanılabilir. \"Ev\", \"Okul\", "
-"\"İş\" vb. için bir etkinliğiniz olabilir. Her etkinliğin tüm dosyalarınıza "
-"erişimi vardır; ancak kendi açık uygulamaları ve pencereleri, son belgeleri, "
-"\"Favori\" uygulamaları ve masaüstü araç takımları da bulunur.<nl/><nl/"
-">Başlamak için <interface>Sistem Ayarları</interface>'nı açın ve "
-"\"Etkinlikler\"i arayın. Bu sayfada istediğiniz kadar etkinlik "
-"oluşturabilirsiniz. Daha sonra <shortcut>Meta+Sekme</shortcut> klavye "
-"kısayolunu kullanarak bunlar arasında geçiş yapabilirsiniz."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr "Sistem Ayarları'nda Etkinlikler Sayfasını Aç"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr "KDE Bağlan"
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
 #, kde-kuit-format
@@ -437,28 +389,18 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
-"KDE Bağlan, telefonunuzu bilgisayarınızla birçok biçimde tümleştirmenize "
-"izin verir:<nl/><list><item>Telefonunuzdaki bildirimleri bilgisayarınızda "
-"görün</item><item>Metin iletilerine bilgisayarınızdan yanıt verin</"
-"item><item>Pano içeriğini, bilgisayarınız ve telefonunuz arasında "
-"eşzamanlayın</item><item>Telefonunuzu bulamıyorsanız bir ses çıkarmasını "
-"sağlayın</item><item>Telefondan bilgisayara ve bilgisayardan telefona "
-"resimler, videolar ve başka türdeki dosyaları kopyalayın</item><item>… ve "
-"çok daha fazlasını yapın!</item></list><nl/>Başlamak için, <interface>Sistem "
-"Ayarları</interface>'nı çalıştırın ve \"KDE Bağlan\" bölümüne tıklayın. Bu "
-"sayfadan telefonunuzu eşleyebilirsiniz."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr "Sistem Ayarları'nda KDE Bağlan Sayfasını Aç"
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr "K Çalıştır"
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
 #, kde-kuit-format
@@ -478,25 +420,12 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
-"K Çalıştır, Plasma'nın son derece güçlü ve çok yönlü arama sistemidir. "
-"Uygulama Başlatıcı menüsündeki ve Genel Görünüm ekranındaki arama işlevini "
-"çalıştırır ve <shortcut>Alt+Boşluk</shortcut> klavye kısayolu kullanılarak "
-"bağımsız bir arama çubuğu olarak erişilebilir.<nl/><nl/>Ayrıca K Çalıştır, "
-"dosyalarınızı ve klasörlerinizi bulmak için uygulamaları başlatabilir, "
-"Web'de arama yapabilir, para birimleri arasında dönüşüm yapabilir, matematik "
-"problemlerini hesaplayabilir ve çok daha fazlasını yapabilir. Bu arama "
-"alanlarından birine aşağıdakilerden herhangi birini yazmayı deneyin:<nl/"
-"><list><item>\"saat Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR "
-"kaç USD\"</item><item>\"25 mil kaç km\"</item><item>… ve aklınıza "
-"gelebilecek birçok şey daha!</item></list><nl/>Daha fazla öğrenmek için K "
-"Çalıştır arama çubuğunu <shortcut>Alt+Boşluk</shortcut> klavye kısayoluyla "
-"açın ve soru işaretine tıklayın."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr "Genel Görünüm"
+msgstr "Vista de insimul"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
@@ -509,19 +438,12 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
-"Genel Görünüm, tüm açık pencerelerinizi gösteren ve bunlardan herhangi "
-"birine kolayca erişmenizi sağlayan tam ekran bir kaplamadır. Ayrıca var olan "
-"Sanal Masaüstlerinizi göstererek daha fazlasını eklemenize, bazılarını "
-"kaldırmanıza ve bunlar arasında geçiş yapmanıza olanak tanır. Son olarak, "
-"açık pencereleri de süzebilen K Çalıştır destekli bir arama alanı sunar.<nl/"
-"><nl/>Genel Görünüm'e <shortcut>Meta+W</shortcut> klavye kısayolunu "
-"kullanarak erişebilirsiniz."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr "Yeni Çıkanları Alın"
+msgstr "Obtenite cosas nove e calide"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
@@ -534,25 +456,18 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
-"Plasma, Sistem Ayarları ve KDE uygulamalarında \"Yeni [şey] Al...\" işaretli "
-"düğmeler bulacaksınız. Bunlara tıkladığınızda, sistemi genişletmek için "
-"sizin gibi başkaları tarafından yapılmış 3. kişiler içeriği gösterilir! "
-"Böylece, KDE geliştiricilerinden kendilerinin uygulamalarını istemek zorunda "
-"kalmadan istediğiniz işlevselliği eklemek genellikle olanaklıdır.<nl/><nl/"
-">Bu şekilde elde edilen içeriğin işlevsellik veya kararlılık açısından "
-"dağıtımcınız tarafından incelenmediğini unutmayın."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr "Tüm Kullanılabilir 3. Kişi İçeriğini Gör"
+msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "Varsayılan Olarak Yalın"
+msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -564,29 +479,24 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
-"Plasma, yalın ve kutudan çıkar çıkmaz kullanılabilir olacak şekilde "
-"tasarlanmıştır. Her şey beklediğiniz yerdedir ve rahat ve üretken "
-"olabilmeniz için genellikle herhangi bir yapılandırma yapmanıza gerek yoktur."
-"<nl/><nl/>Gereksiniminiz olursa tüm ayarları <application>Sistem Ayarları</"
-"application> uygulamasında bulabilirsiniz."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr "Sistem Ayarları'nı Şimdi Çalıştır"
+msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:56
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
-msgstr "Sistem Ayarları"
+msgstr "Preferentias de systema"
 
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
-msgstr "KDE Plasma'ya Hoş Geldiniz"
+msgstr ""
 
 #: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
@@ -597,41 +507,36 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
-"Plasma, gönüllülerden oluşan uluslararası bir yazılım topluluğu olan KDE "
-"tarafından oluşturulmuş ücretsiz ve açık kaynaklı bir masaüstü ortamıdır. "
-"Plasma masaüstü ortamı, sorunsuz bir deneyim için öntanımlı olarak yalındır; "
-"ancak gerektiğinde gerçekten işlerinizi halletmenize yardımcı olmak için "
-"güçlüdür. Umarız onu seversiniz!"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr "KDE topluluğu hakkında daha fazla bilgi al"
+msgstr ""
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "KDE maskotu Konqi, sizi KDE topluluğuna buyur ediyor!"
+msgstr ""
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr "KDE Plasma için bir karşılama uygulaması"
+msgstr ""
 
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
-msgstr "KDE Plasma'ya hoş geldiniz"
+msgstr ""
 
 #: src/main.cpp:57
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
-msgstr "(c) 2022"
+msgstr "(c) 2021"
 
 #: src/main.cpp:58
 #, kde-format
@@ -643,7 +548,7 @@ msgstr "Felipe Kinoshita"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Yazar"
+msgstr "Autor"
 
 #: src/main.cpp:62
 #, kde-format
@@ -656,42 +561,3 @@ msgstr "Nate Graham"
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
-"Yayım notlarını görüntülemek için Plasma sürüm numarası; örneğin Plasma 5.25"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE Connect lets you integrate your phone with your computer in various "
-#~ "ways:"
-#~ msgstr ""
-#~ "KDE Connect, telefonunuzu bilgisayarınızla çeşitli biçimlerde "
-#~ "tümleştirmenizi sağlar:"
-
-#~ msgctxt "@info:window"
-#~ msgid "Personalize Your System"
-#~ msgstr "Sisteminizi Kişiselleştirin"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The <application>System Settings</application> app lets you adjust the "
-#~ "behaviors and appearance of the whole system. From theme options to "
-#~ "device management, you can find it all here."
-#~ msgstr ""
-#~ "<application>Sistem Ayarları</application> uygulaması, tüm sistemin "
-#~ "davranışını ve görünüşünü değiştirmenize izin verir. Tema seçeneklerinden "
-#~ "aygıt yönetimine kadar, tüm gerekli seçenekleri burada bulabilirsiniz."
-
-#~ msgctxt "@info"
-#~ msgid "Konqi, the KDE mascot"
-#~ msgstr "KDE maskotu Konqi"
-
-#~ msgctxt "@title:window"
-#~ msgid "Freedom Isn't Free"
-#~ msgstr "Özgürlük Bedava Değildir"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "In System Settings, you can choose to share anonymous usage information "
-#~ "with KDE. You can make that choice here, too."
-#~ msgstr ""
-#~ "Sistem Ayarları'nda, KDE ile anonim kullanım bilgisi paylaşmak isteyip "
-#~ "istemediğinizi seçebilirsiniz. Aynı ayarı, buradan yapmak da olanaklıdır."
