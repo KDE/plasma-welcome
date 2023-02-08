@@ -8,8 +8,12 @@
       xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
       http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
     <group name="General">
-        <entry name="ShouldShow" type="Bool">
-            <label>Whether to show the welcome app on next boot, because the user has not either skipped or completed the initial setup process.</label>
+        <entry name="LastSeenVersion" type="String">
+            <label>The last seen release Plasma version. If empty, the welcome experience is shown.</label>
+            <default></default>
+        </entry>
+        <entry name="ShowUpdatePage" type="Bool">
+            <label>Whether to show or skip the update screen.</label>
             <default>true</default>
         </entry>
     </group>

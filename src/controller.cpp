@@ -76,12 +76,12 @@ QStringList Controller::distroPages()
     return pages;
 }
 
-void Controller::setPlasmaUpgradeVersion(const QString &version)
+void Controller::setMode(Mode mode)
 {
-    if (m_newPlasmaVersion == version) {
+    if (m_mode == mode) {
         return;
     }
 
-    m_newPlasmaVersion = version;
-    Q_EMIT newPlasmaVersionChanged();
+    m_mode = mode;
+    Q_EMIT modeChanged();
 }

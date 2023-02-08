@@ -4,6 +4,7 @@
 
 set(HAVE_KUSERFEEDBACK ${KUserFeedback_FOUND})
 configure_file(kuserfeedbacksettings.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/kuserfeedbacksettings.h)
+configure_file(version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/version.h)
 
 add_executable(plasma-welcome main.cpp controller.cpp resources.qrc module.cpp)
 
@@ -34,3 +35,5 @@ ecm_add_qml_module(PlasmaWelcomeModule URI "org.kde.plasma.welcome" NO_PLUGIN VE
 ecm_target_qml_sources(PlasmaWelcomeModule SOURCES qml/GenericPage.qml)
 ecm_target_qml_sources(PlasmaWelcomeModule SOURCES qml/KCM.qml)
 ecm_finalize_qml_module(PlasmaWelcomeModule DESTINATION ${KDE_INSTALL_QMLDIR})
+
+add_subdirectory(kded)

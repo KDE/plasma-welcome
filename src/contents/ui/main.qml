@@ -16,13 +16,7 @@ import org.kde.plasma.welcome 1.0
 Kirigami.ApplicationWindow {
     id: root
 
-    readonly property bool showingPlasmaUpdate: Controller.newPlasmaVersion.length > 0
-
-    function quitAndMarkAsCompleted() {
-        Config.shouldShow = false;
-        Config.save();
-        Qt.quit();
-    }
+    readonly property bool showingPlasmaUpdate: Controller.mode !== Controller.Welcome
 
     minimumWidth: Kirigami.Units.gridUnit * 36
     minimumHeight: Kirigami.Units.gridUnit * 32
@@ -68,7 +62,7 @@ Kirigami.ApplicationWindow {
                             } else if (pageStack.currentIndex != 0) {
                                 pageStack.currentIndex -= 1
                             } else {
-                                root.quitAndMarkAsCompleted();
+                                Qt.quit();
                             }
                         }
                     }
@@ -93,7 +87,7 @@ Kirigami.ApplicationWindow {
                             if (pageStack.currentIndex < pageStack.depth - 1) {
                                 pageStack.currentIndex += 1
                             } else {
-                                root.quitAndMarkAsCompleted();
+                                Qt.quit();
                             }
                         }
                     }
@@ -113,46 +107,48 @@ Kirigami.ApplicationWindow {
     pageStack.defaultColumnWidth: width
 
     Component.onCompleted: {
-        if (root.showingPlasmaUpdate) {
-            pageStack.push(plasmaUpdate);
-        } else {
-            pageStack.push(welcome);
+        switch (Controller.mode) {
+            case Controller.Update:
+                pageStack.push(plasmaUpdate);
+                break;
 
-            if (!Controller.networkAlreadyConnected()) {
-                pageStack.push(network);
-            }
+            case Controller.Welcome:
+                pageStack.push(welcome);
 
-            pageStack.push(simpleByDefault);
-            pageStack.push(powerfulWhenNeeded);
-            pageStack.push(discover);
+                if (!Controller.networkAlreadyConnected()) {
+                    pageStack.push(network);
+                }
 
-            if (Controller.userFeedbackAvailable()) {
-                pageStack.push(kcm_feedback);
-            }
+                pageStack.push(simpleByDefault);
+                pageStack.push(powerfulWhenNeeded);
+                pageStack.push(discover);
 
-            pageStack.push(kcm_kaccounts);
+                if (Controller.userFeedbackAvailable()) {
+                    pageStack.push(kcm_feedback);
+                }
 
-            // Append any distro-specific pages that were found
-            let distroPages = Controller.distroPages()
-            if (distroPages.length > 0) {
-                for (let i in distroPages) {
-                    var distroPageComponent = Qt.createComponent(distroPages[i]);
-                    if (distroPageComponent.status !== Component.Error) {
-                        pageStack.push(distroPageComponent);
-                    } else {
-                        console.warn("Error loading Page", distroPages[i], distroPageComponent.status)
-                        Qt.exit(123)
+                pageStack.push(kcm_kaccounts);
+
+                // Append any distro-specific pages that were found
+                let distroPages = Controller.distroPages();
+                if (distroPages.length > 0) {
+                    for (let i in distroPages) {
+                        var distroPageComponent = Qt.createComponent(distroPages[i]);
+                        if (distroPageComponent.status !== Component.Error) {
+                            pageStack.push(distroPageComponent);
+                        } else {
+                            console.warn("Error loading Page", distroPages[i], distroPageComponent.status);
+                            Qt.exit(123);
+                        }
                     }
                 }
-            }
 
-            pageStack.push(contribute);
-            pageStack.push(donate);
-            pageStack.currentIndex = 0;
+                pageStack.push(contribute);
+                pageStack.push(donate);
+                pageStack.currentIndex = 0;
+                break;
         }
     }
-
-    PlasmaUpdate {id: plasmaUpdate; visible: false}
 
     Welcome {id: welcome; visible: false}
     Network {id: network; visible: false}
@@ -192,4 +188,6 @@ Kirigami.ApplicationWindow {
     }
     Contribute {id: contribute; visible: false}
     Donate {id: donate; visible: false}
+
+    PlasmaUpdate {id: plasmaUpdate; visible: false}
 }

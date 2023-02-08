@@ -76,14 +76,12 @@ int main(int argc, char *argv[])
     QCommandLineParser parser;
     parser.setApplicationDescription(description);
     aboutData.setupCommandLine(&parser);
-    parser.addOption(QCommandLineOption(QStringLiteral("after-upgrade-to"),
-                                        i18n("Version number of the Plasma release to display release notes for, e.g. 5.25"),
-                                        QStringLiteral("version number")));
+    parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
+
     parser.process(app);
     aboutData.processCommandLine(&parser);
-    if (parser.isSet(QStringLiteral("after-upgrade-to"))) {
-        const QString versionNumber = parser.value(QStringLiteral("after-upgrade-to"));
-        controller.setPlasmaUpgradeVersion(versionNumber);
+    if (parser.isSet(QStringLiteral("post-update"))) {
+        controller.setMode(Controller::Mode::Update);
     }
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));

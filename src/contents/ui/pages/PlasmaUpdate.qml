@@ -16,17 +16,17 @@ import org.kde.plasma.welcome 1.0
 GenericPage {
     id: root
 
-    readonly property string newPlasmaVersion: Controller.newPlasmaVersion
+    readonly property string simplePlasmaVersion: Controller.simplePlasmaVersion
     readonly property int iconSize: Kirigami.Units.iconSizes.enormous
 
-    heading: i18nc("@title:window", "Plasma has been updated to version %1", newPlasmaVersion)
+    heading: i18nc("@title:window", "Plasma has been updated to version %1", simplePlasmaVersion)
     description: xi18nc("@info:usagetip", "KDE contributors have spent the last four months hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!")
 
     topContent: [
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@action:button", "Find out what's new in Plasma %1", newPlasmaVersion)
-            url: "https://kde.org/announcements/plasma/5/" + root.newPlasmaVersion + ".0?source=plasma-welcome"
+            text: i18nc("@action:button", "Find out what's new in Plasma %1", simplePlasmaVersion)
+            url: "https://kde.org/announcements/plasma/5/" + simplePlasmaVersion + ".0?source=plasma-welcome"
         },
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
