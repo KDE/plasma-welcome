@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-24 02:50+0000\n"
-"PO-Revision-Date: 2023-01-12 10:32\n"
+"PO-Revision-Date: 2023-02-07 11:06\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14,55 +14,55 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf5-trunk/messages/plasma-welcome/plasma-welcome.pot\n"
-"X-Crowdin-File-ID: 40954\n"
+"X-Crowdin-File: /kf5-stable/messages/plasma-welcome/plasma-welcome.pot\n"
+"X-Crowdin-File-ID: 41647\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "tang142857, Tyson Tan"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "tang142857@kde.org, tysontan@tysontan.com"
 
 #: src/contents/ui/main.qml:61
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
-msgstr ""
+msgstr "跳过(&S)"
 
 #: src/contents/ui/main.qml:61
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
-msgstr ""
+msgstr "上一页(&B)"
 
 #: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
 msgid_plural "Page %1 of %2"
-msgstr[0] ""
+msgstr[0] "第 %1 页，共 %2 页"
 
 #: src/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
-msgstr ""
+msgstr "完成(&F)"
 
 #: src/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr ""
+msgstr "下一页(&N)"
 
 #: src/contents/ui/main.qml:167
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr ""
+msgstr "与 KDE 分享使用信息"
 
 #: src/contents/ui/main.qml:168
 #, kde-format
@@ -71,12 +71,14 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"我们的开发人员将使用这些匿名数据来改进 KDE 软件。您可以在系统设置中选择分享数"
+"据的多少，也可以在此选择。"
 
 #: src/contents/ui/main.qml:182
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr ""
+msgstr "连接您的在线账户"
 
 #: src/contents/ui/main.qml:183
 #, kde-format
@@ -85,12 +87,14 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
+"这将让您可以在 KDE 应用程序中访问在线账户的内容。您可以在系统设置中连接在线账"
+"户，也可以在此处连接。"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr ""
+msgstr "参与贡献"
 
 #: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -105,25 +109,31 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
+"KDE 不是什么大公司，而是一个国际性的志愿者社区。KDE 的软件是由像你这样的普通"
+"人制作的。KDE 的贡献者们大多是用爱发电的志愿者。这意味着您也可以帮助它变得更"
+"好！您可以在不同的领域贡献力量，例如翻译、视觉设计、宣传推广和编程、程序缺陷"
+"鉴别等。<nl/><nl/>通过为 KDE 作出贡献，您可以成为这个独特项目的一分子，认识新"
+"的朋友，学到新的技能。在这里，您将与来自全球各地的人们通力合作，为千万的用户"
+"提供高效易用的自由软件，为改变世界作出自己的贡献。"
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr ""
+msgstr "开始贡献！"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "访问 %1"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr ""
+msgstr "管理软件"
 
 #: src/contents/ui/pages/Discover.qml:19
 #, kde-kuit-format
@@ -133,30 +143,33 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"<application>Discover</application> 是 KDE 的软件管理中心，它能帮助您查找并安"
+"装所需的应用程序、游戏和工具。您可以通过关键词查找程序，也可以按分类浏览程"
+"序。您还可以查看屏幕截图，阅读用户评价，选出最适合自己的应用程序。"
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr ""
+msgstr "立即打开 Discover"
 
 #: src/contents/ui/pages/Discover.qml:57
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
-msgstr ""
+msgstr "Discover 软件管理中心"
 
 #: src/contents/ui/pages/Discover.qml:121
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr ""
+msgstr "在 Discover 中显示 %1"
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr ""
+msgstr "为您的自由捐款"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -168,19 +181,23 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
+"KDE 的运营经费非常有限，不得不在很大程度上依赖来自捐赠的资源和志愿者们的无偿"
+"劳动。您可以通过捐款帮助我们改善这种境况。<nl/><nl/>捐款可以帮助 KDE 支付用于"
+"开发冲刺活动、硬件购置、服务器租用以及扩大雇员规模的开销。捐款在德国可以减免"
+"税费。"
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr ""
+msgstr "提供捐款"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr ""
+msgstr "连接到互联网"
 
 #: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
@@ -191,12 +208,15 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
+"您可以使用<interface>网络小程序</interface>连接到互联网并管理网络连接。在要打"
+"开网络小程序，请在<interface>系统托盘</interface> 中点击<interface>网络</"
+"interface>图标。它默认位于屏幕的右下角。"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr ""
+msgstr "Plasma 已更新到版本 %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
@@ -205,24 +225,26 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"为了完成这一版本的 Plasma，KDE 的贡献者们已经努力工作了四个月。虽然劳累，但我"
+"们也很享受这一过程。希望新版的 Plasma 能为您带来愉悦的使用体验！"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr ""
+msgstr "了解 Plasma %1 的新功能"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr ""
+msgstr "加入下一版软件的开发工作"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr ""
+msgstr "按需定制功能强大"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -231,24 +253,26 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"Plasma 是一款功能强大的桌面环境，您可以活用它的各种功能来提高工作效率。以下只"
+"是它能为您做到的各种事情的一小部分："
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr ""
+msgstr "保险库"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr ""
+msgstr "安全地存储敏感文件"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr ""
+msgstr "活动"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -256,67 +280,67 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr ""
+msgstr "区分处理工作、学习和家庭任务"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr ""
+msgstr "连接您的手机和电脑"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr ""
+msgstr "搜索想要的内容"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "桌面概览"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "您的系统命令中心"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "获取扩展资源"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "使用附加组件扩展系统功能"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "了解更多 Plasma 功能"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Plasma 保险库"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -330,6 +354,11 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Plasma 保险库可以创建叫做<interface>保险库</interface>的加密文件夹。您可以在"
+"保险库中安全地存储密码、文件、图片、文档等，防止被其他人窃取。保险库可以直接"
+"作为文件保存在与云端存储服务同步的文件夹中，让加密内容的使用更加便利。<nl/"
+"><nl/>要使用保险库功能，请点击<interface>系统托盘</interface>上的下箭头，展开"
+"隐藏的图标，然后点击<interface>保险库</interface>图标。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -340,13 +369,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "查看更多功能"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr ""
+msgstr "活动"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -361,18 +390,24 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"活动可以用来区分管理各种任务，以便在一段时间内能集中精力做好一件事。例如您可"
+"以给“家庭”、“学习”、“工作”等分别设置一个活动。每个活动都能够访问您的所有文"
+"件，但每个活动有自己的一套打开的应用、窗口、最近文档、常用程序、桌面小程序"
+"等。<nl/><nl/>要使用活动功能，请打开<interface>系统设置</interface>并搜索“活"
+"动”。在“活动”页面中，您可以创建更多的活动。创建完所需的活动之后，您只需按下 "
+"<shortcut>Meta+Tab</shortcut> 键盘快捷键即可在各个活动之间切换。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "打开系统设置中的活动页面"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
 #, kde-kuit-format
@@ -388,18 +423,24 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"KDE Connect 能够通过多种方式让您的手机和电脑联动：<nl/><list><item>在电脑上查"
+"看来自手机的通知</item><item>在电脑上回复来自手机的短信</item><item>同步电脑"
+"和手机的剪贴板内容</item><item>手机失踪时让它发出声响</item><item>在电脑和手"
+"机之间复制粘贴图像、视频以及其他文件</item><item>…还有更多功能等待您的发现！"
+"</item></list><nl/>如果您是首次使用 KDE Connect，请打开<interface>系统设置</"
+"interface>对话框，搜索：“KDE Connect”并进入该页面，即可与手机进行配对。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "打开系统设置中的 KDE Connect 页面"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
 #, kde-kuit-format
@@ -419,12 +460,21 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner 是 Plasma 的搜索系统。它具有强大的功能，并提供了多样化的运用方式。"
+"KRunner 为 Plasma 的应用程序启动器和概览屏幕提供了搜索功能。它还提供了独立的"
+"搜索栏，按下 <shortcut>Alt + F2</shortcut> 快捷键即可访问。<nl/><nl/>KRunner "
+"不但可以帮助您查找文件和文件夹，还能为您启动应用程序、搜索互联网内容、转换货"
+"币单位、进行数学计算，甚至还能实现其他更多功能。您可以试着在上述的任意一个搜"
+"索框中输入以下信息：<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
+"item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…还"
+"有更多功能等待您的发现！</item></list><nl/>如需学习 KRunner 的更多用法，请按 "
+"<shortcut>Alt + F2</shortcut> 快捷键，然后点击“问号”图标。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "桌面概览"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
@@ -437,12 +487,17 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"桌面概览是一个全屏的叠加画面层，它显示了您打开的所有窗口，让您可以快速访问任"
+"意一个。它还显示了您当前的虚拟桌面，您可以用它在各个虚拟桌面之间切换，也可以"
+"新增和移除虚拟桌面。它还提供了一条搜索栏，可以使用 KRunner 搜索系统的功能来筛"
+"选显示已打开的窗口。<nl/><nl/>要打开桌面预览，请按下 <shortcut>Meta+W</"
+"shortcut> 键盘快捷键。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "获取扩展资源"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
@@ -455,18 +510,23 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"在 Plasma、系统设置和 KDE 应用中，你会看到一些叫做“获取新的 XX…”的按钮。点击"
+"这些按钮将显示用于扩展系统功能的第三方资源。这些内容是由和您一样的用户制作"
+"的。通过使用扩展资源，您可以为系统添加一些 KDE 中没有的功能，而无需请求 KDE "
+"的开发人员去实现它们。<nl/><nl/>请注意：通过此方式获取的内容并未经过您系统发"
+"行机构的审查，可能在功能和稳定性上存在缺陷。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "查看所有可用的第三方内容"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "默认状态简洁易用"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -478,24 +538,27 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"Plasma 致力于让桌面在默认情况下简洁易用。它的界面和选项都尽可能迎合大多数人的"
+"习惯，您无需进行额外配置即可舒适且高效地使用电脑。<nl/><nl/>如果您想要自定义"
+"系统的功能，也可以在<application>系统设置</application>应用中找到各种选项。"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr ""
+msgstr "立即打开系统设置"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:56
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
-msgstr ""
+msgstr "系统设置"
 
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
-msgstr ""
+msgstr "欢迎使用 KDE Plasma！"
 
 #: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
@@ -506,57 +569,60 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
+"Plasma 是 KDE 出品的一款自由开源桌面环境。KDE 是一个由志愿者组成的国际性软件"
+"社区。Plasma 的默认状态简洁易用，让您无需过多配置即可流畅使用；它支持深度的按"
+"需定制，而且功能强大，让您可以高效地完成工作任务。希望您能喜欢它！"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "了解更多关于 KDE 社区的信息"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "KDE 的吉祥物 Konqi (恐奇) 欢迎您加入 KDE 社区！"
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr ""
+msgstr "KDE Plasma 的欢迎应用"
 
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
-msgstr ""
+msgstr "欢迎使用 KDE Plasma"
 
 #: src/main.cpp:57
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
-msgstr ""
+msgstr "(c) 2021"
 
 #: src/main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:59 src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: src/main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
-msgstr ""
+msgstr "Nate Graham"
 
 #: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr ""
+msgstr "显示的发行说明对应的 Plasma 版本号，例如：5.25"
