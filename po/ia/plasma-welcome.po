@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-24 02:50+0000\n"
-"PO-Revision-Date: 2023-01-31 23:29+0100\n"
+"PO-Revision-Date: 2023-02-08 11:58+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.1\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -63,7 +63,7 @@ msgstr "Seque&nte"
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr ""
+msgstr "Comparti Information de Uso Anonyme con KDE"
 
 #: src/contents/ui/main.qml:168
 #, kde-format
@@ -72,12 +72,14 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"Nostre disveloppatores usara iste datos anonyme per ameliorar le software de "
+"KDE. Tu pote seliger quanto compartir inPreferentias de Systema, e anque ci."
 
 #: src/contents/ui/main.qml:182
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr ""
+msgstr "Connecte Tu Contos In Linea"
 
 #: src/contents/ui/main.qml:183
 #, kde-format
@@ -86,6 +88,8 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
+"Isto te permittera acceder a lor contentos in apps de KDE. Tu pote "
+"configurar lo in Preferentias de Systema, e anque ci."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -106,12 +110,20 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
+"KDE non es un grande enterprisa, illo es un communitate de voluntarios "
+"international, e su software es facite per gente como tu donantelor tempore "
+"e passion. Anque tu pote adjutar a facer cosas melior, si illo es per "
+"traductiones, designo visual, o promotion, o programmar e bug triaging "
+"(cerca de faltas).<nl/><nl/>Per contribuer a KDE, tu pote devenire parte de "
+"alique special, incontrar nove amicos, apprender nove habilitates, e facer "
+"un differentia per milliones durante que on labora con gente ab ubique le "
+"mondo pro disveloppar un stupende experientia de computar de software libere."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr ""
+msgstr "Initia Contribuer!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:53
@@ -124,7 +136,7 @@ msgstr "Visita %1"
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr ""
+msgstr "Gere Software"
 
 #: src/contents/ui/pages/Discover.qml:19
 #, kde-kuit-format
@@ -134,12 +146,16 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"Le app <application>Discover (Discoperi)</application> te adjuta a trovar e "
+"installar applicationes, jocos, e intrumentos. Tu pote cercar o navigar per "
+"categoria, observar capturas de schermo, e leger revisiones per adjutar te a "
+"trovar le app perfecte."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr ""
+msgstr "Lancea Discover nunc"
 
 #: src/contents/ui/pages/Discover.qml:57
 #, kde-format
@@ -151,13 +167,13 @@ msgstr "Discover (Discoperi)"
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr ""
+msgstr "Monstra %1 in Discover"
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr ""
+msgstr "Supporta tu Libertate"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -181,7 +197,7 @@ msgstr "Tu face un donation"
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr ""
+msgstr "Accede a Internet"
 
 #: src/contents/ui/pages/Network.qml:21
 #, kde-kuit-format
@@ -197,7 +213,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr ""
+msgstr "Plasma ha essite actualiste a version %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
@@ -211,19 +227,19 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr ""
+msgstr "Discoperi lo que es nove in PLasma %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr ""
+msgstr "Adjuta labor sur proxime liberation de version"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr ""
+msgstr "Potente quando necessitate"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -243,7 +259,7 @@ msgstr "Cellarios (Vaults)"
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr ""
+msgstr "Immagazina files sensibile securmente"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
@@ -257,7 +273,7 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr ""
+msgstr "Separa cargas de travalio, schola o casa"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
@@ -269,7 +285,7 @@ msgstr "KDE Connect"
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr ""
+msgstr "Connecte tu telephono e tu computator"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
@@ -281,7 +297,7 @@ msgstr "KRunner"
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr ""
+msgstr "Cerca alique"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
@@ -293,7 +309,7 @@ msgstr "Vista de insimul"
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "Centro de commando de tu systema"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
@@ -305,19 +321,19 @@ msgstr "Obtenite cosas nove e calide"
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "Extende le systema con add-ons (i.e. additiones)"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "Apprende re altere characteristicas de Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Cellarios de Plasma (Plasma Vaults)"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -341,7 +357,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "Vide plus characteristicas"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
@@ -367,7 +383,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "Aperi pagina de activitates in Preferentias de Systema"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -394,7 +410,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "Aperi pagina de KDE Connect in Preferentias de Systema"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
@@ -461,13 +477,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "Vide Omne Contento de 3tie parte disponibile"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "Simplice per Definition"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -484,7 +500,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr ""
+msgstr "Lance Preferentias de Systema nunc"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:56
 #, kde-format
@@ -496,7 +512,7 @@ msgstr "Preferentias de systema"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
-msgstr ""
+msgstr "Benvenite a KDE Plasma!"
 
 #: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
@@ -530,7 +546,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
-msgstr ""
+msgstr "Benvenite a KDE Plasma"
 
 #: src/main.cpp:57
 #, kde-format
@@ -542,7 +558,7 @@ msgstr "(c) 2021"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:59 src/main.cpp:63
 #, kde-format
