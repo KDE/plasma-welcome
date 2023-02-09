@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-25 00:59+0000\n"
+"POT-Creation-Date: 2023-02-09 01:03+0000\n"
 "PO-Revision-Date: 2022-09-28 19:00+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -27,19 +27,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Ohita"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Takaisin"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:73
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -47,25 +47,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "Sivu %1 / %2"
 msgstr[1] "Sivu %1 / %2"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Viimeistele"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Seuraava"
 
-#: src/contents/ui/main.qml:167
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr ""
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:164
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -73,13 +73,13 @@ msgid ""
 "choose how much to share in System Settings, and here too."
 msgstr ""
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/main.qml:178
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr ""
 
-#: src/contents/ui/main.qml:183
+#: src/contents/ui/main.qml:179
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -583,12 +583,16 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:80
+#: src/main.cpp:79
 #, kde-format
-msgid ""
-"Version number of the Plasma release to display release notes for, e.g. 5.25"
+msgid "Display release notes for the current Plasma release."
 msgstr ""
-"Plasma-julkaisun versionumero julkaisutietojen näyttämiseksi, esim. 5.25"
+
+#~ msgid ""
+#~ "Version number of the Plasma release to display release notes for, e.g. "
+#~ "5.25"
+#~ msgstr ""
+#~ "Plasma-julkaisun versionumero julkaisutietojen näyttämiseksi, esim. 5.25"
 
 #, fuzzy
 #~| msgctxt "@info:usagetip"

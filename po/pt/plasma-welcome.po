@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-25 00:59+0000\n"
+"POT-Creation-Date: 2023-02-09 01:03+0000\n"
 "PO-Revision-Date: 2023-01-22 22:34+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -24,19 +24,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zepires@gmail.com"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Ignorar"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "Volta&r"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:73
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -44,25 +44,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "Página %1 de %2"
 msgstr[1] "Página %1 de %2"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Terminar"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "Segui&nte"
 
-#: src/contents/ui/main.qml:167
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Partilha de Informações Anónimas de Utilização com o KDE"
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:164
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -73,13 +73,13 @@ msgstr ""
 "aplicações do KDE. Poderá escolher quanto deseja partilhar na Configuração "
 "do Sistema ou então aqui."
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/main.qml:178
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Ligar-se às Suas Contas 'Online'"
 
-#: src/contents/ui/main.qml:183
+#: src/contents/ui/main.qml:179
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -649,13 +649,17 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:80
+#: src/main.cpp:79
 #, kde-format
-msgid ""
-"Version number of the Plasma release to display release notes for, e.g. 5.25"
+msgid "Display release notes for the current Plasma release."
 msgstr ""
-"Número da versão do Plasma para a qual apresentar as notas de lançamento, p."
-"ex. 5.25"
+
+#~ msgid ""
+#~ "Version number of the Plasma release to display release notes for, e.g. "
+#~ "5.25"
+#~ msgstr ""
+#~ "Número da versão do Plasma para a qual apresentar as notas de lançamento, "
+#~ "p.ex. 5.25"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

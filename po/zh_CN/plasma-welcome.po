@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-25 00:59+0000\n"
+"POT-Creation-Date: 2023-02-09 01:03+0000\n"
 "PO-Revision-Date: 2023-02-07 11:03\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -27,44 +27,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "tang142857@kde.org, tysontan@tysontan.com"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "跳过(&S)"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "上一页(&B)"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:73
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
 msgid_plural "Page %1 of %2"
 msgstr[0] "第 %1 页，共 %2 页"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "完成(&F)"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "下一页(&N)"
 
-#: src/contents/ui/main.qml:167
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "与 KDE 分享使用信息"
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:164
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -74,13 +74,13 @@ msgstr ""
 "我们的开发人员将使用这些匿名数据来改进 KDE 软件。您可以在系统设置中选择分享数"
 "据的多少，也可以在此选择。"
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/main.qml:178
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "连接您的在线账户"
 
-#: src/contents/ui/main.qml:183
+#: src/contents/ui/main.qml:179
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -621,8 +621,12 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:80
+#: src/main.cpp:79
 #, kde-format
-msgid ""
-"Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr "显示的发行说明对应的 Plasma 版本号，例如：5.25"
+msgid "Display release notes for the current Plasma release."
+msgstr ""
+
+#~ msgid ""
+#~ "Version number of the Plasma release to display release notes for, e.g. "
+#~ "5.25"
+#~ msgstr "显示的发行说明对应的 Plasma 版本号，例如：5.25"

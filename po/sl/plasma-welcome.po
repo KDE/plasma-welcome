@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-25 00:59+0000\n"
+"POT-Creation-Date: 2023-02-09 01:03+0000\n"
 "PO-Revision-Date: 2023-01-26 10:48+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -31,19 +31,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "miles@filmsi.net"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Pre&skoči"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "Na&zaj"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:73
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -53,25 +53,25 @@ msgstr[1] "Stran %1 od %2"
 msgstr[2] "Stran %1 od %2"
 msgstr[3] "Stran %1 od %2"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Dokončaj"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Naprej"
 
-#: src/contents/ui/main.qml:167
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Deli anonimne podatke o uporabi s KDE"
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:164
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -82,13 +82,13 @@ msgstr ""
 "opreme KDE. Izberite, koliko podatkov lahko delite v sistemskih nastavitvah "
 "in tudi tukaj."
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/main.qml:178
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Poveže vaše spletne račune"
 
-#: src/contents/ui/main.qml:183
+#: src/contents/ui/main.qml:179
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -655,11 +655,16 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:80
+#: src/main.cpp:79
 #, kde-format
-msgid ""
-"Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr "Številka različice izdaje Plasma za prikaz opomb ob izdaji, npr. 5.25"
+msgid "Display release notes for the current Plasma release."
+msgstr ""
+
+#~ msgid ""
+#~ "Version number of the Plasma release to display release notes for, e.g. "
+#~ "5.25"
+#~ msgstr ""
+#~ "Številka različice izdaje Plasma za prikaz opomb ob izdaji, npr. 5.25"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""
