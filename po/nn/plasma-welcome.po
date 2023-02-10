@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-25 00:59+0000\n"
-"PO-Revision-Date: 2023-01-25 21:41+0100\n"
+"POT-Creation-Date: 2023-02-09 01:03+0000\n"
+"PO-Revision-Date: 2023-02-09 21:34+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.1\n"
+"X-Generator: Lokalize 22.12.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -29,19 +29,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "karl@huftis.org"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Hopp over"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Tilbake"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:73
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -49,25 +49,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "Side %1 av %2"
 msgstr[1] "Side %1 av %2"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Fullfør"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Neste"
 
-#: src/contents/ui/main.qml:167
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Del anonym bruksinformasjon med KDE"
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:164
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -78,13 +78,13 @@ msgstr ""
 "programma. Du kan sjølv velja kor mykje du vil dela, anten direkte her eller "
 "i system­oppsettet seinare."
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/main.qml:178
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Kopla til nettkontoar"
 
-#: src/contents/ui/main.qml:183
+#: src/contents/ui/main.qml:179
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -410,11 +410,11 @@ msgstr ""
 "arbeidsflytar, slik at du kan fokusera på éin ting om gongen. Du kan for "
 "eksempel ha eigne aktivitetar for «fritid», «skule» og «arbeid». Alle "
 "aktivitetane har tilgang til alle filene dine, men har sitt eige sett med "
-"opne appar og vindauge, oversikt over nyleg brukte dokument, "
-"favoritt­program og skjermelement.<nl/><nl/>Kom i gang ved å opna "
-"<interface>system­oppsettet</interface> og søkja etter «aktivitetar». Der "
-"kan du leggja til nye aktivitetar. Du kan så byta mellom dei med snøggtasten "
-"<shortcut>Meta + T</shortcut>."
+"opne appar og vindauge, oversikt over nyleg brukte dokument, favoritt­program "
+"og skjermelement.<nl/><nl/>Kom i gang ved å opna <interface>system­oppsettet</"
+"interface> og søkja etter «aktivitetar». Der kan du leggja til nye "
+"aktivitetar. Du kan så byta mellom dei med snøggtasten <shortcut>Meta + T</"
+"shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -448,9 +448,9 @@ msgstr ""
 "telefonen og maskina</item><item>spel av ein varslingslyd på telefonen frå "
 "maskina (når du har forlagt telefonen)</item><item>kopiera bilete, videoar "
 "og andre filer frå telefonen til maskina (eller andre vegen)</item><item>… "
-"og mykje meir!</item></list><nl/>Kom i gang ved å opna "
-"<interface>system­oppsettet</interface> og søkja etter «KDE Connect». Der "
-"kan du setja opp saman­koplinga mellom telefonen og datamaskina."
+"og mykje meir!</item></list><nl/>Kom i gang ved å opna <interface>system­"
+"oppsettet</interface> og søkja etter «KDE Connect». Der kan du setja opp "
+"saman­koplinga mellom telefonen og datamaskina."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
@@ -484,8 +484,8 @@ msgid ""
 "mark icon."
 msgstr ""
 "KRunner er det svært kraftige og fleksible søkje­systemet i Plasma. Det står "
-"bak søkje­funksjonen i programstart-menyen og Oversikt-biletet. Du kan "
-"starta eit frittståande søkjefelt via snøggtasten <shortcut>Alt + Mellomrom</"
+"bak søkje­funksjonen i programstart-menyen og Oversikt-biletet. Du kan starta "
+"eit frittståande søkjefelt via snøggtasten <shortcut>Alt + Mellomrom</"
 "shortcut>.<nl/><nl/>Med KRunner kan du finna filer og mapper, men òg for "
 "eksempel starta program, søkja på nettet, rekna pengebeløp om til ulike "
 "valutaar og gjera matematiske utrekningar. Prøv å skriva noko av følgjande i "
@@ -650,9 +650,7 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-# Kommandolinjeargumentforklaring, og skal derfor ha avsluttande punktum.
-#: src/main.cpp:80
+#: src/main.cpp:79
 #, kde-format
-msgid ""
-"Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr "Versjonen som versjons­merknadar skal visast for (for eksempel 5.25)."
+msgid "Display release notes for the current Plasma release."
+msgstr "Vis utgjevingsnotat for gjeldande Plasma-utgjeving."
