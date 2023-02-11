@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-09 01:03+0000\n"
-"PO-Revision-Date: 2023-01-29 10:31\n"
+"PO-Revision-Date: 2023-02-09 11:40\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -419,7 +419,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "Адкрыць старонку пакояў у сістэмных наладах"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -441,12 +441,21 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"KDE Connect дае магчымасць інтэграваць тэлефон з камп'ютарам рознымі "
+"спосабамі:<nl/><list><item>Праглядаць апавяшчэнні з тэлефона на камп'ютары</"
+"item><item>Адказваць на тэкставыя паведамленні з тэлефона на камп'ютары</"
+"item><item>Сінхранізаваць змесціва буфера абмену паміж камп'ютарам і "
+"тэлефонам</item><item>Прайграваць гукавы сігнал у тэлефоне, калі ён "
+"згубіцца</item><item>Капіяваць малюнкі, відэа і іншыя файлы з вашага тэлефон "
+"на камп'ютар і наадварот</item><item>…І многае іншае!</item></list><nl/>Каб "
+"пачаць, запусціце <interface>Налады сістэмы</interface> і знайдзіце \"KDE "
+"Connect\". На гэтай старонцы вы можаце спалучыць свой тэлефон."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "Адкрыць старонку KDE Connect у сістэмных наладах"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
@@ -455,19 +464,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:"
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: if needed, change 'Shanghai' to a city that on "
 "the other side of the world from likely speakers of the language"
@@ -487,10 +484,14 @@ msgstr ""
 "KRunner - гэта магутная і ўніверсальная сістэма пошуку Plasma. З дапамогай "
 "KRunner выконваецца пошук у меню запуску праграм і на экране агляду. "
 "Праграму можна адкрыць як асобную панэль пошуку з дапамогай спалучэння "
-"клавіш <shortcut>Alt+F2</shortcut>.<nl/><nl/>Апроч пошуку вашых файлаў і "
+"клавіш <shortcut>Alt+Прагал</shortcut>.<nl/><nl/>Апроч пошуку вашых файлаў і "
 "каталогаў KRunner можа запускаць праграмы, шукаць у інтэрнэце, выконваць "
 "канверсію валют, рашаць матэматычныя задачы і многае іншае. Паспрабуйце "
-"ўвесці што-небудзь з наступнага ў адно з гэтых палёў пошуку:"
+"ўвесці што-небудзь з наступнага ў адно з гэтых палёў пошуку:<nl/><list><item>"
+"\"час у Мінску\"</item><item>\"27/3\"</item><item>\"200 EUR у USD\"</"
+"item><item>\"25 міляў у км\"</item><item>…і шмат іншага!</item></list><nl/"
+">Каб даведацца больш падрабязна, адкрыйце панэль пошуку KRunner з дарамогай "
+"<shortcut>Alt+Прагал</shortcut> і пстрыкніце па значку пытальніка."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -546,7 +547,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "Паглядзець усё даступнае старонняе змесціва"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
