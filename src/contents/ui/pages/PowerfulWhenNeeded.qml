@@ -33,7 +33,7 @@ GenericPage {
         GridLayout {
             id: grid
 
-            readonly property int cellWidth: Math.round(layout.width / columns) - (columnSpacing * (columns - 1))
+            readonly property int cellWidth: Math.round((layout.width - columnSpacing * (columns - 1)) / columns)
             readonly property int cellHeight: Math.max(vaults.implicitHeight,
                                                        activities.implicitHeight,
                                                        kdeconnect.implicitHeight,
