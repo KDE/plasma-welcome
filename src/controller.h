@@ -29,11 +29,18 @@ public:
     Q_PROPERTY(QString plasmaVersion MEMBER m_plasmaVersion CONSTANT)
     Q_PROPERTY(QString simplePlasmaVersion MEMBER m_simplePlasmaVersion CONSTANT)
     Q_PROPERTY(QStringList plasmaVersionSplit MEMBER m_plasmaVersionSplit CONSTANT)
+    Q_PROPERTY(QString overviewShortcut READ overviewShortcut CONSTANT)
+    Q_PROPERTY(QString activitiesShortcut READ activitiesShortcut CONSTANT)
+    Q_PROPERTY(QString krunnerShortcut READ krunnerShortcut CONSTANT)
 
     enum Mode { Welcome, Update };
     Q_ENUM(Mode)
 
     void setMode(Mode mode);
+
+    QString overviewShortcut() const;
+    QString activitiesShortcut() const;
+    QString krunnerShortcut() const;
 
 Q_SIGNALS:
     void modeChanged();

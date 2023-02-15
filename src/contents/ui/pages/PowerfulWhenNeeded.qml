@@ -140,7 +140,7 @@ GenericPage {
             globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
 
             heading: i18nc("@info:window", "Activities")
-            description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut.")
+            description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>%1</shortcut> keyboard shortcut.", Controller.activitiesShortcut)
 
             RowLayout {
                 anchors.bottom: parent.bottom
@@ -214,7 +214,7 @@ GenericPage {
 
             // Don't change the weird indentation; it's intentional to make this
             // long string nicer for translators
-            description: xi18nc("@info:usagetip translators: if needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:\
+            description: xi18nc("@info:usagetip translators: if needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>%1</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:\
 <nl/>\
 <list><item>\"time Shanghai\"</item>\
 <item>\"27/3\"</item>\
@@ -222,7 +222,7 @@ GenericPage {
 <item>\"25 miles in km\"</item>\
 <item>…And much more!</item></list>\
 <nl/>\
-To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click on the question mark icon.")
+To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> keyboard shortcut and click on the question mark icon.", Controller.krunnerShortcut)
 
             QQC2.Button {
                 anchors.bottom: parent.bottom
@@ -243,7 +243,7 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
             globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
 
             heading: i18nc("@info:window The name of a KWin effect", "Overview")
-            description: xi18nc("@info:usagetip", "Overview is a full-screen overlay that shows all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows.<nl/><nl/>You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut.")
+            description: xi18nc("@info:usagetip", "Overview is a full-screen overlay that shows all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows.<nl/><nl/>You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut.", Controller.overviewShortcut)
 
             QQC2.Button {
                 anchors.bottom: parent.bottom

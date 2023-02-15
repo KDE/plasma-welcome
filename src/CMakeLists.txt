@@ -27,6 +27,7 @@ target_link_libraries(plasma-welcome
     KF5::QuickAddons
     KF5::Service
     KF5::WindowSystem
+    KF5::GlobalAccel
 )
 kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
 install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

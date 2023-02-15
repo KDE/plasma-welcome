@@ -15,6 +15,7 @@
 #include "controller.h"
 #include "kuserfeedbacksettings.h"
 
+#include <KGlobalAccel>
 #include <KIO/ApplicationLauncherJob>
 #include <KIO/CommandLauncherJob>
 #include <KNotificationJobUiDelegate>
@@ -84,4 +85,37 @@ void Controller::setMode(Mode mode)
 
     m_mode = mode;
     Q_EMIT modeChanged();
+}
+
+QString Controller::overviewShortcut() const
+{
+    const auto shortcuts = KGlobalAccel::self()->globalShortcut(QStringLiteral("kwin"), QStringLiteral("Overview"));
+
+    if (!shortcuts.isEmpty()) {
+        return shortcuts.first().toString(QKeySequence::NativeText);
+    }
+
+    return QString();
+}
+
+QString Controller::activitiesShortcut() const
+{
+    const auto shortcuts = KGlobalAccel::self()->globalShortcut(QStringLiteral("plasmashell"), QStringLiteral("manage activities"));
+
+    if (!shortcuts.isEmpty()) {
+        return shortcuts.first().toString(QKeySequence::NativeText);
+    }
+
+    return QString();
+}
+
+QString Controller::krunnerShortcut() const
+{
+    const auto shortcuts = KGlobalAccel::self()->globalShortcut(QStringLiteral("org.kde.krunner.desktop"), QStringLiteral("_launch"));
+
+    if (!shortcuts.isEmpty()) {
+        return shortcuts.first().toString(QKeySequence::NativeText);
+    }
+
+    return QString();
 }
