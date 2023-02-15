@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2022.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-24 02:50+0000\n"
-"PO-Revision-Date: 2022-12-20 11:13-0300\n"
+"PO-Revision-Date: 2023-02-14 10:11-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -186,14 +186,7 @@ msgid "Support Your Freedom"
 msgstr "Suporte sua liberdade"
 
 #: src/contents/ui/pages/Donate.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE operates on a shoestring budget, relying largely on donations of "
-#| "labor and resources. You can help change that!<nl/><nl/>Financial "
-#| "donations help KDE pay for development sprints, hardware and server "
-#| "resources, and expanded employment. Donations are tax-deductible in "
-#| "Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Miraculously, KDE operates on a shoestring budget, relying largely on "
@@ -202,11 +195,11 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"O KDE opera com um orçamento limitado, confiando largamente em doações de "
-"trabalho e recursos. Você pode ajudar a mudar isso!<nl/><nl/> Doações "
-"financeiras ajudam o KDE a pagar por sprints de desenvolvimento, hardware e "
-"recursos de servidores, além de emprego expandido. As doações são dedutíveis "
-"na Alemanha."
+"Milagrosamente, o KDE opera com um orçamento limitado, confiando largamente "
+"em doações de trabalho e recursos. Você pode ajudar a mudar isso!<nl/><nl/"
+">Doações financeiras ajudam o KDE a pagar por sprints de desenvolvimento, "
+"hardware e recursos de servidores, além de emprego expandido. As doações são "
+"dedutíveis na Alemanha."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -350,13 +343,13 @@ msgstr "Baixar novidades"
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "Ampliar o sistema com complementos"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "Saiba mais sobre os recursos do Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
@@ -386,7 +379,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "Veja mais recursos"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
@@ -512,7 +505,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "Simples por padrão"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
