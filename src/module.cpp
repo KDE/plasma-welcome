@@ -42,7 +42,16 @@ void Module::setPath(const QString &path)
         m_path = kcmMetaData.fileName();
         Q_EMIT pathChanged();
 
-        m_kcm = KPluginFactory::instantiatePlugin<KQuickAddons::ConfigModule>(kcmMetaData, this).plugin;
+        auto kcm = KPluginFactory::instantiatePlugin<KQuickAddons::ConfigModule>(kcmMetaData, nullptr).plugin;
+
+        if (QQmlContext *ctx = QQmlEngine::contextForObject(this)) {
+            auto context = new QQmlContext(ctx->engine(), this);
+
+            QQmlEngine::setContextForObject(kcm, context);
+        }
+
+        m_kcm = kcm;
+
         Q_EMIT kcmChanged();
     } else {
         qWarning() << "Unknown module" << path << "requested";

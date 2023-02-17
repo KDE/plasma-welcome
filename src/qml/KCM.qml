@@ -10,41 +10,40 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
 
+import org.kde.welcome 1.0
+
 GenericPage
 {
     id: container
     property bool showSeparator: false
 
-    required property QtObject kcm
-    required property Item internalPage
+    required property string path
 
     topPadding: 0
     leftPadding: 0
     rightPadding: 0
     bottomPadding: 0
 
-    flickable: internalPage.flickable
-    actions.main: internalPage.actions.main
-    actions.contextualActions: internalPage.contextualActions
+    flickable: module.kcm.mainUi.flickable
+    actions.main: module.kcm.mainUi.actions.main
+    actions.contextualActions: module.kcm.mainUi.contextualActions
 
-    onInternalPageChanged: {
-        internalPage.parent = contentItem;
-        internalPage.anchors.fill = contentItem;
-        internalPage.extraFooterTopPadding = false;
-    }
     onActiveFocusChanged: {
         if (activeFocus) {
-            internalPage.forceActiveFocus();
+            module.kcm.mainUi.forceActiveFocus();
         }
     }
 
     Component.onCompleted: {
-        kcm.load()
+        module.kcm.load()
+        module.kcm.mainUi.parent = contentItem;
+        module.kcm.mainUi.anchors.fill = contentItem;
+        module.kcm.mainUi.extraFooterTopPadding = false;
     }
 
     data: [
         Connections {
-            target: kcm
+            target: module.kcm
             function onPagePushed(page) {
                 pageStack.layers.push(page);
                 page.extraFooterTopPadding = false;
@@ -53,16 +52,16 @@ GenericPage
                 pageStack.layers.pop(); //PROBABLY THIS SHOULDN't BE SUPPORTED
             }
             function onNeedsSaveChanged () {
-                if (kcm.needsSave) {
-                    kcm.save()
+                if (module.kcm.needsSave) {
+                    module.kcm.save()
                 }
             }
         },
         Connections {
             target: pageStack
             function onPageRemoved(page) {
-                if (kcm.needsSave) {
-                    kcm.save()
+                if (module.kcm.needsSave) {
+                    module.kcm.save()
                 }
                 if (page == container) {
                     page.destroy();
@@ -70,7 +69,7 @@ GenericPage
             }
         },
         Connections {
-            target: kcm
+            target: module.kcm
             function onCurrentIndexChanged(index) {return;
                 const index_with_offset = index + 1;
                 if (index_with_offset !== pageStack.currentIndex) {
@@ -79,9 +78,15 @@ GenericPage
             }
         }
     ]
+
     Kirigami.Separator {
         visible: container.showSeparator
         width: parent.width
         anchors.bottom: parent.top
+    }
+
+    Module {
+        id: module
+        path: container.path
     }
 }

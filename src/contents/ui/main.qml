@@ -158,12 +158,7 @@ Kirigami.ApplicationWindow {
         heading: i18nc("@title: window", "Share Anonymous Usage Information With KDE")
         description: i18nc("@info:usagetip", "Our developers will use this anonymous data to improve KDE software. You can choose how much to share in System Settings, and here too.")
 
-        Module {
-            id: moduleFeedback
-            path: "kcm_feedback"
-        }
-        kcm: moduleFeedback.kcm
-        internalPage: moduleFeedback.kcm.mainUi
+        path: "kcm_feedback"
     }
     KCM {
         id: kcm_kaccounts
@@ -173,12 +168,7 @@ Kirigami.ApplicationWindow {
         description: i18nc("@info:usagetip", "This will let you access their content in KDE apps. You can set it up in System Settings, and here too.")
         showSeparator: true
 
-        Module {
-            id: moduleAccounts
-            path: "kcm_kaccounts"
-        }
-        kcm: moduleAccounts.kcm
-        internalPage: moduleAccounts.kcm.mainUi
+        path: "kcm_kaccounts"
     }
     Contribute {id: contribute; visible: false}
     Donate {id: donate; visible: false}
