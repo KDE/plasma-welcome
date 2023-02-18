@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-09 01:03+0000\n"
-"PO-Revision-Date: 2023-02-15 19:36+0100\n"
+"PO-Revision-Date: 2023-02-16 11:34+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -89,8 +89,8 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Toto vám umožní přistupovat k jejich obsahu v aplikacích KDE. Můžete je "
-"nastavit v Nastavení Systému nebo i zde."
+"Tímto umožníte přístup k jejich obsahu v aplikacích KDE. Můžete je nastavit "
+"v Nastavení Systému nebo i zde."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -155,7 +155,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr "Nyní spustit Discover"
+msgstr "Spustit Discover"
 
 #: src/contents/ui/pages/Discover.qml:57
 #, kde-format
@@ -185,10 +185,10 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"KDE pracuje s nízkým rozpočtem a závisí hlavně na darovaných částkách a "
-"práci. Můžete to změnit!<nl/><nl/>Finanční dary pomáhají KDE platit za "
-"vývojové sprinty, hardware a servery a zaměstnání vývojářů. Dary si v "
-"Německu lze odepsat z daní."
+"KDE pracuje jen s malým rozpočtem a závisí hlavně na darovaných částkách a "
+"dobrovolné práci. Můžete to změnit!<nl/><nl/>Finanční dary pomáhají KDE "
+"platit za vývojové sprinty, hardware a servery a zaměstnání vývojářů. Dary "
+"si v Německu lze odepsat z daní."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -212,6 +212,10 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
+"Můžete se připojit k internetu a spravovat síťová spojení pomocí "
+"<interface>appletu Síť</interface>. Dostanete se k němu kliknutím na ikonu "
+"<interface>Sítě</interface> ve vašem <interface>Systémovém Panelu</"
+"interface>, který se nachází v pravém dolním rohu obrazovky."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
@@ -226,6 +230,9 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"Přispěvatelé do KDE strávili poslední čtyři měsíce tvrdou prací na tomto "
+"vydání. Doufáme, že vás bude používání prostředí Plasma bavit tak, jako nás "
+"bavil jeho vývoj!"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
@@ -252,8 +259,8 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plasma je mimořádně vybavené prostředí, navržené pro maximální podporu vaší "
-"efektivity! Zde máte malý náhled toho co umí:"
+"Plasma je prostředí se spoustou vlastností. Byla navržena aby vám umožnila "
+"dosáhnout maximální efektivity! Zde máte malý náhled toho co umí:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -279,7 +286,7 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr "Oddělujte práci, školu nebo domácí úkoly"
+msgstr "Oddělte práci, školu nebo domácí úkoly"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
@@ -315,7 +322,7 @@ msgstr "Přehled"
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "Ovládací centrum vašeho systému"
+msgstr "Mějte přehled nad spuštěnými aplikacemi"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
@@ -327,7 +334,7 @@ msgstr "Získejte žhavé novinky"
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Rozšiřte svůj systém doplňky"
+msgstr "Rozšiřte svůj systém různými doplňky"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
@@ -353,6 +360,13 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Sejfy Plasma vám umožní vytvářet šifrované složky, zvané <interface>Sejfy.</"
+"interface> V každém Sejfu můžete bezpečně skladovat hesla, soubory, obrázky "
+"a dokumenty chráněné před zvědavci. Sejfy mohou rovněž být ve složkách, "
+"které jsou synchronizovány v úložištích v Cloudu, čímž budou poskytovat "
+"extra soukromí pro váš obsah.<nl/><nl/>Pro začátek klikněte na "
+"<interface>Systémový Panel</interface> pro zobrazení skrytých položek, a "
+"poté klikněte na ikonu <interface>Sejfy</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -513,6 +527,13 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"Napříč prostředím Plasma, v Nastavení Systému a aplikacích KDE najdete "
+"tlačítka označená jako \"Získat nové [něco]…\". Kliknutím na ne se vám "
+"zobrazí obsah od třetích stran pro rozšíření systému vytvořeném lidmi jako "
+"jste vy! Tímto způsobem je často možné přidat další vlastnosti aniž byste o "
+"jejich přidání museli žádat vývojáře.<nl/><nl/>Pamatujte, že obsah získaný "
+"tímto způsobem nebyl kontrolován správcem vaší distribuce zda je funkční a "
+"stabilní."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
@@ -545,7 +566,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr "Nyní spustit Nastavení Systému"
+msgstr "Spustit Nastavení Systému"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:56
 #, kde-format
@@ -570,8 +591,8 @@ msgid ""
 msgstr ""
 "Plasma je svobodné a open-source pracovní prostředí vytvořené KDE - "
 "mezinárodní softwarovou komunitou dobrovolníků. Pracovní prostředí Plasma je "
-"jednoduché do začátku ale velmi dobře vybavené když potřebujete něco opravdu "
-"udělat. Doufáme, že si jej zamilujete!"
+"jednoduché do začátku ale velmi dobře vybavené pro každodenní použití. "
+"Doufáme, že si jej zamilujete!"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
