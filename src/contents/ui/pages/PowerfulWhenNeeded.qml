@@ -214,7 +214,7 @@ GenericPage {
 
             // Don't change the weird indentation; it's intentional to make this
             // long string nicer for translators
-            description: xi18nc("@info:usagetip translators: if needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:\
+            description: xi18nc("@info:usagetip translators: In the example queries, make sure to use the keywords as they are localized in the actual runner plugins. If needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:\
 <nl/>\
 <list><item>\"time Shanghai\"</item>\
 <item>\"27/3\"</item>\
