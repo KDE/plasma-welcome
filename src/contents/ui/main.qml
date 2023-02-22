@@ -24,6 +24,7 @@ Kirigami.ApplicationWindow {
     height: minimumHeight
 
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
+    pageStack.defaultColumnWidth: width
 
     footer: Item {
         width: root.width
