@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-20 00:59+0000\n"
+"POT-Creation-Date: 2023-02-22 01:00+0000\n"
 "PO-Revision-Date: 2023-02-20 13:00+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,19 +27,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: src/contents/ui/main.qml:55
+#: src/contents/ui/main.qml:61
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Over&slaan"
 
-#: src/contents/ui/main.qml:55
+#: src/contents/ui/main.qml:61
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Terug"
 
-#: src/contents/ui/main.qml:73
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -47,25 +47,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "Pagina %1 van %2"
 msgstr[1] "Pagina %1 van %2"
 
-#: src/contents/ui/main.qml:82
+#: src/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "Vol&tooien"
 
-#: src/contents/ui/main.qml:82
+#: src/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "V&olgende"
 
-#: src/contents/ui/main.qml:163
+#: src/contents/ui/main.qml:158
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Anonieme gebruiksinformatie delen met KDE"
 
-#: src/contents/ui/main.qml:164
+#: src/contents/ui/main.qml:159
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -75,13 +75,13 @@ msgstr ""
 "Onze ontwikkelaars zullen deze anonieme gegevens gebruiken om KDE software "
 "te verbeteren. U kiest hoeveel u deelt in Systeeminstellingen en ook hier."
 
-#: src/contents/ui/main.qml:178
+#: src/contents/ui/main.qml:167
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Uw online accounts verbinden"
 
-#: src/contents/ui/main.qml:179
+#: src/contents/ui/main.qml:168
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -344,13 +344,13 @@ msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Maak kennis met meer functies van Plasma"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasmakluizen"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:120
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -371,24 +371,24 @@ msgstr ""
 "<interface>Systeemvak</interface> om verborgen items te tonen en klik daarna "
 "op het pictogram <interface>Kluizen</interface> icon."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:233
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:278
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:128
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:150
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:244
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
 msgstr "Zie Meer mogelijkheden"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:138
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Activiteiten"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:139
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -411,19 +411,19 @@ msgstr ""
 "die pagina kunt u meer activiteiten aanmaken. U kunt daarna er tussen "
 "schakelen met de sneltoets<shortcut>Meta+Tab</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:155
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
 msgstr "Activiteitenpagina in systeeminstellingen openen"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:166
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:170
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -448,19 +448,19 @@ msgstr ""
 "interface> en zoek naar \"KDE Connect\". Op die pagina kunt u uw telefoon "
 "paren."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
 msgstr "Verbindingenpagina van KDE in systeeminstellingen openen"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:209
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -492,13 +492,13 @@ msgstr ""
 ">Om meer te weten te komen, open de zoekbalk KRunner met de sneltoets "
 "<shortcut>Alt+Space</shortcut> en klik op het pictogram vraagteken."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:235
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Overzicht"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:236
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -516,13 +516,13 @@ msgstr ""
 "geleverd zoekveld dat ook open vensters kan filteren.<nl/><nl/>U krijgt "
 "toegang tot Overzicht met de sneltoets <shortcut>Meta+W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
 msgstr "\"Vers van de pers\" ophalen"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:255
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -541,7 +541,7 @@ msgstr ""
 "implementeren.<nl/><nl/>Merk op dat inhoud op deze manier verkregen niet is "
 "beoordeeld door uw distributeur op functionaliteit of stabiliteit."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:271
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
@@ -623,8 +623,8 @@ msgstr "Een welkom-toepassing voor KDE Plasma"
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
-msgid "Welcome to KDE Plasma"
-msgstr "Welkom bij KDE Plasma"
+msgid "Welcome Center"
+msgstr ""
 
 #: src/main.cpp:57
 #, kde-format
@@ -654,6 +654,10 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Uitgavenotities te tonen voor de huidige uitgave van Plasma."
+
+#~ msgctxt "@title"
+#~ msgid "Welcome to KDE Plasma"
+#~ msgstr "Welkom bij KDE Plasma"
 
 #~ msgid ""
 #~ "Version number of the Plasma release to display release notes for, e.g. "

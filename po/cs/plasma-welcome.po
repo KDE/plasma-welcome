@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-20 00:59+0000\n"
+"POT-Creation-Date: 2023-02-22 01:00+0000\n"
 "PO-Revision-Date: 2023-02-16 11:34+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -27,19 +27,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "vit@pelcak.org"
 
-#: src/contents/ui/main.qml:55
+#: src/contents/ui/main.qml:61
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Pře&skočit"
 
-#: src/contents/ui/main.qml:55
+#: src/contents/ui/main.qml:61
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Zpět"
 
-#: src/contents/ui/main.qml:73
+#: src/contents/ui/main.qml:79
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -48,25 +48,25 @@ msgstr[0] "Strana %1 z %2"
 msgstr[1] "Strana %1 z %2"
 msgstr[2] "Strana %1 z %2"
 
-#: src/contents/ui/main.qml:82
+#: src/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "Do&končit"
 
-#: src/contents/ui/main.qml:82
+#: src/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Následující"
 
-#: src/contents/ui/main.qml:163
+#: src/contents/ui/main.qml:158
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Sdílejte anonymní informace o použití s KDE"
 
-#: src/contents/ui/main.qml:164
+#: src/contents/ui/main.qml:159
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -76,13 +76,13 @@ msgstr ""
 "Naši vývojáři použijí tato anonymní data pro vylepšení softwaru KDE. Můžete "
 "si vybrat jak mnoho informací sdílet v Nastavení Systému a rovněž i zde."
 
-#: src/contents/ui/main.qml:178
+#: src/contents/ui/main.qml:167
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Připojte své účty online"
 
-#: src/contents/ui/main.qml:179
+#: src/contents/ui/main.qml:168
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -342,13 +342,13 @@ msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Poznejte lépe vlastnosti prostředí Plasma"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Sejfy Plasma"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:120
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -368,24 +368,24 @@ msgstr ""
 "<interface>Systémový Panel</interface> pro zobrazení skrytých položek, a "
 "poté klikněte na ikonu <interface>Sejfy</interface>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:233
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:278
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:128
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:150
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:244
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
 msgstr "Podívejte se na další vlastnosti"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:138
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktivity"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:139
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -407,19 +407,19 @@ msgstr ""
 "stránce můžete vytvořit vícero Aktivit. Pak mezi nimi můžete přepínat pomocí "
 "klávesové zkratky <shortcut>Meta+Tab</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:155
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
 msgstr "Otevřít stránku Aktivit v Nastavení Systému"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:166
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:170
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -443,19 +443,19 @@ msgstr ""
 "spusťte <interface>Nastavení Systému</interface> a hledejte \"KDE Connect\". "
 "Tam taky můžete spárovat svůj telefon."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
 msgstr "Otevřít nastavení KDE Connect v Nastavení Systému"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:209
 #, fuzzy, kde-kuit-format
 #| msgctxt ""
 #| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
@@ -504,13 +504,13 @@ msgstr ""
 "klávesové zkratky <shortcut>Alt+Mezerník</shortcut> a kliknutím na ikonu s "
 "otazníkem."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:235
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Přehled"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:236
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -528,13 +528,13 @@ msgstr ""
 "umí filtrovat otevřená okna.<nl/><nl/>Přehled můžete zobrazit stiskem "
 "klávesové zkratky <shortcut>Meta+W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
 msgstr "Získat novinky"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:255
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -553,7 +553,7 @@ msgstr ""
 "tímto způsobem nebyl kontrolován správcem vaší distribuce zda je funkční a "
 "stabilní."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:271
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
@@ -633,8 +633,8 @@ msgstr "Uvítací aplikace KDE Plasma"
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
-msgid "Welcome to KDE Plasma"
-msgstr "Vítejte v KDE Plasma"
+msgid "Welcome Center"
+msgstr ""
 
 #: src/main.cpp:57
 #, kde-format
@@ -664,3 +664,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Zobrazit zprávy o vydání pro současnou verzi Plasma."
+
+#~ msgctxt "@title"
+#~ msgid "Welcome to KDE Plasma"
+#~ msgstr "Vítejte v KDE Plasma"
