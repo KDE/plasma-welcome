@@ -56,6 +56,7 @@ Kirigami.ApplicationWindow {
                 spacing: Kirigami.Units.smallSpacing
 
                 QQC2.Button {
+                    Layout.alignment: Qt.AlignLeft
                     id: prevButton
                     enabled: footerToolbar.visible
                     action: Kirigami.Action {
@@ -75,14 +76,16 @@ Kirigami.ApplicationWindow {
                     }
                 }
 
-                QQC2.Label {
-                    Layout.fillWidth: true
-                    text: i18ncp("@info", "Page %1 of %2", "Page %1 of %2", pageStack.currentIndex + 1, pageStack.depth)
-                    horizontalAlignment: Text.AlignHCenter
-                    elide: Text.ElideRight // Should never elide, but set it anyway
+                QQC2.PageIndicator {
+                    Layout.alignment: Qt.AlignHCenter
+                    count: pageStack.depth
+                    currentIndex: pageStack.currentIndex
+                    interactive: true
+                    onCurrentIndexChanged: { pageStack.currentIndex = currentIndex; }
                 }
 
                 QQC2.Button {
+                    Layout.alignment: Qt.AlignRight
                     id: nextButton
                     enabled: footerToolbar.visible && pageStack.layers.depth === 1
                     action: Kirigami.Action {
