@@ -24,7 +24,7 @@ GenericPage {
         anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 4
         width: Kirigami.Units.gridUnit * 10
         height: Kirigami.Units.gridUnit * 10
-        source: "systemsettings"
+        source: "preferences-system"
 
         HoverHandler {
             id: hoverhandler
