@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 01:00+0000\n"
-"PO-Revision-Date: 2023-02-20 09:19+0200\n"
+"POT-Creation-Date: 2023-02-23 01:00+0000\n"
+"PO-Revision-Date: 2023-02-22 08:35+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -28,19 +28,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Проп&устити"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Назад"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:80
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -50,25 +50,25 @@ msgstr[1] "Сторінка %1 з %2"
 msgstr[2] "Сторінка %1 з %2"
 msgstr[3] "Сторінка %1 з %2"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:89
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Завершити"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:89
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Далі"
 
-#: src/contents/ui/main.qml:158
+#: src/contents/ui/main.qml:159
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Надання анонімних даних щодо користування KDE"
 
-#: src/contents/ui/main.qml:159
+#: src/contents/ui/main.qml:160
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -78,13 +78,13 @@ msgstr ""
 "Наші розробники скористаються анонімними даними для удосконалення програм "
 "KDE. Обсяг наданих відомостей можна визначити у «Системних параметрах» і тут."
 
-#: src/contents/ui/main.qml:167
+#: src/contents/ui/main.qml:168
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "З'єднатись з мережевим обліковим записом"
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:169
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -635,7 +635,7 @@ msgstr "Вітальна програма Плазми KDE"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Центр вітання"
 
 #: src/main.cpp:57
 #, kde-format
