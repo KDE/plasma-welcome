@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-23 01:00+0000\n"
+"POT-Creation-Date: 2023-02-24 01:00+0000\n"
 "PO-Revision-Date: 2023-02-07 17:47+0100\n"
 "Last-Translator: Jannick Kuhr <opensource@kuhr.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -29,45 +29,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-i18n-de@kde.org"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Über&springen"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Zurück"
 
-#: src/contents/ui/main.qml:80
-#, kde-format
-msgctxt "@info"
-msgid "Page %1 of %2"
-msgid_plural "Page %1 of %2"
-msgstr[0] "Seite %1 von %2"
-msgstr[1] "Seite %1 von %2"
-
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "Be&enden"
 
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Weiter"
 
-#: src/contents/ui/main.qml:159
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Anonyme Nutzungsstatistiken an KDE übermitteln"
 
-#: src/contents/ui/main.qml:160
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -78,13 +70,13 @@ msgstr ""
 "Software nutzen. Sie können den Umfang der Datenübermittlung in den "
 "Systemeinstellungen und auch hier festlegen."
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Ihre Online-Konten verbinden"
 
-#: src/contents/ui/main.qml:169
+#: src/contents/ui/main.qml:172
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -684,6 +676,12 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr ""
+
+#~ msgctxt "@info"
+#~ msgid "Page %1 of %2"
+#~ msgid_plural "Page %1 of %2"
+#~ msgstr[0] "Seite %1 von %2"
+#~ msgstr[1] "Seite %1 von %2"
 
 #~ msgctxt "@title"
 #~ msgid "Welcome to KDE Plasma"

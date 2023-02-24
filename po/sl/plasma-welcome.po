@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-23 01:00+0000\n"
+"POT-Creation-Date: 2023-02-24 01:00+0000\n"
 "PO-Revision-Date: 2023-02-22 09:43+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
-"%100<=4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
 "X-Generator: Poedit 3.2.2\n"
 
 #, kde-format
@@ -31,47 +31,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "miles@filmsi.net"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Pre&skoči"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "Na&zaj"
 
-#: src/contents/ui/main.qml:80
-#, kde-format
-msgctxt "@info"
-msgid "Page %1 of %2"
-msgid_plural "Page %1 of %2"
-msgstr[0] "Stran %1 od %2"
-msgstr[1] "Stran %1 od %2"
-msgstr[2] "Stran %1 od %2"
-msgstr[3] "Stran %1 od %2"
-
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Dokončaj"
 
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Naprej"
 
-#: src/contents/ui/main.qml:159
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Deli anonimne podatke o uporabi s KDE"
 
-#: src/contents/ui/main.qml:160
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -82,13 +72,13 @@ msgstr ""
 "opreme KDE. Izberite, koliko podatkov lahko delite v sistemskih nastavitvah "
 "in tudi tukaj."
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Poveže vaše spletne račune"
 
-#: src/contents/ui/main.qml:169
+#: src/contents/ui/main.qml:172
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -661,6 +651,14 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Prikaži opombe ob izdaji za trenutno izdajo Plasme."
+
+#~ msgctxt "@info"
+#~ msgid "Page %1 of %2"
+#~ msgid_plural "Page %1 of %2"
+#~ msgstr[0] "Stran %1 od %2"
+#~ msgstr[1] "Stran %1 od %2"
+#~ msgstr[2] "Stran %1 od %2"
+#~ msgstr[3] "Stran %1 od %2"
 
 #~ msgctxt "@title"
 #~ msgid "Welcome to KDE Plasma"

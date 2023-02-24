@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-23 01:00+0000\n"
+"POT-Creation-Date: 2023-02-24 01:00+0000\n"
 "PO-Revision-Date: 2023-02-09 20:12+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -30,45 +30,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@ni.eus"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Saihestu"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Atzera"
 
-#: src/contents/ui/main.qml:80
-#, kde-format
-msgctxt "@info"
-msgid "Page %1 of %2"
-msgid_plural "Page %1 of %2"
-msgstr[0] "Orria %1 / %2"
-msgstr[1] "Orria %1 / %2"
-
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Bukatu"
 
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Hurrengoa"
 
-#: src/contents/ui/main.qml:159
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Erabileraren informazio anonimoa KDErekin partekatzea"
 
-#: src/contents/ui/main.qml:160
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -78,13 +70,13 @@ msgstr ""
 "Gure garatzaileek datu anonimo hauek KDE softwarea hobetzeko erabiliko dute. "
 "Sistemaren ezarpenetan zenbat partekatu aukera dezakezu, baita hemen ere."
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Zure lerroko kontuak konektatzea"
 
-#: src/contents/ui/main.qml:169
+#: src/contents/ui/main.qml:172
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -676,6 +668,12 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Azaldu uneko Plasma argitalpenaren oharrak."
+
+#~ msgctxt "@info"
+#~ msgid "Page %1 of %2"
+#~ msgid_plural "Page %1 of %2"
+#~ msgstr[0] "Orria %1 / %2"
+#~ msgstr[1] "Orria %1 / %2"
 
 #~ msgctxt "@title"
 #~ msgid "Welcome to KDE Plasma"

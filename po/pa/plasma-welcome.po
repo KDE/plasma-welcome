@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-23 01:00+0000\n"
+"POT-Creation-Date: 2023-02-24 01:00+0000\n"
 "PO-Revision-Date: 2022-11-19 06:05-0800\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -27,45 +27,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "ਛੱਡੋ(&S)"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "ਪਿੱਛੇ(&B)"
 
-#: src/contents/ui/main.qml:80
-#, kde-format
-msgctxt "@info"
-msgid "Page %1 of %2"
-msgid_plural "Page %1 of %2"
-msgstr[0] "%2 ਵਿੱਚ %1 ਸਫ਼ਾ"
-msgstr[1] "%2 ਵਿੱਚ %1 ਸਫ਼ਾ"
-
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "ਮੁਕੰਮਲ(&F)"
 
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "ਅੱਗੇ(&N)"
 
-#: src/contents/ui/main.qml:159
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "ਵਰਤਣ ਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਅਣਪਛਾਤੇ ਰੂਪ ਵਿੱਚ KDE ਨਾਲ ਸਾਂਝਾ ਕਰੋ"
 
-#: src/contents/ui/main.qml:160
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -73,13 +65,13 @@ msgid ""
 "choose how much to share in System Settings, and here too."
 msgstr ""
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "ਆਪਣੇ ਆਨਲਾਈਨ ਖਾਤਿਆਂ ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
 
-#: src/contents/ui/main.qml:169
+#: src/contents/ui/main.qml:172
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -562,3 +554,9 @@ msgstr ""
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr ""
+
+#~ msgctxt "@info"
+#~ msgid "Page %1 of %2"
+#~ msgid_plural "Page %1 of %2"
+#~ msgstr[0] "%2 ਵਿੱਚ %1 ਸਫ਼ਾ"
+#~ msgstr[1] "%2 ਵਿੱਚ %1 ਸਫ਼ਾ"

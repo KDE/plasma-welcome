@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-23 01:00+0000\n"
+"POT-Creation-Date: 2023-02-24 01:00+0000\n"
 "PO-Revision-Date: 2023-02-09 11:40\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -31,47 +31,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "nashtlumach@gmail.com"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Прапусціць"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Назад"
 
-#: src/contents/ui/main.qml:80
-#, kde-format
-msgctxt "@info"
-msgid "Page %1 of %2"
-msgid_plural "Page %1 of %2"
-msgstr[0] "Старонка %1 з %2"
-msgstr[1] "Старонка %1 з %2"
-msgstr[2] "Старонка %1 з %2"
-msgstr[3] "Старонка %1 з %2"
-
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Завяршыць"
 
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Далей"
 
-#: src/contents/ui/main.qml:159
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Падзяліцеся ананімнай інфармацыяй пра выкарыстанне KDE"
 
-#: src/contents/ui/main.qml:160
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -82,13 +72,13 @@ msgstr ""
 "паляпшэння праграмнага забеспячэння KDE. Вы можаце абраць тут і ў наладах "
 "сістэмы, якімі данымі хочаце дзяліцца."
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Падлучыце сеціўныя акаўнты"
 
-#: src/contents/ui/main.qml:169
+#: src/contents/ui/main.qml:172
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -673,6 +663,14 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr ""
+
+#~ msgctxt "@info"
+#~ msgid "Page %1 of %2"
+#~ msgid_plural "Page %1 of %2"
+#~ msgstr[0] "Старонка %1 з %2"
+#~ msgstr[1] "Старонка %1 з %2"
+#~ msgstr[2] "Старонка %1 з %2"
+#~ msgstr[3] "Старонка %1 з %2"
 
 #~ msgctxt "@title"
 #~ msgid "Welcome to KDE Plasma"

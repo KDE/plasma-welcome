@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-23 01:00+0000\n"
-"PO-Revision-Date: 2023-02-08 12:28+0100\n"
+"POT-Creation-Date: 2023-02-24 01:00+0000\n"
+"PO-Revision-Date: 2023-02-23 15:26+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -27,45 +27,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "g.sora@tiscali.it"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Salta"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Retro"
 
-#: src/contents/ui/main.qml:80
-#, kde-format
-msgctxt "@info"
-msgid "Page %1 of %2"
-msgid_plural "Page %1 of %2"
-msgstr[0] "Pagina %1 de %2"
-msgstr[1] "Pagina %1 de %2"
-
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Termina"
 
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "Seque&nte"
 
-#: src/contents/ui/main.qml:159
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Comparti Information de Uso Anonyme con KDE"
 
-#: src/contents/ui/main.qml:160
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -75,13 +67,13 @@ msgstr ""
 "Nostre disveloppatores usara iste datos anonyme per ameliorar le software de "
 "KDE. Tu pote seliger quanto compartir inPreferentias de Systema, e anque ci."
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "Connecte Tu Contos In Linea"
 
-#: src/contents/ui/main.qml:169
+#: src/contents/ui/main.qml:172
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -185,6 +177,11 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
+"Miraculosemente, KDE opera sur un budget parve, multo dependente  sur "
+"donationes de labor e ressources. Tu pote adjutar a cambiar illo!<nl/><nl/> "
+"Donationes financiari adjuta KDE a pagar per cursas de disveloppamento, "
+"ressources de servitor e hardware, e empleo expandite. Donationes son "
+"deducibile ab taxas in Germania."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -208,6 +205,10 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
+"Tu pte connecter al internet e gerer tu connexiones con le <interface>applet "
+"de Retes (Networks)</interface>. Pro acceder a illo, clicca sur le icone de "
+"<interface>Retes (Networks)</interface>  in tu <interface>Tabuliero de "
+"Systema </interface>, que habita in le angule a dextera a basso del schermo."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
@@ -222,6 +223,9 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"Collaborators de KDE ha expendite le ultime quatro mense in dur labor sur "
+"iste version. Nos spera que tu gaude uar Plasma tanto como nos  a gaudite "
+"facente lo! "
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
@@ -248,6 +252,9 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"Plasma es un ambiente extrememente ric de characteristicas, designate per "
+"super-cargar tu productivitate. Ci il ha solmente un cognoscentia "
+"approximative del cosas que illo pote facer per te:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -347,6 +354,14 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Plasma Vaults (Cellarios de Plasma) te permitte crear dossieres cryptate, "
+"appellate <interface>Vaults (Cellarios).</interface> Intra cata Cellario, tu "
+"pote immagazinar securemente tu contrasignos, files, imagines, e documentos, "
+"secur ab oculos curiose. Vaults pote anque habitar intra dossieres que es "
+"synchronsate a servicios de immagazinage de cloud, delivrante intimitate "
+"extra per ille contento.<nl/><nl/>Per initiar, cliccale flecha sur le "
+"<interface>Tbuliero de Systema </interface> per monstrar elementos celate, e "
+"postea pulsa le icone de  <interface>Vaults</interface> ."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:128
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:150
@@ -378,6 +393,15 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"Activitates pote esser usate per separar projectos de alte nivello o fluxos "
+"de labor assi que tu pote focalisar sur un per vice. Tu pote haber un "
+"activitate per  \"Domo\", \"Schola\", \"Labor\", e assi in avante. Cata "
+"Activitate ha accesso ha accesso  a omne tu files ma ha su proprie insimul "
+"de apps aperite e fenestras, documentos recente, apps \"Favorite\", e "
+"widgets de scriptorio.<nl/><nl/>Pro initiar, lancea  <interface>Preferentias "
+"de Systema</interface> e cerca  \"Activitates\". Sur ille pagina, tu pote "
+"crear plus Activitates. Tu pote alora commutar inter illos usante le via "
+"breve de claviero <shortcut>Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:155
 #, kde-format
@@ -405,6 +429,15 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"KDE Connect te permitte integrar tu telephono con tu computator in  varie "
+"modos: <nl/><list><item>Vider notificationes ex tu telephono sur tu "
+"computator</item><item>Responder a messages de texto ex tu telephono sur tu "
+"computator</item><item>Synchronisar tu contentos de tabuliero inter tu "
+"computator e tu telephono</item><item>Facer un ruito sur tu telephono quando "
+"il es mal ponite</item><item>Copiar imagines, videos, e altere files ex tu "
+"telephono a tu computato,  e  vice versa</item><item>…E multe plus!</item></"
+"list><nl/>Per Initiar, lancea <interface>Preferentias de Systema</interface> "
+"e cerca \"KDE Connect\". Sur ille pagina, tu pote associar tu telephono."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
 #, kde-format
@@ -438,6 +471,18 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner es le systema de cerca versatile e exceptionalmente potente de "
+"Plasma. Illo potentia le functionalitate de cerca in le menu de Lanceator de "
+"Applicationes  e le schermo de summario, e pote esser accessite como barra "
+"de cerca autonome usante le via breve de claviero <shortcut>Alt+Space</"
+"shortcut>. <nl/><nl/>In addition a trovar tu files e dossieres, KRunner pote "
+"lancear apps, cercare in le web, converter inter monetas, calcular problemas "
+"de mathematica,  e multe altere. Essaya typente ulle de sequente in un de "
+"ille campos de cerca:<nl/><list><item>\"time Shanghai\"</item><item>\"7/3\"</"
+"item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…E "
+"plus altere!</item></list><nl/>Pro aprender plus, aperi le barra de cerca "
+"KRunner usante le via breve de claviero  <shortcut>Alt+Space</shortcut>  e "
+"clicca sur le icone de puncto de demanda."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:235
 #, kde-format
@@ -456,6 +501,13 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"Summario (Overview) es un copertura a schermo plen que monstra tote tu "
+"fenestras aperite, permittente a te a accede a ulle de illos. Illo anque "
+"monsta tu currente Scriptorios Virtual, peritente a te a adder plus, remover "
+"alcun, e commutar inter illos. Finalmente, illo offere un campo de cerca "
+"potentiate de KRunner que pote anque filtrar trans fenestra aperite offers. "
+"<nl/><nl/>Tu pote acceder a Overview (Summario o Vista General) usante le "
+"via breve de claviero  <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
 #, kde-format
@@ -474,6 +526,13 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"Ubique Plasma, Preferentias de Systema, e apps de KDE, tu trovera buttones "
+"marcate per \"Obtene Nove [cosas]...\".Clicacr sur illos monstrara contentos "
+"de 3tie partes per extender le systema, facite per altere gente como te! "
+"Iniste modo, illo es sovente possibiloe adder functionalitate que tu vole "
+"sinn demandar al al disveloppatores de KDE per implementar los.<nl/><nl/"
+">Nota que contento acquirite in iste modo non ha essite recensite per tu "
+"distributor per functionalitate o stabilitate."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:271
 #, kde-format
@@ -497,6 +556,11 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"Plasma es designate per esser simplice e usabile immediatemente  como es. "
+"Cosa es ubi tu expecta esser, e generalmente il nonha alcun necessitate de "
+"configurar alique ante que tu pote esser commode e productive. <nl/><nl/>Si "
+"tu deberea haber alcun necessitate  tu trovera omne cosas in le app de "
+"<application>Preferentias de Systema </application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -525,30 +589,35 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
+"Plasma es un ambiente de scriptorio libere e a fonte aperite create per KDE, "
+"un communitate international de sofware de voluntarios. Le ambiente de "
+"scriptorio Plasma es simplice per definition perun experientia lisie, ma "
+"potente quando necessitate pro adjutar te realmente a obtener le cosas "
+"facite. Nos spera que tu lo ama! "
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Apprende plus re le communitate de KDE"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "Le mascotte de KDE Konqui te da le benvenite al communitate de KDE!"
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr ""
+msgstr "Un app de benvenite per KDE PLasma"
 
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Centro de Benvenite"
 
 #: src/main.cpp:57
 #, kde-format
@@ -577,7 +646,13 @@ msgstr "Nate Graham"
 #: src/main.cpp:79
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr ""
+msgstr "Monstra notas de version per le version currente de Plasma."
+
+#~ msgctxt "@info"
+#~ msgid "Page %1 of %2"
+#~ msgid_plural "Page %1 of %2"
+#~ msgstr[0] "Pagina %1 de %2"
+#~ msgstr[1] "Pagina %1 de %2"
 
 #~ msgctxt "@title"
 #~ msgid "Welcome to KDE Plasma"

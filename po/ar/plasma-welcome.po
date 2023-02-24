@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-23 01:00+0000\n"
+"POT-Creation-Date: 2023-02-24 01:00+0000\n"
 "PO-Revision-Date: 2023-01-25 19:07+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -28,49 +28,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zayed.alsaidi@gmail.com"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "ت&خطّ"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:63
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&عُد"
 
-#: src/contents/ui/main.qml:80
-#, kde-format
-msgctxt "@info"
-msgid "Page %1 of %2"
-msgid_plural "Page %1 of %2"
-msgstr[0] "الصفحة %1 من %2"
-msgstr[1] "الصفحة %1 من %2"
-msgstr[2] "الصفحة %1 من %2"
-msgstr[3] "الصفحة %1 من %2"
-msgstr[4] "الصفحة %1 من %2"
-msgstr[5] "الصفحة %1 من %2"
-
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "أ&نهِ"
 
-#: src/contents/ui/main.qml:89
+#: src/contents/ui/main.qml:92
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "ال&تالي"
 
-#: src/contents/ui/main.qml:159
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "مشاركة معلومات الاستخدام بشكل مجهول مع كدي"
 
-#: src/contents/ui/main.qml:160
+#: src/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -80,13 +68,13 @@ msgstr ""
 "سيستعمل مطورونا البيانات المجهولة في تحسين تطبيقات كدي. بإمكانك اختيار ما "
 "تريد مشاركته من إعدادات النظام ويمكنك إعداده الآن أيضًا."
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "اتصل بحساباتك على الإنترنت"
 
-#: src/contents/ui/main.qml:169
+#: src/contents/ui/main.qml:172
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -659,6 +647,16 @@ msgstr "نيت جراهام"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr ""
+
+#~ msgctxt "@info"
+#~ msgid "Page %1 of %2"
+#~ msgid_plural "Page %1 of %2"
+#~ msgstr[0] "الصفحة %1 من %2"
+#~ msgstr[1] "الصفحة %1 من %2"
+#~ msgstr[2] "الصفحة %1 من %2"
+#~ msgstr[3] "الصفحة %1 من %2"
+#~ msgstr[4] "الصفحة %1 من %2"
+#~ msgstr[5] "الصفحة %1 من %2"
 
 #~ msgctxt "@title"
 #~ msgid "Welcome to KDE Plasma"
