@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-24 01:00+0000\n"
-"PO-Revision-Date: 2023-02-15 11:05\n"
+"PO-Revision-Date: 2023-02-24 12:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -436,23 +436,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:209
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
 "keywords as they are localized in the actual runner plugins. If needed, "
@@ -606,7 +590,7 @@ msgstr "KDE Plasma 的欢迎应用"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "欢迎中心"
 
 #: src/main.cpp:57
 #, kde-format
@@ -635,13 +619,9 @@ msgstr "Nate Graham"
 #: src/main.cpp:79
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr ""
+msgstr "显示当前 Plasma 版本的发行日志。"
 
 #~ msgctxt "@info"
 #~ msgid "Page %1 of %2"
 #~ msgid_plural "Page %1 of %2"
 #~ msgstr[0] "第 %1 页，共 %2 页"
-
-#~ msgctxt "@title"
-#~ msgid "Welcome to KDE Plasma"
-#~ msgstr "欢迎使用 KDE Plasma"
