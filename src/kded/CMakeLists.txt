@@ -9,8 +9,8 @@ target_sources(kded_plasma-welcome PRIVATE
 
 target_link_libraries(kded_plasma-welcome PRIVATE
     Qt::Core
-    KF5::DBusAddons
-    KF5::ConfigWidgets
-    KF5::KIOGui
-    KF5::Notifications
+    KF6::DBusAddons
+    KF6::ConfigWidgets
+    KF6::KIOGui
+    KF6::Notifications
 )
