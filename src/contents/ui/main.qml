@@ -18,12 +18,6 @@ Kirigami.ApplicationWindow {
 
     readonly property bool showingPlasmaUpdate: Controller.newPlasmaVersion.length > 0
 
-    function quitAndMarkAsCompleted() {
-        Config.shouldShow = false;
-        Config.save();
-        Qt.quit();
-    }
-
     minimumWidth: Kirigami.Units.gridUnit * 36
     minimumHeight: Kirigami.Units.gridUnit * 32
     width: minimumWidth
@@ -68,7 +62,7 @@ Kirigami.ApplicationWindow {
                             } else if (pageStack.currentIndex != 0) {
                                 pageStack.currentIndex -= 1
                             } else {
-                                root.quitAndMarkAsCompleted();
+                                Qt.quit();
                             }
                         }
                     }
@@ -93,7 +87,7 @@ Kirigami.ApplicationWindow {
                             if (pageStack.currentIndex < pageStack.depth - 1) {
                                 pageStack.currentIndex += 1
                             } else {
-                                root.quitAndMarkAsCompleted();
+                                Qt.quit();
                             }
                         }
                     }

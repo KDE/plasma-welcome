@@ -109,6 +109,7 @@ int main(int argc, char *argv[])
     });
 
     QObject::connect(&app, &QApplication::aboutToQuit, [=]() {
+        Config::self()->setShouldShow(false); // only relevant for Plasma 5.27 version
         Config::self()->setLastSeenVersion(QStringLiteral(PLASMA_WELCOME_VERSION_STRING));
         Config::self()->save();
     });
