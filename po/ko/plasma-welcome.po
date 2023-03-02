@@ -1,15 +1,15 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# Shinjo Park <kde@peremen.name>, 2022.
+# Shinjo Park <kde@peremen.name>, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-24 02:50+0000\n"
-"PO-Revision-Date: 2022-10-03 16:18+0200\n"
+"PO-Revision-Date: 2023-03-01 00:04+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
-"Language-Team: Korean <kde-i18n-doc@kde.org>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,12 +59,10 @@ msgid "&Next"
 msgstr "다음(&N)"
 
 #: src/contents/ui/main.qml:167
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Sharing Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "KDE와 사용 정보 공유"
+msgstr "KDE와 익명으로 사용 정보 공유"
 
 #: src/contents/ui/main.qml:168
 #, kde-format
@@ -73,33 +71,27 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"수집한 익명 데이터는 KDE 소프트웨어를 개선하는 데 사용됩니다. 시스템 설정 및 "
+"여기에서 공유할 데이터 수준을 변경할 수 있습니다."
 
 #: src/contents/ui/main.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connecting Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "내 온라인 계정 연결"
 
 #: src/contents/ui/main.qml:183
-#, fuzzy, kde-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "In System Settings, you can connect to your online accounts and access "
-#| "their content in KDE apps. You can set it up right now, too."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"시스템 설정에서 온라인 계정과 연결하고 KDE 앱에서 콘텐츠에 접근할 수 있습니"
-"다. 여기에서도 설정할 수 있습니다."
+"온라인 계정과 연결하고 KDE 앱에서 콘텐츠에 접근할 수 있습니다. 시스템 설정 "
+"및 여기에서 설정할 수 있습니다."
 
 #: src/contents/ui/pages/Contribute.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Getting Involved"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
 msgstr "참여하기"
@@ -117,25 +109,31 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
+"KDE는 큰 회사가 아닌 국제적인 자원 봉사 커뮤니티에서 관리하며, 여러분과 같은 "
+"사람의 시간과 열정을 기부하여 소프트웨어가 만들어집니다. 번역, 시각 디자인, "
+"홍보, 프로그래밍, 버그 분류 등의 작업으로 기여할 수 있습니다.<nl/><nl/>KDE에 "
+"기여하는 것으로 특별한 모임의 일부로 참여할 수 있으며, 새로운 사람을 만나고 "
+"기술을 익히며, 전 세계의 사람들과 일하면서 수백만이 사용하는 자유 소프트웨어 "
+"컴퓨팅 경험에 기여할 수 있습니다."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr ""
+msgstr "기여하세요!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "%1 방문"
 
 #: src/contents/ui/pages/Discover.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr ""
+msgstr "소프트웨어 관리"
 
 #: src/contents/ui/pages/Discover.qml:19
 #, kde-kuit-format
@@ -145,6 +143,9 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"<application>Discover</application> 앱에서는 프로그램, 게임, 도구 등을 검색하"
+"고 설치할 수 있습니다. 앱을 찾아볼 수 있도록 분류별로 탐색, 스크린샷 보기, 리"
+"뷰 읽기를 할 수 있습니다."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -189,9 +190,7 @@ msgid "Make a donation"
 msgstr "기부하기"
 
 #: src/contents/ui/pages/Network.qml:20
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Accessing the Internet"
+#, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "인터넷에 연결"
@@ -210,7 +209,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr ""
+msgstr "Plasma가 %1 버전으로 업데이트됨"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
@@ -224,19 +223,19 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr ""
+msgstr "Plasma %1의 새로운 기능 알아보기"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr ""
+msgstr "다음 릴리스 돕기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr ""
+msgstr "필요할 때 강력하게"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -250,19 +249,19 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr ""
+msgstr "비밀 공간"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr ""
+msgstr "민감한 파일을 안전하게 저장하기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr ""
+msgstr "활동"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -270,55 +269,55 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr ""
+msgstr "업무, 학교, 개인 작업 분리하기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr ""
+msgstr "내 휴대폰과 컴퓨터 연결하기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr ""
+msgstr "무엇이든 검색하기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "한눈에 보기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "시스템 제어 센터"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "새로운 항목 다운로드"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "시스템을 추가 기능으로 확장"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
@@ -330,7 +329,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Plasma 비밀 공간"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -354,13 +353,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "더 많은 기능 보기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr ""
+msgstr "활동"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -380,13 +379,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "시스템 설정에서 활동 페이지 열기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
 #, kde-kuit-format
@@ -413,7 +412,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
 #, kde-kuit-format
@@ -438,7 +437,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "한눈에 보기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
@@ -456,7 +455,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "새로운 항목 다운로드"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
@@ -474,13 +473,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "모든 제3자 콘텐츠 보기"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "기본적으로 간단하게"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -497,7 +496,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr ""
+msgstr "시스템 설정 실행하기"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:56
 #, kde-format
@@ -509,7 +508,7 @@ msgstr "시스템 설정"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
-msgstr ""
+msgstr "KDE Plasma에 오신 것을 환영합니다!"
 
 #: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
@@ -525,55 +524,55 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "KDE 커뮤니티에 대해서 더 알아보기"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "KDE 마스코트 Konqi가 KDE 커뮤니티로 초대합니다!"
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr ""
+msgstr "KDE Plasma 환영 앱"
 
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
-msgstr ""
+msgstr "KDE Plasma에 오신 것을 환영합니다"
 
 #: src/main.cpp:57
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
-msgstr ""
+msgstr "(c) 2021"
 
 #: src/main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:59 src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "작성자"
 
 #: src/main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
-msgstr ""
+msgstr "Nate Graham"
 
 #: src/main.cpp:80
 #, kde-format
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
-msgstr ""
+msgstr "릴리스 노트를 표시할 Plasma 릴리스, 예: 5.25"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""
