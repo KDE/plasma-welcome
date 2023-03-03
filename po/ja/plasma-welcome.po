@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-24 02:50+0000\n"
+"POT-Creation-Date: 2023-03-03 03:04+0000\n"
 "PO-Revision-Date: 2023-02-23 18:27+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -26,19 +26,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ryuichi_ya220@outlook.jp"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "スキップ(&S)"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "戻る(&B)"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:73
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -46,25 +46,25 @@ msgid_plural "Page %1 of %2"
 msgstr[0] "%1/%2ページ"
 msgstr[1] "%1/%2ページ"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "終了(&F)"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "次へ(&N)"
 
-#: src/contents/ui/main.qml:167
+#: src/contents/ui/main.qml:161
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "KDE に匿名の使用統計情報を送信する"
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -75,13 +75,13 @@ msgstr ""
 "用されます。このページ、もしくはシステム設定でどの程度の情報を送信するか選択"
 "できます。"
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/main.qml:176
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "オンラインアカウントを接続する"
 
-#: src/contents/ui/main.qml:183
+#: src/contents/ui/main.qml:177
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-24 02:50+0000\n"
+"POT-Creation-Date: 2023-03-03 03:04+0000\n"
 "PO-Revision-Date: 2023-01-24 20:52+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -28,19 +28,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Проп&устити"
 
-#: src/contents/ui/main.qml:61
+#: src/contents/ui/main.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Назад"
 
-#: src/contents/ui/main.qml:79
+#: src/contents/ui/main.qml:73
 #, kde-format
 msgctxt "@info"
 msgid "Page %1 of %2"
@@ -50,25 +50,25 @@ msgstr[1] "Сторінка %1 з %2"
 msgstr[2] "Сторінка %1 з %2"
 msgstr[3] "Сторінка %1 з %2"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Завершити"
 
-#: src/contents/ui/main.qml:88
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Далі"
 
-#: src/contents/ui/main.qml:167
+#: src/contents/ui/main.qml:161
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
 msgstr "Надання анонімних даних щодо користування KDE"
 
-#: src/contents/ui/main.qml:168
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -78,13 +78,13 @@ msgstr ""
 "Наші розробники скористаються анонімними даними для удосконалення програм "
 "KDE. Обсяг наданих відомостей можна визначити у «Системних параметрах» і тут."
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/main.qml:176
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
 msgstr "З'єднатись з мережевим обліковим записом"
 
-#: src/contents/ui/main.qml:183
+#: src/contents/ui/main.qml:177
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
