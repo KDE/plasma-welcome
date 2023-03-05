@@ -24,33 +24,42 @@ GenericPage {
 
         anchors {
             top: parent.top
-            topMargin: Kirigami.Units.largeSpacing
+            topMargin: grid.verticalLayout ? 0 : Kirigami.Units.largeSpacing
             left: parent.left
             right: parent.right
         }
-        spacing: Kirigami.Units.largeSpacing * 6
+        spacing: Kirigami.Units.largeSpacing * 4
 
         GridLayout {
             id: grid
 
-            readonly property int cellWidth: Math.round((layout.width - columnSpacing * (columns - 1)) / columns)
+            readonly property int columnsforHorizontalLayout: 3
+            readonly property int columnsforVerticalLayout: 2
+            readonly property int cellWidth: Math.round(layout.width / columns)
             readonly property int cellHeight: Math.max(vaults.implicitHeight,
                                                        activities.implicitHeight,
                                                        kdeconnect.implicitHeight,
                                                        overview.implicitHeight,
                                                        krunner.implicitHeight,
                                                        ghns.implicitHeight)
+            readonly property int spaceForTitles: Math.round(layout.width / columnsforHorizontalLayout) - vaults.fixedSizeStuff - (columnSpacing * (columnsforHorizontalLayout - 1))
+            readonly property bool verticalLayout: (vaults.implicitTitleWidth > spaceForTitles)
+                                               || (activities.implicitTitleWidth > spaceForTitles)
+                                               || (kdeconnect.implicitTitleWidth > spaceForTitles)
+                                               || (overview.implicitTitleWidth > spaceForTitles)
+                                               || (krunner.implicitTitleWidth > spaceForTitles)
+                                               || (ghns.implicitTitleWidth > spaceForTitles)
 
-            Layout.fillWidth: true
-
-            columns: 3
-            columnSpacing: Kirigami.Units.smallSpacing
+            rows: verticalLayout ? 6 : 2
+            columns: verticalLayout ? columnsforVerticalLayout : columnsforHorizontalLayout
             rowSpacing: Kirigami.Units.smallSpacing
+            columnSpacing: Kirigami.Units.smallSpacing
 
             // First row
             PlasmaFeatureButton {
                 id: vaults
-                Layout.preferredWidth: grid.cellWidth
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
                 title: i18nc("@title:row Short form of the 'Vaults' Plasma feature", "Vaults")
                 subtitle: i18nc("@info Caption for Plasma Vaults button", "Store sensitive files securely")
@@ -59,7 +68,8 @@ GenericPage {
             }
             PlasmaFeatureButton {
                 id: activities
-                Layout.preferredWidth: grid.cellWidth
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
                 title: i18nc("@title:row Name of the 'Activities' Plasma feature", "Activities")
                 subtitle: i18nc("@info Caption for Activities button. Note that 'Separate' is being used as an imperative verb here, not a noun.", "Separate work, school, or home tasks")
@@ -68,7 +78,8 @@ GenericPage {
             }
             PlasmaFeatureButton {
                 id: kdeconnect
-                Layout.preferredWidth: grid.cellWidth
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
                 title: i18nc("@title:row Name of the 'KDE Connect' feature", "KDE Connect")
                 subtitle: i18nc("@info Caption for KDE Connect button", "Connect your phone and your computer")
@@ -79,7 +90,8 @@ GenericPage {
             // Second row
             PlasmaFeatureButton {
                 id: krunner
-                Layout.preferredWidth: grid.cellWidth
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
                 title: i18nc("@title:row", "KRunner")
                 subtitle: i18nc("@info Caption for KRunner button", "Search for anything")
@@ -88,7 +100,8 @@ GenericPage {
             }
             PlasmaFeatureButton {
                 id: overview
-                Layout.preferredWidth: grid.cellWidth
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
                 title: i18nc("@title:row Name of the 'Overview' KWin effect", "Overview")
                 subtitle: i18nc("@info Caption for Overview button", "Your system command center")
@@ -97,7 +110,8 @@ GenericPage {
             }
             PlasmaFeatureButton {
                 id: ghns
-                Layout.preferredWidth: grid.cellWidth
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
                 title: i18nc("@title:row", "Get Hot New Stuff")
                 subtitle: i18nc("@info Caption for Get Hot New Stuff button", "Extend the system with add-ons")
@@ -138,22 +152,24 @@ GenericPage {
             heading: i18nc("@info:window", "Activities")
             description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut.")
 
-            RowLayout {
+            ColumnLayout {
                 anchors.bottom: parent.bottom
                 anchors.bottomMargin: Kirigami.Units.gridUnit * 3
                 anchors.horizontalCenter: parent.horizontalCenter
 
-                spacing: Kirigami.Units.largeSpacing
+                spacing: Kirigami.Units.smallSpacing
 
                 QQC2.Button {
-                    icon.name: "go-previous-view"
-                    text: i18nc("@action:button", "See More Features")
-                    onClicked: pageStack.layers.pop();
-                }
-                QQC2.Button {
+                    Layout.alignment: Qt.AlignHCenter
                     icon.name: "preferences-desktop-activities"
                     text: i18nc("@action:button", "Open Activities Page in System Settings")
                     onClicked: Controller.launchApp("kcm_activities");
+                }
+                QQC2.Button {
+                    Layout.alignment: Qt.AlignHCenter
+                    icon.name: "go-previous-view"
+                    text: i18nc("@action:button", "See More Features")
+                    onClicked: pageStack.layers.pop();
                 }
             }
         }
@@ -177,7 +193,7 @@ GenericPage {
 <item>…And much more!</item></list>\
 <nl/>To get started, launch <interface>System Settings</interface> and search for \"KDE Connect\". On that page, you can pair your phone.")
 
-            RowLayout {
+            ColumnLayout {
                 anchors.bottom: parent.bottom
                 anchors.bottomMargin: Kirigami.Units.gridUnit * 3
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -185,14 +201,16 @@ GenericPage {
                 spacing: Kirigami.Units.largeSpacing
 
                 QQC2.Button {
-                    icon.name: "go-previous-view"
-                    text: i18nc("@action:button", "See More Features")
-                    onClicked: pageStack.layers.pop();
-                }
-                QQC2.Button {
+                    Layout.alignment: Qt.AlignHCenter
                     icon.name: "kdeconnect"
                     text: i18nc("@action:button", "Open KDE Connect Page in System Settings")
                     onClicked: Controller.launchApp("kcm_kdeconnect");
+                }
+                QQC2.Button {
+                    Layout.alignment: Qt.AlignHCenter
+                    icon.name: "go-previous-view"
+                    text: i18nc("@action:button", "See More Features")
+                    onClicked: pageStack.layers.pop();
                 }
             }
         }
@@ -254,7 +272,7 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
             heading: i18nc("@info:window", "Get Hot New Stuff")
             description: xi18nc("@info:usagetip", "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked \"Get New [thing]…\". Clicking on them will show you 3rd-party content to extend the system, made by other people like you! In this way, it is often possible to add functionality you want without having to ask KDE developers to implement it themselves.<nl/><nl/>Note that content acquired this way has not been reviewed by your distributor for functionality or stability.")
 
-            RowLayout {
+            ColumnLayout {
                 anchors.bottom: parent.bottom
                 anchors.bottomMargin: Kirigami.Units.gridUnit * 3
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -262,14 +280,16 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
                 spacing: Kirigami.Units.largeSpacing
 
                 QQC2.Button {
-                    icon.name: "go-previous-view"
-                    text: i18nc("@action:button", "See More Features")
-                    onClicked: pageStack.layers.pop();
-                }
-                QQC2.Button {
+                    Layout.alignment: Qt.AlignHCenter
                     icon.name: "get-hot-new-stuff"
                     text: i18nc("@action:button", "See All Available 3rd-Party Content")
                     onClicked: Controller.launchApp("org.kde.knewstuff-dialog");
+                }
+                QQC2.Button {
+                    Layout.alignment: Qt.AlignHCenter
+                    icon.name: "go-previous-view"
+                    text: i18nc("@action:button", "See More Features")
+                    onClicked: pageStack.layers.pop();
                 }
             }
         }

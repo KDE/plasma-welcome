@@ -18,10 +18,10 @@ Kirigami.ApplicationWindow {
 
     readonly property bool showingPlasmaUpdate: Controller.mode !== Controller.Welcome
 
-    minimumWidth: Kirigami.Units.gridUnit * 36
+    minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 32
-    width: minimumWidth
-    height: minimumHeight
+    width: Kirigami.Units.gridUnit * 36
+    height: Kirigami.Units.gridUnit * 32
 
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
     pageStack.defaultColumnWidth: width
@@ -159,7 +159,7 @@ Kirigami.ApplicationWindow {
         id: kcm_feedback
         visible: false
 
-        heading: i18nc("@title: window", "Share Anonymous Usage Information With KDE")
+        heading: i18nc("@title: window", "Share Anonymous Usage Information")
         description: i18nc("@info:usagetip", "Our developers will use this anonymous data to improve KDE software. You can choose how much to share in System Settings, and here too.")
 
         path: "kcm_feedback"
@@ -168,7 +168,7 @@ Kirigami.ApplicationWindow {
         id: kcm_kaccounts
         visible: false
 
-        heading: i18nc("@title: window", "Connect Your Online Accounts")
+        heading: i18nc("@title: window", "Connect Online Accounts")
         description: i18nc("@info:usagetip", "This will let you access their content in KDE apps. You can set it up in System Settings, and here too.")
         showSeparator: true
 

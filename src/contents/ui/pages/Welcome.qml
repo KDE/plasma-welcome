@@ -24,33 +24,38 @@ GenericPage {
         }
     ]
 
-    Image {
+    ColumnLayout {
         anchors.centerIn: parent
-        anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 4
-        width: Kirigami.Units.gridUnit * 16
-        height: Kirigami.Units.gridUnit * 16
-        source: "konqi-kde-hi.png"
-        fillMode: Image.PreserveAspectFit
+        height: Math.min(parent.height, Kirigami.Units.gridUnit * 17)
+        spacing: Kirigami.Units.smallSpacing
+
+        Image {
+            id: konqiImage
+
+            Layout.alignment: Qt.AlignHCenter
+            Layout.fillHeight: true
+            source: "konqi-kde-hi.png"
+            fillMode: Image.PreserveAspectFit
+
+            HoverHandler {
+                id: hoverhandler
+                cursorShape: Qt.PointingHandCursor
+            }
+            TapHandler {
+                onTapped: Qt.openUrlExternally(link.url)
+            }
+            QQC2.ToolTip {
+                visible: hoverhandler.hovered
+                text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", link.url)
+            }
+        }
 
         QQC2.Label {
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.top: parent.bottom
-            width: Math.round(parent.width * 0.75)
+            Layout.alignment: Qt.AlignHCenter
+            Layout.maximumWidth: Math.round(konqiImage.implicitWidth / 2)
             text: i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
             wrapMode: Text.Wrap
             horizontalAlignment: Text.AlignHCenter
-        }
-
-        HoverHandler {
-            id: hoverhandler
-            cursorShape: Qt.PointingHandCursor
-        }
-        TapHandler {
-            onTapped: Qt.openUrlExternally(link.url)
-        }
-        QQC2.ToolTip {
-            visible: hoverhandler.hovered
-            text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", link.url)
         }
     }
 }

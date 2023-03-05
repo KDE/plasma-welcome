@@ -17,7 +17,7 @@ Kirigami.Page {
     required property string heading
     required property string description
     property alias topContent: layout.children
-    property int margins: Kirigami.Units.gridUnit * 2
+    property int margins: Kirigami.Units.gridUnit
     leftPadding: margins
     rightPadding: margins
 

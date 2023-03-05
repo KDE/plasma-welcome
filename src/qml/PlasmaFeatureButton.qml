@@ -16,6 +16,8 @@ QQC2.Button {
     required property string title
     required property string subtitle
     required property string buttonIcon
+    readonly property int implicitTitleWidth: metrics.width
+    readonly property int fixedSizeStuff: icon.implicitWidth + leftPadding + rightPadding + titleRowLayout.spacing
 
     implicitWidth: Math.max(implicitBackgroundWidth + leftInset + rightInset,
                             implicitContentWidth + leftPadding + rightPadding)
@@ -27,15 +29,23 @@ QQC2.Button {
     topPadding: Kirigami.Units.largeSpacing
     bottomPadding: Kirigami.Units.largeSpacing
 
+    TextMetrics {
+        id: metrics
+        text: root.title
+    }
+
     contentItem: ColumnLayout {
         spacing: 0
 
         RowLayout {
+            id: titleRowLayout
+
             spacing: Kirigami.Units.smallSpacing
             Layout.minimumHeight: Kirigami.Units.gridUnit * 2 + spacing
 
             // Icon
             Kirigami.Icon {
+                id: icon
                 Layout.preferredWidth: Kirigami.Units.iconSizes.medium
                 Layout.preferredHeight: Kirigami.Units.iconSizes.medium
                 Layout.alignment: Qt.AlignVCenter

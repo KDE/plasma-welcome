@@ -21,7 +21,7 @@ GenericPage {
     Kirigami.Icon {
         id: image
         anchors.centerIn: parent
-        anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 4
+        anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 2
         width: Kirigami.Units.gridUnit * 10
         height: Kirigami.Units.gridUnit * 10
         source: "preferences-system"

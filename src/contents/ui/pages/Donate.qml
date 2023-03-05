@@ -26,8 +26,8 @@ GenericPage {
 
     Image {
         anchors.centerIn: parent
-        anchors.verticalCenterOffset: -Kirigami.Units.gridUnit * 2
-        height: Kirigami.Units.gridUnit * 16
+        anchors.verticalCenterOffset: -Kirigami.Units.gridUnit
+        width: Math.min (parent.width, Kirigami.Units.gridUnit * 25)
         fillMode: Image.PreserveAspectFit
         mipmap: true
         source: "konqi-donations.png"
