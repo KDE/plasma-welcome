@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-02-11 07:46+0100\n"
+"PO-Revision-Date: 2023-03-05 08:57+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -59,13 +59,13 @@ msgstr "&Zakończ"
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr "&Następna"
+msgstr "&Naprzód"
 
 #: src/contents/ui/main.qml:161
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr "Udostępnij KDE anonimowe dane z używania"
+msgstr "Udostępnij KDE swoje anonimowe dane z jego używania"
 
 #: src/contents/ui/main.qml:162
 #, kde-format
@@ -74,15 +74,15 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Nasi programiści będą używać anonimowych danych do ulepszania oprogramowania "
-"KDE. To w jakim zakresie te dane będą udostępniane można wybrać w "
-"ustawieniach systemowych."
+"Nasi programiści użyją tych anonimowych danych do pracy nad poprawą "
+"oprogramowania KDE. W Ustawieniach Systemowych możesz wybrać zakres, w jakim "
+"te dane będą udostępniane."
 
 #: src/contents/ui/main.qml:176
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr "Podłączanie twoich kont sieciowych"
+msgstr "Podepnij swoje konta sieciowe"
 
 #: src/contents/ui/main.qml:177
 #, kde-format
@@ -91,14 +91,14 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Umożliwi to uzyskanie dostępu do ich treści w aplikacjach KDE. Można to "
-"ustawić w zarówno w ustawieniach systemowych, jak i tutaj."
+"Dzięki temu uzyskasz do nich dostęp w aplikacjach KDE. Możesz to zrobić tu i "
+"teraz lub później w Ustawieniach Systemowych."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Współtwórz"
+msgstr "Zacznij współtworzyć"
 
 #: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -113,15 +113,14 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
-"KDE nie jest dużą firmą; jest to międzynarodowa społeczność wolontariuszy a "
-"jego oprogramowanie jest tworzone przez ludzi takich jak ty - wkładając w to "
-"swój czas i pasję. Oznacza to, że możesz pomóc je usprawnić! Istnieje wiele "
-"sposobów na pomoc w tematach tak różnych jak, obsługa błędów, programowanie, "
-"tłumaczenie, projekt graficzny, a także promocja.<nl/><nl/>Pomagając KDE, "
-"staniesz się częścią czegoś szczególnego, poznasz nowych przyjaciół, "
-"nauczysz się nowych rzeczy i przyczynisz się dla dobra milionów ludzi, "
-"pracując z ludźmi z całej Ziemi nad dostarczeniem darmowego, komputerowego "
-"środowiska pracy."
+"KDE nie jest czymś w rodzaju dużego przedsiębiorstwa; jest to raczej "
+"międzynarodowa społeczność wolontariuszy, a jego oprogramowanie jest "
+"tworzone przez ludzi podobnych tobie, którzy chcą poświęcić temu swój czas i "
+"pasję. Ty także możesz pomóc, czy to przez tłumaczenie, oprawę graficzną, "
+"promocję, programowanie, czy rozpracowywanie błędów.<nl/><nl/>Pomagając KDE, "
+"stajesz się częścią czegoś wyjątkowego, poznajesz nowych przyjaciół, uczysz "
+"się nowych rzeczy i przyczyniasz się dla dobra milionów ludzi, pracując z "
+"ludźmi z całego świata nad dostarczeniem świetnego środowiska pracy."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -140,7 +139,7 @@ msgstr "Odwiedź %1"
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "Zarządzanie oprogramowaniem"
+msgstr "Zarządzaj oprogramowaniem"
 
 #: src/contents/ui/pages/Discover.qml:19
 #, kde-kuit-format
@@ -150,9 +149,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Odkrywca</application> pomaga znaleźć i wgrać aplikacje, gry "
-"oraz narzędzia. Można wyszukiwać lub przeglądać po kategorii. Można oglądać "
-"zrzuty ekranu i czytać oceny, aby wybrać najlepszą aplikację."
+"Z pomocą <application>Odkrywcy</application> poszukasz i wgrasz aplikacje, "
+"gry oraz narzędzia. Możesz je wyszukiwać lub przeglądać po kategorii. Możesz "
+"oglądać ich zrzuty ekranu i czytać, co inni ludzie o nich napisali po to, "
+"aby wybrać aplikację najodpowiedniejszą dla siebie."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
@@ -176,7 +176,7 @@ msgstr "Pokaż %1 w Odkrywcy"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr "Wspieranie twojej wolności"
+msgstr "Wesprzyj swoją wolności"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -188,10 +188,10 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"KDE działa na cienkim budżecie, polegając w dużej mierze na darowiźnie pracy "
-"i zasobów. Możesz pomóc to zmienić!<nl/><nl/>Darowizny finansowe pomagają "
+"KDE działa na cienkim budżecie, polegając w dużej mierze na darowanej pracy "
+"i zasobach. Możesz pomóc to zmienić!<nl/><nl/>Darowizny pieniężne pomagają "
 "KDE opłacić sprinty programistyczne, zasoby sprzętowe i serwerowe, a także w "
-"zatrudnianiu. Darowizny można odliczyć sobie od podatku w Niemczech."
+"zatrudnianiu. Darowizny takie można odliczyć sobie od podatku w Niemczech."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -262,7 +262,7 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plazma to bardzo rozbudowane środowisko, obmyślane do zwiększenia twojej "
+"Plazma to bardzo rozbudowane środowisko, opracowane do zwiększenia twojej "
 "wydajności! Oto tylko mała próbka tego, co może dla ciebie zrobić:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
@@ -275,7 +275,7 @@ msgstr "Sejfy"
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr "Przechowuj dane poufne bezpiecznie"
+msgstr "Przechowuj dane poufne w bezpieczny sposób"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
@@ -561,11 +561,11 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
-"Plazma jest stworzona z myślą o tym, aby być prostą i używalną zaraz po jej "
-"wgraniu. Rzeczy w niej znajdują się tam, gdzie ich oczekuje i zazwyczaj nie "
-"trzeba niczego ustawiać do wygodnej i wydajnej pracy.<nl/><nl/>Jeśli jednak "
-"zajdzie taka potrzeba, to możesz to zrobić w <application>Ustawieniach "
-"Systemowych</application>."
+"Celem Plazmy jest to, aby była ona prostą i używalną od pierwszego "
+"uruchomienia. Rzeczy są w niej rozmieszczone w miejscach, w których się ich "
+"oczekuje i zazwyczaj nie trzeba niczego ustawiać, aby móc wygodnie i "
+"wydajnie pracować.<nl/><nl/>Jeśli jednak tego potrzebujesz, to możesz to "
+"zrobić w <application>Ustawieniach Systemowych</application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -594,10 +594,11 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
-"Plazma KDE jest otoczeniem pulpitu darmowym i o otwartym kodzie, która "
-"został stworzona przez wolontariuszy na całym świecie. Jest domyślnie prosta "
-"dla łatwej obsługi, a także rozbudowana, gdy jest to potrzebne. Mamy "
-"nadzieję, że ci się spodoba!"
+"Plazma jest środowiskiem darmowym i o otwartym kodzie; została stworzona "
+"przez KDE; międzynarodową społeczność wolontariuszy oprogramowania. "
+"Środowisko to jest proste od pierwszego uruchomienia, aby dać przyjemność z "
+"jego używania, lecz także rozbudowane, gdy tego potrzebujesz, aby wspierać "
+"cię w tym, co robisz. Mamy nadzieję, że ci się spodoba!"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
