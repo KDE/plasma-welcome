@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-24 01:00+0000\n"
+"POT-Creation-Date: 2023-03-06 02:13+0000\n"
 "PO-Revision-Date: 2023-02-24 12:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -52,9 +52,11 @@ msgid "&Next"
 msgstr "下一页(&N)"
 
 #: src/contents/ui/main.qml:162
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Share Anonymous Usage Information With KDE"
 msgctxt "@title: window"
-msgid "Share Anonymous Usage Information With KDE"
+msgid "Share Anonymous Usage Information"
 msgstr "与 KDE 分享使用信息"
 
 #: src/contents/ui/main.qml:163
@@ -68,9 +70,11 @@ msgstr ""
 "据的多少，也可以在此选择。"
 
 #: src/contents/ui/main.qml:171
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Connect Your Online Accounts"
 msgctxt "@title: window"
-msgid "Connect Your Online Accounts"
+msgid "Connect Online Accounts"
 msgstr "连接您的在线账户"
 
 #: src/contents/ui/main.qml:172
@@ -116,19 +120,19 @@ msgid "Start Contributing!"
 msgstr "开始贡献！"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
-#: src/contents/ui/pages/Welcome.qml:53
+#: src/contents/ui/pages/Welcome.qml:49
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "访问 %1"
 
-#: src/contents/ui/pages/Discover.qml:18
+#: src/contents/ui/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "管理软件"
 
-#: src/contents/ui/pages/Discover.qml:19
+#: src/contents/ui/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -140,19 +144,19 @@ msgstr ""
 "装所需的应用程序、游戏和工具。您可以通过关键词查找程序，也可以按分类浏览程"
 "序。您还可以查看屏幕截图，阅读用户评价，选出最适合自己的应用程序。"
 
-#: src/contents/ui/pages/Discover.qml:39
+#: src/contents/ui/pages/Discover.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "立即打开 Discover"
 
-#: src/contents/ui/pages/Discover.qml:57
+#: src/contents/ui/pages/Discover.qml:63
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "Discover 软件管理中心"
 
-#: src/contents/ui/pages/Discover.qml:121
+#: src/contents/ui/pages/Discover.qml:131
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -249,25 +253,25 @@ msgstr ""
 "Plasma 是一款功能强大的桌面环境，您可以活用它的各种功能来提高工作效率。以下只"
 "是它能为您做到的各种事情的一小部分："
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "保险库"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "安全地存储敏感文件"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "活动"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -275,67 +279,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "区分处理工作、学习和家庭任务"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "连接您的手机和电脑"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "搜索想要的内容"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:93
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "桌面概览"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "您的系统命令中心"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:102
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
 msgstr "获取扩展资源"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "使用附加组件扩展系统功能"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "了解更多 Plasma 功能"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:119
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma 保险库"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:120
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -353,24 +357,24 @@ msgstr ""
 "><nl/>要使用保险库功能，请点击<interface>系统托盘</interface>上的下箭头，展开"
 "隐藏的图标，然后点击<interface>保险库</interface>图标。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:128
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:150
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:244
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:171
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:243
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:262
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:291
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
 msgstr "查看更多功能"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:138
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:152
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "活动"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:139
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:153
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -390,19 +394,19 @@ msgstr ""
 "动”。在“活动”页面中，您可以创建更多的活动。创建完所需的活动之后，您只需按下 "
 "<shortcut>Meta+Tab</shortcut> 键盘快捷键即可在各个活动之间切换。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:155
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:165
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
 msgstr "打开系统设置中的活动页面"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:166
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:182
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:170
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -423,19 +427,19 @@ msgstr ""
 "</item></list><nl/>如果您是首次使用 KDE Connect，请打开<interface>系统设置</"
 "interface>对话框，搜索：“KDE Connect”并进入该页面，即可与手机进行配对。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
 msgstr "打开系统设置中的 KDE Connect 页面"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:223
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:209
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -465,13 +469,13 @@ msgstr ""
 "有更多功能等待您的发现！</item></list><nl/>如需学习 KRunner 的更多用法，请按 "
 "<shortcut>Alt + 空格键</shortcut>，然后点击“问号”图标。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:235
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:253
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "桌面概览"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:236
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -488,13 +492,13 @@ msgstr ""
 "选显示已打开的窗口。<nl/><nl/>要打开桌面预览，请按下 <shortcut>Meta+W</"
 "shortcut> 键盘快捷键。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
 msgstr "获取扩展资源"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:255
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:273
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -511,7 +515,7 @@ msgstr ""
 "的开发人员去实现它们。<nl/><nl/>请注意：通过此方式获取的内容并未经过您系统发"
 "行机构的审查，可能在功能和稳定性上存在缺陷。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:271
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:285
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
@@ -574,7 +578,7 @@ msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "了解更多关于 KDE 社区的信息"
 
-#: src/contents/ui/pages/Welcome.qml:39
+#: src/contents/ui/pages/Welcome.qml:56
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
