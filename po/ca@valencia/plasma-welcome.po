@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-06 02:13+0000\n"
-"PO-Revision-Date: 2023-02-22 13:12+0100\n"
+"PO-Revision-Date: 2023-03-06 11:14+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -56,12 +56,10 @@ msgid "&Next"
 msgstr "&Següent"
 
 #: src/contents/ui/main.qml:162
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Compartir la informació anònima d'ús amb KDE"
+msgstr "Compartir la informació anònima d'ús"
 
 #: src/contents/ui/main.qml:163
 #, kde-format
@@ -75,12 +73,10 @@ msgstr ""
 "sistema, i també ací."
 
 #: src/contents/ui/main.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
-msgstr "Connectar els vostres comptes en línia"
+msgstr "Connectar els comptes en línia"
 
 #: src/contents/ui/main.qml:172
 #, kde-format
@@ -658,9 +654,3 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Mostra les notes de llançament de la versió actual de Plasma."
-
-#~ msgctxt "@info"
-#~ msgid "Page %1 of %2"
-#~ msgid_plural "Page %1 of %2"
-#~ msgstr[0] "Pàgina %1 de %2"
-#~ msgstr[1] "Pàgina %1 de %2"
