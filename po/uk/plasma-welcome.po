@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-06 02:13+0000\n"
-"PO-Revision-Date: 2023-02-22 08:35+0200\n"
+"PO-Revision-Date: 2023-03-07 20:40+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -53,12 +53,10 @@ msgid "&Next"
 msgstr "&Далі"
 
 #: src/contents/ui/main.qml:162
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Надання анонімних даних щодо користування KDE"
+msgstr "Надання анонімних даних щодо користування"
 
 #: src/contents/ui/main.qml:163
 #, kde-format
@@ -71,9 +69,7 @@ msgstr ""
 "KDE. Обсяг наданих відомостей можна визначити у «Системних параметрах» і тут."
 
 #: src/contents/ui/main.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "З'єднатись з мережевим обліковим записом"

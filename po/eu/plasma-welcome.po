@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-06 02:13+0000\n"
-"PO-Revision-Date: 2023-02-09 20:12+0100\n"
+"PO-Revision-Date: 2023-03-07 22:33+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -55,12 +55,10 @@ msgid "&Next"
 msgstr "&Hurrengoa"
 
 #: src/contents/ui/main.qml:162
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Erabileraren informazio anonimoa KDErekin partekatzea"
+msgstr "Partekatu erabileraren informazio anonimoa"
 
 #: src/contents/ui/main.qml:163
 #, kde-format
@@ -69,16 +67,15 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Gure garatzaileek datu anonimo hauek KDE softwarea hobetzeko erabiliko dute. "
-"Sistemaren ezarpenetan zenbat partekatu aukera dezakezu, baita hemen ere."
+"Gure garatzaileek datu anonimo horiek KDE softwarea hobetzeko erabiliko "
+"dituzte. Sistemaren ezarpenetatik zenbat partekatu aukera dezakezu, baita "
+"hemendik ere."
 
 #: src/contents/ui/main.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
-msgstr "Zure lerroko kontuak konektatzea"
+msgstr "Lerroko kontuak konektatzea"
 
 #: src/contents/ui/main.qml:172
 #, kde-format
@@ -87,8 +84,8 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"Honek KDE aplikazioetatik haien edukia atzitzen utziko dizu. Sistema-"
-"ezarpenetan ezar dezakezu, eta baita hemen ere."
+"Horrek KDE aplikazioetatik haien edukia atzitzen utziko dizu. Sistema-"
+"ezarpenetatik ezar dezakezu, eta baita hemendik ere."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -113,10 +110,10 @@ msgstr ""
 "eta haren softwarea zu bezalako jendeak egiten du haien denbora eta pasioa "
 "dohaintzan emanez. Zuk ere gauzak hobetzen lagun dezakezu, itzulpenekin, "
 "ikus-diseinuan, eta promozioan, edo programatzen eta akatsak aurkitzen.<nl/"
-"><nl/>KDEri laguntzean, gauza berezi baten partaide bihurtzen zara, lagun "
-"berriak ezagutu, trebetasun berriak ikasi, eta milioika pertsonentzako aldea "
-"markatuko duzu, software askeko konputazio esperientzia zirraragarri bat "
-"eskaintzeko, mundu osoko jendearekin lan egiten duzun bitartean."
+"><nl/>KDEri laguntzean, berezia den zerbaiten partaide bilakatu zaitezke, "
+"lagun berriak ezagutu, trebetasun berriak ikasi, eta milioika pertsonentzako "
+"aldea eragingo duzu, software askeko konputazio esperientzia zirraragarri "
+"bat eskaintzeko, mundu osoko jendearekin lan egiten duzun bitartean."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -145,16 +142,16 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Discover</application> aplikazioak, jokoak eta tresnak "
-"aurkitzen eta instalatzen laguntzen dizu. Kategoriaren arabera bilatu edo "
-"arakatu dezakezu, pantaila-argazkiak ikusi, eta iritziak irakur ditzakezu "
-"aplikazio perfektua aurkitzen laguntzeko."
+"<application>Discover</application> aplikazioak, aplikazioak, jokoak eta "
+"tresnak aurkitzen eta instalatzen laguntzen dizu. Aplikazio perfektua "
+"bilatzen laguntzeko, kategoriaren arabera bilatu edo arakatu, pantaila-"
+"argazkiak begiratu, eta iritziak irakur ditzakezu."
 
 #: src/contents/ui/pages/Discover.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr "Abiarazi Discover orain"
+msgstr "Abiarazi «Discover» orain"
 
 #: src/contents/ui/pages/Discover.qml:63
 #, kde-format
@@ -166,13 +163,13 @@ msgstr "Discover"
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr "Erakutsi %1 Discover-ren"
+msgstr "Erakutsi «%1» «Discover»ren"
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr "Lagundu zure askatasunari"
+msgstr "Eman babesa zure askatasunari"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -184,11 +181,11 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"KDE aurrekontu estuan dabil, gehienbat eskulan eta baliabideen dohaintzan "
-"oinarrituta. Hori aldatzen lagun dezakezu!<nl/><nl/>Finantza-dohaintzek "
-"KDEri garapenerako esprintak, hardwarea eta zerbitzari-baliabideak, eta "
-"enpleguak ordaintzen laguntzen diote. Dohaintzek, Alemanian, zerga "
-"kengarriak sortzen dituzte."
+"Miraria dirudien arren, KDE aurrekontu oso estuarekin dabil, gehienbat "
+"eskulan eta baliabideen dohaintzan oinarrituz. Hori aldatzen lagun dezakezu!"
+"<nl/><nl/>Finantza-dohaintzek KDEri garapenerako esprintak, hardwarea eta "
+"zerbitzari-baliabideak, eta enpleguak ordaintzen laguntzen diote. "
+"Dohaintzek, Alemanian, zerga kengarriak sortzen dituzte."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -230,21 +227,21 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"KDE kolaboratzaileek azken lau hilabeteak askapen honetan gogor lanean eman "
-"dituzte. Espero dugu Plasma erabiltzen, gu hura egiten bezainbeste gozatuko "
-"duzula!"
+"KDE kolaboratzaileak azken lau hilabeteetan askapen honetarako gogor lan "
+"egiten aritu dira. Espero dugu Plasma erabiltzen, gu hura egiten bezainbeste "
+"gozatuko duzula!"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr "Aurki ezazu zer den berria Plasma %1(e)an"
+msgstr "Aurkitu Plasma %1(a)ren berritasunak"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr "Hurrengo askapeneko lanetan lagundu"
+msgstr "Lagundu hurrengo askapeneko lanetan"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -259,21 +256,21 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plasma ezaugarrietan aberatsa den ingurune bat da, zure emankortasuna "
-"hobetzeko diseinatua! Hona hemen zuregatik egin ditzakeen gauzak "
-"osolaburtuta:"
+"Plasma, ezaugarrietan aberatsa den ingurune bat da, zure emankortasuna "
+"hobetzeko diseinatua! Hona hemen zuregatik egin ditzakeen gauzen laburpen "
+"bat:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Kutxa gotorrak"
+msgstr "Kutxa-gotorrak"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr "Babes berezia behar duten fitxategiak era seguruan biltegiratzea"
+msgstr "Babes berezia behar duten fitxategiak era seguruan biltegiratu"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
@@ -311,7 +308,7 @@ msgstr "KRunner"
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "Edozer bilatu"
+msgstr "Edozer bilatzeko"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
@@ -323,7 +320,7 @@ msgstr "Ikuspegi orokorra"
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "Sistemaren aginte-gunea"
+msgstr "Zure sistemaren aginte-gunea"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
@@ -341,7 +338,7 @@ msgstr "Hedatu sistema gehigarriekin"
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr "Plasmaren ezaugarriei buruz gehiago jakitea"
+msgstr "Plasmaren ezaugarri gehiagori buruz jakitea"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-format
@@ -363,8 +360,8 @@ msgid ""
 msgstr ""
 "Plasma Kutxa-gotorrak (Vaults), <interface>Kutxa-gotorrak</interface> "
 "deituriko zifratutako karpetak sortzeko aukera eskaintzen dizu. Zure kutxa-"
-"gotorren barruan zure pasahitzak, fitxategiak, argazkiak, eta dokumentuak "
-"era seguruan gorde ditzakezu inoren begiradatik salbu. Kutxa-gotorrak "
+"gotorren barruan, inoren begiradatik salbu, zure pasahitzak, fitxategiak, "
+"argazkiak, eta dokumentuak era seguruan gorde ditzakezu. Kutxa-gotorrak "
 "hodeietako zerbitzuetan sinkronizatzen diren karpeten barruan ere egon "
 "daitezke.<nl/><nl/>Hasteko, egin klik <interface>Sistemaren erretiluko</"
 "interface> gezian, ezkutuko elementuak erakusteko, eta ondoren egin klik "
@@ -414,7 +411,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr "Ireki «Jarduerak» orria «Sistema Ezarpenetan»"
+msgstr "Ireki «Sistema Ezarpenetako» «Jarduerak» orria"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:182
 #, kde-format
@@ -451,7 +448,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr "Ireki «KDE Connect» orria «Sistema Ezarpenetan»"
+msgstr "Ireki «Sistema Ezarpenetako» «KDE Connect» orria"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:223
 #, kde-format
@@ -460,23 +457,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
 "keywords as they are localized in the actual runner plugins. If needed, "
@@ -503,8 +484,8 @@ msgstr ""
 "abiarazi, webean bilatu, moneten arteko bihurketak egin, matematika "
 "eragiketak kalkulatu, eta askoz gehiago egin dezake. Saia zaitez bilaketa-"
 "eremu horietako batean ondokoetako edozein tekleatzen: <nl/><list><item>"
-"\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in USD\"</"
-"item><item>\"25 miles in km\"</item><item>…Eta askoz gehiago!</item></"
+"\"ordua London\"</item><item>\"27/3\"</item><item>\"200 EUR in USD\"</"
+"item><item>\"25 milia in km\"</item><item>…Eta askoz gehiago!</item></"
 "list><nl/>Gehiago jakiteko, ireki «KRunner» bilaketa-barra teklatuko "
 "<shortcut>Alt+Zuriunea</shortcut> lasterbidea erabiliz eta egin klik galdera "
 "ikurraren ikonoan."
@@ -636,13 +617,13 @@ msgstr "KDEren maskota «Konqi»k KDE komunitatera ongietorria ematen dizu!"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr "KDE Plamarako ongietorri aplikazio bat"
+msgstr "KDE Plamara ongietorria emateko aplikazio bat"
 
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Ongietorri Gunea"
 
 #: src/main.cpp:57
 #, kde-format

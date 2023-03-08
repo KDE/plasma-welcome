@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-06 02:13+0000\n"
-"PO-Revision-Date: 2023-02-22 09:43+0100\n"
+"PO-Revision-Date: 2023-03-07 05:42+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -56,12 +56,10 @@ msgid "&Next"
 msgstr "&Naprej"
 
 #: src/contents/ui/main.qml:162
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Deli anonimne podatke o uporabi s KDE"
+msgstr "Deli anonimne podatke o uporabi"
 
 #: src/contents/ui/main.qml:163
 #, kde-format
@@ -75,12 +73,10 @@ msgstr ""
 "in tudi tukaj."
 
 #: src/contents/ui/main.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
-msgstr "Poveže vaše spletne račune"
+msgstr "Poveži omrežne račune"
 
 #: src/contents/ui/main.qml:172
 #, kde-format
