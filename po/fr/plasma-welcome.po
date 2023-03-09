@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-06 02:13+0000\n"
-"PO-Revision-Date: 2023-02-22 21:17+0100\n"
+"PO-Revision-Date: 2023-03-08 14:31+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -50,12 +50,10 @@ msgid "&Next"
 msgstr "&Suivant"
 
 #: src/contents/ui/main.qml:162
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Partager anonymement les informations d'utilisation avec KDE"
+msgstr "Partager anonymement les informations d'utilisation"
 
 #: src/contents/ui/main.qml:163
 #, kde-format
@@ -69,12 +67,10 @@ msgstr ""
 "configuration du système et ici aussi."
 
 #: src/contents/ui/main.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
-msgstr "Connectez vous à vos comptes en ligne"
+msgstr "Se connecter à vos comptes en ligne"
 
 #: src/contents/ui/main.qml:172
 #, kde-format
