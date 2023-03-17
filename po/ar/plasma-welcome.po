@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-06 02:13+0000\n"
-"PO-Revision-Date: 2023-02-27 19:22+0400\n"
+"PO-Revision-Date: 2023-03-16 11:34+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -53,12 +53,10 @@ msgid "&Next"
 msgstr "ال&تالي"
 
 #: src/contents/ui/main.qml:162
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "مشاركة معلومات الاستخدام بشكل مجهول مع كِيدِي"
+msgstr "مشاركة معلومات الاستخدام بشكل مجهول"
 
 #: src/contents/ui/main.qml:163
 #, kde-format
@@ -71,12 +69,10 @@ msgstr ""
 "تريد مشاركته من إعدادات النظام ويمكنك إعداده الآن أيضًا."
 
 #: src/contents/ui/main.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
-msgstr "اتصل بحساباتك على الإنترنت"
+msgstr "اتصل بحسابات على الإنترنت"
 
 #: src/contents/ui/main.qml:172
 #, kde-format
