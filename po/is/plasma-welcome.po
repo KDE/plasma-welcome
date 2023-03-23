@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# Sveinn í Felli <sv1@fellsnet.is>, 2022.
+# Sveinn í Felli <sv1@fellsnet.is>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-06 02:13+0000\n"
-"PO-Revision-Date: 2022-11-11 18:09+0000\n"
+"PO-Revision-Date: 2023-03-22 12:58+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -52,12 +52,10 @@ msgid "&Next"
 msgstr "&Næsta"
 
 #: src/contents/ui/main.qml:162
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Deila nafnlausum upplýsingum um notkun með KDE"
+msgstr "Deildu nafnlausum upplýsingum um notkun"
 
 #: src/contents/ui/main.qml:163
 #, kde-format
@@ -68,12 +66,10 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/main.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
-msgstr "Tengstu notandaaðgöngum þínum á netinu"
+msgstr "Tengstu notandaaðgöngum á netinu"
 
 #: src/contents/ui/main.qml:172
 #, kde-format
@@ -233,7 +229,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr ""
+msgstr "Læstar geymslur"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -245,7 +241,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr ""
+msgstr "Athafnir"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
@@ -259,31 +255,31 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr ""
+msgstr "Tengdu símann þinn og tölvuna"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr ""
+msgstr "Leitaðu að einhverju"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Yfirlit"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
@@ -343,7 +339,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr ""
+msgstr "Athafnir"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:153
 #, kde-kuit-format
@@ -369,7 +365,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
 #, kde-kuit-format
@@ -396,7 +392,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
 #, kde-kuit-format
@@ -423,7 +419,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Yfirlit"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
 #, kde-kuit-format
@@ -441,7 +437,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "Sækja nýtt flott dót"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:273
 #, kde-kuit-format
