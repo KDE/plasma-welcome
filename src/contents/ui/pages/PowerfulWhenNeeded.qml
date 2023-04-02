@@ -161,16 +161,16 @@ GenericPage {
 
                 QQC2.Button {
                     Layout.alignment: Qt.AlignHCenter
-                    icon.name: "preferences-desktop-activities"
-                    text: i18nc("@action:button", "Open Activities Page in System Settings")
-                    onClicked: Controller.launchApp("kcm_activities");
-                }
-                QQC2.Button {
-                    Layout.alignment: Qt.AlignHCenter
                     icon.name: "go-previous-view"
                     text: i18nc("@action:button", "See More Features")
                     onClicked: pageStack.layers.pop();
                 }
+            }
+
+            actions.main: Kirigami.Action {
+                icon.name: "preferences-desktop-activities"
+                text: i18nc("@action:button", "Open Settings...")
+                onTriggered: Controller.launchApp("kcm_activities");
             }
         }
     }
@@ -202,16 +202,19 @@ GenericPage {
 
                 QQC2.Button {
                     Layout.alignment: Qt.AlignHCenter
-                    icon.name: "kdeconnect"
-                    text: i18nc("@action:button", "Open KDE Connect Page in System Settings")
-                    onClicked: Controller.launchApp("kcm_kdeconnect");
-                }
-                QQC2.Button {
-                    Layout.alignment: Qt.AlignHCenter
                     icon.name: "go-previous-view"
                     text: i18nc("@action:button", "See More Features")
                     onClicked: pageStack.layers.pop();
                 }
+            }
+
+            // TODO: KDE Connect might not be installed:
+            // We should show an InlineMessage and hide the action.
+
+            actions.main: Kirigami.Action {
+                icon.name: "kdeconnect"
+                text: i18nc("@action:button", "Open Settings...")
+                onTriggered: Controller.launchApp("kcm_kdeconnect");
             }
         }
     }
@@ -269,7 +272,7 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
         id: ghnsView
 
         GenericPage {
-            heading: i18nc("@info:window", "Get Hot New Stuff")
+            heading: i18nc("@info:window", "Get New Stuff")
             description: xi18nc("@info:usagetip", "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked \"Get New [thing]…\". Clicking on them will show you 3rd-party content to extend the system, made by other people like you! In this way, it is often possible to add functionality you want without having to ask KDE developers to implement it themselves.<nl/><nl/>Note that content acquired this way has not been reviewed by your distributor for functionality or stability.")
 
             ColumnLayout {
@@ -281,16 +284,16 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
 
                 QQC2.Button {
                     Layout.alignment: Qt.AlignHCenter
-                    icon.name: "get-hot-new-stuff"
-                    text: i18nc("@action:button", "See All Available 3rd-Party Content")
-                    onClicked: Controller.launchApp("org.kde.knewstuff-dialog");
-                }
-                QQC2.Button {
-                    Layout.alignment: Qt.AlignHCenter
                     icon.name: "go-previous-view"
                     text: i18nc("@action:button", "See More Features")
                     onClicked: pageStack.layers.pop();
                 }
+            }
+
+            actions.main: Kirigami.Action {
+                icon.name: "get-hot-new-stuff"
+                text: i18nc("@action:button", "See 3rd-Party Content...")
+                onTriggered: Controller.launchApp("org.kde.knewstuff-dialog");
             }
         }
     }
