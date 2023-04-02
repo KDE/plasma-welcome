@@ -132,16 +132,6 @@ GenericPage {
         GenericPage {
             heading: i18nc("@info:window", "Plasma Vaults")
             description: xi18nc("@info:usagetip", "Plasma Vaults allows you to create encrypted folders, called <interface>Vaults.</interface> Inside each Vault, you can securely store your passwords, files, pictures, and documents, safe from prying eyes. Vaults can live inside folders that are synced to cloud storage services too, providing extra privacy for that content.<nl/><nl/>To get started, click the arrow on the <interface>System Tray</interface> to show hidden items, and then click the <interface>Vaults</interface> icon.")
-
-            QQC2.Button {
-                anchors.bottom: parent.bottom
-                anchors.bottomMargin: Kirigami.Units.gridUnit * 3
-                anchors.horizontalCenter: parent.horizontalCenter
-
-                icon.name: "go-previous-view"
-                text: i18nc("@action:button", "See More Features")
-                onClicked: pageStack.layers.pop();
-            }
         }
     }
 
@@ -151,21 +141,6 @@ GenericPage {
         GenericPage {
             heading: i18nc("@info:window", "Activities")
             description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut.")
-
-            ColumnLayout {
-                anchors.bottom: parent.bottom
-                anchors.bottomMargin: Kirigami.Units.gridUnit * 3
-                anchors.horizontalCenter: parent.horizontalCenter
-
-                spacing: Kirigami.Units.smallSpacing
-
-                QQC2.Button {
-                    Layout.alignment: Qt.AlignHCenter
-                    icon.name: "go-previous-view"
-                    text: i18nc("@action:button", "See More Features")
-                    onClicked: pageStack.layers.pop();
-                }
-            }
 
             actions.main: Kirigami.Action {
                 icon.name: "preferences-desktop-activities"
@@ -192,21 +167,6 @@ GenericPage {
 <item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>\
 <item>…And much more!</item></list>\
 <nl/>To get started, launch <interface>System Settings</interface> and search for \"KDE Connect\". On that page, you can pair your phone.")
-
-            ColumnLayout {
-                anchors.bottom: parent.bottom
-                anchors.bottomMargin: Kirigami.Units.gridUnit * 3
-                anchors.horizontalCenter: parent.horizontalCenter
-
-                spacing: Kirigami.Units.largeSpacing
-
-                QQC2.Button {
-                    Layout.alignment: Qt.AlignHCenter
-                    icon.name: "go-previous-view"
-                    text: i18nc("@action:button", "See More Features")
-                    onClicked: pageStack.layers.pop();
-                }
-            }
 
             // TODO: KDE Connect might not be installed:
             // We should show an InlineMessage and hide the action.
@@ -236,16 +196,6 @@ GenericPage {
 <item>…And much more!</item></list>\
 <nl/>\
 To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click on the question mark icon.")
-
-            QQC2.Button {
-                anchors.bottom: parent.bottom
-                anchors.bottomMargin: Kirigami.Units.gridUnit * 3
-                anchors.horizontalCenter: parent.horizontalCenter
-
-                icon.name: "go-previous-view"
-                text: i18nc("@action:button", "See More Features")
-                onClicked: pageStack.layers.pop();
-            }
         }
     }
 
@@ -255,16 +205,6 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
         GenericPage {
             heading: i18nc("@info:window The name of a KWin effect", "Overview")
             description: xi18nc("@info:usagetip", "Overview is a full-screen overlay that shows all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows.<nl/><nl/>You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut.")
-
-            QQC2.Button {
-                anchors.bottom: parent.bottom
-                anchors.bottomMargin: Kirigami.Units.gridUnit * 3
-                anchors.horizontalCenter: parent.horizontalCenter
-
-                icon.name: "go-previous-view"
-                text: i18nc("@action:button", "See More Features")
-                onClicked: pageStack.layers.pop();
-            }
         }
     }
 
@@ -274,21 +214,6 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
         GenericPage {
             heading: i18nc("@info:window", "Get New Stuff")
             description: xi18nc("@info:usagetip", "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked \"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-party content to extend the system, made by other people like you! In this way, it is often possible to add functionality you want without having to ask KDE developers to implement it themselves.<nl/><nl/>Note that content acquired this way has not been reviewed by your distributor for functionality or stability.")
-
-            ColumnLayout {
-                anchors.bottom: parent.bottom
-                anchors.bottomMargin: Kirigami.Units.gridUnit * 3
-                anchors.horizontalCenter: parent.horizontalCenter
-
-                spacing: Kirigami.Units.largeSpacing
-
-                QQC2.Button {
-                    Layout.alignment: Qt.AlignHCenter
-                    icon.name: "go-previous-view"
-                    text: i18nc("@action:button", "See More Features")
-                    onClicked: pageStack.layers.pop();
-                }
-            }
 
             actions.main: Kirigami.Action {
                 icon.name: "get-hot-new-stuff"
