@@ -14,6 +14,7 @@
 #include <QUrl>
 #include <QtQml>
 
+#include "applicationInfo.h"
 #include "config.h"
 #include "controller.h"
 #include "plasma-welcome-version.h"
@@ -71,6 +72,7 @@ int main(int argc, char *argv[])
     Controller controller;
     qmlRegisterSingletonInstance("org.kde.plasma.welcome", 1, 0, "Controller", &controller);
     qmlRegisterType<Module>("org.kde.plasma.welcome", 1, 0, "Module");
+    qmlRegisterType<ApplicationInfo>("org.kde.plasma.welcome", 1, 0, "ApplicationInfo");
 
     // Parse CLI args
     QCommandLineParser parser;
