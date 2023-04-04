@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-06 02:13+0000\n"
+"POT-Creation-Date: 2023-04-04 02:22+0000\n"
 "PO-Revision-Date: 2023-03-09 20:05+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -325,14 +325,18 @@ msgid "Your system command center"
 msgstr "Oversikt over opne program/vindauge"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:row"
+#| msgid "Get Hot New Stuff"
 msgctxt "@title:row"
-msgid "Get Hot New Stuff"
+msgid "Get New Stuff"
 msgstr "Hent kule, nye ting"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, kde-format
-msgctxt "@info Caption for Get Hot New Stuff button"
+#, fuzzy, kde-format
+#| msgctxt "@info Caption for Get Hot New Stuff button"
+#| msgid "Extend the system with add-ons"
+msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Utvid systemet med tilleggs­funksjonalitet"
 
@@ -369,23 +373,12 @@ msgstr ""
 "element), og vel så ikonet <interface>Datakvelv</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:171
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:243
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:262
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:291
-#, kde-format
-msgctxt "@action:button"
-msgid "See More Features"
-msgstr "Sjå meir funksjonalitet"
-
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:152
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktivitetar"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:153
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -408,19 +401,22 @@ msgstr ""
 "aktivitetar. Du kan så byta mellom dei med snøggtasten <shortcut>Meta + T</"
 "shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:165
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
+#, fuzzy, kde-format
+#| msgctxt "@title the name of the 'System Settings' app"
+#| msgid "System Settings"
 msgctxt "@action:button"
-msgid "Open Activities Page in System Settings"
-msgstr "Opna aktivitetssida i systemoppsettet"
+msgid "Open Settings…"
+msgstr "Systemoppsett"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:182
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:161
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -444,19 +440,13 @@ msgstr ""
 "oppsettet</interface> og søkja etter «KDE Connect». Der kan du setja opp "
 "saman­koplinga mellom telefonen og datamaskina."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
-#, kde-format
-msgctxt "@action:button"
-msgid "Open KDE Connect Page in System Settings"
-msgstr "Opna KDE Connect-sida i systemoppsettet"
-
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:223
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -488,13 +478,13 @@ msgstr ""
 "opna KRunner-feltet med snøggtasten <shortcut>Alt + Mellomrom</shortcut> og "
 "så trykkja på ikonet som viser eit spørjeteikn."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:253
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Oversikt"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:207
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -511,23 +501,35 @@ msgstr ""
 "filtrera på vindauge etter namn.<nl/><nl/>Du får tilgang til oversikts­"
 "biletet med snøggtasten <shortcut>Meta + W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Get Hot New Stuff"
 msgctxt "@info:window"
-msgid "Get Hot New Stuff"
+msgid "Get New Stuff"
 msgstr "Hent kule, nye ting"
 
 # Sjå tilsvarande tekst for siste setning i «knewstuff5.po».
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:273
-#, kde-kuit-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
+#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
+#| "content to extend the system, made by other people like you! In this way, "
+#| "it is often possible to add functionality you want without having to ask "
+#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
+#| "acquired this way has not been reviewed by your distributor for "
+#| "functionality or stability."
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
-"\"Get New [thing]…\". Clicking on them will show you 3rd-party content to "
-"extend the system, made by other people like you! In this way, it is often "
-"possible to add functionality you want without having to ask KDE developers "
-"to implement it themselves.<nl/><nl/>Note that content acquired this way has "
-"not been reviewed by your distributor for functionality or stability."
+"\"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-"
+"party content to extend the system, made by other people like you! In this "
+"way, it is often possible to add functionality you want without having to "
+"ask KDE developers to implement it themselves.<nl/><nl/>Note that content "
+"acquired this way has not been reviewed by your distributor for "
+"functionality or stability."
 msgstr ""
 "I heile Plasma, i systemoppsettet og i mange KDE-program finn du knappar med "
 "namnet «Hent ny(e) [ting]». Desse tek deg til tilleggs­innhald utvikla av "
@@ -536,10 +538,12 @@ msgstr ""
 "som er utvikla av andre, ikkje er kvalitetssikra av KDE eller leverandøren "
 "din, og det er ikkje garantert å verka skikkeleg eller stabilt."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:285
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "See All Available 3rd-Party Content"
 msgctxt "@action:button"
-msgid "See All Available 3rd-Party Content"
+msgid "See 3rd-Party Content…"
 msgstr "Vis alt tilleggsinnhald utvikla av andre"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
@@ -647,3 +651,15 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Vis utgjevingsnotat for gjeldande Plasma-utgjeving."
+
+#~ msgctxt "@action:button"
+#~ msgid "See More Features"
+#~ msgstr "Sjå meir funksjonalitet"
+
+#~ msgctxt "@action:button"
+#~ msgid "Open Activities Page in System Settings"
+#~ msgstr "Opna aktivitetssida i systemoppsettet"
+
+#~ msgctxt "@action:button"
+#~ msgid "Open KDE Connect Page in System Settings"
+#~ msgstr "Opna KDE Connect-sida i systemoppsettet"

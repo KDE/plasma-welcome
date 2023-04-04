@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-06 02:13+0000\n"
+"POT-Creation-Date: 2023-04-04 02:22+0000\n"
 "PO-Revision-Date: 2023-02-09 11:40\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -325,14 +325,18 @@ msgid "Your system command center"
 msgstr "Цэнтр кіравання вашай сістэмы"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:row"
+#| msgid "Get Hot New Stuff"
 msgctxt "@title:row"
-msgid "Get Hot New Stuff"
+msgid "Get New Stuff"
 msgstr "Атрымлівайце новыя элементы"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, kde-format
-msgctxt "@info Caption for Get Hot New Stuff button"
+#, fuzzy, kde-format
+#| msgctxt "@info Caption for Get Hot New Stuff button"
+#| msgid "Extend the system with add-ons"
+msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Пашырце магчымасці сістэмы з дапамогай дапаўненняў"
 
@@ -370,23 +374,12 @@ msgstr ""
 "interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:171
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:243
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:262
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:291
-#, kde-format
-msgctxt "@action:button"
-msgid "See More Features"
-msgstr "Паглядзець больш функцый"
-
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:152
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Пакоі"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:153
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -409,19 +402,22 @@ msgstr ""
 "пераключацца паміж імі з дапамогай спалучэння клавіш <shortcut>Meta+Tab</"
 "shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:165
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
+#, fuzzy, kde-format
+#| msgctxt "@title the name of the 'System Settings' app"
+#| msgid "System Settings"
 msgctxt "@action:button"
-msgid "Open Activities Page in System Settings"
-msgstr "Адкрыць старонку пакояў у сістэмных наладах"
+msgid "Open Settings…"
+msgstr "Налады сістэмы"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:182
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:161
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -445,19 +441,13 @@ msgstr ""
 "пачаць, запусціце <interface>Налады сістэмы</interface> і знайдзіце \"KDE "
 "Connect\". На гэтай старонцы вы можаце спалучыць свой тэлефон."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
-#, kde-format
-msgctxt "@action:button"
-msgid "Open KDE Connect Page in System Settings"
-msgstr "Адкрыць старонку KDE Connect у сістэмных наладах"
-
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:223
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, fuzzy, kde-kuit-format
 #| msgctxt ""
 #| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
@@ -505,13 +495,13 @@ msgstr ""
 ">Каб даведацца больш падрабязна, адкрыйце панэль пошуку KRunner з дарамогай "
 "<shortcut>Alt+Прагал</shortcut> і пстрыкніце па значку пытальніка."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:253
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Агляд"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:207
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -530,22 +520,34 @@ msgstr ""
 "вокны.<nl/><nl/>Вы можаце адкрыць агляд з дапамогай спалучэння клавіш "
 "<shortcut>Meta+W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Get Hot New Stuff"
 msgctxt "@info:window"
-msgid "Get Hot New Stuff"
+msgid "Get New Stuff"
 msgstr "Атрымлівайце новыя элементы"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:273
-#, kde-kuit-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
+#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
+#| "content to extend the system, made by other people like you! In this way, "
+#| "it is often possible to add functionality you want without having to ask "
+#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
+#| "acquired this way has not been reviewed by your distributor for "
+#| "functionality or stability."
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
-"\"Get New [thing]…\". Clicking on them will show you 3rd-party content to "
-"extend the system, made by other people like you! In this way, it is often "
-"possible to add functionality you want without having to ask KDE developers "
-"to implement it themselves.<nl/><nl/>Note that content acquired this way has "
-"not been reviewed by your distributor for functionality or stability."
+"\"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-"
+"party content to extend the system, made by other people like you! In this "
+"way, it is often possible to add functionality you want without having to "
+"ask KDE developers to implement it themselves.<nl/><nl/>Note that content "
+"acquired this way has not been reviewed by your distributor for "
+"functionality or stability."
 msgstr ""
 "У праграмах Plasma, System Settings і іншых праграмах KDE вы знойдзеце "
 "кнопкі з надпісам \"Атрымаць новы [элемент]…\". Калі націснуць на іх, вы "
@@ -555,10 +557,12 @@ msgstr ""
 "чынам, не правяралася вашым дыстрыбутывам на функцыянальнасць або "
 "стабільнасць."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:285
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "See All Available 3rd-Party Content"
 msgctxt "@action:button"
-msgid "See All Available 3rd-Party Content"
+msgid "See 3rd-Party Content…"
 msgstr "Паглядзець усё даступнае старонняе змесціва"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
@@ -667,6 +671,18 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr ""
+
+#~ msgctxt "@action:button"
+#~ msgid "See More Features"
+#~ msgstr "Паглядзець больш функцый"
+
+#~ msgctxt "@action:button"
+#~ msgid "Open Activities Page in System Settings"
+#~ msgstr "Адкрыць старонку пакояў у сістэмных наладах"
+
+#~ msgctxt "@action:button"
+#~ msgid "Open KDE Connect Page in System Settings"
+#~ msgstr "Адкрыць старонку KDE Connect у сістэмных наладах"
 
 #~ msgctxt "@info"
 #~ msgid "Page %1 of %2"

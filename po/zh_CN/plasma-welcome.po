@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-06 02:13+0000\n"
+"POT-Creation-Date: 2023-04-04 02:22+0000\n"
 "PO-Revision-Date: 2023-02-24 12:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -316,14 +316,18 @@ msgid "Your system command center"
 msgstr "您的系统命令中心"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:row"
+#| msgid "Get Hot New Stuff"
 msgctxt "@title:row"
-msgid "Get Hot New Stuff"
+msgid "Get New Stuff"
 msgstr "获取扩展资源"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, kde-format
-msgctxt "@info Caption for Get Hot New Stuff button"
+#, fuzzy, kde-format
+#| msgctxt "@info Caption for Get Hot New Stuff button"
+#| msgid "Extend the system with add-ons"
+msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "使用附加组件扩展系统功能"
 
@@ -358,23 +362,12 @@ msgstr ""
 "隐藏的图标，然后点击<interface>保险库</interface>图标。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:171
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:243
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:262
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:291
-#, kde-format
-msgctxt "@action:button"
-msgid "See More Features"
-msgstr "查看更多功能"
-
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:152
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "活动"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:153
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -394,19 +387,22 @@ msgstr ""
 "动”。在“活动”页面中，您可以创建更多的活动。创建完所需的活动之后，您只需按下 "
 "<shortcut>Meta+Tab</shortcut> 键盘快捷键即可在各个活动之间切换。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:165
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
+#, fuzzy, kde-format
+#| msgctxt "@title the name of the 'System Settings' app"
+#| msgid "System Settings"
 msgctxt "@action:button"
-msgid "Open Activities Page in System Settings"
-msgstr "打开系统设置中的活动页面"
+msgid "Open Settings…"
+msgstr "系统设置"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:182
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:161
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -427,19 +423,13 @@ msgstr ""
 "</item></list><nl/>如果您是首次使用 KDE Connect，请打开<interface>系统设置</"
 "interface>对话框，搜索：“KDE Connect”并进入该页面，即可与手机进行配对。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
-#, kde-format
-msgctxt "@action:button"
-msgid "Open KDE Connect Page in System Settings"
-msgstr "打开系统设置中的 KDE Connect 页面"
-
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:223
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -469,13 +459,13 @@ msgstr ""
 "有更多功能等待您的发现！</item></list><nl/>如需学习 KRunner 的更多用法，请按 "
 "<shortcut>Alt + 空格键</shortcut>，然后点击“问号”图标。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:253
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "桌面概览"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:207
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -492,22 +482,34 @@ msgstr ""
 "选显示已打开的窗口。<nl/><nl/>要打开桌面预览，请按下 <shortcut>Meta+W</"
 "shortcut> 键盘快捷键。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Get Hot New Stuff"
 msgctxt "@info:window"
-msgid "Get Hot New Stuff"
+msgid "Get New Stuff"
 msgstr "获取扩展资源"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:273
-#, kde-kuit-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
+#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
+#| "content to extend the system, made by other people like you! In this way, "
+#| "it is often possible to add functionality you want without having to ask "
+#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
+#| "acquired this way has not been reviewed by your distributor for "
+#| "functionality or stability."
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
-"\"Get New [thing]…\". Clicking on them will show you 3rd-party content to "
-"extend the system, made by other people like you! In this way, it is often "
-"possible to add functionality you want without having to ask KDE developers "
-"to implement it themselves.<nl/><nl/>Note that content acquired this way has "
-"not been reviewed by your distributor for functionality or stability."
+"\"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-"
+"party content to extend the system, made by other people like you! In this "
+"way, it is often possible to add functionality you want without having to "
+"ask KDE developers to implement it themselves.<nl/><nl/>Note that content "
+"acquired this way has not been reviewed by your distributor for "
+"functionality or stability."
 msgstr ""
 "在 Plasma、系统设置和 KDE 应用中，你会看到一些叫做“获取新的 XX…”的按钮。点击"
 "这些按钮将显示用于扩展系统功能的第三方资源。这些内容是由和您一样的用户制作"
@@ -515,10 +517,12 @@ msgstr ""
 "的开发人员去实现它们。<nl/><nl/>请注意：通过此方式获取的内容并未经过您系统发"
 "行机构的审查，可能在功能和稳定性上存在缺陷。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:285
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "See All Available 3rd-Party Content"
 msgctxt "@action:button"
-msgid "See All Available 3rd-Party Content"
+msgid "See 3rd-Party Content…"
 msgstr "查看所有可用的第三方内容"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
@@ -624,6 +628,18 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "显示当前 Plasma 版本的发行日志。"
+
+#~ msgctxt "@action:button"
+#~ msgid "See More Features"
+#~ msgstr "查看更多功能"
+
+#~ msgctxt "@action:button"
+#~ msgid "Open Activities Page in System Settings"
+#~ msgstr "打开系统设置中的活动页面"
+
+#~ msgctxt "@action:button"
+#~ msgid "Open KDE Connect Page in System Settings"
+#~ msgstr "打开系统设置中的 KDE Connect 页面"
 
 #~ msgctxt "@info"
 #~ msgid "Page %1 of %2"

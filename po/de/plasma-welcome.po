@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-06 02:13+0000\n"
+"POT-Creation-Date: 2023-04-04 02:22+0000\n"
 "PO-Revision-Date: 2023-02-07 17:47+0100\n"
 "Last-Translator: Jannick Kuhr <opensource@kuhr.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
@@ -330,14 +330,18 @@ msgid "Your system command center"
 msgstr "Die Kommandozentrale Ihres Systems"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:row"
+#| msgid "Get Hot New Stuff"
 msgctxt "@title:row"
-msgid "Get Hot New Stuff"
+msgid "Get New Stuff"
 msgstr "Erweiterungen"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, kde-format
-msgctxt "@info Caption for Get Hot New Stuff button"
+#, fuzzy, kde-format
+#| msgctxt "@info Caption for Get Hot New Stuff button"
+#| msgid "Extend the system with add-ons"
+msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Ihr System mit Erweiterungen personalisieren"
 
@@ -376,23 +380,12 @@ msgstr ""
 "interface>-Symbol."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:171
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:243
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:262
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:291
-#, kde-format
-msgctxt "@action:button"
-msgid "See More Features"
-msgstr "Weitere Funktionen ansehen"
-
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:152
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktivitäten"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:153
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -417,19 +410,22 @@ msgstr ""
 "Aktivitäten anlegen. Um zwischen ihnen zu wechseln, verwenden Sie den "
 "Tastaturkurzbefehl <shortcut>Meta+Tab</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:165
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
+#, fuzzy, kde-format
+#| msgctxt "@title the name of the 'System Settings' app"
+#| msgid "System Settings"
 msgctxt "@action:button"
-msgid "Open Activities Page in System Settings"
-msgstr "„Aktivitäten“-Seite in den Systemeinstellungen öffnen"
+msgid "Open Settings…"
+msgstr "Systemeinstellungen"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:182
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:161
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -455,19 +451,13 @@ msgstr ""
 "öffnen Sie die <interface>Systemeinstellungen</interface> und suchen Sie "
 "nach „KDE Connect“. Auf dieser Seite können Sie Ihr Telefon koppeln."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
-#, kde-format
-msgctxt "@action:button"
-msgid "Open KDE Connect Page in System Settings"
-msgstr "KDE Connect in den Systemeinstellungen öffnen"
-
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:223
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:227
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, fuzzy, kde-kuit-format
 #| msgctxt ""
 #| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
@@ -517,13 +507,13 @@ msgstr ""
 "<shortcut>Alt+Leertaste</shortcut> und klicken Sie auf das Fragezeichen-"
 "Symbol."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:253
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Übersicht"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:254
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:207
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -542,22 +532,34 @@ msgstr ""
 "können.<nl/><nl/>Sie können die „Übersicht“ mit dem Tastaturkurzbefehl "
 "<shortcut>Meta+W</shortcut> öffnen."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:272
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Get Hot New Stuff"
 msgctxt "@info:window"
-msgid "Get Hot New Stuff"
+msgid "Get New Stuff"
 msgstr "Neue Erweiterungen herunterladen"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:273
-#, kde-kuit-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
+#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
+#| "content to extend the system, made by other people like you! In this way, "
+#| "it is often possible to add functionality you want without having to ask "
+#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
+#| "acquired this way has not been reviewed by your distributor for "
+#| "functionality or stability."
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
-"\"Get New [thing]…\". Clicking on them will show you 3rd-party content to "
-"extend the system, made by other people like you! In this way, it is often "
-"possible to add functionality you want without having to ask KDE developers "
-"to implement it themselves.<nl/><nl/>Note that content acquired this way has "
-"not been reviewed by your distributor for functionality or stability."
+"\"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-"
+"party content to extend the system, made by other people like you! In this "
+"way, it is often possible to add functionality you want without having to "
+"ask KDE developers to implement it themselves.<nl/><nl/>Note that content "
+"acquired this way has not been reviewed by your distributor for "
+"functionality or stability."
 msgstr ""
 "Überall in Plasma, z. B. in den Systemeinstellungen oder in KDE-Anwendungen, "
 "finden Sie Knöpfe mit der Aufschrift „Neue ... holen“. Wenn Sie darauf "
@@ -567,10 +569,12 @@ msgstr ""
 ">Beachten Sie, dass auf diesem Wege bezogene Inhalte von Ihrer Distribution "
 "nicht auf Funktion oder Stabilität geprüft wurden."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:285
-#, kde-format
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "See All Available 3rd-Party Content"
 msgctxt "@action:button"
-msgid "See All Available 3rd-Party Content"
+msgid "See 3rd-Party Content…"
 msgstr "Alle verfügbaren Inhalte von Dritten ansehen"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
@@ -680,6 +684,18 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr ""
+
+#~ msgctxt "@action:button"
+#~ msgid "See More Features"
+#~ msgstr "Weitere Funktionen ansehen"
+
+#~ msgctxt "@action:button"
+#~ msgid "Open Activities Page in System Settings"
+#~ msgstr "„Aktivitäten“-Seite in den Systemeinstellungen öffnen"
+
+#~ msgctxt "@action:button"
+#~ msgid "Open KDE Connect Page in System Settings"
+#~ msgstr "KDE Connect in den Systemeinstellungen öffnen"
 
 #~ msgctxt "@info"
 #~ msgid "Page %1 of %2"
