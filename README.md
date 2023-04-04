@@ -51,14 +51,9 @@ Kirigami.Icon {
 
 ## Open an external app
 ```
-Kirigami.Icon {
-    source: "document-open-folder"
-    HoverHandler {
-        cursorShape: Qt.PointingHandCursor
-    }
-    TapHandler {
-        onTapped: Controller.launchApp("org.kde.dolphin")
-    }
+ApplicationIcon {
+    application: "org.kde.dolphin"
+    size: Kirigami.Units.gridUnit * 10
 }
 ```
 

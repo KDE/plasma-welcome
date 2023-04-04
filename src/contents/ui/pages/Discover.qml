@@ -21,47 +21,14 @@ GenericPage {
 
     ColumnLayout {
         anchors.centerIn: parent
-        anchors.verticalCenterOffset: -Kirigami.Units.gridUnit
-        spacing: 0 // children will add their own as needed
+        spacing: Kirigami.Units.gridUnit
 
-        Kirigami.Icon {
-            id: image
-            implicitWidth: Kirigami.Units.gridUnit * (applicationGrid.twoRowlayout ? 7 : 10)
-            implicitHeight: Kirigami.Units.gridUnit * (applicationGrid.twoRowlayout ? 7 : 10)
-            Layout.alignment: Qt.AlignHCenter
-            source: "plasmadiscover"
+        ApplicationIcon {
+            Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+            Layout.fillHeight: true
 
-            HoverHandler {
-                id: hoverhandler
-                cursorShape: Qt.PointingHandCursor
-            }
-            TapHandler {
-                onTapped: Controller.launchApp("org.kde.discover");
-            }
-
-            QQC2.ToolTip {
-                visible: hoverhandler.hovered
-                text: i18nc("@action:button", "Launch Discover now")
-            }
-
-            layer.enabled: true
-            layer.effect: DropShadow {
-                transparentBorder: true
-                horizontalOffset: 0
-                verticalOffset: 1
-                radius: 20
-                samples: 20
-                color: Qt.rgba(0, 0, 0, 0.2)
-            }
-        }
-
-        Kirigami.Heading {
-            id: label
-            Layout.alignment: Qt.AlignHCenter
-            Layout.bottomMargin: Kirigami.Units.largeSpacing * (applicationGrid.twoRowlayout ? 2 : 6)
-            text: i18nc("@title the name of the app 'Discover'", "Discover")
-            wrapMode: Text.WordWrap
-            level: 3
+            application: "org.kde.discover"
+            size: Kirigami.Units.gridUnit * (applicationGrid.twoRowlayout ? 6 : 10)
         }
 
         GridLayout {

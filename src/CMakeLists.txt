@@ -34,6 +34,7 @@ install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 ecm_add_qml_module(PlasmaWelcomeModule URI "org.kde.plasma.welcome" NO_PLUGIN VERSION 1.0)
 ecm_target_qml_sources(PlasmaWelcomeModule SOURCES qml/GenericPage.qml)
 ecm_target_qml_sources(PlasmaWelcomeModule SOURCES qml/KCM.qml)
+ecm_target_qml_sources(PlasmaWelcomeModule SOURCES qml/ApplicationIcon.qml)
 ecm_finalize_qml_module(PlasmaWelcomeModule DESTINATION ${KDE_INSTALL_QMLDIR})
 
 add_subdirectory(kded)
