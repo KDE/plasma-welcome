@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-04 02:22+0000\n"
-"PO-Revision-Date: 2023-03-16 16:34+0300\n"
+"PO-Revision-Date: 2023-04-04 12:11+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -319,20 +319,16 @@ msgid "Your system command center"
 msgstr "Sistem komuta merkeziniz"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "Yeni Çıkanları Al"
+msgstr "Yeni Şeyler Al"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Sisteminizi, eklentilerle genişletin"
+msgstr "Sisteminizi eklentilerle genişletin"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
@@ -398,12 +394,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Sistem Ayarları"
+msgstr "Ayarları Aç…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
 #, kde-format
@@ -502,24 +496,13 @@ msgstr ""
 "kullanarak erişebilirsiniz."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "Yeni Çıkanları Al"
+msgstr "Yeni Şeyler Al"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -530,21 +513,19 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
-"Plasma, Sistem Ayarları ve KDE uygulamalarında \"Yeni [şey] Al...\" işaretli "
-"düğmeler bulacaksınız. Bunlara tıkladığınızda, sistemi genişletmek için "
-"sizin gibi başkaları tarafından yapılmış 3. kişiler içeriği gösterilir! "
-"Böylece, KDE geliştiricilerinden kendilerinin uygulamalarını istemek zorunda "
-"kalmadan istediğiniz işlevselliği eklemek genellikle olanaklıdır.<nl/><nl/"
-">Bu şekilde elde edilen içeriğin işlevsellik veya kararlılık açısından "
-"dağıtımcınız tarafından incelenmediğini unutmayın."
+"Plasma, Sistem Ayarları ve KDE uygulamalarında \"Yeni <emphasis>Şeyler</"
+"emphasis> Al...\" işaretli düğmeler bulacaksınız. Bunlara tıkladığınızda, "
+"sistemi genişletmek için sizin gibi başkaları tarafından yapılmış 3. kişiler "
+"içeriği gösterilir! Böylece, KDE geliştiricilerinden kendilerinin "
+"uygulamalarını istemek zorunda kalmadan istediğiniz işlevselliği eklemek "
+"genellikle olanaklıdır.<nl/><nl/>Bu şekilde elde edilen içeriğin işlevsellik "
+"veya kararlılık açısından dağıtımcınız tarafından incelenmediğini unutmayın."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Tüm Kullanılabilir 3. Kişi İçeriğini Gör"
+msgstr "3. Parti İçeriği Gör…"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format

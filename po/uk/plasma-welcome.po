@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-04 02:22+0000\n"
-"PO-Revision-Date: 2023-03-07 20:40+0200\n"
+"PO-Revision-Date: 2023-04-04 18:41+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -323,17 +323,13 @@ msgid "Your system command center"
 msgstr "Командний центр вашої системи"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Отримання нових матеріалів"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Розширте систему за допомогою додатків"
@@ -403,12 +399,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Системні параметри"
+msgstr "Відкрити вікно параметрів…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
 #, kde-format
@@ -507,24 +501,13 @@ msgstr ""
 "можна за допомогою натискання комбінації клавіш <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Отримання нових матеріалів"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -536,21 +519,19 @@ msgid ""
 "functionality or stability."
 msgstr ""
 "У Плазмі, Системних параметрах та програмах KDE є кнопки із написом "
-"«Отримати нові [дані]…». Натискання цих кнопок відкриває доступ до сторонніх "
-"даних, які розширюють можливості вашої системи і які створено такими самими "
-"користувачами, як ви! За допомогою отриманих даних ви часто зможете додати у "
-"систему можливості, які вам потрібні, не просячи розробників KDE реалізувати "
-"їх окремо.<nl/><nl/>Зауважте, що отримані у такий спосіб можливості не було "
-"перевірено авторами вашого дистрибутива на працездатність або стабільність "
-"роботи."
+"«Отримати нові <emphasis>дані</emphasis>…». Натискання цих кнопок відкриває "
+"доступ до сторонніх даних, які розширюють можливості вашої системи і які "
+"створено такими самими користувачами, як ви! За допомогою отриманих даних ви "
+"часто зможете додати у систему можливості, які вам потрібні, не просячи "
+"розробників KDE реалізувати їх окремо.<nl/><nl/>Зауважте, що отримані у "
+"такий спосіб можливості не було перевірено авторами вашого дистрибутива на "
+"працездатність або стабільність роботи."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Переглянути усі доступні сторонні дані"
+msgstr "Переглянути сторонні дані…"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
