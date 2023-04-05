@@ -67,10 +67,10 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Config", Config::self());
+    qmlRegisterSingletonInstance("org.kde.plasma.welcome", 1, 0, "Config", Config::self());
     Controller controller;
-    qmlRegisterSingletonInstance("org.kde.welcome", 1, 0, "Controller", &controller);
-    qmlRegisterType<Module>("org.kde.welcome", 1, 0, "Module");
+    qmlRegisterSingletonInstance("org.kde.plasma.welcome", 1, 0, "Controller", &controller);
+    qmlRegisterType<Module>("org.kde.plasma.welcome", 1, 0, "Module");
 
     // Parse CLI args
     QCommandLineParser parser;
