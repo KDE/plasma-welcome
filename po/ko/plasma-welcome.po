@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-04-04 02:22+0000\n"
+"POT-Creation-Date: 2023-04-06 02:04+0000\n"
 "PO-Revision-Date: 2023-03-01 00:04+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -27,31 +27,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: src/contents/ui/main.qml:63
+#: src/contents/ui/main.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "건너뛰기(&S)"
 
-#: src/contents/ui/main.qml:63
+#: src/contents/ui/main.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "뒤로(&B)"
 
-#: src/contents/ui/main.qml:92
+#: src/contents/ui/main.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "완료(&F)"
 
-#: src/contents/ui/main.qml:92
+#: src/contents/ui/main.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "다음(&N)"
 
-#: src/contents/ui/main.qml:162
+#: src/contents/ui/main.qml:161
 #, fuzzy, kde-format
 #| msgctxt "@title: window"
 #| msgid "Share Anonymous Usage Information With KDE"
@@ -59,7 +59,7 @@ msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "KDE와 익명으로 사용 정보 공유"
 
-#: src/contents/ui/main.qml:163
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 "수집한 익명 데이터는 KDE 소프트웨어를 개선하는 데 사용됩니다. 시스템 설정 및 "
 "여기에서 공유할 데이터 수준을 변경할 수 있습니다."
 
-#: src/contents/ui/main.qml:171
+#: src/contents/ui/main.qml:170
 #, fuzzy, kde-format
 #| msgctxt "@title: window"
 #| msgid "Connect Your Online Accounts"
@@ -77,7 +77,7 @@ msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "내 온라인 계정 연결"
 
-#: src/contents/ui/main.qml:172
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -126,13 +126,13 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "%1 방문"
 
-#: src/contents/ui/pages/Discover.qml:20
+#: src/contents/ui/pages/Discover.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "소프트웨어 관리"
 
-#: src/contents/ui/pages/Discover.qml:21
+#: src/contents/ui/pages/Discover.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -144,19 +144,19 @@ msgstr ""
 "고 설치할 수 있습니다. 앱을 찾아볼 수 있도록 분류별로 탐색, 스크린샷 보기, 리"
 "뷰 읽기를 할 수 있습니다."
 
-#: src/contents/ui/pages/Discover.qml:45
+#: src/contents/ui/pages/Discover.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "Discover 실행"
 
-#: src/contents/ui/pages/Discover.qml:63
+#: src/contents/ui/pages/Discover.qml:62
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "Discover"
 
-#: src/contents/ui/pages/Discover.qml:131
+#: src/contents/ui/pages/Discover.qml:130
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -180,7 +180,7 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/PlasmaUpdate.qml:38
+#: src/contents/ui/pages/PlasmaUpdate.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -202,13 +202,13 @@ msgid ""
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
 msgstr "Plasma가 %1 버전으로 업데이트됨"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:23
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -216,25 +216,25 @@ msgid ""
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:28
+#: src/contents/ui/pages/PlasmaUpdate.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
 msgstr "Plasma %1의 새로운 기능 알아보기"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:33
+#: src/contents/ui/pages/PlasmaUpdate.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "다음 릴리스 돕기"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "필요할 때 강력하게"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -242,25 +242,25 @@ msgid ""
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "비밀 공간"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "민감한 파일을 안전하게 저장하기"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "활동"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -268,43 +268,43 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "업무, 학교, 개인 작업 분리하기"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:83
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "내 휴대폰과 컴퓨터 연결하기"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:95
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "무엇이든 검색하기"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:105
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "한눈에 보기"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "시스템 제어 센터"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
 #, fuzzy, kde-format
 #| msgctxt "@title:row"
 #| msgid "Get Hot New Stuff"
@@ -312,7 +312,7 @@ msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "새로운 항목 다운로드"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, fuzzy, kde-format
 #| msgctxt "@info Caption for Get Hot New Stuff button"
 #| msgid "Extend the system with add-ons"
@@ -320,19 +320,19 @@ msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "시스템을 추가 기능으로 확장"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:132
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma 비밀 공간"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -345,13 +345,13 @@ msgid ""
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:141
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "활동"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -365,8 +365,8 @@ msgid ""
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
 #, fuzzy, kde-format
 #| msgctxt "@title the name of the 'System Settings' app"
 #| msgid "System Settings"
@@ -374,13 +374,13 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "시스템 설정"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:161
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -395,13 +395,13 @@ msgid ""
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:185
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -422,13 +422,13 @@ msgid ""
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "한눈에 보기"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:207
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -440,7 +440,7 @@ msgid ""
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
 #, fuzzy, kde-format
 #| msgctxt "@info:window"
 #| msgid "Get Hot New Stuff"
@@ -448,7 +448,7 @@ msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "새로운 항목 다운로드"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -461,7 +461,7 @@ msgid ""
 "functionality or stability."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "See All Available 3rd-Party Content"
@@ -469,13 +469,13 @@ msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
 msgstr "모든 제3자 콘텐츠 보기"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:18
+#: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "기본적으로 간단하게"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:19
+#: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -486,13 +486,13 @@ msgid ""
 "app."
 msgstr ""
 
-#: src/contents/ui/pages/SimpleByDefault.qml:39
+#: src/contents/ui/pages/SimpleByDefault.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
 msgstr "시스템 설정 실행하기"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:56
+#: src/contents/ui/pages/SimpleByDefault.qml:55
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"

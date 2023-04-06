@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-04-04 02:22+0000\n"
-"PO-Revision-Date: 2023-03-08 13:57+0100\n"
+"POT-Creation-Date: 2023-04-06 02:04+0000\n"
+"PO-Revision-Date: 2023-04-05 07:00+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -28,37 +28,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
 
-#: src/contents/ui/main.qml:63
+#: src/contents/ui/main.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "გამო&ტოვება"
 
-#: src/contents/ui/main.qml:63
+#: src/contents/ui/main.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&უკან"
 
-#: src/contents/ui/main.qml:92
+#: src/contents/ui/main.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&დასრულება"
 
-#: src/contents/ui/main.qml:92
+#: src/contents/ui/main.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&შემდეგი"
 
-#: src/contents/ui/main.qml:162
+#: src/contents/ui/main.qml:161
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "გამოყენების ანონიმური ინფორმაციის გაზიარება"
 
-#: src/contents/ui/main.qml:163
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -69,13 +69,13 @@ msgstr ""
 "გამოიყენებენ. იმისი არჩევა, რას გაგვიზიარებთ, სისტემის მორგების ფანჯარაში "
 "შეგიძლიათ."
 
-#: src/contents/ui/main.qml:171
+#: src/contents/ui/main.qml:170
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "ონლაინ ანგარიშები"
 
-#: src/contents/ui/main.qml:172
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -126,13 +126,13 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "ეწვიეთ %1-ს"
 
-#: src/contents/ui/pages/Discover.qml:20
+#: src/contents/ui/pages/Discover.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "პროგრამების მართვა"
 
-#: src/contents/ui/pages/Discover.qml:21
+#: src/contents/ui/pages/Discover.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -145,19 +145,19 @@ msgstr ""
 "დაათვალიეროთ კატეგორიების მიხედვით, გადახედოთ ეკრანის ანაბეჭდებს და "
 "წაიკითხოთ კომენტარები, რათა თქვენთვის სასურველი პროგრამა იპოვოთ."
 
-#: src/contents/ui/pages/Discover.qml:45
+#: src/contents/ui/pages/Discover.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "გაუშვით Discover ახლა"
 
-#: src/contents/ui/pages/Discover.qml:63
+#: src/contents/ui/pages/Discover.qml:62
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "აღმოაჩინეთ"
 
-#: src/contents/ui/pages/Discover.qml:131
+#: src/contents/ui/pages/Discover.qml:130
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -186,7 +186,7 @@ msgstr ""
 "შემოწირულობები გერმანიაში გადასახადებში არ ითვლება."
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/PlasmaUpdate.qml:38
+#: src/contents/ui/pages/PlasmaUpdate.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -211,13 +211,13 @@ msgstr ""
 "მართოთ. მასთან წვდომისთვის დააწკაპუნეთ <interface>ქსელის</interface> "
 "ხატულაზე <interface>სისტემის კუთხეში, საათთან</interface>."
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
 msgstr "Plasma განახლდა ვერსიამდე %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:23
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -227,25 +227,25 @@ msgstr ""
 "KDE-ის შემომწირავებმა ბოლო 4 თვე ამ რელიზზე მუშაობაში დახარჯეს. იმედია, "
 "თქვენ მოგწონთ Plasma ისე ძალიან, როგორც ჩვენ მისი შექმნა მოგვწონდა!"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:28
+#: src/contents/ui/pages/PlasmaUpdate.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
 msgstr "გაიგეთ, რა არის ახალი Plasma %1-ში"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:33
+#: src/contents/ui/pages/PlasmaUpdate.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "დაგვეხმარეთ შემდეგი რელიზზე მუშაობაში"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "მძლავრი, როცა საჭიროა"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -255,25 +255,25 @@ msgstr ""
 "Plasma ფუნქციებითაა გაძეძგილი და განკუთვნილია, რომ აასწრაფოს თქვენი "
 "წარმადობა! მცირე მონახაზი საგნებისა, რომლებიც შეგიძლიათ, გააკეთოთ:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "საცავები"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "მნიშვნელოვანი ფაილების საიმედოდ შენახვა"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "ქმედებები"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -281,71 +281,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "განაცალკევეთ სამსახურის, სკოლის და სახლის ამოცანები"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:83
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "დააკავშირეთ ტელეფონი და კომპიუტერი"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:95
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "მოძებნეთ, რაც გნებავთ"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:105
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "მიმოხილვა"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "თქვენი სისტემის მართვის ცენტრი"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "მიიღეთ ახალი პროგრამები"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "გააფართოვეთ სისტემის ფუნქციონალი დამატებებით"
+msgstr "გააფართოვეთ სისტემა დამატებების საშუალებით"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "გაიგეთ მეტი Plasma-ის ფუნქციების შესახებ"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:132
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma -ის საცავები"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -366,13 +362,13 @@ msgstr ""
 "კუთხეში</interface>, რათა დამალული ჩანაწერები გამოაჩინოთ და "
 "<interface>საცავების</interface> ხატულაზე დააწკაპუნეთ."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:141
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "ქმედებები"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -395,22 +391,20 @@ msgstr ""
 "შეგიძლიათ მეტი აქტივობა შექმნათ. მათ შორის გადართვა კი <shortcut>Meta+Tab</"
 "shortcut> ღილაკებით შეგიძლიათ."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "სისტემის მორგება"
+msgstr "პარამეტრების გახსნა.…"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:161
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -434,13 +428,13 @@ msgstr ""
 ">დასაწყებად გაუშვით <interface>სისტემის მორგება</interface> და მოძებნეთ KDE "
 "connect. იმ გვერდზე შეგიძლიათ ტელეფონი კომპიუტერზე მიაბათ."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:185
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -467,13 +461,13 @@ msgstr ""
 "შეუძლია გაუშვას აპები, მოძებნოს ვებში, გადაიყვანოს ვალუტები, გამოთვალოს "
 "მათემატიკური განტოლებები და ა.შ. სცადეთ აკრიფოთ ერთ-ერთი ამ ძებნის ველებში."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "მიმოხილვა"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:207
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -491,25 +485,14 @@ msgstr ""
 "<nl/><nl/>გადახედვასთან წვდომა <shortcut>Meta+W</shortcut> კლავიატურის "
 "მალსახმობითაც შეგიძლიათ."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "მიიღეთ ახალი პროგრამები"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -520,29 +503,28 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
-"პლაზმის, სისტემის პარამეტრებისა და KDE აპების განმავლობაში ნახავთ ღილაკებს, "
-"რომლებიც აღინიშნება \"მიიღეთ ახალი [ნივთი]...\". მათზე დაჭერით გაჩვენებთ მე "
-"-3 მხარის შინაარსს სისტემის გასაგრძელებლად, რომელიც შენნაირი სხვა "
-"ადამიანების მიერ არის შექმნილი! ამ გზით, ხშირად შესაძლებელია თქვენთვის "
-"სასურველი ფუნქციონირების დამატება, KDE დეველოპერებს თავად განხორციელების "
-"გარეშე.<nl/><nl/> გაითვალისწინეთ, რომ ამ გზით შეძენილი შინაარსი არ "
-"განიხილება თქვენი დისტრიბუტორის მიერ ფუნქციონირების ან სტაბილურობისთვის."
+"Plasma-ში, სისტემის პარამეტრებში და KDE აპებში შეხვდებით ნახავთ ღილაკებს, "
+"რომლების წარწერაცაა \"მიიღეთ ახალი <emphasis>ნივთი</emphasis>...\". მათზე "
+"დაჭერით გაჩვენებთ მესამე პირების შემცველობას სისტემის გასაფართოვებლად, "
+"რომელიც შენნაირი სხვა ადამიანების მიერ არის შექმნილი! ამ გზით, ხშირად "
+"შესაძლებელია თქვენთვის სასურველი ფუნქციონირების დამატება, KDE დეველოპერებს "
+"თავად განხორციელების გარეშე.<nl/><nl/> გაითვალისწინეთ, რომ ამ გზით შეძენილი "
+"შინაარსი არ განიხილება თქვენი დისტრიბუტორის მიერ ფუნქციონირების ან "
+"სტაბილურობისთვის."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "მესამე პირების მიერ მოწოდებული შემცველობის ნახვა"
+msgstr "მესამე პირების მიერ მოწოდებული შემცველობის ნახვა…"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:18
+#: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "ნაგულისხმებად მარტივი"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:19
+#: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -557,13 +539,13 @@ msgstr ""
 "><nl/>თუ გაგიჩნდათ საჭიროება, რამე შეცვალოთ, ეს <application>სისტემის "
 "მორგების</application> აპით შეგიძლიათ."
 
-#: src/contents/ui/pages/SimpleByDefault.qml:39
+#: src/contents/ui/pages/SimpleByDefault.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
 msgstr "სისტემის მორგების ახლა გაშვება"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:56
+#: src/contents/ui/pages/SimpleByDefault.qml:55
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"

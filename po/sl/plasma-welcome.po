@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-04-04 02:22+0000\n"
-"PO-Revision-Date: 2023-03-07 05:42+0100\n"
+"POT-Creation-Date: 2023-04-06 02:04+0000\n"
+"PO-Revision-Date: 2023-04-05 09:00+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -31,37 +31,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "miles@filmsi.net"
 
-#: src/contents/ui/main.qml:63
+#: src/contents/ui/main.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Pre&skoči"
 
-#: src/contents/ui/main.qml:63
+#: src/contents/ui/main.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "Na&zaj"
 
-#: src/contents/ui/main.qml:92
+#: src/contents/ui/main.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Dokončaj"
 
-#: src/contents/ui/main.qml:92
+#: src/contents/ui/main.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Naprej"
 
-#: src/contents/ui/main.qml:162
+#: src/contents/ui/main.qml:161
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Deli anonimne podatke o uporabi"
 
-#: src/contents/ui/main.qml:163
+#: src/contents/ui/main.qml:162
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -72,13 +72,13 @@ msgstr ""
 "opreme KDE. Izberite, koliko podatkov lahko delite v sistemskih nastavitvah "
 "in tudi tukaj."
 
-#: src/contents/ui/main.qml:171
+#: src/contents/ui/main.qml:170
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Poveži omrežne račune"
 
-#: src/contents/ui/main.qml:172
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -130,13 +130,13 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Obiščite %1"
 
-#: src/contents/ui/pages/Discover.qml:20
+#: src/contents/ui/pages/Discover.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Upravljanje programske opreme"
 
-#: src/contents/ui/pages/Discover.qml:21
+#: src/contents/ui/pages/Discover.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -149,19 +149,19 @@ msgstr ""
 "ogledate posnetke zaslona in preberete ocene, ki vam pomagajo najti popolno "
 "aplikacijo."
 
-#: src/contents/ui/pages/Discover.qml:45
+#: src/contents/ui/pages/Discover.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
 msgstr "Zaženi Discover zdaj"
 
-#: src/contents/ui/pages/Discover.qml:63
+#: src/contents/ui/pages/Discover.qml:62
 #, kde-format
 msgctxt "@title the name of the app 'Discover'"
 msgid "Discover"
 msgstr "Odkrijte"
 
-#: src/contents/ui/pages/Discover.qml:131
+#: src/contents/ui/pages/Discover.qml:130
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -190,7 +190,7 @@ msgstr ""
 "predstavljajo davčno olajšavo."
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/PlasmaUpdate.qml:38
+#: src/contents/ui/pages/PlasmaUpdate.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -216,13 +216,13 @@ msgstr ""
 "ikono <interface>Omrežja</interface> v <interface>sistemskem pladnju</"
 "interface>, ki se nahaja v spodnjem desnem kotu zaslona."
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
 msgstr "Plazma je posodobljena na različico %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:23
+#: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -233,25 +233,25 @@ msgstr ""
 "Upamo, da boste uživali pri delu s Plasma vsaj toliko, kot smo mi uživali "
 "pri njeni izdelavi!"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:28
+#: src/contents/ui/pages/PlasmaUpdate.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
 msgstr "Preverite, kaj je novega v Plasma %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:33
+#: src/contents/ui/pages/PlasmaUpdate.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "Sodelujte pri naslednji izdaji"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Močno, kadar je potrebno"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -261,25 +261,25 @@ msgstr ""
 "Plazma je izjemno bogato okolje, zasnovano za super podporo vaši "
 "produktivnosti! Tukaj je samo nekaj stvari, ki jih lahko naredi za vas:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Trezorji"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Varno shranjuje delikatne datoteke"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Dejavnosti"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -287,71 +287,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Ločite delovne, šolske in domače naloge"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:83
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Priklopi vaš mobilni telefon in računalnik"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:95
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Poiščite karkoli"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:105
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Pregled"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Vaš sistemski komandni center"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "Pridobite nove vroče zadeve"
+msgstr "Pridobi nove reči"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Razširite sistem z dodatki"
+msgstr "Razširi sistem z dodatki"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Naučite se o več možnostih Plasme"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:132
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma Vaults"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -371,13 +367,13 @@ msgstr ""
 "kliknite puščico <interface>Sistemski pladenj</interface>  za prikaz skritih "
 "elementov in nato kliknite ikono<interface>Vaults</interface>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:141
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Dejavnosti"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -400,22 +396,20 @@ msgstr ""
 "ustvarite več dejavnosti. Nato lahko preklapljate med njimi s pomočjo "
 "bližnjice <shortcut>Meta+Tab</shortcut>>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:147
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Sistemske nastavitve"
+msgstr "Odpri nastavitve…"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:157
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:161
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -440,13 +434,13 @@ msgstr ""
 "poiščite \"KDE Connect\". Na tej strani lahko uparite vaš telefon z "
 "računalnikom."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:186
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:185
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -479,13 +473,13 @@ msgstr ""
 "uporabo tipkovne bližnjice <shortcut>Alt+preslednica</shortcut> in kliknite "
 "na ikono vprašaja."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Pregled"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:207
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -504,25 +498,14 @@ msgstr ""
 "pregleda lahko dostopate s pomočjo bližnjice na tipkovnici <shortcut>Meta+W</"
 "shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "Pridobi vročo novo robo"
+msgstr "Pridobi nove reči"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:216
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -534,28 +517,26 @@ msgid ""
 "functionality or stability."
 msgstr ""
 "V celotnih Plasmi, sistemskih nastavitvah in aplikacijah KDE boste našli "
-"gumbe označene \"Pridobite novo [stvar]...\". Če kliknete nanje, boste "
-"prikazali razširite sistema, ki ga izdelujejo drugi ljudje kot vi! Na ta "
-"način je pogosto je mogoče dodati funkcionalnost, ki jo želite, ne da bi "
-"morali vprašati razvijalce KDE, da ga uresničite.<nl/><nl/>Upoštevajte, da "
-"ima tako pridobljene vsebine ni pregledal vaš distributer glede "
-"funkcionalnosti ali stabilnosti."
+"gumbe označene \"Pridobite nove <emphasis>reči</emphasis>…\". Če kliknete "
+"nanje, boste prikazali razširitve sistema, ki ga izdelujejo drugi ljudje "
+"prav taki kot vi! Na ta način je pogosto je mogoče dodati funkcionalnost, ki "
+"jo želite, ne da bi morali vprašati razvijalce KDE, da ga uresničite.<nl/"
+"><nl/>Upoštevajte, da tako pridobljene vsebine ni pregledal vaš distributer "
+"glede funkcionalnosti ali stabilnosti."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Poglej vse razpoložljive vsebine tretjih strank"
+msgstr "Poglej vse razpoložljive vsebine tretjih strank…"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:18
+#: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Privzeto enostavno"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:19
+#: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -571,13 +552,13 @@ msgstr ""
 "<application>nastavitvah sistema</application> boste našli tisto, kar "
 "potrebujete za aplikacijo."
 
-#: src/contents/ui/pages/SimpleByDefault.qml:39
+#: src/contents/ui/pages/SimpleByDefault.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
 msgstr "Zaženi sistemske nastavitve zdaj"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:56
+#: src/contents/ui/pages/SimpleByDefault.qml:55
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
