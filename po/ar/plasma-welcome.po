@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-06 02:04+0000\n"
-"PO-Revision-Date: 2023-03-16 11:34+0400\n"
+"PO-Revision-Date: 2023-04-06 12:42+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -315,17 +315,13 @@ msgid "Your system command center"
 msgstr "مركز عمليات نظامك"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "احصل على بيانات جديدة رائعة"
+msgstr "احصل أشياء جديدة"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "وسِّع نظامك بالإضافات"
@@ -391,12 +387,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "إعدادات النّظام"
+msgstr "افتح الإعدادات…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
@@ -488,24 +482,13 @@ msgstr ""
 "لوحة المفاتيح <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "احصل على بيانات جديدة رائعة"
+msgstr "احصل أشياء جديدة"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -517,19 +500,17 @@ msgid ""
 "functionality or stability."
 msgstr ""
 "في جميع أنحاء بلازما وإعدادات النظام وتطبيقات كِيدِي، ستجد أزرارًا تحمل علامة "
-"\"احصل على [شيء] ...\". سوف يظهر لك النقر عليها محتوى طرف ثالث لتوسيع "
-"النظام، الذي صنعه أشخاص آخرين مثلك! وبهذه الطريقة، غالبًا ما يكون من الممكن "
-"إضافة وظائف تريدها دون الحاجة إلى طلب من مطوري كِيدِي تنفيذها. <nl/> <nl/> "
-"لاحظ أن المحتوى المكتسب بهذه الطريقة لم يُراجع بواسطة توزيعتك للتأكد من "
-"للوظائف أو الاستقرار."
+"\"احصل على<emphasis>أشياء</emphasis> جديدة ...\". سوف يظهر لك النقر عليها "
+"محتوى طرف ثالث لتوسيع النظام، الذي صنعه أشخاص آخرين مثلك! وبهذه الطريقة، "
+"غالبًا ما يكون من الممكن إضافة وظائف تريدها دون الحاجة إلى طلب من مطوري كِيدِي "
+"تنفيذها. <nl/> <nl/> لاحظ أن المحتوى المكتسب بهذه الطريقة لم يُراجع بواسطة "
+"توزيعتك للتأكد من للوظائف أو الاستقرار."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "انظر جميع المحتوى  الطرف الثالث المتوفر"
+msgstr "انظر المحتوى  الطرف الثالث"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
