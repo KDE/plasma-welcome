@@ -2,6 +2,7 @@
 # Copyright (C) 2022 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 # Jannick Kuhr <opensource@kuhr.org>, 2023.
+# Frederik Schwarzer <schwarzer@kde.org>, 2023.
 #
 # Automatically generated, 2022.
 msgid ""
@@ -9,15 +10,15 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-06 02:04+0000\n"
-"PO-Revision-Date: 2023-02-07 17:47+0100\n"
+"PO-Revision-Date: 2023-04-04 21:33+0200\n"
 "Last-Translator: Jannick Kuhr <opensource@kuhr.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -54,12 +55,10 @@ msgid "&Next"
 msgstr "&Weiter"
 
 #: src/contents/ui/main.qml:161
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Anonyme Nutzungsstatistiken an KDE übermitteln"
+msgstr "Anonyme Nutzungsstatistiken übermitteln"
 
 #: src/contents/ui/main.qml:162
 #, kde-format
@@ -73,12 +72,10 @@ msgstr ""
 "Systemeinstellungen und auch hier festlegen."
 
 #: src/contents/ui/main.qml:170
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
-msgstr "Ihre Online-Konten verbinden"
+msgstr "Online-Konten verbinden"
 
 #: src/contents/ui/main.qml:171
 #, kde-format
@@ -458,23 +455,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
 "keywords as they are localized in the actual runner plugins. If needed, "
@@ -654,7 +635,7 @@ msgstr "Ein Begrüßungsassistent für KDE Plasma"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Begrüßungsassistent"
 
 #: src/main.cpp:57
 #, kde-format
@@ -683,7 +664,7 @@ msgstr "Nate Graham"
 #: src/main.cpp:79
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr ""
+msgstr "Hinweise zur aktuellen Plasma-Veröffentlichung anzeigen."
 
 #~ msgctxt "@action:button"
 #~ msgid "See More Features"
