@@ -1,11 +1,12 @@
 # Ryuichi Yamada <ryuichi_ya220@outlook.jp>, 2023.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-02-23 18:27+0900\n"
-"Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
+"PO-Revision-Date: 2023-04-07 23:48-0700\n"
+"Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -407,7 +408,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "システム設定でアクティビティのページを開く"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -429,12 +430,20 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"KDE Connect は携帯電話とコンピュータを様々な形で連携させます:<nl/"
+"><list><item>携帯電話の通知をコンピュータから確認</item><item>携帯電話が受信"
+"したテキストメッセージにコンピュータから返信</item><item>クリップボードを同期"
+"</item><item>失くした携帯電話から音を出す</item><item>画像、ビデオやその他の"
+"ファイルを携帯電話からコンピュータに、もしくはコンピュータから携帯電話にコ"
+"ピー</item><item>...その他にもたくさんの機能があります！</item></list><nl/"
+"><interface>システム設定</interface>にある KDE Connect のページから、携帯電話"
+"をペアリングしてください。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "システム設定で KDE Connect のページを開く"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
@@ -460,6 +469,16 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner は Plasma のパワフルで多機能な検索システムです。アプリケーションラン"
+"チャーやオーバービューの検索機能を担っているほか、<shortcut>Alt+F2</"
+"shortcut> を押すと現れるスタンドアロンの検索バーとして使用できます。<nl/><nl/"
+">ファイルやフォルダの検索に加えて、アプリケーションの起動やウェブ検索、通貨換"
+"算、計算など、様々な機能を搭載しています。試しに以下の検索語を入力してみてく"
+"ださい:<nl/><list><item>\"time London\"</item><item>\"27/3\"</item><item>"
+"\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>...その他にもた"
+"くさんの機能があります！</item></list><nl/>さらなる情報を確認するには、"
+"<shortcut>Alt+F2</shortcut> を押して KRunner 検索バーを開き、クエスチョンマー"
+"クアイコンをクリックしてください。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -512,7 +531,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "すべてのサードパーティコンテンツを見る"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
@@ -562,10 +581,10 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
-"Plasma は、KDE によって作成されたオープンソースデスクトップ環境です。KDE は、"
-"ボランティアによる国際的なソフトウェアコミュニティです。Plasma デスクトップ環"
-"境は、デフォルトではシンプルでスムーズな体験を提供します。しかし、必要なとき"
-"にはパワフルな機能であなたの作業をお手伝いします。ぜひ楽しんでください！"
+"Plasma は KDE によって作成されたオープンソースデスクトップ環境です。KDE はボ"
+"ランティアによる国際的なソフトウェアコミュニティです。Plasma デスクトップ環境"
+"は、デフォルトではシンプルで簡単な操作感を提供します。しかし、必要なときには"
+"パワフルな機能であなたの作業をお手伝いします。ぜひ楽しんでください！"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
