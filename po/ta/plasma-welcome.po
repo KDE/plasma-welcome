@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-06 02:04+0000\n"
-"PO-Revision-Date: 2023-03-26 14:59+0530\n"
+"PO-Revision-Date: 2023-04-09 21:25+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.03.80\n"
+"X-Generator: Lokalize 23.03.90\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -247,7 +247,7 @@ msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
-msgstr ""
+msgstr "உங்கள் உற்பத்தித்திறனை பன்மடங்காக்கும் அம்சங்களை பிளாஸ்மா கொண்டுள்ளது. அவற்றில் சில:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
@@ -312,17 +312,13 @@ msgid "Your system command center"
 msgstr "பணிமேடையை கட்டுப்படுத்த உதவும்"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "புதியவற்றைப் பெறு"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "துணைநிரல்களின் மூலம் பணிமேடையை மேம்படுத்தலாம்"
@@ -374,12 +370,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "கணினி அமைப்புகள்"
+msgstr "அமைப்புகளை திற…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
@@ -448,9 +442,7 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "புதியவற்றைப் பெறு"
@@ -472,7 +464,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr ""
+msgstr "மூன்றாம் தரப்பு உருப்படிகளைக் காட்டு…"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
