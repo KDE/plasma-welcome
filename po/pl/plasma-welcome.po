@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-06 02:04+0000\n"
-"PO-Revision-Date: 2023-02-11 08:41+0100\n"
+"PO-Revision-Date: 2023-04-10 11:01+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -53,12 +53,10 @@ msgid "&Next"
 msgstr "&Następna"
 
 #: src/contents/ui/main.qml:161
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Udostępnij KDE anonimowe dane z używania"
+msgstr "Udostępnij anonimowe dane z używania"
 
 #: src/contents/ui/main.qml:162
 #, kde-format
@@ -72,9 +70,7 @@ msgstr ""
 "ustawieniach systemowych."
 
 #: src/contents/ui/main.qml:170
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Podłączanie twoich kont sieciowych"
@@ -323,17 +319,13 @@ msgid "Your system command center"
 msgstr "Ośrodek sterowania twoim systemem"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Pobieranie nowych pakietów"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Rozbuduj system dodatkami"
@@ -401,12 +393,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Ustawienia systemowe"
+msgstr "Otwórz ustawienia…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
@@ -446,23 +436,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
 "keywords as they are localized in the actual runner plugins. If needed, "
@@ -519,24 +493,13 @@ msgstr ""
 "poprzez skrót klawiszowy <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Pobieranie nowych pakietów"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -548,20 +511,18 @@ msgid ""
 "functionality or stability."
 msgstr ""
 "W całej Plazmie, Ustawienia Systemowych oraz aplikacjach KDE, napotkasz "
-"przyciski z napisem \"Pobierz nowe [rzeczy]...\". Naciśnięcie na nich pokaże "
-"treści stron trzecich system, stworzone przez ludzi takich jak ty, w celu "
-"wzbogacenia systemu! W ten sposób, często możliwe jest dodanie możliwości "
-"bez konieczności pytania twórców KDE o ich dodanie.<nl/><nl/>Wiedz, że treść "
-"uzyskana w ten sposób nie została sprawdzona przez twojego dostawcę w żaden "
-"sposób."
+"przyciski z napisem \"Pobierz nowe <emphasis>rzeczy</emphasis>...\". "
+"Naciśnięcie na nich pokaże treści stron trzecich system, stworzone przez "
+"ludzi takich jak ty, w celu wzbogacenia systemu! W ten sposób, często "
+"możliwe jest dodanie możliwości bez konieczności pytania twórców KDE o ich "
+"dodanie.<nl/><nl/>Wiedz, że treść uzyskana w ten sposób nie została "
+"sprawdzona przez twojego dostawcę w żaden sposób."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Obejrzyj całą dostępną treść stron trzecich"
+msgstr "Obejrzyj treść stron trzecich…"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
@@ -639,7 +600,7 @@ msgstr "Aplikacja powitalna Plazmy KDE"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Powitalnia"
 
 #: src/main.cpp:57
 #, kde-format
