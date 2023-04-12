@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-04-06 02:04+0000\n"
+"POT-Creation-Date: 2023-04-12 02:13+0000\n"
 "PO-Revision-Date: 2023-02-24 12:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -144,19 +144,7 @@ msgstr ""
 "装所需的应用程序、游戏和工具。您可以通过关键词查找程序，也可以按分类浏览程"
 "序。您还可以查看屏幕截图，阅读用户评价，选出最适合自己的应用程序。"
 
-#: src/contents/ui/pages/Discover.qml:44
-#, kde-format
-msgctxt "@action:button"
-msgid "Launch Discover now"
-msgstr "立即打开 Discover"
-
-#: src/contents/ui/pages/Discover.qml:62
-#, kde-format
-msgctxt "@title the name of the app 'Discover'"
-msgid "Discover"
-msgstr "Discover 软件管理中心"
-
-#: src/contents/ui/pages/Discover.qml:130
+#: src/contents/ui/pages/Discover.qml:97
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -545,18 +533,6 @@ msgstr ""
 "习惯，您无需进行额外配置即可舒适且高效地使用电脑。<nl/><nl/>如果您想要自定义"
 "系统的功能，也可以在<application>系统设置</application>应用中找到各种选项。"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:38
-#, kde-format
-msgctxt "@action:button"
-msgid "Launch System Settings now"
-msgstr "立即打开系统设置"
-
-#: src/contents/ui/pages/SimpleByDefault.qml:55
-#, kde-format
-msgctxt "@title the name of the 'System Settings' app"
-msgid "System Settings"
-msgstr "系统设置"
-
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
@@ -588,46 +564,66 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE 的吉祥物 Konqi (恐奇) 欢迎您加入 KDE 社区！"
 
-#: src/main.cpp:44
+#: src/main.cpp:45
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "KDE Plasma 的欢迎应用"
 
-#: src/main.cpp:49
+#: src/main.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "欢迎中心"
 
-#: src/main.cpp:57
+#: src/main.cpp:58
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:58
+#: src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59 src/main.cpp:63
+#: src/main.cpp:60 src/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "作者"
 
-#: src/main.cpp:62
+#: src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:79
+#: src/main.cpp:81
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "显示当前 Plasma 版本的发行日志。"
+
+#: src/qml/ApplicationIcon.qml:44
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Launch Discover now"
+msgctxt "@action:button"
+msgid "Launch %1 now"
+msgstr "立即打开 Discover"
+
+#~ msgctxt "@title the name of the app 'Discover'"
+#~ msgid "Discover"
+#~ msgstr "Discover 软件管理中心"
+
+#~ msgctxt "@action:button"
+#~ msgid "Launch System Settings now"
+#~ msgstr "立即打开系统设置"
+
+#~ msgctxt "@title the name of the 'System Settings' app"
+#~ msgid "System Settings"
+#~ msgstr "系统设置"
 
 #~ msgctxt "@action:button"
 #~ msgid "See More Features"

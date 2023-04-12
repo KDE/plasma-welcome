@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-04-06 02:04+0000\n"
+"POT-Creation-Date: 2023-04-12 02:13+0000\n"
 "PO-Revision-Date: 2023-02-15 16:59+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -147,19 +147,7 @@ msgstr ""
 "ver as imagens das aplicações e ler as revisões e avaliações que o ajudam a "
 "encontrar a aplicação perfeita."
 
-#: src/contents/ui/pages/Discover.qml:44
-#, kde-format
-msgctxt "@action:button"
-msgid "Launch Discover now"
-msgstr "Lançar o Discover Agora"
-
-#: src/contents/ui/pages/Discover.qml:62
-#, kde-format
-msgctxt "@title the name of the app 'Discover'"
-msgid "Discover"
-msgstr "Discover"
-
-#: src/contents/ui/pages/Discover.qml:130
+#: src/contents/ui/pages/Discover.qml:97
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -589,18 +577,6 @@ msgstr ""
 "sinta a necessidade, irá encontrar tudo o que precisa na aplicação "
 "<application>Configuração do Sistema</application>."
 
-#: src/contents/ui/pages/SimpleByDefault.qml:38
-#, kde-format
-msgctxt "@action:button"
-msgid "Launch System Settings now"
-msgstr "Lançar a Configuração do Sistema Agora"
-
-#: src/contents/ui/pages/SimpleByDefault.qml:55
-#, kde-format
-msgctxt "@title the name of the 'System Settings' app"
-msgid "System Settings"
-msgstr "Configuração do Sistema"
-
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
@@ -634,46 +610,66 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "A mascote do KDE Konqi dá-lhe as boas-vindas à comunidade do KDE!"
 
-#: src/main.cpp:44
+#: src/main.cpp:45
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "Uma aplicação de boas-vindas para o KDE"
 
-#: src/main.cpp:49
+#: src/main.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr ""
 
-#: src/main.cpp:57
+#: src/main.cpp:58
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:58
+#: src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:59 src/main.cpp:63
+#: src/main.cpp:60 src/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autoria"
 
-#: src/main.cpp:62
+#: src/main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:79
+#: src/main.cpp:81
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Mostrar as notas de lançamento da versão actual do Plasma."
+
+#: src/qml/ApplicationIcon.qml:44
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Launch Discover now"
+msgctxt "@action:button"
+msgid "Launch %1 now"
+msgstr "Lançar o Discover Agora"
+
+#~ msgctxt "@title the name of the app 'Discover'"
+#~ msgid "Discover"
+#~ msgstr "Discover"
+
+#~ msgctxt "@action:button"
+#~ msgid "Launch System Settings now"
+#~ msgstr "Lançar a Configuração do Sistema Agora"
+
+#~ msgctxt "@title the name of the 'System Settings' app"
+#~ msgid "System Settings"
+#~ msgstr "Configuração do Sistema"
 
 #~ msgctxt "@action:button"
 #~ msgid "See More Features"
