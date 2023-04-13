@@ -1,4 +1,4 @@
-# Translation for plasma-welcompe.po to Euskara/Basque (eu).
+# Translation for plasma-welcome.po to Euskara/Basque (eu).
 # Copyright (C) 2022-2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 # KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-04-10 07:51+0200\n"
+"PO-Revision-Date: 2023-04-12 16:15+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -617,12 +617,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Azaldu uneko Plasma argitalpenaren oharrak."
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Abiarazi «Discover» orain"
+msgstr "Abiarazi %1 orain"
 
 #~ msgctxt "@title the name of the app 'Discover'"
 #~ msgid "Discover"

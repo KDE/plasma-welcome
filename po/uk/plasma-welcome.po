@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-04-04 18:41+0300\n"
+"PO-Revision-Date: 2023-04-12 08:04+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -618,12 +618,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Показати нотатки щодо випуску для поточного випуску Плазми."
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Запустити Discover"
+msgstr "Запустити %1"
 
 #~ msgctxt "@title the name of the app 'Discover'"
 #~ msgid "Discover"
