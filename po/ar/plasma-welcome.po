@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-04-06 12:42+0400\n"
+"PO-Revision-Date: 2023-04-13 10:10+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -594,12 +594,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "اعرض ملاحظات الإصدارة لإصدارة بلازما الحالية."
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "شغل المستكشف الآن"
+msgstr "شغل %1 الآن"
 
 #~ msgctxt "@title the name of the app 'Discover'"
 #~ msgid "Discover"

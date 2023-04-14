@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-04-05 07:00+0200\n"
+"PO-Revision-Date: 2023-04-13 05:36+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -601,12 +601,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Plasma-ის მიმდინარე რელიზის შენიშვნების ჩვენება."
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "გაუშვით Discover ახლა"
+msgstr "%1-ის ახლა გაშვება"
 
 #~ msgctxt "@title the name of the app 'Discover'"
 #~ msgid "Discover"
