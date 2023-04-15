@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-03-08 14:14+0100\n"
+"PO-Revision-Date: 2023-04-14 21:56+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -307,13 +307,13 @@ msgstr "Mějte přehled nad spuštěnými aplikacemi"
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr ""
+msgstr "Získejte žhavé novinky"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "Rozšiřte svůj systém různými doplňky"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -380,7 +380,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr ""
+msgstr "Otevřít nastavení…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
@@ -479,7 +479,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr ""
+msgstr "Získejte žhavé novinky"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
 #, kde-kuit-format
@@ -493,12 +493,19 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
+"Napříč prostředím Plasma, v Nastavení Systému a aplikacích KDE najdete "
+"tlačítka označená jako \"Získat nové <emphasis>[něco]</emphasis>…\". "
+"Kliknutím na ne se vám zobrazí obsah od třetích stran pro rozšíření systému "
+"vytvořeném lidmi jako jste vy! Tímto způsobem je často možné přidat další "
+"vlastnosti aniž byste o jejich přidání museli žádat vývojáře.<nl/><nl/"
+">Pamatujte, že obsah získaný tímto způsobem nebyl kontrolován správcem vaší "
+"distribuce zda je funkční a stabilní."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr ""
+msgstr "Podívejte se na obsah od třetích stran..."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
@@ -595,21 +602,7 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Zobrazit zprávy o vydání pro současnou verzi Plasma."
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Spustit Discover"
-
-#~ msgctxt "@title the name of the app 'Discover'"
-#~ msgid "Discover"
-#~ msgstr "Discover"
-
-#~ msgctxt "@action:button"
-#~ msgid "Launch System Settings now"
-#~ msgstr "Spustit Nastavení Systému"
-
-#~ msgctxt "@title the name of the 'System Settings' app"
-#~ msgid "System Settings"
-#~ msgstr "Nastavení systému"
+msgstr "Spustit %1 hned"
