@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-03-13 17:57+0200\n"
+"PO-Revision-Date: 2023-04-20 12:42+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -306,20 +306,16 @@ msgid "Your system command center"
 msgstr "Järjestelmän komentokeskus"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "Hae verkosta"
+msgstr "Hae uutuuksia"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Laajenna järjestelmää lisäosin"
+msgstr "Laajenna järjestelmää lisäosilla"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -384,12 +380,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Järjestelmäasetukset"
+msgstr "Avaa asetukset…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
@@ -484,24 +478,13 @@ msgstr ""
 ">Yleiskuvaan pääsee <shortcut>Meta+W</shortcut>-pikanäppäimellä."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "Hae verkosta"
+msgstr "Hae uutuuksia"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -513,19 +496,17 @@ msgid ""
 "functionality or stability."
 msgstr ""
 "Kaikkialla Plasmassa, järjestelmäasetuksissa ja KDE-sovelluksissa voi nähdä "
-"painikkeen ”Hanki uusia [jotakin]…”. Sitä napsauttamalla pääsee kaltaistesi "
-"ihmisten tuottamaan kolmannen osapuolen sisältöön, jolla laventaa "
-"järjestelmää! Näin toiminnallisuutta voi usein lisätä pyytämättä sitä "
-"erikseen KDE-kehittäjiltä.<nl/><nl/>Huomaa, että näin hankitun sisällön "
+"painikkeen ”Hanki uusia <emphasis>jotakin</emphasis>…”. Sitä napsauttamalla "
+"pääsee tavallisten ihmisten tuottamaan kolmannen osapuolen sisältöön, jolla "
+"laajentaa järjestelmää! Näin toiminnallisuutta voi usein lisätä pyytämättä "
+"sitä erikseen KDE-kehittäjiltä.<nl/><nl/>Huomaa, että näin hankitun sisällön "
 "toiminnallisuutta tai vakautta ei jakelusi ole tarkistanut."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Näytä saatavilla oleva kolmannen osapuolen sisältö"
+msgstr "Näytä kolmannen osapuolen sisältö…"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
@@ -623,12 +604,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Näytä nykyisen Plasma-version julkaisutiedot."
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Käynnistä nyt Discover"
+msgstr "Käynnistä nyt %1"
 
 #~ msgctxt "@title the name of the app 'Discover'"
 #~ msgid "Discover"
