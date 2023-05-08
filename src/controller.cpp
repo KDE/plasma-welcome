@@ -27,7 +27,12 @@ void Controller::launchApp(const QString &program)
     job->start();
 }
 
-void Controller::runCommand(const QString &command, const QString &desktopFilename = QString())
+void Controller::runCommand(const QString &command)
+{
+    runCommand(command, QString());
+}
+
+void Controller::runCommand(const QString &command, const QString &desktopFilename)
 {
     auto *job = new KIO::CommandLauncherJob(command);
     if (!desktopFilename.isEmpty()) {
