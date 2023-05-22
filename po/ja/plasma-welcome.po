@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-04-07 23:48-0700\n"
-"Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
+"PO-Revision-Date: 2023-05-18 01:46+0900\n"
+"Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -52,12 +52,10 @@ msgid "&Next"
 msgstr "次へ(&N)"
 
 #: src/contents/ui/main.qml:161
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "KDE に匿名の使用統計情報を送信する"
+msgstr "匿名の使用統計情報を送信する"
 
 #: src/contents/ui/main.qml:162
 #, kde-format
@@ -71,9 +69,7 @@ msgstr ""
 "できます。"
 
 #: src/contents/ui/main.qml:170
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "オンラインアカウントを接続する"
@@ -213,7 +209,7 @@ msgid ""
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
 "KDE の貢献者は、このリリースのための作業に4カ月を費やしました。私たちがその作"
-"業を楽しんだのと同じくらい、あなたが Plasma を楽しく使っていただけたら嬉しい"
+"業を楽しんだのと同じくらい、あなたに Plasma を楽しく使っていただけたら嬉しい"
 "です！"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:27
@@ -241,8 +237,8 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plasma は、あなたの生産性を高めるためにデザインされた多機能なデスクトップ環境"
-"です！これらはその機能のほんの一部です:"
+"Plasma は、あなたの生産性を高めるためにデザインされた、非常に多機能なデスク"
+"トップ環境です！これらはその機能のほんの一部です:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
@@ -307,17 +303,13 @@ msgid "Your system command center"
 msgstr "システムの管制塔"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "新しいものを手に入れる"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "システムをアドオンで拡張"
@@ -383,12 +375,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "システム設定"
+msgstr "設定を開く..."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
@@ -479,24 +469,13 @@ msgstr ""
 "><shortcut>Meta+W</shortcut> でオーバービューにアクセスできます。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "新しいものを手に入れる"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -557,8 +536,8 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
-"Plasma は KDE によって作成されたオープンソースデスクトップ環境です。KDE はボ"
-"ランティアによる国際的なソフトウェアコミュニティです。Plasma デスクトップ環境"
+"Plasma は、ボランティアによる国際的なソフトウェアコミュニティである KDE に"
+"よって作成された、オープンソースデスクトップ環境です。Plasma デスクトップ環境"
 "は、デフォルトではシンプルで簡単な操作感を提供します。しかし、必要なときには"
 "パワフルな機能であなたの作業をお手伝いします。ぜひ楽しんでください！"
 
@@ -616,21 +595,7 @@ msgid "Display release notes for the current Plasma release."
 msgstr "現在の Plasma リリースのリリースノートを表示します。"
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Discover を起動する"
-
-#~ msgctxt "@title the name of the app 'Discover'"
-#~ msgid "Discover"
-#~ msgstr "Discover"
-
-#~ msgctxt "@action:button"
-#~ msgid "Launch System Settings now"
-#~ msgstr "今すぐシステム設定を起動する"
-
-#~ msgctxt "@title the name of the 'System Settings' app"
-#~ msgid "System Settings"
-#~ msgstr "システム設定"
+msgstr "%1 を起動する"
