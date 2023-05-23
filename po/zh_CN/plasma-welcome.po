@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-02-24 12:44\n"
+"PO-Revision-Date: 2023-05-22 13:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf5-trunk/messages/plasma-welcome/plasma-welcome.pot\n"
-"X-Crowdin-File-ID: 40954\n"
+"X-Crowdin-File: /kf6-trunk/messages/plasma-welcome/plasma-welcome.pot\n"
+"X-Crowdin-File-ID: 42471\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -52,12 +52,10 @@ msgid "&Next"
 msgstr "下一页(&N)"
 
 #: src/contents/ui/main.qml:161
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "与 KDE 分享使用信息"
+msgstr "分享匿名的使用情况信息"
 
 #: src/contents/ui/main.qml:162
 #, kde-format
@@ -70,12 +68,10 @@ msgstr ""
 "据的多少，也可以在此选择。"
 
 #: src/contents/ui/main.qml:170
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
+#, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
-msgstr "连接您的在线账户"
+msgstr "连接在线账户"
 
 #: src/contents/ui/main.qml:171
 #, kde-format
@@ -304,17 +300,13 @@ msgid "Your system command center"
 msgstr "您的系统命令中心"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "获取扩展资源"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "使用附加组件扩展系统功能"
@@ -377,12 +369,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "系统设置"
+msgstr "打开设置…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
@@ -471,24 +461,13 @@ msgstr ""
 "shortcut> 键盘快捷键。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "获取扩展资源"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -499,19 +478,17 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
-"在 Plasma、系统设置和 KDE 应用中，你会看到一些叫做“获取新的 XX…”的按钮。点击"
-"这些按钮将显示用于扩展系统功能的第三方资源。这些内容是由和您一样的用户制作"
-"的。通过使用扩展资源，您可以为系统添加一些 KDE 中没有的功能，而无需请求 KDE "
-"的开发人员去实现它们。<nl/><nl/>请注意：通过此方式获取的内容并未经过您系统发"
-"行机构的审查，可能在功能和稳定性上存在缺陷。"
+"在 Plasma、系统设置和 KDE 应用中，你会看到一些叫做“获取新的<emphasis>XX</"
+"emphasis>…”的按钮。点击这些按钮将显示用于扩展系统功能的第三方资源。这些内容是"
+"由和您一样的用户制作的。通过使用扩展资源，您可以为系统添加一些 KDE 中没有的功"
+"能，而无需请求 KDE 的开发人员去实现它们。<nl/><nl/>请注意：通过此方式获取的内"
+"容并未经过您系统发行机构的审查，可能在功能和稳定性上存在缺陷。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "查看所有可用的第三方内容"
+msgstr "查看第三方内容…"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
@@ -606,38 +583,7 @@ msgid "Display release notes for the current Plasma release."
 msgstr "显示当前 Plasma 版本的发行日志。"
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "立即打开 Discover"
-
-#~ msgctxt "@title the name of the app 'Discover'"
-#~ msgid "Discover"
-#~ msgstr "Discover 软件管理中心"
-
-#~ msgctxt "@action:button"
-#~ msgid "Launch System Settings now"
-#~ msgstr "立即打开系统设置"
-
-#~ msgctxt "@title the name of the 'System Settings' app"
-#~ msgid "System Settings"
-#~ msgstr "系统设置"
-
-#~ msgctxt "@action:button"
-#~ msgid "See More Features"
-#~ msgstr "查看更多功能"
-
-#~ msgctxt "@action:button"
-#~ msgid "Open Activities Page in System Settings"
-#~ msgstr "打开系统设置中的活动页面"
-
-#~ msgctxt "@action:button"
-#~ msgid "Open KDE Connect Page in System Settings"
-#~ msgstr "打开系统设置中的 KDE Connect 页面"
-
-#~ msgctxt "@info"
-#~ msgid "Page %1 of %2"
-#~ msgid_plural "Page %1 of %2"
-#~ msgstr[0] "第 %1 页，共 %2 页"
+msgstr "立即启动 %1"
