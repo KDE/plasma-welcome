@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-03-09 20:05+0100\n"
+"PO-Revision-Date: 2023-05-27 14:10+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.04.1\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -313,17 +313,13 @@ msgid "Your system command center"
 msgstr "Oversikt over opne program/vindauge"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "Hent kule, nye ting"
+msgstr "Hent nye ting"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Utvid systemet med tilleggs­funksjonalitet"
@@ -391,12 +387,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Systemoppsett"
+msgstr "Opna innstillingar …"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
 #, kde-format
@@ -490,25 +484,14 @@ msgstr ""
 "biletet med snøggtasten <shortcut>Meta + W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "Hent kule, nye ting"
+msgstr "Hent nye ting"
 
 # Sjå tilsvarande tekst for siste setning i «knewstuff5.po».
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -520,19 +503,18 @@ msgid ""
 "functionality or stability."
 msgstr ""
 "I heile Plasma, i systemoppsettet og i mange KDE-program finn du knappar med "
-"namnet «Hent ny(e) [ting]». Desse tek deg til tilleggs­innhald utvikla av "
-"andre – folk som deg! Du kan dermed leggja til ny funksjonalitet utan å "
-"måtta be KDE-utviklarane utvikla det først.<nl/><nl/>Merk at slikt innhald "
-"som er utvikla av andre, ikkje er kvalitetssikra av KDE eller leverandøren "
-"din, og det er ikkje garantert å verka skikkeleg eller stabilt."
+"namnet «Hent ny(e) <emphasis>ting</emphasis>». Desse tek deg til tilleggs­"
+"innhald utvikla av andre – folk som deg! Du kan dermed leggja til ny "
+"funksjonalitet utan å måtta be KDE-utviklarane utvikla det først.<nl/><nl/"
+">Merk at slikt innhald som er utvikla av andre, ikkje er kvalitetssikra av "
+"KDE eller leverandøren din, og det er ikkje garantert å verka skikkeleg "
+"eller stabilt."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Vis alt tilleggsinnhald utvikla av andre"
+msgstr "Vis tilleggsinnhald utvikla av andre …"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-format
@@ -629,9 +611,7 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Vis utgjevingsnotat for gjeldande Plasma-utgjeving."
 
 #: src/qml/ApplicationIcon.qml:44
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Start Discover no"
+msgstr "Start %1 no"
