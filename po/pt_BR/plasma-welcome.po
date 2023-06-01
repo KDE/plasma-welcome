@@ -7,9 +7,9 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-02-24 17:24-0300\n"
+"PO-Revision-Date: 2023-05-31 15:04-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,16 +99,7 @@ msgid "Get Involved"
 msgstr "Participe"
 
 #: src/contents/ui/pages/Contribute.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you become part of something "
-#| "special, meet new friends, learn new skills, and make a difference to "
-#| "millions while working with people from around the globe to deliver a "
-#| "stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE is not a big company; it's an international volunteer community, and its "
@@ -120,14 +111,14 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
-"O software do KDE é feito por pessoas como você - a maioria voluntários. "
-"Isso significa que você pode ajudar a torná-lo melhor! Há muitas maneiras de "
-"contribuir em tópicos tão diversos como triagem de erros, programação, "
-"tradução, design visual e promoção.<nl/><nl/>Ao contribuir com o KDE, você "
-"se torna parte de algo especial, conhece novos amigos, aprende novos "
-"habilidades e fazer a diferença para milhões enquanto trabalha com pessoas "
-"de todo o mundo para oferecer uma experiência de computação de software "
-"livre impressionante."
+"O KDE não é uma grande empresa; é uma comunidade voluntária internacional e "
+"seu software é feito por pessoas como você doando seu tempo e paixão. Você "
+"também pode ajudar a melhorar as coisas seja por meio de tradução, design "
+"visual e promoção, ou programação e triagem de erros.<nl/><nl/>Ao contribuir "
+"com o KDE, você pode se tornar parte de algo especial, conhecer novos "
+"amigos, aprender novas habilidades e fazer a diferença para milhões enquanto "
+"trabalha com pessoas de todo o mundo para oferecer uma experiência de "
+"computação de software livre impressionante."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -270,6 +261,9 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"O Plasma é um ambiente extremamente rico em recursos, projetado para "
+"aumentar sua produtividade! Aqui está apenas um punhado de coisas que ele "
+"pode fazer por você:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -325,7 +319,7 @@ msgstr "Pesquise qualquer coisa"
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Visão geral"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:94
 #, kde-format
@@ -355,7 +349,7 @@ msgstr "Saiba mais sobre os recursos do Plasma"
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Cofres do Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -369,6 +363,14 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"O cofre do Plasma permite que você crie pastas criptografadas, "
+"chamadas<interface>Cofres.</interface> Dentro de cada cofre, você pode "
+"armazenar com segurança suas senhas, arquivos, fotos e documentos, "
+"protegidos de olhares indiscretos. Os cofres podem ficar dentro de pastas "
+"que são sincronizadas com serviços de armazenamento em nuvem também, "
+"fornecendo privacidade extra para esse conteúdo.<nl/><nl/>Para começar, "
+"clique na seta na <interface>Área de notificação</interface> para mostrar "
+"itens ocultos e, em seguida, clique no ícone <interface>Cofres</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -400,12 +402,21 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"As atividades podem ser usadas para separar projetos ou fluxos de trabalho "
+"de alto nível para que você possa se concentrar em um de cada vez. Você pode "
+"ter uma atividade para \"Casa\", \"Escola\", \"Trabalho\" e assim por "
+"diante. Cada atividade tem acesso a todos os seus arquivos, mas tem seu "
+"próprio conjunto de aplicativos e janelas abertas, documentos recentes, "
+"aplicativos \"Favoritos\" e widgets da área de trabalho.<nl/><nl/>Para "
+"começar, abra as <interface>Configurações do sistema</interface> e procure "
+"por \"Atividades\". Nessa página, você pode criar mais atividades. Você pode "
+"alternar entre elas usando o atalho de teclado <shortcut>Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "Página de atividades aberta nas configurações do sistema"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -427,12 +438,22 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"O KDE Connect permite que você integre seu telefone com seu computador de "
+"várias maneiras:<nl/><list><item>Veja notificações de seu telefone em seu "
+"computador</item><item>Responda a mensagens de texto de seu telefone em seu "
+"computador</item><item>Sincronize o conteúdo da área de transferência entre "
+"o computador e o telefone</item><item>Faça barulho no telefone quando ele "
+"estiver perdido</item><item>Copie fotos, vídeos e outros arquivos do seu "
+"telefone para o seu computador e vice-versa</item><item>…e muito mais!</"
+"item></list><nl/>Para começar, inicie as <interface>Configurações do "
+"sistema</interface> e procure por \"KDE Connect\". Nessa página, você pode "
+"emparelhar seu telefone."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "Página do KDE Connect aberta nas configurações do sistema"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
