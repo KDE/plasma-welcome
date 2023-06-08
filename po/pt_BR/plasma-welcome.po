@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-05-31 15:04-0300\n"
+"PO-Revision-Date: 2023-06-02 10:49-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -20,12 +20,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Patrick dos Reis Dolores"
+msgstr "Patrick dos Reis Dolores, Luiz Fernando Ranghetti"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "patrick.dos.reis537@gmail.com"
+msgstr "patrick.dos.reis537@gmail.com, elchevive@opensuse.org"
 
 #: src/contents/ui/main.qml:55
 #, kde-format
@@ -479,12 +479,24 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"O KRunner é o sistema de pesquisa excepcionalmente poderoso e versátil do "
+"Plasma. Ele alimenta a funcionalidade de pesquisa no menu do lançador de "
+"aplicativos e na tela de visão geral, e pode ser acessado como uma barra de "
+"pesquisa independente usando o atalho de teclado <shortcut>Alt+F2</shortcut>."
+"<nl/><nl/>Além disso para encontrar seus arquivos e pastas, o KRunner pode "
+"iniciar aplicativos, pesquisar na web, converter entre moedas, calcular "
+"problemas matemáticos e muito mais. Tente digitar qualquer um dos seguintes "
+"em um desses campos de pesquisa:<nl/><list><item>\"hora Shanghai\"</"
+"item><item>\"27/3\"</item><item>\"200 EUR em USD\"</item><item>\"25 milhas "
+"em km\"</item><item>…E muito mais!</item></list><nl/>Para saber mais, abra a "
+"barra de pesquisa do KRunner usando o atalho de teclado <shortcut>Alt+F2</"
+"shortcut> e clique no ícone de ponto de interrogação."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Visão geral"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
@@ -497,12 +509,19 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"A visão geral é uma sobreposição de tela inteira que mostra todas as janelas "
+"abertas, permitindo que você acesse facilmente qualquer uma delas. Ela "
+"também mostra suas áreas de trabalho virtuais atuais, permitindo adicionar "
+"mais, remover algumas e alternar entre elas. Finalmente, ele oferece um "
+"campo de pesquisa alimentado pelo KRunner que também pode filtrar pelas "
+"janelas abertas.<nl/><nl/>Você pode acessar a visão geral usando o atalho de "
+"teclado <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "Baixar novidades"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
@@ -515,12 +534,19 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"No Plasma, configurações do sistema e aplicativos KDE, você encontrará "
+"botões marcados como \"Baixar novas [coisas]…\". Ao clicar neles, você verá "
+"conteúdo de terceiros para estender o sistema, feito por outras pessoas como "
+"você! Desta forma, muitas vezes é possível adicionar a funcionalidade "
+"desejada sem ter que pedir aos desenvolvedores do KDE para implementá-la.<nl/"
+"><nl/>Observe que o conteúdo adquirido desta forma não foi revisado por sua "
+"distribuição quanto à funcionalidade ou estabilidade."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "Veja todo o conteúdo de terceiros disponível"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
@@ -538,6 +564,11 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"O Plasma é projetado para ser simples e utilizável imediatamente. As coisas "
+"estão onde você espera e geralmente não há necessidade de configurar nada "
+"antes de se sentir confortável e produtivo.<nl/><nl/>Se você sentir "
+"necessidade, encontrará o que precisa no aplicativo "
+"<application>Configurações do sistema</application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -558,13 +589,7 @@ msgid "Welcome to KDE Plasma!"
 msgstr "Bem-vindo ao KDE Plasma!"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is a free and open-source desktop environment created by KDE, an "
@@ -572,10 +597,11 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
-"O KDE Plasma é um ambiente de área de trabalho gratuito e de código aberto "
-"feito por voluntários em todo o mundo. Ele é simples por padrão para uma "
+"O Plasma é um ambiente de área de trabalho gratuito e de código aberto "
+"criado pelo KDE, uma comunidade internacional de software de voluntários. O "
+"ambiente da área de trabalho Plasma é simples por padrão para uma "
 "experiência suave, mas poderoso quando necessário para ajudá-lo a realmente "
-"fazer as coisas.<nl/><nl/>Bem-vindo à comunidade KDE!"
+"fazer as coisas. Esperamos que você ame!"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
