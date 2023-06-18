@@ -25,6 +25,7 @@ public:
     Q_INVOKABLE bool networkAlreadyConnected();
     Q_INVOKABLE bool userFeedbackAvailable();
     Q_INVOKABLE QStringList distroPages();
+    Q_INVOKABLE QString distroBugReportUrl();
 
     Q_PROPERTY(Mode mode MEMBER m_mode NOTIFY modeChanged)
     Q_PROPERTY(QString plasmaVersion MEMBER m_plasmaVersion CONSTANT)

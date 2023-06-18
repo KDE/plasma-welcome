@@ -18,6 +18,7 @@
 #include <KIO/ApplicationLauncherJob>
 #include <KIO/CommandLauncherJob>
 #include <KNotificationJobUiDelegate>
+#include <KOSRelease>
 #include <KService>
 
 void Controller::launchApp(const QString &program)
@@ -79,6 +80,11 @@ QStringList Controller::distroPages()
     }
 
     return pages;
+}
+
+QString Controller::distroBugReportUrl()
+{
+    return KOSRelease().bugReportUrl();
 }
 
 void Controller::setMode(Mode mode)

@@ -8,7 +8,7 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.15 as Kirigami
+import org.kde.kirigami 2.20 as Kirigami
 
 import org.kde.plasma.welcome 1.0
 
@@ -105,6 +105,73 @@ Kirigami.ApplicationWindow {
         }
     }
 
+    Kirigami.PromptDialog {
+        id: distroPageErrorDialog
+
+        property list<string> errors: []
+        property alias showDetails: showDetailsAction.checked
+
+        title: "Error"
+        standardButtons: Kirigami.Dialog.NoButton
+        customFooterActions: [
+            Kirigami.Action {
+                id: showDetailsAction
+                text: i18nc("@action:button", "Show Details")
+                checkable: true
+            },
+            Kirigami.Action {
+                text: i18n("OK")
+                icon.name: "dialog-ok"
+                onTriggered: distroPageErrorDialog.accept()
+            }
+        ]
+
+        ColumnLayout {
+            spacing: Kirigami.Units.largeSpacing
+
+            ColumnLayout {
+                spacing: Kirigami.Units.smallSpacing
+
+                QQC2.Label {
+                    Layout.fillWidth: true
+                    text: i18n("One or more pages provided by your distribution failed to load.")
+                    wrapMode: Text.Wrap
+                }
+
+                Kirigami.UrlButton {
+                    Layout.fillWidth: true
+                    horizontalAlignment: Text.AlignLeft
+                    text: i18nc("@action:button", "Please report this to your distributor.")
+                    url: Controller.distroBugReportUrl()
+                    wrapMode: Text.Wrap
+                }
+            }
+
+            Kirigami.Separator {
+                Layout.fillWidth: true
+                visible: distroPageErrorDialog.showDetails
+            }
+
+            Repeater {
+                id: errorRepeater
+                model: distroPageErrorDialog.errors
+                delegate: Kirigami.SelectableLabel {
+                    Layout.fillWidth: true
+                    text: modelData
+                    font.family: "monospace"
+                    wrapMode: Text.Wrap
+                    visible: distroPageErrorDialog.showDetails
+                }
+            }
+        }
+
+        function openIfError() {
+            if (errors.length > 0) {
+                open();
+            }
+        }
+    }
+
     Component.onCompleted: {
         switch (Controller.mode) {
             case Controller.Update:
@@ -136,10 +203,13 @@ Kirigami.ApplicationWindow {
                         if (distroPageComponent.status !== Component.Error) {
                             pageStack.push(distroPageComponent);
                         } else {
-                            console.warn("Error loading Page", distroPages[i], distroPageComponent.status);
-                            Qt.exit(123);
+                            console.warn("Error loading distro page",
+                                         "\n     " + distroPageComponent.errorString(),
+                                         "    Please notify your distributor.");
+                            distroPageErrorDialog.errors.push(distroPageComponent.errorString().replace(/(\n)/gm, ""));
                         }
                     }
+                    distroPageErrorDialog.openIfError();
                 }
 
                 pageStack.push(contribute);
