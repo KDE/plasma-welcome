@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-12 02:13+0000\n"
-"PO-Revision-Date: 2023-05-22 13:58\n"
+"PO-Revision-Date: 2023-06-17 04:09\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -64,8 +64,8 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"我们的开发人员将使用这些匿名数据来改进 KDE 软件。您可以在系统设置中选择分享数"
-"据的多少，也可以在此选择。"
+"KDE 的开发人员将使用您提供的匿名数据来改进 KDE 软件。您可以在系统设置中选择分"
+"享哪些数据，也可以在此页面选择。"
 
 #: src/contents/ui/main.qml:170
 #, kde-format
@@ -80,8 +80,8 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
-"这将让您可以在 KDE 应用程序中访问在线账户的内容。您可以在系统设置中连接在线账"
-"户，也可以在此处连接。"
+"连接在线账户后，您将可以在 KDE 应用程序中访问在线账户的内容。您可以在系统设置"
+"中设置在线账户，也可以在此页面设置。"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -102,12 +102,13 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
-"KDE 不是什么大公司，而是一个国际性的志愿者社区。KDE 的软件是由像你这样的普通"
-"人制作的。KDE 的贡献者们大多是用爱发电的志愿者。这意味着您也可以帮助它变得更"
-"好！您可以在不同的领域贡献力量，例如翻译、视觉设计、宣传推广和编程、程序缺陷"
-"鉴别等。<nl/><nl/>通过为 KDE 作出贡献，您可以成为这个独特项目的一分子，认识新"
-"的朋友，学到新的技能。在这里，您将与来自全球各地的人们通力合作，为千万的用户"
-"提供高效易用的自由软件，为改变世界作出自己的贡献。"
+"KDE 并不是什么大公司，而是一个国际性的志愿者社区。KDE 的软件是由像您这样的普"
+"通人制作的。KDE 的贡献者们大多是用爱发电的志愿者。您也可以加入进来，帮助 KDE "
+"变得更好！您可以在不同的领域贡献力量，例如翻译、视觉设计、宣传推广、编程、程"
+"序缺陷鉴别等。<nl/><nl/>通过为 KDE 作出贡献，您将亲身参与自由开源软件的实践，"
+"学习新的技能，拓宽自己的视野，找到志同道合的伙伴。在这里，您将与来自全球各地"
+"的人们通力合作，为成千上万的用户提供高效易用的自由软件，为改变世界作出自己的"
+"贡献。"
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -120,7 +121,7 @@ msgstr "开始贡献！"
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr "访问 %1"
+msgstr "点击访问 %1"
 
 #: src/contents/ui/pages/Discover.qml:19
 #, kde-format
@@ -137,8 +138,8 @@ msgid ""
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
 "<application>Discover</application> 是 KDE 的软件管理中心，它能帮助您查找并安"
-"装所需的应用程序、游戏和工具。您可以通过关键词查找程序，也可以按分类浏览程"
-"序。您还可以查看屏幕截图，阅读用户评价，选出最适合自己的应用程序。"
+"装所需的应用程序、游戏和实用工具。您可以通过关键词查找程序，也可以按分类浏览"
+"程序。您还可以查看屏幕截图，阅读用户评价，找到最适合自己的应用程序。"
 
 #: src/contents/ui/pages/Discover.qml:97
 #, kde-format
@@ -150,7 +151,7 @@ msgstr "在 Discover 中显示 %1"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr "为您的自由捐款"
+msgstr "捐款支持您使用的自由软件"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -162,10 +163,10 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
-"KDE 的运营经费非常有限，不得不在很大程度上依赖来自捐赠的资源和志愿者们的无偿"
-"劳动。您可以通过捐款帮助我们改善这种境况。<nl/><nl/>捐款可以帮助 KDE 支付用于"
-"开发冲刺活动、硬件购置、服务器租用以及扩大雇员规模的开销。捐款在德国可以减免"
-"税费。"
+"KDE 的经费非常有限，它的运营在很大程度上依赖来自热心人士捐赠的资源和志愿者们"
+"的无偿劳动。您可以通过捐款帮助我们改善这种境况。<nl/><nl/>您的捐款可以帮助 "
+"KDE 支付用于举办开发冲刺活动、购置硬件、租用服务器以及维持全职工作人员团队的"
+"开销。捐款在德国可以减免税费。"
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:37
@@ -234,8 +235,7 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plasma 是一款功能强大的桌面环境，您可以活用它的各种功能来提高工作效率。以下只"
-"是它能为您做到的各种事情的一小部分："
+"Plasma 具备丰富的功能，可以提高您的工作效率。您可以从下面的这些功能开始体验："
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
@@ -285,7 +285,7 @@ msgstr "KRunner"
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "搜索想要的内容"
+msgstr "搜索您想要的内容"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:105
 #, kde-format
@@ -297,7 +297,7 @@ msgstr "桌面概览"
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "您的系统命令中心"
+msgstr "显示全部桌面和窗口并进行切换和管理"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
 #, kde-format
@@ -335,11 +335,11 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Plasma 保险库可以创建叫做<interface>保险库</interface>的加密文件夹。您可以在"
-"保险库中安全地存储密码、文件、图片、文档等，防止被其他人窃取。保险库可以直接"
-"作为文件保存在与云端存储服务同步的文件夹中，让加密内容的使用更加便利。<nl/"
-"><nl/>要使用保险库功能，请点击<interface>系统托盘</interface>上的下箭头，展开"
-"隐藏的图标，然后点击<interface>保险库</interface>图标。"
+"Plasma 保险库可以创建一种叫做<interface>保险库</interface>的加密文件夹。您可"
+"以在保险库中安全地存储密码、文件、图片、文档等，避免被其他人窃取。保险库还可"
+"以直接作为文件保存在与云端存储服务同步的文件夹中，从而为云端存储提供额外的保"
+"护。<nl/><nl/>要使用保险库功能，请点击<interface>系统托盘</interface>上的下箭"
+"头，展开隐藏的图标，然后点击<interface>保险库</interface>图标。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:141
 #, kde-format
@@ -360,11 +360,11 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
-"活动可以用来区分管理各种任务，以便在一段时间内能集中精力做好一件事。例如您可"
-"以给“家庭”、“学习”、“工作”等分别设置一个活动。每个活动都能够访问您的所有文"
-"件，但每个活动有自己的一套打开的应用、窗口、最近文档、常用程序、桌面小程序"
-"等。<nl/><nl/>要使用活动功能，请打开<interface>系统设置</interface>并搜索“活"
-"动”。在“活动”页面中，您可以创建更多的活动。创建完所需的活动之后，您只需按下 "
+"活动可以用来区分管理各种任务，让您可以专心处理好每一件事。例如您可以给“家"
+"庭”、“学习”、“工作”等分别设置一个活动。每个活动都能够访问您的所有文件，但每个"
+"活动会独立记忆各自打开的应用、窗口、最近文档、常用程序、桌面小程序等状态。"
+"<nl/><nl/>要使用活动功能，请打开<interface>系统设置</interface>并搜索“活动”。"
+"在“活动”页面中，您可以创建活动并对它们进行管理。创建完所需的活动之后，按下 "
 "<shortcut>Meta+Tab</shortcut> 键盘快捷键即可在各个活动之间切换。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
@@ -478,11 +478,11 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
-"在 Plasma、系统设置和 KDE 应用中，你会看到一些叫做“获取新的<emphasis>XX</"
-"emphasis>…”的按钮。点击这些按钮将显示用于扩展系统功能的第三方资源。这些内容是"
-"由和您一样的用户制作的。通过使用扩展资源，您可以为系统添加一些 KDE 中没有的功"
-"能，而无需请求 KDE 的开发人员去实现它们。<nl/><nl/>请注意：通过此方式获取的内"
-"容并未经过您系统发行机构的审查，可能在功能和稳定性上存在缺陷。"
+"Plasma 桌面环境、系统设置和某些 KDE 应用中有一些叫做“获取新的<emphasis>XX</"
+"emphasis>…”的按钮。点击这些按钮将显示用于扩展系统功能的第三方资源。这些资源是"
+"由和您一样的用户制作的。您可以通过添加扩展资源来获得一些 KDE 本身不具备的功"
+"能，而无需请求 KDE 的开发人员去实现它们。<nl/><nl/>请注意：通过这种方式获取的"
+"资源并未经过您系统发行机构的检查，可能会在功能和稳定性上存在问题。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
@@ -506,9 +506,10 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
-"Plasma 致力于让桌面在默认情况下简洁易用。它的界面和选项都尽可能迎合大多数人的"
-"习惯，您无需进行额外配置即可舒适且高效地使用电脑。<nl/><nl/>如果您想要自定义"
-"系统的功能，也可以在<application>系统设置</application>应用中找到各种选项。"
+"Plasma 致力于让桌面在默认情况下简洁易用。它的默认配置在最大程度上迎合了大多数"
+"人的使用习惯，让您无需繁琐的配置即可舒适高效地使用电脑。<nl/><nl/>如果您想要"
+"自定义系统的功能，也可以在<application>系统设置</application>应用中找到对应的"
+"选项。"
 
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
@@ -525,9 +526,10 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
-"Plasma 是 KDE 出品的一款自由开源桌面环境。KDE 是一个由志愿者组成的国际性软件"
-"社区。Plasma 的默认状态简洁易用，让您无需过多配置即可流畅使用；它支持深度的按"
-"需定制，而且功能强大，让您可以高效地完成工作任务。希望您能喜欢它！"
+"Plasma 是一款由 KDE 出品的自由开源桌面环境。KDE 是一个由志愿者组成的国际性软"
+"件社区。Plasma 的默认状态简洁易用，让您无需繁琐的配置即可流畅工作。Plasma 不"
+"但功能全面，还提供了丰富的可定制选项，让您可以高效地完成工作任务。我们希望您"
+"能喜欢上它！"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
@@ -539,7 +541,7 @@ msgstr "了解更多关于 KDE 社区的信息"
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "KDE 的吉祥物 Konqi (恐奇) 欢迎您加入 KDE 社区！"
+msgstr "KDE 的吉祥物 Konqi (恐奇) 欢迎您走进 KDE 社区！"
 
 #: src/main.cpp:45
 #, kde-format
