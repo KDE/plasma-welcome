@@ -22,19 +22,13 @@ GenericPage
     rightPadding: 0
     bottomPadding: 0
 
-    flickable: module.kcm.mainUi.flickable
-    actions: module.kcm.mainUi.actions
+    flickable: module.kcm?.mainUi.flickable ?? null
+    actions: module.kcm?.mainUi.actions ?? null
 
     onActiveFocusChanged: {
         if (activeFocus) {
-            module.kcm.mainUi.forceActiveFocus();
+            module.kcm?.mainUi.forceActiveFocus();
         }
-    }
-
-    Component.onCompleted: {
-        module.kcm.load()
-        module.kcm.mainUi.parent = contentItem;
-        module.kcm.mainUi.anchors.fill = contentItem;
     }
 
     data: [
@@ -48,7 +42,7 @@ GenericPage
             }
             function onNeedsSaveChanged () {
                 if (module.kcm.needsSave) {
-                    module.kcm.save()
+                    module.kcm.save();
                 }
             }
         },
@@ -56,7 +50,7 @@ GenericPage
             target: pageStack
             function onPageRemoved(page) {
                 if (module.kcm.needsSave) {
-                    module.kcm.save()
+                    module.kcm.save();
                 }
                 if (page == container) {
                     page.destroy();
@@ -74,6 +68,18 @@ GenericPage
         }
     ]
 
+    Kirigami.PlaceholderMessage {
+        anchors.centerIn: parent
+
+        width: parent.width - Kirigami.Units.gridUnit * 2
+
+        visible: module.kcm === null
+
+        icon.name: "tools-report-bug"
+        text: i18n("This settings module could not be loaded")
+        explanation: module.errorString
+    }
+
     Kirigami.Separator {
         width: parent.width
         anchors.bottom: parent.top
@@ -81,6 +87,19 @@ GenericPage
 
     Module {
         id: module
-        path: container.path
     }
+
+    function load() {
+        module.path = container.path;
+        module.kcm?.load();
+        if (module.kcm !== null) {
+            module.kcm.mainUi.parent = contentItem;
+            module.kcm.mainUi.anchors.fill = contentItem;
+        } else {
+            console.warn("Error loading settings module:", path);
+            console.warn(" " + module.errorString);
+        }
+    }
+
+    onPathChanged: load()
 }

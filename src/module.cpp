@@ -11,6 +11,8 @@
 #include <QQmlContext>
 #include <QQmlEngine>
 
+#include <KLocalizedString>
+
 KQuickConfigModule *Module::kcm() const
 {
     return m_kcm;
@@ -21,10 +23,19 @@ QString Module::path() const
     return m_path;
 }
 
+QString Module::errorString() const
+{
+    return m_errorString;
+}
+
 void Module::setPath(const QString &path)
 {
     if (m_path == path) {
         return;
+    }
+
+    if (!m_errorString.isEmpty()) {
+        m_errorString = QString();
     }
 
     // In case the user clicks from the UI we pass in the absolute path
@@ -58,8 +69,10 @@ void Module::setPath(const QString &path)
 
         Q_EMIT kcmChanged();
     } else {
-        qWarning() << "Unknown module" << path << "requested";
+        m_errorString = i18nc("%1 is the filesystem path to a settings module", "Unknown module %1 requested", path);
     }
+
+    Q_EMIT errorStringChanged();
 }
 
 #include "moc_module.cpp"
