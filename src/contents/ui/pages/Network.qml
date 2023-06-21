@@ -7,12 +7,13 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
-import QtGraphicalEffects 1.15
+import Qt5Compat.GraphicalEffects
 import org.kde.kirigami 2.15 as Kirigami
 
 import org.kde.plasma.welcome 1.0
 import org.kde.plasma.components 3.0 as PC3
 import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.plasma5support 2.0 as P5Support
 
 GenericPage {
     id: root
@@ -21,7 +22,7 @@ GenericPage {
     description: xi18nc("@info:usagetip", "You can connect to the internet and manage your network connections with the <interface>Networks applet</interface>. To access it, click on the <interface>Networks</interface> icon in your <interface>System Tray</interface>, which lives in the bottom-right corner of the screen.")
 
     // To get the current date and time
-    PlasmaCore.DataSource {
+    P5Support.DataSource {
         id: timeSource
         engine: "time"
         connectedSources: ["Local"]

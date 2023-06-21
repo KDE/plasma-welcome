@@ -13,11 +13,11 @@
 #include <QString>
 
 #include "controller.h"
-#include "kuserfeedbacksettings.h"
 
 #include <KIO/ApplicationLauncherJob>
 #include <KIO/CommandLauncherJob>
 #include <KNotificationJobUiDelegate>
+#include <KPluginMetaData>
 #include <KService>
 
 void Controller::launchApp(const QString &program)
@@ -57,11 +57,14 @@ bool Controller::networkAlreadyConnected()
 
 bool Controller::userFeedbackAvailable()
 {
-#if HAVE_KUSERFEEDBACK
-    return true;
-#else
-    return false;
-#endif
+    KPluginMetaData data(QStringLiteral("plasma/kcms/systemsettings/kcm_feedback"));
+    return data.isValid();
+}
+
+bool Controller::accountsAvailable()
+{
+    KPluginMetaData data(QStringLiteral("plasma/kcms/systemsettings/kcm_kaccounts"));
+    return data.isValid();
 }
 
 QStringList Controller::distroPages()

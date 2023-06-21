@@ -24,6 +24,7 @@ public:
     Q_INVOKABLE static void runCommand(const QString &command, const QString &desktopFilename);
     Q_INVOKABLE bool networkAlreadyConnected();
     Q_INVOKABLE bool userFeedbackAvailable();
+    Q_INVOKABLE bool accountsAvailable();
     Q_INVOKABLE QStringList distroPages();
 
     Q_PROPERTY(Mode mode MEMBER m_mode NOTIFY modeChanged)

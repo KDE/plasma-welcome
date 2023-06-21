@@ -25,8 +25,7 @@ GenericPage
     bottomPadding: 0
 
     flickable: module.kcm.mainUi.flickable
-    actions.main: module.kcm.mainUi.actions.main
-    actions.contextualActions: module.kcm.mainUi.contextualActions
+    actions: module.kcm.mainUi.actions
 
     onActiveFocusChanged: {
         if (activeFocus) {

@@ -9,7 +9,9 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.15 as Kirigami
-import QtGraphicalEffects 1.15
+import Qt5Compat.GraphicalEffects
+
+import org.kde.kcmutils as KCMUtils
 
 import org.kde.plasma.welcome 1.0
 
@@ -141,11 +143,13 @@ GenericPage {
             heading: i18nc("@info:window", "Activities")
             description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut.")
 
-            actions.main: Kirigami.Action {
-                icon.name: "preferences-desktop-activities"
-                text: i18nc("@action:button", "Open Settings…")
-                onTriggered: Controller.launchApp("kcm_activities");
-            }
+            actions: [
+                Kirigami.Action {
+                    icon.name: "preferences-desktop-activities"
+                    text: i18nc("@action:button", "Open Settings…")
+                    onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_activities")
+                }
+            ]
         }
     }
 
@@ -170,11 +174,13 @@ GenericPage {
             // TODO: KDE Connect might not be installed:
             // We should show an InlineMessage and hide the action.
 
-            actions.main: Kirigami.Action {
-                icon.name: "kdeconnect"
-                text: i18nc("@action:button", "Open Settings…")
-                onTriggered: Controller.launchApp("kcm_kdeconnect");
-            }
+            actions: [
+                Kirigami.Action {
+                    icon.name: "kdeconnect"
+                    text: i18nc("@action:button", "Open Settings…")
+                    onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_kdeconnect")
+                }
+            ]
         }
     }
 
@@ -214,11 +220,13 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
             heading: i18nc("@info:window", "Get New Stuff")
             description: xi18nc("@info:usagetip", "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked \"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-party content to extend the system, made by other people like you! In this way, it is often possible to add functionality you want without having to ask KDE developers to implement it themselves.<nl/><nl/>Note that content acquired this way has not been reviewed by your distributor for functionality or stability.")
 
-            actions.main: Kirigami.Action {
-                icon.name: "get-hot-new-stuff"
-                text: i18nc("@action:button", "See 3rd-Party Content…")
-                onTriggered: Controller.launchApp("org.kde.knewstuff-dialog");
-            }
+            actions: [
+                Kirigami.Action {
+                    icon.name: "get-hot-new-stuff"
+                    text: i18nc("@action:button", "See 3rd-Party Content…")
+                    onTriggered: Controller.launchApp("org.kde.knewstuff-dialog")
+                }
+            ]
         }
     }
 }

@@ -126,7 +126,9 @@ Kirigami.ApplicationWindow {
                     pageStack.push(kcm_feedback);
                 }
 
-                pageStack.push(kcm_kaccounts);
+                if (Controller.accountsAvailable()) {
+                    pageStack.push(kcm_kaccounts);
+                }
 
                 // Append any distro-specific pages that were found
                 let distroPages = Controller.distroPages();

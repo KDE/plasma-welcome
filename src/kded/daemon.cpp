@@ -8,7 +8,6 @@
 #include <KIO/CommandLauncherJob>
 #include <KNotificationJobUiDelegate>
 #include <KPluginFactory>
-#include <KPluginLoader>
 #include <QString>
 
 #include "../version.h"

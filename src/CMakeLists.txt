@@ -2,8 +2,6 @@
 # SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
-set(HAVE_KUSERFEEDBACK ${KUserFeedback_FOUND})
-configure_file(kuserfeedbacksettings.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/kuserfeedbacksettings.h)
 configure_file(version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/version.h)
 
 add_executable(plasma-welcome main.cpp controller.cpp resources.qrc module.cpp applicationInfo.cpp)
@@ -18,15 +16,15 @@ target_link_libraries(plasma-welcome
     Qt::Quick
     Qt::QuickControls2
     Qt::Svg
-    KF5::I18n
-    KF5::CoreAddons
-    KF5::ConfigWidgets
-    KF5::DBusAddons
-    KF5::KIOGui
-    KF5::Notifications
-    KF5::QuickAddons
-    KF5::Service
-    KF5::WindowSystem
+    KF6::I18n
+    KF6::CoreAddons
+    KF6::ConfigWidgets
+    KF6::DBusAddons
+    KF6::KIOGui
+    KF6::Notifications
+    KF6::KCMUtils
+    KF6::Service
+    KF6::WindowSystem
 )
 kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
 install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

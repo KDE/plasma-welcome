@@ -8,8 +8,10 @@
 #include "module.h"
 
 #include <KPluginFactory>
+#include <QQmlContext>
+#include <QQmlEngine>
 
-KQuickAddons::ConfigModule *Module::kcm() const
+KQuickConfigModule *Module::kcm() const
 {
     return m_kcm;
 }
@@ -42,11 +44,13 @@ void Module::setPath(const QString &path)
         m_path = kcmMetaData.fileName();
         Q_EMIT pathChanged();
 
-        auto kcm = KPluginFactory::instantiatePlugin<KQuickAddons::ConfigModule>(kcmMetaData, nullptr).plugin;
+        auto *ctx = QQmlEngine::contextForObject(this);
+        auto engine = (std::shared_ptr<QQmlEngine>)ctx->engine();
+        auto kcm = KQuickConfigModuleLoader::loadModule(kcmMetaData, nullptr, QVariantList(), engine).plugin;
 
-        if (QQmlContext *ctx = QQmlEngine::contextForObject(this)) {
+        // Fixes double header in kcm_kaccounts
+        if (ctx) {
             auto context = new QQmlContext(ctx->engine(), this);
-
             QQmlEngine::setContextForObject(kcm, context);
         }
 

@@ -9,13 +9,13 @@ project(welcome)
 include(FeatureSummary)
 
 set(PROJECT_VERSION "5.27.80")
-set(REQUIRED_QT_VERSION 5.15.2)
-set(KF5_MIN_VERSION 5.98)
+set(REQUIRED_QT_VERSION 6.4.0)
+set(KF6_MIN_VERSION 5.240.0)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 
@@ -42,9 +42,23 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons Declarative I18n KIO NewStuff Notifications Plasma Service WindowSystem DBusAddons)
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons I18n KIO NewStuff Notifications Plasma Service WindowSystem DBusAddons KCMUtils)
+
 find_package(KUserFeedback)
-find_package(KAccounts REQUIRED)
+set_package_properties(KUserFeedback PROPERTIES
+    DESCRIPTION "Framework for collecting user feedback for apps via telemetry and surveys"
+    PURPOSE "Required for embedded User Feedback settings page"
+    TYPE RUNTIME
+)
+
+
+find_package(KAccounts)
+set_package_properties(KAccounts PROPERTIES
+    DESCRIPTION "Online account management system and its Plasma integration components"
+    PURPOSE "Required for embedded Online Accounts settings page"
+    TYPE RUNTIME
+)
+
 
 ecm_set_disabled_deprecation_versions(QT 5.15.2
     KF 5.101
