@@ -17,6 +17,7 @@
 #include <KIO/ApplicationLauncherJob>
 #include <KIO/CommandLauncherJob>
 #include <KNotificationJobUiDelegate>
+#include <KOSRelease>
 #include <KPluginMetaData>
 #include <KService>
 
@@ -82,6 +83,21 @@ QStringList Controller::distroPages()
     }
 
     return pages;
+}
+
+QString Controller::distroName()
+{
+    return KOSRelease().name();
+}
+
+QString Controller::distroIcon()
+{
+    return KOSRelease().logo();
+}
+
+QString Controller::distroUrl()
+{
+    return KOSRelease().homeUrl();
 }
 
 void Controller::setMode(Mode mode)

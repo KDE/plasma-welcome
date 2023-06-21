@@ -15,7 +15,7 @@ import org.kde.plasma.welcome 1.0
 Kirigami.ApplicationWindow {
     id: root
 
-    readonly property bool showingPlasmaUpdate: Controller.mode !== Controller.Welcome
+    readonly property bool showingPlasmaUpdate: Controller.mode === Controller.Update
 
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 32
@@ -111,6 +111,10 @@ Kirigami.ApplicationWindow {
                 pageStack.push(plasmaUpdate);
                 break;
 
+            case Controller.Live:
+                pageStack.push(live);
+                // Fallthrough
+
             case Controller.Welcome:
                 pageStack.push(welcome);
 
@@ -122,12 +126,14 @@ Kirigami.ApplicationWindow {
                 pageStack.push(powerfulWhenNeeded);
                 pageStack.push(discover);
 
-                if (Controller.userFeedbackAvailable()) {
-                    pageStack.push(kcm_feedback);
-                }
+                if (Controller.mode !== Controller.Live) {
+                    if (Controller.userFeedbackAvailable()) {
+                        pageStack.push(kcm_feedback);
+                    }
 
-                if (Controller.accountsAvailable()) {
-                    pageStack.push(kcm_kaccounts);
+                    if (Controller.accountsAvailable()) {
+                        pageStack.push(kcm_kaccounts);
+                    }
                 }
 
                 // Append any distro-specific pages that were found
@@ -151,6 +157,7 @@ Kirigami.ApplicationWindow {
         }
     }
 
+    Live {id: live; visible: false}
     Welcome {id: welcome; visible: false}
     Network {id: network; visible: false}
     SimpleByDefault {id: simpleByDefault; visible: false}

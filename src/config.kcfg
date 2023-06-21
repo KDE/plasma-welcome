@@ -16,5 +16,13 @@
             <label>Whether to show or skip the update screen.</label>
             <default>true</default>
         </entry>
+        <entry name="LiveEnvironment" type="Bool">
+            <label>Whether to show the live environment experience, for distro installers.</label>
+            <default>false</default>
+        </entry>
+        <entry name="LiveInstaller" type="String">
+            <label>The location of the installer application for the live environment.</label>
+            <default></default>
+        </entry>
     </group>
 </kcfg>

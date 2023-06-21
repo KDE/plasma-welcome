@@ -26,13 +26,16 @@ public:
     Q_INVOKABLE bool userFeedbackAvailable();
     Q_INVOKABLE bool accountsAvailable();
     Q_INVOKABLE QStringList distroPages();
+    Q_INVOKABLE QString distroName();
+    Q_INVOKABLE QString distroIcon();
+    Q_INVOKABLE QString distroUrl();
 
     Q_PROPERTY(Mode mode MEMBER m_mode NOTIFY modeChanged)
     Q_PROPERTY(QString plasmaVersion MEMBER m_plasmaVersion CONSTANT)
     Q_PROPERTY(QString simplePlasmaVersion MEMBER m_simplePlasmaVersion CONSTANT)
     Q_PROPERTY(QStringList plasmaVersionSplit MEMBER m_plasmaVersionSplit CONSTANT)
 
-    enum Mode { Welcome, Update };
+    enum Mode { Update, Live, Welcome };
     Q_ENUM(Mode)
 
     void setMode(Mode mode);

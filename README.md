@@ -8,9 +8,10 @@ A Friendly onboarding wizard for Plasma
 
 Welcome Center is the perfect introduction to KDE Plasma! It can help you learn how to connect to the internet, install apps, customize the system, and more!
 
-There are two usage modes:
+There are three usage modes:
 - Run the app normally and it will show a welcome/onboarding wizard.
 - Run the app with the `--post-update` argument to show a post-update message.
+- Run the app with the `--live-environment` argument to show a reduced wizard with the live installer page and no settings pages.
 
 
 ## Screenshots
@@ -20,6 +21,18 @@ There are two usage modes:
 
 ![Sixth page](https://cdn.kde.org/screenshots/plasma-welcome/plasma-welcome-page-6.png)
 
+# For live distributions
+When Welcome Center is ran in a live environment, it can show a reduced wizard with a page welcoming the user to the disibution and without any settings pages.
+
+To ensure that Welcome Center's launcher recognises the live environment, you will need to create/change the config in your live user's `~/.config/plasma-welcomerc`:
+
+```conf
+[General]
+LiveEnvironment=true
+LiveInstaller=calamares
+```
+
+`LiveInstaller` is optional, used to show a shortcut to launch the installer. It should be the name of a desktop file in `/usr/share/applications`, without the `.desktop` extension.
 
 # Extending Welcome Center with custom pages
 Custom distro-specific pages can be embedded in the app, and will appear right before the "Get Involved" page. Only content that is safely skippable should be added, since the user can close the app at any time, potentially before they see your custom pages.

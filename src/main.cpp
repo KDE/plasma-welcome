@@ -79,11 +79,14 @@ int main(int argc, char *argv[])
     parser.setApplicationDescription(description);
     aboutData.setupCommandLine(&parser);
     parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
+    parser.addOption(QCommandLineOption(QStringLiteral("live-environment"), i18n("Display the live page intended for distro live environments.")));
 
     parser.process(app);
     aboutData.processCommandLine(&parser);
     if (parser.isSet(QStringLiteral("post-update"))) {
         controller.setMode(Controller::Mode::Update);
+    } else if (parser.isSet(QStringLiteral("live-environment"))) {
+        controller.setMode(Controller::Mode::Live);
     }
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));

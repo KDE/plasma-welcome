@@ -21,14 +21,20 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
     , m_currentVersion(QVersionNumber::fromString(QString::fromLatin1(PROJECT_VERSION)))
     , m_previousVersion(QVersionNumber::fromString(m_config.readEntry("LastSeenVersion", QString::fromLatin1(PROJECT_VERSION))))
 {
-    if (m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty()) {
-        launch(QStringList{});
-    } else if (m_config.readEntry("ShowUpdatePage", true) && isSignificantUpgrade()) {
-        launch(QStringList{QStringLiteral("--post-update")});
-    }
+    if (m_config.readEntry("LiveEnvironment", true)) {
+        // Live installer, always launch
+        launch(QStringList{QStringLiteral("--live-environment")});
+    } else {
+        // Normal, check if launched before or updated since
+        if (m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty()) {
+            launch(QStringList{});
+        } else if (m_config.readEntry("ShowUpdatePage", true) && isSignificantUpgrade()) {
+            launch(QStringList{QStringLiteral("--post-update")});
+        }
 
-    m_config.writeEntry("LastSeenVersion", m_currentVersion.toString());
-    m_config.config()->sync();
+        m_config.writeEntry("LastSeenVersion", m_currentVersion.toString());
+        m_config.config()->sync();
+    }
 }
 
 bool PlasmaWelcomeDaemon::isSignificantUpgrade()
