@@ -40,9 +40,8 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
 bool PlasmaWelcomeDaemon::isSignificantUpgrade()
 {
     if (m_currentVersion > m_previousVersion) {
-        // Need atleast two version numbers, X.X(.X)
-        if (m_currentVersion.segmentCount() < 2 || m_previousVersion.segmentCount() < 2)
-            return false;
+        // We should get atleast two version numbers, X.X(.X)
+        Q_ASSERT(m_currentVersion.segmentCount() > 1 && m_previousVersion.segmentCount() > 1);
 
         // 5.X(.X) -> 6.X(.X)
         if (m_currentVersion.majorVersion() > m_previousVersion.majorVersion())
