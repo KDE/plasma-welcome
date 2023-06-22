@@ -21,7 +21,7 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
     , m_currentVersion(QVersionNumber::fromString(QString::fromLatin1(PROJECT_VERSION)))
     , m_previousVersion(QVersionNumber::fromString(m_config.readEntry("LastSeenVersion", QString::fromLatin1(PROJECT_VERSION))))
 {
-    if (m_config.readEntry("LiveEnvironment", true)) {
+    if (m_config.readEntry("LiveEnvironment", false)) {
         // Live installer, always launch
         launch(QStringList{QStringLiteral("--live-environment")});
     } else {
