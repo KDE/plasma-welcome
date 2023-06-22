@@ -3,6 +3,7 @@
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
 configure_file(version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/version.h)
+configure_file(config-plasma-welcome.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma-welcome.h)
 
 add_executable(plasma-welcome main.cpp controller.cpp resources.qrc module.cpp applicationInfo.cpp)
 

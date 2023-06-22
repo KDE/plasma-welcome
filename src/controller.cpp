@@ -12,6 +12,7 @@
 #include <QStandardPaths>
 #include <QString>
 
+#include "config-plasma-welcome.h"
 #include "controller.h"
 
 #include <KIO/ApplicationLauncherJob>
@@ -83,6 +84,11 @@ QStringList Controller::distroPages()
     }
 
     return pages;
+}
+
+QString Controller::installPrefix()
+{
+    return QString::fromLatin1(PLASMA_WELCOME_INSTALL_DIR);
 }
 
 QString Controller::distroName()

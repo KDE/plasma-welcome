@@ -29,6 +29,7 @@ public:
     Q_INVOKABLE QString distroName();
     Q_INVOKABLE QString distroIcon();
     Q_INVOKABLE QString distroUrl();
+    Q_INVOKABLE QString installPrefix();
 
     Q_PROPERTY(Mode mode MEMBER m_mode NOTIFY modeChanged)
     Q_PROPERTY(QString plasmaVersion MEMBER m_plasmaVersion CONSTANT)
