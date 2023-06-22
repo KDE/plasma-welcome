@@ -6,9 +6,7 @@
  */
 
 #include <QDir>
-#include <QFile>
 #include <QNetworkInterface>
-#include <QProcess>
 #include <QStandardPaths>
 #include <QString>
 
