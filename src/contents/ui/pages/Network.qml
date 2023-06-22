@@ -12,6 +12,7 @@ import org.kde.kirigami 2.15 as Kirigami
 import org.kde.plasma.welcome 1.0
 import org.kde.plasma.components 3.0 as PC3
 import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.ksvg 1.0 as KSvg
 import org.kde.plasma.plasma5support 2.0 as P5Support
 
 GenericPage {
@@ -110,7 +111,7 @@ GenericPage {
                 anchors.bottom: parent.bottom
 
                 // Panel background
-                PlasmaCore.FrameSvgItem {
+                KSvg.FrameSvgItem {
                     anchors.fill: parent
                     imagePath: "solid/widgets/panel-background"
                     enabledBorders: "TopBorder"
@@ -135,22 +136,22 @@ GenericPage {
                         Layout.fillWidth: true
                     }
 
-                    PlasmaCore.SvgItem {
+                    KSvg.SvgItem {
                         implicitWidth: appletContainer.iconSize
                         implicitHeight: appletContainer.iconSize
-                        svg: PlasmaCore.Svg { imagePath: "icons/klipper" }
+                        imagePath: "icons/klipper"
                         elementId: "klipper"
                     }
-                    PlasmaCore.SvgItem {
+                    KSvg.SvgItem {
                         implicitWidth: appletContainer.iconSize
                         implicitHeight: appletContainer.iconSize
-                        svg: PlasmaCore.Svg { imagePath: "icons/audio" }
+                        imagePath: "icons/audio"
                         elementId: "audio-volume-high"
                     }
-                    PlasmaCore.SvgItem {
+                    KSvg.SvgItem {
                         implicitWidth: appletContainer.iconSize
                         implicitHeight: appletContainer.iconSize
-                        svg: PlasmaCore.Svg { imagePath: "icons/network" }
+                        imagePath: "icons/network"
                         elementId: nmLoader.iconConnectionIcon
                         PC3.BusyIndicator {
                             id: connectingIndicator
@@ -162,10 +163,10 @@ GenericPage {
                             visible: running
                         }
                     }
-                    PlasmaCore.SvgItem {
+                    KSvg.SvgItem {
                         implicitWidth: appletContainer.iconSize
                         implicitHeight: appletContainer.iconSize
-                        svg: PlasmaCore.Svg { imagePath: "widgets/arrows" }
+                        imagePath: "widgets/arrows"
                         elementId: "up-arrow"
                     }
                     ColumnLayout {
@@ -185,10 +186,10 @@ GenericPage {
                             Layout.bottomMargin: PlasmaCore.Units.smallSpacing
                         }
                     }
-                    PlasmaCore.SvgItem {
+                    KSvg.SvgItem {
                         implicitWidth: appletContainer.iconSize
                         implicitHeight: appletContainer.iconSize
-                        svg: PlasmaCore.Svg { imagePath: "icons/user" }
+                        imagePath: "icons/user"
                         elementId: "user-desktop"
                     }
                 }
