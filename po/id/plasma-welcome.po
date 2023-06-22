@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-04-12 02:13+0000\n"
+"POT-Creation-Date: 2023-06-22 02:08+0000\n"
 "PO-Revision-Date: 2023-02-15 16:32+0700\n"
 "Last-Translator: Linerly <linerly@protonmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -51,7 +51,7 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Berikutnya"
 
-#: src/contents/ui/main.qml:161
+#: src/contents/ui/main.qml:170
 #, fuzzy, kde-format
 #| msgctxt "@title: window"
 #| msgid "Share Anonymous Usage Information With KDE"
@@ -59,7 +59,7 @@ msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Bagikan Informasi Penggunaan Anonim Dengan KDE"
 
-#: src/contents/ui/main.qml:162
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 "perangkat lunak KDE. Anda dapat memilih berapa banyak yang dibagikan dalam "
 "System Settings, dan di sini juga."
 
-#: src/contents/ui/main.qml:170
+#: src/contents/ui/main.qml:179
 #, fuzzy, kde-format
 #| msgctxt "@title: window"
 #| msgid "Connect Your Online Accounts"
@@ -78,7 +78,7 @@ msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Hubungkan Akun Daring Anda"
 
-#: src/contents/ui/main.qml:171
+#: src/contents/ui/main.qml:180
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -184,13 +184,44 @@ msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Buat sebuah donasi"
 
-#: src/contents/ui/pages/Network.qml:20
+#: src/contents/ui/pages/Live.qml:20
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome to KDE Plasma!"
+msgctxt "@title:window %1 is the name of the user's distro"
+msgid "Welcome to %1!"
+msgstr "Selamat datang di KDE Plasma!"
+
+#: src/contents/ui/pages/Live.qml:23
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"Pressing the icon below will begin installing %1. Alternatively, you can "
+"close the window to explore the live environment or continue here to find "
+"out about KDE Plasma."
+msgstr ""
+
+#: src/contents/ui/pages/Live.qml:25
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"You can close the window to explore the live environment or continue here to "
+"find out about KDE Plasma."
+msgstr ""
+
+#: src/contents/ui/pages/Live.qml:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Visit home page"
+msgstr ""
+
+#: src/contents/ui/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Akses Internet"
 
-#: src/contents/ui/pages/Network.qml:21
+#: src/contents/ui/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -233,13 +264,13 @@ msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "Bantu mengerjakan rilis berikutnya"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:18
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Berdaya Ketika Dibutuhkan"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -250,25 +281,25 @@ msgstr ""
 "meningkatkan produktivitas Anda secara luar biasa! Berikut adalah beberapa "
 "hal yang dapat dilakukan untuk Anda:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Brankas"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:66
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Simpan berkas sensitif secara aman"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Aktivitas"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:76
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -276,43 +307,43 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Pisahkan tugas kerja, sekolah, atau rumah"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:83
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:86
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Hubungkan ponsel Anda dan komputer Anda"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:95
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:98
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Cari apa pun"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:105
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Ikhtisar"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:108
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Pusat kendali sistem Anda"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, fuzzy, kde-format
 #| msgctxt "@title:row"
 #| msgid "Get Hot New Stuff"
@@ -320,7 +351,7 @@ msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Dapatkan Hal-Hal Baru"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:118
 #, fuzzy, kde-format
 #| msgctxt "@info Caption for Get Hot New Stuff button"
 #| msgid "Extend the system with add-ons"
@@ -328,19 +359,19 @@ msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Luaskan sistem dengan tambahan"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:123
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:125
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Pelajari lebih lanjut tentang fitur Plasma"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:132
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Vault Plasma"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:135
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -360,13 +391,13 @@ msgstr ""
 "di <interface>Baki Sistem</interface> untuk menampilkan item yang "
 "tersembunyi, lalu klik pada ikon <interface>Vault.</interface>"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:141
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktivitas"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:144
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -388,8 +419,8 @@ msgstr ""
 "itu, Anda dapat membuat lebih banyak Aktivitas. Anda dapat mengubahnya "
 "menggunakan pintasan papan ketik <shortcut>Meta+Tab</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:149
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:180
 #, fuzzy, kde-format
 #| msgctxt "@title the name of the 'System Settings' app"
 #| msgid "System Settings"
@@ -397,13 +428,13 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "System Settings"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:164
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -428,13 +459,13 @@ msgstr ""
 "interface> dan cari \"KDE Connect\". Di halaman itu, Anda dapat "
 "menyandingkan ponsel Anda."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:185
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:191
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
 #, fuzzy, kde-kuit-format
 #| msgctxt ""
 #| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
@@ -483,13 +514,13 @@ msgstr ""
 "lanjut, buka bilah pencarian KRunner menggunakan pintasan papan ketik "
 "<shortcut>Alt+Space</shortcut> dan mengeklik pada ikon tanda tanya."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Ikhtisar"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -508,7 +539,7 @@ msgstr ""
 "yang terbuka.<nl/><nl/>Anda dapat mengakses Ikhtisar dengan menggunakan "
 "pintasan papan ketik <shortcut>Meta+W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, fuzzy, kde-format
 #| msgctxt "@info:window"
 #| msgid "Get Hot New Stuff"
@@ -516,7 +547,7 @@ msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Dapatkan Hal-Hal Baru"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:221
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -546,7 +577,7 @@ msgstr ""
 "dengan cara ini tidak ditinjau oleh distributor Anda untuk fungsionalitas "
 "dan stabilitas."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:226
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "See All Available 3rd-Party Content"
@@ -649,6 +680,11 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Tampilkan catatan rilis untuk rilis Plasma saat ini."
+
+#: src/main.cpp:82
+#, kde-format
+msgid "Display the live page intended for distro live environments."
+msgstr ""
 
 #: src/qml/ApplicationIcon.qml:44
 #, fuzzy, kde-format

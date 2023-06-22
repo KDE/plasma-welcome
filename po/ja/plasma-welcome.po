@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-04-12 02:13+0000\n"
+"POT-Creation-Date: 2023-06-22 02:08+0000\n"
 "PO-Revision-Date: 2023-05-18 01:46+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -51,13 +51,13 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "次へ(&N)"
 
-#: src/contents/ui/main.qml:161
+#: src/contents/ui/main.qml:170
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "匿名の使用統計情報を送信する"
 
-#: src/contents/ui/main.qml:162
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -68,13 +68,13 @@ msgstr ""
 "用されます。このページ、もしくはシステム設定でどの程度の情報を送信するか選択"
 "できます。"
 
-#: src/contents/ui/main.qml:170
+#: src/contents/ui/main.qml:179
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "オンラインアカウントを接続する"
 
-#: src/contents/ui/main.qml:171
+#: src/contents/ui/main.qml:180
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -175,13 +175,44 @@ msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "寄付する"
 
-#: src/contents/ui/pages/Network.qml:20
+#: src/contents/ui/pages/Live.qml:20
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome to KDE Plasma!"
+msgctxt "@title:window %1 is the name of the user's distro"
+msgid "Welcome to %1!"
+msgstr "KDE Plasma へようこそ！"
+
+#: src/contents/ui/pages/Live.qml:23
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"Pressing the icon below will begin installing %1. Alternatively, you can "
+"close the window to explore the live environment or continue here to find "
+"out about KDE Plasma."
+msgstr ""
+
+#: src/contents/ui/pages/Live.qml:25
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"You can close the window to explore the live environment or continue here to "
+"find out about KDE Plasma."
+msgstr ""
+
+#: src/contents/ui/pages/Live.qml:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Visit home page"
+msgstr ""
+
+#: src/contents/ui/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "インターネットにアクセスする"
 
-#: src/contents/ui/pages/Network.qml:21
+#: src/contents/ui/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -224,13 +255,13 @@ msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "次のリリースのために支援する"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:18
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "必要なときパワフル"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -240,25 +271,25 @@ msgstr ""
 "Plasma は、あなたの生産性を高めるためにデザインされた、非常に多機能なデスク"
 "トップ環境です！これらはその機能のほんの一部です:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Plasma Vaults"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:66
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "機密性の高いファイルを安全に保管"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "アクティビティ"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:76
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -266,67 +297,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "状況に応じて作業環境を変える"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:83
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:86
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "携帯電話とコンピュータをつなぐ"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:95
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:98
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "何でも検索"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:105
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "オーバービュー"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:108
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "システムの管制塔"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "新しいものを手に入れる"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:118
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "システムをアドオンで拡張"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:123
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:125
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Plasma の機能についてさらに知る"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:132
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma Vaults"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:135
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -345,13 +376,13 @@ msgstr ""
 "アイテムを表示し、<interface>Vaults</interface>アイコンをクリックして作成して"
 "ください。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:141
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "アクティビティ"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:144
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -373,20 +404,20 @@ msgstr ""
 "ださい。そのページで新しいアクティビティを作成できます。<shortcut>Meta+Tab</"
 "shortcut> でアクティビティを切り替えられます。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:149
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "設定を開く..."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:164
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -409,13 +440,13 @@ msgstr ""
 "><interface>システム設定</interface>にある KDE Connect のページから、携帯電話"
 "をペアリングしてください。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:185
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:191
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -446,13 +477,13 @@ msgstr ""
 "<shortcut>Alt+Space</shortcut> を押して KRunner 検索バーを開き、クエスチョン"
 "マークアイコンをクリックしてください。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "オーバービュー"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -468,13 +499,13 @@ msgstr ""
 "開かれたウィンドウを検索できる検索バーも搭載しています。<nl/><nl/"
 "><shortcut>Meta+W</shortcut> でオーバービューにアクセスできます。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "新しいものを手に入れる"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:221
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -494,7 +525,7 @@ msgstr ""
 "コンテンツは、ディストリビュータによってその機能や安定性が確認されていないこ"
 "とに注意してください。"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
@@ -593,6 +624,11 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "現在の Plasma リリースのリリースノートを表示します。"
+
+#: src/main.cpp:82
+#, kde-format
+msgid "Display the live page intended for distro live environments."
+msgstr ""
 
 #: src/qml/ApplicationIcon.qml:44
 #, kde-format

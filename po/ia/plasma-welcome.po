@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-04-12 02:13+0000\n"
+"POT-Creation-Date: 2023-06-22 02:08+0000\n"
 "PO-Revision-Date: 2023-04-12 21:51+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -51,13 +51,13 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "Seque&nte"
 
-#: src/contents/ui/main.qml:161
+#: src/contents/ui/main.qml:170
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Comparti Information de Uso Anonyme "
 
-#: src/contents/ui/main.qml:162
+#: src/contents/ui/main.qml:171
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -67,13 +67,13 @@ msgstr ""
 "Nostre disveloppatores usara iste datos anonyme per ameliorar le software de "
 "KDE. Tu pote seliger quanto compartir inPreferentias de Systema, e anque ci."
 
-#: src/contents/ui/main.qml:170
+#: src/contents/ui/main.qml:179
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Connecte  Contos In Linea"
 
-#: src/contents/ui/main.qml:171
+#: src/contents/ui/main.qml:180
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -178,13 +178,44 @@ msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Tu face un donation"
 
-#: src/contents/ui/pages/Network.qml:20
+#: src/contents/ui/pages/Live.qml:20
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome to KDE Plasma!"
+msgctxt "@title:window %1 is the name of the user's distro"
+msgid "Welcome to %1!"
+msgstr "Benvenite a KDE Plasma!"
+
+#: src/contents/ui/pages/Live.qml:23
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"Pressing the icon below will begin installing %1. Alternatively, you can "
+"close the window to explore the live environment or continue here to find "
+"out about KDE Plasma."
+msgstr ""
+
+#: src/contents/ui/pages/Live.qml:25
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"You can close the window to explore the live environment or continue here to "
+"find out about KDE Plasma."
+msgstr ""
+
+#: src/contents/ui/pages/Live.qml:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Visit home page"
+msgstr ""
+
+#: src/contents/ui/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Accede a Internet"
 
-#: src/contents/ui/pages/Network.qml:21
+#: src/contents/ui/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -227,13 +258,13 @@ msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "Adjuta labor sur proxime liberation de version"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:18
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Potente quando necessitate"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -244,25 +275,25 @@ msgstr ""
 "super-cargar tu productivitate. Ci il ha solmente un cognoscentia "
 "approximative del cosas que illo pote facer per te:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:63
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Cellarios (Vaults)"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:66
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Immagazina files sensibile securmente"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:73
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Activitates"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:76
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -270,67 +301,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Separa cargas de travalio, schola o casa"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:83
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:86
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Connecte tu telephono e tu computator"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:95
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:98
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Cerca alique"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:105
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Vista de insimul"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:108
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Centro de commando de tu systema"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:115
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Obtene cosa nove"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:118
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Extende le systema con add-ons (i.e. additiones)"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:123
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:125
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Apprende re altere characteristicas de Plasma"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:132
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Cellarios de Plasma (Plasma Vaults)"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:135
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -351,13 +382,13 @@ msgstr ""
 "<interface>Tbuliero de Systema </interface> per monstrar elementos celate, e "
 "postea pulsa le icone de  <interface>Vaults</interface> ."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:141
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Activitates"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:144
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -380,20 +411,20 @@ msgstr ""
 "crear plus Activitates. Tu pote alora commutar inter illos usante le via "
 "breve de claviero <shortcut>Meta+Tab</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:146
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:175
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:149
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Aperi Preferentias…"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:156
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:164
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -417,13 +448,13 @@ msgstr ""
 "list><nl/>Per Initiar, lancea <interface>Preferentias de Systema</interface> "
 "e cerca \"KDE Connect\". Sur ille pagina, tu pote associar tu telephono."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:185
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:191
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:189
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -456,13 +487,13 @@ msgstr ""
 "KRunner usante le via breve de claviero  <shortcut>Alt+Space</shortcut>  e "
 "clicca sur le icone de puncto de demanda."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:205
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Vista de insimul"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:206
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -481,13 +512,13 @@ msgstr ""
 "<nl/><nl/>Tu pote acceder a Overview (Summario o Vista General) usante le "
 "via breve de claviero  <shortcut>Meta+W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:214
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Obtene cosa nove"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:215
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:221
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -507,7 +538,7 @@ msgstr ""
 "implementar los.<nl/><nl/>Nota que contento acquirite in iste modo non ha "
 "essite recensite per tu distributor per functionalitate o stabilitate."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
@@ -608,6 +639,11 @@ msgstr "Nate Graham"
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Monstra notas de version per le version currente de Plasma."
+
+#: src/main.cpp:82
+#, kde-format
+msgid "Display the live page intended for distro live environments."
+msgstr ""
 
 #: src/qml/ApplicationIcon.qml:44
 #, kde-format
