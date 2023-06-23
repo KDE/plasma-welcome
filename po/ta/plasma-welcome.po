@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-22 02:08+0000\n"
+"POT-Creation-Date: 2023-06-23 02:18+0000\n"
 "PO-Revision-Date: 2023-04-16 15:15+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -175,7 +175,7 @@ msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "நன்கொடை அளி"
 
-#: src/contents/ui/pages/Live.qml:20
+#: src/contents/ui/pages/Live.qml:19
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Welcome to KDE Plasma!"
@@ -183,7 +183,7 @@ msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "கே.டீ.யீ. பிளாஸ்மாவுக்கு நல்வரவு!"
 
-#: src/contents/ui/pages/Live.qml:23
+#: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -192,7 +192,7 @@ msgid ""
 "out about KDE Plasma."
 msgstr ""
 
-#: src/contents/ui/pages/Live.qml:25
+#: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -200,7 +200,7 @@ msgid ""
 "find out about KDE Plasma."
 msgstr ""
 
-#: src/contents/ui/pages/Live.qml:31
+#: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
@@ -254,13 +254,13 @@ msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "அடுத்த பதிப்புக்கு உதவ விரும்புகிறேன்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "தேவைப்படும்போது ஆற்றல்மிக்கது"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:21
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -268,25 +268,25 @@ msgid ""
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr "உங்கள் உற்பத்தித்திறனை பன்மடங்காக்கும் அம்சங்களை பிளாஸ்மா கொண்டுள்ளது. அவற்றில் சில:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "வால்ட்டுகள்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:66
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "முக்கியமான கோப்புகளை ரகசியமாகவும் பாதுகாப்பாகவும் வைக்கலாம்."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "செயல்பாடுகள்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:76
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -294,67 +294,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "வேலை, பள்ளி, மற்றும் ஓய்வு பணிகளை பிரிக்கலாம்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "கே.டீ.யீ. கனெக்ட்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:86
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "கணினியையும் கைபேசியையும் இணைக்கலாம்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "கேரன்னர்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:98
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "எதைவேண்டுமானாலும் தேடலாம்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "மேலோட்டம்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:108
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "பணிமேடையை கட்டுப்படுத்த உதவும்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "புதியவற்றைப் பெறு"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:118
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "துணைநிரல்களின் மூலம் பணிமேடையை மேம்படுத்தலாம்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:125
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "பிளாஸ்மாவின் அம்சங்களைப் பற்றி மேலும் காட்டு"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "பிளாஸ்மா வால்ட்டுகள்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:135
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -367,13 +367,13 @@ msgid ""
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "செயல்பாடுகள்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:144
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -387,20 +387,20 @@ msgid ""
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:149
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:180
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "அமைப்புகளை திற…"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "கே.டீ.யீ. கனெக்ட்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:164
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:163
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -415,13 +415,13 @@ msgid ""
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:191
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "கேரன்னர்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -442,13 +442,13 @@ msgid ""
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "மேலோட்டம்"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -460,13 +460,13 @@ msgid ""
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "புதியவற்றைப் பெறு"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:221
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -479,19 +479,19 @@ msgid ""
 "functionality or stability."
 msgstr ""
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:226
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
 msgstr "மூன்றாம் தரப்பு உருப்படிகளைக் காட்டு…"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:17
+#: src/contents/ui/pages/SimpleByDefault.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "இயல்பில் எளியது"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:18
+#: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""

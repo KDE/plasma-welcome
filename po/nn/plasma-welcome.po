@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-22 02:08+0000\n"
+"POT-Creation-Date: 2023-06-23 02:18+0000\n"
 "PO-Revision-Date: 2023-05-27 14:10+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -183,7 +183,7 @@ msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Gje pengegåve"
 
-#: src/contents/ui/pages/Live.qml:20
+#: src/contents/ui/pages/Live.qml:19
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Welcome to KDE Plasma!"
@@ -191,7 +191,7 @@ msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "Velkommen til KDE Plasma!"
 
-#: src/contents/ui/pages/Live.qml:23
+#: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -200,7 +200,7 @@ msgid ""
 "out about KDE Plasma."
 msgstr ""
 
-#: src/contents/ui/pages/Live.qml:25
+#: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -208,7 +208,7 @@ msgid ""
 "find out about KDE Plasma."
 msgstr ""
 
-#: src/contents/ui/pages/Live.qml:31
+#: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
@@ -263,13 +263,13 @@ msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "Hjelp oss å laga neste utgåve"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Kraftig når det trengst"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:21
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -279,26 +279,26 @@ msgstr ""
 "Plasma har svært mykje funksjonalitet – laga for å gjera deg super­effektiv! "
 "Her er nokre eksempel på kva som finst:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Datakvelv"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:66
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Lagra sensitive filer på ein trygg måte"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Aktivitetar"
 
 # Brukar same rekkjefølgje (fritid, skule, arbeid) som i ein annan tekst i programmet.
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:76
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -306,68 +306,68 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Skil mellom fritid, skule og arbeid"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:86
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Kopla telefonen din saman med datamaskina"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:98
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Søk etter alt mogleg"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Oversikt"
 
 # Ganske fri omsetjing, men er lettare å forstå.
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:108
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Oversikt over opne program/vindauge"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Hent nye ting"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:118
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Utvid systemet med tilleggs­funksjonalitet"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:125
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Les meir om kva som finst i Plasma"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Datakvelv"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:135
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -387,13 +387,13 @@ msgstr ""
 "trykkja på nedpila i <interface>systemkorga</interface> (for å visa gøymde "
 "element), og vel så ikonet <interface>Datakvelv</interface>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktivitetar"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:144
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -416,20 +416,20 @@ msgstr ""
 "aktivitetar. Du kan så byta mellom dei med snøggtasten <shortcut>Meta + T</"
 "shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:149
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:180
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Opna innstillingar …"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:164
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:163
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -453,13 +453,13 @@ msgstr ""
 "oppsettet</interface> og søkja etter «KDE Connect». Der kan du setja opp "
 "saman­koplinga mellom telefonen og datamaskina."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:191
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -491,13 +491,13 @@ msgstr ""
 "opna KRunner-feltet med snøggtasten <shortcut>Alt + Mellomrom</shortcut> og "
 "så trykkja på ikonet som viser eit spørjeteikn."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Oversikt"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -514,14 +514,14 @@ msgstr ""
 "filtrera på vindauge etter namn.<nl/><nl/>Du får tilgang til oversikts­"
 "biletet med snøggtasten <shortcut>Meta + W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Hent nye ting"
 
 # Sjå tilsvarande tekst for siste setning i «knewstuff5.po».
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:221
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -541,19 +541,19 @@ msgstr ""
 "KDE eller leverandøren din, og det er ikkje garantert å verka skikkeleg "
 "eller stabilt."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:226
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
 msgstr "Vis tilleggsinnhald utvikla av andre …"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:17
+#: src/contents/ui/pages/SimpleByDefault.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Enkelt som standard"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:18
+#: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""

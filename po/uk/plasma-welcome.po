@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-22 02:08+0000\n"
-"PO-Revision-Date: 2023-04-12 08:04+0300\n"
+"POT-Creation-Date: 2023-06-23 02:18+0000\n"
+"PO-Revision-Date: 2023-06-22 19:28+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -182,15 +182,13 @@ msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Зробити пожертву"
 
-#: src/contents/ui/pages/Live.qml:20
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#: src/contents/ui/pages/Live.qml:19
+#, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Вітаємо у Плазмі KDE!"
+msgstr "Вітаємо у %1!"
 
-#: src/contents/ui/pages/Live.qml:23
+#: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -198,20 +196,26 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"Після натискання показаної нижче піктограми розпочнеться встановлення %1. "
+"Крім того, ви можете закрити це вікно, щоб ознайомитися із портативним "
+"середовищем або продовжити ознайомлення з відомостями щодо Плазми KDE у "
+"цьому вікні."
 
-#: src/contents/ui/pages/Live.qml:25
+#: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"Ви можете закрити це вікно, щоб ознайомитися із портативним середовищем або "
+"продовжити ознайомлення з відомостями щодо Плазми KDE у цьому вікні."
 
-#: src/contents/ui/pages/Live.qml:31
+#: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr ""
+msgstr "Відвідати домашню сторінку"
 
 #: src/contents/ui/pages/Network.qml:21
 #, kde-format
@@ -263,13 +267,13 @@ msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "Допомогти у роботі над наступним випуском"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Потужна там, де це потрібно"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:21
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -279,25 +283,25 @@ msgstr ""
 "Плазма є дуже багатим на можливості середовищем, яке створено, щоб допомогти "
 "вам в усьому! Ось лише частинка того, що ви можете робити з нею:"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Сховища"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:66
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Зберігайте конфіденційні файли безпечно"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Простори дій"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:76
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -305,67 +309,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Відокремте роботу, навчання та домашні завдання"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:86
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "З'єднайте ваш телефон з комп'ютером"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:98
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Шукайте будь-що"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Огляд"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:108
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Командний центр вашої системи"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Отримання нових матеріалів"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:118
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Розширте систему за допомогою додатків"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:125
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Ознайомтеся із іншими можливостями Плазми"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Сховища Плазми"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:135
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -386,13 +390,13 @@ msgstr ""
 "<interface>системному лотку</interface>, щоб відкрити список прихованих "
 "записів, потім натисніть піктограму <interface>Сховища</interface>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Простори дій"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:144
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -416,20 +420,20 @@ msgstr ""
 "простори дій. Потім ви зможете перемикатися між ними за допомогою натискання "
 "комбінації клавіш <shortcut>Meta+Tab</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:149
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:180
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Відкрити вікно параметрів…"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:160
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:164
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:163
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -455,13 +459,13 @@ msgstr ""
 "пошукайте «KDE Connect». На відповідній сторінці ви зможете пов'язати ваш "
 "комп'ютер з вашими телефоном."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:191
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:195
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -494,13 +498,13 @@ msgstr ""
 "комбінації клавіш <shortcut>Alt+Пробіл</shortcut> і натисніть піктограму зі "
 "знаком питання."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Огляд"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:212
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -519,13 +523,13 @@ msgstr ""
 "фільтрувати список відкритих вікон.<nl/><nl/>Отримати доступ до «Огляду» "
 "можна за допомогою натискання комбінації клавіш <shortcut>Meta+W</shortcut>."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Отримання нових матеріалів"
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:221
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -546,19 +550,19 @@ msgstr ""
 "такий спосіб можливості не було перевірено авторами вашого дистрибутива на "
 "працездатність або стабільність роботи."
 
-#: src/contents/ui/pages/PowerfulWhenNeeded.qml:226
+#: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
 msgstr "Переглянути сторонні дані…"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:17
+#: src/contents/ui/pages/SimpleByDefault.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Типово проста"
 
-#: src/contents/ui/pages/SimpleByDefault.qml:18
+#: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -652,6 +656,7 @@ msgstr "Показати нотатки щодо випуску для пото�
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
+"Показати сторінку, яку присвячено портативним середовищам дистрибутива."
 
 #: src/qml/ApplicationIcon.qml:44
 #, kde-format
