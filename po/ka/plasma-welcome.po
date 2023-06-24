@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-23 02:18+0000\n"
-"PO-Revision-Date: 2023-04-13 05:36+0200\n"
+"PO-Revision-Date: 2023-06-23 04:32+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -181,12 +181,10 @@ msgid "Make a donation"
 msgstr "გააკეთეთ შემოწირულობა"
 
 #: src/contents/ui/pages/Live.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "მოგესალმებით KDE Plasma-სთან!"
+msgstr "მოგესალმებით %1-ში!"
 
 #: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
@@ -196,6 +194,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"ქვემოთ ხატულის დაჭერა %1-ის დაყენებას დაიწყებს. ან შეგიძლიათ დახუროთ ეს "
+"ფანჯარა და დაათვალიეროთ ცოცხალი გარემო, ან გააგრძელოთ, გაიგოთ მეტი KDE "
+"Plasma-ის შესახებ."
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -204,12 +205,14 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"შეგიძლიათ დახუროთ ეს ფანჯარა და ცოცხალი გარემო დაათვალიეროთ, ან გააგრძელოთ, "
+"გაიგოთ მეტი KDE Plasma-ის შესახებ."
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr ""
+msgstr "საწყის გვერდზე გადასვლა"
 
 #: src/contents/ui/pages/Network.qml:21
 #, kde-format
@@ -634,7 +637,7 @@ msgstr "Plasma-ის მიმდინარე რელიზის შე�
 #: src/main.cpp:82
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr ""
+msgstr "დისტრიბუტივების ცოცხალი გარემოებისთვის განკუთვნილი გვერდის ჩვენება."
 
 #: src/qml/ApplicationIcon.qml:44
 #, kde-format
