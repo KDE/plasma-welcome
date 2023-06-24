@@ -14,7 +14,6 @@ import org.kde.plasma.welcome 1.0
 GenericPage
 {
     id: container
-    property bool showSeparator: false
 
     required property string path
 
@@ -78,7 +77,6 @@ GenericPage
     ]
 
     Kirigami.Separator {
-        visible: container.showSeparator
         width: parent.width
         anchors.bottom: parent.top
     }
