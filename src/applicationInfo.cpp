@@ -18,15 +18,15 @@ void ApplicationInfo::setDesktopName(const QString &desktopName)
     m_desktopName = desktopName;
     Q_EMIT desktopNameChanged();
 
-    KService::Ptr service = KService::serviceByDesktopName(m_desktopName);
+    const KService::Ptr service = KService::serviceByDesktopName(m_desktopName);
 
-    QString name = service->name();
+    const QString name = service->name();
     if (m_name != name) {
         m_name = name;
         Q_EMIT nameChanged();
     }
 
-    QString icon = service->icon();
+    const QString icon = service->icon();
     if (m_icon != icon) {
         m_icon = icon;
         Q_EMIT iconChanged();

@@ -22,7 +22,7 @@ public:
     QString path() const;
     void setPath(const QString &name);
 
-    QString name()
+    QString name() const
     {
         return QFileInfo(m_path).baseName();
     }
