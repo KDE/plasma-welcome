@@ -5,6 +5,7 @@ kcoreaddons_add_plugin(kded_plasma-welcome INSTALL_NAMESPACE "kf${QT_MAJOR_VERSI
 
 target_sources(kded_plasma-welcome PRIVATE
     daemon.cpp
+    daemon.h
 )
 
 target_link_libraries(kded_plasma-welcome PRIVATE
