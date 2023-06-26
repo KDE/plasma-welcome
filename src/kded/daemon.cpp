@@ -37,7 +37,7 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
     }
 }
 
-bool PlasmaWelcomeDaemon::isSignificantUpgrade()
+bool PlasmaWelcomeDaemon::isSignificantUpgrade() const
 {
     if (m_currentVersion > m_previousVersion) {
         // We should get atleast two version numbers, X.X(.X)

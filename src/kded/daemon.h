@@ -16,7 +16,7 @@ public:
     PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> &);
 
 private:
-    bool isSignificantUpgrade();
+    bool isSignificantUpgrade() const;
     void launch(const QStringList &args);
 
     KConfigGroup m_config;
