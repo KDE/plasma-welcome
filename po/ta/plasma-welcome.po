@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-27 02:17+0000\n"
-"PO-Revision-Date: 2023-04-16 15:15+0530\n"
+"PO-Revision-Date: 2023-07-02 16:40+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.03.90\n"
+"X-Generator: Lokalize 23.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -176,12 +176,10 @@ msgid "Make a donation"
 msgstr "நன்கொடை அளி"
 
 #: src/contents/ui/pages/Live.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "கே.டீ.யீ. பிளாஸ்மாவுக்கு நல்வரவு!"
+msgstr "%1-க்கு நல்வரவு!"
 
 #: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
@@ -191,6 +189,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"கீழுள்ள சின்னத்தை அழித்தினால், %1 நிறுவப்படும். மாறாக, இச்சாளரத்தை மூடி இந்த இயங்குதளத்தை "
+"சோதித்துப் பார்க்கலாம், அல்லது இங்கேயே தொடர்ந்து கே.டீ.யீ. பிளாஸ்மாவைப் பற்றி மேலும் "
+"அறியலாம்."
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -199,12 +200,14 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"இச்சாளரத்தை மூடி இந்த இயங்குதளத்தை சோதித்துப் பார்க்கலாம், அல்லது இங்கேயே தொடர்ந்து கே.டீ."
+"யீ. பிளாஸ்மாவைப் பற்றி மேலும் அறியலாம்."
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr ""
+msgstr "முகப்புப் பக்கத்திற்கு செல்"
 
 #: src/contents/ui/pages/Network.qml:21
 #, kde-format
