@@ -61,3 +61,5 @@ void Module::setPath(const QString &path)
         qWarning() << "Unknown module" << path << "requested";
     }
 }
+
+#include "moc_module.cpp"

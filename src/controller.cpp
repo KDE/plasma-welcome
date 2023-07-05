@@ -113,3 +113,5 @@ void Controller::setMode(Mode mode)
     m_mode = mode;
     Q_EMIT modeChanged();
 }
+
+#include "moc_controller.cpp"

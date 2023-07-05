@@ -64,3 +64,5 @@ void PlasmaWelcomeDaemon::launch(const QStringList &args)
 }
 
 #include "daemon.moc"
+
+#include "moc_daemon.cpp"

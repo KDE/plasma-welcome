@@ -32,3 +32,5 @@ void ApplicationInfo::setDesktopName(const QString &desktopName)
         Q_EMIT iconChanged();
     }
 }
+
+#include "moc_applicationInfo.cpp"
