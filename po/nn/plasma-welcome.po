@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-27 02:17+0000\n"
-"PO-Revision-Date: 2023-05-27 14:10+0200\n"
+"PO-Revision-Date: 2023-07-15 13:58+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 23.04.3\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -184,12 +184,10 @@ msgid "Make a donation"
 msgstr "Gje pengegåve"
 
 #: src/contents/ui/pages/Live.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Velkommen til KDE Plasma!"
+msgstr "Velkommen til %1!"
 
 #: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
@@ -199,6 +197,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"Trykk på ikonet nedanfor for å installera %1. Du kan òg lukka dette "
+"vindauget for å utforska live-miljøet, eller du kan bla vidare for å læra "
+"meir om KDE Plasma."
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -207,12 +208,14 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"Du kan lukka dette vindauget viss du vil utforska live-miljøet, eller du kan "
+"bla vidare for å læra meir om KDE Plasma"
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr ""
+msgstr "Besøk heimesida"
 
 #: src/contents/ui/pages/Network.qml:21
 #, kde-format
@@ -644,7 +647,7 @@ msgstr "Vis utgjevingsnotat for gjeldande Plasma-utgjeving."
 #: src/main.cpp:77
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr ""
+msgstr "Vis live-sida meint for live-distroar."
 
 #: src/qml/ApplicationIcon.qml:44
 #, kde-format
