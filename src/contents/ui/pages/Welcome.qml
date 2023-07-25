@@ -12,15 +12,25 @@ import org.kde.kirigami 2.15 as Kirigami
 import org.kde.plasma.welcome 1.0
 
 GenericPage {
-    heading: i18nc("@title", "Welcome to KDE Plasma!")
-    description: xi18nc("@info:usagetip", "Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. The Plasma desktop environment is simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!")
+    heading: i18nc("@title", "Welcome")
+    description: xi18nc("@info:usagetip %1 is the name of the user's distro", "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Controller.distroName())
 
     topContent: [
-        Kirigami.UrlButton {
-            id: link
-            Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@action:button", "Learn more about the KDE community")
-            url: "https://community.kde.org/Welcome_to_KDE?source=plasma-welcome"
+        ColumnLayout {
+            spacing: Kirigami.Units.smalSpacing
+
+            Kirigami.UrlButton {
+                id: plasmaLink
+                Layout.topMargin: Kirigami.Units.largeSpacing
+                text: i18nc("@action:button", "Learn more about the KDE community")
+                url: "https://community.kde.org/Welcome_to_KDE?source=plasma-welcome"
+            }
+            Kirigami.UrlButton {
+                Layout.topMargin: Kirigami.Units.largeSpacing
+                text: i18nc("@action:button %1 is the name of the user's distro", "Learn more about %1", Controller.distroName())
+                url: Controller.distroUrl()
+                visible: Controller.distroUrl().length > 0
+            }
         }
     ]
 
@@ -42,11 +52,11 @@ GenericPage {
                 cursorShape: Qt.PointingHandCursor
             }
             TapHandler {
-                onTapped: Qt.openUrlExternally(link.url)
+                onTapped: Qt.openUrlExternally(plasmaLink.url)
             }
             QQC2.ToolTip {
                 visible: hoverhandler.hovered
-                text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", link.url)
+                text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", plasmaLink.url)
             }
         }
 
