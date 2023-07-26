@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-04-22 00:18+0200\n"
+"PO-Revision-Date: 2023-07-25 22:30+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -169,7 +169,7 @@ msgstr "Discover에 %1 표시"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr ""
+msgstr "내 자유를 지원하기"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -181,6 +181,10 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
+"KDE는 중소규모의 예산으로 운영되며 대부분 자원과 인력의 기부로 운영됩니다. 여"
+"러분도 운영에 기여할 수 있습니다!<nl/><nl/>KDE에 금전적으로 기부하면 개발 스"
+"프린트, 하드웨어와 서버 자원, 금전적 지원에 사용됩니다. 독일에 거주 중인 경"
+"우 세액 공제를 받을 수 있습니다."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -204,6 +208,10 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
+"<interface>네트워크 애플릿</interface>을 사용하여 인터넷에 연결하고 네트워크 "
+"연결을 관리할 수 있습니다. 화면 오른쪽 아래 모서리에 있는 <interface>시스템 "
+"트레이</interface>에 있는 <interface>네트워크</interface> 아이콘을 클릭하여 "
+"접근할 수 있습니다."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
@@ -218,6 +226,8 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"KDE 기여자 일동은 지난 4개월간 이 릴리즈 작업을 진행했습니다. 만드는 과정만"
+"큼 Plasma를 재미있게 즐기시길 바랍니다!"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
@@ -244,6 +254,8 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"Plasma는 생산성을 강화할 수 있는 다양한 강력한 기능이 있습니다! 다음은 주요 "
+"기능의 목록입니다."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -323,7 +335,7 @@ msgstr "시스템을 추가 기능으로 확장"
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "Plasma 기능 더 알아보기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
@@ -343,6 +355,12 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Plasma 비밀 공간은 암호화된 비밀 폴더(<interface>비밀 공간</interface>)를 생"
+"성할 수 있습니다. 각각의 비밀 공간에는 암호 목록, 파일, 사진, 문서 등을 외부"
+"의 침입 시도로부터 안전하게 저장할 수 있습니다. 비밀 공간은 클라우드 저장소 "
+"서비스와 동기화되는 폴더에도 저장할 수 있습니다.<nl/><nl/>시작하려면 "
+"<interface>시스템 트레이</interface>의 화살표를 클릭하여 숨겨진 항목을 표시"
+"한 다음 <interface>비밀 공간</interface> 아이콘을 클릭하십시오."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -374,6 +392,13 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"활동을 사용하면 프로젝트나 작업 흐름을 분리하여 한 번에 하나에 집중할 수 있습"
+"니다. \"홈\", \"학교\", \"직장\" 등의 활동을 생성할 수 있습니다. 각각 활동에"
+"서는 모든 파일에 접근할 수 있지만 활동별로 열린 앱과 창, 최근 문서, \"즐겨찾"
+"는\" 앱, 데스크톱 위젯은 분리됩니다.<nl/><nl/>시작하려면 <interface>시스템 설"
+"정</interface>을 실행하여 \"활동\"을 검색하십시오. 해당 페이지에서 더 많은 활"
+"동을 생성할 수 있습니다. <shortcut>Meta+Tab</shortcut> 키보드 단축키를 통하"
+"여 활동간을 전환할 수 있습니다."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -401,12 +426,20 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"KDE Connect를 사용하면 컴퓨터와 휴대폰을 다양한 방법으로 통합할 수 있습니다."
+"<nl/><list><item>휴대폰의 알림을 컴퓨터에서 보기</item><item>휴대폰에서 받은 "
+"텍스트 메시지를 컴퓨터에서 답장하기</item><item>컴퓨터와 휴대폰의 클립보드 내"
+"용 공유</item><item>휴대폰이 어디에 있는지 기억이 안 날 때 휴대폰 울리기</"
+"item><item>휴대폰에 있는 사진, 동영상, 기타 파일을 컴퓨터로 복사(양방향 가"
+"능)</item><item>… 외에도 더 있습니다!</item></list><nl/>시작하려면 "
+"<interface>시스템 설정</interface>을 실행한 다음 \"KDE Connect\"를 검색하십시"
+"오. 해당 페이지에서 휴대폰과 페어링할 수 있습니다."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "시스템 설정에서 KDE Connect 페이지 열기"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
@@ -432,6 +465,15 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner는 Plasma의 강력한 검색 시스템입니다. 프로그램 실행기 메뉴와 한눈에 보"
+"기 화면에서 검색 기능을 제공하며, <shortcut>Alt+F2</shortcut> 단축키로 검색 "
+"표시줄처럼 사용할 수 있습니다.<nl/><nl/>KRunner는 파일이나 폴더를 검색하는 "
+"것 외에도 앱 실행, 웹 검색, 통화간 환전, 수식 계산 등을 수행할 수 있습니다. "
+"검색 필드에 다음을 입력해 보세요.<nl/><list><item>\"시간 Shanghai\"</"
+"item><item>\"27/3\"</item><item>\"200 EUR in KRW\"</item><item>\"25마일 in 킬"
+"로미터\"</item><item>… 외에도 더 있습니다!</item></list><nl/>더 많은 기능을 "
+"알아 보려면 <shortcut>Alt+F2</shortcut> 키를 눌러서 KRunner 검색 표시줄을 실"
+"행한 다음 물음표 아이콘을 클릭하십시오."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -450,6 +492,11 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"한눈에 보기를 통하여 열려 있는 모든 창을 전체 화면으로 볼 수 있으며, 개별 창"
+"에 쉽게 접근할 수 있습니다. 현재 가상 바탕 화면을 함께 표시하며, 가상 바탕 화"
+"면을 추가, 삭제, 전환할 수 있습니다. KRunner 기반 검색 필드에서는 열린 창을 "
+"검색할 수 있습니다.<nl/><nl/><shortcut>Meta+W</shortcut> 단축키를 사용하여 한"
+"눈에 보기를 사용할 수 있습니다."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
@@ -468,6 +515,11 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"Plasma, 시스템 설정, KDE 앱에서 \"새로운 [항목] 가져오기…\" 단추를 볼 수 있습"
+"니다. 이를 클릭하면 시스템을 확장할 수 있는 여러분과 같은 사람들이 만든 제3"
+"자 콘텐츠를 볼 수 있습니다! 이러한 콘텐츠를 사용하여 KDE 개발자에게 요청하지 "
+"않더라도 기능을 추가할 수 있습니다.<nl/><nl/>이 방식으로 설치한 콘텐츠는 배포"
+"판에서 기능이나 안정성 검사를 거치지 않았습니다."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
@@ -491,6 +543,10 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"Plasma는 초기 상태에서 간단하면서 사용하기 편리한 것을 목표로 합니다. 예상하"
+"는 곳에 기능이 배치되어 있으며, 기본적인 상태에서 별개의 설정 없이 편안하고 "
+"생산적으로 사용할 수 있습니다.<nl/><nl/>만약 필요하다면 <application>시스템 "
+"설정</application> 앱에서 필요한 설정을 찾을 수 있습니다."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -519,6 +575,10 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
+"Plasma는 전 세계적인 자원 봉사자로 구성된 소프트웨어 커뮤니티 KDE에서 제작한 "
+"자유 오픈 소스 데스크톱 환경입니다. Plasma 데스크톱 환경은 기본값으로 간단하"
+"고 부드러운 사용자 경험을 제공하며, 필요할 때에는 작업을 빠르게 수행할 수 있"
+"도록 강력해집니다. 즐겁게 사용하세요!"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
