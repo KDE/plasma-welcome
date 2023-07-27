@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-27 02:17+0000\n"
+"POT-Creation-Date: 2023-07-27 01:59+0000\n"
 "PO-Revision-Date: 2023-06-22 19:28+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -121,7 +121,7 @@ msgid "Start Contributing!"
 msgstr "Взяти участь!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
-#: src/contents/ui/pages/Welcome.qml:49
+#: src/contents/ui/pages/Welcome.qml:59
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -579,19 +579,28 @@ msgstr ""
 "програмі <application>Системні параметри</application>."
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome Center"
 msgctxt "@title"
-msgid "Welcome to KDE Plasma!"
-msgstr "Вітаємо у Плазмі KDE!"
+msgid "Welcome"
+msgstr "Центр вітання"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma is a free and open-source desktop environment created by KDE, an "
+#| "international software community of volunteers. The Plasma desktop "
+#| "environment is simple by default for a smooth experience, but powerful "
+#| "when needed to help you really get things done. We hope you love it!"
+msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
-"Plasma is a free and open-source desktop environment created by KDE, an "
-"international software community of volunteers. The Plasma desktop "
-"environment is simple by default for a smooth experience, but powerful when "
-"needed to help you really get things done. We hope you love it!"
+"Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
+"free and open-source desktop environment created by KDE, an international "
+"software community of volunteers. It is designed to be simple by default for "
+"a smooth experience, but powerful when needed to help you really get things "
+"done. We hope you love it!"
 msgstr ""
 "Плазма — вільне стільничне середовище із відкритим кодом, яке створено KDE, "
 "міжнародною спільнотою добровольців, які присвячують свій час розробці "
@@ -599,13 +608,21 @@ msgstr ""
 "ненав'язливим, але є дуже потужним, коли вам треба допомогти виконати певне "
 "завдання. Сподіваємося, воно вам сподобається."
 
-#: src/contents/ui/pages/Welcome.qml:22
+#: src/contents/ui/pages/Welcome.qml:25
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Дізнатися більше про спільноту KDE"
 
-#: src/contents/ui/pages/Welcome.qml:56
+#: src/contents/ui/pages/Welcome.qml:30
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Learn more about the KDE community"
+msgctxt "@action:button %1 is the name of the user's distro"
+msgid "Learn more about %1"
+msgstr "Дізнатися більше про спільноту KDE"
+
+#: src/contents/ui/pages/Welcome.qml:66
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
@@ -663,6 +680,10 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Запустити %1"
+
+#~ msgctxt "@title"
+#~ msgid "Welcome to KDE Plasma!"
+#~ msgstr "Вітаємо у Плазмі KDE!"
 
 #~ msgctxt "@title the name of the app 'Discover'"
 #~ msgid "Discover"
