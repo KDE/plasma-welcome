@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-27 01:59+0000\n"
-"PO-Revision-Date: 2023-06-22 09:40+0200\n"
+"PO-Revision-Date: 2023-07-27 18:05+0300\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -576,21 +576,13 @@ msgstr ""
 "a l'aplicació <application>Arranjament del sistema</application>."
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Centre de benvinguda"
+msgstr "Benvinguda"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -599,11 +591,11 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"El Plasma és un entorn d'escriptori lliure i de codi obert creat per KDE, "
-"una comunitat de voluntaris internacional de programari. L'entorn "
-"d'escriptori Plasma és senzill de manera predeterminada per a una "
-"experiència fàcil, però potent quan cal per ajudar-vos a fer les coses. "
-"Esperem que us agradi!"
+"Us donem la benvinguda al sistema operatiu %1 que executa el KDE Plasma!<nl/"
+"><nl/>El Plasma és un entorn d'escriptori lliure i de codi obert creat per "
+"KDE, una comunitat de voluntaris internacional de programari. Està dissenyat "
+"per ser senzill de manera predeterminada per a una experiència fàcil, però "
+"potent quan cal per ajudar-vos a fer les coses. Esperem que us agradi!"
 
 #: src/contents/ui/pages/Welcome.qml:25
 #, kde-format
@@ -612,12 +604,10 @@ msgid "Learn more about the KDE community"
 msgstr "Apreneu-ne més pel que fa a la Comunitat KDE"
 
 #: src/contents/ui/pages/Welcome.qml:30
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Apreneu-ne més pel que fa a la Comunitat KDE"
+msgstr "Apreneu-ne més pel que fa a %1"
 
 #: src/contents/ui/pages/Welcome.qml:66
 #, kde-format
@@ -677,7 +667,3 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Llança ara el %1"
-
-#~ msgctxt "@title"
-#~ msgid "Welcome to KDE Plasma!"
-#~ msgstr "Us donem la benvinguda al Plasma de KDE"

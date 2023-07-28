@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-27 01:59+0000\n"
-"PO-Revision-Date: 2023-06-22 17:52+0200\n"
+"PO-Revision-Date: 2023-07-27 11:17+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -570,21 +570,13 @@ msgstr ""
 "<application>Preferentias de Systema </application>."
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Centro de Benvenite"
+msgstr "Benvenite"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -593,11 +585,12 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Plasma es un ambiente de scriptorio libere e a fonte aperite create per KDE, "
-"un communitate international de sofware de voluntarios. Le ambiente de "
-"scriptorio Plasma es simplice per definition perun experientia lisie, ma "
-"potente quando necessitate pro adjutar te realmente a obtener le cosas "
-"facite. Nos spera que tu lo ama! "
+"Benvenite al systema operative %1 executante KDE Plasma!<nl/><nl/> Plasma es "
+"un ambiente de scriptorio libere e a fonte aperite create per KDE, un "
+"communitate international de sofware de voluntarios. Illo es designate per "
+"esser simplice per definition per un experientia lisie, ma potente quando "
+"necessitate pro adjutar te realmente a obtener le cosas facite. Nos spera "
+"que tu lo ama! "
 
 #: src/contents/ui/pages/Welcome.qml:25
 #, kde-format
@@ -606,12 +599,10 @@ msgid "Learn more about the KDE community"
 msgstr "Apprende plus re le communitate de KDE"
 
 #: src/contents/ui/pages/Welcome.qml:30
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Apprende plus re le communitate de KDE"
+msgstr "Apprende plus re %1"
 
 #: src/contents/ui/pages/Welcome.qml:66
 #, kde-format

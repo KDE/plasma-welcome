@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-27 01:59+0000\n"
-"PO-Revision-Date: 2023-06-22 07:33+0200\n"
+"PO-Revision-Date: 2023-07-27 08:10+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -575,21 +575,13 @@ msgstr ""
 "potrebujete za aplikacijo."
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Center dobrodošlice"
+msgstr "Dobrodošli"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -598,10 +590,11 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
+"Dobrodošli v operacijski sistem %1, ki poganja KDE Plasmo!<nl/><nl/>\n"
 "Plasma je prosto in odprtokodno namizno okolje, ki so ga ustvarili "
-"prostovoljci s celega sveta. Namizje Plasma je privzeto preprosto za "
-"prijetno izkušnjo, vendar zelo sposobno, ko je potrebno, da vam pomaga "
-"resnično opraviti stvari. Upamo, da vam je všeč!"
+"prostovoljci s celega sveta. Zasnovano je preprosto za privzeto prijetno "
+"izkušnjo, vendar zelo sposobno, ko je potrebno, da vam pomaga resnično "
+"opraviti stvari. Upamo, da vam je všeč!"
 
 #: src/contents/ui/pages/Welcome.qml:25
 #, kde-format
@@ -610,12 +603,10 @@ msgid "Learn more about the KDE community"
 msgstr "Naučite se več o skupnosti KDE"
 
 #: src/contents/ui/pages/Welcome.qml:30
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Naučite se več o skupnosti KDE"
+msgstr "Naučite se več o %1"
 
 #: src/contents/ui/pages/Welcome.qml:66
 #, kde-format
