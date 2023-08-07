@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-27 01:59+0000\n"
-"PO-Revision-Date: 2023-07-25 22:30+0200\n"
+"PO-Revision-Date: 2023-08-06 22:34+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -550,21 +550,13 @@ msgstr ""
 "설정</application> 앱에서 필요한 설정을 찾을 수 있습니다."
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "환영 센터"
+msgstr "환영합니다"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -573,10 +565,11 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Plasma는 전 세계적인 자원 봉사자로 구성된 소프트웨어 커뮤니티 KDE에서 제작한 "
-"자유 오픈 소스 데스크톱 환경입니다. Plasma 데스크톱 환경은 기본값으로 간단하"
-"고 부드러운 사용자 경험을 제공하며, 필요할 때에는 작업을 빠르게 수행할 수 있"
-"도록 강력해집니다. 즐겁게 사용하세요!"
+"KDE Plasma를 실행하는 %1 운영 체제에 오신 것을 환영합니다!<nl/><nl/>Plasma는 "
+"전 세계적인 자원 봉사자로 구성된 소프트웨어 커뮤니티 KDE에서 제작한 자유 오"
+"픈 소스 데스크톱 환경입니다. Plasma 데스크톱 환경은 기본값으로 간단하고 부드"
+"러운 사용자 경험을 제공하며, 필요할 때에는 작업을 빠르게 수행할 수 있도록 강"
+"력해집니다. 즐겁게 사용하세요!"
 
 #: src/contents/ui/pages/Welcome.qml:25
 #, kde-format
@@ -585,12 +578,10 @@ msgid "Learn more about the KDE community"
 msgstr "KDE 커뮤니티에 대해서 더 알아보기"
 
 #: src/contents/ui/pages/Welcome.qml:30
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "KDE 커뮤니티에 대해서 더 알아보기"
+msgstr "%1에 대해서 더 알아보기"
 
 #: src/contents/ui/pages/Welcome.qml:66
 #, kde-format
