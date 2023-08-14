@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-05-18 01:46+0900\n"
+"PO-Revision-Date: 2023-08-12 01:48+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 23.04.0\n"
+"X-Generator: Lokalize 23.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -218,7 +218,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr "Plasma はバージョン %1 に更新済みです"
+msgstr "Plasma はバージョン %1 に更新されています"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
@@ -228,8 +228,8 @@ msgid ""
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
 "KDE の貢献者は、このリリースのための作業に4カ月を費やしました。私たちがその作"
-"業を楽しんだのと同じくらい、あなたに Plasma を楽しく使っていただけたら嬉しい"
-"です！"
+"業を楽しんだのと同じくらい、あなたに Plasma を楽しく使っていただけたら幸いで"
+"す！"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:28
 #, kde-format
@@ -433,10 +433,9 @@ msgstr ""
 "><list><item>携帯電話の通知をコンピュータから確認</item><item>携帯電話が受信"
 "したテキストメッセージにコンピュータから返信</item><item>クリップボードを同期"
 "</item><item>失くした携帯電話から音を出す</item><item>画像、ビデオやその他の"
-"ファイルを携帯電話からコンピュータに、もしくはコンピュータから携帯電話にコ"
-"ピー</item><item>...その他にもたくさんの機能があります！</item></list><nl/"
-"><interface>システム設定</interface>にある KDE Connect のページから、携帯電話"
-"をペアリングしてください。"
+"ファイルをデバイス間で送受信</item><item>...その他にもたくさんの機能がありま"
+"す！</item></list><nl/><interface>システム設定</interface>にある KDE Connect "
+"のページから、携帯電話をペアリングしてください。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
@@ -549,8 +548,8 @@ msgid ""
 "app."
 msgstr ""
 "Plasma は「箱から出してすぐ使える」ようにデザインされています。あるべきものが"
-"あるべき場所にあるので、基本的には快適に作業できるようにするために設定を変更"
-"する必要はありません。<nl/><nl/>もし必要であれば、<application>システム設定</"
+"あるべき場所にあるので、通常は快適に作業できるようにするために設定を変更する"
+"必要はありません。<nl/><nl/>もし必要であれば、<application>システム設定</"
 "application> で設定を変更できます。"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
