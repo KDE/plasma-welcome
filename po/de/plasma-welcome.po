@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-27 01:59+0000\n"
-"PO-Revision-Date: 2023-06-25 17:04+0200\n"
+"PO-Revision-Date: 2023-08-13 16:38+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.07.70\n"
+"X-Generator: Lokalize 23.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -579,12 +579,10 @@ msgstr ""
 "finden Sie es in den <application>Systemeinstellungen</application>."
 
 #: src/contents/ui/pages/Welcome.qml:15
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Begrüßungsassistent"
+msgstr "Willkommen"
 
 #: src/contents/ui/pages/Welcome.qml:16
 #, fuzzy, kde-kuit-format
