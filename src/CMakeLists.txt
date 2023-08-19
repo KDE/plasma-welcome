@@ -22,7 +22,7 @@ target_link_libraries(plasma-welcome
     KF6::ConfigWidgets
     KF6::DBusAddons
     KF6::KIOGui
-    KF6::Notifications
+    KF6::JobWidgets
     KF6::KCMUtils
     KF6::Service
     KF6::WindowSystem

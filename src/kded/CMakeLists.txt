@@ -13,5 +13,5 @@ target_link_libraries(kded_plasma-welcome PRIVATE
     KF6::DBusAddons
     KF6::ConfigWidgets
     KF6::KIOGui
-    KF6::Notifications
+    KF6::JobWidgets
 )

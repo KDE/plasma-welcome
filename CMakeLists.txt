@@ -42,7 +42,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg)
-find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons I18n KIO NewStuff Notifications Plasma Service WindowSystem DBusAddons KCMUtils Svg)
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons I18n KIO NewStuff Plasma Service WindowSystem DBusAddons KCMUtils Svg JobWidgets)
 
 find_package(KUserFeedback)
 set_package_properties(KUserFeedback PROPERTIES
