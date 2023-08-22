@@ -17,7 +17,7 @@ GenericPage {
 
     topContent: [
         ColumnLayout {
-            spacing: Kirigami.Units.smalSpacing
+            spacing: Kirigami.Units.smallSpacing
 
             Kirigami.UrlButton {
                 id: plasmaLink
