@@ -11,8 +11,9 @@ import org.kde.kirigami 2.15 as Kirigami
 
 import org.kde.plasma.welcome 1.0
 import org.kde.plasma.components 3.0 as PC3
-import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.ksvg 1.0 as KSvg
+//NOTE: necessary for KSvg to load the Plasma theme
+import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.plasma5support 2.0 as P5Support
 
 GenericPage {
@@ -104,7 +105,7 @@ GenericPage {
             Item {
                 id: panelContainer
 
-                readonly property int margins: PlasmaCore.Units.smallSpacing
+                readonly property int margins: Kirigami.Units.smallSpacing
                 width: parent.width
                 height: 36 // default panel height
                 anchors.right: parent.right
@@ -122,15 +123,15 @@ GenericPage {
                 RowLayout {
                     id: appletContainer
 
-                    readonly property int iconSize: PlasmaCore.Units.roundToIconSize(height - (panelContainer.margins * 2))
+                    readonly property int iconSize: Kirigami.Units.iconSizes.roundedIconSize(height - (panelContainer.margins * 2))
 
                     anchors {
                         right: parent.right
-                        rightMargin: PlasmaCore.Units.smallSpacing
+                        rightMargin: Kirigami.Units.smallSpacing
                         top: parent.top
                         bottom: parent.bottom
                     }
-                    spacing: PlasmaCore.Units.smallSpacing * 2
+                    spacing: Kirigami.Units.smallSpacing * 2
 
                     Item {
                         Layout.fillWidth: true
@@ -172,18 +173,20 @@ GenericPage {
                     ColumnLayout {
                         spacing: 0
                         PC3.Label {
+                            color: PlasmaCore.Theme.textColor
                             text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
                             fontSizeMode: Text.Fit
                             Layout.fillHeight: true
                             Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
-                            Layout.topMargin: PlasmaCore.Units.smallSpacing
+                            Layout.topMargin: Kirigami.Units.smallSpacing
                         }
                         PC3.Label {
+                            color: PlasmaCore.Theme.textColor
                             text: Qt.formatDate(timeSource.data["Local"]["DateTime"], Qt.DefaultLocaleShortDate)
                             fontSizeMode: Text.Fit
                             Layout.fillHeight: true
                             Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
-                            Layout.bottomMargin: PlasmaCore.Units.smallSpacing
+                            Layout.bottomMargin: Kirigami.Units.smallSpacing
                         }
                     }
                     KSvg.SvgItem {
@@ -200,8 +203,8 @@ GenericPage {
                 id: indicatorArrow
                 readonly property int originalY: parent.height - panelContainer.height - height
                 readonly property int translatedY: originalY - Kirigami.Units.gridUnit
-                width : PlasmaCore.Units.iconSizes.large
-                height: PlasmaCore.Units.iconSizes.large
+                width : Kirigami.Units.iconSizes.large
+                height: Kirigami.Units.iconSizes.large
                 y: parent.height - panelContainer.height - height
                 anchors {
                     right: panelContainer.right
