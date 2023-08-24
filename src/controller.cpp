@@ -44,6 +44,10 @@ void Controller::runCommand(const QString &command, const QString &desktopFilena
 
 bool Controller::networkAlreadyConnected()
 {
+#if PROJECT_VERSION_PATCH == 80
+    // NOTE: Force visible so we notice regressions during development
+    return false;
+#else
     for (QNetworkInterface interface : QNetworkInterface::allInterfaces()) {
         const QFlags flags = interface.flags();
         if (flags.testFlag(QNetworkInterface::IsUp) && !flags.testFlag(QNetworkInterface::IsLoopBack)) {
@@ -53,6 +57,7 @@ bool Controller::networkAlreadyConnected()
         }
     }
     return false;
+#endif
 }
 
 bool Controller::userFeedbackAvailable()
