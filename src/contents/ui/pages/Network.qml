@@ -8,6 +8,7 @@ import QtQuick 2.15
 import QtQuick.Layouts 1.15
 import Qt5Compat.GraphicalEffects
 import org.kde.kirigami 2.15 as Kirigami
+import org.kde.kirigamiaddons.components 1.0 as KirigamiAddons
 
 import org.kde.plasma.welcome 1.0
 import org.kde.plasma.components 3.0 as PC3
@@ -242,5 +243,10 @@ GenericPage {
                 }
             }
         }
+    }
+
+    footer: KirigamiAddons.Banner {
+        visible: Controller.plasmaVersionSplit[2] === "80"
+        text: i18nc("@info", "This page is being shown regardless of network connectivity because you are using a development version.")
     }
 }
