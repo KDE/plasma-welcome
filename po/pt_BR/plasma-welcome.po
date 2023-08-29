@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-08-24 01:57+0000\n"
-"PO-Revision-Date: 2023-08-13 22:35-0300\n"
+"PO-Revision-Date: 2023-08-28 21:02-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -21,12 +21,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Patrick dos Reis Dolores"
+msgstr "Patrick dos Reis Dolores, Geraldo Simião"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "patrick.dos.reis537@gmail.com"
+msgstr "patrick.dos.reis537@gmail.com, geraldosimiao@fedoraproject.org"
 
 #: src/contents/ui/main.qml:62
 #, kde-format
@@ -92,16 +92,7 @@ msgid "Get Involved"
 msgstr "Participe"
 
 #: src/contents/ui/pages/Contribute.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE's software is made by people like you--mostly volunteers. That means "
-#| "you can help make it better! There are many ways to contribute on topics "
-#| "as diverse as bug triaging, programming, translation, visual design, and "
-#| "promotion.<nl/><nl/>By contributing to KDE, you become part of something "
-#| "special, meet new friends, learn new skills, and make a difference to "
-#| "millions while working with people from around the globe to deliver a "
-#| "stunning free software computing experience."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE is not a big company; it's an international volunteer community, and its "
@@ -113,14 +104,14 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
-"O software do KDE é feito por pessoas como você - a maioria voluntários. "
-"Isso significa que você pode ajudar a torná-lo melhor! Há muitas maneiras de "
-"contribuir em tópicos tão diversos como triagem de erros, programação, "
-"tradução, design visual e promoção.<nl/><nl/>Ao contribuir com o KDE, você "
-"se torna parte de algo especial, conhece novos amigos, aprende novos "
-"habilidades e fazer a diferença para milhões enquanto trabalha com pessoas "
-"de todo o mundo para oferecer uma experiência de computação de software "
-"livre impressionante."
+"O KDE não é uma grande empresa; é uma comunidade internacional de "
+"voluntários, e seu software é criado por pessoas como você, que doam seu "
+"tempo e paixão. Você também pode ajudar a melhorar as coisas, seja por meio "
+"de tradução, design visual, promoção, programação ou triagem de bugs.<nl/"
+"><nl/>Ao contribuir para o KDE, você pode fazer parte de algo especial, "
+"conhecer novos amigos, aprender novas habilidades e fazer a diferença para "
+"milhões de pessoas, trabalhando com pessoas de todo o mundo para oferecer "
+"uma incrível experiência de computação com software livre."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -387,6 +378,14 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"O Plasma Vaults permite que você crie pastas criptografadas, chamadas de "
+"<interface>Cofres</interface>. Dentro de cada cofre, você pode armazenar com "
+"segurança suas senhas, arquivos, imagens e documentos, protegidos de olhares "
+"curiosos. Os cofres podem ser colocados dentro de pastas que são "
+"sincronizadas com serviços de armazenamento na nuvem também, oferecendo "
+"privacidade adicional para esse conteúdo.<nl/><nl/>Para começar, clique na "
+"seta na <interface>bandeja do sistema</interface> para mostrar os itens "
+"ocultos e, em seguida, clique no ícone <interface>Cofres</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
@@ -407,6 +406,15 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"Atividades podem ser usadas para separar projetos ou fluxos de trabalho em "
+"alto nível, permitindo que você se concentre em um de cada vez. Você pode "
+"ter uma atividade para \"casa\", \"escola\", \"trabalho\" e assim por "
+"diante. Cada atividade tem acesso a todos os seus arquivos, mas possui seu "
+"próprio conjunto de aplicativos e janelas abertas, documentos recentes, "
+"aplicativos favoritos e widgets de área de trabalho.<nl/><nl/>Para começar, "
+"abra as <interface>configurações do sistema</interface> e procure por "
+"\"atividades\". Naquela página, você pode criar mais atividades. Você pode "
+"alternar entre elas usando o atalho de teclado <shortcut>Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
@@ -435,6 +443,16 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"O KDE Connect permite que você integre seu telefone com seu computador de "
+"várias maneiras:<nl/><list><item>Veja notificações do seu telefone no seu "
+"computador</item><item>Responda a mensagens de texto do seu telefone no seu "
+"computador</item><item>Sincronize o conteúdo da área de transferência entre "
+"seu computador e seu telefone</item><item>Emita um som no seu telefone "
+"quando ele estiver perdido</item><item>Copie imagens, vídeos e outros "
+"arquivos do seu telefone para o seu computador e vice-versa</item><item>...E "
+"muito mais!</item></list><nl/>Para começar, abra as <interface>configurações "
+"do sistema</interface> e pesquise por \"KDE Connect\". Naquela página, você "
+"pode parear seu telefone."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-format
@@ -462,6 +480,18 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"O KRunner é o sistema de pesquisa excepcionalmente poderoso e versátil do "
+"Plasma. Ele é o motor  de pesquisa do menu Inicial de aplicativos e da tela "
+"de visão geral, e pode ser acessado como uma barra de pesquisa independente "
+"usando o atalho de teclado <shortcut>Alt+Space</shortcut>.<nl/><nl/>Além de "
+"encontrar seus arquivos e pastas, o KRunner pode iniciar aplicativos, buscar "
+"na web, converter moedas, calcular problemas matemáticos e muito mais. "
+"Experimente digitar qualquer um dos seguintes campos de pesquisa:<nl/"
+"><list><item>\"horário Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR "
+"em USD\"</item><item>\"25 milhas em km\"</item><item>...E muito mais!</"
+"item></list><nl/>Para saber mais, abra a barra de pesquisa do KRunner usando "
+"o atalho de teclado <shortcut>Alt+Space</shortcut> e clique no ícone de "
+"ponto de interrogação."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
@@ -506,6 +536,14 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
+"Em todo o Plasma, configurações do sistema e aplicativos do KDE, você "
+"encontrará botões marcados como \"obter nova <emphasis>coisa</emphasis>..."
+"\". Ao clicar neles, você verá conteúdo de terceiros para expandir o "
+"sistema, criado por outras pessoas como você! Dessa forma, muitas vezes é "
+"possível adicionar a funcionalidade que você deseja sem precisar pedir aos "
+"desenvolvedores do KDE que a implementem eles mesmos.<nl/><nl/>Observe que o "
+"conteúdo adquirido dessa forma não foi revisado pelo seu distribuidor quanto "
+"à funcionalidade ou estabilidade."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
 #, kde-format
@@ -529,6 +567,11 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"O Plasma foi projetado para ser simples e utilizável desde o início. As "
+"coisas estão onde você espera, e geralmente não há necessidade de configurar "
+"nada antes de se sentir confortável e produtivo.<nl/><nl/>Caso sinta a "
+"necessidade, você encontrará o que precisa no aplicativo "
+"<application>configurações do sistema</application>."
 
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
@@ -537,13 +580,7 @@ msgid "Welcome"
 msgstr "Bem-vindo"
 
 #: src/contents/ui/pages/Welcome.qml:16
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Plasma is a free and open-source desktop environment made by "
-#| "volunteers around the globe. It's simple by default for a smooth "
-#| "experience, but powerful when needed to help you really get things done."
-#| "<nl/><nl/>Welcome to the KDE Community!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -552,10 +589,12 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"O KDE Plasma é um ambiente de área de trabalho gratuito e de código aberto "
-"feito por voluntários em todo o mundo. Ele é simples por padrão para uma "
-"experiência suave, mas poderoso quando necessário para ajudá-lo a realmente "
-"fazer as coisas.<nl/><nl/>Bem-vindo à comunidade KDE!"
+"Bem-vindo ao sistema operacional %1 executando KDE Plasma!<nl/><nl/>O Plasma "
+"é um ambiente de desktop gratuito e de código aberto criado pelo KDE, uma "
+"comunidade internacional de voluntários na área de software. Ele foi "
+"projetado para ser simples por padrão, proporcionando uma experiência "
+"tranquila, mas também é poderoso quando necessário para ajudar você a "
+"realmente realizar suas tarefas. Esperamos que você goste!"
 
 #: src/contents/ui/pages/Welcome.qml:25
 #, kde-format
