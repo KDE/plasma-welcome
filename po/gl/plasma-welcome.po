@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-24 01:57+0000\n"
+"POT-Creation-Date: 2023-08-30 01:58+0000\n"
 "PO-Revision-Date: 2023-06-17 14:21+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -210,13 +210,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr ""
 
-#: src/contents/ui/pages/Network.qml:22
+#: src/contents/ui/pages/Network.qml:23
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Acceso a Internet"
 
-#: src/contents/ui/pages/Network.qml:23
+#: src/contents/ui/pages/Network.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -229,6 +229,14 @@ msgstr ""
 "<interface>trebello de redes</interface>. Para acceder a el, prema a icona "
 "de <interface>Redes</interface> na <interface>área de notificacións</"
 "interface>, que está na esquina inferior dereita da pantalla."
+
+#: src/contents/ui/pages/Network.qml:250
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This page is being shown regardless of network connectivity because you are "
+"using a development version."
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format

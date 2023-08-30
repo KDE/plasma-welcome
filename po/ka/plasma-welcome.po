@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-24 01:57+0000\n"
+"POT-Creation-Date: 2023-08-30 01:58+0000\n"
 "PO-Revision-Date: 2023-07-28 09:05+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -214,13 +214,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "საწყის გვერდზე გადასვლა"
 
-#: src/contents/ui/pages/Network.qml:22
+#: src/contents/ui/pages/Network.qml:23
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "ინტერნეტთან წვდომა"
 
-#: src/contents/ui/pages/Network.qml:23
+#: src/contents/ui/pages/Network.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -232,6 +232,14 @@ msgstr ""
 "შეგიძლიათ მიუერთდეთ ინტერნეტს და ქსელი <interface>აპლეტით</interface> "
 "მართოთ. მასთან წვდომისთვის დააწკაპუნეთ <interface>ქსელის</interface> "
 "ხატულაზე <interface>სისტემის კუთხეში, საათთან</interface>."
+
+#: src/contents/ui/pages/Network.qml:250
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This page is being shown regardless of network connectivity because you are "
+"using a development version."
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format

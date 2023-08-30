@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-24 01:57+0000\n"
+"POT-Creation-Date: 2023-08-30 01:58+0000\n"
 "PO-Revision-Date: 2023-06-22 09:54+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -209,13 +209,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "زر الصفحة الرئيسة"
 
-#: src/contents/ui/pages/Network.qml:22
+#: src/contents/ui/pages/Network.qml:23
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "اتصل بالإنترنت"
 
-#: src/contents/ui/pages/Network.qml:23
+#: src/contents/ui/pages/Network.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -228,6 +228,14 @@ msgstr ""
 "<interface> تطبيق الشبكات </interface>. للوصول إليه ، انقر فوق أيقونة "
 "<interface> الشبكات </interface>في <interface>صينية النظام</interface> ، "
 "والتي تعيش في الزاوية السفلية اليسرى من الشاشة."
+
+#: src/contents/ui/pages/Network.qml:250
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This page is being shown regardless of network connectivity because you are "
+"using a development version."
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format

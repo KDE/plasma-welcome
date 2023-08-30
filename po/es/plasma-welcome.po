@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-24 01:57+0000\n"
+"POT-Creation-Date: 2023-08-30 01:58+0000\n"
 "PO-Revision-Date: 2023-07-30 18:05+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -216,13 +216,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Visitar página web"
 
-#: src/contents/ui/pages/Network.qml:22
+#: src/contents/ui/pages/Network.qml:23
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Acceso a Internet"
 
-#: src/contents/ui/pages/Network.qml:23
+#: src/contents/ui/pages/Network.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -235,6 +235,14 @@ msgstr ""
 "<interface>miniaplicación Redes</interface>. Para acceder a ella, pulse el "
 "icono <interface>Redes</interface> de la <interface>Bandeja del sistema</"
 "interface>, que reside en la esquina inferior derecha de la pantalla."
+
+#: src/contents/ui/pages/Network.qml:250
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This page is being shown regardless of network connectivity because you are "
+"using a development version."
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format

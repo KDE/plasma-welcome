@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-24 01:57+0000\n"
+"POT-Creation-Date: 2023-08-30 01:58+0000\n"
 "PO-Revision-Date: 2023-08-21 14:13+0200\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
 "Language-Team: fr\n"
@@ -214,13 +214,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Consulter la page d'accueil"
 
-#: src/contents/ui/pages/Network.qml:22
+#: src/contents/ui/pages/Network.qml:23
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Accéder à Internet"
 
-#: src/contents/ui/pages/Network.qml:23
+#: src/contents/ui/pages/Network.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -233,6 +233,14 @@ msgstr ""
 "l'applet <interface>Réseaux</interface>. Pour y accéder, Veuillez cliquer "
 "sur l'icône <interface>Réseaux</interface> dans votre <interface>Boîte à "
 "miniature</interface>, présente dans le coin inférieur droit de l'écran."
+
+#: src/contents/ui/pages/Network.qml:250
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This page is being shown regardless of network connectivity because you are "
+"using a development version."
+msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
