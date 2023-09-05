@@ -14,7 +14,7 @@ import org.kde.plasma.welcome 1.0
 import org.kde.plasma.components 3.0 as PC3
 import org.kde.ksvg 1.0 as KSvg
 //NOTE: necessary for KSvg to load the Plasma theme
-import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.core as PlasmaCore
 import org.kde.plasma.plasma5support 2.0 as P5Support
 
 GenericPage {
