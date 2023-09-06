@@ -16,7 +16,7 @@ target_sources(plasma-welcome PRIVATE
     module.h
     applicationInfo.cpp
     applicationInfo.h
-
+    qmlconfig.h
 )
 
 ecm_target_qml_sources(plasma-welcome SOURCES

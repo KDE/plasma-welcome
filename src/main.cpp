@@ -15,9 +15,9 @@
 #include <QtQml>
 
 #include "applicationInfo.h"
-#include "config.h"
 #include "controller.h"
 #include "plasma-welcome-version.h"
+#include "qmlconfig.h"
 
 #include "module.h"
 #include <KAboutData>
