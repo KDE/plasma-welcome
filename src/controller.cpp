@@ -6,6 +6,7 @@
  */
 
 #include <QDir>
+#include <QFileInfo>
 #include <QNetworkInterface>
 #include <QStandardPaths>
 #include <QString>
@@ -13,12 +14,29 @@
 #include "config-plasma-welcome.h"
 #include "controller.h"
 
+#include <KDesktopFile>
 #include <KIO/ApplicationLauncherJob>
 #include <KIO/CommandLauncherJob>
 #include <KNotificationJobUiDelegate>
 #include <KOSRelease>
 #include <KPluginMetaData>
 #include <KService>
+
+Controller::Controller()
+{
+    m_customIntroText = QString();
+    m_customIntroIcon = QString();
+    m_customIntroIconCaption = QString();
+
+    const QFileInfo introTextFile = QFileInfo(QStringLiteral(DISTRO_CUSTOM_INTRO_FILE));
+    if (introTextFile.exists()) {
+        const KDesktopFile desktopFile(introTextFile.absoluteFilePath());
+        m_customIntroText = desktopFile.readName();
+        m_customIntroIcon = desktopFile.readIcon();
+        m_customIntroIconLink = desktopFile.readUrl();
+        m_customIntroIconCaption = desktopFile.readComment();
+    }
+}
 
 void Controller::launchApp(const QString &program)
 {
@@ -74,7 +92,7 @@ bool Controller::accountsAvailable()
 
 QStringList Controller::distroPages()
 {
-    const QString dirname = QStringLiteral(DISTRO_PAGE_PATH);
+    const QString dirname = QStringLiteral(DISTRO_CUSTOM_PAGE_FOLDER);
     const QDir distroPagePath = QDir(dirname);
 
     if (!distroPagePath.exists() || distroPagePath.isEmpty()) {

@@ -7,7 +7,8 @@ configure_file(config-plasma-welcome.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-
 
 add_executable(plasma-welcome main.cpp controller.cpp controller.h resources.qrc module.cpp module.h applicationInfo.cpp applicationInfo.h)
 
-target_compile_definitions(plasma-welcome PRIVATE "DISTRO_PAGE_PATH=\"${DISTRO_PAGE_PATH}\"")
+target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_PAGE_FOLDER=\"${DISTRO_CUSTOM_PAGE_FOLDER}\"")
+target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_INTRO_FILE=\"${DISTRO_CUSTOM_INTRO_FILE}\"")
 
 target_link_libraries(plasma-welcome
     Qt::Core
@@ -18,6 +19,7 @@ target_link_libraries(plasma-welcome
     Qt::QuickControls2
     Qt::Svg
     KF6::I18n
+    KF6::ConfigCore
     KF6::CoreAddons
     KF6::ConfigWidgets
     KF6::DBusAddons

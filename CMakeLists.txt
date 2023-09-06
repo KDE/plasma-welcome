@@ -35,7 +35,8 @@ include(ECMPoQmTools)
 include(ECMQmlModule)
 include(ECMDeprecationSettings)
 
-set(DISTRO_PAGE_PATH "/usr/share/plasma-welcome-extra-pages/" CACHE STRING "Path on disk to find custom pages")
+set(DISTRO_CUSTOM_PAGE_FOLDER "/usr/share/plasma/plasma-welcome/extra-pages/" CACHE STRING "Folder on disk to find custom pages")
+set(DISTRO_CUSTOM_INTRO_FILE "/usr/share/plasma/plasma-welcome/intro-customization.desktop" CACHE STRING "File specifying custom intro content")
 
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h *.hpp *.c)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
@@ -47,7 +48,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg)
-find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons I18n KIO NewStuff Plasma Service WindowSystem DBusAddons KCMUtils Svg JobWidgets)
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 Config CoreAddons ConfigWidgets DBusAddons I18n KIO NewStuff Plasma Service WindowSystem DBusAddons KCMUtils Svg JobWidgets)
 find_package(KF6KirigamiAddons 0.10 REQUIRED)
 
 find_package(KUserFeedback)

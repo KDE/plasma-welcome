@@ -31,10 +31,41 @@ LiveInstaller=calamares
 
 `LiveInstaller` is optional, used to show a shortcut to launch the installer. It should be the name of a desktop file in `/usr/share/applications`, without the `.desktop` extension.
 
+# Customizing the first page
+By default, the first page introduces the distro and mostly talks about Plasma and KDE. If desired, this can be changed by placing a specially crafted desktop file at `/usr/share/plasma/plasma-welcome/intro-customization.desktop`. In this file, you can supply custom intro text, which will be displayed first, before the standard text talking about Plasma and KDE. It is recommended to keep this text short.
+
+In addition, you can optionally specify a custom icon or image to replace the Konqi image, a custom caption for it, and a custom URL to open when clicking on it. Text can be localized in the standard way that text in desktop files is localized. Note that you are expected to do this yourself!
+
+## Example intro text customization file
+```
+[Desktop Entry]
+# Required since this is a Desktop file; ignored
+Type=Application
+
+# Required; becomes the first paragraph on the Welcome page
+# Don't forget to offer translations of the text!
+Name=Welcome to NateOS! It's the best OS ever, until it explodes. Did you know that's a feature? It's right there on the box!
+Name[fr]=Bienvenue sur NateOS! C'est le meilleur système d'exploitation du monde, justqu'à qu'il esplose. Saviez-vous que c'est intentionnel? C'est écrit sur la boîte!
+
+# Optional; replaces the default image on the Welcome page
+# can be an icon name or an absolute path to an image on disk beginning with file:/
+Icon=edit-bomb
+
+# Optional; replaces the default image caption on the Welcome page
+# Don't forget to offer translations of the text!
+Comment=This is what a bomb looks like. Don't worry, you'll become very familiar with them!
+Comment[fr]=Voici à quoi ressemble une bombe. Ne vous inquiétez pas, vous allez vous familiariser avec elles!
+
+# Optional; replaces the default URL opened when clicking on the Welcome page's image or icon
+URL=https://www.youtube.com/watch?v=dQw4w9WgXcQ
+```
+
+Translations can be tested by manually running Welcome Center in a different language, e.g. `LANG=fr_FR plasma-welcome`.
+
 # Extending Welcome Center with custom pages
 Custom distro-specific pages can be embedded in the app, and will appear right before the "Get Involved" page. Only content that is safely skippable should be added, since the user can close the app at any time, potentially before they see your custom pages.
 
-To make custom pages visible to the app, place them in `/usr/share/plasma-welcome-extra-pages/`, prefixed with a number and a dash. For example if you define two pages with the following names:
+To make custom pages visible to the app, place them in `/usr/share/plasma/plasma-welcome/extra-pages/`, prefixed with a number and a dash. For example if you define two pages with the following names:
 
 - `01-WelcomeToDistro.qml`
 - `02-InstallMediaCodecs.qml`
@@ -93,7 +124,7 @@ KCM {
 If you find that your specific use case can't be supported with these tools, please file a bug report at https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center detailing the use case and what would be needed to support it.
 
 ## Example custom page
-Name this file `01-NateOS.qml` and place it in `/usr/share/plasma-welcome-extra-pages/`:
+Name this file `01-NateOS.qml` and place it in `/usr/share/plasma/plasma-welcome/extra-pages/`:
 
 ```
 /*

@@ -12,8 +12,12 @@ import org.kde.kirigami 2.15 as Kirigami
 import org.kde.plasma.welcome 1.0
 
 GenericPage {
+    id: root
+
     heading: i18nc("@title", "Welcome")
-    description: xi18nc("@info:usagetip %1 is the name of the user's distro", "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Controller.distroName())
+    description: Controller.customIntroText.length > 0
+            ? xi18nc("@info:usagetip %1 is custom text supplied by the distro", "%1<nl/><nl/>This operating system is running Plasma, a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Controller.customIntroText)
+            : xi18nc("@info:usagetip %1 is the name of the user's distro", "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Controller.distroName())
 
     topContent: [
         ColumnLayout {
@@ -39,31 +43,68 @@ GenericPage {
         height: Math.min(parent.height, Kirigami.Units.gridUnit * 17)
         spacing: Kirigami.Units.smallSpacing
 
-        Image {
-            id: konqiImage
+        Loader {
+            id: imageContainer
+
+            readonly property bool isImage:
+                // Image path in the file
+                Controller.customIntroIcon.startsWith("file:/") ||
+                // Our default image
+                Controller.customIntroIcon.length === 0
 
             Layout.alignment: Qt.AlignHCenter
             Layout.fillHeight: true
-            source: "konqi-kde-hi.png"
-            fillMode: Image.PreserveAspectFit
+            Layout.maximumWidth: root.width
+
+            sourceComponent: isImage ? imageComponent : iconComponent
+
+            Component {
+                id: imageComponent
+
+                Image {
+                    id: image
+                    source: Controller.customIntroIcon || "konqi-kde-hi.png"
+                    fillMode: Image.PreserveAspectFit
+
+                    Kirigami.PlaceholderMessage {
+                        width: root.width - (Kirigami.Units.largeSpacing * 4)
+                        anchors.centerIn: parent
+                        text: i18nc("@title", "Image loading failed")
+                        explanation: xi18nc("@info:placeholder", "Could not load <filename>%1</filename>. Make sure it exists.", Controller.customIntroIcon)
+                        visible: image.status == Image.Error
+                    }
+                }
+            }
+
+            Component {
+                id: iconComponent
+
+                Kirigami.Icon {
+                    implicitWidth: Kirigami.Units.iconSizes.enormous * 2
+                    implicitHeight: implicitWidth
+                    source: Controller.customIntroIcon || "kde"
+                }
+            }
 
             HoverHandler {
                 id: hoverhandler
                 cursorShape: Qt.PointingHandCursor
             }
             TapHandler {
-                onTapped: Qt.openUrlExternally(plasmaLink.url)
+                id: tapHandler
+                property string url: Controller.customIntroIconLink || plasmaLink.url
+                onTapped: Qt.openUrlExternally(url)
             }
             QQC2.ToolTip {
                 visible: hoverhandler.hovered
-                text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", plasmaLink.url)
+                text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", tapHandler.url)
             }
         }
 
         QQC2.Label {
             Layout.alignment: Qt.AlignHCenter
-            Layout.maximumWidth: Math.round(konqiImage.implicitWidth / 2)
-            text: i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
+            Layout.maximumWidth: Math.round(Math.max(root.width / 2, imageContainer.implicitWidth / 2))
+            text: Controller.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
             wrapMode: Text.Wrap
             horizontalAlignment: Text.AlignHCenter
         }

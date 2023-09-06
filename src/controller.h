@@ -14,12 +14,7 @@ class Controller : public QObject
 {
     Q_OBJECT
 public:
-    Controller()
-    {
-    }
-    ~Controller()
-    {
-    }
+    Controller();
 
     Q_INVOKABLE static void launchApp(const QString &program);
     Q_INVOKABLE static void runCommand(const QString &command);
@@ -34,6 +29,10 @@ public:
     Q_INVOKABLE QString installPrefix();
 
     Q_PROPERTY(Mode mode MEMBER m_mode NOTIFY modeChanged)
+    Q_PROPERTY(QString customIntroText MEMBER m_customIntroText CONSTANT)
+    Q_PROPERTY(QString customIntroIcon MEMBER m_customIntroIcon CONSTANT)
+    Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
+    Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
     Q_PROPERTY(QString plasmaVersion MEMBER m_plasmaVersion CONSTANT)
     Q_PROPERTY(QString simplePlasmaVersion MEMBER m_simplePlasmaVersion CONSTANT)
     Q_PROPERTY(QStringList plasmaVersionSplit MEMBER m_plasmaVersionSplit CONSTANT)
@@ -51,4 +50,8 @@ private:
     const QString m_plasmaVersion = QString::fromLatin1(PROJECT_VERSION);
     const QString m_simplePlasmaVersion = m_plasmaVersion.chopped(m_plasmaVersion.length() - m_plasmaVersion.lastIndexOf(QStringLiteral(".")));
     const QStringList m_plasmaVersionSplit = m_plasmaVersion.split(QStringLiteral("."));
+    QString m_customIntroText;
+    QString m_customIntroIcon;
+    QString m_customIntroIconLink;
+    QString m_customIntroIconCaption;
 };
