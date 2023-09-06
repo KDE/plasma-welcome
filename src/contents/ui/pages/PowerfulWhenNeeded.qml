@@ -5,14 +5,14 @@
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.15
-import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.15 as Kirigami
+import QtQuick
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
 import Qt5Compat.GraphicalEffects
 
 import org.kde.kcmutils as KCMUtils
 
-import org.kde.plasma.welcome 1.0
+import org.kde.plasma.welcome
 
 
 GenericPage {

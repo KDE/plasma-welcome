@@ -4,18 +4,18 @@
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.15
-import QtQuick.Layouts 1.15
+import QtQuick
+import QtQuick.Layouts
 import Qt5Compat.GraphicalEffects
-import org.kde.kirigami 2.15 as Kirigami
-import org.kde.kirigamiaddons.components 1.0 as KirigamiAddons
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.components as KirigamiAddons
 
-import org.kde.plasma.welcome 1.0
-import org.kde.plasma.components 3.0 as PC3
-import org.kde.ksvg 1.0 as KSvg
+import org.kde.plasma.welcome
+import org.kde.plasma.components as PC3
+import org.kde.ksvg as KSvg
 //NOTE: necessary for KSvg to load the Plasma theme
 import org.kde.plasma.core as PlasmaCore
-import org.kde.plasma.plasma5support 2.0 as P5Support
+import org.kde.plasma.plasma5support as P5Support
 
 GenericPage {
     id: root

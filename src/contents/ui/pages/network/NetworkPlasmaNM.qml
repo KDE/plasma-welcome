@@ -4,8 +4,8 @@
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.15
-import org.kde.plasma.networkmanagement 0.2 as PlasmaNM
+import QtQuick
+import org.kde.plasma.networkmanagement as PlasmaNM
 
 Item {
     readonly property alias statusNetworkStatus: networkStatus.networkStatus
