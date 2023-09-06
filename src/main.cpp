@@ -63,11 +63,6 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    qmlRegisterSingletonInstance("org.kde.plasma.welcome", 1, 0, "Config", Config::self());
-    Controller controller;
-    qmlRegisterSingletonInstance("org.kde.plasma.welcome", 1, 0, "Controller", &controller);
-    qmlRegisterType<Module>("org.kde.plasma.welcome", 1, 0, "Module");
-    qmlRegisterType<ApplicationInfo>("org.kde.plasma.welcome", 1, 0, "ApplicationInfo");
 
     // Parse CLI args
     QCommandLineParser parser;
@@ -78,14 +73,17 @@ int main(int argc, char *argv[])
 
     parser.process(app);
     aboutData.processCommandLine(&parser);
-    if (parser.isSet(QStringLiteral("post-update"))) {
-        controller.setMode(Controller::Mode::Update);
-    } else if (parser.isSet(QStringLiteral("live-environment"))) {
-        controller.setMode(Controller::Mode::Live);
-    }
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+
+    auto controller = engine.singletonInstance<Controller *>("org.kde.plasma.welcome", "Controller");
+    if (parser.isSet(QStringLiteral("post-update"))) {
+        controller->setMode(Controller::Mode::Update);
+    } else if (parser.isSet(QStringLiteral("live-environment"))) {
+        controller->setMode(Controller::Mode::Live);
+    }
+
+    engine.loadFromModule("org.kde.plasma.welcome", "Main");
 
     if (engine.rootObjects().isEmpty()) {
         return -1;

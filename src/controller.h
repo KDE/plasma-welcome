@@ -7,12 +7,16 @@
 
 #pragma once
 
-#include "QObject"
 #include "version.h"
+#include <QObject>
+#include <qqmlregistration.h>
 
 class Controller : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
+
 public:
     Controller();
 

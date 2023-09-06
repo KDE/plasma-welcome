@@ -7,6 +7,7 @@
 #pragma once
 
 #include <QObject>
+#include <qqmlregistration.h>
 
 class ApplicationInfo : public QObject
 {
@@ -14,6 +15,7 @@ class ApplicationInfo : public QObject
     Q_PROPERTY(QString desktopName MEMBER m_desktopName WRITE setDesktopName NOTIFY desktopNameChanged)
     Q_PROPERTY(QString name MEMBER m_name NOTIFY nameChanged)
     Q_PROPERTY(QString icon MEMBER m_icon NOTIFY iconChanged)
+    QML_ELEMENT
 
 public:
     void setDesktopName(const QString &desktopName);
