@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-30 01:58+0000\n"
-"PO-Revision-Date: 2023-07-27 15:10+0200\n"
+"POT-Creation-Date: 2023-09-07 01:58+0000\n"
+"PO-Revision-Date: 2023-09-06 10:10+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -120,7 +120,7 @@ msgid "Start Contributing!"
 msgstr "Дайте Вашия принос!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
-#: src/contents/ui/pages/Welcome.qml:59
+#: src/contents/ui/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -241,6 +241,8 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"Тази страница се показва независимо от мрежовата свързаност, защото "
+"използвате версия за разработчици."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
@@ -583,13 +585,36 @@ msgstr ""
 "<nl/><nl/>Ако имате нужда от промени, ще намерите необходимото в "
 "<application>Системни настройки</application>."
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "Добре дошли"
 
-#: src/contents/ui/pages/Welcome.qml:16
+#: src/contents/ui/pages/Welcome.qml:19
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
+#| "a free and open-source desktop environment created by KDE, an "
+#| "international software community of volunteers. It is designed to be "
+#| "simple by default for a smooth experience, but powerful when needed to "
+#| "help you really get things done. We hope you love it!"
+msgctxt "@info:usagetip %1 is custom text supplied by the distro"
+msgid ""
+"%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
+"desktop environment created by KDE, an international software community of "
+"volunteers. It is designed to be simple by default for a smooth experience, "
+"but powerful when needed to help you really get things done. We hope you "
+"love it!"
+msgstr ""
+"Добре дошли в %1, използваща KDE Plasma. Plasma е безплатна среда за "
+"настолни компютри с отворен код, създадена от KDE, международна софтуерна "
+"общност от доброволци. Работната среда на Plasma е проста по подразбиране, "
+"за да работи безпроблемно, но е мощна и комплексна, когато е необходимо, за "
+"да ви помогне наистина  да свършите нещо.<nl/>Надяваме се, че ще я харесате!"
+
+#: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -605,19 +630,31 @@ msgstr ""
 "за да работи безпроблемно, но е мощна и комплексна, когато е необходимо, за "
 "да ви помогне наистина  да свършите нещо.<nl/>Надяваме се, че ще я харесате!"
 
-#: src/contents/ui/pages/Welcome.qml:25
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Научете повече за общността на KDE"
 
-#: src/contents/ui/pages/Welcome.qml:30
+#: src/contents/ui/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Научете повече за %1"
 
-#: src/contents/ui/pages/Welcome.qml:66
+#: src/contents/ui/pages/Welcome.qml:72
+#, kde-format
+msgctxt "@title"
+msgid "Image loading failed"
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:73
+#, kde-kuit-format
+msgctxt "@info:placeholder"
+msgid "Could not load <filename>%1</filename>. Make sure it exists."
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"

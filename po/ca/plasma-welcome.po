@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-30 01:58+0000\n"
+"POT-Creation-Date: 2023-09-07 01:58+0000\n"
 "PO-Revision-Date: 2023-08-30 20:49+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -123,7 +123,7 @@ msgid "Start Contributing!"
 msgstr "Comenceu a col·laborar!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
-#: src/contents/ui/pages/Welcome.qml:59
+#: src/contents/ui/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -585,13 +585,36 @@ msgstr ""
 "sigueu productiu.<nl/><nl/>Si en teniu la necessitat, trobareu el que calgui "
 "a l'aplicació <application>Arranjament del sistema</application>."
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "Benvinguda"
 
-#: src/contents/ui/pages/Welcome.qml:16
+#: src/contents/ui/pages/Welcome.qml:19
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
+#| "a free and open-source desktop environment created by KDE, an "
+#| "international software community of volunteers. It is designed to be "
+#| "simple by default for a smooth experience, but powerful when needed to "
+#| "help you really get things done. We hope you love it!"
+msgctxt "@info:usagetip %1 is custom text supplied by the distro"
+msgid ""
+"%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
+"desktop environment created by KDE, an international software community of "
+"volunteers. It is designed to be simple by default for a smooth experience, "
+"but powerful when needed to help you really get things done. We hope you "
+"love it!"
+msgstr ""
+"Us donem la benvinguda al sistema operatiu %1 que executa el KDE Plasma!<nl/"
+"><nl/>El Plasma és un entorn d'escriptori lliure i de codi obert creat per "
+"KDE, una comunitat de voluntaris internacional de programari. Està dissenyat "
+"per ser senzill de manera predeterminada per a una experiència fàcil, però "
+"potent quan cal per ajudar-vos a fer les coses. Esperem que us agradi!"
+
+#: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -607,19 +630,31 @@ msgstr ""
 "per ser senzill de manera predeterminada per a una experiència fàcil, però "
 "potent quan cal per ajudar-vos a fer les coses. Esperem que us agradi!"
 
-#: src/contents/ui/pages/Welcome.qml:25
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Apreneu-ne més pel que fa a la Comunitat KDE"
 
-#: src/contents/ui/pages/Welcome.qml:30
+#: src/contents/ui/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Apreneu-ne més pel que fa a %1"
 
-#: src/contents/ui/pages/Welcome.qml:66
+#: src/contents/ui/pages/Welcome.qml:72
+#, kde-format
+msgctxt "@title"
+msgid "Image loading failed"
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:73
+#, kde-kuit-format
+msgctxt "@info:placeholder"
+msgid "Could not load <filename>%1</filename>. Make sure it exists."
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"

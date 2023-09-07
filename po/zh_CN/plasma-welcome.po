@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-30 01:58+0000\n"
+"POT-Creation-Date: 2023-09-07 01:58+0000\n"
 "PO-Revision-Date: 2023-09-02 02:55\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -117,7 +117,7 @@ msgid "Start Contributing!"
 msgstr "开始贡献！"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
-#: src/contents/ui/pages/Welcome.qml:59
+#: src/contents/ui/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -552,13 +552,35 @@ msgstr ""
 "自定义系统的功能，也可以在<application>系统设置</application>应用中找到对应的"
 "选项。"
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "欢迎使用"
 
-#: src/contents/ui/pages/Welcome.qml:16
+#: src/contents/ui/pages/Welcome.qml:19
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
+#| "a free and open-source desktop environment created by KDE, an "
+#| "international software community of volunteers. It is designed to be "
+#| "simple by default for a smooth experience, but powerful when needed to "
+#| "help you really get things done. We hope you love it!"
+msgctxt "@info:usagetip %1 is custom text supplied by the distro"
+msgid ""
+"%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
+"desktop environment created by KDE, an international software community of "
+"volunteers. It is designed to be simple by default for a smooth experience, "
+"but powerful when needed to help you really get things done. We hope you "
+"love it!"
+msgstr ""
+"欢迎使用正在运行 KDE Plasma 的 %1 操作系统！<nl/><nl/>Plasma 是一款由 KDE 出"
+"品的自由开源桌面环境。KDE 是一个由志愿者组成的国际性软件社区。Plasma 的默认状"
+"态简洁易用，让您无需繁琐的配置即可流畅工作。Plasma 不但功能全面，还提供了丰富"
+"的可定制选项，让您可以高效地完成工作任务。我们希望您能喜欢上它！"
+
+#: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -573,19 +595,31 @@ msgstr ""
 "态简洁易用，让您无需繁琐的配置即可流畅工作。Plasma 不但功能全面，还提供了丰富"
 "的可定制选项，让您可以高效地完成工作任务。我们希望您能喜欢上它！"
 
-#: src/contents/ui/pages/Welcome.qml:25
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "了解更多关于 KDE 社区的信息"
 
-#: src/contents/ui/pages/Welcome.qml:30
+#: src/contents/ui/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "了解更多关于 %1 的信息"
 
-#: src/contents/ui/pages/Welcome.qml:66
+#: src/contents/ui/pages/Welcome.qml:72
+#, kde-format
+msgctxt "@title"
+msgid "Image loading failed"
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:73
+#, kde-kuit-format
+msgctxt "@info:placeholder"
+msgid "Could not load <filename>%1</filename>. Make sure it exists."
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"

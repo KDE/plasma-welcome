@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-30 01:58+0000\n"
+"POT-Creation-Date: 2023-09-07 01:58+0000\n"
 "PO-Revision-Date: 2023-08-06 22:34+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -116,7 +116,7 @@ msgid "Start Contributing!"
 msgstr "기여하세요!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
-#: src/contents/ui/pages/Welcome.qml:59
+#: src/contents/ui/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -557,13 +557,36 @@ msgstr ""
 "생산적으로 사용할 수 있습니다.<nl/><nl/>만약 필요하다면 <application>시스템 "
 "설정</application> 앱에서 필요한 설정을 찾을 수 있습니다."
 
-#: src/contents/ui/pages/Welcome.qml:15
+#: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "환영합니다"
 
-#: src/contents/ui/pages/Welcome.qml:16
+#: src/contents/ui/pages/Welcome.qml:19
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
+#| "a free and open-source desktop environment created by KDE, an "
+#| "international software community of volunteers. It is designed to be "
+#| "simple by default for a smooth experience, but powerful when needed to "
+#| "help you really get things done. We hope you love it!"
+msgctxt "@info:usagetip %1 is custom text supplied by the distro"
+msgid ""
+"%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
+"desktop environment created by KDE, an international software community of "
+"volunteers. It is designed to be simple by default for a smooth experience, "
+"but powerful when needed to help you really get things done. We hope you "
+"love it!"
+msgstr ""
+"KDE Plasma를 실행하는 %1 운영 체제에 오신 것을 환영합니다!<nl/><nl/>Plasma는 "
+"전 세계적인 자원 봉사자로 구성된 소프트웨어 커뮤니티 KDE에서 제작한 자유 오"
+"픈 소스 데스크톱 환경입니다. Plasma 데스크톱 환경은 기본값으로 간단하고 부드"
+"러운 사용자 경험을 제공하며, 필요할 때에는 작업을 빠르게 수행할 수 있도록 강"
+"력해집니다. 즐겁게 사용하세요!"
+
+#: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -579,19 +602,31 @@ msgstr ""
 "러운 사용자 경험을 제공하며, 필요할 때에는 작업을 빠르게 수행할 수 있도록 강"
 "력해집니다. 즐겁게 사용하세요!"
 
-#: src/contents/ui/pages/Welcome.qml:25
+#: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "KDE 커뮤니티에 대해서 더 알아보기"
 
-#: src/contents/ui/pages/Welcome.qml:30
+#: src/contents/ui/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1에 대해서 더 알아보기"
 
-#: src/contents/ui/pages/Welcome.qml:66
+#: src/contents/ui/pages/Welcome.qml:72
+#, kde-format
+msgctxt "@title"
+msgid "Image loading failed"
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:73
+#, kde-kuit-format
+msgctxt "@info:placeholder"
+msgid "Could not load <filename>%1</filename>. Make sure it exists."
+msgstr ""
+
+#: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
