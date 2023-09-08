@@ -1,7 +1,7 @@
 # Translation for plasma-welcome.po to Euskara/Basque (eu).
 # Copyright (C) 2022-2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2023 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
 # Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022, 2023.
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-07 01:58+0000\n"
-"PO-Revision-Date: 2023-08-30 07:37+0200\n"
+"PO-Revision-Date: 2023-09-07 22:51+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 23.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -593,14 +593,7 @@ msgid "Welcome"
 msgstr "Ongi etorri"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -609,12 +602,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Ongi etorri KDE Plasma darabilen %1 sistema eragilera!<nl/><nl/>Plasma, "
-"boluntarioen nazioarteko software komunitate bat osatzen duen KDEk sortutako "
-"sorburu irekiko mahaigain ingurune aske bat da. Esperientzia leun bat "
-"eskaintzeko, era lehenetsian samurra, baina beharrezkoa denean, gauzak "
-"egiten laguntzeko, ahaltsua izateko diseinatuta dago. Maiteko duzulakoan "
-"gaude!"
+"%1<nl/><nl/>Sistema eragile honek Plasma ibiltzen du, KDEk sortutako "
+"mahaigain ingurune aske eta sorburu irekiko bat, boluntarioen nazioarteko "
+"software komunitate bat. Esperientzia leun bat eskaintzeko, era lehenetsian "
+"samurra, baina beharrezkoa denean, gauzak egiten laguntzeko, ahaltsua "
+"izateko diseinatuta dago. Maiteko duzulakoan gaude!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -649,13 +641,13 @@ msgstr "Jakizu gehiago %1(e)(a)ri buruz"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Irudiak zamatzea huts egin du"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "Ezin izan du <filename>%1</filename> zamatu. Ziurtatu existitzen dela."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format

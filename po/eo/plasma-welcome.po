@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-07 01:58+0000\n"
-"PO-Revision-Date: 2023-08-31 21:15+0100\n"
+"PO-Revision-Date: 2023-09-07 20:47+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -578,14 +578,7 @@ msgid "Welcome"
 msgstr "Bonvenon"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -594,11 +587,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Bonvenon al la %1 operaciumo rulanta KDE Plasma!<nl/><nl/>Plasma estas "
-"libera kaj malfermfonta labortabla medio kreita de KDE, internacia "
-"programara komunumo de volontuloj. Ĝi estas dezajnita esti simpla defaŭlte "
-"por glata sperto, sed potenca kiam necesas por helpi vin vere finfari "
-"aferojn. Ni esperas, ke vi amas ĝin!"
+"%1<nl/><nl/>Ĉi operaciumo estas rulanta KDE Plasma, liberan kaj "
+"malfermfontan labortablomedion kreitan de KDE, internacia programara "
+"komunumo de volontuloj. Ĝi estas dezajnita esti simpla defaŭlte por glata "
+"sperto, sed potenca kiam necesas por helpi vin vere finfari aferojn. Ni "
+"esperas, ke vi amas ĝin!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -632,13 +625,13 @@ msgstr "Lernu pli pri %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Bildŝargo malsukcesis"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "Ne eblis ŝargi <filename>%1</filename>. Certigu ke ĝi ekzistas."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format

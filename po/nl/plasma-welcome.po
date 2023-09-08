@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
 #
-# Freek de Kruijf <freekdekruijf@kde.nl>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-07 01:58+0000\n"
-"PO-Revision-Date: 2023-08-30 10:12+0200\n"
+"PO-Revision-Date: 2023-09-07 09:47+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 23.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -586,14 +586,7 @@ msgid "Welcome"
 msgstr "Welkom"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -602,12 +595,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Welkom bij het besturingssysteem %1 dat Plasma gebruikt<nl/><nl/>Plasma is "
-"een vrije en open-source bureaubladomgeving gecreëerd door KDE, een "
-"internationale softwaregemeenschap van vrijwilligers. Het is ontworpen om "
-"standaard eenvoudig te zijn voor een gladde ervaring, maar krachtig wanneer "
-"nodig om u te echt helpen dingen gedaan te krijgen. We dat u er van gaat "
-"houden!"
+"%1<nl/><nl/>Dit besturingssysteem gebruikt Plasma, een vrije en open-source "
+"bureaubladomgeving gecreëerd door KDE, een internationale "
+"softwaregemeenschap van vrijwilligers. Het is ontworpen om standaard "
+"eenvoudig te zijn voor een gladde ervaring, maar krachtig wanneer nodig om u "
+"te echt helpen dingen gedaan te krijgen. We dat u er van gaat houden!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -642,13 +634,13 @@ msgstr "Kom meer te weten over %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Laden van afbeelding is mislukt"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "Kon <filename>%1</filename> niet laden. Ga na dat het bestaat."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-07 01:58+0000\n"
-"PO-Revision-Date: 2023-08-30 10:22+0200\n"
+"PO-Revision-Date: 2023-09-07 10:56+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -586,14 +586,7 @@ msgid "Welcome"
 msgstr "Benvenite"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -602,10 +595,10 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Benvenite al systema operative %1 executante KDE Plasma!<nl/><nl/> Plasma es "
-"un ambiente de scriptorio libere e a fonte aperite create per KDE, un "
-"communitate international de sofware de voluntarios. Illo es designate per "
-"esser simplice per definition per un experientia lisie, ma potente quando "
+"%1<nl/><nl/>Iste systema operative  es executante KDE Plasma, un ambiente de "
+"scriptorio libere e a fonte aperite create per KDE, un communitate "
+"international de sofware de voluntarios. Illo es designate per esser "
+"simplice per definition per un experientia lisie, ma potente quando "
 "necessitate pro adjutar te realmente a obtener le cosas facite. Nos spera "
 "que tu lo ama! "
 
@@ -642,13 +635,14 @@ msgstr "Apprende plus re %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Il falleva cargar imagine"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Non poteva cargar <filename>%1</filename>. Tu assecura te que illo existe."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
