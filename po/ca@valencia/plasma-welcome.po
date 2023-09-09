@@ -11,15 +11,15 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-07 01:58+0000\n"
-"PO-Revision-Date: 2023-08-30 20:49+0200\n"
-"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"PO-Revision-Date: 2023-09-07 11:27+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -594,14 +594,7 @@ msgid "Welcome"
 msgstr "Benvinguda"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -610,11 +603,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Us donem la benvinguda al sistema operatiu %1 que executa KDE Plasma!<nl/"
-"><nl/>Plasma és un entorn d'escriptori lliure i de codi obert creat per KDE, "
-"una comunitat de voluntaris internacional de programari. Està dissenyat per "
-"a ser senzill de manera predeterminada per a una experiència fàcil, però "
-"potent quan cal per a ajudar-vos a fer les coses. Esperem que vos agrade!"
+"%1<nl/><nl/>Este sistema operatiu executa Plasma, un entorn d'escriptori "
+"lliure i de codi obert creat per KDE, una comunitat de voluntaris "
+"internacional de programari. Està dissenyat per a ser senzill de manera "
+"predeterminada per a una experiència fàcil, però potent quan cal per a "
+"ajudar-vos a fer les coses. Esperem que vos agrade!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -648,13 +641,14 @@ msgstr "Apreneu-ne més pel que fa a %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "No s'ha pogut carregar la imatge"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"No s'ha pogut carregar <filename>%1</filename>. Assegureu-vos que existisca."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format

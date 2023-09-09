@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-07 01:58+0000\n"
-"PO-Revision-Date: 2023-08-31 05:41+0200\n"
+"PO-Revision-Date: 2023-09-08 06:01+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -578,14 +578,7 @@ msgid "Welcome"
 msgstr "კეთილი იყოს თქვენი მობრძანება"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -594,11 +587,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"კეთილი იყოს თქვენი მობრძანება ოპერაციულ სისტემაშ %1, რომელზეც KDE Plasma-ა "
-"გაშვებული!<nl/><nl/>Plasma უფასო და ღია კოდის მქონე სამუშაო გარემოა, რომელიც "
-"KDE-ის, მოხალისე პროგრამისტების საერთაშორისო საზოგადოების მიერ შეიქმნა. "
-"Plasma-ის სამუშაო გარემო მარტივი, გლუვი და ძალიან მძლავრია, როცა საქმის "
-"გაკეთება დაგჭირდებათ. იმედია, მოგეწონებათ!"
+"%1<nl/><nl/>ამ ოპერაციულ სისტემაზე გაშვებულია Plasma, უფასო და ღია კოდის "
+"მქონე სამუშაო მაგიდის გარემო, რომელიც KDE-მა, საერთაშორისო პროექტმა, რომელიც "
+"მოხალისეებმა შექმნეს. ის აგებულია, რომ ადვილი მოსახმარი იყოს, მაგრამ ის "
+"მძლავრია, როცა თქვენი საქმის გაკეთებაში დახმარება გჭირდებათ. იმედია, "
+"მოგეწონებათ!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -632,13 +625,15 @@ msgstr "გაიგეთ მეტი %1-ის შესახებ"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "გამოსახულების ჩატვირთვის შეცდომა"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"ფაილის <filename>%1</filename> ჩატვირთვის შეცდომა. დარწმუნდით, რომ ის "
+"არსებობს."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
