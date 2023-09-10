@@ -46,6 +46,8 @@ Kirigami.ApplicationWindow {
             height: parent.height
             width: parent.width
 
+            separatorVisible: false
+
             contentItem: RowLayout {
                 id: footerLayout
 
