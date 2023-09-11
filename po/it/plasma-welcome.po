@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-07 01:58+0000\n"
-"PO-Revision-Date: 2023-08-30 16:19+0200\n"
+"POT-Creation-Date: 2023-09-11 02:01+0000\n"
+"PO-Revision-Date: 2023-09-07 17:58+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -27,37 +27,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "smart2128vr@gmail.com"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:64
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Salta"
 
-#: src/contents/ui/main.qml:62
+#: src/contents/ui/main.qml:64
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Indietro"
 
-#: src/contents/ui/main.qml:91
+#: src/contents/ui/main.qml:93
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Fine"
 
-#: src/contents/ui/main.qml:91
+#: src/contents/ui/main.qml:93
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Successivo"
 
-#: src/contents/ui/main.qml:170
+#: src/contents/ui/main.qml:172
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Condividi informazioni anonime sull'utilizzo"
 
-#: src/contents/ui/main.qml:171
+#: src/contents/ui/main.qml:173
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -68,13 +68,13 @@ msgstr ""
 "software di KDE. Puoi scegliere quanto condividere nelle impostazioni di "
 "sistema e anche qui."
 
-#: src/contents/ui/main.qml:179
+#: src/contents/ui/main.qml:181
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Collega gli account in linea"
 
-#: src/contents/ui/main.qml:180
+#: src/contents/ui/main.qml:182
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -591,14 +591,7 @@ msgid "Welcome"
 msgstr "Benvenuto"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -607,12 +600,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Benvenuto nel sistema operativo %1 che esegue KDE Plasma!<nl/><nl/>Plasma è "
-"un ambiente desktop gratuito e open-source creato da KDE, una comunità "
-"software internazionale di volontari. È progettato per essere semplice per "
-"impostazione predefinita per un'esperienza fluida, ma potente quando "
-"necessario per aiutarti a fare davvero le cose di cui hai bisogno. Speriamo "
-"ti piaccia!"
+"%1<nl/><nl/>Questo sistema operativo esegue KDE Plasma, un ambiente desktop "
+"libero e open-source creato da KDE, una comunità software internazionale di "
+"volontari. È progettato per essere semplice per impostazione predefinita per "
+"un'esperienza fluida, ma potente quando necessario per aiutarti a fare "
+"davvero le cose di cui hai bisogno. Speriamo ti piaccia!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -647,13 +639,13 @@ msgstr "Ulteriori informazioni su %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Caricamento dell'immagine non riuscito"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "Impossibile caricare <filename>%1</filename>. Assicurati che esista."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
