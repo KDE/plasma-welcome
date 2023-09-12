@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-11 02:01+0000\n"
-"PO-Revision-Date: 2023-08-21 14:13+0200\n"
+"PO-Revision-Date: 2023-09-10 19:01+0200\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.07.90\n"
+"X-Generator: Lokalize 23.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -241,6 +241,8 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"Cette page s’affiche indépendamment de la connectivité réseau car vous "
+"utilisez une version de développement."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
@@ -598,14 +600,7 @@ msgid "Welcome"
 msgstr "Bienvenue"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -614,12 +609,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Bienvenue sur le système d’exploitation %1 exécutant KDE Plasma ! <nl/><nl/"
-">Plasma est un environnement de bureau gratuit et « Open-source », créé par "
-"KDE, une communauté internationale de volontaires. L'environnement de bureau "
-"Plasma est simple par défaut pour une expérience fluide, mais puissant quand "
-"il le faut pour vous aider à accomplir vos tâches. Nous espérons que vous "
-"l'aimez aussi !"
+"%1<nl/><nl/>Le système d'exploitation utilise Plasma, un environnement de "
+"bureau gratuit et « Open-source », créé par KDE, une communauté "
+"internationale de volontaires. Le bureau Plasma est simple par défaut pour "
+"une expérience fluide, mais puissant quand il le faut pour vous aider à "
+"accomplir vos tâches. Nous espérons que vous l'aimez aussi !"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -645,24 +639,24 @@ msgid "Learn more about the KDE community"
 msgstr "En apprendre plus sur la communauté KDE"
 
 #: src/contents/ui/pages/Welcome.qml:34
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "En apprendre plus sur la communauté KDE"
+msgstr "En apprendre plus sur %1"
 
 #: src/contents/ui/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Impossible de charger l'image"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Impossible de charger <filename>%1</filename>. Veuillez vérifier que le "
+"fichier existe."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
