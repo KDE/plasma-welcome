@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-11 02:01+0000\n"
-"PO-Revision-Date: 2023-09-06 10:10+0200\n"
+"PO-Revision-Date: 2023-09-15 18:43+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -592,14 +592,7 @@ msgid "Welcome"
 msgstr "Добре дошли"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -608,11 +601,12 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Добре дошли в %1, използваща KDE Plasma. Plasma е безплатна среда за "
-"настолни компютри с отворен код, създадена от KDE, международна софтуерна "
-"общност от доброволци. Работната среда на Plasma е проста по подразбиране, "
-"за да работи безпроблемно, но е мощна и комплексна, когато е необходимо, за "
-"да ви помогне наистина  да свършите нещо.<nl/>Надяваме се, че ще я харесате!"
+"%1<nl/><nl/>Тази операционна система използва KDE Plasma. Plasma е безплатна "
+"среда за настолни компютри с отворен код, създадена от KDE, международна "
+"софтуерна общност от доброволци. Работната среда на Plasma е проста по "
+"подразбиране, за да работи безпроблемно, но е мощна и комплексна, когато е "
+"необходимо, за да ви помогне наистина  да свършите нещо.<nl/>Надяваме се, че "
+"ще я харесате!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -646,13 +640,14 @@ msgstr "Научете повече за %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Неуспешно зареждане на изображението"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Неуспешно зареждане на <filename>%1</filename>. Уверете се,  че е налично. "
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format

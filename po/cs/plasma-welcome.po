@@ -572,14 +572,7 @@ msgid "Welcome"
 msgstr "Vítejte"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -588,11 +581,6 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Vítejte v operačním systému %1 na kterém běží KDE Plasma!<nl/><nl/>Plasma je "
-"svobodné a open-source pracovní prostředí vytvořené KDE - mezinárodní "
-"softwarovou komunitou dobrovolníků. Je navržena aby byla jednoduchá do "
-"začátku ale velmi dobře vybavena pro každodenní použití. Doufáme, že si ji "
-"zamilujete!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
