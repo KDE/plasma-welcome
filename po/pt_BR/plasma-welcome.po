@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-11 02:01+0000\n"
-"PO-Revision-Date: 2023-08-31 11:32-0300\n"
+"PO-Revision-Date: 2023-09-16 02:25-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -590,14 +590,7 @@ msgid "Welcome"
 msgstr "Bem-vindo"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -606,12 +599,12 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Bem-vindo ao sistema operacional %1 executando KDE Plasma!<nl/><nl/>O Plasma "
-"é um ambiente de desktop gratuito e de código aberto criado pelo KDE, uma "
-"comunidade internacional de voluntários na área de software. Ele foi "
-"projetado para ser simples por padrão, proporcionando uma experiência "
-"tranquila, mas também é poderoso quando necessário para ajudar você a "
-"realmente realizar suas tarefas. Esperamos que você goste!"
+"%1<nl/><nl/>Este sistema operacional está executando KDE Plasma, um ambiente "
+"de desktop gratuito e de código aberto criado pelo KDE, uma comunidade "
+"internacional de voluntários na área de software. Ele foi projetado para ser "
+"simples por padrão, proporcionando uma experiência tranquila, mas também é "
+"poderoso quando necessário para ajudar você a realmente realizar suas "
+"tarefas. Esperamos que você goste!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -646,13 +639,15 @@ msgstr "Aprenda mais sobre %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Não foi possível carregar a imagem"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Não foi possível carregar o arquivo  <filename>%1</filename>. Certifique-se "
+"de que ele existe."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format

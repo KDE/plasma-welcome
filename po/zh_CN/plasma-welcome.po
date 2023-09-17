@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-11 02:01+0000\n"
-"PO-Revision-Date: 2023-09-02 02:55\n"
+"PO-Revision-Date: 2023-09-16 10:06\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -559,14 +559,7 @@ msgid "Welcome"
 msgstr "欢迎使用"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -575,10 +568,10 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"欢迎使用正在运行 KDE Plasma 的 %1 操作系统！<nl/><nl/>Plasma 是一款由 KDE 出"
-"品的自由开源桌面环境。KDE 是一个由志愿者组成的国际性软件社区。Plasma 的默认状"
-"态简洁易用，让您无需繁琐的配置即可流畅工作。Plasma 不但功能全面，还提供了丰富"
-"的可定制选项，让您可以高效地完成工作任务。我们希望您能喜欢上它！"
+"%1<nl/><nl/>此操作系统正在运行 Plasma，这是一款由 KDE 出品的自由开源桌面环"
+"境。KDE 是一个由志愿者组成的国际性软件社区。Plasma 的默认状态简洁易用，让您无"
+"需繁琐的配置即可流畅工作。Plasma 不但功能全面，还提供了丰富的可定制选项，让您"
+"可以高效地完成工作任务。我们希望您能喜欢上它！"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -611,13 +604,13 @@ msgstr "了解更多关于 %1 的信息"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "图像加载失败"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "无法加载 <filename>%1</filename>。请确保该文件存在。"
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
