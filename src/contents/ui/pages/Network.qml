@@ -246,7 +246,7 @@ GenericPage {
     }
 
     footer: KirigamiAddons.Banner {
-        visible: Controller.plasmaVersionSplit[2] === "80"
+        visible: Controller.patchVersion === 80
         text: i18nc("@info", "This page is being shown regardless of network connectivity because you are using a development version.")
     }
 }

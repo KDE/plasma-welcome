@@ -8,6 +8,8 @@
 
 // NOTE: we want the cmakedefine so undefined cmake variables result in undefined macros result in build failures when they are used!
 #cmakedefine PROJECT_VERSION "@PROJECT_VERSION@"
+#cmakedefine PROJECT_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#cmakedefine PROJECT_VERSION_MINOR @PROJECT_VERSION_MINOR@
 #cmakedefine PROJECT_VERSION_PATCH @PROJECT_VERSION_PATCH@
 
 #endif // VERSION_H

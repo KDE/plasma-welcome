@@ -9,6 +9,7 @@
 
 #include "version.h"
 #include <QObject>
+#include <QVersionNumber>
 #include <qqmlregistration.h>
 
 class Controller : public QObject
@@ -32,14 +33,14 @@ public:
     Q_INVOKABLE QString distroUrl();
     Q_INVOKABLE QString installPrefix();
 
-    Q_PROPERTY(Mode mode MEMBER m_mode NOTIFY modeChanged)
+    Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)
+    Q_PROPERTY(QString shownVersion MEMBER m_shownVersion CONSTANT)
+    Q_PROPERTY(int patchVersion MEMBER m_patchVersion CONSTANT)
+    Q_PROPERTY(QString releaseUrl MEMBER m_releaseUrl CONSTANT)
     Q_PROPERTY(QString customIntroText MEMBER m_customIntroText CONSTANT)
     Q_PROPERTY(QString customIntroIcon MEMBER m_customIntroIcon CONSTANT)
     Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
     Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
-    Q_PROPERTY(QString plasmaVersion MEMBER m_plasmaVersion CONSTANT)
-    Q_PROPERTY(QString simplePlasmaVersion MEMBER m_simplePlasmaVersion CONSTANT)
-    Q_PROPERTY(QStringList plasmaVersionSplit MEMBER m_plasmaVersionSplit CONSTANT)
 
     enum Mode { Update, Live, Welcome };
     Q_ENUM(Mode)
@@ -51,9 +52,10 @@ Q_SIGNALS:
 
 private:
     Mode m_mode = Mode::Welcome;
-    const QString m_plasmaVersion = QString::fromLatin1(PROJECT_VERSION);
-    const QString m_simplePlasmaVersion = m_plasmaVersion.chopped(m_plasmaVersion.length() - m_plasmaVersion.lastIndexOf(QStringLiteral(".")));
-    const QStringList m_plasmaVersionSplit = m_plasmaVersion.split(QStringLiteral("."));
+    QVersionNumber m_version;
+    QString m_shownVersion;
+    int m_patchVersion;
+    QString m_releaseUrl;
     QString m_customIntroText;
     QString m_customIntroIcon;
     QString m_customIntroIconLink;
