@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-11 02:01+0000\n"
+"POT-Creation-Date: 2023-09-22 01:47+0000\n"
 "PO-Revision-Date: 2023-04-07 16:06+0200\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -26,37 +26,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wizzardsk@gmail.com,galko.ferdinand@gmail.com"
 
-#: src/contents/ui/main.qml:64
+#: src/contents/ui/Main.qml:64
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Preskočiť"
 
-#: src/contents/ui/main.qml:64
+#: src/contents/ui/Main.qml:64
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Späť"
 
-#: src/contents/ui/main.qml:93
+#: src/contents/ui/Main.qml:93
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "Do&končiť"
 
-#: src/contents/ui/main.qml:93
+#: src/contents/ui/Main.qml:93
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Nasledujúci"
 
-#: src/contents/ui/main.qml:172
+#: src/contents/ui/Main.qml:172
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Zdieľanie anonymných informácií o používaní"
 
-#: src/contents/ui/main.qml:173
+#: src/contents/ui/Main.qml:173
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -66,13 +66,13 @@ msgstr ""
 "Naši vývojári použijú tieto anonymné údaje na zlepšenie softvéru KDE. Rozsah "
 "zdieľania môžete vybrať v Systémových nastaveniach a tiež tu."
 
-#: src/contents/ui/main.qml:181
+#: src/contents/ui/Main.qml:181
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Pripojenie online účtov"
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/Main.qml:182
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -710,12 +710,12 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:76
+#: src/main.cpp:71
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Zobraziť poznámky k vydaniu aktuálnej verzie Plasma."
 
-#: src/main.cpp:77
+#: src/main.cpp:72
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""

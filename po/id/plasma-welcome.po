@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-11 02:01+0000\n"
+"POT-Creation-Date: 2023-09-22 01:47+0000\n"
 "PO-Revision-Date: 2023-02-15 16:32+0700\n"
 "Last-Translator: Linerly <linerly@protonmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -27,31 +27,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "linerly@protonmail.com"
 
-#: src/contents/ui/main.qml:64
+#: src/contents/ui/Main.qml:64
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Lewati"
 
-#: src/contents/ui/main.qml:64
+#: src/contents/ui/Main.qml:64
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Kembali"
 
-#: src/contents/ui/main.qml:93
+#: src/contents/ui/Main.qml:93
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Selesai"
 
-#: src/contents/ui/main.qml:93
+#: src/contents/ui/Main.qml:93
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Berikutnya"
 
-#: src/contents/ui/main.qml:172
+#: src/contents/ui/Main.qml:172
 #, fuzzy, kde-format
 #| msgctxt "@title: window"
 #| msgid "Share Anonymous Usage Information With KDE"
@@ -59,7 +59,7 @@ msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Bagikan Informasi Penggunaan Anonim Dengan KDE"
 
-#: src/contents/ui/main.qml:173
+#: src/contents/ui/Main.qml:173
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 "perangkat lunak KDE. Anda dapat memilih berapa banyak yang dibagikan dalam "
 "System Settings, dan di sini juga."
 
-#: src/contents/ui/main.qml:181
+#: src/contents/ui/Main.qml:181
 #, fuzzy, kde-format
 #| msgctxt "@title: window"
 #| msgid "Connect Your Online Accounts"
@@ -78,7 +78,7 @@ msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Hubungkan Akun Daring Anda"
 
-#: src/contents/ui/main.qml:182
+#: src/contents/ui/Main.qml:182
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -735,12 +735,12 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:76
+#: src/main.cpp:71
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Tampilkan catatan rilis untuk rilis Plasma saat ini."
 
-#: src/main.cpp:77
+#: src/main.cpp:72
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
