@@ -17,7 +17,7 @@ GenericPage {
     id: root
 
     heading: i18nc("@title:window", "Manage Software")
-    description: xi18nc("@info:usagetip","The <application>Discover</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app.")
+    description: xi18nc("@info:usagetip %1 is 'Discover', the name of KDE's software center app","The <application>%1</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app.", application.name)
 
     ColumnLayout {
         anchors.centerIn: parent
@@ -27,7 +27,11 @@ GenericPage {
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             Layout.fillHeight: true
 
-            application: "org.kde.discover"
+            application: ApplicationInfo {
+                id: application
+                desktopName: "org.kde.discover"
+            }
+
             size: Kirigami.Units.gridUnit * (applicationGrid.twoRowlayout ? 6 : 10)
         }
 

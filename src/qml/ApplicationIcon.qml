@@ -16,19 +16,14 @@ import org.kde.plasma.welcome
 ColumnLayout {
     id: root
 
-    required property string application
+    required property var application
     required property int size
-
-    ApplicationInfo {
-        id: appInfo
-        desktopName: root.application
-    }
 
     Kirigami.Icon {
         id: image
         Layout.preferredWidth: root.size
         Layout.preferredHeight: root.size
-        source: appInfo.icon
+        source: application.icon ?? "unknown"
 
         HoverHandler {
             id: hoverHandler
@@ -36,12 +31,12 @@ ColumnLayout {
         }
 
         TapHandler {
-            onTapped: Controller.launchApp(appInfo.desktopName)
+            onTapped: Controller.launchApp(application.desktopName)
         }
 
         QQC2.ToolTip {
             visible: hoverHandler.hovered
-            text: i18nc("@action:button", "Launch %1 now", appInfo.name)
+            text: i18nc("@action:button", "Launch %1 now", application.name ?? "")
         }
 
         layer.enabled: true
@@ -58,7 +53,7 @@ ColumnLayout {
     Kirigami.Heading {
         Layout.alignment: Qt.AlignHCenter
         Layout.bottomMargin: Kirigami.Units.gridUnit
-        text: appInfo.name
+        text: application.name ?? ""
         wrapMode: Text.WordWrap
         level: 3
     }
