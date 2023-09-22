@@ -19,7 +19,14 @@ void ApplicationInfo::setDesktopName(const QString &desktopName)
     Q_EMIT desktopNameChanged();
 
     const KService::Ptr service = KService::serviceByDesktopName(m_desktopName);
-    if (service == nullptr) {
+
+    const bool exists = (service != nullptr);
+    if (m_exists != exists) {
+        m_exists = exists;
+        Q_EMIT existsChanged();
+    }
+
+    if (!exists) {
         return;
     }
 

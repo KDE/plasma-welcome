@@ -126,7 +126,10 @@ Kirigami.ApplicationWindow {
 
                 pageStack.push(simpleByDefault);
                 pageStack.push(powerfulWhenNeeded);
-                pageStack.push(discover);
+
+                if (discover.application.exists) {
+                    pageStack.push(discover);
+                }
 
                 if (Controller.mode !== Controller.Live) {
                     if (Controller.userFeedbackAvailable()) {
