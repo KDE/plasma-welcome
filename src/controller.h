@@ -40,14 +40,23 @@ public:
     Q_PROPERTY(QString plasmaVersion MEMBER m_plasmaVersion CONSTANT)
     Q_PROPERTY(QString simplePlasmaVersion MEMBER m_simplePlasmaVersion CONSTANT)
     Q_PROPERTY(QStringList plasmaVersionSplit MEMBER m_plasmaVersionSplit CONSTANT)
+    Q_PROPERTY(bool orcaAvailable READ orcaAvailable CONSTANT)
+    Q_PROPERTY(bool screenReaderEnabled READ screenReaderEnabled WRITE setScreenReaderEnabled NOTIFY screenReaderChanged)
 
     enum Mode { Update, Live, Welcome };
     Q_ENUM(Mode)
 
     void setMode(Mode mode);
 
+    bool orcaAvailable() const;
+    bool screenReaderEnabled() const;
+    void setScreenReaderEnabled(bool enabled);
+
+    Q_INVOKABLE void launchOrcaConfiguration();
+
 Q_SIGNALS:
     void modeChanged();
+    void screenReaderChanged();
 
 private:
     Mode m_mode = Mode::Welcome;

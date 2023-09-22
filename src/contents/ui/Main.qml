@@ -119,6 +119,7 @@ Kirigami.ApplicationWindow {
 
             case Controller.Welcome:
                 pageStack.push(welcome);
+                pageStack.push(accessibility);
 
                 if (!Controller.networkAlreadyConnected()) {
                     pageStack.push(network);
@@ -161,6 +162,7 @@ Kirigami.ApplicationWindow {
 
     Live {id: live; visible: false}
     Welcome {id: welcome; visible: false}
+    Accessibility {id: accessibility; visible: false}
     Network {id: network; visible: false}
     SimpleByDefault {id: simpleByDefault; visible: false}
     PowerfulWhenNeeded {id: powerfulWhenNeeded; visible: false}

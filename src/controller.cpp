@@ -8,12 +8,14 @@
 #include <QDir>
 #include <QFileInfo>
 #include <QNetworkInterface>
+#include <QProcess>
 #include <QStandardPaths>
 #include <QString>
 
 #include "config-plasma-welcome.h"
 #include "controller.h"
 
+#include <KConfigGroup>
 #include <KDesktopFile>
 #include <KIO/ApplicationLauncherJob>
 #include <KIO/CommandLauncherJob>
@@ -135,6 +137,45 @@ void Controller::setMode(Mode mode)
 
     m_mode = mode;
     Q_EMIT modeChanged();
+}
+
+bool Controller::orcaAvailable() const
+{
+    const int tryOrcaRun = QProcess::execute(QStringLiteral("orca"), {QStringLiteral("--version")});
+    // If the process cannot be started, -2 is returned.
+    return tryOrcaRun != -2;
+}
+
+void Controller::launchOrcaConfiguration()
+{
+    const QStringList gsettingArgs = {QStringLiteral("set"),
+                                      QStringLiteral("org.gnome.desktop.a11y.applications"),
+                                      QStringLiteral("screen-reader-enabled"),
+                                      QStringLiteral("true")};
+
+    QProcess::execute(QStringLiteral("gsettings"), gsettingArgs);
+    QProcess::startDetached(QStringLiteral("orca"), {QStringLiteral("--setup")});
+}
+
+bool Controller::screenReaderEnabled() const
+{
+    KConfig _cfg(QStringLiteral("kaccessrc"), KConfig::NoGlobals);
+    KConfigGroup cfg(&_cfg, "ScreenReader");
+
+    return cfg.readEntry("Enabled", false);
+}
+
+void Controller::setScreenReaderEnabled(const bool enabled)
+{
+    KConfig _cfg(QStringLiteral("kaccessrc"), KConfig::NoGlobals);
+    KConfigGroup cfg(&_cfg, "ScreenReader");
+    cfg.writeEntry("Enabled", enabled);
+    cfg.sync();
+
+    // Make kaccess reread the configuration.
+    QProcess::startDetached(QStringLiteral("kaccess"), {});
+
+    Q_EMIT screenReaderChanged();
 }
 
 #include "moc_controller.cpp"

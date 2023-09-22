@@ -39,6 +39,7 @@ ecm_target_qml_sources(plasma-welcome PATH ""
     contents/ui/pages/Discover.qml
     contents/ui/pages/Contribute.qml
     contents/ui/pages/Donate.qml
+    contents/ui/pages/Accessibility.qml
     RESOURCES
     contents/assets/konqi-donations.png
     contents/assets/konqi-kde-hi.png
