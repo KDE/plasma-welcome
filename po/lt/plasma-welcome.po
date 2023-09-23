@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-22 01:47+0000\n"
+"POT-Creation-Date: 2023-09-23 01:46+0000\n"
 "PO-Revision-Date: 2023-02-24 01:00+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -52,13 +52,13 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr ""
 
-#: src/contents/ui/Main.qml:172
+#: src/contents/ui/Main.qml:175
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr ""
 
-#: src/contents/ui/Main.qml:173
+#: src/contents/ui/Main.qml:176
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -66,13 +66,13 @@ msgid ""
 "choose how much to share in System Settings, and here too."
 msgstr ""
 
-#: src/contents/ui/Main.qml:181
+#: src/contents/ui/Main.qml:184
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr ""
 
-#: src/contents/ui/Main.qml:182
+#: src/contents/ui/Main.qml:185
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -113,22 +113,23 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr ""
 
-#: src/contents/ui/pages/Discover.qml:19
+#: src/contents/ui/pages/Discover.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr ""
 
-#: src/contents/ui/pages/Discover.qml:20
+#: src/contents/ui/pages/Discover.qml:22
 #, kde-kuit-format
-msgctxt "@info:usagetip"
+msgctxt ""
+"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
-"The <application>Discover</application> app helps you find and install "
+"The <application>%1</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
 
-#: src/contents/ui/pages/Discover.qml:97
+#: src/contents/ui/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -476,13 +477,14 @@ msgstr ""
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-kuit-format
-msgctxt "@info:usagetip"
+msgctxt ""
+"@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
+"settings app for Plasma Desktop or Plasma Mobile"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
 "you'd expect, and there is generally no need to configure anything before "
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
-"you'll find what you need in the <application>System Settings</application> "
-"app."
+"you'll find what you need in the <application>%1</application> app."
 msgstr ""
 
 #: src/contents/ui/pages/Welcome.qml:17
@@ -589,7 +591,7 @@ msgstr ""
 msgid "Display the live page intended for distro live environments."
 msgstr ""
 
-#: src/qml/ApplicationIcon.qml:44
+#: src/qml/ApplicationIcon.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"

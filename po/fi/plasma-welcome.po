@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-22 01:47+0000\n"
+"POT-Creation-Date: 2023-09-23 01:46+0000\n"
 "PO-Revision-Date: 2023-06-27 15:56+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -51,13 +51,13 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Seuraava"
 
-#: src/contents/ui/Main.qml:172
+#: src/contents/ui/Main.qml:175
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Jaa nimetöntä käyttötietoa"
 
-#: src/contents/ui/Main.qml:173
+#: src/contents/ui/Main.qml:176
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -67,13 +67,13 @@ msgstr ""
 "Kehittäjämme käyttävät tätä nimetöntä tietoa KDE-ohjelmien parantamiseksi. "
 "Järjestelmäasetuksista ja tästä voi valita, paljonko tietoa jakaa."
 
-#: src/contents/ui/Main.qml:181
+#: src/contents/ui/Main.qml:184
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Yhdistä verkkotileihin"
 
-#: src/contents/ui/Main.qml:182
+#: src/contents/ui/Main.qml:185
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -125,17 +125,23 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Käy sivulla %1"
 
-#: src/contents/ui/pages/Discover.qml:19
+#: src/contents/ui/pages/Discover.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Ohjelmien hallinta"
 
-#: src/contents/ui/pages/Discover.qml:20
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#: src/contents/ui/pages/Discover.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The <application>Discover</application> app helps you find and install "
+#| "applications, games, and tools. You can search or browse by category, "
+#| "look at screenshots, and read reviews to help you find the perfect app."
+msgctxt ""
+"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
-"The <application>Discover</application> app helps you find and install "
+"The <application>%1</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
@@ -143,7 +149,7 @@ msgstr ""
 "sovelluksia, pelejä ja apuohjelmia. Täydellistä sovellusta voi etsiä "
 "selaamalla luokkia, katsomalla ruutukaappauskuvia ja lukemalla arvosteluja."
 
-#: src/contents/ui/pages/Discover.qml:97
+#: src/contents/ui/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -557,14 +563,22 @@ msgid "Simple by Default"
 msgstr "Oletuksena yksinkertainen"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma is designed to be simple and usable out of the box. Things are "
+#| "where you'd expect, and there is generally no need to configure anything "
+#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
+#| "the need to, you'll find what you need in the <application>System "
+#| "Settings</application> app."
+msgctxt ""
+"@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
+"settings app for Plasma Desktop or Plasma Mobile"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
 "you'd expect, and there is generally no need to configure anything before "
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
-"you'll find what you need in the <application>System Settings</application> "
-"app."
+"you'll find what you need in the <application>%1</application> app."
 msgstr ""
 "Plasma on suunniteltu olemaan yksinkertainen ja käyttökelpoinen heti "
 "asennettuna. Löydät kaiken mitä odotat, eikä asetuksia yleensä tarvitse "
@@ -700,7 +714,7 @@ msgstr "Näytä nykyisen Plasma-version julkaisutiedot."
 msgid "Display the live page intended for distro live environments."
 msgstr "Näytä jakelun live-ympäristöille tarkoitettu elävä sivu."
 
-#: src/qml/ApplicationIcon.qml:44
+#: src/qml/ApplicationIcon.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"

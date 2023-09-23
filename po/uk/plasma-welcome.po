@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-22 01:47+0000\n"
+"POT-Creation-Date: 2023-09-23 01:46+0000\n"
 "PO-Revision-Date: 2023-09-07 09:20+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -52,13 +52,13 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Далі"
 
-#: src/contents/ui/Main.qml:172
+#: src/contents/ui/Main.qml:175
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Надання анонімних даних щодо користування"
 
-#: src/contents/ui/Main.qml:173
+#: src/contents/ui/Main.qml:176
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -68,13 +68,13 @@ msgstr ""
 "Наші розробники скористаються анонімними даними для удосконалення програм "
 "KDE. Обсяг наданих відомостей можна визначити у «Системних параметрах» і тут."
 
-#: src/contents/ui/Main.qml:181
+#: src/contents/ui/Main.qml:184
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "З'єднатись з мережевим обліковим записом"
 
-#: src/contents/ui/Main.qml:182
+#: src/contents/ui/Main.qml:185
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -127,17 +127,23 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Відвідати %1"
 
-#: src/contents/ui/pages/Discover.qml:19
+#: src/contents/ui/pages/Discover.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Керування програмним забезпеченням"
 
-#: src/contents/ui/pages/Discover.qml:20
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#: src/contents/ui/pages/Discover.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The <application>Discover</application> app helps you find and install "
+#| "applications, games, and tools. You can search or browse by category, "
+#| "look at screenshots, and read reviews to help you find the perfect app."
+msgctxt ""
+"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
-"The <application>Discover</application> app helps you find and install "
+"The <application>%1</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
@@ -146,7 +152,7 @@ msgstr ""
 "навігацію за категоріями, переглядати знімки вікон і читати рецензії, щоб "
 "знайти ту програму, яка пасує вам найкраще."
 
-#: src/contents/ui/pages/Discover.qml:97
+#: src/contents/ui/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -573,14 +579,22 @@ msgid "Simple by Default"
 msgstr "Типово проста"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma is designed to be simple and usable out of the box. Things are "
+#| "where you'd expect, and there is generally no need to configure anything "
+#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
+#| "the need to, you'll find what you need in the <application>System "
+#| "Settings</application> app."
+msgctxt ""
+"@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
+"settings app for Plasma Desktop or Plasma Mobile"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
 "you'd expect, and there is generally no need to configure anything before "
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
-"you'll find what you need in the <application>System Settings</application> "
-"app."
+"you'll find what you need in the <application>%1</application> app."
 msgstr ""
 "Плазму створено простою і зручною у користуванні без додаткового "
 "налаштовування. Її елементи розташовано там, де їх просто знайти. Тому, "
@@ -706,7 +720,7 @@ msgid "Display the live page intended for distro live environments."
 msgstr ""
 "Показати сторінку, яку присвячено портативним середовищам дистрибутива."
 
-#: src/qml/ApplicationIcon.qml:44
+#: src/qml/ApplicationIcon.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"

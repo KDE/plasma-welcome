@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-22 01:47+0000\n"
+"POT-Creation-Date: 2023-09-23 01:46+0000\n"
 "PO-Revision-Date: 2023-08-06 22:34+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -51,13 +51,13 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "다음(&N)"
 
-#: src/contents/ui/Main.qml:172
+#: src/contents/ui/Main.qml:175
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "익명으로 사용 정보 공유"
 
-#: src/contents/ui/Main.qml:173
+#: src/contents/ui/Main.qml:176
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -67,13 +67,13 @@ msgstr ""
 "수집한 익명 데이터는 KDE 소프트웨어를 개선하는 데 사용됩니다. 시스템 설정 및 "
 "여기에서 공유할 데이터 수준을 변경할 수 있습니다."
 
-#: src/contents/ui/Main.qml:181
+#: src/contents/ui/Main.qml:184
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "온라인 계정 연결"
 
-#: src/contents/ui/Main.qml:182
+#: src/contents/ui/Main.qml:185
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -122,17 +122,23 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "%1 방문"
 
-#: src/contents/ui/pages/Discover.qml:19
+#: src/contents/ui/pages/Discover.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "소프트웨어 관리"
 
-#: src/contents/ui/pages/Discover.qml:20
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#: src/contents/ui/pages/Discover.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The <application>Discover</application> app helps you find and install "
+#| "applications, games, and tools. You can search or browse by category, "
+#| "look at screenshots, and read reviews to help you find the perfect app."
+msgctxt ""
+"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
-"The <application>Discover</application> app helps you find and install "
+"The <application>%1</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
@@ -140,7 +146,7 @@ msgstr ""
 "치할 수 있습니다. 앱을 찾아볼 수 있도록 분류별로 탐색, 스크린샷 보기, 리뷰 읽"
 "기를 할 수 있습니다."
 
-#: src/contents/ui/pages/Discover.qml:97
+#: src/contents/ui/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -543,14 +549,22 @@ msgid "Simple by Default"
 msgstr "기본적으로 간단하게"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma is designed to be simple and usable out of the box. Things are "
+#| "where you'd expect, and there is generally no need to configure anything "
+#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
+#| "the need to, you'll find what you need in the <application>System "
+#| "Settings</application> app."
+msgctxt ""
+"@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
+"settings app for Plasma Desktop or Plasma Mobile"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
 "you'd expect, and there is generally no need to configure anything before "
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
-"you'll find what you need in the <application>System Settings</application> "
-"app."
+"you'll find what you need in the <application>%1</application> app."
 msgstr ""
 "Plasma는 초기 상태에서 간단하면서 사용하기 편리한 것을 목표로 합니다. 예상하"
 "는 곳에 기능이 배치되어 있으며, 기본적인 상태에서 별개의 설정 없이 편안하고 "
@@ -678,7 +692,7 @@ msgstr "현재 Plasma 릴리스의 릴리스 노트를 표시합니다."
 msgid "Display the live page intended for distro live environments."
 msgstr "배포판 라이브 환경에 사용할 라이브 페이지를 표시합니다."
 
-#: src/qml/ApplicationIcon.qml:44
+#: src/qml/ApplicationIcon.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"

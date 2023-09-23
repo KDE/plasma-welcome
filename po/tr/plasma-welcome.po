@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-22 01:47+0000\n"
+"POT-Creation-Date: 2023-09-23 01:46+0000\n"
 "PO-Revision-Date: 2023-09-07 14:46+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -51,13 +51,13 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Sonraki"
 
-#: src/contents/ui/Main.qml:172
+#: src/contents/ui/Main.qml:175
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Anonim Kullanım Bilgisi Paylaş"
 
-#: src/contents/ui/Main.qml:173
+#: src/contents/ui/Main.qml:176
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -68,13 +68,13 @@ msgstr ""
 "iyileştirirler. Ne kadar veri paylaşacağınızı hem buradan hem de Sistem "
 "Ayarları'ndan belirtebilirsiniz."
 
-#: src/contents/ui/Main.qml:181
+#: src/contents/ui/Main.qml:184
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Online Accounts"
 msgstr "Çevrimiçi Hesapları Bağla"
 
-#: src/contents/ui/Main.qml:182
+#: src/contents/ui/Main.qml:185
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -125,17 +125,23 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Ziyaret Et: %1"
 
-#: src/contents/ui/pages/Discover.qml:19
+#: src/contents/ui/pages/Discover.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Yazılımları Yönet"
 
-#: src/contents/ui/pages/Discover.qml:20
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#: src/contents/ui/pages/Discover.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The <application>Discover</application> app helps you find and install "
+#| "applications, games, and tools. You can search or browse by category, "
+#| "look at screenshots, and read reviews to help you find the perfect app."
+msgctxt ""
+"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
-"The <application>Discover</application> app helps you find and install "
+"The <application>%1</application> app helps you find and install "
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
@@ -144,7 +150,7 @@ msgstr ""
 "yapabilir, ekran görüntülerine bakabilir ve en iyi uygulamayı bulmanıza "
 "yardımcı olmak için gözden geçirmeleri okuyabilirsiniz."
 
-#: src/contents/ui/pages/Discover.qml:97
+#: src/contents/ui/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -566,14 +572,22 @@ msgid "Simple by Default"
 msgstr "Özünde Yalın"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma is designed to be simple and usable out of the box. Things are "
+#| "where you'd expect, and there is generally no need to configure anything "
+#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
+#| "the need to, you'll find what you need in the <application>System "
+#| "Settings</application> app."
+msgctxt ""
+"@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
+"settings app for Plasma Desktop or Plasma Mobile"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
 "you'd expect, and there is generally no need to configure anything before "
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
-"you'll find what you need in the <application>System Settings</application> "
-"app."
+"you'll find what you need in the <application>%1</application> app."
 msgstr ""
 "Plasma, yalın ve kutudan çıkar çıkmaz kullanılabilir olacak şekilde "
 "tasarlanmıştır. Her şey beklediğiniz yerdedir ve rahat ve üretken "
@@ -696,91 +710,8 @@ msgstr "Geçerli Plasma sürümü için sürüm notlarını görüntüle"
 msgid "Display the live page intended for distro live environments."
 msgstr "Dağıtım canlı ortamları için hazırlanmış canlı sayfayı görüntüleyin."
 
-#: src/qml/ApplicationIcon.qml:44
+#: src/qml/ApplicationIcon.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Şimdi Başlat: %1"
-
-#~ msgctxt "@title"
-#~ msgid "Welcome to KDE Plasma!"
-#~ msgstr "KDE Plasma'ya Hoş Geldiniz"
-
-#~ msgctxt "@title the name of the app 'Discover'"
-#~ msgid "Discover"
-#~ msgstr "Keşfet"
-
-#~ msgctxt "@action:button"
-#~ msgid "Launch System Settings now"
-#~ msgstr "Sistem Ayarları'nı Şimdi Çalıştır"
-
-#~ msgctxt "@title the name of the 'System Settings' app"
-#~ msgid "System Settings"
-#~ msgstr "Sistem Ayarları"
-
-#~ msgctxt "@action:button"
-#~ msgid "See More Features"
-#~ msgstr "Daha Fazla Özellik Görün"
-
-#~ msgctxt "@action:button"
-#~ msgid "Open Activities Page in System Settings"
-#~ msgstr "Sistem Ayarları'nda Etkinlikler Sayfasını Aç"
-
-#~ msgctxt "@action:button"
-#~ msgid "Open KDE Connect Page in System Settings"
-#~ msgstr "Sistem Ayarları'nda KDE Bağlan Sayfasını Aç"
-
-#~ msgctxt "@info"
-#~ msgid "Page %1 of %2"
-#~ msgid_plural "Page %1 of %2"
-#~ msgstr[0] "Sayfa %1/%2"
-#~ msgstr[1] "Sayfa %1/%2"
-
-#~ msgctxt "@title"
-#~ msgid "Welcome to KDE Plasma"
-#~ msgstr "KDE Plasma'ya hoş geldiniz"
-
-#~ msgid ""
-#~ "Version number of the Plasma release to display release notes for, e.g. "
-#~ "5.25"
-#~ msgstr ""
-#~ "Yayım notlarını görüntülemek için Plasma sürüm numarası; örneğin Plasma "
-#~ "5.25"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE Connect lets you integrate your phone with your computer in various "
-#~ "ways:"
-#~ msgstr ""
-#~ "KDE Connect, telefonunuzu bilgisayarınızla çeşitli biçimlerde "
-#~ "tümleştirmenizi sağlar:"
-
-#~ msgctxt "@info:window"
-#~ msgid "Personalize Your System"
-#~ msgstr "Sisteminizi Kişiselleştirin"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The <application>System Settings</application> app lets you adjust the "
-#~ "behaviors and appearance of the whole system. From theme options to "
-#~ "device management, you can find it all here."
-#~ msgstr ""
-#~ "<application>Sistem Ayarları</application> uygulaması, tüm sistemin "
-#~ "davranışını ve görünüşünü değiştirmenize izin verir. Tema seçeneklerinden "
-#~ "aygıt yönetimine kadar, tüm gerekli seçenekleri burada bulabilirsiniz."
-
-#~ msgctxt "@info"
-#~ msgid "Konqi, the KDE mascot"
-#~ msgstr "KDE maskotu Konqi"
-
-#~ msgctxt "@title:window"
-#~ msgid "Freedom Isn't Free"
-#~ msgstr "Özgürlük Bedava Değildir"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "In System Settings, you can choose to share anonymous usage information "
-#~ "with KDE. You can make that choice here, too."
-#~ msgstr ""
-#~ "Sistem Ayarları'nda, KDE ile anonim kullanım bilgisi paylaşmak isteyip "
-#~ "istemediğinizi seçebilirsiniz. Aynı ayarı, buradan yapmak da olanaklıdır."
