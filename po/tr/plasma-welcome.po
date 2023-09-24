@@ -132,12 +132,7 @@ msgid "Manage Software"
 msgstr "Yazılımları Yönet"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -145,8 +140,8 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Keşfet</application> uygulaması; uygulamalar, oyunlar ve "
-"araçlar bulmanıza ve onlara kurmanıza yardımcı olur. Kategorilere göre arama "
+"<application>%1</application> uygulaması; uygulamalar, oyunlar ve araçlar "
+"bulmanıza ve onlara kurmanıza yardımcı olur. Kategorilere göre arama "
 "yapabilir, ekran görüntülerine bakabilir ve en iyi uygulamayı bulmanıza "
 "yardımcı olmak için gözden geçirmeleri okuyabilirsiniz."
 
@@ -572,14 +567,7 @@ msgid "Simple by Default"
 msgstr "Özünde Yalın"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -592,8 +580,8 @@ msgstr ""
 "Plasma, yalın ve kutudan çıkar çıkmaz kullanılabilir olacak şekilde "
 "tasarlanmıştır. Her şey beklediğiniz yerdedir ve rahat ve üretken "
 "olabilmeniz için genellikle herhangi bir yapılandırma yapmanıza gerek yoktur."
-"<nl/><nl/>Gereksiniminiz olursa tüm ayarları <application>Sistem Ayarları</"
-"application> uygulamasında bulabilirsiniz."
+"<nl/><nl/>Gereksiniminiz olursa tüm ayarları <application>%1</application> "
+"uygulamasında bulabilirsiniz."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-23 01:46+0000\n"
-"PO-Revision-Date: 2023-09-07 06:19+0200\n"
+"PO-Revision-Date: 2023-09-23 09:39+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -137,12 +137,7 @@ msgid "Manage Software"
 msgstr "Upravljanje programske opreme"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -150,10 +145,9 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Discover</application> vam pomaga najti in namestiti "
-"aplikacije, igre in orodja. Po kategorijah lahko iščete ali brskate, si "
-"ogledate posnetke zaslona in preberete ocene, ki vam pomagajo najti popolno "
-"aplikacijo."
+"<application>%1</application> vam pomaga najti in namestiti aplikacije, igre "
+"in orodja. Po kategorijah lahko iščete ali brskate, si ogledate posnetke "
+"zaslona in preberete ocene, ki vam pomagajo najti popolno aplikacijo."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -575,14 +569,7 @@ msgid "Simple by Default"
 msgstr "Privzeto enostavno"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -594,9 +581,9 @@ msgid ""
 msgstr ""
 "Plasma je zasnovana tako, da je preprosta in takojšnje uporabna. Stvari so "
 "prav tam, kjer bi jih pričakovali in na splošno ni treba prej ničesar "
-"konfigurirati, da ste lahko ste v udobno produktivni.<nl/><nl/>V "
-"<application>nastavitvah sistema</application> boste našli tisto, kar "
-"potrebujete za aplikacijo."
+"konfigurirati, da ste lahko se počutite udobno in ste produktivni.<nl/><nl/"
+">Če še kaj potrebujete, boste to našli v aplikaciji <application>%1</"
+"application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format

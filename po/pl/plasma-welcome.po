@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-23 01:46+0000\n"
-"PO-Revision-Date: 2023-07-01 07:54+0200\n"
+"PO-Revision-Date: 2023-09-23 06:56+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 23.04.2\n"
+"X-Generator: Lokalize 23.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -134,12 +134,7 @@ msgid "Manage Software"
 msgstr "Zarządzanie oprogramowaniem"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -147,8 +142,8 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Odkrywca</application> pomaga znaleźć i wgrać aplikacje, gry "
-"oraz narzędzia. Można wyszukiwać lub przeglądać po kategorii. Można oglądać "
+"<application>%1</application> pomaga znaleźć i wgrać aplikacje, gry oraz "
+"narzędzia. Można wyszukiwać lub przeglądać po kategorii. Można oglądać "
 "zrzuty ekranu i czytać oceny, aby wybrać najlepszą aplikację."
 
 #: src/contents/ui/pages/Discover.qml:103
@@ -246,6 +241,8 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"Ta strona jest pokazywana niezależnie od połączenia z siecią, bo używasz "
+"wydania rozwojowego."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
@@ -567,14 +564,7 @@ msgid "Simple by Default"
 msgstr "Domyślnie prosta"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -587,25 +577,16 @@ msgstr ""
 "Plazma jest stworzona z myślą o tym, aby być prostą i używalną zaraz po jej "
 "wgraniu. Rzeczy w niej znajdują się tam, gdzie ich oczekuje i zazwyczaj nie "
 "trzeba niczego ustawiać do wygodnej i wydajnej pracy.<nl/><nl/>Jeśli jednak "
-"zajdzie taka potrzeba, to możesz to zrobić w <application>Ustawieniach "
-"Systemowych</application>."
+"zajdzie taka potrzeba, to możesz to zrobić w <application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Powitalnia"
+msgstr "Witaj"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -614,19 +595,13 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Plazma KDE jest otoczeniem pulpitu darmowym i o otwartym kodzie, która "
-"został stworzona przez wolontariuszy na całym świecie. Jest domyślnie prosta "
-"dla łatwej obsługi, a także rozbudowana, gdy jest to potrzebne. Mamy "
-"nadzieję, że ci się spodoba!"
+"%1<nl/><nl/>Ten system operacyjny uruchomił Plazmę, środowisko pulpitu "
+"darmowe i o otwartym kodzie, które zostało stworzone przez wolontariuszy na "
+"całym świecie. Jest domyślnie proste dla łatwej obsługi, a także "
+"rozbudowane, gdy jest to potrzebne. Mamy nadzieję, że ci się spodoba!"
 
 #: src/contents/ui/pages/Welcome.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -635,10 +610,11 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Plazma KDE jest otoczeniem pulpitu darmowym i o otwartym kodzie, która "
-"został stworzona przez wolontariuszy na całym świecie. Jest domyślnie prosta "
-"dla łatwej obsługi, a także rozbudowana, gdy jest to potrzebne. Mamy "
-"nadzieję, że ci się spodoba!"
+"Witaj w systemie operacyjnym %1 działającym na Plazmie KDE<nl/><nl/>Plazma "
+"jest środowiskiem pulpitu darmowym i o otwartym kodzie, które zostało "
+"stworzone przez wolontariuszy na całym świecie. Jest domyślnie proste dla "
+"łatwej obsługi, a także rozbudowane, gdy jest to potrzebne. Mamy nadzieję, "
+"że ci się spodoba!"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
@@ -647,24 +623,22 @@ msgid "Learn more about the KDE community"
 msgstr "Dowiedz się więcej o społeczności KDE"
 
 #: src/contents/ui/pages/Welcome.qml:34
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Dowiedz się więcej o społeczności KDE"
+msgstr "Dowiedz się więcej o %1"
 
 #: src/contents/ui/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Nieudane wczytywanie obrazu"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "Nie można wczytać <filename>%1</filename>. Upewnij się, że istnieje."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format

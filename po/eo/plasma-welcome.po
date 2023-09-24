@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-23 01:46+0000\n"
-"PO-Revision-Date: 2023-09-07 20:47+0100\n"
+"PO-Revision-Date: 2023-09-23 08:20+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -130,12 +130,7 @@ msgid "Manage Software"
 msgstr "Administri Programaron"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -143,7 +138,7 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"La aplikaĵo <application>Malkovru</application> helpas vin trovi kaj instali "
+"La aplikaĵo <application>%1</application> helpas vin trovi kaj instali "
 "aplikaĵojn, ludojn kaj ilojn. Vi povas serĉi aŭ foliumi laŭ kategorio, "
 "rigardi ekrankopiojn kaj legi recenzojn por helpi vin trovi la perfektan "
 "apon."
@@ -562,14 +557,7 @@ msgid "Simple by Default"
 msgstr "Simpla defaŭlte"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -582,8 +570,7 @@ msgstr ""
 "Plasmo estas desegnita por esti simpla kaj uzebla el la skatolo. Aferoj "
 "estas tie kie vi atendus, kaj ĝenerale ne necesas agordi ion ajn antaŭ ol vi "
 "povas esti komforta kaj produktiva.<nl/><nl/>Se vi sentas la bezonon, vi "
-"trovos tion, kion vi bezonas en la apo <application>Sistemaj agordoj</"
-"application>."
+"trovos tion, kion vi bezonas en la apo <application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
