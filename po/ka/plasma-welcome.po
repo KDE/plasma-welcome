@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-23 01:46+0000\n"
-"PO-Revision-Date: 2023-09-08 06:01+0200\n"
+"PO-Revision-Date: 2023-09-24 04:42+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -133,12 +133,7 @@ msgid "Manage Software"
 msgstr "პროგრამების მართვა"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -146,7 +141,7 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"აპი <application>Discover</application> დაგეხმარებათ იპოვოთ და დააყენოთ "
+"აპი <application>%1</application> დაგეხმარებათ იპოვოთ და დააყენოთ "
 "აპლიკაციები, თამაშები და პროგრამები. ისინი შეგიძლიათ მოძებნოთ ან "
 "დაათვალიეროთ კატეგორიების მიხედვით, გადახედოთ ეკრანის ანაბეჭდებს და "
 "წაიკითხოთ კომენტარები, რათა თქვენთვის სასურველი პროგრამა იპოვოთ."
@@ -563,14 +558,7 @@ msgid "Simple by Default"
 msgstr "ნაგულისხმებად მარტივი"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -582,8 +570,8 @@ msgid ""
 msgstr ""
 "Plasma შექმნილია, რომ დაყენებისთანავე გამოყენებადი იყოს. ყველაფერი იქაა, "
 "სადაც მოელით, რომ იყოს და საერთოდ, თითქმის არაფრის მორგება არ მოგიწევთ.<nl/"
-"><nl/>თუ გაგიჩნდათ საჭიროება, რამე შეცვალოთ, ეს <application>სისტემის "
-"მორგების</application> აპით შეგიძლიათ."
+"><nl/>თუ გაგიჩნდათ საჭიროება, რამე შეცვალოთ, ეს <application>%1</"
+"application> აპით შეგიძლიათ."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format

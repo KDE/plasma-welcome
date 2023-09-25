@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-23 01:46+0000\n"
-"PO-Revision-Date: 2023-09-07 12:15+0200\n"
+"PO-Revision-Date: 2023-09-25 01:49+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.0\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -134,12 +134,7 @@ msgid "Manage Software"
 msgstr "Gestión de software"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -147,10 +142,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"La aplicación <application>Discover</application> le ayuda a encontrar e "
-"instalar aplicaciones, juegos y herramientas. Puede buscar o explorar por "
-"categorías, examinar las capturas de pantalla y leer valoraciones para "
-"encontrar la aplicación perfecta."
+"La aplicación <application>%1</application> le ayuda a encontrar e instalar "
+"aplicaciones, juegos y herramientas. Puede buscar o explorar por categorías, "
+"examinar las capturas de pantalla y leer valoraciones para encontrar la "
+"aplicación perfecta."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -577,14 +572,7 @@ msgid "Simple by Default"
 msgstr "Sencillo de forma predeterminada"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -598,7 +586,7 @@ msgstr ""
 "está donde se espera que esté y, por lo general, no hay necesidad de "
 "configurar nada antes de que pueda sentirse cómodo y productivo.<nl/><nl/>Si "
 "tiene la necesidad de hacerlo, encontrará todo lo necesario en la aplicación "
-"<application>Preferencias del sistema</application>."
+"<application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format

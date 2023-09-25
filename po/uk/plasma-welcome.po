@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-23 01:46+0000\n"
-"PO-Revision-Date: 2023-09-07 09:20+0300\n"
+"PO-Revision-Date: 2023-09-24 18:46+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -134,12 +134,7 @@ msgid "Manage Software"
 msgstr "Керування програмним забезпеченням"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -147,10 +142,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Програма <application>Discover</application> допоможе вам знайти і "
-"встановити програми, ігри та інструменти. Ви можете виконувати пошук або "
-"навігацію за категоріями, переглядати знімки вікон і читати рецензії, щоб "
-"знайти ту програму, яка пасує вам найкраще."
+"Програма <application>%1</application> допоможе вам знайти і встановити "
+"програми, ігри та інструменти. Ви можете виконувати пошук або навігацію за "
+"категоріями, переглядати знімки вікон і читати рецензії, щоб знайти ту "
+"програму, яка пасує вам найкраще."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -579,14 +574,7 @@ msgid "Simple by Default"
 msgstr "Типово проста"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -600,7 +588,7 @@ msgstr ""
 "налаштовування. Її елементи розташовано там, де їх просто знайти. Тому, "
 "загалом, для комфортної і продуктивної роботи не потрібні якісь додаткові "
 "зусилля.<nl/><nl/>Втім, якщо щось потрібно налаштувати, це можна знайти у "
-"програмі <application>Системні параметри</application>."
+"програмі <application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
