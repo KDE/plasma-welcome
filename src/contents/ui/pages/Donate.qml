@@ -13,7 +13,7 @@ import org.kde.plasma.welcome
 
 GenericPage {
     heading: i18nc("@title:window", "Support Your Freedom")
-    description: xi18nc("@info:usagetip", "Miraculously, KDE operates on a shoestring budget, relying largely on donations of labor and resources. You can help change that!<nl/><nl/>Financial donations help KDE pay for development sprints, hardware and server resources, and expanded employment. Donations are tax-deductible in Germany.")
+    description: xi18nc("@info:usagetip", "The KDE community relies on donations of expertise and funds, and is supported by KDE e.V.--a German nonprofit that manages legal matters, funds development sprints and server resources, and offers employment opportunities for KDE developers. Donations to KDE e.V. support the wider KDE community, and you can make a difference by donating today!<nl/><nl/>Donations are tax-deductible in Germany.")
 
     topContent: [
         Kirigami.UrlButton {
