@@ -8,6 +8,8 @@
 #pragma once
 
 #include <KQuickConfigModule>
+
+#include <QFileInfo>
 #include <QObject>
 
 class Module : public QObject
