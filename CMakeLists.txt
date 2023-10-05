@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-License-Identifier: BSD-2-Clause
 # SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
