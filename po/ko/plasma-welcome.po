@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:40+0000\n"
-"PO-Revision-Date: 2023-08-06 22:34+0200\n"
+"PO-Revision-Date: 2023-10-08 23:50+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -129,12 +129,7 @@ msgid "Manage Software"
 msgstr "소프트웨어 관리"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -142,9 +137,9 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Discover</application> 앱에서는 앱, 게임, 도구 등을 검색하고 설"
-"치할 수 있습니다. 앱을 찾아볼 수 있도록 분류별로 탐색, 스크린샷 보기, 리뷰 읽"
-"기를 할 수 있습니다."
+"<application>%1</application> 앱에서는 앱, 게임, 도구 등을 검색하고 설치할 "
+"수 있습니다. 앱을 찾아볼 수 있도록 분류별로 탐색, 스크린샷 보기, 리뷰 읽기를 "
+"할 수 있습니다."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -169,6 +164,11 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"KDE 커뮤니티는 재능과 자금의 기부에 의존하며, 독일의 비영리 단체인 KDE e.V."
+"를 통하여 법전 문제, 재정, 개발 스프린트, 서버 자원, KDE 개발자의 고용을 관리"
+"합니다. KDE e.V.에 지원하여 KDE 커뮤니티를 지원할 수 있습니다. 오늘의 기부가 "
+"더 나은 내일을 만들 수 있습니다!<nl/><nl/>독일에 거주 중인 경우 세액 공제를 "
+"받을 수 있습니다."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:37
@@ -237,6 +237,7 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"개발 버전을 사용하므로 네트워크 연결과 관계 없이 이 페이지를 표시합니다."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
@@ -546,14 +547,7 @@ msgid "Simple by Default"
 msgstr "기본적으로 간단하게"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -565,8 +559,8 @@ msgid ""
 msgstr ""
 "Plasma는 초기 상태에서 간단하면서 사용하기 편리한 것을 목표로 합니다. 예상하"
 "는 곳에 기능이 배치되어 있으며, 기본적인 상태에서 별개의 설정 없이 편안하고 "
-"생산적으로 사용할 수 있습니다.<nl/><nl/>만약 필요하다면 <application>시스템 "
-"설정</application> 앱에서 필요한 설정을 찾을 수 있습니다."
+"생산적으로 사용할 수 있습니다.<nl/><nl/>만약 필요하다면 <application>%1</"
+"application> 앱에서 필요한 설정을 찾을 수 있습니다."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
@@ -575,14 +569,7 @@ msgid "Welcome"
 msgstr "환영합니다"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is "
-#| "a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. It is designed to be "
-#| "simple by default for a smooth experience, but powerful when needed to "
-#| "help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -591,11 +578,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"KDE Plasma를 실행하는 %1 운영 체제에 오신 것을 환영합니다!<nl/><nl/>Plasma는 "
-"전 세계적인 자원 봉사자로 구성된 소프트웨어 커뮤니티 KDE에서 제작한 자유 오"
-"픈 소스 데스크톱 환경입니다. Plasma 데스크톱 환경은 기본값으로 간단하고 부드"
-"러운 사용자 경험을 제공하며, 필요할 때에는 작업을 빠르게 수행할 수 있도록 강"
-"력해집니다. 즐겁게 사용하세요!"
+"%1<nl/><nl/>이 운영 체제에서는 KDE Plasma를 실행합니다. Plasma는 전 세계적인 "
+"자원 봉사자로 구성된 소프트웨어 커뮤니티 KDE에서 제작한 자유 오픈 소스 데스크"
+"톱 환경입니다. Plasma 데스크톱 환경은 기본값으로 간단하고 부드러운 사용자 경"
+"험을 제공하며, 필요할 때에는 작업을 빠르게 수행할 수 있도록 강력해집니다. 즐"
+"겁게 사용하세요!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -629,13 +616,14 @@ msgstr "%1에 대해서 더 알아보기"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "그림을 불러올 수 없음"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"<filename>%1</filename>을(를) 불러올 수 없습니다. 존재 여부를 확인하십시오."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
