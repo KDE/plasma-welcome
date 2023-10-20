@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-19 01:42+0000\n"
-"PO-Revision-Date: 2023-10-01 12:16+0300\n"
+"PO-Revision-Date: 2023-10-19 20:11+0300\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
 "Language: he\n"
@@ -164,6 +164,11 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"קהילת KDE תלויה בתרומות של מומחיות ומימון והיא נתמכת על ידי KDE e.V.‎ - עמותה "
+"גרמנית ללא מטרות רווח שמנהלת את הפן המשפטי, ממנת את מחזורי הפיתוח, את משאבי "
+"השרתים ומציעה הזדמנויות העסקה למפתחי KDE. תרומות ל־KDE e.V.‎ תומכות בקהילת "
+"KDE הרחבה ואפשר לעשות שינוי על ידי תרומה עוד היום!<nl/><nl/>התרומות מוכרות "
+"במס בגרמניה."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:37
@@ -627,19 +632,19 @@ msgstr "קונקי, הקמע של KDE מקבל את פניך לקהילת KDE!"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 פיתוח"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 בטא"
 
 #: src/controller.cpp:72
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 בטא %2"
 
 #: src/main.cpp:40
 #, kde-format

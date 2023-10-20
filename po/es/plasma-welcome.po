@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-19 01:42+0000\n"
-"PO-Revision-Date: 2023-10-17 22:56+0200\n"
+"PO-Revision-Date: 2023-10-19 12:51+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -622,12 +622,12 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"¡Bienvenido al sistema operativo %1 que ejecuta KDE Plasma!<nl/><nl/>Plasma "
-"es un entorno de escritorio libre y de código abierto creado por KDE, una "
-"comunidad internacional de software integrada por voluntarios. Está diseñado "
-"para ser simple de forma predeterminada, para que tenga una experiencia "
-"fluida, aunque potente cuando es necesario, para ayudarle realmente a hacer "
-"cosas. ¡Esperamos que le guste!"
+"¡Le damos la bienvenida al sistema operativo %1 que ejecuta KDE Plasma!<nl/"
+"><nl/>Plasma es un entorno de escritorio libre y de código abierto creado "
+"por KDE, una comunidad internacional de software integrada por voluntarios. "
+"Está diseñado para ser simple de forma predeterminada, para que tenga una "
+"experiencia fluida, aunque potente cuando es necesario, para ayudarle "
+"realmente a hacer cosas. ¡Esperamos que le guste!"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
@@ -664,19 +664,19 @@ msgstr "¡Konqi, la mascota de KDE, le da la bienvenida a la comunidad KDE!"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Dev"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:72
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/main.cpp:40
 #, kde-format
