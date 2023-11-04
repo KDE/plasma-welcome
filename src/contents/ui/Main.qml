@@ -107,87 +107,69 @@ Kirigami.ApplicationWindow {
         }
     }
 
+    function createPageObject(page) {
+        let component = Qt.createComponent(page);
+        if (component.status !== Component.Error) {
+            return component.createObject(null);
+        } else {
+            console.warn("Error loading page", page, component.status);
+            component.destroy();
+            // TODO: Instead create and return a placeholder page with error info
+            return null;
+        }
+    }
+
     Component.onCompleted: {
+        // Push pages dynamically
         switch (Controller.mode) {
             case Controller.Update:
-                pageStack.push(plasmaUpdate);
+                pageStack.push(createPageObject("PlasmaUpdate.qml"));
                 break;
 
             case Controller.Live:
-                pageStack.push(live);
+                pageStack.push(createPageObject("Live.qml"));
                 // Fallthrough
 
             case Controller.Welcome:
-                pageStack.push(welcome);
+                pageStack.push(createPageObject("Welcome.qml"));
 
                 if (!Controller.networkAlreadyConnected()) {
-                    pageStack.push(network);
+                    pageStack.push(createPageObject("Network.qml"));
                 }
 
-                pageStack.push(simpleByDefault);
-                pageStack.push(powerfulWhenNeeded);
+                pageStack.push(createPageObject("SimpleByDefault.qml"));
+                pageStack.push(createPageObject("PowerfulWhenNeeded.qml"));
 
+                let discover = createPageObject("Discover.qml");
                 if (discover.application.exists) {
                     pageStack.push(discover);
+                } else {
+                    discover.destroy();
                 }
 
+                // KCMs
                 if (Controller.mode !== Controller.Live) {
                     if (Controller.userFeedbackAvailable()) {
-                        pageStack.push(kcm_feedback);
+                        pageStack.push(createPageObject("Feedback.qml"));
                     }
 
                     if (Controller.accountsAvailable()) {
-                        pageStack.push(kcm_kaccounts);
+                        pageStack.push(createPageObject("KAccounts.qml"));
                     }
                 }
 
                 // Append any distro-specific pages that were found
                 let distroPages = Controller.distroPages();
-                if (distroPages.length > 0) {
-                    for (let i in distroPages) {
-                        var distroPageComponent = Qt.createComponent(distroPages[i]);
-                        if (distroPageComponent.status !== Component.Error) {
-                            pageStack.push(distroPageComponent);
-                        } else {
-                            console.warn("Error loading Page", distroPages[i], distroPageComponent.status);
-                            Qt.exit(123);
-                        }
-                    }
+                for (let i in distroPages) {
+                    pageStack.push(createPageObject(distroPages[i]));
                 }
 
-                pageStack.push(contribute);
-                pageStack.push(donate);
-                pageStack.currentIndex = 0;
+                pageStack.push(createPageObject("Contribute.qml"));
+                pageStack.push(createPageObject("Donate.qml"));
                 break;
         }
+
+        // Start at the beginning
+        pageStack.currentIndex = 0;
     }
-
-    Live {id: live; visible: false}
-    Welcome {id: welcome; visible: false}
-    Network {id: network; visible: false}
-    SimpleByDefault {id: simpleByDefault; visible: false}
-    PowerfulWhenNeeded {id: powerfulWhenNeeded; visible: false}
-    Discover {id: discover; visible: false}
-    KCM {
-        id: kcm_feedback
-        visible: false
-
-        heading: i18nc("@title: window", "Share Anonymous Usage Information")
-        description: i18nc("@info:usagetip", "Our developers will use this anonymous data to improve KDE software. You can choose how much to share in System Settings, and here too.")
-
-        path: "kcm_feedback"
-    }
-    KCM {
-        id: kcm_kaccounts
-        visible: false
-
-        heading: i18nc("@title: window", "Connect Online Accounts")
-        description: i18nc("@info:usagetip", "This will let you access their content in KDE apps. You can set it up in System Settings, and here too.")
-
-        path: "kcm_kaccounts"
-    }
-    Contribute {id: contribute; visible: false}
-    Donate {id: donate; visible: false}
-
-    PlasmaUpdate {id: plasmaUpdate; visible: false}
 }

@@ -47,7 +47,7 @@ GenericPage {
 
         // Continue to the next page automatically when connected
         onStatusIsConnectedChanged: {
-            if (statusIsConnected == true && pageStack.currentItem == network) {
+            if (statusIsConnected == true && pageStack.currentItem == root) {
                 pageStack.currentIndex += 1
             }
         }
@@ -225,7 +225,7 @@ GenericPage {
                 }
 
                 SequentialAnimation on y {
-                    running: pageStack.currentItem == network && !nmLoader.statusIsConnected
+                    running: pageStack.currentItem == root && !nmLoader.statusIsConnected
                     loops:  Animation.Infinite
                     alwaysRunToEnd: true
                     NumberAnimation {

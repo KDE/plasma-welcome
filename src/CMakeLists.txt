@@ -37,6 +37,8 @@ ecm_target_qml_sources(plasma-welcome PATH ""
     contents/ui/pages/PowerfulWhenNeeded.qml
     contents/ui/pages/powerfulwhenneeded/PlasmaFeatureButton.qml
     contents/ui/pages/Discover.qml
+    contents/ui/pages/kcms/Feedback.qml
+    contents/ui/pages/kcms/KAccounts.qml
     contents/ui/pages/Contribute.qml
     contents/ui/pages/Donate.qml
     RESOURCES
