@@ -31,7 +31,7 @@ ecm_target_qml_sources(plasma-welcome PATH ""
     contents/ui/pages/Live.qml
     contents/ui/pages/Welcome.qml
     contents/ui/pages/Network.qml
-    contents/ui/pages/network/NetworkPlasmaNM.qml
+    contents/ui/pages/network/PlasmaNM.qml
     contents/ui/pages/SimpleByDefault.qml
     contents/ui/pages/PowerfulWhenNeeded.qml
     contents/ui/pages/powerfulwhenneeded/PlasmaFeatureButton.qml

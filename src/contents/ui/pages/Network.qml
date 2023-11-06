@@ -33,21 +33,26 @@ GenericPage {
 
     Loader {
         id: nmLoader
-        source: "NetworkPlasmaNM.qml"
+        source: "PlasmaNM.qml"
 
         // Defaults for when PlasmaNM is not available
-        property bool statusIsConnected: false
-        property bool iconIsConnecting: false
-        property string iconConnectionIcon: "network-wireless-available"
-        onLoaded: {
-            statusIsConnected = Qt.binding(() => nmLoader.item.statusNetworkStatus == "Connected")
-            iconIsConnecting = Qt.binding(() => nmLoader.item.iconConnecting)
-            iconConnectionIcon = Qt.binding(() => nmLoader.item.iconConnectionIcon)
+        property bool statusConnected: false
+        property bool iconConnecting: false
+        property string icon: "network-wireless-available"
+
+        onStatusChanged: {
+            if (status === Loader.Ready) {
+                statusConnected = Qt.binding(() => nmLoader.item.networkStatus.connectivity === 4) // 4, Full connectivity
+                iconConnecting = Qt.binding(() => nmLoader.item.connectionIcon.connecting)
+                icon = Qt.binding(() => nmLoader.item.connectionIcon.connectionIcon)
+            } else if (status === Loader.Error) {
+                console.warn("PlasmaNM integration failed to load (is plasma-nm available?)");
+            }
         }
 
         // Continue to the next page automatically when connected
-        onStatusIsConnectedChanged: {
-            if (statusIsConnected == true && pageStack.currentItem == root) {
+        onStatusConnectedChanged: {
+            if (statusConnected && pageStack.currentItem == root) {
                 pageStack.currentIndex += 1
             }
         }
@@ -154,14 +159,14 @@ GenericPage {
                         implicitWidth: appletContainer.iconSize
                         implicitHeight: appletContainer.iconSize
                         imagePath: "icons/network"
-                        elementId: nmLoader.iconConnectionIcon
+                        elementId: nmLoader.icon
                         PC3.BusyIndicator {
                             id: connectingIndicator
 
                             anchors.centerIn: parent
                             height: Math.min(parent.width, parent.height)
                             width: height
-                            running: nmLoader.iconIsConnecting
+                            running: nmLoader.iconConnecting
                             visible: running
                         }
                     }
@@ -225,7 +230,7 @@ GenericPage {
                 }
 
                 SequentialAnimation on y {
-                    running: pageStack.currentItem == root && !nmLoader.statusIsConnected
+                    running: pageStack.currentItem == root && !nmLoader.statusConnected
                     loops:  Animation.Infinite
                     alwaysRunToEnd: true
                     NumberAnimation {

@@ -8,15 +8,14 @@ import QtQuick
 import org.kde.plasma.networkmanagement as PlasmaNM
 
 Item {
-    readonly property alias statusNetworkStatus: networkStatus.networkStatus
-    readonly property alias iconConnecting: connectionIconProvider.connecting
-    readonly property alias iconConnectionIcon: connectionIconProvider.connectionIcon
+    readonly property alias networkStatus: networkStatus
+    readonly property alias connectionIcon: connectionIcon
 
     PlasmaNM.NetworkStatus {
         id: networkStatus
     }
 
     PlasmaNM.ConnectionIcon {
-        id: connectionIconProvider
+        id: connectionIcon
     }
 }
