@@ -2,23 +2,25 @@
 # SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
+project(welcome)
+set(PROJECT_VERSION "5.27.80")
+
 cmake_minimum_required(VERSION 3.16)
 
-project(welcome)
+set(QT_MIN_VERSION "6.4.0")
+set(KF6_MIN_VERSION "5.240.0")
+set(KDE_COMPILERSETTINGS_LEVEL "5.82")
 
-include(FeatureSummary)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(PROJECT_VERSION "5.27.80")
-set(REQUIRED_QT_VERSION 6.4.0)
-set(KF6_MIN_VERSION 5.240.0)
+find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} )
 
 string(REPLACE "." ";" VERSION_LIST ${PROJECT_VERSION})
 list(GET VERSION_LIST 0 PROJECT_VERSION_MAJOR)
 list(GET VERSION_LIST 1 PROJECT_VERSION_MINOR)
 list(GET VERSION_LIST 2 PROJECT_VERSION_PATCH)
-
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
 
@@ -47,7 +49,7 @@ ecm_setup_version(${PROJECT_VERSION}
     VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/plasma-welcome-version.h"
 )
 
-find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg)
 find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 Config CoreAddons ConfigWidgets DBusAddons I18n KIO NewStuff Plasma Service WindowSystem DBusAddons KCMUtils Svg JobWidgets)
 find_package(KF6KirigamiAddons 0.10 REQUIRED)
 
