@@ -29,6 +29,11 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
         if (m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty()) {
             launch(QStringList{});
         } else if (m_config.readEntry("ShowUpdatePage", true) && isSignificantUpgrade()) {
+            // Disable update page for Plasma 6.0 pre-release - we currently have nothing special to show
+            if (m_currentVersion.majorVersion() == 5 && m_currentVersion.minorVersion() >= 80) {
+                return;
+            }
+
             launch(QStringList{QStringLiteral("--post-update")});
         }
 
