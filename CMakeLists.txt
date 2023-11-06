@@ -61,15 +61,6 @@ set_package_properties(KUserFeedback PROPERTIES
     TYPE RUNTIME
 )
 
-
-find_package(KAccounts)
-set_package_properties(KAccounts PROPERTIES
-    DESCRIPTION "Online account management system and its Plasma integration components"
-    PURPOSE "Required for embedded Online Accounts settings page"
-    TYPE RUNTIME
-)
-
-
 ecm_set_disabled_deprecation_versions(QT 6.5
     KF 5.240
 )

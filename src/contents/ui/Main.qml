@@ -152,10 +152,6 @@ Kirigami.ApplicationWindow {
                     if (Controller.userFeedbackAvailable()) {
                         pageStack.push(createPageObject("Feedback.qml"));
                     }
-
-                    if (Controller.accountsAvailable()) {
-                        pageStack.push(createPageObject("KAccounts.qml"));
-                    }
                 }
 
                 // Append any distro-specific pages that were found

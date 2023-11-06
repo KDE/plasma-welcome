@@ -138,12 +138,6 @@ bool Controller::userFeedbackAvailable()
     return data.isValid();
 }
 
-bool Controller::accountsAvailable()
-{
-    KPluginMetaData data(QStringLiteral("plasma/kcms/systemsettings/kcm_kaccounts"));
-    return data.isValid();
-}
-
 QStringList Controller::distroPages()
 {
     const QString dirname = QStringLiteral(DISTRO_CUSTOM_PAGE_FOLDER);
