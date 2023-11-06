@@ -112,7 +112,8 @@ Kirigami.ApplicationWindow {
         if (component.status !== Component.Error) {
             return component.createObject(null);
         } else {
-            console.warn("Error loading page", page, component.status);
+            console.warn("Couldn't load page '" + page + "'");
+            console.warn(" " + component.errorString())
             component.destroy();
             // TODO: Instead create and return a placeholder page with error info
             return null;
