@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-08-03 19:35+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -52,39 +52,6 @@ msgstr "&Fullfør"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Neste"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Del anonym bruksinformasjon"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Utviklarane våre brukar den anonyme informasjonen til å forbetra KDE-"
-"programma. Du kan sjølv velja kor mykje du vil dela, anten direkte her eller "
-"i system­oppsettet seinare."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "Kopla til nettkontoar"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"Du får tilgang til kontoane i ulike KDE-program. Du kan setja opp kontoane "
-"direkte her eller i system­oppsettet seinare."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -185,6 +152,23 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Gje pengegåve"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Del anonym bruksinformasjon"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Utviklarane våre brukar den anonyme informasjonen til å forbetra KDE-"
+"programma. Du kan sjølv velja kor mykje du vil dela, anten direkte her eller "
+"i system­oppsettet seinare."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -734,3 +718,15 @@ msgstr "Vis live-sida meint for live-distroar."
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Start %1 no"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "Kopla til nettkontoar"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "Du får tilgang til kontoane i ulike KDE-program. Du kan setja opp "
+#~ "kontoane direkte her eller i system­oppsettet seinare."

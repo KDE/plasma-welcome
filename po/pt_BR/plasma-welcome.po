@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-10-20 00:46-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -51,39 +51,6 @@ msgstr "&Concluir"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Próximo"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Compartilhar informações de uso anônimas"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Nossos desenvolvedores usarão estes dados anônimos para melhor o software do "
-"KDE. Você pode escolher o quanto compartilhar nas Configurações do sistema "
-"ou aqui."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "Conectar contas online"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"Isto permitirá a você acessar seu conteúdo nos aplicativos do KDE. Você pode "
-"configurar nas Configurações do sistema ou por aqui."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -183,6 +150,23 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Faça uma doação"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Compartilhar informações de uso anônimas"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Nossos desenvolvedores usarão estes dados anônimos para melhor o software do "
+"KDE. Você pode escolher o quanto compartilhar nas Configurações do sistema "
+"ou aqui."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -729,6 +713,18 @@ msgstr "Exiba a página destinada a ambientes ao vivo de distribuições."
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Iniciar %1 agora"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "Conectar contas online"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "Isto permitirá a você acessar seu conteúdo nos aplicativos do KDE. Você "
+#~ "pode configurar nas Configurações do sistema ou por aqui."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

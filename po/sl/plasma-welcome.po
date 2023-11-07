@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-10-19 07:44+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -54,39 +54,6 @@ msgstr "&Dokončaj"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Naprej"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Deli anonimne podatke o uporabi"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Naši razvijalci bodo te anonimne podatke uporabili za izboljšanje programske "
-"opreme KDE. Izberite, koliko podatkov lahko delite v sistemskih nastavitvah "
-"in tudi tukaj."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "Poveži omrežne račune"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"To vam bo omogočilo dostop do njihovih vsebin v aplikacijah KDE. To lahko "
-"nastavite v Sistemskih nastavitvah in tudi tukaj."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -185,6 +152,23 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Donirajte"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Deli anonimne podatke o uporabi"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Naši razvijalci bodo te anonimne podatke uporabili za izboljšanje programske "
+"opreme KDE. Izberite, koliko podatkov lahko delite v sistemskih nastavitvah "
+"in tudi tukaj."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -725,6 +709,18 @@ msgstr "Prikaži živo stran namenjeno distribucijskim živim okoljem."
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Zaženi %1 zdaj"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "Poveži omrežne račune"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "To vam bo omogočilo dostop do njihovih vsebin v aplikacijah KDE. To lahko "
+#~ "nastavite v Sistemskih nastavitvah in tudi tukaj."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-06-22 09:54+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -51,38 +51,6 @@ msgstr "أ&نهِ"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "ال&تالي"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "مشاركة معلومات الاستخدام بشكل مجهول"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"سيستعمل مطورونا البيانات المجهولة في تحسين تطبيقات كِيدِي. بإمكانك اختيار ما "
-"تريد مشاركته من إعدادات النظام ويمكنك إعداده الآن أيضًا."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "اتصل بحسابات على الإنترنت"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"سيمكنك هذا من جعل تطبيقات كِيدِي تصل إلى محتوياتها. يمكنك إعدادها في إعدادات "
-"النظام ويمكنك إعداده الآن أيضًا."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -178,6 +146,22 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "تبرّع"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "مشاركة معلومات الاستخدام بشكل مجهول"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"سيستعمل مطورونا البيانات المجهولة في تحسين تطبيقات كِيدِي. بإمكانك اختيار ما "
+"تريد مشاركته من إعدادات النظام ويمكنك إعداده الآن أيضًا."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -722,6 +706,18 @@ msgstr "اعرض الصفحة الحية المخصصة لتوزيعات الب�
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "شغل %1 الآن"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "اتصل بحسابات على الإنترنت"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "سيمكنك هذا من جعل تطبيقات كِيدِي تصل إلى محتوياتها. يمكنك إعدادها في "
+#~ "إعدادات النظام ويمكنك إعداده الآن أيضًا."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

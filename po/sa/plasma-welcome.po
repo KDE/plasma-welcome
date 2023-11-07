@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-10-04 15:33+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit\n"
@@ -52,38 +52,6 @@ msgstr "&समापन"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&अग्रिम"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "अनाम्यवादिनी उपयोग ज्ञानं सांगच्छतु"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"अस्माकं विकासकाः KDE तन्त्रांशं सुधारयितुम् एतस्य अनामिकदत्तांशस्य उपयोगं करिष्यन्ति । "
-"सङ्गणकतन्त्रस्य समायोजनानि इत्यत्र कियत् भागं कर्तव्यमिति चिन्वन्तु, अत्र अपि ।."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "ऑनलाइन खाताः संयोजयन्तु"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"एतेन भवन्तः KDE एप्स् मध्ये तेषां सामग्रीं प्राप्तुं शक्नुवन्ति । भवान् तत् सङ्गणकतन्त्रस्य "
-"समायोजनानि इत्यत्र निरुपयत् कर्तुं शक्नोति, अत्र अपि ।."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -179,6 +147,22 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "दानं कुर्वन्तु"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "अनाम्यवादिनी उपयोग ज्ञानं सांगच्छतु"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"अस्माकं विकासकाः KDE तन्त्रांशं सुधारयितुम् एतस्य अनामिकदत्तांशस्य उपयोगं करिष्यन्ति । "
+"सङ्गणकतन्त्रस्य समायोजनानि इत्यत्र कियत् भागं कर्तव्यमिति चिन्वन्तु, अत्र अपि ।."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -709,6 +693,18 @@ msgstr "Distro live environments कृते अभिप्रेतं live p
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "इदानीं %1 प्रारम्भं कुर्वन्तु"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "ऑनलाइन खाताः संयोजयन्तु"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "एतेन भवन्तः KDE एप्स् मध्ये तेषां सामग्रीं प्राप्तुं शक्नुवन्ति । भवान् तत् सङ्गणकतन्त्रस्य "
+#~ "समायोजनानि इत्यत्र निरुपयत् कर्तुं शक्नोति, अत्र अपि ।."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

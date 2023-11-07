@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-08-07 16:57+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -50,38 +50,6 @@ msgstr "Do&končit"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Následující"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Sdílejte anonymní informace o použití"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Naši vývojáři použijí tato anonymní data pro vylepšení softwaru KDE. Můžete "
-"si vybrat jak mnoho informací sdílet v Nastavení Systému a rovněž i zde."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "Připojte účty online"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"Tímto umožníte přístup k jejich obsahu v aplikacích KDE. Můžete je nastavit "
-"v Nastavení Systému nebo i zde."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -169,6 +137,22 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Přispějte na vývoj"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Sdílejte anonymní informace o použití"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Naši vývojáři použijí tato anonymní data pro vylepšení softwaru KDE. Můžete "
+"si vybrat jak mnoho informací sdílet v Nastavení Systému a rovněž i zde."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -688,3 +672,15 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Spustit %1 hned"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "Připojte účty online"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "Tímto umožníte přístup k jejich obsahu v aplikacích KDE. Můžete je "
+#~ "nastavit v Nastavení Systému nebo i zde."

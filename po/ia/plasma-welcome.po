@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-10-19 09:23+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -50,38 +50,6 @@ msgstr "&Termina"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "Seque&nte"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Comparti Information de Uso Anonyme "
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Nostre disveloppatores usara iste datos anonyme per ameliorar le software de "
-"KDE. Tu pote seliger quanto compartir inPreferentias de Systema, e anque ci."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "Connecte  Contos In Linea"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"Isto te permittera acceder a lor contentos in apps de KDE. Tu pote "
-"configurar lo in Preferentias de Systema, e anque ci."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -180,6 +148,22 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Tu face un donation"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Comparti Information de Uso Anonyme "
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Nostre disveloppatores usara iste datos anonyme per ameliorar le software de "
+"KDE. Tu pote seliger quanto compartir inPreferentias de Systema, e anque ci."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -723,6 +707,18 @@ msgstr "MOnstra le pagine vivente intendite per ambiente in vivo de distro."
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Lancea %1 nunc"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "Connecte  Contos In Linea"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "Isto te permittera acceder a lor contentos in apps de KDE. Tu pote "
+#~ "configurar lo in Preferentias de Systema, e anque ci."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

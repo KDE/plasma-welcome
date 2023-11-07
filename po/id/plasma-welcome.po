@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-02-15 16:32+0700\n"
 "Last-Translator: Linerly <linerly@protonmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -50,43 +50,6 @@ msgstr "&Selesai"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Berikutnya"
-
-#: src/contents/ui/Main.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Bagikan Informasi Penggunaan Anonim Dengan KDE"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Pengembang kami akan menggunakan data anonim ini untuk meningkatkan "
-"perangkat lunak KDE. Anda dapat memilih berapa banyak yang dibagikan dalam "
-"System Settings, dan di sini juga."
-
-#: src/contents/ui/Main.qml:184
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "Hubungkan Akun Daring Anda"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"Ini akan memungkinkan Anda mengakses kontennya dalam aplikasi KDE. Anda "
-"dapat menyiapkannya dalam System Settings, dan di sini juga."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -185,6 +148,25 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Buat sebuah donasi"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Share Anonymous Usage Information With KDE"
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Bagikan Informasi Penggunaan Anonim Dengan KDE"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Pengembang kami akan menggunakan data anonim ini untuk meningkatkan "
+"perangkat lunak KDE. Anda dapat memilih berapa banyak yang dibagikan dalam "
+"System Settings, dan di sini juga."
 
 #: src/contents/ui/pages/Live.qml:19
 #, fuzzy, kde-format
@@ -780,6 +762,21 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Luncurkan Discover sekarang"
+
+#, fuzzy
+#~| msgctxt "@title: window"
+#~| msgid "Connect Your Online Accounts"
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "Hubungkan Akun Daring Anda"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "Ini akan memungkinkan Anda mengakses kontennya dalam aplikasi KDE. Anda "
+#~ "dapat menyiapkannya dalam System Settings, dan di sini juga."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

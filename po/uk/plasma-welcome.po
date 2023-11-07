@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-10-19 17:49+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -51,39 +51,6 @@ msgstr "&Завершити"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Далі"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Надання анонімних даних щодо користування"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Наші розробники скористаються анонімними даними для удосконалення програм "
-"KDE. Обсяг наданих відомостей можна визначити у «Системних параметрах» і тут."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "З'єднатись з мережевим обліковим записом"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"З'єднання надасть дані з облікових записів програмам KDE. Ви також можете "
-"налаштувати з'єднання у «Системних параметрах» і безпосередньо у вікні цієї "
-"програми."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -184,6 +151,22 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Зробити пожертву"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Надання анонімних даних щодо користування"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Наші розробники скористаються анонімними даними для удосконалення програм "
+"KDE. Обсяг наданих відомостей можна визначити у «Системних параметрах» і тут."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -733,6 +716,19 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Запустити %1"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "З'єднатись з мережевим обліковим записом"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "З'єднання надасть дані з облікових записів програмам KDE. Ви також можете "
+#~ "налаштувати з'єднання у «Системних параметрах» і безпосередньо у вікні "
+#~ "цієї програми."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

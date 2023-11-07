@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-08-12 01:48+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -50,39 +50,6 @@ msgstr "終了(&F)"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "次へ(&N)"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "匿名の使用統計情報を送信する"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"送信された匿名のデータは、KDE のソフトウェアを改善するために開発者によって使"
-"用されます。このページ、もしくはシステム設定でどの程度の情報を送信するか選択"
-"できます。"
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "オンラインアカウントを接続する"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"オンラインアカウントを使用するコンテンツに KDE アプリケーションからアクセスで"
-"きます。このページ、もしくはシステム設定で設定できます。"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -177,6 +144,23 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "寄付する"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "匿名の使用統計情報を送信する"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"送信された匿名のデータは、KDE のソフトウェアを改善するために開発者によって使"
+"用されます。このページ、もしくはシステム設定でどの程度の情報を送信するか選択"
+"できます。"
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -717,3 +701,15 @@ msgstr "ディストリビューションの Live 環境のためのページを
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "%1 を起動する"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "オンラインアカウントを接続する"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "オンラインアカウントを使用するコンテンツに KDE アプリケーションからアクセ"
+#~ "スできます。このページ、もしくはシステム設定で設定できます。"

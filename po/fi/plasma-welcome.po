@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
-"PO-Revision-Date: 2023-08-26 18:45+0300\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
+"PO-Revision-Date: 2023-09-26 18:13+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -50,38 +50,6 @@ msgstr "&Viimeistele"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Seuraava"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Jaa nimetöntä käyttötietoa"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Kehittäjämme käyttävät tätä nimetöntä tietoa KDE-ohjelmien parantamiseksi. "
-"Järjestelmäasetuksista ja tästä voi valita, paljonko tietoa jakaa."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "Yhdistä verkkotileihin"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"Tällä näkee niiden sisällön KDE-sovelluksissa. Ominaisuuden voi asettaa "
-"tässä tai järjestelmäasetuksissa."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -132,12 +100,7 @@ msgid "Manage Software"
 msgstr "Ohjelmien hallinta"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -145,9 +108,9 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Discover</application> auttaa etsimään ja asentamaan "
-"sovelluksia, pelejä ja apuohjelmia. Täydellistä sovellusta voi etsiä "
-"selaamalla luokkia, katsomalla ruutukaappauskuvia ja lukemalla arvosteluja."
+"<application>%1</application> auttaa etsimään ja asentamaan sovelluksia, "
+"pelejä ja apuohjelmia. Täydellistä sovellusta voi etsiä selaamalla luokkia, "
+"katsomalla ruutukaappauskuvia ja lukemalla arvosteluja."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -179,6 +142,22 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Lahjoita"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Jaa nimetöntä käyttötietoa"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Kehittäjämme käyttävät tätä nimetöntä tietoa KDE-ohjelmien parantamiseksi. "
+"Järjestelmäasetuksista ja tästä voi valita, paljonko tietoa jakaa."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -241,6 +220,8 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"Tämä sivu näytetään verkkoyhteydestä riippumatta, koska käytät "
+"kehitysversiota."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
@@ -559,14 +540,7 @@ msgid "Simple by Default"
 msgstr "Oletuksena yksinkertainen"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -579,8 +553,8 @@ msgstr ""
 "Plasma on suunniteltu olemaan yksinkertainen ja käyttökelpoinen heti "
 "asennettuna. Löydät kaiken mitä odotat, eikä asetuksia yleensä tarvitse "
 "muuttaa, ennen kuin olet jo tuttu järjestelmän kanssa.<nl/><nl/>Mutta kun "
-"haluat, kaikki tarvitsemasi löytyy <application>järjestelmäasetuksista</"
-"application>."
+"haluat, kaikki tarvitsemasi löytyy <application>%1</application>-"
+"sovelluksesta."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
@@ -589,13 +563,7 @@ msgid "Welcome"
 msgstr "Tervetuloa"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -604,10 +572,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Plasma on vapaa avoimen lähdekoodin ympäristö, jota tekevät vapaaehtoiset "
-"ympäri maailmaa. Oletuksena se tarjoaa yksinkertaisen, mutkattoman "
-"käyttökokemuksen, mutta konepellin alla riittää tehoa ihan kaikkeen. "
-"Toivomme että pidät siitä!"
+"%1<nl/><nl/>Tämä käyttöjärjestelmä käyttää Plasmaa, vapaata avoimen "
+"lähdekoodin työpöytäympäristöä, jonka on luonut KDE, kansainvälinen "
+"vapaaehtoisten ohjelmistoyhteisö. Se on suunniteltu olemaan sujuvaa "
+"käyttökokemusta varten oletuksena yksinkertainen, mutta tarvittaessa myös "
+"tehokas. Toivomme, että pidät siitä!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -641,13 +610,15 @@ msgstr "Lue lisää: %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Kuvan lataaminen epäonnistui"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Ei voitu ladata tiedostoa <filename>%1</filename>. Varmista, että se on "
+"olemassa."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
@@ -724,6 +695,18 @@ msgstr "Näytä jakelun live-ympäristöille tarkoitettu elävä sivu."
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Käynnistä nyt %1"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "Yhdistä verkkotileihin"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "Tällä näkee niiden sisällön KDE-sovelluksissa. Ominaisuuden voi asettaa "
+#~ "tässä tai järjestelmäasetuksissa."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-10-19 20:11+0300\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
@@ -52,38 +52,6 @@ msgstr "&סיום"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "ה&בא"
-
-#: src/contents/ui/Main.qml:175
-#, kde-format
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "שיתוף פרטי שימוש אלמוניים"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"המפתחים שלנו ישתמש בנתונים האלמוניים האלו לשיפור התוכנות של KDE. אפשר לבחור "
-"כמה לשתף בהגדרות המערכת וגם דרך כאן."
-
-#: src/contents/ui/Main.qml:184
-#, kde-format
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "חיבור חשבונות מקוונים"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"יאפשר לך לגשת לתוכן שלהם עם היישומים של KDE. אפשר להגדיר אותם בהגדרות המערכת "
-"וגם דרך כאן."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -178,6 +146,22 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "תרומה כספית"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, kde-format
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "שיתוף פרטי שימוש אלמוניים"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"המפתחים שלנו ישתמש בנתונים האלמוניים האלו לשיפור התוכנות של KDE. אפשר לבחור "
+"כמה לשתף בהגדרות המערכת וגם דרך כאן."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -699,6 +683,18 @@ msgstr "הצגת העמוד החי שמיוחד לסביבות הפצות חיו
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "להפעיל את %1 כעת"
+
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "חיבור חשבונות מקוונים"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "יאפשר לך לגשת לתוכן שלהם עם היישומים של KDE. אפשר להגדיר אותם בהגדרות "
+#~ "המערכת וגם דרך כאן."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:42+0000\n"
+"POT-Creation-Date: 2023-11-07 02:44+0000\n"
 "PO-Revision-Date: 2023-02-17 10:44+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -51,44 +51,6 @@ msgstr "&Готово"
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Далее"
-
-#: src/contents/ui/Main.qml:175
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
-msgctxt "@title: window"
-msgid "Share Anonymous Usage Information"
-msgstr "Передача статистики использования в KDE"
-
-#: src/contents/ui/Main.qml:176
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can "
-"choose how much to share in System Settings, and here too."
-msgstr ""
-"Разработчики KDE опираются на обезличенные статистические сведения об "
-"использовании Plasma для улучшения программного обеспечения. Включить "
-"передачу этих данных можно здесь или позже в приложении «Параметры системы»."
-
-#: src/contents/ui/Main.qml:184
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Connect Your Online Accounts"
-msgctxt "@title: window"
-msgid "Connect Online Accounts"
-msgstr "Подключение учётных записей"
-
-#: src/contents/ui/Main.qml:185
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in "
-"System Settings, and here too."
-msgstr ""
-"Добавить на устройство учётные записи различных служб, доступных в "
-"интернете, для использования приложениями KDE можно сейчас или позже в "
-"приложении «Параметры системы»."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -185,6 +147,25 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Сделать пожертвование"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:15
+#, fuzzy, kde-format
+#| msgctxt "@title: window"
+#| msgid "Share Anonymous Usage Information With KDE"
+msgctxt "@title: window"
+msgid "Share Anonymous Usage Information"
+msgstr "Передача статистики использования в KDE"
+
+#: src/contents/ui/pages/kcms/Feedback.qml:16
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Our developers will use this anonymous data to improve KDE software. You can "
+"choose how much to share in System Settings, and here too."
+msgstr ""
+"Разработчики KDE опираются на обезличенные статистические сведения об "
+"использовании Plasma для улучшения программного обеспечения. Включить "
+"передачу этих данных можно здесь или позже в приложении «Параметры системы»."
 
 #: src/contents/ui/pages/Live.qml:19
 #, fuzzy, kde-format
@@ -779,6 +760,22 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Запустить Discover"
+
+#, fuzzy
+#~| msgctxt "@title: window"
+#~| msgid "Connect Your Online Accounts"
+#~ msgctxt "@title: window"
+#~ msgid "Connect Online Accounts"
+#~ msgstr "Подключение учётных записей"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "This will let you access their content in KDE apps. You can set it up in "
+#~ "System Settings, and here too."
+#~ msgstr ""
+#~ "Добавить на устройство учётные записи различных служб, доступных в "
+#~ "интернете, для использования приложениями KDE можно сейчас или позже в "
+#~ "приложении «Параметры системы»."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""
