@@ -107,7 +107,7 @@ Kirigami.ApplicationWindow {
         }
     }
 
-    function createPageObject(page) {
+    function createPage(page) {
         let component = Qt.createComponent(page);
         if (component.status !== Component.Error) {
             return component.createObject(null);
@@ -120,30 +120,40 @@ Kirigami.ApplicationWindow {
         }
     }
 
+    function pushPage(page) {
+        if (page !== null) {
+            if (pageStack.currentIndex === -1) {
+                pageStack.push(page);
+            } else {
+                pageStack.insertPage(pageStack.depth, page);
+            }
+        }
+    }
+
     Component.onCompleted: {
         // Push pages dynamically
         switch (Controller.mode) {
             case Controller.Update:
-                pageStack.push(createPageObject("PlasmaUpdate.qml"));
+                pushPage(createPage("PlasmaUpdate.qml"));
                 break;
 
             case Controller.Live:
-                pageStack.push(createPageObject("Live.qml"));
+                pushPage(createPage("Live.qml"));
                 // Fallthrough
 
             case Controller.Welcome:
-                pageStack.push(createPageObject("Welcome.qml"));
+                pushPage(createPage("Welcome.qml"));
 
                 if (!Controller.networkAlreadyConnected()) {
-                    pageStack.push(createPageObject("Network.qml"));
+                    pushPage(createPage("Network.qml"));
                 }
 
-                pageStack.push(createPageObject("SimpleByDefault.qml"));
-                pageStack.push(createPageObject("PowerfulWhenNeeded.qml"));
+                pushPage(createPage("SimpleByDefault.qml"));
+                pushPage(createPage("PowerfulWhenNeeded.qml"));
 
-                let discover = createPageObject("Discover.qml");
+                let discover = createPage("Discover.qml");
                 if (discover.application.exists) {
-                    pageStack.push(discover);
+                    pushPage(discover);
                 } else {
                     discover.destroy();
                 }
@@ -151,22 +161,19 @@ Kirigami.ApplicationWindow {
                 // KCMs
                 if (Controller.mode !== Controller.Live) {
                     if (Controller.userFeedbackAvailable()) {
-                        pageStack.push(createPageObject("Feedback.qml"));
+                        pushPage(createPage("Feedback.qml"));
                     }
                 }
 
                 // Append any distro-specific pages that were found
                 let distroPages = Controller.distroPages();
                 for (let i in distroPages) {
-                    pageStack.push(createPageObject(distroPages[i]));
+                    pushPage(createPage(distroPages[i]));
                 }
 
-                pageStack.push(createPageObject("Contribute.qml"));
-                pageStack.push(createPageObject("Donate.qml"));
+                pushPage(createPage("Contribute.qml"));
+                pushPage(createPage("Donate.qml"));
                 break;
         }
-
-        // Start at the beginning
-        pageStack.currentIndex = 0;
     }
 }
