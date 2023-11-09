@@ -2,7 +2,6 @@
 # SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
-configure_file(version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/version.h)
 configure_file(config-plasma-welcome.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma-welcome.h)
 
 add_executable(plasma-welcome)

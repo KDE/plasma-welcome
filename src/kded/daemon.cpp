@@ -10,7 +10,7 @@
 #include <KPluginFactory>
 #include <QString>
 
-#include "../version.h"
+#include "../plasma-welcome-version.h"
 #include "daemon.h"
 
 K_PLUGIN_CLASS_WITH_JSON(PlasmaWelcomeDaemon, "kded_plasma-welcome.json")
@@ -18,8 +18,8 @@ K_PLUGIN_CLASS_WITH_JSON(PlasmaWelcomeDaemon, "kded_plasma-welcome.json")
 PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> &)
     : KDEDModule(parent)
     , m_config(new KConfig(QStringLiteral("plasma-welcomerc")), "General")
-    , m_currentVersion(QVersionNumber::fromString(QString::fromLatin1(PROJECT_VERSION)))
-    , m_previousVersion(QVersionNumber::fromString(m_config.readEntry("LastSeenVersion", QString::fromLatin1(PROJECT_VERSION))))
+    , m_currentVersion(QVersionNumber::fromString(QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING)))
+    , m_previousVersion(QVersionNumber::fromString(m_config.readEntry("LastSeenVersion", QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING))))
 {
     if (m_config.readEntry("LiveEnvironment", false)) {
         // Live installer, always launch

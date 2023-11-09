@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "version.h"
+#include "plasma-welcome-version.h"
 #include <QObject>
 #include <QVersionNumber>
 #include <qqmlregistration.h>

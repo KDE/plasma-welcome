@@ -13,7 +13,7 @@
 
 #include "config-plasma-welcome.h"
 #include "controller.h"
-#include "version.h"
+#include "plasma-welcome-version.h"
 
 #include <KDesktopFile>
 #include <KIO/ApplicationLauncherJob>
@@ -29,15 +29,15 @@ Controller::Controller()
     m_mode = Mode::Welcome;
 
     // Version
-    m_version = QVersionNumber::fromString(QString::fromLatin1(PROJECT_VERSION));
+    m_version = QVersionNumber::fromString(QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING));
     m_patchVersion = m_version.microVersion();
 
     // Release URL
-    if constexpr (PROJECT_VERSION_PATCH >= 90) {
+    if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 90) {
         // Beta version
         m_releaseUrl = QStringLiteral("https://kde.org/announcements/plasma/%1/%1.%2.90/?source=plasma-welcome")
                            .arg(QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
-    } else if constexpr (PROJECT_VERSION_PATCH >= 80) {
+    } else if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 80) {
         // Development version
         m_releaseUrl = QStringLiteral("https://invent.kde.org/groups/plasma/-/activity");
     } else {
@@ -47,7 +47,7 @@ Controller::Controller()
     }
 
     // Shown version string, matching desktop preview banner
-    if constexpr (PROJECT_VERSION_PATCH >= 80) {
+    if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 80) {
         // Beta or development version
         // finalMajor, finalMinor is the final version in the line
         // and should be updated after the final Plasma 6 release
@@ -56,19 +56,20 @@ Controller::Controller()
 
         // Incremented minor, which is zeroed and major incremented when
         // we reach the final version in the major release line
-        int major = (PROJECT_VERSION_MAJOR == finalMajor && PROJECT_VERSION_MINOR == finalMinor) ? PROJECT_VERSION_MAJOR + 1 : PROJECT_VERSION_MAJOR;
-        int minor = (PROJECT_VERSION_MAJOR == finalMajor && PROJECT_VERSION_MINOR == finalMinor) ? 0 : PROJECT_VERSION_MINOR + 1;
+        int major = (PLASMA_WELCOME_VERSION_MAJOR == finalMajor && PLASMA_WELCOME_VERSION_MINOR == finalMinor) ? PLASMA_WELCOME_VERSION_MAJOR + 1
+                                                                                                               : PLASMA_WELCOME_VERSION_MAJOR;
+        int minor = (PLASMA_WELCOME_VERSION_MAJOR == finalMajor && PLASMA_WELCOME_VERSION_MINOR == finalMinor) ? 0 : PLASMA_WELCOME_VERSION_MINOR + 1;
         const QString version = QStringLiteral("%1.%2").arg(QString::number(major), QString::number(minor));
 
-        if constexpr (PROJECT_VERSION_PATCH == 80) {
+        if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80) {
             // Development version
             m_shownVersion = i18nc("@label %1 is the Plasma version", "%1 Dev", version);
-        } else if constexpr (PROJECT_VERSION_PATCH >= 90) {
+        } else if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 90) {
             // Beta version
-            if constexpr (PROJECT_VERSION_PATCH == 90) {
+            if constexpr (PLASMA_WELCOME_VERSION_PATCH == 90) {
                 m_shownVersion = i18nc("@label %1 is the Plasma version", "%1 Beta", version);
             } else {
-                constexpr int betaNumber = PROJECT_VERSION_PATCH - 89;
+                constexpr int betaNumber = PLASMA_WELCOME_VERSION_PATCH - 89;
                 m_shownVersion = i18nc("@label %1 is the Plasma version, %2 is the beta release number", "%1 Beta %2", version, betaNumber);
             }
         }
@@ -116,7 +117,7 @@ void Controller::runCommand(const QString &command, const QString &desktopFilena
 
 bool Controller::networkAlreadyConnected()
 {
-    if constexpr (PROJECT_VERSION_PATCH == 80) {
+    if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80) {
         // NOTE: Force visible so we notice regressions during development
         return false;
     } else {
