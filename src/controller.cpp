@@ -35,19 +35,19 @@ Controller::Controller()
     // Release URL
     if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 90) {
         // Beta version
-        m_releaseUrl = QStringLiteral("https://kde.org/announcements/plasma/%1/%1.%2.90/?source=plasma-welcome")
+        m_releaseUrl = QStringLiteral("https://kde.org/announcements/plasma/%1.%2.90/?source=plasma-welcome")
                            .arg(QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
     } else if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 80) {
         // Development version
         m_releaseUrl = QStringLiteral("https://invent.kde.org/groups/plasma/-/activity");
     } else {
         // Release version
-        m_releaseUrl = QStringLiteral("https://kde.org/announcements/plasma/%1/%1.%2.0/?source=plasma-welcome")
+        m_releaseUrl = QStringLiteral("https://kde.org/announcements/plasma/%1.%2.0/?source=plasma-welcome")
                            .arg(QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
     }
 
     // Shown version string, matching desktop preview banner
-    if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 80) {
+    if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 80 || PLASMA_WELCOME_VERSION_MINOR >= 80) {
         // Beta or development version
         // finalMajor, finalMinor is the final version in the line
         // and should be updated after the final Plasma 6 release
@@ -61,7 +61,17 @@ Controller::Controller()
         int minor = (PLASMA_WELCOME_VERSION_MAJOR == finalMajor && PLASMA_WELCOME_VERSION_MINOR == finalMinor) ? 0 : PLASMA_WELCOME_VERSION_MINOR + 1;
         const QString version = QStringLiteral("%1.%2").arg(QString::number(major), QString::number(minor));
 
-        if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80) {
+        if constexpr (PLASMA_WELCOME_VERSION_MINOR >= 80 && PLASMA_WELCOME_VERSION_MINOR <= 90) {
+                m_shownVersion = i18nc("@label %1 is the Plasma version", "6 Alpha (%1)", version);
+        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 90) {
+                m_shownVersion = i18nc("@label %1 is the Plasma version", "6 Beta 1 (%1)", version);
+        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 91) {
+                m_shownVersion = i18nc("@label %1 is the Plasma version", "6 Beta 2 (%1)", version);
+        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 92) {
+                m_shownVersion = i18nc("@label %1 is the Plasma version", "6 RC 1 (%1)", version);
+        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 93) {
+                m_shownVersion = i18nc("@label %1 is the Plasma version", "6 RC 2 (%1)", version);
+        } else if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80) {
             // Development version
             m_shownVersion = i18nc("@label %1 is the Plasma version", "%1 Dev", version);
         } else if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 90) {
@@ -117,7 +127,7 @@ void Controller::runCommand(const QString &command, const QString &desktopFilena
 
 bool Controller::networkAlreadyConnected()
 {
-    if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80) {
+    if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80 || PLASMA_WELCOME_VERSION_MINOR >= 80) {
         // NOTE: Force visible so we notice regressions during development
         return false;
     } else {
