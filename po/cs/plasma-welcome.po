@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# Vit Pelcak <vit@pelcak.org>, 2023.
+# SPDX-FileCopyrightText: 2023 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-10 01:48+0000\n"
-"PO-Revision-Date: 2023-08-07 16:57+0200\n"
+"PO-Revision-Date: 2023-11-02 13:49+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 23.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -106,6 +106,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"Aplikace <application>%1</application> vám pomůže najít a nainstalovat "
+"aplikace, hry a nástroje. Můžete hledat, nebo prohlížet podle kategorie, "
+"podívat se na snímky obrazovky a číst recenze, které vám pomohou vybrat "
+"nejvhodnější aplikaci."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -539,6 +543,10 @@ msgid ""
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
 "you'll find what you need in the <application>%1</application> app."
 msgstr ""
+"Plasma je navržena tak, aby byla od počátku jednoduchá a použitelná. Věci "
+"jsou tam, kde je čekáte a pro pohodlnou a produktivní práci není nic potřeba "
+"nastavovat.<nl/><nl/>Pokud ale něco nastavit potřebujete, najdete to v "
+"aplikaci <application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
@@ -556,6 +564,10 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
+"%1<nl/><nl/> Na tomto operačním systému běží KDE Plasma - svobodné a open-"
+"source pracovní prostředí vytvořené KDE - mezinárodní softwarovou komunitou "
+"dobrovolníků. Je navržena aby byla jednoduchá do začátku ale velmi dobře "
+"vybavena pro každodenní použití. Doufáme, že si ji zamilujete!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -589,13 +601,14 @@ msgstr "Více o %1"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Načítání obrázku selhalo"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Není možné načíst <filename>%1</filename>. Prosím, ujistěte se, že existuje."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
@@ -607,19 +620,19 @@ msgstr "Maskot KDE - Konqi - vás vítá v komunitě KDE!"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Vývoj"
 
 #: src/controller.cpp:70
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:73
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/main.cpp:40
 #, kde-format
@@ -672,15 +685,3 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Spustit %1 hned"
-
-#~ msgctxt "@title: window"
-#~ msgid "Connect Online Accounts"
-#~ msgstr "Připojte účty online"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "This will let you access their content in KDE apps. You can set it up in "
-#~ "System Settings, and here too."
-#~ msgstr ""
-#~ "Tímto umožníte přístup k jejich obsahu v aplikacích KDE. Můžete je "
-#~ "nastavit v Nastavení Systému nebo i zde."
