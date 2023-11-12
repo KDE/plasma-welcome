@@ -1,19 +1,20 @@
 # translation of plasma-welcome.po to Slovak
 # Roman Paholik <wizzardsk@gmail.com>, 2022.
 # Ferdinand Galko <galko.ferdinand@gmail.com>, 2023.
+# SPDX-FileCopyrightText: 2023 Matej Mrenica <matejm98mthw@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-10 01:48+0000\n"
-"PO-Revision-Date: 2023-04-07 16:06+0200\n"
-"Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
-"Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
+"PO-Revision-Date: 2023-11-11 15:31+0100\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 23.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #, kde-format
@@ -98,12 +99,7 @@ msgid "Manage Software"
 msgstr "Správa softvéru"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -111,10 +107,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Aplikácia <application>Discover</application> vám pomôže nájsť a "
-"nainštalovať aplikácie, hry a nástroje. Môžete hľadať alebo prechádzať podľa "
-"kategórií, prezerať si snímky obrazovky a čítať recenzie, ktoré vám pomôžu "
-"nájsť ideálnu aplikáciu."
+"Aplikácia <application>%1</application> vám pomôže nájsť a nainštalovať "
+"aplikácie, hry a nástroje. Môžete hľadať alebo prechádzať podľa kategórií, "
+"prezerať si snímky obrazovky a čítať recenzie, ktoré vám pomôžu nájsť "
+"ideálnu aplikáciu."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -139,6 +135,12 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"Komunita KDE sa spolieha na odborné dary a finančné prostriedky a je "
+"podporovaná nemeckou neziskovou organizáciou KDE e.V., ktorá spravuje právne "
+"záležitosti, finančné prostriedky vývojové šprinty a serverové zdroje a "
+"ponúka možnosti zamestnania pre vývojárov KDE. Príspevky pre KDE e.V. "
+"podporujú širšiu KDE komunitu, a vy môžete prispieť k zmene tým, že "
+"prispejete ešte dnes!<nl/><nl/> Dary sú v Nemecku odpočítateľné z daní."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:37
@@ -164,12 +166,10 @@ msgstr ""
 "zdieľania môžete vybrať v Systémových nastaveniach a tiež tu."
 
 #: src/contents/ui/pages/Live.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Vitajte v KDE Plasma!"
+msgstr "Vitajte v %1!"
 
 #: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
@@ -179,6 +179,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"Stlačením ikony nižšie sa začne inštalácia %1. Prípadne môžete zatvoriť okno "
+"a preskúmať živé prostredie alebo pokračovať tu a zistiť viac o prostredí "
+"KDE Plasma."
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -187,12 +190,14 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"Okno môžete zavrieť a preskúmať živé prostredie alebo pokračovať tu a "
+"dozvedieť sa viac o prostredí KDE Plasma."
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr ""
+msgstr "Navštíviť domovskú stránku"
 
 #: src/contents/ui/pages/Network.qml:23
 #, kde-format
@@ -221,6 +226,8 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"Táto stránka sa zobrazuje bez ohľadu na pripojenie k sieti, pretože "
+"používate vývojovú verziu."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:21
 #, kde-format
@@ -331,17 +338,13 @@ msgid "Your system command center"
 msgstr "Príkazové centrum vášho systému"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Získať nové veci"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Rozšírenie systému pomocou doplnkov"
@@ -410,12 +413,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Systémové nastavenia"
+msgstr "Otvoriť nastavenia…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -511,24 +512,13 @@ msgstr ""
 "pomocou klávesovej skratky <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Získať nové veci"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -540,20 +530,18 @@ msgid ""
 "functionality or stability."
 msgstr ""
 "V Plasma, Systémových nastaveniach a aplikáciách KDE nájdete tlačidlá s "
-"označením \"Získať novú [vec]...\". Kliknutím na ne sa zobrazí obsah tretích "
-"strán na rozšírenie systému, ktorý vytvorili ďalší ľudia ako vy! Takto je "
-"často možné pridať požadované funkcie bez toho, aby ste museli požiadať "
-"vývojárov KDE, aby ich implementovali sami.<nl/><nl/>Je potrebné upozorniť, "
-"že takto získaný obsah nebol skontrolovaný distribútorom z hľadiska "
-"funkčnosti alebo stability."
+"označením \"Získať novú <emphasis>vec</emphasis>...\". Kliknutím na ne sa "
+"zobrazí obsah tretích strán na rozšírenie systému, ktorý vytvorili ďalší "
+"ľudia ako vy! Takto je často možné pridať požadované funkcie bez toho, aby "
+"ste museli požiadať vývojárov KDE, aby ich implementovali sami.<nl/><nl/>Je "
+"potrebné upozorniť, že takto získaný obsah nebol skontrolovaný distribútorom "
+"z hľadiska funkčnosti alebo stability."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Pozrite si všetok dostupný obsah tretích strán"
+msgstr "Zobraziť obsah tretích strán..."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:16
 #, kde-format
@@ -562,14 +550,7 @@ msgid "Simple by Default"
 msgstr "Jednoduché v predvolenom nastavení"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -582,25 +563,17 @@ msgstr ""
 "Plasma je navrhnutá tak, aby bola jednoduchá a použiteľná hneď po otvorení. "
 "Veci sú tam, kde by ste ich očakávali, a vo všeobecnosti nie je potrebné nič "
 "konfigurovať, aby ste mohli byť spokojní a produktívni.<nl/><nl/>Ak by ste "
-"to potrebovali, všetko potrebné nájdete v aplikácii <application>Systémové "
-"nastavenia</application>."
+"to potrebovali, všetko potrebné nájdete v aplikácii <application>%1</"
+"application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Uvítacie centrum"
+msgstr "Vitajte"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -609,20 +582,14 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Plasma je slobodné desktopové prostredie s otvoreným zdrojovým kódom, ktoré "
-"vytvorila medzinárodná softvérová komunita dobrovoľníkov KDE. Desktopové "
-"prostredie Plasma je v predvolenom nastavení jednoduché, aby ste mohli "
-"pracovať bez problémov, ale v prípade potreby je výkonné, aby vám pomohlo "
-"skutočne dosiahnuť dokončenie úloh. Dúfame, že sa vám bude páčiť!"
+"%1<nl/><nl/>Tento operačný systém používa Plasmu, slobodné a otvorené "
+"prostredie vytvorené medzinárodnou softvérovou komunitou dobrovoľníkov KDE. "
+"Je navrhnuté tak, aby bolo v predvolenom nastavení jednoduché na "
+"bezproblémové používanie, ale výkonné, keď je to potrebné, aby vám pomohlo "
+"skutočne robiť veci. Dúfame, že sa vám bude páčiť!"
 
 #: src/contents/ui/pages/Welcome.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -631,11 +598,12 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Plasma je slobodné desktopové prostredie s otvoreným zdrojovým kódom, ktoré "
-"vytvorila medzinárodná softvérová komunita dobrovoľníkov KDE. Desktopové "
-"prostredie Plasma je v predvolenom nastavení jednoduché, aby ste mohli "
-"pracovať bez problémov, ale v prípade potreby je výkonné, aby vám pomohlo "
-"skutočne dosiahnuť dokončenie úloh. Dúfame, že sa vám bude páčiť!"
+"Vitajte v operačnom systéme %1 s prostredím KDE Plasma!<nl/><nl/>Plasma je "
+"slobodné a open-source pracovné prostredie vytvorené medzinárodnou "
+"softvérovou dobrovoľníckou KDE komunitou. Je navrhnuté tak, aby bolo v "
+"predvolenom nastavení jednoduché na bezproblémové používanie, ale výkonné, "
+"keď je to potrebné, aby vám pomohlo skutočne robiť veci. Dúfame, že sa vám "
+"bude páčiť!"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
@@ -644,24 +612,23 @@ msgid "Learn more about the KDE community"
 msgstr "Zistite viac o komunite KDE"
 
 #: src/contents/ui/pages/Welcome.qml:34
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Zistite viac o komunite KDE"
+msgstr "Zistite viac o %1"
 
 #: src/contents/ui/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Načítanie obrázka zlyhalo"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Nepodarilo sa načítať <filename>%1</filename>. Uistite sa, že existuje."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
@@ -673,19 +640,19 @@ msgstr "Maskot KDE Konqi vás víta v komunite KDE!"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Dev"
 
 #: src/controller.cpp:70
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:73
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/main.cpp:40
 #, kde-format
@@ -731,15 +698,13 @@ msgstr "Zobraziť poznámky k vydaniu aktuálnej verzie Plasma."
 #: src/main.cpp:72
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr ""
+msgstr "Zobrazenie živej stránky určenej pre živé prostredia distribúcie."
 
 #: src/qml/ApplicationIcon.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Spustite Discover teraz"
+msgstr "Spustiť %1 teraz"
 
 #~ msgctxt "@title: window"
 #~ msgid "Connect Online Accounts"
