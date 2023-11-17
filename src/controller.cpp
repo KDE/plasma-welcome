@@ -61,17 +61,17 @@ Controller::Controller()
         int minor = (PLASMA_WELCOME_VERSION_MAJOR == finalMajor && PLASMA_WELCOME_VERSION_MINOR == finalMinor) ? 0 : PLASMA_WELCOME_VERSION_MINOR + 1;
         const QString version = QStringLiteral("%1.%2").arg(QString::number(major), QString::number(minor));
 
-        if constexpr (PLASMA_WELCOME_VERSION_MINOR >= 80 && PLASMA_WELCOME_VERSION_MINOR <= 90) {
+        if constexpr (PLASMA_WELCOME_VERSION_MINOR == 80 && PLASMA_WELCOME_VERSION_MINOR <= 70) {
                 m_shownVersion = i18nc("@label %1 is the Plasma version", "6 Alpha (%1)", version);
-        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 90) {
+        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 90 && PLASMA_WELCOME_VERSION_MINOR <= 70) {
                 m_shownVersion = i18nc("@label %1 is the Plasma version", "6 Beta 1 (%1)", version);
-        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 91) {
+        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 91 && PLASMA_WELCOME_VERSION_MINOR <= 70) {
                 m_shownVersion = i18nc("@label %1 is the Plasma version", "6 Beta 2 (%1)", version);
-        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 92) {
+        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 92 && PLASMA_WELCOME_VERSION_MINOR <= 70) {
                 m_shownVersion = i18nc("@label %1 is the Plasma version", "6 RC 1 (%1)", version);
-        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 93) {
+        } else if constexpr (PLASMA_WELCOME_VERSION_MINOR == 93 && PLASMA_WELCOME_VERSION_MINOR <= 70) {
                 m_shownVersion = i18nc("@label %1 is the Plasma version", "6 RC 2 (%1)", version);
-        } else if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80) {
+        } else if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 80 && PLASMA_WELCOME_VERSION_PATCH <= 90) {
             // Development version
             m_shownVersion = i18nc("@label %1 is the Plasma version", "%1 Dev", version);
         } else if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 90) {
