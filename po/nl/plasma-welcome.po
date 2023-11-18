@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-10 01:48+0000\n"
+"POT-Creation-Date: 2023-11-18 01:37+0000\n"
 "PO-Revision-Date: 2023-10-19 10:47+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -637,19 +637,53 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "De mascotte van KDE, Konqi, verwelkomt u in de KDE-gemeenschap!"
 
-#: src/controller.cpp:66
+#: src/controller.cpp:65
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "6 Alpha (%1)"
+msgstr ""
+
+#: src/controller.cpp:67
+#, fuzzy, kde-format
+#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+#| msgid "%1 Beta %2"
+msgctxt "@label %1 is the Plasma version"
+msgid "6 Beta 1 (%1)"
+msgstr "%1 beta %2"
+
+#: src/controller.cpp:69
+#, fuzzy, kde-format
+#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+#| msgid "%1 Beta %2"
+msgctxt "@label %1 is the Plasma version"
+msgid "6 Beta 2 (%1)"
+msgstr "%1 beta %2"
+
+#: src/controller.cpp:71
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "6 RC 1 (%1)"
+msgstr ""
+
+#: src/controller.cpp:73
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "6 RC 2 (%1)"
+msgstr ""
+
+#: src/controller.cpp:76
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 Ontw"
 
-#: src/controller.cpp:70
+#: src/controller.cpp:80
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 beta"
 
-#: src/controller.cpp:73
+#: src/controller.cpp:83
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
