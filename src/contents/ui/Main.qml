@@ -23,90 +23,17 @@ Kirigami.ApplicationWindow {
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
     pageStack.defaultColumnWidth: width
 
-    footer: Item {
+    footer: Footer {
         width: root.width
-        height: footerLayout.implicitHeight + (footerLayout.anchors.margins * 2)
-
-        Kirigami.Separator {
-            id: footerSeparator
-
-            anchors.bottom: parent.top
-            width: parent.width
-        }
-
-        // Not using QQC2.Toolbar so that the window is draggable
-        // from the footer, both appear identical
-        Kirigami.AbstractApplicationHeader {
-            id: footerToolbar
-
-            height: parent.height
-            width: parent.width
-
-            separatorVisible: false
-
-            contentItem: RowLayout {
-                id: footerLayout
-
-                anchors.fill: parent
-                anchors.margins: Kirigami.Units.smallSpacing
-
-                spacing: Kirigami.Units.smallSpacing
-
-                QQC2.Button {
-                    Layout.alignment: Qt.AlignLeft
-                    id: prevButton
-                    visible: pageStack.depth > 1
-                    action: Kirigami.Action {
-                        text: pageStack.currentIndex === 0 && pageStack.layers.depth === 1 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
-                        icon.name: pageStack.currentIndex === 0 && pageStack.layers.depth === 1 ? "dialog-cancel" : "arrow-left"
-                        shortcut: "Left"
-                        enabled: prevButton.enabled
-                        onTriggered: {
-                            if (pageStack.layers.depth > 1) {
-                                pageStack.layers.pop()
-                            } else if (pageStack.currentIndex != 0) {
-                                pageStack.currentIndex -= 1
-                            } else {
-                                Qt.quit();
-                            }
-                        }
-                    }
-                }
-
-                QQC2.PageIndicator {
-                    Layout.alignment: Qt.AlignHCenter
-                    enabled: pageStack.layers.depth === 1
-                    visible: pageStack.depth > 1
-                    count: pageStack.depth
-                    currentIndex: pageStack.currentIndex
-                    interactive: true
-                    onCurrentIndexChanged: { pageStack.currentIndex = currentIndex; }
-                }
-
-                QQC2.Button {
-                    Layout.alignment: Qt.AlignRight
-                    id: nextButton
-                    enabled: footerToolbar.visible && pageStack.layers.depth === 1
-                    action: Kirigami.Action {
-                        text: {
-                            if (pageStack.depth <= 1) {
-                                return i18nc("@action:button", "&OK");
-                            } else {
-                                return pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next");
-                            }
-                        }
-                        icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
-                        shortcut: "Right"
-                        enabled: nextButton.enabled
-                        onTriggered: {
-                            if (pageStack.currentIndex < pageStack.depth - 1) {
-                                pageStack.currentIndex += 1
-                            } else {
-                                Qt.quit();
-                            }
-                        }
-                    }
-                }
+        contentSource: {
+            switch (Controller.mode) {
+                case Controller.Welcome:
+                case Controller.Live:
+                default:
+                    return "FooterDefault.qml";
+                case Controller.Update:
+                case Controller.Beta:
+                    return "FooterUpdate.qml";
             }
         }
     }

@@ -28,6 +28,9 @@ ecm_target_qml_sources(plasma-welcome SOURCES
 ecm_target_qml_sources(plasma-welcome PATH ""
     SOURCES
     contents/ui/Main.qml
+    contents/ui/footers/Footer.qml
+    contents/ui/footers/FooterDefault.qml
+    contents/ui/footers/FooterUpdate.qml
     contents/ui/pages/PlasmaUpdate.qml
     contents/ui/pages/plasmaupdate/Update.qml
     contents/ui/pages/plasmaupdate/Beta.qml
