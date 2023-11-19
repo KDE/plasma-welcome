@@ -15,8 +15,6 @@ import org.kde.plasma.welcome
 Kirigami.ApplicationWindow {
     id: root
 
-    property bool showFooter: true
-
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 32
     width: Kirigami.Units.gridUnit * 36
@@ -28,8 +26,6 @@ Kirigami.ApplicationWindow {
     footer: Item {
         width: root.width
         height: footerLayout.implicitHeight + (footerLayout.anchors.margins * 2)
-
-        visible: root.showFooter
 
         Kirigami.Separator {
             id: footerSeparator
@@ -59,7 +55,7 @@ Kirigami.ApplicationWindow {
                 QQC2.Button {
                     Layout.alignment: Qt.AlignLeft
                     id: prevButton
-                    enabled: footerToolbar.visible
+                    visible: pageStack.depth > 1
                     action: Kirigami.Action {
                         text: pageStack.currentIndex === 0 && pageStack.layers.depth === 1 ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
                         icon.name: pageStack.currentIndex === 0 && pageStack.layers.depth === 1 ? "dialog-cancel" : "arrow-left"
@@ -80,6 +76,7 @@ Kirigami.ApplicationWindow {
                 QQC2.PageIndicator {
                     Layout.alignment: Qt.AlignHCenter
                     enabled: pageStack.layers.depth === 1
+                    visible: pageStack.depth > 1
                     count: pageStack.depth
                     currentIndex: pageStack.currentIndex
                     interactive: true
@@ -91,7 +88,13 @@ Kirigami.ApplicationWindow {
                     id: nextButton
                     enabled: footerToolbar.visible && pageStack.layers.depth === 1
                     action: Kirigami.Action {
-                        text: pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
+                        text: {
+                            if (pageStack.depth <= 1) {
+                                return i18nc("@action:button", "&OK");
+                            } else {
+                                return pageStack.currentIndex === pageStack.depth - 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next");
+                            }
+                        }
                         icon.name: pageStack.currentIndex === pageStack.depth - 1 ? "dialog-ok-apply" : "arrow-right"
                         shortcut: "Right"
                         enabled: nextButton.enabled
@@ -138,7 +141,6 @@ Kirigami.ApplicationWindow {
             case Controller.Beta:
                 pushPage(createPage("PlasmaUpdate.qml"));
 
-                root.showFooter = false;
                 break;
 
             case Controller.Live:
@@ -178,7 +180,6 @@ Kirigami.ApplicationWindow {
                 pushPage(createPage("Contribute.qml"));
                 pushPage(createPage("Donate.qml"));
 
-                root.showFooter = true;
                 break;
         }
     }
