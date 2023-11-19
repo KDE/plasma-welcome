@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-18 01:37+0000\n"
-"PO-Revision-Date: 2023-10-19 07:22+0100\n"
+"PO-Revision-Date: 2023-11-18 08:12+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -276,7 +276,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Volboj"
+msgstr "Vaults"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
@@ -418,7 +418,7 @@ msgstr "Malfermi Agordojn…"
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr "KDE Konekti"
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:163
 #, kde-kuit-format
@@ -631,35 +631,31 @@ msgstr "La KDE-maskoto Konqi bonvenigas vin al la KDE-komunumo!"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Alpha (%1)"
-msgstr ""
+msgstr "6 Alfa (%1)"
 
 #: src/controller.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 1 (%1)"
-msgstr "%1 Beta %2"
+msgstr "6 Beta 1 (%1)"
 
 #: src/controller.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 2 (%1)"
-msgstr "%1 Beta %2"
+msgstr "6 Beta 2 (%1)"
 
 #: src/controller.cpp:71
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 1 (%1)"
-msgstr ""
+msgstr "6 RC 1 (%1)"
 
 #: src/controller.cpp:73
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 2 (%1)"
-msgstr ""
+msgstr "6 RC 2 (%1)"
 
 #: src/controller.cpp:76
 #, kde-format
@@ -718,7 +714,7 @@ msgstr "Nate Graham"
 #: src/main.cpp:71
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr "Montru eldonnotojn por la nuna Plasma eldono."
+msgstr "Montri eldonnotojn por la nuna Plasma eldono."
 
 #: src/main.cpp:72
 #, kde-format
@@ -729,29 +725,4 @@ msgstr "Montri la envivan paĝon intencitan por envivaj distribumedioj."
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Lanĉu %1 nun"
-
-#~ msgctxt "@title: window"
-#~ msgid "Connect Online Accounts"
-#~ msgstr "Konekti Retajn Kontojn"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "This will let you access their content in KDE apps. You can set it up in "
-#~ "System Settings, and here too."
-#~ msgstr ""
-#~ "Ĉi tio permesos al vi aliri ilian enhavon en KDE-aplikoj. Vi povas agordi "
-#~ "ĝin en Sistemaj Agordoj, kaj ankaŭ ĉi tie."
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "Miraculously, KDE operates on a shoestring budget, relying largely on "
-#~ "donations of labor and resources. You can help change that!<nl/><nl/"
-#~ ">Financial donations help KDE pay for development sprints, hardware and "
-#~ "server resources, and expanded employment. Donations are tax-deductible "
-#~ "in Germany."
-#~ msgstr ""
-#~ "Mirakle, KDE funkcias per ŝulmobuĝeto, dependante plejparte de donacoj de "
-#~ "laboro kaj rimedoj. Vi povas helpi ŝanĝi tion!<nl/><nl/>Financaj donacoj "
-#~ "helpas KDE pagi por evoluspuroj, aparataro kaj servilaj rimedoj, kaj "
-#~ "pligrandigita dungado. Donacoj estas impostdeducteblaj en Germanio."
+msgstr "Lanĉi %1 nun"

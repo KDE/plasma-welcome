@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-18 01:37+0000\n"
-"PO-Revision-Date: 2023-10-19 12:47+0200\n"
+"PO-Revision-Date: 2023-11-18 09:50+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -648,35 +648,31 @@ msgstr "La mascota Konqui de KDE vos dona la benvinguda a la Comunitat KDE!"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Alpha (%1)"
-msgstr ""
+msgstr "6 alfa (%1)"
 
 #: src/controller.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 1 (%1)"
-msgstr "%1 Beta %2"
+msgstr "6 beta 1 (%1)"
 
 #: src/controller.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 2 (%1)"
-msgstr "%1 Beta %2"
+msgstr "6 beta 2 (%1)"
 
 #: src/controller.cpp:71
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 1 (%1)"
-msgstr ""
+msgstr "6 RC 1 (%1)"
 
 #: src/controller.cpp:73
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 2 (%1)"
-msgstr ""
+msgstr "6 RC 2 (%1)"
 
 #: src/controller.cpp:76
 #, kde-format
@@ -748,15 +744,3 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Inicia ara %1"
-
-#~ msgctxt "@title: window"
-#~ msgid "Connect Online Accounts"
-#~ msgstr "Connectar els comptes en línia"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "This will let you access their content in KDE apps. You can set it up in "
-#~ "System Settings, and here too."
-#~ msgstr ""
-#~ "Permet accedir al seu contingut en les aplicacions de KDE. Podeu "
-#~ "configurar-ho a Configuració del sistema, i també ací."
