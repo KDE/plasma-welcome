@@ -79,6 +79,7 @@ Kirigami.ApplicationWindow {
 
                 QQC2.PageIndicator {
                     Layout.alignment: Qt.AlignHCenter
+                    enabled: pageStack.layers.depth === 1
                     count: pageStack.depth
                     currentIndex: pageStack.currentIndex
                     interactive: true
