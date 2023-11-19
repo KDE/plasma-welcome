@@ -13,21 +13,22 @@ import org.kde.kirigami as Kirigami
 Kirigami.Page {
     id: page
 
-    title: heading
     required property string heading
     required property string description
-    property alias topContent: layout.children
-    property int margins: Kirigami.Units.gridUnit
+
+    property alias topContent: topContentLayout.children
+
+    readonly property int margins: Kirigami.Units.gridUnit
+
+    title: heading
     leftPadding: margins
     rightPadding: margins
 
     header: Item {
-
-        height: layout.implicitHeight + page.margins * 2
+        height: layout.implicitHeight + (page.margins * 2)
 
         ColumnLayout {
             id: layout
-
             width: parent.width - (page.margins * 2)
             anchors.centerIn: parent
 
@@ -35,6 +36,10 @@ Kirigami.Page {
                 Layout.fillWidth: true
                 text: page.description
                 wrapMode: Text.WordWrap
+            }
+
+            ColumnLayout {
+                id: topContentLayout
             }
         }
     }

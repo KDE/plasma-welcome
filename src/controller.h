@@ -41,7 +41,7 @@ public:
     Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
     Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
 
-    enum Mode { Update, Live, Welcome };
+    enum Mode { Update, Beta, Live, Welcome };
     Q_ENUM(Mode)
 
     void setMode(Mode mode);

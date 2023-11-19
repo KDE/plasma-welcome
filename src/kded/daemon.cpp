@@ -29,12 +29,8 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
         if (m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty()) {
             launch(QStringList{});
         } else if (m_config.readEntry("ShowUpdatePage", true) && isSignificantUpgrade()) {
-            // Disable update page for Plasma 6.0 pre-release - we currently have nothing special to show
-            if (m_currentVersion.majorVersion() == 5 && m_currentVersion.minorVersion() >= 80) {
-                return;
-            }
-
-            launch(QStringList{QStringLiteral("--post-update")});
+            const bool isBeta = (m_currentVersion.microVersion() >= 90 || m_currentVersion.minorVersion() >= 80);
+            launch(QStringList{isBeta ? QStringLiteral("--post-update-beta") : QStringLiteral("--post-update")});
         }
 
         m_config.writeEntry("LastSeenVersion", m_currentVersion.toString());
@@ -48,12 +44,20 @@ bool PlasmaWelcomeDaemon::isSignificantUpgrade() const
         // We should get atleast two version numbers, X.X(.X)
         Q_ASSERT(m_currentVersion.segmentCount() > 1 && m_previousVersion.segmentCount() > 1);
 
-        // 5.X(.X) -> 6.X(.X)
+        // Ignore development versions
+        if (m_currentVersion.microVersion() == 80)
+            return false;
+
+        // 5(.X.X) -> 6(.X.X)
         if (m_currentVersion.majorVersion() > m_previousVersion.majorVersion())
             return true;
 
         // 5.1(.X) -> 5.2(.X)
         if ((m_currentVersion.majorVersion() == m_previousVersion.majorVersion()) && (m_currentVersion.minorVersion() > m_previousVersion.minorVersion()))
+            return true;
+
+        // X.X.X -> X.X.90 (upgrade to beta version)
+        if (m_currentVersion.microVersion() >= 90 && m_currentVersion.microVersion() > m_previousVersion.microVersion())
             return true;
     }
 

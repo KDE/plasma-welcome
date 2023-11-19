@@ -8,9 +8,10 @@ Friendly onboarding wizard for Plasma
 
 Welcome Center is the perfect introduction to KDE Plasma! It can help you learn how to connect to the internet, install apps, customize the system, and more!
 
-There are three mutually exclusive usage modes:
+There are four mutually exclusive usage modes:
 - Run the app normally and it will show a welcome/onboarding wizard.
 - Run the app with the `--post-update` argument to show a post-update message.
+- Run the app with the `--post-update-beta` argument to show a post-update message for beta releases.
 - Run the app with the `--live-environment` argument to show a reduced wizard with the live installer page and no settings pages.
 
 ## Screenshots

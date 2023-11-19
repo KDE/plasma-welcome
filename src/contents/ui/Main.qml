@@ -15,7 +15,7 @@ import org.kde.plasma.welcome
 Kirigami.ApplicationWindow {
     id: root
 
-    readonly property bool showingPlasmaUpdate: Controller.mode === Controller.Update
+    property bool showFooter: true
 
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 32
@@ -29,7 +29,7 @@ Kirigami.ApplicationWindow {
         width: root.width
         height: footerLayout.implicitHeight + (footerLayout.anchors.margins * 2)
 
-        visible: !root.showingPlasmaUpdate
+        visible: root.showFooter
 
         Kirigami.Separator {
             id: footerSeparator
@@ -135,7 +135,10 @@ Kirigami.ApplicationWindow {
         // Push pages dynamically
         switch (Controller.mode) {
             case Controller.Update:
+            case Controller.Beta:
                 pushPage(createPage("PlasmaUpdate.qml"));
+
+                root.showFooter = false;
                 break;
 
             case Controller.Live:
@@ -145,7 +148,7 @@ Kirigami.ApplicationWindow {
             case Controller.Welcome:
                 pushPage(createPage("Welcome.qml"));
 
-                if (!Controller.networkAlreadyConnected()) {
+                if (!Controller.networkAlreadyConnected() || Controller.patchVersion === 80) {
                     pushPage(createPage("Network.qml"));
                 }
 
@@ -174,6 +177,8 @@ Kirigami.ApplicationWindow {
 
                 pushPage(createPage("Contribute.qml"));
                 pushPage(createPage("Donate.qml"));
+
+                root.showFooter = true;
                 break;
         }
     }

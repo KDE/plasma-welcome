@@ -28,6 +28,8 @@ ecm_target_qml_sources(plasma-welcome PATH ""
     SOURCES
     contents/ui/Main.qml
     contents/ui/pages/PlasmaUpdate.qml
+    contents/ui/pages/plasmaupdate/Update.qml
+    contents/ui/pages/plasmaupdate/Beta.qml
     contents/ui/pages/Live.qml
     contents/ui/pages/Welcome.qml
     contents/ui/pages/Network.qml
