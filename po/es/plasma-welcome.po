@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-18 01:37+0000\n"
-"PO-Revision-Date: 2023-10-19 12:51+0200\n"
+"POT-Creation-Date: 2023-11-20 02:00+0000\n"
+"PO-Revision-Date: 2023-11-19 03:05+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.2\n"
+"X-Generator: Lokalize 23.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,13 +41,13 @@ msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Volver"
 
-#: src/contents/ui/Main.qml:93
+#: src/contents/ui/Main.qml:94
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Terminar"
 
-#: src/contents/ui/Main.qml:93
+#: src/contents/ui/Main.qml:94
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -223,7 +223,7 @@ msgstr ""
 "icono <interface>Redes</interface> de la <interface>Bandeja del sistema</"
 "interface>, que reside en la esquina inferior derecha de la pantalla."
 
-#: src/contents/ui/pages/Network.qml:250
+#: src/contents/ui/pages/Network.qml:255
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -648,35 +648,31 @@ msgstr "¡Konqi, la mascota de KDE, le da la bienvenida a la comunidad KDE!"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Alpha (%1)"
-msgstr ""
+msgstr "6 Alfa (%1)"
 
 #: src/controller.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 1 (%1)"
-msgstr "%1 Beta %2"
+msgstr "6 Beta 1 (%1)"
 
 #: src/controller.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 2 (%1)"
-msgstr "%1 Beta %2"
+msgstr "6 Beta 2 (%1)"
 
 #: src/controller.cpp:71
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 1 (%1)"
-msgstr ""
+msgstr "6 RC 1 (%1)"
 
 #: src/controller.cpp:73
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 2 (%1)"
-msgstr ""
+msgstr "6 RC 2 (%1)"
 
 #: src/controller.cpp:76
 #, kde-format

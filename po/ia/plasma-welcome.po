@@ -2,12 +2,13 @@
 # This file is distributed under the same license as the plasma-welcome package.
 #
 # SPDX-FileCopyrightText: 2023 giovanni <g.sora@tiscali.it>
+# giovanni <g.sora@tiscali.it>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-18 01:37+0000\n"
-"PO-Revision-Date: 2023-10-19 09:23+0200\n"
+"POT-Creation-Date: 2023-11-20 02:00+0000\n"
+"PO-Revision-Date: 2023-11-19 17:37+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -39,13 +40,13 @@ msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Retro"
 
-#: src/contents/ui/Main.qml:93
+#: src/contents/ui/Main.qml:94
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Termina"
 
-#: src/contents/ui/Main.qml:93
+#: src/contents/ui/Main.qml:94
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -219,7 +220,7 @@ msgstr ""
 "<interface>Retes (Networks)</interface>  in tu <interface>Tabuliero de "
 "Systema </interface>, que habita in le angule a dextera a basso del schermo."
 
-#: src/contents/ui/pages/Network.qml:250
+#: src/contents/ui/pages/Network.qml:255
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -642,35 +643,31 @@ msgstr "Le mascotte de KDE Konqui te da le benvenite al communitate de KDE!"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Alpha (%1)"
-msgstr ""
+msgstr "6 Alpha (%1)"
 
 #: src/controller.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 1 (%1)"
-msgstr "%1 Beta %2"
+msgstr "6 Beta 1 (%1)"
 
 #: src/controller.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 2 (%1)"
-msgstr "%1 Beta %2"
+msgstr "6 Beta 2 (%1)"
 
 #: src/controller.cpp:71
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 1 (%1)"
-msgstr ""
+msgstr "6 RC 1 (%1)"
 
 #: src/controller.cpp:73
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 2 (%1)"
-msgstr ""
+msgstr "6 RC 2 (%1)"
 
 #: src/controller.cpp:76
 #, kde-format

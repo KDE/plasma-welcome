@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-18 01:37+0000\n"
-"PO-Revision-Date: 2023-10-20 05:45+0200\n"
+"POT-Creation-Date: 2023-11-20 02:00+0000\n"
+"PO-Revision-Date: 2023-11-19 06:36+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -40,13 +40,13 @@ msgctxt "@action:button"
 msgid "&Back"
 msgstr "&უკან"
 
-#: src/contents/ui/Main.qml:93
+#: src/contents/ui/Main.qml:94
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&დასრულება"
 
-#: src/contents/ui/Main.qml:93
+#: src/contents/ui/Main.qml:94
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -220,7 +220,7 @@ msgstr ""
 "მართოთ. მასთან წვდომისთვის დააწკაპუნეთ <interface>ქსელის</interface> "
 "ხატულაზე <interface>სისტემის კუთხეში, საათთან</interface>."
 
-#: src/contents/ui/pages/Network.qml:250
+#: src/contents/ui/pages/Network.qml:255
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -633,35 +633,31 @@ msgstr "KDE-ის თილისმა კონქსი მოგესა�
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Alpha (%1)"
-msgstr ""
+msgstr "6 ალფა (%1)"
 
 #: src/controller.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 1 (%1)"
-msgstr "%1 ბეტა %2"
+msgstr "6 ბეტა 1 (%1)"
 
 #: src/controller.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 Beta 2 (%1)"
-msgstr "%1 ბეტა %2"
+msgstr "6 ბეტა 2 (%1)"
 
 #: src/controller.cpp:71
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 1 (%1)"
-msgstr ""
+msgstr "6 RC 1 (%1)"
 
 #: src/controller.cpp:73
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "6 RC 2 (%1)"
-msgstr ""
+msgstr "6 RC 2 (%1)"
 
 #: src/controller.cpp:76
 #, kde-format
