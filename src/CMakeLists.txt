@@ -20,6 +20,7 @@ target_sources(plasma-welcome PRIVATE
 
 ecm_target_qml_sources(plasma-welcome SOURCES
     qml/GenericPage.qml
+    qml/ScrollablePage.qml
     qml/KCM.qml
     qml/ApplicationIcon.qml
 )
@@ -41,6 +42,7 @@ ecm_target_qml_sources(plasma-welcome PATH ""
     contents/ui/pages/kcms/Feedback.qml
     contents/ui/pages/Contribute.qml
     contents/ui/pages/Donate.qml
+    contents/ui/pages/donate/Supporters.qml
     RESOURCES
     contents/assets/konqi-donations.png
     contents/assets/konqi-kde-hi.png

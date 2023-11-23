@@ -44,4 +44,16 @@ GenericPage {
             text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", link.url)
         }
     }
+
+    actions: [
+        Kirigami.Action {
+            icon.name: "favorite-symbolic"
+            text: i18nc("@action:button", "Plasma 6 Supporters")
+            onTriggered: pageStack.layers.push(supporters)
+        }
+    ]
+
+    Supporters {
+        id: supporters
+    }
 }
