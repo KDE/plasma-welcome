@@ -14,6 +14,14 @@ import org.kde.plasma.welcome
 RowLayout {
     spacing: Kirigami.Units.smallSpacing
 
+    QQC2.Switch {
+        Layout.alignment: Qt.AlignLeft
+
+        text: i18nc("@option:check", "Show this page after Plasma is updated")
+        checked: Config.showUpdatePage
+        onToggled: { Config.showUpdatePage = checked; Config.save() }
+    }
+
     QQC2.Button {
         id: okButton
         Layout.alignment: Qt.AlignRight
