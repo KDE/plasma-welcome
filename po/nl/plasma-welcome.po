@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-20 02:00+0000\n"
+"POT-Creation-Date: 2023-11-25 01:35+0000\n"
 "PO-Revision-Date: 2023-11-18 11:47+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,25 +27,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: src/contents/ui/Main.qml:64
+#: src/contents/ui/Main.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Over&slaan"
 
-#: src/contents/ui/Main.qml:64
+#: src/contents/ui/Main.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Terug"
 
-#: src/contents/ui/Main.qml:94
+#: src/contents/ui/Main.qml:93
+#, kde-format
+msgctxt "@action:button"
+msgid "&OK"
+msgstr ""
+
+#: src/contents/ui/Main.qml:95
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "Vol&tooien"
 
-#: src/contents/ui/Main.qml:94
+#: src/contents/ui/Main.qml:95
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -144,7 +150,7 @@ msgstr ""
 "aftrekbaar van de belasting."
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/PlasmaUpdate.qml:37
+#: src/contents/ui/pages/plasmaupdate/Update.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -230,13 +236,46 @@ msgstr ""
 "Deze pagina wordt getoond ongeacht netwerkverbindingen omdat u een "
 "ontwikkelversie gebruikt."
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:21
-#, kde-format
+#: src/contents/ui/pages/PlasmaUpdate.qml:18
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Plasma has been updated to version %1"
 msgctxt "@title:window"
-msgid "Plasma has been updated to version %1"
+msgid "Plasma has been updated to %1"
 msgstr "Plasma is bijgewerkt tot versie %1"
 
-#: src/contents/ui/pages/PlasmaUpdate.qml:22
+#: src/contents/ui/pages/plasmaupdate/Beta.qml:17
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Thank you for testing this beta release of Plasma—your feedback is "
+"fundamental to helping us improve it! Please report any and all bugs you "
+"find so that we can fix them."
+msgstr ""
+
+#: src/contents/ui/pages/plasmaupdate/Beta.qml:23
+#: src/contents/ui/pages/plasmaupdate/Update.qml:24
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Find out what's new in Plasma %1"
+msgctxt "@action:button"
+msgid "<b>Find out what's new</b>"
+msgstr "Ontdek wat is er nieuw sinds Plasma %1"
+
+#: src/contents/ui/pages/plasmaupdate/Beta.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Report a bug"
+msgstr ""
+
+#: src/contents/ui/pages/plasmaupdate/Beta.qml:32
+#: src/contents/ui/pages/plasmaupdate/Update.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Help work on the next release"
+msgstr "Help met het werk aan de volgende uitgave"
+
+#: src/contents/ui/pages/plasmaupdate/Update.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -246,18 +285,6 @@ msgstr ""
 "Zij die bijdragen aan KDE hebben de laatste vier maanden hard gewerkt aan "
 "deze uitgave. We hopen dat u geniet van het gebruik van Plasma evenveel als "
 "wij genieten van het maken!"
-
-#: src/contents/ui/pages/PlasmaUpdate.qml:27
-#, kde-format
-msgctxt "@action:button"
-msgid "Find out what's new in Plasma %1"
-msgstr "Ontdek wat is er nieuw sinds Plasma %1"
-
-#: src/contents/ui/pages/PlasmaUpdate.qml:32
-#, kde-format
-msgctxt "@action:button"
-msgid "Help work on the next release"
-msgstr "Help met het werk aan de volgende uitgave"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -637,49 +664,59 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "De mascotte van KDE, Konqi, verwelkomt u in de KDE-gemeenschap!"
 
-#: src/controller.cpp:65
-#, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "6 Alpha (%1)"
+#: src/controller.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "@label %1 is the Plasma version"
+#| msgid "%1 Dev"
+msgid "6.0 Dev"
+msgstr "%1 Ontw"
+
+#: src/controller.cpp:57
+#, fuzzy, kde-format
+#| msgctxt "@label %1 is the Plasma version"
+#| msgid "6 Alpha (%1)"
+msgid "6.0 Alpha"
 msgstr "6 Alfa (%1)"
 
-#: src/controller.cpp:67
-#, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "6 Beta 1 (%1)"
+#: src/controller.cpp:60
+#, fuzzy, kde-format
+#| msgctxt "@label %1 is the Plasma version"
+#| msgid "6 Beta 1 (%1)"
+msgid "6.0 Beta 1"
 msgstr "6 Beta 1 (%1)"
+
+#: src/controller.cpp:63
+#, fuzzy, kde-format
+#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+#| msgid "%1 Beta %2"
+msgid "6.0 Beta 2"
+msgstr "%1 beta %2"
+
+#: src/controller.cpp:66
+#, kde-format
+msgctxt "@label RC meaning Release Candidate"
+msgid "6.0 RC1"
+msgstr ""
 
 #: src/controller.cpp:69
 #, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "6 Beta 2 (%1)"
-msgstr "6 Beta 2 (%1)"
+msgctxt "@label RC meaning Release Candidate"
+msgid "6.0 RC2"
+msgstr ""
 
-#: src/controller.cpp:71
-#, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "6 RC 1 (%1)"
-msgstr "6 RC 1 (%1)"
-
-#: src/controller.cpp:73
-#, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "6 RC 2 (%1)"
-msgstr "6 RC 2 (%1)"
-
-#: src/controller.cpp:76
+#: src/controller.cpp:87
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 Ontw"
 
-#: src/controller.cpp:80
+#: src/controller.cpp:91
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 beta"
 
-#: src/controller.cpp:83
+#: src/controller.cpp:94
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
@@ -727,6 +764,13 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Uitgavenotities te tonen voor de huidige uitgave van Plasma."
 
 #: src/main.cpp:72
+#, fuzzy, kde-format
+#| msgid "Display release notes for the current Plasma release."
+msgid ""
+"Display release notes for the current Plasma release, for beta versions."
+msgstr "Uitgavenotities te tonen voor de huidige uitgave van Plasma."
+
+#: src/main.cpp:73
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "Toon de live-pagina bedoelt voor live-omgevingen van de distributie."
@@ -736,6 +780,18 @@ msgstr "Toon de live-pagina bedoelt voor live-omgevingen van de distributie."
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "%1 nu starten"
+
+#~ msgctxt "@label %1 is the Plasma version"
+#~ msgid "6 Beta 2 (%1)"
+#~ msgstr "6 Beta 2 (%1)"
+
+#~ msgctxt "@label %1 is the Plasma version"
+#~ msgid "6 RC 1 (%1)"
+#~ msgstr "6 RC 1 (%1)"
+
+#~ msgctxt "@label %1 is the Plasma version"
+#~ msgid "6 RC 2 (%1)"
+#~ msgstr "6 RC 2 (%1)"
 
 #~ msgctxt "@title: window"
 #~ msgid "Connect Online Accounts"
