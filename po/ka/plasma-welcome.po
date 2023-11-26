@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-25 01:35+0000\n"
-"PO-Revision-Date: 2023-11-19 06:36+0100\n"
+"PO-Revision-Date: 2023-11-25 06:17+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -44,7 +44,7 @@ msgstr "&უკან"
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "&დიახ"
 
 #: src/contents/ui/Main.qml:95
 #, kde-format
@@ -237,9 +237,7 @@ msgstr ""
 "თქვენ სატესტო ვერსიას იყენებთ."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "Plasma განახლდა ვერსიამდე %1"
@@ -252,21 +250,22 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"მადლობა Plasma-ის ბეტა ვერსიის დატესტვისთვის - თქვენი უკუკავშირი "
+"ფასდაუდებელია! მოგვწერეთ ყველა შეცდომის შესახებ, რასაც შეამჩნევთ, რომ "
+"გავასწოროთ ისინი."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "გაიგეთ, რა არის ახალი Plasma %1-ში"
+msgstr "<b>გაიგეთ, რა არის ახალი</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "შეცდომის პატაკი"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -657,44 +656,36 @@ msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE-ის თილისმა კონქსი მოგესალმებათ KDE-ის საძმოში!"
 
 #: src/controller.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "%1 Dev"
+#, kde-format
 msgid "6.0 Dev"
-msgstr "%1 სატესტო"
+msgstr "6.0 სატესტო"
 
 #: src/controller.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "6 Alpha (%1)"
+#, kde-format
 msgid "6.0 Alpha"
-msgstr "6 ალფა (%1)"
+msgstr "6.0 ალფა"
 
 #: src/controller.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "6 Beta 1 (%1)"
+#, kde-format
 msgid "6.0 Beta 1"
-msgstr "6 ბეტა 1 (%1)"
+msgstr "6.0 ბეტა 1"
 
 #: src/controller.cpp:63
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgid "6.0 Beta 2"
-msgstr "%1 ბეტა %2"
+msgstr "6.0 ბეტა 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
@@ -756,11 +747,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Plasma-ის მიმდინარე რელიზის შენიშვნების ჩვენება."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "Plasma-ის მიმდინარე რელიზის შენიშვნების ჩვენება."
+msgstr "Plasma-ის მიმდინარე რელიზის და ბეტა ვერსიების შენიშვნების ჩვენება."
 
 #: src/main.cpp:73
 #, kde-format

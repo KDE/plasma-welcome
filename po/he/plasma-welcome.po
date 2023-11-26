@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-25 01:35+0000\n"
-"PO-Revision-Date: 2023-11-20 14:34+0200\n"
+"PO-Revision-Date: 2023-11-25 14:18+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -44,7 +44,7 @@ msgstr "&חזרה"
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "&אישור"
 
 #: src/contents/ui/Main.qml:95
 #, kde-format
@@ -230,9 +230,7 @@ msgid ""
 msgstr "עמוד זה מוצג ללא תלות במצב החיבור לרשת כיוון שבחרת להשתמש בגרסת פיתוח."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "פלזמה עודכנה לגרסה %1"
@@ -245,21 +243,21 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"תודה לך על בדיקת מהדורת הבטא של פלזמה - המשוב שלך הכרחי לסיוע בשיפורה! נא "
+"לדווח על כל מה שמפריע לך כדי שנוכל לתקן את זה."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "מידע על מה חדש בפלזמה %1"
+msgstr "<b>אז מה חדש</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "דיווח על תקלה"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -641,44 +639,36 @@ msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "קונקי, הקמע של KDE מקבל את פניך לקהילת KDE!"
 
 #: src/controller.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "%1 Dev"
+#, kde-format
 msgid "6.0 Dev"
-msgstr "%1 פיתוח"
+msgstr "6.0 פיתוח"
 
 #: src/controller.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "6 Alpha (%1)"
+#, kde-format
 msgid "6.0 Alpha"
-msgstr "6 אלפא (%1)"
+msgstr "6.0 אלפא"
 
 #: src/controller.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "6 Beta 1 (%1)"
+#, kde-format
 msgid "6.0 Beta 1"
-msgstr "6 בטא ראשונה (%1)"
+msgstr "6.0 בטא ראשונה"
 
 #: src/controller.cpp:63
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgid "6.0 Beta 2"
-msgstr "%1 בטא %2"
+msgstr "6.0 בטא שנייה"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 מועמדת ראשונה להפצה"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 מועמדת שנייה להפצה"
 
 #: src/controller.cpp:87
 #, kde-format
@@ -740,11 +730,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה."
+msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה, גרסאות בטא."
 
 #: src/main.cpp:73
 #, kde-format
