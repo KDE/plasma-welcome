@@ -11,7 +11,7 @@ import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome
 
-Kirigami.Icon {
+Item {
     id: root
 
     readonly property string description: xi18nc("@info:usagetip", "Thank you for testing this beta release of Plasma—your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them.")
@@ -34,16 +34,21 @@ Kirigami.Icon {
         }
     ]
 
-    width: Kirigami.Units.iconSizes.enormous * 1.5
-    height: Kirigami.Units.iconSizes.enormous * 1.5
+    Kirigami.Icon {
+        id: plasmaIcon
+        anchors.centerIn: root
 
-    source: "start-here-kde-plasma"
+        width: Kirigami.Units.iconSizes.enormous * 1.5
+        height: Kirigami.Units.iconSizes.enormous * 1.5
+
+        source: "start-here-kde-plasma"
+    }
 
     Kirigami.Icon {
         id: gearIcon
 
-        anchors.horizontalCenter: root.right
-        anchors.verticalCenter: root.bottom
+        anchors.horizontalCenter: plasmaIcon.right
+        anchors.verticalCenter: plasmaIcon.bottom
         anchors.horizontalCenterOffset: -width / 4
         anchors.verticalCenterOffset: -height / 4
 

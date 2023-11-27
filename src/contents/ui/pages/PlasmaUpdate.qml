@@ -22,7 +22,7 @@ GenericPage {
 
     Loader {
         id: contentLoader
-        anchors.centerIn: parent
+        anchors.fill: parent
 
         source: Controller.mode === Controller.Beta ? "Beta.qml" : "Update.qml"
     }

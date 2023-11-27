@@ -12,7 +12,7 @@ import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome
 
-RowLayout {
+ColumnLayout {
     id: root
 
     readonly property string description: xi18nc("@info:usagetip", "KDE contributors have spent the last four months hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!")
@@ -28,29 +28,52 @@ RowLayout {
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@action:button", "Help work on the next release")
             url: "https://community.kde.org/Get_Involved?source=plasma-welcome"
-        },
-        Kirigami.UrlButton {
-            text: i18nc("@action:button", "Make a donation")
-            url: "https://kde.org/community/donations?source=plasma-welcome"
         }
     ]
 
     spacing: Kirigami.Units.gridUnit
 
-    Kirigami.Icon {
-        Layout.preferredWidth: root.iconSize
-        Layout.preferredHeight: root.iconSize
-        source: "start-here-kde-plasma"
+    RowLayout {
+        Layout.alignment: Qt.AlignHCenter
+        Layout.fillHeight: true
+        Layout.maximumHeight: Number.POSITIVE_INFINITY
+
+        spacing: Kirigami.Units.gridUnit
+
+        Kirigami.Icon {
+            Layout.preferredWidth: root.iconSize
+            Layout.preferredHeight: root.iconSize
+            source: "start-here-kde-plasma"
+        }
+
+        QQC2.Label {
+            text: "="
+            font.pointSize: 72
+        }
+
+        Kirigami.Icon {
+            Layout.preferredWidth: root.iconSize
+            Layout.preferredHeight: root.iconSize
+            source: "face-in-love"
+        }
     }
 
-    QQC2.Label {
-        text: "="
-        font.pointSize: 72
-    }
+    Kirigami.AbstractCard {
+        Layout.fillWidth: true
 
-    Kirigami.Icon {
-        Layout.preferredWidth: root.iconSize
-        Layout.preferredHeight: root.iconSize
-        source: "face-in-love"
+        contentItem: ColumnLayout {
+            spacing: Kirigami.Units.smallSpacing
+
+            QQC2.Label {
+                Layout.fillWidth: true
+                wrapMode: Text.Wrap
+                text: xi18nc("@info:usagetip", "The KDE community relies on donations of expertise and funds, and is supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the wider KDE community, and you can make a difference by donating today.")
+            }
+
+            Kirigami.UrlButton {
+                text: i18nc("@action:button", "Make a donation")
+                url: "https://kde.org/community/donations?source=plasma-welcome"
+            }
+        }
     }
 }
