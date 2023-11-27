@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-25 01:35+0000\n"
-"PO-Revision-Date: 2023-11-18 09:50+0100\n"
+"PO-Revision-Date: 2023-11-25 11:31+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -47,7 +47,7 @@ msgstr "A&rrere"
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "D'ac&ord"
 
 #: src/contents/ui/Main.qml:95
 #, kde-format
@@ -243,12 +243,10 @@ msgstr ""
 "esteu utilitzant una versió de desenvolupament."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Plasma s'ha actualitzat a la versió %1"
+msgstr "Plasma s'ha actualitzat a %1"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -258,21 +256,22 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Gràcies per provar este llançament beta de Plasma: els vostres comentaris "
+"són fonamentals per a ajudar-nos a millorar-lo! Informeu de tots els errors "
+"que trobeu perquè puguem solucionar-los."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "Coneixeu què hi ha de nou en Plasma %1"
+msgstr "<b>Coneixeu què hi ha de nou</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "Informeu d'un error"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -672,44 +671,36 @@ msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "La mascota Konqui de KDE vos dona la benvinguda a la Comunitat KDE!"
 
 #: src/controller.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "%1 Dev"
+#, kde-format
 msgid "6.0 Dev"
-msgstr "%1 Dev"
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "6 Alpha (%1)"
+#, kde-format
 msgid "6.0 Alpha"
-msgstr "6 alfa (%1)"
+msgstr "6.0 alfa"
 
 #: src/controller.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "6 Beta 1 (%1)"
+#, kde-format
 msgid "6.0 Beta 1"
-msgstr "6 beta 1 (%1)"
+msgstr "6.0 beta 1"
 
 #: src/controller.cpp:63
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgid "6.0 Beta 2"
-msgstr "%1 Beta %2"
+msgstr "6.0 beta 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
@@ -771,11 +762,12 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Mostra les notes de llançament de la versió actual de Plasma."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "Mostra les notes de llançament de la versió actual de Plasma."
+msgstr ""
+"Mostra les notes de llançament de la versió actual de Plasma, per a les "
+"versions beta."
 
 #: src/main.cpp:73
 #, kde-format
@@ -788,15 +780,3 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "Inicia ara %1"
-
-#~ msgctxt "@label %1 is the Plasma version"
-#~ msgid "6 Beta 2 (%1)"
-#~ msgstr "6 beta 2 (%1)"
-
-#~ msgctxt "@label %1 is the Plasma version"
-#~ msgid "6 RC 1 (%1)"
-#~ msgstr "6 RC 1 (%1)"
-
-#~ msgctxt "@label %1 is the Plasma version"
-#~ msgid "6 RC 2 (%1)"
-#~ msgstr "6 RC 2 (%1)"
