@@ -58,18 +58,11 @@ GenericPage {
         }
     }
 
-    Kirigami.ShadowedRectangle {
+    Kirigami.AbstractCard {
         anchors.centerIn: parent
+
         width: Kirigami.Units.gridUnit * 20
         height: Kirigami.Units.gridUnit * 10
-        radius: Kirigami.Units.smallSpacing
-        Kirigami.Theme.inherit: false
-        Kirigami.Theme.colorSet: Kirigami.Theme.View
-        color: Kirigami.Theme.backgroundColor
-        shadow.xOffset: 0
-        shadow.yOffset: 2
-        shadow.size: 10
-        shadow.color: Qt.rgba(0, 0, 0, 0.3)
 
         // Container for everything else so we don't have the apply margins
         // multiple times
