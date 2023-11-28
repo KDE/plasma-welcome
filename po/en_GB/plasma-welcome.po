@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-25 01:35+0000\n"
+"POT-Creation-Date: 2023-11-28 01:37+0000\n"
 "PO-Revision-Date: 2023-04-22 10:49+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -152,6 +152,30 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Make a donation"
+
+#: src/contents/ui/pages/Donate.qml:51
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Plasma Vaults"
+msgctxt "@action:button"
+msgid "Plasma 6 Supporters"
+msgstr "Plasma Vaults"
+
+#: src/contents/ui/pages/donate/Supporters.qml:16
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Plasma Vaults"
+msgctxt "@title:window"
+msgid "Plasma 6 Supporters"
+msgstr "Plasma Vaults"
+
+#: src/contents/ui/pages/donate/Supporters.qml:17
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"We thank the following people for supporting us during the Plasma 6 "
+"fundraising campaign:"
+msgstr ""
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-25 01:35+0000\n"
+"POT-Creation-Date: 2023-11-28 01:37+0000\n"
 "PO-Revision-Date: 2023-08-12 01:48+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -150,6 +150,30 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "寄付する"
+
+#: src/contents/ui/pages/Donate.qml:51
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Plasma Vaults"
+msgctxt "@action:button"
+msgid "Plasma 6 Supporters"
+msgstr "Plasma Vaults"
+
+#: src/contents/ui/pages/donate/Supporters.qml:16
+#, fuzzy, kde-format
+#| msgctxt "@info:window"
+#| msgid "Plasma Vaults"
+msgctxt "@title:window"
+msgid "Plasma 6 Supporters"
+msgstr "Plasma Vaults"
+
+#: src/contents/ui/pages/donate/Supporters.qml:17
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"We thank the following people for supporting us during the Plasma 6 "
+"fundraising campaign:"
+msgstr ""
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -767,15 +791,3 @@ msgstr "ディストリビューションの Live 環境のためのページを
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "%1 を起動する"
-
-#~ msgctxt "@title: window"
-#~ msgid "Connect Online Accounts"
-#~ msgstr "オンラインアカウントを接続する"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "This will let you access their content in KDE apps. You can set it up in "
-#~ "System Settings, and here too."
-#~ msgstr ""
-#~ "オンラインアカウントを使用するコンテンツに KDE アプリケーションからアクセ"
-#~ "スできます。このページ、もしくはシステム設定で設定できます。"
