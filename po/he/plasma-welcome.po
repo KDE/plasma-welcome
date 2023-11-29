@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-25 14:18+0200\n"
+"PO-Revision-Date: 2023-11-29 14:09+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -56,7 +56,7 @@ msgstr "ה&בא"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "להציג את המסך הזה לאחר עדכון של פלזמה"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -159,20 +159,16 @@ msgid "Make a donation"
 msgstr "תרומה כספית"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "כספות של פלזמה"
+msgstr "תומכי פלזמה 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "כספות של פלזמה"
+msgstr "תומכי פלזמה 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -181,6 +177,7 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"אנו מודים לאנשים הבאים על תמיכתם במהלך מסע הפרסום לגיוס כספים לפלזמה 6:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -307,15 +304,7 @@ msgstr ""
 "מקווים שהשימוש בפלזמה עושה לך טוב כמו שנהנינו להפיק אותה!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -323,10 +312,8 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "קהילת KDE תלויה בתרומות של מומחיות ומימון והיא נתמכת על ידי KDE e.V.‎ - עמותה "
-"גרמנית ללא מטרות רווח שמנהלת את הפן המשפטי, ממנת את מחזורי הפיתוח, את משאבי "
-"השרתים ומציעה הזדמנויות העסקה למפתחי KDE. תרומות ל־KDE e.V.‎ תומכות בקהילת "
-"KDE הרחבה ואפשר לעשות שינוי על ידי תרומה עוד היום!<nl/><nl/>התרומות מוכרות "
-"במס בגרמניה."
+"גרמנית ללא מטרות רווח. תרומות ל־KDE e.V.‎ תומכות בקהילת KDE הרחבה ואפשר לעשות "
+"שינוי על ידי תרומה עוד היום."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

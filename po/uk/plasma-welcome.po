@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-28 17:33+0200\n"
+"PO-Revision-Date: 2023-11-29 09:55+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -56,7 +56,7 @@ msgstr "&Далі"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Показувати цю сторінку після оновлення Плазми"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -318,15 +318,7 @@ msgstr ""
 "подобалася робота над нею!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -334,12 +326,9 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "Спільнота KDE покладається на юридичну та грошову допомогу, яку забезпечує "
-"KDE e.V. — німецька неприбуткова організація, яка керує юридичними справами, "
-"фінансує спринти розробників та серверні ресурси та надає можливість "
-"оплачуваної роботи для розробників KDE. Фінансові пожертви на користь KDE e."
-"V. підтримують ширшу спільноту KDE, і ви можете зробити власний внесо уже "
-"сьогодні!<nl/><nl/>Фінансові пожертви обкладаються податками за "
-"законодавством Німеччини."
+"KDE e.V. — німецька неприбуткова організація. Фінансові пожертви на користь "
+"KDE e.V. підтримують ширшу спільноту KDE, і ви можете зробити власний внесо "
+"уже сьогодні!"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

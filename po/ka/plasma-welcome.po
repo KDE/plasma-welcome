@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-28 06:00+0100\n"
+"PO-Revision-Date: 2023-11-29 05:40+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -56,7 +56,7 @@ msgstr "&შემდეგი"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "ამ გვერდის ჩვენება Plasma-ის განახლების შემდეგ"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -313,15 +313,7 @@ msgstr ""
 "თქვენ მოგწონთ Plasma ისე ძალიან, როგორც ჩვენ მისი შექმნა მოგვწონდა!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -329,11 +321,9 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "KDE-ის საზოგადოება შემოწირულ ექსპერტიზას და თანხებს ეყრდნობა და "
-"მხარდაჭერილია KDE e.V.-ის, - გერმანული საზოგადოების მიერ, რომელიც მართალს "
-"იურიდიულ ასპექტებს, აფინანსებს პროგრამისტების შეკრებებს და სერვერის "
-"რესურსებს და სამსახურს, KDE-ის პროგრამისტებისთვის. KDE e.V.-სთვის შეწირვით "
-"თქვენ მხარს უჭერთ უფრო დიდ KDE-ის საზოგადოებას და სხვაობა შეგიძლიათ დღესვე "
-"შეიტანოთ, შეწირულობით!<nl/><nl/>შეწირულობები გერმანიაში არ იბეგრება."
+"მხარდაჭერილია KDE e.V.-ის, - გერმანული საზოგადოების მიერ. შეწირულობები KDE e."
+"V.-სთვის ხმარდება უფრო ფართო KDE -ის საზოგადოებას და თქვენ შეგიძლიათ, "
+"სხვაობა დაინახოთ, თუ დღესვე შემოგვწირავთ."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
