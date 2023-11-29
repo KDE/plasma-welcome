@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-28 01:37+0000\n"
-"PO-Revision-Date: 2023-11-25 10:29+0100\n"
+"POT-Creation-Date: 2023-11-29 01:38+0000\n"
+"PO-Revision-Date: 2023-11-28 15:14+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -27,35 +27,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Over&slaan"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Terug"
 
-#: src/contents/ui/Main.qml:93
-#, kde-format
-msgctxt "@action:button"
-msgid "&OK"
-msgstr "&OK"
-
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "Vol&tooien"
 
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "V&olgende"
+
+#: src/contents/ui/footers/FooterUpdate.qml:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Show this page after Plasma is updated"
+msgstr ""
+
+#: src/contents/ui/footers/FooterUpdate.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&OK"
+msgstr "&OK"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -150,27 +156,23 @@ msgstr ""
 "aftrekbaar van de belasting."
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/plasmaupdate/Update.qml:33
+#: src/contents/ui/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Doe een donatie"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Plasmakluizen"
+msgstr "Plasma 6 ondersteuners"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Plasmakluizen"
+msgstr "Plasma 6 ondersteuners"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -179,6 +181,8 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"Wij danken de volgende mensen voor hun ondersteuning aan ons gedurende de "
+"campagne voor geldwerving voor Plasma 6:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -250,7 +254,7 @@ msgstr ""
 "het <interface>Netwerken</interface> pictogram in uw <interface>Systeemvak</"
 "interface>, die zich bevindt in de rechtsonder hoek van het scherm."
 
-#: src/contents/ui/pages/Network.qml:255
+#: src/contents/ui/pages/Network.qml:248
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -308,6 +312,30 @@ msgstr ""
 "Zij die bijdragen aan KDE hebben de laatste vier maanden hard gewerkt aan "
 "deze uitgave. We hopen dat u geniet van het gebruik van Plasma evenveel als "
 "wij genieten van het maken!"
+
+#: src/contents/ui/pages/plasmaupdate/Update.qml:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The KDE community relies on donations of expertise and funds, and is "
+#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#| "funds development sprints and server resources, and offers employment "
+#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#| ">Donations are tax-deductible in Germany."
+msgctxt "@info:usagetip"
+msgid ""
+"The KDE community relies on donations of expertise and funds, and is "
+"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
+"wider KDE community, and you can make a difference by donating today."
+msgstr ""
+"De KDE gemeenschap hangt af van donaties van expertise en fondsen en wordt "
+"ondersteund door KDE e.V.--een Duitse nonprofit die juridische zaken, "
+"fondsen, ontwikkeling-sprints en server-hulpmiddelen beheert, en "
+"megelijkheden voor dienstverbanden biedt voor KDE ontwikkelaars. Donaties "
+"aan KDE e.V. ondersteunen de bredere KDE gemeenschap en u kunt een verschil "
+"maken door vandaag te doneren!<nl/><nl/>Donaties zijn in Duitsland "
+"aftrekbaar van de belasting."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

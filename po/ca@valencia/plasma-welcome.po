@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-28 01:37+0000\n"
-"PO-Revision-Date: 2023-11-25 11:31+0100\n"
+"POT-Creation-Date: 2023-11-29 01:38+0000\n"
+"PO-Revision-Date: 2023-11-28 15:47+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -31,35 +31,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Omet"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "A&rrere"
 
-#: src/contents/ui/Main.qml:93
-#, kde-format
-msgctxt "@action:button"
-msgid "&OK"
-msgstr "D'ac&ord"
-
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Finalitza"
 
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Següent"
+
+#: src/contents/ui/footers/FooterUpdate.qml:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Show this page after Plasma is updated"
+msgstr ""
+
+#: src/contents/ui/footers/FooterUpdate.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&OK"
+msgstr "D'ac&ord"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -154,27 +160,23 @@ msgstr ""
 "fiscalment a Alemanya."
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/plasmaupdate/Update.qml:33
+#: src/contents/ui/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Feu una donació"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Caixes fortes de Plasma"
+msgstr "Subscriptors de Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Caixes fortes de Plasma"
+msgstr "Subscriptors de Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -183,6 +185,8 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"Agraïm a les persones següents per ajudar-nos durant la campanya de "
+"recaptació de fons de Plasma 6:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -256,7 +260,7 @@ msgstr ""
 "sistema</interface>, la qual es troba en el cantó inferior dret de la "
 "pantalla."
 
-#: src/contents/ui/pages/Network.qml:255
+#: src/contents/ui/pages/Network.qml:248
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -314,6 +318,30 @@ msgstr ""
 "Els col·laboradors de KDE han passat els últims quatre mesos treballant de "
 "valent en este llançament. Esperem que gaudiu utilitzant Plasma tant com vam "
 "gaudir fent-lo!"
+
+#: src/contents/ui/pages/plasmaupdate/Update.qml:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The KDE community relies on donations of expertise and funds, and is "
+#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#| "funds development sprints and server resources, and offers employment "
+#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#| ">Donations are tax-deductible in Germany."
+msgctxt "@info:usagetip"
+msgid ""
+"The KDE community relies on donations of expertise and funds, and is "
+"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
+"wider KDE community, and you can make a difference by donating today."
+msgstr ""
+"La comunitat KDE es basa en donacions d'experiència i fons, i està emparada "
+"per KDE e.V., una organització alemanya sense ànim de lucre que gestiona els "
+"assumptes legals, fons per al desenvolupament d'esprints i recursos dels "
+"servidors i oferix oportunitats d'ocupació als desenvolupadors de KDE. Les "
+"donacions a KDE e.V. ajuden la comunitat KDE sencera, i podeu marcar la "
+"diferència fent una donació hui!<nl/><nl/>Les donacions són deduïbles "
+"fiscalment a Alemanya."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

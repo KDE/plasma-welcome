@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-28 01:37+0000\n"
+"POT-Creation-Date: 2023-11-29 01:38+0000\n"
 "PO-Revision-Date: 2023-11-25 02:26\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -27,35 +27,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "tang142857@kde.org, tds00@qq.com"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "跳过(&S)"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "上一页(&B)"
 
-#: src/contents/ui/Main.qml:93
-#, kde-format
-msgctxt "@action:button"
-msgid "&OK"
-msgstr ""
-
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "完成(&F)"
 
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "下一页(&N)"
+
+#: src/contents/ui/footers/FooterUpdate.qml:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Show this page after Plasma is updated"
+msgstr ""
+
+#: src/contents/ui/footers/FooterUpdate.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&OK"
+msgstr ""
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -145,7 +151,7 @@ msgstr ""
 "考虑为我们捐款，和我们一起改变世界。<nl/><nl/>捐款在德国可以减税。"
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/plasmaupdate/Update.qml:33
+#: src/contents/ui/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -243,7 +249,7 @@ msgstr ""
 "开网络小程序，请在<interface>系统托盘</interface> 中点击<interface>网络</"
 "interface>图标。它默认位于屏幕的右下角。"
 
-#: src/contents/ui/pages/Network.qml:255
+#: src/contents/ui/pages/Network.qml:248
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -299,6 +305,27 @@ msgid ""
 msgstr ""
 "为了完成这一版本的 Plasma，KDE 的贡献者们已经努力工作了四个月。虽然劳累，但我"
 "们也很享受这一过程。希望新版的 Plasma 能为您带来愉悦的使用体验！"
+
+#: src/contents/ui/pages/plasmaupdate/Update.qml:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The KDE community relies on donations of expertise and funds, and is "
+#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#| "funds development sprints and server resources, and offers employment "
+#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#| ">Donations are tax-deductible in Germany."
+msgctxt "@info:usagetip"
+msgid ""
+"The KDE community relies on donations of expertise and funds, and is "
+"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
+"wider KDE community, and you can make a difference by donating today."
+msgstr ""
+"KDE 社区的运作离不开捐款和志愿者们的专业技能。KDE e.V. 是一家在德国注册的非营"
+"利机构，它为 KDE 社区管理法律事务、为开发冲刺活动和服务器资源筹集资金、为 "
+"KDE 开发者提供雇佣岗位。您对 KDE e.V. 的捐款可以支持 KDE 社区的存续和发展。请"
+"考虑为我们捐款，和我们一起改变世界。<nl/><nl/>捐款在德国可以减税。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

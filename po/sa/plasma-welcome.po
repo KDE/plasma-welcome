@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-28 01:37+0000\n"
+"POT-Creation-Date: 2023-11-29 01:38+0000\n"
 "PO-Revision-Date: 2023-10-04 15:33+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit\n"
@@ -29,35 +29,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&क्षिपते"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&प्रति गच्छतु"
 
-#: src/contents/ui/Main.qml:93
-#, kde-format
-msgctxt "@action:button"
-msgid "&OK"
-msgstr ""
-
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&समापन"
 
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&अग्रिम"
+
+#: src/contents/ui/footers/FooterUpdate.qml:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Show this page after Plasma is updated"
+msgstr ""
+
+#: src/contents/ui/footers/FooterUpdate.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&OK"
+msgstr ""
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -148,7 +154,7 @@ msgstr ""
 "कर्तुं शक्नोति!<nl/><nl/>जर्मनीदेशे दानं कर-कटौती भवति।."
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/plasmaupdate/Update.qml:33
+#: src/contents/ui/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -247,7 +253,7 @@ msgstr ""
 "Tray</interface> इत्यस्मिन् <interface>Networks</interface> चिह्नं नुदन्तु, यत् पटलस्य "
 "अधः-दक्षिणकोणे निवसति ।."
 
-#: src/contents/ui/pages/Network.qml:255
+#: src/contents/ui/pages/Network.qml:248
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -303,6 +309,28 @@ msgid ""
 msgstr ""
 "KDE योगदातारः गतचतुर्मासान् अस्मिन् विमोचने परिश्रमेण व्यतीतवन्तः । आशास्महे यत् भवद्भ्यः "
 "अपि प्लाज्मा इत्यस्य उपयोगः यथा आनन्दः अभवत् तथा अस्माभिः तस्य निर्माणे आनन्दः प्राप्तः!"
+
+#: src/contents/ui/pages/plasmaupdate/Update.qml:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The KDE community relies on donations of expertise and funds, and is "
+#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#| "funds development sprints and server resources, and offers employment "
+#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#| ">Donations are tax-deductible in Germany."
+msgctxt "@info:usagetip"
+msgid ""
+"The KDE community relies on donations of expertise and funds, and is "
+"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
+"wider KDE community, and you can make a difference by donating today."
+msgstr ""
+"KDE समुदायः विशेषज्ञतायाः धनस्य च दानस्य उपरि निर्भरः अस्ति, तथा च KDE e.V.--एकेन "
+"जर्मन-अलाभकारी-संस्थायाः समर्थितः अस्ति यः कानूनी-विषयान् प्रबन्धयति, विकास-स्प्रिन्ट्-"
+"वितारक्-संसाधनं च निधिं ददाति, तथा च KDE-विकासकानाम् कृते रोजगारस्य अवसरान् प्रदाति । "
+"KDE e.V. कृते दानं व्यापकस्य KDE समुदायस्य समर्थनं करोति, अद्यैव दानं कृत्वा भवान् परिवर्तनं "
+"कर्तुं शक्नोति!<nl/><nl/>जर्मनीदेशे दानं कर-कटौती भवति।."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

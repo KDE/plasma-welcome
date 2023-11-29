@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-28 01:37+0000\n"
+"POT-Creation-Date: 2023-11-29 01:38+0000\n"
 "PO-Revision-Date: 2023-02-09 11:40\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -31,35 +31,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "nashtlumach@gmail.com"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&Прапусціць"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Назад"
 
-#: src/contents/ui/Main.qml:93
-#, kde-format
-msgctxt "@action:button"
-msgid "&OK"
-msgstr ""
-
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Завяршыць"
 
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Далей"
+
+#: src/contents/ui/footers/FooterUpdate.qml:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Show this page after Plasma is updated"
+msgstr ""
+
+#: src/contents/ui/footers/FooterUpdate.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&OK"
+msgstr ""
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -151,7 +157,7 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/plasmaupdate/Update.qml:33
+#: src/contents/ui/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -251,7 +257,7 @@ msgstr ""
 "пстрыкніце па значку <interface>Сеткі</interface> на <interface>Прасторы "
 "апавяшчэнняў</interface> у правым ніжнім куце экрана."
 
-#: src/contents/ui/pages/Network.qml:255
+#: src/contents/ui/pages/Network.qml:248
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -308,6 +314,15 @@ msgstr ""
 "Удзельнікі каманды KDE напружана працавалі над гэтым выпускам апошнія чатыры "
 "месяцы. Мы спадзяемся, што вам будзе прыемна карыстацца Plasma гэтаксама, як "
 "нам было прыемна яе ствараць!"
+
+#: src/contents/ui/pages/plasmaupdate/Update.qml:70
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"The KDE community relies on donations of expertise and funds, and is "
+"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
+"wider KDE community, and you can make a difference by donating today."
+msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

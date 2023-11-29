@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-28 01:37+0000\n"
-"PO-Revision-Date: 2023-11-25 06:17+0100\n"
+"POT-Creation-Date: 2023-11-29 01:38+0000\n"
+"PO-Revision-Date: 2023-11-28 06:00+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -28,35 +28,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "გამო&ტოვება"
 
-#: src/contents/ui/Main.qml:60
+#: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&უკან"
 
-#: src/contents/ui/Main.qml:93
-#, kde-format
-msgctxt "@action:button"
-msgid "&OK"
-msgstr "&დიახ"
-
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&დასრულება"
 
-#: src/contents/ui/Main.qml:95
+#: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&შემდეგი"
+
+#: src/contents/ui/footers/FooterUpdate.qml:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Show this page after Plasma is updated"
+msgstr ""
+
+#: src/contents/ui/footers/FooterUpdate.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&OK"
+msgstr "&დიახ"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -150,27 +156,23 @@ msgstr ""
 "შეიტანოთ, შეწირულობით!<nl/><nl/>შეწირულობები გერმანიაში არ იბეგრება."
 
 #: src/contents/ui/pages/Donate.qml:22
-#: src/contents/ui/pages/plasmaupdate/Update.qml:33
+#: src/contents/ui/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "გააკეთეთ შემოწირულობა"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma -ის საცავები"
+msgstr "Plasma 6-ის მხარდამჭერები"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma -ის საცავები"
+msgstr "Plasma 6-ის მხარდამჭერები"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -179,6 +181,8 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"ჩვენ მადლობას ვუხდით შემდეგ ხალხს Plasma 6-სთვის თანხის მოგროვების კამპანიის "
+"მიმდინარეობისას მხარდაჭერისთვის:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -250,7 +254,7 @@ msgstr ""
 "მართოთ. მასთან წვდომისთვის დააწკაპუნეთ <interface>ქსელის</interface> "
 "ხატულაზე <interface>სისტემის კუთხეში, საათთან</interface>."
 
-#: src/contents/ui/pages/Network.qml:255
+#: src/contents/ui/pages/Network.qml:248
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -307,6 +311,29 @@ msgid ""
 msgstr ""
 "KDE-ის შემომწირავებმა ბოლო 4 თვე ამ რელიზზე მუშაობაში დახარჯეს. იმედია, "
 "თქვენ მოგწონთ Plasma ისე ძალიან, როგორც ჩვენ მისი შექმნა მოგვწონდა!"
+
+#: src/contents/ui/pages/plasmaupdate/Update.qml:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The KDE community relies on donations of expertise and funds, and is "
+#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#| "funds development sprints and server resources, and offers employment "
+#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#| ">Donations are tax-deductible in Germany."
+msgctxt "@info:usagetip"
+msgid ""
+"The KDE community relies on donations of expertise and funds, and is "
+"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
+"wider KDE community, and you can make a difference by donating today."
+msgstr ""
+"KDE-ის საზოგადოება შემოწირულ ექსპერტიზას და თანხებს ეყრდნობა და "
+"მხარდაჭერილია KDE e.V.-ის, - გერმანული საზოგადოების მიერ, რომელიც მართალს "
+"იურიდიულ ასპექტებს, აფინანსებს პროგრამისტების შეკრებებს და სერვერის "
+"რესურსებს და სამსახურს, KDE-ის პროგრამისტებისთვის. KDE e.V.-სთვის შეწირვით "
+"თქვენ მხარს უჭერთ უფრო დიდ KDE-ის საზოგადოებას და სხვაობა შეგიძლიათ დღესვე "
+"შეიტანოთ, შეწირულობით!<nl/><nl/>შეწირულობები გერმანიაში არ იბეგრება."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
