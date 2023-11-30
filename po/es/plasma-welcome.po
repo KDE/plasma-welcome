@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-29 00:08+0100\n"
+"PO-Revision-Date: 2023-11-30 01:14+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -57,7 +57,7 @@ msgstr "&Siguiente"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Mostrar esta página tras actualizar Plasma"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -317,15 +317,7 @@ msgstr ""
 "como nosotros hemos disfrutado creándolo!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -333,12 +325,9 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "La comunidad KDE depende de donativos de experiencia y fondos, y cuenta con "
-"el apoyo de KDE e.V., una organización sin ánimo de lucro alemana que "
-"gestiona asuntos legales, financia esprints de desarrollo y recursos de "
-"servidor, además de ofrecer oportunidades de empleo para desarrolladores de "
-"KDE. Los donativos hechos a KDE e.V. apoyan a la comunidad de KDE en general "
-"y usted puede marcar la diferencia haciendo un donativo hoy.<nl/><nl/>En "
-"Alemania, los donativos se pueden deducir de los impuestos."
+"el apoyo de KDE e.V., una organización sin ánimo de lucro alemana. Los "
+"donativos hechos a KDE e.V. apoyan a la comunidad de KDE en general y usted "
+"puede marcar la diferencia haciendo un donativo hoy."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

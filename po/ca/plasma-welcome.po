@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-28 15:47+0100\n"
+"PO-Revision-Date: 2023-11-29 13:46+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -59,7 +59,7 @@ msgstr "&Següent"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Mostra aquesta pàgina després d'actualitzar el Plasma"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -319,15 +319,7 @@ msgstr ""
 "vam gaudir fent-lo!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -335,12 +327,9 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "La comunitat KDE es basa en donacions d'experiència i fons, i està emparada "
-"per KDE e.V., una organització alemanya sense ànim de lucre que gestiona els "
-"assumptes legals, fons per al desenvolupament d'esprints i recursos dels "
-"servidors i ofereix oportunitats d'ocupació als desenvolupadors de KDE. Les "
-"donacions a KDE e.V. ajuden la comunitat KDE sencera, i podeu marcar la "
-"diferència fent una donació avui!<nl/><nl/>Les donacions són deduïbles "
-"fiscalment a Alemanya."
+"per KDE e.V., una organització alemanya sense ànim de lucre. Les donacions a "
+"KDE e.V. ajuden la comunitat KDE sencera, i podeu marcar la diferència fent "
+"una donació avui."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

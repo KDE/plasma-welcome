@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-28 09:40+0100\n"
+"PO-Revision-Date: 2023-11-29 22:36+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -59,7 +59,7 @@ msgstr "&Naprej"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Pokaži to stran, ko je Plasma posodobljena"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -318,27 +318,16 @@ msgstr ""
 "pri njeni izdelavi!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
-"Skupnost KDE se zanaša na donacije strokovnega znanja in sredstev in jo "
-"podpira KDE e.V. – nemška neprofitna organizacija, ki upravlja pravne "
-"zadeve, financira razvojne sprinte in strežniške vire ter ponuja "
-"zaposlitvene možnosti za razvijalce KDE. Donacije za KDE e.V. podpirajo "
-"širšo skupnost KDE in tudi vi lahko nekaj spremenite z današnjo donacijo!<nl/"
-"><nl/>Donacije so v Nemčiji davčne olajšave."
+"Skupnost KDE se zanaša na donacije strokovnega znanja in sredstev, podpira "
+"pa jo KDE e.V.—nemška neprofitna organizacija. Donacije za KDE e.V. "
+"podpirajo širšo skupnost KDE in z donacijo danes lahko nekaj spremenite."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format

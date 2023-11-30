@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-28 20:18+0300\n"
+"PO-Revision-Date: 2023-11-29 16:25+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -56,7 +56,7 @@ msgstr "&Sonraki"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Plasma güncellendikten sonra bu sayfayı göster"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -316,15 +316,7 @@ msgstr ""
 "zevk aldığımız kadar umarız siz de kullanırken zevk alırsınız!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -332,12 +324,10 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "KDE topluluğu, uzmanlık ve fon bağışları ile faaliyetlerini sürdürmektedir "
-"ve yasal konuları yöneten, geliştirme hız koşularını ve sunucu kaynaklarını "
-"finanse eden ve KDE geliştiricilerine istihdam fırsatları sunan, kâr amacı "
-"gütmeyen bir Alman kuruluşu olan KDE e.V. tarafından desteklenmektedir. KDE "
-"e.V.'ye yapılan bağışlar tüm KDE topluluklarını destekler ve bugün bağış "
-"yaparak siz de bir fark yaratabilirsiniz!<nl/><nl/>Bağışlar Almanya'da "
-"vergiden düşülebilir."
+"ve kâr amacı gütmeyen bir Alman kuruluşu olan KDE e.V. tarafından "
+"desteklenmektedir. KDE e.V.'ye yapılan bağışlar tüm KDE topluluklarını "
+"destekler ve bugün bağış yaparak siz de bir fark yaratabilirsiniz!<nl/><nl/"
+">Bağışlar Almanya'da vergiden düşülebilir."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
