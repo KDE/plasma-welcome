@@ -1,20 +1,21 @@
 # translation of plasma-welcome.po to Slovak
+# SPDX-FileCopyrightText: 2023 Matej Mrenica <matejm98mthw@gmail.com>
 # Roman Paholik <wizzardsk@gmail.com>, 2022.
 # Ferdinand Galko <galko.ferdinand@gmail.com>, 2023.
-# SPDX-FileCopyrightText: 2023 Matej Mrenica <matejm98mthw@gmail.com>
+# Matej Mrenica <matejm98mthw@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-11 15:31+0100\n"
+"PO-Revision-Date: 2023-12-02 19:54+0100\n"
 "Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 24.01.80\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #, kde-format
@@ -55,13 +56,13 @@ msgstr "&Nasledujúci"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Zobrazenie tejto stránky po aktualizácii systému Plasma"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "OK"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -162,20 +163,16 @@ msgid "Make a donation"
 msgstr "Prispieť"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Trezory Plasma"
+msgstr "Plasma 6 Podporovatelia"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Trezory Plasma"
+msgstr "Plasma 6 Podporovatelia"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -184,6 +181,8 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"Ďakujeme týmto ľuďom za podporu počas Plasmy 6 v rámci kampane na získavanie "
+"finančných prostriedkov:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -266,12 +265,10 @@ msgstr ""
 "používate vývojovú verziu."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Plazma bola aktualizovaná na verziu %1"
+msgstr "Plasma bola aktualizovaná na verziu %1"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -281,21 +278,22 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Ďakujeme vám za testovanie tejto beta verzie aplikácie Plasma - vaša spätná "
+"väzba nám pomôže pri jej zlepšovaní! Prosím, nahláste všetky chyby, ktoré "
+"nájdete, aby sme ich mohli opraviť."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "Zistite, čo je nové v Plasma %1"
+msgstr "<b>Zistite, čo je nové</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "Nahlásiť chybu"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -316,15 +314,7 @@ msgstr ""
 "tvorba!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -332,11 +322,9 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "Komunita KDE sa spolieha na odborné dary a finančné prostriedky a je "
-"podporovaná nemeckou neziskovou organizáciou KDE e.V., ktorá spravuje právne "
-"záležitosti, finančné prostriedky vývojové šprinty a serverové zdroje a "
-"ponúka možnosti zamestnania pre vývojárov KDE. Príspevky pre KDE e.V. "
+"podporovaná nemeckou neziskovou organizáciou KDE e.V. Príspevky pre KDE e.V. "
 "podporujú širšiu KDE komunitu, a vy môžete prispieť k zmene tým, že "
-"prispejete ešte dnes!<nl/><nl/> Dary sú v Nemecku odpočítateľné z daní."
+"prispejete ešte dnes!<nl/><nl/>"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -717,42 +705,36 @@ msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Maskot KDE Konqi vás víta v komunite KDE!"
 
 #: src/controller.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "%1 Dev"
+#, kde-format
 msgid "6.0 Dev"
-msgstr "%1 Dev"
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 Alpha"
 
 #: src/controller.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgid "6.0 Beta 1"
-msgstr "%1 Beta %2"
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:63
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgid "6.0 Beta 2"
-msgstr "%1 Beta %2"
+msgstr "6.0 Beta 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
@@ -814,11 +796,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Zobraziť poznámky k vydaniu aktuálnej verzie Plasma."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "Zobraziť poznámky k vydaniu aktuálnej verzie Plasma."
+msgstr "Zobrazenie poznámok k aktuálnej verzii systému Plasma pre beta verzie."
 
 #: src/main.cpp:73
 #, kde-format
