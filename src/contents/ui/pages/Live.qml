@@ -52,8 +52,10 @@ GenericPage {
 
     ApplicationIcon {
         anchors.centerIn: parent
-
-        application: Config.liveInstaller
+        application: ApplicationInfo {
+            id: application
+            desktopName: Config.liveInstaller
+        }
         size: Kirigami.Units.gridUnit * 10
         visible: root.installerAvailable
     }
