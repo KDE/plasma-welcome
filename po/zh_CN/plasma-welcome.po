@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-25 02:26\n"
+"PO-Revision-Date: 2023-12-09 09:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -55,13 +55,13 @@ msgstr "下一页(&N)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Plasma 升级之后显示此页面"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "确定(&O)"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -158,20 +158,16 @@ msgid "Make a donation"
 msgstr "提供捐款"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma 保险库"
+msgstr "Plasma 6 支持者"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma 保险库"
+msgstr "Plasma 6 支持者"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -179,7 +175,7 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
-msgstr ""
+msgstr "感谢下列人士在 Plasma 6 筹款活动中的支持："
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -258,12 +254,10 @@ msgid ""
 msgstr "由于您正在使用开发版本，所以不管网络连接情况如何，此页面将始终显示。"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Plasma 已更新到版本 %1"
+msgstr "Plasma 已更新到 %1"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -273,21 +267,21 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"感谢您测试此 Plasma Beta 版本！您的反馈能够极大地帮助我们改进它。如果您在使用"
+"过程中遇到任何程序缺陷，请向我们报告，以便我们及时修复它们。"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "了解 Plasma %1 的新功能"
+msgstr "<b>新版特性介绍</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "报告程序缺陷"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -307,15 +301,7 @@ msgstr ""
 "们也很享受这一过程。希望新版的 Plasma 能为您带来愉悦的使用体验！"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -324,8 +310,7 @@ msgid ""
 msgstr ""
 "KDE 社区的运作离不开捐款和志愿者们的专业技能。KDE e.V. 是一家在德国注册的非营"
 "利机构，它为 KDE 社区管理法律事务、为开发冲刺活动和服务器资源筹集资金、为 "
-"KDE 开发者提供雇佣岗位。您对 KDE e.V. 的捐款可以支持 KDE 社区的存续和发展。请"
-"考虑为我们捐款，和我们一起改变世界。<nl/><nl/>捐款在德国可以减税。"
+"KDE 开发者提供雇佣岗位。您对 KDE e.V. 的捐款可以支持 KDE 社区的存续和发展。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -684,44 +669,36 @@ msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE 的吉祥物 Konqi (恐奇) 欢迎您走进 KDE 社区！"
 
 #: src/controller.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "%1 Dev"
+#, kde-format
 msgid "6.0 Dev"
-msgstr "%1 Dev"
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "6 Alpha (%1)"
+#, kde-format
 msgid "6.0 Alpha"
-msgstr "6 Alpha (%1)"
+msgstr "6.0 Alpha"
 
 #: src/controller.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "6 Beta 1 (%1)"
+#, kde-format
 msgid "6.0 Beta 1"
-msgstr "6 Beta 1 (%1)"
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:63
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgid "6.0 Beta 2"
-msgstr "%1 Beta %2"
+msgstr "6.0 Beta 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
@@ -783,11 +760,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "显示当前 Plasma 版本的发行日志。"
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "显示当前 Plasma 版本的发行日志。"
+msgstr "显示当前 Plasma Beta 版本的发行日志。"
 
 #: src/main.cpp:73
 #, kde-format
@@ -799,15 +775,3 @@ msgstr "显示为发行版 Live 环境准备的页面。"
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "立即启动 %1"
-
-#~ msgctxt "@label %1 is the Plasma version"
-#~ msgid "6 Beta 2 (%1)"
-#~ msgstr "6 Beta 2 (%1)"
-
-#~ msgctxt "@label %1 is the Plasma version"
-#~ msgid "6 RC 1 (%1)"
-#~ msgstr "6 RC 1 (%1)"
-
-#~ msgctxt "@label %1 is the Plasma version"
-#~ msgid "6 RC 2 (%1)"
-#~ msgstr "6 RC 2 (%1)"
