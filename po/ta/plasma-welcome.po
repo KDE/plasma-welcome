@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-10-22 17:33+0530\n"
+"PO-Revision-Date: 2023-12-10 12:04+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.2\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -55,13 +55,13 @@ msgstr "&அடுத்தது"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "பிளாஸ்மாவை புதுப்பித்தபின் இப்பக்கத்தை காட்டு"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "&சரி"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -144,6 +144,12 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"நன்கொடையாய் அளிக்கப்படும் உழைப்பையும் நிதியையும் நம்பி கே.டீ.யீ. இருக்கிறது. சட்டம் சார்ந்த "
+"விஷயங்களிலும், நிரலாக்க கூட்டங்களை நடத்துவதிலும், சேவையகங்களை வழங்குவதிலும், "
+"நிரலாளர்களுக்கு வேலை வழங்குவதிலும் கே.டீ.யீ.க்கு ஆதரவாய KDE e.V. என்ற ஈட்டமற்ற "
+"ஜெர்மானிய நிறுவனம் உள்ளது. KDE e.V.-க்கு நீங்கள் வழங்கும் நன்கொடை, கே.டீ.யீ. சமூகத்தை "
+"ஆதரிக்கவே பயன்படுத்தப்படும். இன்றே நன்கொடையளித்து எங்களுக்கு நீங்கள் உதவலாம்.<nl/><nl/"
+">ஜெர்மனியில் இந்த நன்கொடைகள் வரிவிலக்கு பெறும்."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/plasmaupdate/Update.qml:74
@@ -153,20 +159,16 @@ msgid "Make a donation"
 msgstr "நன்கொடை அளி"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "பிளாஸ்மா வால்ட்டுகள்"
+msgstr "பிளாஸ்மா 6-இன் ஆதரவாளர்கள்"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "பிளாஸ்மா வால்ட்டுகள்"
+msgstr "பிளாஸ்மா 6-இன் ஆதரவாளர்கள்"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -174,7 +176,7 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
-msgstr ""
+msgstr "பிளாஸ்மா 6-இன் நிதித்திரட்டலின் போது எங்களை ஆதரித்த பின்வருபர்களுக்கு நன்றி:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -258,9 +260,7 @@ msgstr ""
 "பொருட்படுத்தாமல்)."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "%1 பதிப்புக்கு பிளாஸ்மா புதுப்பிக்கப்பட்டுள்ளது"
@@ -273,21 +273,21 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"பிளாஸ்மாவின் இந்த பீட்டா பதிப்பை சோதிப்பதற்கு நன்றி — அதை மேம்படுத்த உங்கள் பின்னூட்டம் "
+"அவசியம்! நீங்கள் கண்டுபிடிக்கும் அனைத்து பிழைகளையும் எங்களிடம் தெரிவியுங்கள்."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "பிளாஸ்மா %1-இல் புதியவற்றைக் காட்டு"
+msgstr "<b>புதியது என்னவென்று காட்டு</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "பிழையை தெரிவி"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -314,6 +314,10 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"நன்கொடையாய் அளிக்கப்படும் உழைப்பையும் நிதியையும் நம்பி கே.டீ.யீ. இருக்கிறது. கே.டீ.யீ.க்கு "
+"ஆதரவாய KDE e.V. என்ற ஈட்டமற்ற ஜெர்மானிய நிறுவனம் உள்ளது. KDE e.V.-க்கு நீங்கள் வழங்கும் "
+"நன்கொடை, கே.டீ.யீ. சமூகத்தை ஆதரிக்கவே பயன்படுத்தப்படும். இன்றே நன்கொடையளித்து எங்களுக்கு "
+"நீங்கள் உதவலாம்"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -633,42 +637,36 @@ msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "கே.டீ.யீ. சமூகத்திற்குள் Konqi உங்களை வரவேற்கிறது!"
 
 #: src/controller.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version"
-#| msgid "%1 Dev"
+#, kde-format
 msgid "6.0 Dev"
-msgstr "%1 நிரலாக்கம்"
+msgstr "6.0 நிரலாக்கப் பதிவு"
 
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 ஆல்ஃபா"
 
 #: src/controller.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgid "6.0 Beta 1"
-msgstr "%1 பீட்டா %2"
+msgstr "6.0 பீட்டா 1"
 
 #: src/controller.cpp:63
-#, fuzzy, kde-format
-#| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#| msgid "%1 Beta %2"
+#, kde-format
 msgid "6.0 Beta 2"
-msgstr "%1 பீட்டா %2"
+msgstr "6.0 பீட்டா 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
@@ -730,11 +728,11 @@ msgid "Display release notes for the current Plasma release."
 msgstr "தற்போதைய பிளாஸ்மா பதிப்புக்கான வெளியீட்டு குறிப்புகளைக் காட்டும்."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "தற்போதைய பிளாஸ்மா பதிப்புக்கான வெளியீட்டு குறிப்புகளைக் காட்டும்."
+msgstr ""
+"தற்போதைய பிளாஸ்மா பதிப்புக்கான வெளியீட்டு குறிப்புகளைக் காட்டும் (பீட்டா பதிப்புகளுக்கு)."
 
 #: src/main.cpp:73
 #, kde-format
