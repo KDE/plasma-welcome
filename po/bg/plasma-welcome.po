@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-11-28 20:20+0100\n"
+"PO-Revision-Date: 2023-12-11 12:04+0100\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -55,7 +55,7 @@ msgstr "&Напред"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Показване на това съобщение след актуализация на Plasma"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -316,15 +316,7 @@ msgstr ""
 "колкото ние се радвахме на създаването ѝ!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The KDE community relies on donations of expertise and funds, and is "
-#| "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#| "funds development sprints and server resources, and offers employment "
-#| "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#| "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#| ">Donations are tax-deductible in Germany."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The KDE community relies on donations of expertise and funds, and is "
@@ -332,12 +324,9 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "Общността на KDE разчита на дарения на средства и експертни знания. Тя се "
-"поддържа от KDE e.V, -- немска организация с нестопанска цел, която "
-"управлява правни въпроси, финансира състезания за разработки и сървърни "
-"ресурси и предлага възможности за работа за разработчици на KDE. Даренията "
-"към KDE e.V. поддържа широката общност на KDE.  и можете да направите "
-"промяна, като дарите днес!<nl/><nl/>Даренията подлежат на приспадане на "
-"данъци в Германия."
+"поддържа от KDE e.V, -- немска организация с нестопанска цел.  Даренията към "
+"KDE e.V. поддържа широката общност на KDE.  Вие можете да направите промяна, "
+"като дарите днес."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
