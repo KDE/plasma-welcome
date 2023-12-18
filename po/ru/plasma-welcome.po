@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-12-05 16:23+0300\n"
+"PO-Revision-Date: 2023-12-17 09:49+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -56,7 +56,7 @@ msgstr "&Далее"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Открывать эту страницу после обновления Plasma"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -96,7 +96,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr "Хочу помочь!"
+msgstr "Хочу помочь"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:100
@@ -112,12 +112,7 @@ msgid "Manage Software"
 msgstr "Управление приложениями"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -125,9 +120,9 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Центр программ Discover</application> предназначен для поиска и "
-"установки приложений и игр. Доступные программы организованы по категориям, "
-"а к описаниям прилагаются снимки экрана и отзывы других пользователей."
+"<application>%1</application> предназначен для поиска и установки приложений "
+"и игр. Доступные программы организованы по категориям, а к описаниям "
+"прилагаются снимки экрана и отзывы других пользователей."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -161,20 +156,16 @@ msgid "Make a donation"
 msgstr "Сделать пожертвование"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Зашифрованные папки"
+msgstr ""
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Зашифрованные папки"
+msgstr ""
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -183,14 +174,14 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"Благодарим следующих людей за их поддержку во время кампании по сбору "
+"средств на Plasma 6:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Передача статистики использования в KDE"
+msgstr "Передача статистики использования"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:16
 #, kde-format
@@ -207,7 +198,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Добро пожаловать в %1!"
+msgstr "Добро пожаловать в %1"
 
 #: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
@@ -217,6 +208,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"При нажатии на значок, расположенный ниже, будет запущена установка %1. "
+"Также вы можете закрыть это окно чтобы познакомиться с системой без "
+"установки или продолжить в этом приложении и узнать больше о KDE Plasma."
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -261,9 +255,7 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "Plasma была обновлена до версии %1"
@@ -279,18 +271,16 @@ msgstr ""
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "Узнать о новшествах в Plasma %1"
+msgstr "<b>Узнать о новшествах</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "Сообщить об ошибке"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -398,20 +388,16 @@ msgid "Your system command center"
 msgstr "Система как на ладони"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@title:row"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Загрузка доп. материалов"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
-#, fuzzy, kde-format
-#| msgctxt "@info Caption for Get Hot New Stuff button"
-#| msgid "Extend the system with add-ons"
+#, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Просто добавьте расширения"
+msgstr "Дополнительные компоненты, расширяющие возможности системы"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
@@ -478,12 +464,10 @@ msgstr ""
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Параметры системы"
+msgstr "Настроить…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -523,23 +507,7 @@ msgid "KRunner"
 msgstr "Строка поиска и запуска KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
 "keywords as they are localized in the actual runner plugins. If needed, "
@@ -564,8 +532,8 @@ msgstr ""
 "shortcut>.<nl/><nl/> В дополнение к поиску файлов и папок, KRunner может "
 "запускать приложения, выполнять поиск в интернете, конвертировать валюты, "
 "решать математические задачи и многое другое. Попробуйте ввести в строку "
-"поиска:<nl/><list><item>«время Berlin»</item> <item>«27/3»</item> <item>«200 "
-"евро в долларах»</item> <item>«25 миль в км»</item><item>И это далеко не всё!"
+"поиска:<nl/> <list><item>«время Berlin»</item><item>«27/3»</item> <item>«200 "
+"евро в долларах»</item><item>«25 миль в км»</item><item>И это далеко не всё!"
 "</item></list><nl/> Чтобы узнать больше о возможностях строки поиска и "
 "запуска KRunner, откройте её комбинацией клавиш<shortcut>Alt+Пробел</"
 "shortcut> и нажмите на значок вопросительного знака."
@@ -670,21 +638,13 @@ msgstr ""
 "загляните в приложение <application>Параметры системы</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Добро пожаловать в KDE Plasma!"
+msgstr "Добро пожаловать"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -693,20 +653,14 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"KDE Plasma — это бесплатная среда рабочего стола с открытым исходным кодом, "
-"разрабатываемая KDE — сообществом добровольцев со всего мира. Plasma простая "
-"по умолчанию, чтобы не мешать вашей работе, но обладает мощными "
-"возможностями, доступными по необходимости для решения сложных задач. "
-"Надеемся, вам понравится!"
+"%1<nl/><nl/>Это операционная система, в которой работает KDE Plasma. Plasma "
+"— бесплатная среда рабочего стола с открытым исходным кодом, разрабатываемая "
+"KDE — сообществом добровольцев со всего мира. Plasma простая по умолчанию, "
+"чтобы не мешать вашей работе, но обладает мощными возможностями, доступными "
+"по необходимости для решения сложных задач. Надеемся, вам понравится!"
 
 #: src/contents/ui/pages/Welcome.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -715,11 +669,12 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"KDE Plasma — это бесплатная среда рабочего стола с открытым исходным кодом, "
-"разрабатываемая KDE — сообществом добровольцев со всего мира. Plasma простая "
-"по умолчанию, чтобы не мешать вашей работе, но обладает мощными "
-"возможностями, доступными по необходимости для решения сложных задач. "
-"Надеемся, вам понравится!"
+"Добро пожаловать в %1 — операционную систему, в которой работает KDE Plasma."
+"<nl/><nl/>KDE Plasma — это бесплатная среда рабочего стола с открытым "
+"исходным кодом, разрабатываемая KDE — сообществом добровольцев со всего "
+"мира. Plasma простая по умолчанию, чтобы не мешать вашей работе, но обладает "
+"мощными возможностями, доступными по необходимости для решения сложных "
+"задач. Надеемся, вам понравится!"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
@@ -728,24 +683,23 @@ msgid "Learn more about the KDE community"
 msgstr "Узнать больше о сообществе KDE"
 
 #: src/contents/ui/pages/Welcome.qml:34
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Узнать больше о сообществе KDE"
+msgstr "Узнать больше о %1"
 
 #: src/contents/ui/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Не удалось загрузить изображение"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Не удалось загрузить <filename>%1</filename>, проверьте, что файл существует."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
@@ -756,52 +710,52 @@ msgstr "Konqi, персонаж-талисман KDE, приветствует �
 #: src/controller.cpp:54
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 Alpha"
 
 #: src/controller.cpp:60
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:63
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "6.0 Бета 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Dev"
 
 #: src/controller.cpp:91
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:94
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/main.cpp:40
 #, kde-format
@@ -857,12 +811,10 @@ msgid "Display the live page intended for distro live environments."
 msgstr ""
 
 #: src/qml/ApplicationIcon.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Запустить Discover"
+msgstr "Запустить %1"
 
 #, fuzzy
 #~| msgctxt "@title: window"
