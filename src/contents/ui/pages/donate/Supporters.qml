@@ -42,6 +42,8 @@ ScrollablePage {
         rightMargin: margins
         topMargin: margins
 
+        clip: true
+
         GridLayout {
             id: layout
 
