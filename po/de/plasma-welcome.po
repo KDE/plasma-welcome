@@ -5,20 +5,21 @@
 # Frederik Schwarzer <schwarzer@kde.org>, 2023.
 #
 # Automatically generated, 2022.
+# Johannes Obermayr <johannesobermayr@gmx.de>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-08-14 21:41+0200\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"PO-Revision-Date: 2023-12-18 19:21+0100\n"
+"Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -58,13 +59,13 @@ msgstr "&Weiter"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Diese Seite nach dem Aktualisieren von Plasma zeigen"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "&OK"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -115,12 +116,7 @@ msgid "Manage Software"
 msgstr "Software verwalten"
 
 #: src/contents/ui/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -128,10 +124,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>Discover</application> hilft Ihnen dabei, Anwendungen, Spiele "
-"und Werkzeuge zu finden und zu installieren. Sie können suchen oder durch "
-"Kategorien blättern sowie Bildschirmfotos ansehen und Bewertungen lesen, um "
-"die für Sie beste Anwendung zu finden."
+"Die Anwendung <application>%1</application> hilft Ihnen bei der Suche und "
+"Installation von Anwendungen, Spielen und Werkzeuge. Sie können suchen oder "
+"durch Kategorien blättern sowie Bildschirmfotos ansehen und Bewertungen "
+"lesen, um die für Sie beste Anwendung zu finden."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -156,6 +152,13 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"Die KDE-Gemeinschaft stützt sich auf Spenden von Fachwissen und Geldern und "
+"wird vom gemeinnützigen KDE e. V. unterstützt, der sich um rechtliche "
+"Fragen, Entwicklungssprints und Serverressourcen kümmert sowie "
+"Beschäftigungsmöglichkeiten für KDE-Entwickler bietet. Spenden an den KDE e. "
+"V. unterstützen die breitere KDE-Gemeinschaft und mit Ihrer heutigen Spende "
+"können Sie einen Unterschied machen.<nl/><nl/>Spenden sind in Deutschland in "
+"der Regel steuerlich absetzbar."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/plasmaupdate/Update.qml:74
@@ -165,20 +168,16 @@ msgid "Make a donation"
 msgstr "Etwas spenden"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma Tresore"
+msgstr "Unterstützer von Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma Tresore"
+msgstr "Unterstützer von Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -187,6 +186,8 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"Wir danken den folgenden Leuten für die Unterstützung während der "
+"Spendenkampagne für Plasma 6:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -219,6 +220,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"Durch den Klick auf das Symbol unterhalb wird die Installation von %1 "
+"gestartet. Sie können auch das Fenster zum Entdecken der Echtzeitumgebung "
+"schließen oder für weitere Informationen zu KDE Plasma hier fortfahren."
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -227,6 +231,8 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"Sie können das Fenster zum Entdecken der Echtzeitumgebung schließen oder für "
+"weitere Informationen zu KDE Plasma hier fortfahren."
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
@@ -262,14 +268,14 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"Diese Seite wird unabhängig einer Netzwerkverbindung gezeigt, da Sie eine "
+"Entwicklungsversion verwenden."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Plasma wurde auf die Version %1 aktualisiert"
+msgstr "Plasma wurde zu %1 aktualisiert"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -279,21 +285,22 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Vielen Dank für das Testen dieser Betaversion von Plasma — Ihre Rückmeldung "
+"ist für die weitere Verbesserung essentiell. Bitte melden Sie deshalb alle "
+"Fehler, die Sie finden, damit sie beheben können."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "Erfahren Sie, was neu ist in Plasma %1"
+msgstr "<b>Erfahren Sie die Neuerungen</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "Fehler berichten"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -321,6 +328,10 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"Die KDE-Gemeinschaft stützt sich auf Spenden von Fachwissen und Geldern und "
+"wird vom deutschen gemeinnützigen KDE e. V. unterstützt. Spenden an den KDE "
+"e. V. unterstützen die breitere KDE-Gemeinschaft und mit Ihrer heutigen "
+"Spende können Sie einen Unterschied machen."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -621,14 +632,7 @@ msgid "Simple by Default"
 msgstr "Von Haus aus einfach"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -642,7 +646,7 @@ msgstr ""
 "funktioniert. Die Dinge sind da, wo Sie sie erwarten, und es besteht keine "
 "Notwendigkeit irgendetwas aufwendig einzurichten, bevor Sie bequem und "
 "produktiv arbeiten können.<nl/><nl/>Sollten Sie doch etwas anpassen wollen, "
-"finden Sie es in den <application>Systemeinstellungen</application>."
+"finden Sie es in der Anwendung <application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
@@ -651,13 +655,7 @@ msgid "Welcome"
 msgstr "Willkommen"
 
 #: src/contents/ui/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -666,20 +664,14 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Plasma ist eine von KDE, einer internationalen Gemeinschaft von "
-"Freiwilligen, geschaffene freie Open-Source-Arbeitsumgebung. Die Plasma-"
-"Arbeitsumgebung ist standardmäßig einfach gehalten, aber ausgesprochen "
+"%1<nl/><nl/>Dieses Betriebssystem verwendet Plasma, eine freie und "
+"quelloffene Arbeitsumgebung von KDE, einer internationalen Gemeinschaft von "
+"Freiwilligen. Plasma ist standardmäßig einfach gehalten, aber ausgesprochen "
 "leistungsstark, wenn große Dinge erledigt werden wollen. Wir hoffen, dass "
 "Sie sie lieben werden!"
 
 #: src/contents/ui/pages/Welcome.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -688,11 +680,11 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Plasma ist eine von KDE, einer internationalen Gemeinschaft von "
-"Freiwilligen, geschaffene freie Open-Source-Arbeitsumgebung. Die Plasma-"
-"Arbeitsumgebung ist standardmäßig einfach gehalten, aber ausgesprochen "
-"leistungsstark, wenn große Dinge erledigt werden wollen. Wir hoffen, dass "
-"Sie sie lieben werden!"
+"Willkommen beim %1-Betriebssystem mit verwendetem KDE Plasma.<nl/><nl/"
+">Plasma ist eine freie und quelloffene Arbeitsumgebung von KDE, einer "
+"internationalen Gemeinschaft von Freiwilligen. Es ist standardmäßig einfach "
+"gehalten, aber ausgesprochen leistungsstark, wenn große Dinge erledigt "
+"werden wollen. Wir hoffen, dass Sie sie lieben werden!"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
@@ -710,13 +702,15 @@ msgstr "Mehr über %1 erfahren"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Das Laden des Bildes schlug fehl"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"<filename>%1</filename> lässt sich nicht laden. Vergewissern Sie sich, dass "
+"sie existiert."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
@@ -727,52 +721,52 @@ msgstr "Das KDE-Maskottchen Konqi begrüßt Sie in der KDE-Gemeinschaft!"
 #: src/controller.cpp:54
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 Alpha"
 
 #: src/controller.cpp:60
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:63
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "6.0 Beta 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Dev"
 
 #: src/controller.cpp:91
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:94
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/main.cpp:40
 #, kde-format
@@ -816,11 +810,11 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Hinweise zur aktuellen Plasma-Veröffentlichung anzeigen."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "Hinweise zur aktuellen Plasma-Veröffentlichung anzeigen."
+msgstr ""
+"Hinweise zur aktuellen Plasma-Veröffentlichung bei Betaversionen anzeigen."
 
 #: src/main.cpp:73
 #, kde-format
