@@ -2,12 +2,13 @@
 # This file is distributed under the same license as the plasma-welcome package.
 #
 # SPDX-FileCopyrightText: 2022, 2023 Alexander Yavorsky <kekcuha@gmail.com>
+# Alexander Yavorsky <kekcuha@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-12-17 09:49+0300\n"
+"PO-Revision-Date: 2023-12-24 20:28+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 21.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -564,24 +565,13 @@ msgstr ""
 "клавиш <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Загрузка материалов из интернета"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#| "marked \"Get New [thing]…\". Clicking on them will show you 3rd-party "
-#| "content to extend the system, made by other people like you! In this way, "
-#| "it is often possible to add functionality you want without having to ask "
-#| "KDE developers to implement it themselves.<nl/><nl/>Note that content "
-#| "acquired this way has not been reviewed by your distributor for "
-#| "functionality or stability."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
@@ -601,12 +591,10 @@ msgstr ""
 "стабильности."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "See All Available 3rd-Party Content"
+#, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Просмотреть доп. материалы"
+msgstr "Просмотреть доп. материалы…"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:16
 #, kde-format
@@ -615,14 +603,7 @@ msgid "Simple by Default"
 msgstr "Простая по умолчанию"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -635,7 +616,7 @@ msgstr ""
 "Plasma призвана быть простой и удобной «из коробки». Всё находится именно "
 "там, где вы и ожидаете, и нет необходимости  настраивать что-либо перед "
 "началом работы.<nl/><nl/>Но если вы всё же захотите что-то изменить, "
-"загляните в приложение <application>Параметры системы</application>."
+"загляните в приложение <application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
@@ -767,7 +748,7 @@ msgstr "Приложение первого запуска KDE Plasma"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Помощник первого запуска"
 
 #: src/main.cpp:53
 #, kde-format
@@ -799,11 +780,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Вывести заметки к текущему выпуску Plasma."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "Вывести заметки к текущему выпуску Plasma."
+msgstr "Вывести заметки к текущему выпуску Plasma бета-версии."
 
 #: src/main.cpp:73
 #, kde-format
