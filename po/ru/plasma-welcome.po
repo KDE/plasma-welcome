@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-12-24 20:28+0300\n"
+"PO-Revision-Date: 2023-12-26 12:56+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -148,6 +148,13 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"Сообщество KDE полагается на пожертвования в виде опыта и средств и "
+"поддерживается KDE e.V. — немецкой некоммерческой организацией, которая "
+"занимается юридическими вопросами, финансирует спринты разработки и "
+"серверные ресурсы, а также предлагает возможности трудоустройства для "
+"разработчиков KDE. Пожертвования в пользу KDE e.V. позволяют расширять "
+"сообщество KDE. Вы тоже можете внести свой вклад, сделав пожертвование "
+"сегодня.<nl/><nl/>Пожертвования в Германии не облагаются налогом."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/plasmaupdate/Update.qml:74
@@ -160,13 +167,13 @@ msgstr "Сделать пожертвование"
 #, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr ""
+msgstr "Спонсоры Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr ""
+msgstr "Спонсоры Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -220,6 +227,8 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"Вы можете закрыть окно, чтобы продолжить изучение Plasma без установки, или "
+"продолжить в этом приложении, чтобы узнать больше KDE Plasma."
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
@@ -254,6 +263,8 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"Эта страница отображается независимо от сетевого подключения, поскольку вы "
+"используете версию для разработки."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
 #, kde-format
@@ -269,6 +280,9 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Благодарим вас за тестирование этой бета-версии Plasma. Ваши отзывы помогут "
+"сделать её ещё лучше. Пожалуйста, сообщайте обо всех обнаруженных ошибках, "
+"чтобы разработчики могли их исправить."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
@@ -309,6 +323,10 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"Сообщество KDE полагается на пожертвования в виде опыта и средств и "
+"поддерживается KDE e.V. — немецкой некоммерческой организацией. "
+"Пожертвования в пользу KDE e.V. позволяют расширять сообщество KDE. Вы тоже "
+"можете внести свой вклад, сделав пожертвование сегодня."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -789,6 +807,8 @@ msgstr "Вывести заметки к текущему выпуску Plasma 
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
+"Вывести страницу,предназначенную для работы дистрибутива в режиме без "
+"установки."
 
 #: src/qml/ApplicationIcon.qml:39
 #, kde-format
