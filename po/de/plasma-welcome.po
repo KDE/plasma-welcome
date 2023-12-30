@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the plasma-welcome package.
 # Jannick Kuhr <opensource@kuhr.org>, 2023.
 # Frederik Schwarzer <schwarzer@kde.org>, 2023.
+# SPDX-FileCopyrightText: 2023 Johannes Obermayr <johannesobermayr@gmx.de>
 #
 # Automatically generated, 2022.
-# Johannes Obermayr <johannesobermayr@gmx.de>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-12-18 19:21+0100\n"
+"PO-Revision-Date: 2023-12-21 18:35+0100\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -124,10 +124,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Die Anwendung <application>%1</application> hilft Ihnen bei der Suche und "
-"Installation von Anwendungen, Spielen und Werkzeuge. Sie können suchen oder "
-"durch Kategorien blättern sowie Bildschirmfotos ansehen und Bewertungen "
-"lesen, um die für Sie beste Anwendung zu finden."
+"<application>%1</application> hilft Ihnen dabei, Anwendungen, Spiele und "
+"Werkzeuge zu finden und zu installieren. Sie können suchen oder durch "
+"Kategorien blättern sowie Bildschirmfotos ansehen und Bewertungen lesen, um "
+"die für Sie beste Anwendung zu finden."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -153,7 +153,7 @@ msgid ""
 ">Donations are tax-deductible in Germany."
 msgstr ""
 "Die KDE-Gemeinschaft stützt sich auf Spenden von Fachwissen und Geldern und "
-"wird vom gemeinnützigen KDE e. V. unterstützt, der sich um rechtliche "
+"wird vom gemeinnützigen Verein KDE e. V. unterstützt, der sich um rechtliche "
 "Fragen, Entwicklungssprints und Serverressourcen kümmert sowie "
 "Beschäftigungsmöglichkeiten für KDE-Entwickler bietet. Spenden an den KDE e. "
 "V. unterstützen die breitere KDE-Gemeinschaft und mit Ihrer heutigen Spende "
@@ -186,7 +186,7 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Wir danken den folgenden Leuten für die Unterstützung während der "
+"Wir danken den folgenden Personen für die Unterstützung während der "
 "Spendenkampagne für Plasma 6:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
@@ -213,7 +213,12 @@ msgid "Welcome to %1!"
 msgstr "Willkommen zu %1!"
 
 #: src/contents/ui/pages/Live.qml:22
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "Pressing the icon below will begin installing %1. Alternatively, you can "
+#| "close the window to explore the live environment or continue here to find "
+#| "out about KDE Plasma."
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Pressing the icon below will begin installing %1. Alternatively, you can "
@@ -225,7 +230,11 @@ msgstr ""
 "schließen oder für weitere Informationen zu KDE Plasma hier fortfahren."
 
 #: src/contents/ui/pages/Live.qml:24
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "You can close the window to explore the live environment or continue here "
+#| "to find out about KDE Plasma."
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "You can close the window to explore the live environment or continue here to "
@@ -268,8 +277,8 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
-"Diese Seite wird unabhängig einer Netzwerkverbindung gezeigt, da Sie eine "
-"Entwicklungsversion verwenden."
+"Diese Seite wird unabhängig von einer aktiven Netzwerkverbindung gezeigt, da "
+"Sie eine Entwicklungsversion verwenden."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
 #, kde-format
@@ -286,8 +295,8 @@ msgid ""
 "find so that we can fix them."
 msgstr ""
 "Vielen Dank für das Testen dieser Betaversion von Plasma — Ihre Rückmeldung "
-"ist für die weitere Verbesserung essentiell. Bitte melden Sie deshalb alle "
-"Fehler, die Sie finden, damit sie beheben können."
+"ist für die weitere Verbesserung elementar. Bitte melden Sie deshalb alle "
+"Fehler, die Sie finden, damit wir sie beheben können."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
@@ -300,7 +309,7 @@ msgstr "<b>Erfahren Sie die Neuerungen</b>"
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr "Fehler berichten"
+msgstr "Probleme oder Wünsche berichten"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -329,9 +338,9 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 "Die KDE-Gemeinschaft stützt sich auf Spenden von Fachwissen und Geldern und "
-"wird vom deutschen gemeinnützigen KDE e. V. unterstützt. Spenden an den KDE "
-"e. V. unterstützen die breitere KDE-Gemeinschaft und mit Ihrer heutigen "
-"Spende können Sie einen Unterschied machen."
+"wird vom deutschen gemeinnützigen Verein KDE e. V. unterstützt. Spenden an "
+"den KDE e. V. unterstützen die breitere KDE-Gemeinschaft und mit Ihrer "
+"heutigen Spende können Sie einen Unterschied machen."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -646,7 +655,7 @@ msgstr ""
 "funktioniert. Die Dinge sind da, wo Sie sie erwarten, und es besteht keine "
 "Notwendigkeit irgendetwas aufwendig einzurichten, bevor Sie bequem und "
 "produktiv arbeiten können.<nl/><nl/>Sollten Sie doch etwas anpassen wollen, "
-"finden Sie es in der Anwendung <application>%1</application>."
+"finden Sie es in den <application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
@@ -664,9 +673,9 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"%1<nl/><nl/>Dieses Betriebssystem verwendet Plasma, eine freie und "
-"quelloffene Arbeitsumgebung von KDE, einer internationalen Gemeinschaft von "
-"Freiwilligen. Plasma ist standardmäßig einfach gehalten, aber ausgesprochen "
+"%1<nl/><nl/>Plasma ist eine von KDE, einer internationalen Gemeinschaft von "
+"Freiwilligen, geschaffene freie quelloffene Arbeitsumgebung. Die Plasma-"
+"Arbeitsumgebung ist standardmäßig einfach gehalten, aber ausgesprochen "
 "leistungsstark, wenn große Dinge erledigt werden wollen. Wir hoffen, dass "
 "Sie sie lieben werden!"
 
@@ -702,7 +711,7 @@ msgstr "Mehr über %1 erfahren"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr "Das Laden des Bildes schlug fehl"
+msgstr "Das Laden des Bildes ist fehlgeschlagen"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
@@ -710,7 +719,7 @@ msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "<filename>%1</filename> lässt sich nicht laden. Vergewissern Sie sich, dass "
-"sie existiert."
+"die Datei existiert."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
