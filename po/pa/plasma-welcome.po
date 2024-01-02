@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2022, 2023 A S Alam <aalam@satluj.org>
+# SPDX-FileCopyrightText: 2022, 2023, 2024 A S Alam <aalam@satluj.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-12-24 09:31-0600\n"
+"PO-Revision-Date: 2024-01-01 10:04-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
 "Language: pa\n"
@@ -111,6 +111,9 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"<application>%1</application> ਐਪ ਤੁਹਾਨੂੰ ਐਪਲੀਕੇਸ਼ਨਾਂ, ਖੇਡਾਂ ਅਤੇ ਟੂਲ ਲੱਭਣ ਅਤੇ ਇੰਸਟਾਲ ਕਰਨ "
+"ਲਈ ਮਦਦ ਕਰਦੀ ਹੈ। ਤੁਸੀਂ ਕੈਟਾਗਰੀ ਰਾਹੀਂ ਲੱਭ ਜਾਂ ਬਰਾਊਜ਼ ਕਰ, ਸਕਰੀਨਸ਼ਾਟ ਵੇਖ, ਅਤੇ ਆਪਣੇ ਲਈ ਸਭ ਤੋਂ "
+"ਢੁੱਕਵੀਂ ਐਪ ਲੱਭਣ ਲਈ ਮਦਦ ਵਾਸਤੇ ਪੜਤਾਲਾਂ ਵੇਖ ਸਕਦੇ ਹੋ।"
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -161,7 +164,7 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
-msgstr ""
+msgstr "ਅਸੀਂ ਪਲਾਜ਼ਮਾ 6 ਉਗਹਾਰੀ ਮੁਹਿੰਮ ਦੌਰਾਨ ਸਾਡੇ ਮਦਦਗਾਰ ਹੇਠ ਦਿੱਤੇ ਲੋਕਾਂ ਦਾ ਧੰਨਵਾਦ ਕਰਦੇ ਹਨ:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -176,6 +179,8 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"ਸਾਡੇ ਡਿਵੈਲਪਰ ਇਸ ਅਣਪਛਾਤੇ ਕੀਤੇ ਡਾਟੇ ਨੂੰ KDE ਸਾਫਟਵੇਅਰਾਂ ਵਿੱਚ ਸੁਧਾਰ ਕਰਨ ਲਈ ਵਰਤਣਗੇ। ਤੁਸੀਂ ਸਿਸਟਮ "
+"ਸੈਟਿੰਗਾਂ ਅਤੇ ਇੱਥੇ ਚੋਣ ਕਰ ਸਕਦੇ ਹੋ ਕਿ ਕਿੰਨਾ ਸਾਂਝਾ ਕਰਨਾ ਹੈ।"
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
@@ -191,6 +196,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"ਹੇਠਲੇ ਆਈਕਾਨ ਨੂੰ ਦਬਾਉਣ ਨਾਲ %1 ਨੂੰ ਇੰਸਟਾਲ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾਵੇਗਾ। ਬਦਲਵੇਂ ਰੂਪ ਵਿੱਚ ਤੁਸੀਂ ਵਿੰਡੋ ਨੂੰ "
+"ਬੰਦ ਕਰਕੇ ਲਾਈਵ ਸਿਸਟਮ ਨੂੰ ਵਰਤ ਸਕਦੇ ਹੋ ਜਾਂ KDE ਪਲਾਜ਼ਮਾ ਬਾਰੇ ਜਾਣਕਾਰੀ ਹਾਸਲ ਕਰਨਾ ਜਾਰੀ ਰੱਖ "
+"ਸਕਦੇ ਹੋ।"
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -199,6 +207,8 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"ਤੁਸੀਂ ਵਿੰਡੋ ਨੂੰ ਬੰਦ ਕਰਕੇ ਲਾਈਵ ਸਿਸਟਮ ਨੂੰ ਵਰਤ ਸਕਦੇ ਹੋ ਜਾਂ KDE ਪਲਾਜ਼ਮਾ ਬਾਰੇ ਜਾਣਕਾਰੀ ਹਾਸਲ ਕਰਨਾ "
+"ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹੋ।"
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
@@ -221,6 +231,10 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
+"ਤੁਸੀਂ <interface>ਨੈੱਟਵਰਕ ਐਪਲਿਟ</interface> ਰਾਹੀਂ ਇੰਟਰਨੈੱਟ ਨਾਲ ਕਨੈਕਟ ਅਤੇ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨਾਂ "
+"ਦਾ ਇੰਤਜ਼ਾਮ ਕਰ ਸਕਦੇ ਹੋ। ਇਹ ਵਰਤਣ ਲਈ ਆਪਣੀ <interface>ਸਿਸਟਮ ਟਰੇ</interface> ਵਿੱਚ "
+"<interface>ਨੈੱਟਵਰਕ</interface> ਆਈਕਾਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਜੋ ਕਿ ਸਕਰੀਨ ਦੇ ਹੇਠਾਂ ਸੱਜੇ ਕੋਨੇ ਵਿੱਚ "
+"ਹੁੰਦਾ ਹੈ।"
 
 #: src/contents/ui/pages/Network.qml:248
 #, kde-format
@@ -244,6 +258,9 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"ਪਲਾਜ਼ਮਾ ਦੇ ਇਸ ਬੀਟਾ ਰੀਲਿਜ਼ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ—ਤੁਹਾਡੀ ਫੀਡਬੈਕ ਇਸ ਵਿੱਚ ਸੁਧਾਰਨ "
+"ਕਰਨ ਵਾਸਤੇ ਮੂਲ ਆਧਾਰ ਹੈ। ਜੋ ਵੀ ਬੱਗ ਤੁਹਾਨੂੰ ਮਿਲਣ, ਉਹਨਾਂ ਸਾਰਿਆਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦਿਓ ਤਾਂ ਕਿ ਅਸੀਂ "
+"ਉਹਨਾਂ ਨੂੰ ਠੀਕ ਕਰ ਸਕੀਏ।"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
@@ -295,6 +312,8 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"ਪਲਾਜ਼ਮਾ ਫੀਚਰਾਂ ਨਾਲ ਭਰਪੂਰ ਇਨਵਾਇਰਮੈਂਟ ਹੈ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਕੰਮ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਡਿਜਾਇਨ ਕੀਤਾ ਹੈ! "
+"ਇਸ ਵਿੱਚ ਤੁਹਾਡੇ ਕੰਮ ਆਉਣ ਵਾਲੀਆਂ ਚੀਜ਼ਾਂ ਵਿੱਚ ਕੁਝ ਹੀ ਹਨ:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
@@ -547,6 +566,9 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
+"%1<nl/><nl/>ਇਹ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਪਲਾਜ਼ਮਾ, KDE ਵਲੋਂ ਤਿਆਰ ਕੀਤੇ ਮੁਫ਼ਤ ਅਤੇ ਆਜ਼ਾਦ ਸਰੋਤ ਡੈਸਕਟਾਪ "
+"ਇਨਵਾਇਰਮੈਂਟ ਨੂੰ ਚਲਾ ਰਿਹਾ ਹੈ। ਇਸ ਨੂੰ ਸੌਖੇ ਤਜਰਬੇ ੂਮੂਲ ਰੂਪ ਵਿੱਚ ਸਰਲ, ਪਰ ਤੁਹਾਨੂੰ ਕੰਮ ਪੂਰੇ ਕਰਨ ਲਈ ਮਦਦ "
+"ਵਾਸਤੇ ਮਜ਼ਬੂਤ ਬਣਾਇਆ ਗਿਆ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਪਸੰਦ ਆਵੇਗਾ।"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -558,6 +580,9 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
+"KDE ਪਲਾਜ਼ਮਾ ਚਲਾਉਣ ਵਾਲੇ %1 ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਲਈ ਜੀ ਆਇਆਂ ਨੂੰ!<nl/><nl/> KDE ਵਲੋਂ ਤਿਆਰ ਕੀਤੇ "
+"ਮੁਫ਼ਤ ਅਤੇ ਆਜ਼ਾਦ ਸਰੋਤ ਡੈਸਕਟਾਪ ਇਨਵਾਇਰਮੈਂਟ ਨੂੰ ਚਲਾ ਰਿਹਾ ਹੈ। ਇਸ ਨੂੰ ਸੌਖੇ ਤਜਰਬੇ ੂਮੂਲ ਰੂਪ ਵਿੱਚ ਸਰਲ, ਪਰ "
+"ਤੁਹਾਨੂੰ ਕੰਮ ਪੂਰੇ ਕਰਨ ਲਈ ਮਦਦ ਵਾਸਤੇ ਮਜ਼ਬੂਤ ਬਣਾਇਆ ਗਿਆ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਪਸੰਦ ਆਵੇਗਾ।"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
