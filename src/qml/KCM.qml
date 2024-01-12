@@ -35,7 +35,6 @@ GenericPage
         module.kcm.load()
         module.kcm.mainUi.parent = contentItem;
         module.kcm.mainUi.anchors.fill = contentItem;
-        module.kcm.mainUi.extraFooterTopPadding = false;
     }
 
     data: [
