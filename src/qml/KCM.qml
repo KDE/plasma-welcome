@@ -35,7 +35,6 @@ GenericPage
         module.kcm.load()
         module.kcm.mainUi.parent = contentItem;
         module.kcm.mainUi.anchors.fill = contentItem;
-        module.kcm.mainUi.extraFooterTopPadding = false;
     }
 
     data: [
@@ -43,7 +42,6 @@ GenericPage
             target: module.kcm
             function onPagePushed(page) {
                 pageStack.layers.push(page);
-                page.extraFooterTopPadding = false;
             }
             function onPageRemoved() {
                 pageStack.layers.pop(); //PROBABLY THIS SHOULDN't BE SUPPORTED
