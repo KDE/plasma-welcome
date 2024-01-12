@@ -42,7 +42,6 @@ GenericPage
             target: module.kcm
             function onPagePushed(page) {
                 pageStack.layers.push(page);
-                page.extraFooterTopPadding = false;
             }
             function onPageRemoved() {
                 pageStack.layers.pop(); //PROBABLY THIS SHOULDN't BE SUPPORTED
