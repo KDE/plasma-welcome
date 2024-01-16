@@ -1,11 +1,11 @@
-# SPDX-FileCopyrightText: 2023 Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+# SPDX-FileCopyrightText: 2023, 2024 Ryuichi Yamada <ryuichi_ya220@outlook.jp>
 # Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-12-03 15:48+0900\n"
+"PO-Revision-Date: 2024-01-15 13:42+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -55,7 +55,7 @@ msgstr "次へ(&N)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Plasma が更新された後このページを表示する"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -92,7 +92,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr "貢献しましょう！"
+msgstr "貢献してみる！"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:100
@@ -144,9 +144,9 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
-"KDE コミュニティは技術と資金の寄付に依存しており、法規上の手続き、開発スプリ"
-"ントやサーバのための資金提供、KDE 開発者への雇用機会の提供を行うドイツの非営"
-"利団体 KDE e.V. の支援を受けています。KDE e.V. への寄付は、さらなる KDE コ"
+"KDE コミュニティは技術と資金の寄付に支えられており、法規上の手続き、開発スプ"
+"リントやサーバのための資金提供、KDE 開発者への雇用機会の提供を行うドイツの非"
+"営利団体 KDE e.V. の支援を受けています。KDE e.V. への寄付は、さらなる KDE コ"
 "ミュニティへの支援につながります！<nl/><nl/>ドイツでは、寄付金は税控除の対象"
 "です。"
 
@@ -158,20 +158,16 @@ msgid "Make a donation"
 msgstr "寄付する"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma Vaults"
+msgstr "Plasma 6 サポーター"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma Vaults"
+msgstr "Plasma 6 サポーター"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -180,6 +176,7 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"Plasma 6 資金調達キャンペーンを支援してくださった以下の人々に感謝します:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -247,8 +244,8 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
-"<interface>ネットワークアプレット</interface>で、インターネットへの接続とネッ"
-"トワーク接続の管理を行えます。スクリーン右下の<interface>システムトレイ</"
+"<interface>ネットワークウィジェット</interface>で、インターネットへの接続と"
+"ネットワーク接続の管理を行えます。スクリーン右下の<interface>システムトレイ</"
 "interface>の中にある、<interface>ネットワーク</interface>アイコンをクリックし"
 "てアクセスしてください。"
 
@@ -318,6 +315,9 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"KDE コミュニティは技術と資金の寄付に支えられており、ドイツの非営利団体 KDE e."
+"V. の支援を受けています。KDE e.V. への寄付は、さらなる KDE コミュニティへの支"
+"援につながります。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -401,7 +401,7 @@ msgstr "システムの管制塔"
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "新しいものを手に入れる"
+msgstr "新しいものを入手"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
@@ -566,7 +566,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "新しいものを手に入れる"
+msgstr "新しいものを入手"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-kuit-format
@@ -632,11 +632,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"%1<nl/><nl/>この OS は、ボランティアによる小屈指的なソフトウェアコミュニティ"
-"である KDE によって作成された、フリーでオープンソースなデスクトップ環境 "
-"Plasma を実行しています。Plasma デスクトップ環境は、デフォルトではシンプルで"
-"簡単な操作感を提供します。しかし、必要なときにはパワフルな機能であなたの作業"
-"をお手伝いします。ぜひお楽しみください！"
+"%1<nl/><nl/>この OS は、ボランティアによる国際的なソフトウェアコミュニティで"
+"ある KDE によって作成された、フリーでオープンソースなデスクトップ環境 Plasma "
+"を実行しています。Plasma デスクトップ環境は、デフォルトではシンプルで簡単な操"
+"作感を提供します。しかし、必要なときにはパワフルな機能であなたの作業をお手伝"
+"いします。ぜひお楽しみください！"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
