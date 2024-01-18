@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2024-01-13 17:47+0200\n"
+"PO-Revision-Date: 2024-01-18 00:25+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -315,7 +315,7 @@ msgid ""
 msgstr ""
 "Pastaruosius keturis mėnesius KDE talkininkai praleido sunkiai dirbdami ties "
 "šia versija. Tikimės, kad jūs mėgausitės naudodamiesi Plasma tiek pat, kiek "
-"mes mėgavomės ją plėtodami."
+"mes mėgavomės ją plėtodami!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -391,13 +391,13 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Ieškokite bet ko"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Apžvalga"
@@ -444,12 +444,20 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Plasma slėptuvės jums leidžia kurti šifruotus aplankus, vadinamus "
+"<interface>Slėptuvėmis.</interface> Kiekvienos slėptuvės viduje galite "
+"saugiai laikyti slaptažodžius, failus, nuotraukas, dokumentus atokiai nuo "
+"smalsaujančių akių. Be to, slėptuvės gali būti talpinamos aplankuose, kurie "
+"sinchronizuojami į debesijos paslaugas, tokiu būdu suteikdamos tam turiniui "
+"papildomo privatumo.<nl/><nl/>Norėdami pradėti, spustelėkite ant rodyklės "
+"<interface>Sistemos dėkle</interface>, kad būtų atverti paslėpti elementai, "
+"o tuomet spustelėkite <interface>Slėptuvių</interface> piktogramą."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr ""
+msgstr "Veiklos"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -464,6 +472,15 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"Veiklos gali būti naudojamos atskirti aukšto lygio projektus ar darbo eigas, "
+"kad vienu metu galėtumėte susitelkti į vieną veiklą. Galite turėti atskiras "
+"veiklas „Namams“, „Mokyklai“, „Darbui“ ir t.t. Kiekviena veikla turi prieigą "
+"prie visų jūsų failų, bet turi nuosavą atvertų programų ir langų, "
+"paskiausiai naudotų dokumentų, „mėgstamų“ programų ir darbalaukio valdiklių "
+"rinkinį.<nl/><nl/>Norėdami pradėti, paleiskite <interface>Sistemos "
+"nuostatas</interface> ir paieškoje įrašykite „Veiklos“. Tame puslapyje "
+"galite sukurti daugiau veiklų. Po to, galite perjunginėti jas naudodami "
+"<shortcut>Meta+Tab</shortcut> sparčiuosius klavišus."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
@@ -497,7 +514,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
 #, kde-kuit-format
@@ -567,7 +584,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "Paprasta pagal numatymą"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-kuit-format
@@ -613,25 +630,25 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Sužinokite daugiau apie KDE bendruomenę"
 
 #: src/contents/ui/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr ""
+msgstr "Sužinokite daugiau apie %1"
 
 #: src/contents/ui/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Nepavyko įkelti paveikslo"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "Nepavyko įkelti <filename>%1</filename>. Įsitikinkite, kad jis yra."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
@@ -642,52 +659,52 @@ msgstr ""
 #: src/controller.cpp:54
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 Alfa"
 
 #: src/controller.cpp:60
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "6.0 Beta 1 versija"
 
 #: src/controller.cpp:63
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "6.0 Beta 2 versija"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 kandidatinė versija 1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 kandidatinė versija 2"
 
 #: src/controller.cpp:87
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Dev"
 
 #: src/controller.cpp:91
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:94
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/main.cpp:40
 #, kde-format
@@ -705,44 +722,46 @@ msgstr ""
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
-msgstr ""
+msgstr "(c) 2021"
 
 #: src/main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:55 src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "Autorius"
 
 #: src/main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
-msgstr ""
+msgstr "Nate Graham"
 
 #: src/main.cpp:71
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr ""
+msgstr "Rodyti dabartinės Plasma versijos laidos informaciją."
 
 #: src/main.cpp:72
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr ""
+msgstr "Rodyti dabartinės Plasma versijos, Beta versijų laidos informaciją."
 
 #: src/main.cpp:73
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
+"Rodyti demonstracinį puslapį, skirtą platinamųjų paketų demonstracinėms "
+"aplinkoms."
 
 #: src/qml/ApplicationIcon.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr ""
+msgstr "Paleisti %1 dabar"
