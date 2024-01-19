@@ -135,13 +135,13 @@ Name this file `01-NateOS.qml` and place it in `/usr/share/plasma/plasma-welcome
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.15
-import QtQuick.Controls 2.15 as QQC2
-import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.15 as Kirigami
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
 import Qt5Compat.GraphicalEffects
 
-import org.kde.plasma.welcome 1.0
+import org.kde.plasma.welcome
 
 GenericPage {
     heading: i18nc("@info:window", "Welcome to NateOS")
