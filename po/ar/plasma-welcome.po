@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
 #
-# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-06-22 09:54+0400\n"
+"PO-Revision-Date: 2024-01-20 18:38+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -160,12 +160,10 @@ msgid "Make a donation"
 msgstr "تبرّع"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "خزنات بلازما"
+msgstr "داعمي بلازما 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
 #, fuzzy, kde-format
@@ -261,12 +259,10 @@ msgid ""
 msgstr ""
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "حُدثت بلازما إلى الإصدارة %1"
+msgstr "حُدثت بلازما إلى %1"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -279,18 +275,16 @@ msgstr ""
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "ما الجديد في سطح مكتب بلازما %1"
+msgstr "<b>اكتشف الجديد</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "بلغ عن علة"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -601,14 +595,7 @@ msgid "Simple by Default"
 msgstr "بسيطة المظهر"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
 "settings app for Plasma Desktop or Plasma Mobile"
@@ -619,17 +606,15 @@ msgid ""
 "you'll find what you need in the <application>%1</application> app."
 msgstr ""
 "صُممت بلازما لتكون بسيطة وقابلة للاستخدام دون تدخل منك. كل الأشياء في المكان "
-"الذي تتوقعه، وليس هناك حاجة عمومًا لضبط أي شيء قبل أن تكون مريحًا ومنتجًا. <nl/"
-"> <nl/> إذا شعرت بالحاجة إلى التدخل، ستجد ما تحتاجه في <application> إعدادات "
-"النظام </application>."
+"الذي تتوقعه، وليس هناك حاجة -عمومًا- لضبط أي شيء قبل أن تكون مريحًا ومنتجًا. "
+"<nl/> <nl/> إذا شعرت بالحاجة إلى التدخل، ستجد ما تحتاجه في تطبيق  "
+"<application> %1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "مركز الترحيب"
+msgstr "مرحباً"
 
 #: src/contents/ui/pages/Welcome.qml:19
 #, fuzzy, kde-kuit-format
@@ -678,18 +663,16 @@ msgid "Learn more about the KDE community"
 msgstr "تعلم المزيد عن مجتمع كِيدِي"
 
 #: src/contents/ui/pages/Welcome.qml:34
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "تعلم المزيد عن مجتمع كِيدِي"
+msgstr "تعلم المزيد عن %1"
 
 #: src/contents/ui/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "فشل تحميل الصورة"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
@@ -706,52 +689,52 @@ msgstr "تميمة كِيدِي كونكي ترحب بك في مجتمع كِي�
 #: src/controller.cpp:54
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 Alpha"
 
 #: src/controller.cpp:60
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:63
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "6.0 Beta 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Dev"
 
 #: src/controller.cpp:91
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:94
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/main.cpp:40
 #, kde-format
@@ -795,11 +778,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "اعرض ملاحظات الإصدارة لإصدارة بلازما الحالية."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "اعرض ملاحظات الإصدارة لإصدارة بلازما الحالية."
+msgstr "اعرض ملاحظات الإصدارة لإصدارة بلازما الحالية، لإصدرات البيتا."
 
 #: src/main.cpp:73
 #, kde-format
