@@ -7,6 +7,7 @@ set(PROJECT_VERSION "6.0.80")
 
 cmake_minimum_required(VERSION 3.16)
 
+set(PROJECT_DEP_VERSION "6.0.80")
 set(QT_MIN_VERSION "6.6.0")
 set(KF6_MIN_VERSION "5.240.0")
 set(KDE_COMPILERSETTINGS_LEVEL "5.82")
@@ -51,7 +52,7 @@ ecm_setup_version(${PROJECT_VERSION}
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg)
 find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Kirigami Config CoreAddons ConfigWidgets DBusAddons I18n KIO NewStuff Service WindowSystem DBusAddons KCMUtils Svg JobWidgets)
-find_package(Plasma ${PROJECT_VERSION} REQUIRED)
+find_package(Plasma ${PROJECT_DEP_VERSION} REQUIRED)
 find_package(KF6KirigamiAddons 0.10 REQUIRED)
 
 find_package(KUserFeedback)
