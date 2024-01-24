@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2024-01-18 00:25+0200\n"
+"PO-Revision-Date: 2024-01-24 01:27+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -406,13 +406,13 @@ msgstr "Apžvalga"
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "Jūsų sistemos komandinis centras"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr ""
+msgstr "Gaukite naujų dalykų"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
@@ -509,6 +509,16 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"KDE Connect jums leidžia įvairiais būdais integruoti savo telefoną į "
+"kompiuterį:<nl/><list><item>Matyti kompiuteryje pranešimus iš telefono</"
+"item><item>Naudojant kompiuterį atsakyti iš telefono į tekstines žinutes</"
+"item><item>Sinchronizuoti iškarpinės turinį tarp kompiuterio ir telefono</"
+"item><item>Atkurti telefone garso signalą, kai nerandate telefono</"
+"item><item>Kopijuoti paveikslus, vaizdo įrašus ir kitus failus iš telefono į "
+"kompiuterį arba atvirkščiai</item><item>…Ir žymiai daugiau!</item></list><nl/"
+">Norėdami pradėti, paleiskite <interface>Sistemos nuostatas</interface> ir "
+"paieškos laukelyje įrašykite „KDE Connect“. Atsivėrusiame puslapyje galėsite "
+"suporuoti telefoną su kompiuteriu."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-format
@@ -536,12 +546,23 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner yra išskirtinė, galinga, visapusiška Plasma paieškos sistema. Jos "
+"dėka veikia paieškos funkcionalumas programų paleidyklės meniu ir apžvalgos "
+"ekrane. KRunner galima atverti kaip atskirą paieškos juostą naudojant "
+"<shortcut>Alt+Tarpas</shortcut> spartųjį klavišą.<nl/><nl/>Be failų ir "
+"aplankų paieškos KRunner gali paleisti programas, atlikti paiešką saityne, "
+"konvertuoti valiutas, skaičiuoti matematinius uždavinius ir žymiai daugiau. "
+"Pabandykite į vieną iš tų paieškos laukų įrašyti:<nl/><list><item>„laikas "
+"Berlin“</item><item>„27/3“</item><item>„200 EUR į USD“</item><item>„25 mi į "
+"km“</item><item>…Ir dar daugiau!</item></list><nl/>Norėdami sužinoti "
+"daugiau, atverkite KRunner paieškos juostą naudodami <shortcut>Alt+Tarpas</"
+"shortcut> spartųjį klavišą ir spustelėkite and klaustuko piktogramos."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Apžvalga"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
@@ -554,12 +575,18 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"Apžvalga – tai viso ekrano perdanga atvaizduojanti visus jūsų atvertus "
+"langus ir leidžianti jums lengvai pasiekti bet kurį iš jų. Ji taip pat rodo "
+"jūsų esamus virtualius darbalaukius, suteikdama galimybę juos pridėti, "
+"šalinti ar perjungti. Galiausiai, ji siūlo su KRunner veikiantį paieškos "
+"lauką, kuris taip pat gali filtruoti atvertus langus.<nl/><nl/>Apžvalgą "
+"galite pasiekti naudodami <shortcut>Meta+W</shortcut> spartųjį klavišą."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr ""
+msgstr "Gaukite naujų dalykų"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-kuit-format
@@ -573,12 +600,20 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
+"Plasma aplinkoje, sistemos nuostatose ir KDE programose rasite mygtukus, "
+"pažymėtus užrašu „Gauti naują <emphasis>dalyką</emphasis>…“. Spustelėjus ant "
+"jų, bus rodomas trečiųjų šalių pateiktas turinys, kurį sukūrė tokie žmonės "
+"kaip jūs, ir kuris yra skirtas išplėsti sistemos ypatybes! Tokiu būdu, dažnu "
+"atveju yra įmanoma pridėti pageidaujamą funkcionalumą be būtinybės prašyti "
+"KDE programuotojų pagalbos įgyvendinant tam tikrą funkciją.<nl/><nl/"
+">Turėkite omenyje, kad turinio platintojas neperžiūri tokio turinio "
+"atitikimo funkcionalumo ar stabilumo reikalavimams."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr ""
+msgstr "Rodyti trečiųjų šalių turinį…"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:16
 #, kde-format
@@ -597,12 +632,17 @@ msgid ""
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
 "you'll find what you need in the <application>%1</application> app."
 msgstr ""
+"Plasma yra sukurta, kad pradėjus naudoti būtų paprasta ir praktiška. Visi "
+"dalykai yra ten, kur galite jų tikėtis, tad įprastai nėra reikalo kažko "
+"konfigūruoti ir jaustumėtės patogiai ir būtumėte produktyvūs.<nl/><nl/>Jei "
+"atsiras poreikis, viską, ko reikia, rasite programoje <application>%1</"
+"application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr ""
+msgstr "Sveiki!"
 
 #: src/contents/ui/pages/Welcome.qml:19
 #, kde-kuit-format
@@ -614,6 +654,12 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
+"%1<nl/><nl/>Ši operacinė sistema naudoja Plasma – laisvą, atvirojo kodo "
+"darbalaukio aplinką, kurią plėtoja KDE. KDE – tai tarptautinė programinės "
+"įrangos savanorių bendruomenė. KDE Plasma yra sukurta taip, kad pagal "
+"numatymą būtų paprasta naudoti ir užtikrintų sklandų patyrimą, bet tuo pačiu "
+"būtų galinga, kai to prireikia, ir padėtų jums atlikti darbus. Tikimės, ši "
+"aplinka jums patiks!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -625,6 +671,12 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
+"Jus sveikina %1 – KDE Plasma naudojanti operacinė sistema!<nl/><nl/>Plasma "
+"yra laisva, atvirojo kodo darbalaukio aplinka, kurią plėtoja KDE – "
+"tarptautinė programinės įrangos savanorių bendruomenė. KDE Plasma yra "
+"sukurta taip, kad pagal numatymą būtų paprasta naudoti ir užtikrintų sklandų "
+"patyrimą, bet tuo pačiu būtų galinga, kai to prireikia, ir padėtų jums "
+"atlikti darbus. Tikimės, ši aplinka jums patiks!"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
@@ -654,7 +706,7 @@ msgstr "Nepavyko įkelti <filename>%1</filename>. Įsitikinkite, kad jis yra."
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "KDE talismanas Konqi sveikina jus KDE bendruomenėje!"
 
 #: src/controller.cpp:54
 #, kde-format
@@ -710,13 +762,13 @@ msgstr "%1 Beta %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr ""
+msgstr "KDE Plasma supažindinimo su sistema programa"
 
 #: src/main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Supažindinimas su sistema"
 
 #: src/main.cpp:53
 #, kde-format
