@@ -18,40 +18,41 @@ target_sources(plasma-welcome PRIVATE
     qmlconfig.h
 )
 
-ecm_target_qml_sources(plasma-welcome SOURCES
-    qml/GenericPage.qml
-    qml/ScrollablePage.qml
-    qml/KCM.qml
-    qml/ApplicationIcon.qml
-)
-
-ecm_target_qml_sources(plasma-welcome PATH ""
+ecm_target_qml_sources(plasma-welcome
     SOURCES
-    contents/ui/Main.qml
-    contents/ui/footers/Footer.qml
-    contents/ui/footers/FooterDefault.qml
-    contents/ui/footers/FooterUpdate.qml
-    contents/ui/pages/PlasmaUpdate.qml
-    contents/ui/pages/plasmaupdate/Update.qml
-    contents/ui/pages/plasmaupdate/Beta.qml
-    contents/ui/pages/Live.qml
-    contents/ui/pages/Welcome.qml
-    contents/ui/pages/Network.qml
-    contents/ui/pages/network/PlasmaNM.qml
-    contents/ui/pages/SimpleByDefault.qml
-    contents/ui/pages/PowerfulWhenNeeded.qml
-    contents/ui/pages/powerfulwhenneeded/PlasmaFeatureButton.qml
-    contents/ui/pages/Discover.qml
-    contents/ui/pages/kcms/Feedback.qml
-    contents/ui/pages/Contribute.qml
-    contents/ui/pages/Donate.qml
-    contents/ui/pages/donate/Supporters.qml
+    qml/Main.qml
+
+    qml/common/GenericPage.qml
+    qml/common/ScrollablePage.qml
+    qml/common/KCMPage.qml
+    qml/common/ApplicationIcon.qml
+
+    qml/footers/Footer.qml
+    qml/footers/FooterDefault.qml
+    qml/footers/FooterUpdate.qml
+
+    qml/pages/PlasmaUpdate.qml
+    qml/pages/plasmaupdate/Update.qml
+    qml/pages/plasmaupdate/Beta.qml
+    qml/pages/Live.qml
+    qml/pages/Welcome.qml
+    qml/pages/Network.qml
+    qml/pages/network/PlasmaNM.qml
+    qml/pages/SimpleByDefault.qml
+    qml/pages/PowerfulWhenNeeded.qml
+    qml/pages/powerfulwhenneeded/PlasmaFeatureButton.qml
+    qml/pages/Discover.qml
+    qml/pages/Feedback.qml
+    qml/pages/Contribute.qml
+    qml/pages/Donate.qml
+    qml/pages/donate/Supporters.qml
+
     RESOURCES
-    contents/assets/konqi-donations.png
-    contents/assets/konqi-kde-hi.png
-    contents/assets/konqi-build.png
-    contents/assets/krita.png
-    contents/assets/endlesssky.png
+    assets/konqi-donations.png
+    assets/konqi-kde-hi.png
+    assets/konqi-build.png
+    assets/krita.png
+    assets/endlesssky.png
 )
 
 target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_PAGE_FOLDER=\"${DISTRO_CUSTOM_PAGE_FOLDER}\"")

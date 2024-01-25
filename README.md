@@ -73,7 +73,7 @@ To make custom pages visible to the app, place them in `/usr/share/plasma/plasma
 
 These two pages will be added into the wizard, with WelcomeToDistro shown first, and then InstallMediaCodecs.
 
-Custom pages are QML files with a root item that inherit from `Kirigami.Page`. Any content within the page is supported, though to maintain visual consistency with existing pages, it is recommended to use `GenericPage` or `KCM` as the root item and set the `heading` and `description` properties, with any custom content going beneath them. It is recommended to reference [existing pages](src/contents/ui/pages) when creating your own.
+Custom pages are QML files with a root item that inherit from `Kirigami.Page`. Any content within the page is supported, though to maintain visual consistency with existing pages, it is recommended to use `GenericPage`, `ScrollablePage` or `KCMPage` as the root item and set the `heading` and `description` properties, with any custom content going beneath them. You can reference [existing pages](src/contents/ui/pages) when creating your own.
 
 Because pages are written in QML without support for C++ support code, only functions that can be performed entirely with QML are available. Here are some examples:
 
@@ -114,7 +114,7 @@ Kirigami.Icon {
 
 ## Embed a KCM in the page
 ```
-KCM {
+KCMPage {
     heading: i18nc("@title: window", "Learn about Activities")
     description: i18nc("@info:usagetip", "Activities can be used to separate high-level projects or tasks so you can focus on one at a time. You can set them up in System Settings, and also right here.")
 
