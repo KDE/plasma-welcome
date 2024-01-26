@@ -1,75 +1,74 @@
-# Lithuanian translations for plasma-welcome package.
-# Copyright (C) 2023 This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# Automatically generated, 2023.
 #
+# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2024-01-25 13:36+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: lt\n"
+"PO-Revision-Date: 2024-01-24 18:07+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.0.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Moo"
+msgstr "Toms Trasūns"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "<>"
+msgstr "toms.trasuns@posteo.net"
 
 #: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
-msgstr "&Praleisti"
+msgstr "&Izlaist"
 
 #: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
-msgstr "&Atgal"
+msgstr "&Atpakaļ"
 
 #: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
-msgstr "&Užbaigti"
+msgstr "&Pabeigt"
 
 #: src/contents/ui/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr "&Kitas"
+msgstr "&Nākamais"
 
 #: src/contents/ui/footers/FooterUpdate.qml:20
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr "Rodyti šį puslapį po Plasma atnaujinimo"
+msgstr "Rādīt šo lapu pēc „Plasma“ atjaunināšanas"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr "&Gerai"
+msgstr "&Labi"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Įsitraukite"
+msgstr "Iesaisties"
 
 #: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -84,33 +83,32 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
-"KDE nėra didelė kompanija; tai tarptautinė savanorių bendruomenė, kurios "
-"programinę įrangą plėtoja tokie pat žmonės kaip jūs, aukojantys savo laiką "
-"ir jėgas. Jūs irgi galite atnešti gerų pokyčių per vertimą, vaizdinį "
-"dizainą, skleidimą, programavimą ar klaidų paieškas.<nl/><nl/>Talkindami KDE "
-"galite būti dalis kažko ypatingo, susipažinti su naujais draugais, "
-"išsiugdyti naujų įgūdžių ir dirbdami su žmonėmis iš viso pasaulio, nešti "
-"pokyčius milijonams žmonių bei pristatyti stulbinantį laisvos programinės "
-"įrangos ir naudojimosi kompiuteriu patyrimą."
+"KDE nav liels tehnoloģiju uzņēmums, bet starptautiska brīvprātīgo kopiena. "
+"Tajā programmatūru izstrādā tādi paši cilvēki kā tu, ziedojot savu brīvo "
+"laiku un interesi. Arī tu vari palīdzēt to uzlabot caur tulkojumiem, vizuālo "
+"dizainu, reklamēšanu, programmēšanu vai kļūdu ziņošanu.<nl/><nl/>Palīdzot "
+"KDE, kļūsi par kaut ko īpašu, iegūsi jaunus draugus, jaunas prasmes un kaut "
+"ko mainīsi miljoniem cilvēku dzīvē, reizē strādājot ar cilvēkiem no visas "
+"pasaules, lai nodrošinātu burvīgu brīvās programmatūras pieredzi."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr "Pradėkite talkinti!"
+msgstr "Sāc piedalīties!"
 
 #: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
 #: src/contents/ui/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr "Apsilankyti %1"
+msgstr "Apmeklē %1"
 
 #: src/contents/ui/pages/Discover.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "Tvarkykite programinę įrangą"
+msgstr "Pārvaldiet programmatūru"
 
 #: src/contents/ui/pages/Discover.qml:22
 #, kde-kuit-format
@@ -121,22 +119,22 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Programa <application>%1</application> jums padeda atrasti ir įsidiegti "
-"programas, žaidimus bei įrankius. Galite atlikti paiešką arba naršyti "
-"kategorijas, žiūrėti ekrano kopijas ir skaityti apžvalgas, padėsiančias jums "
-"surasti tobulai tinkančią programą."
+"<application>%1</application> programma palīdz atrast un instalēt "
+"programmas, spēles un rīkus. Tā ļauj meklēt pēc nosaukuma vai pārlūkot pēc "
+"kategorijas, aplūkot ekrānattēlus un lasīt recenzijas, lai atrastu sev "
+"piemērotāko programmu."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr "Rodyti %1 programoje Discover"
+msgstr "Parādīt „%1“ programmā „Discover“"
 
 #: src/contents/ui/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr "Paremkite savo laisvę"
+msgstr "Padari sevi brīvāku"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -149,32 +147,31 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
-"KDE bendruomenė yra priklausoma nuo paaukojimų bei lėšų ir yra remiama „KDE "
-"e.V.“ – Vokietijoje įsikūrusios ne pelno organizacijos, kuri tvarko "
-"teisinius reikalus, remia plėtojimo susibūrimus, padengia serverio išteklių "
-"išlaidas ir siūlo KDE plėtotojams įsidarbinimo galimybes. Paaukojimai, "
-"skirti „KDE e.V.“, remia platesnę KDE bendruomenę, tad aukodami šiandien, "
-"galite skatinti teigiamus pokyčius!<nl/><nl/>Mokesčiai iš paaukojimų "
-"Vokietijoje yra išskaičiuojami."
+"KDE kopienas pamatā ir brīvprātīgo prasmes, finansiāli ziedojumi, kā arī "
+"atbalsts no „KDE e.V.“ — Vācijā reģistrētas bezpeļņas organizācijas, kas "
+"pārvalda juridiskos jautājumus, finansē izstrādes sprintus un serveru "
+"resursus un sniedz algota darba iespējas KDE izstrādātājiem. Ziedojumi „KDE ."
+"e.V.“ nozīmē atbalstu plašākai KDE kopienai. Palīdzēt ar ziedojumu vari jau "
+"tagad!<nl/><nl/>Vācijā ziedojumi ir attaisnotie izdevumi."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "Paaukokite"
+msgstr "Ziedot"
 
 #: src/contents/ui/pages/Donate.qml:51
 #, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma 6 rėmėjai"
+msgstr "„Plasma 6“ atbalstītāji"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma 6 rėmėjai"
+msgstr "„Plasma 6“ atbalstītāji"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -183,14 +180,14 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Mes esame dėkingi šiems žmonėms už tai, kad Plasma 6 lėšų rinkimo kampanijos "
-"metu jie mus parėmė:"
+"Pateicamies šiem cilvēkiem par mūsu atbalstīšanu „Plasma 6“ līdzekļu "
+"vākšanas kampaņā:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Bendrinkite anoniminę informaciją apie naudojimąsi"
+msgstr "Dalieties ar anonimizētu lietošanas informāciju"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:16
 #, kde-format
@@ -199,15 +196,15 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Mūsų plėtotojai naudos šiuos anoniminius duomenis, kad tobulintų KDE "
-"programinę įrangą. Sistemos nuostatose, o taip pat ir čia, galite "
-"pasirinkti, kiek duomenų norite bendrinti."
+"Mūsu izstrādātāji izmantos šos anonimizētos datus, lai uzlabotu KDE "
+"programmatūru. Te un arī sistēmas iestatījumos varat izvēlēties, cik daudz "
+"informācijas sniegt."
 
 #: src/contents/ui/pages/Live.qml:19
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Jus sveikina %1!"
+msgstr "Laipni lūgti operētājsistēmā „%1“!"
 
 #: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
@@ -217,9 +214,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
-"Spustelėjus žemiau esančią piktogramą, bus pradėtas %1 diegimas. Priešingu "
-"atveju, galite užverti šį langą ir patyrinėti demonstracinę aplinką arba "
-"tęsti čia savo pažintį su KDE Plasma."
+"Zemāk esošās ikonas nospiešana uzsāks „%1“ instalācijas procesu. Tāpat varat "
+"arī aizvērt šo logu un izpētīt pagaidu vidi vai apskatīt šo lapu un uzzināt "
+"vairāk par „KDE Plasma“."
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -228,20 +225,20 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
-"Galite užverti šį langą ir patyrinėti demonstracinę aplinką arba tęsti čia "
-"savo pažintį su KDE Plasma."
+"Varat aizvērt šo logu, lai izpētītu pagaidu vidi vai turpinātu uzzināt "
+"vairāk par „KDE Plasma“."
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr "Apsilankykite internetinėje svetaineje"
+msgstr "Apmeklēt mājaslapu"
 
 #: src/contents/ui/pages/Network.qml:23
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "Prieiga prie interneto"
+msgstr "Piekļūstiet internetam"
 
 #: src/contents/ui/pages/Network.qml:24
 #, kde-kuit-format
@@ -252,11 +249,10 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
-"Galite prisijungti prie interneto ir valdyti tinklo ryšius naudodami "
-"<interface>Tinklų programėlę</interface>. Tam, kad ją pasiektumėte, "
-"spustelėkite ant <interface>Tinklų</interface> piktogramos "
-"<interface>Sistemos dėkle</interface>, kuris yra apatiniame dešiniajame "
-"ekrano kampe."
+"Pieslēgties internetam vai pārvaldīt savu tīkla savienojumu varat "
+"<interface>Tīklu sīklietotnē</interface>. Lai to atvērtu, spiediet uz "
+"<interface>Tīklu</interface> ikonas <interface>Sistēmas ikonu joslā</"
+"interface>, kas parasti ir redzama ekrāna apakšējā labajā stūrī."
 
 #: src/contents/ui/pages/Network.qml:248
 #, kde-format
@@ -265,14 +261,14 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
-"Šis puslapis yra rodomas nepriklausomai nuo tinklo jungiamumo, nes naudojate "
-"plėtojamą versiją."
+"Šī lapa ir redzama arī bez interneta savienojuma, jo lietojat versiju "
+"izstrādātājiem."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Plasma atnaujinta į %1"
+msgstr "„Plasma“ darbvirsma ir atjaunināta uz „%1“"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -282,29 +278,29 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
-"Dėkojame, kad išbandote šią beta versijos Plasma laidą – jūsų atsiliepimai "
-"yra labai svarbūs ir padeda mums ją tobulinti! Praneškite apie bet kokias "
-"pastebėtas klaidas, kad mes galėtume jas ištaisyti."
+"Pateicamies par „Plasma“ beta laidiena testēšana. Jūsu atsauksmes nozīmē "
+"fundamentālu palīdzību darbvirsmas uzlabošanā! Lūdzam ziņot par jebkādām "
+"kļūdām, kuras pamanāt, lai varam tās novērst."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
 #, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "<b>Sužinokite, kas naujo</b>"
+msgstr "<b>Iepazīstieties ar jaunumiem</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr "Praneškite apie klaidą"
+msgstr "Ziņojiet par kļūdu"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr "Padėkite kuriant kitą versiją"
+msgstr "Palīdziet sagatavot nākamo laidienu"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:18
 #, kde-kuit-format
@@ -313,9 +309,9 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"Pastaruosius keturis mėnesius KDE talkininkai praleido sunkiai dirbdami ties "
-"šia versija. Tikimės, kad jūs mėgausitės naudodamiesi Plasma tiek pat, kiek "
-"mes mėgavomės ją plėtodami!"
+"KDE izstrādātāji pēdējos četrus mēnešus ir smagi strādājuši pie šī laidiena. "
+"Ceram, ka „Plasma“ lietošana jums sniegs tādu pašu prieku, kādu sniedza tā "
+"veidošana."
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -325,16 +321,15 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
-"KDE bendruomenė yra priklausoma nuo paaukojimų bei lėšų ir yra remiama „KDE "
-"e.V.“ – Vokietijoje įsikūrusios ne pelno organizacijos. Paaukojimai, skirti "
-"„KDE e.V.“, remia platesnę KDE bendruomenę, tad aukodami šiandien, galite "
-"skatinti teigiamus pokyčius."
+"KDE kopienas pamatā ir brīvprātīgo prasmes un finansiāli ziedojumu. Kopienu "
+"atbalsta „KDE e.V.“ — Vācijas bezpeļņas organizācija. Ziedojumi „KDE e.V.“ "
+"palīdz visai KDE kopienai, tāpēc aicinām palīdzēt un ziedot jau šodien."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "Galinga, kai to reikia"
+msgstr "Jaudīga, kad vajadzīgs"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -343,26 +338,26 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plasma yra nepaprastai daugiafukcė aplinka, sukurta smarkiai padidinti jūsų "
-"produktyvumą! Štai keli iš daugybės dalykų, kaip ji gali jums pasitarnauti:"
+"„Plasma“ ir iespējām ļoti bagāta vide, ko esam veidojuši, domājot par "
+"produktivitāti! Šīs ir tikai dažas no lietām, ko tā piedāvā:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Slėptuvės"
+msgstr "Seifi"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr "Saugiai saugokite slaptus failus"
+msgstr "Savas konfidenciālās datnes glabājiet drošībā"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr "Veiklos"
+msgstr "Aktivitātes"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
@@ -370,67 +365,67 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr "Atskirkite darbo, mokyklos ir namų užduotis"
+msgstr "Nošķiriet darba, skolas un mājas uzdevumus"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr "KDE Connect"
+msgstr "„KDE Connect“"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr "Sujunkite savo telefoną ir kompiuterį"
+msgstr "Savienojiet savu tālruni ar datoru"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr "KRunner"
+msgstr "„KRunner“"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:97
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "Ieškokite bet ko"
+msgstr "Meklējiet jebko"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr "Apžvalga"
+msgstr "Pārskats"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "Jūsų sistemos komandinis centras"
+msgstr "Jūsu sistēmas vadības centrs"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "Gaukite naujų dalykų"
+msgstr "Iegūstiet jaunas lietas"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Išplėskite sistemos galimybes naudodami papildinius"
+msgstr "Pilnveidojiet sistēmu ar paplašinājumiem"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr "Sužinokite daugiau apie Plasma ypatybes"
+msgstr "Uzziniet vairāk par „Plasma“ iespējām"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr "Plasma slėptuvės"
+msgstr "„Plasma“ seifi"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-kuit-format
@@ -444,20 +439,19 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Plasma slėptuvės jums leidžia kurti šifruotus aplankus, vadinamus "
-"<interface>Slėptuvėmis.</interface> Kiekvienos slėptuvės viduje galite "
-"saugiai laikyti slaptažodžius, failus, nuotraukas, dokumentus atokiai nuo "
-"smalsaujančių akių. Be to, slėptuvės gali būti talpinamos aplankuose, kurie "
-"sinchronizuojami į debesijos paslaugas, tokiu būdu suteikdamos tam turiniui "
-"papildomo privatumo.<nl/><nl/>Norėdami pradėti, spustelėkite ant rodyklės "
-"<interface>Sistemos dėkle</interface>, kad būtų atverti paslėpti elementai, "
-"o tuomet spustelėkite <interface>Slėptuvių</interface> piktogramą."
+"„Plasma“ seifi ļauj izveidot šifrētas mapes, kas saucas <interface>Seifi</"
+"interface>. Katrā seifā varat drošībā no ziņkārīgām acīm uzglabāt savas "
+"paroles, datnes, attēlus un dokumentus. Seifi var dzīvot arī mapēs, kas tiek "
+"sinhronizētas ar mākoņpakalpojumu sniedzējiem, tādējādi saturam nodrošinot "
+"papildu privātuma līmeni.<nl/><nl/>Lai sāktu, spiediet uz bultiņa "
+"<interface>Sistēmas ikonu joslā</interface>, lai parādītu paslēptas "
+"vienības, pēc tam klikšķiniet uz <interface>Seifu</interface> ikonas."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr "Veiklos"
+msgstr "Aktivitātes"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -472,22 +466,21 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
-"Veiklos gali būti naudojamos atskirti aukšto lygio projektus ar darbo eigas, "
-"kad vienu metu galėtumėte susitelkti į vieną veiklą. Galite turėti atskiras "
-"veiklas „Namams“, „Mokyklai“, „Darbui“ ir t.t. Kiekviena veikla turi prieigą "
-"prie visų jūsų failų, bet turi nuosavą atvertų programų ir langų, "
-"paskiausiai naudotų dokumentų, „mėgstamų“ programų ir darbalaukio valdiklių "
-"rinkinį.<nl/><nl/>Norėdami pradėti, paleiskite <interface>Sistemos "
-"nuostatas</interface> ir paieškoje įrašykite „Veiklos“. Tame puslapyje "
-"galite sukurti daugiau veiklų. Po to, galite perjunginėti jas naudodami "
-"<shortcut>Meta+Tab</shortcut> sparčiuosius klavišus."
+"Aktivitātes varat izmantot, lai atdalītu augsta līmeņa projektus var "
+"darbplūsmas un katru uzdevumu veiktu atsevišķi. Piemēram, aktivitāte var būt "
+"„Mājas“, „Skola“, „Darbs“ vai jebkāda cita. Katrai aktivitātei ir pieeja "
+"jūsu datnēm, tomēr ir pašām savas atvērtās programmas, logi un neseno "
+"dokumentu un „Iecienītāko“ programmu un logdaļu saraksts.<nl/><nl/>Lai "
+"sāktu, atveriet <interface>Sistēmas iestatījumus</interface> un meklējiet "
+"„Aktivitātes“. Šajā lapā varat izveidot aktivitātes. Tāpat varat pārslēgties "
+"starp tām, izmantojot <shortcut>Meta+Tab</shortcut> tastatūras saīsni."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Atverti nuostatas…"
+msgstr "Atvērt iestatījumus..."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -509,16 +502,15 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
-"KDE Connect jums leidžia įvairiais būdais integruoti savo telefoną į "
-"kompiuterį:<nl/><list><item>Matyti kompiuteryje pranešimus iš telefono</"
-"item><item>Naudojant kompiuterį atsakyti iš telefono į tekstines žinutes</"
-"item><item>Sinchronizuoti iškarpinės turinį tarp kompiuterio ir telefono</"
-"item><item>Atkurti telefone garso signalą, kai nerandate telefono</"
-"item><item>Kopijuoti paveikslus, vaizdo įrašus ir kitus failus iš telefono į "
-"kompiuterį arba atvirkščiai</item><item>…Ir žymiai daugiau!</item></list><nl/"
-">Norėdami pradėti, paleiskite <interface>Sistemos nuostatas</interface> ir "
-"paieškos laukelyje įrašykite „KDE Connect“. Atsivėrusiame puslapyje galėsite "
-"suporuoti telefoną su kompiuteriu."
+"„KDE Connect“ ļauj dažādos veidos datorā integrēt savu tālruni:<nl/"
+"><list><item>Skatieties telefona paziņojumus savā datorā</"
+"item><item>Atbildiet uz ziņām tālrunī no sava datora</"
+"item><item>Sinhronizējiet starpliktuves saturus starp tālruni un datoru</"
+"item><item>Lieciet tālrunim zvanīt, kad to kaut kur aizmirstat</"
+"item><item>Kopējiet attēlus, video un citas datnes no tālruņa uz datoru un "
+"otrādi</item><item>...un daudz ko citu!</item></list><nl/>Lai sāktu, "
+"atveriet <interface>Sistēmas iestatījumus </interface> un meklējiet „KDE "
+"Connect“. Šajā lapā varēsiet sapārot savu tālruni."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-format
@@ -546,23 +538,23 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
-"KRunner yra išskirtinė, galinga, visapusiška Plasma paieškos sistema. Jos "
-"dėka veikia paieškos funkcionalumas programų paleidyklės meniu ir apžvalgos "
-"ekrane. KRunner galima atverti kaip atskirą paieškos juostą naudojant "
-"<shortcut>Alt+Tarpas</shortcut> spartųjį klavišą.<nl/><nl/>Be failų ir "
-"aplankų paieškos KRunner gali paleisti programas, atlikti paiešką saityne, "
-"konvertuoti valiutas, skaičiuoti matematinius uždavinius ir žymiai daugiau. "
-"Pabandykite į vieną iš tų paieškos laukų įrašyti:<nl/><list><item>„laikas "
-"Berlin“</item><item>„27/3“</item><item>„200 EUR į USD“</item><item>„25 mi į "
-"km“</item><item>…Ir dar daugiau!</item></list><nl/>Norėdami sužinoti "
-"daugiau, atverkite KRunner paieškos juostą naudodami <shortcut>Alt+Tarpas</"
-"shortcut> spartųjį klavišą ir spustelėkite and klaustuko piktogramos."
+"„KRunner“ ir īpaši jaudīga un daudzpusīga „Plasma“ meklēšanas sistēma. Tā ir "
+"pamatā meklēšanas funkcijai programmu palaidējā un pārskata ekrānā, kā arī "
+"tai var piekļūt no atsevišķas meklēšanas joslas, izmantojot tastatūras "
+"saīsni <shortcut>Alt+Space</shortcut> .<nl/><nl/>Papildu datņu un mapju "
+"meklēšanai „KRunner“ var palaist programmas, pārmeklēt tīklu, veikt "
+"konvertāciju starp valūtām, aprēķināt matemātiskas izteiksmes un daudz ko "
+"citu. Pamēģiniet meklēšanas laukā ierakstīt<nl/><list><item>laiks Shanghai“</"
+"item><item>„27/3“</item><item>„200 EUR in USD“</item><item>„25 miles in km“ "
+"</item><item>...Un daudz ko citu!</item></list><nl/>Lai uzzinātu vairāk, "
+"atveriet „KRunner“ meklēšanas joslu, izmantojot tastatūras saīsni "
+"<shortcut>Alt+Space</shortcut> un spiediet uz jautājuma zīmes."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr "Apžvalga"
+msgstr "Pārskats"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
@@ -575,18 +567,18 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
-"Apžvalga – tai viso ekrano perdanga atvaizduojanti visus jūsų atvertus "
-"langus ir leidžianti jums lengvai pasiekti bet kurį iš jų. Ji taip pat rodo "
-"jūsų esamus virtualius darbalaukius, suteikdama galimybę juos pridėti, "
-"šalinti ar perjungti. Galiausiai, ji siūlo su KRunner veikiantį paieškos "
-"lauką, kuris taip pat gali filtruoti atvertus langus.<nl/><nl/>Apžvalgą "
-"galite pasiekti naudodami <shortcut>Meta+W</shortcut> spartųjį klavišą."
+"Pārskats ir pilnekrāna logs, kurā parādās visi atvērtie logi, sniedzot "
+"vieglu piekļuvi tiem. Tāpat tas parāda pašreizējo virtuālo darbvirsmu, ļauj "
+"pievienot papildu darbvirsmu, noņemt liekās un pārslēgties starp tām. "
+"Visbeidzot, tas piedāvā „KRunner“ meklēšanas lauku, ko varat izmantot arī "
+"atvērto logu atrašanai.<nl/><nl/>Pārskatam piekļūt varat, spiežot taustiņu "
+"kombināciju <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "Gaukite naujų dalykų"
+msgstr "Iegūstiet jaunas lietas"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-kuit-format
@@ -600,26 +592,25 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
-"Plasma aplinkoje, sistemos nuostatose ir KDE programose rasite mygtukus, "
-"pažymėtus užrašu „Gauti naują <emphasis>dalyką</emphasis>…“. Spustelėjus ant "
-"jų, bus rodomas trečiųjų šalių pateiktas turinys, kurį sukūrė tokie žmonės "
-"kaip jūs, ir kuris yra skirtas išplėsti sistemos ypatybes! Tokiu būdu, dažnu "
-"atveju yra įmanoma pridėti pageidaujamą funkcionalumą be būtinybės prašyti "
-"KDE programuotojų pagalbos įgyvendinant tam tikrą funkciją.<nl/><nl/"
-">Turėkite omenyje, kad turinio platintojas neperžiūri tokio turinio "
-"atitikimo funkcionalumo ar stabilumo reikalavimams."
+"Viscaur „Plasma“, sistēmas iestatījumos un KDE programmās atradīsiet pogas "
+"ar nosaukumus „Iegūstiet jaunu <emphasis>kaut ko</emphasis>…“. Spiežot uz "
+"tām, redzēsiet citu cilvēku veidotu saturu, kas ļaus paplašināt sistēmas "
+"izskatu vai funkcionalitāti. Tādējādi bieži ir iespējams pielāgot esošo "
+"funkcionalitāti savām vajadzībām, nelūdzot palīdzību KDE izstrādātājiem "
+"ieviest izmaiņas.<nl/><nl/>Ievērojiet, ka šādā veidā iegūstamā satura "
+"funkcionalitāti un stabilitāti nepārbauda jūsu sistēmas izplatītājs."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Rodyti trečiųjų šalių turinį…"
+msgstr "Skatīt trešo pušu saturu..."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "Paprasta pagal numatymą"
+msgstr "Vienkārša pēc noklusējuma"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-kuit-format
@@ -632,17 +623,16 @@ msgid ""
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
 "you'll find what you need in the <application>%1</application> app."
 msgstr ""
-"Plasma yra sukurta, kad pradėjus naudoti būtų paprasta ir praktiška. Visi "
-"dalykai yra ten, kur galite jų tikėtis, tad įprastai nėra reikalo kažką "
-"konfigūruoti, kad jaustumėtės patogiai ir būtumėte produktyvūs.<nl/><nl/>Jei "
-"atsiras poreikis, viską, ko reikia, rasite programoje <application>%1</"
-"application>."
+"„Plasma“ veidojām, lai darba uzsākšana būtu vienkārša un saprotama. Viss "
+"atrodas paredzamās vietās un parasti produktīvam darbam sākotnēji to nav "
+"nepieciešams īpaši konfigurēt.<nl/><nl/>Ja jūtat tādu vajadzību, tad visu "
+"nepieciešamo atradīsiet <application>%1</application> programmā."
 
 #: src/contents/ui/pages/Welcome.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Sveiki!"
+msgstr "Laipni lūgti!"
 
 #: src/contents/ui/pages/Welcome.qml:19
 #, kde-kuit-format
@@ -654,12 +644,10 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"%1<nl/><nl/>Ši operacinė sistema naudoja Plasma – laisvą, atvirojo kodo "
-"darbalaukio aplinką, kurią plėtoja KDE. KDE – tai tarptautinė programinės "
-"įrangos savanorių bendruomenė. KDE Plasma yra sukurta taip, kad pagal "
-"numatymą būtų paprasta naudoti ir užtikrintų sklandų patyrimą, bet tuo pačiu "
-"būtų galinga, kai to prireikia, ir padėtų jums atlikti darbus. Tikimės, ši "
-"aplinka jums patiks!"
+"%1<nl/><nl/>Šo operētājsistēmu darbina „Plasma“ — bezmaksas atvērtā koda "
+"darbvirsma. To veido starptautiska brīvprātīgo kopiena KDE. Šīs darbvirsmas "
+"mērķis ir būt vienkāršai pēc noklusējuma ērtai darbībai un jaudīgai, kad "
+"vajadzīgs, lai paveiktu visu. Ceram,ka jums patiks!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -671,42 +659,41 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Jus sveikina %1 – KDE Plasma naudojanti operacinė sistema!<nl/><nl/>Plasma "
-"yra laisva, atvirojo kodo darbalaukio aplinka, kurią plėtoja KDE – "
-"tarptautinė programinės įrangos savanorių bendruomenė. KDE Plasma yra "
-"sukurta taip, kad pagal numatymą būtų paprasta naudoti ir užtikrintų sklandų "
-"patyrimą, bet tuo pačiu būtų galinga, kai to prireikia, ir padėtų jums "
-"atlikti darbus. Tikimės, ši aplinka jums patiks!"
+"Laipni lūgti operētājsistēmā „%1“, kurā darbojas „KDE Plasma“!<nl/><nl/"
+">„Plasma“ ir brīvā un atvērtā koda vide, ko veido KDE — starptautiska "
+"brīvprātīgo kopiena. To veidojam vienkāršu pēc noklusējuma ērtai lietošanai "
+"un jaudīgu, kad vajadzīgs, lai ļautu paveikt visu. Ceram, ka jums patiks!"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr "Sužinokite daugiau apie KDE bendruomenę"
+msgstr "Uzziniet vairāk par KDE kopienu"
 
 #: src/contents/ui/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Sužinokite daugiau apie %1"
+msgstr "Uzziniet vairāk par „%1“"
 
 #: src/contents/ui/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr "Nepavyko įkelti paveikslo"
+msgstr "Attēla ielāde neizdevās"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr "Nepavyko įkelti <filename>%1</filename>. Įsitikinkite, kad jis yra."
+msgstr ""
+"Neizdevās ielādēt <filename>%1</filename>. Pārliecinieties, ka tas eksistē."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "KDE talismanas Konqi sveikina jus KDE bendruomenėje!"
+msgstr "KDE talismans Konqi jūs aicina KDE kopienā!"
 
 #: src/controller.cpp:54
 #, kde-format
@@ -716,29 +703,29 @@ msgstr "6.0 Dev"
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr "6.0 Alfa"
+msgstr "6.0 Alpha"
 
 #: src/controller.cpp:60
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr "6.0 Beta 1 versija"
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:63
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr "6.0 Beta 2 versija"
+msgstr "6.0 Beta 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr "6.0 kandidatinė versija 1"
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr "6.0 kandidatinė versija 2"
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
@@ -762,13 +749,13 @@ msgstr "%1 Beta %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr "KDE Plasma supažindinimo su sistema programa"
+msgstr "KDE „Plasma“ uzņemšanas programma"
 
 #: src/main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr "Supažindinimas su sistema"
+msgstr "Uzņemšanas centrs"
 
 #: src/main.cpp:53
 #, kde-format
@@ -786,7 +773,7 @@ msgstr "Felipe Kinoshita"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Autorius"
+msgstr "Autors"
 
 #: src/main.cpp:58
 #, kde-format
@@ -797,23 +784,21 @@ msgstr "Nate Graham"
 #: src/main.cpp:71
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr "Rodyti dabartinės Plasma versijos laidos informaciją."
+msgstr "Parādīt šī „Plasma“ laidiena piezīmes."
 
 #: src/main.cpp:72
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "Rodyti dabartinės Plasma versijos, Beta versijų laidos informaciją."
+msgstr "Parādīt šī „Plasma“ laidiena piezīmes, beta versijām"
 
 #: src/main.cpp:73
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr ""
-"Rodyti demonstracinį puslapį, skirtą platinamųjų paketų demonstracinėms "
-"aplinkoms."
+msgstr "Parādīt pagaidu lapu distributīvu pagaidu vidēm."
 
 #: src/qml/ApplicationIcon.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Paleisti %1 dabar"
+msgstr "Palaist „%1“"
