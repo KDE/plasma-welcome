@@ -16,7 +16,7 @@ Kirigami.ApplicationWindow {
     id: root
 
     minimumWidth: Kirigami.Units.gridUnit * 20
-    minimumHeight: Kirigami.Units.gridUnit * 32
+    minimumHeight: Kirigami.Units.gridUnit * 30
     width: Kirigami.Units.gridUnit * 36
     height: Kirigami.Units.gridUnit * 32
 
