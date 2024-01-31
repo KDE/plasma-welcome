@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2023-09-26 18:13+0300\n"
+"PO-Revision-Date: 2023-12-11 18:30+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -55,13 +55,13 @@ msgstr "&Seuraava"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Näytä tämä sivu Plasman päivityttyä"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "&OK"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -147,6 +147,12 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"KDE-yhteisö nojautuu asiantuntemuksessa ja varoissa lahjoituksiin, ja sitä "
+"tukee KDE e.V., saksalainen voittoa tuottamaton yhteisö, joka hoitaa "
+"lakiasiat, rahoittaa kehityspyrähdykset ja palvelinresurssit ja tarjoaa KDE-"
+"kehittäjille työmahdollisuuksia. Lahjoitukset KDE e.V:lle tukevat koko KDE-"
+"yhteisöä. Voit aikaansaada muutoksen lahjoittamalla tänään!<nl/><nl/"
+">Lahjoitukset ovat verovähennyskelpoisia Saksassa."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/plasmaupdate/Update.qml:74
@@ -156,20 +162,16 @@ msgid "Make a donation"
 msgstr "Lahjoita"
 
 #: src/contents/ui/pages/Donate.qml:51
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma-holvit"
+msgstr "Plasma 6-tukijat"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Plasma-holvit"
+msgstr "Plasma 6-tukijat"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -177,7 +179,7 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
-msgstr ""
+msgstr "Kiitämme seuraavia tuesta Plasma 6:n rahoituskampanjan aikana:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -260,9 +262,7 @@ msgstr ""
 "kehitysversiota."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "Plasma on päivittynyt versioon %1"
@@ -275,21 +275,22 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Kiitos, että kokeilet tätä Plasman beetajulkaisua – palautteesi on tärkeää "
+"sen parantamiseksi! Ilmoita kaikista havaitsemistasi vioista, jotta voimme "
+"korjata ne."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "Katso, mitä uutta Plasma %1 tarjoaa"
+msgstr "<b>Katso mitä uutta</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "Ilmoita viasta"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -317,6 +318,10 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"KDE-yhteisö nojautuu asiantuntemuksessa ja varoissa lahjoituksiin, ja sitä "
+"tukee KDE e.V., saksalainen voittoa tuottamaton yhteisö. Lahjoitukset KDE e."
+"V:lle tukevat koko KDE-yhteisöä. Voit aikaansaada muutoksen lahjoittamalla "
+"tänään."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -695,52 +700,52 @@ msgstr "KDE:n Konqi-maskotti toivottaa sinut tervetulleeksi KDE-yhteisöön!"
 #: src/controller.cpp:54
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "6.0 kehitysversio"
 
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 alfa"
 
 #: src/controller.cpp:60
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "6.0 beeta 1"
 
 #: src/controller.cpp:63
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "6.0 beeta 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 kehitysversio"
 
 #: src/controller.cpp:91
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 beeta"
 
 #: src/controller.cpp:94
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 beeta %2"
 
 #: src/main.cpp:40
 #, kde-format
@@ -784,11 +789,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Näytä nykyisen Plasma-version julkaisutiedot."
 
 #: src/main.cpp:72
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "Näytä nykyisen Plasma-version julkaisutiedot."
+msgstr "Näytä beetaversioille nykyisen Plasma-version julkaisutiedot."
 
 #: src/main.cpp:73
 #, kde-format
