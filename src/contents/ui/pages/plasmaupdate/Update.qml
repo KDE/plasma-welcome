@@ -15,7 +15,7 @@ import org.kde.plasma.welcome
 ColumnLayout {
     id: root
 
-    readonly property string description: xi18nc("@info:usagetip", "KDE contributors have spent the last four months hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!")
+    readonly property string description: xi18nc("@info:usagetip", "KDE contributors have spent the last year hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!")
     readonly property int iconSize: Kirigami.Units.iconSizes.enormous
 
     readonly property list<QtObject> topContent: [
