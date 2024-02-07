@@ -24,12 +24,14 @@ public:
     Q_INVOKABLE static void launchApp(const QString &program);
     Q_INVOKABLE static void runCommand(const QString &command);
     Q_INVOKABLE static void runCommand(const QString &command, const QString &desktopFilename);
+    Q_INVOKABLE static void copyToClipboard(const QString &text);
     Q_INVOKABLE bool networkAlreadyConnected();
     Q_INVOKABLE bool userFeedbackAvailable();
     Q_INVOKABLE QStringList distroPages();
     Q_INVOKABLE QString distroName();
     Q_INVOKABLE QString distroIcon();
     Q_INVOKABLE QString distroUrl();
+    Q_INVOKABLE QString distroBugReportUrl();
     Q_INVOKABLE QString installPrefix();
 
     Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)

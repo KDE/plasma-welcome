@@ -21,6 +21,7 @@ target_sources(plasma-welcome PRIVATE
 ecm_target_qml_sources(plasma-welcome
     SOURCES
     qml/Main.qml
+    qml/PageError.qml
 
     qml/common/GenericPage.qml
     qml/common/ScrollablePage.qml

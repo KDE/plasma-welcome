@@ -5,6 +5,8 @@
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
+#include <QApplication>
+#include <QClipboard>
 #include <QDir>
 #include <QFileInfo>
 #include <QNetworkInterface>
@@ -136,6 +138,11 @@ void Controller::runCommand(const QString &command, const QString &desktopFilena
     job->start();
 }
 
+void Controller::copyToClipboard(const QString &text)
+{
+    QApplication::clipboard()->setText(text);
+}
+
 bool Controller::networkAlreadyConnected()
 {
     for (QNetworkInterface interface : QNetworkInterface::allInterfaces()) {
@@ -190,6 +197,11 @@ QString Controller::distroIcon()
 QString Controller::distroUrl()
 {
     return KOSRelease().homeUrl();
+}
+
+QString Controller::distroBugReportUrl()
+{
+    return KOSRelease().bugReportUrl();
 }
 
 void Controller::setMode(Mode mode)

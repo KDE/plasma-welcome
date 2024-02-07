@@ -38,16 +38,27 @@ Kirigami.ApplicationWindow {
         }
     }
 
-    function createPage(page) {
+    function createPage(page, isDistroPage = false) {
         let component = Qt.createComponent(page);
         if (component.status !== Component.Error) {
             return component.createObject(null);
         } else {
+            let error = component.errorString()
             console.warn("Couldn't load page '" + page + "'");
-            console.warn(" " + component.errorString())
+            console.warn(" " + error);
             component.destroy();
-            // TODO: Instead create and return a placeholder page with error info
-            return null;
+
+            // Instead return an error page with info
+            let errorComponent = Qt.createComponent("PageError.qml");
+            if (errorComponent.status !== Component.Error) {
+                return errorComponent.createObject(null, {
+                    isDistroPage: isDistroPage,
+                    error: error
+                });
+            } else {
+                errorComponent.destroy();
+                return null;
+            }
         }
     }
 
@@ -101,7 +112,7 @@ Kirigami.ApplicationWindow {
                 // Append any distro-specific pages that were found
                 let distroPages = Controller.distroPages();
                 for (let i in distroPages) {
-                    pushPage(createPage(distroPages[i]));
+                    pushPage(createPage(distroPages[i], true));
                 }
 
                 pushPage(createPage("Contribute.qml"));
