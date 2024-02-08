@@ -1,14 +1,14 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
 #
-# SPDX-FileCopyrightText: 2022, 2023 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
 # Emir SARI <emir_sari@icloud.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-07 02:23+0000\n"
-"PO-Revision-Date: 2023-11-29 16:25+0300\n"
+"PO-Revision-Date: 2024-02-07 16:07+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 24.01.95\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -306,17 +306,13 @@ msgid "Help work on the next release"
 msgstr "Bir sonraki yayıma yardımcı olun"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:18
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE contributors have spent the last four months hard at work on this "
-#| "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE contributors have spent the last year hard at work on this release. We "
 "hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"KDE katkıcıları, son dört ayı bu yayımı hazırlamakla geçirdi. Bizim yaparken "
+"KDE katkıcıları, son bir yılı bu yayımı hazırlamakla geçirdi. Bizim yaparken "
 "zevk aldığımız kadar umarız siz de kullanırken zevk alırsınız!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70

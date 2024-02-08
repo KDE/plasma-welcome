@@ -1,17 +1,17 @@
 # Translation of plasma-welcome.po to Catalan (Valencian)
-# Copyright (C) 2022-2023 This_file_is_part_of_KDE
+# Copyright (C) 2022-2024 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 # or the same license as the source of its messages in English.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023.
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023, 2024.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-07 02:23+0000\n"
-"PO-Revision-Date: 2023-11-29 13:46+0100\n"
+"PO-Revision-Date: 2024-02-07 12:15+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -309,19 +309,15 @@ msgid "Help work on the next release"
 msgstr "Ajuda en les tasques de la pròxima versió"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:18
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE contributors have spent the last four months hard at work on this "
-#| "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE contributors have spent the last year hard at work on this release. We "
 "hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"Els col·laboradors de KDE han passat els últims quatre mesos treballant de "
-"valent en este llançament. Esperem que gaudiu utilitzant Plasma tant com vam "
-"gaudir fent-lo!"
+"Els col·laboradors de KDE han passat l'últim any treballant de valent en "
+"este llançament. Esperem que gaudiu utilitzant Plasma tant com vam gaudir "
+"fent-lo!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
