@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-28 00:38+0000\n"
-"PO-Revision-Date: 2024-01-20 18:38+0400\n"
+"PO-Revision-Date: 2024-02-10 21:43+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -170,7 +170,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "&موافق"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
@@ -273,12 +273,10 @@ msgid "Plasma 6 Supporters"
 msgstr "داعمي بلازما 6"
 
 #: src/qml/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "خزنات بلازما"
+msgstr "داعمي بلازما 6"
 
 #: src/qml/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -785,7 +783,7 @@ msgstr "فشل تحميل الصورة"
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "تعذر تحميل <filename>%1</filename>. تأكد من وجوده."
 
 #: src/qml/pages/Welcome.qml:107
 #, kde-format
