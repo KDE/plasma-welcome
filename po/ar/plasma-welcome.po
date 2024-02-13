@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-28 00:38+0000\n"
-"PO-Revision-Date: 2024-02-10 21:43+0400\n"
+"PO-Revision-Date: 2024-02-12 21:27+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -164,7 +164,7 @@ msgstr "ال&تالي"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "أظهر هذه الصفحة بعد تحديث البلازما"
 
 #: src/qml/footers/FooterUpdate.qml:30
 #, kde-format
@@ -219,12 +219,7 @@ msgid "Manage Software"
 msgstr "أدر التطبيقات"
 
 #: src/qml/pages/Discover.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -232,9 +227,9 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"يساعدك تطبيق <application>المستكشف</application> في العثور على التطبيقات "
-"والألعاب والأدوات وتثبيتها. يمكنك البحث أو التصفح حسب الفئة، وإلقاء نظرة على "
-"لقطات الشاشة وقراءة المراجعات لمساعدتك في اختيار التطبيق المثالي."
+"يساعدك تطبيق <application>%1</application> في العثور على التطبيقات والألعاب "
+"والأدوات وتثبيتها. يمكنك البحث أو التصفح حسب الفئة، وإلقاء نظرة على لقطات "
+"الشاشة وقراءة المراجعات لمساعدتك في اختيار التطبيق المثالي."
 
 #: src/qml/pages/Discover.qml:103
 #, kde-format
@@ -259,6 +254,11 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"يعتمد مجتمع كيدي على تبرعات الخبرة والأموال، وتدعمه منظمة كيدي e.V. - وهي "
+"منظمة ألمانية غير ربحية تدير الأمور القانونية، وتمول سباقات التطوير وموارد "
+"الخادم، وتوفر فرص عمل لمطوري كيدي. التبرعات لكيدي e.V. تدعم مجتمع كيدي "
+"الأوسع، ويمكنك أن تحدث فرقًا من خلال التبرع اليوم!<nl/><nl/>التبرعات معفاة من "
+"الضرائب في ألمانيا."
 
 #: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -284,7 +284,7 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
-msgstr ""
+msgstr "نشكر الأشخاص التاليين لدعمهم لنا خلال حملة جمع التبرعات لبلازما 6:"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -362,6 +362,7 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"تعرض هذه الصفحة بغض النظر عن الاتصال بالشبكة لأنك تستخدم إصدارًا للتطوير."
 
 #: src/qml/pages/PlasmaUpdate.qml:18
 #, kde-format
@@ -377,6 +378,8 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"نشكرك على اختبار هذا الإصدار التجريبي من بلازما، فملاحظاتك مهمة لمساعدتنا "
+"على تحسينها! يرجى الإبلاغ عن جميع الأخطاء التي تجدها حتى نتمكن من إصلاحها."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
 #: src/qml/pages/plasmaupdate/Update.qml:24
@@ -416,6 +419,9 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"يعتمد مجتمع كيدي على تبرعات الخبرة والأموال، وتدعمه منظمة كيدي eV - وهي "
+"منظمة ألمانية غير ربحية. التبرعات لكيدي e.V. تدعم مجتمع كيدي الأوسع، ويمكنك "
+"أن تحدث فرقًا من خلال التبرع اليوم!"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -722,13 +728,7 @@ msgid "Welcome"
 msgstr "مرحباً"
 
 #: src/qml/pages/Welcome.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -737,18 +737,13 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"كِيدِي بلازما هي بيئة سطح مكتب مجانية ومفتوحة المصدر صنعتها كِيدِي،  بواسطة "
-"متطوعين من جميع أنحاء العالم. كِيدِي بلازما بسيطة ولكن قوية عن الحاجة. نأمل "
-"أنك تحبها!"
+"%1<nl/><nl/> هذا نظام التشغيلي يستخدم بلازما، وهي بيئة سطح مكتب مجانية "
+"ومفتوحة المصدر تم إنشاؤها بواسطة كيدي، وهو مجتمع برمجيات دولي من المتطوعين. "
+"صممت بلازما لتكون بسيطة بشكل افتراضي للحصول على تجربة سلسة، ولكنها قوية عند "
+"الحاجة لمساعدتك في إنجاز الأمور حقًا. نأمل أن تحب ذلك!"
 
 #: src/qml/pages/Welcome.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -757,9 +752,9 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"كِيدِي بلازما هي بيئة سطح مكتب مجانية ومفتوحة المصدر صنعتها كِيدِي،  بواسطة "
-"متطوعين من جميع أنحاء العالم. كِيدِي بلازما بسيطة ولكن قوية عن الحاجة. نأمل "
-"أنك تحبها!"
+"مرحبًا بك في نظام التشغيل %1 الذي يقوم بتشغيل كيدي بلازما!<nl/><nl/> كِيدِي "
+"بلازما هي بيئة سطح مكتب مجانية ومفتوحة المصدر صنعتها كِيدِي،  بواسطة متطوعين "
+"من جميع أنحاء العالم. كِيدِي بلازما بسيطة ولكن قوية عن الحاجة. نأمل أنك تحبها!"
 
 #: src/qml/pages/Welcome.qml:29
 #, kde-format
