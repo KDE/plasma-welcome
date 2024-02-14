@@ -22,7 +22,7 @@ There are four mutually exclusive usage modes:
 # For live distributions
 When Welcome Center is ran in a live environment, it can show a reduced wizard with a page welcoming the user to the disibution and without any settings pages.
 
-To ensure that Welcome Center's launcher recognises the live environment, you will need to create/change the config in your live user's `~/.config/plasma-welcomerc`:
+To ensure that Welcome Center's launcher recognizes the live environment, you will need to create/change the config in your live user's `~/.config/plasma-welcomerc`:
 
 ```conf
 [General]
