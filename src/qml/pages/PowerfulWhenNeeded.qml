@@ -223,7 +223,7 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
                 Kirigami.Action {
                     icon.name: "get-hot-new-stuff"
                     text: i18nc("@action:button", "See 3rd-Party Content…")
-                    onTriggered: Controller.launchApp("org.kde.knewstuff-dialog")
+                    onTriggered: Controller.launchApp("org.kde.knewstuff-dialog6")
                 }
             ]
         }
