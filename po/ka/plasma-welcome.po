@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-14 00:39+0000\n"
-"PO-Revision-Date: 2023-11-29 05:40+0100\n"
+"PO-Revision-Date: 2024-02-14 05:21+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -134,7 +134,7 @@ msgstr "დისტრიბუტივების ცოცხალი გ�
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "მოთხოვნილია უცნობი მოდული %1"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -145,7 +145,7 @@ msgstr "%1-ის ახლა გაშვება"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "ამ პარამეტრის მოდულის ჩატვირთვა შეუძლებელია"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -187,35 +187,31 @@ msgstr "&დიახ"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "გვერდის ჩატვირთვის შეცდომა"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "შეცდომის პატაკი"
+msgstr "შეცდომის ანგარიში…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "Temuri.doghonadze@gmail.com"
+msgstr "დეტალების კოპირება"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "თქვენი დისტრიბუტივის მიერ მოწოდებული ამ გვერდის ჩატვირთვა შეუძლებელია"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "მისალმების ცენტრის მიერ მოწოდებული ამ გვერდის ჩატვირთვა შეუძლებელია"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format

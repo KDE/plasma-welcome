@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-14 00:39+0000\n"
-"PO-Revision-Date: 2023-12-03 10:11+0100\n"
+"PO-Revision-Date: 2024-02-14 15:30+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -136,7 +136,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Solicitouse un módulo descoñecido, «%1»."
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -147,7 +147,7 @@ msgstr "Iniciar %1"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Non foi posíbel cargar o módulo de configuración."
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -189,35 +189,31 @@ msgstr "&Aceptar"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Produciuse un erro ao cargar a páxina."
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Informar dun fallo"
+msgstr "Informar dun fallo…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "adrian@chaves.io"
+msgstr "Copiar os detalles"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "Non foi posíbel cargar esta páxina da súa distribución."
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "Non foi posíbel cargar esta páxina do «Centro de benvida»."
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format

@@ -1,17 +1,17 @@
 # Translation of plasma-welcome.po to Catalan
-# Copyright (C) 2022-2023 This_file_is_part_of_KDE
+# Copyright (C) 2022-2024 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 # or the same license as the source of its messages in English.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023.
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023, 2024.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-14 00:39+0000\n"
-"PO-Revision-Date: 2023-11-29 13:46+0100\n"
+"PO-Revision-Date: 2024-02-14 10:24+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -140,7 +140,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "S'ha sol·licitat el mòdul %1 desconegut"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -151,7 +151,7 @@ msgstr "Llança ara el %1"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "No s'han pogut carregar aquest mòdul de configuració"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -193,35 +193,33 @@ msgstr "D'ac&ord"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Error en carregar la pàgina"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Informeu d'un error"
+msgstr "Informa d'un error…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "txemaq@gmail.com"
+msgstr "Copia els detalls"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr ""
+"No s'ha pogut carregar aquesta pàgina proporcionada per la vostra distribució"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
+"No s'ha pogut carregar aquesta pàgina proporcionada pel Centre de benvinguda"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
