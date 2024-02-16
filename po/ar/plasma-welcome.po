@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-14 00:39+0000\n"
-"PO-Revision-Date: 2024-02-12 21:27+0400\n"
+"PO-Revision-Date: 2024-02-15 17:25+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -134,7 +134,7 @@ msgstr "اعرض الصفحة الحية المخصصة لتوزيعات الب�
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "طُلبت وحدة مجهولة %1"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -145,7 +145,7 @@ msgstr "شغل %1 الآن"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "تعذر تحميل وحدة الإعدادات هذه"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -187,35 +187,31 @@ msgstr "&موافق"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "صفحة تحميل الخطأ"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "بلغ عن علة"
+msgstr "أبلغ عن علّة…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "zayed.alsaidi@gmail.com"
+msgstr "انسخ التفاصيل"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "لا يمكن تحميل هذه الصفحة المزودة عن طريق توزيعتك"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "لا يمكن تحميل هذه الصفحة المزودة عن تطبيق مركز الترحيب"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
