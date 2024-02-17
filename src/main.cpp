@@ -9,17 +9,14 @@
 #include <QCommandLineOption>
 #include <QCommandLineParser>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
 #include <QQuickWindow>
 #include <QSurfaceFormat>
 #include <QUrl>
-#include <QtQml>
 
-#include "applicationInfo.h"
 #include "controller.h"
 #include "plasma-welcome-version.h"
-#include "qmlconfig.h"
 
-#include "module.h"
 #include <KAboutData>
 #include <KDBusService>
 #include <KLocalizedContext>
@@ -62,7 +59,6 @@ int main(int argc, char *argv[])
     KAboutData::setApplicationData(aboutData);
 
     QQmlApplicationEngine engine;
-
 
     // Parse CLI args
     QCommandLineParser parser;
