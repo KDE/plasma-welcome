@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-14 00:39+0000\n"
-"PO-Revision-Date: 2023-11-30 09:15+0100\n"
+"PO-Revision-Date: 2024-02-15 09:10+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -135,7 +135,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Module inconnu %1 demandé"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -146,7 +146,7 @@ msgstr "Lancer %1 maintenant"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Ce module de configuration n'a pas pu être chargé."
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -188,35 +188,31 @@ msgstr "&Ok"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Erreur lors du chargement de la page"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Signaler un bogue"
+msgstr "Signaler un bogue..."
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "xavier.besnard@kde.org"
+msgstr "Copier les informations détaillées…"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "Cette page fournie par votre distribution n'a pas pu être chargée."
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "Cette page fournie par le centre d'accueil n'a pas pu être chargée."
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
