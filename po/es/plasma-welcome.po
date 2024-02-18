@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-14 00:39+0000\n"
+"POT-Creation-Date: 2024-02-18 00:39+0000\n"
 "PO-Revision-Date: 2024-02-15 00:43+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -79,48 +79,48 @@ msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
 
-#: src/main.cpp:40
+#: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "Una aplicación de bienvenida para KDE Plasma"
 
-#: src/main.cpp:45
+#: src/main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "Centro de bienvenida"
 
-#: src/main.cpp:53
+#: src/main.cpp:50
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "© 2021"
 
-#: src/main.cpp:54
+#: src/main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:55 src/main.cpp:59
+#: src/main.cpp:52 src/main.cpp:56
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: src/main.cpp:58
+#: src/main.cpp:55
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:71
+#: src/main.cpp:67
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Mostrar las notas del lanzamiento de la versión actual de Plasma."
 
-#: src/main.cpp:72
+#: src/main.cpp:68
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
@@ -128,7 +128,7 @@ msgstr ""
 "Mostrar las notas del lanzamiento de la versión actual de Plasma, para "
 "versiones beta."
 
-#: src/main.cpp:73
+#: src/main.cpp:69
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""

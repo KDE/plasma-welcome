@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-14 00:39+0000\n"
-"PO-Revision-Date: 2023-11-30 13:01+0100\n"
+"POT-Creation-Date: 2024-02-18 00:39+0000\n"
+"PO-Revision-Date: 2024-02-14 14:21+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -77,48 +77,48 @@ msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
 
-#: src/main.cpp:40
+#: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "Un'applicazione di benvenuto per Plasma di KDE"
 
-#: src/main.cpp:45
+#: src/main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "Centro di benvenuto"
 
-#: src/main.cpp:53
+#: src/main.cpp:50
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:54
+#: src/main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:55 src/main.cpp:59
+#: src/main.cpp:52 src/main.cpp:56
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autore"
 
-#: src/main.cpp:58
+#: src/main.cpp:55
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:71
+#: src/main.cpp:67
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Visualizza le note di rilascio per la versione attuale di Plasma."
 
-#: src/main.cpp:72
+#: src/main.cpp:68
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
@@ -126,7 +126,7 @@ msgstr ""
 "Visualizza le note sulla versione per la versione attuale di Plasma, per le "
 "versioni beta."
 
-#: src/main.cpp:73
+#: src/main.cpp:69
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
@@ -136,7 +136,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Il modulo richiesto %1 è sconosciuto"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -147,7 +147,7 @@ msgstr "Avvia %1 subito"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Impossibile caricare questo modulo delle impostazioni"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -189,35 +189,31 @@ msgstr "&OK"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Errore nel caricamento della pagina"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Segnala un bug"
+msgstr "Segnala bug…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "smart2128vr@gmail.com"
+msgstr "Copia i dettagli"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "Impossibile caricare questa pagina fornita dalla tua distribuzione"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "Impossibile caricare questa pagina fornita dal Centro di benvenuto"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format

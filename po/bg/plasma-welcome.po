@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-14 00:39+0000\n"
-"PO-Revision-Date: 2024-02-03 17:07+0100\n"
+"POT-Creation-Date: 2024-02-18 00:39+0000\n"
+"PO-Revision-Date: 2024-02-17 13:02+0100\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -77,54 +77,54 @@ msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
 
-#: src/main.cpp:40
+#: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
 msgstr "Програма за приветстване и начални настройки на KDE Plasma"
 
-#: src/main.cpp:45
+#: src/main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "Добре дошли"
 
-#: src/main.cpp:53
+#: src/main.cpp:50
 #, kde-format
 msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:54
+#: src/main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:55 src/main.cpp:59
+#: src/main.cpp:52 src/main.cpp:56
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Автор"
 
-#: src/main.cpp:58
+#: src/main.cpp:55
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:71
+#: src/main.cpp:67
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Показване на бележките на текущото издание на Plasma."
 
-#: src/main.cpp:72
+#: src/main.cpp:68
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr "Показване на бележките на текущото издание на Plasma, за бета версии."
 
-#: src/main.cpp:73
+#: src/main.cpp:69
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
@@ -134,7 +134,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Заявен е неизвестен модул %1"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -145,7 +145,7 @@ msgstr "Стартиране на %1 сега"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Неуспех при зареждане на този модул с настройки"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -187,35 +187,33 @@ msgstr "&Добре"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Грешка при зареждането на страницата"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Сигнал за грешка"
+msgstr "Подаване на сигнал за грешка…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "mkondarev@yahoo.de"
+msgstr "Копиране на подробности"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr ""
+"Тази страница, представена във вашата дистрибуция може да бъде заредена"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
+"Тази страница, представена в приветствения център не може да бъде заредена"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
