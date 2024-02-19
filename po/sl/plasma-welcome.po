@@ -10,15 +10,13 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-18 00:39+0000\n"
-"PO-Revision-Date: 2024-02-16 19:15+0100\n"
+"PO-Revision-Date: \n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
-"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language-Team: \n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
 "X-Generator: Poedit 3.4.2\n"
 
 #, kde-format
@@ -190,7 +188,7 @@ msgstr "V redu"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr "Napaka nalaganja strani"
+msgstr "Napaka pri nalaganju strani"
 
 #: src/qml/PageError.qml:23
 #, kde-format
@@ -209,14 +207,15 @@ msgstr "Kopiraj podrobnosti"
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr ""
-"Te strani, ki jo zagotavlja  vaša distribucija, ni bilo mogoče naložiti"
+"Te strani, ki jo zagotavlja vaša distribucija, ni bilo mogoče naložitiTe "
+"strani, ki jo zagotavlja  vaša distribucija, ni bilo mogoče naložiti"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
-"Te strani, ki jo ponuja Center za dobrodošlico, ni bilo mogoče naložiti"
+"Te strani, zagotovljene od Centra dobrodošlice, ni bilo mogoče naložiti"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format

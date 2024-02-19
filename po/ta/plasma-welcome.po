@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2023 Kishore G <kishore96@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024 Kishore G <kishore96@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-18 00:39+0000\n"
-"PO-Revision-Date: 2023-12-10 12:04+0530\n"
+"PO-Revision-Date: 2024-02-18 17:17+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -134,7 +134,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "தெரியாத %1 கூறு கோரப்பட்டது"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -145,7 +145,7 @@ msgstr "%1 தனை இப்போது திற"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "அமைப்புக்கூறை ஏற்ற முடியவில்லை"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -187,35 +187,31 @@ msgstr "&சரி"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "பக்கத்தை ஏற்றுவதில் சிக்கல்"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "பிழையை தெரிவி"
+msgstr "பிழையை தெரிவி…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "Kde-l10n-ta@kde.org"
+msgstr "விவரங்களை நகலெடு"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "உங்கள் இயங்குதளம் வழங்கிய இப்பக்கத்தை ஏற்ற முடியவில்லை"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "வரவேற்பு மையம் வழங்கிய இப்பக்கத்தை ஏற்ற முடியவில்லை"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
@@ -720,6 +716,10 @@ msgid ""
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
 "you'll find what you need in the <application>%1</application> app."
 msgstr ""
+"இயல்பில் எளியதாக இருக்குமாறு பிளாஸ்மா வடிவமைக்கப்பட்டுள்ளது. நீங்கள் எதிர்பார்க்கும் "
+"இடங்களில் அனைத்தும் இருக்கும், மேலும் சரலமாக பயன்படுத்துமுன் அமைப்புகளை மாற்றும் தேவை "
+"இல்லை. <nl/><nl/>இருப்பினும், எதையாவது மாற்ற வேண்டியிருந்தால் <application>%1</"
+"application> செயலியில் அதை மாற்றலாம்."
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
