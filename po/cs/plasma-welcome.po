@@ -1,26 +1,26 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2023 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2023, 2024 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-07 02:23+0000\n"
-"PO-Revision-Date: 2023-11-21 15:01+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2024-02-16 10:07+0100\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Lukáš Tinkl"
+msgstr "Vít Pelčák"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -55,7 +55,7 @@ msgstr "&Následující"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Zobrazit tuto stránku po aktualizaci Plasma"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
@@ -158,13 +158,13 @@ msgstr "Přispějte na vývoj"
 #, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr ""
+msgstr "Podporovatelé Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr ""
+msgstr "Podporovatelé Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -173,6 +173,8 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"Chtěli bychom poděkovat následujícím lidem za jejich podporu kampaně na "
+"výběr financí pro Plasma 6:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -251,7 +253,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr ""
+msgstr "Plasma byla aktualizována na %1"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -267,13 +269,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr ""
+msgstr "<b>Zjistěte co je nového</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "Nahlásit chybu"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -289,6 +291,9 @@ msgid ""
 "KDE contributors have spent the last year hard at work on this release. We "
 "hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"Přispěvatelé do KDE strávili poslední rok tvrdou prací na tomto vydání. "
+"Doufáme, že vás bude používání prostředí Plasma bavit tak, jako nás bavil "
+"jeho vývoj!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -674,34 +679,34 @@ msgstr "Maskot KDE - Konqi - vás vítá v komunitě KDE!"
 #: src/controller.cpp:54
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "6.0 Vývojová"
 
 #: src/controller.cpp:57
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 Alfa"
 
 #: src/controller.cpp:60
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:63
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "6.0 Beta 2"
 
 #: src/controller.cpp:66
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:69
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:87
 #, kde-format
@@ -766,7 +771,7 @@ msgstr "Zobrazit zprávy o vydání pro současnou verzi Plasma."
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr ""
+msgstr "Zobrazit zprávy o vydání pro současnou verzi Plasma, pro beta verze."
 
 #: src/main.cpp:73
 #, kde-format
