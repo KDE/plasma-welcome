@@ -8,7 +8,6 @@ import QtQuick
 import QtQuick.Layouts
 import Qt5Compat.GraphicalEffects
 import org.kde.kirigami as Kirigami
-import org.kde.kirigamiaddons.components as KirigamiAddons
 
 import org.kde.plasma.welcome
 import org.kde.plasma.components as PC3
@@ -243,7 +242,8 @@ GenericPage {
         }
     }
 
-    footer: KirigamiAddons.Banner {
+    footer: Kirigami.InlineMessage {
+        position: Kirigami.InlineMessage.Footer
         visible: Controller.patchVersion === 80
         text: i18nc("@info", "This page is being shown regardless of network connectivity because you are using a development version.")
     }
