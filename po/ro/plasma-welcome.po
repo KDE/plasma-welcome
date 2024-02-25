@@ -1,42 +1,42 @@
-# Copyright (C) 2023 This file is copyright:
+# Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
+# Sergiu Bivol <sergiu@cip.md>, 2024.
 #
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-18 00:39+0000\n"
-"PO-Revision-Date: 2024-02-24 16:52+0100\n"
-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
-"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
-"Language: pl\n"
+"PO-Revision-Date: 2024-02-24 17:17+0000\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Łukasz Wojniłowicz"
+msgstr "Sergiu Bivol"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "lukasz.wojnilowicz@gmail.com"
+msgstr "sergiu@cip.md"
 
 #: src/controller.cpp:56
 #, kde-format
 msgid "6.0 Dev"
-msgstr "6.0 Rozwojowa"
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:59
 #, kde-format
 msgid "6.0 Alpha"
-msgstr "6.0 Alfa"
+msgstr "6.0 Alpha"
 
 #: src/controller.cpp:62
 #, kde-format
@@ -64,7 +64,7 @@ msgstr "6.0 RC2"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr "%1 Rozwojowa"
+msgstr "%1 Dev"
 
 #: src/controller.cpp:93
 #, kde-format
@@ -82,13 +82,13 @@ msgstr "%1 Beta %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr "Aplikacja powitalna Plazmy KDE"
+msgstr "Aplicație de întâmpinare pentru KDE Plasma"
 
 #: src/main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr "Powitalnia"
+msgstr "Centru de întâmpinare"
 
 #: src/main.cpp:50
 #, kde-format
@@ -117,108 +117,111 @@ msgstr "Nate Graham"
 #: src/main.cpp:67
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr "Wyświetl uwagi do wydania dla bieżącego wydania Plazmy."
+msgstr "Afișează notele de lansare pentru ediția actuală Plasma."
 
 #: src/main.cpp:68
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr ""
-"Wyświetl uwagi do wydania dla bieżącego wydania Plazmy w wersjach beta."
+"Afișează notele de lansare pentru ediția actuală Plasma, pentru versiuni "
+"beta."
 
 #: src/main.cpp:69
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr "Wyświetl stronę na żywo przeznaczoną dla środowisk na żywo."
+msgstr "Afișează pagina live pentru distribuțiile încărcate în memorie."
 
 #: src/module.cpp:72
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr "Zażądano nieznanego modułu %1"
+msgstr "Modulul cerut %1 nu e cunoscut"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Uruchom %1 teraz"
+msgstr "Lansează %1 acum"
 
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr "Nie można wczytać tego modułu ustawień"
+msgstr "Acest modul de configurare nu a putut fi încărcat"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
-msgstr "&Pomiń"
+msgstr "&Sari"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
-msgstr "&Wstecz"
+msgstr "În&apoi"
 
 #: src/qml/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
-msgstr "&Zakończ"
+msgstr "&Finalizează"
 
 #: src/qml/footers/FooterDefault.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr "&Naprzód"
+msgstr "&Următor"
 
 #: src/qml/footers/FooterUpdate.qml:20
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr "Pokaż tę stronę po uaktualnieniu Plazmy"
+msgstr "Arată această pagină după ce Plasma e actualizată"
 
 #: src/qml/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr "&OK"
+msgstr "&Bine"
 
 #: src/qml/PageError.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr "Błąd wczytywania strony"
+msgstr "Eroare la încărcarea paginii"
 
 #: src/qml/PageError.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Zgłoś błąd..."
+msgstr "Raportează defect…"
 
 #: src/qml/PageError.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "Skopiuj szczegóły"
+msgstr "Copiază detaliile"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr "Nie można wczytać strony dostarczonej przez twoją dystrybucję"
+msgstr "Această pagină furnizată de către distribuție nu a putut fi încărcată"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr "Nie można wczytać strony Powitalni"
+msgstr ""
+"Această pagină furnizată de către Centrul de întâmpinare nu a putut fi "
+"încărcată"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Zacznij współtworzyć"
+msgstr "Implicați-vă"
 
 #: src/qml/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -233,33 +236,25 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
-"KDE nie jest czymś w rodzaju dużego przedsiębiorstwa; jest to raczej "
-"międzynarodowa społeczność wolontariuszy, a jego oprogramowanie jest "
-"tworzone przez ludzi podobnych tobie, którzy chcą poświęcić temu swój czas i "
-"pasję. Ty także możesz pomóc, czy to przez tłumaczenie, oprawę graficzną, "
-"promocję, programowanie, czy rozpracowywanie błędów.<nl/><nl/>Pomagając KDE, "
-"stajesz się częścią czegoś wyjątkowego, poznajesz nowych przyjaciół, uczysz "
-"się nowych rzeczy i przyczyniasz się dla dobra milionów ludzi, pracując z "
-"ludźmi z całego świata nad dostarczeniem świetnego środowiska pracy."
 
 #: src/qml/pages/Contribute.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Contributing!"
-msgstr "Zacznij współtworzyć!"
+msgstr "Începeți să contribuiți!"
 
 #: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
 #: src/qml/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr "Odwiedź %1"
+msgstr "Vizitează %1"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "Zarządzaj oprogramowaniem"
+msgstr "Gestionează programele"
 
 #: src/qml/pages/Discover.qml:22
 #, kde-kuit-format
@@ -270,21 +265,18 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"<application>%1</application> pomaga znaleźć i wgrać aplikacje, gry oraz "
-"narzędzia. Można wyszukiwać lub przeglądać po kategorii. Można oglądać "
-"zrzuty ekranu i czytać oceny, aby wybrać najlepszą aplikację."
 
 #: src/qml/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr "Pokaż %1 w Odkrywcy"
+msgstr "Arată %1 în Discover"
 
 #: src/qml/pages/Donate.qml:15
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr "Wesprzyj swoją wolności"
+msgstr "Sprijiniți-vă libertatea"
 
 #: src/qml/pages/Donate.qml:16
 #, kde-kuit-format
@@ -297,30 +289,24 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
-"Społeczność KDE polega na darowiznach pracy i pieniędzy, jest wspierana "
-"przez niemiecką organizację pożytku publicznego KDE e.V. która załatwia "
-"sprawy prawne, opłaca sprinty programistyczne i zasoby serwerowe i daje "
-"możliwości zatrudnienia programistom KDE. Wpłaty na KDE e.V. wspierają "
-"szerszą Społeczność KDE, a ty możesz przyczynić się do zmian, wpłacając już "
-"dzisiaj!<nl/><nl/>Wpłaty można sobie odliczyć od podatku w Niemczech."
 
 #: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "Wpłać darowiznę"
+msgstr "Donați"
 
 #: src/qml/pages/Donate.qml:51
 #, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr "Osoby wspierające Plazmę 6"
+msgstr "Susținătorii Plasma 6"
 
 #: src/qml/pages/donate/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr "Osoby wspierające Plazmę 6"
+msgstr "Susținătorii Plasma 6"
 
 #: src/qml/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -329,14 +315,14 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Dziękujemy następującym ludziom za wspieranie nas podczas kampanii zbierania "
-"środków na Plazmę 6:"
+"Le mulțumim următorilor donatori pentru susținere în timpul campaniei de "
+"strângere a fondurilor pentru Plasma 6:"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Udostępnij anonimowe dane z używania"
+msgstr "Partajează informații anonime despre utilizare"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -345,15 +331,15 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Nasi programiści użyją tych anonimowych danych do pracy nad poprawą "
-"oprogramowania KDE. W Ustawieniach Systemowych możesz wybrać zakres, w jakim "
-"te dane będą udostępniane."
+"Dezvoltatorii noștri vor folosi aceste date anonime pentru a îmbunătăți "
+"programele KDE. Puteți alege cât să partajați în Configurări de sistem, sau "
+"aici."
 
 #: src/qml/pages/Live.qml:19
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Witaj w %1!"
+msgstr "Bun venit în %1!"
 
 #: src/qml/pages/Live.qml:22
 #, kde-kuit-format
@@ -363,9 +349,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
-"Naciśnięcie ikony rozpocznie wgrywanie %1. Możesz zamknąć okno, aby zapoznać "
-"się ze środowiskiem na żywo lub kontynuować tutaj, aby dowiedzieć się więcej "
-"o Plazmie KDE."
+"Apăsând pictograma de mai jos, veți începe instalarea %1. Altfel, puteți "
+"închide fereastra ca să explorați mediul live sau continuați aici pentru a "
+"afla mai multe despre KDE Plasma."
 
 #: src/qml/pages/Live.qml:24
 #, kde-kuit-format
@@ -374,20 +360,20 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
-"Możesz zamknąć okno, aby zapoznać się ze środowiskiem na żywo lub "
-"kontynuować tutaj, aby dowiedzieć się więcej o Plazmie KDE."
+"Puteți închide fereastra ca să explorați mediul live sau continuați aici "
+"pentru a afla mai multe despre KDE Plasma."
 
 #: src/qml/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr "Odwiedź stronę domową"
+msgstr "Vizitează pagina principală"
 
 #: src/qml/pages/Network.qml:23
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "Dostęp do internetu"
+msgstr "Accesează internetul"
 
 #: src/qml/pages/Network.qml:24
 #, kde-kuit-format
@@ -398,10 +384,6 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
-"Możesz podłączyć się do internetu i zarządzać swoimi połączeniami sieciowymi "
-"przy użyciu <interface>Apletu sieciowego</interface>. Aby go otworzyć, "
-"naciśnij na ikonę <interface>Sieci</interface> na swojej <interface>Tacce "
-"systemowej</interface>, która znajduje się w dolnym prawym narożniku ekranu."
 
 #: src/qml/pages/Network.qml:248
 #, kde-format
@@ -410,14 +392,12 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
-"Ta strona jest pokazywana niezależnie od połączenia z siecią, bo używasz "
-"wydania rozwojowego."
 
 #: src/qml/pages/PlasmaUpdate.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Uaktualniono Plazmę do %1"
+msgstr "Plasma a fost actualizată la %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -427,29 +407,26 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
-"Dziękujemy za testowanie tego wydania beta Plazmy—twoja informacja zwrotna "
-"jest kluczowa, abyśmy mogli ją ulepszać! Prosimy o zgłaszanie wszystkich "
-"błędów, które znajdziesz tak, abyśmy mogli jest naprawić."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
 #: src/qml/pages/plasmaupdate/Update.qml:24
 #, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "<b>Dowiedz się co nowego</b>"
+msgstr "<b>Aflați ce e nou</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr "Zgłoś błąd"
+msgstr "Raportează defect"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
 #: src/qml/pages/plasmaupdate/Update.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr "Pomóż w pracy nad następnym wydaniem"
+msgstr "Ajută la lucrul asupra următoarei ediții"
 
 #: src/qml/pages/plasmaupdate/Update.qml:18
 #, kde-kuit-format
@@ -458,9 +435,6 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"Twórcy KDE spędzili ostatnie cztery miesiące ciężko pracując nad tym "
-"wydaniem. Mamy nadzieję, że polubisz Plazmę tak bardzo jak nam sprawiało "
-"radość jej tworzenie!"
 
 #: src/qml/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -470,16 +444,12 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
-"Społeczność KDE polega na darowiznach pracy i pieniędzy, jest wspierana "
-"przez KDE e.V. - niemiecką organizację pożytku publicznego. Wpłaty na KDE e."
-"V. wspierają szerszą Społeczność KDE, a ty możesz przyczynić się do zmian, "
-"wpłacając już dzisiaj."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "Rozbudowana, gdy tego potrzebujesz"
+msgstr "Puternic când trebuie"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -488,26 +458,24 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plazma to bardzo rozbudowane środowisko, opracowane do zwiększenia twojej "
-"wydajności! Oto tylko mała próbka tego, co może dla ciebie zrobić:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Sejfy"
+msgstr "Bolți"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr "Przechowuj dane poufne w bezpieczny sposób"
+msgstr "Păstrează fișiere sensibile în siguranță"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr "Aktywności"
+msgstr "Activități"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
@@ -515,7 +483,7 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr "Oddziel zadania związane z pracą, szkołą i domem"
+msgstr "Separă sarcinile pentru lucru, școală, sau domiciliu"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
@@ -527,7 +495,7 @@ msgstr "KDE Connect"
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr "Połącz swój telefon ze swoim komputerem"
+msgstr "Conectează telefonul cu calculatorul"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
@@ -539,43 +507,43 @@ msgstr "KRunner"
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "Poszukaj czegokolwiek"
+msgstr "Caută orice"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr "Przegląd"
+msgstr "Privire generală"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "Ośrodek sterowania twoim systemem"
+msgstr "Centrul de comandă al sistemului"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "Pobieranie nowych pakietów"
+msgstr "Obține lucruri noi"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Rozbuduj system dodatkami"
+msgstr "Extinde sistemul cu suplimente"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr "Dowiedz się więcej o możliwościach Plazmy"
+msgstr "Descoperă caracteristici Plasma suplimentare"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:133
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr "Sejfy Plazmy"
+msgstr "Bolți Plasma"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:134
 #, kde-kuit-format
@@ -589,19 +557,12 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Sejfy Plazmy umożliwiają tworzenie zaszyfrowanych katalogów zwanych "
-"<interface>Sejfami</interface>. W każdym sejfie, możesz bezpiecznie "
-"przechować swoje pliki, zdjęcia i dokumenty, w sposób bezpieczny. Sejfy mogą "
-"przebywać wewnątrz katalogów, które są synchronizowane z przechowalnią w "
-"chmurze, zwiększając prywatność takich treści.<nl/><nl/>Aby rozpocząć "
-"naciśnij strzałkę na <interface>Tacce systemowej</interface>, aby pokazać "
-"ukryte rzeczy, a następnie naciśnij na ikonie <interface>Sejfów</interface>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr "Aktywności"
+msgstr "Activități"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:143
 #, kde-kuit-format
@@ -616,22 +577,13 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
-"Aktywności można użyć do oddzielenia wysokopoziomowych projektów jako "
-"obiegów pracy tak, aby można się było skupić na jednym na raz. Możesz mieć "
-"aktywność dla \"Domu\", \"Szkoły\", \"Pracy\" i tak dalej. Każda aktywność "
-"ma dostęp do wszystkich twoich plików, lecz ma swój własny zestaw otwartych "
-"aplikacji, okien, ostatnich dokumentów, \"ulubionych\" aplikacji oraz rzeczy "
-"do obsługi na pulpicie.<nl/><nl/>Aby zacząć, otwórz <interface>Ustawienia "
-"systemu</interface> i poszukaj \"Aktywności\". Na tej stronie będzie można "
-"utworzyć więcej aktywności. Następnie będzie można między nimi przełączać "
-"przy użyciu skrótu klawiszowego <shortcut>Meta+Tab</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:148
 #: src/qml/pages/PowerfulWhenNeeded.qml:179
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Otwórz ustawienia…"
+msgstr "Deschide configurările…"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -653,16 +605,6 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
-"KDE Connect umożliwia współpracę twojego telefonu z twoim komputerem na "
-"różne sposoby:<nl/><list><item>Oglądaj powiadomienia ze swojego telefonu na "
-"swoim komputerze</item><item>Odpowiadaj na wiadomości tekstowe ze swojego "
-"telefonu na swoim komputerze</item><item>Uwspólnij zawartość twojego schowka "
-"pomiędzy swoim komputerem i telefonem</item><item>Daj głos na telefonie, gdy "
-"go zgubisz</item><item>Kopiuj zdjęcia, nagrania i inne pliki ze swojego "
-"telefonu na swój komputer i na odwrót</item><item>…I dużo więcej!</item></"
-"list><nl/>Aby zacząć, otwórz <interface>Ustawienia Systemowe</interface> i "
-"poszukaj \"KDE Connect\". Na stronie, która się otworzy, będzie możliwość "
-"sparowania twojego telefonu."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:190
 #, kde-format
@@ -690,24 +632,12 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
-"KRunner to wyjątkowo rozbudowane i wszechstronne narzędzie do wyszukiwania w "
-"Plazmie. Napędza wyszukiwanie w menu uruchamiacza aplikacji, a także ekran "
-"przeglądu. Można go także otworzyć jako wolnostojący pasek wyszukiwania po "
-"naciśnięciu skrótu klawiszowego <shortcut>Alt+Spacja</shortcut>.<nl/><nl/"
-">Poza wyszukiwaniem twoich plików i katalogów, KRunner może uruchamiać "
-"aplikacje, szukać w sieci, przeliczać waluty, obliczać równania matematyczne "
-"i więcej. Spróbuj wpisać w jego pole wyszukania:<nl/><list><item>\"time "
-"Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR na USD\"</item><item>"
-"\"25 mile w km\"</item><item>…I wiele więcej!</item></list><nl/>Aby "
-"dowiedzieć się więcej, otwórz pasek wyszukiwania KRunnera poprzez skrót "
-"klawiszowy <shortcut>Alt+Spacja</shortcut> na naciśnij na ikonę znaku "
-"zapytania."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr "Przegląd"
+msgstr "Privire generală"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:211
 #, kde-kuit-format
@@ -720,18 +650,12 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
-"Przegląd jest nakładą na cały ekran, pokazującą twoje wszystkie otwarte "
-"okna, umożliwiając łatwy dostęp do nich. Pokazuje także twoje bieżące "
-"Pulpity Wirtualne, umożliwiając dodanie, usunięcie i przełączenie pomiędzy "
-"nimi. Poza tym, zapewnia pole wyszukiwania obsługiwane przez KRunner, które "
-"jest w stanie filtrować okna.<nl/><nl/> Do Przeglądu można uzyskać dostęp "
-"poprzez skrót klawiszowy <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "Pobieranie nowych pakietów"
+msgstr "Obține lucruri noi"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:220
 #, kde-kuit-format
@@ -745,25 +669,18 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
-"W całej Plazmie, Ustawienia Systemowych oraz aplikacjach KDE, napotkasz "
-"przyciski z napisem \"Pobierz nowe <emphasis>rzeczy</emphasis>...\". "
-"Naciśnięcie na nich pokaże treści stron trzecich system, stworzone przez "
-"ludzi takich jak ty, w celu wzbogacenia systemu! W ten sposób, często "
-"możliwe jest dodanie możliwości bez konieczności pytania twórców KDE o ich "
-"dodanie.<nl/><nl/>Wiedz, że treść uzyskana w ten sposób nie została "
-"sprawdzona przez twojego dostawcę w żaden sposób."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:225
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr "Obejrzyj treść stron trzecich…"
+msgstr ""
 
 #: src/qml/pages/SimpleByDefault.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "Domyślnie prosta"
+msgstr "Simplu din fabrică"
 
 #: src/qml/pages/SimpleByDefault.qml:17
 #, kde-kuit-format
@@ -776,17 +693,12 @@ msgid ""
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
 "you'll find what you need in the <application>%1</application> app."
 msgstr ""
-"Plazma jest stworzona z myślą o tym, aby być prostą i używalną zaraz po jej "
-"wgraniu. Rzeczy w niej znajdują się tam, gdzie się ich oczekuje i zazwyczaj "
-"nie trzeba niczego ustawiać do wygodnej i wydajnej pracy.<nl/><nl/>Jeśli "
-"jednak zajdzie taka potrzeba, to możesz to zrobić w <application>%1</"
-"application>."
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Witaj"
+msgstr "Bun venit"
 
 #: src/qml/pages/Welcome.qml:19
 #, kde-kuit-format
@@ -798,10 +710,6 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"%1<nl/><nl/>Ten system operacyjny uruchomił Plazmę, środowisko pulpitu "
-"darmowe i o otwartym kodzie, które zostało stworzone przez wolontariuszy na "
-"całym świecie. Jest domyślnie proste dla łatwej obsługi, a także "
-"rozbudowane, gdy jest to potrzebne. Mamy nadzieję, że ci się spodoba!"
 
 #: src/qml/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -813,154 +721,33 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Witaj w systemie operacyjnym %1 działającym na Plazmie KDE<nl/><nl/>Plazma "
-"jest środowiskiem pulpitu darmowym i o otwartym kodzie, które zostało "
-"stworzone przez wolontariuszy na całym świecie. Jest domyślnie proste dla "
-"łatwej obsługi, a także rozbudowane, gdy jest to potrzebne. Mamy nadzieję, "
-"że ci się spodoba!"
 
 #: src/qml/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr "Dowiedz się więcej o społeczności KDE"
+msgstr "Află mai multe despre comunitatea KDE"
 
 #: src/qml/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Dowiedz się więcej o %1"
+msgstr "Află mai multe despre %1"
 
 #: src/qml/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr "Nieudane wczytywanie obrazu"
+msgstr "Încărcarea imaginii a eșuat"
 
 #: src/qml/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr "Nie można wczytać <filename>%1</filename>. Upewnij się, że istnieje."
+msgstr ""
 
 #: src/qml/pages/Welcome.qml:107
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "Maskotka KDE Konqi wita cię w społeczności KDE!"
-
-#, fuzzy
-#~| msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-#~| msgid "%1 Beta %2"
-#~ msgctxt "@label %1 is the Plasma version"
-#~ msgid "6 Beta 2 (%1)"
-#~ msgstr "%1 Beta %2"
-
-#~ msgctxt "@title: window"
-#~ msgid "Connect Online Accounts"
-#~ msgstr "Podłączanie twoich kont sieciowych"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "This will let you access their content in KDE apps. You can set it up in "
-#~ "System Settings, and here too."
-#~ msgstr ""
-#~ "Umożliwi to uzyskanie dostępu do ich treści w aplikacjach KDE. Można to "
-#~ "ustawić w zarówno w ustawieniach systemowych, jak i tutaj."
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "Miraculously, KDE operates on a shoestring budget, relying largely on "
-#~ "donations of labor and resources. You can help change that!<nl/><nl/"
-#~ ">Financial donations help KDE pay for development sprints, hardware and "
-#~ "server resources, and expanded employment. Donations are tax-deductible "
-#~ "in Germany."
-#~ msgstr ""
-#~ "KDE działa na cienkim budżecie, polegając w dużej mierze na darowiźnie "
-#~ "pracy i zasobów. Możesz pomóc to zmienić!<nl/><nl/>Darowizny finansowe "
-#~ "pomagają KDE opłacić sprinty programistyczne, zasoby sprzętowe i "
-#~ "serwerowe, a także w zatrudnianiu. Darowizny można odliczyć sobie od "
-#~ "podatku w Niemczech."
-
-#~ msgctxt "@title"
-#~ msgid "Welcome to KDE Plasma!"
-#~ msgstr "Witaj w Plazmie KDE!"
-
-#~ msgctxt "@title the name of the app 'Discover'"
-#~ msgid "Discover"
-#~ msgstr "Odkrywca"
-
-#~ msgctxt "@action:button"
-#~ msgid "Launch System Settings now"
-#~ msgstr "Otwórz ustawienia systemowe teraz"
-
-#~ msgctxt "@title the name of the 'System Settings' app"
-#~ msgid "System Settings"
-#~ msgstr "Ustawienia systemowe"
-
-#~ msgctxt "@action:button"
-#~ msgid "See More Features"
-#~ msgstr "Zobacz więcej możliwości"
-
-#~ msgctxt "@action:button"
-#~ msgid "Open Activities Page in System Settings"
-#~ msgstr "Otwórz stronę aktywności w ustawieniach systemowych"
-
-#~ msgctxt "@action:button"
-#~ msgid "Open KDE Connect Page in System Settings"
-#~ msgstr "Otwórz stronę KDE Connect w ustawieniach systemowych"
-
-#~ msgctxt "@info"
-#~ msgid "Page %1 of %2"
-#~ msgid_plural "Page %1 of %2"
-#~ msgstr[0] "Strona %1 z %2"
-#~ msgstr[1] "Strona %1 z %2"
-#~ msgstr[2] "Strona %1 z %2"
-
-#~ msgctxt "@title"
-#~ msgid "Welcome to KDE Plasma"
-#~ msgstr "Witaj w Plazmie KDE"
-
-#~ msgid ""
-#~ "Version number of the Plasma release to display release notes for, e.g. "
-#~ "5.25"
-#~ msgstr ""
-#~ "Numer wersji wydania Plazmy do wyświetlania uwag do wydania dla np. 5.25"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE Connect lets you integrate your phone with your computer in various "
-#~ "ways:"
-#~ msgstr ""
-#~ "KDE Connect umożliwia połączenie twojego telefonu z twoim komputerem na "
-#~ "różne sposoby:"
-
-#~ msgctxt "@info:window"
-#~ msgid "Personalize Your System"
-#~ msgstr "Dostosowywanie twojego systemu"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The <application>System Settings</application> app lets you adjust the "
-#~ "behaviors and appearance of the whole system. From theme options to "
-#~ "device management, you can find it all here."
-#~ msgstr ""
-#~ "<application>Ustawienia systemowe</application> umożliwiają dostosowanie "
-#~ "zachowania i wyglądu całego systemu. Od zestawów wyglądu do zarządzania "
-#~ "urządzeniami, wszystko znajduje się właśnie tam."
-
-#~ msgctxt "@info"
-#~ msgid "Konqi, the KDE mascot"
-#~ msgstr "Konqi, maskotka KDE"
-
-#~ msgctxt "@title:window"
-#~ msgid "Freedom Isn't Free"
-#~ msgstr "Wolność nie jest za darmo"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "In System Settings, you can choose to share anonymous usage information "
-#~ "with KDE. You can make that choice here, too."
-#~ msgstr ""
-#~ "W ustawieniach systemowych możesz wybrać, że chcesz anonimowo udostępniać "
-#~ "sposób w jaki używasz KDE samemu KDE. Tutaj także możesz to wybrać."
+msgstr ""
