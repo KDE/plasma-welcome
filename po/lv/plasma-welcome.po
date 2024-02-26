@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-18 00:39+0000\n"
-"PO-Revision-Date: 2024-01-24 18:07+0200\n"
+"PO-Revision-Date: 2024-02-23 15:42+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -128,13 +128,13 @@ msgstr "Parādīt šī „Plasma“ laidiena piezīmes, beta versijām"
 #: src/main.cpp:69
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr "Parādīt pagaidu lapu distributīvu pagaidu vidēm."
+msgstr "Parādīt gaistošo laidienu lapu distributīvu gaistošajām vidēm."
 
 #: src/module.cpp:72
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Pieprasīts nezināms modulis „%1“"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -145,7 +145,7 @@ msgstr "Palaist „%1“"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Šo iestatījumu moduli nevar ielādēt"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -187,35 +187,31 @@ msgstr "&Labi"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Kļūda, ielādējot lapu"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Ziņojiet par kļūdu"
+msgstr "Ziņot par kļūdu..."
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "toms.trasuns@posteo.net"
+msgstr "Kopēt informāciju"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "Neizdodas ielādēt šo lapu, ko nodrošina operētājsistēmas izplatītājs"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "Neizdodas ielādēt šo lapu, ko nodrošina Uzņemšanas centrs"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
@@ -287,7 +283,7 @@ msgstr "Parādīt „%1“ programmā „Discover“"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr "Padari sevi brīvāku"
+msgstr "Atbrīvo sevi"
 
 #: src/qml/pages/Donate.qml:16
 #, kde-kuit-format
@@ -367,7 +363,7 @@ msgid ""
 "out about KDE Plasma."
 msgstr ""
 "Zemāk esošās ikonas nospiešana uzsāks „%1“ instalācijas procesu. Tāpat varat "
-"arī aizvērt šo logu un izpētīt pagaidu vidi vai apskatīt šo lapu un uzzināt "
+"arī aizvērt šo logu un izpētīt gaistošo vidi vai apskatīt šo lapu un uzzināt "
 "vairāk par „KDE Plasma“."
 
 #: src/qml/pages/Live.qml:24
@@ -377,7 +373,7 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
-"Varat aizvērt šo logu, lai izpētītu pagaidu vidi vai turpinātu uzzināt "
+"Varat aizvērt šo logu, lai izpētītu gaistošo vidi, vai turpiniet uzzināt "
 "vairāk par „KDE Plasma“."
 
 #: src/qml/pages/Live.qml:30
@@ -403,7 +399,7 @@ msgid ""
 msgstr ""
 "Pieslēgties internetam vai pārvaldīt savu tīkla savienojumu varat "
 "<interface>Tīklu sīklietotnē</interface>. Lai to atvērtu, spiediet uz "
-"<interface>Tīklu</interface> ikonas <interface>Sistēmas ikonu joslā</"
+"<interface>Tīklu</interface> ikonas <interface>sistēmas ikonu joslā</"
 "interface>, kas parasti ir redzama ekrāna apakšējā labajā stūrī."
 
 #: src/qml/pages/Network.qml:248
@@ -461,9 +457,9 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"KDE izstrādātāji pēdējos četrus mēnešus ir smagi strādājuši pie šī laidiena. "
-"Ceram, ka „Plasma“ lietošana jums sniegs tādu pašu prieku, kādu sniedza tā "
-"veidošana."
+"KDE izstrādātāji pēdējos četrus mēnešus ir cītīgi strādājuši pie šī "
+"laidiena. Ceram, ka „Plasma“ lietošana jums sniegs tādu pašu prieku, kādu "
+"sniedza tā veidošana."
 
 #: src/qml/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
