@@ -35,15 +35,17 @@ GenericPage {
         source: "PlasmaNM.qml"
 
         // Defaults for when PlasmaNM is not available
+        property bool available: false
         property bool statusConnected: false
         property bool iconConnecting: false
         property string icon: "network-wireless-available"
 
         onStatusChanged: {
             if (status === Loader.Ready) {
-                statusConnected = Qt.binding(() => nmLoader.item.networkStatus.connectivity === 4) // 4, Full connectivity
-                iconConnecting = Qt.binding(() => nmLoader.item.connectionIcon.connecting)
-                icon = Qt.binding(() => nmLoader.item.connectionIcon.connectionIcon)
+                available = true;
+                statusConnected = Qt.binding(() => nmLoader.item.networkStatus.connectivity === 4); // 4, Full connectivity
+                iconConnecting = Qt.binding(() => nmLoader.item.connectionIcon.connecting);
+                icon = Qt.binding(() => nmLoader.item.connectionIcon.connectionIcon);
             } else if (status === Loader.Error) {
                 console.warn("PlasmaNM integration failed to load (is plasma-nm available?)");
             }
@@ -52,8 +54,39 @@ GenericPage {
         // Continue to the next page automatically when connected
         onStatusConnectedChanged: {
             if (statusConnected && pageStack.currentItem == root) {
-                pageStack.currentIndex += 1
+                pageStack.currentIndex += 1;
             }
+        }
+    }
+
+    Kirigami.PlaceholderMessage {
+        anchors.centerIn: parent
+
+        width: parent.width - Kirigami.Units.gridUnit * 2
+
+        // Shown when plasma-nm is not available or the user has connected
+        opacity: !nmLoader.available || nmLoader.statusConnected ? 1 : 0
+        visible: opacity > 0
+
+        Behavior on opacity {
+            NumberAnimation {
+                duration: Kirigami.Units.longDuration
+                easing.type: Easing.InOutQuad
+            }
+        }
+
+        icon.name: nmLoader.available ? "data-success-symbolic" : "data-warning-symbolic"
+
+        text: nmLoader.available ? i18nc("@info:placeholder Shown when connected to the internet", "You're connected")
+                                 : i18nc("@info:placeholder", "Networking support for Plasma is not currently installed")
+        explanation: nmLoader.available ? i18nc("@info:usagetip Shown when connected to the internet", "All good to go!")
+                                        : xi18nc("@info:usagetip %1 is the name of the user's distro", "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1.", Controller.distroName())
+
+        helpfulAction: Kirigami.Action {
+            enabled: !nmLoader.available
+            icon.name: "tools-report-bug-symbolic"
+            text: i18nc("@action:button", "Report Bug…")
+            onTriggered: Qt.openUrlExternally(Controller.distroBugReportUrl())
         }
     }
 
@@ -62,6 +95,18 @@ GenericPage {
 
         width: Kirigami.Units.gridUnit * 20
         height: Kirigami.Units.gridUnit * 10
+
+        // Only show when relevant, otherwise, the PlaceholderMessage is shown
+        opacity: nmLoader.available && !nmLoader.statusConnected ? 1 : 0
+        visible: opacity > 0
+        layer.enabled: true
+
+        Behavior on opacity {
+            NumberAnimation {
+                duration: Kirigami.Units.longDuration
+                easing.type: Easing.InOutQuad
+            }
+        }
 
         // Container for everything else so we don't have the apply margins
         // multiple times
@@ -199,11 +244,15 @@ GenericPage {
             // Arrow container
             Kirigami.Icon {
                 id: indicatorArrow
-                readonly property int originalY: parent.height - panelContainer.height - height
-                readonly property int translatedY: originalY - Kirigami.Units.gridUnit
+
                 width : Kirigami.Units.iconSizes.large
                 height: Kirigami.Units.iconSizes.large
-                y: parent.height - panelContainer.height - height
+
+                source: "arrow-down"
+
+                readonly property int startY: endY - Kirigami.Units.gridUnit
+                readonly property int endY: parent.height - panelContainer.height - height
+
                 anchors {
                     right: panelContainer.right
                     rightMargin: appletContainer.width + appletContainer.anchors.rightMargin   // Align with the left of the appletContainer
@@ -211,7 +260,6 @@ GenericPage {
                                   + (appletContainer.iconSize / 2)                             // Align with the center of the icon
                                   - (width / 2)                                                // Center the arrow on the icon
                 }
-                source: "arrow-down"
 
                 layer.enabled: true
                 layer.effect: Glow {
@@ -222,18 +270,19 @@ GenericPage {
                 }
 
                 SequentialAnimation on y {
-                    running: pageStack.currentItem == root && !nmLoader.statusConnected
-                    loops:  Animation.Infinite
+                    running: pageStack.currentItem == root && nmLoader.available && !nmLoader.statusConnected
+                    loops: Animation.Infinite
                     alwaysRunToEnd: true
+
                     NumberAnimation {
-                        from: indicatorArrow.originalY
-                        to: indicatorArrow.translatedY
+                        from: indicatorArrow.startY
+                        to: indicatorArrow.endY
                         duration: 1000
                         easing.type: Easing.InOutQuad
                     }
                     NumberAnimation {
-                        from: indicatorArrow.translatedY
-                        to: indicatorArrow.originalY
+                        from: indicatorArrow.endY
+                        to: indicatorArrow.startY
                         duration: 1000
                         easing.type: Easing.InOutQuad
                     }
