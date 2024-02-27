@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-18 00:39+0000\n"
+"POT-Creation-Date: 2024-02-27 00:39+0000\n"
 "PO-Revision-Date: 2024-01-15 13:42+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -381,13 +381,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "ホームページを訪れる"
 
-#: src/qml/pages/Network.qml:23
+#: src/qml/pages/Network.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "インターネットにアクセスする"
 
-#: src/qml/pages/Network.qml:24
+#: src/qml/pages/Network.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -411,7 +411,7 @@ msgstr ""
 "開発版が使用されているため、このページはネットワークの状態に関わらず表示され"
 "ています。"
 
-#: src/qml/pages/PlasmaUpdate.qml:18
+#: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-18 00:39+0000\n"
+"POT-Creation-Date: 2024-02-27 00:39+0000\n"
 "PO-Revision-Date: 2024-02-17 15:12+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -374,13 +374,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "홈페이지 방문"
 
-#: src/qml/pages/Network.qml:23
+#: src/qml/pages/Network.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "인터넷에 연결"
 
-#: src/qml/pages/Network.qml:24
+#: src/qml/pages/Network.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -403,7 +403,7 @@ msgid ""
 msgstr ""
 "개발 버전을 사용하므로 네트워크 연결과 관계 없이 이 페이지를 표시합니다."
 
-#: src/qml/pages/PlasmaUpdate.qml:18
+#: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
