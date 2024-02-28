@@ -42,8 +42,7 @@ Controller::Controller()
         m_releaseUrl = QStringLiteral("https://invent.kde.org/groups/plasma/-/activity");
     } else {
         // Release version
-        m_releaseUrl = QStringLiteral("https://kde.org/announcements/megarelease/6/?source=plasma-welcome")
-                           .arg(QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
+        m_releaseUrl = QStringLiteral("https://kde.org/announcements/megarelease/6/?source=plasma-welcome");
     }
 
     // Shown version string, matching desktop preview banner
