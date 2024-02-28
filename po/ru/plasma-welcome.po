@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-welcome package.
 #
 # SPDX-FileCopyrightText: 2022, 2023 Alexander Yavorsky <kekcuha@gmail.com>
-# Alexander Yavorsky <kekcuha@gmail.com>, 2023.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-27 00:39+0000\n"
-"PO-Revision-Date: 2023-12-26 12:56+0300\n"
+"PO-Revision-Date: 2024-02-27 21:32+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -137,7 +137,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Запрошен неизвестный модуль %1"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -148,7 +148,7 @@ msgstr "Запустить %1"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Не удалось загрузить модуль настройки параметров"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -190,35 +190,33 @@ msgstr "&OK"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Ошибка при загрузке страницы"
 
 #: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Сообщить об ошибке"
+msgstr "Сообщить об ошибке…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "kekcuha@gmail.com, me@ilyabiz.com"
+msgstr "Скопировать подробные сведения"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr ""
+"Не удалось загрузить страницу, предоставленную используемым дистрибутивом"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
+"Не удалось загрузить страницу, предоставленную помощником первого запуска"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
