@@ -114,129 +114,194 @@ GenericPage {
             anchors.fill: parent
             anchors.margins: Kirigami.Units.smallSpacing
 
+            clip: true
+
             // Wallpaper background image
             Image {
                 anchors.fill: parent
+
                 fillMode: Image.PreserveAspectCrop
                 source: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1024x768.png"
-                // anchor the image to the bottom-right corner of the "screen"
-                sourceClipRect: Qt.rect(1024-parent.width,
+                sourceClipRect: Qt.rect(1024-parent.width, // Bottom-right of image
                                         768-parent.height,
                                         parent.width,
                                         parent.height)
-            }
-
-            // Wallpaper background image blur source behind panel
-            Image {
-                anchors.fill: panelContainer
-                fillMode: Image.PreserveAspectCrop
-                source: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1024x768.png"
-                sourceClipRect: Qt.rect(1024-panelContainer.width,
-                                        768-panelContainer.height,
-                                        panelContainer.width,
-                                        panelContainer.height)
 
                 layer.enabled: true
                 layer.effect: GaussianBlur {
                     radius: 32
-                    samples: 16
+                    samples: (radius * 2) + 1
                     cached: true
                 }
             }
 
-            // Panel item container, so opacity won't propagate down
+            // Panel shadow
+            KSvg.FrameSvgItem {
+                anchors.fill: panelContainer
+                anchors.topMargin: -margins.top
+                anchors.leftMargin: -margins.left
+                anchors.rightMargin: -margins.right
+                anchors.bottomMargin: -margins.bottom
+
+                imagePath: "solid/widgets/panel-background"
+                prefix: "shadow"
+            }
+
+            // Panel container
             Item {
                 id: panelContainer
 
-                readonly property int margins: Kirigami.Units.smallSpacing
-                width: parent.width
-                height: 36 // default panel height
+                width: 1024 // This overflows, but we clip and it means no rounding to the left
+                            // 1024 specifically improves appearance with Oxygen style and
+                            // matches the background width
+                height: 44 // Default panel height
+
+                anchors.margins: Kirigami.Units.largeSpacing // Floating margins
                 anchors.right: parent.right
                 anchors.bottom: parent.bottom
+
+                readonly property int contentPadding: Kirigami.Units.largeSpacing
+                readonly property int contentHeight: panelContainer.height - panelContainer.contentPadding * 2
 
                 // Panel background
                 KSvg.FrameSvgItem {
                     anchors.fill: parent
-                    imagePath: "solid/widgets/panel-background"
-                    enabledBorders: "TopBorder"
-                    opacity: 0.75
+
+                    imagePath: "widgets/panel-background"
                 }
 
-                // Fake System Tray items go in here
+                // Applet container
                 RowLayout {
                     id: appletContainer
 
-                    readonly property int iconSize: Kirigami.Units.iconSizes.roundedIconSize(height - (panelContainer.margins * 2))
+                    readonly property int iconSize: Kirigami.Units.iconSizes.roundedIconSize(height - (panelContainer.contentPadding * 2))
 
                     anchors {
                         right: parent.right
-                        rightMargin: Kirigami.Units.smallSpacing
+                        rightMargin: Kirigami.Units.largeSpacing
                         top: parent.top
                         bottom: parent.bottom
                     }
-                    spacing: Kirigami.Units.smallSpacing * 2
+
+                    spacing: Kirigami.Units.smallSpacing
 
                     Item {
                         Layout.fillWidth: true
                     }
 
-                    KSvg.SvgItem {
-                        implicitWidth: appletContainer.iconSize
-                        implicitHeight: appletContainer.iconSize
-                        imagePath: "icons/klipper"
-                        elementId: "klipper"
-                    }
-                    KSvg.SvgItem {
-                        implicitWidth: appletContainer.iconSize
-                        implicitHeight: appletContainer.iconSize
-                        imagePath: "icons/audio"
-                        elementId: "audio-volume-high"
-                    }
-                    KSvg.SvgItem {
-                        implicitWidth: appletContainer.iconSize
-                        implicitHeight: appletContainer.iconSize
-                        imagePath: "icons/network"
-                        elementId: nmLoader.icon
-                        PC3.BusyIndicator {
-                            id: connectingIndicator
+                    // System Tray
+                    RowLayout {
+                        id: appletSystemTray
 
-                            anchors.centerIn: parent
-                            height: Math.min(parent.width, parent.height)
-                            width: height
-                            running: nmLoader.iconConnecting
-                            visible: running
-                        }
-                    }
-                    KSvg.SvgItem {
-                        implicitWidth: appletContainer.iconSize
-                        implicitHeight: appletContainer.iconSize
-                        imagePath: "widgets/arrows"
-                        elementId: "up-arrow"
-                    }
-                    ColumnLayout {
+                        readonly property int iconMargins: Kirigami.Units.smallSpacing
+
                         spacing: 0
-                        PC3.Label {
-                            color: PlasmaCore.Theme.textColor
-                            text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
-                            fontSizeMode: Text.Fit
-                            Layout.fillHeight: true
-                            Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
-                            Layout.topMargin: Kirigami.Units.smallSpacing
+
+                        KSvg.SvgItem {
+                            Layout.leftMargin: appletSystemTray.iconMargins
+                            Layout.rightMargin: appletSystemTray.iconMargins
+
+                            implicitWidth: appletContainer.iconSize
+                            implicitHeight: appletContainer.iconSize
+                            imagePath: "icons/klipper"
+                            elementId: "klipper"
                         }
-                        PC3.Label {
+
+                        KSvg.SvgItem {
+                            Layout.leftMargin: appletSystemTray.iconMargins
+                            Layout.rightMargin: appletSystemTray.iconMargins
+
+                            implicitWidth: appletContainer.iconSize
+                            implicitHeight: appletContainer.iconSize
+                            imagePath: "icons/audio"
+                            elementId: "audio-volume-high"
+                        }
+
+                        KSvg.SvgItem {
+                            id: networkingIcon
+
+                            Layout.leftMargin: appletSystemTray.iconMargins
+                            Layout.rightMargin: appletSystemTray.iconMargins
+
+                            implicitWidth: appletContainer.iconSize
+                            implicitHeight: appletContainer.iconSize
+                            imagePath: "icons/network"
+                            elementId: nmLoader.icon
+
+                            PC3.BusyIndicator {
+                                id: connectingIndicator
+
+                                anchors.centerIn: parent
+                                height: Math.min(parent.width, parent.height)
+                                width: height
+                                running: nmLoader.iconConnecting
+                                visible: running
+                            }
+                        }
+
+                        Kirigami.Icon {
+                            implicitWidth: Kirigami.Units.iconSizes.smallMedium
+                            implicitHeight: Kirigami.Units.iconSizes.smallMedium
+
+                            source: "arrow-up"
                             color: PlasmaCore.Theme.textColor
-                            text: Qt.formatDate(timeSource.data["Local"]["DateTime"], Qt.DefaultLocaleShortDate)
-                            fontSizeMode: Text.Fit
-                            Layout.fillHeight: true
-                            Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
-                            Layout.bottomMargin: Kirigami.Units.smallSpacing
                         }
                     }
-                    KSvg.SvgItem {
-                        implicitWidth: appletContainer.iconSize
-                        implicitHeight: appletContainer.iconSize
-                        imagePath: "icons/user"
-                        elementId: "user-desktop"
+
+                    // Digital Clock
+                    Item {
+                        Layout.preferredWidth: Math.max(timeLabel.paintedWidth,
+                                                        dateLabel.paintedWidth + Kirigami.Units.largeSpacing)
+                        implicitHeight: panelContainer.contentHeight
+
+                        PC3.Label {
+                            id: timeLabel
+
+                            anchors.top: parent.top
+                            anchors.horizontalCenter: parent.horizontalCenter
+
+                            text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
+
+                            width: paintedWidth
+                            height: 15.68
+                            font.pixelSize: 16
+                            color: PlasmaCore.Theme.textColor
+
+                            verticalAlignment: Text.AlignVCenter
+                            horizontalAlignment: Text.AlignHCenter
+                        }
+
+                        PC3.Label {
+                            id: dateLabel
+
+                            anchors.top: timeLabel.bottom
+                            anchors.horizontalCenter: timeLabel.horizontalCenter
+
+                            text: Qt.formatDate(timeSource.data["Local"]["DateTime"], Qt.DefaultLocaleShortDate)
+
+                            width: paintedWidth
+                            height: 12.544
+                            font.pixelSize: 13
+                            color: PlasmaCore.Theme.textColor
+
+                            verticalAlignment: Text.AlignVCenter
+                            horizontalAlignment: Text.AlignHCenter
+                        }
+                    }
+
+                    // Peek at Desktop
+                    Item {
+                        implicitWidth: panelContainer.contentHeight
+                        implicitHeight: panelContainer.contentHeight
+
+                        KSvg.SvgItem {
+                            anchors.centerIn: parent
+
+                            implicitWidth: appletContainer.iconSize
+                            implicitHeight: appletContainer.iconSize
+                            imagePath: "icons/user"
+                            elementId: "user-desktop"
+                        }
                     }
                 }
             }
@@ -251,20 +316,18 @@ GenericPage {
                 source: "arrow-down"
 
                 readonly property int startY: endY - Kirigami.Units.gridUnit
-                readonly property int endY: parent.height - panelContainer.height - height
+                readonly property int endY: parent.height - panelContainer.height - height - panelContainer.anchors.margins
 
-                anchors {
-                    right: panelContainer.right
-                    rightMargin: appletContainer.width + appletContainer.anchors.rightMargin   // Align with the left of the appletContainer
-                                  - ((appletContainer.iconSize + appletContainer.spacing) * 3) // Align with the right of the third icon
-                                  + (appletContainer.iconSize / 2)                             // Align with the center of the icon
-                                  - (width / 2)                                                // Center the arrow on the icon
-                }
+                anchors.right: panelContainer.right
+                anchors.rightMargin: - (width / 2)                                                        // Center the arrow on target
+                                     + appletContainer.width + appletContainer.anchors.rightMargin        // Align with the left of the appletContainer
+                                     - (appletContainer.iconSize / 2 + appletSystemTray.iconMargins * 2)  // Align with the first icon
+                                     - (appletContainer.iconSize + appletSystemTray.iconMargins * 2 ) * 2 // Align with the network icon
 
                 layer.enabled: true
                 layer.effect: Glow {
                     radius: 6
-                    samples: 17
+                    samples: (radius * 2) + 1
                     spread: 0.5
                     color: "white"
                 }
