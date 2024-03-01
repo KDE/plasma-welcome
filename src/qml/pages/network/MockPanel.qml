@@ -10,6 +10,7 @@ import Qt5Compat.GraphicalEffects
 import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome
+
 import org.kde.plasma.components as PC3
 import org.kde.ksvg as KSvg
 //NOTE: necessary for KSvg to load the Plasma theme
@@ -112,36 +113,37 @@ Item {
 
                 spacing: 0
 
-                KSvg.SvgItem {
+                Kirigami.Icon {
                     Layout.leftMargin: appletSystemTray.iconMargins
                     Layout.rightMargin: appletSystemTray.iconMargins
 
                     implicitWidth: appletContainer.iconSize
                     implicitHeight: appletContainer.iconSize
-                    imagePath: "icons/klipper"
-                    elementId: "klipper"
+
+                    source: "klipper-symbolic"
+                    color: PlasmaCore.Theme.textColor
                 }
 
-                KSvg.SvgItem {
+                Kirigami.Icon {
                     Layout.leftMargin: appletSystemTray.iconMargins
                     Layout.rightMargin: appletSystemTray.iconMargins
 
                     implicitWidth: appletContainer.iconSize
                     implicitHeight: appletContainer.iconSize
-                    imagePath: "icons/audio"
-                    elementId: "audio-volume-high"
+
+                    source: "audio-volume-high"
+                    color: PlasmaCore.Theme.textColor
                 }
 
-                KSvg.SvgItem {
-                    id: networkingIcon
-
+                Kirigami.Icon {
                     Layout.leftMargin: appletSystemTray.iconMargins
                     Layout.rightMargin: appletSystemTray.iconMargins
 
-                    implicitWidth: appletContainer.iconSize
-                    implicitHeight: appletContainer.iconSize
-                    imagePath: "icons/network"
-                    elementId: root.icon
+                    implicitWidth: Kirigami.Units.iconSizes.smallMedium
+                    implicitHeight: Kirigami.Units.iconSizes.smallMedium
+
+                    source: root.icon
+                    color: PlasmaCore.Theme.textColor
 
                     PC3.BusyIndicator {
                         id: connectingIndicator
@@ -209,13 +211,13 @@ Item {
                 implicitWidth: panelContainer.contentHeight
                 implicitHeight: panelContainer.contentHeight
 
-                KSvg.SvgItem {
+                Kirigami.Icon {
                     anchors.centerIn: parent
-
                     implicitWidth: appletContainer.iconSize
                     implicitHeight: appletContainer.iconSize
-                    imagePath: "icons/user"
-                    elementId: "user-desktop"
+
+                    source: "user-desktop-symbolic"
+                    color: PlasmaCore.Theme.textColor
                 }
             }
         }
