@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-27 00:39+0000\n"
-"PO-Revision-Date: 2024-02-05 11:37\n"
+"POT-Creation-Date: 2024-03-01 00:39+0000\n"
+"PO-Revision-Date: 2024-02-29 12:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -133,7 +133,7 @@ msgstr "显示为发行版 Live 环境准备的页面。"
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "请求了未知的模块 %1"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -144,7 +144,7 @@ msgstr "立即启动 %1"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "无法加载此设置模块"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -186,35 +186,31 @@ msgstr "确定(&O)"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "加载页面出错"
 
-#: src/qml/PageError.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:88
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "报告程序缺陷"
+msgstr "报告程序缺陷…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "tang142857@kde.org, tds00@qq.com"
+msgstr "复制详细信息"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "无法加载此页面 (由发行版提供)"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "无法加载此页面 (由欢迎中心提供)"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
@@ -397,7 +393,33 @@ msgstr ""
 "开网络小程序，请在<interface>系统托盘</interface> 中点击<interface>网络</"
 "interface>图标。它默认位于屏幕的右下角。"
 
-#: src/qml/pages/Network.qml:248
+#: src/qml/pages/Network.qml:80
+#, kde-format
+msgctxt "@info:placeholder Shown when connected to the internet"
+msgid "You're connected"
+msgstr ""
+
+#: src/qml/pages/Network.qml:81
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Networking support for Plasma is not currently installed"
+msgstr ""
+
+#: src/qml/pages/Network.qml:82
+#, kde-format
+msgctxt "@info:usagetip Shown when connected to the internet"
+msgid "All good to go!"
+msgstr ""
+
+#: src/qml/pages/Network.qml:83
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
+"be installed. Please report this omission to %1."
+msgstr ""
+
+#: src/qml/pages/Network.qml:297
 #, kde-format
 msgctxt "@info"
 msgid ""

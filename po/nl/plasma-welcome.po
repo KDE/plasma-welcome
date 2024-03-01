@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-27 00:39+0000\n"
+"POT-Creation-Date: 2024-03-01 00:39+0000\n"
 "PO-Revision-Date: 2024-02-14 10:59+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -189,7 +189,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Fout bij laden van pagina"
 
-#: src/qml/PageError.qml:23
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -403,7 +403,33 @@ msgstr ""
 "het <interface>Netwerken</interface> pictogram in uw <interface>Systeemvak</"
 "interface>, die zich bevindt in de rechtsonder hoek van het scherm."
 
-#: src/qml/pages/Network.qml:248
+#: src/qml/pages/Network.qml:80
+#, kde-format
+msgctxt "@info:placeholder Shown when connected to the internet"
+msgid "You're connected"
+msgstr ""
+
+#: src/qml/pages/Network.qml:81
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Networking support for Plasma is not currently installed"
+msgstr ""
+
+#: src/qml/pages/Network.qml:82
+#, kde-format
+msgctxt "@info:usagetip Shown when connected to the internet"
+msgid "All good to go!"
+msgstr ""
+
+#: src/qml/pages/Network.qml:83
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
+"be installed. Please report this omission to %1."
+msgstr ""
+
+#: src/qml/pages/Network.qml:297
 #, kde-format
 msgctxt "@info"
 msgid ""

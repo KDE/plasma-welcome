@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-27 00:39+0000\n"
+"POT-Creation-Date: 2024-03-01 00:39+0000\n"
 "PO-Revision-Date: 2024-02-15 00:43+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -193,7 +193,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Ha ocurrido un error al cargar la página"
 
-#: src/qml/PageError.qml:23
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -409,7 +409,33 @@ msgstr ""
 "icono <interface>Redes</interface> de la <interface>Bandeja del sistema</"
 "interface>, que reside en la esquina inferior derecha de la pantalla."
 
-#: src/qml/pages/Network.qml:248
+#: src/qml/pages/Network.qml:80
+#, kde-format
+msgctxt "@info:placeholder Shown when connected to the internet"
+msgid "You're connected"
+msgstr ""
+
+#: src/qml/pages/Network.qml:81
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Networking support for Plasma is not currently installed"
+msgstr ""
+
+#: src/qml/pages/Network.qml:82
+#, kde-format
+msgctxt "@info:usagetip Shown when connected to the internet"
+msgid "All good to go!"
+msgstr ""
+
+#: src/qml/pages/Network.qml:83
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the name of the user's distro"
+msgid ""
+"To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
+"be installed. Please report this omission to %1."
+msgstr ""
+
+#: src/qml/pages/Network.qml:297
 #, kde-format
 msgctxt "@info"
 msgid ""
