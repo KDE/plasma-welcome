@@ -39,6 +39,7 @@ ecm_target_qml_sources(plasma-welcome
     qml/pages/Welcome.qml
     qml/pages/Network.qml
     qml/pages/network/PlasmaNM.qml
+    qml/pages/network/MockPanel.qml
     qml/pages/SimpleByDefault.qml
     qml/pages/PowerfulWhenNeeded.qml
     qml/pages/powerfulwhenneeded/PlasmaFeatureButton.qml
