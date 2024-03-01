@@ -133,6 +133,16 @@ GenericPage {
     footer: Kirigami.InlineMessage {
         position: Kirigami.InlineMessage.Footer
         visible: Controller.patchVersion === 80
-        text: i18nc("@info", "This page is being shown regardless of network connectivity because you are using a development version.")
+        text: i18nc("@info", "This page is being shown regardless of network connectivity because you are using a development version. To manually preview the different states of the page, you can use the button.")
+
+        actions: [
+            Kirigami.Action {
+                text: i18nc("@action:button", "Change state")
+                onTriggered: {
+                    let stateIndex = root.states.findIndex(state => state.name == root.state)
+                    root.state = root.states[(stateIndex + 1) % root.states.length].name
+                }
+            }
+        ]
     }
 }
