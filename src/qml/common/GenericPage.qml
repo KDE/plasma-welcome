@@ -21,8 +21,10 @@ Kirigami.Page {
     readonly property int margins: Kirigami.Units.gridUnit
 
     title: heading
+    topPadding: 0 // Provided by required header
     leftPadding: margins
     rightPadding: margins
+    bottomPadding: margins
 
     header: Item {
         height: layout.implicitHeight + (page.margins * 2)
@@ -40,6 +42,7 @@ Kirigami.Page {
 
             ColumnLayout {
                 id: topContentLayout
+                visible: children.count > 0
             }
         }
     }
