@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-01 00:39+0000\n"
-"PO-Revision-Date: 2024-02-24 22:18+0300\n"
+"PO-Revision-Date: 2024-03-01 11:51+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.04.70\n"
+"X-Generator: Lokalize 24.02.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -410,19 +410,19 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Bağlısınız"
 
 #: src/qml/pages/Network.qml:81
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Plasma için ağ desteği şu anda kurulu değil"
 
 #: src/qml/pages/Network.qml:82
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Her şey tamam!"
 
 #: src/qml/pages/Network.qml:83
 #, kde-kuit-format
@@ -431,6 +431,8 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Plasma, ağ bağlantılarını yönetmek için <icode>plasma-nm</icode>’nin kurulu "
+"olmasını gerektirir. Bu eksikliği %1 topluluğuna bildirin."
 
 #: src/qml/pages/Network.qml:297
 #, kde-format

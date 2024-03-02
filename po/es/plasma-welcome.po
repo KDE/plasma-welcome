@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-01 00:39+0000\n"
-"PO-Revision-Date: 2024-02-15 00:43+0100\n"
+"PO-Revision-Date: 2024-03-01 21:15+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -413,19 +413,19 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Ya tiene conexión"
 
 #: src/qml/pages/Network.qml:81
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "El uso de redes de Plasma no está instalado"
 
 #: src/qml/pages/Network.qml:82
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "¡Todo listo!"
 
 #: src/qml/pages/Network.qml:83
 #, kde-kuit-format
@@ -434,6 +434,8 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Para gestionar las conexiones de red, Plasma necesita que esté instalado "
+"<icode>plasma-nm</icode>. Notifique esta carencia a %1."
 
 #: src/qml/pages/Network.qml:297
 #, kde-format

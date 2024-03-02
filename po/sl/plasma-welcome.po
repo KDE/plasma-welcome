@@ -17,9 +17,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -413,19 +413,19 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Ste povezani"
 
 #: src/qml/pages/Network.qml:81
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Omrežna podpora za Plasmo trenutno ni nameščena"
 
 #: src/qml/pages/Network.qml:82
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Vse pripravljeno!"
 
 #: src/qml/pages/Network.qml:83
 #, kde-kuit-format
@@ -434,6 +434,8 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Za upravljanje omrežnih povezav Plasma zahteva, da je nameščen <icode>plasma-"
+"nm</icode>. Prosimo, prijavite to opustitev %1."
 
 #: src/qml/pages/Network.qml:297
 #, kde-format
