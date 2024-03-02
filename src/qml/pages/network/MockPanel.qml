@@ -34,14 +34,15 @@ Item {
 
     // Wallpaper background image
     Image {
-        anchors.fill: parent
+        // Anchor the wallpaper to the bottom-right
+        // Above 1280x800, it will grow to fit, otherwise show a cropped region
+        width: Math.max(root.width, 1280)
+        height: Math.max(root.height, 800)
+        anchors.bottom: parent.bottom
+        anchors.right: parent.right
 
         fillMode: Image.PreserveAspectCrop
-        source: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1024x768.png"
-        sourceClipRect: Qt.rect(1024-parent.width, // Bottom-right of image
-                                768-parent.height,
-                                parent.width,
-                                parent.height)
+        source: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1280x800.png"
 
         layer.enabled: true
         layer.effect: GaussianBlur {
@@ -67,9 +68,8 @@ Item {
     Item {
         id: panelContainer
 
-        width: 1024 // This overflows, but we clip and it means no rounding to the left
-                    // 1024 specifically improves appearance with Oxygen style and
-                    // matches the background width
+        width: Math.max(root.width, 1280) - anchors.margins * 2 // This overflows, but we clip both it and the background
+                                                                // 1280 matches the size of the wallpaper
         height: 44 // Default panel height
 
         anchors.margins: Kirigami.Units.largeSpacing // Floating margins
@@ -100,10 +100,6 @@ Item {
             }
 
             spacing: Kirigami.Units.smallSpacing
-
-            Item {
-                Layout.fillWidth: true
-            }
 
             // System Tray
             RowLayout {
@@ -232,14 +228,15 @@ Item {
 
         source: "arrow-down"
 
-        readonly property int startY: endY - Kirigami.Units.gridUnit
-        readonly property int endY: parent.height - panelContainer.height - height - panelContainer.anchors.margins
+        property real yOffset: Kirigami.Units.gridUnit
 
         anchors.right: panelContainer.right
         anchors.rightMargin: - (width / 2)                                                        // Center the arrow on target
-                             + appletContainer.width + appletContainer.anchors.rightMargin        // Align with the left of the appletContainer
-                             - (appletContainer.iconSize / 2 + appletSystemTray.iconMargins * 2)  // Align with the first icon
+                             + appletContainer.width + appletContainer.anchors.rightMargin        // Align with the left of the applet container
+                             - (appletContainer.iconSize / 2 + appletSystemTray.iconMargins)      // Align with the first icon
                              - (appletContainer.iconSize + appletSystemTray.iconMargins * 2 ) * 2 // Align with the network icon
+        anchors.bottom: panelContainer.top
+        anchors.bottomMargin: yOffset
 
         layer.enabled: true
         layer.effect: Glow {
@@ -249,20 +246,20 @@ Item {
             color: "white"
         }
 
-        SequentialAnimation on y {
+        SequentialAnimation on yOffset {
             running: root.animate
             loops: Animation.Infinite
             alwaysRunToEnd: true
 
             NumberAnimation {
-                from: indicatorArrow.startY
-                to: indicatorArrow.endY
+                from: Kirigami.Units.gridUnit
+                to: 0
                 duration: 1000
                 easing.type: Easing.InOutQuad
             }
             NumberAnimation {
-                from: indicatorArrow.endY
-                to: indicatorArrow.startY
+                from: 0
+                to: Kirigami.Units.gridUnit
                 duration: 1000
                 easing.type: Easing.InOutQuad
             }

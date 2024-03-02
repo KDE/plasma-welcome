@@ -101,10 +101,7 @@ GenericPage {
     }
 
     Kirigami.AbstractCard {
-        anchors.centerIn: parent
-
-        width: Kirigami.Units.gridUnit * 20
-        height: Kirigami.Units.gridUnit * 10
+        anchors.fill: parent
 
         // Only show when relevant, otherwise, the PlaceholderMessage is shown
         opacity: root.state == "Disconnected" ? 1 : 0
