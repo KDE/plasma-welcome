@@ -204,8 +204,8 @@ Item {
 
             // Peek at Desktop
             Item {
-                implicitWidth: panelContainer.contentHeight
-                implicitHeight: panelContainer.contentHeight
+                width: 32
+                height: appletContainer.iconSize
 
                 Kirigami.Icon {
                     anchors.centerIn: parent
