@@ -264,5 +264,14 @@ Item {
                 easing.type: Easing.InOutQuad
             }
         }
+
+        opacity: root.animate ? 1 : 0
+
+        Behavior on opacity {
+            NumberAnimation {
+                duration: Kirigami.Units.longDuration
+                easing.type: Easing.InOutQuad
+            }
+        }
     }
 }

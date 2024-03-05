@@ -45,28 +45,12 @@ GenericPage {
 
     states: [
         State {
-            name: "NoPlasmaNM" // Shows placeholder
+            name: "NoPlasmaNM" // Shows error message
             when: nmLoader.status == Loader.Error
-
-            PropertyChanges {
-                target: placeholder
-
-                icon.name: "data-warning-symbolic"
-                text: i18nc("@info:placeholder", "Networking support for Plasma is not currently installed")
-                explanation: xi18nc("@info:usagetip %1 is the name of the user's distro", "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1.", Controller.distroName())
-            }
         },
         State {
-            name: "Connected" // Shows placeholder
+            name: "Connected" // Shows card and connected message
             when: nmLoader.statusConnected
-
-            PropertyChanges {
-                target: placeholder
-
-                icon.name: "data-success-symbolic"
-                text: i18nc("@info:placeholder Shown when connected to the internet", "You're connected")
-                explanation: i18nc("@info:usagetip Shown when connected to the internet", "All good to go!")
-            }
         },
         State {
             name: "Disconnected" // Shows card
@@ -75,23 +59,17 @@ GenericPage {
     ]
 
     Kirigami.PlaceholderMessage {
-        id: placeholder
+        id: errorMessage
 
         anchors.centerIn: parent
-
         width: parent.width - Kirigami.Units.gridUnit * 2
 
-        // Shown when plasma-nm is not available or the user has connected
-        opacity: (root.state == "NoPlasmaNM" || root.state == "Connected") ? 1 : 0
-        visible: opacity > 0
+        // Shown when PlasmaNM is not available
+        visible: root.state == "NoPlasmaNM"
 
-        Behavior on opacity {
-            NumberAnimation {
-                duration: Kirigami.Units.longDuration
-                easing.type: Easing.InOutQuad
-            }
-        }
-
+        icon.name: "data-warning-symbolic"
+        text: i18nc("@info:placeholder", "Networking support for Plasma is not currently installed")
+        explanation: xi18nc("@info:usagetip %1 is the name of the user's distro", "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1.", Controller.distroName())
         helpfulAction: Kirigami.Action {
             enabled: root.state == "NoPlasmaNM"
             icon.name: "tools-report-bug-symbolic"
@@ -103,27 +81,45 @@ GenericPage {
     Kirigami.AbstractCard {
         anchors.fill: parent
 
-        // Only show when relevant, otherwise, the PlaceholderMessage is shown
-        opacity: root.state == "Disconnected" ? 1 : 0
-        visible: opacity > 0
-        layer.enabled: true
-
-        Behavior on opacity {
-            NumberAnimation {
-                duration: Kirigami.Units.longDuration
-                easing.type: Easing.InOutQuad
-            }
-        }
+        // Shown when the user is connected or disconnected
+        visible: (root.state == "Connected" || root.state == "Disconnected") ? 1 : 0
 
         MockPanel {
+            id: mockPanel
+
             anchors.fill: parent
             anchors.margins: Kirigami.Units.smallSpacing
 
             clip: true
 
-            animate: visible && pageStack.currentItem == root
+            animate: visible && root.state !== "Connected" && pageStack.currentItem == root
             iconConnecting: nmLoader.iconConnecting
             icon: nmLoader.icon
+
+            opacity: root.state == "Connected" ? 0.6 : 1
+            layer.enabled: true
+
+            Behavior on opacity {
+                NumberAnimation {
+                    duration: Kirigami.Units.longDuration
+                    easing.type: Easing.InOutQuad
+                }
+            }
+        }
+
+        Kirigami.PlaceholderMessage {
+            id: connectedMessage
+
+            anchors.centerIn: mockPanel
+            width: mockPanel.width - Kirigami.Units.gridUnit * 2
+
+            // Shown when connected
+            visible: root.state == "Connected"
+
+            icon.name: "data-success-symbolic"
+            text: i18nc("@info:placeholder Shown when connected to the internet", "You're connected")
+            explanation: i18nc("@info:usagetip Shown when connected to the internet", "All good to go!")
+            type: Kirigami.PlaceholderMessage.Type.Actionable
         }
     }
 
