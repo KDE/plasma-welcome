@@ -28,7 +28,8 @@ Item {
         // Above 1280x800, it will grow to fit, otherwise show the center
         width: Math.max(root.width, 1280)
         height: Math.max(root.height, 800)
-        anchors.centerIn: parent
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
 
         fillMode: Image.PreserveAspectCrop
         source: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1280x800.png"
@@ -46,7 +47,8 @@ Item {
         width: layout.width + background.margins.left + background.margins.right
         height: layout.height + background.margins.top + background.margins.bottom
 
-        anchors.centerIn: parent
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
 
         // Dialog background
         KSvg.FrameSvgItem {
@@ -54,6 +56,7 @@ Item {
             anchors.fill: parent
 
             imagePath: "dialogs/background"
+            enabledBorders: KSvg.FrameSvg.BottomBorder | KSvg.FrameSvg.LeftBorder | KSvg.FrameSvg.RightBorder
         }
 
         // Contents
