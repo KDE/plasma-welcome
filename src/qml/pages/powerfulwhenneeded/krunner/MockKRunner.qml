@@ -94,8 +94,18 @@ Item {
                     placeholderTextColor: PlasmaCore.Theme.disabledTextColor
 
                     placeholderText: i18nd("libplasma6", "Search…")
-
                     text: root.runnerText
+
+                    cursorVisible: true
+
+                    Timer {
+                        id: cursorVisibleTimer
+
+                        running: true
+                        repeat: true
+                        interval: Qt.styleHints.cursorFlashTime / 2
+                        onTriggered: field.cursorVisible = !field.cursorVisible
+                    }
 
                     background: KSvg.FrameSvgItem {
                         implicitWidth: Kirigami.Units.gridUnit * 8 + margins.left + margins.right
