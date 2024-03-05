@@ -6,6 +6,9 @@
 -->
 <component type="desktop">
   <id>org.kde.plasma-welcome</id>
+  <developer id="org.kde">
+    <name translate="no">KDE</name>
+  </developer>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>Welcome Center</name>
@@ -270,9 +273,9 @@
       <caption xml:lang="zh-TW">歡迎中心的第六頁：如何參與</caption>
     </screenshot>
   </screenshots>
+  <url type="homepage">https://invent.kde.org/plasma/plasma-welcome</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center</url>
-  <!--Uncomment when the latest version of AppStream ships, as this is a very new tag-->
-  <!--<url type="vcs-browser">https://invent.kde.org/plasma/plasma-welcome</url>-->
+  <url type="vcs-browser">https://invent.kde.org/plasma/plasma-welcome</url>
   <url type="donation">https://www.kde.org/community/donations/?app=welcome-center&amp;source=appdata</url>
   <content_rating type="oars-1.0"/>
   <launchable type="desktop-id">org.kde.plasma-welcome.desktop</launchable>
