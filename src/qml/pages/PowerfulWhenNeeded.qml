@@ -96,7 +96,7 @@ GenericPage {
                 title: i18nc("@title:row", "KRunner")
                 subtitle: i18nc("@info Caption for KRunner button", "Search for anything")
                 buttonIcon: "krunner"
-                onClicked: pageStack.layers.push(krunnerView);
+                onClicked: pageStack.layers.push(Qt.createComponent("KRunner.qml"));
             }
             PlasmaFeatureButton {
                 id: overview
@@ -180,26 +180,6 @@ GenericPage {
                     onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_kdeconnect")
                 }
             ]
-        }
-    }
-
-    Component {
-        id: krunnerView
-
-        GenericPage {
-            heading: i18nc("@info:window", "KRunner")
-
-            // Don't change the weird indentation; it's intentional to make this
-            // long string nicer for translators
-            description: xi18nc("@info:usagetip translators: In the example queries, make sure to use the keywords as they are localized in the actual runner plugins. If needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:\
-<nl/>\
-<list><item>\"time Shanghai\"</item>\
-<item>\"27/3\"</item>\
-<item>\"200 EUR in USD\"</item>\
-<item>\"25 miles in km\"</item>\
-<item>…And much more!</item></list>\
-<nl/>\
-To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click on the question mark icon.")
         }
     }
 
