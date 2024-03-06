@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-01 00:39+0000\n"
+"POT-Creation-Date: 2024-03-06 00:39+0000\n"
 "PO-Revision-Date: 2024-03-01 10:32+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -195,7 +195,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "S'ha produït un error en carregar la pàgina"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:88
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -392,13 +392,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Visiteu la pàgina d'inici"
 
-#: src/qml/pages/Network.qml:22
+#: src/qml/pages/Network.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Accés a Internet"
 
-#: src/qml/pages/Network.qml:23
+#: src/qml/pages/Network.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -413,25 +413,13 @@ msgstr ""
 "sistema</interface>, la qual es troba en el cantó inferior dret de la "
 "pantalla."
 
-#: src/qml/pages/Network.qml:80
-#, kde-format
-msgctxt "@info:placeholder Shown when connected to the internet"
-msgid "You're connected"
-msgstr "Hi ha connexió"
-
-#: src/qml/pages/Network.qml:81
+#: src/qml/pages/Network.qml:71
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "La implementació de la xarxa de Plasma no està instal·lada actualment"
 
-#: src/qml/pages/Network.qml:82
-#, kde-format
-msgctxt "@info:usagetip Shown when connected to the internet"
-msgid "All good to go!"
-msgstr "Connexió correcta!"
-
-#: src/qml/pages/Network.qml:83
+#: src/qml/pages/Network.qml:72
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -441,15 +429,38 @@ msgstr ""
 "Per a gestionar les connexions de xarxa, Plasma requerix que s'instal·le "
 "<icode>plasma-nm</icode>. Informeu d'esta omissió a %1."
 
-#: src/qml/pages/Network.qml:297
+#: src/qml/pages/Network.qml:120
 #, kde-format
+msgctxt "@info:placeholder Shown when connected to the internet"
+msgid "You're connected"
+msgstr "Hi ha connexió"
+
+#: src/qml/pages/Network.qml:121
+#, kde-format
+msgctxt "@info:usagetip Shown when connected to the internet"
+msgid "All good to go!"
+msgstr "Connexió correcta!"
+
+#: src/qml/pages/Network.qml:129
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This page is being shown regardless of network connectivity because you "
+#| "are using a development version."
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
-"using a development version."
+"using a development version. To manually preview the different states of the "
+"page, you can use the button."
 msgstr ""
 "Esta pàgina es mostra independentment de la connectivitat de la xarxa perquè "
 "esteu utilitzant una versió de desenvolupament."
+
+#: src/qml/pages/Network.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Change state"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

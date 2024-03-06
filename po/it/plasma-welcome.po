@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-01 00:39+0000\n"
+"POT-Creation-Date: 2024-03-06 00:39+0000\n"
 "PO-Revision-Date: 2024-03-01 17:56+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -191,7 +191,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Errore nel caricamento della pagina"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:88
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -386,13 +386,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Visita la pagina principale"
 
-#: src/qml/pages/Network.qml:22
+#: src/qml/pages/Network.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Accedi a Internet"
 
-#: src/qml/pages/Network.qml:23
+#: src/qml/pages/Network.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -406,25 +406,13 @@ msgstr ""
 "<interface>Reti</interface> nel <interface>vassoio di sistema</interface>, "
 "che si trova nell'angolo in basso a destra dello schermo."
 
-#: src/qml/pages/Network.qml:80
-#, kde-format
-msgctxt "@info:placeholder Shown when connected to the internet"
-msgid "You're connected"
-msgstr "Sei connesso"
-
-#: src/qml/pages/Network.qml:81
+#: src/qml/pages/Network.qml:71
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Il supporto di rete per Plasma non è attualmente installato"
 
-#: src/qml/pages/Network.qml:82
-#, kde-format
-msgctxt "@info:usagetip Shown when connected to the internet"
-msgid "All good to go!"
-msgstr "Tutto regolare!"
-
-#: src/qml/pages/Network.qml:83
+#: src/qml/pages/Network.qml:72
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -434,15 +422,38 @@ msgstr ""
 "Per gestire le connessioni di rete, Plasma richiede che sia installato "
 "<icode>plasma-nm</icode>. Segnala questa omissione a %1."
 
-#: src/qml/pages/Network.qml:297
+#: src/qml/pages/Network.qml:120
 #, kde-format
+msgctxt "@info:placeholder Shown when connected to the internet"
+msgid "You're connected"
+msgstr "Sei connesso"
+
+#: src/qml/pages/Network.qml:121
+#, kde-format
+msgctxt "@info:usagetip Shown when connected to the internet"
+msgid "All good to go!"
+msgstr "Tutto regolare!"
+
+#: src/qml/pages/Network.qml:129
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This page is being shown regardless of network connectivity because you "
+#| "are using a development version."
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
-"using a development version."
+"using a development version. To manually preview the different states of the "
+"page, you can use the button."
 msgstr ""
 "Questa pagina viene visualizzata indipendentemente dalla connettività di "
 "rete perché stai utilizzando una versione di sviluppo."
+
+#: src/qml/pages/Network.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Change state"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

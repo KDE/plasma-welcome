@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-01 00:39+0000\n"
+"POT-Creation-Date: 2024-03-06 00:39+0000\n"
 "PO-Revision-Date: 2024-03-02 09:18+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -192,7 +192,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Помилка під час спроби завантажити сторінку"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:88
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -388,13 +388,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Відвідати домашню сторінку"
 
-#: src/qml/pages/Network.qml:22
+#: src/qml/pages/Network.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Доступ до інтернету"
 
-#: src/qml/pages/Network.qml:23
+#: src/qml/pages/Network.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -409,25 +409,13 @@ msgstr ""
 "<interface>лотку системи</interface>, який показано у нижній правій частині "
 "екрана."
 
-#: src/qml/pages/Network.qml:80
-#, kde-format
-msgctxt "@info:placeholder Shown when connected to the internet"
-msgid "You're connected"
-msgstr "З'єднання встановлено"
-
-#: src/qml/pages/Network.qml:81
+#: src/qml/pages/Network.qml:71
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Підтримку роботи у мережі для Плазми зараз не встановлено"
 
-#: src/qml/pages/Network.qml:82
-#, kde-format
-msgctxt "@info:usagetip Shown when connected to the internet"
-msgid "All good to go!"
-msgstr "Усе готово!"
-
-#: src/qml/pages/Network.qml:83
+#: src/qml/pages/Network.qml:72
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -437,15 +425,38 @@ msgstr ""
 "Для керування з'єднаннями мережі Плазмі потрібен встановлений пакунок "
 "<icode>plasma-nm</icode>. Будь ласка, повідомте про цю проблему %1."
 
-#: src/qml/pages/Network.qml:297
+#: src/qml/pages/Network.qml:120
 #, kde-format
+msgctxt "@info:placeholder Shown when connected to the internet"
+msgid "You're connected"
+msgstr "З'єднання встановлено"
+
+#: src/qml/pages/Network.qml:121
+#, kde-format
+msgctxt "@info:usagetip Shown when connected to the internet"
+msgid "All good to go!"
+msgstr "Усе готово!"
+
+#: src/qml/pages/Network.qml:129
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This page is being shown regardless of network connectivity because you "
+#| "are using a development version."
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
-"using a development version."
+"using a development version. To manually preview the different states of the "
+"page, you can use the button."
 msgstr ""
 "Цю сторінку буде показано, незалежно від з'єднання з мережею, оскільки ви "
 "користуєтеся версією, яка ще перебуває у розробці."
+
+#: src/qml/pages/Network.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Change state"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

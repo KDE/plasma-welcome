@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-01 00:39+0000\n"
+"POT-Creation-Date: 2024-03-06 00:39+0000\n"
 "PO-Revision-Date: 2024-03-01 04:48+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -189,7 +189,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "გვერდის ჩატვირთვის შეცდომა"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:88
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -383,13 +383,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "საწყის გვერდზე გადასვლა"
 
-#: src/qml/pages/Network.qml:22
+#: src/qml/pages/Network.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "ინტერნეტთან წვდომა"
 
-#: src/qml/pages/Network.qml:23
+#: src/qml/pages/Network.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -402,25 +402,13 @@ msgstr ""
 "მართოთ. მასთან წვდომისთვის დააწკაპუნეთ <interface>ქსელის</interface> "
 "ხატულაზე <interface>სისტემის კუთხეში, საათთან</interface>."
 
-#: src/qml/pages/Network.qml:80
-#, kde-format
-msgctxt "@info:placeholder Shown when connected to the internet"
-msgid "You're connected"
-msgstr "დაკავშირებული ბრძანდებით"
-
-#: src/qml/pages/Network.qml:81
+#: src/qml/pages/Network.qml:71
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "ქსელის მხარდაჭერა Plasma-სთვის ამჟამად დაყენებული არაა"
 
-#: src/qml/pages/Network.qml:82
-#, kde-format
-msgctxt "@info:usagetip Shown when connected to the internet"
-msgid "All good to go!"
-msgstr "ყველაფერი კარგადაა!"
-
-#: src/qml/pages/Network.qml:83
+#: src/qml/pages/Network.qml:72
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -430,15 +418,38 @@ msgstr ""
 "ქსელური მიერთებების სამართავად Plasma-ს <icode>plasma-nm</icode> სჭირდება, "
 "დაყენებული იყოს. შეატყობინეთ ეს ლაფსუსი %1-ს."
 
-#: src/qml/pages/Network.qml:297
+#: src/qml/pages/Network.qml:120
 #, kde-format
+msgctxt "@info:placeholder Shown when connected to the internet"
+msgid "You're connected"
+msgstr "დაკავშირებული ბრძანდებით"
+
+#: src/qml/pages/Network.qml:121
+#, kde-format
+msgctxt "@info:usagetip Shown when connected to the internet"
+msgid "All good to go!"
+msgstr "ყველაფერი კარგადაა!"
+
+#: src/qml/pages/Network.qml:129
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This page is being shown regardless of network connectivity because you "
+#| "are using a development version."
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
-"using a development version."
+"using a development version. To manually preview the different states of the "
+"page, you can use the button."
 msgstr ""
 "ეს გვერდი ნაჩვენები იქნება ქსელთან მიერთების სტატუსის მიუხედავად, რადგან "
 "თქვენ სატესტო ვერსიას იყენებთ."
+
+#: src/qml/pages/Network.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Change state"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

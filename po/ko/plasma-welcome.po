@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-01 00:39+0000\n"
+"POT-Creation-Date: 2024-03-06 00:39+0000\n"
 "PO-Revision-Date: 2024-02-17 15:12+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -188,7 +188,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "페이지를 불러오는 중 오류 발생"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:88
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -374,13 +374,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "홈페이지 방문"
 
-#: src/qml/pages/Network.qml:22
+#: src/qml/pages/Network.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "인터넷에 연결"
 
-#: src/qml/pages/Network.qml:23
+#: src/qml/pages/Network.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -394,25 +394,13 @@ msgstr ""
 "트레이</interface>에 있는 <interface>네트워크</interface> 아이콘을 클릭하여 "
 "접근할 수 있습니다."
 
-#: src/qml/pages/Network.qml:80
-#, kde-format
-msgctxt "@info:placeholder Shown when connected to the internet"
-msgid "You're connected"
-msgstr ""
-
-#: src/qml/pages/Network.qml:81
+#: src/qml/pages/Network.qml:71
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr ""
 
-#: src/qml/pages/Network.qml:82
-#, kde-format
-msgctxt "@info:usagetip Shown when connected to the internet"
-msgid "All good to go!"
-msgstr ""
-
-#: src/qml/pages/Network.qml:83
+#: src/qml/pages/Network.qml:72
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -420,14 +408,37 @@ msgid ""
 "be installed. Please report this omission to %1."
 msgstr ""
 
-#: src/qml/pages/Network.qml:297
+#: src/qml/pages/Network.qml:120
 #, kde-format
+msgctxt "@info:placeholder Shown when connected to the internet"
+msgid "You're connected"
+msgstr ""
+
+#: src/qml/pages/Network.qml:121
+#, kde-format
+msgctxt "@info:usagetip Shown when connected to the internet"
+msgid "All good to go!"
+msgstr ""
+
+#: src/qml/pages/Network.qml:129
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This page is being shown regardless of network connectivity because you "
+#| "are using a development version."
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
-"using a development version."
+"using a development version. To manually preview the different states of the "
+"page, you can use the button."
 msgstr ""
 "개발 버전을 사용하므로 네트워크 연결과 관계 없이 이 페이지를 표시합니다."
+
+#: src/qml/pages/Network.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Change state"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
