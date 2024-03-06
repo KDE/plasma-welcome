@@ -8,7 +8,7 @@ project(welcome)
 
 include(FeatureSummary)
 
-set(PROJECT_VERSION "5.27.10")
+set(PROJECT_VERSION "5.27.11")
 set(REQUIRED_QT_VERSION 5.15.2)
 set(KF5_MIN_VERSION 5.98)
 
