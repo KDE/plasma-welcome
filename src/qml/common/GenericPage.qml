@@ -42,7 +42,7 @@ Kirigami.Page {
 
             ColumnLayout {
                 id: topContentLayout
-                visible: children.count > 0
+                visible: children.length > 0
             }
         }
     }
