@@ -9,10 +9,7 @@ import QtQuick
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 
-import org.kde.kcmutils as KCMUtils
-
 import org.kde.plasma.welcome
-
 
 GenericPage {
     heading: i18nc("@info:window", "Powerful When Needed")
@@ -20,14 +17,9 @@ GenericPage {
 
     ColumnLayout {
         id: layout
+        anchors.fill: parent
 
-        anchors {
-            top: parent.top
-            topMargin: grid.verticalLayout ? 0 : Kirigami.Units.largeSpacing
-            left: parent.left
-            right: parent.right
-        }
-        spacing: Kirigami.Units.largeSpacing * 4
+        spacing: Kirigami.Units.largeSpacing
 
         GridLayout {
             id: grid
@@ -63,8 +55,9 @@ GenericPage {
                 title: i18nc("@title:row Short form of the 'Vaults' Plasma feature", "Vaults")
                 subtitle: i18nc("@info Caption for Plasma Vaults button", "Store sensitive files securely")
                 buttonIcon: "plasmavault"
-                onClicked: pageStack.layers.push(vaultsView);
+                onClicked: pageStack.layers.push(app._createPage("Vaults.qml"))
             }
+
             PlasmaFeatureButton {
                 id: activities
                 Layout.fillWidth: true
@@ -73,8 +66,9 @@ GenericPage {
                 title: i18nc("@title:row Name of the 'Activities' Plasma feature", "Activities")
                 subtitle: i18nc("@info Caption for Activities button. Note that 'Separate' is being used as an imperative verb here, not a noun.", "Separate work, school, or home tasks")
                 buttonIcon: "preferences-desktop-activities"
-                onClicked: pageStack.layers.push(activitiesView);
+                onClicked: pageStack.layers.push(app._createPage("Activities.qml"))
             }
+
             PlasmaFeatureButton {
                 id: kdeconnect
                 Layout.fillWidth: true
@@ -83,7 +77,7 @@ GenericPage {
                 title: i18nc("@title:row Name of the 'KDE Connect' feature", "KDE Connect")
                 subtitle: i18nc("@info Caption for KDE Connect button", "Connect your phone and your computer")
                 buttonIcon: "kdeconnect"
-                onClicked: pageStack.layers.push(kdeconnectView);
+                onClicked: pageStack.layers.push(app._createPage("KDEConnect.qml"))
             }
 
             // Second row
@@ -95,8 +89,9 @@ GenericPage {
                 title: i18nc("@title:row", "KRunner")
                 subtitle: i18nc("@info Caption for KRunner button", "Search for anything")
                 buttonIcon: "krunner"
-                onClicked: pageStack.layers.push(krunnerView);
+                onClicked: pageStack.layers.push(app._createPage("KRunner.qml"))
             }
+
             PlasmaFeatureButton {
                 id: overview
                 Layout.fillWidth: true
@@ -105,8 +100,9 @@ GenericPage {
                 title: i18nc("@title:row Name of the 'Overview' KWin effect", "Overview")
                 subtitle: i18nc("@info Caption for Overview button", "Your system command center")
                 buttonIcon: "kwin"
-                onClicked: pageStack.layers.push(overviewView);
+                onClicked: pageStack.layers.push(app._createPage("Overview.qml"))
             }
+
             PlasmaFeatureButton {
                 id: systemsettings
                 Layout.fillWidth: true
@@ -115,119 +111,13 @@ GenericPage {
                 title: i18nc("@title:row", "System Settings")
                 subtitle: i18nc("@info Caption for Get System Settings button", "Configure the system")
                 buttonIcon: "systemsettings"
-                onClicked: pageStack.layers.push(systemsettingsView);
+                onClicked: pageStack.layers.push(app._createPage("SystemSettings.qml"))
             }
         }
 
         Kirigami.UrlButton {
             text: i18nc("@action:button", "Learn about more Plasma features")
             url: "https://userbase.kde.org/Plasma?source=plasma-welcome"
-        }
-    }
-
-    Component {
-        id: vaultsView
-
-        GenericPage {
-            heading: i18nc("@info:window", "Plasma Vaults")
-            description: xi18nc("@info:usagetip", "Plasma Vaults allows you to create encrypted folders, called <interface>Vaults.</interface> Inside each Vault, you can securely store your passwords, files, pictures, and documents, safe from prying eyes. Vaults can live inside folders that are synced to cloud storage services too, providing extra privacy for that content.<nl/><nl/>To get started, click the arrow on the <interface>System Tray</interface> to show hidden items, and then click the <interface>Vaults</interface> icon.")
-        }
-    }
-
-    Component {
-        id: activitiesView
-
-        GenericPage {
-            heading: i18nc("@info:window", "Activities")
-            description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut.")
-
-            actions: [
-                Kirigami.Action {
-                    icon.name: "preferences-desktop-activities"
-                    text: i18nc("@action:button", "Open Settings…")
-                    onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_activities")
-                }
-            ]
-        }
-    }
-
-    Component {
-        id: kdeconnectView
-
-        GenericPage {
-            heading: i18nc("@info:window", "KDE Connect")
-
-            // Don't change the weird indentation; it's intentional to make this
-            // long string nicer for translators
-            description: xi18nc("@info:usagetip", "KDE Connect lets you integrate your phone with your computer in various ways:\
-<nl/>\
-<list><item>See notifications from your phone on your computer</item>\
-<item>Reply to text messages from your phone on your computer</item>\
-<item>Sync your clipboard contents between your computer and your phone</item>\
-<item>Make a noise on your phone when it's been misplaced</item>\
-<item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>\
-<item>…And much more!</item></list>\
-<nl/>To get started, launch <interface>System Settings</interface> and search for \"KDE Connect\". On that page, you can pair your phone.")
-
-            // TODO: KDE Connect might not be installed:
-            // We should show an InlineMessage and hide the action.
-
-            actions: [
-                Kirigami.Action {
-                    icon.name: "kdeconnect"
-                    text: i18nc("@action:button", "Open Settings…")
-                    onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_kdeconnect")
-                }
-            ]
-        }
-    }
-
-    Component {
-        id: krunnerView
-
-        GenericPage {
-            heading: i18nc("@info:window", "KRunner")
-
-            // Don't change the weird indentation; it's intentional to make this
-            // long string nicer for translators
-            description: xi18nc("@info:usagetip translators: In the example queries, make sure to use the keywords as they are localized in the actual runner plugins. If needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:\
-<nl/>\
-<list><item>\"time Shanghai\"</item>\
-<item>\"27/3\"</item>\
-<item>\"200 EUR in USD\"</item>\
-<item>\"25 miles in km\"</item>\
-<item>…And much more!</item></list>\
-<nl/>\
-To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click on the question mark icon.")
-        }
-    }
-
-    Component {
-        id: overviewView
-
-        GenericPage {
-            heading: i18nc("@info:window The name of a KWin effect", "Overview")
-            description: xi18nc("@info:usagetip", "Overview is a full-screen overlay that shows all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows.<nl/><nl/>You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut.")
-        }
-    }
-
-    Component {
-        id: systemsettingsView
-
-        GenericPage {
-            heading: i18nc("@info:window", "System Settings")
-            description: xi18nc("@info:usagetip", "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons—you'll find it all there!")
-
-            ApplicationIcon {
-                anchors.centerIn: parent
-
-                application: ApplicationInfo {
-                    id: application
-                    desktopName: "systemsettings"
-                }
-
-                size: Kirigami.Units.gridUnit * 10
-            }
         }
     }
 }
