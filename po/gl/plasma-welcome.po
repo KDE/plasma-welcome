@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-02 09:01+0100\n"
+"PO-Revision-Date: 2024-03-06 18:23+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -435,11 +435,7 @@ msgid "All good to go!"
 msgstr "Listo!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -447,13 +443,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Esta páxina amósase independentemente da conectividade de rede porque está a "
-"usar unha versión de desenvolvemento."
+"usar unha versión de desenvolvemento. Use o botón para obter manualmente "
+"unha vista previa dos distintos estados da páxina."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Cambiar o estado"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

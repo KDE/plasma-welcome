@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-01 04:48+0100\n"
+"PO-Revision-Date: 2024-03-06 05:51+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -431,11 +431,7 @@ msgid "All good to go!"
 msgstr "ყველაფერი კარგადაა!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -443,13 +439,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "ეს გვერდი ნაჩვენები იქნება ქსელთან მიერთების სტატუსის მიუხედავად, რადგან "
-"თქვენ სატესტო ვერსიას იყენებთ."
+"თქვენ სატესტო ვერსიას იყენებთ. ამ გვერდის სხვადასხვა მდგომარეობების ხელით "
+"სანახავად, ღილაკი შეგიძლიათ, გამოიყენოთ."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "მდგომარეობის შეცვლა"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

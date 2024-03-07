@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-02-17 13:02+0100\n"
+"PO-Revision-Date: 2024-03-06 11:09+0100\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -411,7 +411,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Не е инсталирана програмата на Plasma за свързване с мрежата"
 
 #: src/qml/pages/Network.qml:72
 #, kde-kuit-format
@@ -420,25 +420,23 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"За да управлява мрежовите връзки, Plasma се нуждае от инсталиран "
+"<icode>plasma-nm</icode>.Моля, докладвайте за този пропуск на %1."
 
 #: src/qml/pages/Network.qml:120
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Вие сте свързани"
 
 #: src/qml/pages/Network.qml:121
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Всичко е наред, за да продължите!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -446,13 +444,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Тази страница се показва независимо от мрежовата свързаност, защото "
-"използвате версия за разработчици."
+"използвате версия за разработчици. За преглед на различните състояния на "
+"страницата можете да използвате бутона ."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Промяна на състоянието"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

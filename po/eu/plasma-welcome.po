@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-01 22:12+0100\n"
+"PO-Revision-Date: 2024-03-06 21:59+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -435,25 +435,22 @@ msgid "All good to go!"
 msgstr "Dena prest!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
-"Orri hau erakusten da, sare konektibitatea edozein dela, garapen bertsio bat "
-"erabiltzen ari zarelako."
+"Orri hau, sare konektibitatea edozein dela erakusten da, garapen bertsio bat "
+"erabiltzen ari zarelako. Botoia erabil dezakezu, orri-egoera ezberdinen "
+"aurreikuspegia eskuz ikuzteko."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Aldatu egoera"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

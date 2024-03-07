@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-02 09:18+0200\n"
+"PO-Revision-Date: 2024-03-06 08:19+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -438,11 +438,7 @@ msgid "All good to go!"
 msgstr "Усе готово!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -450,13 +446,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Цю сторінку буде показано, незалежно від з'єднання з мережею, оскільки ви "
-"користуєтеся версією, яка ще перебуває у розробці."
+"користуєтеся версією, яка ще перебуває у розробці. Для попереднього "
+"перегляду вручну різних станів сторінки ви можете скористатися кнопкою."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Змінити стан"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

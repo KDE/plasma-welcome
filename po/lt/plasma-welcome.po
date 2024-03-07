@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-02-20 01:26+0200\n"
+"PO-Revision-Date: 2024-03-06 13:24+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -32,7 +32,7 @@ msgstr "<>"
 #: src/controller.cpp:56
 #, kde-format
 msgid "6.0 Dev"
-msgstr "6.0 Dev"
+msgstr "6.0 plėtojama"
 
 #: src/controller.cpp:59
 #, kde-format
@@ -65,7 +65,7 @@ msgstr "6.0 kandidatinė versija 2"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr "%1 Dev"
+msgstr "%1 plėtojama"
 
 #: src/controller.cpp:93
 #, kde-format
@@ -412,7 +412,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Darbo tinkle palaikymas, skirtas Plasma, šiuo metu nėra įdiegtas"
 
 #: src/qml/pages/Network.qml:72
 #, kde-kuit-format
@@ -421,25 +421,23 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Tam, kad tvarkytų tinklo ryšius, Plasma reikalauja, kad būtų įdiegta "
+"<icode>plasma-nm</icode>. Praneškite apie šį aplaidumą %1."
 
 #: src/qml/pages/Network.qml:120
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Jūs esate prisijungę"
 
 #: src/qml/pages/Network.qml:121
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Viskas paruošta, galime tęsti!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -447,13 +445,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Šis puslapis yra rodomas nepriklausomai nuo tinklo jungiamumo, nes naudojate "
-"plėtojamą versiją."
+"plėtojamą versiją. Norėdami rankiniu būdu peržiūrėti skirtingas puslapio "
+"būsenas, galite naudoti šį mygtuką."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Keisti būseną"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

@@ -438,11 +438,7 @@ msgid "All good to go!"
 msgstr "Vse pripravljeno!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -450,13 +446,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Ta stran je prikazana ne glede na omrežno povezavo, zato ker uporabljate "
-"razvojno različico."
+"razvojno različico. Za ročni predogled različnih stanj strani lahko "
+"uporabite gumb."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Spremeni stanje"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
