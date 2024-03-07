@@ -27,19 +27,19 @@ GenericPage {
             readonly property int columnsforHorizontalLayout: 3
             readonly property int columnsforVerticalLayout: 2
             readonly property int cellWidth: Math.round(layout.width / columns)
-            readonly property int cellHeight: Math.max(vaults.implicitHeight,
-                                                       activities.implicitHeight,
-                                                       kdeconnect.implicitHeight,
-                                                       overview.implicitHeight,
+            readonly property int cellHeight: Math.max(overview.implicitHeight,
                                                        krunner.implicitHeight,
-                                                       gns.implicitHeight)
+                                                       gns.implicitHeight,
+                                                       kdeconnect.implicitHeight,
+                                                       activities.implicitHeight,
+                                                       vaults.implicitHeight)
             readonly property int spaceForTitles: Math.round(layout.width / columnsforHorizontalLayout) - vaults.fixedSizeStuff - (columnSpacing * (columnsforHorizontalLayout - 1))
-            readonly property bool verticalLayout: (vaults.implicitTitleWidth > spaceForTitles)
-                                               || (activities.implicitTitleWidth > spaceForTitles)
-                                               || (kdeconnect.implicitTitleWidth > spaceForTitles)
-                                               || (overview.implicitTitleWidth > spaceForTitles)
-                                               || (krunner.implicitTitleWidth > spaceForTitles)
-                                               || (gns.implicitTitleWidth > spaceForTitles)
+            readonly property bool verticalLayout: (overview.implicitTitleWidth > spaceForTitles)
+                                                || (krunner.implicitTitleWidth > spaceForTitles)
+                                                || (gns.implicitTitleWidth > spaceForTitles)
+                                                || (kdeconnect.implicitTitleWidth > spaceForTitles)
+                                                || (activities.implicitTitleWidth > spaceForTitles)
+                                                || (vaults.implicitTitleWidth > spaceForTitles)
 
             rows: verticalLayout ? 6 : 2
             columns: verticalLayout ? columnsforVerticalLayout : columnsforHorizontalLayout
@@ -48,14 +48,48 @@ GenericPage {
 
             // First row
             PlasmaFeatureButton {
-                id: vaults
+                id: overview
                 Layout.fillWidth: true
                 Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row Short form of the 'Vaults' Plasma feature", "Vaults")
-                subtitle: i18nc("@info Caption for Plasma Vaults button", "Store sensitive files securely")
-                buttonIcon: "plasmavault"
-                onClicked: app.pushLayer(app._createPage("Vaults.qml"))
+                title: i18nc("@title:row Name of the 'Overview' KWin effect", "Overview")
+                subtitle: i18nc("@info Caption for Overview button", "Your system command center")
+                buttonIcon: "kwin"
+                onClicked: app.pushLayer(app._createPage("Overview.qml"))
+            }
+
+            PlasmaFeatureButton {
+                id: krunner
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
+                Layout.preferredHeight: grid.cellHeight
+                title: i18nc("@title:row", "KRunner")
+                subtitle: i18nc("@info Caption for KRunner button", "Search for anything")
+                buttonIcon: "krunner"
+                onClicked: app.pushLayer(app._createPage("KRunner.qml"))
+            }
+
+            PlasmaFeatureButton {
+                id: gns
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
+                Layout.preferredHeight: grid.cellHeight
+                title: i18nc("@title:row", "Get New Stuff")
+                subtitle: i18nc("@info Caption for Get New Stuff button", "Extend the system with add-ons")
+                buttonIcon: "get-hot-new-stuff"
+                onClicked: app.pushLayer(app._createPage("GetNewStuff.qml"))
+            }
+
+            // Second row
+            PlasmaFeatureButton {
+                id: kdeconnect
+                Layout.fillWidth: true
+                Layout.maximumWidth: grid.cellWidth
+                Layout.preferredHeight: grid.cellHeight
+                title: i18nc("@title:row Name of the 'KDE Connect' feature", "KDE Connect")
+                subtitle: i18nc("@info Caption for KDE Connect button", "Connect your phone and your computer")
+                buttonIcon: "kdeconnect"
+                onClicked: app.pushLayer(app._createPage("KDEConnect.qml"))
             }
 
             PlasmaFeatureButton {
@@ -70,48 +104,14 @@ GenericPage {
             }
 
             PlasmaFeatureButton {
-                id: kdeconnect
+                id: vaults
                 Layout.fillWidth: true
                 Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row Name of the 'KDE Connect' feature", "KDE Connect")
-                subtitle: i18nc("@info Caption for KDE Connect button", "Connect your phone and your computer")
-                buttonIcon: "kdeconnect"
-                onClicked: app.pushLayer(app._createPage("KDEConnect.qml"))
-            }
-
-            // Second row
-            PlasmaFeatureButton {
-                id: krunner
-                Layout.fillWidth: true
-                Layout.maximumWidth: grid.cellWidth
-                Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row", "KRunner")
-                subtitle: i18nc("@info Caption for KRunner button", "Search for anything")
-                buttonIcon: "krunner"
-                onClicked: app.pushLayer(app._createPage("KRunner.qml"))
-            }
-
-            PlasmaFeatureButton {
-                id: overview
-                Layout.fillWidth: true
-                Layout.maximumWidth: grid.cellWidth
-                Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row Name of the 'Overview' KWin effect", "Overview")
-                subtitle: i18nc("@info Caption for Overview button", "Your system command center")
-                buttonIcon: "kwin"
-                onClicked: app.pushLayer(app._createPage("Overview.qml"))
-            }
-
-            PlasmaFeatureButton {
-                id: gns
-                Layout.fillWidth: true
-                Layout.maximumWidth: grid.cellWidth
-                Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row", "Get New Stuff")
-                subtitle: i18nc("@info Caption for Get New Stuff button", "Extend the system with add-ons")
-                buttonIcon: "get-hot-new-stuff"
-                onClicked: app.pushLayer(app._createPage("GetNewStuff.qml"))
+                title: i18nc("@title:row Short form of the 'Vaults' Plasma feature", "Vaults")
+                subtitle: i18nc("@info Caption for Plasma Vaults button", "Store sensitive files securely")
+                buttonIcon: "plasmavault"
+                onClicked: app.pushLayer(app._createPage("Vaults.qml"))
             }
         }
 
