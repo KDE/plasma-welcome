@@ -35,17 +35,32 @@ ecm_target_qml_sources(plasma-welcome
     qml/pages/PlasmaUpdate.qml
     qml/pages/plasmaupdate/Update.qml
     qml/pages/plasmaupdate/Beta.qml
+
     qml/pages/Live.qml
+
     qml/pages/Welcome.qml
+
     qml/pages/Network.qml
     qml/pages/network/PlasmaNM.qml
     qml/pages/network/MockPanel.qml
+
     qml/pages/SimpleByDefault.qml
+
     qml/pages/PowerfulWhenNeeded.qml
     qml/pages/powerfulwhenneeded/PlasmaFeatureButton.qml
+    qml/pages/powerfulwhenneeded/Vaults.qml
+    qml/pages/powerfulwhenneeded/Activities.qml
+    qml/pages/powerfulwhenneeded/KDEConnect.qml
+    qml/pages/powerfulwhenneeded/KRunner.qml
+    qml/pages/powerfulwhenneeded/Overview.qml
+    qml/pages/powerfulwhenneeded/GetNewStuff.qml
+
     qml/pages/Discover.qml
+
     qml/pages/Feedback.qml
+
     qml/pages/Contribute.qml
+
     qml/pages/Donate.qml
     qml/pages/donate/Supporters.qml
 
