@@ -27,19 +27,19 @@ GenericPage {
             readonly property int columnsforHorizontalLayout: 3
             readonly property int columnsforVerticalLayout: 2
             readonly property int cellWidth: Math.round(layout.width / columns)
-            readonly property int cellHeight: Math.max(vaults.implicitHeight,
-                                                       activities.implicitHeight,
-                                                       kdeconnect.implicitHeight,
-                                                       overview.implicitHeight,
+            readonly property int cellHeight: Math.max(overview.implicitHeight,
                                                        krunner.implicitHeight,
+                                                       kdeconnect.implicitHeight,
+                                                       activities.implicitHeight,
+                                                       vaults.implicitHeight,
                                                        systemsettings.implicitHeight)
             readonly property int spaceForTitles: Math.round(layout.width / columnsforHorizontalLayout) - vaults.fixedSizeStuff - (columnSpacing * (columnsforHorizontalLayout - 1))
-            readonly property bool verticalLayout: (vaults.implicitTitleWidth > spaceForTitles)
-                                               || (activities.implicitTitleWidth > spaceForTitles)
-                                               || (kdeconnect.implicitTitleWidth > spaceForTitles)
-                                               || (overview.implicitTitleWidth > spaceForTitles)
-                                               || (krunner.implicitTitleWidth > spaceForTitles)
-                                               || (systemsettings.implicitTitleWidth > spaceForTitles)
+            readonly property bool verticalLayout: (overview.implicitTitleWidth > spaceForTitles)
+                                                || (krunner.implicitTitleWidth > spaceForTitles)
+                                                || (kdeconnect.implicitTitleWidth > spaceForTitles)
+                                                || (activities.implicitTitleWidth > spaceForTitles)
+                                                || (vaults.implicitTitleWidth > spaceForTitles)
+                                                || (systemsettings.implicitTitleWidth > spaceForTitles)
 
             rows: verticalLayout ? 6 : 2
             columns: verticalLayout ? columnsforVerticalLayout : columnsforHorizontalLayout
@@ -48,25 +48,25 @@ GenericPage {
 
             // First row
             PlasmaFeatureButton {
-                id: vaults
+                id: overview
                 Layout.fillWidth: true
                 Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row Short form of the 'Vaults' Plasma feature", "Vaults")
-                subtitle: i18nc("@info Caption for Plasma Vaults button", "Store sensitive files securely")
-                buttonIcon: "plasmavault"
-                onClicked: pageStack.layers.push(app._createPage("Vaults.qml"))
+                title: i18nc("@title:row Name of the 'Overview' KWin effect", "Overview")
+                subtitle: i18nc("@info Caption for Overview button", "Your system command center")
+                buttonIcon: "kwin"
+                onClicked: pageStack.layers.push(app._createPage("Overview.qml"))
             }
 
             PlasmaFeatureButton {
-                id: activities
+                id: krunner
                 Layout.fillWidth: true
                 Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row Name of the 'Activities' Plasma feature", "Activities")
-                subtitle: i18nc("@info Caption for Activities button. Note that 'Separate' is being used as an imperative verb here, not a noun.", "Separate work, school, or home tasks")
-                buttonIcon: "preferences-desktop-activities"
-                onClicked: pageStack.layers.push(app._createPage("Activities.qml"))
+                title: i18nc("@title:row", "KRunner")
+                subtitle: i18nc("@info Caption for KRunner button", "Search for anything")
+                buttonIcon: "krunner"
+                onClicked: pageStack.layers.push(app._createPage("KRunner.qml"))
             }
 
             PlasmaFeatureButton {
@@ -82,25 +82,25 @@ GenericPage {
 
             // Second row
             PlasmaFeatureButton {
-                id: krunner
+                id: activities
                 Layout.fillWidth: true
                 Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row", "KRunner")
-                subtitle: i18nc("@info Caption for KRunner button", "Search for anything")
-                buttonIcon: "krunner"
-                onClicked: pageStack.layers.push(app._createPage("KRunner.qml"))
+                title: i18nc("@title:row Name of the 'Activities' Plasma feature", "Activities")
+                subtitle: i18nc("@info Caption for Activities button. Note that 'Separate' is being used as an imperative verb here, not a noun.", "Separate work, school, or home tasks")
+                buttonIcon: "preferences-desktop-activities"
+                onClicked: pageStack.layers.push(app._createPage("Activities.qml"))
             }
 
             PlasmaFeatureButton {
-                id: overview
+                id: vaults
                 Layout.fillWidth: true
                 Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row Name of the 'Overview' KWin effect", "Overview")
-                subtitle: i18nc("@info Caption for Overview button", "Your system command center")
-                buttonIcon: "kwin"
-                onClicked: pageStack.layers.push(app._createPage("Overview.qml"))
+                title: i18nc("@title:row Short form of the 'Vaults' Plasma feature", "Vaults")
+                subtitle: i18nc("@info Caption for Plasma Vaults button", "Store sensitive files securely")
+                buttonIcon: "plasmavault"
+                onClicked: pageStack.layers.push(app._createPage("Vaults.qml"))
             }
 
             PlasmaFeatureButton {
