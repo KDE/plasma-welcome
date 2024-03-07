@@ -49,7 +49,7 @@ GenericPage {
         Kirigami.Action {
             icon.name: "favorite-symbolic"
             text: i18nc("@action:button", "Plasma 6 Supporters")
-            onTriggered: pageStack.layers.push(supporters)
+            onTriggered: app.pushLayer(supporters)
         }
     ]
 
