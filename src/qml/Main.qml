@@ -13,7 +13,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.welcome
 
 Kirigami.ApplicationWindow {
-    id: root
+    id: app
 
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 30
@@ -24,7 +24,7 @@ Kirigami.ApplicationWindow {
     pageStack.defaultColumnWidth: width
 
     footer: Footer {
-        width: root.width
+        width: app.width
         contentSource: {
             switch (Controller.mode) {
                 case Controller.Welcome:
@@ -38,7 +38,7 @@ Kirigami.ApplicationWindow {
         }
     }
 
-    function createPage(page, isDistroPage = false) {
+    function _createPage(page, isDistroPage = false) {
         let component = Qt.createComponent(page);
         if (component.status !== Component.Error) {
             return component.createObject(null);
@@ -62,12 +62,13 @@ Kirigami.ApplicationWindow {
         }
     }
 
-    function pushPage(page) {
-        if (page !== null) {
+    function _pushPage(component) {
+        if (component !== null) {
             if (pageStack.currentIndex === -1) {
-                pageStack.push(page);
+                pageStack.push(component);
             } else {
-                pageStack.insertPage(pageStack.depth, page);
+                // Insert to avoid changing the current page
+                pageStack.insertPage(pageStack.depth, component);
             }
         }
     }
@@ -77,27 +78,27 @@ Kirigami.ApplicationWindow {
         switch (Controller.mode) {
             case Controller.Update:
             case Controller.Beta:
-                pushPage(createPage("PlasmaUpdate.qml"));
+                _pushPage(_createPage("PlasmaUpdate.qml"));
 
                 break;
 
             case Controller.Live:
-                pushPage(createPage("Live.qml"));
+                _pushPage(_createPage("Live.qml"));
                 // Fallthrough
 
             case Controller.Welcome:
-                pushPage(createPage("Welcome.qml"));
+                _pushPage(_createPage("Welcome.qml"));
 
                 if (!Controller.networkAlreadyConnected() || Controller.patchVersion === 80) {
-                    pushPage(createPage("Network.qml"));
+                    _pushPage(_createPage("Network.qml"));
                 }
 
-                pushPage(createPage("SimpleByDefault.qml"));
-                pushPage(createPage("PowerfulWhenNeeded.qml"));
+                _pushPage(_createPage("SimpleByDefault.qml"));
+                _pushPage(_createPage("PowerfulWhenNeeded.qml"));
 
-                let discover = createPage("Discover.qml");
+                let discover = _createPage("Discover.qml");
                 if (discover.application.exists) {
-                    pushPage(discover);
+                    _pushPage(discover);
                 } else {
                     discover.destroy();
                 }
@@ -105,18 +106,18 @@ Kirigami.ApplicationWindow {
                 // KCMs
                 if (Controller.mode !== Controller.Live) {
                     if (Controller.userFeedbackAvailable()) {
-                        pushPage(createPage("Feedback.qml"));
+                        _pushPage(_createPage("Feedback.qml"));
                     }
                 }
 
                 // Append any distro-specific pages that were found
                 let distroPages = Controller.distroPages();
                 for (let i in distroPages) {
-                    pushPage(createPage(distroPages[i], true));
+                    _pushPage(_createPage(distroPages[i], true));
                 }
 
-                pushPage(createPage("Contribute.qml"));
-                pushPage(createPage("Donate.qml"));
+                _pushPage(_createPage("Contribute.qml"));
+                _pushPage(_createPage("Donate.qml"));
 
                 break;
         }
