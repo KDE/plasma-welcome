@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-01 10:51+0100\n"
+"PO-Revision-Date: 2024-03-07 10:26+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -432,11 +432,7 @@ msgid "All good to go!"
 msgstr "Alles is goed om te gaan!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -444,13 +440,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Deze pagina wordt getoond ongeacht netwerkverbindingen omdat u een "
-"ontwikkelversie gebruikt."
+"ontwikkelversie gebruikt. Om handmatig de verschillende statussen van de "
+"pagina te bekijken kunt u de knop gebruiken."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Status wijzigen"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

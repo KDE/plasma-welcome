@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-01 10:32+0100\n"
+"PO-Revision-Date: 2024-03-06 10:17+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -442,11 +442,7 @@ msgid "All good to go!"
 msgstr "Connexió correcta!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -454,13 +450,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Esta pàgina es mostra independentment de la connectivitat de la xarxa perquè "
-"esteu utilitzant una versió de desenvolupament."
+"esteu utilitzant una versió de desenvolupament. Per a previsualitzar "
+"manualment els diferents estats de la pàgina, podeu utilitzar el botó."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Canvia l'estat"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

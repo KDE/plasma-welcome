@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-01 10:46+0100\n"
+"PO-Revision-Date: 2024-03-07 11:01+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -436,11 +436,7 @@ msgid "All good to go!"
 msgstr "Toto es preste!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -448,13 +444,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Iste pagina es essite monstrate sin regardo de connectivitate de rete proque "
-"tu es usante un version de disveloppamento."
+"tu es usante un version de disveloppamento. Per vider preliminarmente le "
+"differente statos delpagina, tu pote usar le button."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Cambia Stato"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
