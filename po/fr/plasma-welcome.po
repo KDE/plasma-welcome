@@ -5,9 +5,9 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-02 08:53+0100\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: fr\n"
+"PO-Revision-Date: 2024-03-07 08:11+0100\n"
+"Last-Translator: xavier <xyz@yahoo.com>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -439,25 +439,22 @@ msgid "All good to go!"
 msgstr "Tout est bon pour y aller !"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
-"Cette page s'affiche indépendamment de la connectivité réseau car vous "
-"utilisez une version de développement."
+"Cette page est affichée indépendamment de la connectivité réseau car vous "
+"utilisez une version de développement. Pour afficher un aperçu des "
+"différents états de la page, vous pouvez utiliser ce bouton."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Modifier l'état"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

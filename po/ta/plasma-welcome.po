@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-02-18 17:17+0530\n"
+"PO-Revision-Date: 2024-03-08 21:49+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.02.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -402,7 +402,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "பிளாஸ்மாக்கான பிணைய ஆதரவு நிறுவப்படவில்லை"
 
 #: src/qml/pages/Network.qml:72
 #, kde-kuit-format
@@ -411,18 +411,20 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"பிணைய இணைப்புகளை பிளாஸ்மா நிர்வகிக்க, <icode>plasma-nm</icode> நிறுவப்பட்டிருக்க "
+"வெண்டும். இந்த சிக்கலை %1-க்கு தெரிவிக்கவும்."
 
 #: src/qml/pages/Network.qml:120
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "இணைந்துள்ளீர்"
 
 #: src/qml/pages/Network.qml:121
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "சரியாக உள்ளது!"
 
 #: src/qml/pages/Network.qml:129
 #, fuzzy, kde-format
@@ -443,7 +445,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "நிலையை மாற்று"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

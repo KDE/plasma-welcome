@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-02-12 21:32+0000\n"
+"PO-Revision-Date: 2024-03-06 14:11+0000\n"
 "Last-Translator: Guðmundur Erlingsson <gudmundure@gmail.com>\n"
 "Language-Team: Icelandic <kde-i18n-doc@kde.org>\n"
 "Language: is\n"
@@ -136,7 +136,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Beðið um óþekkta einingu %1"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -147,7 +147,7 @@ msgstr "Keyra %1 núna"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Ekki tókst að hlaða þessa stillingaeiningu"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -189,33 +189,33 @@ msgstr "Í &lagi"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Villa við að hlaða síðu"
 
 #: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr ""
+msgstr "Senda villutilkynningu…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "sv1@fellsnet.is"
+msgstr "Afrita upplýsingar"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr ""
+"Ekki tókst að hlaða inn þessari síðu sem kemur frá dreifingaraðila þínum"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
+"Ekki tókst að hlaða inn þessari síðu sem kemur frá Kynningarmiðstöðinni"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
@@ -409,7 +409,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Netstuðningur fyrir Plasma er ekki uppsettur "
 
 #: src/qml/pages/Network.qml:72
 #, kde-kuit-format
@@ -418,25 +418,23 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Til að hafa umsjón með nettengingum í Plasma þarf <icode>plasma-nm</icode> "
+"að vera uppsett. Tilkynntu um að þetta vanti til %1."
 
 #: src/qml/pages/Network.qml:120
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Tenging er komin á"
 
 #: src/qml/pages/Network.qml:121
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Allt tilbúið!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -444,13 +442,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Þessi síða birtist burtséð frá því hvort hægt sé að tengjast neti eða ekki "
-"þar sem þú ert að nota þróunarútgáfu."
+"þar sem þú ert að nota þróunarútgáfu. Til að forskoða handvirkt mismunandi "
+"stöðu síðunnar geturðu notað þennan hnapp."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Breyta stöðu"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
