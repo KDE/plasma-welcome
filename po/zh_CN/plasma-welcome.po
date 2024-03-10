@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-02-29 12:52\n"
+"PO-Revision-Date: 2024-03-09 04:45\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -397,7 +397,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Plasma 的网络支持模块目前尚未安装"
 
 #: src/qml/pages/Network.qml:72
 #, kde-kuit-format
@@ -406,37 +406,37 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"要管理网络连接，Plasma 需要安装 <icode>plasma-nm</icode>。请将此软件包安装缺"
+"漏情况报告给 %1。"
 
 #: src/qml/pages/Network.qml:120
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "你已连接到互联网"
 
 #: src/qml/pages/Network.qml:121
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "网络连接一切正常"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
-msgstr "由于您正在使用开发版本，所以不管网络连接情况如何，此页面将始终显示。"
+msgstr ""
+"由于您正在使用开发版本的 Plasma，不管网络连接情况如何，程序都会显示此页面。要"
+"手动切换此页面在不同网络连接状态下的预览，请点击“更改状态”按钮。"
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "更改状态"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-01-15 13:42+0900\n"
+"PO-Revision-Date: 2024-03-04 19:36+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -133,7 +133,7 @@ msgstr "ディストリビューションの Live 環境のためのページを
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "不明なモジュール %1 が要求されました"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -144,7 +144,7 @@ msgstr "%1 を起動する"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "設定モジュールの読み込みに失敗しました"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -186,35 +186,34 @@ msgstr "&OK"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "ページ読み込みエラー"
 
 #: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "バグを報告"
+msgstr "バグを報告…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "ryuichi_ya220@outlook.jp"
+msgstr "詳細をコピー"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr ""
+"お使いのディストリビューションによって提供されたこのページを読み込むことがで"
+"きませんでした"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
+"ようこそセンターによって提供されたこのページを読み込むことができませんでした"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
@@ -405,7 +404,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "現在、Plasma のネットワークサポートはインストールされていません。"
 
 #: src/qml/pages/Network.qml:72
 #, kde-kuit-format
@@ -414,18 +413,20 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Plasma 上でネットワーク接続を管理するには、<icode>plasma-nm</icode> が必要で"
+"す。%1 にこの問題を報告してください。"
 
 #: src/qml/pages/Network.qml:120
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "接続されています"
 
 #: src/qml/pages/Network.qml:121
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "万事よし！"
 
 #: src/qml/pages/Network.qml:129
 #, fuzzy, kde-format
