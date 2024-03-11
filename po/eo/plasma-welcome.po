@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-04 23:34+0100\n"
+"PO-Revision-Date: 2024-03-10 10:31+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -428,11 +428,7 @@ msgid "All good to go!"
 msgstr "Ĉio bona por eki!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -440,13 +436,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Ĉi tiu paĝo estas montrita sendepende de retkonektebleco ĉar vi estas uzanta "
-"evoluan version."
+"evoluan version. Por permane antaŭrigardi la diversajn statojn de la paĝo, "
+"vi povas uzi la butonon."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Ŝanĝi staton"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
