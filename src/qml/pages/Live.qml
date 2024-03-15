@@ -6,7 +6,6 @@
 
 import QtQuick
 import QtQuick.Layouts
-import Qt5Compat.GraphicalEffects
 import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome
@@ -39,10 +38,10 @@ GenericPage {
         height: width
 
         layer.enabled: installerAvailable
-        layer.effect: GaussianBlur {
-            radius: 10
-            samples: 16
-            cached: true
+        layer.effect: MultiEffect {
+            blurEnabled: true
+            blur: 1.0
+            blurMax: 10
         }
         opacity: installerAvailable ? 0.1 : 1
 

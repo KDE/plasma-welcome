@@ -9,7 +9,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
-import Qt5Compat.GraphicalEffects
+import QtQuick.Effects
 
 import org.kde.plasma.welcome
 
@@ -40,13 +40,13 @@ ColumnLayout {
         }
 
         layer.enabled: true
-        layer.effect: DropShadow {
-            transparentBorder: true
-            horizontalOffset: 0
-            verticalOffset: 1
-            radius: 20
-            samples: 20
-            color: Qt.rgba(0, 0, 0, 0.2)
+        layer.effect: MultiEffect {
+            autoPaddingEnabled: true
+            shadowEnabled: true
+            shadowHorizontalOffset: 0
+            shadowVerticalOffset: 1
+            shadowBlur: 1.0
+            shadowColor: Qt.rgba(0, 0, 0, 0.2)
         }
     }
 

@@ -6,6 +6,7 @@
 
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Effects
 import Qt5Compat.GraphicalEffects
 import org.kde.kirigami as Kirigami
 
@@ -45,10 +46,10 @@ Item {
         source: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1280x800.png"
 
         layer.enabled: true
-        layer.effect: GaussianBlur {
-            radius: 32
-            samples: (radius * 2) + 1
-            cached: true
+        layer.effect: MultiEffect {
+            blurEnabled: true
+            blur: 1.0
+            blurMax: 32
         }
     }
 
