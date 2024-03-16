@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2023 Enol P. <enolp@softastur.org>
+# SPDX-FileCopyrightText: 2023, 2024 Enol P. <enolp@softastur.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-06 00:39+0000\n"
-"PO-Revision-Date: 2023-12-23 00:42+0100\n"
+"PO-Revision-Date: 2024-03-15 01:17+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: Assamese <alministradores@softastur.org>\n"
 "Language: ast\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.02.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -189,20 +189,16 @@ msgid "Error loading page"
 msgstr ""
 
 #: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Informar d'un fallu"
+msgstr "Informar d'un fallu…"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "alministradores@softastur.org"
+msgstr "Copiar los detalles"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
@@ -401,19 +397,13 @@ msgid "All good to go!"
 msgstr ""
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
-"Esta páxina amuésase independientemente de la conectividá de la rede porque "
-"tas usando una versión de desendolcu."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
@@ -724,17 +714,17 @@ msgid ""
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
 "you'll find what you need in the <application>%1</application> app."
 msgstr ""
-"Plasma ta diseñáu pa ser cenciellu ya útil dende'l primer momentu. Les coses "
+"Plasma ta diseñáu pa ser cenciellu y útil dende'l primer momentu. Les coses "
 "tán onde esperes ya, polo xeneral, nun hai necesidá de configurar nada "
-"enantes de que puedas sentite cómodu ya ser productivu.<nl/><nl/> Si sientes "
-"la necesidá de facelo, vas atopar lo que precises n'aplicación <application>"
-"%1</application>."
+"enantes de que puedas sentite cómodu y ser productivu.<nl/><nl/> Si sientes "
+"la necesidá de facelo, vas atopar lo que precises n'aplicación «<application>"
+"%1</application>»."
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr ""
+msgstr "Acoyida"
 
 #: src/qml/pages/Welcome.qml:19
 #, kde-kuit-format
@@ -747,7 +737,7 @@ msgid ""
 "love it!"
 msgstr ""
 "%1<nl/><nl/>Esti sistema operativu executa Plasma, un entornu d'escritoriu "
-"gratuitu ya de códigu abiertu creáu por KDE, una  comunidá internacional de "
+"gratuitu y de códigu abiertu creáu por KDE, una  comunidá internacional de "
 "voluntarios. Ta diseñáu pa ser cenciellu por defeutu y tener una esperiencia "
 "fácil, mas potente cuando seya necesario p'ayudate a facer les coses. "
 "¡Esperamos que te preste!"
@@ -763,7 +753,7 @@ msgid ""
 "done. We hope you love it!"
 msgstr ""
 "¡Afáyate nel sistema operativu «%1» qu'executa KDE Plasma!<nl/><nl/>Plasma "
-"ye un entornu d'escritoriu gratuitu ya de códigu abiertu creáu por KDE, una "
+"ye un entornu d'escritoriu gratuitu y de códigu abiertu creáu por KDE, una "
 "comunidá internacional de voluntarios. Ta diseñáu pa ser cenciellu por "
 "defeutu y tener una esperiencia fácil, mas potente cuando seya necesario "
 "p'ayudate a facer les coses. ¡Esperamos que te preste!"
