@@ -7,6 +7,7 @@
 
 #pragma once
 
+#include <QJSValue>
 #include <QObject>
 #include <QVersionNumber>
 #include <qqmlregistration.h>
@@ -21,8 +22,7 @@ public:
     Controller();
 
     Q_INVOKABLE static void launchApp(const QString &program);
-    Q_INVOKABLE static void runCommand(const QString &command);
-    Q_INVOKABLE static void runCommand(const QString &command, const QString &desktopFilename);
+    Q_INVOKABLE void runCommand(const QString &command, QJSValue callback = QJSValue());
     Q_INVOKABLE static void copyToClipboard(const QString &text);
     Q_INVOKABLE bool networkAlreadyConnected();
     Q_INVOKABLE bool userFeedbackAvailable();

@@ -10,6 +10,7 @@
 #include <QDir>
 #include <QFileInfo>
 #include <QNetworkInterface>
+#include <QProcess>
 #include <QStandardPaths>
 #include <QString>
 
@@ -19,7 +20,6 @@
 
 #include <KDesktopFile>
 #include <KIO/ApplicationLauncherJob>
-#include <KIO/CommandLauncherJob>
 #include <KLocalizedString>
 #include <KNotificationJobUiDelegate>
 #include <KOSRelease>
@@ -123,19 +123,58 @@ void Controller::launchApp(const QString &program)
     job->start();
 }
 
-void Controller::runCommand(const QString &command)
+void Controller::runCommand(const QString &command, QJSValue callback)
 {
-    runCommand(command, QString());
-}
+    const bool resultHandled = callback.isCallable();
 
-void Controller::runCommand(const QString &command, const QString &desktopFilename)
-{
-    auto *job = new KIO::CommandLauncherJob(command);
-    if (!desktopFilename.isEmpty()) {
-        job->setDesktopName(desktopFilename);
+    QStringList args = command.split(QLatin1String(" "));
+    const QString program = args.first();
+
+    if (QStandardPaths::findExecutable(program).isEmpty()) {
+        const QString errorMessage = xi18nc("@info:progress", "The command <command>%1</command> could not be found.", program);
+
+        qWarning() << errorMessage;
+        if (resultHandled) {
+            callback.call({-1, errorMessage});
+        }
+        return;
     }
-    job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
-    job->start();
+
+    args.removeFirst();
+
+    QProcess *process = new QProcess(this);
+    process->start(program, args);
+
+    if (!resultHandled) {
+        return;
+    }
+
+    connect(process, &QProcess::finished, [=](int exitCode, QProcess::ExitStatus exitStatus) {
+        const QString stdout = QString(process->readAllStandardOutput().trimmed());
+
+        // Success
+        if (exitCode == 0 && exitStatus == QProcess::NormalExit) {
+            callback.call({exitCode, stdout});
+            return;
+        }
+
+        // Failure
+        QString intermediateText = QString(process->readAllStandardError().trimmed());
+        if (intermediateText.isEmpty()) {
+            intermediateText = stdout;
+            if (intermediateText.isEmpty()) {
+                intermediateText = i18nc("@info:progress", "No error message provided");
+            }
+        }
+        const QString finalOutputText = xi18nc("@info:progress %1 is the command being run, and %2 is the human-readable error text returned by the command",
+                                               "The command <command>%1</command> failed: %2",
+                                               command,
+                                               intermediateText);
+
+        qWarning() << finalOutputText;
+        callback.call({exitCode, finalOutputText});
+        return;
+    });
 }
 
 void Controller::copyToClipboard(const QString &text)

@@ -100,6 +100,9 @@ ApplicationIcon {
 ```
 
 ## Run a terminal command
+`Controller.runCommand()` allows you to run a terminal command. If you need to check the exit status of the command or get text output from it, then use the version that takes callback function, and implement it as needed for handling the success and failure cases.
+
+### Ignore the exit status
 ```
 Kirigami.Icon {
     source: "notification"
@@ -108,6 +111,28 @@ Kirigami.Icon {
     }
     TapHandler {
         onTapped: Controller.runCommand("notify-send foo bar")
+    }
+}
+```
+
+### Handle success and failure
+```
+Kirigami.Icon {
+    source: "input-touchscreen"
+    HoverHandler {
+        cursorShape: Qt.PointingHandCursor
+    }
+    TapHandler {
+        onTapped: Controller.runCommand("touch /location/that/doesnt/exist", callback)
+        property var callback: (returnStatus, outputText) => {
+            if (returnStatus == 0) {
+                showPassiveNotification(i18n("Um, that wasn't supposed to work. Your distro must be very special."));
+            } else if (returnStatus == -1) {
+                showPassiveNotification(i18n("`touch` not found; can't touch anything"));
+            } else {
+                showPassiveNotification(outputText);
+            }
+        }
     }
 }
 ```
