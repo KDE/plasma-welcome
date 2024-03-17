@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-06 00:39+0000\n"
+"POT-Creation-Date: 2024-03-17 00:39+0000\n"
 "PO-Revision-Date: 2023-02-09 11:40\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -79,6 +79,26 @@ msgstr ""
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
+msgstr ""
+
+#: src/controller.cpp:134
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "The command <command>%1</command> could not be found."
+msgstr ""
+
+#: src/controller.cpp:166
+#, kde-format
+msgctxt "@info:progress"
+msgid "No error message provided"
+msgstr ""
+
+#: src/controller.cpp:170
+#, kde-kuit-format
+msgctxt ""
+"@info:progress %1 is the command being run, and %2 is the human-readable "
+"error text returned by the command"
+msgid "The command <command>%1</command> failed: %2"
 msgstr ""
 
 #: src/main.cpp:37
@@ -261,13 +281,13 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Наведаць %1"
 
-#: src/qml/pages/Discover.qml:21
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Кіраванне праграмным забеспячэннем"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:21
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -285,7 +305,7 @@ msgstr ""
 "ўсталёўваць праграмы, гульні і інш. Вы можаце шукаць па назве або праглядаць "
 "па катэгорыях, глядзець здымкі экрана і чытаць агляды."
 
-#: src/qml/pages/Discover.qml:103
+#: src/qml/pages/Discover.qml:102
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -358,7 +378,7 @@ msgstr ""
 "паляпшэння праграмнага забеспячэння KDE. Вы можаце абраць тут і ў наладах "
 "сістэмы, якімі данымі хочаце дзяліцца."
 
-#: src/qml/pages/Live.qml:19
+#: src/qml/pages/Live.qml:18
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Welcome to KDE Plasma!"
@@ -366,7 +386,7 @@ msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "Вітаем у KDE Plasma!"
 
-#: src/qml/pages/Live.qml:22
+#: src/qml/pages/Live.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -375,7 +395,7 @@ msgid ""
 "out about KDE Plasma."
 msgstr ""
 
-#: src/qml/pages/Live.qml:24
+#: src/qml/pages/Live.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -383,7 +403,7 @@ msgid ""
 "find out about KDE Plasma."
 msgstr ""
 
-#: src/qml/pages/Live.qml:30
+#: src/qml/pages/Live.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
@@ -509,13 +529,13 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:19
+#: src/qml/pages/PowerfulWhenNeeded.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Магутная пры неабходнасці"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:20
+#: src/qml/pages/PowerfulWhenNeeded.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -525,25 +545,25 @@ msgstr ""
 "Plasma - гэта надзвычай багатае на функцыі асяроддзе, распрацаванае для "
 "таго, каб павялічыць вашу прадукцыйнасць! Вось толькі невялікая функцый:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:64
+#: src/qml/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Сховішчы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:65
+#: src/qml/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Надзейна захоўвайце канфідэнцыйныя файлы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:74
+#: src/qml/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Пакоі"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:75
+#: src/qml/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -551,43 +571,43 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Размяжуйце працоўныя, школьныя або хатнія задачы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:84
+#: src/qml/pages/PowerfulWhenNeeded.qml:83
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:85
+#: src/qml/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Падлучыце тэлефон да камп'ютара"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:96
+#: src/qml/pages/PowerfulWhenNeeded.qml:95
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:97
+#: src/qml/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Шукайце што заўгодна"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:106
+#: src/qml/pages/PowerfulWhenNeeded.qml:105
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Агляд"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:107
+#: src/qml/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Цэнтр кіравання вашай сістэмы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:116
+#: src/qml/pages/PowerfulWhenNeeded.qml:115
 #, fuzzy, kde-format
 #| msgctxt "@title:row"
 #| msgid "Get Hot New Stuff"
@@ -595,7 +615,7 @@ msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Атрымлівайце новыя элементы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:117
+#: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, fuzzy, kde-format
 #| msgctxt "@info Caption for Get Hot New Stuff button"
 #| msgid "Extend the system with add-ons"
@@ -603,19 +623,19 @@ msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Пашырце магчымасці сістэмы з дапамогай дапаўненняў"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:124
+#: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Падрабязней даведацца пра функцыі Plasma"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:133
+#: src/qml/pages/PowerfulWhenNeeded.qml:132
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Сховішчы Plasma Vault"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:134
+#: src/qml/pages/PowerfulWhenNeeded.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -636,13 +656,13 @@ msgstr ""
 "схаваныя элементы, а затым пстрыкніце па значку <interface>Сховішчы</"
 "interface>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:142
+#: src/qml/pages/PowerfulWhenNeeded.qml:141
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Пакоі"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:143
+#: src/qml/pages/PowerfulWhenNeeded.qml:142
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -665,8 +685,8 @@ msgstr ""
 "пераключацца паміж імі з дапамогай спалучэння клавіш <shortcut>Meta+Tab</"
 "shortcut>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:148
-#: src/qml/pages/PowerfulWhenNeeded.qml:179
+#: src/qml/pages/PowerfulWhenNeeded.qml:147
+#: src/qml/pages/PowerfulWhenNeeded.qml:178
 #, fuzzy, kde-format
 #| msgctxt "@title the name of the 'System Settings' app"
 #| msgid "System Settings"
@@ -674,13 +694,13 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Налады сістэмы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:159
+#: src/qml/pages/PowerfulWhenNeeded.qml:158
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:163
+#: src/qml/pages/PowerfulWhenNeeded.qml:162
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -704,13 +724,13 @@ msgstr ""
 "пачаць, запусціце <interface>Налады сістэмы</interface> і знайдзіце \"KDE "
 "Connect\". На гэтай старонцы вы можаце спалучыць свой тэлефон."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:190
+#: src/qml/pages/PowerfulWhenNeeded.qml:189
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:194
+#: src/qml/pages/PowerfulWhenNeeded.qml:193
 #, fuzzy, kde-kuit-format
 #| msgctxt ""
 #| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
@@ -758,13 +778,13 @@ msgstr ""
 ">Каб даведацца больш падрабязна, адкрыйце панэль пошуку KRunner з дарамогай "
 "<shortcut>Alt+Прагал</shortcut> і пстрыкніце па значку пытальніка."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:210
+#: src/qml/pages/PowerfulWhenNeeded.qml:209
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Агляд"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:211
+#: src/qml/pages/PowerfulWhenNeeded.qml:210
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -783,7 +803,7 @@ msgstr ""
 "вокны.<nl/><nl/>Вы можаце адкрыць агляд з дапамогай спалучэння клавіш "
 "<shortcut>Meta+W</shortcut>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:219
+#: src/qml/pages/PowerfulWhenNeeded.qml:218
 #, fuzzy, kde-format
 #| msgctxt "@info:window"
 #| msgid "Get Hot New Stuff"
@@ -791,7 +811,7 @@ msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Атрымлівайце новыя элементы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:220
+#: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -820,7 +840,7 @@ msgstr ""
 "чынам, не правяралася вашым дыстрыбутывам на функцыянальнасць або "
 "стабільнасць."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:225
+#: src/qml/pages/PowerfulWhenNeeded.qml:224
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "See All Available 3rd-Party Content"
@@ -828,13 +848,13 @@ msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
 msgstr "Паглядзець усё даступнае старонняе змесціва"
 
-#: src/qml/pages/SimpleByDefault.qml:16
+#: src/qml/pages/SimpleByDefault.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Проста ад самага пачатку"
 
-#: src/qml/pages/SimpleByDefault.qml:17
+#: src/qml/pages/SimpleByDefault.qml:16
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""

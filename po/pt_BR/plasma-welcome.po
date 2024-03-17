@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-06 00:39+0000\n"
+"POT-Creation-Date: 2024-03-17 00:39+0000\n"
 "PO-Revision-Date: 2024-02-28 15:07-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -77,6 +77,26 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#: src/controller.cpp:134
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "The command <command>%1</command> could not be found."
+msgstr ""
+
+#: src/controller.cpp:166
+#, kde-format
+msgctxt "@info:progress"
+msgid "No error message provided"
+msgstr ""
+
+#: src/controller.cpp:170
+#, kde-kuit-format
+msgctxt ""
+"@info:progress %1 is the command being run, and %2 is the human-readable "
+"error text returned by the command"
+msgid "The command <command>%1</command> failed: %2"
+msgstr ""
 
 #: src/main.cpp:37
 #, kde-format
@@ -255,13 +275,13 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Visite %1"
 
-#: src/qml/pages/Discover.qml:21
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Gerenciar software"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
@@ -275,7 +295,7 @@ msgstr ""
 "categoria, olhar para capturas de tela e ler análises para te ajudar a "
 "encontrar o aplicativo perfeito."
 
-#: src/qml/pages/Discover.qml:103
+#: src/qml/pages/Discover.qml:102
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -351,13 +371,13 @@ msgstr ""
 "KDE. Você pode escolher o quanto compartilhar nas Configurações do sistema "
 "ou aqui."
 
-#: src/qml/pages/Live.qml:19
+#: src/qml/pages/Live.qml:18
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "Bem-vindo ao %1!"
 
-#: src/qml/pages/Live.qml:22
+#: src/qml/pages/Live.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -369,7 +389,7 @@ msgstr ""
 "você pode fechar a janela para explorar o ambiente ao vivo ou continuar aqui "
 "para saber mais sobre o KDE Plasma."
 
-#: src/qml/pages/Live.qml:24
+#: src/qml/pages/Live.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -379,7 +399,7 @@ msgstr ""
 "Você pode fechar a janela para explorar o ambiente ao vivo ou continuar aqui "
 "para saber mais sobre o KDE Plasma."
 
-#: src/qml/pages/Live.qml:30
+#: src/qml/pages/Live.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
@@ -514,13 +534,13 @@ msgstr ""
 "e.V. suportam a comunidade KDE em geral e você poderá fazer a diferença "
 "doando hoje mesmo."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:19
+#: src/qml/pages/PowerfulWhenNeeded.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Poderoso quando necessário"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:20
+#: src/qml/pages/PowerfulWhenNeeded.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -531,25 +551,25 @@ msgstr ""
 "impulsionar sua produtividade! Aqui está apenas um punhado de coisas que ele "
 "pode fazer por você:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:64
+#: src/qml/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Cofres"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:65
+#: src/qml/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Armazene arquivos sensíveis com segurança"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:74
+#: src/qml/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Atividades"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:75
+#: src/qml/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -557,67 +577,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Separa tarefas do trabalho, escola ou casa"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:84
+#: src/qml/pages/PowerfulWhenNeeded.qml:83
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:85
+#: src/qml/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Conecte seu telefone e seu computador"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:96
+#: src/qml/pages/PowerfulWhenNeeded.qml:95
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:97
+#: src/qml/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Pesquise qualquer coisa"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:106
+#: src/qml/pages/PowerfulWhenNeeded.qml:105
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Visão geral"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:107
+#: src/qml/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Seu centro de comando do sistema"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:116
+#: src/qml/pages/PowerfulWhenNeeded.qml:115
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Baixar novidades"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:117
+#: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Ampliar o sistema com complementos"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:124
+#: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Saiba mais sobre os recursos do Plasma"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:133
+#: src/qml/pages/PowerfulWhenNeeded.qml:132
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Cofres do plasma"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:134
+#: src/qml/pages/PowerfulWhenNeeded.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -638,13 +658,13 @@ msgstr ""
 "seta na <interface>bandeja do sistema</interface> para mostrar os itens "
 "ocultos e, em seguida, clique no ícone <interface>Cofres</interface>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:142
+#: src/qml/pages/PowerfulWhenNeeded.qml:141
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Atividades"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:143
+#: src/qml/pages/PowerfulWhenNeeded.qml:142
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -667,20 +687,20 @@ msgstr ""
 "\"atividades\". Naquela página, você pode criar mais atividades. Você pode "
 "alternar entre elas usando o atalho de teclado <shortcut>Meta+Tab</shortcut>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:148
-#: src/qml/pages/PowerfulWhenNeeded.qml:179
+#: src/qml/pages/PowerfulWhenNeeded.qml:147
+#: src/qml/pages/PowerfulWhenNeeded.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Abrir configurações…"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:159
+#: src/qml/pages/PowerfulWhenNeeded.qml:158
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:163
+#: src/qml/pages/PowerfulWhenNeeded.qml:162
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -705,13 +725,13 @@ msgstr ""
 "do sistema</interface> e pesquise por \"KDE Connect\". Naquela página, você "
 "pode parear seu telefone."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:190
+#: src/qml/pages/PowerfulWhenNeeded.qml:189
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:194
+#: src/qml/pages/PowerfulWhenNeeded.qml:193
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -744,13 +764,13 @@ msgstr ""
 "o atalho de teclado <shortcut>Alt+Space</shortcut> e clique no ícone de "
 "ponto de interrogação."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:210
+#: src/qml/pages/PowerfulWhenNeeded.qml:209
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Visão geral"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:211
+#: src/qml/pages/PowerfulWhenNeeded.qml:210
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -769,13 +789,13 @@ msgstr ""
 "><nl/>Você pode acessar a Visão geral usando o atalho de teclado "
 "<shortcut>Meta+W</shortcut>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:219
+#: src/qml/pages/PowerfulWhenNeeded.qml:218
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Baixar novidades"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:220
+#: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -796,19 +816,19 @@ msgstr ""
 "conteúdo adquirido dessa forma não foi revisado pelo seu distribuidor quanto "
 "à funcionalidade ou estabilidade."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:225
+#: src/qml/pages/PowerfulWhenNeeded.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
 msgstr "Veja o conteúdo de terceiros..."
 
-#: src/qml/pages/SimpleByDefault.qml:16
+#: src/qml/pages/SimpleByDefault.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Simples por padrão"
 
-#: src/qml/pages/SimpleByDefault.qml:17
+#: src/qml/pages/SimpleByDefault.qml:16
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-06 00:39+0000\n"
+"POT-Creation-Date: 2024-03-17 00:39+0000\n"
 "PO-Revision-Date: 2024-03-06 13:24+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -78,6 +78,26 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#: src/controller.cpp:134
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "The command <command>%1</command> could not be found."
+msgstr ""
+
+#: src/controller.cpp:166
+#, kde-format
+msgctxt "@info:progress"
+msgid "No error message provided"
+msgstr ""
+
+#: src/controller.cpp:170
+#, kde-kuit-format
+msgctxt ""
+"@info:progress %1 is the command being run, and %2 is the human-readable "
+"error text returned by the command"
+msgid "The command <command>%1</command> failed: %2"
+msgstr ""
 
 #: src/main.cpp:37
 #, kde-format
@@ -257,13 +277,13 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Apsilankyti %1"
 
-#: src/qml/pages/Discover.qml:21
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Tvarkykite programinę įrangą"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
@@ -277,7 +297,7 @@ msgstr ""
 "kategorijas, žiūrėti ekrano kopijas ir skaityti apžvalgas, padėsiančias jums "
 "surasti tobulai tinkančią programą."
 
-#: src/qml/pages/Discover.qml:103
+#: src/qml/pages/Discover.qml:102
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -353,13 +373,13 @@ msgstr ""
 "programinę įrangą. Sistemos nuostatose, o taip pat ir čia, galite "
 "pasirinkti, kiek duomenų norite bendrinti."
 
-#: src/qml/pages/Live.qml:19
+#: src/qml/pages/Live.qml:18
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "Jus sveikina %1!"
 
-#: src/qml/pages/Live.qml:22
+#: src/qml/pages/Live.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -371,7 +391,7 @@ msgstr ""
 "atveju, galite užverti šį langą ir patyrinėti demonstracinę aplinką arba "
 "tęsti čia savo pažintį su KDE Plasma."
 
-#: src/qml/pages/Live.qml:24
+#: src/qml/pages/Live.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -381,7 +401,7 @@ msgstr ""
 "Galite užverti šį langą ir patyrinėti demonstracinę aplinką arba tęsti čia "
 "savo pažintį su KDE Plasma."
 
-#: src/qml/pages/Live.qml:30
+#: src/qml/pages/Live.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
@@ -516,13 +536,13 @@ msgstr ""
 "„KDE e.V.“, remia platesnę KDE bendruomenę, tad aukodami šiandien, galite "
 "skatinti teigiamus pokyčius."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:19
+#: src/qml/pages/PowerfulWhenNeeded.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Galinga, kai to reikia"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:20
+#: src/qml/pages/PowerfulWhenNeeded.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -532,25 +552,25 @@ msgstr ""
 "Plasma yra nepaprastai daugiafukcė aplinka, sukurta smarkiai padidinti jūsų "
 "produktyvumą! Štai keli iš daugybės dalykų, kaip ji gali jums pasitarnauti:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:64
+#: src/qml/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Slėptuvės"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:65
+#: src/qml/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Saugiai saugokite slaptus failus"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:74
+#: src/qml/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Veiklos"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:75
+#: src/qml/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -558,67 +578,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Atskirkite darbo, mokyklos ir namų užduotis"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:84
+#: src/qml/pages/PowerfulWhenNeeded.qml:83
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:85
+#: src/qml/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Sujunkite savo telefoną ir kompiuterį"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:96
+#: src/qml/pages/PowerfulWhenNeeded.qml:95
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:97
+#: src/qml/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Ieškokite bet ko"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:106
+#: src/qml/pages/PowerfulWhenNeeded.qml:105
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Apžvalga"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:107
+#: src/qml/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Jūsų sistemos komandinis centras"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:116
+#: src/qml/pages/PowerfulWhenNeeded.qml:115
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Gaukite naujų dalykų"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:117
+#: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Išplėskite sistemos galimybes naudodami papildinius"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:124
+#: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Sužinokite daugiau apie Plasma ypatybes"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:133
+#: src/qml/pages/PowerfulWhenNeeded.qml:132
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma slėptuvės"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:134
+#: src/qml/pages/PowerfulWhenNeeded.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -639,13 +659,13 @@ msgstr ""
 "<interface>Sistemos dėkle</interface>, kad būtų atverti paslėpti elementai, "
 "o tuomet spustelėkite <interface>Slėptuvių</interface> piktogramą."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:142
+#: src/qml/pages/PowerfulWhenNeeded.qml:141
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Veiklos"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:143
+#: src/qml/pages/PowerfulWhenNeeded.qml:142
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -668,20 +688,20 @@ msgstr ""
 "galite sukurti daugiau veiklų. Po to, galite perjunginėti jas naudodami "
 "<shortcut>Meta+Tab</shortcut> sparčiuosius klavišus."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:148
-#: src/qml/pages/PowerfulWhenNeeded.qml:179
+#: src/qml/pages/PowerfulWhenNeeded.qml:147
+#: src/qml/pages/PowerfulWhenNeeded.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Atverti nuostatas…"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:159
+#: src/qml/pages/PowerfulWhenNeeded.qml:158
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:163
+#: src/qml/pages/PowerfulWhenNeeded.qml:162
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -706,13 +726,13 @@ msgstr ""
 "paieškos laukelyje įrašykite „KDE Connect“. Atsivėrusiame puslapyje galėsite "
 "suporuoti telefoną su kompiuteriu."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:190
+#: src/qml/pages/PowerfulWhenNeeded.qml:189
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:194
+#: src/qml/pages/PowerfulWhenNeeded.qml:193
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -744,13 +764,13 @@ msgstr ""
 "daugiau, atverkite KRunner paieškos juostą naudodami <shortcut>Alt+Tarpas</"
 "shortcut> spartųjį klavišą ir spustelėkite and klaustuko piktogramos."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:210
+#: src/qml/pages/PowerfulWhenNeeded.qml:209
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Apžvalga"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:211
+#: src/qml/pages/PowerfulWhenNeeded.qml:210
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -768,13 +788,13 @@ msgstr ""
 "lauką, kuris taip pat gali filtruoti atvertus langus.<nl/><nl/>Apžvalgą "
 "galite pasiekti naudodami <shortcut>Meta+W</shortcut> spartųjį klavišą."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:219
+#: src/qml/pages/PowerfulWhenNeeded.qml:218
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Gaukite naujų dalykų"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:220
+#: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -795,19 +815,19 @@ msgstr ""
 "<nl/><nl/>Turėkite omenyje, kad turinio platintojas neperžiūri tokio turinio "
 "atitikimo funkcionalumo ar stabilumo reikalavimams."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:225
+#: src/qml/pages/PowerfulWhenNeeded.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
 msgstr "Rodyti trečiųjų šalių turinį…"
 
-#: src/qml/pages/SimpleByDefault.qml:16
+#: src/qml/pages/SimpleByDefault.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Paprasta pagal numatymą"
 
-#: src/qml/pages/SimpleByDefault.qml:17
+#: src/qml/pages/SimpleByDefault.qml:16
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "

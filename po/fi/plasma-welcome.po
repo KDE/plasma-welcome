@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-06 00:39+0000\n"
+"POT-Creation-Date: 2024-03-17 00:39+0000\n"
 "PO-Revision-Date: 2024-02-25 03:20+0200\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -77,6 +77,26 @@ msgstr "%1 beeta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 beeta %2"
+
+#: src/controller.cpp:134
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "The command <command>%1</command> could not be found."
+msgstr ""
+
+#: src/controller.cpp:166
+#, kde-format
+msgctxt "@info:progress"
+msgid "No error message provided"
+msgstr ""
+
+#: src/controller.cpp:170
+#, kde-kuit-format
+msgctxt ""
+"@info:progress %1 is the command being run, and %2 is the human-readable "
+"error text returned by the command"
+msgid "The command <command>%1</command> failed: %2"
+msgstr ""
 
 #: src/main.cpp:37
 #, kde-format
@@ -255,13 +275,13 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Käy sivulla %1"
 
-#: src/qml/pages/Discover.qml:21
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "Ohjelmien hallinta"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
@@ -274,7 +294,7 @@ msgstr ""
 "pelejä ja apuohjelmia. Täydellistä sovellusta voi etsiä selaamalla luokkia, "
 "katsomalla ruutukaappauskuvia ja lukemalla arvosteluja."
 
-#: src/qml/pages/Discover.qml:103
+#: src/qml/pages/Discover.qml:102
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -346,13 +366,13 @@ msgstr ""
 "Kehittäjämme käyttävät tätä nimetöntä tietoa KDE-ohjelmien parantamiseksi. "
 "Järjestelmäasetuksista ja tästä voi valita, paljonko tietoa jakaa."
 
-#: src/qml/pages/Live.qml:19
+#: src/qml/pages/Live.qml:18
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "%1 – tervetuloa!"
 
-#: src/qml/pages/Live.qml:22
+#: src/qml/pages/Live.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -364,7 +384,7 @@ msgstr ""
 "Vaihtoehtoisesti ikkunan voi sulkea ja tutustua live-ympäristöön tai jatkaa "
 "täällä ja oppia lisää KDE Plasmasta."
 
-#: src/qml/pages/Live.qml:24
+#: src/qml/pages/Live.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -374,7 +394,7 @@ msgstr ""
 "Ikkunan voi nyt sulkea ja tutustua live-ympäristöön tai jatkaa täällä ja "
 "oppia lisää KDE Plasmasta."
 
-#: src/qml/pages/Live.qml:30
+#: src/qml/pages/Live.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
@@ -509,13 +529,13 @@ msgstr ""
 "V:lle tukevat koko KDE-yhteisöä. Voit aikaansaada muutoksen lahjoittamalla "
 "tänään."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:19
+#: src/qml/pages/PowerfulWhenNeeded.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Tehokas kun tarpeen"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:20
+#: src/qml/pages/PowerfulWhenNeeded.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -525,25 +545,25 @@ msgstr ""
 "Plasma on hyvin monipuolinen ympäristö, joka on suunniteltu tehostamaan "
 "tuottavuuttasi! Tässä on vain makupala siitä, mitä se voi puolestasi tehdä:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:64
+#: src/qml/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Holvit"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:65
+#: src/qml/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Tallenna arkaluontoiset tiedostot salatusti"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:74
+#: src/qml/pages/PowerfulWhenNeeded.qml:73
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Aktiviteetit"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:75
+#: src/qml/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -551,67 +571,67 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Erota työ-, koulu- tai kotitehtävät"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:84
+#: src/qml/pages/PowerfulWhenNeeded.qml:83
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:85
+#: src/qml/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Yhdistä puhelimesi ja tietokoneesi"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:96
+#: src/qml/pages/PowerfulWhenNeeded.qml:95
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:97
+#: src/qml/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Etsi mitä vain"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:106
+#: src/qml/pages/PowerfulWhenNeeded.qml:105
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Yleiskuva"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:107
+#: src/qml/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Järjestelmän komentokeskus"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:116
+#: src/qml/pages/PowerfulWhenNeeded.qml:115
 #, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
 msgstr "Hae uutuuksia"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:117
+#: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
 msgstr "Laajenna järjestelmää lisäosilla"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:124
+#: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Hanki lisätietoa Plasman ominaisuuksista"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:133
+#: src/qml/pages/PowerfulWhenNeeded.qml:132
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma-holvit"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:134
+#: src/qml/pages/PowerfulWhenNeeded.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -631,13 +651,13 @@ msgstr ""
 "nuolesta piilotetut kohteen näkyviin ja valitsemalla <interface>Holvit</"
 "interface>-kuvakkeen."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:142
+#: src/qml/pages/PowerfulWhenNeeded.qml:141
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktiviteetit"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:143
+#: src/qml/pages/PowerfulWhenNeeded.qml:142
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -660,20 +680,20 @@ msgstr ""
 "joiden välillä voi sitten vaihtaa <shortcut>Meta+Sarkain</shortcut>-"
 "pikanäppäimellä."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:148
-#: src/qml/pages/PowerfulWhenNeeded.qml:179
+#: src/qml/pages/PowerfulWhenNeeded.qml:147
+#: src/qml/pages/PowerfulWhenNeeded.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Avaa asetukset…"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:159
+#: src/qml/pages/PowerfulWhenNeeded.qml:158
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:163
+#: src/qml/pages/PowerfulWhenNeeded.qml:162
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -697,14 +717,14 @@ msgstr ""
 "interface> ja etsi ”KDE Connectia”. Kyseisellä sivulla voi yhdistää "
 "puhelimen tietokoneen pariksi."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:190
+#: src/qml/pages/PowerfulWhenNeeded.qml:189
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
 # *** TARKISTA: ”in”-kyselyjen kotoistettu asu on mikä???
-#: src/qml/pages/PowerfulWhenNeeded.qml:194
+#: src/qml/pages/PowerfulWhenNeeded.qml:193
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -736,13 +756,13 @@ msgstr ""
 "avaamalla KRunner <shortcut>Alt+Välilyönti</shortcut>-pikanäppäimellä ja "
 "napsauttamalla kysymysmerkkikuvaketta."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:210
+#: src/qml/pages/PowerfulWhenNeeded.qml:209
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Yleiskuva"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:211
+#: src/qml/pages/PowerfulWhenNeeded.qml:210
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -759,13 +779,13 @@ msgstr ""
 "myös KRunner-pohjaisen hakurivin, jolla suodattaa avoimia ikkunoita.<nl/><nl/"
 ">Yleiskuvaan pääsee <shortcut>Meta+W</shortcut>-pikanäppäimellä."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:219
+#: src/qml/pages/PowerfulWhenNeeded.qml:218
 #, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
 msgstr "Hae uutuuksia"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:220
+#: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -784,19 +804,19 @@ msgstr ""
 "sitä erikseen KDE-kehittäjiltä.<nl/><nl/>Huomaa, että näin hankitun sisällön "
 "toiminnallisuutta tai vakautta ei jakelusi ole tarkistanut."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:225
+#: src/qml/pages/PowerfulWhenNeeded.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
 msgstr "Näytä kolmannen osapuolen sisältö…"
 
-#: src/qml/pages/SimpleByDefault.qml:16
+#: src/qml/pages/SimpleByDefault.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Oletuksena yksinkertainen"
 
-#: src/qml/pages/SimpleByDefault.qml:17
+#: src/qml/pages/SimpleByDefault.qml:16
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
