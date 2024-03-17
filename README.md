@@ -127,13 +127,20 @@ Kirigami.Icon {
         property var callback: (returnStatus, outputText) => {
             if (returnStatus == 0) {
                 showPassiveNotification(i18n("Um, that wasn't supposed to work. Your distro must be very special."));
+                status.text = i18nc("@info:status", Last command invocation succeeded);
             } else if (returnStatus == -1) {
                 showPassiveNotification(i18n("`touch` not found; can't touch anything"));
+                status.text = i18nc("@info:status", Last command invocation failed because the command was not found);
             } else {
                 showPassiveNotification(outputText);
+                status.text = i18nc("@info:status", Last command invocation failed);
             }
         }
     }
+}
+
+QQC2.Label {
+    id: status
 }
 ```
 
