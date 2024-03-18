@@ -7,7 +7,6 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Effects
-import Qt5Compat.GraphicalEffects
 import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome
@@ -221,13 +220,14 @@ Item {
     }
 
     // Arrow container
-    Kirigami.Icon {
-        id: indicatorArrow
+    Item {
+        id: indicatorArrowContainer
 
-        width : Kirigami.Units.iconSizes.large
-        height: Kirigami.Units.iconSizes.large
+        implicitWidth: indicatorArrow.implicitWidth + glowPadding * 2
+        implicitHeight: indicatorArrow.implicitHeight + glowPadding * 2
 
-        source: "arrow-down"
+        // Prevents clipping of the glow effect
+        property real glowPadding: 16
 
         property real yOffset: Kirigami.Units.gridUnit
 
@@ -237,15 +237,7 @@ Item {
                              - (appletContainer.iconSize / 2 + appletSystemTray.iconMargins)      // Align with the first icon
                              - (appletContainer.iconSize + appletSystemTray.iconMargins * 2 ) * 2 // Align with the network icon
         anchors.bottom: panelContainer.top
-        anchors.bottomMargin: yOffset
-
-        layer.enabled: true
-        layer.effect: Glow {
-            radius: 6
-            samples: (radius * 2) + 1
-            spread: 0.5
-            color: "white"
-        }
+        anchors.bottomMargin: yOffset - glowPadding
 
         SequentialAnimation on yOffset {
             running: root.animate
@@ -266,6 +258,7 @@ Item {
             }
         }
 
+        layer.enabled: true
         opacity: root.animate ? 1 : 0
 
         Behavior on opacity {
@@ -273,6 +266,35 @@ Item {
                 duration: Kirigami.Units.longDuration
                 easing.type: Easing.InOutQuad
             }
+        }
+
+        // Icon glow
+        MultiEffect {
+            id: indicatorArrowGlow
+            anchors.fill: indicatorArrow
+
+            autoPaddingEnabled: false
+            paddingRect: Qt.rect(indicatorArrowContainer.glowPadding,
+                                 indicatorArrowContainer.glowPadding,
+                                 indicatorArrowContainer.glowPadding,
+                                 indicatorArrowContainer.glowPadding)
+
+            source: indicatorArrow
+            blurEnabled: true
+            blur: 0.25
+            colorization: 1.0
+            colorizationColor: "white"
+            brightness: 2.0
+        }
+
+        Kirigami.Icon {
+            id: indicatorArrow
+            anchors.centerIn: indicatorArrowContainer
+
+            implicitWidth: Kirigami.Units.iconSizes.large
+            implicitHeight: Kirigami.Units.iconSizes.large
+
+            source: "arrow-down"
         }
     }
 }
