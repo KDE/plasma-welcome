@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-17 00:39+0000\n"
-"PO-Revision-Date: 2024-03-08 21:49+0530\n"
+"PO-Revision-Date: 2024-03-17 18:03+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -81,13 +81,13 @@ msgstr "%1 பீட்டா %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "<command>%1</command> எனும் கட்டளையைக் கண்டுபிடிக்க முடியவில்லை."
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "சிக்கல் குறித்த எந்த செய்தியும் வழங்கப்படவில்லை"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -95,7 +95,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "<command>%1</command> கட்டளை தோல்வியடைந்த‍து: %2"
 
 #: src/main.cpp:37
 #, kde-format
@@ -447,11 +447,7 @@ msgid "All good to go!"
 msgstr "சரியாக உள்ளது!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -459,7 +455,7 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "நீங்கள் நிரலாக்கப் பதிப்பைப் பயன்படுத்துவதால் இப்பக்கம் எப்போதும் காட்டப்படும் (பிணைய நிலையைப் "
-"பொருட்படுத்தாமல்)."
+"பொருட்படுத்தாமல்). இப்பக்கத்தின் வெவ்வேறு நிலைகளின் முன்னோட்டங்கான, பட்டனைப் பயன்படுத்தலாம்"
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
