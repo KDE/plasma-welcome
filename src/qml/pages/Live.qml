@@ -6,6 +6,7 @@
 
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Effects
 import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome
