@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-17 00:39+0000\n"
-"PO-Revision-Date: 2024-02-28 15:07-0300\n"
+"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"PO-Revision-Date: 2024-03-19 00:53-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -82,13 +82,13 @@ msgstr "%1 Beta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "O comando <command>%1</command> não foi encontrado."
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Nenhuma mensagem de erro foi fornecida"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -96,7 +96,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "O comando <command>%1</command> falhou: %2"
 
 #: src/main.cpp:37
 #, kde-format
@@ -371,13 +371,13 @@ msgstr ""
 "KDE. Você pode escolher o quanto compartilhar nas Configurações do sistema "
 "ou aqui."
 
-#: src/qml/pages/Live.qml:18
+#: src/qml/pages/Live.qml:19
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "Bem-vindo ao %1!"
 
-#: src/qml/pages/Live.qml:21
+#: src/qml/pages/Live.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -389,7 +389,7 @@ msgstr ""
 "você pode fechar a janela para explorar o ambiente ao vivo ou continuar aqui "
 "para saber mais sobre o KDE Plasma."
 
-#: src/qml/pages/Live.qml:23
+#: src/qml/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -399,7 +399,7 @@ msgstr ""
 "Você pode fechar a janela para explorar o ambiente ao vivo ou continuar aqui "
 "para saber mais sobre o KDE Plasma."
 
-#: src/qml/pages/Live.qml:29
+#: src/qml/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
@@ -429,7 +429,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "O suporte de rede para Plasma não está instalado atualmente"
 
 #: src/qml/pages/Network.qml:72
 #, kde-kuit-format
@@ -438,25 +438,23 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Para gerenciar conexões de rede, o Plasma requer que o <icode>plasma-nm</"
+"icode> esteja instalado. Reporte esta omissão para %1."
 
 #: src/qml/pages/Network.qml:120
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Você está conectado"
 
 #: src/qml/pages/Network.qml:121
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Tudo certo pra prosseguir!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -464,13 +462,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Esta página está sendo mostrada independentemente da conectividade de rede "
-"porque você está usando uma versão de desenvolvimento."
+"porque você está usando uma versão de desenvolvimento. Para visualizar de "
+"forma manual os diferentes estados da página, você pode usar o botão."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Mudar estado"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

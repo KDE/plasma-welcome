@@ -4,9 +4,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-17 00:39+0000\n"
-"PO-Revision-Date: 2024-03-07 08:11+0100\n"
-"Last-Translator: xavier <xyz@yahoo.com>\n"
+"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"PO-Revision-Date: 2024-03-18 10:01+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -79,13 +79,13 @@ msgstr "%1 Bêta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "Il est impossible de trouver la commande <command>%1</command>"
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Aucun message d'erreur n'a été fourni."
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -93,7 +93,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "La commande <command>%1</command>a échoué : %2"
 
 #: src/main.cpp:37
 #, kde-format
@@ -374,13 +374,13 @@ msgstr ""
 "le logiciel KDE. Vous pouvez sélectionner quoi partager dans la "
 "configuration du système et ici aussi."
 
-#: src/qml/pages/Live.qml:18
+#: src/qml/pages/Live.qml:19
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "Bienvenue dans %1 !"
 
-#: src/qml/pages/Live.qml:21
+#: src/qml/pages/Live.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -392,7 +392,7 @@ msgstr ""
 "alternative, vous pouvez fermer la fenêtre pour explorer l'environnement en "
 "temps réel ou continuer ici pour trouver quelque chose concernant KDE Plasma."
 
-#: src/qml/pages/Live.qml:23
+#: src/qml/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -402,7 +402,7 @@ msgstr ""
 "Vous pouvez fermer la fenêtre pour explorer l'environnement en temps réel ou "
 "continuer ici à chercher quelque chose concernant KDE Plasma."
 
-#: src/qml/pages/Live.qml:29
+#: src/qml/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
