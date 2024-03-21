@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-20 00:39+0000\n"
-"PO-Revision-Date: 2024-03-08 03:06+0900\n"
+"PO-Revision-Date: 2024-03-20 18:05+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -81,13 +81,13 @@ msgstr "%1 Beta 版 %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "找不到命令 <command>%1</command>。"
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "沒有提供錯誤訊息"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -95,7 +95,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "命令 <command>%1</command> 失敗：%2"
 
 #: src/main.cpp:37
 #, kde-format
