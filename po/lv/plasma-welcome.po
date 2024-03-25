@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-20 00:39+0000\n"
-"PO-Revision-Date: 2024-03-04 15:59+0200\n"
+"PO-Revision-Date: 2024-03-24 12:01+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -82,13 +82,13 @@ msgstr "%1 Beta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "Komanda <command>%1</command> nav atrasta."
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Nav norādīts kļūdas ziņojums"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -96,7 +96,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "Komanda <command>%1</command> neizdevās: %2"
 
 #: src/main.cpp:37
 #, kde-format
@@ -452,11 +452,7 @@ msgid "All good to go!"
 msgstr "Viss ir gatavs!"
 
 #: src/qml/pages/Network.qml:129
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -464,13 +460,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Šī lapa ir redzama arī bez interneta savienojuma, jo lietojat versiju "
-"izstrādātājiem."
+"izstrādātājiem. Lai manuāli pārskatītu dažādus lapas stāvokļus, izmantojiet "
+"pogu."
 
 #: src/qml/pages/Network.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Mainīt stāvokli"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format

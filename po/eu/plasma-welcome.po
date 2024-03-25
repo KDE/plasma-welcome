@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-20 00:39+0000\n"
-"PO-Revision-Date: 2024-03-06 21:59+0100\n"
+"PO-Revision-Date: 2024-03-24 11:33+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 24.02.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -84,13 +84,13 @@ msgstr "%1 Beta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "Ezin izan du <command>%1</command> komandoa aurkitu."
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Ez da errore mezurik eman"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -98,7 +98,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "<command>%1</command> komandoak huts egin du: %2"
 
 #: src/main.cpp:37
 #, kde-format

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-20 00:39+0000\n"
-"PO-Revision-Date: 2024-03-17 20:42\n"
+"PO-Revision-Date: 2024-03-24 18:59\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -81,13 +81,13 @@ msgstr "%1 Beta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "命令 <command>%1</command> 无法找到。"
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "程序没有提供错误消息"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -95,7 +95,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "命令 <command>%1</command> 执行失败：%2"
 
 #: src/main.cpp:37
 #, kde-format
