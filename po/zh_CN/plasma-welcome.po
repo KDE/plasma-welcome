@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-29 02:28+0000\n"
-"PO-Revision-Date: 2024-01-06 03:31\n"
+"PO-Revision-Date: 2024-03-30 19:38\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/plasma-welcome/plasma-welcome.pot\n"
-"X-Crowdin-File-ID: 42471\n"
+"X-Crowdin-File: /kf6-stable/messages/plasma-welcome/plasma-welcome.pot\n"
+"X-Crowdin-File-ID: 51546\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -291,18 +291,12 @@ msgid "Help work on the next release"
 msgstr "加入下一版软件的开发工作"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:18
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE contributors have spent the last four months hard at work on this "
-#| "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE contributors have spent the last year hard at work on this release. We "
 "hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"为了完成这一版本的 Plasma，KDE 的贡献者们已经努力工作了四个月。虽然劳累，但我"
-"们也很享受这一过程。希望新版的 Plasma 能为您带来愉悦的使用体验！"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
