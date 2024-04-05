@@ -17,6 +17,7 @@ ScrollablePage {
     description: xi18nc("@info:usagetip", "We thank the following supporting members for joining us in the Plasma 6 fundraising campaign:")
 
     property int sort: 0
+    property string filter: ""
 
     actions: [
         Kirigami.Action {
@@ -31,6 +32,13 @@ ScrollablePage {
                 ]
                 currentIndex: root.sort
                 onActivated: root.sort = currentIndex
+            }
+        },
+        Kirigami.Action {
+            displayComponent: Kirigami.SearchField {
+                placeholderText: i18nc("@label placeholder", "Filter…")
+                focusSequence: "Ctrl+F"
+                onAccepted: root.filter = text
             }
         }
     ]
@@ -101,9 +109,17 @@ ScrollablePage {
                     horizontalAlignment: Text.AlignHCenter
                     wrapMode: Text.Wrap
                     text: modelData
+
+                    visible: root.normalize(text).includes(root.normalize(root.filter))
                 }
             }
         }
+    }
+
+    function normalize(string) {
+        // Decompose code points for comparison, removing accents and converting to lowercase
+        // e.g. "Amélie" -> "amelie"
+        return string.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     }
 
     function sortRandom(array) {
