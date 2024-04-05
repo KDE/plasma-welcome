@@ -62,7 +62,7 @@ def js_arr(data):
 if len(sys.argv) > 1:
     input_file = sys.argv[1]
 else:
-    input_file = input("Path of donators CSV: ")
+    input_file = input("Path of rawList CSV: ")
 
 # Process data
 raw_data = import_csv(input_file)
@@ -82,10 +82,10 @@ print("Supporters:", supporters, "({0!s} non-anonymous, {1!s} anonymous)".format
 with open("Supporters.qml", "r+") as file:
     lines = file.readlines()
 
-    donators_line = "    readonly property var donators: "
+    supporters_line = "    readonly property var supporters: "
     for i, line in enumerate(lines):
-        if donators_line in line:
-            lines[i] = donators_line + js_arr(data) + "\n"
+        if supporters_line in line:
+            lines[i] = supporters_line + js_arr(data) + "\n"
             break
 
     file.seek(0)
