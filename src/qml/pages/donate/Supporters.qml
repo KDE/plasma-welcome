@@ -16,6 +16,37 @@ ScrollablePage {
     heading: i18nc("@title:window", "Plasma 6 Supporters")
     description: xi18nc("@info:usagetip", "We thank the following supporting members for joining us in the Plasma 6 fundraising campaign:")
 
+    property int sort: 0
+
+    actions: [
+        Kirigami.Action {
+            text: i18nc("@label:listbox", "Sort by:")
+
+            displayComponent: QQC2.ComboBox {
+                flat: true
+                model: [
+                    i18nc("@item:inlistbox Sort by:", "Random"),
+                    i18nc("@item:inlistbox Sort by:", "Name"),
+                    i18nc("@item:inlistbox Sort by:", "Time")
+                ]
+                currentIndex: root.sort
+                onActivated: root.sort = currentIndex
+            }
+        }
+    ]
+
+    readonly property var sortedDonators: {
+        switch (sort) {
+            case 0:
+            default:
+                return sortRandom(donators);
+            case 1:
+                return sortName(donators);
+            case 2:
+                return donators; // Already sorted by time
+        }
+    }
+
     Kirigami.Icon {
         anchors.centerIn: parent
         // Account for scrollbar width
@@ -62,7 +93,7 @@ ScrollablePage {
             rowSpacing: flickable.margins
 
             Repeater {
-                model: root.shuffle(root.donators)
+                model: root.sortedDonators
                 delegate: QQC2.Label {
                     Layout.fillWidth: true
                     Layout.alignment: Qt.AlignTop
@@ -75,16 +106,49 @@ ScrollablePage {
         }
     }
 
-    function shuffle(array) {
+    function sortRandom(array) {
+        let sorted = array.slice()
+
         // Fischer-Yates
-        for (let i = array.length - 1; i > 0; --i) {
+        for (let i = sorted.length - 1; i > 0; --i) {
             let j = Math.floor(Math.random() * (i + 1));
-            let temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
+            let temp = sorted[i];
+            sorted[i] = sorted[j];
+            sorted[j] = temp;
         }
 
-        return array;
+        return sorted;
+    }
+
+    function sortName(array) {
+        let sorted = array.slice();
+
+        // Sort by last name, then first name, then middle name
+        sorted.sort(function(a, b) {
+            let splitA = a.split(" ");
+            let splitB = b.split(" ");
+
+            let lastA = splitA.length > 1 ? splitA[splitA.length - 1] : ""
+            let lastB = splitB.length > 1 ? splitB[splitB.length - 1] : ""
+
+            if (lastA != lastB) {
+                return lastA.localeCompare(lastB);
+            }
+
+            let firstA = splitA[0];
+            let firstB = splitB[0];
+
+            if (firstA != firstB) {
+                return firstA.localeCompare(firstB);
+            }
+
+            let middleA = splitA.length > 2 ? splitA.slice(1, -1).join(" ") : ""
+            let middleB = splitB.length > 2 ? splitB.slice(1, -1).join(" ") : ""
+
+            return middleA.localeCompare(middleB);
+        })
+
+        return sorted;
     }
 
     /*
