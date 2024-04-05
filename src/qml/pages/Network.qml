@@ -92,9 +92,10 @@ GenericPage {
 
             clip: true
 
-            animate: visible && root.state !== "Connected" && pageStack.currentItem == root
-            iconConnecting: nmLoader.iconConnecting
-            icon: nmLoader.icon
+            onlyShowTrayArea: true
+            networkArrowAnimates: visible && root.state !== "Connected" && pageStack.currentItem == root
+            networkIconConnecting: nmLoader.iconConnecting
+            networkIcon: nmLoader.icon
 
             opacity: root.state == "Connected" ? 0.6 : 1
             layer.enabled: true
