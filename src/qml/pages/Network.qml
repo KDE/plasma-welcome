@@ -6,7 +6,10 @@
 
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Effects
+
 import org.kde.kirigami as Kirigami
+import org.kde.plasma.components as PC3
 
 import org.kde.plasma.welcome
 
@@ -84,17 +87,10 @@ GenericPage {
         // Shown when the user is connected or disconnected
         visible: (root.state == "Connected" || root.state == "Disconnected") ? 1 : 0
 
-        MockPanel {
-            id: mockPanel
-
+        MockDesktop {
+            id: mockDesktop
             anchors.fill: parent
             anchors.margins: Kirigami.Units.smallSpacing
-
-            clip: true
-
-            animate: visible && root.state !== "Connected" && pageStack.currentItem == root
-            iconConnecting: nmLoader.iconConnecting
-            icon: nmLoader.icon
 
             opacity: root.state == "Connected" ? 0.6 : 1
             layer.enabled: true
@@ -105,13 +101,132 @@ GenericPage {
                     easing.type: Easing.InOutQuad
                 }
             }
+
+            backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
+
+            MockPanel {
+                anchors.bottom: parent.bottom
+                anchors.right: parent.right
+                width: Math.max(mockDesktop.desktopWidth, mockDesktop.width)
+
+                Item {
+                    Layout.fillWidth: true
+                }
+
+                MockSystemTrayApplet {
+                    id: mockSystemTray
+
+                    MockSystemTrayIcon {
+                        source: "klipper-symbolic"
+                    }
+
+                    MockSystemTrayIcon {
+                        source: "audio-volume-high"
+                    }
+
+                    MockSystemTrayIcon {
+                        id: mockNmTrayIcon
+
+                        source: nmLoader.icon
+
+                        PC3.BusyIndicator {
+                            anchors.centerIn: parent
+
+                            // Yes, it's not square
+                            width: 30
+                            height: 28
+
+                            running: nmLoader.iconConnecting
+                        }
+
+                        Item {
+                            id: indicatorArrowContainer
+
+                            readonly property bool animate: visible && root.state !== "Connected" && pageStack.currentItem == root
+
+                            implicitWidth: indicatorArrow.implicitWidth + glowPadding * 2
+                            implicitHeight: indicatorArrow.implicitHeight + glowPadding * 2
+
+                            // Prevents clipping of the glow effect
+                            property real glowPadding: 16
+
+                            property real yOffset: Kirigami.Units.gridUnit
+
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            anchors.bottom: parent.top
+                            anchors.bottomMargin: yOffset - glowPadding
+                                                  + ((mockSystemTray.height - mockNmTrayIcon.height) / 2)
+
+                            SequentialAnimation on yOffset {
+                                running: indicatorArrowContainer.animate
+                                loops: Animation.Infinite
+                                alwaysRunToEnd: true
+
+                                NumberAnimation {
+                                    from: Kirigami.Units.gridUnit
+                                    to: 0
+                                    duration: 1000
+                                    easing.type: Easing.InOutQuad
+                                }
+                                NumberAnimation {
+                                    from: 0
+                                    to: Kirigami.Units.gridUnit
+                                    duration: 1000
+                                    easing.type: Easing.InOutQuad
+                                }
+                            }
+
+                            layer.enabled: true
+                            opacity: animate ? 1 : 0
+
+                            Behavior on opacity {
+                                NumberAnimation {
+                                    duration: Kirigami.Units.longDuration
+                                    easing.type: Easing.InOutQuad
+                                }
+                            }
+
+                            MultiEffect {
+                                anchors.fill: indicatorArrow
+
+                                autoPaddingEnabled: false
+                                paddingRect: Qt.rect(indicatorArrowContainer.glowPadding,
+                                                    indicatorArrowContainer.glowPadding,
+                                                    indicatorArrowContainer.glowPadding,
+                                                    indicatorArrowContainer.glowPadding)
+
+                                source: indicatorArrow
+                                blurEnabled: true
+                                blur: 0.25
+                                colorization: 1.0
+                                colorizationColor: "white"
+                                brightness: 2.0
+                            }
+
+                            Kirigami.Icon {
+                                id: indicatorArrow
+                                anchors.centerIn: indicatorArrowContainer
+
+                                implicitWidth: Kirigami.Units.iconSizes.large
+                                implicitHeight: Kirigami.Units.iconSizes.large
+
+                                source: "arrow-down"
+                            }
+                        }
+                    }
+                }
+
+                MockDigitalClockApplet {}
+
+                MockShowDesktopApplet {}
+            }
         }
 
         Kirigami.PlaceholderMessage {
             id: connectedMessage
 
-            anchors.centerIn: mockPanel
-            width: mockPanel.width - Kirigami.Units.gridUnit * 2
+            anchors.centerIn: mockDesktop
+            width: mockDesktop.width - Kirigami.Units.gridUnit * 2
 
             // Shown when connected
             visible: root.state == "Connected"

@@ -32,6 +32,15 @@ ecm_target_qml_sources(plasma-welcome
     qml/footers/FooterDefault.qml
     qml/footers/FooterUpdate.qml
 
+    qml/mock/MockDesktop.qml
+    qml/mock/MockPanel.qml
+    qml/mock/panel/MockAppletBase.qml
+    qml/mock/panel/MockKickoffApplet.qml
+    qml/mock/panel/MockSystemTrayApplet.qml
+    qml/mock/panel/MockSystemTrayIcon.qml
+    qml/mock/panel/MockDigitalClockApplet.qml
+    qml/mock/panel/MockShowDesktopApplet.qml
+
     qml/pages/PlasmaUpdate.qml
     qml/pages/plasmaupdate/Update.qml
     qml/pages/plasmaupdate/Beta.qml
@@ -39,7 +48,6 @@ ecm_target_qml_sources(plasma-welcome
     qml/pages/Welcome.qml
     qml/pages/Network.qml
     qml/pages/network/PlasmaNM.qml
-    qml/pages/network/MockPanel.qml
     qml/pages/SimpleByDefault.qml
     qml/pages/PowerfulWhenNeeded.qml
     qml/pages/powerfulwhenneeded/PlasmaFeatureButton.qml
