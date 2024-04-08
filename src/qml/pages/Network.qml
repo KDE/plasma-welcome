@@ -105,9 +105,23 @@ GenericPage {
             backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
 
             MockPanel {
+                id: mockPanel
                 anchors.bottom: parent.bottom
                 anchors.right: parent.right
+
                 width: Math.max(mockDesktop.desktopWidth, mockDesktop.width)
+
+                MockKickoffApplet {
+                    opacity: (mockPanel.x >= 0) ? 1 : 0
+                    visible: opacity > 0
+
+                    Behavior on opacity {
+                        NumberAnimation {
+                            duration: Kirigami.Units.longDuration
+                            easing.type: Easing.InOutQuad
+                        }
+                    }
+                }
 
                 Item {
                     Layout.fillWidth: true
@@ -207,8 +221,8 @@ GenericPage {
                                 id: indicatorArrow
                                 anchors.centerIn: indicatorArrowContainer
 
-                                implicitWidth: Kirigami.Units.iconSizes.large
-                                implicitHeight: Kirigami.Units.iconSizes.large
+                                implicitWidth: Kirigami.Units.iconSizes.large * 1.5
+                                implicitHeight: Kirigami.Units.iconSizes.large * 1.5
 
                                 source: "arrow-down"
                             }
