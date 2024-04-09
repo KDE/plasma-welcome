@@ -40,14 +40,14 @@ GenericPage {
                                                        kdeconnect.implicitHeight,
                                                        overview.implicitHeight,
                                                        krunner.implicitHeight,
-                                                       gns.implicitHeight)
+                                                       systemsettings.implicitHeight)
             readonly property int spaceForTitles: Math.round(layout.width / columnsforHorizontalLayout) - vaults.fixedSizeStuff - (columnSpacing * (columnsforHorizontalLayout - 1))
             readonly property bool verticalLayout: (vaults.implicitTitleWidth > spaceForTitles)
                                                || (activities.implicitTitleWidth > spaceForTitles)
                                                || (kdeconnect.implicitTitleWidth > spaceForTitles)
                                                || (overview.implicitTitleWidth > spaceForTitles)
                                                || (krunner.implicitTitleWidth > spaceForTitles)
-                                               || (gns.implicitTitleWidth > spaceForTitles)
+                                               || (systemsettings.implicitTitleWidth > spaceForTitles)
 
             rows: verticalLayout ? 6 : 2
             columns: verticalLayout ? columnsforVerticalLayout : columnsforHorizontalLayout
@@ -108,14 +108,14 @@ GenericPage {
                 onClicked: pageStack.layers.push(overviewView);
             }
             PlasmaFeatureButton {
-                id: gns
+                id: systemsettings
                 Layout.fillWidth: true
                 Layout.maximumWidth: grid.cellWidth
                 Layout.preferredHeight: grid.cellHeight
-                title: i18nc("@title:row", "Get New Stuff")
-                subtitle: i18nc("@info Caption for Get New Stuff button", "Extend the system with add-ons")
-                buttonIcon: "get-hot-new-stuff"
-                onClicked: pageStack.layers.push(gnsView);
+                title: i18nc("@title:row", "System Settings")
+                subtitle: i18nc("@info Caption for Get System Settings button", "Configure the system")
+                buttonIcon: "systemsettings"
+                onClicked: pageStack.layers.push(systemsettingsView);
             }
         }
 
@@ -212,19 +212,22 @@ To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortc
     }
 
     Component {
-        id: gnsView
+        id: systemsettingsView
 
         GenericPage {
-            heading: i18nc("@info:window", "Get New Stuff")
-            description: xi18nc("@info:usagetip", "Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked \"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-party content to extend the system, made by other people like you! In this way, it is often possible to add functionality you want without having to ask KDE developers to implement it themselves.<nl/><nl/>Note that content acquired this way has not been reviewed by your distributor for functionality or stability.")
+            heading: i18nc("@info:window", "System Settings")
+            description: xi18nc("@info:usagetip", "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons—you'll find it all there!")
 
-            actions: [
-                Kirigami.Action {
-                    icon.name: "get-hot-new-stuff"
-                    text: i18nc("@action:button", "See 3rd-Party Content…")
-                    onTriggered: Controller.launchApp("org.kde.knewstuff-dialog6")
+            ApplicationIcon {
+                anchors.centerIn: parent
+
+                application: ApplicationInfo {
+                    id: application
+                    desktopName: "systemsettings"
                 }
-            ]
+
+                size: Kirigami.Units.gridUnit * 10
+            }
         }
     }
 }
