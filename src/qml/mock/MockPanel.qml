@@ -25,6 +25,9 @@ Item {
 
     height: panelHeight + (floating ? (floatingMargins * 2) : 0)
 
+    implicitWidth: appletContainer.implicitWidth + (floating ? (floatingMargins * 2) : 0)
+                   + appletContainer.anchors.leftMargin + appletContainer.anchors.rightMargin
+
     // Panel shadow
     KSvg.FrameSvgItem {
         visible: root.floating

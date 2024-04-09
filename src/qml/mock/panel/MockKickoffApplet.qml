@@ -20,8 +20,8 @@ MockAppletBase {
         id: icon
         anchors.centerIn: parent
 
-        implicitWidth: Kirigami.Units.iconSizes.medium
-        implicitHeight: Kirigami.Units.iconSizes.medium
+        implicitWidth: 36  // Hardcoded from original
+        implicitHeight: 36 // Hardcoded from original
 
         source: "start-here-kde-symbolic"
         color: PlasmaCore.Theme.textColor

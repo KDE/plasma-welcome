@@ -36,6 +36,7 @@ ecm_target_qml_sources(plasma-welcome
     qml/mock/MockPanel.qml
     qml/mock/panel/MockAppletBase.qml
     qml/mock/panel/MockKickoffApplet.qml
+    qml/mock/panel/MockTaskManager.qml
     qml/mock/panel/MockSystemTrayApplet.qml
     qml/mock/panel/MockSystemTrayIcon.qml
     qml/mock/panel/MockDigitalClockApplet.qml
