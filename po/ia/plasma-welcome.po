@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:39+0000\n"
 "PO-Revision-Date: 2024-03-18 12:04+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -211,7 +211,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Error a cargar le pagina"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -406,13 +406,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Visita Pagina Domo o Initio"
 
-#: src/qml/pages/Network.qml:16
+#: src/qml/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Accede a Internet"
 
-#: src/qml/pages/Network.qml:17
+#: src/qml/pages/Network.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -426,14 +426,14 @@ msgstr ""
 "<interface>Retes (Networks)</interface>  in tu <interface>Tabuliero de "
 "Systema </interface>, que habita in le angule a dextera a basso del schermo."
 
-#: src/qml/pages/Network.qml:71
+#: src/qml/pages/Network.qml:74
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr ""
 "Supporto per actuar in rete per Plasma non es currentemente installate "
 
-#: src/qml/pages/Network.qml:72
+#: src/qml/pages/Network.qml:75
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -443,19 +443,19 @@ msgstr ""
 "Per gerer connexiones de rete, Plasma require que <icode>plasma-nm</icode> "
 "es installate. Pro favor tu reporta iste omission a %1."
 
-#: src/qml/pages/Network.qml:120
+#: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
 msgstr "Tu es connectite"
 
-#: src/qml/pages/Network.qml:121
+#: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Toto es preste!"
 
-#: src/qml/pages/Network.qml:129
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -467,7 +467,7 @@ msgstr ""
 "tu es usante un version de disveloppamento. Per vider preliminarmente le "
 "differente statos delpagina, tu pote usar le button."
 
-#: src/qml/pages/Network.qml:134
+#: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

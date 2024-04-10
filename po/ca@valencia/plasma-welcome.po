@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:39+0000\n"
 "PO-Revision-Date: 2024-03-17 09:00+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -215,7 +215,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "S'ha produït un error en carregar la pàgina"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -412,13 +412,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Visiteu la pàgina d'inici"
 
-#: src/qml/pages/Network.qml:16
+#: src/qml/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Accés a Internet"
 
-#: src/qml/pages/Network.qml:17
+#: src/qml/pages/Network.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -433,13 +433,13 @@ msgstr ""
 "sistema</interface>, la qual es troba en el cantó inferior dret de la "
 "pantalla."
 
-#: src/qml/pages/Network.qml:71
+#: src/qml/pages/Network.qml:74
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "La implementació de la xarxa de Plasma no està instal·lada actualment"
 
-#: src/qml/pages/Network.qml:72
+#: src/qml/pages/Network.qml:75
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -449,19 +449,19 @@ msgstr ""
 "Per a gestionar les connexions de xarxa, Plasma requerix que s'instal·le "
 "<icode>plasma-nm</icode>. Informeu d'esta omissió a %1."
 
-#: src/qml/pages/Network.qml:120
+#: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
 msgstr "Hi ha connexió"
 
-#: src/qml/pages/Network.qml:121
+#: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Connexió correcta!"
 
-#: src/qml/pages/Network.qml:129
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -473,7 +473,7 @@ msgstr ""
 "esteu utilitzant una versió de desenvolupament. Per a previsualitzar "
 "manualment els diferents estats de la pàgina, podeu utilitzar el botó."
 
-#: src/qml/pages/Network.qml:134
+#: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

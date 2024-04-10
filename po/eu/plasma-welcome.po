@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:39+0000\n"
 "PO-Revision-Date: 2024-03-24 11:33+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -211,7 +211,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Errorea orria zamatzean"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -406,13 +406,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Bisitatu atariko orria"
 
-#: src/qml/pages/Network.qml:16
+#: src/qml/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Internetera sartu"
 
-#: src/qml/pages/Network.qml:17
+#: src/qml/pages/Network.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -426,13 +426,13 @@ msgstr ""
 "klik pantailaren beheko eskuineko ertzean dagoen <interface>Sistemaren "
 "erretiluko</interface> <interface>Sareak</interface> ikonoan."
 
-#: src/qml/pages/Network.qml:71
+#: src/qml/pages/Network.qml:74
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Plasmarako sarerako euskarria ez dago instalatuta"
 
-#: src/qml/pages/Network.qml:72
+#: src/qml/pages/Network.qml:75
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -442,19 +442,19 @@ msgstr ""
 "Sareko konexioak kudeatzeko, Plasmak <icode>plasma-nm</icode> instalatuta "
 "egotea behar du. Mesedez eman ez-egite honen berri %1(e)n."
 
-#: src/qml/pages/Network.qml:120
+#: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
 msgstr "Konektatuta zaude"
 
-#: src/qml/pages/Network.qml:121
+#: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Dena prest!"
 
-#: src/qml/pages/Network.qml:129
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -466,7 +466,7 @@ msgstr ""
 "erabiltzen ari zarelako. Botoia erabil dezakezu, orri-egoera ezberdinen "
 "aurreikuspegia eskuz ikuzteko."
 
-#: src/qml/pages/Network.qml:134
+#: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:39+0000\n"
 "PO-Revision-Date: 2024-03-24 12:01+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -209,7 +209,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Kļūda, ielādējot lapu"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -402,13 +402,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Apmeklēt mājaslapu"
 
-#: src/qml/pages/Network.qml:16
+#: src/qml/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Piekļūstiet internetam"
 
-#: src/qml/pages/Network.qml:17
+#: src/qml/pages/Network.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -422,13 +422,13 @@ msgstr ""
 "<interface>Tīklu</interface> ikonas <interface>sistēmas ikonu joslā</"
 "interface>, kas parasti ir redzama ekrāna apakšējā labajā stūrī."
 
-#: src/qml/pages/Network.qml:71
+#: src/qml/pages/Network.qml:74
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Nav instalēts „Plasma“ tīkla atbalsts"
 
-#: src/qml/pages/Network.qml:72
+#: src/qml/pages/Network.qml:75
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -439,19 +439,19 @@ msgstr ""
 "<icode>plasma-nm</icode>. Par šīs pakotnes iztrūkumu informējiet „%1“ "
 "veidotājus."
 
-#: src/qml/pages/Network.qml:120
+#: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
 msgstr "Ierīce ir savienojusies"
 
-#: src/qml/pages/Network.qml:121
+#: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Viss ir gatavs!"
 
-#: src/qml/pages/Network.qml:129
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -463,7 +463,7 @@ msgstr ""
 "izstrādātājiem. Lai manuāli pārskatītu dažādus lapas stāvokļus, izmantojiet "
 "pogu."
 
-#: src/qml/pages/Network.qml:134
+#: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

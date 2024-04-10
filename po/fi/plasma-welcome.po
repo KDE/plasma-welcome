@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:39+0000\n"
 "PO-Revision-Date: 2024-02-25 03:20+0200\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -209,7 +209,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Sivun lataaminen epäonnistui"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -400,13 +400,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Käy kotisivulla"
 
-#: src/qml/pages/Network.qml:16
+#: src/qml/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Internetiin pääseminen"
 
-#: src/qml/pages/Network.qml:17
+#: src/qml/pages/Network.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -420,13 +420,13 @@ msgstr ""
 "<interface>Verkot</interface>-kuvaketta <interface>ilmoitusalueella</"
 "interface>, joka löytyy näytön alaoikeasta kulmasta."
 
-#: src/qml/pages/Network.qml:71
+#: src/qml/pages/Network.qml:74
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr ""
 
-#: src/qml/pages/Network.qml:72
+#: src/qml/pages/Network.qml:75
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -434,19 +434,19 @@ msgid ""
 "be installed. Please report this omission to %1."
 msgstr ""
 
-#: src/qml/pages/Network.qml:120
+#: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
 msgstr ""
 
-#: src/qml/pages/Network.qml:121
+#: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr ""
 
-#: src/qml/pages/Network.qml:129
+#: src/qml/pages/Network.qml:258
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -461,7 +461,7 @@ msgstr ""
 "Tämä sivu näytetään verkkoyhteydestä riippumatta, koska käytät "
 "kehitysversiota."
 
-#: src/qml/pages/Network.qml:134
+#: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

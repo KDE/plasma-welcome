@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:39+0000\n"
 "PO-Revision-Date: 2024-03-17 02:13+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -213,7 +213,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Ha ocurrido un error al cargar la página"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -409,13 +409,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Visitar página web"
 
-#: src/qml/pages/Network.qml:16
+#: src/qml/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Acceso a Internet"
 
-#: src/qml/pages/Network.qml:17
+#: src/qml/pages/Network.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -429,13 +429,13 @@ msgstr ""
 "icono <interface>Redes</interface> de la <interface>Bandeja del sistema</"
 "interface>, que reside en la esquina inferior derecha de la pantalla."
 
-#: src/qml/pages/Network.qml:71
+#: src/qml/pages/Network.qml:74
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "El uso de redes de Plasma no está instalado"
 
-#: src/qml/pages/Network.qml:72
+#: src/qml/pages/Network.qml:75
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -445,19 +445,19 @@ msgstr ""
 "Para gestionar las conexiones de red, Plasma necesita que esté instalado "
 "<icode>plasma-nm</icode>. Notifique esta carencia a %1."
 
-#: src/qml/pages/Network.qml:120
+#: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
 msgstr "Ya tiene conexión"
 
-#: src/qml/pages/Network.qml:121
+#: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "¡Todo listo!"
 
-#: src/qml/pages/Network.qml:129
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -469,7 +469,7 @@ msgstr ""
 "está usando una versión de desarrollo. Puede usar el botón para mostrar de "
 "forma manual una vista previa de los distintos estados de la página."
 
-#: src/qml/pages/Network.qml:134
+#: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

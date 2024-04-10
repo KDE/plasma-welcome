@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:39+0000\n"
 "PO-Revision-Date: 2024-03-17 18:03+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -209,7 +209,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "பக்கத்தை ஏற்றுவதில் சிக்கல்"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -398,13 +398,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "முகப்புப் பக்கத்திற்கு செல்"
 
-#: src/qml/pages/Network.qml:16
+#: src/qml/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "இணையத்தை அணுகுவது"
 
-#: src/qml/pages/Network.qml:17
+#: src/qml/pages/Network.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -418,13 +418,13 @@ msgstr ""
 "interface> <interface>பிணையங்கள்</interface> எனும் சின்னத்தைக் கிளிக் செய்யுங்கள். "
 "இயல்பாக, இது திரையின் வலது-கீழ் ஓரத்தில் அமைந்திருக்கும்."
 
-#: src/qml/pages/Network.qml:71
+#: src/qml/pages/Network.qml:74
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "பிளாஸ்மாக்கான பிணைய ஆதரவு நிறுவப்படவில்லை"
 
-#: src/qml/pages/Network.qml:72
+#: src/qml/pages/Network.qml:75
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -434,19 +434,19 @@ msgstr ""
 "பிணைய இணைப்புகளை பிளாஸ்மா நிர்வகிக்க, <icode>plasma-nm</icode> நிறுவப்பட்டிருக்க "
 "வெண்டும். இந்த சிக்கலை %1-க்கு தெரிவிக்கவும்."
 
-#: src/qml/pages/Network.qml:120
+#: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
 msgstr "இணைந்துள்ளீர்"
 
-#: src/qml/pages/Network.qml:121
+#: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "சரியாக உள்ளது!"
 
-#: src/qml/pages/Network.qml:129
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -457,7 +457,7 @@ msgstr ""
 "நீங்கள் நிரலாக்கப் பதிப்பைப் பயன்படுத்துவதால் இப்பக்கம் எப்போதும் காட்டப்படும் (பிணைய நிலையைப் "
 "பொருட்படுத்தாமல்). இப்பக்கத்தின் வெவ்வேறு நிலைகளின் முன்னோட்டங்கான, பட்டனைப் பயன்படுத்தலாம்"
 
-#: src/qml/pages/Network.qml:134
+#: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

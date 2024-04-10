@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-20 00:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:39+0000\n"
 "PO-Revision-Date: 2024-03-17 07:35+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -209,7 +209,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "שגיאה בטעינת עמוד"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:76
+#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -396,13 +396,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "ביקור בדף הבית"
 
-#: src/qml/pages/Network.qml:16
+#: src/qml/pages/Network.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "גישה לאינטרנט"
 
-#: src/qml/pages/Network.qml:17
+#: src/qml/pages/Network.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -416,13 +416,13 @@ msgstr ""
 "interface> שב<interface>מגש המערכת שלך</interface> ששוכן בפינה השמאלית "
 "התחתונה של המסך."
 
-#: src/qml/pages/Network.qml:71
+#: src/qml/pages/Network.qml:74
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "לא מותקנת תמיכה בתקשורת רשת בפלזמה כרגע"
 
-#: src/qml/pages/Network.qml:72
+#: src/qml/pages/Network.qml:75
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -432,19 +432,19 @@ msgstr ""
 "כדי לנהל את חיבורי הרשת שלך, פלזמה צריכה שהחבילה <icode>plasma-nm</icode> "
 "תהיה מותקנת. נא לדווח על ההשמטה הזאת אל %1."
 
-#: src/qml/pages/Network.qml:120
+#: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
 msgstr "התחברת"
 
-#: src/qml/pages/Network.qml:121
+#: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "מוכנים לצאת לדרך!"
 
-#: src/qml/pages/Network.qml:129
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -455,7 +455,7 @@ msgstr ""
 "עמוד זה מוצג ללא תלות במצב החיבור לרשת כיוון שבחרת להשתמש בגרסת פיתוח. כדי "
 "להציג ידנית את המצבים השונים של העמוד, אפשר להשתמש בכפתור."
 
-#: src/qml/pages/Network.qml:134
+#: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
