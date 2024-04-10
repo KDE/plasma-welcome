@@ -243,6 +243,11 @@ QString Controller::distroBugReportUrl()
     return KOSRelease().bugReportUrl();
 }
 
+KAboutData Controller::aboutData() const
+{
+    return KAboutData::applicationData();
+}
+
 void Controller::setMode(Mode mode)
 {
     if (m_mode == mode) {

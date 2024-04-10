@@ -7,6 +7,7 @@
 
 #pragma once
 
+#include <KAboutData>
 #include <QJSValue>
 #include <QObject>
 #include <QVersionNumber>
@@ -33,6 +34,7 @@ public:
     Q_INVOKABLE QString distroBugReportUrl();
     Q_INVOKABLE QString installPrefix();
 
+    Q_PROPERTY(KAboutData aboutData READ aboutData CONSTANT)
     Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)
     Q_PROPERTY(QString shownVersion MEMBER m_shownVersion CONSTANT)
     Q_PROPERTY(int patchVersion MEMBER m_patchVersion CONSTANT)
@@ -45,6 +47,7 @@ public:
     enum Mode { Update, Beta, Live, Welcome };
     Q_ENUM(Mode)
 
+    KAboutData aboutData() const;
     void setMode(Mode mode);
 
 Q_SIGNALS:

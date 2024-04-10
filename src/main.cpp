@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     QCoreApplication::setApplicationName(QStringLiteral("plasma-welcome"));
     KLocalizedString::setApplicationDomain(QByteArrayLiteral("plasma-welcome"));
 
-    const QString description = i18nc("@info:usagetip", "A welcome app for KDE Plasma");
+    const QString description = i18nc("@info:usagetip", "Friendly onboarding wizard for Plasma");
     KAboutData aboutData(
         // The program name used internally.
         QStringLiteral("plasma-welcome"),
@@ -56,6 +56,8 @@ int main(int argc, char *argv[])
                         i18nc("@info:credit", "Author"),
                         QStringLiteral("nate@kde.org"),
                         QStringLiteral("https://pointieststick.com"));
+    aboutData.addAuthor(i18nc("@info:credit", "Oliver Beard"), i18nc("@info:credit", "Author"), QStringLiteral("olib141@outlook.com"));
+    aboutData.setBugAddress(QByteArrayLiteral("https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center"));
     KAboutData::setApplicationData(aboutData);
 
     QQmlApplicationEngine engine;
