@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-10 00:39+0000\n"
+"POT-Creation-Date: 2024-04-11 00:39+0000\n"
 "PO-Revision-Date: 2024-03-17 11:41+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -343,14 +343,42 @@ msgid "Plasma 6 Supporters"
 msgstr "Osoby wspierające Plazmę 6"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We thank the following people for supporting us during the Plasma 6 "
+#| "fundraising campaign:"
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following people for supporting us during the Plasma 6 "
+"We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
 "Dziękujemy następującym ludziom za wspieranie nas podczas kampanii zbierania "
 "środków na Plazmę 6:"
+
+#: src/qml/pages/donate/Supporters.qml:27
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Sort Randomly"
+msgstr ""
+
+#: src/qml/pages/donate/Supporters.qml:28
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Sort by Name"
+msgstr ""
+
+#: src/qml/pages/donate/Supporters.qml:29
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Sort by Date"
+msgstr ""
+
+#: src/qml/pages/donate/Supporters.qml:38
+#, kde-format
+msgctxt "@label placeholder"
+msgid "Filter…"
+msgstr ""
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
