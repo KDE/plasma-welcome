@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-11 00:39+0000\n"
-"PO-Revision-Date: 2024-04-10 19:49\n"
+"POT-Creation-Date: 2024-04-12 00:39+0000\n"
+"PO-Revision-Date: 2024-04-11 19:20\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -100,8 +100,8 @@ msgstr "命令 <command>%1</command> 执行失败：%2"
 #: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
-msgid "A welcome app for KDE Plasma"
-msgstr "KDE Plasma 的欢迎应用"
+msgid "Friendly onboarding wizard for Plasma"
+msgstr ""
 
 #: src/main.cpp:42
 #, kde-format
@@ -121,7 +121,7 @@ msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:52 src/main.cpp:56
+#: src/main.cpp:52 src/main.cpp:56 src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -133,18 +133,24 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:67
+#: src/main.cpp:59
+#, kde-format
+msgctxt "@info:credit"
+msgid "Oliver Beard"
+msgstr ""
+
+#: src/main.cpp:69
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "显示当前 Plasma 版本的发行日志。"
 
-#: src/main.cpp:68
+#: src/main.cpp:70
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr "显示当前 Plasma Beta 版本的发行日志。"
 
-#: src/main.cpp:69
+#: src/main.cpp:71
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "显示为发行版 Live 环境准备的页面。"
@@ -266,7 +272,7 @@ msgid "Start Contributing!"
 msgstr "开始贡献！"
 
 #: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:114
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -338,16 +344,12 @@ msgid "Plasma 6 Supporters"
 msgstr "Plasma 6 支持者"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
-msgstr "感谢下列人士在 Plasma 6 筹款活动中的支持："
+msgstr ""
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
@@ -871,32 +873,44 @@ msgstr ""
 "态简洁易用，让您无需繁琐的配置即可流畅工作。Plasma 不但功能全面，还提供了丰富"
 "的可定制选项，让您可以高效地完成工作任务。我们希望您能喜欢上它！"
 
-#: src/qml/pages/Welcome.qml:29
+#: src/qml/pages/Welcome.qml:24
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome Center"
+msgctxt "@action:inmenu"
+msgid "About Welcome Center"
+msgstr "欢迎中心"
+
+#: src/qml/pages/Welcome.qml:43
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "了解更多关于 KDE 社区的信息"
 
-#: src/qml/pages/Welcome.qml:34
+#: src/qml/pages/Welcome.qml:48
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "了解更多关于 %1 的信息"
 
-#: src/qml/pages/Welcome.qml:72
+#: src/qml/pages/Welcome.qml:86
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "图像加载失败"
 
-#: src/qml/pages/Welcome.qml:73
+#: src/qml/pages/Welcome.qml:87
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "无法加载 <filename>%1</filename>。请确保该文件存在。"
 
-#: src/qml/pages/Welcome.qml:107
+#: src/qml/pages/Welcome.qml:121
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE 的吉祥物 Konqi (恐奇) 欢迎您走进 KDE 社区！"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid "A welcome app for KDE Plasma"
+#~ msgstr "KDE Plasma 的欢迎应用"

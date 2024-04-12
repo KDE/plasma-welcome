@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-11 00:39+0000\n"
+"POT-Creation-Date: 2024-04-12 00:39+0000\n"
 "PO-Revision-Date: 2023-10-04 15:33+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit\n"
@@ -102,8 +102,8 @@ msgstr ""
 #: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
-msgid "A welcome app for KDE Plasma"
-msgstr "KDE Plasma कृते स्वागतयोग्यं तन्त्रांशम्"
+msgid "Friendly onboarding wizard for Plasma"
+msgstr ""
 
 #: src/main.cpp:42
 #, kde-format
@@ -123,7 +123,7 @@ msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "फिलिप् किनोशिता"
 
-#: src/main.cpp:52 src/main.cpp:56
+#: src/main.cpp:52 src/main.cpp:56 src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -135,19 +135,25 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "नेट् ग्राहम्"
 
-#: src/main.cpp:67
+#: src/main.cpp:59
+#, kde-format
+msgctxt "@info:credit"
+msgid "Oliver Beard"
+msgstr ""
+
+#: src/main.cpp:69
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "वर्तमानप्लाज्मा विमोचनार्थं विमोचनटिप्पणीः प्रदर्शयन्तु ।."
 
-#: src/main.cpp:68
+#: src/main.cpp:70
 #, fuzzy, kde-format
 #| msgid "Display release notes for the current Plasma release."
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr "वर्तमानप्लाज्मा विमोचनार्थं विमोचनटिप्पणीः प्रदर्शयन्तु ।."
 
-#: src/main.cpp:69
+#: src/main.cpp:71
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "Distro live environments कृते अभिप्रेतं live page प्रदर्शयन्तु।."
@@ -271,7 +277,7 @@ msgid "Start Contributing!"
 msgstr "योगदानं आरभत !"
 
 #: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:114
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -905,35 +911,47 @@ msgstr ""
 "आवश्यकतायां शक्तिशाली भवति यत् भवतः वास्तविकरूपेण कार्याणि सम्पादयितुं साहाय्यं करोति । "
 "आशास्महे यत् भवन्तः तत् प्रेम्णा पश्यन्ति!"
 
-#: src/qml/pages/Welcome.qml:29
+#: src/qml/pages/Welcome.qml:24
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome Center"
+msgctxt "@action:inmenu"
+msgid "About Welcome Center"
+msgstr "स्वागत केन्द्र"
+
+#: src/qml/pages/Welcome.qml:43
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "KDE समुदायस्य विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Welcome.qml:34
+#: src/qml/pages/Welcome.qml:48
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Welcome.qml:72
+#: src/qml/pages/Welcome.qml:86
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "चित्रभारणं विफलम् अभवत्"
 
-#: src/qml/pages/Welcome.qml:73
+#: src/qml/pages/Welcome.qml:87
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "<filename>%1</filename> लोड् कर्तुं न शक्यते । तस्य अस्तित्वं सुनिश्चितं कुरुत।."
 
-#: src/qml/pages/Welcome.qml:107
+#: src/qml/pages/Welcome.qml:121
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE mascot Konqi भवन्तं KDE समुदाये स्वागतं करोति!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid "A welcome app for KDE Plasma"
+#~ msgstr "KDE Plasma कृते स्वागतयोग्यं तन्त्रांशम्"
 
 #~ msgctxt "@title: window"
 #~ msgid "Connect Online Accounts"

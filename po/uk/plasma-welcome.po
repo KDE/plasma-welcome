@@ -6,17 +6,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-11 00:39+0000\n"
-"PO-Revision-Date: 2024-03-17 08:51+0200\n"
+"POT-Creation-Date: 2024-04-12 00:39+0000\n"
+"PO-Revision-Date: 2024-04-11 08:40+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language-Team: Ukrainian\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 23.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -101,8 +101,8 @@ msgstr "Помилка у програмі <command>%1</command>: %2"
 #: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
-msgid "A welcome app for KDE Plasma"
-msgstr "Вітальна програма Плазми KDE"
+msgid "Friendly onboarding wizard for Plasma"
+msgstr ""
 
 #: src/main.cpp:42
 #, kde-format
@@ -122,7 +122,7 @@ msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:52 src/main.cpp:56
+#: src/main.cpp:52 src/main.cpp:56 src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -134,12 +134,18 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:67
+#: src/main.cpp:59
+#, kde-format
+msgctxt "@info:credit"
+msgid "Oliver Beard"
+msgstr ""
+
+#: src/main.cpp:69
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Показати нотатки щодо випуску для поточного випуску Плазми."
 
-#: src/main.cpp:68
+#: src/main.cpp:70
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
@@ -147,7 +153,7 @@ msgstr ""
 "Показати нотатки щодо випуску для поточного випуску Плазми, для тестових "
 "версій."
 
-#: src/main.cpp:69
+#: src/main.cpp:71
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
@@ -272,7 +278,7 @@ msgid "Start Contributing!"
 msgstr "Взяти участь!"
 
 #: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:114
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -348,11 +354,7 @@ msgid "Plasma 6 Supporters"
 msgstr "Ті, хто надали підтримку Плазмі 6"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
@@ -365,25 +367,25 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Упорядкувати випадково"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Упорядкувати за ім'ям"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Упорядкувати за датою"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Фільтрувати…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -916,25 +918,33 @@ msgstr ""
 "дуже потужною, коли вам треба допомогти виконати певне завдання. "
 "Сподіваємося, вона вам сподобається."
 
-#: src/qml/pages/Welcome.qml:29
+#: src/qml/pages/Welcome.qml:24
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome Center"
+msgctxt "@action:inmenu"
+msgid "About Welcome Center"
+msgstr "Центр вітання"
+
+#: src/qml/pages/Welcome.qml:43
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Дізнатися більше про спільноту KDE"
 
-#: src/qml/pages/Welcome.qml:34
+#: src/qml/pages/Welcome.qml:48
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Дізнатися більше про %1"
 
-#: src/qml/pages/Welcome.qml:72
+#: src/qml/pages/Welcome.qml:86
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Не вдалося завантажити зображення"
 
-#: src/qml/pages/Welcome.qml:73
+#: src/qml/pages/Welcome.qml:87
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -942,11 +952,15 @@ msgstr ""
 "Не вдалося завантажити <filename>%1</filename>. Переконайтеся, що цей файл "
 "існує."
 
-#: src/qml/pages/Welcome.qml:107
+#: src/qml/pages/Welcome.qml:121
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Маскот KDE, Конкі, запрошує вас до спільноти KDE!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid "A welcome app for KDE Plasma"
+#~ msgstr "Вітальна програма Плазми KDE"
 
 #~ msgctxt "@label %1 is the Plasma version"
 #~ msgid "6 Beta 2 (%1)"

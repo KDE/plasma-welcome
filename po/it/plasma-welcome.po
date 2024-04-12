@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-11 00:39+0000\n"
+"POT-Creation-Date: 2024-04-12 00:39+0000\n"
 "PO-Revision-Date: 2024-03-18 10:11+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -100,8 +100,8 @@ msgstr "Il comando <command>%1</command> non è riuscito: %2"
 #: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
-msgid "A welcome app for KDE Plasma"
-msgstr "Un'applicazione di benvenuto per Plasma di KDE"
+msgid "Friendly onboarding wizard for Plasma"
+msgstr ""
 
 #: src/main.cpp:42
 #, kde-format
@@ -121,7 +121,7 @@ msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:52 src/main.cpp:56
+#: src/main.cpp:52 src/main.cpp:56 src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -133,12 +133,18 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:67
+#: src/main.cpp:59
+#, kde-format
+msgctxt "@info:credit"
+msgid "Oliver Beard"
+msgstr ""
+
+#: src/main.cpp:69
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Visualizza le note di rilascio per la versione attuale di Plasma."
 
-#: src/main.cpp:68
+#: src/main.cpp:70
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
@@ -146,7 +152,7 @@ msgstr ""
 "Visualizza le note sulla versione per la versione attuale di Plasma, per le "
 "versioni beta."
 
-#: src/main.cpp:69
+#: src/main.cpp:71
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
@@ -271,7 +277,7 @@ msgid "Start Contributing!"
 msgstr "Inizia a contribuire!"
 
 #: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:114
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -914,35 +920,47 @@ msgstr ""
 "necessario per aiutarti a fare davvero le cose di cui hai bisogno. Speriamo "
 "ti piaccia!"
 
-#: src/qml/pages/Welcome.qml:29
+#: src/qml/pages/Welcome.qml:24
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome Center"
+msgctxt "@action:inmenu"
+msgid "About Welcome Center"
+msgstr "Centro di benvenuto"
+
+#: src/qml/pages/Welcome.qml:43
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Scopri di più sulla comunità KDE"
 
-#: src/qml/pages/Welcome.qml:34
+#: src/qml/pages/Welcome.qml:48
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Ulteriori informazioni su %1"
 
-#: src/qml/pages/Welcome.qml:72
+#: src/qml/pages/Welcome.qml:86
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Caricamento dell'immagine non riuscito"
 
-#: src/qml/pages/Welcome.qml:73
+#: src/qml/pages/Welcome.qml:87
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "Impossibile caricare <filename>%1</filename>. Assicurati che esista."
 
-#: src/qml/pages/Welcome.qml:107
+#: src/qml/pages/Welcome.qml:121
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "La mascotte di KDE Konqi ti dà il benvenuto nella comunità KDE!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid "A welcome app for KDE Plasma"
+#~ msgstr "Un'applicazione di benvenuto per Plasma di KDE"
 
 #~ msgctxt "@label %1 is the Plasma version"
 #~ msgid "6 Beta 2 (%1)"

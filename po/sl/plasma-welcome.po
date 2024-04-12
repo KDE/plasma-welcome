@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-11 00:39+0000\n"
+"POT-Creation-Date: 2024-04-12 00:39+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: \n"
@@ -104,8 +104,8 @@ msgstr "Ukaz <command>%1</command> ni uspel: %2"
 #: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
-msgid "A welcome app for KDE Plasma"
-msgstr "Program dobrodošlice za KDE Plasma"
+msgid "Friendly onboarding wizard for Plasma"
+msgstr ""
 
 #: src/main.cpp:42
 #, kde-format
@@ -125,7 +125,7 @@ msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:52 src/main.cpp:56
+#: src/main.cpp:52 src/main.cpp:56 src/main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -137,18 +137,24 @@ msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:67
+#: src/main.cpp:59
+#, kde-format
+msgctxt "@info:credit"
+msgid "Oliver Beard"
+msgstr ""
+
+#: src/main.cpp:69
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Prikaži opombe ob izdaji za trenutno izdajo Plasme."
 
-#: src/main.cpp:68
+#: src/main.cpp:70
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr "Prikaži opombe ob izdaji za trenutno izdajo Plasme za beta različice."
 
-#: src/main.cpp:69
+#: src/main.cpp:71
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "Prikaži živo stran namenjeno distribucijskim živim okoljem."
@@ -275,7 +281,7 @@ msgid "Start Contributing!"
 msgstr "Začnite prispevati!"
 
 #: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:114
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -349,42 +355,38 @@ msgid "Plasma 6 Supporters"
 msgstr "Podporniki Plasma 6"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Zahvaljujemo se naslednjim osebam, ki so nas podpirali med kampanjo zbiranja "
-"sredstev za Plasma 6:"
+"Zahvaljujemo se naslednjim podpornim članom, da so se nam pridružili v "
+"akciji zbiranja sredstev za Plasma 6:"
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Razvrsti naključno"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Razvrsti po imenu"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Razvrsti po datumu"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Filter…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -910,36 +912,48 @@ msgstr ""
 "izkušnjo, vendar zelo sposobno, ko je potrebno, da vam pomaga resnično "
 "opraviti stvari. Upamo, da vam je všeč!"
 
-#: src/qml/pages/Welcome.qml:29
+#: src/qml/pages/Welcome.qml:24
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Welcome Center"
+msgctxt "@action:inmenu"
+msgid "About Welcome Center"
+msgstr "Center dobrodošlice"
+
+#: src/qml/pages/Welcome.qml:43
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Naučite se več o skupnosti KDE"
 
-#: src/qml/pages/Welcome.qml:34
+#: src/qml/pages/Welcome.qml:48
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Naučite se več o %1"
 
-#: src/qml/pages/Welcome.qml:72
+#: src/qml/pages/Welcome.qml:86
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Nalaganje slike ni uspelo"
 
-#: src/qml/pages/Welcome.qml:73
+#: src/qml/pages/Welcome.qml:87
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "Ni bilo mogoče naložiti <filename>%1</filename>. Preverite, da obstaja."
 
-#: src/qml/pages/Welcome.qml:107
+#: src/qml/pages/Welcome.qml:121
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Maskota KDE Konqi vam izreka dobrodošlico v skupnosti KDE!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid "A welcome app for KDE Plasma"
+#~ msgstr "Program dobrodošlice za KDE Plasma"
 
 #~ msgctxt "@label %1 is the Plasma version"
 #~ msgid "6 Beta 2 (%1)"
