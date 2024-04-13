@@ -5,13 +5,13 @@
 # or the same license as the source of its messages in English.
 #
 # SPDX-FileCopyrightText: 2022, 2023, 2024 Antoni Bella Pérez <antonibella5@yahoo.com>
-# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023, 2024
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-12 00:39+0000\n"
-"PO-Revision-Date: 2024-03-17 09:00+0100\n"
+"PO-Revision-Date: 2024-04-12 09:33+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -105,7 +105,7 @@ msgstr "L'ordre <command>%1</command> ha fallat: %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Assistent d'incorporació amistosa per a Plasma"
 
 #: src/main.cpp:42
 #, kde-format
@@ -141,7 +141,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:69
 #, kde-format
@@ -358,42 +358,38 @@ msgid "Plasma 6 Supporters"
 msgstr "Subscriptors de Plasma 6"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Agraïm a les persones següents per ajudar-nos durant la campanya de "
-"recaptació de fons de Plasma 6:"
+"Agraïm als membres patrocinadors següents per afiliar-se durant la campanya "
+"de recaptació de fons de Plasma 6:"
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Ordena aleatòriament"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Ordena per nom"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Ordena per data"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Filtre…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -924,12 +920,10 @@ msgstr ""
 "potent quan cal per a ajudar-vos a fer les coses. Esperem que vos agrade!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Centre de benvinguda"
+msgstr "Quant a centre de benvinguda"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
@@ -961,7 +955,3 @@ msgstr ""
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "La mascota Konqui de KDE vos dona la benvinguda a la Comunitat KDE!"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid "A welcome app for KDE Plasma"
-#~ msgstr "Una aplicació de benvinguda per a Plasma de KDE"

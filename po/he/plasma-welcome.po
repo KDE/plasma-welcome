@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-12 00:39+0000\n"
-"PO-Revision-Date: 2024-04-11 06:34+0300\n"
+"PO-Revision-Date: 2024-04-12 06:59+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -102,7 +102,7 @@ msgstr "הפקודה <command>%1</command> נכשלה: %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "אשף ידידותי לקבלת פנים לפלזמה"
 
 #: src/main.cpp:42
 #, kde-format
@@ -138,7 +138,7 @@ msgstr "נייט גרהם"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "אוליבר ברד"
 
 #: src/main.cpp:69
 #, kde-format
@@ -883,12 +883,10 @@ msgstr ""
 "בעת הצורך כדי לסייע לך לבצע את מה שנחוץ. מקווים שהיא לטעמך!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "מרכז קבלת הפנים"
+msgstr "על מרכז קבלת הפנים"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format

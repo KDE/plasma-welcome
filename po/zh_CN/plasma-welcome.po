@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-12 00:39+0000\n"
-"PO-Revision-Date: 2024-04-11 19:20\n"
+"PO-Revision-Date: 2024-04-12 19:12\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -349,31 +349,31 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
-msgstr ""
+msgstr "感谢下列人士在 Plasma 6 筹款活动中的支持："
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "随机排序"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "按姓名排序"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "按时间排序"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "过滤："
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -874,12 +874,10 @@ msgstr ""
 "的可定制选项，让您可以高效地完成工作任务。我们希望您能喜欢上它！"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "欢迎中心"
+msgstr ""
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
@@ -910,7 +908,3 @@ msgstr "无法加载 <filename>%1</filename>。请确保该文件存在。"
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE 的吉祥物 Konqi (恐奇) 欢迎您走进 KDE 社区！"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid "A welcome app for KDE Plasma"
-#~ msgstr "KDE Plasma 的欢迎应用"

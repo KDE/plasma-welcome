@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-12 00:39+0000\n"
-"PO-Revision-Date: 2024-04-11 08:40+0300\n"
+"PO-Revision-Date: 2024-04-12 10:53+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -102,7 +102,7 @@ msgstr "Помилка у програмі <command>%1</command>: %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Дружній вітальний майстер налаштовування Плазми"
 
 #: src/main.cpp:42
 #, kde-format
@@ -138,7 +138,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:69
 #, kde-format
@@ -919,12 +919,10 @@ msgstr ""
 "Сподіваємося, вона вам сподобається."
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Центр вітання"
+msgstr "Про «Центр вітання»"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
