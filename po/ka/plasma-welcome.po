@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-12 00:39+0000\n"
-"PO-Revision-Date: 2024-03-17 03:17+0100\n"
+"PO-Revision-Date: 2024-04-12 05:24+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -102,7 +102,7 @@ msgstr "ბრძანება <command>%1</command> ჩავარდა: %2
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Plasma-სთან დამეგობრების ოსტატი"
 
 #: src/main.cpp:42
 #, kde-format
@@ -138,7 +138,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "ოლივერ ბერდი"
 
 #: src/main.cpp:69
 #, kde-format
@@ -349,42 +349,38 @@ msgid "Plasma 6 Supporters"
 msgstr "Plasma 6-ის მხარდამჭერები"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"ჩვენ მადლობას ვუხდით შემდეგ ხალხს Plasma 6-სთვის თანხის მოგროვების კამპანიის "
-"მიმდინარეობისას მხარდაჭერისთვის:"
+"ჩვენ მადლობას ვუხდით შემდეგ მხარდამჭერ წევრებს Plasma 6-სთვის თანხის "
+"მოგროვების კამპანიის მიმდინარეობისას მხარდაჭერისთვის:"
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "დალაგება შემთხვევით"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "დალაგება სახელით"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "დალაგება თარიღით"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "ფილტრი…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -903,12 +899,10 @@ msgstr ""
 "გაკეთება დაგჭირდებათ. იმედია, მოგეწონებათ!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "მისალმების ცენტრი"
+msgstr "მისალმების ცენტრის შესახებ"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format

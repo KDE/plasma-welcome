@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-12 00:39+0000\n"
-"PO-Revision-Date: 2024-03-17 05:34+0100\n"
+"PO-Revision-Date: 2024-04-13 11:51+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -100,7 +100,7 @@ msgstr "La komando <command>%1</command> malsukcesis: %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Amika enskipiĝa sorĉisto por Plasma"
 
 #: src/main.cpp:42
 #, kde-format
@@ -136,7 +136,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:69
 #, kde-format
@@ -346,41 +346,38 @@ msgid "Plasma 6 Supporters"
 msgstr "Plasma-6 Subtenantoj"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Ni dankas la sekvajn homojn pro ilia subteno dum la Plasma-6 kvestkampanjo:"
+"Ni dankas la sekvajn subtenajn membrojn pro ilia kuniĝo en la Plasma-6 "
+"kvestkampanjo:"
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Ordigi Hazarde"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Ordigi laŭ Nomo"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Ordigi laŭ Dato"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Filtri…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -901,12 +898,10 @@ msgstr ""
 "aferojn. Ni esperas, ke vi amas ĝin!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Bonvena Centro"
+msgstr "Pri Bonvena Centro"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
@@ -937,7 +932,3 @@ msgstr "Ne eblis ŝargi <filename>%1</filename>. Certigu ke ĝi ekzistas."
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "La KDE-maskoto Konqi bonvenigas vin al la KDE-komunumo!"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid "A welcome app for KDE Plasma"
-#~ msgstr "Bonvena aplikaĵo por KDE Plasma"
