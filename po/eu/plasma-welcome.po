@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-12 00:39+0000\n"
-"PO-Revision-Date: 2024-03-24 11:33+0100\n"
+"POT-Creation-Date: 2024-04-19 00:39+0000\n"
+"PO-Revision-Date: 2024-04-18 23:01+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.1\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -104,7 +104,7 @@ msgstr "<command>%1</command> komandoak huts egin du: %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Plasmarako sarrera-morroi lagunkoia"
 
 #: src/main.cpp:42
 #, kde-format
@@ -140,7 +140,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:69
 #, kde-format
@@ -352,42 +352,38 @@ msgid "Plasma 6 Supporters"
 msgstr "Plasma 6 jarraitzaileak"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Ondokoei gure esker ona Plasma 6 funts bilketa kanpainan haien sostengua "
-"emateagatik:"
+"Eskerrak ematen dizkiegu babesa ematen duten ondoko kideei Plasma 6 funts-"
+"bilketa kanpainan gurekin bat egiteagatik:"
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Ausaz sailkatu"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Izenaren arabera sailkatu"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Dataren arabera sailkatu"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Iragazi..."
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -648,16 +644,18 @@ msgid "Your system command center"
 msgstr "Zure sistemaren aginte-gunea"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title the name of the 'System Settings' app"
+#| msgid "System Settings"
 msgctxt "@title:row"
-msgid "Get New Stuff"
-msgstr "Eskuratu berritasunak"
+msgid "System Settings"
+msgstr "Sistemaren ezarpenak"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
-msgctxt "@info Caption for Get New Stuff button"
-msgid "Extend the system with add-ons"
-msgstr "Hedatu sistema gehigarriekin"
+msgctxt "@info Caption for Get System Settings button"
+msgid "Configure the system"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -825,59 +823,122 @@ msgstr ""
 "+W</shortcut> lasterbidea erabil dezakezu."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title the name of the 'System Settings' app"
+#| msgid "System Settings"
 msgctxt "@info:window"
-msgid "Get New Stuff"
-msgstr "Eskuratu berritasunak"
+msgid "System Settings"
+msgstr "Sistemaren ezarpenak"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
-"\"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-"
-"party content to extend the system, made by other people like you! In this "
-"way, it is often possible to add functionality you want without having to "
-"ask KDE developers to implement it themselves.<nl/><nl/>Note that content "
-"acquired this way has not been reviewed by your distributor for "
-"functionality or stability."
+"The System Settings app lets you extensively customize the system to suit "
+"your tastes and preferences. Default apps, wallpapers, visual styles and "
+"icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
+"all there!"
 msgstr ""
-"Plasma, Sistemaren ezarpenak, eta KDE aplikazioetan, guztietan, \"Lortu "
-"<emphasis>gauza</emphasis> berriak...\" erakusten duten botoiak aurkituko "
-"dituzu. Haietan klik egitean zure sistema hedatzeko 3.en edukia erakutsiko "
-"du, zu bezalako jendeak egina! Era horretan, maiz, nahi duzun "
-"funtzionalitatea gehi dezakezu KDE garatzaileei inplementatu dezaten eskatu "
-"beharrik izan gabe.<nl/><nl/>Kontuan izan era honetan eskuratutako edukia ez "
-"duela zure banatzaileak berrikusi, ez funtzionaltasunean ez eta "
-"egonkortasunean ere."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:224
-#, kde-format
-msgctxt "@action:button"
-msgid "See 3rd-Party Content…"
-msgstr "Ikusi hirugarrenen edukia..."
-
-#: src/qml/pages/SimpleByDefault.qml:15
+#: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Erraza izatez"
 
-#: src/qml/pages/SimpleByDefault.qml:16
-#, kde-kuit-format
-msgctxt ""
-"@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-"settings app for Plasma Desktop or Plasma Mobile"
+#: src/qml/pages/SimpleByDefault.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
+#| "settings app for Plasma Desktop or Plasma Mobile"
+#| msgid ""
+#| "Plasma is designed to be simple and usable out of the box. Things are "
+#| "where you'd expect, and there is generally no need to configure anything "
+#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
+#| "the need to, you'll find what you need in the <application>%1</"
+#| "application> app."
+msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
 "you'd expect, and there is generally no need to configure anything before "
-"you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
-"you'll find what you need in the <application>%1</application> app."
+"you can be comfortable and productive.<nl/><nl/>Below is a visual "
+"representation of a typical Plasma Desktop; move the pointer over or click "
+"on something to learn about it!"
 msgstr ""
 "Plasma, lehen unetik erraza eta erabilgarria izateko diseinatua dago. Gauzak "
 "esperoko zenukeen lekuan daude, eta orokorrean ez da ezer konfiguratu behar "
 "hartan eroso edo emankor izateko.<nl/><nl/>Beharrik izango bazenu, behar "
 "duzuna <application>%1</application> aplikazioan aurkituko duzu."
+
+#: src/qml/pages/SimpleByDefault.qml:33
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This is the “Desktop”. It shows files and folders that are contained in your "
+"<filename>Desktop</filename> folder, and can hold widgets. Right-click on it "
+"and choose <interface>Desktop and Wallpaper…</interface> to configure the "
+"appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
+"interface> to add, remove or modify widgets."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:36
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This is a “Panel”—a container to hold widgets. Right-click on it and choose "
+"<interface>Show Panel Configuration</interface> to change how it behaves, "
+"which screen edge it lives on, and to add, remove or modify widgets."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:39
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “Kickoff” widget, a multipurpose launcher. Here you can launch "
+"apps, shut down or restart the system, access recent files, and more. Click "
+"on it to get started!"
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:42
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “Task Manager” widget, where you can switch between open apps "
+"and also launch new ones. Drag app icons to re-arrange them."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:45
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “System Tray” widget, which lets you control system functions "
+"like changing the volume and connecting to networks. Items will become "
+"visible here only when relevant. To see all available items, click the arrow."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:48
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “Digital Clock” widget. Click on it to show a calendar. It can "
+"be also configured to show other timezones and events from your digital "
+"calendars."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:51
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “Peek at Desktop” widget. Click on it to temporarily hide all "
+"open windows so you can access the desktop. Click on it again to bring them "
+"back."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:199
+#, kde-format
+msgctxt "@info:placeholder Shown when there is insufficent width"
+msgid "Expand the window"
+msgstr ""
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
@@ -919,12 +980,10 @@ msgstr ""
 "gaude!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Ongietorri Gunea"
+msgstr "Ongietorri Guneari buruz"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
@@ -955,6 +1014,41 @@ msgstr "Ezin izan du <filename>%1</filename> zamatu. Ziurtatu existitzen dela."
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDEren maskota «Konqi»k KDE komunitatera ongietorria ematen dizu!"
+
+#~ msgctxt "@title:row"
+#~ msgid "Get New Stuff"
+#~ msgstr "Eskuratu berritasunak"
+
+#~ msgctxt "@info Caption for Get New Stuff button"
+#~ msgid "Extend the system with add-ons"
+#~ msgstr "Hedatu sistema gehigarriekin"
+
+#~ msgctxt "@info:window"
+#~ msgid "Get New Stuff"
+#~ msgstr "Eskuratu berritasunak"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
+#~ "marked \"Get New <emphasis>thing</emphasis>…\". Clicking on them will "
+#~ "show you 3rd-party content to extend the system, made by other people "
+#~ "like you! In this way, it is often possible to add functionality you want "
+#~ "without having to ask KDE developers to implement it themselves.<nl/><nl/"
+#~ ">Note that content acquired this way has not been reviewed by your "
+#~ "distributor for functionality or stability."
+#~ msgstr ""
+#~ "Plasma, Sistemaren ezarpenak, eta KDE aplikazioetan, guztietan, \"Lortu "
+#~ "<emphasis>gauza</emphasis> berriak...\" erakusten duten botoiak aurkituko "
+#~ "dituzu. Haietan klik egitean zure sistema hedatzeko 3.en edukia "
+#~ "erakutsiko du, zu bezalako jendeak egina! Era horretan, maiz, nahi duzun "
+#~ "funtzionalitatea gehi dezakezu KDE garatzaileei inplementatu dezaten "
+#~ "eskatu beharrik izan gabe.<nl/><nl/>Kontuan izan era honetan eskuratutako "
+#~ "edukia ez duela zure banatzaileak berrikusi, ez funtzionaltasunean ez eta "
+#~ "egonkortasunean ere."
+
+#~ msgctxt "@action:button"
+#~ msgid "See 3rd-Party Content…"
+#~ msgstr "Ikusi hirugarrenen edukia..."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid "A welcome app for KDE Plasma"
@@ -1004,10 +1098,6 @@ msgstr "KDEren maskota «Konqi»k KDE komunitatera ongietorria ematen dizu!"
 #~ msgctxt "@action:button"
 #~ msgid "Launch System Settings now"
 #~ msgstr "Abiarazi «Sistemaren ezarpenak» orain"
-
-#~ msgctxt "@title the name of the 'System Settings' app"
-#~ msgid "System Settings"
-#~ msgstr "Sistemaren ezarpenak"
 
 #~ msgctxt "@action:button"
 #~ msgid "See More Features"

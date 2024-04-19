@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-12 00:39+0000\n"
+"POT-Creation-Date: 2024-04-19 00:39+0000\n"
 "PO-Revision-Date: 2024-02-16 10:07+0100\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -618,16 +618,18 @@ msgid "Your system command center"
 msgstr "Mějte přehled nad spuštěnými aplikacemi"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Open Settings…"
 msgctxt "@title:row"
-msgid "Get New Stuff"
-msgstr "Získejte žhavé novinky"
+msgid "System Settings"
+msgstr "Otevřít nastavení…"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
-msgctxt "@info Caption for Get New Stuff button"
-msgid "Extend the system with add-ons"
-msgstr "Rozšiřte svůj systém různými doplňky"
+msgctxt "@info Caption for Get System Settings button"
+msgid "Configure the system"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -790,58 +792,122 @@ msgstr ""
 "klávesové zkratky <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Open Settings…"
 msgctxt "@info:window"
-msgid "Get New Stuff"
-msgstr "Získejte žhavé novinky"
+msgid "System Settings"
+msgstr "Otevřít nastavení…"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
-"\"Get New <emphasis>thing</emphasis>…\". Clicking on them will show you 3rd-"
-"party content to extend the system, made by other people like you! In this "
-"way, it is often possible to add functionality you want without having to "
-"ask KDE developers to implement it themselves.<nl/><nl/>Note that content "
-"acquired this way has not been reviewed by your distributor for "
-"functionality or stability."
+"The System Settings app lets you extensively customize the system to suit "
+"your tastes and preferences. Default apps, wallpapers, visual styles and "
+"icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
+"all there!"
 msgstr ""
-"Napříč prostředím Plasma, v Nastavení Systému a aplikacích KDE najdete "
-"tlačítka označená jako \"Získat nové <emphasis>[něco]</emphasis>…\". "
-"Kliknutím na ne se vám zobrazí obsah od třetích stran pro rozšíření systému "
-"vytvořeném lidmi jako jste vy! Tímto způsobem je často možné přidat další "
-"vlastnosti aniž byste o jejich přidání museli žádat vývojáře.<nl/><nl/"
-">Pamatujte, že obsah získaný tímto způsobem nebyl kontrolován správcem vaší "
-"distribuce zda je funkční a stabilní."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:224
-#, kde-format
-msgctxt "@action:button"
-msgid "See 3rd-Party Content…"
-msgstr "Podívejte se na obsah od třetích stran..."
-
-#: src/qml/pages/SimpleByDefault.qml:15
+#: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Od začátku jednoduché"
 
-#: src/qml/pages/SimpleByDefault.qml:16
-#, kde-kuit-format
-msgctxt ""
-"@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-"settings app for Plasma Desktop or Plasma Mobile"
+#: src/qml/pages/SimpleByDefault.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
+#| "settings app for Plasma Desktop or Plasma Mobile"
+#| msgid ""
+#| "Plasma is designed to be simple and usable out of the box. Things are "
+#| "where you'd expect, and there is generally no need to configure anything "
+#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
+#| "the need to, you'll find what you need in the <application>%1</"
+#| "application> app."
+msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
 "you'd expect, and there is generally no need to configure anything before "
-"you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
-"you'll find what you need in the <application>%1</application> app."
+"you can be comfortable and productive.<nl/><nl/>Below is a visual "
+"representation of a typical Plasma Desktop; move the pointer over or click "
+"on something to learn about it!"
 msgstr ""
 "Plasma je navržena tak, aby byla od počátku jednoduchá a použitelná. Věci "
 "jsou tam, kde je čekáte a pro pohodlnou a produktivní práci není nic potřeba "
 "nastavovat.<nl/><nl/>Pokud ale něco nastavit potřebujete, najdete to v "
 "aplikaci <application>%1</application>."
+
+#: src/qml/pages/SimpleByDefault.qml:33
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This is the “Desktop”. It shows files and folders that are contained in your "
+"<filename>Desktop</filename> folder, and can hold widgets. Right-click on it "
+"and choose <interface>Desktop and Wallpaper…</interface> to configure the "
+"appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
+"interface> to add, remove or modify widgets."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:36
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This is a “Panel”—a container to hold widgets. Right-click on it and choose "
+"<interface>Show Panel Configuration</interface> to change how it behaves, "
+"which screen edge it lives on, and to add, remove or modify widgets."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:39
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “Kickoff” widget, a multipurpose launcher. Here you can launch "
+"apps, shut down or restart the system, access recent files, and more. Click "
+"on it to get started!"
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:42
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “Task Manager” widget, where you can switch between open apps "
+"and also launch new ones. Drag app icons to re-arrange them."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:45
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “System Tray” widget, which lets you control system functions "
+"like changing the volume and connecting to networks. Items will become "
+"visible here only when relevant. To see all available items, click the arrow."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:48
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “Digital Clock” widget. Click on it to show a calendar. It can "
+"be also configured to show other timezones and events from your digital "
+"calendars."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:51
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the “Peek at Desktop” widget. Click on it to temporarily hide all "
+"open windows so you can access the desktop. Click on it again to bring them "
+"back."
+msgstr ""
+
+#: src/qml/pages/SimpleByDefault.qml:199
+#, kde-format
+msgctxt "@info:placeholder Shown when there is insufficent width"
+msgid "Expand the window"
+msgstr ""
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
@@ -918,6 +984,40 @@ msgstr ""
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Maskot KDE - Konqi - vás vítá v komunitě KDE!"
+
+#~ msgctxt "@title:row"
+#~ msgid "Get New Stuff"
+#~ msgstr "Získejte žhavé novinky"
+
+#~ msgctxt "@info Caption for Get New Stuff button"
+#~ msgid "Extend the system with add-ons"
+#~ msgstr "Rozšiřte svůj systém různými doplňky"
+
+#~ msgctxt "@info:window"
+#~ msgid "Get New Stuff"
+#~ msgstr "Získejte žhavé novinky"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
+#~ "marked \"Get New <emphasis>thing</emphasis>…\". Clicking on them will "
+#~ "show you 3rd-party content to extend the system, made by other people "
+#~ "like you! In this way, it is often possible to add functionality you want "
+#~ "without having to ask KDE developers to implement it themselves.<nl/><nl/"
+#~ ">Note that content acquired this way has not been reviewed by your "
+#~ "distributor for functionality or stability."
+#~ msgstr ""
+#~ "Napříč prostředím Plasma, v Nastavení Systému a aplikacích KDE najdete "
+#~ "tlačítka označená jako \"Získat nové <emphasis>[něco]</emphasis>…\". "
+#~ "Kliknutím na ne se vám zobrazí obsah od třetích stran pro rozšíření "
+#~ "systému vytvořeném lidmi jako jste vy! Tímto způsobem je často možné "
+#~ "přidat další vlastnosti aniž byste o jejich přidání museli žádat vývojáře."
+#~ "<nl/><nl/>Pamatujte, že obsah získaný tímto způsobem nebyl kontrolován "
+#~ "správcem vaší distribuce zda je funkční a stabilní."
+
+#~ msgctxt "@action:button"
+#~ msgid "See 3rd-Party Content…"
+#~ msgstr "Podívejte se na obsah od třetích stran..."
 
 #~ msgctxt "@info:usagetip"
 #~ msgid "A welcome app for KDE Plasma"
