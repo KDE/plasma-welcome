@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-04-12 11:24+0200\n"
+"PO-Revision-Date: 2024-04-19 11:55+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.1\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -641,9 +641,7 @@ msgid "Your system command center"
 msgstr "Uw centrum voor besturing van het systeem"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Systeeminstellingen"
@@ -652,7 +650,7 @@ msgstr "Systeeminstellingen"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Het systeem configureren"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -817,9 +815,7 @@ msgstr ""
 "toegang tot Overzicht met de sneltoets <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "Systeeminstellingen"
@@ -833,6 +829,11 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"De toepassing Systeeminstellingen laat u het systeem uitgebreid aanpassen "
+"naar uw smaak en voorkeuren. Standaard toepassingen, "
+"achtergrondafbeeldingen, visuele stijlen en pictogrammen, virtuele "
+"bureaubladen, energiebeheer, toevoegingen van derden - u zult het allemaal "
+"daar vinden!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -841,16 +842,7 @@ msgid "Simple by Default"
 msgstr "Standaard eenvoudig"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -861,9 +853,9 @@ msgid ""
 msgstr ""
 "Plasma is ontworpen om direct eenvoudig en bruikbaar te zijn. Dingen zijn "
 "waar u ze verwacht en er is in het algemeen geen noodzaak om iets te "
-"configureren alvorens u zich prettig en productief voelt.<nl/><nl/>Hebt u "
-"het gevoel nog wat nodig te hebben dan kunt u dat vinden in de toepassing "
-"<application>%1</application>."
+"configureren alvorens u zich prettig en productief voelt.<nl/><nl/"
+">Onderstaand is een visuele representatie van een typisch Plasma bureaublad; "
+"verplaats de aanwijzer erover of klik op iets om er meer over te weten!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -875,6 +867,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Dit is het “Bureaublad”. Het toont bestanden en mappen die zich in uw map "
+"<filename>Bureaublad</filename> bevinden en widgets kan bevatten. Klik er "
+"rechts op en kies <interface>Bureaublad en achtergrondafbeeldingen…</"
+"interface> om het uiterlijk van het bureaublad te configureren. U kunt ook "
+"<interface>Bewerkingsmodus ingaan</interface> om widgets toe te voegen, te "
+"verwijderen of te wijzigen."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -884,6 +882,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Dit is een “Paneel” — een container om widgets te bevatten. Klik er rechts "
+"op en kies <interface>Configuratie van paneel tonen</interface> om te "
+"wijzigen hoe het zich gedraagt, op welke schermranden het leeft en om "
+"widgets toe te voegen, te verwijderen of te wijzigen."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -893,6 +895,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Dit is het widget “Kickoff”, een multipurpose starter. Hier kunt u "
+"toepassingen starten, afsluiten of het systeem herstarten, toegang krijgen "
+"tot recente bestanden en meer. Klik erop om het te starten!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -901,6 +906,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Dis is het widget “Takenbeheerder”, waar u kunt schakelen tussen open "
+"toepassingen en ook nieuwe toepassingen kan starten. Versleep pictogrammen "
+"van toepassingen om ze opnieuw te ordenen."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -910,6 +918,10 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"Dit is het widget “Systeemvak”, die u systeemfuncties laat besturen, zoals "
+"het geluidsvolume en verbinden met netwerken. Items zullen hier alleen "
+"zichtbaar worden wanneer ze relevant zijn. Om alle beschikbare items te "
+"zien, klik op het pijltje."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -919,6 +931,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Dit is het widget “Digitale klok”. Klik erop om een kalender te zien. Het "
+"kan ook geconfigureerd worden om andere tijdzones te tonen en afspraken uit "
+"uw digitale agenda's."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -928,12 +943,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Dit is het widget “Gluur op het bureaublad”. Klik erop om tijdelijk alle "
+"open vensters te verbergen zodat u toegang hebt tot het bureaublad. Klik er "
+"nog een keer op om ze terug te brengen."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Het venster uitbreiden"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format

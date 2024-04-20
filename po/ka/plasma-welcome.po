@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-04-12 05:24+0200\n"
+"PO-Revision-Date: 2024-04-19 15:21+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -638,9 +638,7 @@ msgid "Your system command center"
 msgstr "თქვენი სისტემის მართვის ცენტრი"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "სისტემის მორგება"
@@ -649,7 +647,7 @@ msgstr "სისტემის მორგება"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "სისტემის მორგება"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -808,9 +806,7 @@ msgstr ""
 "მალსახმობითაც შეგიძლიათ."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "სისტემის მორგება"
@@ -824,6 +820,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"სისტემური პარამეტრების აპი საშუალებას გაძლევთ, მჭიდროდ მოარგოთ სისტემა "
+"თქვენს გემოვნებას. ნაგულისხმევი აპები, ფონის სურათები, ვიზუალური სტილები და "
+"ხატულები, ვირტუალური სამუშაო მაგიდები, კვების მართვა, მესამე პირების "
+"პროგრამები --- ყველაფერს აქ იპოვით!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -832,16 +832,7 @@ msgid "Simple by Default"
 msgstr "ნაგულისხმებად მარტივი"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -852,8 +843,8 @@ msgid ""
 msgstr ""
 "Plasma შექმნილია, რომ დაყენებისთანავე გამოყენებადი იყოს. ყველაფერი იქაა, "
 "სადაც მოელით, რომ იყოს და საერთოდ, თითქმის არაფრის მორგება არ მოგიწევთ.<nl/"
-"><nl/>თუ გაგიჩნდათ საჭიროება, რამე შეცვალოთ, ეს <application>%1</"
-"application> აპით შეგიძლიათ."
+"><nl/>ქვემოთ Plasma Desktop-ის ტიპიური ვიზუალური გარეგნობაა. გადაატარეთ "
+"მასზე თაგუნას კურსორი, ან დააწკაპუნეთ, რომ მეტი გაიგოთ მის შესახებ!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -865,6 +856,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"ეს \"სამუშაო მაგიდაა\". ის გაჩვენებთ ფაილებს და საქაღალდეებს, რომლებსაც "
+"თქვენი <filename>Desktop</filename> საქაღალდე შეიცავს და შეუძლია ჰქონდეს "
+"ვიჯეტები. დააწკაპუნეთ მასზე მარჯვენა ღილაკით და აირჩიეთ <interface>სამუშაო "
+"მაგიდა და ფონს სურათი...</interface>, რომ სამუშაო მაგიდის გარეგნობა მოირგოთ. "
+"ასევე შეგიძლიათ აირჩიოთ <interface>ჩასწორების რეჟიმზე გადასვლა</interface>, "
+"რომ ვიჯეტები დაამატოთ, წაშალოთ ან შეცვალოთ."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -874,6 +871,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"ეს \"პანელია\" ---კონტეინერი, რომელიც ვიჯეტებს შეიცავს. დააწკაპუნეთ მასზე "
+"მარჯვენა ღილაკით და აირჩიეთ <interface>პანელის კონფიგურაციის ჩვენება</"
+"interface>, რომ შეცვალოთ, როგორ იქცევა ის, რომელი ეკრანის წიბოზე ცხოვრობს და "
+"რომ დაამატოთ, წაშალოთ და შეცვალოთ ვიჯეტები."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -883,6 +884,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"ეს \"გაშვების\" ვიჯეტია. მრავალფუნქციური გამშვები. აქ შეგიძლიათ, გაუშვათ "
+"აპები, გამორთოთ ან გადატვირთოთ სისტემა, ნახოთ უახლესი ფაილები და ა.შ. "
+"დასაწყებად უბრალოდ ზედ დააწკაპუნეთ!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -891,6 +895,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"ეს \"ამოცანების მმართველის\" ვიჯეტია, სადაც შეგიძლიათ გადაერთოთ ღია აპებს "
+"შორის და ახლები გაუშვათ. გადაათრიეთ აპის ხატულები, რომ გადაალაგოთ ისინი."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -900,6 +906,10 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"ეს \"სისტემის კუთხის\" ვიჯეტია, რომელიც გაძლევთ საშუალებას, მართოთ ისეთი "
+"სისტემური ფუნქციები, როგორიცაა მაგალითად ხმის აწევა/ჩაწევა და ქსელთან "
+"მიერთება. ელემენტები აქ, მხოლოდ, მაშინ გამოჩნდება, როცა რამე საქმე აქვს. "
+"ყველა ხელმისაწვდომი ელემენტის სანახავად ისარზე დააწკაპუნეთ."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -909,6 +919,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"ეს \"ციფრული საათის\" ვიჯეტია. დააწკაპუნეთ ზედ კალენდრის საჩვენებლად. ის "
+"ასევე შეგიძლიათ მოირგოთ, რომ სხვა დროის სარტყლები და თქვენი ციფრული "
+"კალენდრის მოვლენები გაჩვენოთ."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -918,12 +931,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"ეს \"სამუშაო მაგიდაზე გაჭყლეტის\" ვიჯეტია. დააწკაპუნეთ მასზე, რომ დროებით "
+"დამალოთ ყველა ღია ფანჯარა, რომ სამუშაო მაგიდა დაინახოთ. დააწკაპუნეთ ზედ "
+"კიდევ ერთხელ, რომ დააბრუნოთ ისინი."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "ფანჯრის ჩამოშლა"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format

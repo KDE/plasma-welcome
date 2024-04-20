@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-04-12 06:59+0300\n"
+"PO-Revision-Date: 2024-04-19 09:24+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -629,18 +629,16 @@ msgid "Your system command center"
 msgstr "מרכז הבקרה של המערכת שלך"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr "פתיחת ההגדרות…"
+msgstr "הגדרות מערכת"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "הגדרת המערכת"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -796,12 +794,10 @@ msgstr ""
 "מקשי הקיצור <shortcut>Meta+W</shortcut> במקלדת."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
-msgstr "פתיחת ההגדרות…"
+msgstr "הגדרות מערכת"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
@@ -812,6 +808,9 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"יישום הגדרות המערכת מאפשר לך להתאים את המערכת בצורה נבחרת כך שתענה על טעמך "
+"והעדפותיך. יישומי ברירת מחדל, תמונות רקע, סגנונות חזותיים וסמלים, שולחנות "
+"עבודה וירטואליים, ניהול צריכת חשמל, תוספי צד־שלישי - הכול כבר שם!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -820,16 +819,7 @@ msgid "Simple by Default"
 msgstr "פשוטה מהיסוד"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -839,9 +829,9 @@ msgid ""
 "on something to learn about it!"
 msgstr ""
 "פלזמה תוכננה להיות פשוטה ויעילה כבר מהרגע הראשון. הדברים נמצאים איפה שנוח "
-"למצוא אותם ובאופן כללי לא חייבים להגדיר הכול לפני שאפשר להתרווח בנוחות ולבצע "
-"משימות.<nl/><nl/>אבל אם בכל זאת בא לך, כל מה שצריך זה לגשת ליישום "
-"<application>%1</application> שם הכול נמצא בהישג ידך."
+"למצוא אותם ובאופן כללי לא חייבים להגדיר משהו לפני שאפשר להתרווח בנוחות ולבצע "
+"משימות.<nl/><nl/>להלן ייצוג חזותי של שולחן עבודה טיפוסי של פלזמה. אפשר להזיז "
+"את הסמן על גבי משהו או ללחוץ על משהו כדי ללמוד עליו!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -853,6 +843,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"זה „שולחן העבודה”. הוא מציג קבצים ותיקיות מתיקיית <filename>Desktop</"
+"filename>/שולחן עבודה ויכולים להיות עליו גם וידג׳טים. לחיצה ימנית ובחירה "
+"ב<interface>שולחן עבודה ותמונת רקע…</interface> כדי להגדיר את מראה שולחן "
+"העבודה. אפשר גם לבחור ב<interface>כניסה למצב עריכה</interface> כדי להוסיף, "
+"להסיר או לערוך וידג׳טים."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -862,6 +857,9 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"זה „לוח” - מכולה להחזקת וידג׳טים. לחיצה ימנית עליו ובחירה ב<interface>הצגת "
+"הגדרות לוח</interface> תאפשר לשנות איך הוא מתנהג, באילו שוליים של המסך הוא "
+"חי ולהוסיף, להסיר או לערוך וידג׳טים."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -871,6 +869,8 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"זה וידג׳ט „יציאה לדרך”, משגר רב־תכליתי. כאן אפשר לשגר יישומים, לכבות או "
+"להפעיל את המערכת מחדש, לגשת לקבצים אחרונים ועוד. כדאי ללחוץ עליו כדי להתחיל!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -879,6 +879,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"זה וידג׳ט „מנהל המשימות”, בו אפשר לעבור בין יישומים פתוחים וגם לפתוח חדשים. "
+"אפשר לגרור את הסמלים כדי לסדר אותם באופן שמתאים לך."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -888,6 +890,9 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"זה וידג׳ט „שורת המערכת”, שמאפשר לך לשלוט ביכולות מערכת כגון שינוי עוצמת השמע "
+"והתחברות לרשתות. הפריטים גלויים רק כשהם נחוצים. כדי לצפות בכל הפריטים "
+"הזמינים, יש ללחוץ על החץ."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -897,6 +902,8 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"זה וידג׳ט „שעון דיגיטלי”. יש ללחוץ עליו כדי להציג לוח שנה. אפשר להגדיר אותו "
+"כך שיציג אזורי זמן נוספים ואירועים מלוחות השנה הדיגיטליים שלך."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -906,12 +913,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"זה וידג׳ט „הצצה על שולחן העבודה”. יש ללחוץ עליו כדי להסתיר זמנית את כל "
+"החלונות הפתוחים כדי לאפשר גישה לשולחן העבודה. לחיצה נוספת עליו תביא אותם "
+"בחזרה."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "הרחבת החלון"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format

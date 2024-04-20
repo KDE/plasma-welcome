@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-04-12 11:21+0200\n"
+"PO-Revision-Date: 2024-04-19 11:30+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -645,9 +645,7 @@ msgid "Your system command center"
 msgstr "Centro de commando de tu systema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Preferentias de systema"
@@ -656,7 +654,7 @@ msgstr "Preferentias de systema"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Configura le systema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -822,9 +820,7 @@ msgstr ""
 "via breve de claviero  <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "Preferentias de systema"
@@ -846,16 +842,7 @@ msgid "Simple by Default"
 msgstr "Simplice per Definition"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -866,9 +853,9 @@ msgid ""
 msgstr ""
 "Plasma es designate per esser simplice e usabile immediatemente  como es. "
 "Cosas es ubi tu expecta esser, e generalmente il non ha alcun necessitate de "
-"configurar alique ante que tu pote esser commode e productive. <nl/><nl/>Si "
-"tu deberea haber alcun necessitate  tu trovera omne cosas in le app  "
-"<application>%1</application>."
+"configurar alique ante que tu pote esser commode e productive. <nl/><nl/>A "
+"basso es un representation visual de un typic scriptorio dePlasma: move le "
+"punctator supra o clicca sur per apprehender re illo!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -938,7 +925,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Expande le fenestra"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format

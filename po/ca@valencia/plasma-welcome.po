@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-04-12 09:33+0200\n"
+"PO-Revision-Date: 2024-04-19 10:12+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -651,18 +651,16 @@ msgid "Your system command center"
 msgstr "Centre de control del sistema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr "Obri la configuració…"
+msgstr "Configuració del sistema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Configuració del sistema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -829,12 +827,10 @@ msgstr ""
 "teclat <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
-msgstr "Obri la configuració…"
+msgstr "Configuració del sistema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
@@ -845,6 +841,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"L'aplicació Configuració del sistema permet personalitzar àmpliament el "
+"sistema perquè s'adapte als vostres gustos i preferències. Aplicacions "
+"predeterminades, fons de pantalla, estils visuals i icones, escriptoris "
+"virtuals, gestió de l'energia, complements de tercers, ho trobareu tot ací!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -853,16 +853,7 @@ msgid "Simple by Default"
 msgstr "Senzill de manera predeterminada"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -872,9 +863,10 @@ msgid ""
 "on something to learn about it!"
 msgstr ""
 "Plasma està dissenyat per a ser senzill i utilitzable d'entrada. Les coses "
-"es troben on esperaríeu i generalment no cal configurar res perquè vos "
-"sentiu còmode i sigueu productiu.<nl/><nl/>Si en teniu la necessitat, "
-"trobareu el que calga en l'aplicació <application>%1</application>."
+"es troben on esperaríeu i generalment no cal configurar res perquè vos hi "
+"sentiu còmode i sigueu productiu.<nl/><nl/>A davall hi ha una representació "
+"visual d'un escriptori Plasma habitual; moveu el punter o feu clic en alguna "
+"cosa per a aprendre-hi!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -886,6 +878,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Este és l'«Escriptori». Mostra els fitxers i carpetes que es troben a la "
+"vostra carpeta <filename>Escriptori</filename>, i pot contindre ginys. Feu "
+"clic amb el botó dret i trieu <interface>Escriptori i fons de pantalla…</"
+"interface> per a configurar l'aparença de l'escriptori. També podeu triar "
+"<interface>Entra en el mode d'edició</interface> per a afegir, eliminar o "
+"modificar ginys."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -895,6 +893,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Este és un «Quadro», un contenidor de ginys. Feu clic amb el botó dret i "
+"trieu <interface>Mostra la configuració del quadro</interface> per a canviar "
+"com es comporta, en quina vora de la pantalla se situa i per a afegir, "
+"eliminar o modificar ginys."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -904,6 +906,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Este és el giny «Kickoff», un iniciador multiusos. Ací podeu iniciar "
+"aplicacions, tancar o reiniciar el sistema, accedir a fitxers recents i molt "
+"més. Feu-hi clic per a començar!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -912,6 +917,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Este és el giny «Gestor de tasques», a on podeu canviar entre aplicacions "
+"obertes i també iniciar-ne de noves. Arrossegueu les icones de l'aplicació "
+"per a reorganitzar-les."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -921,6 +929,10 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"Este és el giny «Safata del sistema», que permet controlar funcions del "
+"sistema com canviar el volum i connectar-se a xarxes. Els elements només "
+"seran visibles ací quan siguen rellevants. Per a veure tots els elements "
+"disponibles, feu clic en la fletxa."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -930,6 +942,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Este és el giny «Rellotge digital». Feu-hi clic per a mostrar un calendari. "
+"També es pot configurar per a mostrar altres zones horàries i esdeveniments "
+"dels calendaris digitals."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -939,12 +954,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Este és el giny «Ullada a l'escriptori». Feu-hi clic per a amagar "
+"temporalment totes les finestres obertes perquè pugueu accedir a "
+"l'escriptori. Feu-hi clic de nou per a retornar-les."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Expandiu la finestra"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
@@ -1020,38 +1038,3 @@ msgstr ""
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "La mascota Konqui de KDE vos dona la benvinguda a la Comunitat KDE!"
-
-#~ msgctxt "@title:row"
-#~ msgid "Get New Stuff"
-#~ msgstr "Obtín les novetats candents"
-
-#~ msgctxt "@info Caption for Get New Stuff button"
-#~ msgid "Extend the system with add-ons"
-#~ msgstr "Amplieu el sistema amb complements"
-
-#~ msgctxt "@info:window"
-#~ msgid "Get New Stuff"
-#~ msgstr "Obtín les novetats candents"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#~ "marked \"Get New <emphasis>thing</emphasis>…\". Clicking on them will "
-#~ "show you 3rd-party content to extend the system, made by other people "
-#~ "like you! In this way, it is often possible to add functionality you want "
-#~ "without having to ask KDE developers to implement it themselves.<nl/><nl/"
-#~ ">Note that content acquired this way has not been reviewed by your "
-#~ "distributor for functionality or stability."
-#~ msgstr ""
-#~ "Per Plasma, Configuració del sistema i les aplicacions de KDE, trobareu "
-#~ "els botons marcats «Obtín <emphasis>alguna cosa</emphasis> nou…». En fer-"
-#~ "hi clic es mostrarà el contingut de tercers per a ampliar el sistema, "
-#~ "creat per altres persones com vós! D'esta manera, sovint és possible "
-#~ "afegir les funcionalitats que vulgueu sense haver de demanar als "
-#~ "desenvolupadors de KDE que les implementen ells mateixos.<nl/><nl/>Cal "
-#~ "tindre en compte que el contingut adquirit d'esta manera no ha sigut "
-#~ "revisat per a funcionalitat o estabilitat pel vostre distribuïdor."
-
-#~ msgctxt "@action:button"
-#~ msgid "See 3rd-Party Content…"
-#~ msgstr "Veure el contingut de tercers…"

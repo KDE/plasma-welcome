@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-04-12 07:06+0300\n"
+"PO-Revision-Date: 2024-04-19 13:56+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -645,18 +645,16 @@ msgid "Your system command center"
 msgstr "Sistem komuta merkeziniz"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr "Ayarları Aç…"
+msgstr "Sistem Ayarları"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Sistemi yapılandırın"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -824,12 +822,10 @@ msgstr ""
 "kullanarak erişebilirsiniz."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
-msgstr "Ayarları Aç…"
+msgstr "Sistem Ayarları"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
@@ -840,6 +836,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"Sistem Ayarları uygulaması, sisteminizi zevkinize ve tercihlerinize göre "
+"geniş bir biçimde yapılandırmanıza olanak tanır. Öntanımlı uygulamalar, "
+"duvar kağıtları, görsel biçemler, simgeler, sanal masaüstleri, güç yönetimi, "
+"başka eklentiler — hepsi orada!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -848,16 +848,7 @@ msgid "Simple by Default"
 msgstr "Özünde Yalın"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -866,11 +857,12 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
-"Plasma, yalın ve kutudan çıkar çıkmaz kullanılabilir olacak şekilde "
+"Plasma, yalın ve başlatır başlatmaz kullanılabilir olacak şekilde "
 "tasarlanmıştır. Her şey beklediğiniz yerdedir ve rahat ve üretken "
-"olabilmeniz için genellikle herhangi bir yapılandırma yapmanıza gerek yoktur."
-"<nl/><nl/>Gereksiniminiz olursa tüm ayarları <application>%1</application> "
-"uygulamasında bulabilirsiniz."
+"olabilmeniz için genellikle herhangi bir yapılandırmadan geçirmenize gerek "
+"yoktur.<nl/><nl/>Aşağıda tipik bir Plasma Masaüstü’nün görsel temsilini "
+"görebilirsiniz; işaretçinizi üzerine getirin ve bir öge üzerine bilgi almak "
+"için ona tıklayın!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -882,6 +874,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Bu, “Masaüstü”dür. <filename>Masaüstü</filename> klasörünüzde bulunan tüm "
+"dosyaları ve klasörleri gösterir ve araç takımlarını barındırabilir. "
+"Masaüstünün görünüşünü yapılandırmak için sağ tıklayın ve "
+"<interface>Masaüstü ve Duvar Kağıdı…</interface> ögesine tıklayın. Araç "
+"takımları eklemek, kaldırmak veya onları değiştirmek için "
+"<interface>Düzenleme Kipine Gir</interface> seçeneğini kullanabilirsiniz."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -891,6 +889,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Bu, araç takımlarını barındıran bir “Panel”dir. Nasıl davrandığını, nerede "
+"durduğunu değiştirmek ve araç takımları eklemek, kaldırmak veya değiştirmek "
+"için üzerinde sağ tıklayın ve <interface>Panel Yapılandırmasını Göster</"
+"interface> ögesine tıklayın."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -900,6 +902,10 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Bu, çok amaçlı bir başlatıcı olan “Uygulama Başlatıcısı” araç takımıdır. "
+"Buradan uygulamaları başlatabilir, sistemi kapatabilir veya yeniden "
+"başlatabilir, son kullanılan dosyalara erişebilir ve çok daha fazlasını "
+"yapabilirsiniz. Başlamak için üzerine tıklayın!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -908,6 +914,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Bu, açık uygulamalar arasında geçiş yapabileceğiniz ve yenilerini "
+"başlatabileceğiniz “Görev Yöneticisi” araç takımıdır. Uygulama simgelerini "
+"düzenlemek için onları sürükleyin."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -917,6 +926,10 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"Bu, ses düzeyini değiştirmek veya ağlara bağlanmak gibi işlemler için "
+"kullanabileceğiniz “Sistem Tepsisi” araç takımıdır. Ögeler yalnızca "
+"kendilerini ilgilendiren bir durum varsa burada görünürler, aksi takdirde ok "
+"simgesinin altındaki panelde gizlenirler."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -926,6 +939,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Bu, “Sayısal Saat” araç takımıdır. Takvimi göstermek için üzerine tıklayın. "
+"Başka zaman dilimlerini ve takvimlerinizdeki etkinlikleri göstermek için "
+"yapılandırılabilirdir."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -935,12 +951,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Bu, “Masaüstüne Bak” araç takımıdır. Açık pencereleri geçici olarak gizleyip "
+"masaüstüne erişmek için üzerine tıklayın. Bir kez daha tıklarsanız "
+"pencereler eski konumlarına geri yüklenirler."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Pencereyi genişletin"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
