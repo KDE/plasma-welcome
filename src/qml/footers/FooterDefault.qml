@@ -27,8 +27,16 @@ RowLayout {
             readonly property bool isSkip: root.atStart && !root.inLayer
 
             text: isSkip ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
-            icon.name: isSkip ? "dialog-cancel-symbolic" : "go-previous-symbolic"
-            shortcut: "Left"
+            icon.name: {
+                if (isSkip) {
+                    return "dialog-cancel-symbolic";
+                } else if (Qt.application.layoutDirection === Qt.LeftToRight) {
+                    "go-previous-symbolic"
+                } else {
+                    "go-previous-rtl-symbolic"
+                }
+            }
+            shortcut: Qt.application.layoutDirection === Qt.LeftToRight ? "Left" : "Right"
 
             onTriggered: {
                 if (root.inLayer) {
@@ -60,8 +68,16 @@ RowLayout {
 
         action: Kirigami.Action {
             text: root.atEnd ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
-            icon.name: root.atEnd ? "dialog-ok-apply-symbolic" : "go-next-symbolic"
-            shortcut: "Right"
+            icon.name: {
+                if (root.atEnd) {
+                    return "dialog-ok-apply-symbolic";
+                } else if (Qt.application.layoutDirection === Qt.LeftToRight) {
+                    "go-next-symbolic"
+                } else {
+                    "go-next-rtl-symbolic"
+                }
+            }
+            shortcut: Qt.application.layoutDirection === Qt.LeftToRight ? "Right" : "Left"
 
             enabled: nextButton.enabled
 
