@@ -29,7 +29,7 @@ RowLayout {
         action: Kirigami.Action {
             text: i18nc("@action:button", "&OK")
             icon.name: "dialog-ok-apply-symbolic"
-            shortcut: "Right"
+            shortcut: Qt.application.layoutDirection === Qt.LeftToRight ? "Right" : "Left"
 
             onTriggered: Qt.quit()
         }
