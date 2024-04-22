@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-04-20 19:41\n"
+"POT-Creation-Date: 2024-04-22 00:39+0000\n"
+"PO-Revision-Date: 2024-04-21 04:47\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -184,13 +184,13 @@ msgctxt "@action:button"
 msgid "&Back"
 msgstr "上一页(&B)"
 
-#: src/qml/footers/FooterDefault.qml:62
+#: src/qml/footers/FooterDefault.qml:70
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "完成(&F)"
 
-#: src/qml/footers/FooterDefault.qml:62
+#: src/qml/footers/FooterDefault.qml:70
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -628,13 +628,13 @@ msgstr "显示全部桌面和窗口并进行切换和管理"
 #, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr ""
+msgstr "系统设置"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "配置系统功能"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -789,7 +789,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
-msgstr ""
+msgstr "系统设置"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
@@ -800,6 +800,9 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"您可以使用系统设置应用对系统的各个方面进行深入定制以符合自己的使用习惯，例如"
+"更改默认应用、桌面壁纸、视觉风格、图标主题、虚拟桌面、电源管理和第三方扩展等"
+"——您需要的选项都能在这里找到。"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -817,6 +820,9 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
+"Plasma 致力于让桌面在默认情况下简洁易用。它的默认配置在最大程度上迎合了大多数"
+"人的使用习惯，让您无需繁琐的配置即可舒适高效地使用电脑。<nl/><nl/>下方显示了 "
+"Plasma 桌面的典型状态。点击或者将光标悬停在对象之上即可了解它的功能。"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -828,6 +834,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"这是系统的“桌面”。桌面可以显示文件和文件夹，它们被保存在当前用户主文件夹的 "
+"<filename>桌面</filename> 文件夹中。桌面还可以显示各种挂件。要添加、移除或者"
+"修改挂件，请请在桌面上点击右键，在菜单中选择<interface>进入编辑模式</"
+"interface>。要更改桌面的外观，请在桌面上点击右键，在菜单中选择 <interface>配"
+"置桌面和壁纸…</interface>。"
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -837,6 +848,9 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"这是“面板”，它们是用于承载挂件的容器。在面板上点击右键，在菜单中选择 "
+"<interface>显示面板配置</interface> 以更改面板的行为、贴靠的屏幕边缘、添加、"
+"移除和修改挂件等。"
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -846,6 +860,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"这是“Kickoff”挂件，它是 Plasma 的多用途启动器，和开始菜单类似。您可以通过它来"
+"启动应用、关机或者重新启动电脑，访问最近文件等各种功能。点击它的图标即可展"
+"开。"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -854,6 +871,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"这是“任务管理器”挂件，您可以通过它来启动应用程序，或者在已打开的多个程序之间"
+"切换。您可以通过拖拽应用程序的图标来对它们进行重新排列。"
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -863,6 +882,9 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"这是“系统托盘”挂件，您可以通过它来控制系统的某些功能，例如调整音量或者连接网"
+"络等。系统托盘默认只会显示当前可用的项目。要显示全部项目，请点击它的“上箭"
+"头”图标。"
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -872,6 +894,8 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"这是“数字时钟”挂件。在它上面点击还会显示日历。您还可以将它配置为显示其他时区"
+"的时间和您的数字日历的日程。"
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -881,12 +905,14 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"这是“暂时显示桌面”挂件。点击它即可暂时隐藏所有打开的窗口，以便您访问桌面上的"
+"内容。再次点击即可恢复正常状态。"
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "扩展窗口"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format

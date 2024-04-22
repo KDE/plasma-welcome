@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-04-13 10:17+0200\n"
+"POT-Creation-Date: 2024-04-22 00:39+0000\n"
+"PO-Revision-Date: 2024-04-20 18:05+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -186,13 +186,13 @@ msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Revenir en arrière"
 
-#: src/qml/footers/FooterDefault.qml:62
+#: src/qml/footers/FooterDefault.qml:70
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Terminer"
 
-#: src/qml/footers/FooterDefault.qml:62
+#: src/qml/footers/FooterDefault.qml:70
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -649,9 +649,7 @@ msgid "Your system command center"
 msgstr "Le centre de commandes de votre système"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Configuration du système"
@@ -660,7 +658,7 @@ msgstr "Configuration du système"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Configurer le système"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -834,9 +832,7 @@ msgstr ""
 "l'aide du raccourci clavier <shortcut> « Meta » + « W » </shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "Configuration du système"
@@ -850,6 +846,11 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"L'application « Configuration du système » vous permet de personnaliser très "
+"largement le système en fonction de vos goûts et de vos préférences. Les "
+"applications par défaut, les fonds d'écran,les styles visuels et les icônes, "
+"les bureaux virtuels, la gestion de l'énergie, les extensions tierces, vous "
+"y trouverez tout !"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -858,16 +859,7 @@ msgid "Simple by Default"
 msgstr "Simple par défaut"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -879,8 +871,9 @@ msgstr ""
 "Plasma est conçu pour être simple et utilisable dès le départ. Les choses "
 "sont là où vous les attendez. Généralement, il est inutile de configurer "
 "quoi que ce soit avant que vous puissiez être à l'aise et productif. <nl/"
-"><nl/>Si vous en ressentez le besoin, vous trouverez ce dont vous avez "
-"besoin dans l'application <application>%1</application>."
+"><nl/>Vous trouverez ci-dessous une représentation classique du bureau de "
+"Plasma. Déplacez le pointeur de souris dessus et cliquer dessus quelque "
+"chose pour en savoir plus sur ce dernier !"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -892,6 +885,13 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Il s'agit du « Bureau ». Ce dernier affiche les fichiers et les dossiers "
+"étant contenus dans votre dossier <filename>de bureau</filename> et pouvant "
+"contenir des composants graphiques. Veuillez effectuer un clic avec le "
+"bouton droit de la souris et sélectionnez <interface>Bureau et fonds d'écran…"
+"</interface> pour configurer l'apparence du bureau. Vous pouvez également "
+"sélectionner <interface>Entrer en mode d'édition</interface> pour ajouter, "
+"supprimer ou modifier des composants graphiques."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -901,6 +901,11 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Il s'agit d'un « Panneau »- un conteneur pour contenir des composants "
+"graphiques. Effectuez un clic droit dessus avec la souris et sélectionnez "
+"<interface>Afficher la configuration du panneau</interface> pour modifier "
+"son comportement, le bord de l'écran sur lequel il fonctionne et pour "
+"ajouter, supprimer ou modifier des composants graphiques."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -910,6 +915,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Il s'agit du composant graphique « Lanceur », un lanceur polyvalent. Ici, "
+"vous pouvez lancer des applications, arrêter ou redémarrer le système, "
+"accéder aux fichiers récents et plus encore. Cliquez dessus pour commencer !"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -918,6 +926,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Il s'agit du composant graphique « Gestionnaire des tâches », où vous pouvez "
+"naviguer parmi les applications ouvertes et aussi en lancer de nouvelles. "
+"Faites glisser les icônes d'applications pour les réorganiser."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -927,6 +938,11 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"Il s'agit du composant « Boîte à miniatures du système », vous permettant de "
+"contrôler les fonctions du système telles que la modification du volume et "
+"la connexion aux réseaux. Les éléments ne seront visibles ici que lorsque "
+"cela est nécessaire. Pour voir tous les éléments disponibles, veuillez "
+"cliquer sur la flèche."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -936,6 +952,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Il s'agit du composant graphique « Horloge numérique ». Cliquez dessus pour "
+"afficher un calendrier. Il peut également être configuré pour afficher "
+"d'autres fuseaux horaires et événements de vos calendriers numériques."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -945,12 +964,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Il s'agit du composant graphique « Coup d'œil sur le bureau ». Cliquez "
+"dessus pour masquer temporairement toutes les fenêtres ouvertes de façon à "
+"accéder au bureau. Cliquez dessus à nouveau pour les ramener."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Développer la fenêtre"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format

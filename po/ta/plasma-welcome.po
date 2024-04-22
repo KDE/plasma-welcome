@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-19 00:39+0000\n"
-"PO-Revision-Date: 2024-03-17 18:03+0530\n"
+"POT-Creation-Date: 2024-04-22 00:39+0000\n"
+"PO-Revision-Date: 2024-04-21 22:20+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -101,7 +101,7 @@ msgstr "<command>%1</command> கட்டளை தோல்வியடைந�
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "பிளாஸ்மாவை பயனர்களுக்கு அறிமுகப்படுத்தும் உதவிநிரல்"
 
 #: src/main.cpp:42
 #, kde-format
@@ -185,13 +185,13 @@ msgctxt "@action:button"
 msgid "&Back"
 msgstr "&பின்னே"
 
-#: src/qml/footers/FooterDefault.qml:62
+#: src/qml/footers/FooterDefault.qml:70
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&முடி"
 
-#: src/qml/footers/FooterDefault.qml:62
+#: src/qml/footers/FooterDefault.qml:70
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -346,11 +346,7 @@ msgid "Plasma 6 Supporters"
 msgstr "பிளாஸ்மா 6-இன் ஆதரவாளர்கள்"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
@@ -361,25 +357,25 @@ msgstr "பிளாஸ்மா 6-இன் நிதித்திரட்�
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "வரிசைப்படுத்த வேண்டாம்"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "பெயர் வாரியாக வரிசைப்படுத்து"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "தேதிப்படி வரிசைப்படுத்து"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "வடிகட்டு…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -634,9 +630,7 @@ msgid "Your system command center"
 msgstr "பணிமேடையை கட்டுப்படுத்த உதவும்"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "கணினி அமைப்புகள்"
@@ -645,7 +639,7 @@ msgstr "கணினி அமைப்புகள்"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "கணினியை அமையுங்கள்"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -766,9 +760,7 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "கணினி அமைப்புகள்"
@@ -790,16 +782,7 @@ msgid "Simple by Default"
 msgstr "இயல்பில் எளியது"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -810,8 +793,8 @@ msgid ""
 msgstr ""
 "இயல்பில் எளியதாக இருக்குமாறு பிளாஸ்மா வடிவமைக்கப்பட்டுள்ளது. நீங்கள் எதிர்பார்க்கும் "
 "இடங்களில் அனைத்தும் இருக்கும், மேலும் சரலமாக பயன்படுத்துமுன் அமைப்புகளை மாற்றும் தேவை "
-"இல்லை. <nl/><nl/>இருப்பினும், எதையாவது மாற்ற வேண்டியிருந்தால் <application>%1</"
-"application> செயலியில் அதை மாற்றலாம்."
+"இல்லை. <nl/><nl/>இயல்பான பிளாஸ்மா பணிமேடையின் பிரதிபலிப்பு கீழே உள்ளது; அதிலுள்ள "
+"ஏதாவதொன்றைப் பற்றி மேலும் அறிய, அதை கிளிக் செய்யலாம் அல்லது சுட்டியை மேல்வைக்கலாம்."
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -881,7 +864,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "சாளரத்தை பெரிதாக்கவும்"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
@@ -921,12 +904,10 @@ msgstr ""
 "மகிழ்ச்சி!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "வரவேற்பு மையம்"
+msgstr "வரவேற்பு மையத்தை பற்றி"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
