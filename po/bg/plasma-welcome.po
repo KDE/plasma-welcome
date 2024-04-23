@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-22 00:39+0000\n"
-"PO-Revision-Date: 2024-04-15 09:39+0200\n"
+"PO-Revision-Date: 2024-04-22 09:09+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -645,18 +645,16 @@ msgid "Your system command center"
 msgstr "Вашият системен команден център"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr "Отваряне на панела с настройки…"
+msgstr "Системни настройки"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Конфигуриране на системата"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -825,12 +823,10 @@ msgstr ""
 "<shortcut>Meta+W</shortcut> клавишна комбинация."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
-msgstr "Отваряне на панела с настройки…"
+msgstr "Системни настройки"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
@@ -841,6 +837,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"Приложението \"Системни настройки\" ви дава възможност да персонализирате "
+"системата според вашите вкусове и предпочитания. Приложенията по "
+"подразбиране, тапетите, визуалните стилове и икони, виртуални работни "
+"плотове, управление на захранването, външни добавки - тук ще намерите всичко!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -849,16 +849,7 @@ msgid "Simple by Default"
 msgstr "Опростена по подразбиране"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -870,8 +861,8 @@ msgstr ""
 "Plasma е проектирана така, че да бъде проста и да може да се използва "
 "веднага след инсталирането. Нещата са там, където очаквате, и като цяло не е "
 "необходимо да конфигурирате нищо, за да се чувствате удобно и продуктивно."
-"<nl/><nl/>Ако имате нужда от промени, ще намерите необходимото в "
-"приложението <application>%1</application>."
+"<nl/><nl/>По-долу е представен типичен работен плот на Plasma. Посочете или "
+"щракнете върху елемент, за да научите повече за него!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -883,6 +874,13 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Това е Desktop или работният плот. Той показва папките и файловете, които  "
+"се намират във вашата <filename>Desktop</filename> директория и може да "
+"съдържа уиджети. Щракнете с десен бутон на мишката и изберете  "
+"<interface>Работен плот и тапети…</interface>, за да настроите външния "
+"изглед на работния плот. Можете също така да изберете <interface>Влизане в "
+"режим на редактиране</interface>, за да добавите, премахнете или променяте "
+"уиджетите."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -892,6 +890,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Това е “Панел”—контейнер за съхраняване на уиджети. Щракнете с десния бутон "
+"на мишката върху него и изберете <interface>Показване на конфигурацията на "
+"панела</interface>, за да промените поведението му, на кой край на екрана се "
+"намира, както и да добавяте, премахвате или променяте уиджети."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -901,6 +903,10 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Това е \"Kickoff\" - многофункционална стартова програма. Тук можете да "
+"стартирате приложения, да изключвате или рестартирате системата, да имате "
+"достъп до последните файлове и др. Щракнете върху нея, за да започнете "
+"работа!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -909,6 +915,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Това е \"Мениджър на задачите\", в който можете да превключвате между "
+"отворените приложения, както и да стартирате нови. Плъзнете иконите на "
+"приложенията, за да ги пренаредите."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -918,6 +927,10 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"Това е \"Системната област\", която ви позволява да управлявате системни "
+"функции, като промяна на силата на звука и свързване с мрежи. Елементите ще "
+"се виждат тук само когато са активни. За да видите всички налични елементи, "
+"щракнете върху стрелката."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -927,6 +940,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Това е \"Цифровият часовник\". Щракнете върху него, за да се покаже "
+"календар. Той може да бъде конфигуриран да показва и други часови зони и "
+"събития от вашите календари."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -936,12 +952,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Това е “Поглед върху работния плот”. Щракнете върху него, за да скриете "
+"временно всички отворени прозорци и да имате достъп до работния плот. "
+"Щракнете върху него отново, за да ги покажете обратно."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Разширяване на прозореца"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
