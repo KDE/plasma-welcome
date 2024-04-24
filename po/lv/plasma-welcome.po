@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-22 00:39+0000\n"
-"PO-Revision-Date: 2024-03-24 12:01+0200\n"
+"PO-Revision-Date: 2024-04-21 15:20+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -102,7 +102,7 @@ msgstr "Komanda <command>%1</command> neizdevās: %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Draudzīgs vednis ievadam „Plasma“"
 
 #: src/main.cpp:42
 #, kde-format
@@ -138,7 +138,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:69
 #, kde-format
@@ -348,42 +348,38 @@ msgid "Plasma 6 Supporters"
 msgstr "„Plasma 6“ atbalstītāji"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Pateicamies šiem cilvēkiem par mūsu atbalstīšanu „Plasma 6“ līdzekļu "
+"Pateicamies šiem atbalstītājiem par pievienošanos „Plasma 6“ līdzekļu "
 "vākšanas kampaņā:"
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Kārtot pēc nejaušības principa"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Kārtot pēc vārda"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Kārtot pēc datuma"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Filtrēt..."
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -643,18 +639,16 @@ msgid "Your system command center"
 msgstr "Jūsu sistēmas vadības centrs"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr "Atvērt iestatījumus..."
+msgstr "Sistēmas iestatījumi"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:116
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Konfigurēt sistēmu"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -816,12 +810,10 @@ msgstr ""
 "kombināciju <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
-msgstr "Atvērt iestatījumus..."
+msgstr "Sistēmas iestatījumi"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:219
 #, kde-kuit-format
@@ -832,6 +824,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"Sistēmas iestatījumu programma piedāvā paplašinātas pielāgošanas iespējas "
+"jūsu vēlmēm. Te atradīsiet daudz — noklusējuma programmas, ekrāntapetes, "
+"vizuālos stilus un ikonas, virtuālās darbvirsmas, energopārvaldību un trešo "
+"pušu pielikumus!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -840,16 +836,7 @@ msgid "Simple by Default"
 msgstr "Vienkārša pēc noklusējuma"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -858,10 +845,11 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
-"„Plasma“ veidojām, lai darba uzsākšana būtu vienkārša un saprotama. Viss "
-"atrodas paredzamās vietās un parasti produktīvam darbam sākotnēji to nav "
-"nepieciešams īpaši konfigurēt.<nl/><nl/>Ja jūtat tādu vajadzību, tad visu "
-"nepieciešamo atradīsiet <application>%1</application> programmā."
+"„Plasma“ veidojam, lai jau pašā sākumā darbs ar to būtu vienkāršs un "
+"saprotams. Viss atrodas paredzamās vietās un parasti produktīvam darbam to "
+"nav nepieciešams īpaši konfigurēt.<nl/><nl/>Zemāk ir tipiskas „Plasma“ "
+"darbvirsmas vizuāla reprezentācija — pārvietojiet uz tās peles kursoru vai "
+"klikšķiniet un redzamajiem objektiem, lai uzzinātu vairāk!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -873,6 +861,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Šī ir „darbvirsma“. Tajā ir redzamas datnes un mapes, kas atrodas jūsu "
+"<filename>Darbvirsmas</filename> mapē. Tāpat arī šajā vietā ir redzamas "
+"logdaļas. Spiediet uz tās ar peles labo pogu un izvēlieties <interface> "
+"Darbvirsma un ekrāntapete..</interface>, lai pielāgotu darbvirsmas izskatu. "
+"Tāpat varat izvēlēties <interface>Ieslēgt rediģēšanas režīmu</interface>, "
+"lai pievienotu, noņemtu vai izmainītu logdaļas."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -882,6 +876,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Šis ir „Panelis“ — konteineris, kas satur logdaļas. Spiediet uz tā ar peles "
+"labo pogu un izvēlieties <interface>Rādīt paneļa konfigurāciju</interface>, "
+"lai mainītu, kā tas izskatās, pie kuras ekrāna daļas tas atrodas, kā arī lai "
+"pievienotu, noņemtu vai izmainītu logdaļas."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -891,6 +889,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Šis ir „Palaidējs“. Šī logdaļa ļauj ieslēgt programmas, izslēgt un "
+"pārstartēt sistēmu, piekļūt nesen izmantotajām datnēm un daudz ko citu. "
+"Spiediet uz tās, lai sāktu darbu!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -899,6 +900,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Šīs ir „Uzdevumu pārvaldnieks“. Tā ir logdaļa, kas ļauj pārslēgties starp "
+"programmām un arī palaist jaunas. Tajā varat klikšķināt uz ikonām un vilkt, "
+"lai tās pārkārtotu."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -908,6 +912,10 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"Šī ir „Sistēmas ikonu josla“. Tā ir logdaļa, kas ļauj kontrolēt sistēmas "
+"funkcijas, piemēram, mainīt skaļumu un pievienoties tīkliem. Vienumi tajā ir "
+"redzami, kad tie ir svarīgi, bet, lai redzētu visus vienumus, spiediet uz "
+"bultiņas."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -917,6 +925,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Šis ir „Digitālais pulkstenis“. Spiediet uz tā, lai parādītu kalendāru. "
+"Tāpat varat to pielāgot, lai pulkstenī būtu redzamas laika joslas un "
+"notikumi no kalendāriem."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -926,12 +937,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Šī logdaļa saucas „Paraudzīties uz darbvirsmu“. Kad uz tās nospiedīsiet, uz "
+"laiku paslēpsies visi atvērtie logi, lai jūs varētu piekļūt darbvirsmai. "
+"Spiediet vēlreiz uz tās, lai logus atjaunotu."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Paplašināt logu"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
@@ -970,12 +984,10 @@ msgstr ""
 "un jaudīgu, kad vajadzīgs, lai ļautu paveikt visu. Ceram, ka jums patiks!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Uzņemšanas centrs"
+msgstr "Par uzņemšanas centru"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-22 00:39+0000\n"
-"PO-Revision-Date: 2024-03-18 10:11+0100\n"
+"PO-Revision-Date: 2024-04-19 18:54+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -101,7 +101,7 @@ msgstr "Il comando <command>%1</command> non è riuscito: %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Procedura guidata amichevole per il primo approccio a Plasma"
 
 #: src/main.cpp:42
 #, kde-format
@@ -137,7 +137,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:69
 #, kde-format
@@ -352,42 +352,38 @@ msgid "Plasma 6 Supporters"
 msgstr "Sostenitori di Plasma 6"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Ringraziamo le seguenti persone per averci supportato durante la campagna di "
-"raccolta fondi di Plasma 6:"
+"Ringraziamo i membri per averci supportato durante la campagna di raccolta "
+"fondi di Plasma 6:"
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Ordine casuale"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Ordina per nome"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Ordina per data"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Filtro…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -649,9 +645,7 @@ msgid "Your system command center"
 msgstr "Il centro di comando del tuo sistema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Impostazioni di sistema"
@@ -660,7 +654,7 @@ msgstr "Impostazioni di sistema"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Configura il sistema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -828,9 +822,7 @@ msgstr ""
 "+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "Impostazioni di sistema"
@@ -844,6 +836,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"L'applicazione Impostazioni di sistema ti consente di personalizzare "
+"ampiamente il sistema in base ai tuoi gusti e preferenze. Applicazioni "
+"predefinite, sfondi, stili e icone visivi, desktop virtuali, gestione "
+"dell'alimentazione, componenti aggiuntivi di terze parti: troverai tutto lì!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -852,16 +848,7 @@ msgid "Simple by Default"
 msgstr "Semplice per scelta"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -872,9 +859,9 @@ msgid ""
 msgstr ""
 "Plasma è progettato per essere semplice e utilizzabile immediatamente. Le "
 "cose sono dove ti aspetteresti e in genere non è necessario configurare "
-"nulla prima di poter essere comodo e produttivo.<nl/><nl/>Se ne senti il "
-"bisogno, troverai ciò di cui hai bisogno nell'applicazione <application>%1</"
-"application>."
+"nulla prima di poter essere comodo e produttivo.<nl/><nl/>Di seguito è "
+"riportata una rappresentazione visiva di un tipico desktop Plasma; sposta il "
+"puntatore sopra o fai clic su qualcosa per saperne di più!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -886,6 +873,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Questo è il «Desktop». Mostra i file e le cartelle contenuti nella cartella "
+"<filename>Desktop</filename> e può contenere oggetti. Fai clic destro su di "
+"esso e scegli <interface>Desktop e sfondo…</interface> per configurare "
+"l'aspetto del desktop. Puoi anche scegliere <interface>Entra in modalità "
+"modifica</interface> per aggiungere, rimuovere o modificare gli oggetti."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -895,6 +887,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Questo è un «Pannello», un contenitore per contenere gli oggetti. Fai clic "
+"con il tasto destro su di esso e scegli <interface>Mostra la configurazione "
+"del pannello</interface> per cambiare il suo comportamento, su quale bordo "
+"dello schermo si trova e per aggiungere, rimuovere o modificare gl oggetti."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -904,6 +900,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Questo è l'oggetto «Kickoff», un avviatore multiuso. Qui puoi avviare "
+"applicazioni, spegnere o riavviare il sistema, accedere ai file recenti e "
+"altro ancora. Fai clic su di esso per iniziare!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -912,6 +911,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Questo è l'oggetto «Task Manager», dove puoi passare da un'applicazione "
+"aperta all'altra e anche avviarne di nuove. Trascina le icone delle "
+"applicazioni per riorganizzarle."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -921,6 +923,10 @@ msgid ""
 "like changing the volume and connecting to networks. Items will become "
 "visible here only when relevant. To see all available items, click the arrow."
 msgstr ""
+"Questo è l'oggetto «Vassoio di sistema», che ti consente di controllare le "
+"funzioni del sistema come la modifica del volume e la connessione alle reti. "
+"Gli elementi diventeranno visibili qui solo quando pertinenti. Per vedere "
+"tutti gli elementi disponibili, fai clic sulla freccia."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -930,6 +936,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Questo è l'oggetto «Orologio digitale». Fai clic su di esso per visualizzare "
+"un calendario. Può anche essere configurato per mostrare altri fusi orari ed "
+"eventi dai tuoi calendari digitali."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -939,12 +948,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Questo è l'oggetto «Dai un'occhiata al desktop». Fai clic su di esso per "
+"nascondere temporaneamente tutte le finestre aperte in modo da poter "
+"accedere al desktop. Fai di nuovo clic su di esso per ripristinarle."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Espandi la finestra"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
@@ -986,12 +998,10 @@ msgstr ""
 "ti piaccia!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Centro di benvenuto"
+msgstr "Informazioni su Centro di benvenuto"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
