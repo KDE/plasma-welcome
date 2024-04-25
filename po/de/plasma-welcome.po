@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the plasma-welcome package.
 # Jannick Kuhr <opensource@kuhr.org>, 2023.
 # Frederik Schwarzer <schwarzer@kde.org>, 2023.
-# SPDX-FileCopyrightText: 2023 Johannes Obermayr <johannesobermayr@gmx.de>
+# SPDX-FileCopyrightText: 2023, 2024 Johannes Obermayr <johannesobermayr@gmx.de>
 #
 # Automatically generated, 2022.
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-22 00:39+0000\n"
-"PO-Revision-Date: 2023-12-21 18:35+0100\n"
+"PO-Revision-Date: 2024-04-24 00:13+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -85,13 +85,13 @@ msgstr "%1 Beta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "Der Befehl <command>%1</command> kann nicht gefunden werden."
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Keine Fehlernachricht vorhanden"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -99,13 +99,13 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "Der Befehl <command>%1</command> ist fehlgeschlagen: %2"
 
 #: src/main.cpp:37
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Der freundliche Begrüßungsassistent für Plasma"
 
 #: src/main.cpp:42
 #, kde-format
@@ -141,7 +141,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:69
 #, kde-format
@@ -158,13 +158,13 @@ msgstr ""
 #: src/main.cpp:71
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr ""
+msgstr "Echtzeitseite für Echtzeitumgebungen von Distributionen anzeigen."
 
 #: src/module.cpp:72
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Unbekanntes Modul %1 angefragt"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -175,7 +175,7 @@ msgstr "%1 jetzt starten"
 #: src/qml/common/KCMPage.qml:79
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Das Einstellungsmodul kann nicht geladen werden"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -217,35 +217,31 @@ msgstr "&OK"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Fehler beim Laden der Seite"
 
 #: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Probleme oder Wünsche berichten"
+msgstr "Probleme oder Wünsche berichten …"
 
 #: src/qml/PageError.qml:28
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "kde-i18n-de@kde.org"
+msgstr "Details kopieren"
 
 #: src/qml/PageError.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "Diese Seite Ihrer Distribution kann nicht geladen werden"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "Diese Seite des Begrüßungsassistenten kann nicht geladen werden"
 
 #: src/qml/pages/Contribute.qml:16
 #, kde-format
@@ -359,42 +355,38 @@ msgid "Plasma 6 Supporters"
 msgstr "Unterstützer von Plasma 6"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
-"Wir danken den folgenden Personen für die Unterstützung während der "
-"Spendenkampagne für Plasma 6:"
+"Wir danken den folgenden unterstützenden Mitgliedern für den Beitritt "
+"während der Spendenkampagne für Plasma 6:"
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Zufällig sortieren"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Nach Namen sortieren"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Nach Datum sortieren"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Filter …"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -420,34 +412,25 @@ msgid "Welcome to %1!"
 msgstr "Willkommen zu %1!"
 
 #: src/qml/pages/Live.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Pressing the icon below will begin installing %1. Alternatively, you can "
-#| "close the window to explore the live environment or continue here to find "
-#| "out about KDE Plasma."
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Pressing the icon below will begin installing %1. Alternatively, you can "
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
-"Durch den Klick auf das Symbol unterhalb wird die Installation von %1 "
-"gestartet. Sie können auch das Fenster zum Entdecken der Echtzeitumgebung "
+"Durch das Drücken des unteren Symbols wird mit der Installation von %1 "
+"begonnen. Sie können auch das Fenster zum Erkunden der Echtzeitumgebung "
 "schließen oder für weitere Informationen zu KDE Plasma hier fortfahren."
 
 #: src/qml/pages/Live.qml:24
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "You can close the window to explore the live environment or continue here "
-#| "to find out about KDE Plasma."
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
-"Sie können das Fenster zum Entdecken der Echtzeitumgebung schließen oder für "
+"Sie können das Fenster zum Erkunden der Echtzeitumgebung schließen oder für "
 "weitere Informationen zu KDE Plasma hier fortfahren."
 
 #: src/qml/pages/Live.qml:30
@@ -481,7 +464,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Die Netzwerkunterstützung von Plasma ist zurzeit nicht installiert"
 
 #: src/qml/pages/Network.qml:75
 #, kde-kuit-format
@@ -490,25 +473,23 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Zum Verwalten der Netzwerkverbindungen benötigt Plasma ein installiertes "
+"<icode>plasma-nm</icode>. Bitte berichten Sie diesen Umstand an %1."
 
 #: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Sie sind verbunden"
 
 #: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Die Verwendung ist möglich."
 
 #: src/qml/pages/Network.qml:258
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -516,13 +497,14 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Diese Seite wird unabhängig von einer aktiven Netzwerkverbindung gezeigt, da "
-"Sie eine Entwicklungsversion verwenden."
+"Sie eine Entwicklungsversion verwenden.Zur manuellen Anzeige der "
+"unterschiedlichen Status kann der Knopf verwendet werden."
 
 #: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Status ändern"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
@@ -1006,12 +988,10 @@ msgstr ""
 "werden wollen. Wir hoffen, dass Sie sie lieben werden!"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Begrüßungsassistent"
+msgstr "Über Begrüßungsassistent"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
