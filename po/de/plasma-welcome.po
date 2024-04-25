@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the plasma-welcome package.
 # Jannick Kuhr <opensource@kuhr.org>, 2023.
 # Frederik Schwarzer <schwarzer@kde.org>, 2023.
-# SPDX-FileCopyrightText: 2023 Johannes Obermayr <johannesobermayr@gmx.de>
+# SPDX-FileCopyrightText: 2023, 2024 Johannes Obermayr <johannesobermayr@gmx.de>
 #
 # Automatically generated, 2022.
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-24 02:57+0000\n"
-"PO-Revision-Date: 2023-12-21 18:35+0100\n"
+"PO-Revision-Date: 2024-04-24 00:13+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -213,34 +213,25 @@ msgid "Welcome to %1!"
 msgstr "Willkommen zu %1!"
 
 #: src/contents/ui/pages/Live.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "Pressing the icon below will begin installing %1. Alternatively, you can "
-#| "close the window to explore the live environment or continue here to find "
-#| "out about KDE Plasma."
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Pressing the icon below will begin installing %1. Alternatively, you can "
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
-"Durch den Klick auf das Symbol unterhalb wird die Installation von %1 "
-"gestartet. Sie können auch das Fenster zum Entdecken der Echtzeitumgebung "
+"Durch das Drücken des unteren Symbols wird mit der Installation von %1 "
+"begonnen. Sie können auch das Fenster zum Erkunden der Echtzeitumgebung "
 "schließen oder für weitere Informationen zu KDE Plasma hier fortfahren."
 
 #: src/contents/ui/pages/Live.qml:24
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "You can close the window to explore the live environment or continue here "
-#| "to find out about KDE Plasma."
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
-"Sie können das Fenster zum Entdecken der Echtzeitumgebung schließen oder für "
+"Sie können das Fenster zum Erkunden der Echtzeitumgebung schließen oder für "
 "weitere Informationen zu KDE Plasma hier fortfahren."
 
 #: src/contents/ui/pages/Live.qml:30
@@ -319,18 +310,14 @@ msgid "Help work on the next release"
 msgstr "Bei der Arbeit an der nächsten Veröffentlichung helfen"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:18
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE contributors have spent the last four months hard at work on this "
-#| "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE contributors have spent the last year hard at work on this release. We "
 "hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"Die an KDE Mitwirkenden haben in den letzten vier Monaten harte Arbeit in "
-"diese Veröffentlichung investiert. Wir hoffen, dass Sie soviel Spaß an der "
+"Die an KDE Mitwirkenden haben im letzten Jahr harte Arbeit in diese "
+"Veröffentlichung investiert. Wir hoffen, dass Sie soviel Spaß an der "
 "Verwendung von Plasma haben werden, wie wir an der Entwicklung hatten!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
@@ -832,7 +819,7 @@ msgstr ""
 #: src/main.cpp:73
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr ""
+msgstr "Echtzeitseite für Echtzeitumgebungen von Distributionen anzeigen."
 
 #: src/qml/ApplicationIcon.qml:39
 #, kde-format
