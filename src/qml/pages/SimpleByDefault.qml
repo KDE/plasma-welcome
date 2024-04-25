@@ -42,7 +42,7 @@ GenericPage {
                 explanatoryLabel.text = i18nc("@info", "This is the “Task Manager” widget, where you can switch between open apps and also launch new ones. Drag app icons to re-arrange them.");
                 break;
             case mockTray:
-                explanatoryLabel.text = i18nc("@info", "This is the “System Tray” widget, which lets you control system functions like changing the volume and connecting to networks. Items will become visible here only when relevant. To see all available items, click the arrow.");
+                explanatoryLabel.text = i18nc("@info", "This is the “System Tray” widget, which lets you control system functions like changing the volume and connecting to networks. Items will become visible here only when relevant. To see all available items, click the ⌃ arrow next to the clock.");
                 break;
             case mockClock:
                 explanatoryLabel.text = i18nc("@info", "This is the “Digital Clock” widget. Click on it to show a calendar. It can be also configured to show other timezones and events from your digital calendars.");
