@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-26 00:39+0000\n"
-"PO-Revision-Date: 2024-04-19 17:33+0300\n"
+"PO-Revision-Date: 2024-04-26 16:21+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -921,13 +921,7 @@ msgstr ""
 "програм, щоб змінити порядок їхнього показу."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the "
-#| "arrow."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -939,7 +933,7 @@ msgstr ""
 "функціональними можливостями системи, зокрема змінювати гучність та "
 "встановлювати з'єднання з мережами. Пункти лотка будуть видимими, лише якщо "
 "їхній показ має сенс. Щоб переглянути усі доступні пункти, натисніть на "
-"кнопку зі стрілочкою."
+"кнопку зі стрілочкою ^ поряд із панеллю годинника."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format

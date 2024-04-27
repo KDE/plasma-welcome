@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-26 00:39+0000\n"
-"PO-Revision-Date: 2024-04-19 13:56+0300\n"
+"PO-Revision-Date: 2024-04-26 13:46+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.04.70\n"
+"X-Generator: Lokalize 24.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -919,13 +919,7 @@ msgstr ""
 "düzenlemek için onları sürükleyin."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the "
-#| "arrow."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -935,8 +929,8 @@ msgid ""
 msgstr ""
 "Bu, ses düzeyini değiştirmek veya ağlara bağlanmak gibi işlemler için "
 "kullanabileceğiniz “Sistem Tepsisi” araç takımıdır. Ögeler yalnızca "
-"kendilerini ilgilendiren bir durum varsa burada görünürler, aksi takdirde ok "
-"simgesinin altındaki panelde gizlenirler."
+"kendilerini ilgilendiren bir durum varsa burada görünürler. Tüm "
+"kullanılabilir ögeleri görmek için saatin yanındaki ok simgesine tıklayın."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
