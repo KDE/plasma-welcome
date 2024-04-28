@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-26 00:39+0000\n"
-"PO-Revision-Date: 2024-04-21 10:50+0200\n"
+"PO-Revision-Date: 2024-04-27 10:27+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -913,13 +913,7 @@ msgstr ""
 "recolocalas."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the "
-#| "arrow."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -929,7 +923,8 @@ msgid ""
 msgstr ""
 "Este é o trebello de «área de notificacións», que lle permite controlar "
 "funcións do sistema como cambiar o volume e conectar a redes. Só se amosarán "
-"os elementos relevantes. Prema a frecha para ver os elementos dispoñíbeis."
+"os elementos relevantes. Prema a frecha ⌃ canda o reloxo para ver os "
+"elementos dispoñíbeis."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format

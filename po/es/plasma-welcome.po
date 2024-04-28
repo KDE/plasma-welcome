@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-26 00:39+0000\n"
-"PO-Revision-Date: 2024-04-22 01:56+0200\n"
+"PO-Revision-Date: 2024-04-28 01:01+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -921,13 +921,7 @@ msgstr ""
 "para organizarlos."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the "
-#| "arrow."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -938,7 +932,7 @@ msgstr ""
 "Esta es la «Bandeja del sistema», que le permite controlar funciones del "
 "sistema, como cambiar el volumen y conectarse a redes. Los elementos solo "
 "serán visibles cuando sean relevantes. Para ver todos los elementos "
-"disponibles, pulse la flecha."
+"disponibles, pulse la flecha ^ que hay junto al reloj."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
