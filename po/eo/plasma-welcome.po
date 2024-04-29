@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-24 02:57+0000\n"
-"PO-Revision-Date: 2023-11-2922:05+0100\n"
+"PO-Revision-Date: 2024-04-27 17:28+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -300,18 +300,12 @@ msgid "Help work on the next release"
 msgstr "Helpi labori pri la sekva eldono"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:18
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE contributors have spent the last four months hard at work on this "
-#| "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE contributors have spent the last year hard at work on this release. We "
 "hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"KDE-kontribuantoj pasigis la lastajn kvar monatojn laborante pri ĉi tiu "
-"eldono. Ni esperas, ke vi ĝuas uzi Plasmon tiom kiom ni ĝuis fari ĝin!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -371,7 +365,7 @@ msgstr "Apartigi laborajn, lernejajn aŭ hejmajn taskojn"
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr "KDE Konekti"
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:85
 #, kde-format
