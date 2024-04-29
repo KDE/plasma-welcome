@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-26 00:39+0000\n"
-"PO-Revision-Date: 2024-04-13 18:53+0200\n"
+"PO-Revision-Date: 2024-04-28 12:06+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -640,9 +640,7 @@ msgid "Your system command center"
 msgstr "Ośrodek sterowania twoim systemem"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Ustawienia systemowe"
@@ -651,7 +649,7 @@ msgstr "Ustawienia systemowe"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Ustawienia systemu"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -816,9 +814,7 @@ msgstr ""
 "poprzez skrót klawiszowy <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "Ustawienia systemowe"
@@ -832,6 +828,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"Ustawienia Systemowe dają wiele możliwości dostosowania systemu do "
+"zachowania takiego jak lubisz. Domyślne aplikacje, tapety, wygląd i ikony, "
+"pulpity wirtualne, zarządzanie energią, dodatki od twórców—to wszystko tutaj "
+"jest!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -840,16 +840,7 @@ msgid "Simple by Default"
 msgstr "Domyślnie prosta"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -860,9 +851,9 @@ msgid ""
 msgstr ""
 "Plazma jest stworzona z myślą o tym, aby być prostą i używalną zaraz po jej "
 "wgraniu. Rzeczy w niej znajdują się tam, gdzie się ich oczekuje i zazwyczaj "
-"nie trzeba niczego ustawiać do wygodnej i wydajnej pracy.<nl/><nl/>Jeśli "
-"jednak zajdzie taka potrzeba, to możesz to zrobić w <application>%1</"
-"application>."
+"nie trzeba niczego ustawiać do wygodnej i wydajnej pracy.<nl/><nl/>Poniżej "
+"przedstawiamy zwyczajowy Pulpit Plazmy; najedź na niego wskaźnikiem myszy "
+"lub naciśnij na dowolnej rzeczy, aby dowiedzieć się o niej więcej!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -874,6 +865,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"To jest \"Pulpit\". Pokazuje pliki i katalogi znajdujące się w twoim "
+"katalogu o nazwie <filename>Pulpit</filename>, a także może zawierać rzeczy "
+"do obsługi systemu. Naciśnij na nim prawym przyciskiem myszy i z menu "
+"wybierz <interface>Ustawienia pulpitu i tapety…</interface>, aby dostosować "
+"jego wygląd. Możesz także wybrać <interface>Wejdź do trybu dostosowywania</"
+"interface> aby dodać, usunąć lub zmienić rzeczy znajdujące się na nim."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -883,6 +880,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"To jest “Pasek”—pojemnik do przechowywania rzeczy do obsługi. Naciśnij na "
+"nim prawy i wybierz <interface>Pokaż ustawienia paska</interface>, aby "
+"zmienić jego zachowanie, na jakiej krawędzie ekranu przebywa, a także aby "
+"dodać, usunąć lub zmienić rzeczy w nim się znajdujące."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -892,6 +893,10 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"To jest \"Kickoff\", czyli uruchamiacz programów o wielu przeznaczeniach. "
+"Dzięki niemu możesz uruchomić aplikację, zamknąć lub ponownie uruchomić "
+"system, uzyskać dostęp do ostatnio otwieranych plików, itp. Naciśnij na "
+"niego, aby zacząć z niego korzystać."
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -900,6 +905,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"To jest \"Zarządzanie zadaniami\", gdzie możesz przełączać pomiędzy "
+"otwartymi aplikacjami, a także uruchamiać nowe. Aby zmienić ułożenie ikon "
+"aplikacji, wystarczy, że je przeciągniesz."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -910,6 +918,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"To jest \"Zasobnik systemowy\", który umożliwia sterowanie częściami systemu "
+"takimi jak głośność, a także łączenie się do sieci. Rzeczy będą się tutaj "
+"pojawiać wtedy, gdy będą potrzebne. Aby zobaczyć wszystkie dostępne rzeczy, "
+"naciśnij na strzałce⌃obok zegara."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -919,6 +931,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"To jest \"Zegar cyfrowy\". Naciśnij na niego, aby pokazać kalendarz. Można "
+"go także ustawić do tego, aby pokazywał inne strefy czasowe i wydarzenia z "
+"twojego kalendarza cyfrowego."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -928,12 +943,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"To jest \"Podgląd pulpitu\". Naciśnij na niego, aby tymczasowo ukryć "
+"wszystkie otwarte okna tak, aby zyskać dostęp do pulpitu. Naciśnij na niego "
+"ponownie, aby przywrócić ukryte okna."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Rozwiń okno"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
