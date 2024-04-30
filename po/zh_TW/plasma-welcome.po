@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-26 00:39+0000\n"
-"PO-Revision-Date: 2024-03-20 18:05+0900\n"
+"PO-Revision-Date: 2024-04-29 18:36+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -101,7 +101,7 @@ msgstr "命令 <command>%1</command> 失敗：%2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Plasma 用的友善介紹精靈"
 
 #: src/main.cpp:42
 #, kde-format
@@ -137,7 +137,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:69
 #, kde-format
@@ -341,40 +341,36 @@ msgid "Plasma 6 Supporters"
 msgstr "Plasma 6 贊助者"
 
 #: src/qml/pages/donate/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for joining us in the Plasma 6 "
 "fundraising campaign:"
-msgstr "我們誠心感謝以下善心人士在 Plasma 6 的募款活動中支援我們："
+msgstr "我們誠心感謝以下支持者響應 Plasma 6 的募款活動："
 
 #: src/qml/pages/donate/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "隨機排序"
 
 #: src/qml/pages/donate/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "依名稱排序"
 
 #: src/qml/pages/donate/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "依日期排序"
 
 #: src/qml/pages/donate/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "過濾…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -626,9 +622,7 @@ msgid "Your system command center"
 msgstr "您的系統控制中心"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "系統設定"
@@ -637,7 +631,7 @@ msgstr "系統設定"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "調整系統設定"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -787,9 +781,7 @@ msgstr ""
 "用 <shortcut>Meta+W</shortcut> 鍵盤快捷鍵開啟總覽。"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "系統設定"
@@ -803,6 +795,8 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"系統設定應用程式讓您詳細地將系統調整成符合您的喜好的樣子。預設應用程式、桌"
+"布、視覺風格與圖示、虛擬桌面、電源管理、第三方外掛程式等等——全部都在這裡！"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -811,16 +805,7 @@ msgid "Simple by Default"
 msgstr "預設簡潔"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -830,8 +815,8 @@ msgid ""
 "on something to learn about it!"
 msgstr ""
 "Plasma 設計為預設簡潔、開箱即可使用。東西會在您預期的地方，基本上不需要調整任"
-"何設定就能感到習慣並有生產力。<nl/><nl/>當您感覺需要調整時，您會在"
-"<application>%1</application>應用程式裡找到您需要的設定。"
+"何設定就能感到習慣並有生產力。<nl/><nl/>以下是一個普通 Plasma 桌面的範例：讓"
+"游標停在項目上面或是點擊項目來瞭解更多吧！"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -843,6 +828,10 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"這是「桌面」。它會顯示位於您的<filename>桌面</filename>資料夾中的檔案與資料"
+"夾，並且可以放置小工具。在桌面上按右鍵並選擇<interface>桌面與桌布…</"
+"interface>來調整桌面的外觀設定。您也可以選擇<interface>進入編輯模式</"
+"interface>來新增、移除或變更小工具。"
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -852,6 +841,9 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"這是一個「面板」——用來放置元件的地方。在面板上按右鍵並選擇<interface>顯示面板"
+"設定</interface>來調整它的行為、它應該要附屬於哪個螢幕邊緣，或是來新增、移除"
+"或變更元件。"
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -861,6 +853,8 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"這是「Kickoff」元件，它是一個多功能的啟動器。在這裡您可以啟動應用程式、關機或"
+"重新啟動、存取最近的檔案等等。按下它來試試看吧！"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -869,6 +863,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"這是「工作管理員」元件，讓您可以在已開啟的應用程式中切換，或是啟動別的應用程"
+"式。應用程式可以拖曳來重新排序。"
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -879,6 +875,8 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"這是「系統匣」元件，它讓您調整系統的功能，例如音量與網路連線。項目只有在有關"
+"的時候才會顯示。要檢視所有可用的項目，請點擊時鐘旁邊的 ⌃ 箭頭。"
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -888,6 +886,8 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"這是「數位時鐘」元件。點擊它會顯示行事曆。它也能夠設定來顯示其他時區的時間，"
+"或是在行事曆中顯示您的電子行事曆的活動。"
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -897,12 +897,14 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"這是「看一下桌面」元件。點擊它會暫時隱藏所有開啟的視窗，讓您能夠使用桌面上的"
+"東西。再點擊它一次會將視窗復原。"
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "展開視窗"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
@@ -939,12 +941,10 @@ msgstr ""
 "提供順暢的體驗，但需要時足夠強大，幫助您把事情做好。我們希望您喜歡它！"
 
 #: src/qml/pages/Welcome.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "歡迎中心"
+msgstr "關於《歡迎中心》"
 
 #: src/qml/pages/Welcome.qml:43
 #, kde-format
