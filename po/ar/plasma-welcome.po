@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-26 00:39+0000\n"
-"PO-Revision-Date: 2024-04-18 13:58+0400\n"
+"PO-Revision-Date: 2024-05-02 11:12+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -630,9 +630,7 @@ msgid "Your system command center"
 msgstr "مركز عمليات نظامك"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:115
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "إعدادات النّظام"
@@ -641,7 +639,7 @@ msgstr "إعدادات النّظام"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "اضبط النظام"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:123
 #, kde-format
@@ -799,9 +797,7 @@ msgstr ""
 "لوحة المفاتيح <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "إعدادات النّظام"
@@ -823,16 +819,7 @@ msgid "Simple by Default"
 msgstr "بسيطة المظهر"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -843,8 +830,8 @@ msgid ""
 msgstr ""
 "صُممت بلازما لتكون بسيطة وقابلة للاستخدام دون تدخل منك. كل الأشياء في المكان "
 "الذي تتوقعه، وليس هناك حاجة -عمومًا- لضبط أي شيء قبل أن تكون مريحًا ومنتجًا. "
-"<nl/> <nl/> إذا شعرت بالحاجة إلى التدخل، ستجد ما تحتاجه في تطبيق  "
-"<application> %1</application>."
+"<nl/><nl/>فيما يلي تمثيل مرئي لسطح مكتب بلازما نموذجي؛ حرك المؤشر أو انقر "
+"على شيء ما للتعرف عليه!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -915,7 +902,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "وسّع النافذة"
 
 #: src/qml/pages/Welcome.qml:17
 #, kde-format
