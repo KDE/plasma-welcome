@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-26 00:39+0000\n"
-"PO-Revision-Date: 2024-04-28 17:40+0530\n"
+"PO-Revision-Date: 2024-05-05 15:33+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -728,7 +728,7 @@ msgid "KRunner"
 msgstr "கேரன்னர்"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:193
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
 "keywords as they are localized in the actual runner plugins. If needed, "
@@ -747,6 +747,17 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner is Plasma's exceptionally powerful and versatile search system. It "
+"powers the search functionality in the Application Launcher menu and the "
+"Overview screen, and it can be accessed as a standalone search bar using the "
+"<shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
+"finding your files and folders, KRunner can launch apps, search the web, "
+"convert between currencies, calculate math problems, and a lot more. Try "
+"typing any of the following into one of those search fields:<nl/><list><item>"
+"\"time los angeles\"</item><item>\"27/3\"</item><item>\"200 EUR > USD\"</"
+"item><item>\"25 miles > km\"</item><item>…And much more!</item></list><nl/"
+">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
+"shortcut> keyboard shortcut and click on the question mark icon."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:209
 #, kde-format
@@ -765,6 +776,11 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"திறந்துள்ள அனைத்து சாளரங்களையும் எளிதில் அணுகக்கூடிய வகையில் மேலோட்டம் அவற்றைக் காட்டும்.  "
+"மேலும், மெய்நிகர் பணிமேடைகளுக்கிடையே தாவவும், அவற்றை நீக்கவும் சேர்க்கவும் வசதியான "
+"முறையில் மெய்நிகர் பணிமேடைகளையும் காட்டும். திறந்துள்ள சாளரங்களை வடிகட்டி காட்ட உதவும் "
+"உரைப்பெட்டியையும் இது கொண்டிருக்கும்.<nl/><nl/><shortcut>Meta+W</shortcut> எனும் "
+"விசைச்சுருக்கவழியைக் கொண்டு மேலோட்டத்தை அணுகலாம்."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:218
 #, kde-format
@@ -781,6 +797,9 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"கணினி அமைப்புகள் செயலியில் உங்கள் விருப்பத்திற்கேற்ப கணினியை மாற்றியமைக்கலாம். "
+"இயல்பிருப்பு செயலிகள், பின்புலப் படங்கள், தோற்றத்திட்டங்கள், சின்னங்கள், மெய்நிகர் பணிமேடைகள், "
+"ஆற்றல் மேலாண்மை, மூன்றாம் தரப்பினரின் நீட்சிகள் — இவை அனைத்தையும் இங்கு அமைக்கலாம்!"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -813,6 +832,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"இது 'பணிமேடை' எனப்படும். உங்கள் <filename>பணிமேடை</filename> அடைவிலுள்ள "
+"கோப்புகளையும் அடைவுகளையும் காட்டுவதுடன், பிளாஸ்மாய்டுகளையும் இது கொள்ளலாம். இதன் "
+"தோற்றத்தை அமைக்க, இதில் வலது-கிளிக் செய்து <interface>பின்புலமும் பணிமேடையும்…</"
+"interface> என்பதைத் தேர்வு செய்யவும். பிளாஸ்மாய்டுகளை சேர்க்க, நீக்க, அல்லது திருத்த "
+"<interface>திருத்தும் பயன்முறையில் நுழை</interface> என்பதைத் தேர்வு சேய்யவும்."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -822,6 +846,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"இந்த 'பலகை' என்பதில் பிளாஸ்மாய்டுகளை சேர்க்கலாம். இதன் நடத்தையை மாற்றவோ, திரையின் எந்த "
+"ஓரத்தில் இருக்கும் என்பதை அமைக்கவோ, பிளாஸ்மாய்டுகளை சேர்க்கவோ நீக்கவோ ஏற்கனவேயுள்ள "
+"பிளாஸ்மாய்டுகளைத் திருத்தவோ இதில் வலது-கிளிக் செய்து <interface>பலகை அமைப்புகளைக் "
+"காட்டு</interface> என்பதைத் தேர்ந்தெடுக்கவும்."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -831,6 +859,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"இது 'கிக்காஃப்' எனப்படும் பல்திறன் ஏவியாகும். செயலிகளைத் திறப்பது, கணினியை "
+"நிறுத்துவது, மற்றும் கணினியை மீள்துவக்குவது போன்றவற்றிற்கு இது உதவும். பயன்படுத்த இதில் "
+"கிளிக் செய்யவும்."
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -839,6 +870,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"இது, திறந்துள்ள செயலிகளை கையாளவும் புதியவற்றைத் திறக்கவும் உதவும் 'பணி மேலாளி' "
+"பிளாஸ்மாய்டு ஆகும். சின்னங்களின் வரிசையை மாற்ற அவற்றை இழுக்கலாம்."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -872,6 +905,9 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"இது 'பணிமேடையைக் காட்டு' பிளாஸ்மாய்டு ஆகும். திறந்துள்ள அனைத்து சாளரங்களையும் "
+"தற்காலிகமாக மறைத்து பணிமேடையைக் காட்ட இதைக் கிளிக் செய்யலாம். சாளரங்களைத் திரும்பப்பெற "
+"இதை மறுபடியும் கிளிக் செய்யவும்."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
