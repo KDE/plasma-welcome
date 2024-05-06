@@ -33,6 +33,7 @@ ecm_target_qml_sources(plasma-welcome
     qml/footers/FooterUpdate.qml
 
     qml/mock/MockDesktop.qml
+    qml/mock/MockKRunner.qml
     qml/mock/MockPanel.qml
     qml/mock/panel/MockAppletBase.qml
     qml/mock/panel/MockKickoffApplet.qml
