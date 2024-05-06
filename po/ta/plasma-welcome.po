@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-24 02:57+0000\n"
-"PO-Revision-Date: 2024-04-28 17:36+0530\n"
+"PO-Revision-Date: 2024-05-05 15:33+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -498,7 +498,7 @@ msgid "KRunner"
 msgstr "கேரன்னர்"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:194
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
 "keywords as they are localized in the actual runner plugins. If needed, "
@@ -517,6 +517,17 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner is Plasma's exceptionally powerful and versatile search system. It "
+"powers the search functionality in the Application Launcher menu and the "
+"Overview screen, and it can be accessed as a standalone search bar using the "
+"<shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
+"finding your files and folders, KRunner can launch apps, search the web, "
+"convert between currencies, calculate math problems, and a lot more. Try "
+"typing any of the following into one of those search fields:<nl/><list><item>"
+"\"time los angeles\"</item><item>\"27/3\"</item><item>\"200 EUR > USD\"</"
+"item><item>\"25 miles > km\"</item><item>…And much more!</item></list><nl/"
+">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
+"shortcut> keyboard shortcut and click on the question mark icon."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
@@ -535,6 +546,11 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"திறந்துள்ள அனைத்து சாளரங்களையும் எளிதில் அணுகக்கூடிய வகையில் மேலோட்டம் அவற்றைக் காட்டும்.  "
+"மேலும், மெய்நிகர் பணிமேடைகளுக்கிடையே தாவவும், அவற்றை நீக்கவும் சேர்க்கவும் வசதியான "
+"முறையில் மெய்நிகர் பணிமேடைகளையும் காட்டும். திறந்துள்ள சாளரங்களை வடிகட்டி காட்ட உதவும் "
+"உரைப்பெட்டியையும் இது கொண்டிருக்கும்.<nl/><nl/><shortcut>Meta+W</shortcut> எனும் "
+"விசைச்சுருக்கவழியைக் கொண்டு மேலோட்டத்தை அணுகலாம்."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
 #, kde-format
