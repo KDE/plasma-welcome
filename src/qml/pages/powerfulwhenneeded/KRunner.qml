@@ -21,7 +21,7 @@ GenericPage {
 
     actions: [
         Kirigami.Action {
-            icon.name: "preferences-desktop-activities"
+            icon.name: "krunner"
             text: i18nc("@action:button", "Open Settings…")
             onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_plasmasearch")
         }
@@ -49,7 +49,8 @@ GenericPage {
                     anchors.verticalCenter: position == Qt.AlignCenter ? parent.verticalCenter : undefined
                     anchors.top: position == Qt.AlignCenter ? undefined : parent.top
 
-                    width: Math.min(Math.round(mockDesktop.width / 1.5), implicitWidth)
+                    width: Math.min(mockDesktop.width - (Kirigami.Units.gridUnit * 2), implicitWidth)
+                    height: Math.min(mockDesktop.height - Kirigami.Units.gridUnit, implicitHeight)
                 }
             }
         }
