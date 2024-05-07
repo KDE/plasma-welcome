@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-26 00:39+0000\n"
+"POT-Creation-Date: 2024-05-07 00:40+0000\n"
 "PO-Revision-Date: 2024-03-07 09:54+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -567,13 +567,13 @@ msgstr ""
 "adományok a szélesebb KDE közösséget is támogatják, és Ön is tehet valamit, "
 "ha még ma adományoz!"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:18
+#: src/qml/pages/PowerfulWhenNeeded.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Hatékony, amikor szükséges"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:19
+#: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -584,25 +584,49 @@ msgstr ""
 "felturbózza a hatékonyságát! Íme egy kis ízelítő azokból a dolgokból, amikre "
 "képes:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:63
+#: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
-msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-msgid "Vaults"
-msgstr "Titkos tárolók"
+msgctxt "@title:row Name of the 'Overview' KWin effect"
+msgid "Overview"
+msgstr "Áttekintés"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:64
+#: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
-msgctxt "@info Caption for Plasma Vaults button"
-msgid "Store sensitive files securely"
-msgstr "Érzékeny fájlok biztonságos tárolása"
+msgctxt "@info Caption for Overview button"
+msgid "Your system command center"
+msgstr "A rendszer parancsnoki központja"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:73
+#: src/qml/pages/PowerfulWhenNeeded.qml:66
+#, kde-format
+msgctxt "@title:row"
+msgid "KRunner"
+msgstr "KRunner"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:67
+#, kde-format
+msgctxt "@info Caption for KRunner button"
+msgid "Search for anything"
+msgstr "Keresés bármire"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:77
+#, kde-format
+msgctxt "@title:row Name of the 'KDE Connect' feature"
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:78
+#, kde-format
+msgctxt "@info Caption for KDE Connect button"
+msgid "Connect your phone and your computer"
+msgstr "Kösse össze telefonját és számítógépét"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:89
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Aktivitások"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:74
+#: src/qml/pages/PowerfulWhenNeeded.qml:90
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -610,43 +634,19 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Válassza szét munkahelyi, iskolai és otthoni tevékenységeit"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:83
+#: src/qml/pages/PowerfulWhenNeeded.qml:100
 #, kde-format
-msgctxt "@title:row Name of the 'KDE Connect' feature"
-msgid "KDE Connect"
-msgstr "KDE Connect"
+msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
+msgid "Vaults"
+msgstr "Titkos tárolók"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:84
+#: src/qml/pages/PowerfulWhenNeeded.qml:101
 #, kde-format
-msgctxt "@info Caption for KDE Connect button"
-msgid "Connect your phone and your computer"
-msgstr "Kösse össze telefonját és számítógépét"
+msgctxt "@info Caption for Plasma Vaults button"
+msgid "Store sensitive files securely"
+msgstr "Érzékeny fájlok biztonságos tárolása"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:95
-#, kde-format
-msgctxt "@title:row"
-msgid "KRunner"
-msgstr "KRunner"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:96
-#, kde-format
-msgctxt "@info Caption for KRunner button"
-msgid "Search for anything"
-msgstr "Keresés bármire"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:105
-#, kde-format
-msgctxt "@title:row Name of the 'Overview' KWin effect"
-msgid "Overview"
-msgstr "Áttekintés"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:106
-#, kde-format
-msgctxt "@info Caption for Overview button"
-msgid "Your system command center"
-msgstr "A rendszer parancsnoki központja"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:115
+#: src/qml/pages/PowerfulWhenNeeded.qml:111
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Open Settings…"
@@ -654,53 +654,25 @@ msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Beállítások megnyitása…"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:116
+#: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
 msgstr ""
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:123
+#: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "További Plasma szolgáltatások megismerése"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:132
-#, kde-format
-msgctxt "@info:window"
-msgid "Plasma Vaults"
-msgstr "Plasma Vaults"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:133
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"Plasma Vaults allows you to create encrypted folders, called "
-"<interface>Vaults.</interface> Inside each Vault, you can securely store "
-"your passwords, files, pictures, and documents, safe from prying eyes. "
-"Vaults can live inside folders that are synced to cloud storage services "
-"too, providing extra privacy for that content.<nl/><nl/>To get started, "
-"click the arrow on the <interface>System Tray</interface> to show hidden "
-"items, and then click the <interface>Vaults</interface> icon."
-msgstr ""
-"A Plasma Vaults lehetővé teszi titkosított mappák, <interface>Titkos "
-"tárolók</interface> létrehozását. Az egyes titkos tárolókon belül "
-"biztonságosan tárolhatja jelszavait, fájljait, képeit és dokumentumait, "
-"biztonságban a kíváncsi szemektől. A titkos tárolók olyan mappákon belül is "
-"lehetnek, amelyek szinkronizálva vannak a felhőalapú tárolási "
-"szolgáltatásokkal is, így extra védettséget biztosítva az adott tartalom "
-"számára.<nl/><nl/>Az induláshoz kattintson a <interface>Paneltálca</"
-"interface> nyilára a rejtett elemek megjelenítéséhez, majd kattintson a "
-"<interface>Tárak</interface> ikonra."
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:141
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktivitások"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:142
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -724,20 +696,20 @@ msgstr ""
 "létre. Ezek között aztán a <shortcut>Meta+Tab</shortcut> billentyűparanccsal "
 "válthat."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:147
-#: src/qml/pages/PowerfulWhenNeeded.qml:178
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Beállítások megnyitása…"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:158
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:162
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -762,13 +734,13 @@ msgstr ""
 "<interface>Rendszerbeállításokat</interface>, és keresse meg a „KDE Connect” "
 "menüpontot. Ezen az oldalon párosíthatja a telefonját."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:189
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:193
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -801,13 +773,13 @@ msgstr ""
 "keresősávját az <shortcut>Alt+Space</shortcut> billentyűparanccsal, és "
 "kattintson a kérdőjel ikonra."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:209
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Áttekintés"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:210
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -826,7 +798,7 @@ msgstr ""
 "megnyitott ablakok között.<nl/><nl/>Az áttekintést a <shortcut>Meta+W</"
 "shortcut> billentyűkombinációval érheti el."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:218
+#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Open Settings…"
@@ -834,7 +806,7 @@ msgctxt "@info:window"
 msgid "System Settings"
 msgstr "Beállítások megnyitása…"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:219
+#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -843,6 +815,34 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
+#, kde-format
+msgctxt "@info:window"
+msgid "Plasma Vaults"
+msgstr "Plasma Vaults"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:17
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Plasma Vaults allows you to create encrypted folders, called "
+"<interface>Vaults.</interface> Inside each Vault, you can securely store "
+"your passwords, files, pictures, and documents, safe from prying eyes. "
+"Vaults can live inside folders that are synced to cloud storage services "
+"too, providing extra privacy for that content.<nl/><nl/>To get started, "
+"click the arrow on the <interface>System Tray</interface> to show hidden "
+"items, and then click the <interface>Vaults</interface> icon."
+msgstr ""
+"A Plasma Vaults lehetővé teszi titkosított mappák, <interface>Titkos "
+"tárolók</interface> létrehozását. Az egyes titkos tárolókon belül "
+"biztonságosan tárolhatja jelszavait, fájljait, képeit és dokumentumait, "
+"biztonságban a kíváncsi szemektől. A titkos tárolók olyan mappákon belül is "
+"lehetnek, amelyek szinkronizálva vannak a felhőalapú tárolási "
+"szolgáltatásokkal is, így extra védettséget biztosítva az adott tartalom "
+"számára.<nl/><nl/>Az induláshoz kattintson a <interface>Paneltálca</"
+"interface> nyilára a rejtett elemek megjelenítéséhez, majd kattintson a "
+"<interface>Tárak</interface> ikonra."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

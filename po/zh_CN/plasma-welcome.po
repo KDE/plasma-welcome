@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-26 00:39+0000\n"
+"POT-Creation-Date: 2024-05-07 00:40+0000\n"
 "PO-Revision-Date: 2024-04-23 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -547,13 +547,13 @@ msgstr ""
 "利机构，它为 KDE 社区管理法律事务、为开发冲刺活动和服务器资源筹集资金、为 "
 "KDE 开发者提供雇佣岗位。您对 KDE e.V. 的捐款可以支持 KDE 社区的存续和发展。"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:18
+#: src/qml/pages/PowerfulWhenNeeded.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "按需定制功能强大"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:19
+#: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -562,25 +562,49 @@ msgid ""
 msgstr ""
 "Plasma 具备丰富的功能，可以提高您的工作效率。您可以从下面的这些功能开始体验："
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:63
+#: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
-msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-msgid "Vaults"
-msgstr "保险库"
+msgctxt "@title:row Name of the 'Overview' KWin effect"
+msgid "Overview"
+msgstr "桌面概览"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:64
+#: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
-msgctxt "@info Caption for Plasma Vaults button"
-msgid "Store sensitive files securely"
-msgstr "安全地存储敏感文件"
+msgctxt "@info Caption for Overview button"
+msgid "Your system command center"
+msgstr "显示全部桌面和窗口并进行切换和管理"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:73
+#: src/qml/pages/PowerfulWhenNeeded.qml:66
+#, kde-format
+msgctxt "@title:row"
+msgid "KRunner"
+msgstr "KRunner"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:67
+#, kde-format
+msgctxt "@info Caption for KRunner button"
+msgid "Search for anything"
+msgstr "搜索您想要的内容"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:77
+#, kde-format
+msgctxt "@title:row Name of the 'KDE Connect' feature"
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:78
+#, kde-format
+msgctxt "@info Caption for KDE Connect button"
+msgid "Connect your phone and your computer"
+msgstr "连接您的手机和电脑"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:89
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "活动"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:74
+#: src/qml/pages/PowerfulWhenNeeded.qml:90
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -588,91 +612,43 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "区分处理工作、学习和家庭任务"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:83
+#: src/qml/pages/PowerfulWhenNeeded.qml:100
 #, kde-format
-msgctxt "@title:row Name of the 'KDE Connect' feature"
-msgid "KDE Connect"
-msgstr "KDE Connect"
+msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
+msgid "Vaults"
+msgstr "保险库"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:84
+#: src/qml/pages/PowerfulWhenNeeded.qml:101
 #, kde-format
-msgctxt "@info Caption for KDE Connect button"
-msgid "Connect your phone and your computer"
-msgstr "连接您的手机和电脑"
+msgctxt "@info Caption for Plasma Vaults button"
+msgid "Store sensitive files securely"
+msgstr "安全地存储敏感文件"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:95
-#, kde-format
-msgctxt "@title:row"
-msgid "KRunner"
-msgstr "KRunner"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:96
-#, kde-format
-msgctxt "@info Caption for KRunner button"
-msgid "Search for anything"
-msgstr "搜索您想要的内容"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:105
-#, kde-format
-msgctxt "@title:row Name of the 'Overview' KWin effect"
-msgid "Overview"
-msgstr "桌面概览"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:106
-#, kde-format
-msgctxt "@info Caption for Overview button"
-msgid "Your system command center"
-msgstr "显示全部桌面和窗口并进行切换和管理"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:115
+#: src/qml/pages/PowerfulWhenNeeded.qml:111
 #, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "系统设置"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:116
+#: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
 msgstr "配置系统功能"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:123
+#: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "了解更多 Plasma 功能"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:132
-#, kde-format
-msgctxt "@info:window"
-msgid "Plasma Vaults"
-msgstr "Plasma 保险库"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:133
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"Plasma Vaults allows you to create encrypted folders, called "
-"<interface>Vaults.</interface> Inside each Vault, you can securely store "
-"your passwords, files, pictures, and documents, safe from prying eyes. "
-"Vaults can live inside folders that are synced to cloud storage services "
-"too, providing extra privacy for that content.<nl/><nl/>To get started, "
-"click the arrow on the <interface>System Tray</interface> to show hidden "
-"items, and then click the <interface>Vaults</interface> icon."
-msgstr ""
-"Plasma 保险库可以创建一种叫做<interface>保险库</interface>的加密文件夹。您可"
-"以在保险库中安全地存储密码、文件、图片、文档等，避免被其他人窃取。保险库还可"
-"以直接作为文件保存在与云端存储服务同步的文件夹中，从而为云端存储提供额外的保"
-"护。<nl/><nl/>要使用保险库功能，请点击<interface>系统托盘</interface>上的下箭"
-"头，展开隐藏的图标，然后点击<interface>保险库</interface>图标。"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:141
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "活动"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:142
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -692,20 +668,20 @@ msgstr ""
 "在“活动”页面中，您可以创建活动并对它们进行管理。创建完所需的活动之后，按下 "
 "<shortcut>Meta+Tab</shortcut> 键盘快捷键即可在各个活动之间切换。"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:147
-#: src/qml/pages/PowerfulWhenNeeded.qml:178
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "打开设置…"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:158
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:162
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -726,13 +702,13 @@ msgstr ""
 "</item></list><nl/>如果您是首次使用 KDE Connect，请打开<interface>系统设置</"
 "interface>对话框，搜索：“KDE Connect”并进入该页面，即可与手机进行配对。"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:189
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:193
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -762,13 +738,13 @@ msgstr ""
 "有更多功能等待您的发现！</item></list><nl/>如需学习 KRunner 的更多用法，请按 "
 "<shortcut>Alt + 空格键</shortcut>，然后点击“问号”图标。"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:209
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "桌面概览"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:210
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -785,13 +761,13 @@ msgstr ""
 "滤显示已打开的窗口。<nl/><nl/>要打开桌面预览，请按下 <shortcut>Meta+W</"
 "shortcut> 键盘快捷键。"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:218
+#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "系统设置"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:219
+#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -803,6 +779,30 @@ msgstr ""
 "您可以使用系统设置应用对系统的各个方面进行深入定制以符合自己的使用习惯，例如"
 "更改默认应用、桌面壁纸、视觉风格、图标主题、虚拟桌面、电源管理和第三方扩展等"
 "——您需要的选项都能在这里找到。"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
+#, kde-format
+msgctxt "@info:window"
+msgid "Plasma Vaults"
+msgstr "Plasma 保险库"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:17
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Plasma Vaults allows you to create encrypted folders, called "
+"<interface>Vaults.</interface> Inside each Vault, you can securely store "
+"your passwords, files, pictures, and documents, safe from prying eyes. "
+"Vaults can live inside folders that are synced to cloud storage services "
+"too, providing extra privacy for that content.<nl/><nl/>To get started, "
+"click the arrow on the <interface>System Tray</interface> to show hidden "
+"items, and then click the <interface>Vaults</interface> icon."
+msgstr ""
+"Plasma 保险库可以创建一种叫做<interface>保险库</interface>的加密文件夹。您可"
+"以在保险库中安全地存储密码、文件、图片、文档等，避免被其他人窃取。保险库还可"
+"以直接作为文件保存在与云端存储服务同步的文件夹中，从而为云端存储提供额外的保"
+"护。<nl/><nl/>要使用保险库功能，请点击<interface>系统托盘</interface>上的下箭"
+"头，展开隐藏的图标，然后点击<interface>保险库</interface>图标。"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

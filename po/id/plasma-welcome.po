@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-26 00:39+0000\n"
+"POT-Creation-Date: 2024-05-07 00:40+0000\n"
 "PO-Revision-Date: 2023-02-15 16:32+0700\n"
 "Last-Translator: Linerly <linerly@protonmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -558,13 +558,13 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:18
+#: src/qml/pages/PowerfulWhenNeeded.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Berdaya Ketika Dibutuhkan"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:19
+#: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -575,25 +575,49 @@ msgstr ""
 "meningkatkan produktivitas Anda secara luar biasa! Berikut adalah beberapa "
 "hal yang dapat dilakukan untuk Anda:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:63
+#: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
-msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-msgid "Vaults"
-msgstr "Brankas"
+msgctxt "@title:row Name of the 'Overview' KWin effect"
+msgid "Overview"
+msgstr "Ikhtisar"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:64
+#: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
-msgctxt "@info Caption for Plasma Vaults button"
-msgid "Store sensitive files securely"
-msgstr "Simpan berkas sensitif secara aman"
+msgctxt "@info Caption for Overview button"
+msgid "Your system command center"
+msgstr "Pusat kendali sistem Anda"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:73
+#: src/qml/pages/PowerfulWhenNeeded.qml:66
+#, kde-format
+msgctxt "@title:row"
+msgid "KRunner"
+msgstr "KRunner"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:67
+#, kde-format
+msgctxt "@info Caption for KRunner button"
+msgid "Search for anything"
+msgstr "Cari apa pun"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:77
+#, kde-format
+msgctxt "@title:row Name of the 'KDE Connect' feature"
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:78
+#, kde-format
+msgctxt "@info Caption for KDE Connect button"
+msgid "Connect your phone and your computer"
+msgstr "Hubungkan ponsel Anda dan komputer Anda"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:89
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Aktivitas"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:74
+#: src/qml/pages/PowerfulWhenNeeded.qml:90
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -601,43 +625,19 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Pisahkan tugas kerja, sekolah, atau rumah"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:83
+#: src/qml/pages/PowerfulWhenNeeded.qml:100
 #, kde-format
-msgctxt "@title:row Name of the 'KDE Connect' feature"
-msgid "KDE Connect"
-msgstr "KDE Connect"
+msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
+msgid "Vaults"
+msgstr "Brankas"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:84
+#: src/qml/pages/PowerfulWhenNeeded.qml:101
 #, kde-format
-msgctxt "@info Caption for KDE Connect button"
-msgid "Connect your phone and your computer"
-msgstr "Hubungkan ponsel Anda dan komputer Anda"
+msgctxt "@info Caption for Plasma Vaults button"
+msgid "Store sensitive files securely"
+msgstr "Simpan berkas sensitif secara aman"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:95
-#, kde-format
-msgctxt "@title:row"
-msgid "KRunner"
-msgstr "KRunner"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:96
-#, kde-format
-msgctxt "@info Caption for KRunner button"
-msgid "Search for anything"
-msgstr "Cari apa pun"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:105
-#, kde-format
-msgctxt "@title:row Name of the 'Overview' KWin effect"
-msgid "Overview"
-msgstr "Ikhtisar"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:106
-#, kde-format
-msgctxt "@info Caption for Overview button"
-msgid "Your system command center"
-msgstr "Pusat kendali sistem Anda"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:115
+#: src/qml/pages/PowerfulWhenNeeded.qml:111
 #, fuzzy, kde-format
 #| msgctxt "@title the name of the 'System Settings' app"
 #| msgid "System Settings"
@@ -645,51 +645,25 @@ msgctxt "@title:row"
 msgid "System Settings"
 msgstr "System Settings"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:116
+#: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
 msgstr ""
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:123
+#: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Pelajari lebih lanjut tentang fitur Plasma"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:132
-#, kde-format
-msgctxt "@info:window"
-msgid "Plasma Vaults"
-msgstr "Vault Plasma"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:133
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"Plasma Vaults allows you to create encrypted folders, called "
-"<interface>Vaults.</interface> Inside each Vault, you can securely store "
-"your passwords, files, pictures, and documents, safe from prying eyes. "
-"Vaults can live inside folders that are synced to cloud storage services "
-"too, providing extra privacy for that content.<nl/><nl/>To get started, "
-"click the arrow on the <interface>System Tray</interface> to show hidden "
-"items, and then click the <interface>Vaults</interface> icon."
-msgstr ""
-"Vault Plasma memungkinkan Anda untuk membuat folder terenkripsi, disebut "
-"sebagai <interface>Vault.</interface> Di setiap Vault, Anda dapat menyimpan "
-"kata sandi, berkas, dan dokumen Anda secara aman dari mata-mata. Vault juga "
-"dapat tinggal di dalam folder yang disinkronkan ke layanan penyimpanan awan, "
-"menyediakan tambahan privasi pada konten.<nl/><nl/>Untuk memulai, klik panah "
-"di <interface>Baki Sistem</interface> untuk menampilkan item yang "
-"tersembunyi, lalu klik pada ikon <interface>Vault.</interface>"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:141
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktivitas"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:142
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -711,8 +685,8 @@ msgstr ""
 "itu, Anda dapat membuat lebih banyak Aktivitas. Anda dapat mengubahnya "
 "menggunakan pintasan papan ketik <shortcut>Meta+Tab</shortcut>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:147
-#: src/qml/pages/PowerfulWhenNeeded.qml:178
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
 #, fuzzy, kde-format
 #| msgctxt "@title the name of the 'System Settings' app"
 #| msgid "System Settings"
@@ -720,13 +694,13 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "System Settings"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:158
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:162
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -751,13 +725,13 @@ msgstr ""
 "interface> dan cari \"KDE Connect\". Di halaman itu, Anda dapat "
 "menyandingkan ponsel Anda."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:189
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:193
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
 #, fuzzy, kde-kuit-format
 #| msgctxt ""
 #| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
@@ -806,13 +780,13 @@ msgstr ""
 "lanjut, buka bilah pencarian KRunner menggunakan pintasan papan ketik "
 "<shortcut>Alt+Space</shortcut> dan mengeklik pada ikon tanda tanya."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:209
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Ikhtisar"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:210
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -831,7 +805,7 @@ msgstr ""
 "yang terbuka.<nl/><nl/>Anda dapat mengakses Ikhtisar dengan menggunakan "
 "pintasan papan ketik <shortcut>Meta+W</shortcut>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:218
+#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
 #, fuzzy, kde-format
 #| msgctxt "@title the name of the 'System Settings' app"
 #| msgid "System Settings"
@@ -839,7 +813,7 @@ msgctxt "@info:window"
 msgid "System Settings"
 msgstr "System Settings"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:219
+#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -848,6 +822,32 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
+#, kde-format
+msgctxt "@info:window"
+msgid "Plasma Vaults"
+msgstr "Vault Plasma"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:17
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Plasma Vaults allows you to create encrypted folders, called "
+"<interface>Vaults.</interface> Inside each Vault, you can securely store "
+"your passwords, files, pictures, and documents, safe from prying eyes. "
+"Vaults can live inside folders that are synced to cloud storage services "
+"too, providing extra privacy for that content.<nl/><nl/>To get started, "
+"click the arrow on the <interface>System Tray</interface> to show hidden "
+"items, and then click the <interface>Vaults</interface> icon."
+msgstr ""
+"Vault Plasma memungkinkan Anda untuk membuat folder terenkripsi, disebut "
+"sebagai <interface>Vault.</interface> Di setiap Vault, Anda dapat menyimpan "
+"kata sandi, berkas, dan dokumen Anda secara aman dari mata-mata. Vault juga "
+"dapat tinggal di dalam folder yang disinkronkan ke layanan penyimpanan awan, "
+"menyediakan tambahan privasi pada konten.<nl/><nl/>Untuk memulai, klik panah "
+"di <interface>Baki Sistem</interface> untuk menampilkan item yang "
+"tersembunyi, lalu klik pada ikon <interface>Vault.</interface>"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-26 00:39+0000\n"
+"POT-Creation-Date: 2024-05-07 00:40+0000\n"
 "PO-Revision-Date: 2023-08-03 19:35+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -561,13 +561,13 @@ msgid ""
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:18
+#: src/qml/pages/PowerfulWhenNeeded.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Kraftig når det trengst"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:19
+#: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -577,26 +577,51 @@ msgstr ""
 "Plasma har svært mykje funksjonalitet – laga for å gjera deg super­effektiv! "
 "Her er nokre eksempel på kva som finst:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:63
+#: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
-msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-msgid "Vaults"
-msgstr "Datakvelv"
+msgctxt "@title:row Name of the 'Overview' KWin effect"
+msgid "Overview"
+msgstr "Oversikt"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:64
+# Ganske fri omsetjing, men er lettare å forstå.
+#: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
-msgctxt "@info Caption for Plasma Vaults button"
-msgid "Store sensitive files securely"
-msgstr "Lagra sensitive filer på ein trygg måte"
+msgctxt "@info Caption for Overview button"
+msgid "Your system command center"
+msgstr "Oversikt over opne program/vindauge"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:73
+#: src/qml/pages/PowerfulWhenNeeded.qml:66
+#, kde-format
+msgctxt "@title:row"
+msgid "KRunner"
+msgstr "KRunner"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:67
+#, kde-format
+msgctxt "@info Caption for KRunner button"
+msgid "Search for anything"
+msgstr "Søk etter alt mogleg"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:77
+#, kde-format
+msgctxt "@title:row Name of the 'KDE Connect' feature"
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:78
+#, kde-format
+msgctxt "@info Caption for KDE Connect button"
+msgid "Connect your phone and your computer"
+msgstr "Kopla telefonen din saman med datamaskina"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:89
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Aktivitetar"
 
 # Brukar same rekkjefølgje (fritid, skule, arbeid) som i ein annan tekst i programmet.
-#: src/qml/pages/PowerfulWhenNeeded.qml:74
+#: src/qml/pages/PowerfulWhenNeeded.qml:90
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -604,44 +629,19 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "Skil mellom fritid, skule og arbeid"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:83
+#: src/qml/pages/PowerfulWhenNeeded.qml:100
 #, kde-format
-msgctxt "@title:row Name of the 'KDE Connect' feature"
-msgid "KDE Connect"
-msgstr "KDE Connect"
+msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
+msgid "Vaults"
+msgstr "Datakvelv"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:84
+#: src/qml/pages/PowerfulWhenNeeded.qml:101
 #, kde-format
-msgctxt "@info Caption for KDE Connect button"
-msgid "Connect your phone and your computer"
-msgstr "Kopla telefonen din saman med datamaskina"
+msgctxt "@info Caption for Plasma Vaults button"
+msgid "Store sensitive files securely"
+msgstr "Lagra sensitive filer på ein trygg måte"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:95
-#, kde-format
-msgctxt "@title:row"
-msgid "KRunner"
-msgstr "KRunner"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:96
-#, kde-format
-msgctxt "@info Caption for KRunner button"
-msgid "Search for anything"
-msgstr "Søk etter alt mogleg"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:105
-#, kde-format
-msgctxt "@title:row Name of the 'Overview' KWin effect"
-msgid "Overview"
-msgstr "Oversikt"
-
-# Ganske fri omsetjing, men er lettare å forstå.
-#: src/qml/pages/PowerfulWhenNeeded.qml:106
-#, kde-format
-msgctxt "@info Caption for Overview button"
-msgid "Your system command center"
-msgstr "Oversikt over opne program/vindauge"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:115
+#: src/qml/pages/PowerfulWhenNeeded.qml:111
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Open Settings…"
@@ -649,51 +649,25 @@ msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Opna innstillingar …"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:116
+#: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
 msgstr ""
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:123
+#: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Les meir om kva som finst i Plasma"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:132
-#, kde-format
-msgctxt "@info:window"
-msgid "Plasma Vaults"
-msgstr "Datakvelv"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:133
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"Plasma Vaults allows you to create encrypted folders, called "
-"<interface>Vaults.</interface> Inside each Vault, you can securely store "
-"your passwords, files, pictures, and documents, safe from prying eyes. "
-"Vaults can live inside folders that are synced to cloud storage services "
-"too, providing extra privacy for that content.<nl/><nl/>To get started, "
-"click the arrow on the <interface>System Tray</interface> to show hidden "
-"items, and then click the <interface>Vaults</interface> icon."
-msgstr ""
-"Med Plasma kan du laga krypterte mapper, som vert kalla "
-"<interface>datakvelv</interface>. I desse kvelva kan du trygt leggja "
-"passord, filer, bilete, dokument og anna du verna frå nysgjerrige blikk. "
-"Kvelva kan òg liggja i mapper du som alt synkroniserer til skylagring, slik "
-"at du får ekstra tryggleik for skyinnhaldet.<nl/><nl/>Kom i gang ved å "
-"trykkja på nedpila i <interface>systemkorga</interface> (for å visa gøymde "
-"element), og vel så ikonet <interface>Datakvelv</interface>."
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:141
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Aktivitetar"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:142
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -716,20 +690,20 @@ msgstr ""
 "aktivitetar. Du kan så byta mellom dei med snøggtasten <shortcut>Meta + T</"
 "shortcut>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:147
-#: src/qml/pages/PowerfulWhenNeeded.qml:178
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Opna innstillingar …"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:158
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:162
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -753,13 +727,13 @@ msgstr ""
 "oppsettet</interface> og søkja etter «KDE Connect». Der kan du setja opp "
 "saman­koplinga mellom telefonen og datamaskina."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:189
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:193
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: In the example queries, make sure to use the "
@@ -791,13 +765,13 @@ msgstr ""
 "opna KRunner-feltet med snøggtasten <shortcut>Alt + Mellomrom</shortcut> og "
 "så trykkja på ikonet som viser eit spørjeteikn."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:209
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Oversikt"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:210
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -814,7 +788,7 @@ msgstr ""
 "filtrera på vindauge etter namn.<nl/><nl/>Du får tilgang til oversikts­"
 "biletet med snøggtasten <shortcut>Meta + W</shortcut>."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:218
+#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Open Settings…"
@@ -822,7 +796,7 @@ msgctxt "@info:window"
 msgid "System Settings"
 msgstr "Opna innstillingar …"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:219
+#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -831,6 +805,32 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
+#, kde-format
+msgctxt "@info:window"
+msgid "Plasma Vaults"
+msgstr "Datakvelv"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:17
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Plasma Vaults allows you to create encrypted folders, called "
+"<interface>Vaults.</interface> Inside each Vault, you can securely store "
+"your passwords, files, pictures, and documents, safe from prying eyes. "
+"Vaults can live inside folders that are synced to cloud storage services "
+"too, providing extra privacy for that content.<nl/><nl/>To get started, "
+"click the arrow on the <interface>System Tray</interface> to show hidden "
+"items, and then click the <interface>Vaults</interface> icon."
+msgstr ""
+"Med Plasma kan du laga krypterte mapper, som vert kalla "
+"<interface>datakvelv</interface>. I desse kvelva kan du trygt leggja "
+"passord, filer, bilete, dokument og anna du verna frå nysgjerrige blikk. "
+"Kvelva kan òg liggja i mapper du som alt synkroniserer til skylagring, slik "
+"at du får ekstra tryggleik for skyinnhaldet.<nl/><nl/>Kom i gang ved å "
+"trykkja på nedpila i <interface>systemkorga</interface> (for å visa gøymde "
+"element), og vel så ikonet <interface>Datakvelv</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
