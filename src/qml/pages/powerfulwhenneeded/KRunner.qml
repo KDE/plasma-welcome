@@ -41,13 +41,12 @@ GenericPage {
                 anchors.fill: parent
                 anchors.margins: Kirigami.Units.smallSpacing
 
-                backgroundAlignment: mockKRunner.position
+                backgroundAlignment: Qt.AlignHCenter | Qt.AlignTop
 
                 MockKRunner {
                     id: mockKRunner
                     anchors.horizontalCenter: parent.horizontalCenter
-                    anchors.verticalCenter: position == Qt.AlignCenter ? parent.verticalCenter : undefined
-                    anchors.top: position == Qt.AlignCenter ? undefined : parent.top
+                    anchors.top: parent.top
 
                     width: Math.min(mockDesktop.width - (Kirigami.Units.gridUnit * 2), implicitWidth)
                     height: Math.min(mockDesktop.height - Kirigami.Units.gridUnit, implicitHeight)

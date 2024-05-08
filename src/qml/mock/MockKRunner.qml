@@ -19,10 +19,6 @@ import org.kde.plasma.welcome
 Item {
     id: root
 
-    // NOTE: Distros overriding our default KRunner position should patch this
-    // e.g. 'Position on screen: Center' as `position: Qt.AlignCenter`
-    readonly property int position: Qt.AlignHCenter | Qt.AlignTop
-
     property string searchText: ""
 
     implicitWidth: layout.implicitWidth + layout.anchors.margins * 2
@@ -45,15 +41,7 @@ Item {
         anchors.fill: parent
 
         imagePath: "dialogs/background"
-        enabledBorders: {
-            if (root.position == Qt.AlignCenter) {
-                // Position on screen: Center
-                return KSvg.FrameSvg.AllBorders
-            } else {
-                // Position on screen: Top
-                return KSvg.FrameSvg.BottomBorder | KSvg.FrameSvg.LeftBorder | KSvg.FrameSvg.RightBorder
-            }
-        }
+        enabledBorders: KSvg.FrameSvg.BottomBorder | KSvg.FrameSvg.LeftBorder | KSvg.FrameSvg.RightBorder
     }
 
     ColumnLayout {
