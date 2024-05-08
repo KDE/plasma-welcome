@@ -59,7 +59,6 @@ Item {
                 implicitWidth: Kirigami.Units.iconSizes.smallMedium
 
                 source: "configure"
-                color: PlasmaCore.Theme.textColor
             }
 
             // Wrapped so disabling the search field does not affect the icons
@@ -128,7 +127,6 @@ Item {
                     implicitHeight: Kirigami.Units.iconSizes.sizeForLabels
                     implicitWidth: Kirigami.Units.iconSizes.sizeForLabels
 
-                    color: PlasmaCore.Theme.textColor
                     source: "search"
                 }
 
@@ -145,7 +143,6 @@ Item {
                     implicitHeight: isClear ? Kirigami.Units.iconSizes.sizeForLabels : Kirigami.Units.iconSizes.smallMedium
                     implicitWidth: isClear ? Kirigami.Units.iconSizes.sizeForLabels : Kirigami.Units.iconSizes.smallMedium
 
-                    color: PlasmaCore.Theme.textColor
                     // "Expand" icon looks slightly different in KRunner, likely implemented on
                     // top of the search field ...there are limits to what we should copy
                     source: isClear ? "edit-clear-locationbar-rtl" : "expand"
@@ -159,7 +156,6 @@ Item {
                 implicitWidth: Kirigami.Units.iconSizes.smallMedium
 
                 source: "question"
-                color: PlasmaCore.Theme.textColor
             }
 
             Kirigami.Icon {
@@ -169,7 +165,6 @@ Item {
                 implicitWidth: Kirigami.Units.iconSizes.smallMedium
 
                 source: "window-pin"
-                color: PlasmaCore.Theme.textColor
             }
         }
 

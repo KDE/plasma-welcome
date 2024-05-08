@@ -8,7 +8,6 @@ import QtQuick
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
-import org.kde.plasma.core as PlasmaCore
 import org.kde.plasma.components as PC3
 import org.kde.plasma.plasma5support as P5Support
 
@@ -42,7 +41,6 @@ MockAppletBase {
         width: paintedWidth
         height: 15.68 // Hardcoded from original
         font.pixelSize: 16 // Hardcoded from original
-        color: PlasmaCore.Theme.textColor
 
         text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
         verticalAlignment: Text.AlignVCenter
@@ -57,7 +55,6 @@ MockAppletBase {
         width: paintedWidth
         height: 12.544 // Hardcoded from original
         font.pixelSize: 13 // Hardcoded from original
-        color: PlasmaCore.Theme.textColor
 
         text: Qt.formatDate(timeSource.data["Local"]["DateTime"], Qt.DefaultLocaleShortDate)
         verticalAlignment: Text.AlignVCenter

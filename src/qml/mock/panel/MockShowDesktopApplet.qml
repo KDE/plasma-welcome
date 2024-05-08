@@ -7,7 +7,6 @@
 import QtQuick
 
 import org.kde.kirigami as Kirigami
-import org.kde.plasma.core as PlasmaCore
 
 import org.kde.plasma.welcome
 
@@ -24,6 +23,5 @@ MockAppletBase {
         implicitHeight: Kirigami.Units.iconSizes.smallMedium
 
         source: "user-desktop-symbolic"
-        color: PlasmaCore.Theme.textColor
     }
 }

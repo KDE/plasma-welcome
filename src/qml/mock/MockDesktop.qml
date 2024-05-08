@@ -7,6 +7,9 @@
 import QtQuick
 import QtQuick.Effects
 
+import org.kde.kirigami as Kirigami
+import org.kde.plasma.core as PlasmaCore
+
 import org.kde.plasma.welcome
 
 Item {
@@ -30,6 +33,11 @@ Item {
      */
 
     clip: true
+
+    // Use Plasma theme colours, rather than Kirigami's
+    Kirigami.Theme.inherit: false
+    Kirigami.Theme.textColor: PlasmaCore.Theme.textColor
+    Kirigami.Theme.backgroundColor: PlasmaCore.Theme.backgroundColor
 
     Image {
         width: Math.max(root.width, root.desktopWidth)
