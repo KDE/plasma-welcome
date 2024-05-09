@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-07 00:40+0000\n"
-"PO-Revision-Date: 2024-04-29 14:49+0200\n"
+"PO-Revision-Date: 2024-05-07 08:23+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -99,7 +99,7 @@ msgstr "La commande <command>%1</command>a échoué : %2"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr "Assistant convivial d’intégration pour Plasma"
+msgstr "Assistant convivial d'intégration pour Plasma"
 
 #: src/main.cpp:42
 #, kde-format
@@ -520,8 +520,8 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
-"Merci d’avoir testé cette version « Bêta » de Plasma – vos commentaires sont "
-"essentiels pour nous aider à l’améliorer ! Veuillez signaler tous les bugs "
+"Merci d'avoir testé cette version « Bêta » de Plasma – vos commentaires sont "
+"essentiels pour nous aider à l'améliorer ! Veuillez signaler tous les bugs "
 "que vous trouvez afin que nous puissions les corriger."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
@@ -931,13 +931,7 @@ msgstr ""
 "Faites glisser les icônes d'applications pour les réorganiser."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the "
-#| "arrow."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -945,11 +939,11 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
-"Il s'agit du composant « Boîte à miniatures du système », vous permettant de "
-"contrôler les fonctions du système telles que la modification du volume et "
-"la connexion aux réseaux. Les éléments ne seront visibles ici que lorsque "
-"cela est nécessaire. Pour voir tous les éléments disponibles, veuillez "
-"cliquer sur la flèche."
+"Il s'agit du composant graphique « Boîte à miniatures du système », vous "
+"permettant de contrôler les fonctions du système telles que la modification "
+"du volume et la connexion aux réseaux. Les éléments ne seront visibles ici "
+"que lorsque cela est nécessaire. Pour voir tous les éléments disponibles, "
+"veuillez cliquer sur la flèche vers le haut près de l'horloge."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -961,7 +955,7 @@ msgid ""
 msgstr ""
 "Il s'agit du composant graphique « Horloge numérique ». Cliquez dessus pour "
 "afficher un calendrier. Il peut également être configuré pour afficher "
-"d'autres fuseaux horaires et événements de vos calendriers numériques."
+"d'autres fuseaux horaires et évènements de vos calendriers numériques."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
