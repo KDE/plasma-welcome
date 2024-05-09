@@ -16,6 +16,7 @@ Item {
     id: root
 
     property int backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
+    property int blurRadius: 32
 
     readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1280x800.png"
     readonly property int desktopWidth: 1280
@@ -37,10 +38,13 @@ Item {
     // Use Plasma theme colours, rather than Kirigami's
     Kirigami.Theme.inherit: false
     Kirigami.Theme.textColor: PlasmaCore.Theme.textColor
-    Kirigami.Theme.backgroundColor: PlasmaCore.Theme.backgroundColor
+    Kirigami.Theme.activeTextColor: PlasmaCore.Theme.activeTextColor
     Kirigami.Theme.highlightColor: PlasmaCore.Theme.highlightColor
+    Kirigami.Theme.backgroundColor: PlasmaCore.Theme.backgroundColor
 
     Image {
+        id: wallpaperImage
+
         width: Math.max(root.width, root.desktopWidth)
         height: Math.max(root.height, root.desktopHeight)
 
@@ -57,9 +61,9 @@ Item {
         layer.enabled: true
         layer.effect: MultiEffect {
             autoPaddingEnabled: false // Prevents blur from lightening at the edges
-            blurEnabled: true
+            blurEnabled: blurMax > 0
             blur: 1.0
-            blurMax: 32
+            blurMax: root.blurRadius
         }
     }
 }
