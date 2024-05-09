@@ -102,10 +102,11 @@ Item {
                 implicitHeight: width * 9.0 / 16.0 // Match aspect of the wallpaper source (see below)
 
                 Image {
+                    id: thumbnailImage
                     anchors.fill: parent
                     // We're intentionally ignoring our 16:10 desktop wallpaper (MockDesktop) - whilst that fits the square
                     // window, we want to maximise what we can fit in our limited height and be more representative of what
-                    // a user will  see - most use a 16:9 display.
+                    // a user will see - most use a 16:9 display.
                     source: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1920x1080.png"
                     mipmap: true
                 }
