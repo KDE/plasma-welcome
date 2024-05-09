@@ -9,6 +9,7 @@ import QtQuick
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
+import org.kde.kcmutils as KCMUtils
 
 import org.kde.plasma.welcome
 
