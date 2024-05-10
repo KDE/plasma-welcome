@@ -54,13 +54,6 @@ find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Network Qml Quic
 find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Kirigami Config CoreAddons ConfigWidgets DBusAddons I18n KIO NewStuff Service WindowSystem DBusAddons KCMUtils Svg JobWidgets)
 find_package(Plasma ${PROJECT_DEP_VERSION} REQUIRED)
 
-find_package(KUserFeedback)
-set_package_properties(KUserFeedback PROPERTIES
-    DESCRIPTION "Framework for collecting user feedback for apps via telemetry and surveys"
-    PURPOSE "Required for embedded User Feedback settings page"
-    TYPE RUNTIME
-)
-
 ecm_set_disabled_deprecation_versions(QT 6.5
     KF 5.240
 )
