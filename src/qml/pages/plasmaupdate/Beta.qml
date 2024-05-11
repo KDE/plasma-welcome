@@ -14,7 +14,7 @@ import org.kde.plasma.welcome
 Item {
     id: root
 
-    readonly property string description: xi18nc("@info:usagetip", "Thank you for testing this beta release of Plasma—your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them.")
+    readonly property string description: xi18nc("@info:usagetip", "Thank you for choosing to test this beta release of Plasma—your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them.")
     readonly property int iconSize: Kirigami.Units.iconSizes.enormous
 
     readonly property list<QtObject> topContent: [

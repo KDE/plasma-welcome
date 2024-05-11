@@ -14,6 +14,8 @@ Item {
 
     property int backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
 
+    property int blurRadius: 32
+
     readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1280x800.png"
     readonly property int desktopWidth: 1280
     readonly property int desktopHeight: 800
@@ -48,9 +50,9 @@ Item {
         layer.enabled: true
         layer.effect: MultiEffect {
             autoPaddingEnabled: false // Prevents blur from lightening at the edges
-            blurEnabled: true
+            blurEnabled: root.blurRadius > 0
             blur: 1.0
-            blurMax: 32
+            blurMax: root.blurRadius
         }
     }
 }

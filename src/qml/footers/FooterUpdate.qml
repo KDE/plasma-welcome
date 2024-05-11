@@ -17,7 +17,7 @@ RowLayout {
     QQC2.Switch {
         Layout.alignment: Qt.AlignLeft
 
-        text: i18nc("@option:check", "Show this page after Plasma is updated")
+        text: i18nc("@option:check, for an update page", "Show after Plasma is updated")
         checked: Config.showUpdatePage
         onToggled: { Config.showUpdatePage = checked; Config.save() }
     }
