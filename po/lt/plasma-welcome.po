@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-10 00:40+0000\n"
-"PO-Revision-Date: 2024-04-23 11:45+0300\n"
+"PO-Revision-Date: 2024-05-17 00:14+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -915,13 +915,7 @@ msgstr ""
 "norėdami jas pertvarkyti."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the "
-#| "arrow."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -931,8 +925,9 @@ msgid ""
 msgstr ""
 "Šis yra „Sistemos dėklo“ valdiklis, leidžiantis jums valdyti tokias sistemos "
 "funkcijas, kaip garsumo keitimas ar jungimasis prie interneto tinklo. Jame "
-"esantys elementai taps matomi tuomet, kai bus aktualūs. Norėdami pamatyti "
-"visus prieinamus elementus, spustelėkite ant rodyklės."
+"esantys elementai taps matomi tik tuomet, kai bus aktualūs. Norėdami "
+"pamatyti visus prieinamus elementus, spustelėkite šalia laikrodžio ant ⌃ "
+"rodyklės."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
