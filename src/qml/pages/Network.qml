@@ -135,7 +135,7 @@ GenericPage {
                     }
 
                     MockSystemTrayIcon {
-                        source: "audio-volume-high"
+                        source: "audio-volume-high-symbolic"
                     }
 
                     MockSystemTrayIcon {

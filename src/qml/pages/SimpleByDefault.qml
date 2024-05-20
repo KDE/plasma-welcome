@@ -150,7 +150,7 @@ GenericPage {
                         active: root.activeItem == mockTray
 
                         MockSystemTrayIcon { source: "klipper-symbolic" }
-                        MockSystemTrayIcon { source: "audio-volume-high" }
+                        MockSystemTrayIcon { source: "audio-volume-high-symbolic" }
                     }
 
                     HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
