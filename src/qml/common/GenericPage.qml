@@ -18,20 +18,15 @@ Kirigami.Page {
 
     property alias topContent: topContentLayout.children
 
-    readonly property int margins: Kirigami.Units.gridUnit
-
     title: heading
     topPadding: 0 // Provided by required header
-    leftPadding: margins
-    rightPadding: margins
-    bottomPadding: margins
 
     header: Item {
-        height: layout.implicitHeight + (page.margins * 2)
+        height: layout.implicitHeight + (page.padding * 2)
 
         ColumnLayout {
             id: layout
-            width: parent.width - (page.margins * 2)
+            width: parent.width - (page.padding * 2)
             anchors.centerIn: parent
 
             QQC2.Label {

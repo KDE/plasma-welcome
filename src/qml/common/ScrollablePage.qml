@@ -14,6 +14,7 @@ GenericPage {
 
     property alias view: scroll.contentItem
 
+    // Content is expected to bring its own
     leftPadding: 0
     rightPadding: 0
     topPadding: 0

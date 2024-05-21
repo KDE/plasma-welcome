@@ -17,6 +17,7 @@ GenericPage
 
     required property string path
 
+    // The embedded KCM is expected to bring its own
     topPadding: 0
     leftPadding: 0
     rightPadding: 0
