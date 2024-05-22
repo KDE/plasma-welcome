@@ -13,8 +13,8 @@ import org.kde.plasma.welcome
 
 ScrollablePage {
     id: root
-    heading: i18nc("@title:window", "Plasma 6 Supporters")
-    description: xi18nc("@info:usagetip", "We thank the following supporting members for joining us in the Plasma 6 fundraising campaign:")
+    heading: i18nc("@title:window", "Supporting Members")
+    description: xi18nc("@info:usagetip", "We thank the following supporting members for their recurring donation to KDE:")
 
     property int sort: 0
     property string filter: ""
