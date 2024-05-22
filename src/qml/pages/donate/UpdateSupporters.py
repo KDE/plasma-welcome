@@ -6,8 +6,10 @@
 #
 
 # Script to update the list of supporters in Supporters.qml using exported Donorbox data
-# Removes anonymous supporters, performs de-duplication (on email) and sorts by date
+# Sorts by date, removes anonymous supporters and performs de-duplication (on email)
 # Usage: ./UpdateSupporters.py ~/Downloads/rawList.csv
+
+# N.B. Supporters as written will not match the CSV in order, because some may have donated earlier (their earliest donation is used to order by time, not their most recent).
 
 import csv
 from datetime import datetime
@@ -24,6 +26,17 @@ def import_csv(input_file):
         reader = csv.DictReader(infile)
 
         for row in reader:
+            # At some point, the locale was changed to German, so...
+            # Rename German keys to their English versions
+            if "E Mail" in row:
+                row["Donor Email"] = row.pop("E Mail")
+
+            if "Anonym Spenden" in row:
+                row["Make Donation Anonymous"] = row.pop("Anonym Spenden")
+
+            if "Gespendet Am" in row:
+                row["Donated At"] = row.pop("Gespendet Am")
+
             donated_at = datetime.strptime(row["Donated At"], "%m/%d/%Y %H:%M:%S")
             row["Donated At"] = donated_at
             data.append({key: row[key] for key in columns})
@@ -65,13 +78,13 @@ else:
     input_file = input("Path of rawList CSV: ")
 
 # Process data
-raw_data = import_csv(input_file)
+raw_data = sort_date(import_csv(input_file))
 donations = len(raw_data)
 
-supporters_data = dedup_email(sort_date(raw_data))
+supporters_data = dedup_email(raw_data)
 supporters = len(supporters_data)
 
-data = dedup_email(remove_anon(sort_date(raw_data)))
+data = dedup_email(remove_anon(raw_data))
 nonanon_supporters = len(data)
 
 # Output stats
