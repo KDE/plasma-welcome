@@ -34,21 +34,17 @@ GenericPage {
     }
 
     topContent: [
-        ColumnLayout {
-            spacing: Kirigami.Units.smallSpacing
-
-            Kirigami.UrlButton {
-                id: plasmaLink
-                Layout.topMargin: Kirigami.Units.largeSpacing
-                text: i18nc("@action:button", "Learn more about the KDE community")
-                url: "https://community.kde.org/Welcome_to_KDE?source=plasma-welcome"
-            }
-            Kirigami.UrlButton {
-                Layout.topMargin: Kirigami.Units.largeSpacing
-                text: i18nc("@action:button %1 is the name of the user's distro", "Learn more about %1", Controller.distroName())
-                url: Controller.distroUrl()
-                visible: Controller.distroUrl().length > 0
-            }
+        Kirigami.UrlButton {
+            id: plasmaLink
+            Layout.topMargin: Kirigami.Units.largeSpacing
+            text: i18nc("@action:button", "Learn more about the KDE community")
+            url: "https://community.kde.org/Welcome_to_KDE?source=plasma-welcome"
+        },
+        Kirigami.UrlButton {
+            Layout.topMargin: Kirigami.Units.largeSpacing
+            text: i18nc("@action:button %1 is the name of the user's distro", "Learn more about %1", Controller.distroName())
+            url: Controller.distroUrl()
+            visible: Controller.distroUrl().length > 0
         }
     ]
 
