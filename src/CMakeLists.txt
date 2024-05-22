@@ -61,14 +61,12 @@ ecm_target_qml_sources(plasma-welcome
     qml/pages/powerfulwhenneeded/SystemSettings.qml
     qml/pages/Discover.qml
     qml/pages/Feedback.qml
-    qml/pages/Contribute.qml
-    qml/pages/Donate.qml
-    qml/pages/donate/Supporters.qml
+    qml/pages/Enjoy.qml
+    qml/pages/enjoy/Supporters.qml
 
     RESOURCES
-    assets/konqi-donations.png
     assets/konqi-kde-hi.png
-    assets/konqi-build.png
+    assets/konqi-default.png
     assets/krita.png
     assets/endlesssky.png
 )

@@ -116,8 +116,7 @@ Kirigami.ApplicationWindow {
                     _pushPage(_createPage(distroPages[i], true));
                 }
 
-                _pushPage(_createPage("Contribute.qml"));
-                _pushPage(_createPage("Donate.qml"));
+                _pushPage(_createPage("Enjoy.qml"));
 
                 break;
         }
