@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-10 00:40+0000\n"
+"POT-Creation-Date: 2024-05-22 00:41+0000\n"
 "PO-Revision-Date: 2024-04-23 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -167,7 +167,7 @@ msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "立即启动 %1"
 
-#: src/qml/common/KCMPage.qml:79
+#: src/qml/common/KCMPage.qml:80
 #, kde-format
 msgid "This settings module could not be loaded"
 msgstr "无法加载此设置模块"
@@ -207,6 +207,11 @@ msgstr "Plasma 升级之后显示此页面"
 msgctxt "@action:button"
 msgid "&OK"
 msgstr "确定(&O)"
+
+#: src/qml/mock/MockKRunner.qml:82
+#, kde-format
+msgid "Search…"
+msgstr ""
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -670,6 +675,7 @@ msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:23
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:25
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
@@ -702,31 +708,40 @@ msgstr ""
 "</item></list><nl/>如果您是首次使用 KDE Connect，请打开<interface>系统设置</"
 "interface>对话框，搜索：“KDE Connect”并进入该页面，即可与手机进行配对。"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:16
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, kde-kuit-format
-msgctxt ""
-"@info:usagetip translators: In the example queries, make sure to use the "
-"keywords as they are localized in the actual runner plugins. If needed, "
-"change 'Shanghai' to a city that on the other side of the world from likely "
-"speakers of the language"
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info:usagetip translators: In the example queries, make sure to use the "
+#| "keywords as they are localized in the actual runner plugins. If needed, "
+#| "change 'Shanghai' to a city that on the other side of the world from "
+#| "likely speakers of the language"
+#| msgid ""
+#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more. Try typing any of the following into one of those search "
+#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
+#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
+#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
+#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
+#| "on the question mark icon."
+msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
 "powers the search functionality in the Application Launcher menu and the "
 "Overview screen, and it can be accessed as a standalone search bar using the "
 "<shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
 "finding your files and folders, KRunner can launch apps, search the web, "
-"convert between currencies, calculate math problems, and a lot more. Try "
-"typing any of the following into one of those search fields:<nl/><list><item>"
-"\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in USD\"</"
-"item><item>\"25 miles in km\"</item><item>…And much more!</item></list><nl/"
-">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-"shortcut> keyboard shortcut and click on the question mark icon."
+"convert between currencies, calculate math problems, and a lot more."
 msgstr ""
 "KRunner 是 Plasma 的搜索系统。它具有强大的功能，并提供了多样化的运用方式。"
 "KRunner 为 Plasma 的应用程序启动器和概览屏幕提供了搜索功能。它还提供了独立的"
@@ -737,6 +752,58 @@ msgstr ""
 "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…还"
 "有更多功能等待您的发现！</item></list><nl/>如需学习 KRunner 的更多用法，请按 "
 "<shortcut>Alt + 空格键</shortcut>，然后点击“问号”图标。"
+
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
+"shortcut> keyboard shortcut and click on the question mark icon."
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
+#, kde-format
+msgctxt ""
+"@info:usagetip An example KRunner query, ensure keywords are localized as "
+"they are in the actual runner plugins. If needed, change 'Shanghai' to a "
+"city that on the other side of the world from likely speakers of the "
+"language."
+msgid "time Shanghai"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#, kde-format
+msgctxt ""
+"@info:usagetip An example KRunner query, ensure keywords are localized as "
+"they are in the actual runner plugins."
+msgid "27 / 3"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#, kde-format
+msgctxt ""
+"@info:usagetip An example KRunner query, ensure keywords are localized as "
+"they are in the actual runner plugins. If needed, change the currency "
+"conversion to a likely one for speakers of the language."
+msgid "200 EUR in USD"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
+#, kde-format
+msgctxt ""
+"@info:usagetip An example KRunner query, ensure keywords are localized as "
+"they are in the actual runner plugins. If needed, change the conversion to a "
+"likely one for speakers of the language."
+msgid "25 miles in km"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
+#, kde-format
+msgctxt ""
+"@info:usagetip An addendum to example KRunner queries, intentionally using "
+"'...' as these are the characters a person would type for ellipses"
+msgid "...and much more!"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
