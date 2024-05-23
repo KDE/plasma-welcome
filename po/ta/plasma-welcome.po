@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:41+0000\n"
+"POT-Creation-Date: 2024-05-23 00:40+0000\n"
 "PO-Revision-Date: 2024-05-05 15:33+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -244,44 +244,6 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "வரவேற்பு மையம் வழங்கிய இப்பக்கத்தை ஏற்ற முடியவில்லை"
 
-#: src/qml/pages/Contribute.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "Get Involved"
-msgstr "பங்களித்தல்"
-
-#: src/qml/pages/Contribute.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"KDE is not a big company; it's an international volunteer community, and its "
-"software is made by people like you donating their time and passion. You too "
-"can help make things better, whether it's through translation, visual "
-"design, and promotion, or programming and bug triaging.<nl/><nl/>By "
-"contributing to KDE, you can become part of something special, meet new "
-"friends, learn new skills, and make a difference to millions while working "
-"with people from around the globe to deliver a stunning free software "
-"computing experience."
-msgstr ""
-"கே.டீ.யீ. ஓர் நிறுவனம் அல்ல; உங்களைப் போன்ற பயனர்களின் நேரத்தாலும் முயற்சியாலும் "
-"உருவாக்கப்பட்டது. மொழிபெயர்ப்பதிலோ, வரைகலை அம்சங்களை வடிவமைப்பதிலோ, நிரலெழுதுவதிலோ, "
-"சிக்கலறிக்கைகளை கையாள்வதிலோ, விளம்பரப்படுத்துவதிலோ, நீங்கள் உதவலாம்.<nl/><nl/> கே.டீ.யீ."
-"யில் பங்களிப்பதன் மூலம் புதிய நண்பர்களை சந்தித்து உங்கள் திறமைகளை மேம்படுத்துவதுடன், "
-"லட்சக்கணக்கான பயனர்களுக்கு சுதந்திர கணித்தலிய அனுபவத்தை வழங்க நீங்கள் உதவலாம்."
-
-#: src/qml/pages/Contribute.qml:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Start Contributing!"
-msgstr "பங்களிக்க விரும்புகிறேன்!"
-
-#: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:114
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "%1 தனை பார்"
-
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -308,75 +270,99 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "%1 தனை டிஸ்கவரில் காட்டு"
 
-#: src/qml/pages/Donate.qml:15
+#: src/qml/pages/Enjoy.qml:17
 #, kde-format
 msgctxt "@title:window"
-msgid "Support Your Freedom"
-msgstr "சுதந்திரத்தை ஆதரிப்பது"
+msgid "Enjoy It!"
+msgstr ""
 
-#: src/qml/pages/Donate.qml:16
+#: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.--a German nonprofit that manages legal matters, funds "
-"development sprints and server resources, and offers employment "
-"opportunities for KDE developers. Donations to KDE e.V. support the wider "
-"KDE community, and you can make a difference by donating today!<nl/><nl/"
-">Donations are tax-deductible in Germany."
+"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"to jump right in. Explore its features, install your favorite apps and "
+"games, and get busy doing what makes you you!"
 msgstr ""
-"நன்கொடையாய் அளிக்கப்படும் உழைப்பையும் நிதியையும் நம்பி கே.டீ.யீ. இருக்கிறது. சட்டம் சார்ந்த "
-"விஷயங்களிலும், நிரலாக்க கூட்டங்களை நடத்துவதிலும், சேவையகங்களை வழங்குவதிலும், "
-"நிரலாளர்களுக்கு வேலை வழங்குவதிலும் கே.டீ.யீ.க்கு ஆதரவாய KDE e.V. என்ற ஈட்டமற்ற "
-"ஜெர்மானிய நிறுவனம் உள்ளது. KDE e.V.-க்கு நீங்கள் வழங்கும் நன்கொடை, கே.டீ.யீ. சமூகத்தை "
-"ஆதரிக்கவே பயன்படுத்தப்படும். இன்றே நன்கொடையளித்து எங்களுக்கு நீங்கள் உதவலாம்.<nl/><nl/"
-">ஜெர்மனியில் இந்த நன்கொடைகள் வரிவிலக்கு பெறும்."
 
-#: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "கே.டீ.யீ. சமூகத்தை பற்றி மேலும் காட்டு"
+
+#: src/qml/pages/Enjoy.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Get help at KDE's discussion forums"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "நன்கொடை அளி"
 
-#: src/qml/pages/Donate.qml:51
+#: src/qml/pages/Enjoy.qml:65
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "பங்களித்தல்"
+
+#: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
-msgid "Plasma 6 Supporters"
-msgstr "பிளாஸ்மா 6-இன் ஆதரவாளர்கள்"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
-msgid "Plasma 6 Supporters"
-msgstr "பிளாஸ்மா 6-இன் ஆதரவாளர்கள்"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:17
-#, kde-kuit-format
+#: src/qml/pages/enjoy/Supporters.qml:17
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We thank the following supporting members for joining us in the Plasma 6 "
+#| "fundraising campaign:"
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following supporting members for joining us in the Plasma 6 "
-"fundraising campaign:"
+"We thank the following supporting members for their recurring donation to "
+"KDE:"
 msgstr "பிளாஸ்மா 6-இன் நிதித்திரட்டலின் போது எங்களை ஆதரித்த பின்வருபர்களுக்கு நன்றி:"
 
-#: src/qml/pages/donate/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "வரிசைப்படுத்த வேண்டாம்"
 
-#: src/qml/pages/donate/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "பெயர் வாரியாக வரிசைப்படுத்து"
 
-#: src/qml/pages/donate/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "தேதிப்படி வரிசைப்படுத்து"
 
-#: src/qml/pages/donate/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -1007,36 +993,86 @@ msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "வரவேற்பு மையத்தை பற்றி"
 
-#: src/qml/pages/Welcome.qml:43
-#, kde-format
-msgctxt "@action:button"
-msgid "Learn more about the KDE community"
-msgstr "கே.டீ.யீ. சமூகத்தை பற்றி மேலும் காட்டு"
-
-#: src/qml/pages/Welcome.qml:48
+#: src/qml/pages/Welcome.qml:45
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 பற்றி மேலும் காட்டு"
 
-#: src/qml/pages/Welcome.qml:86
+#: src/qml/pages/Welcome.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "படத்தை ஏற்றுவது தோல்வியடைந்தது"
 
-#: src/qml/pages/Welcome.qml:87
+#: src/qml/pages/Welcome.qml:83
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "<filename>%1</filename> என்பதை ஏற்ற முடியவில்லை. அது உள்ளதா என சரிபார்க்கவும்."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:110
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "%1 தனை பார்"
+
+#: src/qml/pages/Welcome.qml:117
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "கே.டீ.யீ. சமூகத்திற்குள் Konqi உங்களை வரவேற்கிறது!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE is not a big company; it's an international volunteer community, and "
+#~ "its software is made by people like you donating their time and passion. "
+#~ "You too can help make things better, whether it's through translation, "
+#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
+#~ ">By contributing to KDE, you can become part of something special, meet "
+#~ "new friends, learn new skills, and make a difference to millions while "
+#~ "working with people from around the globe to deliver a stunning free "
+#~ "software computing experience."
+#~ msgstr ""
+#~ "கே.டீ.யீ. ஓர் நிறுவனம் அல்ல; உங்களைப் போன்ற பயனர்களின் நேரத்தாலும் முயற்சியாலும் "
+#~ "உருவாக்கப்பட்டது. மொழிபெயர்ப்பதிலோ, வரைகலை அம்சங்களை வடிவமைப்பதிலோ, "
+#~ "நிரலெழுதுவதிலோ, சிக்கலறிக்கைகளை கையாள்வதிலோ, விளம்பரப்படுத்துவதிலோ, நீங்கள் உதவலாம்."
+#~ "<nl/><nl/> கே.டீ.யீ.யில் பங்களிப்பதன் மூலம் புதிய நண்பர்களை சந்தித்து உங்கள் திறமைகளை "
+#~ "மேம்படுத்துவதுடன், லட்சக்கணக்கான பயனர்களுக்கு சுதந்திர கணித்தலிய அனுபவத்தை வழங்க நீங்கள் "
+#~ "உதவலாம்."
+
+#~ msgctxt "@action:button"
+#~ msgid "Start Contributing!"
+#~ msgstr "பங்களிக்க விரும்புகிறேன்!"
+
+#~ msgctxt "@title:window"
+#~ msgid "Support Your Freedom"
+#~ msgstr "சுதந்திரத்தை ஆதரிப்பது"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#~ "funds development sprints and server resources, and offers employment "
+#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#~ ">Donations are tax-deductible in Germany."
+#~ msgstr ""
+#~ "நன்கொடையாய் அளிக்கப்படும் உழைப்பையும் நிதியையும் நம்பி கே.டீ.யீ. இருக்கிறது. சட்டம் "
+#~ "சார்ந்த விஷயங்களிலும், நிரலாக்க கூட்டங்களை நடத்துவதிலும், சேவையகங்களை வழங்குவதிலும், "
+#~ "நிரலாளர்களுக்கு வேலை வழங்குவதிலும் கே.டீ.யீ.க்கு ஆதரவாய KDE e.V. என்ற ஈட்டமற்ற "
+#~ "ஜெர்மானிய நிறுவனம் உள்ளது. KDE e.V.-க்கு நீங்கள் வழங்கும் நன்கொடை, கே.டீ.யீ. சமூகத்தை "
+#~ "ஆதரிக்கவே பயன்படுத்தப்படும். இன்றே நன்கொடையளித்து எங்களுக்கு நீங்கள் உதவலாம்.<nl/><nl/"
+#~ ">ஜெர்மனியில் இந்த நன்கொடைகள் வரிவிலக்கு பெறும்."
+
+#~ msgctxt "@action:button"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "பிளாஸ்மா 6-இன் ஆதரவாளர்கள்"
+
+#~ msgctxt "@title:window"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "பிளாஸ்மா 6-இன் ஆதரவாளர்கள்"
 
 #~ msgctxt "@title:row"
 #~ msgid "Get New Stuff"

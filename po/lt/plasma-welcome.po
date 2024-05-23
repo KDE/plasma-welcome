@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:41+0000\n"
+"POT-Creation-Date: 2024-05-23 00:40+0000\n"
 "PO-Revision-Date: 2024-05-17 00:14+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -247,47 +247,6 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "Nepavyko įkelti šio puslapio, kurį pateikė supažindinimas su sistema"
 
-#: src/qml/pages/Contribute.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "Get Involved"
-msgstr "Įsitraukite"
-
-#: src/qml/pages/Contribute.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"KDE is not a big company; it's an international volunteer community, and its "
-"software is made by people like you donating their time and passion. You too "
-"can help make things better, whether it's through translation, visual "
-"design, and promotion, or programming and bug triaging.<nl/><nl/>By "
-"contributing to KDE, you can become part of something special, meet new "
-"friends, learn new skills, and make a difference to millions while working "
-"with people from around the globe to deliver a stunning free software "
-"computing experience."
-msgstr ""
-"KDE nėra didelė kompanija; tai tarptautinė savanorių bendruomenė, kurios "
-"programinę įrangą plėtoja tokie pat žmonės kaip jūs, aukojantys savo laiką "
-"ir jėgas. Jūs irgi galite atnešti gerų pokyčių per vertimą, vaizdinį "
-"dizainą, skleidimą, programavimą ar klaidų paieškas.<nl/><nl/>Talkindami KDE "
-"galite būti dalis kažko ypatingo, susipažinti su naujais draugais, "
-"išsiugdyti naujų įgūdžių ir dirbdami su žmonėmis iš viso pasaulio, nešti "
-"pokyčius milijonams žmonių bei pristatyti stulbinantį laisvos programinės "
-"įrangos ir naudojimosi kompiuteriu patyrimą."
-
-#: src/qml/pages/Contribute.qml:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Start Contributing!"
-msgstr "Pradėkite talkinti!"
-
-#: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:114
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "Apsilankyti %1"
-
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -314,78 +273,101 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Rodyti %1 programoje Discover"
 
-#: src/qml/pages/Donate.qml:15
+#: src/qml/pages/Enjoy.qml:17
 #, kde-format
 msgctxt "@title:window"
-msgid "Support Your Freedom"
-msgstr "Paremkite savo laisvę"
+msgid "Enjoy It!"
+msgstr ""
 
-#: src/qml/pages/Donate.qml:16
+#: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.--a German nonprofit that manages legal matters, funds "
-"development sprints and server resources, and offers employment "
-"opportunities for KDE developers. Donations to KDE e.V. support the wider "
-"KDE community, and you can make a difference by donating today!<nl/><nl/"
-">Donations are tax-deductible in Germany."
+"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"to jump right in. Explore its features, install your favorite apps and "
+"games, and get busy doing what makes you you!"
 msgstr ""
-"KDE bendruomenė yra priklausoma nuo paaukojimų bei lėšų ir yra remiama „KDE "
-"e.V.“ – Vokietijoje įsikūrusios ne pelno organizacijos, kuri tvarko "
-"teisinius reikalus, remia plėtojimo susibūrimus, padengia serverio išteklių "
-"išlaidas ir siūlo KDE plėtotojams įsidarbinimo galimybes. Paaukojimai, "
-"skirti „KDE e.V.“, remia platesnę KDE bendruomenę, tad aukodami šiandien, "
-"galite skatinti teigiamus pokyčius!<nl/><nl/>Mokesčiai iš paaukojimų "
-"Vokietijoje yra išskaičiuojami."
 
-#: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "Sužinokite daugiau apie KDE bendruomenę"
+
+#: src/qml/pages/Enjoy.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Get help at KDE's discussion forums"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Paaukokite"
 
-#: src/qml/pages/Donate.qml:51
+#: src/qml/pages/Enjoy.qml:65
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "Įsitraukite"
+
+#: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
-msgid "Plasma 6 Supporters"
-msgstr "Plasma 6 rėmėjai"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
-msgid "Plasma 6 Supporters"
-msgstr "Plasma 6 rėmėjai"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:17
-#, kde-kuit-format
+#: src/qml/pages/enjoy/Supporters.qml:17
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We thank the following supporting members for joining us in the Plasma 6 "
+#| "fundraising campaign:"
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following supporting members for joining us in the Plasma 6 "
-"fundraising campaign:"
+"We thank the following supporting members for their recurring donation to "
+"KDE:"
 msgstr ""
 "Mes esame dėkingi šiems remiantiems nariams už tai, kad jie dalyvavo Plasma "
 "6 lėšų rinkimo kampanijos metu:"
 
-#: src/qml/pages/donate/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "Rikiuoti atsitiktine tvarka"
 
-#: src/qml/pages/donate/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "Rikiuoti pagal pavadinimą"
 
-#: src/qml/pages/donate/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "Rikiuoti pagal datą"
 
-#: src/qml/pages/donate/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -1073,35 +1055,88 @@ msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "Apie supažindinimą su sistema"
 
-#: src/qml/pages/Welcome.qml:43
-#, kde-format
-msgctxt "@action:button"
-msgid "Learn more about the KDE community"
-msgstr "Sužinokite daugiau apie KDE bendruomenę"
-
-#: src/qml/pages/Welcome.qml:48
+#: src/qml/pages/Welcome.qml:45
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Sužinokite daugiau apie %1"
 
-#: src/qml/pages/Welcome.qml:86
+#: src/qml/pages/Welcome.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Nepavyko įkelti paveikslo"
 
-#: src/qml/pages/Welcome.qml:87
+#: src/qml/pages/Welcome.qml:83
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "Nepavyko įkelti <filename>%1</filename>. Įsitikinkite, kad jis yra."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:110
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "Apsilankyti %1"
+
+#: src/qml/pages/Welcome.qml:117
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE talismanas Konqi sveikina jus KDE bendruomenėje!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE is not a big company; it's an international volunteer community, and "
+#~ "its software is made by people like you donating their time and passion. "
+#~ "You too can help make things better, whether it's through translation, "
+#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
+#~ ">By contributing to KDE, you can become part of something special, meet "
+#~ "new friends, learn new skills, and make a difference to millions while "
+#~ "working with people from around the globe to deliver a stunning free "
+#~ "software computing experience."
+#~ msgstr ""
+#~ "KDE nėra didelė kompanija; tai tarptautinė savanorių bendruomenė, kurios "
+#~ "programinę įrangą plėtoja tokie pat žmonės kaip jūs, aukojantys savo "
+#~ "laiką ir jėgas. Jūs irgi galite atnešti gerų pokyčių per vertimą, "
+#~ "vaizdinį dizainą, skleidimą, programavimą ar klaidų paieškas.<nl/><nl/"
+#~ ">Talkindami KDE galite būti dalis kažko ypatingo, susipažinti su naujais "
+#~ "draugais, išsiugdyti naujų įgūdžių ir dirbdami su žmonėmis iš viso "
+#~ "pasaulio, nešti pokyčius milijonams žmonių bei pristatyti stulbinantį "
+#~ "laisvos programinės įrangos ir naudojimosi kompiuteriu patyrimą."
+
+#~ msgctxt "@action:button"
+#~ msgid "Start Contributing!"
+#~ msgstr "Pradėkite talkinti!"
+
+#~ msgctxt "@title:window"
+#~ msgid "Support Your Freedom"
+#~ msgstr "Paremkite savo laisvę"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#~ "funds development sprints and server resources, and offers employment "
+#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#~ ">Donations are tax-deductible in Germany."
+#~ msgstr ""
+#~ "KDE bendruomenė yra priklausoma nuo paaukojimų bei lėšų ir yra remiama "
+#~ "„KDE e.V.“ – Vokietijoje įsikūrusios ne pelno organizacijos, kuri tvarko "
+#~ "teisinius reikalus, remia plėtojimo susibūrimus, padengia serverio "
+#~ "išteklių išlaidas ir siūlo KDE plėtotojams įsidarbinimo galimybes. "
+#~ "Paaukojimai, skirti „KDE e.V.“, remia platesnę KDE bendruomenę, tad "
+#~ "aukodami šiandien, galite skatinti teigiamus pokyčius!<nl/><nl/>Mokesčiai "
+#~ "iš paaukojimų Vokietijoje yra išskaičiuojami."
+
+#~ msgctxt "@action:button"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Plasma 6 rėmėjai"
+
+#~ msgctxt "@title:window"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Plasma 6 rėmėjai"
 
 #~ msgctxt "@title:row"
 #~ msgid "Get New Stuff"

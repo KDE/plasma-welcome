@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:41+0000\n"
+"POT-Creation-Date: 2024-05-23 00:40+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -215,7 +215,7 @@ msgstr "V redu"
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Išči…"
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -250,48 +250,6 @@ msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
 "Te strani, zagotovljene od Centra dobrodošlice, ni bilo mogoče naložiti"
 
-#: src/qml/pages/Contribute.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "Get Involved"
-msgstr "Bodite vpleteni"
-
-#: src/qml/pages/Contribute.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"KDE is not a big company; it's an international volunteer community, and its "
-"software is made by people like you donating their time and passion. You too "
-"can help make things better, whether it's through translation, visual "
-"design, and promotion, or programming and bug triaging.<nl/><nl/>By "
-"contributing to KDE, you can become part of something special, meet new "
-"friends, learn new skills, and make a difference to millions while working "
-"with people from around the globe to deliver a stunning free software "
-"computing experience."
-msgstr ""
-"KDE ni veliko podjetje; to je mednarodna skupnost prostovoljcev, ki "
-"programsko opremo KDE izdelujejo tako kot vi z doniranjem svojega časa in "
-"strasti. To pomeni, da jo lahko pomagate narediti še boljšo na več načinov "
-"kot so prevajanje, grafično oblikovanje in promocija, programiranje in "
-"preiskovanje napak.<nl/><nl/>S prispevkom h KDE boste postali del nečesa "
-"posebnega, spoznali nove prijatelje, se priučili novih spretnosti in "
-"naredili razliko za milijone uporabnikov, ob tem ko boste delali z ljudmi s "
-"celega sveta, da bi zagotovili osupljivo računalniško izkušnjo s prosto "
-"programsko opremo."
-
-#: src/qml/pages/Contribute.qml:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Start Contributing!"
-msgstr "Začnite prispevati!"
-
-#: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:114
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "Obiščite %1"
-
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -317,77 +275,101 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Pokaži %1 v Discoverju"
 
-#: src/qml/pages/Donate.qml:15
+#: src/qml/pages/Enjoy.qml:17
 #, kde-format
 msgctxt "@title:window"
-msgid "Support Your Freedom"
-msgstr "Podpirajte svojo svobodo"
+msgid "Enjoy It!"
+msgstr ""
 
-#: src/qml/pages/Donate.qml:16
+#: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.--a German nonprofit that manages legal matters, funds "
-"development sprints and server resources, and offers employment "
-"opportunities for KDE developers. Donations to KDE e.V. support the wider "
-"KDE community, and you can make a difference by donating today!<nl/><nl/"
-">Donations are tax-deductible in Germany."
+"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"to jump right in. Explore its features, install your favorite apps and "
+"games, and get busy doing what makes you you!"
 msgstr ""
-"Skupnost KDE se zanaša na donacije strokovnega znanja in sredstev in jo "
-"podpira KDE e.V. – nemška neprofitna organizacija, ki upravlja pravne "
-"zadeve, financira razvojne sprinte in strežniške vire ter ponuja "
-"zaposlitvene možnosti za razvijalce KDE. Donacije za KDE e.V. podpirajo "
-"širšo skupnost KDE in tudi vi lahko nekaj spremenite z današnjo donacijo!<nl/"
-"><nl/>Donacije so v Nemčiji davčne olajšave."
 
-#: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "Naučite se več o skupnosti KDE"
+
+#: src/qml/pages/Enjoy.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Get help at KDE's discussion forums"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Donirajte"
 
-#: src/qml/pages/Donate.qml:51
+#: src/qml/pages/Enjoy.qml:65
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "Bodite vpleteni"
+
+#: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
-msgid "Plasma 6 Supporters"
-msgstr "Podporniki Plasma 6"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
-msgid "Plasma 6 Supporters"
-msgstr "Podporniki Plasma 6"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:17
-#, kde-kuit-format
+#: src/qml/pages/enjoy/Supporters.qml:17
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We thank the following supporting members for joining us in the Plasma 6 "
+#| "fundraising campaign:"
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following supporting members for joining us in the Plasma 6 "
-"fundraising campaign:"
+"We thank the following supporting members for their recurring donation to "
+"KDE:"
 msgstr ""
 "Zahvaljujemo se naslednjim podpornim članom, da so se nam pridružili v "
 "akciji zbiranja sredstev za Plasma 6:"
 
-#: src/qml/pages/donate/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "Razvrsti naključno"
 
-#: src/qml/pages/donate/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "Razvrsti po imenu"
 
-#: src/qml/pages/donate/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "Razvrsti po datumu"
 
-#: src/qml/pages/donate/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -742,25 +724,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
@@ -771,17 +735,11 @@ msgid ""
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
 "Krunner je izjemno močan in vsestranski iskalni sistem v Plasmi. Poganja "
-"zmožnost iskanja v meniju za zagon aplikacij in zaslona pregleda in do njega "
-"lahko dostopate kot samostojno iskalno vrstico z uporabo tipkovne bližnjice "
-"<shortcut>Alt+preslednica</shortcut>.<nl/><nl/>Poleg tega da Krunner nudi "
-"iskanje datotek in map, lahko zažene aplikacije, preišče splet, pretvarja "
-"vrednosti med valutami, izračunava matematične probleme in še veliko več. "
-"Poskusite vpisati kaj od naslednjega na eno od teh iskalnih polj:<nl/"
-"><list><item>\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in "
-"USD\"</item><item>\"25 miles in km\"</item><item>…In še mnogo več</item></"
-"list><nl/>Da bi se naučili več, odprite iskalno vrstico programa KRunner z "
-"uporabo tipkovne bližnjice <shortcut>Alt+preslednica</shortcut> in kliknite "
-"na ikono vprašaja."
+"zmožnost iskanja v meniju za zagon aplikacij in zaslona predogleda in do "
+"njega lahko dostopate kot s samostojno iskalno vrstico z uporabo tipkovne "
+"bližnjice <shortcut>Alt+preslednica</shortcut>.<nl/><nl/>Poleg tega da "
+"Krunner nudi iskanje datotek in map, lahko zažene aplikacije, preišče splet, "
+"pretvarja valute, izračunava matematične probleme in še veliko več."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
 #, kde-kuit-format
@@ -790,6 +748,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Če želite izvedeti več, odprite iskalno vrstico KRunner z bližnjico na "
+"tipkovnici <shortcut>Alt+preslednica</shortcut> in kliknite ikono vprašaja."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -799,7 +759,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "čas Šangaj"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -807,7 +767,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -816,7 +776,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR in USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
@@ -825,7 +785,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 miles in km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
@@ -833,7 +793,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...in veliko več!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
@@ -1068,36 +1028,89 @@ msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "O Centru dobrodošlice"
 
-#: src/qml/pages/Welcome.qml:43
-#, kde-format
-msgctxt "@action:button"
-msgid "Learn more about the KDE community"
-msgstr "Naučite se več o skupnosti KDE"
-
-#: src/qml/pages/Welcome.qml:48
+#: src/qml/pages/Welcome.qml:45
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Naučite se več o %1"
 
-#: src/qml/pages/Welcome.qml:86
+#: src/qml/pages/Welcome.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Nalaganje slike ni uspelo"
 
-#: src/qml/pages/Welcome.qml:87
+#: src/qml/pages/Welcome.qml:83
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "Ni bilo mogoče naložiti <filename>%1</filename>. Preverite, da obstaja."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:110
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "Obiščite %1"
+
+#: src/qml/pages/Welcome.qml:117
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Maskota KDE Konqi vam izreka dobrodošlico v skupnosti KDE!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE is not a big company; it's an international volunteer community, and "
+#~ "its software is made by people like you donating their time and passion. "
+#~ "You too can help make things better, whether it's through translation, "
+#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
+#~ ">By contributing to KDE, you can become part of something special, meet "
+#~ "new friends, learn new skills, and make a difference to millions while "
+#~ "working with people from around the globe to deliver a stunning free "
+#~ "software computing experience."
+#~ msgstr ""
+#~ "KDE ni veliko podjetje; to je mednarodna skupnost prostovoljcev, ki "
+#~ "programsko opremo KDE izdelujejo tako kot vi z doniranjem svojega časa in "
+#~ "strasti. To pomeni, da jo lahko pomagate narediti še boljšo na več "
+#~ "načinov kot so prevajanje, grafično oblikovanje in promocija, "
+#~ "programiranje in preiskovanje napak.<nl/><nl/>S prispevkom h KDE boste "
+#~ "postali del nečesa posebnega, spoznali nove prijatelje, se priučili novih "
+#~ "spretnosti in naredili razliko za milijone uporabnikov, ob tem ko boste "
+#~ "delali z ljudmi s celega sveta, da bi zagotovili osupljivo računalniško "
+#~ "izkušnjo s prosto programsko opremo."
+
+#~ msgctxt "@action:button"
+#~ msgid "Start Contributing!"
+#~ msgstr "Začnite prispevati!"
+
+#~ msgctxt "@title:window"
+#~ msgid "Support Your Freedom"
+#~ msgstr "Podpirajte svojo svobodo"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#~ "funds development sprints and server resources, and offers employment "
+#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#~ ">Donations are tax-deductible in Germany."
+#~ msgstr ""
+#~ "Skupnost KDE se zanaša na donacije strokovnega znanja in sredstev in jo "
+#~ "podpira KDE e.V. – nemška neprofitna organizacija, ki upravlja pravne "
+#~ "zadeve, financira razvojne sprinte in strežniške vire ter ponuja "
+#~ "zaposlitvene možnosti za razvijalce KDE. Donacije za KDE e.V. podpirajo "
+#~ "širšo skupnost KDE in tudi vi lahko nekaj spremenite z današnjo donacijo!"
+#~ "<nl/><nl/>Donacije so v Nemčiji davčne olajšave."
+
+#~ msgctxt "@action:button"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Podporniki Plasma 6"
+
+#~ msgctxt "@title:window"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Podporniki Plasma 6"
 
 #~ msgctxt "@title:row"
 #~ msgid "Get New Stuff"

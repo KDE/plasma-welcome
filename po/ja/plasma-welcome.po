@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:41+0000\n"
+"POT-Creation-Date: 2024-05-23 00:40+0000\n"
 "PO-Revision-Date: 2024-05-04 22:01+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -245,44 +245,6 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "ようこそセンターによって提供されたこのページを読み込めませんでした"
 
-#: src/qml/pages/Contribute.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "Get Involved"
-msgstr "参加する"
-
-#: src/qml/pages/Contribute.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"KDE is not a big company; it's an international volunteer community, and its "
-"software is made by people like you donating their time and passion. You too "
-"can help make things better, whether it's through translation, visual "
-"design, and promotion, or programming and bug triaging.<nl/><nl/>By "
-"contributing to KDE, you can become part of something special, meet new "
-"friends, learn new skills, and make a difference to millions while working "
-"with people from around the globe to deliver a stunning free software "
-"computing experience."
-msgstr ""
-"KDE は大企業ではなく、国際的なボランティアのコミュニティです。私たちのソフト"
-"ウェアは、人々からの時間と情熱の寄付によって作成されています。あなたも翻訳、"
-"デザイン、広報、プログラミング、バグ選別のいずれにも参加できます。<nl/><nl/"
-">KDE に貢献することによって、新たな友人と出会ったり、スキルを身につけたりでき"
-"ます。世界中の人々と協力して、素晴らしい自由ソフトウェアを作り上げませんか。"
-
-#: src/qml/pages/Contribute.qml:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Start Contributing!"
-msgstr "貢献してみる！"
-
-#: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:114
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "%1 を訪れる"
-
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -309,76 +271,101 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Discover で %1 を表示"
 
-#: src/qml/pages/Donate.qml:15
+#: src/qml/pages/Enjoy.qml:17
 #, kde-format
 msgctxt "@title:window"
-msgid "Support Your Freedom"
-msgstr "自由のために"
+msgid "Enjoy It!"
+msgstr ""
 
-#: src/qml/pages/Donate.qml:16
+#: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.--a German nonprofit that manages legal matters, funds "
-"development sprints and server resources, and offers employment "
-"opportunities for KDE developers. Donations to KDE e.V. support the wider "
-"KDE community, and you can make a difference by donating today!<nl/><nl/"
-">Donations are tax-deductible in Germany."
+"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"to jump right in. Explore its features, install your favorite apps and "
+"games, and get busy doing what makes you you!"
 msgstr ""
-"KDE コミュニティは技術と資金の寄付に支えられており、法規上の手続き、開発スプ"
-"リントやサーバのための資金提供、KDE 開発者への雇用機会の提供を行うドイツの非"
-"営利団体 KDE e.V. の支援を受けています。KDE e.V. への寄付は、さらなる KDE コ"
-"ミュニティへの支援につながります！<nl/><nl/>ドイツでは、寄付金は税控除の対象"
-"です。"
 
-#: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "KDE コミュニティについて知る"
+
+#: src/qml/pages/Enjoy.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Get help at KDE's discussion forums"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "寄付する"
 
-#: src/qml/pages/Donate.qml:51
+#: src/qml/pages/Enjoy.qml:65
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "参加する"
+
+#: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
-msgid "Plasma 6 Supporters"
-msgstr "Plasma 6 サポーター"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
-msgid "Plasma 6 Supporters"
-msgstr "Plasma 6 サポーター"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:17
-#, kde-kuit-format
+#: src/qml/pages/enjoy/Supporters.qml:17
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We thank the following supporting members for joining us in the Plasma 6 "
+#| "fundraising campaign:"
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following supporting members for joining us in the Plasma 6 "
-"fundraising campaign:"
+"We thank the following supporting members for their recurring donation to "
+"KDE:"
 msgstr ""
 "Plasma 6 資金調達キャンペーンを支援してくださった以下のサポートメンバーの方々"
 "に感謝します:"
 
-#: src/qml/pages/donate/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "ランダムにソート"
 
-#: src/qml/pages/donate/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "名前でソート"
 
-#: src/qml/pages/donate/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "日付でソート"
 
-#: src/qml/pages/donate/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -1043,25 +1030,19 @@ msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "ようこそセンターについて"
 
-#: src/qml/pages/Welcome.qml:43
-#, kde-format
-msgctxt "@action:button"
-msgid "Learn more about the KDE community"
-msgstr "KDE コミュニティについて知る"
-
-#: src/qml/pages/Welcome.qml:48
+#: src/qml/pages/Welcome.qml:45
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 について知る"
 
-#: src/qml/pages/Welcome.qml:86
+#: src/qml/pages/Welcome.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "画像の読み込みに失敗しました"
 
-#: src/qml/pages/Welcome.qml:87
+#: src/qml/pages/Welcome.qml:83
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1069,8 +1050,63 @@ msgstr ""
 "<filename>%1</filename> を読み込めませんでした。ファイルが存在しているか確認"
 "してください。"
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:110
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "%1 を訪れる"
+
+#: src/qml/pages/Welcome.qml:117
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE のマスコット Konqi があなたを歓迎します！"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE is not a big company; it's an international volunteer community, and "
+#~ "its software is made by people like you donating their time and passion. "
+#~ "You too can help make things better, whether it's through translation, "
+#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
+#~ ">By contributing to KDE, you can become part of something special, meet "
+#~ "new friends, learn new skills, and make a difference to millions while "
+#~ "working with people from around the globe to deliver a stunning free "
+#~ "software computing experience."
+#~ msgstr ""
+#~ "KDE は大企業ではなく、国際的なボランティアのコミュニティです。私たちのソフ"
+#~ "トウェアは、人々からの時間と情熱の寄付によって作成されています。あなたも翻"
+#~ "訳、デザイン、広報、プログラミング、バグ選別のいずれにも参加できます。<nl/"
+#~ "><nl/>KDE に貢献することによって、新たな友人と出会ったり、スキルを身につけ"
+#~ "たりできます。世界中の人々と協力して、素晴らしい自由ソフトウェアを作り上げ"
+#~ "ませんか。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Start Contributing!"
+#~ msgstr "貢献してみる！"
+
+#~ msgctxt "@title:window"
+#~ msgid "Support Your Freedom"
+#~ msgstr "自由のために"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#~ "funds development sprints and server resources, and offers employment "
+#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#~ ">Donations are tax-deductible in Germany."
+#~ msgstr ""
+#~ "KDE コミュニティは技術と資金の寄付に支えられており、法規上の手続き、開発ス"
+#~ "プリントやサーバのための資金提供、KDE 開発者への雇用機会の提供を行うドイツ"
+#~ "の非営利団体 KDE e.V. の支援を受けています。KDE e.V. への寄付は、さらなる "
+#~ "KDE コミュニティへの支援につながります！<nl/><nl/>ドイツでは、寄付金は税控"
+#~ "除の対象です。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Plasma 6 サポーター"
+
+#~ msgctxt "@title:window"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Plasma 6 サポーター"

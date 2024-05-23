@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:41+0000\n"
+"POT-Creation-Date: 2024-05-23 00:40+0000\n"
 "PO-Revision-Date: 2024-05-20 21:10\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -248,47 +248,6 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "Не ўдалося загрузіць гэтую старонку, пададзеную азнаямляльным цэнтрам"
 
-#: src/qml/pages/Contribute.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "Get Involved"
-msgstr "Далучыцца"
-
-#: src/qml/pages/Contribute.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"KDE is not a big company; it's an international volunteer community, and its "
-"software is made by people like you donating their time and passion. You too "
-"can help make things better, whether it's through translation, visual "
-"design, and promotion, or programming and bug triaging.<nl/><nl/>By "
-"contributing to KDE, you can become part of something special, meet new "
-"friends, learn new skills, and make a difference to millions while working "
-"with people from around the globe to deliver a stunning free software "
-"computing experience."
-msgstr ""
-"KDE - невялікая кампанія; гэта міжнародная супольнасць валанцёраў, "
-"праграмнае забеспячэнне KDE створана такімі ж людзьмі, як вы, якія ахвяруць "
-"свой час і энергію. Вы таксама можаце чымсьці дапамагчы. Вы можаце дапамагчы "
-"з перакладам, дызайнам, распаўсюджваннем, праграмаваннем або апрацоўваннем "
-"справаздач пра хібы.<nl/><nl/> Дапамагаючы KDE, вы можаце стаць часткай "
-"чагосьці асаблівага, сустрэць новых сяброў, атрымаць новыя веды і зрабіць "
-"нешта карыснае мільёнам людзей. Вы будзеце працаваць з людзьмі з усяго свету "
-"і атрымаце цікавы досвед у сферы свабоднага праграмнага забеспячэння."
-
-#: src/qml/pages/Contribute.qml:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Start Contributing!"
-msgstr "Далучыцца!"
-
-#: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:114
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "Наведаць %1"
-
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -314,78 +273,101 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Паглядзець \"%1\" у Discover"
 
-#: src/qml/pages/Donate.qml:15
+#: src/qml/pages/Enjoy.qml:17
 #, kde-format
 msgctxt "@title:window"
-msgid "Support Your Freedom"
-msgstr "Падтрымайце свабоднае праграмнае забеспячэнне"
+msgid "Enjoy It!"
+msgstr ""
 
-#: src/qml/pages/Donate.qml:16
+#: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.--a German nonprofit that manages legal matters, funds "
-"development sprints and server resources, and offers employment "
-"opportunities for KDE developers. Donations to KDE e.V. support the wider "
-"KDE community, and you can make a difference by donating today!<nl/><nl/"
-">Donations are tax-deductible in Germany."
+"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"to jump right in. Explore its features, install your favorite apps and "
+"games, and get busy doing what makes you you!"
 msgstr ""
-"Супольнасць KDE функцыянуе на ахвяраваннях навыкаў і сродкаў і "
-"падтрымліваецца KDE e.V. - нямецкай некамерцыйнай арганізацыяй, якая "
-"займаецца юрыдычнымі пытаннямі, фінансуе распрацоўванне і серверныя рэсурсы, "
-"а таксама прапануе вакансіі для працаўладкавання распрацоўнікаў KDE. Калі вы "
-"ахвяруеце KDE e.V., то дапамагаеце развіваць супольнасць KDE. Вы можаце "
-"палепшыць сітуацыю, калі ахвяруеце ўжо сёння!<nl/><nl/>Ахвяраванні не "
-"абкладаюцца падаткам у Германіі."
 
-#: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "Даведайцеся больш пра супольнасць KDE"
+
+#: src/qml/pages/Enjoy.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Get help at KDE's discussion forums"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Ахвяраваць"
 
-#: src/qml/pages/Donate.qml:51
+#: src/qml/pages/Enjoy.qml:65
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "Далучыцца"
+
+#: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
-msgid "Plasma 6 Supporters"
-msgstr "Ахвяравальнікі Plasma 6"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
-msgid "Plasma 6 Supporters"
-msgstr "Ахвяравальнікі Plasma 6"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:17
-#, kde-kuit-format
+#: src/qml/pages/enjoy/Supporters.qml:17
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We thank the following supporting members for joining us in the Plasma 6 "
+#| "fundraising campaign:"
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following supporting members for joining us in the Plasma 6 "
-"fundraising campaign:"
+"We thank the following supporting members for their recurring donation to "
+"KDE:"
 msgstr ""
 "Мы дзякуем наступным фундатарам, што далучыліся да нас у кампаніі па зборы "
 "сродкаў на Plasma 6:"
 
-#: src/qml/pages/donate/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "Сартаваць у выпадковым парадку"
 
-#: src/qml/pages/donate/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "Сартаваць па назве"
 
-#: src/qml/pages/donate/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "Сартаваць па даце"
 
-#: src/qml/pages/donate/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -1069,36 +1051,90 @@ msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "Пра азнаямляльны цэнтр"
 
-#: src/qml/pages/Welcome.qml:43
-#, kde-format
-msgctxt "@action:button"
-msgid "Learn more about the KDE community"
-msgstr "Даведайцеся больш пра супольнасць KDE"
-
-#: src/qml/pages/Welcome.qml:48
+#: src/qml/pages/Welcome.qml:45
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Даведацца больш пра %1"
 
-#: src/qml/pages/Welcome.qml:86
+#: src/qml/pages/Welcome.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Не ўдалося загрузіць выяву"
 
-#: src/qml/pages/Welcome.qml:87
+#: src/qml/pages/Welcome.qml:83
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "Не ўдалося запусціць<filename>%1</filename>. Пераканайцеся, што файл існуе."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:110
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "Наведаць %1"
+
+#: src/qml/pages/Welcome.qml:117
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Талісман KDE Konqi вітае вас у супольнасці KDE!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE is not a big company; it's an international volunteer community, and "
+#~ "its software is made by people like you donating their time and passion. "
+#~ "You too can help make things better, whether it's through translation, "
+#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
+#~ ">By contributing to KDE, you can become part of something special, meet "
+#~ "new friends, learn new skills, and make a difference to millions while "
+#~ "working with people from around the globe to deliver a stunning free "
+#~ "software computing experience."
+#~ msgstr ""
+#~ "KDE - невялікая кампанія; гэта міжнародная супольнасць валанцёраў, "
+#~ "праграмнае забеспячэнне KDE створана такімі ж людзьмі, як вы, якія "
+#~ "ахвяруць свой час і энергію. Вы таксама можаце чымсьці дапамагчы. Вы "
+#~ "можаце дапамагчы з перакладам, дызайнам, распаўсюджваннем, праграмаваннем "
+#~ "або апрацоўваннем справаздач пра хібы.<nl/><nl/> Дапамагаючы KDE, вы "
+#~ "можаце стаць часткай чагосьці асаблівага, сустрэць новых сяброў, атрымаць "
+#~ "новыя веды і зрабіць нешта карыснае мільёнам людзей. Вы будзеце працаваць "
+#~ "з людзьмі з усяго свету і атрымаце цікавы досвед у сферы свабоднага "
+#~ "праграмнага забеспячэння."
+
+#~ msgctxt "@action:button"
+#~ msgid "Start Contributing!"
+#~ msgstr "Далучыцца!"
+
+#~ msgctxt "@title:window"
+#~ msgid "Support Your Freedom"
+#~ msgstr "Падтрымайце свабоднае праграмнае забеспячэнне"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#~ "funds development sprints and server resources, and offers employment "
+#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#~ ">Donations are tax-deductible in Germany."
+#~ msgstr ""
+#~ "Супольнасць KDE функцыянуе на ахвяраваннях навыкаў і сродкаў і "
+#~ "падтрымліваецца KDE e.V. - нямецкай некамерцыйнай арганізацыяй, якая "
+#~ "займаецца юрыдычнымі пытаннямі, фінансуе распрацоўванне і серверныя "
+#~ "рэсурсы, а таксама прапануе вакансіі для працаўладкавання распрацоўнікаў "
+#~ "KDE. Калі вы ахвяруеце KDE e.V., то дапамагаеце развіваць супольнасць "
+#~ "KDE. Вы можаце палепшыць сітуацыю, калі ахвяруеце ўжо сёння!<nl/><nl/"
+#~ ">Ахвяраванні не абкладаюцца падаткам у Германіі."
+
+#~ msgctxt "@action:button"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Ахвяравальнікі Plasma 6"
+
+#~ msgctxt "@title:window"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Ахвяравальнікі Plasma 6"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid "A welcome app for KDE Plasma"

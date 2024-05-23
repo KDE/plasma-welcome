@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:41+0000\n"
+"POT-Creation-Date: 2024-05-23 00:40+0000\n"
 "PO-Revision-Date: 2024-05-06 15:20+0000\n"
 "Last-Translator: Gummi <gudmundure@gmail.com>\n"
 "Language-Team: Icelandic <kde-i18n-doc@kde.org>\n"
@@ -248,47 +248,6 @@ msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
 "Ekki tókst að hlaða inn þessari síðu sem kemur frá Kynningarmiðstöðinni"
 
-#: src/qml/pages/Contribute.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "Get Involved"
-msgstr "Taktu þátt"
-
-#: src/qml/pages/Contribute.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"KDE is not a big company; it's an international volunteer community, and its "
-"software is made by people like you donating their time and passion. You too "
-"can help make things better, whether it's through translation, visual "
-"design, and promotion, or programming and bug triaging.<nl/><nl/>By "
-"contributing to KDE, you can become part of something special, meet new "
-"friends, learn new skills, and make a difference to millions while working "
-"with people from around the globe to deliver a stunning free software "
-"computing experience."
-msgstr ""
-"KDE er ekki stórfyrirtæki. Það er alþjóðlegt samfélag sjálfboðaliða og "
-"hugbúnaður þess er gerður af fólki eins og þér sem gefa af tíma sínum og "
-"ástríðu. Þú getur líka lagt þitt af mörkum, t.d. með því að þýða, vinna að "
-"myndrænni hönnun, kynningu eða forritun og villuleit.<nl/><nl/>Með þátttöku "
-"í KDE verður þú hluti af einhverju alveg sérstöku, eignast nýja vini, öðlast "
-"nýja þekkingu og breytir lífi milljóna til hins betra og vinnur með fólki "
-"hvaðanæva úr heiminum að því að skila frábærum ókeypis hugbúnaði og "
-"notendaupplifun."
-
-#: src/qml/pages/Contribute.qml:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Start Contributing!"
-msgstr "Byrjaðu að gefa af þér!"
-
-#: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:114
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "Heimsækja %1"
-
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -315,76 +274,100 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Sýna %1 í Discover"
 
-#: src/qml/pages/Donate.qml:15
+#: src/qml/pages/Enjoy.qml:17
 #, kde-format
 msgctxt "@title:window"
-msgid "Support Your Freedom"
-msgstr "Stuðlaðu að frelsi þínu"
+msgid "Enjoy It!"
+msgstr ""
 
-#: src/qml/pages/Donate.qml:16
+#: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.--a German nonprofit that manages legal matters, funds "
-"development sprints and server resources, and offers employment "
-"opportunities for KDE developers. Donations to KDE e.V. support the wider "
-"KDE community, and you can make a difference by donating today!<nl/><nl/"
-">Donations are tax-deductible in Germany."
+"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"to jump right in. Explore its features, install your favorite apps and "
+"games, and get busy doing what makes you you!"
 msgstr ""
-"KDE-samfélagið treystir á styrki, bæði í formi kunnáttu og peninga og fær "
-"stuðning frá KDE e.V.--þýsku fyrirtæki sem rekið er án hagnaðar og sér um "
-"lögfræðileg mál, söfnunarátök og vefþjónaúrræði auk þess sem það býður upp á "
-"atvinnutækifæri fyrir KDE-forritara. Styrkir til KDE e.V. styðja við KDE-"
-"samfélagið í heild sinni og þú getur lagt þitt af mörkum með því að styrkja "
-"í dag!<nl/><nl/>Styrkirnir eru undanþegnir skatti í Þýskalandi."
 
-#: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "Læra meira um KDE samfélagið"
+
+#: src/qml/pages/Enjoy.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Get help at KDE's discussion forums"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Styrkja verkefnið"
 
-#: src/qml/pages/Donate.qml:51
+#: src/qml/pages/Enjoy.qml:65
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "Taktu þátt"
+
+#: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
-msgid "Plasma 6 Supporters"
-msgstr "Stuðningsfólk Plasma 6"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
-msgid "Plasma 6 Supporters"
-msgstr "Stuðningsfólk Plasma 6"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:17
-#, kde-kuit-format
+#: src/qml/pages/enjoy/Supporters.qml:17
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We thank the following supporting members for joining us in the Plasma 6 "
+#| "fundraising campaign:"
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following supporting members for joining us in the Plasma 6 "
-"fundraising campaign:"
+"We thank the following supporting members for their recurring donation to "
+"KDE:"
 msgstr ""
 "Við þökkum eftirfarandi aðilum fyrir stuðninginn í söfnunarátaki Plasma 6:"
 
-#: src/qml/pages/donate/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "Raða handahófskennt"
 
-#: src/qml/pages/donate/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "Raða eftir nafni"
 
-#: src/qml/pages/donate/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "Raða eftir dagsetningu"
 
-#: src/qml/pages/donate/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -1064,36 +1047,88 @@ msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "Um Kynningarmiðstöðina"
 
-#: src/qml/pages/Welcome.qml:43
-#, kde-format
-msgctxt "@action:button"
-msgid "Learn more about the KDE community"
-msgstr "Læra meira um KDE samfélagið"
-
-#: src/qml/pages/Welcome.qml:48
+#: src/qml/pages/Welcome.qml:45
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Læra meira um %1"
 
-#: src/qml/pages/Welcome.qml:86
+#: src/qml/pages/Welcome.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Mistókst að hlaða mynd"
 
-#: src/qml/pages/Welcome.qml:87
+#: src/qml/pages/Welcome.qml:83
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "Gat ekki hlaðið <filename>%1</filename>. Gakktu úr skugga um að það sé til."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:110
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "Heimsækja %1"
+
+#: src/qml/pages/Welcome.qml:117
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE-lukkudýrið Konqi býður ykkur velkomin í KDE-samfélagið!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE is not a big company; it's an international volunteer community, and "
+#~ "its software is made by people like you donating their time and passion. "
+#~ "You too can help make things better, whether it's through translation, "
+#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
+#~ ">By contributing to KDE, you can become part of something special, meet "
+#~ "new friends, learn new skills, and make a difference to millions while "
+#~ "working with people from around the globe to deliver a stunning free "
+#~ "software computing experience."
+#~ msgstr ""
+#~ "KDE er ekki stórfyrirtæki. Það er alþjóðlegt samfélag sjálfboðaliða og "
+#~ "hugbúnaður þess er gerður af fólki eins og þér sem gefa af tíma sínum og "
+#~ "ástríðu. Þú getur líka lagt þitt af mörkum, t.d. með því að þýða, vinna "
+#~ "að myndrænni hönnun, kynningu eða forritun og villuleit.<nl/><nl/>Með "
+#~ "þátttöku í KDE verður þú hluti af einhverju alveg sérstöku, eignast nýja "
+#~ "vini, öðlast nýja þekkingu og breytir lífi milljóna til hins betra og "
+#~ "vinnur með fólki hvaðanæva úr heiminum að því að skila frábærum ókeypis "
+#~ "hugbúnaði og notendaupplifun."
+
+#~ msgctxt "@action:button"
+#~ msgid "Start Contributing!"
+#~ msgstr "Byrjaðu að gefa af þér!"
+
+#~ msgctxt "@title:window"
+#~ msgid "Support Your Freedom"
+#~ msgstr "Stuðlaðu að frelsi þínu"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#~ "funds development sprints and server resources, and offers employment "
+#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#~ ">Donations are tax-deductible in Germany."
+#~ msgstr ""
+#~ "KDE-samfélagið treystir á styrki, bæði í formi kunnáttu og peninga og fær "
+#~ "stuðning frá KDE e.V.--þýsku fyrirtæki sem rekið er án hagnaðar og sér um "
+#~ "lögfræðileg mál, söfnunarátök og vefþjónaúrræði auk þess sem það býður "
+#~ "upp á atvinnutækifæri fyrir KDE-forritara. Styrkir til KDE e.V. styðja "
+#~ "við KDE-samfélagið í heild sinni og þú getur lagt þitt af mörkum með því "
+#~ "að styrkja í dag!<nl/><nl/>Styrkirnir eru undanþegnir skatti í Þýskalandi."
+
+#~ msgctxt "@action:button"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Stuðningsfólk Plasma 6"
+
+#~ msgctxt "@title:window"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Stuðningsfólk Plasma 6"
 
 #~ msgctxt "@title:row"
 #~ msgid "Get New Stuff"

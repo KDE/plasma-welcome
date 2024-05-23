@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:41+0000\n"
+"POT-Creation-Date: 2024-05-23 00:40+0000\n"
 "PO-Revision-Date: 2024-03-07 09:54+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -245,47 +245,6 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "Ez az Üdvözlőközpont által biztosított oldal nem tölthető be"
 
-#: src/qml/pages/Contribute.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "Get Involved"
-msgstr "Közreműködés"
-
-#: src/qml/pages/Contribute.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"KDE is not a big company; it's an international volunteer community, and its "
-"software is made by people like you donating their time and passion. You too "
-"can help make things better, whether it's through translation, visual "
-"design, and promotion, or programming and bug triaging.<nl/><nl/>By "
-"contributing to KDE, you can become part of something special, meet new "
-"friends, learn new skills, and make a difference to millions while working "
-"with people from around the globe to deliver a stunning free software "
-"computing experience."
-msgstr ""
-"A KDE nem egy nagyvállalat; ez egy nemzetközi önkéntes közösség, és a "
-"szoftvereit olyan emberek készítik, mint Ön, akik idejüket és szenvedélyüket "
-"áldozzák rá. Ön is segíthet a dolgok jobbá tételében, legyen szó "
-"fordításról, vizuális tervezésről, promócióról, vagy programozásrólé és "
-"hibakeresésről.<nl/><nl/>Azzal, hogy hozzájárul a KDE-hez, valami különleges "
-"dolog részévé válhat, új embereket ismerhet meg, új készségeket tanulhat, és "
-"milliók számára hozhat változást, miközben a világ minden tájáról érkező "
-"emberekkel dolgozik, hogy egy lenyűgöző szabad szoftvert hozzunk létre."
-
-#: src/qml/pages/Contribute.qml:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Start Contributing!"
-msgstr "Közreműködés elkezdése!"
-
-#: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:114
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "A(z) %1 felkeresése"
-
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -312,50 +271,69 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "A(z) %1 megjelenítése a Discoverben"
 
-#: src/qml/pages/Donate.qml:15
+#: src/qml/pages/Enjoy.qml:17
 #, kde-format
 msgctxt "@title:window"
-msgid "Support Your Freedom"
-msgstr "Támogassa a szabadságát"
+msgid "Enjoy It!"
+msgstr ""
 
-#: src/qml/pages/Donate.qml:16
+#: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.--a German nonprofit that manages legal matters, funds "
-"development sprints and server resources, and offers employment "
-"opportunities for KDE developers. Donations to KDE e.V. support the wider "
-"KDE community, and you can make a difference by donating today!<nl/><nl/"
-">Donations are tax-deductible in Germany."
+"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"to jump right in. Explore its features, install your favorite apps and "
+"games, and get busy doing what makes you you!"
 msgstr ""
-"A KDE közösség a szakértelem és a pénzadományok adományaira támaszkodik, és "
-"a KDE e.V. támogatja - egy német nonprofit szervezet, amely jogi ügyeket "
-"intéz, pénzeszközöket biztosít fejlesztési sprinteket és szervereket "
-"finanszíroz, valamint munkalehetőséget kínál a KDE fejlesztőknek. A KDE e.V. "
-"számára tett adományok a szélesebb KDE közösséget is támogatják, és Ön is "
-"tehet valamit, ha még ma adományoz!<nl/><nl/>Az adományok Németországban "
-"leírhatók az adóból."
 
-#: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "Tudjon meg többet a KDE közösségről"
+
+#: src/qml/pages/Enjoy.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Get help at KDE's discussion forums"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Adományozás"
 
-#: src/qml/pages/Donate.qml:51
+#: src/qml/pages/Enjoy.qml:65
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "Közreműködés"
+
+#: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
-msgid "Plasma 6 Supporters"
-msgstr "Plasma 6 támogatók"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
-msgid "Plasma 6 Supporters"
-msgstr "A Plasma 6 támogatói"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:17
+#: src/qml/pages/enjoy/Supporters.qml:17
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -363,31 +341,31 @@ msgstr "A Plasma 6 támogatói"
 #| "fundraising campaign:"
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following supporting members for joining us in the Plasma 6 "
-"fundraising campaign:"
+"We thank the following supporting members for their recurring donation to "
+"KDE:"
 msgstr ""
 "Köszönjük a következő személyeknek, hogy támogattak minket a Plazma 6 "
 "adománygyűjtő kampánya során:"
 
-#: src/qml/pages/donate/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -1059,25 +1037,19 @@ msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "Üdvözlőközpont"
 
-#: src/qml/pages/Welcome.qml:43
-#, kde-format
-msgctxt "@action:button"
-msgid "Learn more about the KDE community"
-msgstr "Tudjon meg többet a KDE közösségről"
-
-#: src/qml/pages/Welcome.qml:48
+#: src/qml/pages/Welcome.qml:45
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Tudjon meg többet a(z) %1 disztribúcióról"
 
-#: src/qml/pages/Welcome.qml:86
+#: src/qml/pages/Welcome.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "A kép betöltése sikertelen"
 
-#: src/qml/pages/Welcome.qml:87
+#: src/qml/pages/Welcome.qml:83
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1085,11 +1057,71 @@ msgstr ""
 "Nem sikerült betölteni ezt: <filename>%1</filename>. Ellenőrizze, hogy "
 "létezik-e."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:110
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "A(z) %1 felkeresése"
+
+#: src/qml/pages/Welcome.qml:117
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Konqi, a KDE kabalája üdvözli Önt a KDE közösségben!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE is not a big company; it's an international volunteer community, and "
+#~ "its software is made by people like you donating their time and passion. "
+#~ "You too can help make things better, whether it's through translation, "
+#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
+#~ ">By contributing to KDE, you can become part of something special, meet "
+#~ "new friends, learn new skills, and make a difference to millions while "
+#~ "working with people from around the globe to deliver a stunning free "
+#~ "software computing experience."
+#~ msgstr ""
+#~ "A KDE nem egy nagyvállalat; ez egy nemzetközi önkéntes közösség, és a "
+#~ "szoftvereit olyan emberek készítik, mint Ön, akik idejüket és "
+#~ "szenvedélyüket áldozzák rá. Ön is segíthet a dolgok jobbá tételében, "
+#~ "legyen szó fordításról, vizuális tervezésről, promócióról, vagy "
+#~ "programozásrólé és hibakeresésről.<nl/><nl/>Azzal, hogy hozzájárul a KDE-"
+#~ "hez, valami különleges dolog részévé válhat, új embereket ismerhet meg, "
+#~ "új készségeket tanulhat, és milliók számára hozhat változást, miközben a "
+#~ "világ minden tájáról érkező emberekkel dolgozik, hogy egy lenyűgöző "
+#~ "szabad szoftvert hozzunk létre."
+
+#~ msgctxt "@action:button"
+#~ msgid "Start Contributing!"
+#~ msgstr "Közreműködés elkezdése!"
+
+#~ msgctxt "@title:window"
+#~ msgid "Support Your Freedom"
+#~ msgstr "Támogassa a szabadságát"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#~ "funds development sprints and server resources, and offers employment "
+#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#~ ">Donations are tax-deductible in Germany."
+#~ msgstr ""
+#~ "A KDE közösség a szakértelem és a pénzadományok adományaira támaszkodik, "
+#~ "és a KDE e.V. támogatja - egy német nonprofit szervezet, amely jogi "
+#~ "ügyeket intéz, pénzeszközöket biztosít fejlesztési sprinteket és "
+#~ "szervereket finanszíroz, valamint munkalehetőséget kínál a KDE "
+#~ "fejlesztőknek. A KDE e.V. számára tett adományok a szélesebb KDE "
+#~ "közösséget is támogatják, és Ön is tehet valamit, ha még ma adományoz!<nl/"
+#~ "><nl/>Az adományok Németországban leírhatók az adóból."
+
+#~ msgctxt "@action:button"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "Plasma 6 támogatók"
+
+#~ msgctxt "@title:window"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "A Plasma 6 támogatói"
 
 #~ msgctxt "@title:row"
 #~ msgid "Get New Stuff"

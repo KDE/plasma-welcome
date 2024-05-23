@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:41+0000\n"
+"POT-Creation-Date: 2024-05-23 00:40+0000\n"
 "PO-Revision-Date: 2023-10-04 15:33+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit\n"
@@ -248,46 +248,6 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
 
-#: src/qml/pages/Contribute.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "Get Involved"
-msgstr "प्रवृत्ताः भवन्तु"
-
-#: src/qml/pages/Contribute.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"KDE is not a big company; it's an international volunteer community, and its "
-"software is made by people like you donating their time and passion. You too "
-"can help make things better, whether it's through translation, visual "
-"design, and promotion, or programming and bug triaging.<nl/><nl/>By "
-"contributing to KDE, you can become part of something special, meet new "
-"friends, learn new skills, and make a difference to millions while working "
-"with people from around the globe to deliver a stunning free software "
-"computing experience."
-msgstr ""
-"KDE इति बृहत् कम्पनी नास्ति; इदं अन्तर्राष्ट्रीयस्वयंसेवकसमुदायः अस्ति, तस्य तन्त्रांशं च "
-"भवद्भिः सदृशैः जनाभिः स्वसमयं, अनुरागं च दानं कृत्वा निर्मितम् अस्ति । भवान् अपि विषयान् "
-"उत्तमं कर्तुं साहाय्यं कर्तुं शक्नोति, भवेत् तत् अनुवादस्य, दृश्यविन्यासस्य, प्रचारस्य च माध्यमेन, "
-"अथवा विधिलेखन तथा दोष ट्रायजिंग्(bug triaging) इत्येतयोः माध्यमेन।<nl/><nl/>KDE मध्ये "
-"योगदानं दत्त्वा भवान् किमपि विशेषस्य भागः भवितुम् अर्हति, नूतनान् मित्राणि मिलितुं शक्नोति, "
-"नूतनानि कौशल्यं शिक्षन्तु, तथा च विश्वस्य जनानां सह कार्यं कुर्वन् एकं आश्चर्यजनकं "
-"निःशुल्कतन्त्रांशगणनानुभवं प्रदातुं कोटिजनानाम् कृते भेदं कुर्वन्ति।."
-
-#: src/qml/pages/Contribute.qml:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Start Contributing!"
-msgstr "योगदानं आरभत !"
-
-#: src/qml/pages/Contribute.qml:44 src/qml/pages/Donate.qml:44
-#: src/qml/pages/Welcome.qml:114
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "%1 इति भ्रमणं कुर्वन्तु"
-
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -313,78 +273,95 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Discover इत्यत्र %1 दर्शयतु"
 
-#: src/qml/pages/Donate.qml:15
+#: src/qml/pages/Enjoy.qml:17
 #, kde-format
 msgctxt "@title:window"
-msgid "Support Your Freedom"
-msgstr "भवतः स्वतन्त्रतायाः समर्थनं कुर्वन्तु"
+msgid "Enjoy It!"
+msgstr ""
 
-#: src/qml/pages/Donate.qml:16
+#: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.--a German nonprofit that manages legal matters, funds "
-"development sprints and server resources, and offers employment "
-"opportunities for KDE developers. Donations to KDE e.V. support the wider "
-"KDE community, and you can make a difference by donating today!<nl/><nl/"
-">Donations are tax-deductible in Germany."
+"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"to jump right in. Explore its features, install your favorite apps and "
+"games, and get busy doing what makes you you!"
 msgstr ""
-"KDE समुदायः विशेषज्ञतायाः धनस्य च दानस्य उपरि निर्भरः अस्ति, तथा च KDE e.V.--एकेन "
-"जर्मन-अलाभकारी-संस्थायाः समर्थितः अस्ति यः कानूनी-विषयान् प्रबन्धयति, विकास-स्प्रिन्ट्-"
-"वितारक्-संसाधनं च निधिं ददाति, तथा च KDE-विकासकानाम् कृते रोजगारस्य अवसरान् प्रदाति । "
-"KDE e.V. कृते दानं व्यापकस्य KDE समुदायस्य समर्थनं करोति, अद्यैव दानं कृत्वा भवान् परिवर्तनं "
-"कर्तुं शक्नोति!<nl/><nl/>जर्मनीदेशे दानं कर-कटौती भवति।."
 
-#: src/qml/pages/Donate.qml:22 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "KDE समुदायस्य विषये अधिकं ज्ञातव्यम्"
+
+#: src/qml/pages/Enjoy.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Get help at KDE's discussion forums"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "दानं कुर्वन्तु"
 
-#: src/qml/pages/Donate.qml:51
+#: src/qml/pages/Enjoy.qml:65
 #, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
 msgctxt "@action:button"
-msgid "Plasma 6 Supporters"
-msgstr "प्लाज्मास्य तिजोरियाँः"
+msgid "Get involved"
+msgstr "प्रवृत्ताः भवन्तु"
 
-#: src/qml/pages/donate/Supporters.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Plasma Vaults"
+#: src/qml/pages/Enjoy.qml:75
+#, kde-format
+msgctxt "@action:button"
+msgid "Supporting Members"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:16
+#, kde-format
 msgctxt "@title:window"
-msgid "Plasma 6 Supporters"
-msgstr "प्लाज्मास्य तिजोरियाँः"
+msgid "Supporting Members"
+msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:17
+#: src/qml/pages/enjoy/Supporters.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"We thank the following supporting members for joining us in the Plasma 6 "
-"fundraising campaign:"
+"We thank the following supporting members for their recurring donation to "
+"KDE:"
 msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr ""
 
-#: src/qml/pages/donate/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -1054,35 +1031,91 @@ msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "स्वागत केन्द्र"
 
-#: src/qml/pages/Welcome.qml:43
-#, kde-format
-msgctxt "@action:button"
-msgid "Learn more about the KDE community"
-msgstr "KDE समुदायस्य विषये अधिकं ज्ञातव्यम्"
-
-#: src/qml/pages/Welcome.qml:48
+#: src/qml/pages/Welcome.qml:45
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Welcome.qml:86
+#: src/qml/pages/Welcome.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "चित्रभारणं विफलम् अभवत्"
 
-#: src/qml/pages/Welcome.qml:87
+#: src/qml/pages/Welcome.qml:83
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "<filename>%1</filename> लोड् कर्तुं न शक्यते । तस्य अस्तित्वं सुनिश्चितं कुरुत।."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:110
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "%1 इति भ्रमणं कुर्वन्तु"
+
+#: src/qml/pages/Welcome.qml:117
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE mascot Konqi भवन्तं KDE समुदाये स्वागतं करोति!"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "KDE is not a big company; it's an international volunteer community, and "
+#~ "its software is made by people like you donating their time and passion. "
+#~ "You too can help make things better, whether it's through translation, "
+#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
+#~ ">By contributing to KDE, you can become part of something special, meet "
+#~ "new friends, learn new skills, and make a difference to millions while "
+#~ "working with people from around the globe to deliver a stunning free "
+#~ "software computing experience."
+#~ msgstr ""
+#~ "KDE इति बृहत् कम्पनी नास्ति; इदं अन्तर्राष्ट्रीयस्वयंसेवकसमुदायः अस्ति, तस्य तन्त्रांशं च "
+#~ "भवद्भिः सदृशैः जनाभिः स्वसमयं, अनुरागं च दानं कृत्वा निर्मितम् अस्ति । भवान् अपि विषयान् "
+#~ "उत्तमं कर्तुं साहाय्यं कर्तुं शक्नोति, भवेत् तत् अनुवादस्य, दृश्यविन्यासस्य, प्रचारस्य च "
+#~ "माध्यमेन, अथवा विधिलेखन तथा दोष ट्रायजिंग्(bug triaging) इत्येतयोः माध्यमेन।<nl/"
+#~ "><nl/>KDE मध्ये योगदानं दत्त्वा भवान् किमपि विशेषस्य भागः भवितुम् अर्हति, नूतनान् "
+#~ "मित्राणि मिलितुं शक्नोति, नूतनानि कौशल्यं शिक्षन्तु, तथा च विश्वस्य जनानां सह कार्यं "
+#~ "कुर्वन् एकं आश्चर्यजनकं निःशुल्कतन्त्रांशगणनानुभवं प्रदातुं कोटिजनानाम् कृते भेदं कुर्वन्ति।."
+
+#~ msgctxt "@action:button"
+#~ msgid "Start Contributing!"
+#~ msgstr "योगदानं आरभत !"
+
+#~ msgctxt "@title:window"
+#~ msgid "Support Your Freedom"
+#~ msgstr "भवतः स्वतन्त्रतायाः समर्थनं कुर्वन्तु"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
+#~ "funds development sprints and server resources, and offers employment "
+#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
+#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
+#~ ">Donations are tax-deductible in Germany."
+#~ msgstr ""
+#~ "KDE समुदायः विशेषज्ञतायाः धनस्य च दानस्य उपरि निर्भरः अस्ति, तथा च KDE e.V.--एकेन "
+#~ "जर्मन-अलाभकारी-संस्थायाः समर्थितः अस्ति यः कानूनी-विषयान् प्रबन्धयति, विकास-स्प्रिन्ट्-"
+#~ "वितारक्-संसाधनं च निधिं ददाति, तथा च KDE-विकासकानाम् कृते रोजगारस्य अवसरान् प्रदाति "
+#~ "। KDE e.V. कृते दानं व्यापकस्य KDE समुदायस्य समर्थनं करोति, अद्यैव दानं कृत्वा भवान् "
+#~ "परिवर्तनं कर्तुं शक्नोति!<nl/><nl/>जर्मनीदेशे दानं कर-कटौती भवति।."
+
+#, fuzzy
+#~| msgctxt "@info:window"
+#~| msgid "Plasma Vaults"
+#~ msgctxt "@action:button"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "प्लाज्मास्य तिजोरियाँः"
+
+#, fuzzy
+#~| msgctxt "@info:window"
+#~| msgid "Plasma Vaults"
+#~ msgctxt "@title:window"
+#~ msgid "Plasma 6 Supporters"
+#~ msgstr "प्लाज्मास्य तिजोरियाँः"
 
 #~ msgctxt "@title:row"
 #~ msgid "Get New Stuff"
