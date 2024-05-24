@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-23 00:40+0000\n"
-"PO-Revision-Date: 2024-05-22 13:56+0200\n"
+"PO-Revision-Date: 2024-05-23 12:20+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -274,7 +274,7 @@ msgstr "%1 in Ontdekken tonen"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Geniet ervan!"
 
 #: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
@@ -284,6 +284,10 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"We hopen dat u Plasma fijn vindt evenveel als wij het fijn vinden om het "
+"voor u te maken! Nu is het tijd om er in te springen. Verken zijn "
+"mogelijkheden, installeer uw favoriete toepassingen en spellen en wees bezig "
+"met te doen wat u u maakt!"
 
 #: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
 #, kde-format
@@ -295,7 +299,7 @@ msgstr "Kom meer te weten over de de KDE-gemeenschap"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
-msgstr ""
+msgstr "Krijg hulp op de de discussieforums van KDE"
 
 #: src/qml/pages/Enjoy.qml:56
 #, kde-kuit-format
@@ -305,6 +309,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Als u Plasma nuttig vindt, overweeg om mee te doen of doneer. KDE is een "
+"internationale gemeenschap van vrijwilligers, geen groot bedrijf; uw "
+"bijdrage maakt echt het verschil!"
 
 #: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -313,38 +320,32 @@ msgid "Make a donation"
 msgstr "Doe een donatie"
 
 #: src/qml/pages/Enjoy.qml:65
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "Doe mee"
+msgstr "Meedoen"
 
 #: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Ondersteunende leden"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Ondersteunende leden"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
 msgstr ""
-"Wij danken de volgende ondersteunende leden voor het meedoen met ons in de "
-"campagne voor geldwerving voor Plasma 6:"
+"Wij danken de volgende ondersteunende leden voor hun herhaalde donatie aan "
+"KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format

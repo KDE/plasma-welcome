@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-23 00:40+0000\n"
-"PO-Revision-Date: 2024-05-22 11:21+0300\n"
+"PO-Revision-Date: 2024-05-23 08:14+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -273,7 +273,7 @@ msgstr "הצגת %1 בחשיפה"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "להנאתך!"
 
 #: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
@@ -283,6 +283,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"אנו מקווים שפלזמה עושה לך טוב לפחות ברמת האהבה שהשקענו כדי להכין אותה עבורך! "
+"עכשיו הזמן לצלול פנימה. לחקור את היכולות שלה, להתקין את היישומים והמשחקים "
+"המועדפים עליך ולעסוק במה שחשוב לך!"
 
 #: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
 #, kde-format
@@ -294,7 +297,7 @@ msgstr "מידע נוסף על קהילת KDE"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
-msgstr ""
+msgstr "קבלת עזרה בפורום הדיונים של KDE"
 
 #: src/qml/pages/Enjoy.qml:56
 #, kde-kuit-format
@@ -304,6 +307,8 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"אם פלזמה מספקת לך שירות טוב, אפשר להצטרף להפקה או לתרום כלכלית. KDE היא "
+"קהילת מתנדבים בינלאומית, לא חברה גדולה. כל תרומה שהיא מייצרת שינוי של ממש!"
 
 #: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -312,37 +317,30 @@ msgid "Make a donation"
 msgstr "תרומה כספית"
 
 #: src/qml/pages/Enjoy.qml:65
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "הצטרפות"
+msgstr "השתתפות"
 
 #: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "חברים תומכים"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "חברים תומכים"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr ""
-"אנו מודים לחברים התומכים הבאים על הצטרפותם למסע הפרסום לגיוס כספים לפלזמה 6:"
+msgstr "אנו מודים לחברים התומכים הבאים על תרומתם המחזורית ל־KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format

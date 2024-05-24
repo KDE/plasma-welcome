@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-23 00:40+0000\n"
-"PO-Revision-Date: 2024-04-27 17:28+0100\n"
+"PO-Revision-Date: 2024-05-23 05:51+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -311,38 +311,31 @@ msgid "Make a donation"
 msgstr "Fari donacon"
 
 #: src/qml/pages/Enjoy.qml:65
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "Implikiĝi"
+msgstr "Implikiĝu"
 
 #: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Subtenaj Membroj"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Subtenaj Membroj"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
 msgstr ""
-"Ni dankas la sekvajn subtenajn membrojn pro ilia kuniĝo en la Plasma-6 "
-"kvestkampanjo:"
+"Ni dankas la sekvajn subtenajn membrojn pro ilia ripetiĝanta donaco al KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
@@ -714,25 +707,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
@@ -745,14 +720,9 @@ msgstr ""
 "KRunner estas la escepte potenca kaj diverstalenta serĉsistemo de Plasma. Ĝi "
 "funkciigas la serĉfunkcion en la menuo de Apliko-Lanĉilo kaj la ekrano "
 "Superrigardo, kaj ĝi povas esti alirebla kiel memstara serĉbreto uzante la "
-"klavkombion <shortcut>Alt+Spaco</shortcut>.<nl/><nl/>Krome. por trovi viajn "
+"klavarkombinon <shortcut>Alt+Spaceto</shortcut>.<nl/><nl/>Krom trovi viajn "
 "dosierojn kaj dosierujojn, KRunner povas lanĉi programojn, serĉi en la reto, "
-"konverti inter valutoj, kalkuli matematikajn problemojn kaj multe pli. Provu "
-"tajpi iun el la sekvaj en unu el tiuj serĉkampoj:<nl/><list><item>\"time "
-"Ŝanhajo\"</item><item>\"27/3\"</item><item> \"200 EUR en USD\"</item><item>"
-"\"25 mejloj en km\"</item><item>…Kaj multe pli!</item></list><nl/>Por lerni "
-"pli , malfermu la serĉbreton de KRunner uzante la klavkombinon <shortcut>Alt"
-"+Space</shortcut> kaj alklaku la demandsigno-piktogramon."
+"konverti inter valutoj, kalkuli matematikajn problemojn kaj multe pli."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
 #, kde-kuit-format
@@ -761,6 +731,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Por ekscii pli, malfermu la serĉbreton de KRunner uzante la klavkombinon "
+"<shortcut>Alt+Spaceto</shortcut> kaj alklaku la demandsigno-piktogramon."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -770,7 +742,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "time Shanghai"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -778,7 +750,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -804,7 +776,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...kaj multe pli!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
@@ -1069,55 +1041,3 @@ msgstr "Viziti %1"
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "La KDE-maskoto Konqi bonvenigas vin al la KDE-komunumo!"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE is not a big company; it's an international volunteer community, and "
-#~ "its software is made by people like you donating their time and passion. "
-#~ "You too can help make things better, whether it's through translation, "
-#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
-#~ ">By contributing to KDE, you can become part of something special, meet "
-#~ "new friends, learn new skills, and make a difference to millions while "
-#~ "working with people from around the globe to deliver a stunning free "
-#~ "software computing experience."
-#~ msgstr ""
-#~ "KDE ne estas granda firmao; ĝi estas internacia volontula komunumo, kaj "
-#~ "ĝia programaro estas farita de homoj kiel vi donacantaj sian tempon kaj "
-#~ "pasion. Vi ankaŭ povas helpi plibonigi aferojn, ĉu per tradukado, vida "
-#~ "dezajno kaj reklamado, ĉu per programado kaj cimtriagado.<nl/><nl/"
-#~ ">Kontribuante al KDE, vi povas fariĝi parto de io speciala, renkonti "
-#~ "novajn amikojn, lernu novajn kapablojn kaj faru diferencon al milionoj "
-#~ "laborante kun homoj el la tuta mondo por liveri mirindan komputiksperton "
-#~ "pri libera programaro."
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "Komenci Kontribui!"
-
-#~ msgctxt "@title:window"
-#~ msgid "Support Your Freedom"
-#~ msgstr "Subtenu Vian Liberecon"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The KDE community relies on donations of expertise and funds, and is "
-#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#~ "funds development sprints and server resources, and offers employment "
-#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#~ ">Donations are tax-deductible in Germany."
-#~ msgstr ""
-#~ "La KDE-komunumo fidas je donacoj de kompetenteco kaj financo, kaj estas "
-#~ "subtenata de KDE e.V.--germana neprofitocela, kiu administras jurajn "
-#~ "aferojn, financas evoluspurtojn kaj servilajn rimedojn, kaj ofertas "
-#~ "dungadajn ŝancojn por KDE-programistoj. Donacoj al KDE e.V. subtenos la "
-#~ "pli larĝan KDE-komunumon, kaj vi povas fari diferencon donacante hodiaŭ!"
-#~ "<nl/><nl/>Donacoj estas impostodekalkuleblaj."
-
-#~ msgctxt "@action:button"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "Plasma-6 Subtenantoj"
-
-#~ msgctxt "@title:window"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "Plasma-6 Subtenantoj"
