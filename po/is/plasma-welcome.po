@@ -1,31 +1,32 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
 # Sveinn í Felli <sv1@fellsnet.is>, 2022, 2023.
+# SPDX-FileCopyrightText: 2024 Gummi <gudmundure@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-24 02:57+0000\n"
-"PO-Revision-Date: 2023-03-22 12:58+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic\n"
+"PO-Revision-Date: 2024-05-12 19:38+0000\n"
+"Last-Translator: Gummi <gudmundure@gmail.com>\n"
+"Language-Team: Icelandic <kde-i18n-doc@kde.org>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 23.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Sveinn í Felli"
+msgstr "Sveinn í Felli, Guðmundur Erlingsson"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "sv1@fellsnet.is"
+msgstr "sv1@fellsnet.is, gudmundure@gmail.com"
 
 #: src/contents/ui/footers/FooterDefault.qml:29
 #, kde-format
@@ -55,13 +56,13 @@ msgstr "&Næsta"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Birta þessa síðu eftir að Plasma er uppfært"
 
 #: src/contents/ui/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "Í &lagi"
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -82,6 +83,14 @@ msgid ""
 "with people from around the globe to deliver a stunning free software "
 "computing experience."
 msgstr ""
+"KDE er ekki stórt fyrirtæki heldur alþjóðlegt samfélag sjálfboðaliða og "
+"hugbúnaðurinn er búinn til af fólki eins og þér, sem gefur tíma sinn og "
+"ástríðu. Þú getur líka hjálpað til við að bæta hlutina, t.d. með þýðingum, "
+"grafískri hönnun og kynningu, eða með forritun og villuprófunum.<nl/><nl/> "
+"Með því að leggja þitt af mörkum til KDE verður þú hluti af mögnuðu "
+"samfélagi, kynnist nýjum vinum, aflar þér nýrrar þekkingar og bætir líf "
+"milljóna notenda á meðan þú vinnur með fólki hvaðanæva úr heiminum við að "
+"skila mögnuðu frjálsu tölvuumhverfi."
 
 #: src/contents/ui/pages/Contribute.qml:23
 #, kde-format
@@ -94,13 +103,13 @@ msgstr "Byrjaðu að gefa af þér!"
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr "Heimsækja %1"
+msgstr "Heimsæktu %1"
 
 #: src/contents/ui/pages/Discover.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
-msgstr "Umsýsla hugbúnaðar"
+msgstr "Umsjón með hugbúnaði"
 
 #: src/contents/ui/pages/Discover.qml:22
 #, kde-kuit-format
@@ -111,6 +120,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"Forritið <application>%1</application> hjálpar þér að finna og setja upp "
+"forriti, leiki og verkfæri. Hægt er að leita eða fletta eftir flokkum, skoða "
+"skjámyndir og lesa umsagnir til að auðvelda þér að finna forritið sem best "
+"hentar."
 
 #: src/contents/ui/pages/Discover.qml:103
 #, kde-format
@@ -122,7 +135,7 @@ msgstr "Sýna %1 í Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr "Styddu við frelsið þitt"
+msgstr "Stuðlaðu að frelsi þínu"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -135,6 +148,12 @@ msgid ""
 "KDE community, and you can make a difference by donating today!<nl/><nl/"
 ">Donations are tax-deductible in Germany."
 msgstr ""
+"KDE-samfélagið treystir á styrki, bæði í formi kunnáttu og peninga og fær "
+"stuðning frá KDE e.V.--þýsku fyrirtæki sem rekið er án hagnaðar og sér um "
+"lögfræðileg mál, söfnunarátök og vefþjónaúrræði auk þess sem það býður upp á "
+"atvinnutækifæri fyrir KDE-forritara. Styrkir til KDE e.V. styðja við KDE-"
+"samfélagið í heild sinni og þú getur lagt þitt af mörkum með því að styrkja "
+"í dag!<nl/><nl/>Styrkirnir eru undanþegnir skatti í Þýskalandi."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/plasmaupdate/Update.qml:74
@@ -147,13 +166,13 @@ msgstr "Styrktu verkefnið"
 #, kde-format
 msgctxt "@action:button"
 msgid "Plasma 6 Supporters"
-msgstr ""
+msgstr "Stuðningsfólk Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma 6 Supporters"
-msgstr ""
+msgstr "Stuðningsfólk Plasma 6"
 
 #: src/contents/ui/pages/donate/Supporters.qml:17
 #, kde-kuit-format
@@ -162,6 +181,7 @@ msgid ""
 "We thank the following people for supporting us during the Plasma 6 "
 "fundraising campaign:"
 msgstr ""
+"Við þökkum eftirfarandi aðilum fyrir stuðninginn í söfnunarátaki Plasma 6:"
 
 #: src/contents/ui/pages/kcms/Feedback.qml:15
 #, kde-format
@@ -176,14 +196,14 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
+"Forritararnir okkar nota þessi nafnlausu gögn til að bæta hugbúnað KDE. Þú "
+"getur valið hversu miklu þú vilt deila í Kerfisstillingum, og líka hér."
 
 #: src/contents/ui/pages/Live.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Velkomin í KDE Plasma!"
+msgstr "Velkomin í %1!"
 
 #: src/contents/ui/pages/Live.qml:22
 #, kde-kuit-format
@@ -193,6 +213,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"Þegar ýtt er á táknið fyrir neðan hefst uppsetningin á %1. Þú getur líka "
+"lokað glugganum til að kanna prufuumhverfið betur eða haldið áfram hér til "
+"að fræðast meira um KDE Plasma."
 
 #: src/contents/ui/pages/Live.qml:24
 #, kde-kuit-format
@@ -201,18 +224,20 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"Þú getur lokað glugganum til að kanna prufuumhverfið betur eða haldið áfram "
+"hér til að fræðast meira um KDE Plasma."
 
 #: src/contents/ui/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr ""
+msgstr "Heimsækja heimasíðuna"
 
 #: src/contents/ui/pages/Network.qml:23
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "Aðgangur að internetinu"
+msgstr "Tengdu þig við netið"
 
 #: src/contents/ui/pages/Network.qml:24
 #, kde-kuit-format
@@ -223,6 +248,10 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
+"Þú getur tengst netinu og haft umsjón með nettenginum þínum með "
+"<interface>netsmáforritinu</interface>. Opnaðu það með því að smella á "
+"táknið <interface>Nettengingar</interface> í <interface>kerfisbakkanum</"
+"interface> sem er neðst í hægra horninu á skjánum."
 
 #: src/contents/ui/pages/Network.qml:248
 #, kde-format
@@ -231,11 +260,11 @@ msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version."
 msgstr ""
+"Þessi síða birtist burtséð frá því hvort hægt sé að tengjast neti eða ekki "
+"þar sem þú ert að nota þróunarútgáfu."
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "Plasma hefur verið uppfært í útgáfu %1"
@@ -248,21 +277,22 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Þakka þér fyrir að prófa þessa betaútgáfu af Plasma. Athugasemdir þínar "
+"skipta sköpum í að hjálpa okkur að gera hana betri! Sendu endilega inn "
+"tilkynningar um hvers kyns villur sem þú finnur svo við getum lagað þær."
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:23
 #: src/contents/ui/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "Sjáu hvað er nýtt í Plasma %1"
+msgstr "<b>Sjáðu nýjasta nýtt</b>"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a bug"
-msgstr ""
+msgstr "Senda villutilkynningu"
 
 #: src/contents/ui/pages/plasmaupdate/Beta.qml:32
 #: src/contents/ui/pages/plasmaupdate/Update.qml:29
@@ -278,6 +308,9 @@ msgid ""
 "KDE contributors have spent the last year hard at work on this release. We "
 "hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"Þátttakendur KDE hafa unnið hörðum höndum undanfarna fjóra mánuði að þessari "
+"útgáfu. Við vonum að þú njótir þess að nota Plasma jafnmikið og við höfum "
+"notið þess að búa það til!"
 
 #: src/contents/ui/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -287,12 +320,16 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"KDE-samfélagið treystir á styrki, bæði í formi kunnáttu og peninga og er "
+"stutt af KDE eV--þýsku fyrirtæki sem rekið er án hagnaðar. Styrkir til KDE e."
+"V. styðja við KDE-samfélagið í heild sinni og þú getur lagt þitt af mörkum "
+"með því að styrkja í dag."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr ""
+msgstr "Öflugt þegar á þarf að halda"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -301,18 +338,21 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"Plasma býr yfir mjög fjölbreyttum eiginleikum og er hannað til að hjálpa þér "
+"að koma meiru í verk. Hér er bara smá brot af því sem það getur gert fyrir "
+"þig:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:64
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Læstar geymslur"
+msgstr "Öryggisgeymslur"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:65
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr ""
+msgstr "Geymdu viðkvæmar skrár á öruggan hátt"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
@@ -326,7 +366,7 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr ""
+msgstr "Haltu verkefnum fyrir vinnu, skóla eða heimili aðskildum"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:84
 #, kde-format
@@ -338,7 +378,7 @@ msgstr "KDE Connect"
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr "Tengdu símann þinn og tölvuna"
+msgstr "Tengdu saman símann þinn og tölvuna"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:96
 #, kde-format
@@ -350,45 +390,43 @@ msgstr "KRunner"
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "Leitaðu að einhverju"
+msgstr "Leitaðu að hverju sem er"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:106
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr "Yfirlit"
+msgstr "Yfirlitsskjár"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:107
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr ""
+msgstr "Stjórnstöð tölvunnar þinnar"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:116
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@title:row"
 msgid "Get New Stuff"
-msgstr "Sækja nýtt flott dót"
+msgstr "Sæktu nýtt dót"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:117
 #, kde-format
 msgctxt "@info Caption for Get New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "Bættu við notkunareiginleikum með viðbótum"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr ""
+msgstr "Lærðu meira um eiginleika Plasma"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:133
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Plasma öryggisgeymslur"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:134
 #, kde-kuit-format
@@ -402,6 +440,14 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Plasma öryggisgeymslur gera þér kleift að setja upp dulritaðar möppur sem "
+"kallast <interface>öryggisgeymslur.</interface> Þú getur geymt lykilorð, "
+"skrár, myndir og skjöl á öruggan hátt í öryggisgeymslum þar sem aðrir ná "
+"ekki til þeirra. Öryggisgeymslur geta líka verið í möppum sem eru "
+"samstilltar við skýjageymslur á netinu sem veitir slíku efni enn meira "
+"öryggi.<nl/><nl/>Smelltu á örina í <interface>kerfisbakkanum</interface> til "
+"að sýna falin atriði og smelltu svo á táknið fyrir "
+"<interface>Öryggisgeymslur</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
@@ -422,15 +468,21 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"Það er hægt að nota Athafnir til að aðskilja tiltekin verkefni eða verkflæði "
+"svo þú getir einbeitt þér að einu í einu. Þú getur verið með athöfn fyrir "
+"\"Heimilið\", \"Skóla\" og \"Vinnu\" o.s.frv. Hver athöfn er með aðgang að "
+"skránum þínum en er líka með eigið safn af opnum forritum, nýlegum skjölum, "
+"eftirlætisforritum og skjáborðsgræjum.<nl/><nl/>Til að hefjast handa skaltu "
+"opna <interface>Kerfisstillingar</interface> og leita að \"Athafnir\". Á "
+"þeirri síðu geturðu sett upp fleiri Athafnir. Þú getur svoskipt á milli "
+"þeirra með því að nota flýtilykilinn <shortcut>Meta+Tab</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:148
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:179
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Kerfisstillingar"
+msgstr "Opna stillingar…"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -452,6 +504,15 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"Með KDE Connect geturðu látið símann þinn og tölvuna vinna saman á ýmsan "
+"hátt:<nl/><list><item>Skoðað tilkynningar úr símanum í tölvunni</"
+"item><item>Svarað textaskilaboðum úr símanum í tölvunni</"
+"item><item>Samstillt efni á klippispjaldinu á milli tölvunnar og símans</"
+"item><item>Látið símann gefa frá sér hátt hljóð þegar hann finnst ekki</"
+"item><item>Afritað myndir, vídeóog aðrar skrár úr símanum í tölvuna, og "
+"öfugt</item><item>…Og margt fleira!</item></list><nl/>Opnaðu "
+"<interface>Kerfisstillingar</interface> og leitaðu að \"KDE Connect\". Þú "
+"getur parað símann þinn á þeirri síðu."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:190
 #, kde-format
@@ -479,6 +540,17 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner er leitarkerfi Plasma og er ótrúlega öflugt og fjölhæft. Það keyrir "
+"leitarvirknina í forritaræsisvalmyndinni og á yfirlitsskjánum og hægt er að "
+"opna það sem sjálfstæðan leitarglugga með því að ýta á<shortcut>Alt+Space</"
+"shortcut>.<nl/><nl/>Auk þess að finna skrárnar þínar og möppur getur KRunner "
+"opnað forrit, leitað á netinu, umreiknað á milli gjaldmiðla, reiknað "
+"stærðfræðidæmi og margt fleira. Prófaðu að slá inn eitthvað af eftirfarandi "
+"í einn af þessum leitargluggum:<nl/><list><item>\"time Shanghai\"</"
+"item><item>\"27/3\"</item><item>\"200 EUR in USD\"</item><item>\"25 miles in "
+"km\"</item><item>…Og margt fleira!</item></list><nl/>Opnaðu KRunner-"
+"leitargluggann með flýtilyklinum <shortcut>Alt+Space</shortcut> og smelltu á "
+"spurningamerkið til að fá meiri upplýsingar."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:210
 #, kde-format
@@ -497,14 +569,18 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"Yfirlitsskjárinn er skjámynd sem nær yfir allan skjáinn og sýnir gluggana "
+"sem þú ert með opna þannig að auðvelt sé að nálgast þá. Þar sést einnig "
+"núverandi sýndarskjáborð og þú getur bætt við fleirum, fjarlægt önnur og "
+"flakkað á milli þeirra. Að lokum er leitargluggi á yfirlitsskjánum sem "
+"byggir á KRunner sem getur líka síað út opna glugga.<nl/><nl/>Þú getur opnað "
+"yfirlitsskjáinn með flýtilyklinum <shortcut>Meta+W</shortcut>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:219
-#, fuzzy, kde-format
-#| msgctxt "@info:window"
-#| msgid "Get Hot New Stuff"
+#, kde-format
 msgctxt "@info:window"
 msgid "Get New Stuff"
-msgstr "Sækja nýtt flott dót"
+msgstr "Sæktu nýtt dót"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:220
 #, kde-kuit-format
@@ -518,18 +594,25 @@ msgid ""
 "acquired this way has not been reviewed by your distributor for "
 "functionality or stability."
 msgstr ""
+"Í Plasma, Kerfisstillingum og KDE-forritum er að finna hnappa sem á stendur"
+"\"Sækja nýtt <emphasis>dót</emphasis>…\". Ef smellt er á þá birtist "
+"utanaðkomandi efni sem bæta má við kerfið, sem gert er af fólki eins og þér! "
+"Þannig er oft hægt að bæta við eiginleikum sem þig vantar án þess að þurfa "
+"að biðja forritara KDE um að búa þá til.<nl/><nl/>Athugaðu að efni sem er "
+"fengið á þennan hátt er ekki yfirfarið af dreifingaraðila þínum hvað varðar "
+"virkni eða stöðugleika."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:225
 #, kde-format
 msgctxt "@action:button"
 msgid "See 3rd-Party Content…"
-msgstr ""
+msgstr "Sjá efni frá þriðju aðilum..."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "Einfalt í eðli sínu"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:17
 #, kde-kuit-format
@@ -542,14 +625,16 @@ msgid ""
 "you can be comfortable and productive.<nl/><nl/>Should you feel the need to, "
 "you'll find what you need in the <application>%1</application> app."
 msgstr ""
+"Plasma er hannað með einfaldleika og notagildi í huga. Hlutirnir eru þar sem "
+"búast má við þeim og í raun þarf ekki að breyta neinu til að getabyrjað að "
+"nota tölvuna.<nl/><nl/>Ef þú vilt samt velja þínar eigin stillingar finnurðu "
+"það sem þú þarft í forritinu <application>%1</application>."
 
 #: src/contents/ui/pages/Welcome.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Velkomin í KDE Plasma!"
+msgstr "Velkomin"
 
 #: src/contents/ui/pages/Welcome.qml:19
 #, kde-kuit-format
@@ -561,6 +646,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
+"%1<nl/><nl/>Þetta stýrikerfi keyrir Plasma, frítt og frjálst "
+"skjáborðsumhverfi frá KDE, alþjóðlegu hugbúnaðarsamfélagi sjálfboðaliða. Það "
+"er hannað með einfaldleika í huga sem tryggir notalega upplifun, en er þó "
+"nógu öflugt þegar þörf krefur til að gera þér kleift að ráða fram úr öllum "
+"verkefnum. Við vonum að þér líki það!"
 
 #: src/contents/ui/pages/Welcome.qml:20
 #, kde-kuit-format
@@ -572,98 +662,104 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
+"Velkomin í %1 stýrikerfið sem keyrir KDE Plasma!<nl/><nl/>Plasma er frítt og "
+"frjálst skjáborðsumhverfi frá KDE, alþjóðlegu hugbúnaðarsamfélagi "
+"sjálfboðaliða. Það er hannað með einfaldleika í huga sem tryggir notalega "
+"upplifun, en er þó nógu öflugt þegar þörf krefur til að gera þér kleift að "
+"ráða fram úr öllum verkefnum. Við vonum að þér líki það!"
 
 #: src/contents/ui/pages/Welcome.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "Læra meira um KDE samfélagið"
 
 #: src/contents/ui/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr ""
+msgstr "Læra meira um %1"
 
 #: src/contents/ui/pages/Welcome.qml:72
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Mistókst að hlaða mynd"
 
 #: src/contents/ui/pages/Welcome.qml:73
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Gat ekki hlaðið <filename>%1</filename>. Gakktu úr skugga um að það sé til."
 
 #: src/contents/ui/pages/Welcome.qml:107
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "KDE-lukkudýrið Konqi býður ykkur velkomin í KDE-samfélagið!"
 
 #: src/controller.cpp:53
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:56
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 Alpha"
 
 #: src/controller.cpp:59
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:62
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "6.0 Beta 2"
 
 #: src/controller.cpp:65
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:68
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:86
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Dev"
 
 #: src/controller.cpp:90
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:93
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/main.cpp:40
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr "Velkomin-forrit fyrir KDE Plasma"
+msgstr "Kynningarforrit fyrir KDE Plasma"
 
 #: src/main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Kynningarmiðstöð"
 
 #: src/main.cpp:53
 #, kde-format
@@ -692,26 +788,26 @@ msgstr "Nate Graham"
 #: src/main.cpp:71
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr ""
+msgstr "Birta útgáfutilkynningar fyrir núverandi útgáfu Plasma."
 
 #: src/main.cpp:72
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr ""
+"Birta útgáfutilkynningar fyrir núverandi útgáfu Plasma, fyrir betaútgáfur."
 
 #: src/main.cpp:73
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
+"Birta uppsetningarsíðu sem ætluð er fyrir prufuumhverfi fyrir Linux-útgáfur."
 
 #: src/qml/ApplicationIcon.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Ræsa Discover núna"
+msgstr "Keyra %1 núna"
 
 #~ msgctxt "@title: window"
 #~ msgid "Connect Online Accounts"
