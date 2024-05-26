@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-23 00:40+0000\n"
-"PO-Revision-Date: 2024-05-02 11:12+0400\n"
+"PO-Revision-Date: 2024-05-25 17:28+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
-"Language-Team: ar\n"
+"Language-Team: \n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -213,7 +213,7 @@ msgstr "&موافق"
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "ابحث…"
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -274,7 +274,7 @@ msgstr "أظهر %1 في المستكشف"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "استمتع بها!"
 
 #: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
@@ -284,6 +284,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"نأمل أن تحب البلازما بقدر ما أحببنا صنعها لك! حان الوقت الآن للانطلاق "
+"مباشرةً. استكشف ميزاتها، وثبّت تطبيقاتك وألعابك المفضلة، وانشغل بفعل ما يجعلك "
+"أنت!"
 
 #: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
 #, kde-format
@@ -295,7 +298,7 @@ msgstr "تعلم المزيد عن مجتمع كِيدِي"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
-msgstr ""
+msgstr "احصل على المساعدة في منتدى نقاش كيدي"
 
 #: src/qml/pages/Enjoy.qml:56
 #, kde-kuit-format
@@ -305,6 +308,8 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"إذا وجدت أن البلازما مفيدة، ففكر في المشاركة أو التبرع. كيدي هو مجتمع تطوعي "
+"دولي، وليس شركة كبيرة؛ مساهماتك تحدث فرقا حقيقيا!"
 
 #: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -313,9 +318,7 @@ msgid "Make a donation"
 msgstr "تبرّع"
 
 #: src/qml/pages/Enjoy.qml:65
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "شاركنا"
@@ -324,25 +327,21 @@ msgstr "شاركنا"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "الأعضاء الداعمين"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "الأعضاء الداعمين"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr "نشكر الأعضاء التاليين لدعمهم لنا خلال حملة جمع التبرعات لبلازما 6:"
+msgstr "نشكر الأعضاء التاليين لدعمهم  المتكرر لكيدي:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
@@ -708,25 +707,7 @@ msgid "KRunner"
 msgstr "مشغل.ك"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
@@ -740,12 +721,7 @@ msgstr ""
 "نظرة عامة، ويمكن الوصول إليه كشريط بحث مستقل باستخدام اختصار لوحة المفاتيح "
 "<shortcut>Alt+رز المسافة</shortcut>. إضافة إلى خدمة العثور على ملفاتك "
 "ومجلداتك؛ يمكن لمشغل.ك تشغيل التطبيقات، والبحث في الويب، وتحويل بين العملات، "
-"وحساب مشاكل الرياضيات، وغير ذلك الكثير. حاول كتابة أي مما يلي في أحد مجالات "
-"البحث هذه: <nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-"item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-"وغيرها الكثير!</item></list><nl/> لتعلم المزيد، افتح بحث \"مشغل.ك\" باستخدام "
-"اختصار لوحة المفاتيح <shortcut>Alt+رز المسافة</shortcut> وانقر على رمز علامة "
-"الاستفهام."
+"وحساب مشاكل الرياضيات، وغير ذلك الكثير. "
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
 #, kde-kuit-format
@@ -754,6 +730,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"لمعرفة المزيد، افتح شريط بحث مشغل.ك باستخدام اختصار لوحة المفاتيح "
+"<shortcut>Alt+مسافة</shortcut> وانقر على أيقونة علامة الاستفهام."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -763,7 +741,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "وقت Shanghai"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -771,7 +749,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -780,7 +758,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR إلى USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
@@ -789,7 +767,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 miles إلى km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
@@ -797,7 +775,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "... وغيرها الكثير!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
@@ -838,6 +816,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"يتيح لك تطبيق إعدادات النظام تخصيص النظام على نطاق واسع ليناسب أذواقك "
+"وتفضيلاتك. التطبيقات الافتراضية، والخلفيات، والأنماط المرئية والأيقونات، "
+"وأسطح المكتب الافتراضية، وإدارة الطاقة، والوظائف الإضافية التابعة لجهات "
+"خارجية — ستجد كل ذلك هناك!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
 #, kde-format
@@ -895,6 +877,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"هذا هو \"سطح المكتب\". يعرض سطح المكتب الملفات والمجلدات الموجودة في مجلد "
+"<filename>سطح المكب</filename> الخاص بك، ويمكنه الاحتفاظ بالأدوات. انقر بزر "
+"الفأرة الأيمن عليه واختر <interface>سطح المكتب والخلفية…</interface> لتهيئة "
+"مظهر سطح المكتب. يمكنك أيضًا اختيار <interface>ادخل في وضع التحرير</"
+"interface> لإضافة عناصر واجهة المستخدم أو إزالتها أو تعديلها."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -904,6 +891,9 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"هذه \"لوحة\" — حاوية تحتوي على عناصر واجهة المستخدم. انقر بزر الفأرة الأيمن "
+"عليها واختر <interface>أظهر ضبط اللوحة</interface> لتغيير سلوكها، وحافة "
+"الشاشة التي تعيش عليها، ولإضافة عناصر واجهة المستخدم أو إزالتها أو تعديلها."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -913,6 +903,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"هذه هي أداة \"المطلق\"، وهي مطلق تطبيقات متعددة الأغراض. هنا يمكنك تشغيل "
+"التطبيقات، وإيقاف تشغيل النظام أو إعادة تشغيله، والوصول إلى الملفات الحديثة، "
+"والمزيد. انقر عليها للبدء!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -921,6 +914,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"هذه هي أداة \"إدارة المهام\"، حيث يمكنك التبديل بين التطبيقات المفتوحة وكذلك "
+"تشغيل تطبيقات جديدة. اسحب أيقونات التطبيقات لإعادة ترتيبها."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -931,6 +926,9 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"هذه هي أداة \"صينية النظام\"، التي تتيح لك التحكم في وظائف النظام مثل تغيير "
+"مستوى الصوت والاتصال بالشبكات. ستصبح العناصر مرئية هنا فقط عندما تكون ذات "
+"صلة. لرؤية جميع العناصر المتاحة، انقر فوق السهم ⌃ بجوار الساعة."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -940,6 +938,8 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"هذه هي أداة \"الساعة الرقمية\". انقر عليها لإظهار التقويم. ويمكن تهيئتها "
+"أيضًا لإظهار المناطق الزمنية والأحداث الأخرى من التقويمات الرقمية الخاصة بك."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -949,6 +949,9 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"هذه هي أداة \"نظرة خاطفة على سطح المكتب\". انقر عليها لإخفاء كافة النوافذ "
+"المفتوحة مؤقتًا حتى تتمكن من الوصول إلى سطح المكتب. انقر عليها مرة أخرى "
+"لإعادتهم."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
