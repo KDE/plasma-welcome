@@ -92,6 +92,7 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::KCMUtils
     KF6::Service
     KF6::WindowSystem
+    KF6::GlobalAccel
 )
 kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
 install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

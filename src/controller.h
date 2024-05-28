@@ -25,6 +25,7 @@ public:
     Q_INVOKABLE static void launchApp(const QString &program);
     Q_INVOKABLE void runCommand(const QString &command, QJSValue callback = QJSValue());
     Q_INVOKABLE static void copyToClipboard(const QString &text);
+    Q_INVOKABLE QString globalShortcut(const QString &componentName, const QString &actionId);
     Q_INVOKABLE bool networkAlreadyConnected();
     Q_INVOKABLE bool userFeedbackAvailable();
     Q_INVOKABLE QStringList distroPages();

@@ -17,7 +17,7 @@ import org.kde.plasma.welcome
 
 GenericPage {
     heading: i18nc("@info:window", "KRunner")
-    description: xi18nc("@info:usagetip", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more.")
+    description: xi18nc("@info:usagetip", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>%1</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more.", Controller.globalShortcut("org.kde.krunner.desktop", "_launch"))
 
     actions: [
         Kirigami.Action {
@@ -57,7 +57,7 @@ GenericPage {
         QQC2.Label {
             Layout.fillWidth: true
 
-            text: xi18nc("@info:usagetip", "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click on the question mark icon.")
+            text: xi18nc("@info:usagetip", "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> keyboard shortcut and click on the question mark icon.", Controller.globalShortcut("org.kde.krunner.desktop", "_launch"))
             wrapMode: Text.WordWrap
         }
     }

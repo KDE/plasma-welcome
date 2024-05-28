@@ -19,6 +19,7 @@
 #include "plasma-welcome-version.h"
 
 #include <KDesktopFile>
+#include <KGlobalAccel>
 #include <KIO/ApplicationLauncherJob>
 #include <KLocalizedString>
 #include <KNotificationJobUiDelegate>
@@ -180,6 +181,17 @@ void Controller::runCommand(const QString &command, QJSValue callback)
 void Controller::copyToClipboard(const QString &text)
 {
     QApplication::clipboard()->setText(text);
+}
+
+QString Controller::globalShortcut(const QString &componentName, const QString &actionId)
+{
+    const auto shortcuts = KGlobalAccel::self()->globalShortcut(componentName, actionId);
+
+    if (!shortcuts.isEmpty()) {
+        return shortcuts.last().toString(QKeySequence::NativeText);
+    }
+
+    return i18nc("@info:placeholder Refers to an unassigned keyboard shortcut", "Unassigned");
 }
 
 bool Controller::networkAlreadyConnected()
