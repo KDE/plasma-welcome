@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-23 00:40+0000\n"
-"PO-Revision-Date: 2024-05-20 21:10\n"
+"PO-Revision-Date: 2024-06-03 19:40\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -86,7 +86,7 @@ msgstr "%1 Beta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr "Не ўдалося знайсці загад <command>%1</command>."
+msgstr "Не ўдалося знайсці каманду <command>%1</command>."
 
 #: src/controller.cpp:166
 #, kde-format
@@ -100,7 +100,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr "Загад<command>%1</command> схібіў: %2"
+msgstr "Каманда<command>%1</command> схібіла: %2"
 
 #: src/main.cpp:37
 #, kde-format
@@ -216,7 +216,7 @@ msgstr "&Добра"
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Пошук…"
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -277,7 +277,7 @@ msgstr "Паглядзець \"%1\" у Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Карыстайцеся!"
 
 #: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
@@ -287,6 +287,10 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Мы спадзяемся, што вам спадабаецца Plasma гэтак жа моцна, як нам падабалася "
+"рабіць яе для вас! Надыйшоў час прыступіць да працы. Паглядзіце магчымасці "
+"Plasma, усталюйце свае ўлюбёныя праграмы і гульні і займіцеся сваімі "
+"звычайнымі справамі!"
 
 #: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
 #, kde-format
@@ -298,7 +302,7 @@ msgstr "Даведайцеся больш пра супольнасць KDE"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
-msgstr ""
+msgstr "Атрымайце дапамогу на форумах KDE"
 
 #: src/qml/pages/Enjoy.qml:56
 #, kde-kuit-format
@@ -308,6 +312,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Калі вы лічыце, што Plasma прыносіць карысць, падумайце пра ахвяраванне. KDE "
+"- гэта міжнародная супольнасць добраахвотнікаў, а не вялікая кампанія; ваш "
+"унёсак сапраўды будзе важным!"
 
 #: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -316,38 +323,30 @@ msgid "Make a donation"
 msgstr "Ахвяраваць"
 
 #: src/qml/pages/Enjoy.qml:65
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "Далучыцца"
+msgstr "Далучайцеся"
 
 #: src/qml/pages/Enjoy.qml:75
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Фундатары"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Фундатары"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr ""
-"Мы дзякуем наступным фундатарам, што далучыліся да нас у кампаніі па зборы "
-"сродкаў на Plasma 6:"
+msgstr "Мы ўдзячныя наступным фундатарам за іх перыядычныя ахвяраванні KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
@@ -723,25 +722,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
@@ -756,12 +737,7 @@ msgstr ""
 "Праграму можна адкрыць як асобную панэль пошуку з дапамогай спалучэння "
 "клавіш <shortcut>Alt+Прагал</shortcut>.<nl/><nl/>Апроч пошуку вашых файлаў і "
 "каталогаў KRunner можа запускаць праграмы, шукаць у інтэрнэце, выконваць "
-"канверсію валют, рашаць матэматычныя задачы і многае іншае. Паспрабуйце "
-"ўвесці што-небудзь з наступнага ў адно з гэтых палёў пошуку:<nl/><list><item>"
-"\"час у Мінску\"</item><item>\"27/3\"</item><item>\"200 EUR у USD\"</"
-"item><item>\"25 міляў у км\"</item><item>…і шмат іншага!</item></list><nl/"
-">Каб даведацца больш падрабязна, адкрыйце панэль пошуку KRunner з дарамогай "
-"<shortcut>Alt+Прагал</shortcut> і пстрыкніце па значку пытальніка."
+"канверсію валют, рашаць матэматычныя задачы і многае іншае."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
 #, kde-kuit-format
@@ -770,6 +746,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Каб даведацца больш, адкрыйце радок пошуку KRunner з дапамогай спалучэння "
+"клавіш <shortcut>Alt+Space</shortcut> і пстрыкніце па значку пытальніка."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -779,7 +757,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "шанхайскі час"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -787,7 +765,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -796,7 +774,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR ва USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
@@ -805,7 +783,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 міляў у км"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
@@ -813,7 +791,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "…і шмат іншага!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
