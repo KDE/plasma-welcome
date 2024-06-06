@@ -1,6 +1,7 @@
 /*
  *  SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
  *  SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
+ *  SPDX-FileCopyrightText: 2024 Oliver Beard <olib141@outlook.com>
  *
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
@@ -24,4 +25,23 @@ GenericPage {
             onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_activities")
         }
     ]
+
+    Kirigami.AbstractCard {
+        anchors.fill: parent
+
+        MockDesktop {
+            id: mockDesktop
+            anchors.fill: parent
+            anchors.margins: Kirigami.Units.smallSpacing
+
+            backgroundAlignment: Qt.AlignLeft | Qt.AlignTop
+
+            MockActivities {
+                anchors.top: parent.top
+                anchors.left: parent.left
+
+                height: mockDesktop.height
+            }
+        }
+    }
 }

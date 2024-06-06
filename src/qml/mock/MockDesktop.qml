@@ -38,6 +38,7 @@ Item {
     Kirigami.Theme.inherit: false
     Kirigami.Theme.textColor: PlasmaCore.Theme.textColor
     Kirigami.Theme.backgroundColor: PlasmaCore.Theme.backgroundColor
+    Kirigami.Theme.highlightColor: PlasmaCore.Theme.highlightColor
 
     Image {
         width: Math.max(root.width, root.desktopWidth)
