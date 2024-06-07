@@ -7,6 +7,7 @@
  */
 
 import QtQuick
+import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
@@ -16,7 +17,7 @@ import org.kde.plasma.welcome
 
 GenericPage {
     heading: i18nc("@info:window", "Activities")
-    description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut.")
+    description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.")
 
     actions: [
         Kirigami.Action {
@@ -26,22 +27,36 @@ GenericPage {
         }
     ]
 
-    Kirigami.AbstractCard {
+    ColumnLayout {
         anchors.fill: parent
 
-        MockDesktop {
-            id: mockDesktop
-            anchors.fill: parent
-            anchors.margins: Kirigami.Units.smallSpacing
+        spacing: Kirigami.Units.gridUnit
 
-            backgroundAlignment: Qt.AlignLeft | Qt.AlignTop
+        Kirigami.AbstractCard {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
 
-            MockActivities {
-                anchors.top: parent.top
-                anchors.left: parent.left
+            MockDesktop {
+                id: mockDesktop
+                anchors.fill: parent
+                anchors.margins: Kirigami.Units.smallSpacing
 
-                height: mockDesktop.height
+                backgroundAlignment: Qt.AlignLeft | Qt.AlignTop
+
+                MockActivities {
+                    anchors.top: parent.top
+                    anchors.left: parent.left
+
+                    height: mockDesktop.height
+                }
             }
+        }
+
+        QQC2.Label {
+            Layout.fillWidth: true
+
+            text: xi18nc("@info:usagetip", "To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut.")
+            wrapMode: Text.WordWrap
         }
     }
 }
