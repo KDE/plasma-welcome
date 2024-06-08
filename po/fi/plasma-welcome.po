@@ -1,22 +1,22 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# Tommi Nieminen <translator@legisign.org>, 2022, 2023, 2024.
 # SPDX-FileCopyrightText: 2024 Lasse Liehu <lasse.liehu@iki.fi>
+# Tommi Nieminen <translator@legisign.org>, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-23 00:40+0000\n"
-"PO-Revision-Date: 2024-02-25 03:20+0200\n"
-"Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
+"PO-Revision-Date: 2024-03-20 17:06+0200\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -441,7 +441,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Plasman verkkotukea ei ole asennettu"
 
 #: src/qml/pages/Network.qml:75
 #, kde-kuit-format
@@ -450,25 +450,23 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Verkkoyhteyksien hallitsemiseksi Plasma vaatii asentamaan <icode>plasma-nm</"
+"icode>-paketin. Ilmoita puutteesta: %1."
 
 #: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Yhteys on luotu"
 
 #: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Valmiina lähtöön!"
 
 #: src/qml/pages/Network.qml:258
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
@@ -476,13 +474,13 @@ msgid ""
 "page, you can use the button."
 msgstr ""
 "Tämä sivu näytetään verkkoyhteydestä riippumatta, koska käytät "
-"kehitysversiota."
+"kehitysversiota. Painikkeella saa esikatselun sivun eri tiloista."
 
 #: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Muuta tilaa"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
