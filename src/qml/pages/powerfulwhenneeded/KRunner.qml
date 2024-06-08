@@ -16,6 +16,8 @@ import org.kde.kcmutils as KCMUtils
 import org.kde.plasma.welcome
 
 GenericPage {
+    id: root
+
     heading: i18nc("@info:window", "KRunner")
     description: xi18nc("@info:usagetip", "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more.")
 
@@ -30,7 +32,7 @@ GenericPage {
     ColumnLayout {
         anchors.fill: parent
 
-        spacing: Kirigami.Units.gridUnit
+        spacing: root.padding
 
         Kirigami.AbstractCard {
             Layout.fillWidth: true
@@ -48,8 +50,8 @@ GenericPage {
                     anchors.horizontalCenter: parent.horizontalCenter
                     anchors.top: parent.top
 
-                    width: Math.min(mockDesktop.width - (Kirigami.Units.gridUnit * 2), implicitWidth)
-                    height: Math.min(mockDesktop.height - Kirigami.Units.gridUnit, implicitHeight)
+                    width: Math.min(mockDesktop.width - (root.padding * 2), implicitWidth)
+                    height: Math.min(mockDesktop.height - root.padding, implicitHeight)
                 }
             }
         }

@@ -16,6 +16,8 @@ import org.kde.kcmutils as KCMUtils
 import org.kde.plasma.welcome
 
 GenericPage {
+    id: root
+
     heading: i18nc("@info:window", "Activities")
     description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.")
 
@@ -30,7 +32,7 @@ GenericPage {
     ColumnLayout {
         anchors.fill: parent
 
-        spacing: Kirigami.Units.gridUnit
+        spacing: root.padding
 
         Kirigami.AbstractCard {
             Layout.fillWidth: true
@@ -46,6 +48,8 @@ GenericPage {
                 MockActivities {
                     anchors.top: parent.top
                     anchors.left: parent.left
+
+                    width: Math.min(mockDesktop.width - root.padding, implicitWidth)
 
                     height: mockDesktop.height
                 }

@@ -14,6 +14,8 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.welcome
 
 GenericPage {
+    id: root
+
     heading: i18nc("@title:window", "Enjoy It!")
     description: xi18nc("@info:usagetip", "We hope you love Plasma as much as we loved making it for you! Now it's time to jump right in. Explore its features, install your favorite apps and games, and get busy doing what makes you you!")
 
@@ -32,6 +34,8 @@ GenericPage {
 
     ColumnLayout {
         anchors.fill: parent
+
+        spacing: root.padding
 
         Image {
             Layout.alignment: Qt.AlignCenter
