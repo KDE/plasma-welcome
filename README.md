@@ -168,14 +168,17 @@ GenericPage {
         Kirigami.Action {
             text: i18nc("@action:inmenu", "Push layer")
             icon.name: "layer-top-symbolic"
-            onTriggered: pageStack.layers.push(layerPage)
+            onTriggered: pageStack.layers.push(layer)
         }
     ]
 
-    GenericPage {
-        id: layerPage
-        heading: i18nc("@title:window", "Layer")
-        description: i18nc("@info:usagetip", "Hello from the layer!")
+    Component {
+        id: layer
+
+        GenericPage {
+            heading: i18nc("@title:window", "Layer")
+            description: i18nc("@info:usagetip", "Hello from the layer!")
+        }
     }
 }
 ```

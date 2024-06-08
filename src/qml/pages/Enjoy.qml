@@ -81,7 +81,9 @@ GenericPage {
         }
     ]
 
-    Supporters {
+    Component {
         id: supporters
+
+        Supporters {}
     }
 }
