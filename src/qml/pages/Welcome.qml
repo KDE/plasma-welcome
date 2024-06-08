@@ -8,7 +8,10 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
+
 import org.kde.plasma.welcome
 
 GenericPage {
@@ -22,15 +25,30 @@ GenericPage {
     actions: [
         Kirigami.Action {
             text: i18nc("@action:inmenu", "About Welcome Center")
-            icon.name: "help-about"
-            onTriggered: pageStack.layers.push(about)
+            icon.name: "start-here-kde-plasma"
+            onTriggered: pageStack.layers.push(aboutAppPage)
+            displayHint: Kirigami.DisplayHint.AlwaysHide
+        },
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "About KDE")
+            icon.name: "kde"
+            onTriggered: pageStack.layers.push(aboutKDEPage)
             displayHint: Kirigami.DisplayHint.AlwaysHide
         }
     ]
 
-    Kirigami.AboutPage {
-        id: about
-        aboutData: Controller.aboutData
+    Component {
+        id: aboutKDEPage
+
+        FormCard.AboutKDE {}
+    }
+
+    Component {
+        id: aboutAppPage
+
+        FormCard.AboutPage {
+            aboutData: Controller.aboutData
+        }
     }
 
     topContent: [
