@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-23 00:40+0000\n"
+"POT-Creation-Date: 2024-06-09 00:40+0000\n"
 "PO-Revision-Date: 2024-05-25 00:23+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -117,42 +117,42 @@ msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2021"
 
-#: src/main.cpp:51
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:52 src/main.cpp:56 src/main.cpp:59
+#: src/main.cpp:53 src/main.cpp:57 src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autorius"
 
-#: src/main.cpp:55
+#: src/main.cpp:56
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:59
+#: src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
 msgstr "Oliver Beard"
 
-#: src/main.cpp:69
+#: src/main.cpp:70
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Rodyti dabartinės Plasma versijos laidos informaciją."
 
-#: src/main.cpp:70
+#: src/main.cpp:71
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr "Rodyti dabartinės Plasma versijos, Beta versijų laidos informaciją."
 
-#: src/main.cpp:71
+#: src/main.cpp:72
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
@@ -211,6 +211,50 @@ msgstr "Rodyti šį puslapį po Plasma atnaujinimo"
 msgctxt "@action:button"
 msgid "&OK"
 msgstr "&Gerai"
+
+#: src/qml/mock/MockActivities.qml:58
+#, fuzzy, kde-format
+#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
+#| msgid "Activities"
+msgctxt "@title:window Title of the Plasma activities sidebar"
+msgid "Activities"
+msgstr "Veiklos"
+
+#: src/qml/mock/MockActivities.qml:90
+#, kde-format
+msgctxt "@title The name of an example Plasma activity"
+msgid "Home"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:91
+#, kde-format
+msgctxt "@title The name of an example Plasma activity"
+msgid "School"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:92
+#, kde-format
+msgctxt "@title The name of an example Plasma activity"
+msgid "Work"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:168
+#, kde-format
+msgctxt "@info:status An example last used message for a Plasma activity"
+msgid "Currently being used"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:169
+#, kde-format
+msgctxt "@info:status An example last used message for a Plasma activity"
+msgid "Used 3 hours ago"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:187
+#, kde-format
+msgctxt "@action:button Button in the Plasma activities sidebar"
+msgid "Create activity…"
+msgstr ""
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -273,13 +317,13 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Rodyti %1 programoje Discover"
 
-#: src/qml/pages/Enjoy.qml:17
+#: src/qml/pages/Enjoy.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
 msgstr "Mėgaukitės!"
 
-#: src/qml/pages/Enjoy.qml:18
+#: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -292,19 +336,19 @@ msgstr ""
 "įsidiekite mėgstamas programas ir žaidimus bei užsiimkite tuo, kas padeda "
 "jums atrasti save!"
 
-#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#: src/qml/pages/Enjoy.qml:25 src/qml/pages/Welcome.qml:58
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Sužinokite daugiau apie KDE bendruomenę"
 
-#: src/qml/pages/Enjoy.qml:28
+#: src/qml/pages/Enjoy.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
 msgstr "Gaukite pagalbos KDE diskusijų forumuose"
 
-#: src/qml/pages/Enjoy.qml:56
+#: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -316,19 +360,19 @@ msgstr ""
 "įsitraukti arba paaukoti lėšų. KDE yra tarptautinė savanorių bendruomenė, o "
 "ne didelė kompanija; jūsų įnašai turi didelę reikšmę!"
 
-#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Paaukokite"
 
-#: src/qml/pages/Enjoy.qml:65
+#: src/qml/pages/Enjoy.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Įsitraukite"
 
-#: src/qml/pages/Enjoy.qml:75
+#: src/qml/pages/Enjoy.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
@@ -650,24 +694,31 @@ msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Sužinokite daugiau apie Plasma ypatybes"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:17
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Veiklos"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:18
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Activities can be used to separate high-level projects or workflows so "
+#| "you can focus on one at a time. You can have an activity for \"Home\", "
+#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
+#| "files but has its own set of open apps and windows, recent documents, "
+#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
+#| "<interface>System Settings</interface> and search for \"Activities\". On "
+#| "that page, you can create more Activities. You can then switch between "
+#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
 "can focus on one at a time. You can have an activity for \"Home\", \"School"
 "\", \"Work\", and so on. Each Activity has access to all your files but has "
 "its own set of open apps and windows, recent documents, \"Favorite\" apps, "
-"and desktop widgets.<nl/><nl/>To get started, launch <interface>System "
-"Settings</interface> and search for \"Activities\". On that page, you can "
-"create more Activities. You can then switch between them using the "
-"<shortcut>Meta+Tab</shortcut> keyboard shortcut."
+"and desktop widgets."
 msgstr ""
 "Veiklos gali būti naudojamos atskirti aukšto lygio projektus ar darbo eigas, "
 "kad vienu metu galėtumėte susitelkti į vieną veiklą. Galite turėti atskiras "
@@ -679,13 +730,23 @@ msgstr ""
 "galite sukurti daugiau veiklų. Po to, galite perjunginėti jas naudodami "
 "<shortcut>Meta+Tab</shortcut> sparčiuosius klavišus."
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:23
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:25
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Atverti nuostatas…"
+
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:62
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"To get started, launch <interface>System Settings</interface> and search for "
+"\"Activities\". On that page, you can create more Activities. You can then "
+"switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
+"shortcut."
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -718,13 +779,13 @@ msgstr ""
 "paieškos laukelyje įrašykite „KDE Connect“. Atsivėrusiame puslapyje galėsite "
 "suporuoti telefoną su kompiuteriu."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:19
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -742,7 +803,7 @@ msgstr ""
 "aplankų paieškos KRunner gali paleisti programas, atlikti paiešką saityne, "
 "konvertuoti valiutas, skaičiuoti matematinius uždavinius ir žymiai daugiau."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -753,7 +814,7 @@ msgstr ""
 "spartųjį klavišą <shortcut>Alt+Tarpas</shortcut> ir spustelėkite ant "
 "klaustuko piktogramos."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -763,7 +824,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "laikas Berlin"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -771,7 +832,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -780,7 +841,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 EUR į USD"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -789,7 +850,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25 mi į km"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -990,13 +1051,13 @@ msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
 msgstr "Išplėsti langą"
 
-#: src/qml/pages/Welcome.qml:17
+#: src/qml/pages/Welcome.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "Sveiki!"
 
-#: src/qml/pages/Welcome.qml:19
+#: src/qml/pages/Welcome.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
@@ -1013,7 +1074,7 @@ msgstr ""
 "būtų galinga, kai to prireikia, ir padėtų jums atlikti darbus. Tikimės, ši "
 "aplinka jums patiks!"
 
-#: src/qml/pages/Welcome.qml:20
+#: src/qml/pages/Welcome.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -1030,37 +1091,43 @@ msgstr ""
 "patyrimą, bet tuo pačiu būtų galinga, kai to prireikia, ir padėtų jums "
 "atlikti darbus. Tikimės, ši aplinka jums patiks!"
 
-#: src/qml/pages/Welcome.qml:24
+#: src/qml/pages/Welcome.qml:27
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "Apie supažindinimą su sistema"
 
-#: src/qml/pages/Welcome.qml:45
+#: src/qml/pages/Welcome.qml:33
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr ""
+
+#: src/qml/pages/Welcome.qml:63
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Sužinokite daugiau apie %1"
 
-#: src/qml/pages/Welcome.qml:82
+#: src/qml/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Nepavyko įkelti paveikslo"
 
-#: src/qml/pages/Welcome.qml:83
+#: src/qml/pages/Welcome.qml:101
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "Nepavyko įkelti <filename>%1</filename>. Įsitikinkite, kad jis yra."
 
-#: src/qml/pages/Welcome.qml:110
+#: src/qml/pages/Welcome.qml:128
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Apsilankyti %1"
 
-#: src/qml/pages/Welcome.qml:117
+#: src/qml/pages/Welcome.qml:135
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"

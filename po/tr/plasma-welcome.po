@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-23 00:40+0000\n"
+"POT-Creation-Date: 2024-06-09 00:40+0000\n"
 "PO-Revision-Date: 2024-05-23 14:36+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -116,36 +116,36 @@ msgctxt "@info copyright string"
 msgid "(c) 2021"
 msgstr "(c) 2022"
 
-#: src/main.cpp:51
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:52 src/main.cpp:56 src/main.cpp:59
+#: src/main.cpp:53 src/main.cpp:57 src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Yazar"
 
-#: src/main.cpp:55
+#: src/main.cpp:56
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:59
+#: src/main.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
 msgstr "Oliver Beard"
 
-#: src/main.cpp:69
+#: src/main.cpp:70
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Geçerli Plasma sürümü için sürüm notlarını görüntüle"
 
-#: src/main.cpp:70
+#: src/main.cpp:71
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
@@ -153,7 +153,7 @@ msgstr ""
 "Beta sürümleri için geçerli Plasma sürümüne ilişkin sürüm notlarını "
 "görüntüleyin."
 
-#: src/main.cpp:71
+#: src/main.cpp:72
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "Dağıtım canlı ortamları için hazırlanmış canlı sayfayı görüntüleyin."
@@ -210,6 +210,50 @@ msgstr "Plasma güncellendikten sonra bu sayfayı göster"
 msgctxt "@action:button"
 msgid "&OK"
 msgstr "&Tamam"
+
+#: src/qml/mock/MockActivities.qml:58
+#, fuzzy, kde-format
+#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
+#| msgid "Activities"
+msgctxt "@title:window Title of the Plasma activities sidebar"
+msgid "Activities"
+msgstr "Etkinlikler"
+
+#: src/qml/mock/MockActivities.qml:90
+#, kde-format
+msgctxt "@title The name of an example Plasma activity"
+msgid "Home"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:91
+#, kde-format
+msgctxt "@title The name of an example Plasma activity"
+msgid "School"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:92
+#, kde-format
+msgctxt "@title The name of an example Plasma activity"
+msgid "Work"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:168
+#, kde-format
+msgctxt "@info:status An example last used message for a Plasma activity"
+msgid "Currently being used"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:169
+#, kde-format
+msgctxt "@info:status An example last used message for a Plasma activity"
+msgid "Used 3 hours ago"
+msgstr ""
+
+#: src/qml/mock/MockActivities.qml:187
+#, kde-format
+msgctxt "@action:button Button in the Plasma activities sidebar"
+msgid "Create activity…"
+msgstr ""
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -272,13 +316,13 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Keşfet’te Göster: %1"
 
-#: src/qml/pages/Enjoy.qml:17
+#: src/qml/pages/Enjoy.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
 msgstr "Keyfini Çıkarın!"
 
-#: src/qml/pages/Enjoy.qml:18
+#: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -290,19 +334,19 @@ msgstr ""
 "Şimdi hemen içine dalın!. Özelliklerini keşfedin, en sevdiğiniz uygulamaları "
 "ve oyunları kurun ve sizi siz yapan şeyi yapmakla meşgul olun!"
 
-#: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
+#: src/qml/pages/Enjoy.qml:25 src/qml/pages/Welcome.qml:58
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "KDE Hakkında Bilgi Al"
 
-#: src/qml/pages/Enjoy.qml:28
+#: src/qml/pages/Enjoy.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
 msgstr "KDE Forumlarında Yardım Al"
 
-#: src/qml/pages/Enjoy.qml:56
+#: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -314,19 +358,19 @@ msgstr ""
 "düşünün. KDE, uluslararası bir gönüllüler topluluğudur, büyük bir şirket "
 "değil ve katkılarınız gerçekten büyük bir fark yaratır."
 
-#: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
 msgstr "Bağış Yap"
 
-#: src/qml/pages/Enjoy.qml:65
+#: src/qml/pages/Enjoy.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Katıl"
 
-#: src/qml/pages/Enjoy.qml:75
+#: src/qml/pages/Enjoy.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
@@ -649,24 +693,31 @@ msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "Plasma özellikleri hakkında daha fazla bilgi alın"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:17
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "Etkinlikler"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:18
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Activities can be used to separate high-level projects or workflows so "
+#| "you can focus on one at a time. You can have an activity for \"Home\", "
+#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
+#| "files but has its own set of open apps and windows, recent documents, "
+#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
+#| "<interface>System Settings</interface> and search for \"Activities\". On "
+#| "that page, you can create more Activities. You can then switch between "
+#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
 "can focus on one at a time. You can have an activity for \"Home\", \"School"
 "\", \"Work\", and so on. Each Activity has access to all your files but has "
 "its own set of open apps and windows, recent documents, \"Favorite\" apps, "
-"and desktop widgets.<nl/><nl/>To get started, launch <interface>System "
-"Settings</interface> and search for \"Activities\". On that page, you can "
-"create more Activities. You can then switch between them using the "
-"<shortcut>Meta+Tab</shortcut> keyboard shortcut."
+"and desktop widgets."
 msgstr ""
 "Etkinlikler, her seferinde bir projeye odaklanabilmeniz için üst düzey "
 "projeleri veya iş akışlarını ayırmak için kullanılabilir. ‘Ev’, ‘Okul’, ‘İş’ "
@@ -678,13 +729,23 @@ msgstr ""
 "oluşturabilirsiniz. Daha sonra <shortcut>Meta+Sekme</shortcut> klavye "
 "kısayolunu kullanarak bunlar arasında geçiş yapabilirsiniz."
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:23
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:25
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Ayarları Aç…"
+
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:62
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"To get started, launch <interface>System Settings</interface> and search for "
+"\"Activities\". On that page, you can create more Activities. You can then "
+"switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
+"shortcut."
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -717,13 +778,13 @@ msgstr ""
 "Ayarları</interface>’nı çalıştırın ve ‘KDE Bağlan’ bölümüne tıklayın. Bu "
 "sayfadan telefonunuzu eşleyebilirsiniz."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:19
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "K Çalıştır"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -743,7 +804,7 @@ msgstr ""
 "yapabilir, matematik problemlerini hesaplayabilir ve çok daha fazlasını "
 "gerçekleştirebilir."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -754,7 +815,7 @@ msgstr ""
 "kısayolunu kullanarak K Çalıştır arama çubuğunu açın ve soru işaretine "
 "tıklayın."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -764,7 +825,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "zaman Shanghai"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -772,7 +833,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -781,7 +842,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 EUR kaç USD"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -790,7 +851,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25 mil kaç km"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -991,13 +1052,13 @@ msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
 msgstr "Pencereyi genişletin"
 
-#: src/qml/pages/Welcome.qml:17
+#: src/qml/pages/Welcome.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "Hoş Geldiniz"
 
-#: src/qml/pages/Welcome.qml:19
+#: src/qml/pages/Welcome.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
@@ -1013,7 +1074,7 @@ msgstr ""
 "özünde yalın olacak şekilde tasarlanmıştır; ancak gerektiğinde gerçekten "
 "işlerinizi halletmenize yardımcı olmak için güçlüdür. Umarız onu seversiniz!"
 
-#: src/qml/pages/Welcome.qml:20
+#: src/qml/pages/Welcome.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -1030,37 +1091,43 @@ msgstr ""
 "gerçekten işlerinizi halletmenize yardımcı olmak için güçlüdür. Umarız onu "
 "seversiniz!"
 
-#: src/qml/pages/Welcome.qml:24
+#: src/qml/pages/Welcome.qml:27
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "Karşılama Merkezi Hakkında"
 
-#: src/qml/pages/Welcome.qml:45
+#: src/qml/pages/Welcome.qml:33
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr ""
+
+#: src/qml/pages/Welcome.qml:63
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 Hakkında Bilgi Al"
 
-#: src/qml/pages/Welcome.qml:82
+#: src/qml/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Görsel Yükleme Başarısız"
 
-#: src/qml/pages/Welcome.qml:83
+#: src/qml/pages/Welcome.qml:101
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "<filename>%1</filename> yüklenemedi. Var olduğundan emin olun."
 
-#: src/qml/pages/Welcome.qml:110
+#: src/qml/pages/Welcome.qml:128
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "%1 adresini ziyaret edin"
 
-#: src/qml/pages/Welcome.qml:117
+#: src/qml/pages/Welcome.qml:135
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
