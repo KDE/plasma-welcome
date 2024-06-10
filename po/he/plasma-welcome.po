@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-09 00:40+0000\n"
-"PO-Revision-Date: 2024-05-23 08:14+0300\n"
+"PO-Revision-Date: 2024-06-09 06:29+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -210,9 +210,7 @@ msgid "&OK"
 msgstr "&אישור"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "פעילויות"
@@ -221,37 +219,37 @@ msgstr "פעילויות"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "בית"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "בית ספר"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "עבודה"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "בשימוש כרגע"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "היה בשימוש לפני 3 שעות"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "יצירת פעילות…"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -686,17 +684,7 @@ msgid "Activities"
 msgstr "פעילויות"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -709,9 +697,7 @@ msgstr ""
 "לאפשר לך להתמקד על דבר אחד כל פעם. יכולות להיות פעילויות עבור „בית”, "
 "„לימודים”, „עבודה” וכן הלאה. לכל פעילות יש גישה לכל הקבצים שלך אך יש לה ערכת "
 "יישומים וחלונות, מסמכים אחרונים, יישומים „מועדפים” ויישומוני שולחן עבודה "
-"משלה.<nl/><nl/>כדי להתחיל יש להפעיל את <interface>הגדרות המערכת</interface> "
-"ולחפש אחר „פעילויות”. בעמוד הזה, ניתן ליצור פעילויות נוספות. לאחר מכן אפשר "
-"לעבור ביניהן באמצעות מקש הקיצור <shortcut>Meta+Tab</shortcut> במקלדת."
+"משלה."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -730,6 +716,9 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"כדי להתחיל יש להפעיל את <interface>הגדרות המערכת</interface> ולחפש אחר "
+"„פעילויות”. בעמוד הזה, ניתן ליצור פעילויות נוספות. לאחר מכן אפשר לעבור "
+"ביניהן באמצעות מקש הקיצור <shortcut>Meta+Tab</shortcut> במקלדת."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -1066,7 +1055,7 @@ msgstr "על מרכז קבלת הפנים"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "על KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format

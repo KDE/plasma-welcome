@@ -213,9 +213,7 @@ msgid "&OK"
 msgstr "V redu"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Dejavnosti"
@@ -224,37 +222,37 @@ msgstr "Dejavnosti"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Dom"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Šola"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Delo"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Trenutno se uporablja"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Uporabljeno pred 3 urami"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Ustvari dejavnost…"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -701,17 +699,7 @@ msgid "Activities"
 msgstr "Dejavnosti"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -723,12 +711,9 @@ msgstr ""
 "Dejavnosti se lahko uporabijo za ločevanje projektov ali delovnih tokov na "
 "visoki ravni, tako da se lahko osredotočite na eno dejavnost naenkrat. Lahko "
 "imate dejavnost za \"dom\", \"šolo\", \"delo \"in tako naprej. Vsaka "
-"dejavnost ima dostop do vseh vaših datotek, vendar imasvoj nabor odprtih "
+"dejavnost ima dostop do vseh vaših datotek, vendar ima svoj nabor odprtih "
 "aplikacij in oken, nedavnih dokumentov, \"najljubših\" aplikacij in namiznih "
-"pripomočkov.<nl/><nl/>Če želite začeti, zaženite <interface>Nastavitve "
-"sistema</interface> in poiščite \"Dejavnosti\". Na tej strani lahko "
-"ustvarite več dejavnosti. Nato lahko preklapljate med njimi s pomočjo "
-"bližnjice <shortcut>Meta+Tab</shortcut>>."
+"gradnikov."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -747,6 +732,10 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"Za začetek zaženite <interface>Sistemske nastavitve</interface> in poiščite "
+"»Dejavnosti«. Na tej strani lahko ustvarite več dejavnosti. Nato lahko "
+"preklapljate med njimi z uporabo bližnjice na tipkovnici <shortcut>Meta+Tab</"
+"shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -1094,7 +1083,7 @@ msgstr "O Centru dobrodošlice"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "O KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format

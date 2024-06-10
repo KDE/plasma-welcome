@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-09 00:40+0000\n"
-"PO-Revision-Date: 2024-05-23 16:41+0900\n"
+"PO-Revision-Date: 2024-06-09 19:40+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -209,9 +209,7 @@ msgid "&OK"
 msgstr "確定(&O)"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "活動"
@@ -220,37 +218,37 @@ msgstr "活動"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "住家"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "學校"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "工作"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "目前使用中的"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "上次使用於 3 小時之前"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "建立活動…"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -682,17 +680,7 @@ msgid "Activities"
 msgstr "活動"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -704,9 +692,7 @@ msgstr ""
 "活動可以用來將層級較高的專案或工作方式分開，讓您能夠一次專注在一件事上。舉例"
 "來說，您可以為「家庭」、「學校」、「工作」等等各有一個活動。每個活動都能存取"
 "您所有的檔案，但它們有自己的開啟視窗與應用程式、最近使用的文件、「最愛」的應"
-"用程式，以及桌面元件。<nl/><nl/>要開始使用，啟動<interface>系統設定</"
-"interface>並搜尋「活動」。在活動設定頁面，您可以建立更多活動。建立之後您可以"
-"使用 <shortcut>Meta+Tab</shortcut> 鍵盤快捷鍵在它們之間切換。"
+"用程式，以及桌面元件。"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -725,6 +711,9 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"要開始使用，啟動<interface>系統設定</interface>並搜尋「活動」。在活動設定頁"
+"面，您可以建立更多活動。建立之後您可以使用 <shortcut>Meta+Tab</shortcut> 鍵盤"
+"快捷鍵在它們之間切換。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -1045,7 +1034,7 @@ msgstr "關於《歡迎中心》"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "關於 KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-09 00:40+0000\n"
-"PO-Revision-Date: 2024-05-23 14:36+0300\n"
+"PO-Revision-Date: 2024-06-09 21:20+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -212,9 +212,7 @@ msgid "&OK"
 msgstr "&Tamam"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Etkinlikler"
@@ -223,37 +221,37 @@ msgstr "Etkinlikler"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Ev"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Okul"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "İş"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Şu anda kullanılan"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "3 saat önce kullanıldı"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Etkinlik Oluştur…"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -700,17 +698,7 @@ msgid "Activities"
 msgstr "Etkinlikler"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -720,14 +708,10 @@ msgid ""
 "and desktop widgets."
 msgstr ""
 "Etkinlikler, her seferinde bir projeye odaklanabilmeniz için üst düzey "
-"projeleri veya iş akışlarını ayırmak için kullanılabilir. ‘Ev’, ‘Okul’, ‘İş’ "
+"projeleri veya iş akışlarını ayırmak için kullanılabilir. “Ev”, “Okul”, “İş” "
 "vb. için bir etkinliğiniz olabilir. Her etkinliğin tüm dosyalarınıza erişimi "
 "vardır; ancak kendi açık uygulamaları ve pencereleri, son belgeleri, "
-"‘Favori’ uygulamaları ve masaüstü araç takımları da bulunur.<nl/><nl/"
-">Başlamak için <interface>Sistem Ayarları</interface>’nı açın ve "
-"‘Etkinlikler’i arayın. Bu sayfada istediğiniz kadar etkinlik "
-"oluşturabilirsiniz. Daha sonra <shortcut>Meta+Sekme</shortcut> klavye "
-"kısayolunu kullanarak bunlar arasında geçiş yapabilirsiniz."
+"“Favori” uygulamaları ve masaüstü araç takımları da bulunur."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -746,6 +730,10 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"Başlamak için <interface>Sistem Ayarları</interface>’nı başlatın ve "
+"“Etkinlikler”i aratın. Bu sayfada yeni etkinlikler oluşturabilirsiniz. "
+"Etkinliklerin arasında geçiş yapmak için <shortcut>Meta+Sekme</shortcut> "
+"klavye kısayolunu kullanın."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -775,8 +763,8 @@ msgstr ""
 "sağlayın</item><item>Telefondan bilgisayara ve bilgisayardan telefona "
 "resimler, videolar ve başka türdeki dosyaları kopyalayın</item><item>… ve "
 "çok daha fazlasını yapın!</item></list><nl/>Başlamak için <interface>Sistem "
-"Ayarları</interface>’nı çalıştırın ve ‘KDE Bağlan’ bölümüne tıklayın. Bu "
-"sayfadan telefonunuzu eşleyebilirsiniz."
+"Ayarları</interface>’nı çalıştırın ve “KDE Bağlan” bölümüne tıklayın. Bu "
+"sayfadan telefonunuzu eşleştirebilirsiniz."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
 #, kde-format
@@ -1101,7 +1089,7 @@ msgstr "Karşılama Merkezi Hakkında"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "KDE Hakkında"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format

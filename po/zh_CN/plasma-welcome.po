@@ -209,9 +209,7 @@ msgid "&OK"
 msgstr "确定(&O)"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "活动"
@@ -220,37 +218,37 @@ msgstr "活动"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "家庭"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "学校"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "工作"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "当前正在使用"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "3 小时前使用过"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "创建活动…"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -683,17 +681,7 @@ msgid "Activities"
 msgstr "活动"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -702,12 +690,10 @@ msgid ""
 "its own set of open apps and windows, recent documents, \"Favorite\" apps, "
 "and desktop widgets."
 msgstr ""
-"活动可以用来区分管理各种任务，让您可以专心处理好每一件事。例如您可以给“家"
-"庭”、“学习”、“工作”等分别设置一个活动。每个活动都能够访问您的所有文件，但每个"
-"活动会独立记忆各自打开的应用、窗口、最近文档、常用程序、桌面小程序等状态。"
-"<nl/><nl/>要使用活动功能，请打开<interface>系统设置</interface>并搜索“活动”。"
-"在“活动”页面中，您可以创建活动并对它们进行管理。创建完所需的活动之后，按下 "
-"<shortcut>Meta+Tab</shortcut> 键盘快捷键即可在各个活动之间切换。"
+"活动功能可以用于区分高优先级的项目或者工作流程，让您可以集中精力办好一件事。"
+"例如您可以建立“家庭”、“学校”、“工作”三种活动来分开处理这些事务。每种活动均可"
+"访问您的全部文件，但它们会分开保存打开的应用程序和窗口、最近文档、常用程序和"
+"桌面挂件。"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -726,6 +712,9 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"要开始使用活动，请启动 <interface>系统设置</interface> 并搜索“活动”。您可以在"
+"活动页面创建更多活动。您可以使用 <shortcut>Meta+Tab</shortcut> 键盘快捷键来切"
+"换活动。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -1055,7 +1044,7 @@ msgstr "关于欢迎中心"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "关于 KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format

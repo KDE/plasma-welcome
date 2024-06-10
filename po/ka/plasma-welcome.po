@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-09 00:40+0000\n"
-"PO-Revision-Date: 2024-05-24 16:47+0200\n"
+"PO-Revision-Date: 2024-06-09 06:27+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -210,9 +210,7 @@ msgid "&OK"
 msgstr "&დიახ"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "ქმედებები"
@@ -221,37 +219,37 @@ msgstr "ქმედებები"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "სახლი"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "სკოლა"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "სამუშაო"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "ამჟამად გამოიყენება"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "გამოიყენებოდა 3 საათის წინ"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "აქტივობის შექმნა…"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -694,17 +692,7 @@ msgid "Activities"
 msgstr "ქმედებები"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -718,10 +706,7 @@ msgstr ""
 "ქმედებები \"სახლისთვის\", \"სკოლისთვის\", \"სამსახურისთვის\" და სხვა. "
 "თითოეულ აქტივობას წვდომა ყველა თქვენ ფაილთან აქვს, მაგრამ გააჩნია საკუთარი "
 "პროგრამებისა და და ფანჯრების ნაკრები, უახლესი დოკუმენტები, \"რჩეული\" აპები "
-"და სამუშაო მაგიდის ვიჯეტები.<nl/><nl/>. დასაწყებად გაუშვით "
-"<interface>სისტემის მორგება</interface> და იპოვეთ \"აქტივობები\". ამ გვერდზე "
-"შეგიძლიათ მეტი აქტივობა შექმნათ. მათ შორის გადართვა კი <shortcut>Meta+Tab</"
-"shortcut> ღილაკებით შეგიძლიათ."
+"და სამუშაო მაგიდის ვიჯეტები."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -740,6 +725,9 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"დასაწყებად, გაუშვით <interface>სისტემის მორგება</interface> და მოძებნეთ "
+"\"აქტივობები\". ამ გვერდზე მეტი აქტივობის შექმნა შეგიძლიათ. მათ შორის "
+"გადართვა <shortcut>Meta+Tab</shortcut> კლავიატურის მალსახმობით შეგიძლიათ."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -1087,7 +1075,7 @@ msgstr "მისალმების ცენტრის შესახე�
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "KDE-ის შესახებ"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format
