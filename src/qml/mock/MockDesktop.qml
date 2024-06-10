@@ -19,8 +19,8 @@ Item {
     property int blurRadius: 32
 
     readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1280x800.png"
-    readonly property int desktopWidth: 1280
-    readonly property int desktopHeight: 800
+    readonly property int desktopWidth: wallpaperImage.sourceSize.width
+    readonly property int desktopHeight: wallpaperImage.sourceSize.height
 
     /*
      * 1280x800 is chosen to look good at normal window sizes: The aspect closely
