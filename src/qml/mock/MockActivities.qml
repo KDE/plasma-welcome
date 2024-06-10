@@ -99,7 +99,7 @@ Item {
                 required property string name
                 required property bool active
 
-                implicitHeight: width * 9.0 / 16.0 // Match aspect of the wallpaper source (see below)
+                implicitHeight: width * (thumbnailImage.sourceSize.height / thumbnailImage.sourceSize.width)
 
                 Image {
                     id: thumbnailImage
