@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-09 00:40+0000\n"
+"POT-Creation-Date: 2024-06-11 00:40+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: \n"
@@ -116,8 +116,8 @@ msgstr "Center dobrodošlice"
 #: src/main.cpp:50
 #, kde-format
 msgctxt "@info copyright string"
-msgid "(c) 2021"
-msgstr "(c) 2021"
+msgid "© 2021-2024, KDE Community"
+msgstr ""
 
 #: src/main.cpp:52
 #, kde-format
@@ -1115,6 +1115,10 @@ msgstr "Obiščite %1"
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Maskota KDE Konqi vam izreka dobrodošlico v skupnosti KDE!"
+
+#~ msgctxt "@info copyright string"
+#~ msgid "(c) 2021"
+#~ msgstr "(c) 2021"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

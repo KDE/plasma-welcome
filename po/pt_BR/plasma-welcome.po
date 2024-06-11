@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-09 00:40+0000\n"
+"POT-Creation-Date: 2024-06-11 00:40+0000\n"
 "PO-Revision-Date: 2024-04-13 01:25-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -113,8 +113,8 @@ msgstr "Centro de boas vindas"
 #: src/main.cpp:50
 #, kde-format
 msgctxt "@info copyright string"
-msgid "(c) 2021"
-msgstr "(c) 2021"
+msgid "© 2021-2024, KDE Community"
+msgstr ""
 
 #: src/main.cpp:52
 #, kde-format
@@ -1133,6 +1133,10 @@ msgstr "Visite %1"
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "O mascote do KDE, Konqi, dá as boas vindas à comunidade KDE!"
+
+#~ msgctxt "@info copyright string"
+#~ msgid "(c) 2021"
+#~ msgstr "(c) 2021"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""

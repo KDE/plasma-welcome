@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-09 00:40+0000\n"
-"PO-Revision-Date: 2024-05-23 10:32+0200\n"
+"POT-Creation-Date: 2024-06-11 00:40+0000\n"
+"PO-Revision-Date: 2024-06-10 12:16+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.1\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -113,8 +113,8 @@ msgstr "Centro de Benvenite"
 #: src/main.cpp:50
 #, kde-format
 msgctxt "@info copyright string"
-msgid "(c) 2021"
-msgstr "(c) 2021"
+msgid "© 2021-2024, KDE Community"
+msgstr ""
 
 #: src/main.cpp:52
 #, kde-format
@@ -212,9 +212,7 @@ msgid "&OK"
 msgstr "&OK"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Activitates"
@@ -223,37 +221,37 @@ msgstr "Activitates"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Domo o initio"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Schola"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Labor"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Que es usate curentemente"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Usate 3 horas ante"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Crea activitate…"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -699,17 +697,7 @@ msgid "Activities"
 msgstr "Activitates"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -721,12 +709,9 @@ msgstr ""
 "Activitates pote esser usate per separar projectos de alte nivello o fluxos "
 "de labor assi que tu pote focalisar sur un per vice. Tu pote haber un "
 "activitate per  \"Domo\", \"Schola\", \"Labor\", e assi in avante. Cata "
-"Activitate ha accesso ha accesso  a omne tu files ma ha su proprie insimul "
-"de apps aperite e fenestras, documentos recente, apps \"Favorite\", e "
-"widgets de scriptorio.<nl/><nl/>Pro initiar, lancea  <interface>Preferentias "
-"de Systema</interface> e cerca  \"Activitates\". Sur ille pagina, tu pote "
-"crear plus Activitates. Tu pote alora commutar inter illos usante le via "
-"breve de claviero <shortcut>Meta+Tab</shortcut>."
+"Activitate ha accesso  a omne tu files ma ha su proprie insimul de apps "
+"aperite e fenestras, documentos recente, apps \"Favorite\", e widgets de "
+"scriptorio."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -745,6 +730,10 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"Per initiar, lancea <interface>Preferentias de Systema</interface> e cerca "
+"\"Activitates\". Sur ille pagina, tu pote crear plus Activitates. Tu alora "
+"pote commutar inter illos per usar le via breve de claviero <shortcut>Meta"
+"+Tab</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -1096,7 +1085,7 @@ msgstr "Re Centro de Benvenite"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "A proposito de KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format
@@ -1128,6 +1117,10 @@ msgstr "Visita %1"
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Le mascotte de KDE Konqui te da le benvenite al communitate de KDE!"
+
+#~ msgctxt "@info copyright string"
+#~ msgid "(c) 2021"
+#~ msgstr "(c) 2021"
 
 #~ msgctxt "@info:usagetip"
 #~ msgid ""
