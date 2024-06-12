@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-11 00:40+0000\n"
-"PO-Revision-Date: 2024-05-29 11:36+0200\n"
+"PO-Revision-Date: 2024-06-11 09:26+0200\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -209,9 +209,7 @@ msgid "&OK"
 msgstr "&OK"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Aktivity"
@@ -220,37 +218,37 @@ msgstr "Aktivity"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Domov"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Škola"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Práce"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "V současnosti používaný"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Použito před 3 hodinami"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Vytvořit aktivitu…"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -669,17 +667,7 @@ msgid "Activities"
 msgstr "Aktivity"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -689,13 +677,10 @@ msgid ""
 "and desktop widgets."
 msgstr ""
 "Aktivity mohou být použity k oddělení různých projektů nebo postupů, takže "
-"se na ně můžete soustředit. Můžete mít aktivitu pro domov, školu, práci a "
-"tak dále. Každá aktivita má přístup ke všem vašim souborům ale má vlastní "
-"sadu otevřených aplikací a oken, nedávných dokumentů, \"Oblíbených\" "
-"aplikací a widgetů na ploše.<nl/><nl/>Pro začátek spusťte "
-"<interface>Nastavení Systému</interface> a hledejte \"Aktivity\". Na této "
-"stránce můžete vytvořit vícero Aktivit. Pak mezi nimi můžete přepínat pomocí "
-"klávesové zkratky <shortcut>Meta+Tab</shortcut>."
+"se na ně můžete soustředit. Můžete mít aktivitu pro \"Domov\", \"Školu\", "
+"\"Práci\" a tak dále. Každá aktivita má přístup ke všem vašim souborům ale "
+"má vlastní sadu otevřených aplikací a oken, nedávných dokumentů, \"Oblíbených"
+"\" aplikací a widgetů na ploše."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -1016,7 +1001,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "O prostředí KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format
@@ -1048,7 +1033,3 @@ msgstr "Navštivte %1"
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Maskot KDE - Konqi - vás vítá v komunitě KDE!"
-
-#~ msgctxt "@info copyright string"
-#~ msgid "(c) 2021"
-#~ msgstr "(c) 2021"

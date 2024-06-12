@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-11 00:40+0000\n"
-"PO-Revision-Date: 2024-05-24 10:27+0200\n"
+"PO-Revision-Date: 2024-06-10 09:30+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -211,9 +211,7 @@ msgid "&OK"
 msgstr "&Ok"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Activités"
@@ -222,37 +220,37 @@ msgstr "Activités"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "École"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Travail"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "En cours d'utilisation"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Utilisé il y a 3 heures"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Créer une activité..."
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -702,17 +700,7 @@ msgid "Activities"
 msgstr "Activités"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -721,17 +709,13 @@ msgid ""
 "its own set of open apps and windows, recent documents, \"Favorite\" apps, "
 "and desktop widgets."
 msgstr ""
-"Les activités peuvent être utilisées pour séparer les projets de haut niveau "
-"ou les flux de travail afin que vous puissiez vous concentrer juste sur l'un "
+"Les activités peuvent être utilisées pour séparer des projets de haut niveau "
+"ou des flux de travail afin que vous puissiez vous concentrer juste sur l'un "
 "à la fois. Vous pouvez avoir une activité pour « Vie privée », « École », "
 "« Travail » et ainsi de suite. Chaque activité a accès à tous vos fichiers, "
 "mais possède son propre ensemble d'applications et de fenêtres ouvertes, de "
 "documents récents, d'applications en « Favoris » et de composants graphiques "
-"de bureau. <nl/><nl/>Pour commencer, veuillez lancer "
-"<interface>Configuration du système</interface> et rechercher « Activités ». "
-"Sur cette page, vous pouvez créer d'autres activités. Vous pouvez ensuite "
-"passer d'un raccourci clavier à l'autre en utilisant le raccourci clavier "
-"<shortcut> « Meta » + « Tab » </shortcut>."
+"de bureau."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -750,6 +734,10 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"Pour commencer, veuillez lancer  <interface>Configuration du système</"
+"interface> et recherchez « Activités ». Sur cette page, vous pouvez créer "
+"plus d'activités. Vous pouvez ensuite basculer entre elles à l'aide du "
+"raccourci clavier <shortcut>Meta + Tab</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -1111,7 +1099,7 @@ msgstr "À propos du centre de bienvenue"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "À propos de KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format
