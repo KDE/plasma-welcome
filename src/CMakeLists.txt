@@ -27,6 +27,7 @@ ecm_target_qml_sources(plasma-welcome
     qml/common/ScrollablePage.qml
     qml/common/KCMPage.qml
     qml/common/ApplicationIcon.qml
+    qml/common/ContributionCard.qml
 
     qml/footers/Footer.qml
     qml/footers/FooterDefault.qml
