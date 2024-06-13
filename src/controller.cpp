@@ -243,6 +243,11 @@ QString Controller::distroBugReportUrl()
     return KOSRelease().bugReportUrl();
 }
 
+bool Controller::isDistroSnapOnly()
+{
+    return KOSRelease().extraValue("UBUNTU_VARIANT") == QStringLiteral("core");
+}
+
 KAboutData Controller::aboutData() const
 {
     return KAboutData::applicationData();
