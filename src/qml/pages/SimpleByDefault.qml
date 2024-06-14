@@ -19,7 +19,7 @@ GenericPage {
     id: root
 
     heading: i18nc("@info:window", "Simple by Default")
-    description: xi18nc("@info:usagetip", "Plasma is designed to be simple and usable out of the box. Things are where you'd expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/><nl/>Below is a visual representation of a typical Plasma Desktop; move the pointer over or click on something to learn about it!")
+    description: xi18nc("@info:usagetip", "Plasma is designed to be simple and usable out of the box. Things are where you would expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/><nl/>Below is a visual representation of a typical Plasma Desktop; move the pointer over or click on something to learn about it!")
 
     property var activeItem: null
 
@@ -33,7 +33,7 @@ GenericPage {
                 explanatoryLabel.text = xi18nc("@info", "This is the “Desktop”. It shows files and folders that are contained in your <filename>Desktop</filename> folder, and can hold widgets. Right-click on it and choose <interface>Desktop and Wallpaper…</interface> to configure the appearance of the desktop. You can also choose <interface>Enter Edit Mode</interface> to add, remove or modify widgets.")
                 break;
             case mockPanel:
-                explanatoryLabel.text = xi18nc("@info", "This is a “Panel”—a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets.");
+                explanatoryLabel.text = xi18nc("@info", "This is a “Panel” — a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets.");
                 break;
             case mockKickoff:
                 explanatoryLabel.text = i18nc("@info", "This is the “Kickoff” widget, a multipurpose launcher. Here you can launch apps, shut down or restart the system, access recent files, and more. Click on it to get started!");

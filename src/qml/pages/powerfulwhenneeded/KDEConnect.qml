@@ -23,10 +23,10 @@ GenericPage {
 <list><item>See notifications from your phone on your computer</item>\
 <item>Reply to text messages from your phone on your computer</item>\
 <item>Sync your clipboard contents between your computer and your phone</item>\
-<item>Make a noise on your phone when it's been misplaced</item>\
+<item>Make a noise on your phone when it’s been misplaced</item>\
 <item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>\
 <item>…And much more!</item></list>\
-<nl/>To get started, launch <interface>System Settings</interface> and search for \"KDE Connect\". On that page, you can pair your phone.")
+<nl/>To get started, launch <interface>System Settings</interface> and search for “KDE Connect”. On that page, you can pair your phone.")
 
     // TODO: KDE Connect might not be installed:
     // We should show an InlineMessage and hide the action.

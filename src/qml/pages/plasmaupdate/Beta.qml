@@ -14,22 +14,22 @@ import org.kde.plasma.welcome
 Item {
     id: root
 
-    readonly property string description: xi18nc("@info:usagetip", "Thank you for testing this beta release of Plasma—your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them.")
+    readonly property string description: xi18nc("@info:usagetip", "Thank you for testing this beta release of Plasma — your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them.")
     readonly property int iconSize: Kirigami.Units.iconSizes.enormous
 
     readonly property list<QtObject> topContent: [
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@action:button", "<b>Find out what's new</b>")
+            text: i18nc("@label:URL", "<b>Find out what’s new</b>")
             url: Controller.releaseUrl
         },
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@action:button", "Report a bug")
+            text: i18nc("@label:URL", "Report a bug")
             url: "https://bugs.kde.org"
         },
         Kirigami.UrlButton {
-            text: i18nc("@action:button", "Help work on the next release")
+            text: i18nc("@label:URL", "Help work on the next release")
             url: "https://community.kde.org/Get_Involved?source=plasma-welcome"
         }
     ]

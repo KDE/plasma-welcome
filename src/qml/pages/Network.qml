@@ -246,7 +246,7 @@ GenericPage {
             visible: root.state == "Connected"
 
             icon.name: "data-success-symbolic"
-            text: i18nc("@info:placeholder Shown when connected to the internet", "You're connected")
+            text: i18nc("@info:placeholder Shown when connected to the internet", "You’re connected")
             explanation: i18nc("@info:usagetip Shown when connected to the internet", "All good to go!")
             type: Kirigami.PlaceholderMessage.Type.Actionable
         }

@@ -17,17 +17,17 @@ GenericPage {
     id: root
 
     heading: i18nc("@title:window", "Enjoy It!")
-    description: xi18nc("@info:usagetip", "We hope you love Plasma as much as we loved making it for you! Now it's time to jump right in. Explore its features, install your favorite apps and games, and get busy doing what makes you you!")
+    description: xi18nc("@info:usagetip", "We hope you love Plasma as much as we loved making it for you! Now it’s time to jump right in. Explore its features, install your favorite apps and games, and get busy doing what makes you you!")
 
     topContent: [
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@action:button", "Learn more about the KDE community")
+            text: i18nc("@label:URL", "Learn more about the KDE community")
             url: "https://community.kde.org/Welcome_to_KDE?source=plasma-welcome"
         },
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@action:button", "Get help at KDE's discussion forums")
+            text: i18nc("@label:URL", "Get help at KDE’s discussion forums")
             url: "https://discuss.kde.org/?source=plasma-welcome" // TODO: Discuss probably doesn't consume analytics or atleast in this way?
         }
     ]

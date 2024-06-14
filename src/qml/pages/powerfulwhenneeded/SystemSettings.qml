@@ -14,7 +14,7 @@ import org.kde.plasma.welcome
 
 GenericPage {
     heading: i18nc("@info:window", "System Settings")
-    description: xi18nc("@info:usagetip", "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons—you'll find it all there!")
+    description: xi18nc("@info:usagetip", "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons — you’ll find it all there!")
 
     ApplicationIcon {
         anchors.centerIn: parent
