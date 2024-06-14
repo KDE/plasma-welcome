@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-23 00:40+0000\n"
-"PO-Revision-Date: 2024-04-26 10:57+0200\n"
+"PO-Revision-Date: 2024-06-11 12:04+0200\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -81,7 +81,7 @@ msgstr "%1 Beta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "Příkaz <command>%1</command> nelze najít."
 
 #: src/controller.cpp:166
 #, kde-format
@@ -211,7 +211,7 @@ msgstr "&OK"
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Hledat…"
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -312,9 +312,7 @@ msgid "Make a donation"
 msgstr "Přispějte na vývoj"
 
 #: src/qml/pages/Enjoy.qml:65
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Zapojte se"
@@ -323,13 +321,13 @@ msgstr "Zapojte se"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Podporující členové"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Podporující členové"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
 #, kde-kuit-format
@@ -349,19 +347,19 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Seřadit podle názvu"
 
 #: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Řadit podle data"
 
 #: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Filtr…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -432,7 +430,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Podpora sítě v Plasma není nyní nainstalována"
 
 #: src/qml/pages/Network.qml:75
 #, kde-kuit-format
@@ -446,7 +444,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You're connected"
-msgstr ""
+msgstr "Jste připojeni"
 
 #: src/qml/pages/Network.qml:250
 #, kde-format
@@ -467,7 +465,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Změnit stav"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
@@ -606,7 +604,7 @@ msgstr "Bezpečně ukládejte důležité soubory"
 #, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr ""
+msgstr "Nastavení systému"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
@@ -693,25 +691,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
@@ -721,18 +701,6 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
-"KRunner je velmi mocný a univerzální vyhledávací systém prostředí Plasma. "
-"Rozšiřuje možnosti vyhledávání ve spouštěči aplikací nebo na obrazovce "
-"přehledu, a lze k němu přistupovat jako k samotnému pruhu vyhledávání pomocí "
-"klávesové zkratky <shortcut>Alt+Mezerník</shortcut>.<nl/><nl/>kromě "
-"vyhledávání vašich souborů a složek umí KRunner spouštět aplikace, "
-"prohledávat web, převádět mezi měnami, počítat matematické příklady a "
-"spoustu dalšího. Zkuste napsat do vyhledávacího pole některé z těchto řádek:"
-"<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 "
-"EUR in USD\"</item><item>\"25 miles in km\"</item><item>… a spoustu dalšího!"
-"</item></list><nl/>Víc se naučíte spuštěním vyhledávací lišty KRunner pomocí "
-"klávesové zkratky <shortcut>Alt+Mezerník</shortcut> a kliknutím na ikonu s "
-"otazníkem."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
 #, kde-kuit-format
@@ -784,7 +752,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "... a mnohem více."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
@@ -814,7 +782,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
-msgstr ""
+msgstr "Nastavení systému"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
 #, kde-kuit-format
@@ -1013,39 +981,3 @@ msgstr "Navštivte %1"
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Maskot KDE - Konqi - vás vítá v komunitě KDE!"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE is not a big company; it's an international volunteer community, and "
-#~ "its software is made by people like you donating their time and passion. "
-#~ "You too can help make things better, whether it's through translation, "
-#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
-#~ ">By contributing to KDE, you can become part of something special, meet "
-#~ "new friends, learn new skills, and make a difference to millions while "
-#~ "working with people from around the globe to deliver a stunning free "
-#~ "software computing experience."
-#~ msgstr ""
-#~ "KDE není velká společnost, ale mezinárodní komunita dobrovolníků a její "
-#~ "software je vytvářen lidmi jako jste vy, kteří věnují svůj čas a nadšení. "
-#~ "I vy můžete pomoci věci zlepšovat ať už je to překládáním, návrhem "
-#~ "vzhledu a propagací nebo programováním a procházením chyb.<nl/><nl/"
-#~ ">Přispíváním do KDE se můžete stát součástí něčeho mimořádného, potkat "
-#~ "nové přátele, naučit se nové dovednosti a spoluprací s lidmi z celého "
-#~ "světa udělat něco pro miliony lidí tím, že pomůžete vytvořit skvělý "
-#~ "svobodný software."
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "Zapojte se!"
-
-#~ msgctxt "@title:window"
-#~ msgid "Support Your Freedom"
-#~ msgstr "Podpořte svoji svobodu"
-
-#~ msgctxt "@action:button"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "Podporovatelé Plasma 6"
-
-#~ msgctxt "@title:window"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "Podporovatelé Plasma 6"
