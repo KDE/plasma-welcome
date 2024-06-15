@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-11 00:40+0000\n"
+"POT-Creation-Date: 2024-06-15 00:40+0000\n"
 "PO-Revision-Date: 2024-06-13 03:08+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -110,9 +110,11 @@ msgid "Welcome Center"
 msgstr "歡迎中心"
 
 #: src/main.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info copyright string"
+#| msgid "© 2021-2024, KDE Community"
 msgctxt "@info copyright string"
-msgid "© 2021-2024, KDE Community"
+msgid "© 2021–2024, KDE Community"
 msgstr "© 2021-2024，KDE 社群"
 
 #: src/main.cpp:52
@@ -303,7 +305,7 @@ msgstr ""
 "<application>%1</application> 應用程式幫您尋找並安裝應用程式、遊戲與工具。您"
 "可以依分類搜尋或瀏覽、看截圖，或閱讀評論來幫您找到想用的應用程式。"
 
-#: src/qml/pages/Discover.qml:102
+#: src/qml/pages/Discover.qml:105
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -316,10 +318,15 @@ msgid "Enjoy It!"
 msgstr "享受它！"
 
 #: src/qml/pages/Enjoy.qml:20
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We hope you love Plasma as much as we loved making it for you! Now it's "
+#| "time to jump right in. Explore its features, install your favorite apps "
+#| "and games, and get busy doing what makes you you!"
 msgctxt "@info:usagetip"
 msgid ""
-"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"We hope you love Plasma as much as we loved making it for you! Now it’s time "
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
@@ -327,16 +334,20 @@ msgstr ""
 "索 Plasma 的功能、安裝您喜愛的應用程式與遊戲，並利用它來做對您有意義的事情"
 "吧！"
 
-#: src/qml/pages/Enjoy.qml:25 src/qml/pages/Welcome.qml:58
-#, kde-format
-msgctxt "@action:button"
+#: src/qml/pages/Enjoy.qml:25
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Learn more about the KDE community"
+msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "瞭解更多有關 KDE 社群的資訊"
 
 #: src/qml/pages/Enjoy.qml:30
-#, kde-format
-msgctxt "@action:button"
-msgid "Get help at KDE's discussion forums"
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Get help at KDE's discussion forums"
+msgctxt "@label:URL"
+msgid "Get help at KDE’s discussion forums"
 msgstr "在 KDE 的討論區中尋求幫助"
 
 #: src/qml/pages/Enjoy.qml:60
@@ -490,9 +501,11 @@ msgstr ""
 "此元件的問題。"
 
 #: src/qml/pages/Network.qml:249
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:placeholder Shown when connected to the internet"
+#| msgid "You're connected"
 msgctxt "@info:placeholder Shown when connected to the internet"
-msgid "You're connected"
+msgid "You’re connected"
 msgstr "您已連線"
 
 #: src/qml/pages/Network.qml:250
@@ -525,10 +538,15 @@ msgid "Plasma has been updated to %1"
 msgstr "Plasma 已更新至 %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Thank you for testing this beta release of Plasma—your feedback is "
+#| "fundamental to helping us improve it! Please report any and all bugs you "
+#| "find so that we can fix them."
 msgctxt "@info:usagetip"
 msgid ""
-"Thank you for testing this beta release of Plasma—your feedback is "
+"Thank you for testing this beta release of Plasma — your feedback is "
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
@@ -536,22 +554,26 @@ msgstr ""
 "的問題，讓我們能夠修正它們。"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#: src/qml/pages/plasmaupdate/Update.qml:24
-#, kde-format
-msgctxt "@action:button"
-msgid "<b>Find out what's new</b>"
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "<b>Find out what's new</b>"
+msgctxt "@label:URL"
+msgid "<b>Find out what’s new</b>"
 msgstr "<b>有什麼新功能</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, kde-format
-msgctxt "@action:button"
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Report a bug"
+msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "回報問題"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#: src/qml/pages/plasmaupdate/Update.qml:29
-#, kde-format
-msgctxt "@action:button"
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Help work on the next release"
+msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "幫忙製作下一個版本"
 
@@ -564,6 +586,18 @@ msgid ""
 msgstr ""
 "KDE 貢獻者花費了四個月的時間努力達成了這個版本發行。我們希望您享受 Plasma，如"
 "同我們享受製作它一樣！"
+
+#: src/qml/pages/plasmaupdate/Update.qml:24
+#, kde-format
+msgctxt "@action:button"
+msgid "<b>Find out what's new</b>"
+msgstr "<b>有什麼新功能</b>"
+
+#: src/qml/pages/plasmaupdate/Update.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Help work on the next release"
+msgstr "幫忙製作下一個版本"
 
 #: src/qml/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -680,14 +714,21 @@ msgid "Activities"
 msgstr "活動"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Activities can be used to separate high-level projects or workflows so "
+#| "you can focus on one at a time. You can have an activity for \"Home\", "
+#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
+#| "files but has its own set of open apps and windows, recent documents, "
+#| "\"Favorite\" apps, and desktop widgets."
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
-"can focus on one at a time. You can have an activity for \"Home\", \"School"
-"\", \"Work\", and so on. Each Activity has access to all your files but has "
-"its own set of open apps and windows, recent documents, \"Favorite\" apps, "
-"and desktop widgets."
+"can focus on one at a time. You can have an activity for “Home”, “School”, "
+"“Work”, and so on. Each Activity has access to all your files but has its "
+"own set of open apps and windows, recent documents, “Favorite” apps, and "
+"desktop widgets."
 msgstr ""
 "活動可以用來將層級較高的專案或工作方式分開，讓您能夠一次專注在一件事上。舉例"
 "來說，您可以為「家庭」、「學校」、「工作」等等各有一個活動。每個活動都能存取"
@@ -703,11 +744,17 @@ msgid "Open Settings…"
 msgstr "開啟設定…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:62
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "To get started, launch <interface>System Settings</interface> and search "
+#| "for \"Activities\". On that page, you can create more Activities. You can "
+#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
+#| "shortcut."
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
-"\"Activities\". On that page, you can create more Activities. You can then "
+"“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
@@ -722,18 +769,29 @@ msgid "KDE Connect"
 msgstr "KDE 連線"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE Connect lets you integrate your phone with your computer in various "
+#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
+#| "item><item>Reply to text messages from your phone on your computer</"
+#| "item><item>Sync your clipboard contents between your computer and your "
+#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
+#| "item><item>Copy pictures, videos, and other files from your phone to your "
+#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
+#| "get started, launch <interface>System Settings</interface> and search for "
+#| "\"KDE Connect\". On that page, you can pair your phone."
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
 "<nl/><list><item>See notifications from your phone on your computer</"
 "item><item>Reply to text messages from your phone on your computer</"
 "item><item>Sync your clipboard contents between your computer and your "
-"phone</item><item>Make a noise on your phone when it's been misplaced</"
+"phone</item><item>Make a noise on your phone when it’s been misplaced</"
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
 "get started, launch <interface>System Settings</interface> and search for "
-"\"KDE Connect\". On that page, you can pair your phone."
+"“KDE Connect”. On that page, you can pair your phone."
 msgstr ""
 "KDE 連線讓您利用不同方式來整合您的手機和電腦：<nl /><list>  <item>在電腦上看"
 "手機的通知</item>  <item>從電腦上回覆手機上的文字訊息</item>  <item>同步手機"
@@ -749,10 +807,19 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more."
 msgctxt "@info:usagetip"
 msgid ""
-"KRunner is Plasma's exceptionally powerful and versatile search system. It "
+"KRunner is Plasma’s exceptionally powerful and versatile search system. It "
 "powers the search functionality in the Application Launcher menu and the "
 "Overview screen, and it can be accessed as a standalone search bar using the "
 "<shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
@@ -847,13 +914,19 @@ msgid "System Settings"
 msgstr "系統設定"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The System Settings app lets you extensively customize the system to suit "
+#| "your tastes and preferences. Default apps, wallpapers, visual styles and "
+#| "icons, virtual desktops, power management, 3rd-party add-ons—you'll find "
+#| "it all there!"
 msgctxt "@info:usagetip"
 msgid ""
 "The System Settings app lets you extensively customize the system to suit "
 "your tastes and preferences. Default apps, wallpapers, visual styles and "
-"icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
-"all there!"
+"icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
+"it all there!"
 msgstr ""
 "系統設定應用程式讓您詳細地將系統調整成符合您的喜好的樣子。預設應用程式、桌"
 "布、視覺風格與圖示、虛擬桌面、電源管理、第三方外掛程式等等——全部都在這裡！"
@@ -889,12 +962,19 @@ msgid "Simple by Default"
 msgstr "預設簡潔"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma is designed to be simple and usable out of the box. Things are "
+#| "where you'd expect, and there is generally no need to configure anything "
+#| "before you can be comfortable and productive.<nl/><nl/>Below is a visual "
+#| "representation of a typical Plasma Desktop; move the pointer over or "
+#| "click on something to learn about it!"
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
-"you'd expect, and there is generally no need to configure anything before "
-"you can be comfortable and productive.<nl/><nl/>Below is a visual "
+"you would expect, and there is generally no need to configure anything "
+"before you can be comfortable and productive.<nl/><nl/>Below is a visual "
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
@@ -918,12 +998,18 @@ msgstr ""
 "interface>來新增、移除或變更小工具。"
 
 #: src/qml/pages/SimpleByDefault.qml:36
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This is a “Panel”—a container to hold widgets. Right-click on it and "
+#| "choose <interface>Show Panel Configuration</interface> to change how it "
+#| "behaves, which screen edge it lives on, and to add, remove or modify "
+#| "widgets."
 msgctxt "@info"
 msgid ""
-"This is a “Panel”—a container to hold widgets. Right-click on it and choose "
-"<interface>Show Panel Configuration</interface> to change how it behaves, "
-"which screen edge it lives on, and to add, remove or modify widgets."
+"This is a “Panel” — a container to hold widgets. Right-click on it and "
+"choose <interface>Show Panel Configuration</interface> to change how it "
+"behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
 "這是一個「面板」——用來放置元件的地方。在面板上按右鍵並選擇<interface>顯示面板"
 "設定</interface>來調整它的行為、它應該要附屬於哪個螢幕邊緣，或是來新增、移除"
@@ -1035,6 +1121,12 @@ msgstr "關於《歡迎中心》"
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "關於 KDE"
+
+#: src/qml/pages/Welcome.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "瞭解更多有關 KDE 社群的資訊"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-11 00:40+0000\n"
+"POT-Creation-Date: 2024-06-15 00:40+0000\n"
 "PO-Revision-Date: 2023-02-15 16:32+0700\n"
 "Last-Translator: Linerly <linerly@protonmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -112,7 +112,7 @@ msgstr ""
 #: src/main.cpp:50
 #, kde-format
 msgctxt "@info copyright string"
-msgid "© 2021-2024, KDE Community"
+msgid "© 2021–2024, KDE Community"
 msgstr ""
 
 #: src/main.cpp:52
@@ -317,7 +317,7 @@ msgstr ""
 "menelusuri berdasarkan kategori, lihat tangkapan layar, dan baca ulasan "
 "untuk membantu Anda mencari aplikasi yang sempurna."
 
-#: src/qml/pages/Discover.qml:102
+#: src/qml/pages/Discover.qml:105
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -333,21 +333,23 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"We hope you love Plasma as much as we loved making it for you! Now it's time "
+"We hope you love Plasma as much as we loved making it for you! Now it’s time "
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
 
-#: src/qml/pages/Enjoy.qml:25 src/qml/pages/Welcome.qml:58
-#, kde-format
-msgctxt "@action:button"
+#: src/qml/pages/Enjoy.qml:25
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Learn more about the KDE community"
+msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Pelajari lebih lanjut tentang komunitas KDE"
 
 #: src/qml/pages/Enjoy.qml:30
 #, kde-format
-msgctxt "@action:button"
-msgid "Get help at KDE's discussion forums"
+msgctxt "@label:URL"
+msgid "Get help at KDE’s discussion forums"
 msgstr ""
 
 #: src/qml/pages/Enjoy.qml:60
@@ -504,7 +506,7 @@ msgstr ""
 #: src/qml/pages/Network.qml:249
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
-msgid "You're connected"
+msgid "You’re connected"
 msgstr ""
 
 #: src/qml/pages/Network.qml:250
@@ -540,30 +542,30 @@ msgstr "Plasma telah diperbarui ke versi %1"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Thank you for testing this beta release of Plasma—your feedback is "
+"Thank you for testing this beta release of Plasma — your feedback is "
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#: src/qml/pages/plasmaupdate/Update.qml:24
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Find out what's new in Plasma %1"
-msgctxt "@action:button"
-msgid "<b>Find out what's new</b>"
+msgctxt "@label:URL"
+msgid "<b>Find out what’s new</b>"
 msgstr "Cari tahu apa yang baru dalam Plasma %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
 #, kde-format
-msgctxt "@action:button"
+msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr ""
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#: src/qml/pages/plasmaupdate/Update.qml:29
-#, kde-format
-msgctxt "@action:button"
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Help work on the next release"
+msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "Bantu mengerjakan rilis berikutnya"
 
@@ -577,6 +579,20 @@ msgstr ""
 "Para kontributor KDE telah menghabiskan empat bulan terakhir bekerja keras "
 "pada rilis ini. Kami berharap Anda menikmati menggunakan Plasma sebanyak "
 "kami menikmati membuatnya!"
+
+#: src/qml/pages/plasmaupdate/Update.qml:24
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Find out what's new in Plasma %1"
+msgctxt "@action:button"
+msgid "<b>Find out what's new</b>"
+msgstr "Cari tahu apa yang baru dalam Plasma %1"
+
+#: src/qml/pages/plasmaupdate/Update.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Help work on the next release"
+msgstr "Bantu mengerjakan rilis berikutnya"
 
 #: src/qml/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -707,10 +723,10 @@ msgstr "Aktivitas"
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
-"can focus on one at a time. You can have an activity for \"Home\", \"School"
-"\", \"Work\", and so on. Each Activity has access to all your files but has "
-"its own set of open apps and windows, recent documents, \"Favorite\" apps, "
-"and desktop widgets."
+"can focus on one at a time. You can have an activity for “Home”, “School”, "
+"“Work”, and so on. Each Activity has access to all your files but has its "
+"own set of open apps and windows, recent documents, “Favorite” apps, and "
+"desktop widgets."
 msgstr ""
 "Aktivitas dapat digunakan untuk memisahkan proyek atau alur kerja tingkat "
 "tinggi supaya Anda dapat fokus pada satu per satu. Anda dapat memiliki "
@@ -736,7 +752,7 @@ msgstr "System Settings"
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
-"\"Activities\". On that page, you can create more Activities. You can then "
+"“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
@@ -748,18 +764,29 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE Connect lets you integrate your phone with your computer in various "
+#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
+#| "item><item>Reply to text messages from your phone on your computer</"
+#| "item><item>Sync your clipboard contents between your computer and your "
+#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
+#| "item><item>Copy pictures, videos, and other files from your phone to your "
+#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
+#| "get started, launch <interface>System Settings</interface> and search for "
+#| "\"KDE Connect\". On that page, you can pair your phone."
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
 "<nl/><list><item>See notifications from your phone on your computer</"
 "item><item>Reply to text messages from your phone on your computer</"
 "item><item>Sync your clipboard contents between your computer and your "
-"phone</item><item>Make a noise on your phone when it's been misplaced</"
+"phone</item><item>Make a noise on your phone when it’s been misplaced</"
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
 "get started, launch <interface>System Settings</interface> and search for "
-"\"KDE Connect\". On that page, you can pair your phone."
+"“KDE Connect”. On that page, you can pair your phone."
 msgstr ""
 "KDE Connect memungkinkan Anda untuk mengintegrasikan ponsel Anda dengan "
 "komputer Anda dalam berbagai cara:<nl/><list><item>Lihat notifikasi dari "
@@ -798,7 +825,7 @@ msgstr "KRunner"
 #| "on the question mark icon."
 msgctxt "@info:usagetip"
 msgid ""
-"KRunner is Plasma's exceptionally powerful and versatile search system. It "
+"KRunner is Plasma’s exceptionally powerful and versatile search system. It "
 "powers the search functionality in the Application Launcher menu and the "
 "Overview screen, and it can be accessed as a standalone search bar using the "
 "<shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
@@ -909,8 +936,8 @@ msgctxt "@info:usagetip"
 msgid ""
 "The System Settings app lets you extensively customize the system to suit "
 "your tastes and preferences. Default apps, wallpapers, visual styles and "
-"icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
-"all there!"
+"icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
+"it all there!"
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
@@ -957,8 +984,8 @@ msgstr "Sederhana Secara Bawaan"
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
-"you'd expect, and there is generally no need to configure anything before "
-"you can be comfortable and productive.<nl/><nl/>Below is a visual "
+"you would expect, and there is generally no need to configure anything "
+"before you can be comfortable and productive.<nl/><nl/>Below is a visual "
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
@@ -983,9 +1010,9 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"This is a “Panel”—a container to hold widgets. Right-click on it and choose "
-"<interface>Show Panel Configuration</interface> to change how it behaves, "
-"which screen edge it lives on, and to add, remove or modify widgets."
+"This is a “Panel” — a container to hold widgets. Right-click on it and "
+"choose <interface>Show Panel Configuration</interface> to change how it "
+"behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
 
 #: src/qml/pages/SimpleByDefault.qml:39
@@ -1102,6 +1129,12 @@ msgstr ""
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr ""
+
+#: src/qml/pages/Welcome.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "Pelajari lebih lanjut tentang komunitas KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, fuzzy, kde-format
