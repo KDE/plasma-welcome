@@ -31,6 +31,7 @@ public:
     Q_INVOKABLE QString distroName();
     Q_INVOKABLE QString distroIcon();
     Q_INVOKABLE QString distroUrl();
+    Q_INVOKABLE bool isDistroSnapOnly();
     Q_INVOKABLE QString distroBugReportUrl();
     Q_INVOKABLE QString installPrefix();
 
