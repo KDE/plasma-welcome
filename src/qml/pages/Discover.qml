@@ -53,12 +53,12 @@ GenericPage {
             Repeater {
                 model: ListModel {
                     id: appsModel
-                    ListElement { name: "Krita"; appstream: "org.kde.krita"; icon: "krita.png" }
-                    ListElement { name: "Blender"; appstream: "org.blender.Blender"; icon: "blender" }
-                    ListElement { name: "VLC"; appstream: "org.videolan.VLC"; icon: "vlc" }
-                    ListElement { name: "GIMP"; appstream: "org.gimp.GIMP"; icon: "gimp" }
-                    ListElement { name: "KStars"; appstream: "org.kde.kstars.desktop"; icon: "kstars" }
-                    ListElement { name: "Endless Sky"; appstream: "io.github.endless_sky.endless_sky"; icon: "endlesssky.png" }
+                    ListElement { name: "Krita"; appstream: "org.kde.krita"; snap: "krita"; icon: "krita.png" }
+                    ListElement { name: "Blender"; appstream: "org.blender.Blender"; snap: "blender"; icon: "blender" }
+                    ListElement { name: "VLC"; appstream: "org.videolan.VLC"; snap: "vlc"; icon: "vlc" }
+                    ListElement { name: "GIMP"; appstream: "org.gimp.GIMP"; snap: "gimp"; icon: "gimp" }
+                    ListElement { name: "KStars"; appstream: "org.kde.kstars.desktop"; snap: "kstars"; icon: "kstars" }
+                    ListElement { name: "Endless Sky"; appstream: "io.github.endless_sky.endless_sky"; snap: "endlesssky"; icon: "endlesssky.png" }
                 }
                 delegate: ColumnLayout {
                     spacing: Kirigami.Units.smallSpacing
@@ -94,7 +94,10 @@ GenericPage {
                         cursorShape: Qt.PointingHandCursor
                     }
                     TapHandler {
-                        onTapped: Qt.openUrlExternally(`appstream://${model.appstream}`)
+                        onTapped: {
+                          let url = Controller.isDistroSnapOnly() ? `snap://${model.snap}` : `appstream://${model.appstream}`
+                          Qt.openUrlExternally(url)
+                        }
                     }
 
                     QQC2.ToolTip {
