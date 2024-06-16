@@ -114,9 +114,7 @@ msgid "Welcome Center"
 msgstr "Center dobrodošlice"
 
 #: src/main.cpp:50
-#, fuzzy, kde-format
-#| msgctxt "@info copyright string"
-#| msgid "© 2021-2024, KDE Community"
+#, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
 msgstr "© 2021-2024, Skupnost KDE"
@@ -326,12 +324,7 @@ msgid "Enjoy It!"
 msgstr "Uživajte!"
 
 #: src/qml/pages/Enjoy.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We hope you love Plasma as much as we loved making it for you! Now it's "
-#| "time to jump right in. Explore its features, install your favorite apps "
-#| "and games, and get busy doing what makes you you!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We hope you love Plasma as much as we loved making it for you! Now it’s time "
@@ -344,17 +337,13 @@ msgstr ""
 "vas!"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Naučite se več o skupnosti KDE"
 
 #: src/qml/pages/Enjoy.qml:30
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Get help at KDE's discussion forums"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
 msgstr "Poiščite pomoč na forumih za razprave KDE"
@@ -517,9 +506,7 @@ msgstr ""
 "nm</icode>. Prosimo, prijavite to opustitev %1."
 
 #: src/qml/pages/Network.qml:249
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when connected to the internet"
-#| msgid "You're connected"
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Ste povezani"
@@ -555,12 +542,7 @@ msgid "Plasma has been updated to %1"
 msgstr "Plasma je posodobljena na različico %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Thank you for testing this beta release of Plasma—your feedback is "
-#| "fundamental to helping us improve it! Please report any and all bugs you "
-#| "find so that we can fix them."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
@@ -568,32 +550,26 @@ msgid ""
 "find so that we can fix them."
 msgstr ""
 "Hvala, ker ste preizkusili to izdajo beta Plasme – vaše povratne informacije "
-"so bistvenega pomena, da jo lahko izboljšamo! Prosimo, prijavite vse in vse "
-"napake, ki jih najdete, da jih lahko odpravimo."
+"so bistvenega pomena, da jo lahko izboljšamo! Prosimo, prijavite katerekoli "
+"in vse napake, ki jih najdete, da jih lahko odpravimo."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
-msgstr "<b>Preverite, kaj je novega</b>"
+msgstr "<b>Poiščite, kaj je novega</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "Poročaj o napaki"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
-msgstr "Sodelujte pri naslednji izdaji"
+msgstr "Pomagajte pri delu pri naslednji izdaji"
 
 #: src/qml/pages/plasmaupdate/Update.qml:18
 #, kde-kuit-format
@@ -733,14 +709,7 @@ msgid "Activities"
 msgstr "Dejavnosti"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -753,8 +722,8 @@ msgstr ""
 "visoki ravni, tako da se lahko osredotočite na eno dejavnost naenkrat. Lahko "
 "imate dejavnost za \"dom\", \"šolo\", \"delo \"in tako naprej. Vsaka "
 "dejavnost ima dostop do vseh vaših datotek, vendar ima svoj nabor odprtih "
-"aplikacij in oken, nedavnih dokumentov, \"najljubših\" aplikacij in namiznih "
-"gradnikov."
+"aplikacij in oken, nedavnih dokumentov, \"priljubljenih\" aplikacij in "
+"namiznih gradnikov."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -765,13 +734,7 @@ msgid "Open Settings…"
 msgstr "Odpri nastavitve…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:62
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for \"Activities\". On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -791,18 +754,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -816,13 +768,13 @@ msgid ""
 "“KDE Connect”. On that page, you can pair your phone."
 msgstr ""
 "KDE Connect vam omogoča integracijo telefona z računalnikom na različne "
-"načine:<nl/><list><item>Za ogled obvestil iz telefona v računalniku</"
-"item><item>Za odgovarjanje na besedilna sporočila iz telefona v računalniku</"
-"item><item>Za sinhronizacijo vsebine odložišč med računalnikom in telefonom</"
-"item><item>Za hrupno opozorilo telefona, če je bil postavljen napačno</"
-"item><item>Za kopiranje slik, videoposnetkov in drugih datotek iz telefona v "
+"načine:<nl/><list><item>Ogled obvestil iz telefona v računalniku</"
+"item><item>Odgovarjanje na besedilna sporočila iz telefona v računalniku</"
+"item><item>Sinhronizacijo vsebine odložišč med računalnikom in telefonom</"
+"item><item>Hrupno opozorilo telefona, če je bil postavljen napačno</"
+"item><item>Kopiranje slik, videoposnetkov in drugih datotek iz telefona v "
 "računalnik in obratno</item><item>… in še veliko več! </item></list><nl/>Če "
-"želite začeti, zaženite <interface>Nastavitve sistema</interface>  in "
+"želite začeti, zaženite <interface>Nastavitve sistema</interface> in "
 "poiščite \"KDE Connect\". Na tej strani lahko uparite vaš telefon z "
 "računalnikom."
 
@@ -833,16 +785,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -856,8 +799,8 @@ msgstr ""
 "zmožnost iskanja v meniju za zagon aplikacij in zaslona predogleda in do "
 "njega lahko dostopate kot s samostojno iskalno vrstico z uporabo tipkovne "
 "bližnjice <shortcut>Alt+preslednica</shortcut>.<nl/><nl/>Poleg tega da "
-"Krunner nudi iskanje datotek in map, lahko zažene aplikacije, preišče splet, "
-"pretvarja valute, izračunava matematične probleme in še veliko več."
+"Krunner nudi iskanje datotek in map, lahko zaganja aplikacije, preiskuje "
+"splet, pretvarja valute, izračunava matematične probleme in še veliko več."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
 #, kde-kuit-format
@@ -945,13 +888,7 @@ msgid "System Settings"
 msgstr "Sistemske nastavitve"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The System Settings app lets you extensively customize the system to suit "
-#| "your tastes and preferences. Default apps, wallpapers, visual styles and "
-#| "icons, virtual desktops, power management, 3rd-party add-ons—you'll find "
-#| "it all there!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The System Settings app lets you extensively customize the system to suit "
@@ -960,8 +897,8 @@ msgid ""
 "it all there!"
 msgstr ""
 "Aplikacija Nastavitev sistema vam omogoča obsežno prilagajanje sistema glede "
-"na vaš okus in želje. Privzete aplikacije, ozadja, vizualni slogi in ikone, "
-"navidezna namizja, upravljanje porabe energije, dodatki tretjih oseb – vse "
+"na vaš okus in preference. Privzete aplikacije, ozadja, vizualni slogi in "
+"ikone, navidezna namizja, upravljanje z energijo, dodatki tretjih oseb – vse "
 "boste našli tam!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
@@ -997,14 +934,7 @@ msgid "Simple by Default"
 msgstr "Privzeto enostavno"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Below is a visual "
-#| "representation of a typical Plasma Desktop; move the pointer over or "
-#| "click on something to learn about it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -1017,7 +947,7 @@ msgstr ""
 "tam, kjer bi jih pričakovali in na splošno ni treba prej ničesar "
 "konfigurirati, da ste lahko se počutite udobno in ste produktivni.<nl/><nl/"
 ">Spodaj je vizualna predstavitev tipičnega namizja Plasma; premaknite "
-"kazalec ali kliknite nekam, če želite izvedeti več o tem!"
+"kazalec ali kliknite tja, če želite izvedeti več o tem!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1036,13 +966,7 @@ msgstr ""
 "urejevalnik način</interface>, da dodate, odstranite ali spremenite gradnike."
 
 #: src/qml/pages/SimpleByDefault.qml:36
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is a “Panel”—a container to hold widgets. Right-click on it and "
-#| "choose <interface>Show Panel Configuration</interface> to change how it "
-#| "behaves, which screen edge it lives on, and to add, remove or modify "
-#| "widgets."
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "This is a “Panel” — a container to hold widgets. Right-click on it and "
@@ -1050,7 +974,7 @@ msgid ""
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
 "To je \"Plošča\" - vsebnik za shranjevanje gradnikov. Z desno miškino tipko "
-"kliknite nanj in izberite <interface>Prikaži konfiguracijo plošče</"
+"kliknite nanjo in izberite <interface>Prikaži konfiguracijo plošče</"
 "interface>, da spremenite, kako se obnaša, na katerem robu zaslona živi in "
 "dodate, odstranite ali spremenite gradnike."
 
