@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2024-05-24 08:41+0200\n"
+"PO-Revision-Date: 2024-06-15 13:55+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -113,7 +113,7 @@ msgstr "Centro di benvenuto"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2021–2024, Comunità KDE"
 
 #: src/main.cpp:52
 #, kde-format
@@ -212,9 +212,7 @@ msgid "&OK"
 msgstr "&OK"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Attività"
@@ -223,37 +221,37 @@ msgstr "Attività"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Casa"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Scuola"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Lavoro"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Attualmente utilizzata"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Utilizzata 3 ore fa"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Crea attività..."
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -323,12 +321,7 @@ msgid "Enjoy It!"
 msgstr "Divertiti!"
 
 #: src/qml/pages/Enjoy.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We hope you love Plasma as much as we loved making it for you! Now it's "
-#| "time to jump right in. Explore its features, install your favorite apps "
-#| "and games, and get busy doing what makes you you!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We hope you love Plasma as much as we loved making it for you! Now it’s time "
@@ -341,17 +334,13 @@ msgstr ""
 "ciò che ti rende te stesso!"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Scopri di più sulla comunità KDE"
 
 #: src/qml/pages/Enjoy.qml:30
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Get help at KDE's discussion forums"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
 msgstr "Ottieni aiuto nei forum di discussione di KDE"
@@ -514,9 +503,7 @@ msgstr ""
 "<icode>plasma-nm</icode>. Segnala questa omissione a %1."
 
 #: src/qml/pages/Network.qml:249
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when connected to the internet"
-#| msgid "You're connected"
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Sei connesso"
@@ -553,12 +540,7 @@ msgid "Plasma has been updated to %1"
 msgstr "Plasma è stato aggiornato alla versione %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Thank you for testing this beta release of Plasma—your feedback is "
-#| "fundamental to helping us improve it! Please report any and all bugs you "
-#| "find so that we can fix them."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
@@ -566,29 +548,23 @@ msgid ""
 "find so that we can fix them."
 msgstr ""
 "Grazie per aver provato questa versione beta di Plasma: il tuo riscontro è "
-"fondamentale per aiutarci a migliorarla! Ti preghiamo di segnalare tutti i "
-"bug che trovi in modo che possiamo risolverli."
+"fondamentale per aiutarci a migliorarla! Segnala tutti i bug che trovi in "
+"modo che possiamo risolverli."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>Scopri cosa c'è di nuovo</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "Segnala un bug"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "Aiutaci a lavorare sulla prossima versione"
@@ -733,17 +709,7 @@ msgid "Activities"
 msgstr "Attività"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -753,14 +719,11 @@ msgid ""
 "desktop widgets."
 msgstr ""
 "Le attività possono essere utilizzate per separare progetti o flussi di "
-"lavoro di alto livello in modo da poterti concentrare su uno alla volta. "
-"Puoi avere un'attività per «Casa», «Scuola», «Lavoro» e così via. Ogni "
-"attività ha accesso a tutti i tuoi file, ma ha il proprio insieme di "
+"lavoro di alto livello in modo da poterti concentrare su una cosa alla "
+"volta. Puoi avere un'attività per «Casa», «Scuola», «Lavoro» e così via. "
+"Ogni attività ha accesso a tutti i tuoi file, ma ha il proprio insieme di "
 "applicazioni e finestre aperte, documenti recenti, applicazioni «preferite» "
-"e oggetti desktop.<nl/><nl/>Per iniziare, avvia <interface>Impostazioni di "
-"sistema</interface> e cerca «Attività». In quella pagina puoi creare più "
-"attività. Puoi quindi passare da uno all'altro utilizzando la scorciatoia da "
-"tastiera <shortcut>Meta+Tab</shortcut>."
+"e oggetti del desktop."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -779,6 +742,10 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"Per iniziare, avvia <interface>Impostazioni di sistema</interface> e cerca "
+"«Attività». In quella pagina puoi creare più attività. Puoi quindi passare "
+"dall'una all'altra utilizzando la scorciatoia da tastiera <shortcut>Meta"
+"+Tab</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -787,18 +754,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -828,16 +784,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -942,13 +889,7 @@ msgid "System Settings"
 msgstr "Impostazioni di sistema"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The System Settings app lets you extensively customize the system to suit "
-#| "your tastes and preferences. Default apps, wallpapers, visual styles and "
-#| "icons, virtual desktops, power management, 3rd-party add-ons—you'll find "
-#| "it all there!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The System Settings app lets you extensively customize the system to suit "
@@ -958,8 +899,8 @@ msgid ""
 msgstr ""
 "L'applicazione Impostazioni di sistema ti consente di personalizzare "
 "ampiamente il sistema in base ai tuoi gusti e preferenze. Applicazioni "
-"predefinite, sfondi, stili e icone visivi, desktop virtuali, gestione "
-"dell'alimentazione, componenti aggiuntivi di terze parti: troverai tutto lì!"
+"predefinite, sfondi, stili visivi e icone, desktop virtuali, gestione "
+"dell'alimentazione, componenti aggiuntivi di terze parti — troverai tutto lì!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
 #, kde-format
@@ -996,14 +937,7 @@ msgid "Simple by Default"
 msgstr "Semplice per scelta"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Below is a visual "
-#| "representation of a typical Plasma Desktop; move the pointer over or "
-#| "click on something to learn about it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -1014,9 +948,9 @@ msgid ""
 msgstr ""
 "Plasma è progettato per essere semplice e utilizzabile immediatamente. Le "
 "cose sono dove ti aspetteresti e in genere non è necessario configurare "
-"nulla prima di poter essere comodo e produttivo.<nl/><nl/>Di seguito è "
-"riportata una rappresentazione visiva di un tipico desktop Plasma; sposta il "
-"puntatore sopra o fai clic su qualcosa per saperne di più!"
+"nulla prima di poterti sentire a tuo agio e produttivo.<nl/><nl/>Di seguito "
+"è riportata una rappresentazione visiva di un tipico desktop Plasma; sposta "
+"il puntatore sopra o fai clic su qualcosa per saperne di più!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1035,23 +969,17 @@ msgstr ""
 "modifica</interface> per aggiungere, rimuovere o modificare gli oggetti."
 
 #: src/qml/pages/SimpleByDefault.qml:36
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is a “Panel”—a container to hold widgets. Right-click on it and "
-#| "choose <interface>Show Panel Configuration</interface> to change how it "
-#| "behaves, which screen edge it lives on, and to add, remove or modify "
-#| "widgets."
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "This is a “Panel” — a container to hold widgets. Right-click on it and "
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
-"Questo è un «Pannello», un contenitore per contenere gli oggetti. Fai clic "
-"con il tasto destro su di esso e scegli <interface>Mostra la configurazione "
-"del pannello</interface> per cambiare il suo comportamento, su quale bordo "
-"dello schermo si trova e per aggiungere, rimuovere o modificare gl oggetti."
+"Questo è un «Pannello», un contenitore di oggetti. Fai clic con il tasto "
+"destro su di esso e scegli <interface>Mostra la configurazione del pannello</"
+"interface> per cambiare il suo comportamento, su quale bordo dello schermo "
+"si trova e per aggiungere, rimuovere o modificare gli oggetti."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1169,7 +1097,7 @@ msgstr "Informazioni su Centro di benvenuto"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "Informazioni su KDE"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format

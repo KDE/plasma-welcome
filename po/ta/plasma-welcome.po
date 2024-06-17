@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2024-05-05 15:33+0530\n"
+"PO-Revision-Date: 2024-06-16 19:39+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -113,7 +113,7 @@ msgstr "வரவேற்பு மையம்"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2021–2024 கே.டீ.யீ. சமூகம்"
 
 #: src/main.cpp:52
 #, kde-format
@@ -210,9 +210,7 @@ msgid "&OK"
 msgstr "&சரி"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "செயல்பாடுகள்"
@@ -330,9 +328,7 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "கே.டீ.யீ. சமூகத்தை பற்றி மேலும் காட்டு"
@@ -359,9 +355,7 @@ msgid "Make a donation"
 msgstr "நன்கொடை அளி"
 
 #: src/qml/pages/Enjoy.qml:69
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "பங்களித்தல்"
@@ -370,25 +364,21 @@ msgstr "பங்களித்தல்"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "ஆதரிப்போர்"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "ஆதரிப்போர்"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr "பிளாஸ்மா 6-இன் நிதித்திரட்டலின் போது எங்களை ஆதரித்த பின்வருபர்களுக்கு நன்றி:"
+msgstr "கே.டீ.யீ.க்கு தொடர்ந்து நன்கொடை அளிக்கும் பின்வருபர்களுக்கு நன்றி:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
@@ -502,9 +492,7 @@ msgstr ""
 "வெண்டும். இந்த சிக்கலை %1-க்கு தெரிவிக்கவும்."
 
 #: src/qml/pages/Network.qml:249
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when connected to the internet"
-#| msgid "You're connected"
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "இணைந்துள்ளீர்"
@@ -539,12 +527,7 @@ msgid "Plasma has been updated to %1"
 msgstr "%1 பதிப்புக்கு பிளாஸ்மா புதுப்பிக்கப்பட்டுள்ளது"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Thank you for testing this beta release of Plasma—your feedback is "
-#| "fundamental to helping us improve it! Please report any and all bugs you "
-#| "find so that we can fix them."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
@@ -555,25 +538,19 @@ msgstr ""
 "அவசியம்! நீங்கள் கண்டுபிடிக்கும் அனைத்து பிழைகளையும் எங்களிடம் தெரிவியுங்கள்."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>புதியது என்னவென்று காட்டு</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "பிழையை தெரிவி"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "அடுத்த பதிப்புக்கு உதவ விரும்புகிறேன்"
@@ -770,7 +747,7 @@ msgid "KRunner"
 msgstr "கேரன்னர்"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -780,17 +757,6 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
-"KRunner is Plasma's exceptionally powerful and versatile search system. It "
-"powers the search functionality in the Application Launcher menu and the "
-"Overview screen, and it can be accessed as a standalone search bar using the "
-"<shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
-"finding your files and folders, KRunner can launch apps, search the web, "
-"convert between currencies, calculate math problems, and a lot more. Try "
-"typing any of the following into one of those search fields:<nl/><list><item>"
-"\"time los angeles\"</item><item>\"27/3\"</item><item>\"200 EUR > USD\"</"
-"item><item>\"25 miles > km\"</item><item>…And much more!</item></list><nl/"
-">To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-"shortcut> keyboard shortcut and click on the question mark icon."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
 #, kde-kuit-format
@@ -842,7 +808,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "... என்று ஏராளமானவை!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
@@ -874,13 +840,7 @@ msgid "System Settings"
 msgstr "கணினி அமைப்புகள்"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The System Settings app lets you extensively customize the system to suit "
-#| "your tastes and preferences. Default apps, wallpapers, visual styles and "
-#| "icons, virtual desktops, power management, 3rd-party add-ons—you'll find "
-#| "it all there!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The System Settings app lets you extensively customize the system to suit "
@@ -925,14 +885,7 @@ msgid "Simple by Default"
 msgstr "இயல்பில் எளியது"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Below is a visual "
-#| "representation of a typical Plasma Desktop; move the pointer over or "
-#| "click on something to learn about it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -963,13 +916,7 @@ msgstr ""
 "<interface>திருத்தும் பயன்முறையில் நுழை</interface> என்பதைத் தேர்வு சேய்யவும்."
 
 #: src/qml/pages/SimpleByDefault.qml:36
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is a “Panel”—a container to hold widgets. Right-click on it and "
-#| "choose <interface>Show Panel Configuration</interface> to change how it "
-#| "behaves, which screen edge it lives on, and to add, remove or modify "
-#| "widgets."
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "This is a “Panel” — a container to hold widgets. Right-click on it and "
@@ -1092,7 +1039,7 @@ msgstr "வரவேற்பு மையத்தை பற்றி"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "கே.டீ.யீ. பற்றி"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format
