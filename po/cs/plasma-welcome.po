@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2024-06-11 12:04+0200\n"
+"PO-Revision-Date: 2024-06-17 14:32+0200\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -110,12 +110,10 @@ msgid "Welcome Center"
 msgstr "Uvítací centrum"
 
 #: src/main.cpp:50
-#, fuzzy, kde-format
-#| msgctxt "@info copyright string"
-#| msgid "© 2021-2024, KDE Community"
+#, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr "© 2021-2024 Komunita KDE"
+msgstr "© 2021–2024 Komunita KDE"
 
 #: src/main.cpp:52
 #, kde-format
@@ -329,9 +327,7 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Zjistěte více o komunitě KDE"
@@ -487,9 +483,7 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/Network.qml:249
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when connected to the internet"
-#| msgid "You're connected"
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Jste připojeni"
@@ -531,25 +525,19 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>Zjistěte co je nového</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "Nahlásit chybu"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "Pomozte s prací na dalším vydání"
@@ -689,14 +677,7 @@ msgid "Activities"
 msgstr "Aktivity"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -706,10 +687,10 @@ msgid ""
 "desktop widgets."
 msgstr ""
 "Aktivity mohou být použity k oddělení různých projektů nebo postupů, takže "
-"se na ně můžete soustředit. Můžete mít aktivitu pro \"Domov\", \"Školu\", "
-"\"Práci\" a tak dále. Každá aktivita má přístup ke všem vašim souborům ale "
-"má vlastní sadu otevřených aplikací a oken, nedávných dokumentů, \"Oblíbených"
-"\" aplikací a widgetů na ploše."
+"se na ně můžete soustředit. Můžete mít aktivitu pro “Domov“, “Školu“, "
+"“Práci“ a tak dále. Každá aktivita má přístup ke všem vašim souborům ale má "
+"vlastní sadu otevřených aplikací a oken, nedávných dokumentů, “Oblíbených“ "
+"aplikací a widgetů na ploše."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -736,18 +717,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -767,7 +737,7 @@ msgstr ""
 "item><item>Prozvonit váš telefon pokud není na svém místě</"
 "item><item>Kopírovat obrázky, videa a jiné soubory z vašeho telefonu na "
 "počítač a obráceně</item><item>… a mnohem víc!</item></list><nl/>Pro začátek "
-"spusťte <interface>Nastavení Systému</interface> a hledejte \"KDE Connect\". "
+"spusťte <interface>Nastavení Systému</interface> a hledejte “KDE Connect“. "
 "Tam taky můžete spárovat svůj telefon."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:21

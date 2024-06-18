@@ -110,10 +110,10 @@ msgid "Welcome Center"
 msgstr "欢迎中心"
 
 #: src/main.cpp:50
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr "© 2021-2024, KDE Community"
+msgstr ""
 
 #: src/main.cpp:52
 #, kde-format
@@ -317,27 +317,25 @@ msgid "Enjoy It!"
 msgstr "请尽情使用！"
 
 #: src/qml/pages/Enjoy.qml:20
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We hope you love Plasma as much as we loved making it for you! Now it’s time "
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
-"我们为打造 Plasma 付出了辛勤的劳动，希望它能够让您满意。请自由探索 Plasma 的"
-"功能，安装您喜欢的应用和游戏，开展您的日常工作吧！"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "了解更多关于 KDE 社区的信息"
 
 #: src/qml/pages/Enjoy.qml:30
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr "在 KDE 论坛寻求帮助"
+msgstr ""
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -491,10 +489,10 @@ msgstr ""
 "漏情况报告给 %1。"
 
 #: src/qml/pages/Network.qml:249
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr "你已连接到互联网"
+msgstr ""
 
 #: src/qml/pages/Network.qml:250
 #, kde-format
@@ -526,30 +524,28 @@ msgid "Plasma has been updated to %1"
 msgstr "Plasma 已更新到 %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
-"感谢您测试此 Plasma Beta 版本！您的反馈能够极大地帮助我们改进它。如果您在使用"
-"过程中遇到任何程序缺陷，请向我们报告，以便我们及时修复它们。"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
-msgstr "<b>新版特性介绍</b>"
+msgstr ""
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
-msgstr "报告程序缺陷"
+msgstr ""
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "加入下一版软件的开发工作"
@@ -691,7 +687,7 @@ msgid "Activities"
 msgstr "活动"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -700,10 +696,6 @@ msgid ""
 "own set of open apps and windows, recent documents, “Favorite” apps, and "
 "desktop widgets."
 msgstr ""
-"活动功能可以用于区分高优先级的项目或者工作流程，让您可以集中精力办好一件事。"
-"例如您可以建立“家庭”、“学校”、“工作”三种活动来分开处理这些事务。每种活动均可"
-"访问您的全部文件，但它们会分开保存打开的应用程序和窗口、最近文档、常用程序和"
-"桌面挂件。"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -714,7 +706,7 @@ msgid "Open Settings…"
 msgstr "打开设置…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:62
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -722,9 +714,6 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
-"要开始使用活动，请启动 <interface>系统设置</interface> 并搜索“活动”。您可以在"
-"活动页面创建更多活动。您可以使用 <shortcut>Meta+Tab</shortcut> 键盘快捷键来切"
-"换活动。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -733,7 +722,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -746,12 +735,6 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "“KDE Connect”. On that page, you can pair your phone."
 msgstr ""
-"KDE Connect 能够通过多种方式让您的手机和电脑联动：<nl/><list><item>在电脑上查"
-"看来自手机的通知</item><item>在电脑上回复来自手机的短信</item><item>同步电脑"
-"和手机的剪贴板内容</item><item>手机失踪时让它发出声响</item><item>在电脑和手"
-"机之间复制粘贴图像、视频以及其他文件</item><item>…还有更多功能等待您的发现！"
-"</item></list><nl/>如果您是首次使用 KDE Connect，请打开<interface>系统设置</"
-"interface>对话框，搜索：“KDE Connect”并进入该页面，即可与手机进行配对。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
 #, kde-format
@@ -760,7 +743,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -770,11 +753,6 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
-"KRunner 是 Plasma 的搜索系统。它不但功能强大，而且用途多样。您可以在应用程序"
-"启动器菜单、桌面概览屏幕中使用它的搜索功能，也可以按下 <shortcut>Alt + 空格键"
-"</shortcut> 键盘快捷键显示它的独立搜索栏。<nl/><nl/>除了查找文件和文件夹外，"
-"KRunner 还可以启动应用、搜索互联网内容、进行货币换算、数学计算以及执行更多其"
-"他功能。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
 #, kde-kuit-format
@@ -860,7 +838,7 @@ msgid "System Settings"
 msgstr "系统设置"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The System Settings app lets you extensively customize the system to suit "
@@ -868,9 +846,6 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
 "it all there!"
 msgstr ""
-"您可以使用系统设置应用对系统的各个方面进行深入定制以符合自己的使用习惯，例如"
-"更改默认应用、桌面壁纸、外观样式、图标主题、虚拟桌面、电源管理和第三方扩展等"
-"——您需要的选项都能在这里找到。"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
 #, kde-format
@@ -903,7 +878,7 @@ msgid "Simple by Default"
 msgstr "默认状态简洁易用"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -912,9 +887,6 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
-"Plasma 致力于让桌面在默认情况下简洁易用。它的默认配置在最大程度上迎合了大多数"
-"人的使用习惯，让您无需繁琐的配置即可舒适高效地使用电脑。<nl/><nl/>下方显示了 "
-"Plasma 桌面的典型状态。点击或者将光标悬停在对象之上即可了解它的功能。"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -933,16 +905,13 @@ msgstr ""
 "置桌面和壁纸…</interface>。"
 
 #: src/qml/pages/SimpleByDefault.qml:36
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "This is a “Panel” — a container to hold widgets. Right-click on it and "
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
-"这是“面板”，它们是用于承载挂件的容器。在面板上点击右键，在菜单中选择 "
-"<interface>显示面板配置</interface> 以更改面板的行为、贴靠的屏幕边缘、添加、"
-"移除和修改挂件等。"
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
