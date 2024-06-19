@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2024-06-09 10:06+0200\n"
+"PO-Revision-Date: 2024-06-18 19:57+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -338,9 +338,7 @@ msgstr ""
 "xogos favoritos, e faga todo o que queira!"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Informarse sobre a comunidade KDE"
@@ -572,17 +570,13 @@ msgid "<b>Find out what’s new</b>"
 msgstr "<b>Descubrir as novidades</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "Informar dun fallo"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "Axudar coa seguinte versión"
