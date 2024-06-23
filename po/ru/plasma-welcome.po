@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2024-06-08 21:31+0300\n"
+"PO-Revision-Date: 2024-06-22 11:31+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -213,9 +213,7 @@ msgid "&OK"
 msgstr "&OK"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Комнаты"
@@ -224,42 +222,42 @@ msgstr "Комнаты"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Дом"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Школа"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Работа"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Сейчас используется"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Использовалась 3 часа назад"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Создать комнату..."
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Поиск…"
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -378,7 +376,7 @@ msgstr "Участники поддержки"
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Участники поддержки"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
 #, kde-kuit-format
@@ -392,25 +390,25 @@ msgstr "Благодарим следующих людей за их регул�
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Вразброс"
 
 #: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Упорядочить по имени"
 
 #: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Упорядочить по дате"
 
 #: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Фильтр…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
