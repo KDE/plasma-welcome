@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 02:27+0000\n"
-"PO-Revision-Date: 2024-05-06 15:20+0000\n"
+"PO-Revision-Date: 2024-06-27 16:16+0000\n"
 "Last-Translator: Gummi <gudmundure@gmail.com>\n"
 "Language-Team: Icelandic <kde-i18n-doc@kde.org>\n"
 "Language: is\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -214,7 +214,7 @@ msgstr "Í &lagi"
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Leita…"
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -278,7 +278,7 @@ msgstr "Sýna %1 í Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Njóttu!"
 
 #: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
@@ -288,6 +288,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Við vonum að þér líki jafnvel við Plasma og við höfum notið þess að búa það "
+"til fyrir þig! Kannaðu eiginleika þess, settu upp uppáhaldsforritin og -"
+"leikina og taktu til við að gera það sem gerir þig þig!"
 
 #: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
 #, kde-format
@@ -299,7 +302,7 @@ msgstr "Læra meira um KDE samfélagið"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
-msgstr ""
+msgstr "Fá hjálp í umræðuhópum KDE"
 
 #: src/qml/pages/Enjoy.qml:56
 #, kde-kuit-format
@@ -309,6 +312,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Ef Plasma reynist þér vel skaltu endilega íhuga að taka þátt í verkefninu "
+"eða styrkja það. KDE er alþjóðlegt samfélag sjálfboðaliða, ekki "
+"stórfyrirtæki. Framlag þitt skiptir sköpum!"
 
 #: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -317,9 +323,7 @@ msgid "Make a donation"
 msgstr "Styrkja verkefnið"
 
 #: src/qml/pages/Enjoy.qml:65
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Taktu þátt"
@@ -328,26 +332,21 @@ msgstr "Taktu þátt"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Stuðningsaðilar"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Stuðningsaðilar"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr ""
-"Við þökkum eftirfarandi aðilum fyrir stuðninginn í söfnunarátaki Plasma 6:"
+msgstr "Við þökkum eftirfarandi stuðningsaðilum fyrir að styrja KDE reglulega:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
@@ -721,25 +720,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
@@ -749,17 +730,12 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
-"KRunner er leitarkerfi Plasma og er ótrúlega öflugt og fjölhæft. Það keyrir "
+"KRunner er ótrúlega öflugt og fjölhæft leitarkerfi Plasma. Það keyrir "
 "leitarvirknina í forritaræsisvalmyndinni og á yfirlitsskjánum og hægt er að "
 "opna það sem sjálfstæðan leitarglugga með því að ýta á<shortcut>Alt+Space</"
 "shortcut>.<nl/><nl/>Auk þess að finna skrárnar þínar og möppur getur KRunner "
 "opnað forrit, leitað á netinu, umreiknað á milli gjaldmiðla, reiknað "
-"stærðfræðidæmi og margt fleira. Prófaðu að slá inn eitthvað af eftirfarandi "
-"í einn af þessum leitargluggum:<nl/><list><item>\"time Shanghai\"</"
-"item><item>\"27/3\"</item><item>\"200 EUR in USD\"</item><item>\"25 miles in "
-"km\"</item><item>…Og margt fleira!</item></list><nl/>Opnaðu KRunner-"
-"leitargluggann með flýtilyklinum <shortcut>Alt+Space</shortcut> og smelltu á "
-"spurningamerkið til að fá meiri upplýsingar."
+"stærðfræðidæmi og margt fleira."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
 #, kde-kuit-format
@@ -768,6 +744,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Opnaðu KRunner leitargluggann með <shortcut>Alt+Space</shortcut> "
+"flýtilyklinum og smelltu á spurningamerkið til að fá meiri upplýsingar."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -777,7 +755,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "tími Shanghai"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -785,7 +763,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -794,7 +772,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR í USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
@@ -803,7 +781,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 miles in km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
@@ -811,7 +789,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...og margt fleira!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
