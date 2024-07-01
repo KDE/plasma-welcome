@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2024-05-28 13:54+0300\n"
+"PO-Revision-Date: 2024-06-27 21:33+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -114,7 +114,7 @@ msgstr "Uzņemšanas centrs"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2021—2024, KDE kopiena"
 
 #: src/main.cpp:52
 #, kde-format
@@ -210,9 +210,7 @@ msgid "&OK"
 msgstr "&Labi"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Aktivitātes"
@@ -221,37 +219,37 @@ msgstr "Aktivitātes"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Mājas"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Skola"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Darbs"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Šobrīd izmantotais"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Izmantots pirms trim stundām"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Izveidot aktivitāti..."
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
@@ -321,37 +319,28 @@ msgid "Enjoy It!"
 msgstr "Baudiet!"
 
 #: src/qml/pages/Enjoy.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We hope you love Plasma as much as we loved making it for you! Now it's "
-#| "time to jump right in. Explore its features, install your favorite apps "
-#| "and games, and get busy doing what makes you you!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We hope you love Plasma as much as we loved making it for you! Now it’s time "
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
-"Cerams, ja Jums patīk „Plasma“ tikpat, cik mums patīk to veidot! Tagad ir "
-"laiks sākt ar to strādāt. Izpētiet tās iespējas, instalējiet iecienītākās "
+"Ceram, ka Jums patīk „Plasma“ tikpat, cik mums patīk to veidot! Tagad ir "
+"laiks sākt ar to strādāt. Izpētiet iespējas, instalējiet iecienītākās "
 "programmas un spēles un aizraujieties darīt to, kas Jums patīk!"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Uzziniet vairāk par KDE kopienu"
 
 #: src/qml/pages/Enjoy.qml:30
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Get help at KDE's discussion forums"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr "Iegūstiet palīdzību KDE diskusiju forumos."
+msgstr "Iegūstiet palīdzību KDE diskusiju forumos"
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -510,12 +499,10 @@ msgstr ""
 "veidotājus."
 
 #: src/qml/pages/Network.qml:249
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when connected to the internet"
-#| msgid "You're connected"
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr "Ierīce ir savienojusies"
+msgstr "Savienojāties"
 
 #: src/qml/pages/Network.qml:250
 #, kde-format
@@ -548,42 +535,31 @@ msgid "Plasma has been updated to %1"
 msgstr "„Plasma“ darbvirsma ir atjaunināta uz %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Thank you for testing this beta release of Plasma—your feedback is "
-#| "fundamental to helping us improve it! Please report any and all bugs you "
-#| "find so that we can fix them."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
-"Pateicamies par „Plasma“ beta laidiena testēšana. Jūsu atsauksmes nozīmē "
-"fundamentālu palīdzību darbvirsmas uzlabošanā! Lūdzam ziņot par jebkādām "
-"kļūdām, kuras pamanāt, lai varam tās novērst."
+"Pateicamies par „Plasma“ beta laidiena testēšanu. Jūsu atsauksmes ir milzīga "
+"palīdzība darbvirsmas uzlabošanā! Lūdzam ziņot par jebkādām kļūdām, kuras "
+"pamanāt, lai varam tās novērst."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>Iepazīstieties ar jaunumiem</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
-msgstr "Ziņojiet par kļūdu"
+msgstr "Ziņot par kļūdu"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "Palīdziet sagatavot nākamo laidienu"
@@ -726,17 +702,7 @@ msgid "Activities"
 msgstr "Aktivitātes"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -745,14 +711,11 @@ msgid ""
 "own set of open apps and windows, recent documents, “Favorite” apps, and "
 "desktop widgets."
 msgstr ""
-"Aktivitātes varat izmantot, lai atdalītu augsta līmeņa projektus var "
-"darbplūsmas un katru uzdevumu veiktu atsevišķi. Piemēram, aktivitāte var būt "
-"„Mājas“, „Skola“, „Darbs“ vai jebkāda cita. Katrai aktivitātei ir pieeja "
-"jūsu datnēm, tomēr ir pašām savas atvērtās programmas, logi un neseno "
-"dokumentu un „Iecienītāko“ programmu un logdaļu saraksts.<nl/><nl/>Lai "
-"sāktu, atveriet <interface>Sistēmas iestatījumus</interface> un meklējiet "
-"„Aktivitātes“. Šajā lapā varat izveidot aktivitātes. Tāpat varat pārslēgties "
-"starp tām, izmantojot <shortcut>Meta+Tab</shortcut> tastatūras saīsni."
+"Aktivitātes varat izmantot, lai atdalītu augsta līmeņa projektus vai "
+"darbplūsmas un katru uzdevumu veiktu atsevišķi. Varat izveidot tādas "
+"aktivitātes kā „Mājas“, „Skola“, „Darbs“ un tā tālāk. Katra Aktivitāte var "
+"piekļūt visām datnēm, bet satur savas atvērtās programmas un logus, nesenos "
+"dokumentus, iecienītākās programmas un darbvirsmas logdaļas."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -771,6 +734,10 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"Lai sāktu, atveriet <interface>Sistēmas iestatījumus</interface> un "
+"meklējiet „Aktivitātes“. Šajā lapā varat izveidot aktivitātes. Tāpat varat "
+"pārslēgties starp tām, izmantojot <shortcut>Meta+Tab</shortcut> tastatūras "
+"saīsni."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -779,18 +746,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -803,11 +759,11 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "“KDE Connect”. On that page, you can pair your phone."
 msgstr ""
-"„KDE Connect“ ļauj dažādos veidos datorā integrēt savu tālruni:<nl/"
+"„KDE Connect“ ļauj Jums dažādos veidos datorā integrēt savu tālruni:<nl/"
 "><list><item>Skatieties telefona paziņojumus savā datorā</"
 "item><item>Atbildiet uz ziņām tālrunī no sava datora</"
 "item><item>Sinhronizējiet starpliktuves saturus starp tālruni un datoru</"
-"item><item>Lieciet tālrunim zvanīt, kad to kaut kur aizmirstat</"
+"item><item>Lieciet tālrunim zvanīt, lai to vieglāk atrastu</"
 "item><item>Kopējiet attēlus, video un citas datnes no tālruņa uz datoru un "
 "otrādi</item><item>...un daudz ko citu!</item></list><nl/>Lai sāktu, "
 "atveriet <interface>Sistēmas iestatījumus </interface> un meklējiet „KDE "
@@ -820,16 +776,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -839,12 +786,13 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
-"„KRunner“ ir īpaši jaudīga un daudzpusīga meklēšanas sistēma. Tā ir pamatā "
-"meklēšanas funkcijai programmu palaidējā un pārskata ekrānā, kā arī tai var "
-"piekļūt no atsevišķas meklēšanas joslas, izmantojot tastatūras saīsni "
-"<shortcut>Alt+Space</shortcut> .<nl/><nl/>Papildu datņu un mapju meklēšanai "
-"„KRunner“ var palaist programmas, pārmeklēt tīklu, veikt konvertāciju starp "
-"valūtām, aprēķināt matemātiskas izteiksmes un daudz ko citu."
+"„KRunner“ ir īpaši jaudīga un daudzpusīga „Plasma“ meklēšanas sistēma. Tā ir "
+"pamatā meklēšanas funkcijai programmu palaidējā un pārskata ekrānā, kā arī "
+"tai var piekļūt no atsevišķas meklēšanas joslas, izmantojot tastatūras "
+"saīsni <shortcut>Alt+Space</shortcut> .<nl/><nl/>Papildu datņu un mapju "
+"meklēšanai „KRunner“ var palaist programmas, pārmeklēt tīklu, veikt "
+"konvertāciju starp valūtām, aprēķināt matemātiskas izteiksmes un daudz ko "
+"citu."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
 #, kde-kuit-format
@@ -932,13 +880,7 @@ msgid "System Settings"
 msgstr "Sistēmas iestatījumi"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The System Settings app lets you extensively customize the system to suit "
-#| "your tastes and preferences. Default apps, wallpapers, visual styles and "
-#| "icons, virtual desktops, power management, 3rd-party add-ons—you'll find "
-#| "it all there!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The System Settings app lets you extensively customize the system to suit "
@@ -984,14 +926,7 @@ msgid "Simple by Default"
 msgstr "Vienkārša pēc noklusējuma"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Below is a visual "
-#| "representation of a typical Plasma Desktop; move the pointer over or "
-#| "click on something to learn about it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -1004,7 +939,7 @@ msgstr ""
 "saprotams. Viss atrodas paredzamās vietās un parasti produktīvam darbam to "
 "nav nepieciešams īpaši konfigurēt.<nl/><nl/>Zemāk ir tipiskas „Plasma“ "
 "darbvirsmas vizuāla reprezentācija — pārvietojiet uz tās peles kursoru vai "
-"klikšķiniet un redzamajiem objektiem, lai uzzinātu vairāk!"
+"klikšķiniet uz redzamajiem objektiem, lai uzzinātu vairāk!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1019,18 +954,12 @@ msgstr ""
 "Šī ir „darbvirsma“. Tajā ir redzamas datnes un mapes, kas atrodas jūsu "
 "<filename>Darbvirsmas</filename> mapē. Tāpat arī šajā vietā ir redzamas "
 "logdaļas. Spiediet uz tās ar peles labo pogu un izvēlieties <interface> "
-"Darbvirsma un ekrāntapete..</interface>, lai pielāgotu darbvirsmas izskatu. "
+"Darbvirsma un ekrāntapete...</interface>, lai pielāgotu darbvirsmas izskatu. "
 "Tāpat varat izvēlēties <interface>Ieslēgt rediģēšanas režīmu</interface>, "
 "lai pievienotu, noņemtu vai izmainītu logdaļas."
 
 #: src/qml/pages/SimpleByDefault.qml:36
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is a “Panel”—a container to hold widgets. Right-click on it and "
-#| "choose <interface>Show Panel Configuration</interface> to change how it "
-#| "behaves, which screen edge it lives on, and to add, remove or modify "
-#| "widgets."
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "This is a “Panel” — a container to hold widgets. Right-click on it and "
@@ -1039,8 +968,8 @@ msgid ""
 msgstr ""
 "Šis ir „Panelis“ — konteineris, kas satur logdaļas. Spiediet uz tā ar peles "
 "labo pogu un izvēlieties <interface>Rādīt paneļa konfigurāciju</interface>, "
-"lai mainītu, kā tas izskatās, pie kuras ekrāna daļas tas atrodas, kā arī lai "
-"pievienotu, noņemtu vai izmainītu logdaļas."
+"lai mainītu tā uzvedību, pie kuras ekrāna daļas tas atrodas, kā arī lai "
+"pievienotu, noņemtu vai mainītu logdaļas."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1155,7 +1084,7 @@ msgstr "Par uzņemšanas centru"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "Par KDE"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format
