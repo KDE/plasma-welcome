@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 02:27+0000\n"
-"PO-Revision-Date: 2024-06-20 00:23-0300\n"
+"PO-Revision-Date: 2024-07-03 19:40-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -285,6 +285,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Esperamos que você goste do Plasma tanto quanto nós adoramos fazê-lo para "
+"você! Agora é hora de começar. Explore seus recursos, instale seus "
+"aplicativos e jogos favoritos e ocupe-se fazendo o que faz de você você!"
 
 #: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
 #, kde-format
@@ -296,7 +299,7 @@ msgstr "Aprenda mais sobre a comunidade KDE"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
-msgstr ""
+msgstr "Obter ajuda nos forums de discussão do KDE"
 
 #: src/qml/pages/Enjoy.qml:56
 #, kde-kuit-format
@@ -719,25 +722,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
@@ -753,12 +738,6 @@ msgstr ""
 "usando o atalho de teclado <shortcut>Alt+Space</shortcut>.<nl/><nl/>Além de "
 "encontrar seus arquivos e pastas, o KRunner pode iniciar aplicativos, buscar "
 "na web, converter moedas, calcular problemas matemáticos e muito mais. "
-"Experimente digitar qualquer um dos seguintes campos de pesquisa:<nl/"
-"><list><item>\"horário Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR "
-"em USD\"</item><item>\"25 milhas em km\"</item><item>...E muito mais!</"
-"item></list><nl/>Para saber mais, abra a barra de pesquisa do KRunner usando "
-"o atalho de teclado <shortcut>Alt+Space</shortcut> e clique no ícone de "
-"ponto de interrogação."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
 #, kde-kuit-format
@@ -855,6 +834,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons—you'll find it "
 "all there!"
 msgstr ""
+"O aplicativo Configurações do sistema permite personalizar extensivamente o "
+"sistema de acordo com seus gostos e preferências. Aplicativos padrão, papéis "
+"de parede, estilos visuais e ícones, áreas de trabalho virtuais, "
+"gerenciamento de energia, complementos de terceiros, você encontrará tudo lá!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
 #, kde-format
@@ -890,16 +873,7 @@ msgid "Simple by Default"
 msgstr "Simples por padrão"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -910,9 +884,9 @@ msgid ""
 msgstr ""
 "O Plasma foi projetado para ser simples e utilizável desde o início. As "
 "coisas estão onde você espera, e geralmente não há necessidade de configurar "
-"nada antes de se sentir confortável e produtivo.<nl/><nl/>Caso sinta a "
-"necessidade, você encontrará o que precisa no aplicativo <application>%1</"
-"application>."
+"nada antes de se sentir confortável e produtivo.<nl/><nl/>Abaixo está uma "
+"representação visual de um desktop Plasma típico; mova o ponteiro ou clique "
+"em algo para saber mais sobre isso!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -939,6 +913,10 @@ msgid ""
 "<interface>Show Panel Configuration</interface> to change how it behaves, "
 "which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Este é um “Painel” – um contêiner para armazenar widgets. Clique com o botão "
+"direito nele e escolha <interface>Mostrar configuração do painel</interface> "
+"para alterar como ele se comporta, em qual borda da tela ele fica e para "
+"adicionar, remover ou modificar widgets."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
