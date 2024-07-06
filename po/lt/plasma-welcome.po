@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 02:27+0000\n"
-"PO-Revision-Date: 2024-05-17 00:14+0300\n"
+"PO-Revision-Date: 2024-07-06 01:35+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -215,7 +215,7 @@ msgstr "&Gerai"
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Ieškoti…"
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -277,7 +277,7 @@ msgstr "Rodyti %1 programoje Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Mėgaukitės!"
 
 #: src/qml/pages/Enjoy.qml:18
 #, kde-kuit-format
@@ -287,6 +287,10 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Mes tikimės, kad Plasma jums patiks tiek pat, kiek mums patiko ją kurti! "
+"Dabar, atėjo laikas pasižvalgyti. Atraskite Plasma aplinkos ypatybes, "
+"įsidiekite mėgstamas programas ir žaidimus bei užsiimkite tuo, kas padeda "
+"jums atrasti save!"
 
 #: src/qml/pages/Enjoy.qml:23 src/qml/pages/Welcome.qml:40
 #, kde-format
@@ -298,7 +302,7 @@ msgstr "Sužinokite daugiau apie KDE bendruomenę"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get help at KDE's discussion forums"
-msgstr ""
+msgstr "Gaukite pagalbos KDE diskusijų forumuose"
 
 #: src/qml/pages/Enjoy.qml:56
 #, kde-kuit-format
@@ -308,6 +312,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Jei atrasite, jog Plasma yra jums naudinga, apsvarstykite galimybę "
+"įsitraukti arba paaukoti lėšų. KDE yra tarptautinė savanorių bendruomenė, o "
+"ne didelė kompanija; jūsų įnašai turi didelę reikšmę!"
 
 #: src/qml/pages/Enjoy.qml:60 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -316,9 +323,7 @@ msgid "Make a donation"
 msgstr "Paaukokite"
 
 #: src/qml/pages/Enjoy.qml:65
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Įsitraukite"
@@ -327,27 +332,23 @@ msgstr "Įsitraukite"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Remiantys nariai"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Remiantys nariai"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
 msgstr ""
-"Mes esame dėkingi šiems remiantiems nariams už tai, kad jie dalyvavo Plasma "
-"6 lėšų rinkimo kampanijos metu:"
+"Mes esame dėkingi šiems remiantiems nariams už jų pasikartojančias aukas, "
+"skirtas KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
@@ -672,7 +673,7 @@ msgstr ""
 "kad vienu metu galėtumėte susitelkti į vieną veiklą. Galite turėti atskiras "
 "veiklas „Namams“, „Mokyklai“, „Darbui“ ir t.t. Kiekviena veikla turi prieigą "
 "prie visų jūsų failų, bet turi nuosavą atvertų programų ir langų, "
-"paskiausiai naudotų dokumentų, „mėgstamų“ programų ir darbalaukio valdiklių "
+"paskiausiai naudotų dokumentų, mėgstamų programų ir darbalaukio valdiklių "
 "rinkinį.<nl/><nl/>Norėdami pradėti, paleiskite <interface>Sistemos "
 "nuostatas</interface> ir paieškoje įrašykite „Veiklos“. Tame puslapyje "
 "galite sukurti daugiau veiklų. Po to, galite perjunginėti jas naudodami "
@@ -724,25 +725,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma's exceptionally powerful and versatile search system. It "
@@ -757,12 +740,7 @@ msgstr ""
 "ekrane. KRunner galima atverti kaip atskirą paieškos juostą naudojant "
 "<shortcut>Alt+Tarpas</shortcut> spartųjį klavišą.<nl/><nl/>Be failų ir "
 "aplankų paieškos KRunner gali paleisti programas, atlikti paiešką saityne, "
-"konvertuoti valiutas, skaičiuoti matematinius uždavinius ir žymiai daugiau. "
-"Pabandykite į vieną iš tų paieškos laukų įrašyti:<nl/><list><item>„laikas "
-"Berlin“</item><item>„27/3“</item><item>„200 EUR į USD“</item><item>„25 mi į "
-"km“</item><item>…Ir dar daugiau!</item></list><nl/>Norėdami sužinoti "
-"daugiau, atverkite KRunner paieškos juostą naudodami <shortcut>Alt+Tarpas</"
-"shortcut> spartųjį klavišą ir spustelėkite and klaustuko piktogramos."
+"konvertuoti valiutas, skaičiuoti matematinius uždavinius ir žymiai daugiau."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:60
 #, kde-kuit-format
@@ -771,6 +749,9 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Norėdami sužinoti daugiau, atverkite KRunner paieškos juostą naudodami "
+"spartųjį klavišą <shortcut>Alt+Tarpas</shortcut> ir spustelėkite ant "
+"klaustuko piktogramos."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -780,7 +761,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "laikas Berlin"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -788,7 +769,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -797,7 +778,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR į USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
@@ -806,7 +787,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 mi į km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
@@ -814,7 +795,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...ir žymiai daugiau!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
