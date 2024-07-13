@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2024-07-10 21:47+0200\n"
+"PO-Revision-Date: 2024-07-12 22:38+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.05.1\n"
+"X-Generator: Lokalize 24.05.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -88,7 +88,7 @@ msgstr "Fann ikkje kommandoen <command>%1</command>."
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Inga feilmelding er oppgjeven"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -96,7 +96,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "Kommandoen <command>%1</command> gav feil: %2"
 
 #: src/main.cpp:37
 #, kde-format
@@ -160,7 +160,7 @@ msgstr "Vis live-sida meint for live-distroar."
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Bedt om ukjend modul %1"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -210,9 +210,7 @@ msgid "&OK"
 msgstr "&OK"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Aktivitetar"
@@ -221,42 +219,42 @@ msgstr "Aktivitetar"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Heime"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Skule"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Arbeid"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Vert brukt no"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Brukt for 3 timar sidan"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Legg til aktivitet …"
 
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Søk …"
 
 #: src/qml/PageError.qml:18
 #, kde-format
@@ -280,13 +278,13 @@ msgstr "Kopier detaljar"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "Klarte ikkje lasta inn sida frå distribusjonen din"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "Klarte ikkje lasta inn sida frå velkomstsenteret"
 
 # Lettare å forstå enn det tekniske «Handsam programvare».
 #: src/qml/pages/Discover.qml:20
@@ -319,7 +317,7 @@ msgstr "Vis %1 i Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Kos deg!"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -329,11 +327,13 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Me håpar du vil få like mykje glede av å bruka Plasma som me har hatt av å "
+"utvikla det for dykk alle! No er det berre å setja i gang. Utforsk dei ulike "
+"funksjonane, installer program og spel som du likar – gjer det som "
+"interesserer deg!"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Lær meir om KDE-fellesskapet"
@@ -342,7 +342,7 @@ msgstr "Lær meir om KDE-fellesskapet"
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "Få hjelp i diskusjonsforuma til KDE"
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -352,6 +352,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Synest du Plasma er nyttig, vurder gjerne å delta i utviklinga sjølv eller "
+"gje ei pengegåve. KDE er eit internasjonalt fellesskap av frivillige, ikkje "
+"noko stort firma. Bidrag frå slike som deg utgjer faktisk ein forskjell!"
 
 #: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -360,24 +363,22 @@ msgid "Make a donation"
 msgstr "Gje pengegåve"
 
 #: src/qml/pages/Enjoy.qml:69
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "Vert med"
+msgstr "Delta sjølv"
 
 #: src/qml/pages/Enjoy.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Støttemedlemmar"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Støttemedlemmar"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
 #, kde-kuit-format
@@ -385,7 +386,7 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr ""
+msgstr "Takk til våre faste støttemedlemmar for deira pengegåver til KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
@@ -495,11 +496,11 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"For å styra nett-tilkoplingar treng Plasma <icode>plasma-nm</icode> "
+"installert. Meld frå om at dette manglar til %1."
 
 #: src/qml/pages/Network.qml:249
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when connected to the internet"
-#| msgid "You're connected"
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Du er tilkopla"
@@ -508,7 +509,7 @@ msgstr "Du er tilkopla"
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Alt er i orden!"
 
 #: src/qml/pages/Network.qml:258
 #, kde-format
@@ -518,12 +519,15 @@ msgid ""
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
+"Sidan du brukar ein utviklings­versjon, vert denne sida vist uavhengig av "
+"statusen til nett-tilkoplinga. Du kan sjå korleis dei ulike sidene ser ut "
+"via knappen."
 
 #: src/qml/pages/Network.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Byt status"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
@@ -539,27 +543,24 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Takk for at prøver ut denne betautgåva av Plasma. Tilbakemeldingar frå slike "
+"som deg er viktige for å forbetra programmet. Meld frå om alle feil du finn, "
+"slik at me kan retta dei!"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
-msgstr "Sjå kva som er nytt i Plasma %1"
+msgstr "<b>Sjå kva som er nytt</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "Meld frå om feil"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "Hjelp oss å laga neste utgåve"
@@ -571,17 +572,15 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"KDE-bidragsytarane har dei siste fire månadane arbeida hardt med denne "
+"KDE-bidragsytarane har dei siste fire månadane arbeidd hardt med denne "
 "utgåva. Me håpar du vil få like mykje glede av å bruka Plasma som me har "
-"hatt av å utvikla systemet."
+"hatt av å utvikla det for dykk alle!"
 
 #: src/qml/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "Sjå kva som er nytt i Plasma %1"
+msgstr "<b>Sjå kva som er nytt</b>"
 
 #: src/qml/pages/plasmaupdate/Update.qml:29
 #, kde-format
@@ -597,6 +596,10 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"KDE-fellesskapet er avhengig av at folk bidreg med kompetanse eller pengar. "
+"Det vert støtta av KDE e.V., ein ideell organisasjon registrert i Tyskland. "
+"Pengegåver til KDE e.V. kjem heile KDE-fellesskapet til gode, og her kan du "
+"utgjera ein forskjell."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:15
 #, kde-format
@@ -703,17 +706,7 @@ msgid "Activities"
 msgstr "Aktivitetar"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -727,10 +720,7 @@ msgstr ""
 "eksempel ha eigne aktivitetar for «fritid», «skule» og «arbeid». Alle "
 "aktivitetane har tilgang til alle filene dine, men har sitt eige sett med "
 "opne appar og vindauge, oversikt over nyleg brukte dokument, favoritt­program "
-"og skjermelement.<nl/><nl/>Kom i gang ved å opna <interface>system­oppsettet</"
-"interface> og søkja etter «aktivitetar». Der kan du leggja til nye "
-"aktivitetar. Du kan så byta mellom dei med snøggtasten <shortcut>Meta + T</"
-"shortcut>."
+"og skjermelement."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -749,6 +739,9 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"Kom i gang ved å opna <interface>system­oppsettet</interface> og søkja etter "
+"«aktivitetar». Der kan du leggja til nye aktivitetar. Du kan så byta mellom "
+"dei med snøggtasten <shortcut>Meta + T</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -757,18 +750,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -798,25 +780,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -827,16 +791,11 @@ msgid ""
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
 "KRunner er det svært kraftige og fleksible søkje­systemet i Plasma. Det står "
-"bak søkje­funksjonen i programstart-menyen og Oversikt-biletet. Du kan starta "
+"bak søkje­funksjonen i programstartaren og Oversikt-biletet. Du kan starta "
 "eit frittståande søkjefelt via snøggtasten <shortcut>Alt + Mellomrom</"
 "shortcut>.<nl/><nl/>Med KRunner kan du finna filer og mapper, men òg for "
 "eksempel starta program, søkja på nettet, rekna pengebeløp om til ulike "
-"valutaar og gjera matematiske utrekningar. Prøv å skriva noko av følgjande i "
-"søkjefeltet:<nl/><list><item>«klokka Shanghai»</item><item>«27/3»</"
-"item><item>«200 EUR i NOK»</item><item>«25 miles i km»</item><item>… og "
-"mykje meir!</item></list><nl/>Du kan lesa meir om kva som er mogleg ved å "
-"opna KRunner-feltet med snøggtasten <shortcut>Alt + Mellomrom</shortcut> og "
-"så trykkja på ikonet som viser eit spørjeteikn."
+"valutaar og gjera matematiske utrekningar."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
 #, kde-kuit-format
@@ -845,6 +804,9 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Du kan lesa meir om kva som er mogleg ved å opna KRunner-feltet med "
+"snøggtasten <shortcut>Alt + Mellomrom</shortcut> og så trykkja på ikonet som "
+"viser eit spørjeteikn."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -854,7 +816,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "klokka Shanghai"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -862,7 +824,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
@@ -871,7 +833,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR i NOK"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
@@ -880,7 +842,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 miles til km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
 #, kde-format
@@ -888,7 +850,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "… og mykje meir!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
@@ -928,6 +890,9 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
 "it all there!"
 msgstr ""
+"Systemoppsettet lèt deg skreddarsy Plasma nett slik du vil ha det. Standard­"
+"program, bakgrunns­bilete, visuell stil og ikon, virtuelle skrivebord, "
+"straumstyring og tilleggs­modular – alt finn du her!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
 #, kde-format
@@ -949,11 +914,11 @@ msgid ""
 msgstr ""
 "Med Plasma kan du laga krypterte mapper, som vert kalla "
 "<interface>datakvelv</interface>. I desse kvelva kan du trygt leggja "
-"passord, filer, bilete, dokument og anna du verna frå nysgjerrige blikk. "
-"Kvelva kan òg liggja i mapper du som alt synkroniserer til skylagring, slik "
+"passord, filer, bilete, dokument og anna du vil verna frå nysgjerrige blikk. "
+"Kvelva kan òg liggja i mapper som du alt synkroniserer til skylagring, slik "
 "at du får ekstra tryggleik for skyinnhaldet.<nl/><nl/>Kom i gang ved å "
-"trykkja på nedpila i <interface>systemkorga</interface> (for å visa gøymde "
-"element), og vel så ikonet <interface>Datakvelv</interface>."
+"trykkja på pila i <interface>systemkorga</interface> (for å visa gøymde "
+"oppføringar), og vel så ikonet <interface>Datakvelv</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -962,14 +927,7 @@ msgid "Simple by Default"
 msgstr "Enkelt som standard"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -980,9 +938,10 @@ msgid ""
 msgstr ""
 "Plasma er laga for å vera enkelt og kjapt å komma i gang med. Alt ligg der "
 "du vil venta det, og du treng ikkje tilpassa noko for å kunna arbeida "
-"effektivt.<nl/><nl/>Viss du likevel vil endra på noko, finn du alle "
-"innstillingane i <application>systemoppsett</application>-programmet."
+"effektivt.<nl/><nl/>Nedanfor ser du korleis eit typisk Plasma-skrivebord ser "
+"ut. Flytt peikaren over noko eller trykk på det for å lesa meir om det."
 
+# Passar betre med kursiv enn hermeteikn for definisjonar på norsk (<dfn>-taggar er ikkje støtta).
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
 msgctxt "@info"
@@ -993,6 +952,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Dette er <i>skrivebordet</i>. Det viser filer og mapper som ligg i mappa "
+"<filename>Skrivebord</filename>, og det kan òg ha innebygde småprogram. Du "
+"kan høgreklikka på det for å velja <interface>Skrivebord og bakgrunn</"
+"interface>, som lèt deg endra utsjånaden. Du kan òg velja <interface>Start "
+"tilpassing</interface> for å leggja til eller fjerna småprogram (kalla "
+"<i>skjerm­element</i>)."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1002,6 +967,10 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Dette er eit <i>panel</i> – ein firkant som kan innehalda ulike småprogram. "
+"Høgreklikk på det og vel <interface>Vis panel­innstillingar</interface> for å "
+"endra korleis det fungerer – for eksempel kva skjermkant det skal ligga "
+"langs – eller for å leggja til eller fjerna småprogram."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1011,6 +980,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Dette er <i>program­startaren</i> (òg kalla «Kickoff»). Her kan du blant anna "
+"starta program, slå av eller starta om maskina og få tilgang til nyleg "
+"brukte filer. Trykk på han og prøv deg fram!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1019,6 +991,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Dette er <i>oppgåvehandsamaren</i>. Her kan du byta mellom opne program "
+"eller starta nye. Dra ikona for å byta plassering."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1029,6 +1003,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"Dette er <i>systemtrauet</i>, som lèt deg styra system­funksjonar. Du kan for "
+"eksempel endra lydstyrken eller kopla til nettverk. Oppføringar her vert "
+"berre viste når dei er relevante. Trykk eventuelt på ⌃-pila ved sida av "
+"klokka for å sjå alle oppføringane."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1038,6 +1016,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Dette er ei <i>digital klokke</i>. Trykk på ho for å visa ein kalender. Ho "
+"kan òg setjast opp til å visa andre tidssoner samt avtalar frå dine eigne "
+"kalendrar."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1047,6 +1028,9 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Dette er småprogrammet <i>Kikk på skrivebordet</i>. Trykk på det for å "
+"mellombels gøyma alle opne vindauge, for å gje deg tilgang til skrivebordet. "
+"Trykk på det igjen for å visa vindauga på ny."
 
 #: src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -1086,7 +1070,7 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Velkommen til operativ­systemet %1 som køyrer KDE Plasma!<nl/><nl/>Plasma er "
+"Velkommen til operativ­systemet %1, som køyrer KDE Plasma!<nl/><nl/>Plasma er "
 "eit skrivebords­miljø utvikla som fri programvare av KDE, eit internasjonalt "
 "fellesskap av frivillige. Det er laga for å vera enkelt og lett å bruka som "
 "standard, men kraftig når det trengst, slik at du kan arbeida effektivt. Me "
@@ -1102,7 +1086,7 @@ msgstr "Om velkomstsenteret"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "Om KDE"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format
@@ -1126,7 +1110,7 @@ msgstr "Feil ved biletlasting"
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "Klarte ikkje opna <filename>%1</filename>. Sjå til at fila finst."
 
 #: src/qml/pages/Welcome.qml:128
 #, kde-format
