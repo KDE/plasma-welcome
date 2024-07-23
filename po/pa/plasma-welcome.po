@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2024-02-17 13:42-0600\n"
-"Last-Translator: A S Alam <aalam@punlinux.org>\n"
+"PO-Revision-Date: 2024-07-21 22:08-0500\n"
+"Last-Translator: aalam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -81,7 +81,7 @@ msgstr "%1 ਬੀਟਾ %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "<command>%1</command> ਕਮਾਂਡ ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕੀ ਹੈ।"
 
 #: src/controller.cpp:166
 #, kde-format
@@ -95,7 +95,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "ਕਮਾਂਡ <command>%1</command> ਫੇਲ੍ਹ ਹੈ: %2 "
 
 #: src/main.cpp:37
 #, kde-format
@@ -159,7 +159,7 @@ msgstr "ਡਿਸਟਰੋ ਲਾਈਵ ਇਨਵਾਇਰਮੈਂਟ ਦੀ �
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "ਅਣਪਛਾਤੇ ਮੋਡੀਊਲ %1 ਲਈ ਬੇਨਤੀ"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -209,9 +209,7 @@ msgid "&OK"
 msgstr "ਠੀਕ ਹੈ(&O)"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "ਸਰਗਰਮੀਆਂ"
@@ -220,31 +218,31 @@ msgstr "ਸਰਗਰਮੀਆਂ"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "ਘਰ"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "ਸਕੂਲ"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "ਕੰਮ"
 
 #: src/qml/mock/MockActivities.qml:168
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "ਇਸ ਵੇਲੇ ਵਰਤੋਂ ਅਧੀਨ ਹੈ"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "3 ਘੰਟੇ ਪਹਿਲਾਂ ਵਰਤਿਆ"
 
 #: src/qml/mock/MockActivities.qml:187
 #, kde-format
@@ -255,13 +253,13 @@ msgstr ""
 #: src/qml/mock/MockKRunner.qml:82
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "…ਖੋਜੋ"
 
 #: src/qml/PageError.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "ਸਫ਼ਾ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
 #: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
 #, kde-format
@@ -316,7 +314,7 @@ msgstr "ਡਿਸਕਵਰ ਵਿੱਚ %1 ਵੇਖੋ"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "ਮੌਜਾਂ ਮਾਣੋ!"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -328,9 +326,7 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "ਕੇਡੀਈ ਕਮਿਊਨਟੀ ਬਾਰੇ ਹੋਰ ਜਾਣੋ"
@@ -357,9 +353,7 @@ msgid "Make a donation"
 msgstr "ਦਾਨ ਦਿਓ"
 
 #: src/qml/pages/Enjoy.qml:69
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "ਹਿੱਸਾ ਲਵੋ"
@@ -368,20 +362,16 @@ msgstr "ਹਿੱਸਾ ਲਵੋ"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "ਸਹਿਯੋਗੀ ਮੈਂਬਰ"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "ਸਹਿਯੋਗੀ ਮੈਂਬਰ"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
@@ -392,25 +382,25 @@ msgstr "ਅਸੀਂ ਪਲਾਜ਼ਮਾ 6 ਉਗਹਾਰੀ ਮੁਹਿੰਮ 
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "ਰਲਵੇਂ ਤੌਰ ਉੱਤੇ ਲੜੀਬੱਧ"
 
 #: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "ਨਾਂ ਨਾਲ ਲੜੀਬੱਧ"
 
 #: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "ਤਾਰੀਖ ਨਾਲ ਲੜੀਬੱਧ"
 
 #: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "ਫਿਲਟਰ…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -486,7 +476,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "ਪਲਾਜ਼ਮਾ ਲਈ ਨੈਟਵਰਕਿੰਗ ਸਹਿਯੋਗ ਇਸ ਵੇਲੇ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ"
 
 #: src/qml/pages/Network.qml:75
 #, kde-kuit-format
@@ -500,13 +490,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr ""
+msgstr "ਤੁਸੀਂ ਕਨੈਕਟ ਹੋ"
 
 #: src/qml/pages/Network.qml:250
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "ਸਭ ਤਿਆਰ!"
 
 #: src/qml/pages/Network.qml:258
 #, kde-format
@@ -521,7 +511,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "ਸਥਿਤੀ ਨੂੰ ਬਦਲੋ"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
@@ -530,42 +520,31 @@ msgid "Plasma has been updated to %1"
 msgstr "ਪਲਾਜ਼ਮਾ ਨੂੰ %1 ਲਈ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ ਹੈ"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Thank you for testing this beta release of Plasma—your feedback is "
-#| "fundamental to helping us improve it! Please report any and all bugs you "
-#| "find so that we can fix them."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
-"ਪਲਾਜ਼ਮਾ ਦੇ ਇਸ ਬੀਟਾ ਰੀਲਿਜ਼ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ—ਤੁਹਾਡੀ ਫੀਡਬੈਕ ਇਸ ਵਿੱਚ ਸੁਧਾਰਨ "
+"ਪਲਾਜ਼ਮਾ ਦੇ ਇਸ ਬੀਟਾ ਰੀਲਿਜ਼ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ — ਤੁਹਾਡੀ ਫੀਡਬੈਕ ਇਸ ਵਿੱਚ ਸੁਧਾਰਨ "
 "ਕਰਨ ਵਾਸਤੇ ਮੂਲ ਆਧਾਰ ਹੈ। ਜੋ ਵੀ ਬੱਗ ਤੁਹਾਨੂੰ ਮਿਲਣ, ਉਹਨਾਂ ਸਾਰਿਆਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦਿਓ ਤਾਂ ਕਿ ਅਸੀਂ "
 "ਉਹਨਾਂ ਨੂੰ ਠੀਕ ਕਰ ਸਕੀਏ।"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>ਪਤਾ ਕਰੋ ਕਿ ਨਵਾਂ ਕੀ ਹੈ</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "ਬੱਗ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦਿਓ"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "ਅਗਲੇ ਰੀਲਿਜ਼ ਲਈ ਕੰਮ ਵਾਸਤੇ ਮਦਦ ਕਰੋ"
@@ -678,9 +657,7 @@ msgid "Store sensitive files securely"
 msgstr "ਸੰਵੇਦਨਸ਼ੀਲ ਫ਼ਾਇਲਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਸੰਭਾਲੋ"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:111
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ"
@@ -689,7 +666,7 @@ msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "ਸਿਸਟਮ ਦੀ ਸੰਰਚਨਾ"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
@@ -787,7 +764,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "ਸਮਾਂ ਸ਼ਿੰਘਾਈ"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -795,7 +772,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
 #, kde-format
@@ -804,7 +781,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "ਅਮਰੀਕੀ ਡਾਲਰ ਵਿੱਚ 200 ਯੂਰੋ"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
 #, kde-format
@@ -813,7 +790,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "ਕਿਲੋਮੀਟਰ ਵਿੱਚ 25 ਮੀਲ"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
 #, kde-format
@@ -821,7 +798,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...ਅਤੇ ਕੋਈ ਕੁਝ ਹੋਰ!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:16
 #, kde-format
@@ -842,9 +819,7 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ"
@@ -964,7 +939,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "ਵਿੰਡੋ ਨੂੰ ਫੈਲਾਓ"
 
 #: src/qml/pages/Welcome.qml:20
 #, kde-format
@@ -1001,18 +976,16 @@ msgstr ""
 "ਤੁਹਾਨੂੰ ਕੰਮ ਪੂਰੇ ਕਰਨ ਲਈ ਮਦਦ ਵਾਸਤੇ ਮਜ਼ਬੂਤ ਬਣਾਇਆ ਗਿਆ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਪਸੰਦ ਆਵੇਗਾ।"
 
 #: src/qml/pages/Welcome.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "ਜੀ ਆਇਆਂ ਨੂੰ ਕੇਂਦਰ"
+msgstr "ਜੀ ਆਇਆਂ ਨੂੰ ਸੈਂਟਰ ਬਾਰੇ"
 
 #: src/qml/pages/Welcome.qml:33
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "KDE ਬਾਰੇ"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format
