@@ -44,6 +44,8 @@ ecm_target_qml_sources(plasma-welcome
     qml/mock/panel/MockSystemTrayIcon.qml
     qml/mock/panel/MockDigitalClockApplet.qml
     qml/mock/panel/MockShowDesktopApplet.qml
+    qml/mock/MockPlasmoid.qml
+    qml/mock/InteractionInhibitor.qml
 
     qml/pages/PlasmaUpdate.qml
     qml/pages/plasmaupdate/Update.qml
