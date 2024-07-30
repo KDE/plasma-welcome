@@ -1,6 +1,7 @@
 /*
  *  SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
  *  SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
+ *  SPDX-FileCopyrightText: 2024 Oliver Beard <olib141@outlook.com>
  *
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
@@ -67,9 +68,13 @@ int main(int argc, char *argv[])
     QCommandLineParser parser;
     parser.setApplicationDescription(description);
     aboutData.setupCommandLine(&parser);
+
     parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
     parser.addOption(QCommandLineOption(QStringLiteral("post-update-beta"), i18n("Display release notes for the current Plasma release, for beta versions.")));
     parser.addOption(QCommandLineOption(QStringLiteral("live-environment"), i18n("Display the live page intended for distro live environments.")));
+
+    QCommandLineOption pagesOption(QStringLiteral("pages"), i18n("Specify comma-delimited page(s) to be displayed by internal name."), QStringLiteral("pages"));
+    parser.addOption(pagesOption);
 
     parser.process(app);
     aboutData.processCommandLine(&parser);
@@ -77,7 +82,21 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
     auto controller = engine.singletonInstance<Controller *>("org.kde.plasma.welcome", "Controller");
-    if (parser.isSet(QStringLiteral("post-update"))) {
+    if (parser.isSet(QStringLiteral("pages"))) {
+        QStringList pages = parser.value(pagesOption).split(",");
+
+        // Ensure each page ends with ".qml"
+        for (QString &page : pages) {
+            if (!page.endsWith(".qml")) {
+                page.append(".qml");
+            }
+        }
+
+        if (pages.size() != 0) {
+            controller->setMode(Controller::Mode::Pages);
+            controller->setPages(pages);
+        }
+    } else if (parser.isSet(QStringLiteral("post-update"))) {
         controller->setMode(Controller::Mode::Update);
     } else if (parser.isSet(QStringLiteral("post-update-beta"))) {
         controller->setMode(Controller::Mode::Beta);

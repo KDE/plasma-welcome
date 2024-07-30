@@ -218,6 +218,11 @@ QStringList Controller::distroPages()
     return pages;
 }
 
+QString Controller::distroPagesDir()
+{
+    return QStringLiteral(DISTRO_CUSTOM_PAGE_FOLDER);
+}
+
 QString Controller::installPrefix()
 {
     return QString::fromLatin1(PLASMA_WELCOME_INSTALL_DIR);
@@ -261,6 +266,11 @@ void Controller::setMode(Mode mode)
 
     m_mode = mode;
     Q_EMIT modeChanged();
+}
+
+void Controller::setPages(QStringList pages)
+{
+    m_pages = pages;
 }
 
 #include "moc_controller.cpp"

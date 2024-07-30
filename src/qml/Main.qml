@@ -1,6 +1,7 @@
 /*
  *  SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
  *  SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
+ *  SPDX-FileCopyrightText: 2024 Oliver Beard <olib141@outlook.com>
  *
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
@@ -43,22 +44,26 @@ Kirigami.ApplicationWindow {
         if (component.status !== Component.Error) {
             return component.createObject(null);
         } else {
-            let error = component.errorString()
+            let error = component.errorString();
             console.warn("Couldn't load page '" + page + "'");
-            console.warn(" " + error);
+            console.warn("  " + error);
             component.destroy();
 
-            // Instead return an error page with info
-            let errorComponent = Qt.createComponent("PageError.qml");
-            if (errorComponent.status !== Component.Error) {
-                return errorComponent.createObject(null, {
-                    isDistroPage: isDistroPage,
-                    error: error
-                });
-            } else {
-                errorComponent.destroy();
-                return null;
-            }
+            return _createErrorPage(error, isDistroPage);
+        }
+    }
+
+    function _createErrorPage(error, isDistroPage = false, isUnknownPage = false) {
+        let errorComponent = Qt.createComponent("PageError.qml");
+        if (errorComponent.Status !== Component.Error) {
+            return errorComponent.createObject(null, {
+                error: error,
+                isDistroPage: isDistroPage,
+                isUnknownPage: isUnknownPage
+            });
+        } else {
+            errorComponent.destroy();
+            return null;
         }
     }
 
@@ -117,6 +122,34 @@ Kirigami.ApplicationWindow {
                 }
 
                 _pushPage(_createPage("Enjoy.qml"));
+
+                break;
+
+            case Controller.Pages:
+                Controller.pages.forEach(page => {
+                    var error = "";
+                    var warnStrings = "";
+
+                    let tryPage = function(page) {
+                        let component = Qt.createComponent(page);
+                        if (component.status !== Component.Error) {
+                            _pushPage(component.createObject(null));
+                            return true;
+                        } else {
+                            error += component.errorString();
+                            warnStrings += ((warnStrings.length > 0) ? "\n" : "")
+                                            + "Couldn't load page '" + page + "'" + "\n" + "  " + component.errorString();
+                            component.destroy();
+                            return false;
+                        }
+                    }
+
+                    // Try as both a regular page and distro page
+                    if (!tryPage(page) && !tryPage("file://" + Controller.distroPagesDir() + page)) {
+                        console.warn(warnStrings);
+                        _pushPage(_createErrorPage(error, false, true));
+                    }
+                });
 
                 break;
         }
