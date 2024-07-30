@@ -28,6 +28,7 @@ public:
     Q_INVOKABLE bool networkAlreadyConnected();
     Q_INVOKABLE bool userFeedbackAvailable();
     Q_INVOKABLE QStringList distroPages();
+    Q_INVOKABLE QString distroPagesDir();
     Q_INVOKABLE QString distroName();
     Q_INVOKABLE QString distroIcon();
     Q_INVOKABLE QString distroUrl();
@@ -37,6 +38,7 @@ public:
 
     Q_PROPERTY(KAboutData aboutData READ aboutData CONSTANT)
     Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)
+    Q_PROPERTY(QStringList pages MEMBER m_pages CONSTANT)
     Q_PROPERTY(QString shownVersion MEMBER m_shownVersion CONSTANT)
     Q_PROPERTY(int patchVersion MEMBER m_patchVersion CONSTANT)
     Q_PROPERTY(QString releaseUrl MEMBER m_releaseUrl CONSTANT)
@@ -45,17 +47,19 @@ public:
     Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
     Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
 
-    enum Mode { Update, Beta, Live, Welcome };
+    enum Mode { Pages, Update, Beta, Live, Welcome };
     Q_ENUM(Mode)
 
     KAboutData aboutData() const;
     void setMode(Mode mode);
+    void setPages(QStringList pages);
 
 Q_SIGNALS:
     void modeChanged();
 
 private:
     Mode m_mode = Mode::Welcome;
+    QStringList m_pages;
     QVersionNumber m_version;
     QString m_shownVersion;
     int m_patchVersion;

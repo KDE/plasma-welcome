@@ -12,8 +12,9 @@ import org.kde.kirigami as Kirigami
 Kirigami.Page {
     id: root
 
-    required property bool isDistroPage
     required property string error
+    required property bool isDistroPage
+    required property bool isUnknownPage
 
     title: i18nc("@info:window", "Error loading page")
 
@@ -22,6 +23,7 @@ Kirigami.Page {
             icon.name: "tools-report-bug-symbolic"
             text: i18nc("@action:button", "Report Bug…")
             onTriggered: Qt.openUrlExternally(isDistroPage ? Controller.distroBugReportUrl() : "https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center")
+            visible: !isUnknownPage
         },
         Kirigami.Action {
             icon.name: "edit-copy-symbolic"
@@ -37,6 +39,9 @@ Kirigami.Page {
 
         icon.name: "tools-report-bug"
         text: {
+            if (isUnknownPage) {
+                return xi18nc("@info:usagetip", "This page could not be loaded");
+            }
             if (isDistroPage) {
                 return xi18nc("@info:usagetip", "This page provided by your distribution could not be loaded");
             } else {
