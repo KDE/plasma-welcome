@@ -93,6 +93,12 @@ GenericPage {
         onTriggered: {
             if (character != -1) {
                 // Typing
+
+                // Don't show results for final string "...and much more!"
+                if (index == strings.length - 1) {
+                    mockKRunner.showResults = false;
+                }
+
                 mockKRunner.searchText += strings[index].charAt(character++);
 
                 // End of string
@@ -109,6 +115,7 @@ GenericPage {
 
                 // Empty box
                 if (mockKRunner.searchText.length == 0) {
+                    mockKRunner.showResults = true;
                     character = 0;
                 }
             }

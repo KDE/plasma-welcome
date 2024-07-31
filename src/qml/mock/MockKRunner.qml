@@ -20,6 +20,7 @@ Item {
     id: root
 
     property string searchText: ""
+    property bool showResults: true
 
     implicitWidth: layout.implicitWidth + layout.anchors.margins * 2
     implicitHeight: layout.implicitHeight + layout.anchors.margins * 2
@@ -173,7 +174,7 @@ Item {
             Layout.fillHeight: true
             Layout.topMargin: Kirigami.Units.smallSpacing
 
-            visible: results.count > 0
+            visible: root.showResults && results.count > 0
 
             // HACK: Prevent tab focusing of children
             onFocusChanged: root.focus = true
