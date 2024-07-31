@@ -42,7 +42,15 @@ Kirigami.ApplicationWindow {
     function _createPage(page, isDistroPage = false) {
         let component = Qt.createComponent(page);
         if (component.status !== Component.Error) {
-            return component.createObject(null);
+            let object = component.createObject(null);
+            if (!(object instanceof Kirigami.Page)) {
+                object.destroy();
+                console.warn("Couldn't load page '" + page + "'");
+                console.warn("  " + page + " Not an instance of Kirigami.Page\n");
+                return _createErrorPage(page + " Not an instance of Kirigami.Page\n", isDistroPage);
+            } else {
+                return object;
+            }
         } else {
             let error = component.errorString();
             console.warn("Couldn't load page '" + page + "'");
@@ -133,7 +141,17 @@ Kirigami.ApplicationWindow {
                     let tryPage = function(page) {
                         let component = Qt.createComponent(page);
                         if (component.status !== Component.Error) {
-                            _pushPage(component.createObject(null));
+                            let object = component.createObject(null);
+                            if (!(object instanceof Kirigami.Page)) {
+                                object.destroy();
+                                error += page + " Not an instance of Kirigami.Page\n";
+                                warnStrings += ((warnStrings.length > 0) ? "\n" : "")
+                                                + "Couldn't load page '" + page + "'" + "\n" + "  " + page + " Not an instance of Kirigami.Page\n";
+                                return false;
+                            } else {
+                                _pushPage(object);
+                                return true;
+                            }
                             return true;
                         } else {
                             error += component.errorString();
