@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-15 00:40+0000\n"
+"POT-Creation-Date: 2024-08-01 00:42+0000\n"
 "PO-Revision-Date: 2024-02-24 17:17+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -98,54 +98,54 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr ""
 
-#: src/main.cpp:37
+#: src/main.cpp:38
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
 msgstr ""
 
-#: src/main.cpp:42
+#: src/main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "Centru de întâmpinare"
 
-#: src/main.cpp:50
+#: src/main.cpp:51
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
 msgstr ""
 
-#: src/main.cpp:52
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:53 src/main.cpp:57 src/main.cpp:60
+#: src/main.cpp:54 src/main.cpp:58 src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: src/main.cpp:56
+#: src/main.cpp:57
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:60
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
 msgstr ""
 
-#: src/main.cpp:70
+#: src/main.cpp:72
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Afișează notele de lansare pentru ediția actuală Plasma."
 
-#: src/main.cpp:71
+#: src/main.cpp:73
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
@@ -153,10 +153,16 @@ msgstr ""
 "Afișează notele de lansare pentru ediția actuală Plasma, pentru versiuni "
 "beta."
 
-#: src/main.cpp:72
+#: src/main.cpp:74
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "Afișează pagina live pentru distribuțiile încărcate în memorie."
+
+#: src/main.cpp:77
+#, kde-format
+msgid ""
+"Specify comma-delimited list of page(s) (by internal name) to be displayed."
+msgstr ""
 
 #: src/module.cpp:72
 #, kde-format
@@ -237,54 +243,73 @@ msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
 msgstr ""
 
-#: src/qml/mock/MockActivities.qml:168
+#: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
 msgstr ""
 
-#: src/qml/mock/MockActivities.qml:169
+#: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
 msgstr ""
 
-#: src/qml/mock/MockActivities.qml:187
+#: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
 msgstr ""
 
-#: src/qml/mock/MockKRunner.qml:82
+#: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
 msgstr ""
 
-#: src/qml/PageError.qml:18
+#: src/qml/mock/MockOverview.qml:97
+#, kde-format
+msgctxt "@title The default name of a Plasma desktop as seen in the overview"
+msgid "Desktop 1"
+msgstr ""
+
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
+#, kde-format
+msgctxt "@info:placeholder Shown when there is insufficent width"
+msgid "Expand the window"
+msgstr ""
+
+#: src/qml/PageError.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Eroare la încărcarea paginii"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
+#: src/qml/PageError.qml:24 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
 msgstr "Raportează defect…"
 
-#: src/qml/PageError.qml:28
+#: src/qml/PageError.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "Copiază detaliile"
 
-#: src/qml/PageError.qml:41
+#: src/qml/PageError.qml:43
+#, fuzzy, kde-kuit-format
+#| msgid "This settings module could not be loaded"
+msgctxt "@info:usagetip"
+msgid "This page could not be loaded"
+msgstr "Acest modul de configurare nu a putut fi încărcat"
+
+#: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr "Această pagină furnizată de către distribuție nu a putut fi încărcată"
 
-#: src/qml/PageError.qml:43
+#: src/qml/PageError.qml:48
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
@@ -814,13 +839,13 @@ msgctxt ""
 msgid "...and much more!"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:16
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Privire generală"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:17
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -828,8 +853,17 @@ msgid ""
 "letting you easily access any of them. It also shows your current Virtual "
 "Desktops, allowing you to add more, remove some, and switch between them. "
 "Finally, it offers a KRunner-powered search field that can also filter "
-"through open windows.<nl/><nl/>You can access Overview using the "
-"<shortcut>Meta+W</shortcut> keyboard shortcut."
+"through open windows."
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:46
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
+"shortcut, or by moving your mouse into the top-left corner of the screen. "
+"You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
+"Virtual Desktops in a grid."
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
@@ -850,13 +884,13 @@ msgid ""
 "it all there!"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Bolți Plasma"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:17
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -864,9 +898,40 @@ msgid ""
 "<interface>Vaults.</interface> Inside each Vault, you can securely store "
 "your passwords, files, pictures, and documents, safe from prying eyes. "
 "Vaults can live inside folders that are synced to cloud storage services "
-"too, providing extra privacy for that content.<nl/><nl/>To get started, "
-"click the arrow on the <interface>System Tray</interface> to show hidden "
-"items, and then click the <interface>Vaults</interface> icon."
+"too, providing extra privacy for that content."
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
+#| msgid "Vaults"
+msgctxt "@title:window Title of the Plasma Vaults popup"
+msgid "Vaults"
+msgstr "Bolți"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:114
+#, kde-format
+msgctxt "@title The name of an example Plasma vault"
+msgid "Important Documents"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
+#, kde-format
+msgctxt "@title The name of an example Plasma vault"
+msgid "My Photos"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
+#, kde-format
+msgid "Unlock and Open"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"To get started, click the arrow on the <interface>System Tray</interface> to "
+"show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
 
 #: src/qml/pages/SimpleByDefault.qml:21
@@ -949,12 +1014,6 @@ msgid ""
 "This is the “Peek at Desktop” widget. Click on it to temporarily hide all "
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
-msgstr ""
-
-#: src/qml/pages/SimpleByDefault.qml:199
-#, kde-format
-msgctxt "@info:placeholder Shown when there is insufficent width"
-msgid "Expand the window"
 msgstr ""
 
 #: src/qml/pages/Welcome.qml:20

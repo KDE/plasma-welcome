@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-15 00:40+0000\n"
+"POT-Creation-Date: 2024-08-01 00:42+0000\n"
 "PO-Revision-Date: 2024-04-23 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -97,63 +97,69 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "命令 <command>%1</command> 执行失败：%2"
 
-#: src/main.cpp:37
+#: src/main.cpp:38
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
 msgstr "Plasma 新手向导程序"
 
-#: src/main.cpp:42
+#: src/main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "欢迎中心"
 
-#: src/main.cpp:50
+#: src/main.cpp:51
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
 msgstr "© 2021–2024, KDE Community"
 
-#: src/main.cpp:52
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:53 src/main.cpp:57 src/main.cpp:60
+#: src/main.cpp:54 src/main.cpp:58 src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "作者"
 
-#: src/main.cpp:56
+#: src/main.cpp:57
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:60
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
 msgstr "Oliver Beard"
 
-#: src/main.cpp:70
+#: src/main.cpp:72
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "显示当前 Plasma 版本的发行日志。"
 
-#: src/main.cpp:71
+#: src/main.cpp:73
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr "显示当前 Plasma Beta 版本的发行日志。"
 
-#: src/main.cpp:72
+#: src/main.cpp:74
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "显示为发行版 Live 环境准备的页面。"
+
+#: src/main.cpp:77
+#, kde-format
+msgid ""
+"Specify comma-delimited list of page(s) (by internal name) to be displayed."
+msgstr ""
 
 #: src/module.cpp:72
 #, kde-format
@@ -232,54 +238,73 @@ msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
 msgstr "工作"
 
-#: src/qml/mock/MockActivities.qml:168
+#: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
 msgstr "当前正在使用"
 
-#: src/qml/mock/MockActivities.qml:169
+#: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
 msgstr "3 小时前使用过"
 
-#: src/qml/mock/MockActivities.qml:187
+#: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
 msgstr "创建活动…"
 
-#: src/qml/mock/MockKRunner.qml:82
+#: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
 msgstr "搜索…"
 
-#: src/qml/PageError.qml:18
+#: src/qml/mock/MockOverview.qml:97
+#, kde-format
+msgctxt "@title The default name of a Plasma desktop as seen in the overview"
+msgid "Desktop 1"
+msgstr ""
+
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
+#, kde-format
+msgctxt "@info:placeholder Shown when there is insufficent width"
+msgid "Expand the window"
+msgstr "扩展窗口"
+
+#: src/qml/PageError.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "加载页面出错"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
+#: src/qml/PageError.qml:24 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
 msgstr "报告程序缺陷…"
 
-#: src/qml/PageError.qml:28
+#: src/qml/PageError.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "复制详细信息"
 
-#: src/qml/PageError.qml:41
+#: src/qml/PageError.qml:43
+#, fuzzy, kde-kuit-format
+#| msgid "This settings module could not be loaded"
+msgctxt "@info:usagetip"
+msgid "This page could not be loaded"
+msgstr "无法加载此设置模块"
+
+#: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr "无法加载此页面 (由发行版提供)"
 
-#: src/qml/PageError.qml:43
+#: src/qml/PageError.qml:48
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
@@ -830,28 +855,45 @@ msgctxt ""
 msgid "...and much more!"
 msgstr "...还有更多功能等待您发现！"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:16
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "桌面概览"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:17
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Overview is a full-screen overlay that shows all of your open windows, "
+#| "letting you easily access any of them. It also shows your current Virtual "
+#| "Desktops, allowing you to add more, remove some, and switch between them. "
+#| "Finally, it offers a KRunner-powered search field that can also filter "
+#| "through open windows.<nl/><nl/>You can access Overview using the "
+#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
 "letting you easily access any of them. It also shows your current Virtual "
 "Desktops, allowing you to add more, remove some, and switch between them. "
 "Finally, it offers a KRunner-powered search field that can also filter "
-"through open windows.<nl/><nl/>You can access Overview using the "
-"<shortcut>Meta+W</shortcut> keyboard shortcut."
+"through open windows."
 msgstr ""
 "桌面概览是一个全屏的叠加画面层，它显示了您打开的所有窗口，让您可以快速访问任"
 "意一个。它还显示了您当前的虚拟桌面，您可以用它在各个虚拟桌面之间切换，也可以"
 "新增和移除虚拟桌面。它还提供了一条搜索栏，可以使用 KRunner 搜索系统的功能来过"
 "滤显示已打开的窗口。<nl/><nl/>要打开桌面预览，请按下 <shortcut>Meta+W</"
 "shortcut> 键盘快捷键。"
+
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:46
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
+"shortcut, or by moving your mouse into the top-left corner of the screen. "
+"You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
+"Virtual Desktops in a grid."
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -872,29 +914,69 @@ msgstr ""
 "更改默认应用、桌面壁纸、外观样式、图标主题、虚拟桌面、电源管理和第三方扩展等"
 "——您需要的选项都能在这里找到。"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma 保险库"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:17
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma Vaults allows you to create encrypted folders, called "
+#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
+#| "your passwords, files, pictures, and documents, safe from prying eyes. "
+#| "Vaults can live inside folders that are synced to cloud storage services "
+#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
+#| "click the arrow on the <interface>System Tray</interface> to show hidden "
+#| "items, and then click the <interface>Vaults</interface> icon."
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
 "<interface>Vaults.</interface> Inside each Vault, you can securely store "
 "your passwords, files, pictures, and documents, safe from prying eyes. "
 "Vaults can live inside folders that are synced to cloud storage services "
-"too, providing extra privacy for that content.<nl/><nl/>To get started, "
-"click the arrow on the <interface>System Tray</interface> to show hidden "
-"items, and then click the <interface>Vaults</interface> icon."
+"too, providing extra privacy for that content."
 msgstr ""
 "Plasma 保险库可以创建一种叫做<interface>保险库</interface>的加密文件夹。您可"
 "以在保险库中安全地存储密码、文件、图片、文档等，避免被其他人窃取。保险库还可"
 "以直接作为文件保存在与云端存储服务同步的文件夹中，从而为云端存储提供额外的保"
 "护。<nl/><nl/>要使用保险库功能，请点击<interface>系统托盘</interface>上的下箭"
 "头，展开隐藏的图标，然后点击<interface>保险库</interface>图标。"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
+#| msgid "Vaults"
+msgctxt "@title:window Title of the Plasma Vaults popup"
+msgid "Vaults"
+msgstr "保险库"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:114
+#, kde-format
+msgctxt "@title The name of an example Plasma vault"
+msgid "Important Documents"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
+#, kde-format
+msgctxt "@title The name of an example Plasma vault"
+msgid "My Photos"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
+#, kde-format
+msgid "Unlock and Open"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"To get started, click the arrow on the <interface>System Tray</interface> to "
+"show hidden items, and then click the <interface>Vaults</interface> icon."
+msgstr ""
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1000,12 +1082,6 @@ msgid ""
 msgstr ""
 "这是“暂时显示桌面”挂件。点击它即可暂时隐藏所有打开的窗口，以便您访问桌面上的"
 "内容。再次点击即可恢复正常状态。"
-
-#: src/qml/pages/SimpleByDefault.qml:199
-#, kde-format
-msgctxt "@info:placeholder Shown when there is insufficent width"
-msgid "Expand the window"
-msgstr "扩展窗口"
 
 #: src/qml/pages/Welcome.qml:20
 #, kde-format

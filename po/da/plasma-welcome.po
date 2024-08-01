@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-15 00:40+0000\n"
+"POT-Creation-Date: 2024-08-01 00:42+0000\n"
 "PO-Revision-Date: 2024-07-30 12:30+0200\n"
 "Last-Translator: rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
@@ -97,64 +97,70 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "Kommandoen <command>%1</command> fejlede: %2"
 
-#: src/main.cpp:37
+#: src/main.cpp:38
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
 msgstr "Venlig onboardingsguide til Plasma"
 
-#: src/main.cpp:42
+#: src/main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "Velkomstcenter"
 
-#: src/main.cpp:50
+#: src/main.cpp:51
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
 msgstr "© 2021-2024, KDE-fællesskabet"
 
-#: src/main.cpp:52
+#: src/main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:53 src/main.cpp:57 src/main.cpp:60
+#: src/main.cpp:54 src/main.cpp:58 src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Ophavsmand"
 
-#: src/main.cpp:56
+#: src/main.cpp:57
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:60
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
 msgstr "Oliver Beard"
 
-#: src/main.cpp:70
+#: src/main.cpp:72
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Vis udgivelsesnoter for den nuværende Plasma-udgivelse."
 
-#: src/main.cpp:71
+#: src/main.cpp:73
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr ""
 "Vis udgivelsesnoter for den nuværende Plasma-udgivelse, for betaversioner."
 
-#: src/main.cpp:72
+#: src/main.cpp:74
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "Vis live-siden, der er beregnet til distro live-miljøer."
+
+#: src/main.cpp:77
+#, kde-format
+msgid ""
+"Specify comma-delimited list of page(s) (by internal name) to be displayed."
+msgstr ""
 
 #: src/module.cpp:72
 #, kde-format
@@ -233,54 +239,73 @@ msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
 msgstr "Arbejde"
 
-#: src/qml/mock/MockActivities.qml:168
+#: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
 msgstr "Bruges i øjeblikket"
 
-#: src/qml/mock/MockActivities.qml:169
+#: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
 msgstr "Brugt for 3 timer siden"
 
-#: src/qml/mock/MockActivities.qml:187
+#: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
 msgstr "Opret aktivitet..."
 
-#: src/qml/mock/MockKRunner.qml:82
+#: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
 msgstr "Søg…"
 
-#: src/qml/PageError.qml:18
+#: src/qml/mock/MockOverview.qml:97
+#, kde-format
+msgctxt "@title The default name of a Plasma desktop as seen in the overview"
+msgid "Desktop 1"
+msgstr ""
+
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
+#, kde-format
+msgctxt "@info:placeholder Shown when there is insufficent width"
+msgid "Expand the window"
+msgstr "Udvid vinduet"
+
+#: src/qml/PageError.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Fejl ved indlæsning af side"
 
-#: src/qml/PageError.qml:23 src/qml/pages/Network.qml:79
+#: src/qml/PageError.qml:24 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
 msgstr "Rapportér programfejl…"
 
-#: src/qml/PageError.qml:28
+#: src/qml/PageError.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "Kopiér detaljer"
 
-#: src/qml/PageError.qml:41
+#: src/qml/PageError.qml:43
+#, fuzzy, kde-kuit-format
+#| msgid "This settings module could not be loaded"
+msgctxt "@info:usagetip"
+msgid "This page could not be loaded"
+msgstr "Denne indstillingsmodul kunne ikke indlæses"
+
+#: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr "Denne side, leveret af din distribution, kunne ikke indlæses"
 
-#: src/qml/PageError.qml:43
+#: src/qml/PageError.qml:48
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
@@ -848,22 +873,29 @@ msgctxt ""
 msgid "...and much more!"
 msgstr "...og meget mere!"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:16
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "Overblik"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:17
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Overview is a full-screen overlay that shows all of your open windows, "
+#| "letting you easily access any of them. It also shows your current Virtual "
+#| "Desktops, allowing you to add more, remove some, and switch between them. "
+#| "Finally, it offers a KRunner-powered search field that can also filter "
+#| "through open windows.<nl/><nl/>You can access Overview using the "
+#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
 "letting you easily access any of them. It also shows your current Virtual "
 "Desktops, allowing you to add more, remove some, and switch between them. "
 "Finally, it offers a KRunner-powered search field that can also filter "
-"through open windows.<nl/><nl/>You can access Overview using the "
-"<shortcut>Meta+W</shortcut> keyboard shortcut."
+"through open windows."
 msgstr ""
 "Overblik er en fuldskærmsoverlægning, der viser alle dine åbne vinduer, og "
 "lader dig nemt tilgå enhver af dem. Den viser også dine nuværende virtuelle "
@@ -871,6 +903,16 @@ msgstr ""
 "Til sidst tilbyder den et KRunner-drevet søgefelt, der kan filtrerer gennem "
 "dine åbne vinduer. <nl/><nl/>Du kan tilgå Overblik ved at bruge "
 "tastaturgenvejen <shortcut>Meta+W</shortcut>."
+
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:46
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
+"shortcut, or by moving your mouse into the top-left corner of the screen. "
+"You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
+"Virtual Desktops in a grid."
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -892,23 +934,30 @@ msgstr ""
 "virtuelle skriveborde, strømstyring, tredjepartstilføjelser — du vil finde "
 "det hele derinde!"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Plasma Sikkerhedsbokse"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:17
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma Vaults allows you to create encrypted folders, called "
+#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
+#| "your passwords, files, pictures, and documents, safe from prying eyes. "
+#| "Vaults can live inside folders that are synced to cloud storage services "
+#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
+#| "click the arrow on the <interface>System Tray</interface> to show hidden "
+#| "items, and then click the <interface>Vaults</interface> icon."
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
 "<interface>Vaults.</interface> Inside each Vault, you can securely store "
 "your passwords, files, pictures, and documents, safe from prying eyes. "
 "Vaults can live inside folders that are synced to cloud storage services "
-"too, providing extra privacy for that content.<nl/><nl/>To get started, "
-"click the arrow on the <interface>System Tray</interface> to show hidden "
-"items, and then click the <interface>Vaults</interface> icon."
+"too, providing extra privacy for that content."
 msgstr ""
 "Plasma Sikkerhedsbokse tillader dig at oprette krypterede mapper, kaldet "
 "<interface>Sikkerhedsbokse.</interface> Inden i hver sikkerhedsboks kan du "
@@ -918,6 +967,39 @@ msgstr ""
 "indhold.<nl/><nl/>For at komme i gang, skal du trykke på pilen i "
 "<interface>Statusområdet</interface> for at vise skjulte elementer, og "
 "derefter klikke på <interface>Sikkerhedsboks</interface>-ikonet."
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
+#| msgid "Vaults"
+msgctxt "@title:window Title of the Plasma Vaults popup"
+msgid "Vaults"
+msgstr "Sikkerhedsbokse"
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:114
+#, kde-format
+msgctxt "@title The name of an example Plasma vault"
+msgid "Important Documents"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
+#, kde-format
+msgctxt "@title The name of an example Plasma vault"
+msgid "My Photos"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
+#, kde-format
+msgid "Unlock and Open"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"To get started, click the arrow on the <interface>System Tray</interface> to "
+"show hidden items, and then click the <interface>Vaults</interface> icon."
+msgstr ""
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1025,12 +1107,6 @@ msgstr ""
 "Dette er \"Kig på skrivebord\"-widgetten. Klik på den for, midlertidigt, at "
 "skjule alle åbne vinduer, så du kan tilgå skrivebordet. Klik på den igen for "
 "at bringe dem tilbage."
-
-#: src/qml/pages/SimpleByDefault.qml:199
-#, kde-format
-msgctxt "@info:placeholder Shown when there is insufficent width"
-msgid "Expand the window"
-msgstr "Udvid vinduet"
 
 #: src/qml/pages/Welcome.qml:20
 #, kde-format
