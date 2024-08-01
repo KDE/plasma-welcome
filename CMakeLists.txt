@@ -62,8 +62,8 @@ set_package_properties(KUserFeedback PROPERTIES
     TYPE RUNTIME
 )
 
-ecm_set_disabled_deprecation_versions(QT 6.5
-    KF 5.240
+ecm_set_disabled_deprecation_versions(QT 6.7
+    KF 6.4.0
 )
 
 add_subdirectory(src)
