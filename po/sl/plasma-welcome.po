@@ -164,6 +164,8 @@ msgstr "Prikaži živo stran namenjeno distribucijskim živim okoljem."
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
+"Določite z vejicami ločen seznam strani (z internim imenom), ki naj bo "
+"prikazan."
 
 #: src/module.cpp:72
 #, kde-format
@@ -269,7 +271,7 @@ msgstr "Išči…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Namizje 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -296,11 +298,10 @@ msgid "Copy Details"
 msgstr "Kopiraj podrobnosti"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Tega modula z nastavitvami ni bilo mogoče naložiti"
+msgstr "Tega strani ni bilo mogoče naložiti"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -888,15 +889,7 @@ msgid "Overview"
 msgstr "Pregled"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -905,13 +898,11 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
-"Pregled je prekrivna plast celotnega zaslona, ki prikazuje vsa vaša odprta "
-"okna in omogoča, da enostavno dostopate do katerega koli od njih. Pokaže "
-"tudi vaša trenutna navidezna namizja, vam omogoča, da jih dodate še več, jih "
-"odstranite in preklapljate med njimi. Končno ponuja tudi iskalno polje, ki "
-"ga poganja Krunner, ki lahko tudi filtrira prek odprtih oken.<nl/><nl/>Do "
-"pregleda lahko dostopate s pomočjo bližnjice na tipkovnici <shortcut>Meta+W</"
-"shortcut>."
+"Pregled je celozaslonska plast, ki prikazuje vsa vaša odprta okna in vam "
+"omogoča enostaven dostop do kateregakoli od njih. Prikazuje tudi vaša "
+"trenutna navidezna namizja, vam omogoča njihovo dodajanje, odstranjevanje "
+"nekaterih in preklapljanje med njimi. Nazadnje ponuja iskalno polje, ki ga "
+"poganja KRunner in lahko tudi filtrira odprta okna."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:46
 #, kde-kuit-format
@@ -922,6 +913,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Do pregleda lahko dostopate z bližnjico na tipkovnici <shortcut>Meta+W</"
+"shortcut> ali tako, da premaknete miško v zgornji levi kot zaslona. Lahko "
+"tudi pritisnete <shortcut>Meta+G</shortcut> za mrežni pogled, ki prikaže "
+"navidezna namizja v mreži."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -950,16 +945,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma Vaults"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -969,17 +955,13 @@ msgid ""
 "too, providing extra privacy for that content."
 msgstr ""
 "Plasma Vaults vam omogoča, da ustvarite šifrirane mape, imenovane trezorji "
-"<interface>Vaults.</interface> V vsakem trezorju lahko varno shranite vaše "
-"datoteke, slike in dokumente, varne pred radovednimi očmi. Trezorji lahko "
-"živijo znotraj map, ki so sinhronizirane tudi s storitvami za shranjevanje v "
-"oblaku, ki zagotavljajo dodatno zasebnost te vsebine.<nl/><nl/>Za začetek "
-"kliknite puščico <interface>Sistemski pladenj</interface>  za prikaz skritih "
-"elementov in nato kliknite ikono<interface>Vaults</interface>."
+"<interface>Vaults.</interface> V vsakem trezorju lahko varno shranjujete "
+"vaše datoteke, slike in dokumente, varne pred radovednimi očmi. Trezorji "
+"lahko živijo znotraj map, ki so sinhronizirane tudi s storitvami za "
+"shranjevanje v oblaku, ki zagotavljajo dodatno zasebnost te vsebine."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Trezorji"
@@ -988,18 +970,18 @@ msgstr "Trezorji"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Pomembni dokumenti"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Moje fotografije"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Odkleni in odpri"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
 #, kde-kuit-format
@@ -1008,6 +990,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Če želite začeti, kliknite puščico na <interface>Sistemski pladenj</"
+"interface>, da prikažete skrite elemente, in nato kliknite ikono "
+"<interface>Trezorji</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

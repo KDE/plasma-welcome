@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-01 00:42+0000\n"
-"PO-Revision-Date: 2024-06-17 14:43+0200\n"
+"PO-Revision-Date: 2024-08-01 16:09+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -163,6 +163,8 @@ msgstr "MOnstra le pagine vivente intendite per ambiente in vivo de distro."
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
+"Specifica le lista de pagina(s) delimitate per commas(per nomine interne) "
+"que sea monstrate."
 
 #: src/module.cpp:72
 #, kde-format
@@ -179,7 +181,7 @@ msgstr "Lancea %1 nunc"
 #: src/qml/common/KCMPage.qml:80
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr "Iste modulo de preferentias non poite esser cargate"
+msgstr "Iste modulo de preferentias non pote esser cargate"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -268,7 +270,7 @@ msgstr "Cerca…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Scriptorio 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -295,11 +297,10 @@ msgid "Copy Details"
 msgstr "Copia detalios "
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Iste modulo de preferentias non poite esser cargate"
+msgstr "Iste modulo de preferentias non pote esser cargate"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -977,9 +978,7 @@ msgstr ""
 "postea pulsa le icone de  <interface>Vaults</interface> ."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Cellarios (Vaults)"
@@ -988,18 +987,18 @@ msgstr "Cellarios (Vaults)"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Documentos Importante"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Mi Photos"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Disbloca e aperi"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
 #, kde-kuit-format
@@ -1008,6 +1007,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Pe initiar, clicca le flecha sur le <interface>Tabuliero de Systema</"
+"interface> per monstrar elementos celate, e postea clicca le icone de "
+"<interface>Cellarios</interface> ."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

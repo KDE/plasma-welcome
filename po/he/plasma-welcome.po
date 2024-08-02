@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-01 00:42+0000\n"
-"PO-Revision-Date: 2024-06-15 07:58+0300\n"
+"PO-Revision-Date: 2024-08-01 08:36+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 
@@ -160,7 +160,7 @@ msgstr "הצגת העמוד החי שמיוחד לסביבות הפצות חיו
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "נא לציין רשימת עמודים (בשם הפנימי) עם פסיקים ביניהם להצגה."
 
 #: src/module.cpp:72
 #, kde-format
@@ -266,7 +266,7 @@ msgstr "חיפוש…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "שולחן עבודה 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -293,11 +293,10 @@ msgid "Copy Details"
 msgstr "העתקת פרטים"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "טעינת מודול ההגדרות הזה לא הצליחה"
+msgstr "אי אפשר לטעון את העמוד הזה"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -872,15 +871,7 @@ msgid "Overview"
 msgstr "סקירה"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -892,8 +883,7 @@ msgstr ""
 "סקירה מספקת מבט על במסך מלא על כל החלונות הפתוחים ומאפשרת לך לגשת לכל אחד "
 "מהם. היא מציגה גם את החלונות הווירטואליים הנוכחיים שלך, מאפשרת לך להוסיף "
 "עוד, להסיר חלק מהם ולעבור ביניהם. סוף סוף היא מציעה גם שדה חיפוש מבוסס "
-"KRunner שיכול לסנן בין החלונות הפתוחים.<nl/><nl/>אפשר לגשת לסקירה באמצעות "
-"מקשי הקיצור <shortcut>Meta+W</shortcut> במקלדת."
+"KRunner שיכול לסנן בין החלונות הפתוחים."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:46
 #, kde-kuit-format
@@ -904,6 +894,9 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"אפשר לגשת לסקירה בעזרת צירוף המקשים <shortcut>Metaמטא+W</shortcut> או על ידי "
+"הזזת העכבר לפינה השמאלית העליונה של המסך. אפשר גם ללחוץ <shortcut>מטא+G</"
+"shortcut> לתצוגת רשת שמציגהשולחנות עבודה וירטואליים ברשת."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -931,16 +924,7 @@ msgid "Plasma Vaults"
 msgstr "כספות של פלזמה"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -952,14 +936,10 @@ msgstr ""
 "יישום הכספות של פלזמה מאפשר לך ליצור תיקיות מוצפנות שנקראות <interface>כספות."
 "</interface> בתוך כל כספת אפשר לאחסן סיסמאות, קבצים, תמונות ומסמכים בצורה "
 "מאובטחת הרחק מסקרנים. כספות יכולות לחיות בתוך תיקיות שמסונכרנות גם מול "
-"שירותי ענן, המספקים פרטיות נוספת לתוכן הזה.<nl/><nl/>כדי להתחיל, יש ללחוץ על "
-"החץ ב<interface>מגש המערכת</interface> כדי להציג פריטים מוסתרים ואז ללחוץ על "
-"סמל ה<interface>כספות</interface>."
+"שירותי ענן, המספקים פרטיות נוספת לתוכן הזה."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "כספות"
@@ -968,18 +948,18 @@ msgstr "כספות"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "מסמכים חשובים"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "התמונות שלי"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "שחרור ופתיחה"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
 #, kde-kuit-format
@@ -988,6 +968,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"כדי להתחיל, נא ללחוץ על החץ ב<interface>שורת המערכת</interface> כדי להציג "
+"פריטים מוסתרים, ואז ללחוץ על סמל ה<interface>כספות</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
