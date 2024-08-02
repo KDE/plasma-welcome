@@ -37,6 +37,31 @@ Kirigami.ApplicationWindow {
                     return "FooterUpdate.qml";
             }
         }
+
+        // app's MouseArea doesn't cover the footer
+        MouseArea {
+            anchors.fill: parent
+
+            acceptedButtons: mouseNavHandler.acceptedButtons
+            onPressed: (mouse) => mouseNavHandler.handlePressed(mouse.button)
+        }
+    }
+
+    // Handle mouse back/forward buttons
+    MouseArea {
+        id: mouseNavHandler
+        anchors.fill: parent
+
+        acceptedButtons: Qt.BackButton | Qt.ForwardButton
+        onPressed: (mouse) => handlePressed(mouse.button)
+
+        function handlePressed(button) {
+            if (button == Qt.BackButton) {
+                pageStack.goBack();
+            } else if (button == Qt.ForwardButton) {
+                pageStack.goForward();
+            }
+        }
     }
 
     function _createPage(page, isDistroPage = false) {
