@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-01 00:42+0000\n"
-"PO-Revision-Date: 2024-08-01 16:09+0200\n"
+"PO-Revision-Date: 2024-08-02 09:49+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -888,15 +888,7 @@ msgid "Overview"
 msgstr "Vista de insimul"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -907,11 +899,9 @@ msgid ""
 msgstr ""
 "Summario (Overview) es un copertura a schermo plen que monstra tote tu "
 "fenestras aperite, permittente a te a accede a ulle de illos. Illo anque "
-"monsta tu currente Scriptorios Virtual, peritente a te a adder plus, remover "
-"alcun, e commutar inter illos. Finalmente, illo offere un campo de cerca "
-"potentiate de KRunner que pote anque filtrar trans fenestra aperite offers. "
-"<nl/><nl/>Tu pote acceder a Overview (Summario o Vista General) usante le "
-"via breve de claviero  <shortcut>Meta+W</shortcut>."
+"monsta tu Scriptorios Virtual currente, permittente a te a adder plus, "
+"remover alcun, e commutar inter illos. Finalmente, illo offere un campo de "
+"cerca potentiate de KRunner que pote anque filtrar trans fenestra aperite. "
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:46
 #, kde-kuit-format
@@ -922,6 +912,11 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Tu pote acceder a Vista de Insimul (o summario) usante le via breve de "
+"claviero <shortcut>Meta+W</shortcut>, o per mover tu mus in le angulo "
+"sinistre in alto del schermo. Tu anque pote pressar <shortcut>Meta+G</"
+"shortcut> per le Vista a Grillia, que monstra Scriptorios virtual in un "
+"grillia."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -950,16 +945,7 @@ msgid "Plasma Vaults"
 msgstr "Cellarios de Plasma (Plasma Vaults)"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -973,9 +959,7 @@ msgstr ""
 "pote immagazinar securemente tu contrasignos, files, imagines, e documentos, "
 "secur ab oculos curiose. Vaults pote anque habitar intra dossieres que es "
 "synchronsate a servicios de immagazinage de cloud, delivrante intimitate "
-"extra per ille contento.<nl/><nl/>Per initiar, cliccale flecha sur le "
-"<interface>Tbuliero de Systema </interface> per monstrar elementos celate, e "
-"postea pulsa le icone de  <interface>Vaults</interface> ."
+"extra per ille contento."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
 #, kde-format

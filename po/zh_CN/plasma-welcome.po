@@ -292,11 +292,10 @@ msgid "Copy Details"
 msgstr "复制详细信息"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "无法加载此设置模块"
+msgstr ""
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -862,15 +861,7 @@ msgid "Overview"
 msgstr "桌面概览"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -879,11 +870,6 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
-"桌面概览是一个全屏的叠加画面层，它显示了您打开的所有窗口，让您可以快速访问任"
-"意一个。它还显示了您当前的虚拟桌面，您可以用它在各个虚拟桌面之间切换，也可以"
-"新增和移除虚拟桌面。它还提供了一条搜索栏，可以使用 KRunner 搜索系统的功能来过"
-"滤显示已打开的窗口。<nl/><nl/>要打开桌面预览，请按下 <shortcut>Meta+W</"
-"shortcut> 键盘快捷键。"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:46
 #, kde-kuit-format
@@ -921,16 +907,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma 保险库"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -939,16 +916,9 @@ msgid ""
 "Vaults can live inside folders that are synced to cloud storage services "
 "too, providing extra privacy for that content."
 msgstr ""
-"Plasma 保险库可以创建一种叫做<interface>保险库</interface>的加密文件夹。您可"
-"以在保险库中安全地存储密码、文件、图片、文档等，避免被其他人窃取。保险库还可"
-"以直接作为文件保存在与云端存储服务同步的文件夹中，从而为云端存储提供额外的保"
-"护。<nl/><nl/>要使用保险库功能，请点击<interface>系统托盘</interface>上的下箭"
-"头，展开隐藏的图标，然后点击<interface>保险库</interface>图标。"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "保险库"
