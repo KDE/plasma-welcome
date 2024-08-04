@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-01 00:42+0000\n"
-"PO-Revision-Date: 2024-07-28 14:11+0200\n"
+"PO-Revision-Date: 2024-08-02 21:22+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 24.11.70\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -160,7 +160,7 @@ msgstr "Vis live-sida meint for live-distroar."
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "Ei liste (interne namn, skilde med komma) over sider å visa."
 
 #: src/module.cpp:72
 #, kde-format
@@ -266,7 +266,7 @@ msgstr "Søk …"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Skrivebord 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -293,11 +293,10 @@ msgid "Copy Details"
 msgstr "Kopier detaljar"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Klarte ikkje lasta inn innstillingsmodulen."
+msgstr "Klarte ikkje lasta inn sida"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -884,15 +883,7 @@ msgid "Overview"
 msgstr "Oversikt"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -904,8 +895,7 @@ msgstr ""
 "Oversikt er ein funksjon som viser alle opne vindauge og gjev deg enkel "
 "tilgang til dei. Du kan òg sjå, leggja til og veksla mellom ulike virtuelle "
 "skrivebord. Og så har du eit KRunner-basert søkjefelt der, som lèt deg "
-"filtrera på vindauge etter namn.<nl/><nl/>Du får tilgang til oversikts­"
-"biletet med snøggtasten <shortcut>Meta + W</shortcut>."
+"filtrera på vindauge etter namn."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:46
 #, kde-kuit-format
@@ -916,6 +906,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Du får tilgang til oversikts­biletet med snøggtasten <shortcut>Meta + W</"
+"shortcut> eller ved flytta muse­peikaren til hjørnet oppe til venstre på "
+"skjermen. Du kan òg bruka <shortcut>Meta + G</shortcut> for rutenett­vising. "
+"Då vert alle dei virtuelle skriveborda viste i eit rutenett."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -943,16 +937,7 @@ msgid "Plasma Vaults"
 msgstr "Datakvelv"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -965,14 +950,10 @@ msgstr ""
 "<interface>datakvelv</interface>. I desse kvelva kan du trygt leggja "
 "passord, filer, bilete, dokument og anna du vil verna frå nysgjerrige blikk. "
 "Kvelva kan òg liggja i mapper som du alt synkroniserer til skylagring, slik "
-"at du får ekstra tryggleik for skyinnhaldet.<nl/><nl/>Kom i gang ved å "
-"trykkja på pila i <interface>systemkorga</interface> (for å visa gøymde "
-"oppføringar), og vel så ikonet <interface>Datakvelv</interface>."
+"at du får ekstra tryggleik for skyinnhaldet."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Datakvelv"
@@ -981,18 +962,18 @@ msgstr "Datakvelv"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Importer dokument"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Bileta mine"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Lås opp og opna"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
 #, kde-kuit-format
@@ -1001,6 +982,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Kom i gang ved å trykkja på pila i <interface>systemkorga</interface> (for å "
+"visa gøymde oppføringar), og vel så ikonet <interface>Datakvelv</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

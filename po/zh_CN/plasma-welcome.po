@@ -159,7 +159,7 @@ msgstr "显示为发行版 Live 环境准备的页面。"
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "指定要显示的以逗号分隔的页面列表 (按照内部名称)。"
 
 #: src/module.cpp:72
 #, kde-format
@@ -265,7 +265,7 @@ msgstr "搜索…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "桌面 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -295,7 +295,7 @@ msgstr "复制详细信息"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr ""
+msgstr "无法加载此页面"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -870,6 +870,10 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
+"桌面概览是一个全屏的叠加画面层，它显示了您打开的所有窗口，让您可以快速访问任"
+"意一个。它还显示了您当前的虚拟桌面，您可以用它在各个虚拟桌面之间切换，也可以"
+"新增和移除虚拟桌面。它还提供了一条搜索栏，可以使用 KRunner 搜索系统的功能来过"
+"滤显示已打开的窗口。"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:46
 #, kde-kuit-format
@@ -880,6 +884,9 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"要打开桌面预览，请按下 <shortcut>Meta+W</shortcut> 键盘快捷键或者将鼠标光标移"
+"动到屏幕的左上角。您还可以按下 <shortcut>Meta+G</shortcut> 快捷键激活网格视"
+"图，以网格形式显示虚拟桌面。"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -916,6 +923,10 @@ msgid ""
 "Vaults can live inside folders that are synced to cloud storage services "
 "too, providing extra privacy for that content."
 msgstr ""
+"Plasma 保险库可以创建一种叫做<interface>保险库</interface>的加密文件夹。您可"
+"以在保险库中安全地存储密码、文件、图片、文档等，避免被其他人窃取。保险库还可"
+"以直接作为文件保存在与云端存储服务同步的文件夹中，从而为云端存储提供额外的保"
+"护。"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
 #, kde-format
@@ -927,18 +938,18 @@ msgstr "保险库"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "重要文档"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "我的照片"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "解锁并打开"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
 #, kde-kuit-format
@@ -947,6 +958,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"要使用保险库功能，请点击<interface>系统托盘</interface>中的上箭头图标以显示隐"
+"藏的项目，然后点击<interface>保险库</interface>图标。"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

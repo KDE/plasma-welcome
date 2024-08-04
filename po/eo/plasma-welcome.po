@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-01 00:42+0000\n"
-"PO-Revision-Date: 2024-08-02 22:29+0200\n"
+"PO-Revision-Date: 2024-08-03 07:26+0200\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -158,7 +158,7 @@ msgstr "Montri la envivan paĝon intencitan por envivaj distribumedioj."
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "Specifu kome apartigitan liston de paĝoj (laŭ ena nomo) montrendaj."
 
 #: src/module.cpp:72
 #, kde-format
@@ -264,7 +264,7 @@ msgstr "Serĉi…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Labortablo 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -898,6 +898,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Vi povas aliri Superrigardon uzante la klavaran ŝparvojon <shortcut>Meta+W</"
+"shortcut> aŭ movante vian muson en la supran maldekstran angulon de la "
+"ekrano.Vi ankaŭ povas premi <shortcut>Meta+G</shortcut> por Krada Vido, kiu "
+"montras Virtualajn Labortablojn en krado."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -952,18 +956,18 @@ msgstr "Vaults"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Gravaj Dokumentoj"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Miaj Fotoj"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Malŝlosi kaj Malfermi"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
 #, kde-kuit-format
@@ -972,6 +976,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Por komenci, alklaku la sagon sur la <interface>Sistempleto</interface> por "
+"montri kaŝitajn erojn, kaj poste alklaku la piktogramon <interface>Vaults</"
+"interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

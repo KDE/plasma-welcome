@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-01 00:42+0000\n"
-"PO-Revision-Date: 2024-06-24 10:19+0900\n"
+"PO-Revision-Date: 2024-08-03 14:27+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -159,7 +159,7 @@ msgstr "顯示設計給發行版 live 環境用的 live 頁面。"
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "指定要顯示的頁面列表，以逗號分隔；頁面請依內部名稱指定。"
 
 #: src/module.cpp:72
 #, kde-format
@@ -265,7 +265,7 @@ msgstr "搜尋…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "桌面 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -292,11 +292,10 @@ msgid "Copy Details"
 msgstr "複製詳細資訊"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "無法載入此設定模組"
+msgstr "無法載入此頁面"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -860,15 +859,7 @@ msgid "Overview"
 msgstr "總覽"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -877,10 +868,9 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
-"總覽是一個覆蓋全螢幕的畫面，其中顯示您所有開啟的視窗，讓您可以容易地存取它"
-"們。它也顯示您目前的虛擬桌面，讓您新增更多、移除一些，或在它們之間切換。最"
-"後，它提供一個以 KRunner 為基礎並可過濾開啟視窗的搜尋欄位。<nl/><nl/>您可以使"
-"用 <shortcut>Meta+W</shortcut> 鍵盤快捷鍵開啟總覽。"
+"「總覽」是一個覆蓋全螢幕的畫面，其中顯示您所有開啟的視窗，讓您可以容易地存取"
+"它們。它也顯示您目前的虛擬桌面，讓您新增更多、移除一些，或在它們之間切換。最"
+"後，它提供一個以 KRunner 為基礎並可過濾開啟視窗的搜尋欄位。"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:46
 #, kde-kuit-format
@@ -891,6 +881,9 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"您可以使用 <shortcut>Meta+W</shortcut> 鍵盤快捷鍵或是將滑鼠移到螢幕左上角來開"
+"啟「總覽」。您也可以使用 <shortcut>Meta+G</shortcut> 來開啟「格線檢視」，以格"
+"線方式顯示所有虛擬桌面。"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -917,16 +910,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma 儲存庫"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -938,13 +922,9 @@ msgstr ""
 "Plasma 儲存庫讓您建立加密的資料夾，稱作<interface>儲存庫</interface> "
 "(Vault)。每個儲存庫裡面，您可以安全的儲存您的密碼、檔案、圖片與文件，不用擔心"
 "被偷看。儲存庫也可以放在同步到雲端儲存服務的資料夾裡，為其提供額外的隱私。"
-"<nl/><nl/>要開始使用，點擊<interface>系統匣</interface>上顯示隱藏項目的箭頭，"
-"然後點擊<interface>儲存庫</interface>圖示。"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "儲存庫"
@@ -953,18 +933,18 @@ msgstr "儲存庫"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "重要文件"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "我的相片"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "解鎖並開啟"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
 #, kde-kuit-format
@@ -973,6 +953,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"要開始使用，點擊<interface>系統匣</interface>上顯示隱藏項目的箭頭，然後點擊"
+"<interface>儲存庫</interface>圖示。"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
