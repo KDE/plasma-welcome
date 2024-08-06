@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-01 00:42+0000\n"
-"PO-Revision-Date: 2024-07-05 19:24+0200\n"
+"PO-Revision-Date: 2024-08-01 13:19+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -167,6 +167,8 @@ msgstr ""
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
+"Especifiqueu la llista de pàgines delimitada per comes (per nom intern) a "
+"mostrar."
 
 #: src/module.cpp:72
 #, kde-format
@@ -272,7 +274,7 @@ msgstr "Busca…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Escriptori 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
 #, kde-format
@@ -299,11 +301,10 @@ msgid "Copy Details"
 msgstr "Copia els detalls"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "No s'ha pogut carregar este mòdul de configuració"
+msgstr "No s'ha pogut carregar esta pàgina"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -894,15 +895,7 @@ msgid "Overview"
 msgstr "Vista general"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -916,8 +909,7 @@ msgstr ""
 "També mostra els vostres escriptoris virtuals actuals, permetent-vos afegir-"
 "ne més, eliminar-ne alguns i canviar entre ells. Finalment, oferix un camp "
 "de busca impulsat per KRunner que també pot filtrar entre les finestres "
-"obertes.<nl/><nl/>Podeu accedir a la Vista general utilitzant la drecera de "
-"teclat <shortcut>Meta+W</shortcut>."
+"obertes."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:46
 #, kde-kuit-format
@@ -928,6 +920,11 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Podeu accedir a la Vista general utilitzant la drecera de teclat "
+"<shortcut>Meta+W</shortcut>, o movent el ratolí a la cantona superior "
+"esquerra de la pantalla. També podeu prémer <shortcut>Meta+G</shortcut> per "
+"a la Vsta de quadrícula, que mostra els escriptoris virtuals en una "
+"quadrícula."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -956,16 +953,7 @@ msgid "Plasma Vaults"
 msgstr "Caixes fortes de Plasma"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -979,15 +967,10 @@ msgstr ""
 "emmagatzemar de manera segura contrasenyes, fitxers, imatges i documents, a "
 "resguard de mirades indiscretes. Les caixes fortes també poden viure dins de "
 "carpetes sincronitzades amb els serveis d'emmagatzematge al núvol, "
-"proporcionant privadesa addicional per a este contingut.<nl/><nl/>Per a "
-"començar, feu clic en la fletxa de la <interface>safata del sistema</"
-"interface> per a mostrar els elements ocults, i després feu clic damunt de "
-"la icona <interface>Caixes fortes</interface>."
+"proporcionant privadesa addicional per a este contingut."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Caixes fortes"
@@ -996,18 +979,18 @@ msgstr "Caixes fortes"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Documents importants"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Les meues fotos"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Desbloca i obri"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
 #, kde-kuit-format
@@ -1016,6 +999,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Per a començar, feu clic en la fletxa de la <interface>Safata del sistema</"
+"interface> per a mostrar els elements ocults i, a continuació, feu clic "
+"damunt de la icona <interface>Caixes fortes</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
