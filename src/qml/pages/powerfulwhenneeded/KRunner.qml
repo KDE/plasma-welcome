@@ -34,25 +34,19 @@ GenericPage {
 
         spacing: root.padding
 
-        Kirigami.AbstractCard {
+        MockCard {
             Layout.fillWidth: true
             Layout.fillHeight: true
 
-            MockDesktop {
-                id: mockDesktop
-                anchors.fill: parent
-                anchors.margins: Kirigami.Units.smallSpacing
+            backgroundAlignment: Qt.AlignHCenter | Qt.AlignTop
 
-                backgroundAlignment: Qt.AlignHCenter | Qt.AlignTop
+            MockKRunner {
+                id: mockKRunner
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.top: parent.top
 
-                MockKRunner {
-                    id: mockKRunner
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    anchors.top: parent.top
-
-                    width: Math.min(mockDesktop.width - (root.padding * 2), implicitWidth)
-                    height: Math.min(mockDesktop.height - root.padding, implicitHeight)
-                }
+                width: Math.min(parent.width - (Kirigami.Units.largeSpacing * 2), implicitWidth)
+                height: Math.min(parent.height - Kirigami.Units.largeSpacing, implicitHeight)
             }
         }
 

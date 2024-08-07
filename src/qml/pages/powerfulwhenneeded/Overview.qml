@@ -23,20 +23,15 @@ GenericPage {
 
         spacing: Kirigami.Units.gridUnit
 
-        Kirigami.AbstractCard {
+        MockCard {
             Layout.fillWidth: true
             Layout.fillHeight: true
 
-            MockDesktop {
+            backgroundAlignment: Qt.AlignCenter
+            blurRadius: 64
+
+            MockOverview {
                 anchors.fill: parent
-                anchors.margins: Kirigami.Units.smallSpacing
-
-                backgroundAlignment: Qt.AlignCenter
-                blurRadius: 64
-
-                MockOverview {
-                    anchors.fill: parent
-                }
             }
         }
 

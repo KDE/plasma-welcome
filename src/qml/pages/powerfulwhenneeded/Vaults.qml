@@ -26,105 +26,100 @@ GenericPage {
 
         spacing: root.padding
 
-        Kirigami.AbstractCard {
+        MockCard {
+            id: mock
             Layout.fillWidth: true
             Layout.fillHeight: true
 
-            MockDesktop {
-                id: mockDesktop
-                anchors.fill: parent
-                anchors.margins: Kirigami.Units.smallSpacing
+            backgroundAlignment: Qt.AlignHCenter | Qt.AlignBottom
 
-                backgroundAlignment: Qt.AlignHCenter | Qt.AlignBottom
+            // Prevent interaction with mock and children
+            InteractionInhibitor {}
 
-                // Prevent interaction with MockDesktop and children
-                InteractionInhibitor {}
+            MockPanel {
+                id: mockPanel
+                anchors.bottom: parent.bottom
+                anchors.right: parent.right
 
-                MockPanel {
-                    id: mockPanel
-                    anchors.bottom: parent.bottom
-                    anchors.right: parent.right
+                width: Math.max(mock.desktopWidth, parent.width)
 
-                    width: Math.max(mockDesktop.desktopWidth, mockDesktop.width)
+                MockKickoffApplet {
+                    opacity: (mockPanel.x >= 0) ? 1 : 0
+                    visible: opacity > 0
 
-                    MockKickoffApplet {
-                        opacity: (mockPanel.x >= 0) ? 1 : 0
-                        visible: opacity > 0
-
-                        Behavior on opacity {
-                            NumberAnimation {
-                                duration: Kirigami.Units.longDuration
-                                easing.type: Easing.InOutQuad
-                            }
+                    Behavior on opacity {
+                        NumberAnimation {
+                            duration: Kirigami.Units.longDuration
+                            easing.type: Easing.InOutQuad
                         }
                     }
-
-                    Item {
-                        Layout.fillWidth: true
-                    }
-
-                    MockSystemTrayApplet {
-                        id: mockSystemTrayApplet
-
-                        active: true
-
-                        MockSystemTrayIcon {
-                            source: "klipper-symbolic"
-                        }
-
-                        MockSystemTrayIcon {
-                            source: "audio-volume-high-symbolic"
-                        }
-
-                        MockSystemTrayIcon {
-                            source: "network-wired-activated"
-                        }
-                    }
-
-                    MockDigitalClockApplet {}
-
-                    MockShowDesktopApplet {}
                 }
 
-                MockPlasmoid {
-                    id: mockVaults
-                    anchors.right: mockPanel.right
-                    anchors.rightMargin: floating ? Kirigami.Units.largeSpacing : 0
-                    anchors.bottom: mockPanel.top
+                Item {
+                    Layout.fillWidth: true
+                }
 
-                    width: Math.min(implicitWidth, mockDesktop.width - Kirigami.Units.largeSpacing * (floating ? 2 : 1))
-                    height: Math.min(implicitHeight, mockDesktop.height - mockPanel.height - Kirigami.Units.largeSpacing)
+                MockSystemTrayApplet {
+                    id: mockSystemTrayApplet
 
-                    floating: mockPanel.floating
-                    title: i18nc("@title:window Title of the Plasma Vaults popup", "Vaults")
-                    extraHeaderIcons: ["list-add-symbolic"]
-                    overflowing: mockListView.contentHeight > mockListView.parent.height
+                    active: true
 
-                    ListView {
-                        id: mockListView
-                        anchors.fill: parent
+                    MockSystemTrayIcon {
+                        source: "klipper-symbolic"
+                    }
 
-                        topMargin: Kirigami.Units.smallSpacing
-                        leftMargin: Kirigami.Units.smallSpacing
-                        rightMargin: Kirigami.Units.smallSpacing
-                        bottomMargin: Kirigami.Units.smallSpacing
+                    MockSystemTrayIcon {
+                        source: "audio-volume-high-symbolic"
+                    }
 
-                        spacing: Kirigami.Units.smallSpacing
+                    MockSystemTrayIcon {
+                        source: "network-wired-activated"
+                    }
+                }
 
-                        model: [ i18nc("@title The name of an example Plasma vault", "Important Documents"),
-                                 i18nc("@title The name of an example Plasma vault", "My Photos") ]
+                MockDigitalClockApplet {}
 
-                        delegate: PlasmaExtras.ExpandableListItem {
-                            icon: "folder-encrypted"
-                            title: modelData
+                MockShowDesktopApplet {}
+            }
 
-                            defaultActionButtonAction: QQC2.Action {
-                                icon.name: "unlock-symbolic"
-                                text: i18nd("plasmavault-kde", "Unlock and Open")
-                            }
+            MockPlasmoid {
+                id: mockVaults
+                anchors.right: mockPanel.right
+                anchors.rightMargin: floating ? Kirigami.Units.largeSpacing : 0
+                anchors.bottom: mockPanel.top
 
-                            contextualActions: [ QQC2.Action {} ] // For expand arrow
+                width: Math.min(implicitWidth, parent.width - Kirigami.Units.largeSpacing * (floating ? 2 : 1))
+                height: Math.min(implicitHeight, parent.height - mockPanel.height - Kirigami.Units.largeSpacing)
+
+                floating: mockPanel.floating
+                title: i18nc("@title:window Title of the Plasma Vaults popup", "Vaults")
+                extraHeaderIcons: ["list-add-symbolic"]
+                overflowing: mockListView.contentHeight > mockListView.parent.height
+
+                ListView {
+                    id: mockListView
+                    anchors.fill: parent
+
+                    topMargin: Kirigami.Units.smallSpacing
+                    leftMargin: Kirigami.Units.smallSpacing
+                    rightMargin: Kirigami.Units.smallSpacing
+                    bottomMargin: Kirigami.Units.smallSpacing
+
+                    spacing: Kirigami.Units.smallSpacing
+
+                    model: [ i18nc("@title The name of an example Plasma vault", "Important Documents"),
+                                i18nc("@title The name of an example Plasma vault", "My Photos") ]
+
+                    delegate: PlasmaExtras.ExpandableListItem {
+                        icon: "folder-encrypted"
+                        title: modelData
+
+                        defaultActionButtonAction: QQC2.Action {
+                            icon.name: "unlock-symbolic"
+                            text: i18nd("plasmavault-kde", "Unlock and Open")
                         }
+
+                        contextualActions: [ QQC2.Action {} ] // For expand arrow
                     }
                 }
             }

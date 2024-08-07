@@ -81,175 +81,169 @@ GenericPage {
         }
     }
 
-    Kirigami.AbstractCard {
+    MockCard {
+        id: mock
         anchors.fill: parent
 
-        // Shown when the user is connected or disconnected
-        visible: (root.state == "Connected" || root.state == "Disconnected") ? 1 : 0
+        backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
+        visible: root.state != "NoPlasmaNM"
 
-        MockDesktop {
-            id: mockDesktop
-            anchors.fill: parent
-            anchors.margins: Kirigami.Units.smallSpacing
+        opacity: root.state == "Connected" ? 0.6 : 1
+        Behavior on opacity {
+            NumberAnimation {
+                duration: Kirigami.Units.longDuration
+                easing.type: Easing.InOutQuad
+            }
+        }
 
-            opacity: root.state == "Connected" ? 0.6 : 1
-            layer.enabled: true
+        MockPanel {
+            id: mockPanel
+            anchors.bottom: parent.bottom
+            anchors.right: parent.right
 
-            Behavior on opacity {
-                NumberAnimation {
-                    duration: Kirigami.Units.longDuration
-                    easing.type: Easing.InOutQuad
+            width: Math.max(mock.desktopWidth, parent.width)
+
+            MockKickoffApplet {
+                opacity: (mockPanel.x >= 0) ? 1 : 0
+                visible: opacity > 0
+
+                Behavior on opacity {
+                    NumberAnimation {
+                        duration: Kirigami.Units.longDuration
+                        easing.type: Easing.InOutQuad
+                    }
                 }
             }
 
-            backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
+            Item {
+                Layout.fillWidth: true
+            }
 
-            MockPanel {
-                id: mockPanel
-                anchors.bottom: parent.bottom
-                anchors.right: parent.right
+            MockSystemTrayApplet {
+                id: mockSystemTray
 
-                width: Math.max(mockDesktop.desktopWidth, mockDesktop.width)
-
-                MockKickoffApplet {
-                    opacity: (mockPanel.x >= 0) ? 1 : 0
-                    visible: opacity > 0
-
-                    Behavior on opacity {
-                        NumberAnimation {
-                            duration: Kirigami.Units.longDuration
-                            easing.type: Easing.InOutQuad
-                        }
-                    }
+                MockSystemTrayIcon {
+                    source: "klipper-symbolic"
                 }
 
-                Item {
-                    Layout.fillWidth: true
+                MockSystemTrayIcon {
+                    source: "audio-volume-high-symbolic"
                 }
 
-                MockSystemTrayApplet {
-                    id: mockSystemTray
+                MockSystemTrayIcon {
+                    id: mockNmTrayIcon
 
-                    MockSystemTrayIcon {
-                        source: "klipper-symbolic"
+                    source: nmLoader.icon
+
+                    PC3.BusyIndicator {
+                        anchors.centerIn: parent
+
+                        // Yes, it's not square
+                        width: 30
+                        height: 28
+
+                        running: nmLoader.iconConnecting
                     }
 
-                    MockSystemTrayIcon {
-                        source: "audio-volume-high-symbolic"
-                    }
+                    Item {
+                        id: indicatorArrowContainer
 
-                    MockSystemTrayIcon {
-                        id: mockNmTrayIcon
+                        readonly property bool animate: visible && root.state !== "Connected" && pageStack.currentItem == root
 
-                        source: nmLoader.icon
+                        implicitWidth: indicatorArrow.implicitWidth + glowPadding * 2
+                        implicitHeight: indicatorArrow.implicitHeight + glowPadding * 2
 
-                        PC3.BusyIndicator {
-                            anchors.centerIn: parent
+                        // Prevents clipping of the glow effect
+                        property real glowPadding: 16
 
-                            // Yes, it's not square
-                            width: 30
-                            height: 28
+                        property real yOffset: Kirigami.Units.gridUnit
 
-                            running: nmLoader.iconConnecting
-                        }
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors.bottom: parent.top
+                        anchors.bottomMargin: yOffset - glowPadding
+                                                + ((mockSystemTray.height - mockNmTrayIcon.height) / 2)
 
-                        Item {
-                            id: indicatorArrowContainer
+                        SequentialAnimation on yOffset {
+                            running: indicatorArrowContainer.animate
+                            loops: Animation.Infinite
+                            alwaysRunToEnd: true
 
-                            readonly property bool animate: visible && root.state !== "Connected" && pageStack.currentItem == root
-
-                            implicitWidth: indicatorArrow.implicitWidth + glowPadding * 2
-                            implicitHeight: indicatorArrow.implicitHeight + glowPadding * 2
-
-                            // Prevents clipping of the glow effect
-                            property real glowPadding: 16
-
-                            property real yOffset: Kirigami.Units.gridUnit
-
-                            anchors.horizontalCenter: parent.horizontalCenter
-                            anchors.bottom: parent.top
-                            anchors.bottomMargin: yOffset - glowPadding
-                                                  + ((mockSystemTray.height - mockNmTrayIcon.height) / 2)
-
-                            SequentialAnimation on yOffset {
-                                running: indicatorArrowContainer.animate
-                                loops: Animation.Infinite
-                                alwaysRunToEnd: true
-
-                                NumberAnimation {
-                                    from: Kirigami.Units.gridUnit
-                                    to: 0
-                                    duration: 1000
-                                    easing.type: Easing.InOutQuad
-                                }
-                                NumberAnimation {
-                                    from: 0
-                                    to: Kirigami.Units.gridUnit
-                                    duration: 1000
-                                    easing.type: Easing.InOutQuad
-                                }
+                            NumberAnimation {
+                                from: Kirigami.Units.gridUnit
+                                to: 0
+                                duration: 1000
+                                easing.type: Easing.InOutQuad
                             }
+                            NumberAnimation {
+                                from: 0
+                                to: Kirigami.Units.gridUnit
+                                duration: 1000
+                                easing.type: Easing.InOutQuad
+                            }
+                        }
+
+                        layer.enabled: true
+                        opacity: animate ? 1 : 0
+
+                        Behavior on opacity {
+                            NumberAnimation {
+                                duration: Kirigami.Units.longDuration
+                                easing.type: Easing.InOutQuad
+                            }
+                        }
+
+                        Kirigami.Icon {
+                            id: indicatorArrowGlow
+                            anchors.fill: indicatorArrow
 
                             layer.enabled: true
-                            opacity: animate ? 1 : 0
-
-                            Behavior on opacity {
-                                NumberAnimation {
-                                    duration: Kirigami.Units.longDuration
-                                    easing.type: Easing.InOutQuad
-                                }
-                            }
-
-                            MultiEffect {
-                                anchors.fill: indicatorArrow
-
+                            layer.effect: MultiEffect {
                                 autoPaddingEnabled: false
                                 paddingRect: Qt.rect(indicatorArrowContainer.glowPadding,
-                                                    indicatorArrowContainer.glowPadding,
-                                                    indicatorArrowContainer.glowPadding,
-                                                    indicatorArrowContainer.glowPadding)
-
-                                source: indicatorArrow
+                                                     indicatorArrowContainer.glowPadding,
+                                                     indicatorArrowContainer.glowPadding,
+                                                     indicatorArrowContainer.glowPadding)
                                 blurEnabled: true
-                                blur: 0.25
-                                colorization: 1.0
-                                colorizationColor: "white"
-                                brightness: 2.0
+                                blur: 1
+                                blurMax: 2
                             }
 
-                            Kirigami.Icon {
-                                id: indicatorArrow
-                                anchors.centerIn: indicatorArrowContainer
+                            source: "arrow-down"
+                            color: Kirigami.Theme.backgroundColor
+                        }
 
-                                implicitWidth: Kirigami.Units.iconSizes.large * 1.5
-                                implicitHeight: Kirigami.Units.iconSizes.large * 1.5
+                        Kirigami.Icon {
+                            id: indicatorArrow
+                            anchors.centerIn: indicatorArrowContainer
 
-                                source: "arrow-down"
-                            }
+                            implicitWidth: Kirigami.Units.iconSizes.large * 1.5
+                            implicitHeight: Kirigami.Units.iconSizes.large * 1.5
+
+                            source: "arrow-down"
                         }
                     }
                 }
-
-                MockDigitalClockApplet {}
-
-                MockShowDesktopApplet {}
             }
+
+            MockDigitalClockApplet {}
+
+            MockShowDesktopApplet {}
         }
+    }
 
-        Kirigami.PlaceholderMessage {
-            id: connectedMessage
+    Kirigami.PlaceholderMessage {
+        id: connectedMessage
+        anchors.centerIn: parent
 
-            anchors.centerIn: mockDesktop
-            width: mockDesktop.width - Kirigami.Units.gridUnit * 2
+        width: parent.width - Kirigami.Units.gridUnit * 2
 
-            // Shown when connected
-            visible: root.state == "Connected"
+        // Shown when connected
+        visible: root.state == "Connected"
 
-            icon.name: "data-success-symbolic"
-            text: i18nc("@info:placeholder Shown when connected to the internet", "You’re connected")
-            explanation: i18nc("@info:usagetip Shown when connected to the internet", "All good to go!")
-            type: Kirigami.PlaceholderMessage.Type.Actionable
-        }
+        icon.name: "data-success-symbolic"
+        text: i18nc("@info:placeholder Shown when connected to the internet", "You’re connected")
+        explanation: i18nc("@info:usagetip Shown when connected to the internet", "All good to go!")
+        type: Kirigami.PlaceholderMessage.Type.Actionable
     }
 
     footer: Kirigami.InlineMessage {

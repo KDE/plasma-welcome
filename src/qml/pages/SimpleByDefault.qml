@@ -29,7 +29,7 @@ GenericPage {
 
     onActiveItemChanged: {
         switch (activeItem) {
-            case mockDesktop:
+            case mock:
                 explanatoryLabel.text = xi18nc("@info", "This is the “Desktop”. It shows files and folders that are contained in your <filename>Desktop</filename> folder, and can hold widgets. Right-click on it and choose <interface>Desktop and Wallpaper…</interface> to configure the appearance of the desktop. You can also choose <interface>Enter Edit Mode</interface> to add, remove or modify widgets.")
                 break;
             case mockPanel:
@@ -79,214 +79,207 @@ GenericPage {
         }
     }
 
-    Kirigami.AbstractCard {
+    MockCard {
+        id: mock
         anchors.fill: parent
 
-        MockDesktop {
-            id: mockDesktop
-            anchors.fill: parent
-            anchors.margins: Kirigami.Units.smallSpacing
+        backgroundAlignment: Qt.AlignHCenter | Qt.AlignBottom
 
-            backgroundAlignment: Qt.AlignHCenter | Qt.AlignBottom
+        // Handlers for desktop
+        Item {
+            anchors.top: parent.top
+            anchors.left: parent.left
+            anchors.right: parent.right
+            anchors.bottom: mockPanel.top
 
-            MockPanel {
-                id: mockPanel
-                anchors.bottom: parent.bottom
-                anchors.right: parent.right
+            HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
+                            onHoveredChanged: root.handleHovered(mock, hovered) }
+            TapHandler { onTapped: root.handleTapped(mock) }
+        }
 
-                // Bizarrely, using width directly causes a binding loop, so we must
-                // use mockDesktop.width (which will always be the width)
-                readonly property bool overflowing: mockDesktop.width < implicitWidth
+        MockPanel {
+            id: mockPanel
+            anchors.bottom: parent.bottom
+            anchors.right: parent.right
 
-                width: mockDesktop.width
+            readonly property bool overflowing: parent.width < implicitWidth
 
-                MockKickoffApplet {
-                    id: mockKickoff
+            width: parent.width
 
-                    opacity: mockPanel.overflowing ? 0 : 1
-                    active: root.activeItem == mockKickoff
-                    Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+            MockKickoffApplet {
+                id: mockKickoff
 
-                    HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                   onHoveredChanged: root.handleHovered(mockKickoff, hovered) }
-                    TapHandler { onTapped: root.handleTapped(mockKickoff) }
-                }
-
-                MockTaskManager {
-                    id: mockTaskManager
-
-                    opacity: mockPanel.overflowing ? 0 : 1
-                    active: root.activeItem == mockTaskManager
-                    Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
-
-                    HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                   onHoveredChanged: root.handleHovered(mockTaskManager, hovered) }
-                    TapHandler { onTapped: root.handleTapped(mockTaskManager) }
-                }
-
-                // Handlers for panel, with a minimum free space
-                Item {
-                    Layout.preferredWidth: Kirigami.Units.gridUnit * 4
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
-
-                    HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                   onHoveredChanged: root.handleHovered(mockPanel, hovered) }
-                    TapHandler { onTapped: root.handleTapped(mockPanel) }
-                }
-
-                // We have to wrap the tray to add a hover/tap handler
-                // as children get added to the panel's layout
-                Item {
-                    width: mockTray.width
-                    height: mockTray.height
-
-                    opacity: mockPanel.overflowing ? 0 : 1
-                    Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
-
-                    MockSystemTrayApplet {
-                        id: mockTray
-
-                        active: root.activeItem == mockTray
-
-                        MockSystemTrayIcon { source: "klipper-symbolic" }
-                        MockSystemTrayIcon { source: "audio-volume-high-symbolic" }
-                    }
-
-                    HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                   onHoveredChanged: root.handleHovered(mockTray, hovered) }
-                    TapHandler { onTapped: root.handleTapped(mockTray) }
-                }
-
-                MockDigitalClockApplet {
-                    id: mockClock
-
-                    opacity: mockPanel.overflowing ? 0 : 1
-                    active: root.activeItem == mockClock
-                    Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
-
-                    HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                   onHoveredChanged: root.handleHovered(mockClock, hovered) }
-                    TapHandler { onTapped: root.handleTapped(mockClock) }
-                }
-
-                MockShowDesktopApplet {
-                    id: mockShowDesktop
-
-                    opacity: mockPanel.overflowing ? 0 : 1
-                    active: root.activeItem == mockShowDesktop
-                    Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
-
-                    HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                   onHoveredChanged: root.handleHovered(mockShowDesktop, hovered) }
-                    TapHandler { onTapped: root.handleTapped(mockShowDesktop) }
-                }
-            }
-
-            PC3.Label {
-                anchors.centerIn: mockPanel
-
-                opacity: mockPanel.overflowing ? 1 : 0
-                visible: opacity > 0
-
-                Behavior on opacity {
-                    NumberAnimation {
-                        duration: Kirigami.Units.longDuration
-                        easing.type: Easing.InOutQuad
-                    }
-                }
-
-                text: i18nc("@info:placeholder Shown when there is insufficent width", "Expand the window")
-                color: PlasmaCore.Theme.textColor
-            }
-
-            Item {
-                id: explanatoryContainer
-
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: Math.round(-mockPanel.height / 2)
-
-                width: explanatoryShadow.width
-                height: explanatoryShadow.height
-
-                layer.enabled: true
-                opacity: (root.activeItem == null || mockPanel.overflowing) ? 0 : 1
-                visible: opacity > 0
-
-                Behavior on opacity {
-                    NumberAnimation {
-                        duration: Kirigami.Units.longDuration
-                        easing.type: Easing.InOutQuad
-                    }
-                }
-
-                KSvg.FrameSvgItem {
-                    id: explanatoryShadow
-                    anchors.fill: explanatoryBackground
-
-                    anchors.topMargin: -margins.top
-                    anchors.leftMargin: -margins.left
-                    anchors.rightMargin: -margins.right
-                    anchors.bottomMargin: -margins.bottom
-
-                    imagePath: "widgets/tooltip"
-                    prefix: "shadow"
-                }
-
-                KSvg.FrameSvgItem {
-                    id: explanatoryBackground
-                    anchors.fill: explanatoryTextContainer
-
-                    anchors.topMargin: -margins.top
-                    anchors.leftMargin: -margins.left
-                    anchors.rightMargin: -margins.right
-                    anchors.bottomMargin: -margins.bottom
-
-                    imagePath: "widgets/tooltip"
-                }
-
-                // We have to wrap the label so we can clip the text
-                Item {
-                    id: explanatoryTextContainer
-                    anchors.centerIn: parent
-
-                    width: Math.min(Math.round(mockDesktop.width / 1.5), Kirigami.Units.gridUnit * 25) + explanatoryLabel.anchors.margins * 2
-                    height: explanatoryLabel.implicitHeight + explanatoryLabel.anchors.margins * 2
-
-                    Behavior on height {
-                        NumberAnimation {
-                            // Don't animate the height if we aren't visible!
-                            duration: explanatoryContainer.visible ? Kirigami.Units.shortDuration : 0
-                            easing.type: Easing.InOutQuad
-                        }
-                    }
-
-                    clip: true
-
-                    PC3.Label {
-                        id: explanatoryLabel
-                        anchors.margins: Kirigami.Units.largeSpacing
-                        anchors.left: parent.left
-                        anchors.top: parent.top
-                        anchors.right: parent.right
-
-                        wrapMode: Text.Wrap
-
-                        color: PlasmaCore.Theme.textColor
-                    }
-                }
-            }
-
-            // Handlers for desktop
-            Item {
-                anchors.top: parent.top
-                anchors.left: parent.left
-                anchors.right: parent.right
-                anchors.bottom: mockPanel.top
+                opacity: mockPanel.overflowing ? 0 : 1
+                active: root.activeItem == mockKickoff
+                Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
 
                 HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                               onHoveredChanged: root.handleHovered(mockDesktop, hovered) }
-                TapHandler { onTapped: root.handleTapped(mockDesktop) }
+                                onHoveredChanged: root.handleHovered(mockKickoff, hovered) }
+                TapHandler { onTapped: root.handleTapped(mockKickoff) }
+            }
+
+            MockTaskManager {
+                id: mockTaskManager
+
+                opacity: mockPanel.overflowing ? 0 : 1
+                active: root.activeItem == mockTaskManager
+                Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
+                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
+                                onHoveredChanged: root.handleHovered(mockTaskManager, hovered) }
+                TapHandler { onTapped: root.handleTapped(mockTaskManager) }
+            }
+
+            // Handlers for panel, with a minimum free space
+            Item {
+                Layout.preferredWidth: Kirigami.Units.gridUnit * 4
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+
+                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
+                                onHoveredChanged: root.handleHovered(mockPanel, hovered) }
+                TapHandler { onTapped: root.handleTapped(mockPanel) }
+            }
+
+            // We have to wrap the tray to add a hover/tap handler
+            // as children get added to the panel's layout
+            Item {
+                width: mockTray.width
+                height: mockTray.height
+
+                opacity: mockPanel.overflowing ? 0 : 1
+                Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
+                MockSystemTrayApplet {
+                    id: mockTray
+
+                    active: root.activeItem == mockTray
+
+                    MockSystemTrayIcon { source: "klipper-symbolic" }
+                    MockSystemTrayIcon { source: "audio-volume-high-symbolic" }
+                }
+
+                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
+                                onHoveredChanged: root.handleHovered(mockTray, hovered) }
+                TapHandler { onTapped: root.handleTapped(mockTray) }
+            }
+
+            MockDigitalClockApplet {
+                id: mockClock
+
+                opacity: mockPanel.overflowing ? 0 : 1
+                active: root.activeItem == mockClock
+                Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
+                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
+                                onHoveredChanged: root.handleHovered(mockClock, hovered) }
+                TapHandler { onTapped: root.handleTapped(mockClock) }
+            }
+
+            MockShowDesktopApplet {
+                id: mockShowDesktop
+
+                opacity: mockPanel.overflowing ? 0 : 1
+                active: root.activeItem == mockShowDesktop
+                Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
+                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
+                                onHoveredChanged: root.handleHovered(mockShowDesktop, hovered) }
+                TapHandler { onTapped: root.handleTapped(mockShowDesktop) }
+            }
+        }
+
+        PC3.Label {
+            anchors.centerIn: mockPanel
+
+            opacity: mockPanel.overflowing ? 1 : 0
+            visible: opacity > 0
+
+            Behavior on opacity {
+                NumberAnimation {
+                    duration: Kirigami.Units.longDuration
+                    easing.type: Easing.InOutQuad
+                }
+            }
+
+            text: i18nc("@info:placeholder Shown when there is insufficent width", "Expand the window")
+            color: PlasmaCore.Theme.textColor
+        }
+
+        Item {
+            id: explanatoryContainer
+
+            anchors.centerIn: parent
+            anchors.verticalCenterOffset: Math.round(-mockPanel.height / 2)
+
+            width: explanatoryShadow.width
+            height: explanatoryShadow.height
+
+            layer.enabled: true
+            opacity: (root.activeItem == null || mockPanel.overflowing) ? 0 : 1
+            visible: opacity > 0
+
+            Behavior on opacity {
+                NumberAnimation {
+                    duration: Kirigami.Units.longDuration
+                    easing.type: Easing.InOutQuad
+                }
+            }
+
+            KSvg.FrameSvgItem {
+                id: explanatoryShadow
+                anchors.fill: explanatoryBackground
+
+                anchors.topMargin: -margins.top
+                anchors.leftMargin: -margins.left
+                anchors.rightMargin: -margins.right
+                anchors.bottomMargin: -margins.bottom
+
+                imagePath: "widgets/tooltip"
+                prefix: "shadow"
+            }
+
+            KSvg.FrameSvgItem {
+                id: explanatoryBackground
+                anchors.fill: explanatoryTextContainer
+
+                anchors.topMargin: -margins.top
+                anchors.leftMargin: -margins.left
+                anchors.rightMargin: -margins.right
+                anchors.bottomMargin: -margins.bottom
+
+                imagePath: "widgets/tooltip"
+            }
+
+            // We have to wrap the label so we can clip the text
+            Item {
+                id: explanatoryTextContainer
+                anchors.centerIn: parent
+
+                width: Math.min(Math.round(explanatoryContainer.parent.width / 1.5), Kirigami.Units.gridUnit * 25) + explanatoryLabel.anchors.margins * 2
+                height: explanatoryLabel.implicitHeight + explanatoryLabel.anchors.margins * 2
+
+                Behavior on height {
+                    NumberAnimation {
+                        // Don't animate the height if we aren't visible!
+                        duration: explanatoryContainer.visible ? Kirigami.Units.shortDuration : 0
+                        easing.type: Easing.InOutQuad
+                    }
+                }
+
+                clip: true
+
+                PC3.Label {
+                    id: explanatoryLabel
+                    anchors.margins: Kirigami.Units.largeSpacing
+                    anchors.left: parent.left
+                    anchors.top: parent.top
+                    anchors.right: parent.right
+
+                    wrapMode: Text.Wrap
+
+                    color: PlasmaCore.Theme.textColor
+                }
             }
         }
     }
