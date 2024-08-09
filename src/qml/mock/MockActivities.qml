@@ -196,16 +196,8 @@ Item {
                     easing.type: Easing.InOutQuad
                 }
             }
-
-            focusPolicy: Qt.NoFocus
         }
     }
 
-    // Eat mouse events (hover, click, scroll)
-    MouseArea {
-        anchors.fill: parent
-
-        acceptedButtons: Qt.AllButtons
-        hoverEnabled: true
-    }
+    InteractionInhibitor {}
 }

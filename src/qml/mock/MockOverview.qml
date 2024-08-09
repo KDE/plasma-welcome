@@ -113,8 +113,6 @@ Item {
                 // For some reason, these are not inherited from MockDesktop
                 Kirigami.Theme.inherit: false
                 Kirigami.Theme.textColor: PlasmaCore.Theme.textColor
-
-                focusPolicy: Qt.NoFocus
             }
         }
 
@@ -128,9 +126,6 @@ Item {
             // For some reason, these are not inherited from MockDesktop
             Kirigami.Theme.inherit: false
             Kirigami.Theme.textColor: PlasmaCore.Theme.textColor
-
-            // HACK: Prevent tab focusing of children
-            onFocusChanged: root.focus = true
         }
 
         // Desktop
@@ -167,13 +162,5 @@ Item {
         }
     }
 
-    // Eat mouse events (hover, click, scroll)
-    MouseArea {
-        anchors.fill: parent
-
-        acceptedButtons: Qt.AllButtons
-        hoverEnabled: true
-
-        onWheel: wheel => wheel.accepted = true
-    }
+    InteractionInhibitor {}
 }

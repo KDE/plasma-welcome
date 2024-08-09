@@ -33,9 +33,6 @@ GenericPage {
 
             backgroundAlignment: Qt.AlignHCenter | Qt.AlignBottom
 
-            // Prevent interaction with mock and children
-            InteractionInhibitor {}
-
             MockPanel {
                 id: mockPanel
                 anchors.bottom: parent.bottom
