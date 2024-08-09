@@ -176,9 +176,6 @@ Item {
 
             visible: root.showResults && results.count > 0
 
-            // HACK: Prevent tab focusing of children
-            onFocusChanged: root.focus = true
-
             Milou.ResultsView {
                 id: results
 
@@ -187,13 +184,5 @@ Item {
         }
     }
 
-    // Eat mouse events (hover, click, scroll)
-    MouseArea {
-        anchors.fill: parent
-
-        acceptedButtons: Qt.AllButtons
-        hoverEnabled: true
-
-        onWheel: wheel => wheel.accepted = true
-    }
+    InteractionInhibitor {}
 }

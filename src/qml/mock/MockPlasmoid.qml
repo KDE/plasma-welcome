@@ -133,6 +133,8 @@ Item {
                 easing.type: Easing.InOutQuad
             }
         }
+
+        InteractionInhibitor {}
     }
 
     PC3.Label {
