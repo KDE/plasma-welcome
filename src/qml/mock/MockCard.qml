@@ -21,19 +21,19 @@ Kirigami.AbstractCard {
     property int backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
     property int blurRadius: 32
 
-    readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1280x800.png"
-    readonly property int desktopWidth: wallpaperImage.sourceSize.width
-    readonly property int desktopHeight: wallpaperImage.sourceSize.height
+    readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1920x1080.png"
+    readonly property int desktopWidth: 1024 * backgroundScale
+    readonly property int desktopHeight: 576 * backgroundScale
 
     /*
-     * 1280x800 is chosen to look good at normal window sizes: The aspect closely
-     * matches that of the mock as shown in the application and is not too large.
+     * 1024x576 is chosen to look good at normal window sizes: The aspect matches
+     * most desktops (16:9) and the usual proportions of the mock as shown in the
+     * window.
      *
-     * The background be positioned according to the alignment, and expand to fit
-     * when the mock exceeds its size.
-     *
-     * Depending on the effect wanted, content can exceed the size to show a region
-     * of the desktop, or use the size available.
+     * The background will be positioned according to the alignment, and expand to
+     * fit when the mock exceeds its size. Depending on the effect wanted, content
+     * can exceed the size to show a region of the desktop, such as corner for a
+     * panel's tray.
      */
 
     Item {
