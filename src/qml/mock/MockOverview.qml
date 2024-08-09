@@ -22,6 +22,7 @@ Item {
     // We're intentionally ignoring our 16:10 desktop wallpaper (MockDesktop) - whilst that fits the square
     // window, we want to be more representative of what a user will see - most use a 16:9 display.
     readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1920x1080.png"
+    readonly property double scale: layout.scale
 
     // Underlay
     Rectangle {
@@ -33,6 +34,7 @@ Item {
 
     // Contents
     ColumnLayout {
+        id: layout
         anchors.centerIn: parent
 
         // Scale nicely (and dynamically, not with a fixed factor)
