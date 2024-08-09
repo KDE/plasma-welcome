@@ -28,9 +28,11 @@ GenericPage {
             Layout.fillHeight: true
 
             backgroundAlignment: Qt.AlignCenter
+            backgroundScale: mockOverview.scale
             blurRadius: 64
 
             MockOverview {
+                id: mockOverview
                 anchors.fill: parent
             }
         }

@@ -19,6 +19,7 @@ Kirigami.AbstractCard {
     default property alias children: container.children
 
     property int backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
+    property double backgroundScale: 1
     property int blurRadius: 32
 
     readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1920x1080.png"
@@ -69,7 +70,7 @@ Kirigami.AbstractCard {
                 autoPaddingEnabled: false
                 blurEnabled: blurMax > 0
                 blur: 1.0
-                blurMax: root.blurRadius
+                blurMax: root.blurRadius * root.backgroundScale
             }
 
             width: Math.max(root.width, root.desktopWidth)
