@@ -31,7 +31,7 @@ GenericPage {
             Layout.fillWidth: true
             Layout.fillHeight: true
 
-            backgroundAlignment: Qt.AlignHCenter | Qt.AlignBottom
+            backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
 
             MockPanel {
                 id: mockPanel
