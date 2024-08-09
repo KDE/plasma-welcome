@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-01 00:42+0000\n"
+"POT-Creation-Date: 2024-08-09 00:41+0000\n"
 "PO-Revision-Date: 2024-04-23 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -267,7 +267,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "桌面 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -514,19 +514,19 @@ msgstr ""
 "要管理网络连接，Plasma 需要安装 <icode>plasma-nm</icode>。请将此软件包安装缺"
 "漏情况报告给 %1。"
 
-#: src/qml/pages/Network.qml:249
+#: src/qml/pages/Network.qml:244
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "您已连接到互联网"
 
-#: src/qml/pages/Network.qml:250
+#: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "网络连接一切正常"
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:252
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -537,7 +537,7 @@ msgstr ""
 "由于您正在使用开发版本的 Plasma，不管网络连接情况如何，程序都会显示此页面。要"
 "手动切换此页面在不同网络连接状态下的预览，请点击“更改状态”按钮。"
 
-#: src/qml/pages/Network.qml:263
+#: src/qml/pages/Network.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -737,7 +737,7 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "打开设置…"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:62
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:55
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -800,7 +800,7 @@ msgstr ""
 "KRunner 还可以启动应用、搜索互联网内容、进行货币换算、数学计算以及执行更多其"
 "他功能。"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -810,7 +810,7 @@ msgstr ""
 "要了解更多信息，请使用 <shortcut>Alt + 空格键</shortcut> 键盘快捷键打开 "
 "KRunner 搜索栏，然后点击问号图标。"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -820,7 +820,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "time Shanghai"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -828,7 +828,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -837,7 +837,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 EUR in USD"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -846,7 +846,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25 miles in km"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -875,7 +875,7 @@ msgstr ""
 "新增和移除虚拟桌面。它还提供了一条搜索栏，可以使用 KRunner 搜索系统的功能来过"
 "滤显示已打开的窗口。"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:46
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -928,30 +928,30 @@ msgstr ""
 "以直接作为文件保存在与云端存储服务同步的文件夹中，从而为云端存储提供额外的保"
 "护。"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:95
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "保险库"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:114
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:110
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "重要文档"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:111
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "我的照片"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:119
 #, kde-format
 msgid "Unlock and Open"
 msgstr "解锁并打开"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:131
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""

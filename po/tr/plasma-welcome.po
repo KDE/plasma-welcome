@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-01 00:42+0000\n"
+"POT-Creation-Date: 2024-08-09 00:41+0000\n"
 "PO-Revision-Date: 2024-08-01 13:21+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -271,7 +271,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "Masaüstü 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -526,19 +526,19 @@ msgstr ""
 "Plasma, ağ bağlantılarını yönetmek için <icode>plasma-nm</icode>’nin kurulu "
 "olmasını gerektirir. Bu eksikliği %1 topluluğuna bildirin."
 
-#: src/qml/pages/Network.qml:249
+#: src/qml/pages/Network.qml:244
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Bağlısınız"
 
-#: src/qml/pages/Network.qml:250
+#: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Her şey tamam!"
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:252
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -550,7 +550,7 @@ msgstr ""
 "bakılmaksızın gösterilir. Sayfanın değişik durumlarını elle önizlemek için "
 "aşağıdaki düğmeyi kullanın."
 
-#: src/qml/pages/Network.qml:263
+#: src/qml/pages/Network.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -756,7 +756,7 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Ayarları Aç…"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:62
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:55
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -827,7 +827,7 @@ msgstr ""
 "yapabilir, matematik problemlerini hesaplayabilir ve çok daha fazlasını "
 "gerçekleştirebilir."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -838,7 +838,7 @@ msgstr ""
 "kısayolunu kullanarak K Çalıştır arama çubuğunu açın ve soru işaretine "
 "tıklayın."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -848,7 +848,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "zaman Shanghai"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -856,7 +856,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -865,7 +865,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 EUR kaç USD"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -874,7 +874,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25 mil kaç km"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -904,7 +904,7 @@ msgstr ""
 "kaldırmanıza ve bunlar arasında geçiş yapmanıza olanak tanır. Son olarak, "
 "açık pencereleri de süzebilen K Çalıştır destekli bir arama alanı sunar."
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:46
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -961,30 +961,30 @@ msgstr ""
 "hizmetleriyle eşzamanlanan klasörlerin içinde de bulunabilir ve bu, içerik "
 "için ek gizlilik sağlar."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:95
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Kasalar"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:114
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:110
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "Önemli Belgeler"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:111
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "Fotoğraflarım"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:119
 #, kde-format
 msgid "Unlock and Open"
 msgstr "Kilidi Aç ve Gir"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:131
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""

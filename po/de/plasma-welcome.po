@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-01 00:42+0000\n"
+"POT-Creation-Date: 2024-08-09 00:41+0000\n"
 "PO-Revision-Date: 2024-04-24 00:13+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -274,7 +274,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr ""
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -533,7 +533,7 @@ msgstr ""
 "Zum Verwalten der Netzwerkverbindungen benötigt Plasma ein installiertes "
 "<icode>plasma-nm</icode>. Bitte berichten Sie diesen Umstand an %1."
 
-#: src/qml/pages/Network.qml:249
+#: src/qml/pages/Network.qml:244
 #, fuzzy, kde-format
 #| msgctxt "@info:placeholder Shown when connected to the internet"
 #| msgid "You're connected"
@@ -541,13 +541,13 @@ msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Sie sind verbunden"
 
-#: src/qml/pages/Network.qml:250
+#: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Die Verwendung ist möglich."
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:252
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -559,7 +559,7 @@ msgstr ""
 "Sie eine Entwicklungsversion verwenden.Zur manuellen Anzeige der "
 "unterschiedlichen Status kann der Knopf verwendet werden."
 
-#: src/qml/pages/Network.qml:263
+#: src/qml/pages/Network.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -793,7 +793,7 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "Einstellungen öffnen ..."
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:62
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:55
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -895,7 +895,7 @@ msgstr ""
 "<shortcut>Alt+Leertaste</shortcut> und klicken Sie auf das Fragezeichen-"
 "Symbol."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -903,7 +903,7 @@ msgid ""
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -913,7 +913,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -921,7 +921,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -930,7 +930,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -939,7 +939,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -979,7 +979,7 @@ msgstr ""
 "können.<nl/><nl/>Sie können die „Übersicht“ mit dem Tastaturkurzbefehl "
 "<shortcut>Meta+W</shortcut> öffnen."
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:46
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -1042,7 +1042,7 @@ msgstr ""
 "die ausgeblendeten Elemente anzuzeigen, und dann auf das <interface>Tresore</"
 "interface>-Symbol."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:95
 #, fuzzy, kde-format
 #| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 #| msgid "Vaults"
@@ -1050,24 +1050,24 @@ msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Tresore"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:114
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:110
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:111
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:119
 #, kde-format
 msgid "Unlock and Open"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:131
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""

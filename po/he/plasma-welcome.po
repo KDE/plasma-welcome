@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-01 00:42+0000\n"
+"POT-Creation-Date: 2024-08-09 00:41+0000\n"
 "PO-Revision-Date: 2024-08-01 08:36+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -268,7 +268,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "שולחן עבודה 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -517,19 +517,19 @@ msgstr ""
 "כדי לנהל את חיבורי הרשת שלך, פלזמה צריכה שהחבילה <icode>plasma-nm</icode> "
 "תהיה מותקנת. נא לדווח על ההשמטה הזאת אל %1."
 
-#: src/qml/pages/Network.qml:249
+#: src/qml/pages/Network.qml:244
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "התחברת"
 
-#: src/qml/pages/Network.qml:250
+#: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "מוכנים לצאת לדרך!"
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:252
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -540,7 +540,7 @@ msgstr ""
 "עמוד זה מוצג ללא תלות במצב החיבור לרשת כיוון שבחרת להשתמש בגרסת פיתוח. כדי "
 "להציג ידנית את המצבים השונים של העמוד, אפשר להשתמש בכפתור."
 
-#: src/qml/pages/Network.qml:263
+#: src/qml/pages/Network.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -741,7 +741,7 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "פתיחת ההגדרות…"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:62
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:55
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -810,7 +810,7 @@ msgstr ""
 "את סרגל החיפוש של KRunner באמצעות מקשי הקיצור <shortcut>Alt+רווח</shortcut> "
 "במקלדת וללחוץ על סמל סימן השאלה."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -820,7 +820,7 @@ msgstr ""
 "כדי ללמוד עוד, נא לפתוח את סרגל החיפוש של KRunner עם מקשי הקיצור "
 "<shortcut>Alt+Space</shortcut> וללחוץ על סמל סימן השאלה."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -830,7 +830,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "time Jerusalem"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -838,7 +838,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -847,7 +847,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 ILS  in USD"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -856,7 +856,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25 miles in km"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -885,7 +885,7 @@ msgstr ""
 "עוד, להסיר חלק מהם ולעבור ביניהם. סוף סוף היא מציעה גם שדה חיפוש מבוסס "
 "KRunner שיכול לסנן בין החלונות הפתוחים."
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:46
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -938,30 +938,30 @@ msgstr ""
 "מאובטחת הרחק מסקרנים. כספות יכולות לחיות בתוך תיקיות שמסונכרנות גם מול "
 "שירותי ענן, המספקים פרטיות נוספת לתוכן הזה."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:95
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "כספות"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:114
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:110
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "מסמכים חשובים"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:111
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "התמונות שלי"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:119
 #, kde-format
 msgid "Unlock and Open"
 msgstr "שחרור ופתיחה"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:131
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
