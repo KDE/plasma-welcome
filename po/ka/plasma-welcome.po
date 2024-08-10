@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-01 00:42+0000\n"
+"POT-Creation-Date: 2024-08-09 00:41+0000\n"
 "PO-Revision-Date: 2024-08-01 05:52+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -268,7 +268,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "სამუშაო მაგიდა 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:199
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -522,19 +522,19 @@ msgstr ""
 "ქსელური მიერთებების სამართავად Plasma-ს <icode>plasma-nm</icode> სჭირდება, "
 "დაყენებული იყოს. შეატყობინეთ ეს ლაფსუსი %1-ს."
 
-#: src/qml/pages/Network.qml:249
+#: src/qml/pages/Network.qml:244
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "დაკავშირებული ბრძანდებით"
 
-#: src/qml/pages/Network.qml:250
+#: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "ყველაფერი კარგადაა!"
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:252
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -546,7 +546,7 @@ msgstr ""
 "თქვენ სატესტო ვერსიას იყენებთ. ამ გვერდის სხვადასხვა მდგომარეობების ხელით "
 "სანახავად, ღილაკი შეგიძლიათ, გამოიყენოთ."
 
-#: src/qml/pages/Network.qml:263
+#: src/qml/pages/Network.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -750,7 +750,7 @@ msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "პარამეტრების გახსნა.…"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:62
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:55
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -818,7 +818,7 @@ msgstr ""
 "გამოთვალოს მათემატიკური განტოლებები და ა.შ. სცადეთ აკრიფოთ ერთ-ერთი ამ "
 "ძებნის ველებში."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -829,7 +829,7 @@ msgstr ""
 "მალსახმობით <shortcut>Alt+Space</shortcut> და კითხვის ნიშნის ხატულაზე "
 "დააწკაპუნეთ."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -839,7 +839,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "შანხაის დრო"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -847,7 +847,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:78
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -856,7 +856,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 ევრო აშშ დოლარში"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:80
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -865,7 +865,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25 მილი კმ-ში"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:82
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -894,7 +894,7 @@ msgstr ""
 "ახლები ან წაშალოთ ძველები და მათ შორის გადაერთოთ. ასევე მას გააჩნია KRunner-"
 "ის მიერ გამოყოფილი ძებნის ველი, რომლითაც ღია ფანჯრების გაფილტვრაც შეიძლიათ."
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:46
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -951,30 +951,30 @@ msgstr ""
 "ღრუბლოვან პროვაიდერებთან სინქრონდება, რითიც მათ დამატებით უსაფრთხოებას "
 "უზრუნველყოფს."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:99
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:95
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "საცავები"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:114
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:110
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "მნიშვნელოვანი დოკუმენტები"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:115
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:111
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "ჩემი სურათები"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:123
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:119
 #, kde-format
 msgid "Unlock and Open"
 msgstr "განბლოკვა და გახსნა"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:136
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:131
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
