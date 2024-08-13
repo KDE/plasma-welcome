@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-11 00:42+0000\n"
-"PO-Revision-Date: 2024-07-06 01:34+0300\n"
+"PO-Revision-Date: 2024-08-12 16:01+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -164,6 +164,8 @@ msgstr ""
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
+"Nurodykite kableliais atskirtų puslapių (pagal vidinius pavadinimus), kurie "
+"bus rodomi, sąrašą."
 
 #: src/module.cpp:72
 #, kde-format
@@ -269,7 +271,7 @@ msgstr "Ieškoti…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Darbalaukis 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
@@ -296,11 +298,10 @@ msgid "Copy Details"
 msgstr "Kopijuoti išsamesnę informaciją"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Nepavyko įkelti šio nuostatų modulio"
+msgstr "Šio puslapio nepavyko įkelti"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -889,15 +890,7 @@ msgid "Overview"
 msgstr "Apžvalga"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -910,8 +903,7 @@ msgstr ""
 "langus ir leidžianti jums lengvai pasiekti bet kurį iš jų. Ji taip pat rodo "
 "jūsų esamus virtualius darbalaukius, suteikdama galimybę juos pridėti, "
 "šalinti ar perjungti. Galiausiai, ji siūlo su KRunner veikiantį paieškos "
-"lauką, kuris taip pat gali filtruoti atvertus langus.<nl/><nl/>Apžvalgą "
-"galite pasiekti naudodami <shortcut>Meta+W</shortcut> spartųjį klavišą."
+"lauką, kuris taip pat gali filtruoti atvertus langus."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
@@ -922,6 +914,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Apžvalgą galite pasiekti naudodami <shortcut>Meta+W</shortcut> spartųjį "
+"klavišą arba perkeldami pelę į viršutinį kairįjį ekrano kampą. Be to, galite "
+"paspausti <shortcut>Meta+G</shortcut>, kad būtų rodomas tinklelio rodinys, "
+"kuriame tinkleliu atvaizduojami virtualūs darbalaukiai."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -951,16 +947,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma slėptuvės"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -974,14 +961,10 @@ msgstr ""
 "saugiai laikyti slaptažodžius, failus, nuotraukas, dokumentus atokiai nuo "
 "smalsaujančių akių. Be to, slėptuvės gali būti talpinamos aplankuose, kurie "
 "sinchronizuojami į debesijos paslaugas, tokiu būdu suteikdamos tam turiniui "
-"papildomo privatumo.<nl/><nl/>Norėdami pradėti, spustelėkite ant rodyklės "
-"<interface>Sistemos dėkle</interface>, kad būtų atverti paslėpti elementai, "
-"o tuomet spustelėkite <interface>Slėptuvių</interface> piktogramą."
+"papildomo privatumo."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Slėptuvės"
@@ -990,18 +973,18 @@ msgstr "Slėptuvės"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Svarbūs dokumentai"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Mano nuotraukos"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Atrakinti ir atidaryti"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -1010,6 +993,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Norėdami pradėti, spustelėkite ant rodyklės <interface>Sistemos dėkle</"
+"interface>, kad būtų rodomo paslėpti elementai, o tuomet spustelėkite ant "
+"<interface>Slėptuvių</interface> piktogramos."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
