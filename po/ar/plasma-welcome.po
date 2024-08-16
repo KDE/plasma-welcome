@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-11 00:42+0000\n"
-"PO-Revision-Date: 2024-06-26 18:34+0400\n"
+"PO-Revision-Date: 2024-08-15 11:46+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -161,7 +161,7 @@ msgstr "اعرض الصفحة الحية المخصصة لتوزيعات الب�
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "حدد قائمة مفصولة بفاصلة للصفحات (حسب الاسم الداخلي) التي سيتم عرضها."
 
 #: src/module.cpp:72
 #, kde-format
@@ -267,7 +267,7 @@ msgstr "ابحث…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "سطح المكتب 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
@@ -294,11 +294,10 @@ msgid "Copy Details"
 msgstr "انسخ التفاصيل"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "تعذر تحميل وحدة الإعدادات هذه"
+msgstr "تعذر تحميل هذه الصفحة"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -868,15 +867,7 @@ msgid "Overview"
 msgstr "النظرة العامة"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -889,8 +880,7 @@ msgstr ""
 "النوافذ المفتوحة، مما يتيح لك الوصول إلى أي منها بسهولة. وهي إلى ذلك تعرض "
 "أسطح المكتب الافتراضية الحالية، مما يتيح لك إضافة المزيد أو إزالة بعضها أو "
 "التبديل بينهما.أخيرًا توفر حقل بحث لـ\"مشغل.ك\"  والذي يمكنه أيضًا ترشيح "
-"النوافذ المفتوحة  <nl/><nl/> يمكنك الوصول إلى النظرة العامة باستخدام اختصار "
-"لوحة المفاتيح <shortcut>Meta+W</shortcut>."
+"النوافذ المفتوحة."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
@@ -901,6 +891,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"يمكنك الوصول إلى \"نظرة عامة\" باستخدام اختصار لوحة المفاتيح <shortcut>Meta"
+"+W</shortcut>، أو بتحريك الفأرة إلى الزاوية العلوية اليسرى من الشاشة. يمكنك "
+"أيضًا الضغط على <shortcut>Meta+G</shortcut> لعرض الشبكة، والذي يعرض أجهزة سطح "
+"المكتب الافتراضية في شبكة."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -929,16 +923,7 @@ msgid "Plasma Vaults"
 msgstr "خزنات بلازما"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -950,14 +935,10 @@ msgstr ""
 "تتيح لك خزنات بلازما إنشاء مجلدات مشفرة، تسمى <interface> الخزنات.</"
 "interface> داخل كل خزنة، يمكنك تخزين كلمات سرك وملفاتك وصورك ومستندات بأمان، "
 "وآمنة من عيون المتطفلين. يمكن أن تكون خزنات داخل مجلدات تتم مزامنتها مع "
-"خدمات التخزين السحابية أيضًا، مما يوفر خصوصية إضافية لهذا المحتوى. <nl/> <nl/"
-"> للبدء انقر فوق السهم على <interface> صينية النظام </interface> لإظهار "
-"العناصر المخفية ، ثم انقر فوق أيقونة <interface> الخزنات</interface>."
+"خدمات التخزين السحابية أيضًا، مما يوفر خصوصية إضافية لهذا المحتوى."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "الخزنات"
@@ -966,18 +947,18 @@ msgstr "الخزنات"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "المستندات المستوردة"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "صوري"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "فك القفل وافتح"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -986,6 +967,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"للبدء، انقر فوق السهم الموجود على <interface>صينية النظام</interface> لإظهار "
+"العناصر المخفية، ثم انقر فوق أيقونة <interface>الخزنات</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
