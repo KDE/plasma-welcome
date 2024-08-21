@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-11 00:42+0000\n"
-"PO-Revision-Date: 2024-06-27 21:33+0300\n"
+"PO-Revision-Date: 2024-08-15 19:22+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 24.05.0\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -160,7 +160,7 @@ msgstr "Parādīt gaistošo laidienu lapu distributīvu gaistošajām vidēm."
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "Norādiet parādāmās(o) lapas(u) sarakstu, kas atdalīts ar komatu."
 
 #: src/module.cpp:72
 #, kde-format
@@ -255,7 +255,7 @@ msgstr "Izmantots pirms trim stundām"
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr "Izveidot aktivitāti..."
+msgstr "Izveidot aktivitāti…"
 
 #: src/qml/mock/MockKRunner.qml:83
 #, kde-format
@@ -266,7 +266,7 @@ msgstr "Meklēt…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "1. darbvirsma"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
@@ -284,7 +284,7 @@ msgstr "Kļūda, ielādējot lapu"
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Ziņot par kļūdu..."
+msgstr "Ziņot par kļūdu…"
 
 #: src/qml/PageError.qml:30
 #, kde-format
@@ -293,11 +293,10 @@ msgid "Copy Details"
 msgstr "Kopēt informāciju"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Šo iestatījumu moduli nevar ielādēt"
+msgstr "Šo lapu neizdodas ielādēt"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -433,7 +432,7 @@ msgstr "Kārtot pēc datuma"
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr "Filtrēt..."
+msgstr "Filtrēt…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -748,7 +747,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Atvērt iestatījumus..."
+msgstr "Atvērt iestatījumus…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:55
 #, kde-kuit-format
@@ -881,15 +880,7 @@ msgid "Overview"
 msgstr "Pārskats"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -902,8 +893,7 @@ msgstr ""
 "vieglu piekļuvi tiem. Tāpat tas parāda pašreizējo virtuālo darbvirsmu, ļauj "
 "pievienot papildu darbvirsmu, noņemt liekās un pārslēgties starp tām. "
 "Visbeidzot, tas piedāvā „KRunner“ meklēšanas lauku, ko varat izmantot arī "
-"atvērto logu atrašanai.<nl/><nl/>Pārskatam piekļūt varat, spiežot taustiņu "
-"kombināciju <shortcut>Meta+W</shortcut>."
+"atvērto logu atrašanai."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
@@ -914,6 +904,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Pārskatam piekļūt varat, spiežot taustiņu kombināciju <shortcut>Meta+W</"
+"shortcut> vai pārvietojot peles kursoru uz ekrāna augšējo kreiso stūri. "
+"Tāpat varat spiest <shortcut>Meta+G</shortcut>, lai atvērtu režģa skatu, "
+"kurā visas virtuālās darbvirsmas ir redzamas kā režģis."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -942,16 +936,7 @@ msgid "Plasma Vaults"
 msgstr "„Plasma“ seifi"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -964,14 +949,10 @@ msgstr ""
 "interface>. Katrā seifā varat drošībā no ziņkārīgām acīm uzglabāt savas "
 "paroles, datnes, attēlus un dokumentus. Seifi var dzīvot arī mapēs, kas tiek "
 "sinhronizētas ar mākoņpakalpojumu sniedzējiem, tādējādi saturam nodrošinot "
-"papildu privātuma līmeni.<nl/><nl/>Lai sāktu, spiediet uz bultiņa "
-"<interface>Sistēmas ikonu joslā</interface>, lai parādītu paslēptas "
-"vienības, pēc tam klikšķiniet uz <interface>Seifu</interface> ikonas."
+"papildu privātuma līmeni."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Seifi"
@@ -980,18 +961,18 @@ msgstr "Seifi"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Svarīgi dokumenti"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Manas fotogrāfijas"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Atslēgt un atvērt"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -1000,6 +981,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Lai sāktu, spiediet uz bultiņas <interface>Sistēmas ikonu joslā</interface>. "
+"Tas parādīs paslēptos elementus, bet pēc tam varat klikšķināt uz "
+"<interface>Seifu</interface> ikonas."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
