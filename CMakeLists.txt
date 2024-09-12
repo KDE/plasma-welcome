@@ -3,7 +3,7 @@
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
 project(welcome)
-set(PROJECT_VERSION "6.1.80")
+set(PROJECT_VERSION "6.1.90")
 
 cmake_minimum_required(VERSION 3.16)
 
