@@ -13,42 +13,78 @@ import org.kde.plasma.welcome
 
 ScrollablePage {
     id: root
+
     heading: i18nc("@title:window", "Supporting Members")
     description: xi18nc("@info:usagetip", "We thank the following supporting members for their recurring donation to KDE:")
 
-    property int sort: 0
+    enum SortOrders {
+        Random,
+        Name,
+        Date
+    }
+
+    QQC2.ActionGroup {
+        id: sortGroup
+        exclusive: true
+    }
+
+    property int sortOrder: Supporters.SortOrders.Random
     property string filter: ""
 
     actions: [
         Kirigami.Action {
-            displayComponent: QQC2.ComboBox {
-                flat: true
-                model: [
-                    i18nc("@item:inlistbox", "Sort Randomly"),
-                    i18nc("@item:inlistbox", "Sort by Name"),
-                    i18nc("@item:inlistbox", "Sort by Date")
-                ]
-                currentIndex: root.sort
-                onActivated: root.sort = currentIndex
+            text: i18nc("@action:button, %1 is the selected sort order, e.g. Random", "Sort: %1", sortGroup.checkedAction.text)
+            icon.name: "view-sort-symbolic"
+
+            Kirigami.Action {
+                QQC2.ActionGroup.group: sortGroup
+
+                text: i18nc("@action:inmenu An order to sort a list", "Random")
+                icon.name: "randomize-symbolic"
+
+                checkable: true
+                checked: root.sortOrder == Supporters.SortOrders.Random
+                onTriggered: root.sortOrder = Supporters.SortOrders.Random
+            }
+
+            Kirigami.Action {
+                QQC2.ActionGroup.group: sortGroup
+
+                text: i18nc("@action:inmenu An order to sort a list", "Name")
+                icon.name: "sort-name-symbolic"
+
+                checkable: true
+                checked: root.sortOrder == Supporters.SortOrders.Name
+                onTriggered: root.sortOrder = Supporters.SortOrders.Name
+            }
+
+            Kirigami.Action {
+                QQC2.ActionGroup.group: sortGroup
+
+                text: i18nc("@action:inmenu An order to sort a list", "Date")
+                icon.name: "change-date-symbolic"
+
+                checkable: true
+                checked: root.sortOrder == Supporters.SortOrders.Date
+                onTriggered: root.sortOrder = Supporters.SortOrders.Date
             }
         },
         Kirigami.Action {
             displayComponent: Kirigami.SearchField {
                 width: Kirigami.Units.gridUnit * 10
-                placeholderText: i18nc("@label placeholder", "Filter…")
                 onAccepted: root.filter = text
             }
         }
     ]
 
     readonly property var sortedSupporters: {
-        switch (sort) {
-            case 0:
+        switch (root.sortOrder) {
+            case Supporters.SortOrders.Random:
             default:
                 return sortRandom(supporters);
-            case 1:
+            case Supporters.SortOrders.Name:
                 return sortName(supporters);
-            case 2:
+            case Supporters.SortOrders.Date:
                 return supporters; // Already sorted by time
         }
     }
