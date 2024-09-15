@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-11 00:42+0000\n"
-"PO-Revision-Date: 2024-05-04 22:01+0900\n"
+"POT-Creation-Date: 2024-09-15 00:42+0000\n"
+"PO-Revision-Date: 2024-09-13 07:43+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -81,13 +81,13 @@ msgstr "%1 Beta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "コマンド <command>%1</command> が見つかりませんでした。"
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "エラーメッセージが提供されていません"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -95,7 +95,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "コマンド <command>%1</command> の実行に失敗しました: %2"
 
 #: src/main.cpp:38
 #, kde-format
@@ -113,7 +113,7 @@ msgstr "ようこそセンター"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2021–2024, KDE Community"
 
 #: src/main.cpp:53
 #, kde-format
@@ -159,7 +159,7 @@ msgstr "ディストリビューションの Live 環境のためのページを
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "表示されるページ (内部名) のコンマで区切られたリストを指定します。"
 
 #: src/module.cpp:72
 #, kde-format
@@ -215,9 +215,7 @@ msgid "&OK"
 msgstr "&OK"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "アクティビティ"
@@ -226,48 +224,48 @@ msgstr "アクティビティ"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "家"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "学校"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "仕事"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "現在使用中"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "3 時間前に使用"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "アクティビティを作成..."
 
 #: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "検索..."
 
-#: src/qml/mock/MockOverview.qml:97
+#: src/qml/mock/MockOverview.qml:99
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "デスクトップ 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
@@ -294,11 +292,10 @@ msgid "Copy Details"
 msgstr "詳細をコピー"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "設定モジュールの読み込みに失敗しました"
+msgstr "このページの読み込みに失敗しました"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -344,7 +341,7 @@ msgstr "Discover で %1 を表示"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "楽しんで！"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -354,20 +351,21 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"私達が Plasma の開発を楽しんだのと同じくらい、Plasma を楽しんでいただけたら幸"
+"いです！様々な機能を試したり、お気に入りのアプリケーションやゲームをインス"
+"トールしたりしてみてください。あなたらしいことをして楽しみましょう！"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
-msgstr "KDE コミュニティについて知る"
+msgstr "KDE コミュニティについて詳しく知る"
 
 #: src/qml/pages/Enjoy.qml:30
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "KDE のフォーラムでサポートを受ける"
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -377,6 +375,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Plasma に満足していただけたのであれば、ぜひ KDE への参加や寄付をご検討くださ"
+"い。KDE は大企業ではなく、国際的なボランティアのコミュニティです。あなたの協"
+"力が大きな意味を持ちます！"
 
 #: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -385,9 +386,7 @@ msgid "Make a donation"
 msgstr "寄付する"
 
 #: src/qml/pages/Enjoy.qml:69
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "参加する"
@@ -396,27 +395,21 @@ msgstr "参加する"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "支援者"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "支援者"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following supporting members for joining us in the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr ""
-"Plasma 6 資金調達キャンペーンを支援してくださった以下のサポートメンバーの方々"
-"に感謝します:"
+msgstr "KDE に繰り返し寄付してくださった以下の支援者の方々に感謝します:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
@@ -530,9 +523,7 @@ msgstr ""
 "す。%1 にこの問題を報告してください。"
 
 #: src/qml/pages/Network.qml:244
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when connected to the internet"
-#| msgid "You're connected"
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "接続されています"
@@ -567,12 +558,7 @@ msgid "Plasma has been updated to %1"
 msgstr "Plasma は %1 に更新されました"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Thank you for testing this beta release of Plasma—your feedback is "
-#| "fundamental to helping us improve it! Please report any and all bugs you "
-#| "find so that we can fix them."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
@@ -583,25 +569,19 @@ msgstr ""
 "バックは Plasma の改善に欠かせません！いかなるバグもぜひ報告してください。"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
-msgstr "<b>新機能を見る</b>"
+msgstr "<b>新機能を確認する</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "バグを報告"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "次のリリースのために支援する"
@@ -621,7 +601,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "<b>新機能を見る</b>"
+msgstr "<b>新機能を確認する</b>"
 
 #: src/qml/pages/plasmaupdate/Update.qml:29
 #, kde-format
@@ -654,8 +634,8 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
-"Plasma は、あなたの生産性を高める非常に多機能なデスクトップ環境です！これらは"
-"その機能のほんの一部です:"
+"Plasma は、あなたの生産性を高めるためにデザインされた、非常に多機能なデスク"
+"トップ環境です！これらはその機能のほんの一部です:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -744,17 +724,7 @@ msgid "Activities"
 msgstr "アクティビティ"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -767,10 +737,7 @@ msgstr ""
 "により一つ一つの作業に集中しやすくなります。例えば、「家庭」「学校」「仕事」"
 "のようにアクティビティを作成できます。それぞれのアクティビティはすべてのファ"
 "イルにアクセスできますが、アプリケーション、ウィンドウ、最近の文書、お気に入"
-"りアプリケーション、ウィジェットの特有のセットを持ちます。<nl/><nl/"
-"><interface>システム設定</interface>を起動し、「アクティビティ」を検索してく"
-"ださい。そのページで新しいアクティビティを作成できます。<shortcut>Meta+Tab</"
-"shortcut> でアクティビティを切り替えられます。"
+"りアプリケーション、ウィジェットの特有のセットを持ちます。"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -789,6 +756,9 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"<interface>システム設定</interface>を起動して、「アクティビティ」ページを検索"
+"してください。そのページでさらにアクティビティを作成できます。<shortcut>Meta"
+"+Tab</shortcut> でアクティビティを切り替えられます。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -797,18 +767,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -836,25 +795,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -868,12 +809,7 @@ msgstr ""
 "チャーやオーバービューの検索機能を担っているほか、<shortcut>Alt+Space</"
 "shortcut> を押すと現れるスタンドアロンの検索バーとして使用できます。<nl/><nl/"
 ">ファイルやフォルダの検索に加えて、アプリケーションの起動やウェブ検索、通貨換"
-"算、計算など、様々な機能を搭載しています。試しに以下の検索語を入力してみてく"
-"ださい:<nl/><list><item>\"time London\"</item><item>\"27/3\"</item><item>"
-"\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>...その他にもた"
-"くさんの機能があります！</item></list><nl/>さらなる情報を確認するには、"
-"<shortcut>Alt+Space</shortcut> を押して KRunner 検索バーを開き、クエスチョン"
-"マークアイコンをクリックしてください。"
+"算、計算など、様々な機能を搭載しています。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
@@ -882,6 +818,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"さらなる情報を確認するには、<shortcut>Alt+Space</shortcut> を押して KRunner "
+"検索バーを開き、疑問符アイコンをクリックしてください。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
@@ -891,7 +829,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "time London"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
@@ -899,7 +837,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -908,7 +846,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "20000 JPY in USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -917,7 +855,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 miles in km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -925,7 +863,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "…他にも!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
@@ -934,15 +872,7 @@ msgid "Overview"
 msgstr "オーバービュー"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -953,10 +883,9 @@ msgid ""
 msgstr ""
 "オーバービューは、すべての開かれたウィンドウを並べて表示する全画面オーバーレ"
 "イです。仮想デスクトップの一覧表示、追加、削除、切り替えも行えます。さらに、"
-"開かれたウィンドウを検索できる検索バーも備わっています。<nl/><nl/"
-"><shortcut>Meta+W</shortcut> でオーバービューにアクセスできます。"
+"開かれたウィンドウを検索できる検索バーも備わっています。"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:41
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -965,6 +894,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"<shortcut>Meta+W</shortcut> ショートカットを使用するか、マウスカーソルを画面"
+"の左上角に移動することでオーバービューにアクセスできます。<shortcut>Meta+G</"
+"shortcut> を使用して、仮想デスクトップをグリッドで表示するグリッドビューにア"
+"クセスすることもできます。"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -973,13 +906,7 @@ msgid "System Settings"
 msgstr "システム設定"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The System Settings app lets you extensively customize the system to suit "
-#| "your tastes and preferences. Default apps, wallpapers, visual styles and "
-#| "icons, virtual desktops, power management, 3rd-party add-ons—you'll find "
-#| "it all there!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "The System Settings app lets you extensively customize the system to suit "
@@ -998,16 +925,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma Vaults"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -1019,14 +937,10 @@ msgstr ""
 "Plasma Vaults で、<interface>Vaults</interface>と呼ばれる暗号化されたフォルダ"
 "を作成できます。パスワード、ファイル、画像や文書を Vaults の中で安全に保管で"
 "きます。Vaults はクラウドストレージサービスと同期されたフォルダの中にも作成で"
-"きます。<nl/><nl/><interface>システムトレイ</interface>上の矢印をクリックして"
-"アイテムを表示し、<interface>Vaults</interface>アイコンをクリックして作成して"
-"ください。"
+"きます。"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Plasma Vaults"
@@ -1035,18 +949,18 @@ msgstr "Plasma Vaults"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "重要な文書"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "写真"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "アンロックして開く"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -1055,6 +969,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"<interface>システムトレイ</interface>の矢印をクリックして非表示のアイテムを表"
+"示し、<interface>Vaults</interface>アイコンをクリックしてください。"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1063,14 +979,7 @@ msgid "Simple by Default"
 msgstr "デフォルトではシンプル"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Below is a visual "
-#| "representation of a typical Plasma Desktop; move the pointer over or "
-#| "click on something to learn about it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -1081,8 +990,8 @@ msgid ""
 msgstr ""
 "Plasma は「箱から出してすぐ使える」ようにデザインされています。あるべきものが"
 "あるべき場所にあるので、通常は快適に作業できるようにするために設定を変更する"
-"必要はありません。下に典型的な Plasma デスクトップの例があります。マウスオー"
-"バーしたりクリックしたりしてみてください！"
+"必要はありません。<nl/><nl/>下に典型的な Plasma デスクトップの例があります。"
+"マウスオーバーしたりクリックしたりしてみてください！"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1094,20 +1003,14 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
-"これは「デスクトップ」です。<filename>デスクトップ</filename>フォルダの中にあ"
-"るファイルやフォルダを表示するほか、ウィジェットの表示もできます。その上で右"
-"クリックして<interface>デスクトップと壁紙を設定...</interface>を選択すると、"
-"デスクトップの見た目を設定できます。ウィジェットを追加、削除、あるいは変更す"
-"るには、<interface>編集モードに入る</interface>を選択してください。"
+"これは「デスクトップ」です。<filename>デスクトップ</filename> フォルダの中に"
+"あるファイルやフォルダを表示するほか、ウィジェットの表示もできます。その上で"
+"右クリックして<interface>デスクトップと壁紙を設定...</interface>を選択する"
+"と、デスクトップの見た目を設定できます。ウィジェットを追加、削除、あるいは変"
+"更するには、<interface>編集モードに入る</interface>を選択してください。"
 
 #: src/qml/pages/SimpleByDefault.qml:36
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is a “Panel”—a container to hold widgets. Right-click on it and "
-#| "choose <interface>Show Panel Configuration</interface> to change how it "
-#| "behaves, which screen edge it lives on, and to add, remove or modify "
-#| "widgets."
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "This is a “Panel” — a container to hold widgets. Right-click on it and "
@@ -1128,7 +1031,7 @@ msgid ""
 msgstr ""
 "これは「アプリケーションランチャー」ウィジェットです。アプリケーションを起動"
 "するだけでなく、システムのシャットダウンや再起動、最近使用したファイルへのア"
-"クセスなど様々なことをこなせます。まずはクリックしてみてください！"
+"クセスなど、様々なことをこなせます。まずはクリックしてみてください！"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1226,7 +1129,7 @@ msgstr "ようこそセンターについて"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "KDE について"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format
@@ -1265,56 +1168,3 @@ msgstr "%1 を訪れる"
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE のマスコット Konqi があなたを歓迎します！"
-
-#~ msgctxt "@info copyright string"
-#~ msgid "(c) 2021"
-#~ msgstr "(c) 2021"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE is not a big company; it's an international volunteer community, and "
-#~ "its software is made by people like you donating their time and passion. "
-#~ "You too can help make things better, whether it's through translation, "
-#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
-#~ ">By contributing to KDE, you can become part of something special, meet "
-#~ "new friends, learn new skills, and make a difference to millions while "
-#~ "working with people from around the globe to deliver a stunning free "
-#~ "software computing experience."
-#~ msgstr ""
-#~ "KDE は大企業ではなく、国際的なボランティアのコミュニティです。私たちのソフ"
-#~ "トウェアは、人々からの時間と情熱の寄付によって作成されています。あなたも翻"
-#~ "訳、デザイン、広報、プログラミング、バグ選別のいずれにも参加できます。<nl/"
-#~ "><nl/>KDE に貢献することによって、新たな友人と出会ったり、スキルを身につけ"
-#~ "たりできます。世界中の人々と協力して、素晴らしい自由ソフトウェアを作り上げ"
-#~ "ませんか。"
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "貢献してみる！"
-
-#~ msgctxt "@title:window"
-#~ msgid "Support Your Freedom"
-#~ msgstr "自由のために"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The KDE community relies on donations of expertise and funds, and is "
-#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#~ "funds development sprints and server resources, and offers employment "
-#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#~ ">Donations are tax-deductible in Germany."
-#~ msgstr ""
-#~ "KDE コミュニティは技術と資金の寄付に支えられており、法規上の手続き、開発ス"
-#~ "プリントやサーバのための資金提供、KDE 開発者への雇用機会の提供を行うドイツ"
-#~ "の非営利団体 KDE e.V. の支援を受けています。KDE e.V. への寄付は、さらなる "
-#~ "KDE コミュニティへの支援につながります！<nl/><nl/>ドイツでは、寄付金は税控"
-#~ "除の対象です。"
-
-#~ msgctxt "@action:button"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "Plasma 6 サポーター"
-
-#~ msgctxt "@title:window"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "Plasma 6 サポーター"
