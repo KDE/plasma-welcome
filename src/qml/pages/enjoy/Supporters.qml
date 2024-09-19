@@ -19,7 +19,8 @@ ScrollablePage {
 
     enum SortOrders {
         Random,
-        Name,
+        LastName,
+        FirstName,
         Date
     }
 
@@ -50,12 +51,23 @@ ScrollablePage {
             Kirigami.Action {
                 QQC2.ActionGroup.group: sortGroup
 
-                text: i18nc("@action:inmenu An order to sort a list", "Name")
+                text: i18nc("@action:inmenu An order to sort a list", "Last Name")
                 icon.name: "sort-name-symbolic"
 
                 checkable: true
-                checked: root.sortOrder == Supporters.SortOrders.Name
-                onTriggered: root.sortOrder = Supporters.SortOrders.Name
+                checked: root.sortOrder == Supporters.SortOrders.LastName
+                onTriggered: root.sortOrder = Supporters.SortOrders.LastName
+            }
+
+            Kirigami.Action {
+                QQC2.ActionGroup.group: sortGroup
+
+                text: i18nc("@action:inmenu An order to sort a list", "First Name")
+                icon.name: "sort-name-symbolic"
+
+                checkable: true
+                checked: root.sortOrder == Supporters.SortOrders.FirstName
+                onTriggered: root.sortOrder = Supporters.SortOrders.FirstName
             }
 
             Kirigami.Action {
@@ -82,8 +94,10 @@ ScrollablePage {
             case Supporters.SortOrders.Random:
             default:
                 return sortRandom(supporters);
-            case Supporters.SortOrders.Name:
-                return sortName(supporters);
+            case Supporters.SortOrders.LastName:
+                return sortLastName(supporters);
+            case Supporters.SortOrders.FirstName:
+                return sortFirstName(supporters);
             case Supporters.SortOrders.Date:
                 return supporters; // Already sorted by time
         }
@@ -170,33 +184,39 @@ ScrollablePage {
         return sorted;
     }
 
-    function sortName(array) {
+    function sortLastName(array) {
+        return sortName(array, Supporters.SortOrders.LastName);
+    }
+
+    function sortFirstName(array) {
+        return sortName(array, Supporters.SortOrders.FirstName);
+    }
+
+    function sortName(array, mode) {
         let sorted = array.slice();
 
-        // Sort by last name, then first name, then middle name
         sorted.sort(function(a, b) {
+            // Separate out names
             let splitA = a.split(" ");
             let splitB = b.split(" ");
-
-            let lastA = splitA.length > 1 ? splitA[splitA.length - 1] : ""
-            let lastB = splitB.length > 1 ? splitB[splitB.length - 1] : ""
-
-            if (lastA != lastB) {
-                return lastA.localeCompare(lastB);
-            }
 
             let firstA = splitA[0];
             let firstB = splitB[0];
 
-            if (firstA != firstB) {
-                return firstA.localeCompare(firstB);
-            }
+            let lastA = splitA.length > 1 ? splitA[splitA.length - 1] : ""
+            let lastB = splitB.length > 1 ? splitB[splitB.length - 1] : ""
 
             let middleA = splitA.length > 2 ? splitA.slice(1, -1).join(" ") : ""
             let middleB = splitB.length > 2 ? splitB.slice(1, -1).join(" ") : ""
 
-            return middleA.localeCompare(middleB);
-        })
+            // Compare using first and last names, in the chosen order
+            let primaryCompare = (mode == Supporters.SortOrders.LastName
+                                  ? lastA.localeCompare(lastB) || firstA.localeCompare(firstB)
+                                  : firstA.localeCompare(firstB) || lastA.localeCompare(lastB))
+
+            // Fall back on comparing middle names after
+            return primaryCompare || middleA.localeCompare(middleB);
+        });
 
         return sorted;
     }
