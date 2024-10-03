@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-15 00:42+0000\n"
-"PO-Revision-Date: 2024-07-21 22:08-0500\n"
-"Last-Translator: aalam <aalam@punlinux.org>\n"
-"Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2024-10-01 21:32-0500\n"
+"Last-Translator: A S Alam <aman@punlinux.org>\n"
+"Language-Team: pa\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 24.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -87,7 +87,7 @@ msgstr "<command>%1</command> ਕਮਾਂਡ ਲੱਭੀ ਨਹੀਂ ਜਾ �
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "ਕੋਈ ਗਲਤੀ ਸੁਨੇਹਾ ਨਹੀਂ ਦਿੱਤਾ"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -254,7 +254,7 @@ msgstr "3 ਘੰਟੇ ਪਹਿਲਾਂ ਵਰਤਿਆ"
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "…ਸਰਗਰਮੀ ਬਣਾਓ"
 
 #: src/qml/mock/MockKRunner.qml:83
 #, kde-format
@@ -265,7 +265,7 @@ msgstr "…ਖੋਜੋ"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "ਡੈਸਕਟਾਪ 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
@@ -295,7 +295,7 @@ msgstr "ਵੇਰਵੇ ਕਾਪੀ ਕਰੋ"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr ""
+msgstr "ਇਸ ਸਫ਼ੇ ਨੂੰ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -885,9 +885,7 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "ਵਾਲਟ"
@@ -896,18 +894,18 @@ msgstr "ਵਾਲਟ"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "ਜ਼ਰੂਰੀ ਦਸਤਾਵੇਜ਼"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "ਮੇਰੀਆਂ ਫ਼ੋਟੋ"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "ਅਣ-ਲਾਕ ਤੇ ਖੋਲ੍ਹੋ"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
