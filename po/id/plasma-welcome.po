@@ -1,93 +1,94 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 # Linerly <linerly@protonmail.com>, 2023.
+# SPDX-FileCopyrightText: 2024 Wantoyèk <wantoyek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-11 00:42+0000\n"
-"PO-Revision-Date: 2023-02-15 16:32+0700\n"
-"Last-Translator: Linerly <linerly@protonmail.com>\n"
-"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2024-10-05 23:12+0700\n"
+"Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Linerly"
+msgstr "Linerly,Wantoyek"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "linerly@protonmail.com"
+msgstr "linerly@protonmail.com,wantoyek@gmail.com"
 
 #: src/controller.cpp:56
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "6.0 Dev"
 
 #: src/controller.cpp:59
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "6.0 Alfa"
 
 #: src/controller.cpp:62
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "6.0 Beta 1"
 
 #: src/controller.cpp:65
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "6.0 Beta 2"
 
 #: src/controller.cpp:68
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "6.0 RC1"
 
 #: src/controller.cpp:71
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "6.0 RC2"
 
 #: src/controller.cpp:89
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 Dev"
 
 #: src/controller.cpp:93
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 Beta"
 
 #: src/controller.cpp:96
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 Beta %2"
 
 #: src/controller.cpp:134
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "Perintah <command>%1</command> tidak dapat ditemukan."
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Tidak ada pesan galat yang disediakan"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -95,25 +96,25 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "Perintah <command>%1</command> gagal: %2"
 
 #: src/main.cpp:38
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Wizard orientasi yang mudah untuk Plasma"
 
 #: src/main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr ""
+msgstr "Pusat Selamat Datang"
 
 #: src/main.cpp:51
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2021–2024, Komunitas KDE"
 
 #: src/main.cpp:53
 #, kde-format
@@ -137,7 +138,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:72
 #, kde-format
@@ -145,41 +146,40 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Tampilkan catatan rilis untuk rilis Plasma saat ini."
 
 #: src/main.cpp:73
-#, fuzzy, kde-format
-#| msgid "Display release notes for the current Plasma release."
+#, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
-msgstr "Tampilkan catatan rilis untuk rilis Plasma saat ini."
+msgstr "Tampilan catatan rilis untuk rilis Plasma saat ini, untuk versi beta."
 
 #: src/main.cpp:74
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr ""
+msgstr "Tampilan halaman live yang ditujukan untuk environment live distro."
 
 #: src/main.cpp:77
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
+"Tentukan daftar halaman-halaman yang dipisahkan koma (menurut nama internal) "
+"yang akan ditampilkan."
 
 #: src/module.cpp:72
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "Modul %1 yang diminta tidak diketahui"
 
 #: src/qml/common/ApplicationIcon.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Launch Discover now"
+#, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "Luncurkan Discover sekarang"
+msgstr "Luncurkan %1 sekarang"
 
 #: src/qml/common/KCMPage.qml:80
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "Modul pengaturan tidak bisa dimuat"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -209,18 +209,16 @@ msgstr "&Berikutnya"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Tampilkan halaman ini sesudah Plasma diperbarui"
 
 #: src/qml/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "&Oke"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Aktivitas"
@@ -229,92 +227,91 @@ msgstr "Aktivitas"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Rumah"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Sekolah"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Kantor"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Yang sedang digunakan saat ini"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Digunakan 3 jam lalu"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Buat aktivitas..."
 
 #: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Cari…"
 
 #: src/qml/mock/MockOverview.qml:97
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Desktop 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Bentangkan jendela"
 
 #: src/qml/PageError.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "Galat memuat halaman"
 
 #: src/qml/PageError.qml:24 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr ""
+msgstr "Laporkan Bug…"
 
 #: src/qml/PageError.qml:30
-#, fuzzy, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
+#, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "linerly@protonmail.com"
+msgstr "Salin Rincian"
 
 #: src/qml/PageError.qml:43
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr ""
+msgstr "Halaman ini tidak dapat dimuat"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "Halaman ini yang  disediakan oleh distribusi Anda tidak dapat dimuat"
 
 #: src/qml/PageError.qml:48
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
+"Halaman ini yang  disediakan oleh Pusat Selamat Datang tidak dapat dimuat"
 
 #: src/qml/pages/Discover.qml:20
 #, kde-format
@@ -323,12 +320,7 @@ msgid "Manage Software"
 msgstr "Kelola Perangkat Lunak"
 
 #: src/qml/pages/Discover.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "The <application>Discover</application> app helps you find and install "
-#| "applications, games, and tools. You can search or browse by category, "
-#| "look at screenshots, and read reviews to help you find the perfect app."
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid ""
@@ -336,10 +328,10 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
-"Aplikasi <application>Discover</application> membantu Anda mencari dan "
-"memasang aplikasi, permainan, dan peralatan. Anda dapat mencari atau "
-"menelusuri berdasarkan kategori, lihat tangkapan layar, dan baca ulasan "
-"untuk membantu Anda mencari aplikasi yang sempurna."
+"Aplikasi <application>%1</application> membantu Anda mencari dan menginstal "
+"aplikasi, permainan, dan peralatan. Anda bisa mencari atau menelusuri "
+"berdasarkan kategori, lihat tangkapan layar, dan baca ulasan untuk membantu "
+"Anda mencari aplikasi yang sempurna."
 
 #: src/qml/pages/Discover.qml:105
 #, kde-format
@@ -351,7 +343,7 @@ msgstr "Tampilkan %1 di Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Bersenang-senanglah!"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -361,11 +353,13 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Kami harap Anda menyukai Plasma sama seperti kami senang membuatnya untuk "
+"Anda! Sekarang saatnya untuk langsung masuk. Jelajahi fitur-fiturnya, instal "
+"aplikasi permainan dan aplikasi favorit Anda, dan sibuklah melakukan apa "
+"yang membuat Anda menjadi diri Anda!"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Pelajari lebih lanjut tentang komunitas KDE"
@@ -374,7 +368,7 @@ msgstr "Pelajari lebih lanjut tentang komunitas KDE"
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "Dapatkan bantuan di forum diskusi KDE"
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -384,32 +378,33 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Jika Anda merasa Plasma bermanfaat, pertimbangkan untuk terlibat atau "
+"berdonasi. KDE adalah komunitas sukarelawan internasional, bukan perusahaan "
+"besar; kontribusi Anda membuat perbedaan yang nyata!"
 
 #: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "Buat sebuah donasi"
+msgstr "Berdonasi"
 
 #: src/qml/pages/Enjoy.qml:69
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "Terlibat"
+msgstr "Ikut terlibat"
 
 #: src/qml/pages/Enjoy.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Anggota yang Mendukung"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Anggota yang Mendukung"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
 #, kde-kuit-format
@@ -418,38 +413,38 @@ msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
 msgstr ""
+"Kami berterimakasih kepada anggota pendukung berikut atas donasi mereka yang "
+"berulang untuk KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Urutkan Secara Acak"
 
 #: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Urutkan berdasarkan Nama"
 
 #: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Urutkan berdasarkan Tanggal"
 
 #: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Filter…"
 
 #: src/qml/pages/Feedback.qml:15
-#, fuzzy, kde-format
-#| msgctxt "@title: window"
-#| msgid "Share Anonymous Usage Information With KDE"
+#, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Bagikan Informasi Penggunaan Anonim Dengan KDE"
+msgstr "Bagikan Informasi Penggunaan Anonim"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -463,12 +458,10 @@ msgstr ""
 "System Settings, dan di sini juga."
 
 #: src/qml/pages/Live.qml:19
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Selamat datang di KDE Plasma!"
+msgstr "Selamat datang di %1!"
 
 #: src/qml/pages/Live.qml:22
 #, kde-kuit-format
@@ -478,6 +471,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"Menekan ikon di bawah akan mulai menginstal %1. Alternatifnya, Anda bisa "
+"menutup jendela untuk menjelajahi environment live atau lanjutkan di sini "
+"untuk mencari tau tentang KDE Plasma."
 
 #: src/qml/pages/Live.qml:24
 #, kde-kuit-format
@@ -486,12 +482,14 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"Anda bisa menutup jendela untuk menjelajahi environment live atau "
+"melanjutkan di sini untuk mencari tau tentang KDE Plasma."
 
 #: src/qml/pages/Live.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr ""
+msgstr "Kunjungi halaman beranda"
 
 #: src/qml/pages/Network.qml:19
 #, kde-format
@@ -517,7 +515,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Dukungan jaringan untuk Plasma saat ini belum diinstal"
 
 #: src/qml/pages/Network.qml:75
 #, kde-kuit-format
@@ -526,18 +524,20 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Untuk mengelola koneksi jaringan, Plasma membutuhkan <icode>plasma-nm</"
+"icode> untuk diinstal. Silakan laporkan kelalaian ini ke %1."
 
 #: src/qml/pages/Network.qml:244
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr ""
+msgstr "Anda terkoneksi"
 
 #: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Semuanya siap untuk berangkat!"
 
 #: src/qml/pages/Network.qml:252
 #, kde-format
@@ -547,20 +547,21 @@ msgid ""
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
+"Halaman ini ditampilkan terlepas dari konektivitas jaringan karena Anda "
+"menggunakan versi pengembangan. Untuk melihat secara manual berbagai status "
+"halaman, Anda dapat menggunakan tombol."
 
 #: src/qml/pages/Network.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Ubah keadaan"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Plasma has been updated to version %1"
+#, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Plasma telah diperbarui ke versi %1"
+msgstr "Plasma telah diperbarui ke %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
 #, kde-kuit-format
@@ -570,28 +571,27 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Terima kasih telah menguji rilis beta Plasma ini — masukan Anda sangat "
+"penting untuk membantu kami memperbaikinya! Silakan laporkan setiap dan "
+"semua bug yang Anda temukan sehingga kami dapat memperbaikinya."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
-msgstr "Cari tahu apa yang baru dalam Plasma %1"
+msgstr "<b>Cari tahu apa yang baru</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
 #, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
-msgstr ""
+msgstr "Laporkan bug"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
-msgstr "Bantu mengerjakan rilis berikutnya"
+msgstr "Bantu mengerjakan pada rilis selanjutnya"
 
 #: src/qml/pages/plasmaupdate/Update.qml:18
 #, kde-kuit-format
@@ -605,12 +605,10 @@ msgstr ""
 "kami menikmati membuatnya!"
 
 #: src/qml/pages/plasmaupdate/Update.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Find out what's new in Plasma %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
-msgstr "Cari tahu apa yang baru dalam Plasma %1"
+msgstr "<b>Cari tahu apa yang baru</b>"
 
 #: src/qml/pages/plasmaupdate/Update.qml:29
 #, kde-format
@@ -626,12 +624,16 @@ msgid ""
 "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
 "wider KDE community, and you can make a difference by donating today."
 msgstr ""
+"Komunitas KDE bergantung pada sumbangan keahlian dan dana, dan didukung oleh "
+"KDE e.V.—sebuah organisasi nirlaba Jerman. Donasi untuk KDE e.V. dukung "
+"komunitas KDE yang lebih luas, dan Anda dapat membuat perbedaan dengan "
+"berdonasi hari ini."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:15
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "Berdaya Ketika Dibutuhkan"
+msgstr "Tangguh Ketika Dibutuhkan"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-kuit-format
@@ -698,7 +700,7 @@ msgstr "Pisahkan tugas kerja, sekolah, atau rumah"
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Brankas"
+msgstr "Vaults"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:101
 #, kde-format
@@ -707,18 +709,16 @@ msgid "Store sensitive files securely"
 msgstr "Simpan berkas sensitif secara aman"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:111
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr "System Settings"
+msgstr "Pengaturan Sistem"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Konfigurasi sistem"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
@@ -733,17 +733,7 @@ msgid "Activities"
 msgstr "Aktivitas"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -752,24 +742,20 @@ msgid ""
 "own set of open apps and windows, recent documents, “Favorite” apps, and "
 "desktop widgets."
 msgstr ""
-"Aktivitas dapat digunakan untuk memisahkan proyek atau alur kerja tingkat "
-"tinggi supaya Anda dapat fokus pada satu per satu. Anda dapat memiliki "
+"Aktivitas bisa digunakan untuk memisahkan alur kerja atau proyek tingkat "
+"tinggi supaya Anda bisa fokus pada satu per satu. Anda bisa memiliki "
 "aktivitas untuk \"Rumah\", \"Sekolah\", \"Kerja\", dan lain-lain. Setiap "
-"Aktivitas memiliki akses ke semua berkas Anda tetapi memiliki setelan "
-"aplikasi dan jendela yang terbuka.<nl/><nl/>Untuk memulai, luncurkan "
-"<interface>System Settings</interface> dan cari \"Aktivitas\". Di halaman "
-"itu, Anda dapat membuat lebih banyak Aktivitas. Anda dapat mengubahnya "
-"menggunakan pintasan papan ketik <shortcut>Meta+Tab</shortcut>."
+"Aktivitas memiliki akses ke semua file Anda tetapi memiliki setelan aplikasi "
+"dan jendela yang terbuka, dokumen baru-baru ini, aplikasi \"Favorit\", dan "
+"widget desktop."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "System Settings"
+msgstr "Buka Pengaturan…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:55
 #, kde-kuit-format
@@ -780,6 +766,10 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"Untuk memulai, luncurkan <interface>System Settings</interface> dan cari "
+"\"Aktivitas”. Di halaman itu, Anda dapat membuat lebih banyak Aktivitas. "
+"Anda kemudian bisa beralih di antara keduanya menggunakan pintasan keyboard "
+"<shortcut>Meta+Tab</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -788,18 +778,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -814,13 +793,13 @@ msgid ""
 msgstr ""
 "KDE Connect memungkinkan Anda untuk mengintegrasikan ponsel Anda dengan "
 "komputer Anda dalam berbagai cara:<nl/><list><item>Lihat notifikasi dari "
-"ponsel Anda di komputer Anda</item><item>Balas ke pesan teks dari ponsel "
+"ponsel Anda di komputer Anda</item><item>Balas untuk pesan teks dari ponsel "
 "Anda di komputer Anda</item><item>Sinkronkan konten papan klip Anda antara "
 "komputer Anda dan ponsel Anda</item><item>Buat suara pada ponsel Anda ketika "
-"hilang</item><item>Salin gambar, video, dan berkas lainnya dari ponsel Anda "
-"ke komputer Anda, dan sebaliknya</item><item>…dan masih lebih banyak lagi!</"
-"item></list><nl/>Untuk memulai, luncurkan <interface>System Settings</"
-"interface> dan cari \"KDE Connect\". Di halaman itu, Anda dapat "
+"ponsel terselip</item><item>Salin gambar, video, dan file lainnya dari "
+"ponsel Anda ke komputer Anda, dan sebaliknya</item><item>…dan masih lebih "
+"banyak lagi!</item></list><nl/>Untuk memulai, luncurkan <interface>System "
+"Settings</interface> dan cari \"KDE Connect\". Di halaman itu, Anda bisa "
 "menyandingkan ponsel Anda."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
@@ -830,23 +809,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -856,18 +819,13 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
-"KRunner adalah sistem pencarian Plasma yang sangat berdaya dan serbaguna. "
-"KRunner memberdayakan fungsi pencarian dalam menu Peluncur Aplikasi dan "
-"layar Ikhtisar, dan dapat diakses sebagai bilah pencarian tersendiri "
-"menggunakan pintasan papan ketik <shortcut>Alt+Space</shortcut>.<nl/><nl/"
-">Selain mencari berkas dan folder Anda, KRunner dapat meluncurkan aplikasi, "
-"mencari di web, mengubah antara mata uang, menghitung masalah matematika, "
-"dan lebih banyak lagi. Coba ketik salah satu dari berikut ke dalam kolom "
-"pencariannya:<nl/><list><item>\"waktu Jakarta\"</item><item>\"27/3\"</"
-"item><item>\"20000 IDR dalam USD\"</item><item>\"25 km dalam mi\"</"
-"item><item>…dan lebih banyak lagi!</item></list><nl/>Untuk mempelajari lebih "
-"lanjut, buka bilah pencarian KRunner menggunakan pintasan papan ketik "
-"<shortcut>Alt+Space</shortcut> dan mengeklik pada ikon tanda tanya."
+"KRunner adalah sistem pencarian Plasma yang sangat tangguh dan serbaguna. Ia "
+"andal dalam fungsionalitas pencarian dalam menu Peluncur Aplikasi dan layar "
+"Ikhtisar, dan bisa diakses sebagai bilah pencarian tersendiri menggunakan "
+"pintasan keyboard <shortcut>Alt+Space</shortcut>.<nl/><nl/>Selain mencari "
+"file dan folder Anda, KRunner bisa meluncurkan aplikasi, mencari web, "
+"mengubah antara mata uang, menghitung masalah matematika, dan lebih banyak "
+"lagi."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
@@ -876,6 +834,9 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Untuk mempelajari selebihnya, bukalah bilah pencarian KRunner menggunakan "
+"pintasan keyboard <shortcut>Alt+Space</shortcut> dan klik pada ikon tanda "
+"tanya."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
@@ -885,7 +846,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "waktu Jakarta"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
@@ -893,7 +854,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -902,7 +863,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 IDR dalam USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -911,7 +872,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 mil dalam km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -919,7 +880,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...dan lebih banyak lagi!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
@@ -928,15 +889,7 @@ msgid "Overview"
 msgstr "Ikhtisar"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -945,13 +898,12 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
-"Ikhtisar adalah hamparan layar penuh yang menampilkan semua jendela terbuka "
-"Anda, memungkinkan Anda mengaksesnya secara mudah. Ikhtisar juga menampilkan "
-"Desktop Virtual Anda, memungkinkan Anda menambahkan lebih banyak, menghapus "
-"beberapa, dan mengubah antara mereka. Lalu, Ikhtisar juga menyediakan kolom "
-"pencarian yang diberdayakan oleh KRunner yang juga dapat menyaring jendela "
-"yang terbuka.<nl/><nl/>Anda dapat mengakses Ikhtisar dengan menggunakan "
-"pintasan papan ketik <shortcut>Meta+W</shortcut>."
+"Ikhtisar adalah hamparan layar penuh yang menampilkan semua jendela yang "
+"Anda buka, memungkinkan Anda mengaksesnya secara mudah. Juga menampilkan "
+"Desktop Virtual Anda saat ini, memungkinkan Anda menambahkan lebih banyak, "
+"menghapus beberapa, dan beralih diantara mereka. Lalu, ia juga menawarkan "
+"kolom pencarian yang didukung KRunner yang juga bisa memfilter melalui "
+"jendela yang terbuka."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:41
 #, kde-kuit-format
@@ -962,11 +914,13 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Anda bisa mengakses Ikhtisar menggunakan pintasan keyboard <shortcut>Meta+W</"
+"shortcut>, atau dengan menggerakkan mouse ke pojok kiri atas layar. Anda "
+"juga bisa menekan <shortcut>Meta+G</shortcut> untuk Tampilan Kisi, yang "
+"menampilkan Desktop Virtual dalam sebuah kisi."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "System Settings"
@@ -980,24 +934,19 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
 "it all there!"
 msgstr ""
+"Aplikasi System Settings memungkinkan Anda menyesuaikan sistem secara "
+"menyeluruh agar sesuai dengan selera dan preferensi Anda. Aplikasi baku, "
+"wallpaper, gaya visual dan ikon, desktop virtual, pengelolaan daya, add-on "
+"pihak ketiga — Anda akan menemukan semuanya di sana!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr "Vault Plasma"
+msgstr "Plasma Vaults"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -1006,38 +955,34 @@ msgid ""
 "Vaults can live inside folders that are synced to cloud storage services "
 "too, providing extra privacy for that content."
 msgstr ""
-"Vault Plasma memungkinkan Anda untuk membuat folder terenkripsi, disebut "
-"sebagai <interface>Vault.</interface> Di setiap Vault, Anda dapat menyimpan "
-"kata sandi, berkas, dan dokumen Anda secara aman dari mata-mata. Vault juga "
-"dapat tinggal di dalam folder yang disinkronkan ke layanan penyimpanan awan, "
-"menyediakan tambahan privasi pada konten.<nl/><nl/>Untuk memulai, klik panah "
-"di <interface>Baki Sistem</interface> untuk menampilkan item yang "
-"tersembunyi, lalu klik pada ikon <interface>Vault.</interface>"
+"Plasma Vaults memungkinkan Anda untuk membuat folder terenkripsi, disebut "
+"sebagai <interface>Vaults.</interface> Di dalam setiap Vaults, Anda bisa "
+"menyimpan kata sandi, file, dan dokumen Anda secara aman dari mata-mata. "
+"Vaults juga bisa tinggal di dalam folder yang disinkronkan ke layanan "
+"penyimpanan awan, menyediakan tambahan privasi untuk konten tersebut."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
-msgstr "Brankas"
+msgstr "Vaults"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:107
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Dokumen Penting"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Fotoku"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Lepas Kunci dan Buka"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -1046,22 +991,18 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Untuk memulai, klik arah panah pada <interface>System Tray</interface> untuk "
+"menampilkan item yang tersembunyi, dan kemudian klik ikon <interface>Vaults</"
+"interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "Sederhana Secara Bawaan"
+msgstr "Sederhana Secara Baku"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>System "
-#| "Settings</application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -1070,11 +1011,11 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
-"Plasma dirancang untuk menjadi sederhana dan dapat digunakan secara "
-"langsung. Hal-hal ada di mana Anda duga, dan secara umum tidak perlu "
-"mengatur apa pun sebelum Anda dapat menjadi nyaman dan produktif.<nl/><nl/"
-">Jika Anda ingin, Anda dapat mencari apa yang Anda perlukan dalam aplikasi "
-"<application>System Settings</application>."
+"Plasma dirancang sederhana dan bisa digunakan secara langsung. Hal-hal yang "
+"dapat Anda duga, dan secara umum tidak perlu mengatur apa pun sebelum Anda "
+"bisa menjadi nyaman dan produktif.<nl/><nl/>Di bawah ini adalah representasi "
+"visual pada Desktop Plasma pada umumnya; pindahkanlah pointer mouse atau "
+"klik sesuatu untuk memperlajarinya!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1086,6 +1027,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Ini adalah \"Desktop\". Ini menampilkan file dan folder yang terdapat dalam "
+"folder <filename>Desktop</filename> Anda, dan bisa menampung widget. Klik "
+"kanan padanya dan pilih <interface>Desktop dan Wallpaper…</interface> untuk "
+"mengonfigurasi tampilan desktop. Anda juga bisa memilih <interface>Masuk ke "
+"Mode Edit</interface> untuk menambah, menghapus, atau memodifikasi widget."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1095,6 +1041,10 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Ini adalah “Panel” — wadah untuk menyimpan widget. Klik kanan padanya dan "
+"pilih <interface>Tampilkan Konfigurasi Panel</interface> untuk mengubah "
+"perilakunya, di tepi layar mana ia berada, dan untuk menambah, menghapus, "
+"atau memodifikasi widget."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1104,6 +1054,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Ini adalah widget “Kickoff”, peluncur serbaguna. Di sini Anda dapat "
+"meluncurkan aplikasi, mematikan atau memulai ulang sistem, mengakses file "
+"terbaru, dan banyak lagi. Klik untuk memulai!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1112,6 +1065,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Ini adalah widget “Task Manager”, tempat Anda dapat beralih di antara "
+"aplikasi yang terbuka dan juga meluncurkan aplikasi baru. Seret ikon "
+"aplikasi untuk mengatur ulang ikon tersebut."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1122,6 +1078,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"Ini adalah widget “System Tray”, yang memungkinkan Anda mengontrol fungsi "
+"sistem seperti mengubah volume dan menghubungkan ke jaringan. Item akan "
+"terlihat di sini hanya jika relevan. Untuk melihat semua item yang tersedia, "
+"klik panah ⌃ di sebelah jam."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1131,6 +1091,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Ini adalah widget “Jam Digital”. Klik untuk menampilkan kalender. Ini juga "
+"dapat dikonfigurasi untuk menampilkan zona waktu dan acara lain dari "
+"kalender digital Anda."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1140,23 +1103,18 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Ini adalah widget “Intip Desktop”. Klik untuk menyembunyikan sementara semua "
+"jendela yang terbuka sehingga Anda dapat mengakses desktop. Klik lagi untuk "
+"mengembalikannya."
 
 #: src/qml/pages/Welcome.qml:20
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome to KDE Plasma!"
+#, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Selamat datang di KDE Plasma!"
+msgstr "Selamat Datang"
 
 #: src/qml/pages/Welcome.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/><nl/>This operating system is running Plasma, a free and open-source "
@@ -1165,20 +1123,15 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"Plasma adalah lingkungan desktop bebas dan sumber terbuka dibuat oleh KDE, "
-"sebuah komunitas perangkat lunak internasional terdiri dari para relawan. "
-"Desktop Plasma sederhana secara bawaan untuk pengalaman yang mulus, tetapi "
-"berdaya ketika dibutuhkan untuk membantu Anda benar-benar menyelesaikan hal-"
-"hal. Kami berharap Anda menyukainya!"
+"%1<nl/><nl/>Sistem operasi sedang menjalankan Plasma, sebuah lingkungan "
+"desktop bebas dan sumber terbuka yang dibuat oleh KDE, sebuah komunitas "
+"perangkat lunak internasional terdiri dari para relawan. Desktop Plasma "
+"sederhana secara baku untuk pengalaman yang mulus, tetapi tangguh ketika "
+"dibutuhkan untuk membantu Anda benar-benar menyelesaikan hal-hal. Kami "
+"berharap Anda menyukainya!"
 
 #: src/qml/pages/Welcome.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is a free and open-source desktop environment created by KDE, an "
-#| "international software community of volunteers. The Plasma desktop "
-#| "environment is simple by default for a smooth experience, but powerful "
-#| "when needed to help you really get things done. We hope you love it!"
+#, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a "
@@ -1187,23 +1140,24 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Plasma adalah lingkungan desktop bebas dan sumber terbuka dibuat oleh KDE, "
+"Selamat datang di operasi sistem %1 yang menjalankan Plasma KDE!<nl/><nl/"
+">Plasma adalah lingkungan desktop bebas dan sumber terbuka dibuat oleh KDE, "
 "sebuah komunitas perangkat lunak internasional terdiri dari para relawan. "
-"Desktop Plasma sederhana secara bawaan untuk pengalaman yang mulus, tetapi "
-"berdaya ketika dibutuhkan untuk membantu Anda benar-benar menyelesaikan hal-"
+"Desktop Plasma sederhana secara baku untuk pengalaman yang mulus, tetapi "
+"tangguh ketika dibutuhkan untuk membantu Anda benar-benar menyelesaikan hal-"
 "hal. Kami berharap Anda menyukainya!"
 
 #: src/qml/pages/Welcome.qml:27
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr ""
+msgstr "Tentang Welcome Center"
 
 #: src/qml/pages/Welcome.qml:33
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "Tentang KDE"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format
@@ -1212,24 +1166,22 @@ msgid "Learn more about the KDE community"
 msgstr "Pelajari lebih lanjut tentang komunitas KDE"
 
 #: src/qml/pages/Welcome.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Pelajari lebih lanjut tentang komunitas KDE"
+msgstr "Pelajari lebih lanjut tentang %1"
 
 #: src/qml/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Gagal memuat gambar"
 
 #: src/qml/pages/Welcome.qml:101
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
+msgstr "Tidak bisa memuat <filename>%1</filename>. Pastikan itu ada."
 
 #: src/qml/pages/Welcome.qml:128
 #, kde-format
