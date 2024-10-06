@@ -1,31 +1,32 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 # Linerly <linerly@protonmail.com>, 2023.
+# SPDX-FileCopyrightText: 2024 Wantoyèk <wantoyek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-02-15 16:32+0700\n"
-"Last-Translator: Linerly <linerly@protonmail.com>\n"
-"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2024-10-05 23:12+0700\n"
+"Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Linerly"
+msgstr "Linerly,Wantoyek"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "linerly@protonmail.com"
+msgstr "linerly@protonmail.com,wantoyek@gmail.com"
 
 #: src/contents/ui/main.qml:55
 #, kde-format
@@ -96,7 +97,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Get Involved"
-msgstr "Terlibat"
+msgstr "Ikut Terlibat"
 
 #: src/contents/ui/pages/Contribute.qml:17
 #, kde-kuit-format
@@ -198,7 +199,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "Buat sebuah donasi"
+msgstr "Berdonasi"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-format
@@ -253,7 +254,7 @@ msgstr "Bantu mengerjakan rilis berikutnya"
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "Berdaya Ketika Dibutuhkan"
+msgstr "Tangguh Ketika Dibutuhkan"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -270,7 +271,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Brankas"
+msgstr "Vaults"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
@@ -338,7 +339,7 @@ msgstr "Dapatkan Hal-Hal Baru"
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr "Luaskan sistem dengan tambahan"
+msgstr "Luaskan sistem dengan add-ons"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
@@ -350,7 +351,7 @@ msgstr "Pelajari lebih lanjut tentang fitur Plasma"
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr "Vault Plasma"
+msgstr "Plasma Vaults"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:122
 #, kde-kuit-format
@@ -365,12 +366,12 @@ msgid ""
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
 "Vault Plasma memungkinkan Anda untuk membuat folder terenkripsi, disebut "
-"sebagai <interface>Vault.</interface> Di setiap Vault, Anda dapat menyimpan "
-"kata sandi, berkas, dan dokumen Anda secara aman dari mata-mata. Vault juga "
-"dapat tinggal di dalam folder yang disinkronkan ke layanan penyimpanan awan, "
-"menyediakan tambahan privasi pada konten.<nl/><nl/>Untuk memulai, klik panah "
-"di <interface>Baki Sistem</interface> untuk menampilkan item yang "
-"tersembunyi, lalu klik pada ikon <interface>Vault.</interface>"
+"sebagai <interface>Vaults.</interface> Di setiap Vaults, Anda dapat "
+"menyimpan kata sandi, file, dan dokumen Anda secara aman dari mata-mata. "
+"Vaults juga dapat tinggal di dalam folder yang disinkronkan ke layanan "
+"penyimpanan awan, menyediakan tambahan privasi pada konten.<nl/><nl/>Untuk "
+"memulai, klik panah di <interface>System Tray</interface> untuk menampilkan "
+"item yang tersembunyi, lalu klik pada ikon <interface>Vaults.</interface>"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -478,6 +479,18 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner adalah sistem pencarian Plasma yang sangat tangguh dan serbaguna. Ia "
+"andal dalam fungsionalitas pencarian dalam menu Peluncur Aplikasi dan layar "
+"Ikhtisar, dan bisa diakses sebagai bilah pencarian tersendiri menggunakan "
+"pintasan papan ketik <shortcut>Alt+F2</shortcut>.<nl/><nl/>Selain untuk "
+"menemukan file dan folder Anda, KRunner bisa meluncurkan aplikasi, mencari "
+"di web, mengonversi antara mata uang, menghitung masalah matematika, dan "
+"lebih banyak lagi. Coba ketik salah satu dari berikut ke dalam kolom "
+"pencariannya:<nl/><list><item>\"waktu Jakarta\"</item><item>\"27/3\"</"
+"item><item>\"20000 IDR dalam USD\"</item><item>\"25 mil dalam km\"</"
+"item><item>…Dan lebih banyak lagi!</item></list><nl/>Untuk mempelajari lebih "
+"lanjut, bukalah bilah pencarian KRunner menggunakan pintasan papan ketik "
+"<shortcut>Alt+F2</shortcut> dan mengeklik pada ikon tanda tanya."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -540,7 +553,7 @@ msgstr "Lihat Semua Konten Pihak Ketiga Yang Tersedia"
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "Sederhana Secara Bawaan"
+msgstr "Sederhana Secara Baku"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -644,3 +657,4 @@ msgstr "Nate Graham"
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
+"Nomor versi pada rilis Plasma untuk menampilkan catatan rilis, misalnya 5.25"
