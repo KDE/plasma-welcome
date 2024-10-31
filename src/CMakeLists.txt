@@ -89,11 +89,11 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::I18n
     KF6::ConfigCore
     KF6::CoreAddons
-    KF6::ConfigWidgets
     KF6::DBusAddons
     KF6::KIOGui
     KF6::JobWidgets
     KF6::KCMUtils
+    KF6::ConfigGui
     KF6::Service
     KF6::WindowSystem
 )

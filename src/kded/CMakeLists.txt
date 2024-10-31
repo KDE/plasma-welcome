@@ -11,7 +11,6 @@ target_sources(kded_plasma-welcome PRIVATE
 target_link_libraries(kded_plasma-welcome PRIVATE
     Qt::Core
     KF6::DBusAddons
-    KF6::ConfigWidgets
     KF6::KIOGui
     KF6::JobWidgets
 )
