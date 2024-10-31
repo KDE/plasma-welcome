@@ -4,11 +4,12 @@
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
+#include <QString>
+
 #include <KConfig>
 #include <KIO/CommandLauncherJob>
 #include <KNotificationJobUiDelegate>
 #include <KPluginFactory>
-#include <QString>
 
 #include "../plasma-welcome-version.h"
 #include "daemon.h"

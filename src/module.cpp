@@ -7,11 +7,11 @@
 
 #include "module.h"
 
-#include <KPluginFactory>
 #include <QQmlContext>
 #include <QQmlEngine>
 
 #include <KLocalizedString>
+#include <KPluginFactory>
 
 KQuickConfigModule *Module::kcm() const
 {

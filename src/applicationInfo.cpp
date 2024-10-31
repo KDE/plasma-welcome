@@ -6,8 +6,9 @@
 
 #include "applicationInfo.h"
 
-#include <KService>
 #include <QString>
+
+#include <KService>
 
 void ApplicationInfo::setDesktopName(const QString &desktopName)
 {

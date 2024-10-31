@@ -15,14 +15,14 @@
 #include <QSurfaceFormat>
 #include <QUrl>
 
-#include "controller.h"
-#include "plasma-welcome-version.h"
-
 #include <KAboutData>
 #include <KDBusService>
 #include <KLocalizedContext>
 #include <KLocalizedString>
 #include <KWindowSystem>
+
+#include "controller.h"
+#include "plasma-welcome-version.h"
 
 int main(int argc, char *argv[])
 {

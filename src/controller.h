@@ -7,11 +7,12 @@
 
 #pragma once
 
-#include <KAboutData>
 #include <QJSValue>
 #include <QObject>
 #include <QVersionNumber>
 #include <qqmlregistration.h>
+
+#include <KAboutData>
 
 class Controller : public QObject
 {

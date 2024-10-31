@@ -14,10 +14,6 @@
 #include <QStandardPaths>
 #include <QString>
 
-#include "config-plasma-welcome.h"
-#include "controller.h"
-#include "plasma-welcome-version.h"
-
 #include <KDesktopFile>
 #include <KIO/ApplicationLauncherJob>
 #include <KLocalizedString>
@@ -25,6 +21,10 @@
 #include <KOSRelease>
 #include <KPluginMetaData>
 #include <KService>
+
+#include "config-plasma-welcome.h"
+#include "controller.h"
+#include "plasma-welcome-version.h"
 
 Controller::Controller()
 {

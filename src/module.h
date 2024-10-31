@@ -7,10 +7,10 @@
 
 #pragma once
 
-#include <KQuickConfigModule>
-
 #include <QFileInfo>
 #include <QObject>
+
+#include <KQuickConfigModule>
 
 class Module : public QObject
 {

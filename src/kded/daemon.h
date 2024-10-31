@@ -6,9 +6,10 @@
 
 #pragma once
 
-#include <KConfigGroup>
 #include <QVersionNumber>
-#include <kdedmodule.h>
+
+#include <KConfigGroup>
+#include <KDEDModule>
 
 class PlasmaWelcomeDaemon : public KDEDModule
 {
