@@ -52,7 +52,7 @@ GenericPage {
         QQC2.Label {
             Layout.fillWidth: true
 
-            text: xi18nc("@info:usagetip", "To get started, launch <interface>System Settings</interface> and search for “Activities”. On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut.")
+            text: xi18nc("@info:usagetip", "To get started, launch <interface>System Settings</interface> and search for “Activities”. On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut.")
             wrapMode: Text.WordWrap
         }
     }
