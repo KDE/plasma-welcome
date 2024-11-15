@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:42+0000\n"
-"PO-Revision-Date: 2024-08-01 20:18+0300\n"
+"PO-Revision-Date: 2024-11-14 09:02+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -759,13 +759,7 @@ msgid "Open Settings…"
 msgstr "Відкрити вікно параметрів…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:55
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -776,7 +770,7 @@ msgstr ""
 "параметри</interface> і пошукайте розділ «Простори дій». На відповідній "
 "сторінці ви зможете створити додаткові простори дій. Потім ви зможете "
 "перемикатися між ними за допомогою натискання комбінації клавіш "
-"<shortcut>Meta+Tab</shortcut>."
+"<shortcut>Meta+Q</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format

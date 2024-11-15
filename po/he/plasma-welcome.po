@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:42+0000\n"
-"PO-Revision-Date: 2024-08-01 08:36+0300\n"
+"PO-Revision-Date: 2024-11-14 21:37+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 24.08.1\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 
@@ -742,13 +742,7 @@ msgid "Open Settings…"
 msgstr "פתיחת ההגדרות…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:55
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -757,7 +751,7 @@ msgid ""
 msgstr ""
 "כדי להתחיל יש להפעיל את <interface>הגדרות המערכת</interface> ולחפש אחר "
 "„פעילויות”. בעמוד הזה, ניתן ליצור פעילויות נוספות. לאחר מכן אפשר לעבור "
-"ביניהן באמצעות מקש הקיצור <shortcut>Meta+Tab</shortcut> במקלדת."
+"ביניהן באמצעות מקש הקיצור <shortcut>Meta+Q</shortcut> במקלדת."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
