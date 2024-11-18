@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:42+0000\n"
-"PO-Revision-Date: 2024-09-22 21:48+0200\n"
+"PO-Revision-Date: 2024-11-16 20:49+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.0\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -757,13 +757,7 @@ msgid "Open Settings…"
 msgstr "Beállítások megnyitása…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:55
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -772,8 +766,8 @@ msgid ""
 msgstr ""
 "A kezdéshez indítsa el a <interface>Rendszerbeállításokat</interface>, és "
 "keresse meg az „Aktivitások” menüpontot. Ezen az oldalon további "
-"Aktivitásokat hozhat létre. Ezek között aztán a <shortcut>Meta+Tab</"
-"shortcut> billentyűparanccsal válthat."
+"Aktivitásokat hozhat létre. Ezek között aztán a <shortcut>Meta+Q</shortcut> "
+"billentyűparanccsal válthat."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
