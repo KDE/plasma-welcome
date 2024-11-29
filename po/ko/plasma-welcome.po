@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:42+0000\n"
-"PO-Revision-Date: 2024-02-17 15:12+0100\n"
+"PO-Revision-Date: 2024-11-29 00:08+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -81,13 +81,13 @@ msgstr "%1 베타 %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "<command>%1</command> 명령을 찾을 수 없습니다."
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "오류 메시지가 지정되지 않았음"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -95,13 +95,13 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "<command>%1</command> 명령이 실패함: %2"
 
 #: src/main.cpp:38
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "친근한 Plasma 환영 마법사"
 
 #: src/main.cpp:43
 #, kde-format
@@ -113,7 +113,7 @@ msgstr "환영 센터"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2021–2024, KDE Community"
 
 #: src/main.cpp:53
 #, kde-format
@@ -137,7 +137,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:72
 #, kde-format
@@ -215,9 +215,7 @@ msgid "&OK"
 msgstr "확인(&O)"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "활동"
@@ -226,54 +224,54 @@ msgstr "활동"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "집"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "학교"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "직장"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "현재 사용 중"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "3시간 전에 사용됨"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "활동 만들기…"
 
 #: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "검색…"
 
 #: src/qml/mock/MockOverview.qml:99
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "바탕 화면 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "창 확장"
 
 #: src/qml/PageError.qml:19
 #, kde-format
@@ -294,8 +292,7 @@ msgid "Copy Details"
 msgstr "자세한 정보 복사"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
 msgstr "이 설정 모듈을 불러올 수 없음"
@@ -341,7 +338,7 @@ msgstr "Discover에 %1 표시"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "즐겁게 사용하세요!"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -353,9 +350,7 @@ msgid ""
 msgstr ""
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "KDE 커뮤니티에 대해서 더 알아보기"
@@ -382,9 +377,7 @@ msgid "Make a donation"
 msgstr "기부하기"
 
 #: src/qml/pages/Enjoy.qml:69
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "참여하기"
@@ -393,49 +386,45 @@ msgstr "참여하기"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "후원 회원"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "후원 회원"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr "Plasma 6 모금 캠페인에 참여한 다음 사람들에게 감사의 인사를 전합니다:"
+msgstr "KDE에 정기적으로 기부한 다음 후원 회원들에게 감사의 인사를 전합니다:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "무작위 정렬"
 
 #: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "이름순으로 정렬"
 
 #: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "날짜순으로 정렬"
 
 #: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "필터…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -533,24 +522,21 @@ msgid "All good to go!"
 msgstr ""
 
 #: src/qml/pages/Network.qml:252
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This page is being shown regardless of network connectivity because you "
-#| "are using a development version."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This page is being shown regardless of network connectivity because you are "
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
-"개발 버전을 사용하므로 네트워크 연결과 관계 없이 이 페이지를 표시합니다."
+"개발 버전을 사용하므로 네트워크 연결과 관계 없이 이 페이지를 표시합니다. 페이"
+"지의 다른 상태를 수동으로 미리 보려면 단추를 사용하십시오."
 
 #: src/qml/pages/Network.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "상태 변경"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, kde-format
@@ -559,12 +545,7 @@ msgid "Plasma has been updated to %1"
 msgstr "Plasma가 %1(으)로 업데이트됨"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Thank you for testing this beta release of Plasma—your feedback is "
-#| "fundamental to helping us improve it! Please report any and all bugs you "
-#| "find so that we can fix them."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
@@ -576,25 +557,19 @@ msgstr ""
 "니다."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>새로운 기능 알아보기</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "버그 보고"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "다음 릴리스 돕기"
@@ -712,9 +687,7 @@ msgid "Store sensitive files securely"
 msgstr "민감한 파일을 안전하게 저장하기"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:111
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "시스템 설정"
@@ -738,17 +711,7 @@ msgid "Activities"
 msgstr "활동"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -760,10 +723,7 @@ msgstr ""
 "활동을 사용하면 프로젝트나 작업 흐름을 분리하여 한 번에 하나에 집중할 수 있습"
 "니다. \"홈\", \"학교\", \"직장\" 등의 활동을 생성할 수 있습니다. 각각 활동에"
 "서는 모든 파일에 접근할 수 있지만 활동별로 열린 앱과 창, 최근 문서, \"즐겨찾"
-"는\" 앱, 데스크톱 위젯은 분리됩니다.<nl/><nl/>시작하려면 <interface>시스템 설"
-"정</interface>을 실행하여 \"활동\"을 검색하십시오. 해당 페이지에서 더 많은 활"
-"동을 생성할 수 있습니다. <shortcut>Meta+Tab</shortcut> 키보드 단축키를 통하"
-"여 활동간을 전환할 수 있습니다."
+"는\" 앱, 데스크톱 위젯은 분리됩니다."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -781,6 +741,9 @@ msgid ""
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
 msgstr ""
+"시작하려면 <interface>시스템 설정</interface>을 실행하여 \"활동\"을 검색하십"
+"시오. 해당 페이지에서 더 많은 활동을 생성할 수 있습니다. <shortcut>Meta+Q</"
+"shortcut> 키보드 단축키를 통하여 활동간을 전환할 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -789,18 +752,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -829,25 +781,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -861,11 +795,7 @@ msgstr ""
 "기 화면에서 검색 기능을 제공하며, <shortcut>Alt+Space</shortcut> 단축키로 검"
 "색 표시줄처럼 사용할 수 있습니다.<nl/><nl/>KRunner는 파일이나 폴더를 검색하"
 "는 것 외에도 앱 실행, 웹 검색, 통화간 환전, 수식 계산 등을 수행할 수 있습니"
-"다. 검색 필드에 다음을 입력해 보세요.<nl/><list><item>\"시간 Shanghai\"</"
-"item><item>\"27/3\"</item><item>\"200 EUR in KRW\"</item><item>\"25마일 in 킬"
-"로미터\"</item><item>… 외에도 더 있습니다!</item></list><nl/>더 많은 기능을 "
-"알아 보려면 <shortcut>Alt+Space</shortcut> 키를 눌러서 KRunner 검색 표시줄을 "
-"실행한 다음 물음표 아이콘을 클릭하십시오."
+"다."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
@@ -874,6 +804,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"더 많은 기능을 알아 보려면 <shortcut>Alt+Space</shortcut> 키를 눌러서 "
+"KRunner 검색 표시줄을 실행한 다음 물음표 아이콘을 클릭하십시오."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
@@ -883,7 +815,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "시간 Shanghai"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
@@ -891,7 +823,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27/3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -900,7 +832,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR in KRW"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -909,7 +841,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25마일 in 킬로미터"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -917,7 +849,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...그리고 더 있습니다!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
@@ -926,15 +858,7 @@ msgid "Overview"
 msgstr "한눈에 보기"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -946,8 +870,7 @@ msgstr ""
 "한눈에 보기를 통하여 열려 있는 모든 창을 전체 화면으로 볼 수 있으며, 개별 창"
 "에 쉽게 접근할 수 있습니다. 현재 가상 바탕 화면을 함께 표시하며, 가상 바탕 화"
 "면을 추가, 삭제, 전환할 수 있습니다. KRunner 기반 검색 필드에서는 열린 창을 "
-"검색할 수 있습니다.<nl/><nl/><shortcut>Meta+W</shortcut> 단축키를 사용하여 한"
-"눈에 보기를 사용할 수 있습니다."
+"검색할 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:43
 #, kde-kuit-format
@@ -958,11 +881,12 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"<shortcut>Meta+W</shortcut> 단축키를 사용하거나 마우스 커서를 화면 왼쪽 위로 "
+"움직여서 한눈에 보기를 사용할 수 있습니다. <shortcut>Meta+G</shortcut> 단축키"
+"를 사용하여 가상 데스크톱을 격자 형태로 볼 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "시스템 설정"
@@ -984,16 +908,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma 비밀 공간"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -1005,14 +920,10 @@ msgstr ""
 "Plasma 비밀 공간은 암호화된 비밀 폴더(<interface>비밀 공간</interface>)를 생"
 "성할 수 있습니다. 각각의 비밀 공간에는 암호 목록, 파일, 사진, 문서 등을 외부"
 "의 침입 시도로부터 안전하게 저장할 수 있습니다. 비밀 공간은 클라우드 저장소 "
-"서비스와 동기화되는 폴더에도 저장할 수 있습니다.<nl/><nl/>시작하려면 "
-"<interface>시스템 트레이</interface>의 화살표를 클릭하여 숨겨진 항목을 표시"
-"한 다음 <interface>비밀 공간</interface> 아이콘을 클릭하십시오."
+"서비스와 동기화되는 폴더에도 저장할 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "비밀 공간"
@@ -1021,18 +932,18 @@ msgstr "비밀 공간"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "중요한 문서"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "내 사진"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "잠금 해제하고 열기"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -1041,6 +952,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"시작하려면 <interface>시스템 트레이</interface>의 화살표를 클릭하여 숨겨진 항"
+"목을 표시한 다음 <interface>비밀 공간</interface> 아이콘을 클릭하십시오."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1176,18 +1089,16 @@ msgstr ""
 "력해집니다. 즐겁게 사용하세요!"
 
 #: src/qml/pages/Welcome.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "환영 센터"
+msgstr "환영 센터 정보"
 
 #: src/qml/pages/Welcome.qml:33
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "KDE 정보"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format
