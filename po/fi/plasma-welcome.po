@@ -1,14 +1,14 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 # SPDX-FileCopyrightText: 2024 Lasse Liehu <lasse.liehu@iki.fi>
-# Tommi Nieminen <translator@legisign.org>, 2022, 2023, 2024.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Tommi Nieminen <translator@legisign.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:42+0000\n"
-"PO-Revision-Date: 2024-03-20 17:06+0200\n"
+"PO-Revision-Date: 2024-11-28 17:47+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -82,13 +82,13 @@ msgstr "%1 beeta %2"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "Komentoa <command>%1</command> ei löytynyt."
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Virheviestiä ei tarjottu"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -96,13 +96,13 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "Komento <command>%1</command> epäonnistui: %2"
 
 #: src/main.cpp:38
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Ystävällinen käyttöönotto-opastus Plasmaan"
 
 #: src/main.cpp:43
 #, kde-format
@@ -114,7 +114,7 @@ msgstr "Tervetulokeskus"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2015–2024 KDE-yhteisö"
 
 #: src/main.cpp:53
 #, kde-format
@@ -138,7 +138,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:72
 #, kde-format
@@ -160,7 +160,7 @@ msgstr "Näytä jakelun live-ympäristöille tarkoitettu elävä sivu."
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "Anna pilkuin erotettuna näytettävät sivut (sisäisin nimin)."
 
 #: src/module.cpp:72
 #, kde-format
@@ -216,9 +216,7 @@ msgid "&OK"
 msgstr "&OK"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Aktiviteetit"
@@ -227,54 +225,54 @@ msgstr "Aktiviteetit"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Koti"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Koulu"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Työ"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Käytössä"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Käytetty 3 tuntia sitten"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Luo aktiviteetti…"
 
 #: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Etsi…"
 
 #: src/qml/mock/MockOverview.qml:99
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Työpöytä 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Laajenna ikkuna"
 
 #: src/qml/PageError.qml:19
 #, kde-format
@@ -295,11 +293,10 @@ msgid "Copy Details"
 msgstr "Kopioi tiedot"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Tämän asetusosion lataaminen epäonnistui"
+msgstr "Tätä sivua ei voitu ladata"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -342,7 +339,7 @@ msgstr "Näytä %1 Discoverissa"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Nauti!"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -352,11 +349,12 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Toivottavasti pidät Plasmasta yhtä paljon kuin me sen tekemisestä! On aika "
+"astua sisään. Tutustu sen ominaisuuksiin, asenna suosikkisovelluksesi ja -"
+"pelisi ja rupea tekemään sitä, mikä tekee sinusta sinut!"
 
 #: src/qml/pages/Enjoy.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Lue lisää KDE-yhteisöstä"
@@ -365,7 +363,7 @@ msgstr "Lue lisää KDE-yhteisöstä"
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "Etsi apua KDE:n keskustelualueilta"
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -375,6 +373,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Jos Plasmasta on sinulle hyötyä, harkitse osallistumista tai lahjoittamista. "
+"KDE on kansainvälinen vapaaehtoisyhteisö, ei suuryritys: avullasi on "
+"todellinen merkitys!"
 
 #: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -383,9 +384,7 @@ msgid "Make a donation"
 msgstr "Lahjoita"
 
 #: src/qml/pages/Enjoy.qml:69
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Osallistu"
@@ -394,49 +393,45 @@ msgstr "Osallistu"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Tukijäsenet"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Tukijäsenet"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr "Kiitämme seuraavia tuesta Plasma 6:n rahoituskampanjan aikana:"
+msgstr "Kiitämme seuraavia tukijäseniä toistuvista lahjoituksistaan KDE:lle:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "Lajittele satunnaisesti"
 
 #: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "Lajittele nimen mukaan"
 
 #: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "Lajittele päiväyksen mukaan"
 
 #: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "Suodata…"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -525,9 +520,7 @@ msgstr ""
 "icode>-paketin. Ilmoita puutteesta: %1."
 
 #: src/qml/pages/Network.qml:244
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when connected to the internet"
-#| msgid "You're connected"
+#, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Yhteys on luotu"
@@ -562,12 +555,7 @@ msgid "Plasma has been updated to %1"
 msgstr "Plasma on päivittynyt versioon %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Thank you for testing this beta release of Plasma—your feedback is "
-#| "fundamental to helping us improve it! Please report any and all bugs you "
-#| "find so that we can fix them."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Thank you for testing this beta release of Plasma — your feedback is "
@@ -579,25 +567,19 @@ msgstr ""
 "korjata ne."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
+#, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>Katso mitä uutta</b>"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "Ilmoita viasta"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "Auta tekemään seuraavaa julkaisua"
@@ -717,9 +699,7 @@ msgid "Store sensitive files securely"
 msgstr "Tallenna arkaluontoiset tiedostot salatusti"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:111
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Järjestelmäasetukset"
@@ -728,7 +708,7 @@ msgstr "Järjestelmäasetukset"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "Aseta järjestelmä"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
@@ -743,17 +723,7 @@ msgid "Activities"
 msgstr "Aktiviteetit"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Activities can be used to separate high-level projects or workflows so "
-#| "you can focus on one at a time. You can have an activity for \"Home\", "
-#| "\"School\", \"Work\", and so on. Each Activity has access to all your "
-#| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
@@ -767,10 +737,6 @@ msgstr ""
 "voi olla ”Koti”, ”Koulu”, ”Työ” jne. Kukin aktiviteetti näkee kaikki "
 "tiedostosi, mutta siinä on eri avointen sovellusten ja ikkunoiden, "
 "viimeaikaisten tiedostojen, suosikkisovellusten ja työpöytäsovelmien joukko."
-"<nl/>Aloita käynnistämällä <interface>järjestelmäasetukset</interface> ja "
-"etsi ”aktiviteetteja”. Kyseisellä sivulla voi luoda uusia aktiviteetteja, "
-"joiden välillä voi sitten vaihtaa <shortcut>Meta+Sarkain</shortcut>-"
-"pikanäppäimellä."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -796,18 +762,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "\"KDE Connect\". On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -838,25 +793,7 @@ msgstr "KRunner"
 
 # *** TARKISTA: ”in”-kyselyjen kotoistettu asu on mikä???
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: In the example queries, make sure to use the "
-#| "keywords as they are localized in the actual runner plugins. If needed, "
-#| "change 'Shanghai' to a city that on the other side of the world from "
-#| "likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:<nl/><list><item>\"time Shanghai\"</item><item>\"27/3\"</"
-#| "item><item>\"200 EUR in USD\"</item><item>\"25 miles in km\"</item><item>…"
-#| "And much more!</item></list><nl/>To learn more, open the KRunner search "
-#| "bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click "
-#| "on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -869,14 +806,9 @@ msgstr ""
 "KRunner on Plasman poikkeuksellisen tehokas ja monipuolikas hakujärjestelmä. "
 "Se on sovelluskäynnistinvalikon ja yleiskuvanäkymän hakutoimintojen takana, "
 "mutta sitä voi käyttää myös itsenäisenä hakurivinä <shortcut>Alt+Välilyönti</"
-"shortcut>-pikanäppäimellä.<nl/><nl/>Tiedostojen kansioiden etsimisen lisäksi "
-"KRunner voi käynnistää sovelluksia, etsiä tietoa verkosta, muuntaa "
-"valuuttayksiköitä, laskea laskuja ja paljon muuta. Kokeile kirjoittaa "
-"hakukenttään esimerkiksi:<nl/><list><item>”time Shanghai”</"
-"item><item>”27/3”</item><item>”200 EUR in USD”</item><item>”25 mailia in "
-"km”</item><item>…ja paljon muuta!</item></list><nl/>Lisätietoa löytyy "
-"avaamalla KRunner <shortcut>Alt+Välilyönti</shortcut>-pikanäppäimellä ja "
-"napsauttamalla kysymysmerkkikuvaketta."
+"shortcut>-pikanäppäimellä.<nl/><nl/>Tiedostojen ja kansioiden etsimisen "
+"lisäksi KRunner voi käynnistää sovelluksia, etsiä tietoa verkosta, muuntaa "
+"valuuttayksiköitä, laskea laskuja ja paljon muuta."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
 #, kde-kuit-format
@@ -885,6 +817,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Lisätietoa saa avaamalla KRunnerin hakurivin <shortcut>Alt+Välilyönti</"
+"shortcut>-pikanäppäimellä ja napsauttamalla kysymysmerkkikuvaketta."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
@@ -894,7 +828,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "aika Shanghai"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
@@ -902,8 +836,9 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
+# *** TARKISTA: Ei mitään tietoa, mitä ohjelmointitoimia vaadittaisiin, jotta nämä oikeasti toimisivat! :)
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
 msgctxt ""
@@ -911,8 +846,9 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 euroa dollareina"
 
+# *** TARKISTA: Ei mitään tietoa, mitä ohjelmointitoimia vaadittaisiin, jotta nämä oikeasti toimisivat! :)
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
 msgctxt ""
@@ -920,7 +856,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 mailia kilometreinä"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -928,7 +864,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "…ja paljon muuta!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
@@ -937,15 +873,7 @@ msgid "Overview"
 msgstr "Yleiskuva"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -957,8 +885,7 @@ msgstr ""
 "Yleiskuva on koko ruudun peittonäyttö, joka näyttää kaikki avoimet ikkunat, "
 "jolloin niihin on helppo siirtyä, samoin kuin nykyisen virtuaalityöpöydän, "
 "jolloin niitä voi lisätä tai poistaa tai niiden välillä vaihtaa. Se tarjoaa "
-"myös KRunner-pohjaisen hakurivin, jolla suodattaa avoimia ikkunoita.<nl/><nl/"
-">Yleiskuvaan pääsee <shortcut>Meta+W</shortcut>-pikanäppäimellä."
+"myös KRunner-pohjaisen hakurivin, jolla suodattaa avoimia ikkunoita."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:43
 #, kde-kuit-format
@@ -969,11 +896,13 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Yleiskuvaan pääsee <shortcut>Meta+W</shortcut>-pikanäppäimellä tai "
+"siirtämällä hiiren näytön ylävasempaan nurkkaan. Ruudukkonäkymän, jossa "
+"virtuaalityöpöydät esitetään ruudukkona, saa <shortcut>Meta+G</shortcut>-"
+"pikanäppäimellä."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
-#, fuzzy, kde-format
-#| msgctxt "@title the name of the 'System Settings' app"
-#| msgid "System Settings"
+#, kde-format
 msgctxt "@info:window"
 msgid "System Settings"
 msgstr "Järjestelmäasetukset"
@@ -987,6 +916,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
 "it all there!"
 msgstr ""
+"Järjestelmäasetussovelluksella voi mukauttaa järjestelmää perin pohjin "
+"tarpeisiisi ja tottumuksiisi. Sieltä löytyvät oletussovellukset, "
+"taustakuvat, näyttötyylit ja kuvakkeet, virtuaalityöpöydät, virranhallinta, "
+"kolmannen osapuolen laajennukset ja paljon muuta!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
 #, kde-format
@@ -995,16 +928,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma-holvit"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -1017,14 +941,9 @@ msgstr ""
 "salattuja kansioita. Kuhunkin holviin voi tallentaa salasanoja, tiedostoja, "
 "kuvia ja tekstiä turvaan urkkivilta silmiltä. Holvit voivat sijaita myös "
 "pilveen tahdistuvissa kansioissa, mikä tarjoaa niiden sisällölle lisäsuojaa."
-"<nl/><nl/>ALoita napsauttamalla <interface>ilmoitusalueen</interface> "
-"nuolesta piilotetut kohteen näkyviin ja valitsemalla <interface>Holvit</"
-"interface>-kuvakkeen."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Holvit"
@@ -1033,18 +952,18 @@ msgstr "Holvit"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Tärkeät tiedostot"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Valokuvat"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Poista lukitus ja avaa"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -1053,6 +972,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Alkuun pääsee napsauttamalla <interface>ilmoitusalueella</interface> "
+"piilokohteet näyttävää nuolta ja napsauttamalla <interface>Holvit</"
+"interface>-kuvaketta."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1061,16 +983,7 @@ msgid "Simple by Default"
 msgstr "Oletuksena yksinkertainen"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -1081,9 +994,9 @@ msgid ""
 msgstr ""
 "Plasma on suunniteltu olemaan yksinkertainen ja käyttökelpoinen heti "
 "asennettuna. Löydät kaiken mitä odotat, eikä asetuksia yleensä tarvitse "
-"muuttaa, ennen kuin olet jo tuttu järjestelmän kanssa.<nl/><nl/>Mutta kun "
-"haluat, kaikki tarvitsemasi löytyy <application>%1</application>-"
-"sovelluksesta."
+"muuttaa, ennen kuin olet jo tuttu järjestelmän kanssa.<nl/><nl/>Alla näkyy "
+"tyypillinen Plasma-työpöytä. Lisätietoa saa siirtämällä osoittimen sinne tai "
+"napsauttamalla jotakin."
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1095,6 +1008,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Tämä on ”työpöytä”. Siinä näkyvät <filename>Työpöytä</filename>-kansion "
+"tiedostot ja kansiot ja sille voi lisätä sovelmia. Muuta sen ulkoasua "
+"napsauttamalla sitä hiiren oikealla painikkeella ja valitsemalla "
+"<interface>Työpöytä ja tausta…</interface>. Sovelmia voi lisätä, poistaa tai "
+"muuttaa valitsemalla <interface>Siirry muokkaustilaan</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1104,6 +1022,10 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Tämä on ”paneeli” – sovelmasäilö. Muuta sen toimintatapaa, millä näytön "
+"reunalla se sijaitsee ja mitä sovelmia se sisältää napsauttamalla sitä "
+"hiiren oikealla painikkeella ja valitsemalla <interface>Näytä paneelin "
+"asetukset</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1113,6 +1035,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"Tämä on ”Kickoff”-sovelma, monikäyttöinen käynnistin. Tästä voi käynnistää "
+"sovelluksia, sammuttaa tai käynnistää tietokoneen uudelleen, käyttää "
+"viimeaikaisia tiedostoja ja muuta. Aloita napsauttamalla sitä!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1121,6 +1046,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Tämä on ”tehtävänhallinta”-sovelma, jolla voi vaihtaa avointen sovellusten "
+"välillä ja käynnistää uusia. Kuvakkeita voi järjestää vetämällä."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1131,6 +1058,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"Tämä on ”ilmoitusalue”-sovelma, jolla voi hallita järjestelmän toimintoja "
+"kuten äänenvoimakkuutta ja verkkoyhteyksiä. Kohteet näytetään vain "
+"tarvittaessa. Kaikki saatavilla olevat kohteet näkee napsauttamalla ^-nuolta "
+"kellon vierestä."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1140,6 +1071,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Tämä on ”digitaalinen kello” -sovelma. Kalenterin näkee napsauttamalla sitä. "
+"Sen voi asettaa myös näyttämään eri aikavyöhykkeitä ja kalenteriesi "
+"tapahtumia."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1149,6 +1083,9 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Tämä on ”näytä työpöytä” -sovelma. Napsauttamalla sitä avoimet ikkunat "
+"hetkellisesti piilotetaan, jolloin pääsee työpöydälle. Uusi napsautus "
+"palauttaa ikkunat."
 
 #: src/qml/pages/Welcome.qml:20
 #, kde-format
@@ -1189,18 +1126,16 @@ msgstr ""
 "Toivomme, että pidät siitä!"
 
 #: src/qml/pages/Welcome.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Tervetulokeskus"
+msgstr "Tietoa tervetulokeskuksesta"
 
 #: src/qml/pages/Welcome.qml:33
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "Tietoa KDE:stä"
 
 #: src/qml/pages/Welcome.qml:58
 #, kde-format
