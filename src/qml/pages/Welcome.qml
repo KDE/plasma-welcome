@@ -40,7 +40,7 @@ GenericPage {
     Component {
         id: aboutKDEPage
 
-        FormCard.AboutKDE {}
+        FormCard.AboutKDEPage {}
     }
 
     Component {
