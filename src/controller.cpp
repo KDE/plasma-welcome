@@ -253,11 +253,6 @@ bool Controller::isDistroSnapOnly()
     return KOSRelease().extraValue("UBUNTU_VARIANT") == QStringLiteral("core");
 }
 
-KAboutData Controller::aboutData() const
-{
-    return KAboutData::applicationData();
-}
-
 void Controller::setMode(Mode mode)
 {
     if (m_mode == mode) {

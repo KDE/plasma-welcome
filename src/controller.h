@@ -12,8 +12,6 @@
 #include <QVersionNumber>
 #include <qqmlregistration.h>
 
-#include <KAboutData>
-
 class Controller : public QObject
 {
     Q_OBJECT
@@ -37,7 +35,6 @@ public:
     Q_INVOKABLE QString distroBugReportUrl();
     Q_INVOKABLE QString installPrefix();
 
-    Q_PROPERTY(KAboutData aboutData READ aboutData CONSTANT)
     Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)
     Q_PROPERTY(QStringList pages MEMBER m_pages CONSTANT)
     Q_PROPERTY(QString shownVersion MEMBER m_shownVersion CONSTANT)
@@ -51,7 +48,6 @@ public:
     enum Mode { Pages, Update, Beta, Live, Welcome };
     Q_ENUM(Mode)
 
-    KAboutData aboutData() const;
     void setMode(Mode mode);
     void setPages(QStringList pages);
 

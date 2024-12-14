@@ -46,9 +46,7 @@ GenericPage {
     Component {
         id: aboutAppPage
 
-        FormCard.AboutPage {
-            aboutData: Controller.aboutData
-        }
+        FormCard.AboutPage {}
     }
 
     topContent: [
