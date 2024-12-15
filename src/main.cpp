@@ -94,7 +94,7 @@ int main(int argc, char *argv[])
             }
         }
 
-        if (pages.size() != 0) {
+        if (!pages.isEmpty()) {
             controller->setMode(Controller::Mode::Pages);
             controller->setPages(pages);
         }
