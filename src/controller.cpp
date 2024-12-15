@@ -263,7 +263,7 @@ void Controller::setMode(Mode mode)
     Q_EMIT modeChanged();
 }
 
-void Controller::setPages(QStringList pages)
+void Controller::setPages(const QStringList &pages)
 {
     m_pages = pages;
 }

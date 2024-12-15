@@ -49,7 +49,7 @@ public:
     Q_ENUM(Mode)
 
     void setMode(Mode mode);
-    void setPages(QStringList pages);
+    void setPages(const QStringList &pages);
 
 Q_SIGNALS:
     void modeChanged();
