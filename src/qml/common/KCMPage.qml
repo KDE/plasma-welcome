@@ -53,7 +53,7 @@ GenericPage
                 if (module.kcm.needsSave) {
                     module.kcm.save();
                 }
-                if (page == container) {
+                if (page === container) {
                     page.destroy();
                 }
             }

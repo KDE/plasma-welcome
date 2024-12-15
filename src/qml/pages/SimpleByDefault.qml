@@ -64,7 +64,7 @@ GenericPage {
 
         if (hovered) {
             activeItem = item;
-        } else if (!hovered && activeItem == item) {
+        } else if (!hovered && activeItem === item) {
             activeItem = null
         }
     }
@@ -74,7 +74,7 @@ GenericPage {
             return;
         }
 
-        if (activeItem != item) {
+        if (activeItem !== item) {
             activeItem = item;
         }
     }

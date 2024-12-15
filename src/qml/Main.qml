@@ -56,9 +56,9 @@ Kirigami.ApplicationWindow {
         onPressed: (mouse) => handlePressed(mouse.button)
 
         function handlePressed(button) {
-            if (button == Qt.BackButton) {
+            if (button === Qt.BackButton) {
                 pageStack.goBack();
-            } else if (button == Qt.ForwardButton) {
+            } else if (button === Qt.ForwardButton) {
                 pageStack.goForward();
             }
         }

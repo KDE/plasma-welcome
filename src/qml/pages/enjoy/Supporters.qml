@@ -145,14 +145,14 @@ ScrollablePage {
             let lastA = splitA.length > 1 ? splitA[splitA.length - 1] : ""
             let lastB = splitB.length > 1 ? splitB[splitB.length - 1] : ""
 
-            if (lastA != lastB) {
+            if (lastA !== lastB) {
                 return lastA.localeCompare(lastB);
             }
 
             let firstA = splitA[0];
             let firstB = splitB[0];
 
-            if (firstA != firstB) {
+            if (firstA !== firstB) {
                 return firstA.localeCompare(firstB);
             }
 

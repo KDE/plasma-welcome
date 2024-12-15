@@ -40,7 +40,7 @@ GenericPage {
 
         // Continue to the next page automatically when connected
         onStatusConnectedChanged: {
-            if (statusConnected && pageStack.currentItem == root) {
+            if (statusConnected && pageStack.currentItem === root) {
                 pageStack.currentIndex += 1;
             }
         }
@@ -74,7 +74,7 @@ GenericPage {
         text: i18nc("@info:placeholder", "Networking support for Plasma is not currently installed")
         explanation: xi18nc("@info:usagetip %1 is the name of the user's distro", "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1.", Controller.distroName())
         helpfulAction: Kirigami.Action {
-            enabled: root.state == "NoPlasmaNM"
+            enabled: root.state === "NoPlasmaNM"
             icon.name: "tools-report-bug-symbolic"
             text: i18nc("@action:button", "Report Bug…")
             onTriggered: Qt.openUrlExternally(Controller.distroBugReportUrl())
@@ -86,9 +86,9 @@ GenericPage {
         anchors.fill: parent
 
         backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
-        visible: root.state != "NoPlasmaNM"
+        visible: root.state !== "NoPlasmaNM"
 
-        opacity: root.state == "Connected" ? 0.6 : 1
+        opacity: root.state === "Connected" ? 0.6 : 1
         Behavior on opacity {
             NumberAnimation {
                 duration: Kirigami.Units.longDuration
@@ -148,7 +148,7 @@ GenericPage {
                     Item {
                         id: indicatorArrowContainer
 
-                        readonly property bool animate: visible && root.state !== "Connected" && pageStack.currentItem == root
+                        readonly property bool animate: visible && root.state !== "Connected" && pageStack.currentItem === root
 
                         implicitWidth: indicatorArrow.implicitWidth + glowPadding * 2
                         implicitHeight: indicatorArrow.implicitHeight + glowPadding * 2
@@ -238,7 +238,7 @@ GenericPage {
         width: parent.width - Kirigami.Units.gridUnit * 2
 
         // Shown when connected
-        visible: root.state == "Connected"
+        visible: root.state === "Connected"
 
         icon.name: "data-success-symbolic"
         text: i18nc("@info:placeholder Shown when connected to the internet", "You’re connected")
@@ -256,7 +256,7 @@ GenericPage {
             Kirigami.Action {
                 text: i18nc("@action:button", "Change state")
                 onTriggered: {
-                    let stateIndex = root.states.findIndex(state => state.name == root.state)
+                    let stateIndex = root.states.findIndex(state => state.name === root.state)
                     root.state = root.states[(stateIndex + 1) % root.states.length].name
                 }
             }
