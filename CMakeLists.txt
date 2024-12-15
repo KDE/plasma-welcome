@@ -2,10 +2,10 @@
 # SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
+cmake_minimum_required(VERSION 3.16)
 project(welcome)
 set(PROJECT_VERSION "6.2.80")
 
-cmake_minimum_required(VERSION 3.16)
 
 set(PROJECT_DEP_VERSION "6.2.0")
 set(QT_MIN_VERSION "6.7.0")
