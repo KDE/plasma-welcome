@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-11-15 21:33+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -1160,37 +1160,37 @@ msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "KDE Hakkında"
 
-#: src/qml/pages/Welcome.qml:58
+#: src/qml/pages/Welcome.qml:56
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "KDE Hakkında Bilgi Al"
 
-#: src/qml/pages/Welcome.qml:63
+#: src/qml/pages/Welcome.qml:61
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 Hakkında Bilgi Al"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:98
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Görsel Yükleme Başarısız"
 
-#: src/qml/pages/Welcome.qml:101
+#: src/qml/pages/Welcome.qml:99
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "<filename>%1</filename> yüklenemedi. Var olduğundan emin olun."
 
-#: src/qml/pages/Welcome.qml:128
+#: src/qml/pages/Welcome.qml:126
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "%1 adresini ziyaret edin"
 
-#: src/qml/pages/Welcome.qml:135
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"

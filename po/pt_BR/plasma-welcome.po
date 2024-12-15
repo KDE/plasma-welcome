@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-11-15 00:37-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -1163,25 +1163,25 @@ msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "Sobre o KDE"
 
-#: src/qml/pages/Welcome.qml:58
+#: src/qml/pages/Welcome.qml:56
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Aprenda mais sobre a comunidade KDE"
 
-#: src/qml/pages/Welcome.qml:63
+#: src/qml/pages/Welcome.qml:61
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Aprenda mais sobre %1"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:98
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Não foi possível carregar a imagem"
 
-#: src/qml/pages/Welcome.qml:101
+#: src/qml/pages/Welcome.qml:99
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1189,13 +1189,13 @@ msgstr ""
 "Não foi possível carregar o arquivo  <filename>%1</filename>. Certifique-se "
 "de que ele existe."
 
-#: src/qml/pages/Welcome.qml:128
+#: src/qml/pages/Welcome.qml:126
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Visite %1"
 
-#: src/qml/pages/Welcome.qml:135
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"

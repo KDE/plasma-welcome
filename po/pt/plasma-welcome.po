@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2023-02-15 16:59+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -1204,13 +1204,13 @@ msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr ""
 
-#: src/qml/pages/Welcome.qml:58
+#: src/qml/pages/Welcome.qml:56
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "Aprender mais sobre a comunidade do KDE"
 
-#: src/qml/pages/Welcome.qml:63
+#: src/qml/pages/Welcome.qml:61
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Learn more about the KDE community"
@@ -1218,25 +1218,25 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Aprender mais sobre a comunidade do KDE"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:98
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr ""
 
-#: src/qml/pages/Welcome.qml:101
+#: src/qml/pages/Welcome.qml:99
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 
-#: src/qml/pages/Welcome.qml:128
+#: src/qml/pages/Welcome.qml:126
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Visitar o %1"
 
-#: src/qml/pages/Welcome.qml:135
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"

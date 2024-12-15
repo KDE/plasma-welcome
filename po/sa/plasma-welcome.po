@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2023-10-04 15:33+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit\n"
@@ -32,64 +32,64 @@ msgstr "skkalwar999@gmail.com"
 #: src/controller.cpp:56
 #, kde-format
 msgid "6.0 Dev"
-msgstr ""
+msgstr "६.० देव"
 
 #: src/controller.cpp:59
 #, kde-format
 msgid "6.0 Alpha"
-msgstr ""
+msgstr "६.० अल्फा"
 
 #: src/controller.cpp:62
 #, kde-format
 msgid "6.0 Beta 1"
-msgstr ""
+msgstr "६.० बीटा १"
 
 #: src/controller.cpp:65
 #, kde-format
 msgid "6.0 Beta 2"
-msgstr ""
+msgstr "६.० बीटा २"
 
 #: src/controller.cpp:68
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC1"
-msgstr ""
+msgstr "६.० आरसी१"
 
 #: src/controller.cpp:71
 #, kde-format
 msgctxt "@label RC meaning Release Candidate"
 msgid "6.0 RC2"
-msgstr ""
+msgstr "६.० आरसी२"
 
 #: src/controller.cpp:89
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr ""
+msgstr "%1 देव"
 
 #: src/controller.cpp:93
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr ""
+msgstr "%1 बीटा"
 
 #: src/controller.cpp:96
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr ""
+msgstr "%1 बीटा %2"
 
 #: src/controller.cpp:134
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "<command>%1</command> इति आदेशः न लब्धः ।"
 
 #: src/controller.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "कोऽपि त्रुटिसन्देशः न प्रदत्तः"
 
 #: src/controller.cpp:170
 #, kde-kuit-format
@@ -97,13 +97,13 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "<command>%1</command> इति आदेशः विफलः अभवत् : %2"
 
 #: src/main.cpp:38
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "प्लाज्मा कृते मैत्रीपूर्णः ऑनबोर्डिंग् विजार्डः"
 
 #: src/main.cpp:43
 #, kde-format
@@ -115,7 +115,7 @@ msgstr "स्वागत केन्द्र"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2021-2024, केडीई समुदाय"
 
 #: src/main.cpp:53
 #, kde-format
@@ -139,7 +139,7 @@ msgstr "नेट् ग्राहम्"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "ओलिवर दाढी"
 
 #: src/main.cpp:72
 #, kde-format
@@ -162,13 +162,13 @@ msgstr "Distro live environments कृते अभिप्रेतं live p
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "प्रदर्शितव्यस्य पृष्ठस्य (पृष्ठानां) अल्पविराम-सीमितसूचीं निर्दिशन्तु (आन्तरिकनाम्ना) ।"
 
 #: src/module.cpp:72
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr ""
+msgstr "अज्ञातमॉड्यूल %1 अनुरोधितम्"
 
 #: src/qml/common/ApplicationIcon.qml:39
 #, kde-format
@@ -179,7 +179,7 @@ msgstr "इदानीं %1 प्रारम्भं कुर्वन्�
 #: src/qml/common/KCMPage.qml:80
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr ""
+msgstr "एतत् सेटिङ्ग्स् मॉड्यूल् लोड् कर्तुं न शक्तम्"
 
 #: src/qml/footers/FooterDefault.qml:29
 #, kde-format
@@ -209,13 +209,13 @@ msgstr "&अग्रिम"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show this page after Plasma is updated"
-msgstr ""
+msgstr "Plasma इत्यस्य अद्यतनीकरणानन्तरं एतत् पृष्ठं दर्शयतु"
 
 #: src/qml/footers/FooterUpdate.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr ""
+msgstr "&अस्तु"
 
 #: src/qml/mock/MockActivities.qml:58
 #, fuzzy, kde-format
@@ -229,66 +229,66 @@ msgstr "क्रियाकलापाः"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "गृहम्‌"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "विद्यालयः"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "कार्यम्‌"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "सम्प्रति प्रयुक्तम्"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "३ घण्टापूर्वं प्रयुक्तम्"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "क्रियाकलापं रचयन्तु..."
 
 #: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "अन्वेषण…"
 
 #: src/qml/mock/MockOverview.qml:99
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "डेस्कटॉप 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
-msgstr ""
+msgstr "विण्डो विस्तारयन्तु"
 
 #: src/qml/PageError.qml:19
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr ""
+msgstr "पृष्ठं लोड् करणं त्रुटिः"
 
 #: src/qml/PageError.qml:24 src/qml/pages/Network.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr ""
+msgstr "बगस्य सूचनां ददातु..."
 
 #: src/qml/PageError.qml:30
 #, fuzzy, kde-format
@@ -302,19 +302,19 @@ msgstr "skkalwar999@gmail.com"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr ""
+msgstr "एतत् पृष्ठं लोड् कर्तुं न शक्यते स्म"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr ""
+msgstr "भवतः वितरणेन प्रदत्तम् एतत् पृष्ठं लोड् कर्तुं न शक्यते स्म"
 
 #: src/qml/PageError.qml:48
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr ""
+msgstr "Welcome Center द्वारा प्रदत्तं पृष्ठं लोड् कर्तुं न शक्यते"
 
 #: src/qml/pages/Discover.qml:20
 #, kde-format
@@ -345,7 +345,7 @@ msgstr "Discover इत्यत्र %1 दर्शयतु"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "आनन्दं लभत !"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -355,6 +355,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"आशास्महे यत् भवन्तः प्लाज्मा इत्येतत् यथा प्रेम्णा भवन्तः भवद्भ्यः तत् निर्मातुं प्रेम्णा "
+"स्वीकृतवन्तः! इदानीं सम्यक् कूर्दनस्य समयः अस्ति तस्य विशेषताः अन्वेष्टुम्, स्वस्य प्रियाः एप्स् "
+"क्रीडाः च संस्थापयन्तु, यत् भवन्तं भवन्तं करोति तत् कर्तुं व्यस्ताः भवन्तु!"
 
 #: src/qml/pages/Enjoy.qml:25
 #, fuzzy, kde-format
@@ -368,7 +371,7 @@ msgstr "KDE समुदायस्य विषये अधिकं ज्�
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "KDE इत्यस्य चर्चामञ्चेषु सहायतां प्राप्नुवन्तु"
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -378,6 +381,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"यदि भवन्तः प्लाज्मा उपयोगी इति पश्यन्ति तर्हि तत्र सम्मिलितुं वा दानं कर्तुं वा विचारयन्तु। "
+"केडीई अन्तर्राष्ट्रीयस्वयंसेविकसमुदायः अस्ति, न तु बृहत्कम्पनी; भवतः योगदानं वास्तविकं भेदं "
+"जनयति!"
 
 #: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -397,13 +403,13 @@ msgstr "प्रवृत्ताः भवन्तु"
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "समर्थन सदस्य"
 
 #: src/qml/pages/enjoy/Supporters.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "समर्थन सदस्य"
 
 #: src/qml/pages/enjoy/Supporters.qml:17
 #, kde-kuit-format
@@ -411,31 +417,31 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr ""
+msgstr "KDE कृते पुनरावर्तनीयदानार्थं वयं निम्नलिखितसमर्थकसदस्यानां धन्यवादं वदामः:"
 
 #: src/qml/pages/enjoy/Supporters.qml:27
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
-msgstr ""
+msgstr "यादृच्छिकरूपेण क्रमबद्धं कुर्वन्तु"
 
 #: src/qml/pages/enjoy/Supporters.qml:28
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
-msgstr ""
+msgstr "नाम्ना क्रमबद्धः"
 
 #: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
-msgstr ""
+msgstr "तिथि अनुसार क्रमबद्ध करें"
 
 #: src/qml/pages/enjoy/Supporters.qml:38
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
-msgstr ""
+msgstr "फ़िल्टर..."
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -510,7 +516,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "प्लाज्मा कृते संजालसमर्थनं सम्प्रति न संस्थापितम्"
 
 #: src/qml/pages/Network.qml:75
 #, kde-kuit-format
@@ -519,18 +525,20 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"संजालसंयोजनानां प्रबन्धनार्थं Plasma इत्यस्य <icode>plasma-nm</icode> संस्थापनस्य "
+"आवश्यकता वर्तते । कृपया एतत् लोपं %1 इत्यस्मै निवेदयन्तु ।"
 
 #: src/qml/pages/Network.qml:244
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr ""
+msgstr "त्वं सम्बद्धः असि"
 
 #: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "सर्वं गन्तुं भद्रम्!"
 
 #: src/qml/pages/Network.qml:252
 #, fuzzy, kde-format
@@ -549,7 +557,7 @@ msgstr "इदं पृष्ठं जालसंयोजनं न कृ�
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "अवस्था परिवर्तन"
 
 #: src/qml/pages/PlasmaUpdate.qml:17
 #, fuzzy, kde-format
@@ -567,6 +575,9 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"प्लाज्मा इत्यस्य एतस्य बीटा-विमोचनस्य परीक्षणार्थं धन्यवादः — भवतः प्रतिक्रिया अस्मान् अस्य "
+"सुधारणे सहायतां कर्तुं मौलिकः अस्ति! कृपया भवन्तः यत्किमपि दोषं प्राप्नुवन्ति तत् सर्वं "
+"निवेदयन्तु येन वयं तान् समाधातुं शक्नुमः ।"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
 #, fuzzy, kde-format
@@ -580,7 +591,7 @@ msgstr "प्लाज्मा %1 इत्यस्मिन् किं न
 #, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
-msgstr ""
+msgstr "एकं दोषं निवेदयन्तु"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
 #, fuzzy, kde-format
@@ -726,7 +737,7 @@ msgstr "समायोजनानि उद्घाटयन्तु…"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "प्रणालीं विन्यस्यताम्"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
@@ -786,6 +797,10 @@ msgid ""
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
 msgstr ""
+"आरम्भार्थं <interface>System Settings</interface> इति प्रारम्भं कृत्वा “Activities” "
+"इति अन्वेष्टुम् । तस्मिन् पृष्ठे, भवान् अधिकानि Activities निर्मातुम् अर्हति । ततः भवान् "
+"<shortcut>Meta+Q</shortcut> कीबोर्डशॉर्टकट् इत्यस्य उपयोगेन तयोः मध्ये स्विच् कर्तुं "
+"शक्नोति ।"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -882,6 +897,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"अधिकं ज्ञातुं <shortcut>Alt+Space</shortcut> कीबोर्डशॉर्टकट् इत्यस्य उपयोगेन KRunner "
+"अन्वेषणपट्टिकां उद्घाट्य प्रश्नचिह्नचिह्नं नुदन्तु ।"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
 #, kde-format
@@ -891,7 +908,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "समय शङ्घाई"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
 #, kde-format
@@ -899,7 +916,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "२७ / ३"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
 #, kde-format
@@ -908,7 +925,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR USD मध्ये"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
 #, kde-format
@@ -917,7 +934,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "२५ मीलपर्यन्तं कि.मी"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
 #, kde-format
@@ -925,7 +942,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...अधिकं च बहु!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
@@ -967,6 +984,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"<shortcut>Meta+W</shortcut> कीबोर्ड-शॉर्टकट् इत्यस्य उपयोगेन, अथवा स्क्रीनस्य उपरि-"
+"वाम-कोणे मूषकं स्थापयित्वा Overview-इत्येतत् प्राप्तुं शक्नुवन्ति । Grid View इत्यस्य कृते "
+"<shortcut>Meta+G</shortcut> इत्यपि नुदितुं शक्नुवन्ति, यत् ग्रिड् मध्ये Virtual Desktops "
+"दर्शयति ।"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, fuzzy, kde-format
@@ -985,6 +1006,9 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
 "it all there!"
 msgstr ""
+"सिस्टम् सेटिंग्स् एप् भवन्तं स्वरुचिं प्राधान्यं च अनुकूलतया सिस्टम् व्यापकरूपेण अनुकूलितुं शक्नोति । "
+"पूर्वनिर्धारित-अनुप्रयोगाः, वॉलपेपर्, दृश्यशैल्याः चिह्नानि च, आभासी-डेस्कटॉप्, शक्ति-"
+"प्रबन्धनम्, तृतीय-पक्षस्य ऐड-ऑन् — भवान् तत्र सर्वं प्राप्स्यति!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
 #, kde-format
@@ -1031,18 +1055,18 @@ msgstr "तिजोरियाः"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "महत्त्वपूर्ण दस्तावेज"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "मम छायाचित्रम्"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "अनलॉक् तथा ओपन"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -1051,6 +1075,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"आरम्भार्थं गुप्तवस्तूनि दर्शयितुं <interface>System Tray</interface> इत्यत्र बाणं नुदन्तु, "
+"ततः <interface>Vaults</interface> चिह्नं नुदन्तु ।"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1092,6 +1118,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"एतत् “Desktop” इति । एतत् भवतः <filename>Desktop</filename> पुटे निहिताः "
+"सञ्चिकाः, पुटं च दर्शयति, विजेट् धारयितुं च शक्नोति । तस्मिन् राइट्-क्लिक् कृत्वा डेस्कटॉप् "
+"इत्यस्य स्वरूपं विन्यस्तुं <interface>Desktop and Wallpaper...</interface> इति चिनोतु "
+"। विजेट् योजयितुं, निष्कासयितुं, परिवर्तयितुं वा भवान् <interface>Enter Edit Mode</"
+"interface> इत्यपि चिन्वतु ।"
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1101,6 +1132,9 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"इदं “Panel” — विजेट् धारयितुं पात्रम् अस्ति । तस्मिन् राइट्-क्लिक् कृत्वा <interface>Show "
+"Panel Configuration</interface> इति चिनोतु यत् एतत् कथं वर्तते, कस्मिन् स्क्रीन-धारे "
+"निवसति, विजेट् योजयितुं, निष्कासयितुं वा परिवर्तयितुं वा ।"
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1110,6 +1144,9 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"एतत् “Kickoff” विजेट्, बहुउद्देश्यीयं प्रक्षेपकम् अस्ति । अत्र भवान् एप्स् प्रारम्भं कर्तुं, प्रणालीं "
+"निरुद्धं कर्तुं वा पुनः आरभ्यतुं, अद्यतनसञ्चिकासु प्रवेशं कर्तुं, इत्यादीनि च कर्तुं शक्नोति । "
+"आरम्भार्थं तस्मिन् क्लिक् कुर्वन्तु!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1118,6 +1155,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"एतत् “Task Manager” विजेट् अस्ति, यत्र भवान् मुक्त-एप्स् मध्ये स्विच् कर्तुं शक्नोति अपि च "
+"नूतनानि अपि प्रारम्भं कर्तुं शक्नोति । एप् चिह्नानि पुनः व्यवस्थितुं कर्षयन्तु।"
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1128,6 +1167,9 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"इदं “System Tray” विजेट् अस्ति, यत् भवन्तं वॉल्यूम परिवर्तयितुं, नेटवर्क्-सङ्गतिं च इत्यादीन् "
+"सिस्टम्-कार्यं नियन्त्रयितुं शक्नोति । अत्र प्रासंगिकाः सति एव वस्तूनि दृश्यन्ते भविष्यन्ति। "
+"सर्वाणि उपलब्धवस्तूनि द्रष्टुं घण्टायाः पार्श्वे ⌃ बाणं नुदन्तु ।"
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1137,6 +1179,8 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"एतत् “Digital Clock” इति विजेट् अस्ति । तस्मिन् नुत्वा पञ्चाङ्गं दर्शयतु । भवतः "
+"अङ्कीयपञ्चाङ्गात् अन्यसमयक्षेत्राणि घटनाश्च दर्शयितुं अपि विन्यस्तुं शक्यते ।"
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1146,6 +1190,9 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"एतत् “Peek at Desktop” इति विजेट् अस्ति । अस्थायीरूपेण सर्वाणि उद्घाटितानि विण्डोस् "
+"गोपयितुं तस्मिन् नुदन्तु येन भवान् डेस्कटॉप्-पर्यन्तं प्रवेशं कर्तुं शक्नोति । तान् पुनः आनेतुं पुनः "
+"तस्मिन् क्लिक् कुर्वन्तु ।"
 
 #: src/qml/pages/Welcome.qml:20
 #, kde-format
@@ -1197,162 +1244,40 @@ msgstr "स्वागत केन्द्र"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "KDE विषये"
 
-#: src/qml/pages/Welcome.qml:58
+#: src/qml/pages/Welcome.qml:56
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "KDE समुदायस्य विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Welcome.qml:63
+#: src/qml/pages/Welcome.qml:61
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:98
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "चित्रभारणं विफलम् अभवत्"
 
-#: src/qml/pages/Welcome.qml:101
+#: src/qml/pages/Welcome.qml:99
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "<filename>%1</filename> लोड् कर्तुं न शक्यते । तस्य अस्तित्वं सुनिश्चितं कुरुत।."
 
-#: src/qml/pages/Welcome.qml:128
+#: src/qml/pages/Welcome.qml:126
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "%1 इति भ्रमणं कुर्वन्तु"
 
-#: src/qml/pages/Welcome.qml:135
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE mascot Konqi भवन्तं KDE समुदाये स्वागतं करोति!"
-
-#~ msgctxt "@info copyright string"
-#~ msgid "(c) 2021"
-#~ msgstr "(c) २०२१"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE is not a big company; it's an international volunteer community, and "
-#~ "its software is made by people like you donating their time and passion. "
-#~ "You too can help make things better, whether it's through translation, "
-#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
-#~ ">By contributing to KDE, you can become part of something special, meet "
-#~ "new friends, learn new skills, and make a difference to millions while "
-#~ "working with people from around the globe to deliver a stunning free "
-#~ "software computing experience."
-#~ msgstr ""
-#~ "KDE इति बृहत् कम्पनी नास्ति; इदं अन्तर्राष्ट्रीयस्वयंसेवकसमुदायः अस्ति, तस्य तन्त्रांशं च "
-#~ "भवद्भिः सदृशैः जनाभिः स्वसमयं, अनुरागं च दानं कृत्वा निर्मितम् अस्ति । भवान् अपि विषयान् "
-#~ "उत्तमं कर्तुं साहाय्यं कर्तुं शक्नोति, भवेत् तत् अनुवादस्य, दृश्यविन्यासस्य, प्रचारस्य च "
-#~ "माध्यमेन, अथवा विधिलेखन तथा दोष ट्रायजिंग्(bug triaging) इत्येतयोः माध्यमेन।<nl/"
-#~ "><nl/>KDE मध्ये योगदानं दत्त्वा भवान् किमपि विशेषस्य भागः भवितुम् अर्हति, नूतनान् "
-#~ "मित्राणि मिलितुं शक्नोति, नूतनानि कौशल्यं शिक्षन्तु, तथा च विश्वस्य जनानां सह कार्यं "
-#~ "कुर्वन् एकं आश्चर्यजनकं निःशुल्कतन्त्रांशगणनानुभवं प्रदातुं कोटिजनानाम् कृते भेदं कुर्वन्ति।."
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "योगदानं आरभत !"
-
-#~ msgctxt "@title:window"
-#~ msgid "Support Your Freedom"
-#~ msgstr "भवतः स्वतन्त्रतायाः समर्थनं कुर्वन्तु"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The KDE community relies on donations of expertise and funds, and is "
-#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#~ "funds development sprints and server resources, and offers employment "
-#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#~ ">Donations are tax-deductible in Germany."
-#~ msgstr ""
-#~ "KDE समुदायः विशेषज्ञतायाः धनस्य च दानस्य उपरि निर्भरः अस्ति, तथा च KDE e.V.--एकेन "
-#~ "जर्मन-अलाभकारी-संस्थायाः समर्थितः अस्ति यः कानूनी-विषयान् प्रबन्धयति, विकास-स्प्रिन्ट्-"
-#~ "वितारक्-संसाधनं च निधिं ददाति, तथा च KDE-विकासकानाम् कृते रोजगारस्य अवसरान् प्रदाति "
-#~ "। KDE e.V. कृते दानं व्यापकस्य KDE समुदायस्य समर्थनं करोति, अद्यैव दानं कृत्वा भवान् "
-#~ "परिवर्तनं कर्तुं शक्नोति!<nl/><nl/>जर्मनीदेशे दानं कर-कटौती भवति।."
-
-#, fuzzy
-#~| msgctxt "@info:window"
-#~| msgid "Plasma Vaults"
-#~ msgctxt "@action:button"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "प्लाज्मास्य तिजोरियाँः"
-
-#, fuzzy
-#~| msgctxt "@info:window"
-#~| msgid "Plasma Vaults"
-#~ msgctxt "@title:window"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "प्लाज्मास्य तिजोरियाँः"
-
-#~ msgctxt "@title:row"
-#~ msgid "Get New Stuff"
-#~ msgstr "नवीनं सामानं प्राप्नुत"
-
-#~ msgctxt "@info Caption for Get New Stuff button"
-#~ msgid "Extend the system with add-ons"
-#~ msgstr "सङ्गणकतन्त्रं योजकैः (add-ons) सह विस्तारयन्तु"
-
-#~ msgctxt "@info:window"
-#~ msgid "Get New Stuff"
-#~ msgstr "नवीनं सामानं प्राप्नुत"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#~ "marked \"Get New <emphasis>thing</emphasis>…\". Clicking on them will "
-#~ "show you 3rd-party content to extend the system, made by other people "
-#~ "like you! In this way, it is often possible to add functionality you want "
-#~ "without having to ask KDE developers to implement it themselves.<nl/><nl/"
-#~ ">Note that content acquired this way has not been reviewed by your "
-#~ "distributor for functionality or stability."
-#~ msgstr ""
-#~ "सम्पूर्णे Plasma, सङ्गणकतन्त्रस्य समायोजनानि, KDE apps इत्येतयोः मध्ये \"Get New "
-#~ "<emphasis>thing</emphasis>…\" इति चिह्नितानि गण्डनानि प्राप्नुवन्ति । तेषु नोदनम् "
-#~ "करणेन भवन्तः प्रणालीं विस्तारयितुं तृतीयपक्षस्य सामग्रीं दर्शयिष्यन्ति, यत् भवद्भिः सदृशैः "
-#~ "अन्यैः जनाभिः निर्मितम्! एवं प्रकारेण, प्रायः KDE विकासकान् स्वयमेव कार्यान्वितुं न "
-#~ "पृष्ट्वा भवता इष्टं कार्यक्षमतां योजयितुं शक्यते।<nl/><nl/>ध्यायन्तु यत् एतादृशरीत्या "
-#~ "प्राप्ता सामग्री कार्यक्षमतायाः स्थिरतायाः वा कृते भवतः वितरकेन न समीक्षिता।."
-
-#~ msgctxt "@action:button"
-#~ msgid "See 3rd-Party Content…"
-#~ msgstr "तृतीयपक्षस्य सामग्रीं पश्यन्तु…"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid "A welcome app for KDE Plasma"
-#~ msgstr "KDE Plasma कृते स्वागतयोग्यं तन्त्रांशम्"
-
-#~ msgctxt "@title: window"
-#~ msgid "Connect Online Accounts"
-#~ msgstr "ऑनलाइन खाताः संयोजयन्तु"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "This will let you access their content in KDE apps. You can set it up in "
-#~ "System Settings, and here too."
-#~ msgstr ""
-#~ "एतेन भवन्तः KDE एप्स् मध्ये तेषां सामग्रीं प्राप्तुं शक्नुवन्ति । भवान् तत् सङ्गणकतन्त्रस्य "
-#~ "समायोजनानि इत्यत्र निरुपयत् कर्तुं शक्नोति, अत्र अपि ।."
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "Miraculously, KDE operates on a shoestring budget, relying largely on "
-#~ "donations of labor and resources. You can help change that!<nl/><nl/"
-#~ ">Financial donations help KDE pay for development sprints, hardware and "
-#~ "server resources, and expanded employment. Donations are tax-deductible "
-#~ "in Germany."
-#~ msgstr ""
-#~ "चमत्कारिकरूपेण केडीई पददाण्ड वित्तेन कार्यं करोति, यत् बहुधा श्रमस्य संसाधनस्य च दानस्य "
-#~ "उपरि निर्भरं भवति । भवान् तत् परिवर्तयितुं साहाय्यं कर्तुं शक्नोति!<nl/><nl/>वित्तीयदानं "
-#~ "KDE इत्यस्य विकासक्रमाः, यन्त्रांश तथा वितारक संसाधनं, विस्तारितं रोजगारं च दातुं "
-#~ "साहाय्यं करोति । जर्मनीदेशे दानस्य कर-कटौती भवति ।."

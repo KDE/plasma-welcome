@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-11-29 00:08+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -1100,38 +1100,38 @@ msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "KDE 정보"
 
-#: src/qml/pages/Welcome.qml:58
+#: src/qml/pages/Welcome.qml:56
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "KDE 커뮤니티에 대해서 더 알아보기"
 
-#: src/qml/pages/Welcome.qml:63
+#: src/qml/pages/Welcome.qml:61
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1에 대해서 더 알아보기"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:98
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "그림을 불러올 수 없음"
 
-#: src/qml/pages/Welcome.qml:101
+#: src/qml/pages/Welcome.qml:99
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "<filename>%1</filename>을(를) 불러올 수 없습니다. 존재 여부를 확인하십시오."
 
-#: src/qml/pages/Welcome.qml:128
+#: src/qml/pages/Welcome.qml:126
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "%1 방문"
 
-#: src/qml/pages/Welcome.qml:135
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
