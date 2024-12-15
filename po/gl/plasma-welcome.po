@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2024-12-08 12:57+0100\n"
+"PO-Revision-Date: 2024-12-14 11:19+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -582,6 +582,7 @@ msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
 msgstr "Benvida a KDE Plasma!"
 
+# skip-rule: trasno-develop_reverse
 #: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
