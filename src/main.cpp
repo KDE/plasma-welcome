@@ -23,6 +23,7 @@
 
 #include "controller.h"
 #include "plasma-welcome-version.h"
+#include <KLocalizedQmlContext>
 
 int main(int argc, char *argv[])
 {
@@ -81,7 +82,7 @@ int main(int argc, char *argv[])
     parser.process(app);
     aboutData.processCommandLine(&parser);
 
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    engine.rootContext()->setContextObject(new KLocalizedQmlContext(&engine));
 
     auto controller = engine.singletonInstance<Controller *>("org.kde.plasma.welcome", "Controller");
     if (parser.isSet(QStringLiteral("pages"))) {
