@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-11 00:42+0000\n"
-"PO-Revision-Date: 2024-12-15 10:52+0100\n"
+"PO-Revision-Date: 2024-12-17 22:17+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -305,13 +305,13 @@ msgstr "Non foi posíbel cargar a páxina."
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr "Non foi posíbel cargar esta páxina da distribución."
+msgstr "Non foi posíbel cargar a páxina fornecida pola distribución."
 
 #: src/qml/PageError.qml:48
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr "Non foi posíbel cargar esta páxina do «Centro de benvida»."
+msgstr "Non foi posíbel cargar a páxina fornecida polo «Centro de benvida»."
 
 #: src/qml/pages/Discover.qml:20
 #, kde-format
@@ -935,6 +935,7 @@ msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "Cofres de Plasma"
 
+# skip-rule: trasno-provide
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
