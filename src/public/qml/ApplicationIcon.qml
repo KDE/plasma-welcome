@@ -8,10 +8,11 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
-import org.kde.kirigami as Kirigami
 import QtQuick.Effects
 
-import org.kde.plasma.welcome
+import org.kde.kirigami as Kirigami
+
+import org.kde.plasma.welcome as Welcome
 
 ColumnLayout {
     id: root
@@ -31,7 +32,7 @@ ColumnLayout {
         }
 
         TapHandler {
-            onTapped: Controller.launchApp(application.desktopName)
+            onTapped: Welcome.Utils.launchApp(application.desktopName)
         }
 
         QQC2.ToolTip {

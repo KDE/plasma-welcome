@@ -9,7 +9,7 @@ import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome.private as Private
 
 RowLayout {
     spacing: Kirigami.Units.smallSpacing
@@ -18,8 +18,8 @@ RowLayout {
         Layout.alignment: Qt.AlignLeft
 
         text: i18nc("@option:check", "Show this page after Plasma is updated")
-        checked: Config.showUpdatePage
-        onToggled: { Config.showUpdatePage = checked; Config.save() }
+        checked: Private.Config.showUpdatePage
+        onToggled: { Private.Config.showUpdatePage = checked; Private.Config.save() }
     }
 
     QQC2.Button {

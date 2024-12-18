@@ -11,9 +11,9 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kcmutils as KCMUtils
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
 
-GenericPage {
+Welcome.Page {
     heading: i18nc("@info:window", "KDE Connect")
 
     // Don't change the weird indentation; it's intentional to make this

@@ -7,9 +7,12 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
 
-GenericPage {
+import org.kde.plasma.welcome as Welcome
+
+Welcome.Page {
     id: page
 
     property alias view: scroll.contentItem

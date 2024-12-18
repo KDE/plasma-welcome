@@ -13,9 +13,10 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kcmutils as KCMUtils
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     id: root
 
     heading: i18nc("@info:window", "Activities")
@@ -34,13 +35,13 @@ GenericPage {
 
         spacing: root.padding
 
-        MockCard {
+        Private.MockCard {
             Layout.fillWidth: true
             Layout.fillHeight: true
 
             backgroundAlignment: Qt.AlignLeft | Qt.AlignTop
 
-            MockActivities {
+            Private.MockActivities {
                 anchors.top: parent.top
                 anchors.left: parent.left
 

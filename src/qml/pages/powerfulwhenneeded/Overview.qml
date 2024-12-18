@@ -12,9 +12,10 @@ import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     heading: i18nc("@info:window The name of a KWin effect", "Overview")
     description: xi18nc("@info:usagetip", "Overview is a full-screen overlay that shows all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows.")
 
@@ -23,7 +24,7 @@ GenericPage {
 
         spacing: Kirigami.Units.gridUnit
 
-        MockCard {
+        Private.MockCard {
             Layout.fillWidth: true
             Layout.fillHeight: true
 
@@ -31,7 +32,7 @@ GenericPage {
             backgroundScale: mockOverview.scale
             blurRadius: 64
 
-            MockOverview {
+            Private.MockOverview {
                 id: mockOverview
                 anchors.fill: parent
             }

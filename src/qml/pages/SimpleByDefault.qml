@@ -13,9 +13,10 @@ import org.kde.ksvg as KSvg
 import org.kde.plasma.core as PlasmaCore
 import org.kde.plasma.components as PC3
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     id: root
 
     heading: i18nc("@info:window", "Simple by Default")
@@ -79,7 +80,7 @@ GenericPage {
         }
     }
 
-    MockCard {
+    Private.MockCard {
         id: mock
         anchors.fill: parent
 
@@ -97,7 +98,7 @@ GenericPage {
             TapHandler { onTapped: root.handleTapped(mock) }
         }
 
-        MockPanel {
+        Private.MockPanel {
             id: mockPanel
             anchors.bottom: parent.bottom
             anchors.right: parent.right
@@ -106,7 +107,7 @@ GenericPage {
 
             width: parent.width
 
-            MockKickoffApplet {
+            Private.MockKickoffApplet {
                 id: mockKickoff
 
                 opacity: mockPanel.overflowing ? 0 : 1
@@ -118,7 +119,7 @@ GenericPage {
                 TapHandler { onTapped: root.handleTapped(mockKickoff) }
             }
 
-            MockTaskManager {
+            Private.MockTaskManager {
                 id: mockTaskManager
 
                 opacity: mockPanel.overflowing ? 0 : 1
@@ -150,13 +151,13 @@ GenericPage {
                 opacity: mockPanel.overflowing ? 0 : 1
                 Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
 
-                MockSystemTrayApplet {
+                Private.MockSystemTrayApplet {
                     id: mockTray
 
                     active: root.activeItem == mockTray
 
-                    MockSystemTrayIcon { source: "klipper-symbolic" }
-                    MockSystemTrayIcon { source: "audio-volume-high-symbolic" }
+                    Private.MockSystemTrayIcon { source: "klipper-symbolic" }
+                    Private.MockSystemTrayIcon { source: "audio-volume-high-symbolic" }
                 }
 
                 HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
@@ -164,7 +165,7 @@ GenericPage {
                 TapHandler { onTapped: root.handleTapped(mockTray) }
             }
 
-            MockDigitalClockApplet {
+            Private.MockDigitalClockApplet {
                 id: mockClock
 
                 opacity: mockPanel.overflowing ? 0 : 1
@@ -176,7 +177,7 @@ GenericPage {
                 TapHandler { onTapped: root.handleTapped(mockClock) }
             }
 
-            MockShowDesktopApplet {
+            Private.MockShowDesktopApplet {
                 id: mockShowDesktop
 
                 opacity: mockPanel.overflowing ? 0 : 1

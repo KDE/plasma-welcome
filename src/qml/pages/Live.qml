@@ -7,19 +7,21 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Effects
+
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     id: root
 
-    property bool installerAvailable: Config.liveInstaller.length !== 0
+    property bool installerAvailable: Private.Config.liveInstaller.length !== 0
 
-    heading: i18nc("@title:window %1 is the name of the user's distro", "Welcome to %1!", Controller.distroName())
+    heading: i18nc("@title:window %1 is the name of the user's distro", "Welcome to %1!", Welcome.Distro.name)
     description: installerAvailable
                  ? xi18nc("@info:usagetip %1 is the name of the user's distro",
-                          "Pressing the icon below will begin installing %1. Alternatively, you can close the window to explore the live environment or continue here to find out about KDE Plasma.", Controller.distroName())
+                          "Pressing the icon below will begin installing %1. Alternatively, you can close the window to explore the live environment or continue here to find out about KDE Plasma.", Welcome.Distro.name)
                  : xi18nc("@info:usagetip %1 is the name of the user's distro",
                           "You can close the window to explore the live environment or continue here to find out about KDE Plasma.")
 
@@ -28,7 +30,7 @@ GenericPage {
             id: link
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@action:button", "Visit home page")
-            url: Controller.distroUrl()
+            url: Welcome.Distro.homeUrl
             visible: url.length !== 0
         }
     ]
@@ -46,15 +48,15 @@ GenericPage {
         }
         opacity: installerAvailable ? 0.1 : 1
 
-        source: Controller.distroIcon()
+        source: Welcome.Distro.logo
         fallback: ""
     }
 
-    ApplicationIcon {
+    Welcome.ApplicationIcon {
         anchors.centerIn: parent
-        application: ApplicationInfo {
+        application: Welcome.ApplicationInfo {
             id: application
-            desktopName: Config.liveInstaller
+            desktopName: Private.Config.liveInstaller
         }
         size: Kirigami.Units.gridUnit * 10
         visible: root.installerAvailable

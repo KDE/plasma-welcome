@@ -12,7 +12,7 @@
 
 #include <KQuickConfigModule>
 
-class Module : public QObject
+class ConfigModule : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(KQuickConfigModule *kcm READ kcm NOTIFY kcmChanged)

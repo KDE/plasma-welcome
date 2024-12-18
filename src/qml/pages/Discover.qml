@@ -8,11 +8,13 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     id: root
 
     readonly property alias application: application
@@ -24,11 +26,11 @@ GenericPage {
         anchors.centerIn: parent
         spacing: Kirigami.Units.gridUnit
 
-        ApplicationIcon {
+        Welcome.ApplicationIcon {
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             Layout.fillHeight: true
 
-            application: ApplicationInfo {
+            application: Welcome.ApplicationInfo {
                 id: application
                 desktopName: "org.kde.discover"
             }
@@ -95,7 +97,7 @@ GenericPage {
                     }
                     TapHandler {
                         onTapped: {
-                          let url = Controller.isDistroSnapOnly() ? `snap://${model.snap}` : `appstream://${model.appstream}`
+                          let url = Private.App.isDistroSnapOnly ? `snap://${model.snap}` : `appstream://${model.appstream}`
                           Qt.openUrlExternally(url)
                         }
                     }

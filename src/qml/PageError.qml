@@ -7,7 +7,10 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
+
+import org.kde.plasma.welcome as Welcome
 
 Kirigami.Page {
     id: root
@@ -22,13 +25,13 @@ Kirigami.Page {
         Kirigami.Action {
             icon.name: "tools-report-bug-symbolic"
             text: i18nc("@action:button", "Report Bug…")
-            onTriggered: Qt.openUrlExternally(isDistroPage ? Controller.distroBugReportUrl() : "https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center")
+            onTriggered: Qt.openUrlExternally(isDistroPage ? Welcome.Distro.bugReportUrl() : "https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center")
             visible: !isUnknownPage
         },
         Kirigami.Action {
             icon.name: "edit-copy-symbolic"
             text: i18nc("@action:button", "Copy Details")
-            onTriggered: Controller.copyToClipboard(error)
+            onTriggered: Welcome.Utils.copyToClipboard(error)
         }
     ]
 

@@ -7,11 +7,12 @@
 
 import QtQuick
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
 
-GenericPage {
+Welcome.Page {
     heading: i18nc("@info:window", "Powerful When Needed")
     description: xi18nc("@info:usagetip", "Plasma is an extremely feature-rich environment, designed to super-charge your productivity! Here is just a smattering of the things it can do for you:")
 

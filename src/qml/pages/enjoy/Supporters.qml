@@ -7,12 +7,14 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
 
-ScrollablePage {
+Welcome.ScrollablePage {
     id: root
+
     heading: i18nc("@title:window", "Supporting Members")
     description: xi18nc("@info:usagetip", "We thank the following supporting members for their recurring donation to KDE:")
 

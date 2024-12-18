@@ -14,8 +14,6 @@ import org.kde.plasma.components as PC3
 import org.kde.plasma.extras as PlasmaExtras
 import org.kde.milou as Milou
 
-import org.kde.plasma.welcome
-
 Item {
     id: root
 

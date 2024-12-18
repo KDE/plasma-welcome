@@ -7,11 +7,12 @@
  */
 
 import QtQuick
-import QtQuick.Controls as QQC2
-import QtQuick.Layouts
+import QtNetwork
+
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
 Kirigami.ApplicationWindow {
     id: app
@@ -27,13 +28,13 @@ Kirigami.ApplicationWindow {
     footer: Footer {
         width: app.width
         contentSource: {
-            switch (Controller.mode) {
-                case Controller.Welcome:
-                case Controller.Live:
+            switch (Private.App.mode) {
+                case Private.App.Welcome:
+                case Private.App.Live:
                 default:
                     return "FooterDefault.qml";
-                case Controller.Update:
-                case Controller.Beta:
+                case Private.App.Update:
+                case Private.App.Beta:
                     return "FooterUpdate.qml";
             }
         }
@@ -105,21 +106,21 @@ Kirigami.ApplicationWindow {
 
     Component.onCompleted: {
         // Push pages dynamically
-        switch (Controller.mode) {
-            case Controller.Update:
-            case Controller.Beta:
+        switch (Private.App.mode) {
+            case Private.App.Update:
+            case Private.App.Beta:
                 _pushPage(_createPage("PlasmaUpdate.qml"));
 
                 break;
 
-            case Controller.Live:
+            case Private.App.Live:
                 _pushPage(_createPage("Live.qml"));
                 // Fallthrough
 
-            case Controller.Welcome:
+            case Private.App.Welcome:
                 _pushPage(_createPage("Welcome.qml"));
 
-                if (!Controller.networkAlreadyConnected() || Controller.patchVersion === 80) {
+                if (NetworkInformation.reachability !== NetworkInformation.Reachability.Online || Private.Release.patchVersion === 80) {
                     _pushPage(_createPage("Network.qml"));
                 }
 
@@ -127,31 +128,30 @@ Kirigami.ApplicationWindow {
                 _pushPage(_createPage("PowerfulWhenNeeded.qml"));
 
                 let discover = _createPage("Discover.qml");
-                if (discover.application.exists) {
+                if (discover.application?.exists ?? false) {
                     _pushPage(discover);
                 } else {
                     discover.destroy();
                 }
 
                 // KCMs
-                if (Controller.mode !== Controller.Live) {
-                    if (Controller.userFeedbackAvailable()) {
+                if (Private.App.mode !== Private.App.Live) {
+                    if (Private.App.userFeedbackAvailable) {
                         _pushPage(_createPage("Feedback.qml"));
                     }
                 }
 
                 // Append any distro-specific pages that were found
-                let distroPages = Controller.distroPages();
-                for (let i in distroPages) {
-                    _pushPage(_createPage(distroPages[i], true));
+                for (let i in Private.App.distroPages) {
+                    _pushPage(_createPage(Private.App.distroPages[i], true));
                 }
 
                 _pushPage(_createPage("Enjoy.qml"));
 
                 break;
 
-            case Controller.Pages:
-                Controller.pages.forEach(page => {
+            case Private.App.Pages:
+                Private.App.pages.forEach(page => {
                     var error = "";
                     var warnStrings = "";
 
@@ -170,7 +170,7 @@ Kirigami.ApplicationWindow {
                     }
 
                     // Try as both a regular page and distro page
-                    if (!tryPage(page) && !tryPage("file://" + Controller.distroPagesDir() + page)) {
+                    if (!tryPage(page) && !tryPage("file://" + Private.App.distroPagesDir + page)) {
                         console.warn(warnStrings);
                         _pushPage(_createErrorPage(error, false, true));
                     }

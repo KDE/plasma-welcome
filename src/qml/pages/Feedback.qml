@@ -7,9 +7,9 @@
 
 import QtQuick
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
 
-KCMPage {
+Welcome.KCMPage {
     id: kcm_feedback
 
     heading: i18nc("@title: window", "Share Anonymous Usage Information")

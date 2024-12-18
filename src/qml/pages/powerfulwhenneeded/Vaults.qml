@@ -13,9 +13,10 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.plasma.extras as PlasmaExtras
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     id: root
 
     heading: i18nc("@info:window", "Plasma Vaults")
@@ -26,21 +27,21 @@ GenericPage {
 
         spacing: root.padding
 
-        MockCard {
+        Private.MockCard {
             id: mock
             Layout.fillWidth: true
             Layout.fillHeight: true
 
             backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
 
-            MockPanel {
+            Private.MockPanel {
                 id: mockPanel
                 anchors.bottom: parent.bottom
                 anchors.right: parent.right
 
                 width: Math.max(mock.desktopWidth, parent.width)
 
-                MockKickoffApplet {
+                Private.MockKickoffApplet {
                     opacity: (mockPanel.x >= 0) ? 1 : 0
                     visible: opacity > 0
 
@@ -56,30 +57,30 @@ GenericPage {
                     Layout.fillWidth: true
                 }
 
-                MockSystemTrayApplet {
+                Private.MockSystemTrayApplet {
                     id: mockSystemTrayApplet
 
                     active: true
 
-                    MockSystemTrayIcon {
+                    Private.MockSystemTrayIcon {
                         source: "klipper-symbolic"
                     }
 
-                    MockSystemTrayIcon {
+                    Private.MockSystemTrayIcon {
                         source: "audio-volume-high-symbolic"
                     }
 
-                    MockSystemTrayIcon {
+                    Private.MockSystemTrayIcon {
                         source: "network-wired-activated"
                     }
                 }
 
-                MockDigitalClockApplet {}
+                Private.MockDigitalClockApplet {}
 
-                MockShowDesktopApplet {}
+                Private.MockShowDesktopApplet {}
             }
 
-            MockPlasmoid {
+            Private.MockPlasmoid {
                 id: mockVaults
                 anchors.right: mockPanel.right
                 anchors.rightMargin: floating ? Kirigami.Units.largeSpacing : 0

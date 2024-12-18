@@ -11,9 +11,10 @@ import QtQuick.Effects
 import org.kde.kirigami as Kirigami
 import org.kde.plasma.components as PC3
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     id: root
 
     heading: i18nc("@info:window", "Access the Internet")
@@ -72,16 +73,16 @@ GenericPage {
 
         icon.name: "data-warning-symbolic"
         text: i18nc("@info:placeholder", "Networking support for Plasma is not currently installed")
-        explanation: xi18nc("@info:usagetip %1 is the name of the user's distro", "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1.", Controller.distroName())
+        explanation: xi18nc("@info:usagetip %1 is the name of the user's distro", "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1.", Welcome.Distro.name)
         helpfulAction: Kirigami.Action {
             enabled: root.state === "NoPlasmaNM"
             icon.name: "tools-report-bug-symbolic"
             text: i18nc("@action:button", "Report Bug…")
-            onTriggered: Qt.openUrlExternally(Controller.distroBugReportUrl())
+            onTriggered: Qt.openUrlExternally(Welcome.Distro.bugReportUrl)
         }
     }
 
-    MockCard {
+    Private.MockCard {
         id: mock
         anchors.fill: parent
 
@@ -96,14 +97,14 @@ GenericPage {
             }
         }
 
-        MockPanel {
+        Private.MockPanel {
             id: mockPanel
             anchors.bottom: parent.bottom
             anchors.right: parent.right
 
             width: Math.max(mock.desktopWidth, parent.width)
 
-            MockKickoffApplet {
+            Private.MockKickoffApplet {
                 opacity: (mockPanel.x >= 0) ? 1 : 0
                 visible: opacity > 0
 
@@ -119,18 +120,18 @@ GenericPage {
                 Layout.fillWidth: true
             }
 
-            MockSystemTrayApplet {
+            Private.MockSystemTrayApplet {
                 id: mockSystemTray
 
-                MockSystemTrayIcon {
+                Private.MockSystemTrayIcon {
                     source: "klipper-symbolic"
                 }
 
-                MockSystemTrayIcon {
+                Private.MockSystemTrayIcon {
                     source: "audio-volume-high-symbolic"
                 }
 
-                MockSystemTrayIcon {
+                Private.MockSystemTrayIcon {
                     id: mockNmTrayIcon
 
                     source: nmLoader.icon
@@ -225,9 +226,9 @@ GenericPage {
                 }
             }
 
-            MockDigitalClockApplet {}
+            Private.MockDigitalClockApplet {}
 
-            MockShowDesktopApplet {}
+            Private.MockShowDesktopApplet {}
         }
     }
 
@@ -248,7 +249,7 @@ GenericPage {
 
     footer: Kirigami.InlineMessage {
         position: Kirigami.InlineMessage.Footer
-        visible: Controller.patchVersion === 80
+        visible: Private.Release.patchVersion === 80
         text: i18nc("@info", "This page is being shown regardless of network connectivity because you are using a development version. To manually preview the different states of the page, you can use the button.")
         showCloseButton: true
 

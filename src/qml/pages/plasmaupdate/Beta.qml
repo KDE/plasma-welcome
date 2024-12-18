@@ -7,9 +7,11 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
 Item {
     id: root
@@ -21,7 +23,7 @@ Item {
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
             text: i18nc("@label:URL", "<b>Find out what’s new</b>")
-            url: Controller.releaseUrl
+            url: Private.Release.announcementUrl
         },
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing

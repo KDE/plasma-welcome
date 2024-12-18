@@ -5,7 +5,7 @@
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#include "module.h"
+#include "configModule.h"
 
 #include <QQmlContext>
 #include <QQmlEngine>
@@ -13,22 +13,22 @@
 #include <KLocalizedString>
 #include <KPluginFactory>
 
-KQuickConfigModule *Module::kcm() const
+KQuickConfigModule *ConfigModule::kcm() const
 {
     return m_kcm;
 }
 
-QString Module::path() const
+QString ConfigModule::path() const
 {
     return m_path;
 }
 
-QString Module::errorString() const
+QString ConfigModule::errorString() const
 {
     return m_errorString;
 }
 
-void Module::setPath(const QString &path)
+void ConfigModule::setPath(const QString &path)
 {
     if (m_path == path) {
         return;
@@ -75,4 +75,4 @@ void Module::setPath(const QString &path)
     Q_EMIT errorStringChanged();
 }
 
-#include "moc_module.cpp"
+#include "moc_configModule.cpp"

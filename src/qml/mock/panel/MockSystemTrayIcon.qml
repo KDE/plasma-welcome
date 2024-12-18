@@ -8,8 +8,6 @@ import QtQuick
 
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
-
 Item {
     id: trayIcon
 

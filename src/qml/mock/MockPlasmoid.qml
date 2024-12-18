@@ -12,8 +12,6 @@ import org.kde.ksvg as KSvg
 import org.kde.plasma.core as PlasmaCore
 import org.kde.plasma.components as PC3
 
-import org.kde.plasma.welcome
-
 Item {
     id: plasmoid
 

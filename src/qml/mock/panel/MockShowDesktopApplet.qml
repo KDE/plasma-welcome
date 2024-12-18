@@ -8,9 +8,9 @@ import QtQuick
 
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome.private as Private
 
-MockAppletBase {
+Private.MockAppletBase {
     id: applet
 
     implicitWidth: 32

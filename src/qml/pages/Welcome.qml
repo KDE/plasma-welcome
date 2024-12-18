@@ -12,15 +12,16 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     id: root
 
     heading: i18nc("@title", "Welcome")
-    description: Controller.customIntroText.length > 0
-            ? xi18nc("@info:usagetip %1 is custom text supplied by the distro", "%1<nl/><nl/>This operating system is running Plasma, a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Controller.customIntroText)
-            : xi18nc("@info:usagetip %1 is the name of the user's distro", "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Controller.distroName())
+    description: Private.App.customIntroText.length > 0
+            ? xi18nc("@info:usagetip %1 is custom text supplied by the distro", "%1<nl/><nl/>This operating system is running Plasma, a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Private.App.customIntroText)
+            : xi18nc("@info:usagetip %1 is the name of the user's distro", "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Welcome.Distro.name)
 
     actions: [
         Kirigami.Action {
@@ -58,9 +59,9 @@ GenericPage {
         },
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@action:button %1 is the name of the user's distro", "Learn more about %1", Controller.distroName())
-            url: Controller.distroUrl()
-            visible: Controller.distroUrl().length > 0
+            text: i18nc("@action:button %1 is the name of the user's distro", "Learn more about %1", Welcome.Distro.name)
+            url: Welcome.Distro.homeUrl
+            visible: Welcome.Distro.homeUrl.length > 0
         }
     ]
 
@@ -74,9 +75,9 @@ GenericPage {
 
             readonly property bool isImage:
                 // Image path in the file
-                Controller.customIntroIcon.startsWith("file:/") ||
+                Private.App.customIntroIcon.startsWith("file:/") ||
                 // Our default image
-                Controller.customIntroIcon.length === 0
+                Private.App.customIntroIcon.length === 0
 
             Layout.alignment: Qt.AlignHCenter
             Layout.fillHeight: true
@@ -89,14 +90,14 @@ GenericPage {
 
                 Image {
                     id: image
-                    source: Controller.customIntroIcon || "konqi-kde-hi.png"
+                    source: Private.App.customIntroIcon || "konqi-kde-hi.png"
                     fillMode: Image.PreserveAspectFit
 
                     Kirigami.PlaceholderMessage {
                         width: root.width - (Kirigami.Units.largeSpacing * 4)
                         anchors.centerIn: parent
                         text: i18nc("@title", "Image loading failed")
-                        explanation: xi18nc("@info:placeholder", "Could not load <filename>%1</filename>. Make sure it exists.", Controller.customIntroIcon)
+                        explanation: xi18nc("@info:placeholder", "Could not load <filename>%1</filename>. Make sure it exists.", Private.App.customIntroIcon)
                         visible: image.status == Image.Error
                     }
                 }
@@ -108,7 +109,7 @@ GenericPage {
                 Kirigami.Icon {
                     implicitWidth: Kirigami.Units.iconSizes.enormous * 2
                     implicitHeight: implicitWidth
-                    source: Controller.customIntroIcon || "kde"
+                    source: Private.App.customIntroIcon || "kde"
                 }
             }
 
@@ -118,7 +119,7 @@ GenericPage {
             }
             TapHandler {
                 id: tapHandler
-                property string url: Controller.customIntroIconLink || plasmaLink.url
+                property string url: Private.App.customIntroIconLink || plasmaLink.url
                 onTapped: Qt.openUrlExternally(url)
             }
             QQC2.ToolTip {
@@ -130,7 +131,7 @@ GenericPage {
         QQC2.Label {
             Layout.alignment: Qt.AlignHCenter
             Layout.maximumWidth: Math.round(Math.max(root.width / 2, imageContainer.implicitWidth / 2))
-            text: Controller.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
+            text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
             wrapMode: Text.Wrap
             horizontalAlignment: Text.AlignHCenter
         }

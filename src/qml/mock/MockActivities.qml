@@ -11,7 +11,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.ksvg as KSvg
 import org.kde.plasma.components as PC3
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome.private as Private
 
 Item {
     id: root
@@ -107,7 +107,7 @@ Item {
                     // We're intentionally ignoring our 16:10 desktop wallpaper (MockDesktop) - whilst that fits the square
                     // window, we want to maximise what we can fit in our limited height and be more representative of what
                     // a user will see - most use a 16:9 display.
-                    source: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1920x1080.png"
+                    source: "file:" + Private.App.installPrefix + "/share/wallpapers/Next/contents/images/1920x1080.png"
                     mipmap: true
                 }
 

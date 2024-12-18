@@ -10,9 +10,9 @@
 
 #include "config.h"
 
-/**
- * Tiny wrapper to make the generated Config class available from QML.
- */
+// org.kde.plasma.welcome.private, Config
+// Tiny wrapper to expose generated Config class to QML
+
 struct QmlConfig {
     Q_GADGET
     QML_FOREIGN(Config)

@@ -7,11 +7,12 @@
 
 import QtQuick
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
 
-GenericPage
+Welcome.Page
 {
     id: container
 
@@ -86,7 +87,7 @@ GenericPage
         anchors.bottom: parent.top
     }
 
-    Module {
+    Welcome.ConfigModule {
         id: module
     }
 

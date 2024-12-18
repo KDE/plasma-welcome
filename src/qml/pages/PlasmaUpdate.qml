@@ -7,14 +7,16 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
-GenericPage {
+Welcome.Page {
     id: root
 
-    heading: i18nc("@title:window", "Plasma has been updated to %1", Controller.shownVersion)
+    heading: i18nc("@title:window", "Plasma has been updated to %1", Private.Release.friendlyVersion)
     description: contentLoader.item?.description ?? ""
 
     topContent: contentLoader.item?.topContent ?? []
@@ -23,6 +25,6 @@ GenericPage {
         id: contentLoader
         anchors.fill: parent
 
-        source: Controller.mode === Controller.Beta ? "Beta.qml" : "Update.qml"
+        source: Private.App.mode === Private.App.Beta ? "Beta.qml" : "Update.qml"
     }
 }
