@@ -1,36 +1,37 @@
 # SPDX-License-Identifier: BSD-2-Clause
 # SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
+# SPDX-FileCopyrightText: 2024 Oliver Beard <olib141@outlook.com>
 
-configure_file(config-plasma-welcome.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma-welcome.h)
+# KDED Module
+add_subdirectory(kded)
 
+# Private library
+add_subdirectory(private)
+
+# Application
 add_executable(plasma-welcome)
 ecm_add_qml_module(plasma-welcome URI "org.kde.plasma.welcome" GENERATE_PLUGIN_SOURCE)
 
 target_sources(plasma-welcome PRIVATE
     main.cpp
+
     controller.cpp
-    controller.h
-    module.cpp
-    module.h
+    distro.cpp
+    release.cpp
+    utils.cpp
+
+    configModule.cpp
     applicationInfo.cpp
-    applicationInfo.h
-    qmlconfig.h
 )
 
 ecm_target_qml_sources(plasma-welcome
     SOURCES
-    qml/Main.qml
-    qml/PageError.qml
-
-    qml/common/GenericPage.qml
-    qml/common/ScrollablePage.qml
-    qml/common/KCMPage.qml
-    qml/common/ApplicationIcon.qml
-
-    qml/footers/Footer.qml
-    qml/footers/FooterDefault.qml
-    qml/footers/FooterUpdate.qml
+    qml/Page.qml
+    qml/GenericPage.qml
+    qml/ScrollablePage.qml
+    qml/KCMPage.qml
+    qml/ApplicationIcon.qml
 
     qml/mock/MockCard.qml
     qml/mock/MockActivities.qml
@@ -46,39 +47,10 @@ ecm_target_qml_sources(plasma-welcome
     qml/mock/panel/MockShowDesktopApplet.qml
     qml/mock/MockPlasmoid.qml
     qml/mock/InteractionInhibitor.qml
-
-    qml/pages/PlasmaUpdate.qml
-    qml/pages/plasmaupdate/Update.qml
-    qml/pages/plasmaupdate/Beta.qml
-    qml/pages/Live.qml
-    qml/pages/Welcome.qml
-    qml/pages/Network.qml
-    qml/pages/network/PlasmaNM.qml
-    qml/pages/SimpleByDefault.qml
-    qml/pages/PowerfulWhenNeeded.qml
-    qml/pages/powerfulwhenneeded/PlasmaFeatureButton.qml
-    qml/pages/powerfulwhenneeded/Overview.qml
-    qml/pages/powerfulwhenneeded/KRunner.qml
-    qml/pages/powerfulwhenneeded/KDEConnect.qml
-    qml/pages/powerfulwhenneeded/Activities.qml
-    qml/pages/powerfulwhenneeded/Vaults.qml
-    qml/pages/powerfulwhenneeded/SystemSettings.qml
-    qml/pages/Discover.qml
-    qml/pages/Feedback.qml
-    qml/pages/Enjoy.qml
-    qml/pages/enjoy/Supporters.qml
-
-    RESOURCES
-    assets/konqi-kde-hi.png
-    assets/konqi-default.png
-    assets/krita.png
-    assets/endlesssky.png
 )
 
-target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_PAGE_FOLDER=\"${DISTRO_CUSTOM_PAGE_FOLDER}\"")
-target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_INTRO_FILE=\"${DISTRO_CUSTOM_INTRO_FILE}\"")
-
 target_link_libraries(plasma-welcome PRIVATE
+    plasma-welcome-private
     Qt::Core
     Qt::Gui
     Qt::Network
@@ -99,9 +71,5 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::I18nQml
 )
 
-kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
-install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
-
 ecm_finalize_qml_module(plasma-welcome)
-
-add_subdirectory(kded)
+install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

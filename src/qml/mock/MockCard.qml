@@ -11,7 +11,7 @@ import Qt5Compat.GraphicalEffects
 import org.kde.kirigami as Kirigami
 import org.kde.plasma.core as PlasmaCore
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome.private as Private
 
 Kirigami.AbstractCard {
     id: root
@@ -22,7 +22,7 @@ Kirigami.AbstractCard {
     property double backgroundScale: 1
     property int blurRadius: 32
 
-    readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1920x1080.png"
+    readonly property string wallpaper: "file:" + Private.App.installPrefix + "/share/wallpapers/Next/contents/images/1920x1080.png"
     readonly property int desktopWidth: 1024 * backgroundScale
     readonly property int desktopHeight: 576 * backgroundScale
 

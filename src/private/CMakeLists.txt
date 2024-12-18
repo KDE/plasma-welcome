@@ -1,0 +1,67 @@
+# SPDX-License-Identifier: BSD-2-Clause
+# SPDX-FileCopyrightText: 2024 Oliver Beard <olib141@outlook.com>
+
+configure_file(config-plasma-welcome.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma-welcome.h)
+
+add_library(plasma-welcome-private)
+ecm_add_qml_module(plasma-welcome-private URI "org.kde.plasma.welcome.private" GENERATE_PLUGIN_SOURCE)
+
+generate_export_header(plasma-welcome-private)
+
+target_sources(plasma-welcome-private PRIVATE
+    qmlconfig.h
+    singleton.h
+    app.cpp
+)
+
+ecm_target_qml_sources(plasma-welcome-private
+    SOURCES
+    qml/Main.qml
+    qml/PageError.qml
+
+    qml/footers/Footer.qml
+    qml/footers/FooterDefault.qml
+    qml/footers/FooterUpdate.qml
+
+    qml/pages/PlasmaUpdate.qml
+    qml/pages/plasmaupdate/Update.qml
+    qml/pages/plasmaupdate/Beta.qml
+    qml/pages/Live.qml
+    qml/pages/Welcome.qml
+    qml/pages/Network.qml
+    qml/pages/network/PlasmaNM.qml
+    qml/pages/SimpleByDefault.qml
+    qml/pages/PowerfulWhenNeeded.qml
+    qml/pages/powerfulwhenneeded/PlasmaFeatureButton.qml
+    qml/pages/powerfulwhenneeded/Overview.qml
+    qml/pages/powerfulwhenneeded/KRunner.qml
+    qml/pages/powerfulwhenneeded/KDEConnect.qml
+    qml/pages/powerfulwhenneeded/Activities.qml
+    qml/pages/powerfulwhenneeded/Vaults.qml
+    qml/pages/powerfulwhenneeded/SystemSettings.qml
+    qml/pages/Discover.qml
+    qml/pages/Feedback.qml
+    qml/pages/Enjoy.qml
+    qml/pages/enjoy/Supporters.qml
+
+    RESOURCES
+    assets/krita.png
+    assets/endlesssky.png
+    assets/konqi-kde-hi.png
+    assets/konqi-default.png
+)
+
+target_compile_definitions(plasma-welcome-private PRIVATE "DISTRO_CUSTOM_PAGE_FOLDER=\"${DISTRO_CUSTOM_PAGE_FOLDER}\"")
+target_compile_definitions(plasma-welcome-private PRIVATE "DISTRO_CUSTOM_INTRO_FILE=\"${DISTRO_CUSTOM_INTRO_FILE}\"")
+
+target_link_libraries(plasma-welcome-private PRIVATE
+    Qt::Core
+    KF6::ConfigCore
+    KF6::ConfigGui
+    KF6::CoreAddons
+)
+
+kconfig_add_kcfg_files(plasma-welcome-private GENERATE_MOC config.kcfgc)
+
+ecm_finalize_qml_module(plasma-welcome-private)
+install(TARGETS plasma-welcome-private ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

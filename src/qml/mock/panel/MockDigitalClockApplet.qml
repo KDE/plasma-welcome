@@ -11,9 +11,9 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.components as PC3
 import org.kde.plasma.plasma5support as P5Support
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
 
-MockAppletBase {
+Welcome.MockAppletBase {
     id: applet
 
     implicitWidth: Math.max(timeLabel.width, dateLabel.paintedWidth)

@@ -37,6 +37,7 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 include(ECMQmlModule)
 include(ECMDeprecationSettings)
+include(GenerateExportHeader)
 
 set(DISTRO_CUSTOM_PAGE_FOLDER "/usr/share/plasma/plasma-welcome/extra-pages/" CACHE STRING "Folder on disk to find custom pages")
 set(DISTRO_CUSTOM_INTRO_FILE "/usr/share/plasma/plasma-welcome/intro-customization.desktop" CACHE STRING "File specifying custom intro content")

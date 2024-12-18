@@ -9,9 +9,9 @@ import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome as Welcome
 
-MockAppletBase {
+Welcome.MockAppletBase {
     id: applet
 
     implicitWidth: tasksLayout.implicitWidth

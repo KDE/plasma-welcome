@@ -9,8 +9,6 @@ import QtQuick
 import org.kde.kirigami as Kirigami
 import org.kde.ksvg as KSvg
 
-import org.kde.plasma.welcome
-
 Item {
     id: applet
 

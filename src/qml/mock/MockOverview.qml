@@ -5,7 +5,6 @@
  */
 
 import QtQuick
-import QtQuick.Effects
 import QtQuick.Layouts
 import Qt5Compat.GraphicalEffects
 
@@ -14,14 +13,14 @@ import org.kde.plasma.core as PlasmaCore
 import org.kde.plasma.components as PC3
 import org.kde.plasma.extras as PlasmaExtras
 
-import org.kde.plasma.welcome
+import org.kde.plasma.welcome.private as Private
 
 Item {
     id: root
 
     // We're intentionally ignoring our 16:10 desktop wallpaper (MockDesktop) - whilst that fits the square
     // window, we want to be more representative of what a user will see - most use a 16:9 display.
-    readonly property string wallpaper: "file:" + Controller.installPrefix() + "/share/wallpapers/Next/contents/images/1920x1080.png"
+    readonly property string wallpaper: "file:" + Private.App.installPrefix + "/share/wallpapers/Next/contents/images/1920x1080.png"
     readonly property double scale: layout.scale
 
     // Underlay
