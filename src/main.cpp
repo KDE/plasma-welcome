@@ -13,17 +13,17 @@
 #include <QQmlContext>
 #include <QQuickWindow>
 #include <QSurfaceFormat>
-#include <QUrl>
 
 #include <KAboutData>
 #include <KDBusService>
 #include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 #include <KWindowSystem>
 
-#include "controller.h"
+#include <app.h>
+
 #include "plasma-welcome-version.h"
-#include <KLocalizedQmlContext>
 
 int main(int argc, char *argv[])
 {
@@ -84,30 +84,30 @@ int main(int argc, char *argv[])
 
     engine.rootContext()->setContextObject(new KLocalizedQmlContext(&engine));
 
-    auto controller = engine.singletonInstance<Controller *>("org.kde.plasma.welcome", "Controller");
+    // Tell QML about requested mode/pages
+    App *privateApp = App::instance();
     if (parser.isSet(QStringLiteral("pages"))) {
         QStringList pages = parser.value(pagesOption).split(",");
-
-        // Ensure each page ends with ".qml"
-        for (QString &page : pages) {
-            if (!page.endsWith(".qml")) {
-                page.append(".qml");
-            }
-        }
-
         if (!pages.isEmpty()) {
-            controller->setMode(Controller::Mode::Pages);
-            controller->setPages(pages);
+            // Ensure each page ends with ".qml"
+            for (QString &page : pages) {
+                if (!page.endsWith(".qml")) {
+                    page.append(".qml");
+                }
+            }
+
+            privateApp->setMode(App::Mode::Pages);
+            privateApp->setPages(pages);
         }
     } else if (parser.isSet(QStringLiteral("post-update"))) {
-        controller->setMode(Controller::Mode::Update);
+        privateApp->setMode(App::Mode::Update);
     } else if (parser.isSet(QStringLiteral("post-update-beta"))) {
-        controller->setMode(Controller::Mode::Beta);
+        privateApp->setMode(App::Mode::Beta);
     } else if (parser.isSet(QStringLiteral("live-environment"))) {
-        controller->setMode(Controller::Mode::Live);
+        privateApp->setMode(App::Mode::Live);
     }
 
-    engine.loadFromModule("org.kde.plasma.welcome", "Main");
+    engine.loadFromModule("org.kde.plasma.welcome.private", "Main");
 
     if (engine.rootObjects().isEmpty()) {
         return -1;

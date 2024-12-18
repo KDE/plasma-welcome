@@ -8,9 +8,7 @@
 #pragma once
 
 #include <QJSValue>
-#include <QObject>
-#include <QVersionNumber>
-#include <qqmlregistration.h>
+#include <QQmlEngine>
 
 class Controller : public QObject
 {
@@ -19,50 +17,9 @@ class Controller : public QObject
     QML_SINGLETON
 
 public:
-    Controller();
+    Controller(QObject *parent = nullptr);
 
-    Q_INVOKABLE static void launchApp(const QString &program);
-    Q_INVOKABLE void runCommand(const QString &command, QJSValue callback = QJSValue());
-    Q_INVOKABLE static void copyToClipboard(const QString &text);
-    Q_INVOKABLE bool networkAlreadyConnected();
-    Q_INVOKABLE bool userFeedbackAvailable();
-    Q_INVOKABLE QStringList distroPages();
-    Q_INVOKABLE QString distroPagesDir();
-    Q_INVOKABLE QString distroName();
-    Q_INVOKABLE QString distroIcon();
-    Q_INVOKABLE QString distroUrl();
-    Q_INVOKABLE bool isDistroSnapOnly();
-    Q_INVOKABLE QString distroBugReportUrl();
-    Q_INVOKABLE QString installPrefix();
-
-    Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)
-    Q_PROPERTY(QStringList pages MEMBER m_pages CONSTANT)
-    Q_PROPERTY(QString shownVersion MEMBER m_shownVersion CONSTANT)
-    Q_PROPERTY(int patchVersion MEMBER m_patchVersion CONSTANT)
-    Q_PROPERTY(QString releaseUrl MEMBER m_releaseUrl CONSTANT)
-    Q_PROPERTY(QString customIntroText MEMBER m_customIntroText CONSTANT)
-    Q_PROPERTY(QString customIntroIcon MEMBER m_customIntroIcon CONSTANT)
-    Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
-    Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
-
-    enum Mode { Pages, Update, Beta, Live, Welcome };
-    Q_ENUM(Mode)
-
-    void setMode(Mode mode);
-    void setPages(const QStringList &pages);
-
-Q_SIGNALS:
-    void modeChanged();
-
-private:
-    Mode m_mode = Mode::Welcome;
-    QStringList m_pages;
-    QVersionNumber m_version;
-    QString m_shownVersion;
-    int m_patchVersion;
-    QString m_releaseUrl;
-    QString m_customIntroText;
-    QString m_customIntroIcon;
-    QString m_customIntroIconLink;
-    QString m_customIntroIconCaption;
+    Q_INVOKABLE void launchApp(const QString &program) const;
+    Q_INVOKABLE void runCommand(const QString &command, QJSValue callback = QJSValue()) const;
+    Q_INVOKABLE void copyToClipboard(const QString &text) const;
 };
