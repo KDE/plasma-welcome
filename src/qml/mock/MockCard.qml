@@ -18,6 +18,7 @@ Kirigami.AbstractCard {
 
     default property alias children: container.children
 
+    property bool applyPlasmaColors: true
     property int backgroundAlignment: Qt.AlignRight | Qt.AlignBottom
     property double backgroundScale: 1
     property int blurRadius: 32
@@ -50,11 +51,11 @@ Kirigami.AbstractCard {
         clip: true
 
         // Use Plasma theme colours, rather than Kirigami's
-        Kirigami.Theme.inherit: false
-        Kirigami.Theme.textColor: PlasmaCore.Theme.textColor
-        Kirigami.Theme.activeTextColor: PlasmaCore.Theme.activeTextColor
-        Kirigami.Theme.highlightColor: PlasmaCore.Theme.highlightColor
-        Kirigami.Theme.backgroundColor: PlasmaCore.Theme.backgroundColor
+        Kirigami.Theme.inherit: !root.applyPlasmaColors
+        Kirigami.Theme.textColor: root.applyPlasmaColors ? PlasmaCore.Theme.textColor : undefined
+        Kirigami.Theme.activeTextColor: root.applyPlasmaColors ? PlasmaCore.Theme.activeTextColor : undefined
+        Kirigami.Theme.highlightColor: root.applyPlasmaColors ? PlasmaCore.Theme.highlightColor : undefined
+        Kirigami.Theme.backgroundColor: root.applyPlasmaColors ? PlasmaCore.Theme.backgroundColor : undefined
 
         Image {
             id: wallpaperImage
