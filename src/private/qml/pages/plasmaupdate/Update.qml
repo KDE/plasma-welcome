@@ -12,19 +12,12 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
 ColumnLayout {
     id: root
 
     readonly property string description: xi18nc("@info:usagetip", "KDE contributors have spent the last four months hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!")
-
-    readonly property list<QtObject> topContent: [
-        Kirigami.UrlButton {
-            Layout.topMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@action:button", "Help work on the next release")
-            url: "https://community.kde.org/Get_Involved?source=plasma-welcome"
-        }
-    ]
 
     Component.onCompleted: Welcome.Release.tryAutomaticPreview()
 
@@ -366,22 +359,7 @@ ColumnLayout {
         }
     }
 
-    Kirigami.AbstractCard {
+    Private.ContributionCard {
         Layout.fillWidth: true
-
-        contentItem: ColumnLayout {
-            spacing: Kirigami.Units.smallSpacing
-
-            QQC2.Label {
-                Layout.fillWidth: true
-                wrapMode: Text.Wrap
-                text: xi18nc("@info:usagetip", "The KDE community relies on donations of expertise and funds, and is supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the wider KDE community, and you can make a difference by donating today.")
-            }
-
-            Kirigami.UrlButton {
-                text: i18nc("@action:button", "Make a donation")
-                url: "https://kde.org/community/donations?source=plasma-welcome"
-            }
-        }
     }
 }
