@@ -6,6 +6,11 @@
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
+#include <QNetworkInformation>
+#include <QNetworkReply>
+#include <QRegularExpression>
+#include <QTextDocumentFragment>
+
 #include <KLocalizedString>
 
 #include "plasma-welcome-version.h"
@@ -64,6 +69,11 @@ Release::Release(QObject *parent)
         m_announcementUrl = QStringLiteral("https://kde.org/announcements/plasma/%1/%1.%2.0/")
                                 .arg(QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
     }
+
+    // Setup QNAM for fetching preview
+    m_previewNetworkAccessManager = new QNetworkAccessManager(this);
+    m_previewNetworkAccessManager->setAutoDeleteReplies(true);
+    connect(m_previewNetworkAccessManager, &QNetworkAccessManager::finished, this, &Release::parsePreviewReply);
 }
 
 int Release::patchVersion() const
@@ -74,6 +84,87 @@ int Release::patchVersion() const
 QString Release::announcementUrl() const
 {
     return m_announcementUrl + "?source=plasma-welcome";
+}
+
+void Release::tryAutomaticPreview()
+{
+    // Check if the network is up and unmetered
+    if (!QNetworkInformation::loadDefaultBackend()) {
+        qWarning() << "Failed to load QNetworkInformation backend";
+        return;
+    }
+
+    auto networkInformation = QNetworkInformation::instance();
+
+    if (networkInformation->isMetered()) {
+        return;
+    }
+
+    if (networkInformation->reachability() != QNetworkInformation::Reachability::Online) {
+        qDebug() << "Unimpl error 1";
+        // TODO: Handle error
+        return;
+    }
+
+    getPreview();
+}
+
+void Release::getPreview()
+{
+    if (m_previewStatus == Loaded || m_previewStatus == Loading) {
+        return;
+    }
+
+    m_previewStatus = Loading;
+    emit previewStatusChanged();
+
+    m_previewNetworkAccessManager->get(QNetworkRequest(m_announcementUrl));
+}
+
+void Release::parsePreviewReply(QNetworkReply *const reply)
+{
+    if (reply->error() != QNetworkReply::NoError) {
+        qDebug() << "Unimpl error 2";
+        // TODO: Handle error
+        return;
+    }
+
+    const QString data = QString::fromUtf8(reply->readAll());
+
+    auto tryRegexes = [&data](const QStringList &regexes) -> QString {
+        for (QString regexString : regexes) {
+            const QRegularExpression regex(regexString);
+            const QRegularExpressionMatch match = regex.match(data);
+
+            if (match.hasMatch()) {
+                return QTextDocumentFragment::fromHtml(match.captured(1)).toPlainText();
+            }
+        }
+
+        return QString();
+    };
+
+    const QString title = tryRegexes({"<h2 class=h1>(.+?)</h2>", // Tagline on Plasma announcement
+                                      "<meta property=\"og:title\" content=\"(.+?)\"", // OpenGraph title
+                                      "<meta content=\"(.+?)\" property=\"og:title\""}); // OpenGraph title (reversed)
+
+    const QString description = tryRegexes({"<meta property=\"og:description\" content=\"(.+?)\"", // OpenGraph description
+                                            "<meta content=\"(.+?)\" property=\"og:description\""}); // OpenGraph description (reversed)
+
+    if (title.isEmpty() || description.isEmpty()) {
+        qDebug() << "Unimpl error 3";
+        // TODO: Handle error
+        return;
+    }
+
+    m_previewTitle = title;
+    m_previewDescription = description;
+
+    emit previewTitleChanged();
+    emit previewDescriptionChanged();
+
+    m_previewStatus = Loaded;
+    emit previewStatusChanged();
 }
 
 #include "moc_release.cpp"

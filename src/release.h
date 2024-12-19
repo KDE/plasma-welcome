@@ -8,6 +8,8 @@
 
 #pragma once
 
+#include <QNetworkReply>
+
 #include <singleton.h>
 
 // org.kde.plasma.welcome, Release
@@ -21,6 +23,14 @@ class Release : public QObject, public Singleton<Release>
     WELCOME_SINGLETON(Release)
 
 public:
+    enum PreviewStatus {
+        Unloaded,
+        Loading,
+        Error,
+        Loaded
+    };
+    Q_ENUM(PreviewStatus)
+
     int patchVersion() const;
     QString announcementUrl() const;
 
@@ -28,10 +38,31 @@ public:
     Q_PROPERTY(int patchVersion READ patchVersion CONSTANT)
     Q_PROPERTY(QString announcementUrl READ announcementUrl CONSTANT)
 
+    Q_PROPERTY(PreviewStatus previewStatus MEMBER m_previewStatus NOTIFY previewStatusChanged)
+    Q_PROPERTY(QString previewError MEMBER m_previewError NOTIFY previewErrorChanged)
+    Q_PROPERTY(QString previewTitle MEMBER m_previewTitle NOTIFY previewTitleChanged)
+    Q_PROPERTY(QString previewDescription MEMBER m_previewDescription NOTIFY previewDescriptionChanged)
+    Q_INVOKABLE void tryAutomaticPreview();
+    Q_INVOKABLE void getPreview();
+
+Q_SIGNALS:
+    void previewStatusChanged();
+    void previewErrorChanged();
+    void previewTitleChanged();
+    void previewDescriptionChanged();
+
 private:
     Release(QObject *parent = nullptr);
+
+    void parsePreviewReply(QNetworkReply *const reply);
 
     QVersionNumber m_version;
     QString m_friendlyVersion;
     QString m_announcementUrl;
+
+    QNetworkAccessManager *m_previewNetworkAccessManager;
+    PreviewStatus m_previewStatus = PreviewStatus::Unloaded;
+    QString m_previewError;
+    QString m_previewTitle;
+    QString m_previewDescription;
 };
