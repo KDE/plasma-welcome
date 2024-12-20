@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-06-30 15:08+0000\n"
+"POT-Creation-Date: 2024-12-20 00:42+0000\n"
+"PO-Revision-Date: 2024-12-13 20:44+0000\n"
 "Last-Translator: Gummi <gudmundure@gmail.com>\n"
 "Language-Team: Icelandic <kde-i18n-doc@kde.org>\n"
 "Language: is\n"
@@ -98,71 +98,73 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "Skipunin <command>%1</command> brást: %2"
 
-#: src/main.cpp:38
+#: src/main.cpp:39
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
 msgstr "Vinalegt kynningarforrit fyrir Plasma"
 
-#: src/main.cpp:43
+#: src/main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "Kynningarmiðstöð"
 
-#: src/main.cpp:51
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
 msgstr "© 2021–2024, KDE-samfélagið"
 
-#: src/main.cpp:53
+#: src/main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:54 src/main.cpp:58 src/main.cpp:61
+#: src/main.cpp:55 src/main.cpp:59 src/main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Höfundur"
 
-#: src/main.cpp:57
+#: src/main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:61
+#: src/main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
 msgstr "Oliver Beard"
 
-#: src/main.cpp:72
+#: src/main.cpp:73
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Birta útgáfutilkynningar fyrir núverandi útgáfu Plasma."
 
-#: src/main.cpp:73
+#: src/main.cpp:74
 #, kde-format
 msgid ""
 "Display release notes for the current Plasma release, for beta versions."
 msgstr ""
 "Birta útgáfutilkynningar fyrir núverandi útgáfu Plasma, fyrir betaútgáfur."
 
-#: src/main.cpp:74
+#: src/main.cpp:75
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
 "Birta uppsetningarsíðu sem ætluð er fyrir prufuumhverfi fyrir Linux-útgáfur."
 
-#: src/main.cpp:77
+#: src/main.cpp:78
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
+"Tilgreina lista yfir síðu(r), aðskildar með kommum (með innra heiti) sem á "
+"að birta."
 
 #: src/module.cpp:72
 #, kde-format
@@ -268,7 +270,7 @@ msgstr "Leita…"
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Skjáborð 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
@@ -295,11 +297,10 @@ msgid "Copy Details"
 msgstr "Afrita upplýsingar"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Ekki tókst að hlaða þessa stillingaeiningu"
+msgstr "Ekki tókst að hlaða inn þessari síðu"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -755,23 +756,16 @@ msgid "Open Settings…"
 msgstr "Opna stillingar…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:55
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
 msgstr ""
-"Til að hefjast handa skaltu opna <interface>Kerfisstillingar</interface> og "
+"Til að hefjast handa skaltu keyra <interface>Kerfisstillingar</interface> og "
 "leita að “Athafnir”. Á þeirri síðu geturðu sett upp fleiri Athafnir. Síðan "
-"getur þú skipt á milli þeirra mað flýtilyklinum <shortcut>Meta+Tab</"
-"shortcut>."
+"getur þú skipt á milli þeirra mað flýtilyklinum <shortcut>Meta+Q</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -888,15 +882,7 @@ msgid "Overview"
 msgstr "Yfirlit"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -909,8 +895,7 @@ msgstr ""
 "sem þú ert með opna þannig að auðvelt sé að nálgast þá. Þar sést einnig "
 "núverandi sýndarskjáborð og þú getur bætt við fleirum, fjarlægt önnur og "
 "flakkað á milli þeirra. Að lokum er leitargluggi á yfirlitsskjánum sem "
-"byggir á KRunner sem getur líka síað út opna glugga.<nl/><nl/>Þú getur opnað "
-"yfirlitsskjáinn með flýtilyklinum <shortcut>Meta+W</shortcut>."
+"byggir á KRunner sem getur líka síað út opna glugga."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:43
 #, kde-kuit-format
@@ -921,6 +906,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Þú getur opnað yfirlitsskjáinn með flýtilyklinum <shortcut>Meta+W</shortcut> "
+"eða með því að fara með músarbendilinn efst í vinstra hornið á skjánum. Þú "
+"getur einni ýtt á <shortcut>Meta+G</shortcut> til að sjá reitayfirlit, sem "
+"birtir sýndarskjáborð sem hnitanetsreiti."
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
 #, kde-format
@@ -949,16 +938,7 @@ msgid "Plasma Vaults"
 msgstr "Plasma öryggisgeymslur"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -972,14 +952,10 @@ msgstr ""
 "skrár, myndir og skjöl á öruggan hátt í öryggisgeymslum þar sem aðrir ná "
 "ekki til þeirra. Öryggisgeymslur geta líka verið í möppum sem eru "
 "samstilltar við skýjageymslur á netinu sem veitir slíku efni enn meira "
-"öryggi.<nl/><nl/>Smelltu á örina í <interface>kerfisbakkanum</interface> til "
-"að sýna falin atriði og smelltu svo á táknið fyrir "
-"<interface>Öryggisgeymslur</interface>."
+"öryggi."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Öryggisgeymslur"
@@ -988,18 +964,18 @@ msgstr "Öryggisgeymslur"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Mikilvæg skjöl"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Ljósmyndir"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Aflæsa og opna"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
@@ -1008,6 +984,8 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Smelltu á örina í <interface>kerfisbakkanum</interface> til að sýna falin "
+"atriði og smelltu svo á táknið fyrir <interface>Öryggisgeymslur</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
