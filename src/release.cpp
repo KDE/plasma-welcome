@@ -121,7 +121,17 @@ void Release::getPreview()
     m_previewStatus = Loading;
     emit previewStatusChanged();
 
-    m_previewNetworkAccessManager->get(QNetworkRequest(m_announcementUrl));
+    // Try getting the announcement for the current language
+    QString announcementUrl = m_announcementUrl;
+
+    const QString kdeSite = QStringLiteral("https://kde.org/");
+    if (announcementUrl.startsWith(kdeSite)) {
+        // It's our website, we can localise it
+        QString languageCode = KLocalizedString::languages().first().toLower().replace("_", "-");
+        announcementUrl.insert(kdeSite.length(), languageCode + "/");
+    }
+
+    m_previewNetworkAccessManager->get(QNetworkRequest(announcementUrl));
 }
 
 void Release::parsePreviewReply(QNetworkReply *const reply)
