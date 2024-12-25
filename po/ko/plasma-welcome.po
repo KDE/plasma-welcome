@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-11 00:42+0000\n"
-"PO-Revision-Date: 2024-11-29 00:08+0100\n"
+"PO-Revision-Date: 2024-12-24 23:29+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -159,7 +159,7 @@ msgstr "배포판 라이브 환경에 사용할 라이브 페이지를 표시합
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
+msgstr "표시할 쉼표로 구분한 페이지 목록(내부 이름)입니다."
 
 #: src/module.cpp:72
 #, kde-format
@@ -348,6 +348,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Plasma를 만드는 과정이 즐거웠던 만큼 여러분도 Plasma를 즐겁게 사용하시기를 바"
+"랍니다! 이제 시작할 시간입니다. 기능을 탐색하고, 좋아하는 앱과 게임을 설치하"
+"고, 일상 생활을 즐기세요!"
 
 #: src/qml/pages/Enjoy.qml:25
 #, kde-format
@@ -359,7 +362,7 @@ msgstr "KDE 커뮤니티에 대해서 더 알아보기"
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "KDE 토론 포럼에서 도움 받기"
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -369,6 +372,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Plasma를 유용하게 사용하셨다면 KDE에 참여하거나 기부하는 것을 고려해 보십시"
+"오. KDE는 국제적인 자원 봉사 커뮤니티이며 큰 회사가 아닙니다. 작은 기여가 큰 "
+"차이를 만들 수 있습니다!"
 
 #: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -499,7 +505,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Plasma의 네트워크 지원이 설치되어 있지 않음"
 
 #: src/qml/pages/Network.qml:75
 #, kde-kuit-format
@@ -508,18 +514,20 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Plasma에서 네트워크 연결을 관리하려면 <icode>plasma-nm</icode> 패키지가 설치"
+"되어 있어야 합니다. %1에 문제를 보고해 주십시오."
 
 #: src/qml/pages/Network.qml:244
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr ""
+msgstr "연결되었습니다"
 
 #: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "이제 완료되었습니다!"
 
 #: src/qml/pages/Network.qml:252
 #, kde-format
@@ -696,7 +704,7 @@ msgstr "시스템 설정"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr ""
+msgstr "시스템 설정하기"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:119
 #, kde-format
@@ -742,6 +750,9 @@ msgid ""
 "switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 "shortcut."
 msgstr ""
+"시작하려면 <interface>시스템 설정</interface>을 실행하여 \"활동\"을 검색하십"
+"시오. 해당 페이지에서 더 많은 활동을 생성할 수 있습니다. <shortcut>Meta+Tab</"
+"shortcut> 키보드 단축키를 통하여 활동간을 전환할 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -898,6 +909,9 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
 "it all there!"
 msgstr ""
+"시스템 설정 앱에서는 사용자의 기호와 설정에 맞게 시스템을 사용자 정의할 수 있"
+"습니다. 기본 앱, 바탕 화면 배경 그림, 시각 스타일, 아이콘, 가상 데스크톱, 전"
+"원 관리, 제3자 추가 기능 등 모든 기능을 찾을 수 있습니다!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
 #, kde-format
@@ -960,16 +974,7 @@ msgid "Simple by Default"
 msgstr "기본적으로 간단하게"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is either 'System Settings' or 'Plasma Settings', the "
-#| "settings app for Plasma Desktop or Plasma Mobile"
-#| msgid ""
-#| "Plasma is designed to be simple and usable out of the box. Things are "
-#| "where you'd expect, and there is generally no need to configure anything "
-#| "before you can be comfortable and productive.<nl/><nl/>Should you feel "
-#| "the need to, you'll find what you need in the <application>%1</"
-#| "application> app."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is designed to be simple and usable out of the box. Things are where "
@@ -980,8 +985,8 @@ msgid ""
 msgstr ""
 "Plasma는 초기 상태에서 간단하면서 사용하기 편리한 것을 목표로 합니다. 예상하"
 "는 곳에 기능이 배치되어 있으며, 기본적인 상태에서 별개의 설정 없이 편안하고 "
-"생산적으로 사용할 수 있습니다.<nl/><nl/>만약 필요하다면 <application>%1</"
-"application> 앱에서 필요한 설정을 찾을 수 있습니다."
+"생산적으로 사용할 수 있습니다.<nl/><nl/>아래는 일반적인 Plasma 데스크톱의 모"
+"습입니다. 마우스 포인터를 갖다 두거나 클릭하면 정보를 알아볼 수 있습니다!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -993,6 +998,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"이것은 \"바탕 화면\"입니다. 내 홈 폴더의 <filename>바탕화면</filename> 폴더 "
+"아래에 있는 파일과 폴더를 표시하며, 위젯을 표시할 수도 있습니다. 오른쪽 단추"
+"로 클릭한 다음 <interface>바탕 화면과 배경 그림…</interface>을 선택하여 바탕 "
+"화면의 모양을 설정할 수 있습니다. <interface>편집 모드 들어가기</interface>"
+"를 통해서 위젯을 추가, 삭제, 수정할 수 있습니다."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1002,6 +1012,9 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"이것은 \"패널\"입니다. 패널은 위젯을 포함하는 컨테이너입니다. 오른쪽 단추로 "
+"클릭하여 <interface>패널 설정 표시</interface>를 선택하면 패널의 행동 조정, "
+"패널이 표시될 화면 경계, 위젯 추가, 삭제, 수정을 할 수 있습니다."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1011,6 +1024,8 @@ msgid ""
 "apps, shut down or restart the system, access recent files, and more. Click "
 "on it to get started!"
 msgstr ""
+"이것은 다기능 실행기인 \"킥오프\" 위젯입니다. 앱 실행, 시스템 종료 및 다시 시"
+"작, 최근 파일 접근 등을 할 수 있습니다. 시작하려면 클릭하세요!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1019,6 +1034,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"이것은 \"작업 관리자\" 위젯입니다. 열린 앱을 전환하고 새 앱을 실행할 수 있습"
+"니다. 앱 아이콘을 드래그하여 순서를 변경할 수 있습니다."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1029,6 +1046,9 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"이것은 \"시스템 트레이\" 위젯입니다. 음량 조절, 네트워크 연결 등 시스템 기능"
+"을 제어할 수 있습니다. 항목을 사용해야 할 때에만 표시됩니다. 모든 항목을 표시"
+"하려면 시계 옆에 있는  ⌃ 화살표를 클릭하십시오."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1038,6 +1058,8 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"이것은 \"디지털 시계\" 위젯입니다. 클릭하면 달력을 표시합니다. 다른 시간대나 "
+"내 디지털 캘린더의 이벤트를 표시할 수도 있습니다."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1047,6 +1069,8 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"이것은 \"바탕 화면 엿보기\" 위젯입니다. 클릭하면 모든 열린 창을 임시로 숨겨"
+"서 바탕 화면을 볼 수 있습니다. 다시 클릭하면 창이 복원됩니다."
 
 #: src/qml/pages/Welcome.qml:20
 #, kde-format
