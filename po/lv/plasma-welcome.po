@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
+# SPDX-FileCopyrightText: 2024, 2025 Toms Trasuns <toms.trasuns@posteo.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-20 00:42+0000\n"
-"PO-Revision-Date: 2024-08-15 19:22+0300\n"
+"PO-Revision-Date: 2025-01-03 16:59+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -750,13 +750,7 @@ msgid "Open Settings…"
 msgstr "Atvērt iestatījumus…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:55
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -764,9 +758,9 @@ msgid ""
 "switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
 msgstr ""
 "Lai sāktu, atveriet <interface>Sistēmas iestatījumus</interface> un "
-"meklējiet „Aktivitātes“. Šajā lapā varat izveidot aktivitātes. Tāpat varat "
-"pārslēgties starp tām, izmantojot <shortcut>Meta+Tab</shortcut> tastatūras "
-"saīsni."
+"meklējiet „Aktivitātes“. Šajā lapā varēsiet izveidot vēl aktivitātes. Kad "
+"tās ir izveidotas, varēsiet starp tām pārslēgties, izmantojot <shortcut>Meta"
+"+Q</shortcut> tastatūras saīsni."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
