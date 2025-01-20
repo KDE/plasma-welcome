@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2023, 2024 Adrián Chaves (Gallaecio)
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Adrián Chaves (Gallaecio)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-20 00:42+0000\n"
-"PO-Revision-Date: 2024-12-19 22:23+0100\n"
+"PO-Revision-Date: 2025-01-19 11:53+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -405,6 +405,7 @@ msgctxt "@title:window"
 msgid "Supporting Members"
 msgstr "Apoios"
 
+# skip-rule: trasno/2012_support
 #: src/qml/pages/enjoy/Supporters.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
