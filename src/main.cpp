@@ -74,7 +74,6 @@ int main(int argc, char *argv[])
     aboutData.setupCommandLine(&parser);
 
     parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
-    parser.addOption(QCommandLineOption(QStringLiteral("post-update-beta"), i18n("Display release notes for the current Plasma release, for beta versions.")));
     parser.addOption(QCommandLineOption(QStringLiteral("live-environment"), i18n("Display the live page intended for distro live environments.")));
 
     QCommandLineOption pagesOption(QStringLiteral("pages"),
@@ -104,8 +103,6 @@ int main(int argc, char *argv[])
         }
     } else if (parser.isSet(QStringLiteral("post-update"))) {
         appSingleton->setMode(App::Mode::Update);
-    } else if (parser.isSet(QStringLiteral("post-update-beta"))) {
-        appSingleton->setMode(App::Mode::Beta);
     } else if (parser.isSet(QStringLiteral("live-environment"))) {
         appSingleton->setMode(App::Mode::Live);
     }

@@ -30,8 +30,7 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
         if (m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty()) {
             launch(QStringList{});
         } else if (m_config.readEntry("ShowUpdatePage", true) && isSignificantUpgrade()) {
-            const bool isBeta = (m_currentVersion.microVersion() >= 90 || m_currentVersion.minorVersion() >= 80);
-            launch(QStringList{isBeta ? QStringLiteral("--post-update-beta") : QStringLiteral("--post-update")});
+            launch(QStringList{QStringLiteral("--post-update")});
         }
 
         m_config.writeEntry("LastSeenVersion", m_currentVersion.toString());

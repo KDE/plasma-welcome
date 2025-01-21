@@ -249,7 +249,7 @@ Welcome.Page {
 
     footer: Kirigami.InlineMessage {
         position: Kirigami.InlineMessage.Footer
-        visible: Private.Release.patchVersion === 80
+        visible: Private.Release.isDevelopment
         text: i18nc("@info", "This page is being shown regardless of network connectivity because you are using a development version. To manually preview the different states of the page, you can use the button.")
         showCloseButton: true
 

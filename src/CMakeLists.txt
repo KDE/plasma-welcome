@@ -48,8 +48,6 @@ ecm_target_qml_sources(plasma-welcome
     qml/mock/InteractionInhibitor.qml
 
     qml/pages/PlasmaUpdate.qml
-    qml/pages/plasmaupdate/Update.qml
-    qml/pages/plasmaupdate/Beta.qml
     qml/pages/Live.qml
     qml/pages/Welcome.qml
     qml/pages/Network.qml

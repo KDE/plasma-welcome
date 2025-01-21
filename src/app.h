@@ -25,7 +25,6 @@ public:
     enum Mode {
         Pages, // Specified subset of pages via m_pages
         Update, // Post-Plasma update
-        Beta, // Post-Plasma update to a beta release
         Live, // Welcome with added Live page
         Welcome // Normal experience with all pages
     };

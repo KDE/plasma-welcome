@@ -12,10 +12,6 @@
             <label>The last seen release Plasma version. If empty, the welcome experience is shown.</label>
             <default></default>
         </entry>
-        <entry name="ShowUpdatePage" type="Bool">
-            <label>Whether to show or skip the update screen.</label>
-            <default>true</default>
-        </entry>
         <entry name="LiveEnvironment" type="Bool">
             <label>Whether to show the live environment experience, for distro installers.</label>
             <default>false</default>
@@ -23,6 +19,14 @@
         <entry name="LiveInstaller" type="String">
             <label>The location of the installer application for the live environment.</label>
             <default></default>
+        </entry>
+        <entry name="ShowUpdatePage" type="Bool">
+            <label>Whether to show or skip the update screen.</label>
+            <default>true</default>
+        </entry>
+        <entry name="AutomaticUpdatePreview" type="Bool">
+            <label>Whether to automatically load the update preview.</label>
+            <default>false</default>
         </entry>
     </group>
 </kcfg>

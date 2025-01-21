@@ -108,7 +108,6 @@ Kirigami.ApplicationWindow {
         // Push pages dynamically
         switch (Private.App.mode) {
             case Private.App.Update:
-            case Private.App.Beta:
                 _pushPage(_createPage("PlasmaUpdate.qml"));
 
                 break;
@@ -120,7 +119,7 @@ Kirigami.ApplicationWindow {
             case Private.App.Welcome:
                 _pushPage(_createPage("Welcome.qml"));
 
-                if (NetworkInformation.reachability !== NetworkInformation.Reachability.Online || Private.Release.patchVersion === 80) {
+                if (NetworkInformation.reachability !== NetworkInformation.Reachability.Online || Private.Release.isDevelopment) {
                     _pushPage(_createPage("Network.qml"));
                 }
 
