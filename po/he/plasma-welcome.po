@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-20 00:42+0000\n"
+"POT-Creation-Date: 2025-01-22 00:43+0000\n"
 "PO-Revision-Date: 2024-11-14 21:37+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -28,69 +28,89 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-l10n-he@kde.org"
 
-#: src/controller.cpp:56
+#: src/main.cpp:42
 #, kde-format
-msgid "6.0 Dev"
-msgstr "6.0 פיתוח"
+msgctxt "@info:usagetip"
+msgid "Friendly onboarding wizard for Plasma"
+msgstr "אשף ידידותי לקבלת פנים לפלזמה"
 
-#: src/controller.cpp:59
+#: src/main.cpp:47
 #, kde-format
-msgid "6.0 Alpha"
-msgstr "6.0 אלפא"
+msgctxt "@title"
+msgid "Welcome Center"
+msgstr "מרכז קבלת הפנים"
 
-#: src/controller.cpp:62
+#: src/main.cpp:55
 #, kde-format
-msgid "6.0 Beta 1"
-msgstr "6.0 בטא ראשונה"
+msgctxt "@info copyright string"
+msgid "© 2021–2024, KDE Community"
+msgstr "© 2021‏-2024, קהילת KDE"
 
-#: src/controller.cpp:65
+#: src/main.cpp:57
 #, kde-format
-msgid "6.0 Beta 2"
-msgstr "6.0 בטא שנייה"
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "פליפה קינושיטה"
 
-#: src/controller.cpp:68
+#: src/main.cpp:58 src/main.cpp:62 src/main.cpp:65
 #, kde-format
-msgctxt "@label RC meaning Release Candidate"
-msgid "6.0 RC1"
-msgstr "6.0 מועמדת ראשונה להפצה"
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "יוצר"
 
-#: src/controller.cpp:71
+#: src/main.cpp:61
 #, kde-format
-msgctxt "@label RC meaning Release Candidate"
-msgid "6.0 RC2"
-msgstr "6.0 מועמדת שנייה להפצה"
+msgctxt "@info:credit"
+msgid "Nate Graham"
+msgstr "נייט גרהם"
 
-#: src/controller.cpp:89
+#: src/main.cpp:65
 #, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "%1 Dev"
-msgstr "%1 פיתוח"
+msgctxt "@info:credit"
+msgid "Oliver Beard"
+msgstr "אוליבר ברד"
 
-#: src/controller.cpp:93
+#: src/main.cpp:76
 #, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "%1 Beta"
-msgstr "%1 בטא"
+msgid "Display release notes for the current Plasma release."
+msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה."
 
-#: src/controller.cpp:96
+#: src/main.cpp:77
 #, kde-format
-msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-msgid "%1 Beta %2"
-msgstr "%1 בטא %2"
+msgid ""
+"Display release notes for the current Plasma release, for beta versions."
+msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה, גרסאות בטא."
 
-#: src/controller.cpp:134
+#: src/main.cpp:78
+#, kde-format
+msgid "Display the live page intended for distro live environments."
+msgstr "הצגת העמוד החי שמיוחד לסביבות הפצות חיות."
+
+#: src/main.cpp:81
+#, kde-format
+msgid ""
+"Specify comma-delimited list of page(s) (by internal name) to be displayed."
+msgstr "נא לציין רשימת עמודים (בשם הפנימי) עם פסיקים ביניהם להצגה."
+
+#: src/public/configModule.cpp:72
+#, kde-format
+msgctxt "%1 is the filesystem path to a settings module"
+msgid "Unknown module %1 requested"
+msgstr "התקבלה בקשה למודול %1 שאינו מוכר"
+
+#: src/public/controller.cpp:43 src/public/utils.cpp:40
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "לא ניתן למצוא את הפקודה <command>%1</command>."
 
-#: src/controller.cpp:166
+#: src/public/controller.cpp:76 src/public/utils.cpp:73
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "לא סופקה הודעת שגיאה"
 
-#: src/controller.cpp:170
+#: src/public/controller.cpp:80 src/public/utils.cpp:77
 #, kde-kuit-format
 msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
@@ -98,106 +118,36 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "הפקודה <command>%1</command> נכשלה: %2"
 
-#: src/main.cpp:39
-#, kde-format
-msgctxt "@info:usagetip"
-msgid "Friendly onboarding wizard for Plasma"
-msgstr "אשף ידידותי לקבלת פנים לפלזמה"
-
-#: src/main.cpp:44
-#, kde-format
-msgctxt "@title"
-msgid "Welcome Center"
-msgstr "מרכז קבלת הפנים"
-
-#: src/main.cpp:52
-#, kde-format
-msgctxt "@info copyright string"
-msgid "© 2021–2024, KDE Community"
-msgstr "© 2021‏-2024, קהילת KDE"
-
-#: src/main.cpp:54
-#, kde-format
-msgctxt "@info:credit"
-msgid "Felipe Kinoshita"
-msgstr "פליפה קינושיטה"
-
-#: src/main.cpp:55 src/main.cpp:59 src/main.cpp:62
-#, kde-format
-msgctxt "@info:credit"
-msgid "Author"
-msgstr "יוצר"
-
-#: src/main.cpp:58
-#, kde-format
-msgctxt "@info:credit"
-msgid "Nate Graham"
-msgstr "נייט גרהם"
-
-#: src/main.cpp:62
-#, kde-format
-msgctxt "@info:credit"
-msgid "Oliver Beard"
-msgstr "אוליבר ברד"
-
-#: src/main.cpp:73
-#, kde-format
-msgid "Display release notes for the current Plasma release."
-msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה."
-
-#: src/main.cpp:74
-#, kde-format
-msgid ""
-"Display release notes for the current Plasma release, for beta versions."
-msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה, גרסאות בטא."
-
-#: src/main.cpp:75
-#, kde-format
-msgid "Display the live page intended for distro live environments."
-msgstr "הצגת העמוד החי שמיוחד לסביבות הפצות חיות."
-
-#: src/main.cpp:78
-#, kde-format
-msgid ""
-"Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr "נא לציין רשימת עמודים (בשם הפנימי) עם פסיקים ביניהם להצגה."
-
-#: src/module.cpp:72
-#, kde-format
-msgctxt "%1 is the filesystem path to a settings module"
-msgid "Unknown module %1 requested"
-msgstr "התקבלה בקשה למודול %1 שאינו מוכר"
-
-#: src/qml/common/ApplicationIcon.qml:39
+#: src/public/qml/ApplicationIcon.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "להפעיל את %1 כעת"
 
-#: src/qml/common/KCMPage.qml:80
+#: src/public/qml/KCMPage.qml:81
 #, kde-format
 msgid "This settings module could not be loaded"
 msgstr "טעינת מודול ההגדרות הזה לא הצליחה"
 
-#: src/qml/footers/FooterDefault.qml:29
+#: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&דילוג"
 
-#: src/qml/footers/FooterDefault.qml:29
+#: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&חזרה"
 
-#: src/qml/footers/FooterDefault.qml:70
+#: src/qml/footers/FooterDefault.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&סיום"
 
-#: src/qml/footers/FooterDefault.qml:70
+#: src/qml/footers/FooterDefault.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -257,66 +207,66 @@ msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
 msgstr "יצירת פעילות…"
 
-#: src/qml/mock/MockKRunner.qml:83
+#: src/qml/mock/MockKRunner.qml:81
 #, kde-format
 msgid "Search…"
 msgstr "חיפוש…"
 
-#: src/qml/mock/MockOverview.qml:99
+#: src/qml/mock/MockOverview.qml:98
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "שולחן עבודה 1"
 
-#: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:206
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
 msgstr "הרחבת החלון"
 
-#: src/qml/PageError.qml:19
+#: src/qml/PageError.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "שגיאה בטעינת עמוד"
 
-#: src/qml/PageError.qml:24 src/qml/pages/Network.qml:79
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:80
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
 msgstr "דיווח על תקלה…"
 
-#: src/qml/PageError.qml:30
+#: src/qml/PageError.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "העתקת פרטים"
 
-#: src/qml/PageError.qml:43
+#: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
 msgstr "אי אפשר לטעון את העמוד הזה"
 
-#: src/qml/PageError.qml:46
+#: src/qml/PageError.qml:49
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr "טעינת העמוד שסופק על ידי ההפצה שלך לא הצליחה"
 
-#: src/qml/PageError.qml:48
+#: src/qml/PageError.qml:51
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "טעינת העמוד הזה סופק על ידי מרכז קבלת הפנים לא הצליחה"
 
-#: src/qml/pages/Discover.qml:20
+#: src/qml/pages/Discover.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "ניהול תוכנה"
 
-#: src/qml/pages/Discover.qml:21
+#: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
@@ -329,7 +279,7 @@ msgstr ""
 "וכלים. אפשר לחפש או לעיין לפי קטגוריות, להסתכל על צילומי מסך ולקרוא ביקורות "
 "כדי לסייע לך למצוא את היישום שהכי מתאים לך."
 
-#: src/qml/pages/Discover.qml:105
+#: src/qml/pages/Discover.qml:107
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -376,7 +326,7 @@ msgstr ""
 "אם פלזמה מספקת לך שירות טוב, אפשר להצטרף להפקה או לתרום כלכלית. KDE היא "
 "קהילת מתנדבים בינלאומית, לא חברה גדולה. כל תרומה שהיא מייצרת שינוי של ממש!"
 
-#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -394,13 +344,13 @@ msgctxt "@action:button"
 msgid "Supporting Members"
 msgstr "חברים תומכים"
 
-#: src/qml/pages/enjoy/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
 msgstr "חברים תומכים"
 
-#: src/qml/pages/enjoy/Supporters.qml:17
+#: src/qml/pages/enjoy/Supporters.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -408,25 +358,25 @@ msgid ""
 "KDE:"
 msgstr "אנו מודים לחברים התומכים הבאים על תרומתם המחזורית ל־KDE:"
 
-#: src/qml/pages/enjoy/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "סידור אקראי"
 
-#: src/qml/pages/enjoy/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:30
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "סידור לפי שם"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:31
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "סידור לפי תאריך"
 
-#: src/qml/pages/enjoy/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:40
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -448,13 +398,13 @@ msgstr ""
 "המפתחים שלנו ישתמש בנתונים האלמוניים האלו לשיפור התוכנות של KDE. אפשר לבחור "
 "כמה לשתף בהגדרות המערכת וגם דרך כאן."
 
-#: src/qml/pages/Live.qml:19
+#: src/qml/pages/Live.qml:21
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "ברוך בואך אל %1!"
 
-#: src/qml/pages/Live.qml:22
+#: src/qml/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -465,7 +415,7 @@ msgstr ""
 "לחיצה על הסמל להלן תתחיל בהתקנת %1. לחלופין, אפשר לסגור את החלון ולהתנסות "
 "בסביבה החיה או להמשיך כאן כדי לגלות דברים נוספים על פלזמה מבית KDE."
 
-#: src/qml/pages/Live.qml:24
+#: src/qml/pages/Live.qml:26
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -475,19 +425,19 @@ msgstr ""
 "אפשר לסגור את החלון כדי להתנסות בסביבה החיה הוא להמשיך כאן כדי לגלות דברים "
 "נוספים על KDE מבית פלזמה."
 
-#: src/qml/pages/Live.qml:30
+#: src/qml/pages/Live.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "ביקור בדף הבית"
 
-#: src/qml/pages/Network.qml:19
+#: src/qml/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "גישה לאינטרנט"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -501,13 +451,13 @@ msgstr ""
 "interface> שב<interface>מגש המערכת שלך</interface> ששוכן בפינה השמאלית "
 "התחתונה של המסך."
 
-#: src/qml/pages/Network.qml:74
+#: src/qml/pages/Network.qml:75
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "לא מותקנת תמיכה בתקשורת רשת בפלזמה כרגע"
 
-#: src/qml/pages/Network.qml:75
+#: src/qml/pages/Network.qml:76
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -517,19 +467,19 @@ msgstr ""
 "כדי לנהל את חיבורי הרשת שלך, פלזמה צריכה שהחבילה <icode>plasma-nm</icode> "
 "תהיה מותקנת. נא לדווח על ההשמטה הזאת אל %1."
 
-#: src/qml/pages/Network.qml:244
+#: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "התחברת"
 
-#: src/qml/pages/Network.qml:245
+#: src/qml/pages/Network.qml:246
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "מוכנים לצאת לדרך!"
 
-#: src/qml/pages/Network.qml:252
+#: src/qml/pages/Network.qml:253
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -540,19 +490,19 @@ msgstr ""
 "עמוד זה מוצג ללא תלות במצב החיבור לרשת כיוון שבחרת להשתמש בגרסת פיתוח. כדי "
 "להציג ידנית את המצבים השונים של העמוד, אפשר להשתמש בכפתור."
 
-#: src/qml/pages/Network.qml:257
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
 msgstr "החלפת מצב"
 
-#: src/qml/pages/PlasmaUpdate.qml:17
+#: src/qml/pages/PlasmaUpdate.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "פלזמה עודכנה לגרסה %1"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:17
+#: src/qml/pages/plasmaupdate/Beta.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -563,25 +513,25 @@ msgstr ""
 "תודה לך על בדיקת מהדורת הבטא של פלזמה - המשוב שלך הכרחי לסיוע בשיפורה! נא "
 "לדווח על כל מה שמפריע לך כדי שנוכל לתקן את זה."
 
-#: src/qml/pages/plasmaupdate/Beta.qml:23
+#: src/qml/pages/plasmaupdate/Beta.qml:25
 #, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>אז מה חדש</b>"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:28
+#: src/qml/pages/plasmaupdate/Beta.qml:30
 #, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "דיווח על תקלה"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:32
+#: src/qml/pages/plasmaupdate/Beta.qml:34
 #, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "סיוע בעבודה על הגרסה הבאה"
 
-#: src/qml/pages/plasmaupdate/Update.qml:18
+#: src/qml/pages/plasmaupdate/Update.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -591,19 +541,19 @@ msgstr ""
 "מתנדבי KDE עמלו נמרצות על המהדורה הזאת במשך ארבעת החודשים האחרונים. אנו "
 "מקווים שהשימוש בפלזמה עושה לך טוב כמו שנהנינו להפיק אותה!"
 
-#: src/qml/pages/plasmaupdate/Update.qml:24
+#: src/qml/pages/plasmaupdate/Update.qml:26
 #, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
 msgstr "<b>אז מה חדש</b>"
 
-#: src/qml/pages/plasmaupdate/Update.qml:29
+#: src/qml/pages/plasmaupdate/Update.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "סיוע בעבודה על הגרסה הבאה"
 
-#: src/qml/pages/plasmaupdate/Update.qml:70
+#: src/qml/pages/plasmaupdate/Update.qml:72
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -615,13 +565,13 @@ msgstr ""
 "גרמנית ללא מטרות רווח. תרומות ל־KDE e.V.‎ תומכות בקהילת KDE הרחבה ואפשר לעשות "
 "שינוי על ידי תרומה עוד היום."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:15
+#: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "עוצמתית לפי הצורך"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:16
+#: src/qml/pages/PowerfulWhenNeeded.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -631,49 +581,49 @@ msgstr ""
 "פלזמה היא סביבה עתירת יכולות שתוכננה לשדרג פלאים את היעילות שלך! הנה קמצוץ "
 "מהדברים שהיא יכולה לעשות בשבילך:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:55
+#: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "סקירה"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:56
+#: src/qml/pages/PowerfulWhenNeeded.qml:57
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "מרכז הבקרה של המערכת שלך"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:66
+#: src/qml/pages/PowerfulWhenNeeded.qml:67
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:67
+#: src/qml/pages/PowerfulWhenNeeded.qml:68
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "חיפוש אחר כל דבר אפשרי"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:77
+#: src/qml/pages/PowerfulWhenNeeded.qml:78
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:78
+#: src/qml/pages/PowerfulWhenNeeded.qml:79
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "חיבור בין הטלפון והמחשב שלך"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:89
+#: src/qml/pages/PowerfulWhenNeeded.qml:90
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "פעילויות"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:90
+#: src/qml/pages/PowerfulWhenNeeded.qml:91
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -681,43 +631,43 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "הפרדה בין משימות לעבודה, ללימודים ולבית"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:100
+#: src/qml/pages/PowerfulWhenNeeded.qml:101
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "כספות"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:101
+#: src/qml/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "אחסון קבצים רגישים בצורה מאובטחת"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:111
+#: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "הגדרות מערכת"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:112
+#: src/qml/pages/PowerfulWhenNeeded.qml:113
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
 msgstr "הגדרת המערכת"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:119
+#: src/qml/pages/PowerfulWhenNeeded.qml:120
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "מידע נוסף על יכולות נוספות של פלזמה"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:21
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "פעילויות"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -733,15 +683,15 @@ msgstr ""
 "יישומים וחלונות, מסמכים אחרונים, יישומים „מועדפים” ויישומוני שולחן עבודה "
 "משלה."
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:27
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:27
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "פתיחת ההגדרות…"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:55
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -781,13 +731,13 @@ msgstr ""
 "יכולות!</item></list><nl/>כדי להתחיל, יש לפתוח את <interface>הגדרות המערכת</"
 "interface> ולחפש אחר „KDE Connect”. בעמוד הזה, אפשר לצמד את הטלפון שלך."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -809,7 +759,7 @@ msgstr ""
 "את סרגל החיפוש של KRunner באמצעות מקשי הקיצור <shortcut>Alt+רווח</shortcut> "
 "במקלדת וללחוץ על סמל סימן השאלה."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -819,7 +769,7 @@ msgstr ""
 "כדי ללמוד עוד, נא לפתוח את סרגל החיפוש של KRunner עם מקשי הקיצור "
 "<shortcut>Alt+Space</shortcut> וללחוץ על סמל סימן השאלה."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -829,7 +779,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "time Jerusalem"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -837,7 +787,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -846,7 +796,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 ILS  in USD"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -855,7 +805,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25 miles in km"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -863,13 +813,13 @@ msgctxt ""
 msgid "...and much more!"
 msgstr "…ועוד מגוון יכולות!"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:18
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "סקירה"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -884,7 +834,7 @@ msgstr ""
 "עוד, להסיר חלק מהם ולעבור ביניהם. סוף סוף היא מציעה גם שדה חיפוש מבוסס "
 "KRunner שיכול לסנן בין החלונות הפתוחים."
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:43
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:44
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -916,13 +866,13 @@ msgstr ""
 "והעדפותיך. יישומי ברירת מחדל, תמונות רקע, סגנונות חזותיים וסמלים, שולחנות "
 "עבודה וירטואליים, ניהול צריכת חשמל, תוספי צד־שלישי - הכול כבר שם!"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "כספות של פלזמה"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -937,30 +887,30 @@ msgstr ""
 "מאובטחת הרחק מסקרנים. כספות יכולות לחיות בתוך תיקיות שמסונכרנות גם מול "
 "שירותי ענן, המספקים פרטיות נוספת לתוכן הזה."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:93
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "כספות"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:107
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "מסמכים חשובים"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:109
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "התמונות שלי"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:117
 #, kde-format
 msgid "Unlock and Open"
 msgstr "שחרור ופתיחה"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:129
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -970,13 +920,13 @@ msgstr ""
 "כדי להתחיל, נא ללחוץ על החץ ב<interface>שורת המערכת</interface> כדי להציג "
 "פריטים מוסתרים, ואז ללחוץ על סמל ה<interface>כספות</interface>."
 
-#: src/qml/pages/SimpleByDefault.qml:21
+#: src/qml/pages/SimpleByDefault.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "פשוטה מהיסוד"
 
-#: src/qml/pages/SimpleByDefault.qml:22
+#: src/qml/pages/SimpleByDefault.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -991,7 +941,7 @@ msgstr ""
 "משימות.<nl/><nl/>להלן ייצוג חזותי של שולחן עבודה טיפוסי של פלזמה. אפשר להזיז "
 "את הסמן על גבי משהו או ללחוץ על משהו כדי ללמוד עליו!"
 
-#: src/qml/pages/SimpleByDefault.qml:33
+#: src/qml/pages/SimpleByDefault.qml:34
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1007,7 +957,7 @@ msgstr ""
 "העבודה. אפשר גם לבחור ב<interface>כניסה למצב עריכה</interface> כדי להוסיף, "
 "להסיר או לערוך וידג׳טים."
 
-#: src/qml/pages/SimpleByDefault.qml:36
+#: src/qml/pages/SimpleByDefault.qml:37
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1019,7 +969,7 @@ msgstr ""
 "הגדרות לוח</interface> תאפשר לשנות איך הוא מתנהג, באילו שוליים של המסך הוא "
 "חי ולהוסיף, להסיר או לערוך וידג׳טים."
 
-#: src/qml/pages/SimpleByDefault.qml:39
+#: src/qml/pages/SimpleByDefault.qml:40
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1030,7 +980,7 @@ msgstr ""
 "זה וידג׳ט „יציאה לדרך”, משגר רב־תכליתי. כאן אפשר לשגר יישומים, לכבות או "
 "להפעיל את המערכת מחדש, לגשת לקבצים אחרונים ועוד. כדאי ללחוץ עליו כדי להתחיל!"
 
-#: src/qml/pages/SimpleByDefault.qml:42
+#: src/qml/pages/SimpleByDefault.qml:43
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1040,7 +990,7 @@ msgstr ""
 "זה וידג׳ט „מנהל המשימות”, בו אפשר לעבור בין יישומים פתוחים וגם לפתוח חדשים. "
 "אפשר לגרור את הסמלים כדי לסדר אותם באופן שמתאים לך."
 
-#: src/qml/pages/SimpleByDefault.qml:45
+#: src/qml/pages/SimpleByDefault.qml:46
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1053,7 +1003,7 @@ msgstr ""
 "והתחברות לרשתות. הפריטים גלויים רק כשהם נחוצים. כדי לצפות בכל הפריטים "
 "הזמינים, יש ללחוץ על החץ שליד השעון."
 
-#: src/qml/pages/SimpleByDefault.qml:48
+#: src/qml/pages/SimpleByDefault.qml:49
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1064,7 +1014,7 @@ msgstr ""
 "זה וידג׳ט „שעון דיגיטלי”. יש ללחוץ עליו כדי להציג לוח שנה. אפשר להגדיר אותו "
 "כך שיציג אזורי זמן נוספים ואירועים מלוחות השנה הדיגיטליים שלך."
 
-#: src/qml/pages/SimpleByDefault.qml:51
+#: src/qml/pages/SimpleByDefault.qml:52
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1076,13 +1026,13 @@ msgstr ""
 "החלונות הפתוחים כדי לאפשר גישה לשולחן העבודה. לחיצה נוספת עליו תביא אותם "
 "בחזרה."
 
-#: src/qml/pages/Welcome.qml:20
+#: src/qml/pages/Welcome.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "ברוך בואך"
 
-#: src/qml/pages/Welcome.qml:22
+#: src/qml/pages/Welcome.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
@@ -1097,7 +1047,7 @@ msgstr ""
 "להיות פשוטה כברירת מחדל לקבלת חווייה חלקה אך עוצמתית בעת הצורך כדי לסייע לך "
 "לבצע את מה שנחוץ. מקווים שהיא לטעמך!"
 
-#: src/qml/pages/Welcome.qml:23
+#: src/qml/pages/Welcome.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -1112,53 +1062,91 @@ msgstr ""
 "בינלאומית. היא תוכננה להיות פשוטה כברירת מחדל לקבלת חווייה חלקה אך עוצמתית "
 "בעת הצורך כדי לסייע לך לבצע את מה שנחוץ. מקווים שהיא לטעמך!"
 
-#: src/qml/pages/Welcome.qml:27
+#: src/qml/pages/Welcome.qml:28
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "על מרכז קבלת הפנים"
 
-#: src/qml/pages/Welcome.qml:33
+#: src/qml/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "על KDE"
 
-#: src/qml/pages/Welcome.qml:56
+#: src/qml/pages/Welcome.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "מידע נוסף על קהילת KDE"
 
-#: src/qml/pages/Welcome.qml:61
+#: src/qml/pages/Welcome.qml:62
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "מידע נוסף על %1"
 
-#: src/qml/pages/Welcome.qml:98
+#: src/qml/pages/Welcome.qml:99
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "טעינת תמונה נכשלה"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:100
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "לא ניתן לטעון את <filename>%1</filename>. נא לוודא שהיא קיימת."
 
-#: src/qml/pages/Welcome.qml:126
+#: src/qml/pages/Welcome.qml:127
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "ביקור ב־%1"
 
-#: src/qml/pages/Welcome.qml:133
+#: src/qml/pages/Welcome.qml:134
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "קונקי, הקמע של KDE מקבל את פניך לקהילת KDE!"
+
+#: src/release.cpp:38
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "%1 Dev"
+msgstr "%1 פיתוח"
+
+#: src/release.cpp:41
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "%1 Beta"
+msgstr "%1 בטא"
+
+#: src/release.cpp:45
+#, kde-format
+msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+msgid "%1 Beta %2"
+msgstr "%1 בטא %2"
+
+#~ msgid "6.0 Dev"
+#~ msgstr "6.0 פיתוח"
+
+#~ msgid "6.0 Alpha"
+#~ msgstr "6.0 אלפא"
+
+#~ msgid "6.0 Beta 1"
+#~ msgstr "6.0 בטא ראשונה"
+
+#~ msgid "6.0 Beta 2"
+#~ msgstr "6.0 בטא שנייה"
+
+#~ msgctxt "@label RC meaning Release Candidate"
+#~ msgid "6.0 RC1"
+#~ msgstr "6.0 מועמדת ראשונה להפצה"
+
+#~ msgctxt "@label RC meaning Release Candidate"
+#~ msgid "6.0 RC2"
+#~ msgstr "6.0 מועמדת שנייה להפצה"
 
 #~ msgctxt "@info copyright string"
 #~ msgid "(c) 2021"

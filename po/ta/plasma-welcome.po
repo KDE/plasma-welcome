@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-20 00:42+0000\n"
+"POT-Creation-Date: 2025-01-22 00:43+0000\n"
 "PO-Revision-Date: 2024-10-27 15:09+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -27,69 +27,90 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Kde-l10n-ta@kde.org"
 
-#: src/controller.cpp:56
+#: src/main.cpp:42
 #, kde-format
-msgid "6.0 Dev"
-msgstr "6.0 நிரலாக்கப் பதிவு"
+msgctxt "@info:usagetip"
+msgid "Friendly onboarding wizard for Plasma"
+msgstr "பிளாஸ்மாவை பயனர்களுக்கு அறிமுகப்படுத்தும் உதவிநிரல்"
 
-#: src/controller.cpp:59
+#: src/main.cpp:47
 #, kde-format
-msgid "6.0 Alpha"
-msgstr "6.0 ஆல்ஃபா"
+msgctxt "@title"
+msgid "Welcome Center"
+msgstr "வரவேற்பு மையம்"
 
-#: src/controller.cpp:62
+#: src/main.cpp:55
 #, kde-format
-msgid "6.0 Beta 1"
-msgstr "6.0 பீட்டா 1"
+msgctxt "@info copyright string"
+msgid "© 2021–2024, KDE Community"
+msgstr "© 2021–2024 கே.டீ.யீ. சமூகம்"
 
-#: src/controller.cpp:65
+#: src/main.cpp:57
 #, kde-format
-msgid "6.0 Beta 2"
-msgstr "6.0 பீட்டா 2"
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "ஃபெலிபே கினோஷ்டா"
 
-#: src/controller.cpp:68
+#: src/main.cpp:58 src/main.cpp:62 src/main.cpp:65
 #, kde-format
-msgctxt "@label RC meaning Release Candidate"
-msgid "6.0 RC1"
-msgstr "6.0 RC1"
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "இயற்றியவர்"
 
-#: src/controller.cpp:71
+#: src/main.cpp:61
 #, kde-format
-msgctxt "@label RC meaning Release Candidate"
-msgid "6.0 RC2"
-msgstr "6.0 RC2"
+msgctxt "@info:credit"
+msgid "Nate Graham"
+msgstr "நேட் கிரஹாம்"
 
-#: src/controller.cpp:89
+#: src/main.cpp:65
 #, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "%1 Dev"
-msgstr "%1 நிரலாக்கம்"
+msgctxt "@info:credit"
+msgid "Oliver Beard"
+msgstr "ஆலிவர் பியர்டு"
 
-#: src/controller.cpp:93
+#: src/main.cpp:76
 #, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "%1 Beta"
-msgstr "%1 பீட்டா"
+msgid "Display release notes for the current Plasma release."
+msgstr "தற்போதைய பிளாஸ்மா பதிப்புக்கான வெளியீட்டு குறிப்புகளைக் காட்டும்."
 
-#: src/controller.cpp:96
+#: src/main.cpp:77
 #, kde-format
-msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-msgid "%1 Beta %2"
-msgstr "%1 பீட்டா %2"
+msgid ""
+"Display release notes for the current Plasma release, for beta versions."
+msgstr ""
+"தற்போதைய பிளாஸ்மா பதிப்புக்கான வெளியீட்டு குறிப்புகளைக் காட்டும் (பீட்டா பதிப்புகளுக்கு)."
 
-#: src/controller.cpp:134
+#: src/main.cpp:78
+#, kde-format
+msgid "Display the live page intended for distro live environments."
+msgstr ""
+
+#: src/main.cpp:81
+#, kde-format
+msgid ""
+"Specify comma-delimited list of page(s) (by internal name) to be displayed."
+msgstr ""
+
+#: src/public/configModule.cpp:72
+#, kde-format
+msgctxt "%1 is the filesystem path to a settings module"
+msgid "Unknown module %1 requested"
+msgstr "தெரியாத %1 கூறு கோரப்பட்டது"
+
+#: src/public/controller.cpp:43 src/public/utils.cpp:40
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "<command>%1</command> எனும் கட்டளையைக் கண்டுபிடிக்க முடியவில்லை."
 
-#: src/controller.cpp:166
+#: src/public/controller.cpp:76 src/public/utils.cpp:73
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "சிக்கல் குறித்த எந்த செய்தியும் வழங்கப்படவில்லை"
 
-#: src/controller.cpp:170
+#: src/public/controller.cpp:80 src/public/utils.cpp:77
 #, kde-kuit-format
 msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
@@ -97,107 +118,36 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "<command>%1</command> கட்டளை தோல்வியடைந்த‍து: %2"
 
-#: src/main.cpp:39
-#, kde-format
-msgctxt "@info:usagetip"
-msgid "Friendly onboarding wizard for Plasma"
-msgstr "பிளாஸ்மாவை பயனர்களுக்கு அறிமுகப்படுத்தும் உதவிநிரல்"
-
-#: src/main.cpp:44
-#, kde-format
-msgctxt "@title"
-msgid "Welcome Center"
-msgstr "வரவேற்பு மையம்"
-
-#: src/main.cpp:52
-#, kde-format
-msgctxt "@info copyright string"
-msgid "© 2021–2024, KDE Community"
-msgstr "© 2021–2024 கே.டீ.யீ. சமூகம்"
-
-#: src/main.cpp:54
-#, kde-format
-msgctxt "@info:credit"
-msgid "Felipe Kinoshita"
-msgstr "ஃபெலிபே கினோஷ்டா"
-
-#: src/main.cpp:55 src/main.cpp:59 src/main.cpp:62
-#, kde-format
-msgctxt "@info:credit"
-msgid "Author"
-msgstr "இயற்றியவர்"
-
-#: src/main.cpp:58
-#, kde-format
-msgctxt "@info:credit"
-msgid "Nate Graham"
-msgstr "நேட் கிரஹாம்"
-
-#: src/main.cpp:62
-#, kde-format
-msgctxt "@info:credit"
-msgid "Oliver Beard"
-msgstr "ஆலிவர் பியர்டு"
-
-#: src/main.cpp:73
-#, kde-format
-msgid "Display release notes for the current Plasma release."
-msgstr "தற்போதைய பிளாஸ்மா பதிப்புக்கான வெளியீட்டு குறிப்புகளைக் காட்டும்."
-
-#: src/main.cpp:74
-#, kde-format
-msgid ""
-"Display release notes for the current Plasma release, for beta versions."
-msgstr ""
-"தற்போதைய பிளாஸ்மா பதிப்புக்கான வெளியீட்டு குறிப்புகளைக் காட்டும் (பீட்டா பதிப்புகளுக்கு)."
-
-#: src/main.cpp:75
-#, kde-format
-msgid "Display the live page intended for distro live environments."
-msgstr ""
-
-#: src/main.cpp:78
-#, kde-format
-msgid ""
-"Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr ""
-
-#: src/module.cpp:72
-#, kde-format
-msgctxt "%1 is the filesystem path to a settings module"
-msgid "Unknown module %1 requested"
-msgstr "தெரியாத %1 கூறு கோரப்பட்டது"
-
-#: src/qml/common/ApplicationIcon.qml:39
+#: src/public/qml/ApplicationIcon.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "%1 தனை இப்போது திற"
 
-#: src/qml/common/KCMPage.qml:80
+#: src/public/qml/KCMPage.qml:81
 #, kde-format
 msgid "This settings module could not be loaded"
 msgstr "அமைப்புக்கூறை ஏற்ற முடியவில்லை"
 
-#: src/qml/footers/FooterDefault.qml:29
+#: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&தவிர்"
 
-#: src/qml/footers/FooterDefault.qml:29
+#: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&முந்தையது"
 
-#: src/qml/footers/FooterDefault.qml:70
+#: src/qml/footers/FooterDefault.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&முடி"
 
-#: src/qml/footers/FooterDefault.qml:70
+#: src/qml/footers/FooterDefault.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -257,67 +207,67 @@ msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
 msgstr ""
 
-#: src/qml/mock/MockKRunner.qml:83
+#: src/qml/mock/MockKRunner.qml:81
 #, kde-format
 msgid "Search…"
 msgstr ""
 
-#: src/qml/mock/MockOverview.qml:99
+#: src/qml/mock/MockOverview.qml:98
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr ""
 
-#: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:206
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
 msgstr "சாளரத்தை பெரிதாக்கவும்"
 
-#: src/qml/PageError.qml:19
+#: src/qml/PageError.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "பக்கத்தை ஏற்றுவதில் சிக்கல்"
 
-#: src/qml/PageError.qml:24 src/qml/pages/Network.qml:79
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:80
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
 msgstr "பிழையை தெரிவி…"
 
-#: src/qml/PageError.qml:30
+#: src/qml/PageError.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "விவரங்களை நகலெடு"
 
-#: src/qml/PageError.qml:43
+#: src/qml/PageError.qml:46
 #, fuzzy, kde-kuit-format
 #| msgid "This settings module could not be loaded"
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
 msgstr "அமைப்புக்கூறை ஏற்ற முடியவில்லை"
 
-#: src/qml/PageError.qml:46
+#: src/qml/PageError.qml:49
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr "உங்கள் இயங்குதளம் வழங்கிய இப்பக்கத்தை ஏற்ற முடியவில்லை"
 
-#: src/qml/PageError.qml:48
+#: src/qml/PageError.qml:51
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "வரவேற்பு மையம் வழங்கிய இப்பக்கத்தை ஏற்ற முடியவில்லை"
 
-#: src/qml/pages/Discover.qml:20
+#: src/qml/pages/Discover.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "மென்பொருட்களை கையாள்வது"
 
-#: src/qml/pages/Discover.qml:21
+#: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
@@ -331,7 +281,7 @@ msgstr ""
 "விடும்; பகுப்புகளின் அடிப்படையில் உலாவ விடும்; திரைப்பிடிப்புகளைப் பார்க்க விடும்; மற்றும் "
 "விமர்சனங்களைப் படிக்க விடும்."
 
-#: src/qml/pages/Discover.qml:105
+#: src/qml/pages/Discover.qml:107
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -373,7 +323,7 @@ msgid ""
 "contributions make a real difference!"
 msgstr ""
 
-#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -391,13 +341,13 @@ msgctxt "@action:button"
 msgid "Supporting Members"
 msgstr "ஆதரிப்போர்"
 
-#: src/qml/pages/enjoy/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
 msgstr "ஆதரிப்போர்"
 
-#: src/qml/pages/enjoy/Supporters.qml:17
+#: src/qml/pages/enjoy/Supporters.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -405,25 +355,25 @@ msgid ""
 "KDE:"
 msgstr "கே.டீ.யீ.க்கு தொடர்ந்து நன்கொடை அளிக்கும் பின்வருபர்களுக்கு நன்றி:"
 
-#: src/qml/pages/enjoy/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "வரிசைப்படுத்த வேண்டாம்"
 
-#: src/qml/pages/enjoy/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:30
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "பெயர் வாரியாக வரிசைப்படுத்து"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:31
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "தேதிப்படி வரிசைப்படுத்து"
 
-#: src/qml/pages/enjoy/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:40
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -446,13 +396,13 @@ msgstr ""
 "மேம்படுத்துவார்கள். இங்கேயேவோ, கணினி அமைப்புகளிலோ, எதையெல்லாம் பகிர வேண்டுமென்பதை நீங்கள் "
 "அமைக்கலாம்."
 
-#: src/qml/pages/Live.qml:19
+#: src/qml/pages/Live.qml:21
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "%1-க்கு நல்வரவு!"
 
-#: src/qml/pages/Live.qml:22
+#: src/qml/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -464,7 +414,7 @@ msgstr ""
 "சோதித்துப் பார்க்கலாம், அல்லது இங்கேயே தொடர்ந்து கே.டீ.யீ. பிளாஸ்மாவைப் பற்றி மேலும் "
 "அறியலாம்."
 
-#: src/qml/pages/Live.qml:24
+#: src/qml/pages/Live.qml:26
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -474,19 +424,19 @@ msgstr ""
 "இச்சாளரத்தை மூடி இந்த இயங்குதளத்தை சோதித்துப் பார்க்கலாம், அல்லது இங்கேயே தொடர்ந்து கே.டீ."
 "யீ. பிளாஸ்மாவைப் பற்றி மேலும் அறியலாம்."
 
-#: src/qml/pages/Live.qml:30
+#: src/qml/pages/Live.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "முகப்புப் பக்கத்திற்கு செல்"
 
-#: src/qml/pages/Network.qml:19
+#: src/qml/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "இணையத்தை அணுகுவது"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -500,13 +450,13 @@ msgstr ""
 "interface> <interface>பிணையங்கள்</interface> எனும் சின்னத்தைக் கிளிக் செய்யுங்கள். "
 "இயல்பாக, இது திரையின் வலது-கீழ் ஓரத்தில் அமைந்திருக்கும்."
 
-#: src/qml/pages/Network.qml:74
+#: src/qml/pages/Network.qml:75
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "பிளாஸ்மாக்கான பிணைய ஆதரவு நிறுவப்படவில்லை"
 
-#: src/qml/pages/Network.qml:75
+#: src/qml/pages/Network.qml:76
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -516,19 +466,19 @@ msgstr ""
 "பிணைய இணைப்புகளை பிளாஸ்மா நிர்வகிக்க, <icode>plasma-nm</icode> நிறுவப்பட்டிருக்க "
 "வெண்டும். இந்த சிக்கலை %1-க்கு தெரிவிக்கவும்."
 
-#: src/qml/pages/Network.qml:244
+#: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "இணைந்துள்ளீர்"
 
-#: src/qml/pages/Network.qml:245
+#: src/qml/pages/Network.qml:246
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "சரியாக உள்ளது!"
 
-#: src/qml/pages/Network.qml:252
+#: src/qml/pages/Network.qml:253
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -539,19 +489,19 @@ msgstr ""
 "நீங்கள் நிரலாக்கப் பதிப்பைப் பயன்படுத்துவதால் இப்பக்கம் எப்போதும் காட்டப்படும் (பிணைய நிலையைப் "
 "பொருட்படுத்தாமல்). இப்பக்கத்தின் வெவ்வேறு நிலைகளின் முன்னோட்டங்காண, பட்டனைப் பயன்படுத்தலாம்"
 
-#: src/qml/pages/Network.qml:257
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
 msgstr "நிலையை மாற்று"
 
-#: src/qml/pages/PlasmaUpdate.qml:17
+#: src/qml/pages/PlasmaUpdate.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "%1 பதிப்புக்கு பிளாஸ்மா புதுப்பிக்கப்பட்டுள்ளது"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:17
+#: src/qml/pages/plasmaupdate/Beta.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -562,25 +512,25 @@ msgstr ""
 "பிளாஸ்மாவின் இந்த பீட்டா பதிப்பை சோதிப்பதற்கு நன்றி — அதை மேம்படுத்த உங்கள் பின்னூட்டம் "
 "அவசியம்! நீங்கள் கண்டுபிடிக்கும் அனைத்து பிழைகளையும் எங்களிடம் தெரிவியுங்கள்."
 
-#: src/qml/pages/plasmaupdate/Beta.qml:23
+#: src/qml/pages/plasmaupdate/Beta.qml:25
 #, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>புதியது என்னவென்று காட்டு</b>"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:28
+#: src/qml/pages/plasmaupdate/Beta.qml:30
 #, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "பிழையை தெரிவி"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:32
+#: src/qml/pages/plasmaupdate/Beta.qml:34
 #, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "அடுத்த பதிப்புக்கு உதவ விரும்புகிறேன்"
 
-#: src/qml/pages/plasmaupdate/Update.qml:18
+#: src/qml/pages/plasmaupdate/Update.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -590,19 +540,19 @@ msgstr ""
 "கடந்த நான்கு மாதங்களாக கே.டீ.யீ. பங்களிப்பாளர்கள் இப்பதிப்பை உருவாக்கியிருந்திருக்கிறார்கள். "
 "இதைப் பயன்படுத்தி நீங்கள் மகிழ்வுறவேண்டுமென நாங்கள் ஆசைப்படுகிறோம்."
 
-#: src/qml/pages/plasmaupdate/Update.qml:24
+#: src/qml/pages/plasmaupdate/Update.qml:26
 #, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
 msgstr "<b>புதியது என்னவென்று காட்டு</b>"
 
-#: src/qml/pages/plasmaupdate/Update.qml:29
+#: src/qml/pages/plasmaupdate/Update.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "அடுத்த பதிப்புக்கு உதவ விரும்புகிறேன்"
 
-#: src/qml/pages/plasmaupdate/Update.qml:70
+#: src/qml/pages/plasmaupdate/Update.qml:72
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -615,13 +565,13 @@ msgstr ""
 "நன்கொடை, கே.டீ.யீ. சமூகத்தை ஆதரிக்கவே பயன்படுத்தப்படும். இன்றே நன்கொடையளித்து எங்களுக்கு "
 "நீங்கள் உதவலாம்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:15
+#: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "தேவைப்படும்போது ஆற்றல்மிக்கது"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:16
+#: src/qml/pages/PowerfulWhenNeeded.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -629,49 +579,49 @@ msgid ""
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr "உங்கள் உற்பத்தித்திறனை பன்மடங்காக்கும் அம்சங்களை பிளாஸ்மா கொண்டுள்ளது. அவற்றில் சில:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:55
+#: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "மேலோட்டம்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:56
+#: src/qml/pages/PowerfulWhenNeeded.qml:57
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "பணிமேடையை கட்டுப்படுத்த உதவும்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:66
+#: src/qml/pages/PowerfulWhenNeeded.qml:67
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "கேரன்னர்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:67
+#: src/qml/pages/PowerfulWhenNeeded.qml:68
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "எதைவேண்டுமானாலும் தேடலாம்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:77
+#: src/qml/pages/PowerfulWhenNeeded.qml:78
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "கே.டீ.யீ. கனெக்ட்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:78
+#: src/qml/pages/PowerfulWhenNeeded.qml:79
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "கணினியையும் கைபேசியையும் இணைக்கலாம்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:89
+#: src/qml/pages/PowerfulWhenNeeded.qml:90
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "செயல்பாடுகள்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:90
+#: src/qml/pages/PowerfulWhenNeeded.qml:91
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -679,43 +629,43 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "வேலை, பள்ளி, மற்றும் ஓய்வு பணிகளை பிரிக்கலாம்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:100
+#: src/qml/pages/PowerfulWhenNeeded.qml:101
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "வால்ட்டுகள்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:101
+#: src/qml/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "முக்கியமான கோப்புகளை ரகசியமாகவும் பாதுகாப்பாகவும் வைக்கலாம்."
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:111
+#: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "கணினி அமைப்புகள்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:112
+#: src/qml/pages/PowerfulWhenNeeded.qml:113
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
 msgstr "கணினியை அமையுங்கள்"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:119
+#: src/qml/pages/PowerfulWhenNeeded.qml:120
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "பிளாஸ்மாவின் அம்சங்களைப் பற்றி மேலும் காட்டு"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:21
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "செயல்பாடுகள்"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -726,15 +676,15 @@ msgid ""
 "desktop widgets."
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:27
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:27
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "அமைப்புகளை திற…"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:55
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -764,13 +714,13 @@ msgid ""
 "“KDE Connect”. On that page, you can pair your phone."
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "கேரன்னர்"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -782,7 +732,7 @@ msgid ""
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -790,7 +740,7 @@ msgid ""
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -800,7 +750,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -808,7 +758,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -817,7 +767,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -826,7 +776,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -834,13 +784,13 @@ msgctxt ""
 msgid "...and much more!"
 msgstr "... என்று ஏராளமானவை!"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:18
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "மேலோட்டம்"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:20
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -864,7 +814,7 @@ msgstr ""
 "உரைப்பெட்டியையும் இது கொண்டிருக்கும்.<nl/><nl/><shortcut>Meta+W</shortcut> எனும் "
 "விசைச்சுருக்கவழியைக் கொண்டு மேலோட்டத்தை அணுகலாம்."
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:43
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:44
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -893,13 +843,13 @@ msgstr ""
 "இயல்பிருப்பு செயலிகள், பின்புலப் படங்கள், தோற்றத்திட்டங்கள், சின்னங்கள், மெய்நிகர் பணிமேடைகள், "
 "ஆற்றல் மேலாண்மை, மூன்றாம் தரப்பினரின் நீட்சிகள் — இவை அனைத்தையும் இங்கு அமைக்கலாம்!"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "பிளாஸ்மா வால்ட்டுகள்"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:23
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -926,7 +876,7 @@ msgstr ""
 "அம்புக்குறியை கிளிக் செய்து, <interface>வால்ட்டுகள்</interface> சின்னத்தை கிளிக் "
 "செய்யவும்."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:93
 #, fuzzy, kde-format
 #| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 #| msgid "Vaults"
@@ -934,24 +884,24 @@ msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "வால்ட்டுகள்"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:107
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:109
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:117
 #, kde-format
 msgid "Unlock and Open"
 msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:129
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -959,13 +909,13 @@ msgid ""
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
 
-#: src/qml/pages/SimpleByDefault.qml:21
+#: src/qml/pages/SimpleByDefault.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "இயல்பில் எளியது"
 
-#: src/qml/pages/SimpleByDefault.qml:22
+#: src/qml/pages/SimpleByDefault.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -980,7 +930,7 @@ msgstr ""
 "இல்லை. <nl/><nl/>இயல்பான பிளாஸ்மா பணிமேடையின் பிரதிபலிப்பு கீழே உள்ளது; அதிலுள்ள "
 "ஏதாவதொன்றைப் பற்றி மேலும் அறிய, அதை கிளிக் செய்யலாம் அல்லது சுட்டியை மேல்வைக்கலாம்."
 
-#: src/qml/pages/SimpleByDefault.qml:33
+#: src/qml/pages/SimpleByDefault.qml:34
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -996,7 +946,7 @@ msgstr ""
 "interface> என்பதைத் தேர்வு செய்யவும். பிளாஸ்மாய்டுகளை சேர்க்க, நீக்க, அல்லது திருத்த "
 "<interface>திருத்தும் பயன்முறையில் நுழை</interface> என்பதைத் தேர்வு சேய்யவும்."
 
-#: src/qml/pages/SimpleByDefault.qml:36
+#: src/qml/pages/SimpleByDefault.qml:37
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1009,7 +959,7 @@ msgstr ""
 "பிளாஸ்மாய்டுகளைத் திருத்தவோ இதில் வலது-கிளிக் செய்து <interface>பலகை அமைப்புகளைக் "
 "காட்டு</interface> என்பதைத் தேர்ந்தெடுக்கவும்."
 
-#: src/qml/pages/SimpleByDefault.qml:39
+#: src/qml/pages/SimpleByDefault.qml:40
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1021,7 +971,7 @@ msgstr ""
 "நிறுத்துவது, மற்றும் கணினியை மீள்துவக்குவது போன்றவற்றிற்கு இது உதவும். பயன்படுத்த இதில் "
 "கிளிக் செய்யவும்."
 
-#: src/qml/pages/SimpleByDefault.qml:42
+#: src/qml/pages/SimpleByDefault.qml:43
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1031,7 +981,7 @@ msgstr ""
 "இது, திறந்துள்ள செயலிகளை கையாளவும் புதியவற்றைத் திறக்கவும் உதவும் 'பணி மேலாளி' "
 "பிளாஸ்மாய்டு ஆகும். சின்னங்களின் வரிசையை மாற்ற அவற்றை இழுக்கலாம்."
 
-#: src/qml/pages/SimpleByDefault.qml:45
+#: src/qml/pages/SimpleByDefault.qml:46
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1044,7 +994,7 @@ msgstr ""
 "செய்யலாம். இதன் உருப்படிகள், தேவைப்படும்போது மட்டும் காட்டப்படும். உள்ள அனைத்து "
 "உருப்படிகளையும் காண, கடிகாரத்தின் அருகில் உள்ள ⌃ அம்புக்குறியை கிளிக் செய்யவும்."
 
-#: src/qml/pages/SimpleByDefault.qml:48
+#: src/qml/pages/SimpleByDefault.qml:49
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1055,7 +1005,7 @@ msgstr ""
 "இது 'எண்ணுரு கடிகாரம்' ஆகும். அதில் கிளிக் செய்து நாள்காட்டியைப் பார்க்கலாம். மற்ற "
 "நேரமண்டலங்களையும் உங்கள் நாள்காட்டியிலுள்ள நிகழ்வுகளையும் காட்டுமாறு இதை அமைக்கலாம்."
 
-#: src/qml/pages/SimpleByDefault.qml:51
+#: src/qml/pages/SimpleByDefault.qml:52
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1067,13 +1017,13 @@ msgstr ""
 "தற்காலிகமாக மறைத்து பணிமேடையைக் காட்ட இதைக் கிளிக் செய்யலாம். சாளரங்களைத் திரும்பப்பெற "
 "இதை மறுபடியும் கிளிக் செய்யவும்."
 
-#: src/qml/pages/Welcome.qml:20
+#: src/qml/pages/Welcome.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "நல்வரவு"
 
-#: src/qml/pages/Welcome.qml:22
+#: src/qml/pages/Welcome.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
@@ -1088,7 +1038,7 @@ msgstr ""
 "இயல்பிருப்பில் எளியதாக இருந்தாலும், தேவைப்படும்போது பல மேம்பட்ட அம்சங்களை வழங்கும் வகையில் "
 "இது உருவாக்கப்பட்டுள்ளது. இதை நீங்கள் விரும்பினால் எங்களுக்கு மகிழ்ச்சி!"
 
-#: src/qml/pages/Welcome.qml:23
+#: src/qml/pages/Welcome.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -1104,54 +1054,92 @@ msgstr ""
 "அம்சங்களை வழங்கும் வகையில் இது உருவாக்கப்பட்டுள்ளது. இதை நீங்கள் விரும்பினால் எங்களுக்கு "
 "மகிழ்ச்சி!"
 
-#: src/qml/pages/Welcome.qml:27
+#: src/qml/pages/Welcome.qml:28
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "வரவேற்பு மையத்தை பற்றி"
 
-#: src/qml/pages/Welcome.qml:33
+#: src/qml/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "கே.டீ.யீ. பற்றி"
 
-#: src/qml/pages/Welcome.qml:56
+#: src/qml/pages/Welcome.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "கே.டீ.யீ. சமூகத்தை பற்றி மேலும் காட்டு"
 
-#: src/qml/pages/Welcome.qml:61
+#: src/qml/pages/Welcome.qml:62
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 பற்றி மேலும் காட்டு"
 
-#: src/qml/pages/Welcome.qml:98
+#: src/qml/pages/Welcome.qml:99
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "படத்தை ஏற்றுவது தோல்வியடைந்தது"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:100
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "<filename>%1</filename> என்பதை ஏற்ற முடியவில்லை. அது உள்ளதா என சரிபார்க்கவும்."
 
-#: src/qml/pages/Welcome.qml:126
+#: src/qml/pages/Welcome.qml:127
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "%1 தனை பார்"
 
-#: src/qml/pages/Welcome.qml:133
+#: src/qml/pages/Welcome.qml:134
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "கே.டீ.யீ. சமூகத்திற்குள் Konqi உங்களை வரவேற்கிறது!"
+
+#: src/release.cpp:38
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "%1 Dev"
+msgstr "%1 நிரலாக்கம்"
+
+#: src/release.cpp:41
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "%1 Beta"
+msgstr "%1 பீட்டா"
+
+#: src/release.cpp:45
+#, kde-format
+msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+msgid "%1 Beta %2"
+msgstr "%1 பீட்டா %2"
+
+#~ msgid "6.0 Dev"
+#~ msgstr "6.0 நிரலாக்கப் பதிவு"
+
+#~ msgid "6.0 Alpha"
+#~ msgstr "6.0 ஆல்ஃபா"
+
+#~ msgid "6.0 Beta 1"
+#~ msgstr "6.0 பீட்டா 1"
+
+#~ msgid "6.0 Beta 2"
+#~ msgstr "6.0 பீட்டா 2"
+
+#~ msgctxt "@label RC meaning Release Candidate"
+#~ msgid "6.0 RC1"
+#~ msgstr "6.0 RC1"
+
+#~ msgctxt "@label RC meaning Release Candidate"
+#~ msgid "6.0 RC2"
+#~ msgstr "6.0 RC2"
 
 #~ msgctxt "@info copyright string"
 #~ msgid "(c) 2021"

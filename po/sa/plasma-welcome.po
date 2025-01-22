@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-20 00:42+0000\n"
+"POT-Creation-Date: 2025-01-22 00:43+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -28,69 +28,89 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: src/controller.cpp:56
+#: src/main.cpp:42
 #, kde-format
-msgid "6.0 Dev"
-msgstr "६.० देव"
+msgctxt "@info:usagetip"
+msgid "Friendly onboarding wizard for Plasma"
+msgstr "प्लाज्मा कृते मैत्रीपूर्णः ऑनबोर्डिंग् विजार्डः"
 
-#: src/controller.cpp:59
+#: src/main.cpp:47
 #, kde-format
-msgid "6.0 Alpha"
-msgstr "६.० अल्फा"
+msgctxt "@title"
+msgid "Welcome Center"
+msgstr "स्वागत केन्द्र"
 
-#: src/controller.cpp:62
+#: src/main.cpp:55
 #, kde-format
-msgid "6.0 Beta 1"
-msgstr "६.० बीटा १"
+msgctxt "@info copyright string"
+msgid "© 2021–2024, KDE Community"
+msgstr "© 2021-2024, केडीई समुदाय"
 
-#: src/controller.cpp:65
+#: src/main.cpp:57
 #, kde-format
-msgid "6.0 Beta 2"
-msgstr "६.० बीटा २"
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "फिलिप् किनोशिता"
 
-#: src/controller.cpp:68
+#: src/main.cpp:58 src/main.cpp:62 src/main.cpp:65
 #, kde-format
-msgctxt "@label RC meaning Release Candidate"
-msgid "6.0 RC1"
-msgstr "६.० आरसी१"
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "लेखकः"
 
-#: src/controller.cpp:71
+#: src/main.cpp:61
 #, kde-format
-msgctxt "@label RC meaning Release Candidate"
-msgid "6.0 RC2"
-msgstr "६.० आरसी२"
+msgctxt "@info:credit"
+msgid "Nate Graham"
+msgstr "नेट् ग्राहम्"
 
-#: src/controller.cpp:89
+#: src/main.cpp:65
 #, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "%1 Dev"
-msgstr "%1 देव"
+msgctxt "@info:credit"
+msgid "Oliver Beard"
+msgstr "ओलिवर दाढी"
 
-#: src/controller.cpp:93
+#: src/main.cpp:76
 #, kde-format
-msgctxt "@label %1 is the Plasma version"
-msgid "%1 Beta"
-msgstr "%1 बीटा"
+msgid "Display release notes for the current Plasma release."
+msgstr "वर्तमानप्लाज्मा विमोचनार्थं विमोचनटिप्पणीः प्रदर्शयन्तु ।."
 
-#: src/controller.cpp:96
+#: src/main.cpp:77
 #, kde-format
-msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
-msgid "%1 Beta %2"
-msgstr "%1 बीटा %2"
+msgid ""
+"Display release notes for the current Plasma release, for beta versions."
+msgstr "वर्तमानप्लाज्मा विमोचनार्थं, बीटासंस्करणानाम् कृते विमोचनटिप्पणीः प्रदर्शयन्तु ।"
 
-#: src/controller.cpp:134
+#: src/main.cpp:78
+#, kde-format
+msgid "Display the live page intended for distro live environments."
+msgstr "Distro live environments कृते अभिप्रेतं live page प्रदर्शयन्तु।."
+
+#: src/main.cpp:81
+#, kde-format
+msgid ""
+"Specify comma-delimited list of page(s) (by internal name) to be displayed."
+msgstr "प्रदर्शितव्यस्य पृष्ठस्य (पृष्ठानां) अल्पविराम-सीमितसूचीं निर्दिशन्तु (आन्तरिकनाम्ना) ।"
+
+#: src/public/configModule.cpp:72
+#, kde-format
+msgctxt "%1 is the filesystem path to a settings module"
+msgid "Unknown module %1 requested"
+msgstr "अज्ञातमॉड्यूल %1 अनुरोधितम्"
+
+#: src/public/controller.cpp:43 src/public/utils.cpp:40
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "<command>%1</command> इति आदेशः न लब्धः ।"
 
-#: src/controller.cpp:166
+#: src/public/controller.cpp:76 src/public/utils.cpp:73
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "कोऽपि त्रुटिसन्देशः न प्रदत्तः"
 
-#: src/controller.cpp:170
+#: src/public/controller.cpp:80 src/public/utils.cpp:77
 #, kde-kuit-format
 msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
@@ -98,106 +118,36 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "<command>%1</command> इति आदेशः विफलः अभवत् : %2"
 
-#: src/main.cpp:39
-#, kde-format
-msgctxt "@info:usagetip"
-msgid "Friendly onboarding wizard for Plasma"
-msgstr "प्लाज्मा कृते मैत्रीपूर्णः ऑनबोर्डिंग् विजार्डः"
-
-#: src/main.cpp:44
-#, kde-format
-msgctxt "@title"
-msgid "Welcome Center"
-msgstr "स्वागत केन्द्र"
-
-#: src/main.cpp:52
-#, kde-format
-msgctxt "@info copyright string"
-msgid "© 2021–2024, KDE Community"
-msgstr "© 2021-2024, केडीई समुदाय"
-
-#: src/main.cpp:54
-#, kde-format
-msgctxt "@info:credit"
-msgid "Felipe Kinoshita"
-msgstr "फिलिप् किनोशिता"
-
-#: src/main.cpp:55 src/main.cpp:59 src/main.cpp:62
-#, kde-format
-msgctxt "@info:credit"
-msgid "Author"
-msgstr "लेखकः"
-
-#: src/main.cpp:58
-#, kde-format
-msgctxt "@info:credit"
-msgid "Nate Graham"
-msgstr "नेट् ग्राहम्"
-
-#: src/main.cpp:62
-#, kde-format
-msgctxt "@info:credit"
-msgid "Oliver Beard"
-msgstr "ओलिवर दाढी"
-
-#: src/main.cpp:73
-#, kde-format
-msgid "Display release notes for the current Plasma release."
-msgstr "वर्तमानप्लाज्मा विमोचनार्थं विमोचनटिप्पणीः प्रदर्शयन्तु ।."
-
-#: src/main.cpp:74
-#, kde-format
-msgid ""
-"Display release notes for the current Plasma release, for beta versions."
-msgstr "वर्तमानप्लाज्मा विमोचनार्थं, बीटासंस्करणानाम् कृते विमोचनटिप्पणीः प्रदर्शयन्तु ।"
-
-#: src/main.cpp:75
-#, kde-format
-msgid "Display the live page intended for distro live environments."
-msgstr "Distro live environments कृते अभिप्रेतं live page प्रदर्शयन्तु।."
-
-#: src/main.cpp:78
-#, kde-format
-msgid ""
-"Specify comma-delimited list of page(s) (by internal name) to be displayed."
-msgstr "प्रदर्शितव्यस्य पृष्ठस्य (पृष्ठानां) अल्पविराम-सीमितसूचीं निर्दिशन्तु (आन्तरिकनाम्ना) ।"
-
-#: src/module.cpp:72
-#, kde-format
-msgctxt "%1 is the filesystem path to a settings module"
-msgid "Unknown module %1 requested"
-msgstr "अज्ञातमॉड्यूल %1 अनुरोधितम्"
-
-#: src/qml/common/ApplicationIcon.qml:39
+#: src/public/qml/ApplicationIcon.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
 msgstr "इदानीं %1 प्रारम्भं कुर्वन्तु"
 
-#: src/qml/common/KCMPage.qml:80
+#: src/public/qml/KCMPage.qml:81
 #, kde-format
 msgid "This settings module could not be loaded"
 msgstr "एतत् सेटिङ्ग्स् मॉड्यूल् लोड् कर्तुं न शक्तम्"
 
-#: src/qml/footers/FooterDefault.qml:29
+#: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "&क्षिपते"
 
-#: src/qml/footers/FooterDefault.qml:29
+#: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&प्रति गच्छतु"
 
-#: src/qml/footers/FooterDefault.qml:70
+#: src/qml/footers/FooterDefault.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&समापन"
 
-#: src/qml/footers/FooterDefault.qml:70
+#: src/qml/footers/FooterDefault.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -257,66 +207,66 @@ msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
 msgstr "क्रियाकलापं रचयन्तु..."
 
-#: src/qml/mock/MockKRunner.qml:83
+#: src/qml/mock/MockKRunner.qml:81
 #, kde-format
 msgid "Search…"
 msgstr "अन्वेषण…"
 
-#: src/qml/mock/MockOverview.qml:99
+#: src/qml/mock/MockOverview.qml:98
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "डेस्कटॉप 1"
 
-#: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:206
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
 msgstr "विण्डो विस्तारयन्तु"
 
-#: src/qml/PageError.qml:19
+#: src/qml/PageError.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "पृष्ठं लोड् करणं त्रुटिः"
 
-#: src/qml/PageError.qml:24 src/qml/pages/Network.qml:79
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:80
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
 msgstr "बगस्य सूचनां ददातु..."
 
-#: src/qml/PageError.qml:30
+#: src/qml/PageError.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "विवरणं प्रतिलिपितु"
 
-#: src/qml/PageError.qml:43
+#: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
 msgstr "एतत् पृष्ठं लोड् कर्तुं न शक्यते स्म"
 
-#: src/qml/PageError.qml:46
+#: src/qml/PageError.qml:49
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
 msgstr "भवतः वितरणेन प्रदत्तम् एतत् पृष्ठं लोड् कर्तुं न शक्यते स्म"
 
-#: src/qml/PageError.qml:48
+#: src/qml/PageError.qml:51
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "Welcome Center द्वारा प्रदत्तं पृष्ठं लोड् कर्तुं न शक्यते"
 
-#: src/qml/pages/Discover.qml:20
+#: src/qml/pages/Discover.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Software"
 msgstr "तन्त्रांश प्रबन्धयतु"
 
-#: src/qml/pages/Discover.qml:21
+#: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
@@ -329,7 +279,7 @@ msgstr ""
 "अन्वेष्टुं संस्थापयितुं च सहायं करोति । भवान् श्रेणीनुसारं अन्वेष्टुं वा गवेषयतुं कर्तुं वा, स्क्रीनशॉट् "
 "अवलोकयितुं, समीक्षां पठितुं च शक्नोति यत् भवान् सम्यक् अनुप्रयोगं अन्वेष्टुं साहाय्यं कर्तुं शक्नोति।."
 
-#: src/qml/pages/Discover.qml:105
+#: src/qml/pages/Discover.qml:107
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -377,7 +327,7 @@ msgstr ""
 "केडीई अन्तर्राष्ट्रीयस्वयंसेविकसमुदायः अस्ति, न तु बृहत्कम्पनी; भवतः योगदानं वास्तविकं भेदं "
 "जनयति!"
 
-#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
+#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -395,13 +345,13 @@ msgctxt "@action:button"
 msgid "Supporting Members"
 msgstr "समर्थन सदस्य"
 
-#: src/qml/pages/enjoy/Supporters.qml:16
+#: src/qml/pages/enjoy/Supporters.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
 msgstr "समर्थन सदस्य"
 
-#: src/qml/pages/enjoy/Supporters.qml:17
+#: src/qml/pages/enjoy/Supporters.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -409,25 +359,25 @@ msgid ""
 "KDE:"
 msgstr "KDE कृते पुनरावर्तनीयदानार्थं वयं निम्नलिखितसमर्थकसदस्यानां धन्यवादं वदामः:"
 
-#: src/qml/pages/enjoy/Supporters.qml:27
+#: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort Randomly"
 msgstr "यादृच्छिकरूपेण क्रमबद्धं कुर्वन्तु"
 
-#: src/qml/pages/enjoy/Supporters.qml:28
+#: src/qml/pages/enjoy/Supporters.qml:30
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Name"
 msgstr "नाम्ना क्रमबद्धः"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:31
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sort by Date"
 msgstr "तिथि अनुसार क्रमबद्ध करें"
 
-#: src/qml/pages/enjoy/Supporters.qml:38
+#: src/qml/pages/enjoy/Supporters.qml:40
 #, kde-format
 msgctxt "@label placeholder"
 msgid "Filter…"
@@ -449,13 +399,13 @@ msgstr ""
 "अस्माकं विकासकाः KDE तन्त्रांशं सुधारयितुम् एतस्य अनामिकदत्तांशस्य उपयोगं करिष्यन्ति । "
 "सङ्गणकतन्त्रस्य समायोजनानि इत्यत्र कियत् भागं कर्तव्यमिति चिन्वन्तु, अत्र अपि ।."
 
-#: src/qml/pages/Live.qml:19
+#: src/qml/pages/Live.qml:21
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
 msgstr "%1 इत्यत्र भवतः स्वागतम्!"
 
-#: src/qml/pages/Live.qml:22
+#: src/qml/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -466,7 +416,7 @@ msgstr ""
 "अधोलिखितं चिह्नं नुदन् %1 संस्थापनं आरभेत । वैकल्पिकरूपेण, भवान् आदृश्य वातावरणं अन्वेष्टुं गवाक्ष "
 "पिधातुं शक्नोति अथवा KDE Plasma विषये ज्ञातुं अत्र गन्तुं शक्नोति ।."
 
-#: src/qml/pages/Live.qml:24
+#: src/qml/pages/Live.qml:26
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -476,19 +426,19 @@ msgstr ""
 "आदृश्य वातावरणं अन्वेष्टुं भवान् गवाक्ष पिधातुं शक्नोति अथवा KDE Plasma विषये ज्ञातुं अत्र गन्तुं "
 "शक्नोति ।."
 
-#: src/qml/pages/Live.qml:30
+#: src/qml/pages/Live.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "गृहपृष्ठं गच्छन्तु"
 
-#: src/qml/pages/Network.qml:19
+#: src/qml/pages/Network.qml:20
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "अन्तर्जालस्य उपयोगं कुर्वन्तु"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -502,13 +452,13 @@ msgstr ""
 "Tray</interface> इत्यस्मिन् <interface>Networks</interface> चिह्नं नुदन्तु, यत् पटलस्य "
 "अधः-दक्षिणकोणे निवसति ।."
 
-#: src/qml/pages/Network.qml:74
+#: src/qml/pages/Network.qml:75
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "प्लाज्मा कृते संजालसमर्थनं सम्प्रति न संस्थापितम्"
 
-#: src/qml/pages/Network.qml:75
+#: src/qml/pages/Network.qml:76
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -518,19 +468,19 @@ msgstr ""
 "संजालसंयोजनानां प्रबन्धनार्थं Plasma इत्यस्य <icode>plasma-nm</icode> संस्थापनस्य "
 "आवश्यकता वर्तते । कृपया एतत् लोपं %1 इत्यस्मै निवेदयन्तु ।"
 
-#: src/qml/pages/Network.qml:244
+#: src/qml/pages/Network.qml:245
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "त्वं सम्बद्धः असि"
 
-#: src/qml/pages/Network.qml:245
+#: src/qml/pages/Network.qml:246
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "सर्वं गन्तुं भद्रम्!"
 
-#: src/qml/pages/Network.qml:252
+#: src/qml/pages/Network.qml:253
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -541,19 +491,19 @@ msgstr ""
 "इदं पृष्ठं जालसंयोजनं न कृत्वा दर्शितं यतः भवान् विकाससंस्करणस्य उपयोगं करोति । पृष्ठस्य "
 "विभिन्नानि अवस्थानि स्वहस्तेन पूर्वावलोकनार्थं भवन्तः बटनस्य उपयोगं कर्तुं शक्नुवन्ति ।"
 
-#: src/qml/pages/Network.qml:257
+#: src/qml/pages/Network.qml:258
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
 msgstr "अवस्था परिवर्तन"
 
-#: src/qml/pages/PlasmaUpdate.qml:17
+#: src/qml/pages/PlasmaUpdate.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "प्लाज्मा %1 संस्करणे अद्यतनं कृतम् अस्ति"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:17
+#: src/qml/pages/plasmaupdate/Beta.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -565,25 +515,25 @@ msgstr ""
 "सुधारणे सहायतां कर्तुं मौलिकः अस्ति! कृपया भवन्तः यत्किमपि दोषं प्राप्नुवन्ति तत् सर्वं "
 "निवेदयन्तु येन वयं तान् समाधातुं शक्नुमः ।"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:23
+#: src/qml/pages/plasmaupdate/Beta.qml:25
 #, kde-format
 msgctxt "@label:URL"
 msgid "<b>Find out what’s new</b>"
 msgstr "<b>किं नवीनं ज्ञातव्यम्</b>"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:28
+#: src/qml/pages/plasmaupdate/Beta.qml:30
 #, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "एकं दोषं निवेदयन्तु"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:32
+#: src/qml/pages/plasmaupdate/Beta.qml:34
 #, kde-format
 msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "अग्रिमविमोचनकार्य्ये सहायतां कुर्वन्तु"
 
-#: src/qml/pages/plasmaupdate/Update.qml:18
+#: src/qml/pages/plasmaupdate/Update.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -593,19 +543,19 @@ msgstr ""
 "KDE योगदातारः गतचतुर्मासान् अस्मिन् विमोचने परिश्रमेण व्यतीतवन्तः । आशास्महे यत् भवद्भ्यः "
 "अपि प्लाज्मा इत्यस्य उपयोगः यथा आनन्दः अभवत् तथा अस्माभिः तस्य निर्माणे आनन्दः प्राप्तः!"
 
-#: src/qml/pages/plasmaupdate/Update.qml:24
+#: src/qml/pages/plasmaupdate/Update.qml:26
 #, kde-format
 msgctxt "@action:button"
 msgid "<b>Find out what's new</b>"
 msgstr "<b>किं नवीनं इति ज्ञातव्यम्</b>"
 
-#: src/qml/pages/plasmaupdate/Update.qml:29
+#: src/qml/pages/plasmaupdate/Update.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
 msgstr "अग्रिमे विमोचने कार्यं कर्तुं साहाय्यं कुर्वन्तु"
 
-#: src/qml/pages/plasmaupdate/Update.qml:70
+#: src/qml/pages/plasmaupdate/Update.qml:72
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -617,13 +567,13 @@ msgstr ""
 "अलाभकारी-संस्थायाः समर्थितः अस्ति । केडीई ई.वी. व्यापकं KDE समुदायस्य समर्थनं कुर्वन्तु, "
 "अद्य दानं कृत्वा भेदं कर्तुं शक्नुवन्ति ।"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:15
+#: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "आवश्यकतायां शक्तिशालिनः"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:16
+#: src/qml/pages/PowerfulWhenNeeded.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -633,49 +583,49 @@ msgstr ""
 "प्लाज्मा अत्यन्तं विशेषता-समृद्धं वातावरणम् अस्ति, यत् भवतः उत्पादकताम् अत्युत्कृष्टयन्त्रण कर्तुं "
 "निरूपणं कृतम् अस्ति! अत्र भवतः कृते यत् किमपि कर्तुं शक्नोति तस्य किञ्चित् एव अस्ति।:"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:55
+#: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "अवलोकनम्"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:56
+#: src/qml/pages/PowerfulWhenNeeded.qml:57
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "भवतः सङ्गणकतन्त्रस्य आदेशकेन्द्रम्"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:66
+#: src/qml/pages/PowerfulWhenNeeded.qml:67
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:67
+#: src/qml/pages/PowerfulWhenNeeded.qml:68
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "किमपि अन्वेष्टुम्"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:77
+#: src/qml/pages/PowerfulWhenNeeded.qml:78
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:78
+#: src/qml/pages/PowerfulWhenNeeded.qml:79
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "भवतः दूरभाषं भवतः सङ्गणकं च संयोजयन्तु"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:89
+#: src/qml/pages/PowerfulWhenNeeded.qml:90
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "क्रियाकलापाः"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:90
+#: src/qml/pages/PowerfulWhenNeeded.qml:91
 #, kde-format
 msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
@@ -683,43 +633,43 @@ msgctxt ""
 msgid "Separate work, school, or home tasks"
 msgstr "कार्यालयं, विद्यालयं, गृहकार्यं वा पृथक् कुर्वन्तु"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:100
+#: src/qml/pages/PowerfulWhenNeeded.qml:101
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "तिजोरियाः"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:101
+#: src/qml/pages/PowerfulWhenNeeded.qml:102
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "संवेदनशीलसञ्चिकाः सुरक्षितरूपेण संगृहीताः"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:111
+#: src/qml/pages/PowerfulWhenNeeded.qml:112
 #, kde-format
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "सङ्गणकतन्त्रस्य समायोजनानि"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:112
+#: src/qml/pages/PowerfulWhenNeeded.qml:113
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
 msgstr "प्रणालीं विन्यस्यताम्"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:119
+#: src/qml/pages/PowerfulWhenNeeded.qml:120
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
 msgstr "अधिकानि प्लाज्मा-विशेषतानि ज्ञातुम्"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:21
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
 msgstr "क्रियाकलापाः"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:22
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -735,15 +685,15 @@ msgstr ""
 "तस्य स्वकीयः मुक्त-अनुप्रयोगाः, विण्डो-इत्येतत्, अद्यतन-दस्तावेजाः, “प्रिय”-अनुप्रयोगाः, "
 "डेस्कटॉप्-विजेट्-इत्यादीनां च समुच्चयः सन्ति ।"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:27
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:27
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "समायोजनानि उद्घाटयन्तु…"
 
-#: src/qml/pages/powerfulwhenneeded/Activities.qml:55
+#: src/qml/pages/powerfulwhenneeded/Activities.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -785,13 +735,13 @@ msgstr ""
 "list><nl/>आरम्भार्थं <interface>System प्रारम्भं कुर्वन्तु सेटिङ्ग्स्</interface> इति कृत्वा "
 "“KDE Connect” इति अन्वेष्टुम् । तस्मिन् पृष्ठे भवान् स्वस्य दूरभाषस्य युग्मीकरणं कर्तुं शक्नोति ।"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -809,7 +759,7 @@ msgstr ""
 "KRunner एप्स् प्रारम्भं कर्तुं, जालम् अन्वेष्टुं, मुद्राणां मध्ये परिवर्तनं कर्तुं, गणितस्य समस्यानां "
 "गणनां कर्तुं, इत्यादीनि बहु किमपि कर्तुं शक्नोति ।"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:56
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -819,7 +769,7 @@ msgstr ""
 "अधिकं ज्ञातुं <shortcut>Alt+Space</shortcut> कीबोर्डशॉर्टकट् इत्यस्य उपयोगेन KRunner "
 "अन्वेषणपट्टिकां उद्घाट्य प्रश्नचिह्नचिह्नं नुदन्तु ।"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:68
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -829,7 +779,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "समय शङ्घाई"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:70
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -837,7 +787,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "२७ / ३"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:72
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -846,7 +796,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 EUR USD मध्ये"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:74
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -855,7 +805,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "२५ मीलपर्यन्तं कि.मी"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:76
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -863,13 +813,13 @@ msgctxt ""
 msgid "...and much more!"
 msgstr "...अधिकं च बहु!"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:18
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
 msgstr "अवलोकनम्"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:19
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -884,7 +834,7 @@ msgstr ""
 "दर्शयति, यत् भवन्तं अधिकं योजयितुं, केचन निष्कासयितुं, तयोः मध्ये स्विच् कर्तुं च शक्नोति । "
 "अन्ते, एतत् KRunner-सञ्चालितं अन्वेषणक्षेत्रं प्रदाति यत् मुक्तविण्डोषु अपि छानयितुं शक्नोति ।"
 
-#: src/qml/pages/powerfulwhenneeded/Overview.qml:43
+#: src/qml/pages/powerfulwhenneeded/Overview.qml:44
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -917,13 +867,13 @@ msgstr ""
 "पूर्वनिर्धारित-अनुप्रयोगाः, वॉलपेपर्, दृश्यशैल्याः चिह्नानि च, आभासी-डेस्कटॉप्, शक्ति-"
 "प्रबन्धनम्, तृतीय-पक्षस्य ऐड-ऑन् — भवान् तत्र सर्वं प्राप्स्यति!"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:21
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
 msgstr "प्लाज्मास्य तिजोरियाँः"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -939,30 +889,30 @@ msgstr ""
 "मेघभण्डारणसेवासु अपि समन्वयितपुटस्य अन्तः निवसितुं शक्नुवन्ति, तस्याः सामग्रीयाः "
 "अतिरिक्तगोपनीयतां प्रदातुं शक्नुवन्ति ।"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:93
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "तिजोरियाः"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:107
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "महत्त्वपूर्ण दस्तावेज"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:109
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "मम छायाचित्रम्"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:117
 #, kde-format
 msgid "Unlock and Open"
 msgstr "अनलॉक् तथा ओपन"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:129
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -972,13 +922,13 @@ msgstr ""
 "आरम्भार्थं गुप्तवस्तूनि दर्शयितुं <interface>System Tray</interface> इत्यत्र बाणं नुदन्तु, "
 "ततः <interface>Vaults</interface> चिह्नं नुदन्तु ।"
 
-#: src/qml/pages/SimpleByDefault.qml:21
+#: src/qml/pages/SimpleByDefault.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "पूर्वनिर्धारितरूपेण सरलम्"
 
-#: src/qml/pages/SimpleByDefault.qml:22
+#: src/qml/pages/SimpleByDefault.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -993,7 +943,7 @@ msgstr ""
 "विन्यस्तस्य आवश्यकता नास्ति।<nl/><nl/>अधः विशिष्टस्य प्लाज्मा डेस्कटॉपस्य दृश्यप्रतिपादनं "
 "अस्ति सूचकं उपरि चालयन्तु अथवा तस्य विषये ज्ञातुं किमपि क्लिक् कुर्वन्तु!"
 
-#: src/qml/pages/SimpleByDefault.qml:33
+#: src/qml/pages/SimpleByDefault.qml:34
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1009,7 +959,7 @@ msgstr ""
 "। विजेट् योजयितुं, निष्कासयितुं, परिवर्तयितुं वा भवान् <interface>Enter Edit Mode</"
 "interface> इत्यपि चिन्वतु ।"
 
-#: src/qml/pages/SimpleByDefault.qml:36
+#: src/qml/pages/SimpleByDefault.qml:37
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1021,7 +971,7 @@ msgstr ""
 "Panel Configuration</interface> इति चिनोतु यत् एतत् कथं वर्तते, कस्मिन् स्क्रीन-धारे "
 "निवसति, विजेट् योजयितुं, निष्कासयितुं वा परिवर्तयितुं वा ।"
 
-#: src/qml/pages/SimpleByDefault.qml:39
+#: src/qml/pages/SimpleByDefault.qml:40
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1033,7 +983,7 @@ msgstr ""
 "निरुद्धं कर्तुं वा पुनः आरभ्यतुं, अद्यतनसञ्चिकासु प्रवेशं कर्तुं, इत्यादीनि च कर्तुं शक्नोति । "
 "आरम्भार्थं तस्मिन् क्लिक् कुर्वन्तु!"
 
-#: src/qml/pages/SimpleByDefault.qml:42
+#: src/qml/pages/SimpleByDefault.qml:43
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1043,7 +993,7 @@ msgstr ""
 "एतत् “Task Manager” विजेट् अस्ति, यत्र भवान् मुक्त-एप्स् मध्ये स्विच् कर्तुं शक्नोति अपि च "
 "नूतनानि अपि प्रारम्भं कर्तुं शक्नोति । एप् चिह्नानि पुनः व्यवस्थितुं कर्षयन्तु।"
 
-#: src/qml/pages/SimpleByDefault.qml:45
+#: src/qml/pages/SimpleByDefault.qml:46
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1056,7 +1006,7 @@ msgstr ""
 "सिस्टम्-कार्यं नियन्त्रयितुं शक्नोति । अत्र प्रासंगिकाः सति एव वस्तूनि दृश्यन्ते भविष्यन्ति। "
 "सर्वाणि उपलब्धवस्तूनि द्रष्टुं घण्टायाः पार्श्वे ⌃ बाणं नुदन्तु ।"
 
-#: src/qml/pages/SimpleByDefault.qml:48
+#: src/qml/pages/SimpleByDefault.qml:49
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1067,7 +1017,7 @@ msgstr ""
 "एतत् “Digital Clock” इति विजेट् अस्ति । तस्मिन् नुत्वा पञ्चाङ्गं दर्शयतु । भवतः "
 "अङ्कीयपञ्चाङ्गात् अन्यसमयक्षेत्राणि घटनाश्च दर्शयितुं अपि विन्यस्तुं शक्यते ।"
 
-#: src/qml/pages/SimpleByDefault.qml:51
+#: src/qml/pages/SimpleByDefault.qml:52
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1079,13 +1029,13 @@ msgstr ""
 "गोपयितुं तस्मिन् नुदन्तु येन भवान् डेस्कटॉप्-पर्यन्तं प्रवेशं कर्तुं शक्नोति । तान् पुनः आनेतुं पुनः "
 "तस्मिन् क्लिक् कुर्वन्तु ।"
 
-#: src/qml/pages/Welcome.qml:20
+#: src/qml/pages/Welcome.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
 msgstr "स्वागतम्‌"
 
-#: src/qml/pages/Welcome.qml:22
+#: src/qml/pages/Welcome.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
@@ -1101,7 +1051,7 @@ msgstr ""
 "शक्तिशाली भवति यत् भवतः वास्तविकरूपेण कार्याणि सम्पादयितुं साहाय्यं करोति । आशास्महे यत् "
 "भवन्तः तत् प्रेम्णा पश्यन्ति!"
 
-#: src/qml/pages/Welcome.qml:23
+#: src/qml/pages/Welcome.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -1117,50 +1067,88 @@ msgstr ""
 "आवश्यकतायां शक्तिशाली भवति यत् भवतः वास्तविकरूपेण कार्याणि सम्पादयितुं साहाय्यं करोति । "
 "आशास्महे यत् भवन्तः तत् प्रेम्णा पश्यन्ति!"
 
-#: src/qml/pages/Welcome.qml:27
+#: src/qml/pages/Welcome.qml:28
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
 msgstr "स्वागतकेन्द्रस्य विषये"
 
-#: src/qml/pages/Welcome.qml:33
+#: src/qml/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "KDE विषये"
 
-#: src/qml/pages/Welcome.qml:56
+#: src/qml/pages/Welcome.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
 msgstr "KDE समुदायस्य विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Welcome.qml:61
+#: src/qml/pages/Welcome.qml:62
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Welcome.qml:98
+#: src/qml/pages/Welcome.qml:99
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "चित्रभारणं विफलम् अभवत्"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:100
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "<filename>%1</filename> लोड् कर्तुं न शक्यते । तस्य अस्तित्वं सुनिश्चितं कुरुत।."
 
-#: src/qml/pages/Welcome.qml:126
+#: src/qml/pages/Welcome.qml:127
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "%1 इति भ्रमणं कुर्वन्तु"
 
-#: src/qml/pages/Welcome.qml:133
+#: src/qml/pages/Welcome.qml:134
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE mascot Konqi भवन्तं KDE समुदाये स्वागतं करोति!"
+
+#: src/release.cpp:38
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "%1 Dev"
+msgstr "%1 देव"
+
+#: src/release.cpp:41
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "%1 Beta"
+msgstr "%1 बीटा"
+
+#: src/release.cpp:45
+#, kde-format
+msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+msgid "%1 Beta %2"
+msgstr "%1 बीटा %2"
+
+#~ msgid "6.0 Dev"
+#~ msgstr "६.० देव"
+
+#~ msgid "6.0 Alpha"
+#~ msgstr "६.० अल्फा"
+
+#~ msgid "6.0 Beta 1"
+#~ msgstr "६.० बीटा १"
+
+#~ msgid "6.0 Beta 2"
+#~ msgstr "६.० बीटा २"
+
+#~ msgctxt "@label RC meaning Release Candidate"
+#~ msgid "6.0 RC1"
+#~ msgstr "६.० आरसी१"
+
+#~ msgctxt "@label RC meaning Release Candidate"
+#~ msgid "6.0 RC2"
+#~ msgstr "६.० आरसी२"
