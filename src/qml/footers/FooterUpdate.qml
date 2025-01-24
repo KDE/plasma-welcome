@@ -18,7 +18,7 @@ RowLayout {
     QQC2.Switch {
         Layout.fillWidth: true
 
-        text: i18nc("@option:check", "Show this page after Plasma is updated")
+        text: i18nc("@option:check", "Show after Plasma is updated")
         checked: Private.Config.showUpdatePage
         onToggled: { Private.Config.showUpdatePage = checked; Private.Config.save() }
     }
