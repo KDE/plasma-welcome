@@ -25,12 +25,6 @@ Welcome.Page {
         Kirigami.UrlButton {
             Layout.topMargin: Kirigami.Units.largeSpacing
 
-            text: i18nc("@action:button", "Help work on the next release")
-            url: "https://community.kde.org/Get_Involved?source=plasma-welcome"
-        },
-        Kirigami.UrlButton {
-            Layout.topMargin: Kirigami.Units.largeSpacing
-
             visible: root.isPrerelease
             text: i18nc("@label:URL", "Report a bug")
             url: "https://bugs.kde.org"
@@ -447,23 +441,8 @@ Welcome.Page {
             }
         }
 
-        Kirigami.AbstractCard {
+        Private.ContributionCard {
             Layout.fillWidth: true
-
-            contentItem: ColumnLayout {
-                spacing: Kirigami.Units.smallSpacing
-
-                QQC2.Label {
-                    Layout.fillWidth: true
-                    wrapMode: Text.Wrap
-                    text: xi18nc("@info:usagetip", "The KDE community relies on donations of expertise and funds, and is supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the wider KDE community, and you can make a difference by donating today.")
-                }
-
-                Kirigami.UrlButton {
-                    text: i18nc("@action:button", "Make a donation")
-                    url: "https://kde.org/community/donations?source=plasma-welcome"
-                }
-            }
         }
     }
 }

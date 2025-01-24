@@ -27,6 +27,7 @@ ecm_target_qml_sources(plasma-welcome
     SOURCES
     qml/Main.qml
     qml/PageError.qml
+    qml/ContributionCard.qml
 
     qml/footers/Footer.qml
     qml/footers/FooterDefault.qml

@@ -12,6 +12,7 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
 Welcome.Page {
     id: root
@@ -32,6 +33,20 @@ Welcome.Page {
         }
     ]
 
+    actions: [
+        Kirigami.Action {
+            icon.name: "favorite-symbolic"
+            text: i18nc("@action:button", "Supporting Members")
+            onTriggered: pageStack.layers.push(supporters)
+        }
+    ]
+
+    Component {
+        id: supporters
+
+        Supporters {}
+    }
+
     ColumnLayout {
         anchors.fill: parent
 
@@ -48,42 +63,8 @@ Welcome.Page {
             source: "konqi-default.png"
         }
 
-        Kirigami.AbstractCard {
+        Private.ContributionCard {
             Layout.fillWidth: true
-
-            contentItem: ColumnLayout {
-                spacing: Kirigami.Units.smallSpacing
-
-                QQC2.Label {
-                    Layout.fillWidth: true
-                    wrapMode: Text.Wrap
-                    text: xi18nc("@info:usagetip", "If you find Plasma to be useful, consider getting involved or donating. KDE is an international volunteer community, not a big company; your contributions make a real difference!")
-                }
-
-                Kirigami.UrlButton {
-                    text: i18nc("@action:button", "Make a donation")
-                    url: "https://kde.org/community/donations?source=plasma-welcome"
-                }
-
-                Kirigami.UrlButton {
-                    text: i18nc("@action:button", "Get involved")
-                    url: "https://community.kde.org/Get_Involved?source=plasma-welcome"
-                }
-            }
         }
-    }
-
-    actions: [
-        Kirigami.Action {
-            icon.name: "favorite-symbolic"
-            text: i18nc("@action:button", "Supporting Members")
-            onTriggered: pageStack.layers.push(supporters)
-        }
-    ]
-
-    Component {
-        id: supporters
-
-        Supporters {}
     }
 }
