@@ -1,14 +1,15 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+# SPDX-FileCopyrightText: 2025 Marcel Mrówka <micro.mail88@gmail.com>
 #
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-22 00:43+0000\n"
-"PO-Revision-Date: 2024-11-30 10:00+0100\n"
-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"PO-Revision-Date: 2025-01-27 17:19+0100\n"
+"Last-Translator: Marcel Mrówka <micro.mail88@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -16,17 +17,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Łukasz Wojniłowicz"
+msgstr "Łukasz Wojniłowicz, Marcel Mrówka"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "lukasz.wojnilowicz@gmail.com"
+msgstr "lukasz.wojnilowicz@gmail.com, micro.mail88@gmail.com"
 
 #: src/main.cpp:42
 #, kde-format
@@ -196,13 +197,13 @@ msgstr "Praca"
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr "Używana obecnie"
+msgstr "Obecnie używane"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr "Używana przed 3 godzinami"
+msgstr "Używane przed 3 godzinami"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
@@ -292,7 +293,7 @@ msgstr "Pokaż %1 w Odkrywcy"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr "Niech Ci służy!"
+msgstr "Miłej zabawy!"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -327,9 +328,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
-"Jeśli Plazma wydaje ci się użyteczna, rozważ dołączenie jako jej twórca lub "
-"wpłatę pieniężną. KDE to międzynarodowa społeczność wolontariuszy, a nie "
-"żadna duża firma; także twoja praca ma tu naprawdę sens!"
+"Jeśli uważasz, że Plazma jest użyteczna, rozważ dołączenie do społeczności "
+"KDE lub wpłatę pieniężna. KDE to międzynarodowa społeczność wolontariuszy, a "
+"nie jakaś duża korporacja; twoja pomoc ma znaczenie!"
 
 #: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:76
 #, kde-format
@@ -341,7 +342,7 @@ msgstr "Wpłać darowiznę"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "Dołącz jako twórca"
+msgstr "Dołącz do społeczności"
 
 #: src/qml/pages/Enjoy.qml:79
 #, kde-format
@@ -361,7 +362,7 @@ msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
-msgstr "Dziękujemy następującym ludziom za ciągłe wpłaty na KDE:"
+msgstr "Dziękujemy następującym osobom za ciągłe wpłaty na KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:29
 #, kde-format
@@ -391,7 +392,7 @@ msgstr "Odfiltruj…"
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Udostępnij anonimowe dane z używania"
+msgstr "Udostępniaj Anonimowe Dane Użytkowania"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -418,9 +419,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
-"Naciśnięcie ikony rozpocznie wgrywanie %1. Możesz zamknąć okno, aby zapoznać "
-"się ze środowiskiem na żywo lub kontynuować tutaj, aby dowiedzieć się więcej "
-"o Plazmie KDE."
+"Naciśnięcie poniższej ikony rozpocznie wgrywanie %1. Możesz też zamknąć to "
+"okno, aby zapoznać się ze środowiskiem na żywo lub kontynuować tutaj, aby "
+"dowiedzieć się więcej o Plazmie KDE."
 
 #: src/qml/pages/Live.qml:26
 #, kde-kuit-format
@@ -429,7 +430,7 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
-"Możesz zamknąć okno, aby zapoznać się ze środowiskiem na żywo lub "
+"Możesz zamknąć to okno, aby zapoznać się ze środowiskiem na żywo lub "
 "kontynuować tutaj, aby dowiedzieć się więcej o Plazmie KDE."
 
 #: src/qml/pages/Live.qml:32
@@ -462,7 +463,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr "Nie wgrano obsługi sieci dla Plazmy"
+msgstr "Obsługa sieci dla Plazmy nie jest obecnie wgrana."
 
 #: src/qml/pages/Network.qml:76
 #, kde-kuit-format
@@ -484,7 +485,7 @@ msgstr "Jesteś połączony"
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr "Wszystko na swoim miejscu!"
+msgstr "Wszystko gotowe!"
 
 #: src/qml/pages/Network.qml:253
 #, kde-format
@@ -520,7 +521,7 @@ msgid ""
 msgstr ""
 "Dziękujemy za testowanie tego wydania beta Plazmy — twoja informacja zwrotna "
 "jest kluczowa, abyśmy mogli ją ulepszać! Prosimy o zgłaszanie wszystkich "
-"błędów, które znajdziesz tak, abyśmy mogli jest naprawić."
+"błędów, które znajdziesz, abyśmy mogli jest naprawić."
 
 #: src/qml/pages/plasmaupdate/Beta.qml:25
 #, kde-format
@@ -664,7 +665,7 @@ msgstr "Ustawienia systemowe"
 #, kde-format
 msgctxt "@info Caption for Get System Settings button"
 msgid "Configure the system"
-msgstr "Ustawienia systemu"
+msgstr "Zmień ustawienia"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:120
 #, kde-format
@@ -737,11 +738,11 @@ msgid ""
 "“KDE Connect”. On that page, you can pair your phone."
 msgstr ""
 "KDE Connect umożliwia współpracę twojego telefonu z twoim komputerem na "
-"różne sposoby:<nl/><list><item>Oglądaj powiadomienia ze swojego telefonu na "
-"swoim komputerze</item><item>Odpowiadaj na wiadomości tekstowe ze swojego "
-"telefonu na swoim komputerze</item><item>Uwspólnij zawartość twojego schowka "
+"różne sposoby:<nl/><list><item>Zobacz powiadomienia ze swojego telefonu na "
+"swoim komputerze</item><item>Odpowiadaj na wiadomości ze swojego telefonu na "
+"swoim komputerze</item><item>Zsynchronizuj zawartość twojego schowka "
 "pomiędzy swoim komputerem i telefonem</item><item>Daj głos na telefonie, gdy "
-"go zgubisz</item><item>Kopiuj zdjęcia, nagrania i inne pliki ze swojego "
+"go zgubisz</item><item>Kopiuj zdjęcia, filmy i inne pliki ze swojego "
 "telefonu na swój komputer i na odwrót</item><item>…I dużo więcej!</item></"
 "list><nl/>Aby zacząć, otwórz <interface>Ustawienia Systemowe</interface> i "
 "poszukaj \"KDE Connect\". Na stronie, która się otworzy, będzie możliwość "
@@ -877,10 +878,10 @@ msgid ""
 "icons, virtual desktops, power management, 3rd-party add-ons — you’ll find "
 "it all there!"
 msgstr ""
-"Ustawienia Systemowe dają wiele możliwości dostosowania systemu do "
-"zachowania takiego jak lubisz. Domyślne aplikacje, tapety, wygląd i ikony, "
-"pulpity wirtualne, zarządzanie energią, dodatki od twórców—to wszystko tutaj "
-"jest!"
+"Ustawienia Systemowe dają wiele możliwości dostosowania systemu do twoich "
+"preferencji. Domyślne aplikacje, tapety, motywy i ikony, pulpity wirtualne, "
+"zarządzanie energią, dodatki od stron trzecich—to wszystko można tutaj "
+"znaleźć!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
@@ -900,9 +901,9 @@ msgid ""
 msgstr ""
 "Sejfy Plazmy umożliwiają tworzenie zaszyfrowanych katalogów zwanych "
 "<interface>Sejfami</interface>. W każdym sejfie, możesz bezpiecznie "
-"przechować swoje pliki, zdjęcia i dokumenty, w sposób bezpieczny. Sejfy mogą "
-"przebywać wewnątrz katalogów, które są synchronizowane z przechowalnią w "
-"chmurze, zwiększając prywatność takich treści."
+"przechować swoje pliki, zdjęcia i dokumenty, w bezpieczny sposób. Sejfy mogą "
+"przebywać wewnątrz katalogów, które są synchronizowane z chmurą, zwiększając "
+"prywatność takich treści."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:93
 #, kde-format
@@ -925,7 +926,7 @@ msgstr "Moje zdjęcia"
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:117
 #, kde-format
 msgid "Unlock and Open"
-msgstr "Odklucz i otwórz"
+msgstr "Odblokuj i otwórz"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:129
 #, kde-kuit-format
@@ -985,10 +986,10 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
-"To jest “Pasek”—pojemnik do przechowywania rzeczy do obsługi. Naciśnij na "
-"nim prawy i wybierz <interface>Pokaż ustawienia paska</interface>, aby "
-"zmienić jego zachowanie, na jakiej krawędzie ekranu przebywa, a także aby "
-"dodać, usunąć lub zmienić rzeczy w nim się znajdujące."
+"To jest “Panel”—pojemnik do przechowywania rzeczy do obsługi. Naciśnij na "
+"nim prawym przyciskiem myszy i wybierz <interface>Pokaż ustawienia paska</"
+"interface>, aby zmienić jego zachowanie, na jakiej krawędzi ekranu przebywa, "
+"a także aby dodać, usunąć lub zmienić rzeczy w nim się znajdujące."
 
 #: src/qml/pages/SimpleByDefault.qml:40
 #, kde-format
@@ -1023,7 +1024,7 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
-"To jest \"Zasobnik systemowy\", który umożliwia sterowanie częściami systemu "
+"To jest \"Tacka systemowa\", która umożliwia sterowanie częściami systemu "
 "takimi jak głośność, a także łączenie się do sieci. Rzeczy będą się tutaj "
 "pojawiać wtedy, gdy będą potrzebne. Aby zobaczyć wszystkie dostępne rzeczy, "
 "naciśnij na strzałce⌃obok zegara."
