@@ -13,7 +13,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.welcome.private as Private
 
 RowLayout {
-    spacing: Kirigami.Units.smallSpacing
+    spacing: 0
 
     QQC2.Switch {
         Layout.fillWidth: true
@@ -21,6 +21,12 @@ RowLayout {
         text: i18nc("@option:check", "Show after Plasma is updated")
         checked: Private.Config.showUpdatePage
         onToggled: { Private.Config.showUpdatePage = checked; Private.Config.save() }
+    }
+
+    Item {
+        Layout.fillWidth: true
+        Layout.minimumWidth: Kirigami.Units.smallSpacing
+        Layout.horizontalStretchFactor: 1 // So this will be preferred to fill over the switch
     }
 
     QQC2.Button {
