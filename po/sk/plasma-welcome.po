@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-22 00:43+0000\n"
+"POT-Creation-Date: 2025-02-05 00:43+0000\n"
 "PO-Revision-Date: 2023-12-02 19:54+0100\n"
 "Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
@@ -77,16 +77,10 @@ msgstr "Zobraziť poznámky k vydaniu aktuálnej verzie Plasma."
 
 #: src/main.cpp:77
 #, kde-format
-msgid ""
-"Display release notes for the current Plasma release, for beta versions."
-msgstr "Zobrazenie poznámok k aktuálnej verzii systému Plasma pre beta verzie."
-
-#: src/main.cpp:78
-#, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "Zobrazenie živej stránky určenej pre živé prostredia distribúcie."
 
-#: src/main.cpp:81
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
@@ -129,6 +123,29 @@ msgstr "Spustiť %1 teraz"
 msgid "This settings module could not be loaded"
 msgstr ""
 
+#: src/qml/ContributionCard.qml:18
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+
+#: src/qml/ContributionCard.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Make a donation"
+msgstr "Prispieť"
+
+#: src/qml/ContributionCard.qml:36
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Get Involved"
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "Zapojiť sa"
+
 #: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
@@ -153,13 +170,15 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Nasledujúci"
 
-#: src/qml/footers/FooterUpdate.qml:20
-#, kde-format
+#: src/qml/footers/FooterUpdate.qml:21
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Show this page after Plasma is updated"
 msgctxt "@option:check"
-msgid "Show this page after Plasma is updated"
+msgid "Show after Plasma is updated"
 msgstr "Zobrazenie tejto stránky po aktualizácii systému Plasma"
 
-#: src/qml/footers/FooterUpdate.qml:30
+#: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
@@ -292,13 +311,13 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Zobraziť %1 v aplikácii Discover"
 
-#: src/qml/pages/Enjoy.qml:19
+#: src/qml/pages/Enjoy.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
 msgstr ""
 
-#: src/qml/pages/Enjoy.qml:20
+#: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -307,7 +326,7 @@ msgid ""
 "games, and get busy doing what makes you you!"
 msgstr ""
 
-#: src/qml/pages/Enjoy.qml:25
+#: src/qml/pages/Enjoy.qml:26
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Learn more about the KDE community"
@@ -315,36 +334,13 @@ msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Zistite viac o komunite KDE"
 
-#: src/qml/pages/Enjoy.qml:30
+#: src/qml/pages/Enjoy.qml:31
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
 msgstr ""
 
-#: src/qml/pages/Enjoy.qml:60
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"If you find Plasma to be useful, consider getting involved or donating. KDE "
-"is an international volunteer community, not a big company; your "
-"contributions make a real difference!"
-msgstr ""
-
-#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:76
-#, kde-format
-msgctxt "@action:button"
-msgid "Make a donation"
-msgstr "Prispieť"
-
-#: src/qml/pages/Enjoy.qml:69
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
-msgctxt "@action:button"
-msgid "Get involved"
-msgstr "Zapojiť sa"
-
-#: src/qml/pages/Enjoy.qml:79
+#: src/qml/pages/Enjoy.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
@@ -511,13 +507,13 @@ msgctxt "@action:button"
 msgid "Change state"
 msgstr ""
 
-#: src/qml/pages/PlasmaUpdate.qml:19
+#: src/qml/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "Plasma bola aktualizovaná na verziu %1"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:19
+#: src/qml/pages/PlasmaUpdate.qml:22
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
 #| msgid ""
@@ -534,31 +530,7 @@ msgstr ""
 "väzba nám pomôže pri jej zlepšovaní! Prosím, nahláste všetky chyby, ktoré "
 "nájdete, aby sme ich mohli opraviť."
 
-#: src/qml/pages/plasmaupdate/Beta.qml:25
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "<b>Find out what's new</b>"
-msgctxt "@label:URL"
-msgid "<b>Find out what’s new</b>"
-msgstr "<b>Zistite, čo je nové</b>"
-
-#: src/qml/pages/plasmaupdate/Beta.qml:30
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
-msgctxt "@label:URL"
-msgid "Report a bug"
-msgstr "Nahlásiť chybu"
-
-#: src/qml/pages/plasmaupdate/Beta.qml:34
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Help work on the next release"
-msgctxt "@label:URL"
-msgid "Help work on the next release"
-msgstr "Pomôžte pri práci na ďalšej verzii"
-
-#: src/qml/pages/plasmaupdate/Update.qml:20
+#: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -569,30 +541,85 @@ msgstr ""
 "vydaní. Dúfame, že sa vám bude Plasma páčiť rovnako, ako sa nám páčila jej "
 "tvorba!"
 
-#: src/qml/pages/plasmaupdate/Update.qml:26
-#, kde-format
-msgctxt "@action:button"
-msgid "<b>Find out what's new</b>"
-msgstr "<b>Zistite, čo je nové</b>"
+#: src/qml/pages/PlasmaUpdate.qml:29
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Report a bug"
+msgctxt "@label:URL"
+msgid "Report a bug"
+msgstr "Nahlásiť chybu"
 
-#: src/qml/pages/plasmaupdate/Update.qml:31
+#: src/qml/pages/PlasmaUpdate.qml:153
 #, kde-format
-msgctxt "@action:button"
-msgid "Help work on the next release"
-msgstr "Pomôžte pri práci na ďalšej verzii"
-
-#: src/qml/pages/plasmaupdate/Update.qml:72
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
-"wider KDE community, and you can make a difference by donating today."
+msgctxt "@info"
+msgid "Download an embedded preview of the release announcement?"
 msgstr ""
-"Komunita KDE sa spolieha na odborné dary a finančné prostriedky a je "
-"podporovaná nemeckou neziskovou organizáciou KDE e.V. Príspevky pre KDE e.V. "
-"podporujú širšiu KDE komunitu, a vy môžete prispieť k zmene tým, že "
-"prispejete ešte dnes!<nl/><nl/>"
+
+#: src/qml/pages/PlasmaUpdate.qml:155
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The preview has not been automatically downloaded because you are using a "
+"metered network connection."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:157
+#, kde-format
+msgctxt "@info, %1 is an error code"
+msgid "The preview could not be downloaded — a network error occurred (%1)."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:159
+#, kde-format
+msgctxt "@info"
+msgid "The preview could not be loaded — a parse error occurred."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:176
+#, kde-format
+msgctxt "@action:button"
+msgid "Download Preview"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:178
+#, kde-format
+msgctxt "@action:button"
+msgid "Download Anyway"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:182
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Open Settings…"
+msgctxt "@action:button"
+msgid "Open in Browser…"
+msgstr "Otvoriť nastavenia…"
+
+#: src/qml/pages/PlasmaUpdate.qml:228
+#, kde-format
+msgctxt "@option:check"
+msgid "Load preview automatically"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The preview will be loaded automatically when this page is shown for future "
+"Plasma updates, except when using a metered network connection."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:421
+#, kde-format
+msgctxt "@info"
+msgid "<b>Click to read the announcement</b>"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -1199,23 +1226,61 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Maskot KDE Konqi vás víta v komunite KDE!"
 
-#: src/release.cpp:38
+#: src/release.cpp:43
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 Dev"
 
-#: src/release.cpp:41
+#: src/release.cpp:46
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 Beta"
 
-#: src/release.cpp:45
+#: src/release.cpp:50
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgid ""
+#~ "Display release notes for the current Plasma release, for beta versions."
+#~ msgstr ""
+#~ "Zobrazenie poznámok k aktuálnej verzii systému Plasma pre beta verzie."
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "<b>Find out what's new</b>"
+#~ msgctxt "@label:URL"
+#~ msgid "<b>Find out what’s new</b>"
+#~ msgstr "<b>Zistite, čo je nové</b>"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Help work on the next release"
+#~ msgctxt "@label:URL"
+#~ msgid "Help work on the next release"
+#~ msgstr "Pomôžte pri práci na ďalšej verzii"
+
+#~ msgctxt "@action:button"
+#~ msgid "<b>Find out what's new</b>"
+#~ msgstr "<b>Zistite, čo je nové</b>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Help work on the next release"
+#~ msgstr "Pomôžte pri práci na ďalšej verzii"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support "
+#~ "the wider KDE community, and you can make a difference by donating today."
+#~ msgstr ""
+#~ "Komunita KDE sa spolieha na odborné dary a finančné prostriedky a je "
+#~ "podporovaná nemeckou neziskovou organizáciou KDE e.V. Príspevky pre KDE e."
+#~ "V. podporujú širšiu KDE komunitu, a vy môžete prispieť k zmene tým, že "
+#~ "prispejete ešte dnes!<nl/><nl/>"
 
 #~ msgid "6.0 Dev"
 #~ msgstr "6.0 Dev"

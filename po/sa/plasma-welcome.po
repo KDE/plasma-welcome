@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-22 00:43+0000\n"
+"POT-Creation-Date: 2025-02-05 00:43+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -77,16 +77,10 @@ msgstr "वर्तमानप्लाज्मा विमोचनार�
 
 #: src/main.cpp:77
 #, kde-format
-msgid ""
-"Display release notes for the current Plasma release, for beta versions."
-msgstr "वर्तमानप्लाज्मा विमोचनार्थं, बीटासंस्करणानाम् कृते विमोचनटिप्पणीः प्रदर्शयन्तु ।"
-
-#: src/main.cpp:78
-#, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "Distro live environments कृते अभिप्रेतं live page प्रदर्शयन्तु।."
 
-#: src/main.cpp:81
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
@@ -129,6 +123,30 @@ msgstr "इदानीं %1 प्रारम्भं कुर्वन्�
 msgid "This settings module could not be loaded"
 msgstr "एतत् सेटिङ्ग्स् मॉड्यूल् लोड् कर्तुं न शक्तम्"
 
+#: src/qml/ContributionCard.qml:18
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+"यदि भवन्तः प्लाज्मा उपयोगी इति पश्यन्ति तर्हि तत्र सम्मिलितुं वा दानं कर्तुं वा विचारयन्तु। "
+"केडीई अन्तर्राष्ट्रीयस्वयंसेविकसमुदायः अस्ति, न तु बृहत्कम्पनी; भवतः योगदानं वास्तविकं भेदं "
+"जनयति!"
+
+#: src/qml/ContributionCard.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Make a donation"
+msgstr "दानं कुर्वन्तु"
+
+#: src/qml/ContributionCard.qml:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "प्रवृत्ताः भवन्तु"
+
 #: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
@@ -153,13 +171,15 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "&अग्रिम"
 
-#: src/qml/footers/FooterUpdate.qml:20
-#, kde-format
+#: src/qml/footers/FooterUpdate.qml:21
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Show this page after Plasma is updated"
 msgctxt "@option:check"
-msgid "Show this page after Plasma is updated"
+msgid "Show after Plasma is updated"
 msgstr "Plasma इत्यस्य अद्यतनीकरणानन्तरं एतत् पृष्ठं दर्शयतु"
 
-#: src/qml/footers/FooterUpdate.qml:30
+#: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
@@ -285,13 +305,13 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Discover इत्यत्र %1 दर्शयतु"
 
-#: src/qml/pages/Enjoy.qml:19
+#: src/qml/pages/Enjoy.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
 msgstr "आनन्दं लभत !"
 
-#: src/qml/pages/Enjoy.qml:20
+#: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -303,43 +323,19 @@ msgstr ""
 "स्वीकृतवन्तः! इदानीं सम्यक् कूर्दनस्य समयः अस्ति तस्य विशेषताः अन्वेष्टुम्, स्वस्य प्रियाः एप्स् "
 "क्रीडाः च संस्थापयन्तु, यत् भवन्तं भवन्तं करोति तत् कर्तुं व्यस्ताः भवन्तु!"
 
-#: src/qml/pages/Enjoy.qml:25
+#: src/qml/pages/Enjoy.qml:26
 #, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "KDE समुदायस्य विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Enjoy.qml:30
+#: src/qml/pages/Enjoy.qml:31
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
 msgstr "KDE इत्यस्य चर्चामञ्चेषु सहायतां प्राप्नुवन्तु"
 
-#: src/qml/pages/Enjoy.qml:60
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"If you find Plasma to be useful, consider getting involved or donating. KDE "
-"is an international volunteer community, not a big company; your "
-"contributions make a real difference!"
-msgstr ""
-"यदि भवन्तः प्लाज्मा उपयोगी इति पश्यन्ति तर्हि तत्र सम्मिलितुं वा दानं कर्तुं वा विचारयन्तु। "
-"केडीई अन्तर्राष्ट्रीयस्वयंसेविकसमुदायः अस्ति, न तु बृहत्कम्पनी; भवतः योगदानं वास्तविकं भेदं "
-"जनयति!"
-
-#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:76
-#, kde-format
-msgctxt "@action:button"
-msgid "Make a donation"
-msgstr "दानं कुर्वन्तु"
-
-#: src/qml/pages/Enjoy.qml:69
-#, kde-format
-msgctxt "@action:button"
-msgid "Get involved"
-msgstr "प्रवृत्ताः भवन्तु"
-
-#: src/qml/pages/Enjoy.qml:79
+#: src/qml/pages/Enjoy.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
@@ -497,13 +493,13 @@ msgctxt "@action:button"
 msgid "Change state"
 msgstr "अवस्था परिवर्तन"
 
-#: src/qml/pages/PlasmaUpdate.qml:19
+#: src/qml/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "प्लाज्मा %1 संस्करणे अद्यतनं कृतम् अस्ति"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:19
+#: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -515,25 +511,7 @@ msgstr ""
 "सुधारणे सहायतां कर्तुं मौलिकः अस्ति! कृपया भवन्तः यत्किमपि दोषं प्राप्नुवन्ति तत् सर्वं "
 "निवेदयन्तु येन वयं तान् समाधातुं शक्नुमः ।"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:25
-#, kde-format
-msgctxt "@label:URL"
-msgid "<b>Find out what’s new</b>"
-msgstr "<b>किं नवीनं ज्ञातव्यम्</b>"
-
-#: src/qml/pages/plasmaupdate/Beta.qml:30
-#, kde-format
-msgctxt "@label:URL"
-msgid "Report a bug"
-msgstr "एकं दोषं निवेदयन्तु"
-
-#: src/qml/pages/plasmaupdate/Beta.qml:34
-#, kde-format
-msgctxt "@label:URL"
-msgid "Help work on the next release"
-msgstr "अग्रिमविमोचनकार्य्ये सहायतां कुर्वन्तु"
-
-#: src/qml/pages/plasmaupdate/Update.qml:20
+#: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -543,29 +521,83 @@ msgstr ""
 "KDE योगदातारः गतचतुर्मासान् अस्मिन् विमोचने परिश्रमेण व्यतीतवन्तः । आशास्महे यत् भवद्भ्यः "
 "अपि प्लाज्मा इत्यस्य उपयोगः यथा आनन्दः अभवत् तथा अस्माभिः तस्य निर्माणे आनन्दः प्राप्तः!"
 
-#: src/qml/pages/plasmaupdate/Update.qml:26
+#: src/qml/pages/PlasmaUpdate.qml:29
 #, kde-format
-msgctxt "@action:button"
-msgid "<b>Find out what's new</b>"
-msgstr "<b>किं नवीनं इति ज्ञातव्यम्</b>"
+msgctxt "@label:URL"
+msgid "Report a bug"
+msgstr "एकं दोषं निवेदयन्तु"
 
-#: src/qml/pages/plasmaupdate/Update.qml:31
+#: src/qml/pages/PlasmaUpdate.qml:153
 #, kde-format
-msgctxt "@action:button"
-msgid "Help work on the next release"
-msgstr "अग्रिमे विमोचने कार्यं कर्तुं साहाय्यं कुर्वन्तु"
-
-#: src/qml/pages/plasmaupdate/Update.qml:72
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
-"wider KDE community, and you can make a difference by donating today."
+msgctxt "@info"
+msgid "Download an embedded preview of the release announcement?"
 msgstr ""
-"KDE समुदायः विशेषज्ञतायाः धनस्य च दानस्य उपरि अवलम्बते, तथा च KDE e.V.—जर्मन-देशस्य "
-"अलाभकारी-संस्थायाः समर्थितः अस्ति । केडीई ई.वी. व्यापकं KDE समुदायस्य समर्थनं कुर्वन्तु, "
-"अद्य दानं कृत्वा भेदं कर्तुं शक्नुवन्ति ।"
+
+#: src/qml/pages/PlasmaUpdate.qml:155
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The preview has not been automatically downloaded because you are using a "
+"metered network connection."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:157
+#, kde-format
+msgctxt "@info, %1 is an error code"
+msgid "The preview could not be downloaded — a network error occurred (%1)."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:159
+#, kde-format
+msgctxt "@info"
+msgid "The preview could not be loaded — a parse error occurred."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:176
+#, kde-format
+msgctxt "@action:button"
+msgid "Download Preview"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:178
+#, kde-format
+msgctxt "@action:button"
+msgid "Download Anyway"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:182
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Open Settings…"
+msgctxt "@action:button"
+msgid "Open in Browser…"
+msgstr "समायोजनानि उद्घाटयन्तु…"
+
+#: src/qml/pages/PlasmaUpdate.qml:228
+#, kde-format
+msgctxt "@option:check"
+msgid "Load preview automatically"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The preview will be loaded automatically when this page is shown for future "
+"Plasma updates, except when using a metered network connection."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:421
+#, kde-format
+msgctxt "@info"
+msgid "<b>Click to read the announcement</b>"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -1115,23 +1147,53 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE mascot Konqi भवन्तं KDE समुदाये स्वागतं करोति!"
 
-#: src/release.cpp:38
+#: src/release.cpp:43
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 देव"
 
-#: src/release.cpp:41
+#: src/release.cpp:46
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 बीटा"
 
-#: src/release.cpp:45
+#: src/release.cpp:50
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 बीटा %2"
+
+#~ msgid ""
+#~ "Display release notes for the current Plasma release, for beta versions."
+#~ msgstr "वर्तमानप्लाज्मा विमोचनार्थं, बीटासंस्करणानाम् कृते विमोचनटिप्पणीः प्रदर्शयन्तु ।"
+
+#~ msgctxt "@label:URL"
+#~ msgid "<b>Find out what’s new</b>"
+#~ msgstr "<b>किं नवीनं ज्ञातव्यम्</b>"
+
+#~ msgctxt "@label:URL"
+#~ msgid "Help work on the next release"
+#~ msgstr "अग्रिमविमोचनकार्य्ये सहायतां कुर्वन्तु"
+
+#~ msgctxt "@action:button"
+#~ msgid "<b>Find out what's new</b>"
+#~ msgstr "<b>किं नवीनं इति ज्ञातव्यम्</b>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Help work on the next release"
+#~ msgstr "अग्रिमे विमोचने कार्यं कर्तुं साहाय्यं कुर्वन्तु"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support "
+#~ "the wider KDE community, and you can make a difference by donating today."
+#~ msgstr ""
+#~ "KDE समुदायः विशेषज्ञतायाः धनस्य च दानस्य उपरि अवलम्बते, तथा च KDE e.V.—जर्मन-देशस्य "
+#~ "अलाभकारी-संस्थायाः समर्थितः अस्ति । केडीई ई.वी. व्यापकं KDE समुदायस्य समर्थनं कुर्वन्तु, "
+#~ "अद्य दानं कृत्वा भेदं कर्तुं शक्नुवन्ति ।"
 
 #~ msgid "6.0 Dev"
 #~ msgstr "६.० देव"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-22 00:43+0000\n"
+"POT-Creation-Date: 2025-02-05 00:43+0000\n"
 "PO-Revision-Date: 2025-01-10 00:38+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -78,18 +78,12 @@ msgstr "Rodyti dabartinės Plasma versijos laidos informaciją."
 
 #: src/main.cpp:77
 #, kde-format
-msgid ""
-"Display release notes for the current Plasma release, for beta versions."
-msgstr "Rodyti dabartinės Plasma versijos, Beta versijų laidos informaciją."
-
-#: src/main.cpp:78
-#, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
 "Rodyti demonstracinį puslapį, skirtą platinamųjų paketų demonstracinėms "
 "aplinkoms."
 
-#: src/main.cpp:81
+#: src/main.cpp:80
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
@@ -134,6 +128,30 @@ msgstr "Paleisti %1 dabar"
 msgid "This settings module could not be loaded"
 msgstr "Nepavyko įkelti šio nuostatų modulio"
 
+#: src/qml/ContributionCard.qml:18
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"If you find Plasma to be useful, consider getting involved or donating. KDE "
+"is an international volunteer community, not a big company; your "
+"contributions make a real difference!"
+msgstr ""
+"Jei atrasite, jog Plasma yra jums naudinga, apsvarstykite galimybę "
+"įsitraukti arba paaukoti lėšų. KDE yra tarptautinė savanorių bendruomenė, o "
+"ne didelė kompanija; jūsų įnašai turi didelę reikšmę!"
+
+#: src/qml/ContributionCard.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Make a donation"
+msgstr "Paaukokite"
+
+#: src/qml/ContributionCard.qml:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Get involved"
+msgstr "Įsitraukite"
+
 #: src/qml/footers/FooterDefault.qml:28
 #, kde-format
 msgctxt "@action:button"
@@ -158,13 +176,15 @@ msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Kitas"
 
-#: src/qml/footers/FooterUpdate.qml:20
-#, kde-format
+#: src/qml/footers/FooterUpdate.qml:21
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Show this page after Plasma is updated"
 msgctxt "@option:check"
-msgid "Show this page after Plasma is updated"
+msgid "Show after Plasma is updated"
 msgstr "Rodyti šį puslapį po Plasma atnaujinimo"
 
-#: src/qml/footers/FooterUpdate.qml:30
+#: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
@@ -291,13 +311,13 @@ msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
 msgstr "Rodyti %1 programoje Discover"
 
-#: src/qml/pages/Enjoy.qml:19
+#: src/qml/pages/Enjoy.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
 msgstr "Mėgaukitės!"
 
-#: src/qml/pages/Enjoy.qml:20
+#: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -310,43 +330,19 @@ msgstr ""
 "įsidiekite mėgstamas programas ir žaidimus bei užsiimkite tuo, kas padeda "
 "jums atrasti save!"
 
-#: src/qml/pages/Enjoy.qml:25
+#: src/qml/pages/Enjoy.qml:26
 #, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Sužinokite daugiau apie KDE bendruomenę"
 
-#: src/qml/pages/Enjoy.qml:30
+#: src/qml/pages/Enjoy.qml:31
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
 msgstr "Gaukite pagalbos KDE diskusijų forumuose"
 
-#: src/qml/pages/Enjoy.qml:60
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"If you find Plasma to be useful, consider getting involved or donating. KDE "
-"is an international volunteer community, not a big company; your "
-"contributions make a real difference!"
-msgstr ""
-"Jei atrasite, jog Plasma yra jums naudinga, apsvarstykite galimybę "
-"įsitraukti arba paaukoti lėšų. KDE yra tarptautinė savanorių bendruomenė, o "
-"ne didelė kompanija; jūsų įnašai turi didelę reikšmę!"
-
-#: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:76
-#, kde-format
-msgctxt "@action:button"
-msgid "Make a donation"
-msgstr "Paaukokite"
-
-#: src/qml/pages/Enjoy.qml:69
-#, kde-format
-msgctxt "@action:button"
-msgid "Get involved"
-msgstr "Įsitraukite"
-
-#: src/qml/pages/Enjoy.qml:79
+#: src/qml/pages/Enjoy.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
@@ -510,13 +506,13 @@ msgctxt "@action:button"
 msgid "Change state"
 msgstr "Keisti būseną"
 
-#: src/qml/pages/PlasmaUpdate.qml:19
+#: src/qml/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
 msgstr "Plasma atnaujinta į %1"
 
-#: src/qml/pages/plasmaupdate/Beta.qml:19
+#: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -528,25 +524,7 @@ msgstr ""
 "yra labai svarbūs ir padeda mums ją tobulinti! Praneškite apie bet kokias "
 "pastebėtas klaidas, kad mes galėtume jas ištaisyti."
 
-#: src/qml/pages/plasmaupdate/Beta.qml:25
-#, kde-format
-msgctxt "@label:URL"
-msgid "<b>Find out what’s new</b>"
-msgstr "<b>Sužinokite, kas naujo</b>"
-
-#: src/qml/pages/plasmaupdate/Beta.qml:30
-#, kde-format
-msgctxt "@label:URL"
-msgid "Report a bug"
-msgstr "Praneškite apie klaidą"
-
-#: src/qml/pages/plasmaupdate/Beta.qml:34
-#, kde-format
-msgctxt "@label:URL"
-msgid "Help work on the next release"
-msgstr "Padėkite kuriant kitą versiją"
-
-#: src/qml/pages/plasmaupdate/Update.qml:20
+#: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -557,30 +535,83 @@ msgstr ""
 "šia versija. Tikimės, kad jūs mėgausitės naudodamiesi Plasma tiek pat, kiek "
 "mes mėgavomės ją plėtodami!"
 
-#: src/qml/pages/plasmaupdate/Update.qml:26
+#: src/qml/pages/PlasmaUpdate.qml:29
 #, kde-format
-msgctxt "@action:button"
-msgid "<b>Find out what's new</b>"
-msgstr "<b>Sužinokite, kas naujo</b>"
+msgctxt "@label:URL"
+msgid "Report a bug"
+msgstr "Praneškite apie klaidą"
 
-#: src/qml/pages/plasmaupdate/Update.qml:31
+#: src/qml/pages/PlasmaUpdate.qml:153
 #, kde-format
-msgctxt "@action:button"
-msgid "Help work on the next release"
-msgstr "Padėkite kuriant kitą versiją"
-
-#: src/qml/pages/plasmaupdate/Update.qml:72
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"The KDE community relies on donations of expertise and funds, and is "
-"supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the "
-"wider KDE community, and you can make a difference by donating today."
+msgctxt "@info"
+msgid "Download an embedded preview of the release announcement?"
 msgstr ""
-"KDE bendruomenė yra priklausoma nuo paaukojimų bei lėšų ir yra remiama „KDE "
-"e.V.“ – Vokietijoje įsikūrusios ne pelno organizacijos. Paaukojimai, skirti "
-"„KDE e.V.“, remia platesnę KDE bendruomenę, tad aukodami šiandien, galite "
-"skatinti teigiamus pokyčius."
+
+#: src/qml/pages/PlasmaUpdate.qml:155
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The preview has not been automatically downloaded because you are using a "
+"metered network connection."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:157
+#, kde-format
+msgctxt "@info, %1 is an error code"
+msgid "The preview could not be downloaded — a network error occurred (%1)."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:159
+#, kde-format
+msgctxt "@info"
+msgid "The preview could not be loaded — a parse error occurred."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:176
+#, kde-format
+msgctxt "@action:button"
+msgid "Download Preview"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:178
+#, kde-format
+msgctxt "@action:button"
+msgid "Download Anyway"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:182
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Open Settings…"
+msgctxt "@action:button"
+msgid "Open in Browser…"
+msgstr "Atverti nuostatas…"
+
+#: src/qml/pages/PlasmaUpdate.qml:228
+#, kde-format
+msgctxt "@option:check"
+msgid "Load preview automatically"
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The preview will be loaded automatically when this page is shown for future "
+"Plasma updates, except when using a metered network connection."
+msgstr ""
+
+#: src/qml/pages/PlasmaUpdate.qml:421
+#, kde-format
+msgctxt "@info"
+msgid "<b>Click to read the announcement</b>"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -1150,23 +1181,54 @@ msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "KDE talismanas Konqi sveikina jus KDE bendruomenėje!"
 
-#: src/release.cpp:38
+#: src/release.cpp:43
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 plėtojama"
 
-#: src/release.cpp:41
+#: src/release.cpp:46
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 Beta"
 
-#: src/release.cpp:45
+#: src/release.cpp:50
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgid ""
+#~ "Display release notes for the current Plasma release, for beta versions."
+#~ msgstr "Rodyti dabartinės Plasma versijos, Beta versijų laidos informaciją."
+
+#~ msgctxt "@label:URL"
+#~ msgid "<b>Find out what’s new</b>"
+#~ msgstr "<b>Sužinokite, kas naujo</b>"
+
+#~ msgctxt "@label:URL"
+#~ msgid "Help work on the next release"
+#~ msgstr "Padėkite kuriant kitą versiją"
+
+#~ msgctxt "@action:button"
+#~ msgid "<b>Find out what's new</b>"
+#~ msgstr "<b>Sužinokite, kas naujo</b>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Help work on the next release"
+#~ msgstr "Padėkite kuriant kitą versiją"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The KDE community relies on donations of expertise and funds, and is "
+#~ "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support "
+#~ "the wider KDE community, and you can make a difference by donating today."
+#~ msgstr ""
+#~ "KDE bendruomenė yra priklausoma nuo paaukojimų bei lėšų ir yra remiama "
+#~ "„KDE e.V.“ – Vokietijoje įsikūrusios ne pelno organizacijos. Paaukojimai, "
+#~ "skirti „KDE e.V.“, remia platesnę KDE bendruomenę, tad aukodami šiandien, "
+#~ "galite skatinti teigiamus pokyčius."
 
 #~ msgid "6.0 Dev"
 #~ msgstr "6.0 plėtojama"
