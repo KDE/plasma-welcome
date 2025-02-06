@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2024-11-14 02:51+0100\n"
+"PO-Revision-Date: 2025-02-05 04:56+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -172,12 +172,10 @@ msgid "&Next"
 msgstr "&შემდეგი"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "ამ გვერდის ჩვენება Plasma-ის განახლების შემდეგ"
+msgstr "ჩვენება Plasma-ის განახლების შემდეგ"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -536,7 +534,7 @@ msgstr "შეცდომის პატაკი"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "გადმოვწერო ჩაშენებული მინიატურა რელიზის გამოცხადებისთვის?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -545,50 +543,50 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"მინიატურის ავტომატური გადმოწერა არ მომხდარა, რადგან იყენებთ გაზომვად ქსელურ "
+"მიერთებას."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "მინიატურის გადმოწერა შეუძლებელია — აღმოჩენილია ქსელის შეცდომა (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "გადმოწერის ჩატვირთვა შეუძლებელია — აღმოჩენილია დამუშავების შეცდომა."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "მინიატურის გადმოწერა"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "მაინც გადმოწერა"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "თავიდან ცდა"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "პარამეტრების გახსნა.…"
+msgstr "ბრაუზერში გახსნა…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "მინიატურის ავტომატური ჩატვირთვა"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -597,12 +595,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"მინიატურა ავტომატურად ჩაიტვირთება, როცა გვერდს მომავალში გაჩვენებთ სიახლეებს "
+"Plasma-ის განახლების შესახებ, იმ გამონაკლისის გარდა, როცა მიერთება "
+"გაზომვადია."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>დააწკაპუნეთ განცხადების წასაკითხად</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format

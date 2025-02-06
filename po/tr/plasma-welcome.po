@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2025-02-04 18:29+0300\n"
+"PO-Revision-Date: 2025-02-05 11:19+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -173,12 +173,10 @@ msgid "&Next"
 msgstr "&Sonraki"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Plasma güncellendikten sonra bu sayfayı göster"
+msgstr "Plasma güncellendikten sonra göster"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -539,7 +537,7 @@ msgstr "Hata Bildir"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Yayım duyurusunun gömülü bir önizlemesi indirilsin mi?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -548,50 +546,50 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Önizleme kendiliğinden indirilmedi; çünkü ölçülü bir ağ bağlantısı "
+"kullanıyorsunuz."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Önizleme indirilemedi — bir ağ hatası oluştu (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "Önizleme yüklenemedi — bir ayrıştırma hatası oluştu."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Önizlemeyi İndir"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Yine de İndir"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Yeniden Dene"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Ayarları Aç…"
+msgstr "Tarayıcıda Aç…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Önizlemeyi kendiliğinden yükle"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -600,12 +598,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Ölçülü bir ağ bağlantısının kullanıldığı durumlar dışında, sonraki Plasma "
+"güncellemeleri için bu sayfa gösterildiğinde önizleme kendiliğinden "
+"yüklenecektir."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Duyuruyu okumak için tıkla</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format

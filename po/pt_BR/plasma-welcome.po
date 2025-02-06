@@ -3,13 +3,14 @@
 #
 # SPDX-FileCopyrightText: 2023, 2024, 2025 Geraldo Simiao <geraldosimiao@fedoraproject.org>
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2022, 2023.
+# SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2025-02-04 11:22-0300\n"
-"Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
+"PO-Revision-Date: 2025-02-05 01:39-0300\n"
+"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -21,12 +22,14 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Patrick dos Reis Dolores, Geraldo Simião"
+msgstr "Patrick dos Reis Dolores, Geraldo Simião, Guilherme Marçal Silva"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "patrick.dos.reis537@gmail.com, geraldosimiao@fedoraproject.org"
+msgstr ""
+"patrick.dos.reis537@gmail.com, geraldosimiao@fedoraproject.org, "
+"guimarcalsilva@gmail.com"
 
 #: src/main.cpp:42
 #, kde-format
@@ -174,12 +177,10 @@ msgid "&Next"
 msgstr "&Próximo"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Mostrar esta página após o Plasma ser atualizado"
+msgstr "Mostrar após o Plasma ser atualizado"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -541,7 +542,7 @@ msgstr "Relate um erro"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Baixar uma prévia integrada do anúncio de lançamento?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -550,50 +551,50 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"A prévia não foi baixada automaticamente porque você está utilizando uma "
+"rede limitada."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "A prévia não pôde ser carregada — um erro de rede ocorreu (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "A prévia não pôde ser carregada — um erro de análise ocorreu."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Prévia do download"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Baixar mesmo assim"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Repetir"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Abrir configurações…"
+msgstr "Abrir no navegador…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Carregar prévia automaticamente"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -602,12 +603,14 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"A prévia será carregada automaticamente quando esta página for mostrada para "
+"atualizações futuras do Plasma, exceto ao usar conexões limitadas."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Clique para ler o anúncio</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format

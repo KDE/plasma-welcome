@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2024-11-14 21:37+0200\n"
+"PO-Revision-Date: 2025-02-05 09:10+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 24.08.1\n"
+"X-Generator: Lokalize 24.12.0\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 
@@ -171,12 +171,10 @@ msgid "&Next"
 msgstr "ה&בא"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "להציג את המסך הזה לאחר עדכון של פלזמה"
+msgstr "להציג לאחר עדכון פלזמה"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -529,7 +527,7 @@ msgstr "דיווח על תקלה"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "להוריד תצוגה מקדימה מוטמעת להכרזת ההוצאה לאור?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -537,51 +535,49 @@ msgctxt "@info"
 msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
-msgstr ""
+msgstr "התצוגה המקדימה לא ירדה אוטומטית כיוון שהחיבור שלך מוגבל."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "לא ניתן להוריד את התצוגה המקדימה - אירעה שגיאת רשת (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "לא ניתן לטעון את התצוגה המקדימה - אירעה שגיאת פענוח."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "הורדת תצוגה מקדימה"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "להוריד בכל זאת"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "לנסות שוב"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "פתיחת ההגדרות…"
+msgstr "פתיחה בדפדפן…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "לטעון את התצוגה המקדימה אוטומטית"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -590,12 +586,14 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"התצוגה המקדימה תיטען אוטומטית כאשר העמוד מופיע בעדכונים עתידיים של פלזמה, "
+"למעט בעת שימוש בחיבור רשת מוגבל."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>לחיצה כאן תציג את ההכרזה</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2025-01-31 17:57+0100\n"
+"PO-Revision-Date: 2025-02-05 13:23+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -178,12 +178,10 @@ msgid "&Next"
 msgstr "&Següent"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Mostra esta pàgina després d'actualitzar Plasma"
+msgstr "Mostra després d'actualitzar Plasma"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -547,7 +545,7 @@ msgstr "Informeu d'un error"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Voleu baixar una vista prèvia incrustada de l'anunci de llançament?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -556,50 +554,52 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"La vista prèvia no ha baixat automàticament perquè esteu utilitzant una "
+"connexió de xarxa mesurada."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
 msgstr ""
+"No s'ha pogut baixar la vista prèvia. S'ha produït un error de la xarxa (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
 msgstr ""
+"No s'ha pogut carregar la vista prèvia. S'ha produït un error d'anàlisi."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Baixa la vista prèvia"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Baixa igualment"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Torna-ho a intentar"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Obri la configuració…"
+msgstr "Obri en el navegador…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Carrega la vista prèvia automàticament"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -608,12 +608,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"La vista prèvia es carregarà automàticament quan es mostre esta pàgina en "
+"futures actualitzacions de Plasma, excepte quan s'utilitze una connexió de "
+"xarxa mesurada."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Feu clic per a llegir l'anunci</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -1197,36 +1200,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgid ""
-#~ "Display release notes for the current Plasma release, for beta versions."
-#~ msgstr ""
-#~ "Mostra les notes de llançament de la versió actual de Plasma, per a les "
-#~ "versions beta."
-
-#~ msgctxt "@label:URL"
-#~ msgid "<b>Find out what’s new</b>"
-#~ msgstr "<b>Vegeu què hi ha de nou</b>"
-
-#~ msgctxt "@label:URL"
-#~ msgid "Help work on the next release"
-#~ msgstr "Ajuda en les tasques de la pròxima versió"
-
-#~ msgctxt "@action:button"
-#~ msgid "<b>Find out what's new</b>"
-#~ msgstr "<b>Vegeu què hi ha de nou</b>"
-
-#~ msgctxt "@action:button"
-#~ msgid "Help work on the next release"
-#~ msgstr "Ajuda en les tasques de la pròxima versió"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The KDE community relies on donations of expertise and funds, and is "
-#~ "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support "
-#~ "the wider KDE community, and you can make a difference by donating today."
-#~ msgstr ""
-#~ "La comunitat KDE es basa en donacions d'experiència i fons, i està "
-#~ "emparada per KDE e.V., una organització alemanya sense ànim de lucre. Les "
-#~ "donacions a KDE e.V. ajuden la comunitat KDE sencera, i podeu marcar la "
-#~ "diferència fent una donació hui."

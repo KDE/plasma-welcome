@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
 #
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2024-11-14 13:39+0100\n"
+"PO-Revision-Date: 2025-02-05 17:47+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Freek de Kruijf - 2022 t/m 2024"
+msgstr "Freek de Kruijf - 2022 t/m 2025"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -171,12 +171,10 @@ msgid "&Next"
 msgstr "V&olgende"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Deze pagina tonen nadat Plasma is bijgewerkt"
+msgstr "Tonen nadat Plasma is bijgewerkt"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -537,7 +535,7 @@ msgstr "Rapporteer een bug"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Een ingebedde vooruitblik van de uitgave-aankondiging downloaden?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -546,50 +544,52 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"De vooruitblik is niet automatisch gedownload omdat u een bemeterde "
+"netwerkverbinding gebruikt."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
 msgstr ""
+"De vooruitblik kon niet gedownload worden — er trad een netwerkfout op (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
 msgstr ""
+"De vooruitblik kon niet geladen worden — er was een fout bij het ontleden."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Vooruitblik downloaden"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Toch downloaden"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Opnieuw proberen"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Instellingen openen…"
+msgstr "In browser openen…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Vooruitblik automatisch laden"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -598,12 +598,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"De vooruitblik zal automatisch geladen worden wanneer deze pagina wordt "
+"getoond voor toekomstige Plasma updates, behalve wanneer een bemeterde "
+"netwerkverbinding wordt gebruikt."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Klik om de aankondiging te lezen</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format

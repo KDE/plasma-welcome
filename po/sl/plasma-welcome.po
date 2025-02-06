@@ -177,12 +177,10 @@ msgid "&Next"
 msgstr "&Naprej"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Pokaži to stran, ko je Plasma posodobljena"
+msgstr "Pokaži, ko je Plasma posodobljena"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -546,7 +544,7 @@ msgstr "Poročaj o napaki"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Ali želite prenesti vdelan predogled obvestila o izdaji?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -555,50 +553,51 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Predogled ni bil samodejno prenesen, ker uporabljate merjeno omrežno "
+"povezavo."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Predogleda ni bilo mogoče prenesti — prišlo je do omrežne napake (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
 msgstr ""
+"Predogleda ni bilo mogoče naložiti — prišlo je do napake pri razčlenjevanju."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Prenesi predogled"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Vseeno prenesi"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Poskusi znova"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Odpri nastavitve…"
+msgstr "Odpri v brskalniku…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Naloži predogled samodejno"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -607,12 +606,14 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Predogled se bo samodejno naložil, ko bo ta stran prikazana za prihodnje "
+"posodobitve Plasme, razen pri uporabi merjene omrežne povezave."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Kliknite, da bi prebrali obvestilo</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format

@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2022, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2024-11-14 09:02+0200\n"
+"PO-Revision-Date: 2025-02-05 11:38+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -175,12 +175,10 @@ msgid "&Next"
 msgstr "&Далі"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Показувати цю сторінку після оновлення Плазми"
+msgstr "Показати після оновлення Плазми"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -543,6 +541,7 @@ msgstr "Повідомити про ваду"
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
 msgstr ""
+"Отримати вбудовані дані попереднього перегляду оголошення щодо випуску?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -551,50 +550,51 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Попередній перегляд не було автоматично отримати, оскільки ви користуєтеся "
+"з'єднанням із обліком даних"
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Не вдалося отримати попередній перегляд — сталася помилка мережі (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
 msgstr ""
+"Не вдалося завантажити попередній перегляд — сталася помилка обробки даних."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Отримати попередній перегляд"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Отримати попри це"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Повторити"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Відкрити вікно параметрів…"
+msgstr "Відкрити у переглядачі…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Завантажувати попередній перегляд автоматично"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -603,12 +603,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Попередній перегляд буде завантажено автоматично при показі сторінки щодо "
+"майбутніх оновлень Плазми, якщо ви не користуватиметеся з'єднанням із "
+"обліком даних."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Натисніть, щоб прочитати оголошення</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
