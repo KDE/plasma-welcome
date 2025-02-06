@@ -18,40 +18,105 @@ Welcome.ScrollablePage {
     heading: i18nc("@title:window", "Supporting Members")
     description: xi18nc("@info:usagetip", "We thank the following supporting members for their recurring donation to KDE:")
 
-    property int sort: 0
+    enum SortOrders {
+        Random,
+        LastName,
+        FirstName,
+        Date
+    }
+
+    QQC2.ActionGroup {
+        id: sortGroup
+        exclusive: true
+    }
+
+    property int sortOrder: Supporters.SortOrders.Random
+    property bool sortReverse: false
     property string filter: ""
 
     actions: [
         Kirigami.Action {
-            displayComponent: QQC2.ComboBox {
-                flat: true
-                model: [
-                    i18nc("@item:inlistbox", "Sort Randomly"),
-                    i18nc("@item:inlistbox", "Sort by Name"),
-                    i18nc("@item:inlistbox", "Sort by Date")
-                ]
-                currentIndex: root.sort
-                onActivated: root.sort = currentIndex
+            text: i18nc("@action:button %1 is the selected sort order, e.g. Random", "Sort: %1", sortGroup.checkedAction.text)
+            icon.name: "view-sort-symbolic"
+
+            Kirigami.Action {
+                QQC2.ActionGroup.group: sortGroup
+
+                text: i18nc("@action:inmenu An order to sort a list", "Random")
+                icon.name: "randomize-symbolic"
+
+                checkable: true
+                checked: root.sortOrder === Supporters.SortOrders.Random
+                onTriggered: root.sortOrder = Supporters.SortOrders.Random
+            }
+
+            Kirigami.Action {
+                QQC2.ActionGroup.group: sortGroup
+
+                text: i18nc("@action:inmenu An order to sort a list", "Last Name")
+                icon.name: "sort-name-symbolic"
+
+                checkable: true
+                checked: root.sortOrder === Supporters.SortOrders.LastName
+                onTriggered: root.sortOrder = Supporters.SortOrders.LastName
+            }
+
+            Kirigami.Action {
+                QQC2.ActionGroup.group: sortGroup
+
+                text: i18nc("@action:inmenu An order to sort a list", "First Name")
+                icon.name: "sort-name-symbolic"
+
+                checkable: true
+                checked: root.sortOrder === Supporters.SortOrders.FirstName
+                onTriggered: root.sortOrder = Supporters.SortOrders.FirstName
+            }
+
+            Kirigami.Action {
+                QQC2.ActionGroup.group: sortGroup
+
+                text: i18nc("@action:inmenu An order to sort a list, referring to the date a user has first made a donation", "Contribution Date")
+                icon.name: "change-date-symbolic"
+
+                checkable: true
+                checked: root.sortOrder === Supporters.SortOrders.Date
+                onTriggered: root.sortOrder = Supporters.SortOrders.Date
+            }
+
+            Kirigami.Action {
+                separator: true
+            }
+
+            Kirigami.Action {
+                text: i18nc("@action:inmenu An option to sort a list in reverse order", "Reverse")
+                icon.name: "view-sort-descending-symbolic"
+
+                enabled: root.sortOrder !== Supporters.SortOrders.Random
+
+                checkable: true
+                checked: root.sortReverse
+                onTriggered: root.sortReverse = checked
             }
         },
         Kirigami.Action {
             displayComponent: Kirigami.SearchField {
                 width: Kirigami.Units.gridUnit * 10
-                placeholderText: i18nc("@label placeholder", "Filter…")
                 onAccepted: root.filter = text
             }
         }
     ]
 
     readonly property var sortedSupporters: {
-        switch (sort) {
-            case 0:
+        switch (root.sortOrder) {
+            case Supporters.SortOrders.Random:
             default:
                 return sortRandom(supporters);
-            case 1:
-                return sortName(supporters);
-            case 2:
-                return supporters; // Already sorted by time
+            case Supporters.SortOrders.LastName:
+                return sortName(supporters, Supporters.SortOrders.LastName, root.sortReverse);
+            case Supporters.SortOrders.FirstName:
+                return sortName(supporters, Supporters.SortOrders.FirstName, root.sortReverse);
+            case Supporters.SortOrders.Date:
+                return sortDate(supporters, root.sortReverse);
         }
     }
 
@@ -136,33 +201,47 @@ Welcome.ScrollablePage {
         return sorted;
     }
 
-    function sortName(array) {
+    function sortName(array, mode, reverse) {
         let sorted = array.slice();
 
-        // Sort by last name, then first name, then middle name
         sorted.sort(function(a, b) {
+            // Separate out names
             let splitA = a.split(" ");
             let splitB = b.split(" ");
-
-            let lastA = splitA.length > 1 ? splitA[splitA.length - 1] : ""
-            let lastB = splitB.length > 1 ? splitB[splitB.length - 1] : ""
-
-            if (lastA !== lastB) {
-                return lastA.localeCompare(lastB);
-            }
 
             let firstA = splitA[0];
             let firstB = splitB[0];
 
-            if (firstA !== firstB) {
-                return firstA.localeCompare(firstB);
-            }
+            let lastA = splitA.length > 1 ? splitA[splitA.length - 1] : "";
+            let lastB = splitB.length > 1 ? splitB[splitB.length - 1] : "";
 
-            let middleA = splitA.length > 2 ? splitA.slice(1, -1).join(" ") : ""
-            let middleB = splitB.length > 2 ? splitB.slice(1, -1).join(" ") : ""
+            let middleA = splitA.length > 2 ? splitA.slice(1, -1).join(" ") : "";
+            let middleB = splitB.length > 2 ? splitB.slice(1, -1).join(" ") : "";
 
-            return middleA.localeCompare(middleB);
-        })
+            // Compare using first and last names, in the chosen order
+            let primaryCompare = (mode == Supporters.SortOrders.FirstName
+                                  ? firstA.localeCompare(firstB) || lastA.localeCompare(lastB)
+                                  : lastA.localeCompare(lastB) || firstA.localeCompare(firstB));
+
+            // Fall back on comparing middle names after
+            return primaryCompare || middleA.localeCompare(middleB);
+        });
+
+        if (reverse) {
+            sorted.reverse();
+        }
+
+        return sorted;
+    }
+
+    function sortDate(array, reverse) {
+        let sorted = array.slice();
+
+        // Already sorted by time
+
+        if (reverse) {
+            sorted.reverse();
+        }
 
         return sorted;
     }
