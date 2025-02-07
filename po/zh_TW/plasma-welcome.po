@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2023, 2024 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2024-11-28 16:38+0900\n"
+"POT-Creation-Date: 2025-02-07 00:44+0000\n"
+"PO-Revision-Date: 2025-02-06 20:48+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -170,12 +170,10 @@ msgid "&Next"
 msgstr "下一頁(&N)"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Plasma 更新後顯示這個頁面"
+msgstr "Plasma 更新後顯示"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -352,29 +350,49 @@ msgid ""
 "KDE:"
 msgstr "我們誠心感謝以下支持者定期捐贈予 KDE："
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort Randomly"
+msgctxt "@action:button %1 is the selected sort order, e.g. Random"
+msgid "Sort: %1"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:45
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort Randomly"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Random"
 msgstr "隨機排序"
 
-#: src/qml/pages/enjoy/Supporters.qml:30
+#: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Last Name"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:67
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "First Name"
 msgstr "依名稱排序"
 
-#: src/qml/pages/enjoy/Supporters.qml:31
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Date"
-msgstr "依日期排序"
+#: src/qml/pages/enjoy/Supporters.qml:78
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Start Contributing!"
+msgctxt ""
+"@action:inmenu An order to sort a list, referring to the date a user has "
+"first made a donation"
+msgid "Contribution Date"
+msgstr "開始貢獻吧！"
 
-#: src/qml/pages/enjoy/Supporters.qml:40
+#: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
-msgctxt "@label placeholder"
-msgid "Filter…"
-msgstr "過濾…"
+msgctxt "@action:inmenu An option to sort a list in reverse order"
+msgid "Reverse"
+msgstr ""
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -525,7 +543,7 @@ msgstr "回報問題"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "要下載釋出公告的內嵌預覽嗎？"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -533,51 +551,49 @@ msgctxt "@info"
 msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
-msgstr ""
+msgstr "預覽沒有自動下載，因為您正在使用計量網路連線。"
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "無法下載預覽 — 發生網路錯誤 (%1)。"
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "無法載入預覽 — 發生剖析錯誤。"
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "下載預覽"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "還是要下載"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "重試"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "開啟設定…"
+msgstr "在瀏覽器開啟…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "自動載入預覽"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -586,12 +602,13 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"未來 Plasma 更新而顯示此頁面的時候總是自動載入預覽；使用計量網路連線時除外。"
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>點擊來閱讀公告</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -1139,6 +1156,14 @@ msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta 版 %2"
 
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Sort by Date"
+#~ msgstr "依日期排序"
+
+#~ msgctxt "@label placeholder"
+#~ msgid "Filter…"
+#~ msgstr "過濾…"
+
 #~ msgid ""
 #~ "Display release notes for the current Plasma release, for beta versions."
 #~ msgstr "為 beta 版本顯示目前使用的 Plasma 版本的發行註記。"
@@ -1209,10 +1234,6 @@ msgstr "%1 Beta 版 %2"
 #~ "傳，或是寫程式或修臭蟲。<nl/><nl/>貢獻 KDE 讓您成為一個特別的事情的一份"
 #~ "子，讓您遇見新朋友、學習新技能，並作出能夠影響上百萬人的改變，同時與全世界"
 #~ "各地來的人們一同合作，實現令人驚歎的自由軟體電腦體驗。"
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "開始貢獻吧！"
 
 #~ msgctxt "@title:window"
 #~ msgid "Support Your Freedom"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:43+0000\n"
+"POT-Creation-Date: 2025-02-07 00:44+0000\n"
 "PO-Revision-Date: 2024-02-24 17:17+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -361,28 +361,44 @@ msgstr ""
 "Le mulțumim următorilor donatori pentru susținere în timpul campaniei de "
 "strângere a fondurilor pentru Plasma 6:"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort Randomly"
+msgctxt "@action:button %1 is the selected sort order, e.g. Random"
+msgid "Sort: %1"
 msgstr ""
 
-#: src/qml/pages/enjoy/Supporters.qml:30
+#: src/qml/pages/enjoy/Supporters.qml:45
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Random"
 msgstr ""
 
-#: src/qml/pages/enjoy/Supporters.qml:31
+#: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Date"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Last Name"
 msgstr ""
 
-#: src/qml/pages/enjoy/Supporters.qml:40
+#: src/qml/pages/enjoy/Supporters.qml:67
 #, kde-format
-msgctxt "@label placeholder"
-msgid "Filter…"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "First Name"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:78
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Start Contributing!"
+msgctxt ""
+"@action:inmenu An order to sort a list, referring to the date a user has "
+"first made a donation"
+msgid "Contribution Date"
+msgstr "Începeți să contribuiți!"
+
+#: src/qml/pages/enjoy/Supporters.qml:91
+#, kde-format
+msgctxt "@action:inmenu An option to sort a list in reverse order"
+msgid "Reverse"
 msgstr ""
 
 #: src/qml/pages/Feedback.qml:15
@@ -1141,10 +1157,6 @@ msgstr "%1 Beta %2"
 #~ msgctxt "@info copyright string"
 #~ msgid "(c) 2021"
 #~ msgstr "(c) 2021"
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "Începeți să contribuiți!"
 
 #~ msgctxt "@title:window"
 #~ msgid "Support Your Freedom"

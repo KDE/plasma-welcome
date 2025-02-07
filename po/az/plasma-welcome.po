@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:43+0000\n"
+"POT-Creation-Date: 2025-02-07 00:44+0000\n"
 "PO-Revision-Date: 2024-06-07 18:13+0400\n"
 "Last-Translator: Kheyyam Godjayev <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -351,28 +351,42 @@ msgid ""
 "KDE:"
 msgstr ""
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort Randomly"
+msgctxt "@action:button %1 is the selected sort order, e.g. Random"
+msgid "Sort: %1"
 msgstr ""
 
-#: src/qml/pages/enjoy/Supporters.qml:30
+#: src/qml/pages/enjoy/Supporters.qml:45
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Random"
 msgstr ""
 
-#: src/qml/pages/enjoy/Supporters.qml:31
+#: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Date"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Last Name"
 msgstr ""
 
-#: src/qml/pages/enjoy/Supporters.qml:40
+#: src/qml/pages/enjoy/Supporters.qml:67
 #, kde-format
-msgctxt "@label placeholder"
-msgid "Filter…"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "First Name"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:78
+#, kde-format
+msgctxt ""
+"@action:inmenu An order to sort a list, referring to the date a user has "
+"first made a donation"
+msgid "Contribution Date"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:91
+#, kde-format
+msgctxt "@action:inmenu An option to sort a list in reverse order"
+msgid "Reverse"
 msgstr ""
 
 #: src/qml/pages/Feedback.qml:15

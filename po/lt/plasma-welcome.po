@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:43+0000\n"
+"POT-Creation-Date: 2025-02-07 00:44+0000\n"
 "PO-Revision-Date: 2025-01-10 00:38+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -364,29 +364,49 @@ msgstr ""
 "Mes esame dėkingi šiems remiantiems nariams už jų pasikartojančias aukas, "
 "skirtas KDE:"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort Randomly"
+msgctxt "@action:button %1 is the selected sort order, e.g. Random"
+msgid "Sort: %1"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:45
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort Randomly"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Random"
 msgstr "Rikiuoti atsitiktine tvarka"
 
-#: src/qml/pages/enjoy/Supporters.qml:30
+#: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Last Name"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:67
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "First Name"
 msgstr "Rikiuoti pagal pavadinimą"
 
-#: src/qml/pages/enjoy/Supporters.qml:31
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Date"
-msgstr "Rikiuoti pagal datą"
+#: src/qml/pages/enjoy/Supporters.qml:78
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Start Contributing!"
+msgctxt ""
+"@action:inmenu An order to sort a list, referring to the date a user has "
+"first made a donation"
+msgid "Contribution Date"
+msgstr "Pradėkite talkinti!"
 
-#: src/qml/pages/enjoy/Supporters.qml:40
+#: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
-msgctxt "@label placeholder"
-msgid "Filter…"
-msgstr "Filtruoti…"
+msgctxt "@action:inmenu An option to sort a list in reverse order"
+msgid "Reverse"
+msgstr ""
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -1199,6 +1219,14 @@ msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
 
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Sort by Date"
+#~ msgstr "Rikiuoti pagal datą"
+
+#~ msgctxt "@label placeholder"
+#~ msgid "Filter…"
+#~ msgstr "Filtruoti…"
+
 #~ msgid ""
 #~ "Display release notes for the current Plasma release, for beta versions."
 #~ msgstr "Rodyti dabartinės Plasma versijos, Beta versijų laidos informaciją."
@@ -1273,10 +1301,6 @@ msgstr "%1 Beta %2"
 #~ "draugais, išsiugdyti naujų įgūdžių ir dirbdami su žmonėmis iš viso "
 #~ "pasaulio, nešti pokyčius milijonams žmonių bei pristatyti stulbinantį "
 #~ "laisvos programinės įrangos ir naudojimosi kompiuteriu patyrimą."
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "Pradėkite talkinti!"
 
 #~ msgctxt "@title:window"
 #~ msgid "Support Your Freedom"

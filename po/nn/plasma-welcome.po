@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:43+0000\n"
+"POT-Creation-Date: 2025-02-07 00:44+0000\n"
 "PO-Revision-Date: 2024-08-02 21:22+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -358,29 +358,47 @@ msgid ""
 "KDE:"
 msgstr "Takk til våre faste støttemedlemmar for deira pengegåver til KDE:"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort Randomly"
+msgctxt "@action:button %1 is the selected sort order, e.g. Random"
+msgid "Sort: %1"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:45
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort Randomly"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Random"
 msgstr "Sorter tilfeldig"
 
-#: src/qml/pages/enjoy/Supporters.qml:30
+#: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Last Name"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:67
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "First Name"
 msgstr "Sorter etter namn"
 
-#: src/qml/pages/enjoy/Supporters.qml:31
+#: src/qml/pages/enjoy/Supporters.qml:78
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Date"
-msgstr "Sorter etter dato"
+msgctxt ""
+"@action:inmenu An order to sort a list, referring to the date a user has "
+"first made a donation"
+msgid "Contribution Date"
+msgstr ""
 
-#: src/qml/pages/enjoy/Supporters.qml:40
+#: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
-msgctxt "@label placeholder"
-msgid "Filter…"
-msgstr "Filtrer …"
+msgctxt "@action:inmenu An option to sort a list in reverse order"
+msgid "Reverse"
+msgstr ""
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -1179,6 +1197,14 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Sort by Date"
+#~ msgstr "Sorter etter dato"
+
+#~ msgctxt "@label placeholder"
+#~ msgid "Filter…"
+#~ msgstr "Filtrer …"
 
 #~ msgid ""
 #~ "Display release notes for the current Plasma release, for beta versions."

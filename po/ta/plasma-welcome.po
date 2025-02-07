@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:43+0000\n"
+"POT-Creation-Date: 2025-02-07 00:44+0000\n"
 "PO-Revision-Date: 2024-10-27 15:09+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -350,29 +350,49 @@ msgid ""
 "KDE:"
 msgstr "கே.டீ.யீ.க்கு தொடர்ந்து நன்கொடை அளிக்கும் பின்வருபர்களுக்கு நன்றி:"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort Randomly"
+msgctxt "@action:button %1 is the selected sort order, e.g. Random"
+msgid "Sort: %1"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:45
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort Randomly"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Random"
 msgstr "வரிசைப்படுத்த வேண்டாம்"
 
-#: src/qml/pages/enjoy/Supporters.qml:30
+#: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Last Name"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:67
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "First Name"
 msgstr "பெயர் வாரியாக வரிசைப்படுத்து"
 
-#: src/qml/pages/enjoy/Supporters.qml:31
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Date"
-msgstr "தேதிப்படி வரிசைப்படுத்து"
+#: src/qml/pages/enjoy/Supporters.qml:78
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Start Contributing!"
+msgctxt ""
+"@action:inmenu An order to sort a list, referring to the date a user has "
+"first made a donation"
+msgid "Contribution Date"
+msgstr "பங்களிக்க விரும்புகிறேன்!"
 
-#: src/qml/pages/enjoy/Supporters.qml:40
+#: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
-msgctxt "@label placeholder"
-msgid "Filter…"
-msgstr "வடிகட்டு…"
+msgctxt "@action:inmenu An option to sort a list in reverse order"
+msgid "Reverse"
+msgstr ""
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -1151,6 +1171,14 @@ msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 பீட்டா %2"
 
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Sort by Date"
+#~ msgstr "தேதிப்படி வரிசைப்படுத்து"
+
+#~ msgctxt "@label placeholder"
+#~ msgid "Filter…"
+#~ msgstr "வடிகட்டு…"
+
 #~ msgid ""
 #~ "Display release notes for the current Plasma release, for beta versions."
 #~ msgstr ""
@@ -1225,10 +1253,6 @@ msgstr "%1 பீட்டா %2"
 #~ "<nl/><nl/> கே.டீ.யீ.யில் பங்களிப்பதன் மூலம் புதிய நண்பர்களை சந்தித்து உங்கள் திறமைகளை "
 #~ "மேம்படுத்துவதுடன், லட்சக்கணக்கான பயனர்களுக்கு சுதந்திர கணித்தலிய அனுபவத்தை வழங்க நீங்கள் "
 #~ "உதவலாம்."
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "பங்களிக்க விரும்புகிறேன்!"
 
 #~ msgctxt "@title:window"
 #~ msgid "Support Your Freedom"

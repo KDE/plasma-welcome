@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:43+0000\n"
+"POT-Creation-Date: 2025-02-07 00:44+0000\n"
 "PO-Revision-Date: 2025-02-05 09:10+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -352,29 +352,49 @@ msgid ""
 "KDE:"
 msgstr "אנו מודים לחברים התומכים הבאים על תרומתם המחזורית ל־KDE:"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort Randomly"
+msgctxt "@action:button %1 is the selected sort order, e.g. Random"
+msgid "Sort: %1"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:45
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort Randomly"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Random"
 msgstr "סידור אקראי"
 
-#: src/qml/pages/enjoy/Supporters.qml:30
+#: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Last Name"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:67
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "First Name"
 msgstr "סידור לפי שם"
 
-#: src/qml/pages/enjoy/Supporters.qml:31
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Date"
-msgstr "סידור לפי תאריך"
+#: src/qml/pages/enjoy/Supporters.qml:78
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Start Contributing!"
+msgctxt ""
+"@action:inmenu An order to sort a list, referring to the date a user has "
+"first made a donation"
+msgid "Contribution Date"
+msgstr "להצטרפות עוד היום!"
 
-#: src/qml/pages/enjoy/Supporters.qml:40
+#: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
-msgctxt "@label placeholder"
-msgid "Filter…"
-msgstr "מסנן…"
+msgctxt "@action:inmenu An option to sort a list in reverse order"
+msgid "Reverse"
+msgstr ""
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -1158,6 +1178,14 @@ msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 בטא %2"
 
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Sort by Date"
+#~ msgstr "סידור לפי תאריך"
+
+#~ msgctxt "@label placeholder"
+#~ msgid "Filter…"
+#~ msgstr "מסנן…"
+
 #~ msgid ""
 #~ "Display release notes for the current Plasma release, for beta versions."
 #~ msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה, גרסאות בטא."
@@ -1229,10 +1257,6 @@ msgstr "%1 בטא %2"
 #~ "ל־KDE הופכת אותך לחלק ממשהו מיוחד, מפגישה אותך עם חברים חדשים, מסייעת "
 #~ "בפיתוח מיומנויות חדשות ולחולל שינוי עבור מיליונים תוך עבודה עם אנשים מכל "
 #~ "קצוות תבל כדי להגיש חוויית שימוש מהממת במסגרת תוכנה חופשית."
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "להצטרפות עוד היום!"
 
 #~ msgctxt "@title:window"
 #~ msgid "Support Your Freedom"

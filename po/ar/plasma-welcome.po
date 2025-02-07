@@ -1,14 +1,14 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
-#
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 # Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2024.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:43+0000\n"
-"PO-Revision-Date: 2024-11-28 08:16+0400\n"
+"POT-Creation-Date: 2025-02-07 00:44+0000\n"
+"PO-Revision-Date: 2025-02-06 08:52+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -172,12 +172,10 @@ msgid "&Next"
 msgstr "ال&تالي"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "أظهر هذه الصفحة بعد تحديث البلازما"
+msgstr "أظهر بعد تحديث البلازما"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -355,29 +353,49 @@ msgid ""
 "KDE:"
 msgstr "نشكر الأعضاء التاليين لدعمهم  المتكرر لكيدي:"
 
-#: src/qml/pages/enjoy/Supporters.qml:29
+#: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort Randomly"
+msgctxt "@action:button %1 is the selected sort order, e.g. Random"
+msgid "Sort: %1"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:45
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort Randomly"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Random"
 msgstr "افرز عشوائيًا"
 
-#: src/qml/pages/enjoy/Supporters.qml:30
+#: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "Last Name"
+msgstr ""
+
+#: src/qml/pages/enjoy/Supporters.qml:67
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Sort by Name"
+msgctxt "@action:inmenu An order to sort a list"
+msgid "First Name"
 msgstr "افرز بالاسم"
 
-#: src/qml/pages/enjoy/Supporters.qml:31
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Sort by Date"
-msgstr "افرز بالتّاريخ"
+#: src/qml/pages/enjoy/Supporters.qml:78
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Start Contributing!"
+msgctxt ""
+"@action:inmenu An order to sort a list, referring to the date a user has "
+"first made a donation"
+msgid "Contribution Date"
+msgstr "ابدأ بالمساهمة"
 
-#: src/qml/pages/enjoy/Supporters.qml:40
+#: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
-msgctxt "@label placeholder"
-msgid "Filter…"
-msgstr "المرشّح…"
+msgctxt "@action:inmenu An option to sort a list in reverse order"
+msgid "Reverse"
+msgstr ""
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -530,7 +548,7 @@ msgstr "بلغ عن علة"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "هل تريد تنزيل معاينة مضمنة لإعلان الإصدار؟"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -538,51 +556,49 @@ msgctxt "@info"
 msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
-msgstr ""
+msgstr "لم تنزل المعاينة تلقائيًا لأنك تستخدم اتصالاً شبكيًا مقننًا."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "تعذر تنزيل المعاينة — حدث خطأ في الشبكة (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "تعذر تحميل المعاينة — حدث خطأ في التحليل."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "نزّل معاينة"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "نزّل على كل حال"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "أعد المحاولة"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "افتح الإعدادات…"
+msgstr "افتح في المتصفح…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "حمّل المعاينة آليا"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -591,12 +607,14 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"ستُحمل المعاينة تلقائيًا عند عرض هذه الصفحة لتحديثات البلازما المستقبلية، "
+"باستثناء عند استخدام اتصال شبكة مقنن."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>انقر لقراءة الإعلان</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -1159,6 +1177,14 @@ msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
 
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Sort by Date"
+#~ msgstr "افرز بالتّاريخ"
+
+#~ msgctxt "@label placeholder"
+#~ msgid "Filter…"
+#~ msgstr "المرشّح…"
+
 #~ msgid ""
 #~ "Display release notes for the current Plasma release, for beta versions."
 #~ msgstr "اعرض ملاحظات الإصدارة لإصدارة بلازما الحالية، لإصدرات البيتا."
@@ -1231,10 +1257,6 @@ msgstr "%1 Beta %2"
 #~ "بالمساهمة في كِيدِي، ستصبح جزءًا من شيء مميز ، قابل أصدقاء جدد، تعلم مهارات "
 #~ "جديدة ، وأحدث تغيير للملايين بالعمل مع أشخاص من جميع أنحاء العالم لتقديم "
 #~ "تجربة حوسبة حرة مذهلة."
-
-#~ msgctxt "@action:button"
-#~ msgid "Start Contributing!"
-#~ msgstr "ابدأ بالمساهمة"
 
 #~ msgctxt "@title:window"
 #~ msgid "Support Your Freedom"
