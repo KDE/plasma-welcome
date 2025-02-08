@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-07 00:44+0000\n"
-"PO-Revision-Date: 2025-01-14 18:04+0100\n"
+"PO-Revision-Date: 2025-02-06 10:09+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -173,9 +173,7 @@ msgid "&Next"
 msgstr "&Suivant"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
 msgstr "Afficher cette page après la mise à jour de Plasma"
@@ -562,7 +560,7 @@ msgstr "Signaler un bogue"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Télécharger un aperçu intégré de l'annonce de publication ?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -571,50 +569,54 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Il a été impossible de charger l'aperçu automatiquement car vous utilisez "
+"une connexion réseau limitée."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
 msgstr ""
+"Il a été impossible de charger l'aperçu — Une erreur de réseau s'est "
+"produite (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
 msgstr ""
+"Il a été impossible de charger l'aperçu — Une erreur d'analyse s'est "
+"produite."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Télécharger l’aperçu"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Télécharger quand même"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Réessayer"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Ouvrir la configuration..."
+msgstr "Ouvrir dans un navigateur…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Charger l'aperçu automatiquement"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -623,12 +625,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"L'aperçu sera chargé automatiquement lorsque cette page sera affichée pour "
+"les futures mises à jour de Plasma, sauf si vous utilisez une connexion "
+"réseau limitée."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Cliquez pour lire l'annonce</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
