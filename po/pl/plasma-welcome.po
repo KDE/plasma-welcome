@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-07 00:44+0000\n"
-"PO-Revision-Date: 2025-01-27 17:19+0100\n"
-"Last-Translator: Marcel Mrówka <micro.mail88@gmail.com>\n"
+"PO-Revision-Date: 2025-02-08 17:31+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -175,12 +175,10 @@ msgid "&Next"
 msgstr "&Naprzód"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Pokaż tę stronę po uaktualnieniu Plazmy"
+msgstr "Pokaż po uaktualnieniu Plazmy"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -363,45 +361,39 @@ msgstr "Dziękujemy następującym osobom za ciągłe wpłaty na KDE:"
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Uszereguj wg: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort Randomly"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr "Uszereguj losowo"
+msgstr "Losowo"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Nazwisko"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort by Name"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "Uszereguj wg nazwy"
+msgstr "Imię"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Start Contributing!"
+#, kde-format
 msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "Zacznij współtworzyć!"
+msgstr "Pierwszy wkład"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "Odwróć"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -559,7 +551,7 @@ msgstr "Zgłoś błąd"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Czy pobrać osadzony podgląd ogłoszeń o wydaniu?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -567,51 +559,49 @@ msgctxt "@info"
 msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
-msgstr ""
+msgstr "Nie pobrano podglądu, bo używasz sieci taryfowej."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Nie można było pobrać podglądu – nastąpił błąd sieciowy (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "Nie można pobrać podglądu – nastąpił błąd przetwarzania."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Pobierz podgląd"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Pobierz mimo tego"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Ponów"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Otwórz ustawienia…"
+msgstr "Otwórz w przeglądarce…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Sam wczytaj podgląd"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -620,12 +610,14 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Podgląd będzie wczytywany samoczynnie po pokazaniu tej strony dla przyszłych "
+"uaktualnień Plazmy, poza przypadkiem używania sieci taryfowej."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Naciśnij, aby przeczytać ogłoszenie</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -875,7 +867,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr "...i wiele więcej!"
+msgstr "…i wiele więcej!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
