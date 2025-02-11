@@ -168,12 +168,10 @@ msgid "&Next"
 msgstr "&Následující"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Zobrazit tuto stránku po aktualizaci Plasma"
+msgstr ""
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -368,12 +366,10 @@ msgid "Last Name"
 msgstr ""
 
 #: src/qml/pages/enjoy/Supporters.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort by Name"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "Seřadit podle názvu"
+msgstr ""
 
 #: src/qml/pages/enjoy/Supporters.qml:78
 #, kde-format
@@ -569,15 +565,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Zkusit znovu"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Otevřít nastavení…"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
@@ -1120,52 +1114,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgctxt "@item:inlistbox"
-#~ msgid "Sort by Date"
-#~ msgstr "Řadit podle data"
-
-#~ msgctxt "@label placeholder"
-#~ msgid "Filter…"
-#~ msgstr "Filtr…"
-
-#~ msgid ""
-#~ "Display release notes for the current Plasma release, for beta versions."
-#~ msgstr ""
-#~ "Zobrazit zprávy o vydání pro současnou verzi Plasma, pro beta verze."
-
-#~ msgctxt "@label:URL"
-#~ msgid "<b>Find out what’s new</b>"
-#~ msgstr "<b>Zjistěte co je nového</b>"
-
-#~ msgctxt "@label:URL"
-#~ msgid "Help work on the next release"
-#~ msgstr "Pomozte s prací na dalším vydání"
-
-#~ msgctxt "@action:button"
-#~ msgid "<b>Find out what's new</b>"
-#~ msgstr "<b>Zjistěte co je nového</b>"
-
-#~ msgctxt "@action:button"
-#~ msgid "Help work on the next release"
-#~ msgstr "Pomozte s prací na dalším vydání"
-
-#~ msgid "6.0 Dev"
-#~ msgstr "6.0 Vývojová"
-
-#~ msgid "6.0 Alpha"
-#~ msgstr "6.0 Alfa"
-
-#~ msgid "6.0 Beta 1"
-#~ msgstr "6.0 Beta 1"
-
-#~ msgid "6.0 Beta 2"
-#~ msgstr "6.0 Beta 2"
-
-#~ msgctxt "@label RC meaning Release Candidate"
-#~ msgid "6.0 RC1"
-#~ msgstr "6.0 RC1"
-
-#~ msgctxt "@label RC meaning Release Candidate"
-#~ msgid "6.0 RC2"
-#~ msgstr "6.0 RC2"
