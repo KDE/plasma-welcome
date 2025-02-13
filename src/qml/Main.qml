@@ -9,6 +9,7 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+import org.kde.config as KConfig
 import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome
@@ -20,6 +21,10 @@ Kirigami.ApplicationWindow {
     minimumHeight: Kirigami.Units.gridUnit * 30
     width: Kirigami.Units.gridUnit * 36
     height: Kirigami.Units.gridUnit * 32
+
+    KConfig.WindowStateSaver {
+        configGroupName: "MainWindow"
+    }
 
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
     pageStack.defaultColumnWidth: width
