@@ -17,10 +17,10 @@ import org.kde.plasma.welcome.private as Private
 Welcome.Page {
     id: root
 
-    readonly property alias application: application
-
     heading: i18nc("@title:window", "Manage Software")
-    description: xi18nc("@info:usagetip %1 is 'Discover', the name of KDE's software center app","The <application>%1</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app.", application.name)
+    description: xi18nc("@info:usagetip %1 is 'Discover', the name of KDE's software center app", "The <application>%1</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app.", application.name)
+
+    show: application.exists
 
     ColumnLayout {
         anchors.centerIn: parent
