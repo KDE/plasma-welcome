@@ -7,7 +7,6 @@
  */
 
 import QtQuick
-import QtNetwork
 
 import org.kde.config as KConfig
 import org.kde.kirigami as Kirigami
@@ -99,13 +98,22 @@ Kirigami.ApplicationWindow {
         }
     }
 
-    function _pushPage(component) {
-        if (component !== null) {
+    function _pushPage(object) {
+        if (object !== null) {
+
+            // Don't push any pages that don't want to be shown
+            if ("show" in object) {
+                if (!object.show) {
+                    object.destroy();
+                    return;
+                }
+            }
+
             if (pageStack.currentIndex === -1) {
-                pageStack.push(component);
+                pageStack.push(object);
             } else {
                 // Insert to avoid changing the current page
-                pageStack.insertPage(pageStack.depth, component);
+                pageStack.insertPage(pageStack.depth, object);
             }
         }
     }
@@ -125,25 +133,15 @@ Kirigami.ApplicationWindow {
             case Private.App.Welcome:
                 _pushPage(_createPage("Welcome.qml"));
 
-                if (NetworkInformation.reachability !== NetworkInformation.Reachability.Online || Private.Release.isDevelopment) {
-                    _pushPage(_createPage("Network.qml"));
-                }
+                _pushPage(_createPage("Network.qml"));
 
                 _pushPage(_createPage("SimpleByDefault.qml"));
                 _pushPage(_createPage("PowerfulWhenNeeded.qml"));
 
-                let discover = _createPage("Discover.qml");
-                if (discover.application?.exists ?? false) {
-                    _pushPage(discover);
-                } else {
-                    discover.destroy();
-                }
+                _pushPage(_createPage("Discover.qml"));
 
-                // KCMs
                 if (Private.App.mode !== Private.App.Live) {
-                    if (Private.App.userFeedbackAvailable) {
-                        _pushPage(_createPage("Feedback.qml"));
-                    }
+                    _pushPage(_createPage("Feedback.qml"));
                 }
 
                 // Append any distro-specific pages that were found

@@ -8,11 +8,15 @@
 import QtQuick
 
 import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
 Welcome.KCMPage {
     id: kcm_feedback
 
     heading: i18nc("@title: window", "Share Anonymous Usage Information")
     description: i18nc("@info:usagetip", "Our developers will use this anonymous data to improve KDE software. You can choose how much to share in System Settings, and here too.")
+
+    show: Private.App.userFeedbackAvailable
+
     path: "kcm_feedback"
 }

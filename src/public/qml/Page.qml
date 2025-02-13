@@ -17,6 +17,9 @@ Kirigami.Page {
     required property string heading
     required property string description
 
+    // This property can overridden to conditionally hide the page
+    property bool show: true
+
     property alias topContent: topContentLayout.children
 
     title: heading
