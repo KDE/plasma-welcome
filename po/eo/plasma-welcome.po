@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-07 00:44+0000\n"
-"PO-Revision-Date: 2025-01-01 09:06+0100\n"
+"PO-Revision-Date: 2025-02-13 22:57+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -170,12 +170,10 @@ msgid "&Next"
 msgstr "&Sekva"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Montri ĉi paĝon post kiam Plasma ĝisdatiĝis"
+msgstr "Montri post kiam Plasma ĝisdatiĝis"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -362,9 +360,7 @@ msgid "Sort: %1"
 msgstr ""
 
 #: src/qml/pages/enjoy/Supporters.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort Randomly"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
 msgstr "Ordigi Hazarde"
@@ -373,15 +369,13 @@ msgstr "Ordigi Hazarde"
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Familinomo"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort by Name"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "Ordigi laŭ Nomo"
+msgstr "Antaŭnomo"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
 #, kde-format
@@ -389,13 +383,13 @@ msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr ""
+msgstr "Dato de Kontribuo"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "Renversa"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -578,33 +572,31 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Elŝuti Antaŭrigardon"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Elŝuti Ĉiukaze"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Reprovi"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Malfermi Agordojn…"
+msgstr "Malfermi en Retumilo…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Ŝargi antaŭrigardon aŭtomate"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -618,7 +610,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Klaku por legi la anoncon</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -1195,62 +1187,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgctxt "@item:inlistbox"
-#~ msgid "Sort by Date"
-#~ msgstr "Ordigi laŭ Dato"
-
-#~ msgctxt "@label placeholder"
-#~ msgid "Filter…"
-#~ msgstr "Filtri…"
-
-#~ msgid ""
-#~ "Display release notes for the current Plasma release, for beta versions."
-#~ msgstr "Montri eldonnotojn por la aktuala Plasma eldono, por beta-versioj."
-
-#~ msgctxt "@label:URL"
-#~ msgid "<b>Find out what’s new</b>"
-#~ msgstr "<b>Eltrovi kio estas nova</b>"
-
-#~ msgctxt "@label:URL"
-#~ msgid "Help work on the next release"
-#~ msgstr "Helpi labori pri la sekva eldono"
-
-#~ msgctxt "@action:button"
-#~ msgid "<b>Find out what's new</b>"
-#~ msgstr "<b>Eltrovi kio estas nova</b>"
-
-#~ msgctxt "@action:button"
-#~ msgid "Help work on the next release"
-#~ msgstr "Helpi labori pri la sekva eldono"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The KDE community relies on donations of expertise and funds, and is "
-#~ "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support "
-#~ "the wider KDE community, and you can make a difference by donating today."
-#~ msgstr ""
-#~ "La KDE-komunumo fidas je donacoj de kompetenteco kaj financo, kaj estas "
-#~ "subtenata de KDE e.V.—germana neprofitocela. Donacoj al KDE e.V. subtenos "
-#~ "la pli larĝan KDE-komunumon, kaj vi povas fari diferencon donacante "
-#~ "hodiaŭ."
-
-#~ msgid "6.0 Dev"
-#~ msgstr "6.0 Dev"
-
-#~ msgid "6.0 Alpha"
-#~ msgstr "6.0 Alfa"
-
-#~ msgid "6.0 Beta 1"
-#~ msgstr "6.0 Beta 1"
-
-#~ msgid "6.0 Beta 2"
-#~ msgstr "6.0 Beta 2"
-
-#~ msgctxt "@label RC meaning Release Candidate"
-#~ msgid "6.0 RC1"
-#~ msgstr "6.0 RC1"
-
-#~ msgctxt "@label RC meaning Release Candidate"
-#~ msgid "6.0 RC2"
-#~ msgstr "6.0 RC2"

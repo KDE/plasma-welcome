@@ -3,13 +3,13 @@
 #
 # SPDX-FileCopyrightText: 2022, 2023, 2024 Alexander Yavorsky <kekcuha@gmail.com>
 # SPDX-FileCopyrightText: 2024 Olesya Gerasimenko <translation-team@basealt.ru>
-# Alexander Yavorsky <kekcuha@gmail.com>, 2023, 2024.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-07 00:44+0000\n"
-"PO-Revision-Date: 2024-11-17 17:16+0300\n"
+"PO-Revision-Date: 2025-02-13 12:35+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -178,12 +178,10 @@ msgid "&Next"
 msgstr "&Далее"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Открывать эту страницу после обновления Plasma"
+msgstr "Открывать после обновления Plasma"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -368,12 +366,10 @@ msgstr "Благодарим следующих людей за их регул�
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Сортировка: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort Randomly"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
 msgstr "Вразброс"
@@ -382,31 +378,27 @@ msgstr "Вразброс"
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Фамилия"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort by Name"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "Упорядочить по имени"
+msgstr "Имя"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Start Contributing!"
+#, kde-format
 msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "Хочу помочь"
+msgstr "Дата участия"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "В обратном порядке"
 
 #: src/qml/pages/Feedback.qml:15
 #, kde-format
@@ -565,7 +557,7 @@ msgstr "Сообщить об ошибке"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Скачать встроенный предварительный просмотр анонса выпуска?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -574,50 +566,50 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Предварительный просмотр не был загружен автоматически, так как используется "
+"тарифицируемое соединение."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Не удалось загрузить предварительный просмотр — ошибка сети (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "Не удалось загрузить предварительный просмотр — ошибка разбора данных."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Загрузить предварительный просмотр"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Загрузить в любом случае"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Повторить"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Настроить…"
+msgstr "Открыть в браузере…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Загружать предварительный просмотр автоматически"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -626,12 +618,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Предварительный просмотр будет загружаться автоматически при отображении "
+"этой страницы для будущих обновлений Plasma, за исключением случаев "
+"использования тарифицируемого сетевого соединения."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Нажмите, чтобы прочитать анонс</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
