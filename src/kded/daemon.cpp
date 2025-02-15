@@ -33,8 +33,11 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
             launch(QStringList{QStringLiteral("--post-update")});
         }
 
-        m_config.writeEntry("LastSeenVersion", m_currentVersion.toString());
-        m_config.config()->sync();
+        // Save current version unless development version
+        if (m_currentVersion.microVersion() != 80) {
+            m_config.writeEntry("LastSeenVersion", m_currentVersion.toString());
+            m_config.config()->sync();
+        }
     }
 }
 
