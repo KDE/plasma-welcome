@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2023, 2024 Kishore G <kishore96@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Kishore G <kishore96@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-20 00:42+0000\n"
-"PO-Revision-Date: 2024-10-27 15:09+0530\n"
+"PO-Revision-Date: 2025-02-16 17:01+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -225,48 +225,48 @@ msgstr "செயல்பாடுகள்"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "வீடு"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "பள்ளி"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "வேலை"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "இப்போது பயன்படுத்துவது"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "3 மணிநேரம் முன் பயன்படுத்தப்பட்டது"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "செயல்பாட்டை உருவாக்கு…"
 
 #: src/qml/mock/MockKRunner.qml:83
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "தேடு…"
 
 #: src/qml/mock/MockOverview.qml:99
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "பணிமேடை 1"
 
 #: src/qml/mock/MockPlasmoid.qml:153 src/qml/pages/SimpleByDefault.qml:205
 #, kde-format
@@ -293,11 +293,10 @@ msgid "Copy Details"
 msgstr "விவரங்களை நகலெடு"
 
 #: src/qml/PageError.qml:43
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "அமைப்புக்கூறை ஏற்ற முடியவில்லை"
+msgstr "இப்பக்கத்தை ஏற்ற முடியவில்லை"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
@@ -341,7 +340,7 @@ msgstr "%1 தனை டிஸ்கவரில் காட்டு"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "பயன்படுத்தி மகிழவும்!"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-kuit-format
@@ -351,6 +350,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"நாங்கள் உருவாக்கிய பிளாஸ்மாவை நீங்கள் பயன்படுத்தி மகிழ வேண்டுமென நாங்கள் ஆசைப்படுகிறோம். "
+"அதன் அம்சங்களைப் பற்றி கற்றுக்கொண்டு, உங்களுக்கு பிடித்த செயலிகளை நிறுவி, உங்கள் கணினியைப் "
+"பயன்படுத்தத் துவங்குங்கள்."
 
 #: src/qml/pages/Enjoy.qml:25
 #, kde-format
@@ -362,7 +364,7 @@ msgstr "கே.டீ.யீ. சமூகத்தை பற்றி மேல
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "உதவி கோருவதற்கான கே.டீ.யீ.யின் கலந்தாய்வு தளத்தைக் காட்டு"
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -372,6 +374,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"பிளாஸ்மா பயனுள்ளது என தோன்றினால், பங்களிக்கலாம் அல்லது நன்கொடை அளிக்கலாம். கே.டீ.யீ. ஓர் "
+"பெரிய நிறுவனம் அல்ல, தன்னார்வலர்களின் கூட்டமைப்பே; உங்கள் பங்களிப்பு மிகவும் உதவியானதாக "
+"இருக்கும்."
 
 #: src/qml/pages/Enjoy.qml:64 src/qml/pages/plasmaupdate/Update.qml:74
 #, kde-format
@@ -832,7 +837,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr "... என்று ஏராளமானவை!"
+msgstr "... போன்ற ஏராளமானவை!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:18
 #, kde-format
@@ -841,15 +846,7 @@ msgid "Overview"
 msgstr "மேலோட்டம்"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Overview is a full-screen overlay that shows all of your open windows, "
-#| "letting you easily access any of them. It also shows your current Virtual "
-#| "Desktops, allowing you to add more, remove some, and switch between them. "
-#| "Finally, it offers a KRunner-powered search field that can also filter "
-#| "through open windows.<nl/><nl/>You can access Overview using the "
-#| "<shortcut>Meta+W</shortcut> keyboard shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Overview is a full-screen overlay that shows all of your open windows, "
@@ -861,8 +858,7 @@ msgstr ""
 "திறந்துள்ள அனைத்து சாளரங்களையும் எளிதில் அணுகக்கூடிய வகையில் மேலோட்டம் அவற்றைக் காட்டும்.  "
 "மேலும், மெய்நிகர் பணிமேடைகளுக்கிடையே தாவவும், அவற்றை நீக்கவும் சேர்க்கவும் வசதியான "
 "முறையில் மெய்நிகர் பணிமேடைகளையும் காட்டும். திறந்துள்ள சாளரங்களை வடிகட்டி காட்ட உதவும் "
-"உரைப்பெட்டியையும் இது கொண்டிருக்கும்.<nl/><nl/><shortcut>Meta+W</shortcut> எனும் "
-"விசைச்சுருக்கவழியைக் கொண்டு மேலோட்டத்தை அணுகலாம்."
+"உரைப்பெட்டியையும் இது கொண்டிருக்கும்."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:43
 #, kde-kuit-format
@@ -900,16 +896,7 @@ msgid "Plasma Vaults"
 msgstr "பிளாஸ்மா வால்ட்டுகள்"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma Vaults allows you to create encrypted folders, called "
-#| "<interface>Vaults.</interface> Inside each Vault, you can securely store "
-#| "your passwords, files, pictures, and documents, safe from prying eyes. "
-#| "Vaults can live inside folders that are synced to cloud storage services "
-#| "too, providing extra privacy for that content.<nl/><nl/>To get started, "
-#| "click the arrow on the <interface>System Tray</interface> to show hidden "
-#| "items, and then click the <interface>Vaults</interface> icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma Vaults allows you to create encrypted folders, called "
@@ -921,15 +908,10 @@ msgstr ""
 "<interface>வால்ட்டு</interface> எனப்படும் மறையாக்கப்பட்ட அடைவுகளை உருவாக்க 'பிளாஸ்மா "
 "வால்ட்டுகள்' உதவும்.மற்றவர்களிடமிருந்து பாதுகாப்பாக வால்ட்டுகளில் கடவுச்சொற்கள், கோப்புகள், "
 "படங்கள், ஆவணங்கள் போன்றவற்றை சேமிக்கலாம். இணைய சேமிப்பக சேவைகளுடன் (எ.கா. "
-"டிராப்புபாக்சு) ஒத்திசைக்கப்பட்டுள்ள அடைவுகளிலும் வால்ட்டுகளை உருவாக்கலாம்.<nl/><nl/"
-">துவங்க, <interface>கணினித் தட்டில்</interface> மறைந்திருக்கும் உருப்படிகளைக் காட்டும் "
-"அம்புக்குறியை கிளிக் செய்து, <interface>வால்ட்டுகள்</interface> சின்னத்தை கிளிக் "
-"செய்யவும்."
+"டிராப்புபாக்சு) ஒத்திசைக்கப்பட்டுள்ள அடைவுகளிலும் வால்ட்டுகளை உருவாக்கலாம்."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "வால்ட்டுகள்"
@@ -938,18 +920,18 @@ msgstr "வால்ட்டுகள்"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "ரகசிய ஆவணங்கள்"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "என் படங்கள்"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:116
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "மறைநீக்கி திற"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:128
 #, kde-kuit-format
