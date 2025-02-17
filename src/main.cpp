@@ -84,6 +84,22 @@ int main(int argc, char *argv[])
 
     engine.rootContext()->setContextObject(new KLocalizedQmlContext(&engine));
 
+    // Make it single-instance so it raises e.g. when middle-clicking on taskmanager
+    // or accidentally launching it while it's already open
+    KDBusService service(KDBusService::Unique);
+    QObject::connect(&service, &KDBusService::activateRequested, &engine, [&engine](const QStringList & /*arguments*/, const QString & /*workingDirectory*/) {
+        const auto rootObjects = engine.rootObjects();
+        for (auto obj : rootObjects) {
+            auto view = qobject_cast<QQuickWindow *>(obj);
+            if (view) {
+                KWindowSystem::updateStartupId(view);
+                KWindowSystem::activateWindow(view);
+                return;
+            }
+        }
+    });
+
+    // Tell QML about requested mode/pages
     auto controller = engine.singletonInstance<Controller *>("org.kde.plasma.welcome", "Controller");
     if (parser.isSet(QStringLiteral("pages"))) {
         QStringList pages = parser.value(pagesOption).split(",");
@@ -112,21 +128,6 @@ int main(int argc, char *argv[])
     if (engine.rootObjects().isEmpty()) {
         return -1;
     }
-
-    // Make it single-instance so it raises e.g. when middle-clicking on taskmanager
-    // or accidentally launching it while it's already open
-    KDBusService service(KDBusService::Unique);
-    QObject::connect(&service, &KDBusService::activateRequested, &engine, [&engine](const QStringList & /*arguments*/, const QString & /*workingDirectory*/) {
-        const auto rootObjects = engine.rootObjects();
-        for (auto obj : rootObjects) {
-            auto view = qobject_cast<QQuickWindow *>(obj);
-            if (view) {
-                KWindowSystem::updateStartupId(view);
-                KWindowSystem::activateWindow(view);
-                return;
-            }
-        }
-    });
 
     return app.exec();
 }
