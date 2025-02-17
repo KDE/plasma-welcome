@@ -196,7 +196,7 @@ GenericPage {
                             id: indicatorArrowGlow
                             anchors.fill: indicatorArrow
 
-                            layer.enabled: true
+                            layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software
                             layer.effect: MultiEffect {
                                 autoPaddingEnabled: false
                                 paddingRect: Qt.rect(indicatorArrowContainer.glowPadding,

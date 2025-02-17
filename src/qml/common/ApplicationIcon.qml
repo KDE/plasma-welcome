@@ -39,7 +39,7 @@ ColumnLayout {
             text: i18nc("@action:button", "Launch %1 now", application.name ?? "")
         }
 
-        layer.enabled: true
+        layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software
         layer.effect: MultiEffect {
             autoPaddingEnabled: true
             shadowEnabled: true
