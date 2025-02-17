@@ -40,7 +40,7 @@ Item {
         width: (parent.width - Kirigami.Units.smallSpacing * 2) * (1 / scale)
         height: (parent.height - Kirigami.Units.smallSpacing * 2) * (1 / scale)
         scale: Math.max(0.5, Math.min(1, parent.width / (Kirigami.Units.gridUnit * 30), parent.height / (Kirigami.Units.gridUnit * 40)))
-        layer.enabled: true
+        layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software
         layer.smooth: true
 
         spacing: 0
@@ -65,7 +65,7 @@ Item {
                         source: root.wallpaper
                         mipmap: true
 
-                        layer.enabled: true
+                        layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software
                         // MultiEffect does not work for this, so using Qt5Compat.GraphicalEffects
                         layer.effect: OpacityMask {
                             maskSource: Rectangle {
@@ -142,7 +142,7 @@ Item {
                 width: Math.min(parent.width, parent.height * (sourceSize.width / sourceSize.height))
                 height: Math.min(parent.height, parent.width * (sourceSize.height / sourceSize.width))
 
-                visible: false
+                visible: GraphicsInfo.api === GraphicsInfo.Software
 
                 source: root.wallpaper
                 mipmap: true
@@ -150,6 +150,8 @@ Item {
 
             Kirigami.ShadowedTexture {
                 anchors.fill: desktop
+
+                visible: GraphicsInfo.api !== GraphicsInfo.Software
 
                 source: desktop
                 radius: Kirigami.Units.cornerRadius * 2

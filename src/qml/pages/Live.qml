@@ -40,7 +40,7 @@ Welcome.Page {
         width: Math.min(parent.height, Kirigami.Units.gridUnit * 16)
         height: width
 
-        layer.enabled: installerAvailable
+        layer.enabled: installerAvailable && GraphicsInfo.api !== GraphicsInfo.Software
         layer.effect: MultiEffect {
             blurEnabled: true
             blur: 1.0

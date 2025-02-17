@@ -43,7 +43,7 @@ Kirigami.AbstractCard {
         anchors.fill: parent
         anchors.margins: root.background.borderWidth
 
-        layer.enabled: true
+        layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software
         layer.effect: Kirigami.ShadowedTexture {
             radius: Kirigami.Units.cornerRadius - root.background.borderWidth
         }
@@ -66,7 +66,7 @@ Kirigami.AbstractCard {
             anchors.bottom: (root.backgroundAlignment & Qt.AlignBottom) ? parent.bottom : undefined
             anchors.verticalCenter: (root.backgroundAlignment & Qt.AlignVCenter) ? parent.verticalCenter : undefined
 
-            layer.enabled: true
+            layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software
             layer.effect: MultiEffect {
                 autoPaddingEnabled: false
                 blurEnabled: blurMax > 0
