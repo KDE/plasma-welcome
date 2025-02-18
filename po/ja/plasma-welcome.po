@@ -1,11 +1,11 @@
-# SPDX-FileCopyrightText: 2023, 2024 Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Ryuichi Yamada <ryuichi_ya220@outlook.jp>
 # Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-07 00:44+0000\n"
-"PO-Revision-Date: 2024-11-17 21:40+0900\n"
+"PO-Revision-Date: 2025-01-22 07:25+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -748,13 +748,7 @@ msgid "Open Settings…"
 msgstr "設定を開く..."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -763,7 +757,7 @@ msgid ""
 msgstr ""
 "<interface>システム設定</interface>を起動して、「アクティビティ」ページを検索"
 "してください。そのページでさらにアクティビティを作成できます。<shortcut>Meta"
-"+Tab</shortcut> でアクティビティを切り替えられます。"
+"+Q</shortcut> でアクティビティを切り替えられます。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -1191,61 +1185,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgctxt "@item:inlistbox"
-#~ msgid "Sort by Date"
-#~ msgstr "日付でソート"
-
-#~ msgctxt "@label placeholder"
-#~ msgid "Filter…"
-#~ msgstr "フィルタ…"
-
-#~ msgid ""
-#~ "Display release notes for the current Plasma release, for beta versions."
-#~ msgstr "現在のベータ版 Plasma リリースのリリースノートを表示します。"
-
-#~ msgctxt "@label:URL"
-#~ msgid "<b>Find out what’s new</b>"
-#~ msgstr "<b>新機能を確認する</b>"
-
-#~ msgctxt "@label:URL"
-#~ msgid "Help work on the next release"
-#~ msgstr "次のリリースのために支援する"
-
-#~ msgctxt "@action:button"
-#~ msgid "<b>Find out what's new</b>"
-#~ msgstr "<b>新機能を確認する</b>"
-
-#~ msgctxt "@action:button"
-#~ msgid "Help work on the next release"
-#~ msgstr "次のリリースのために支援する"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The KDE community relies on donations of expertise and funds, and is "
-#~ "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support "
-#~ "the wider KDE community, and you can make a difference by donating today."
-#~ msgstr ""
-#~ "KDE コミュニティは技術と資金の寄付に支えられており、ドイツの非営利団体 "
-#~ "KDE e.V. の支援を受けています。KDE e.V. への寄付は、さらなる KDE コミュニ"
-#~ "ティへの支援につながります。"
-
-#~ msgid "6.0 Dev"
-#~ msgstr "6.0 Dev"
-
-#~ msgid "6.0 Alpha"
-#~ msgstr "6.0 Alpha"
-
-#~ msgid "6.0 Beta 1"
-#~ msgstr "6.0 Beta 1"
-
-#~ msgid "6.0 Beta 2"
-#~ msgstr "6.0 Beta 2"
-
-#~ msgctxt "@label RC meaning Release Candidate"
-#~ msgid "6.0 RC1"
-#~ msgstr "6.0 RC1"
-
-#~ msgctxt "@label RC meaning Release Candidate"
-#~ msgid "6.0 RC2"
-#~ msgstr "6.0 RC2"
