@@ -80,6 +80,10 @@ Welcome.Page {
         }
     }
 
+    PlasmaNMLoader {
+        id: nmLoader
+    }
+
     Private.MockCard {
         id: mock
         anchors.fill: parent
@@ -156,8 +160,9 @@ Welcome.Page {
 
                     active: root.activeItem == mockTray
 
-                    Private.MockSystemTrayIcon { source: "klipper-symbolic" }
                     Private.MockSystemTrayIcon { source: "audio-volume-high-symbolic" }
+                    Private.MockSystemTrayIcon { source: "brightness-high-symbolic" }
+                    Private.MockSystemTrayIcon { source: nmLoader.icon }
                 }
 
                 HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
