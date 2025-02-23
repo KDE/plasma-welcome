@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-07 00:44+0000\n"
+"POT-Creation-Date: 2025-02-23 00:42+0000\n"
 "PO-Revision-Date: 2024-10-30 10:50+0100\n"
 "Last-Translator: rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -239,7 +239,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "Skrivebord 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:206
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -251,7 +251,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Fejl ved indlæsning af side"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:80
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -471,13 +471,13 @@ msgstr ""
 "<interface>netværks</interface>-ikonet i <interface>statusområdet</"
 "interface>, som findes i det nederste højre hjørne af din skærm."
 
-#: src/qml/pages/Network.qml:75
+#: src/qml/pages/Network.qml:37
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Netværksunderstøttelse til Plasma er ikke installere i øjeblikket"
 
-#: src/qml/pages/Network.qml:76
+#: src/qml/pages/Network.qml:38
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -487,19 +487,19 @@ msgstr ""
 "For at adminstrere netværksforbindelser, kræver Plasma, at <icode>plasma-nm</"
 "icode> er installeret. Rapportér venligst denne udeladelse til %1."
 
-#: src/qml/pages/Network.qml:245
+#: src/qml/pages/Network.qml:208
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Du er forbundet"
 
-#: src/qml/pages/Network.qml:246
+#: src/qml/pages/Network.qml:209
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Alt er klar til brug!"
 
-#: src/qml/pages/Network.qml:253
+#: src/qml/pages/Network.qml:216
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -511,7 +511,7 @@ msgstr ""
 "udviklingsversion. For manuelt at få vist sidens forskellige tilstande, kan "
 "du bruge knappen."
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -957,30 +957,30 @@ msgstr ""
 "synkroniseret med cloud-lagringstjenester og give mere privatliv til det "
 "indhold."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:93
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Sikkerhedsbokse"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:112
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "Vigtige dokumenter"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:109
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:113
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "Mine billeder"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:117
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:121
 #, kde-format
 msgid "Unlock and Open"
 msgstr "Lås op og åbn"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:129
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""

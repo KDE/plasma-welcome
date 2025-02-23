@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-07 00:44+0000\n"
+"POT-Creation-Date: 2025-02-23 00:42+0000\n"
 "PO-Revision-Date: 2025-02-08 01:05+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -240,7 +240,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "1 mahaigaina"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:206
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -252,7 +252,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Errorea orria zamatzean"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:80
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -470,13 +470,13 @@ msgstr ""
 "klik pantailaren beheko eskuineko ertzean dagoen <interface>Sistemaren "
 "erretiluko</interface> <interface>Sareak</interface> ikonoan."
 
-#: src/qml/pages/Network.qml:75
+#: src/qml/pages/Network.qml:37
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Plasmarako sarerako euskarria ez dago instalatuta"
 
-#: src/qml/pages/Network.qml:76
+#: src/qml/pages/Network.qml:38
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -486,19 +486,19 @@ msgstr ""
 "Sareko konexioak kudeatzeko, Plasmak <icode>plasma-nm</icode> instalatuta "
 "egotea behar du. Mesedez eman ez-egite honen berri %1(e)n."
 
-#: src/qml/pages/Network.qml:245
+#: src/qml/pages/Network.qml:208
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Konektatuta zaude"
 
-#: src/qml/pages/Network.qml:246
+#: src/qml/pages/Network.qml:209
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Dena prest!"
 
-#: src/qml/pages/Network.qml:253
+#: src/qml/pages/Network.qml:216
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -510,7 +510,7 @@ msgstr ""
 "erabiltzen ari zarelako. Botoia erabil dezakezu, orri-egoera ezberdinen "
 "aurreikuspegia eskuz ikuzteko."
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -959,30 +959,30 @@ msgstr ""
 "hodeietako zerbitzuetan sinkronizatzen diren karpeten barruan ere egon "
 "daitezke."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:93
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Kutxa-gotorrak"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:112
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "Dokumentu garrantzitsuak"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:109
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:113
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "Nire argazkiak"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:117
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:121
 #, kde-format
 msgid "Unlock and Open"
 msgstr "Giltzatik askatu eta ireki"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:129
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""

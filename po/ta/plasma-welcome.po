@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-07 00:44+0000\n"
+"POT-Creation-Date: 2025-02-23 00:42+0000\n"
 "PO-Revision-Date: 2025-02-16 17:01+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -235,7 +235,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "பணிமேடை 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:206
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -247,7 +247,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "பக்கத்தை ஏற்றுவதில் சிக்கல்"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:80
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -462,13 +462,13 @@ msgstr ""
 "interface> <interface>பிணையங்கள்</interface> எனும் சின்னத்தைக் கிளிக் செய்யுங்கள். "
 "இயல்பாக, இது திரையின் வலது-கீழ் ஓரத்தில் அமைந்திருக்கும்."
 
-#: src/qml/pages/Network.qml:75
+#: src/qml/pages/Network.qml:37
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "பிளாஸ்மாக்கான பிணைய ஆதரவு நிறுவப்படவில்லை"
 
-#: src/qml/pages/Network.qml:76
+#: src/qml/pages/Network.qml:38
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -478,19 +478,19 @@ msgstr ""
 "பிணைய இணைப்புகளை பிளாஸ்மா நிர்வகிக்க, <icode>plasma-nm</icode> நிறுவப்பட்டிருக்க "
 "வெண்டும். இந்த சிக்கலை %1-க்கு தெரிவிக்கவும்."
 
-#: src/qml/pages/Network.qml:245
+#: src/qml/pages/Network.qml:208
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "இணைந்துள்ளீர்"
 
-#: src/qml/pages/Network.qml:246
+#: src/qml/pages/Network.qml:209
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "சரியாக உள்ளது!"
 
-#: src/qml/pages/Network.qml:253
+#: src/qml/pages/Network.qml:216
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -501,7 +501,7 @@ msgstr ""
 "நீங்கள் நிரலாக்கப் பதிப்பைப் பயன்படுத்துவதால் இப்பக்கம் எப்போதும் காட்டப்படும் (பிணைய நிலையைப் "
 "பொருட்படுத்தாமல்). இப்பக்கத்தின் வெவ்வேறு நிலைகளின் முன்னோட்டங்காண, பட்டனைப் பயன்படுத்தலாம்"
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -902,30 +902,30 @@ msgstr ""
 "படங்கள், ஆவணங்கள் போன்றவற்றை சேமிக்கலாம். இணைய சேமிப்பக சேவைகளுடன் (எ.கா. "
 "டிராப்புபாக்சு) ஒத்திசைக்கப்பட்டுள்ள அடைவுகளிலும் வால்ட்டுகளை உருவாக்கலாம்."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:93
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "வால்ட்டுகள்"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:112
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "ரகசிய ஆவணங்கள்"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:109
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:113
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "என் படங்கள்"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:117
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:121
 #, kde-format
 msgid "Unlock and Open"
 msgstr "மறைநீக்கி திற"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:129
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""

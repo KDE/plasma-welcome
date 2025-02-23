@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-07 00:44+0000\n"
+"POT-Creation-Date: 2025-02-23 00:42+0000\n"
 "PO-Revision-Date: 2025-02-14 17:43+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -236,7 +236,7 @@ msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "1. darbvirsma"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:206
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -248,7 +248,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Kļūda, ielādējot lapu"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:80
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -463,13 +463,13 @@ msgstr ""
 "<interface>Tīklu</interface> ikonas <interface>sistēmas ikonu joslā</"
 "interface>, kas parasti ir redzama ekrāna apakšējā labajā stūrī."
 
-#: src/qml/pages/Network.qml:75
+#: src/qml/pages/Network.qml:37
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Nav instalēts „Plasma“ tīkla atbalsts"
 
-#: src/qml/pages/Network.qml:76
+#: src/qml/pages/Network.qml:38
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -480,19 +480,19 @@ msgstr ""
 "<icode>plasma-nm</icode>. Par šīs pakotnes iztrūkumu informējiet „%1“ "
 "veidotājus."
 
-#: src/qml/pages/Network.qml:245
+#: src/qml/pages/Network.qml:208
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Savienojāties"
 
-#: src/qml/pages/Network.qml:246
+#: src/qml/pages/Network.qml:209
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Viss ir gatavs!"
 
-#: src/qml/pages/Network.qml:253
+#: src/qml/pages/Network.qml:216
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -504,7 +504,7 @@ msgstr ""
 "izstrādātājiem. Lai manuāli pārskatītu dažādus lapas stāvokļus, izmantojiet "
 "pogu."
 
-#: src/qml/pages/Network.qml:258
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -946,30 +946,30 @@ msgstr ""
 "sinhronizētas ar mākoņpakalpojumu sniedzējiem, tādējādi saturam nodrošinot "
 "papildu privātuma līmeni."
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:93
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Seifi"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:108
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:112
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
 msgstr "Svarīgi dokumenti"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:109
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:113
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
 msgstr "Manas fotogrāfijas"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:117
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:121
 #, kde-format
 msgid "Unlock and Open"
 msgstr "Atslēgt un atvērt"
 
-#: src/qml/pages/powerfulwhenneeded/Vaults.qml:129
+#: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
