@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-23 00:42+0000\n"
-"PO-Revision-Date: 2025-02-13 22:57+0100\n"
+"PO-Revision-Date: 2025-02-23 13:36+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -357,7 +357,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Ordigi: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
 #, kde-format
@@ -546,7 +546,7 @@ msgstr "Raporti cimon"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Ĉu elŝuti enkonstruitan antaŭrigardon de la eldon-anonco?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -555,18 +555,20 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"La antaŭrigardo ne estis aŭtomate elŝutita ĉar vi estas uzanta metritan "
+"retkonekton."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Ne eblis elŝuti la antaŭrigardon — reta eraro okazis (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "Ne eblis ŝargi la antaŭrigardon — analiza eraro okazis."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
@@ -605,6 +607,8 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"La antaŭrigardo estos ŝargata aŭtomate kiam ĉi paĝo estos montrata por "
+"estontaj Plasma-ĝisdatigoj, escepte de kiam metrita retkonekto estas uzata."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
