@@ -222,7 +222,7 @@ Welcome.Page {
             height: explanatoryShadow.height
 
             layer.enabled: true
-            opacity: (root.activeItem == null || mockPanel.overflowing) ? 0 : 1
+            opacity: (explanatoryLabel.length === 0 || mockPanel.overflowing) ? 0 : 1
             visible: opacity > 0
 
             Behavior on opacity {
@@ -281,6 +281,7 @@ Welcome.Page {
                     anchors.left: parent.left
                     anchors.top: parent.top
                     anchors.right: parent.right
+                    text: i18nc("@info", "Interact with the components below to see what they mean!");
 
                     wrapMode: Text.Wrap
 
