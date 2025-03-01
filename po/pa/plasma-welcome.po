@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2022, 2023, 2024 A S Alam <aalam@satluj.org>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 A S Alam <aalam@satluj.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-23 00:42+0000\n"
-"PO-Revision-Date: 2024-10-25 23:43-0500\n"
+"PO-Revision-Date: 2025-02-28 09:43-0600\n"
 "Last-Translator: A S Alam <aman@punlinux.org>\n"
 "Language-Team: pa\n"
 "Language: pa\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -61,7 +61,7 @@ msgstr "ਲੇਖਕ"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
-msgstr ""
+msgstr "ਨਾਟ ਗਰਾਹਮ"
 
 #: src/main.cpp:65
 #, kde-format
@@ -168,12 +168,10 @@ msgid "&Next"
 msgstr "ਅੱਗੇ(&N)"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "ਪਲਾਜ਼ਮਾ ਅੱਪਡੇਟ ਹੋਣ ਦੇ ਬਾਅਦ ਇਹ ਸਫ਼ਾ ਵੇਖਾਓ"
+msgstr "ਪਲਾਜ਼ਮਾ ਅੱਪਡੇਟ ਹੋਣ ਦੇ ਬਾਅਦ ਵੇਖਾਓ"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -352,39 +350,33 @@ msgstr "ਅਸੀਂ ਪਲਾਜ਼ਮਾ 6 ਉਗਹਾਰੀ ਮੁਹਿੰਮ 
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "ਲੜੀਬੱਧ: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort Randomly"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr "ਰਲਵੇਂ ਤੌਰ ਉੱਤੇ ਲੜੀਬੱਧ"
+msgstr "ਰਲਵਾਂ"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "ਆਖਰੀ ਨਾਂ"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort by Name"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "ਨਾਂ ਨਾਲ ਲੜੀਬੱਧ"
+msgstr "ਪਹਿਲਾਂ ਨਾਂ"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Start Contributing!"
+#, kde-format
 msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "ਯੋਗਦਾਨ ਪਾਓ!"
+msgstr "ਯੋਗਦਾਨ ਤਾਰੀਖ"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
@@ -565,33 +557,31 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "ਝਲਕ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "ਕਿਵੇਂ ਵੀ ਡਾਊਨਲੋਡ ਕਰੋ"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "ਮੁੜ-ਕੋਸ਼ਿਸ਼"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "…ਸੈਟਿੰਗਾਂ ਨੂੰ ਖੋਲ੍ਹੋ"
+msgstr "…ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "ਝਲਕ ਨੂੰ ਆਪਣੇ-ਆਪ ਲੋਡ ਕਰੋ"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -605,7 +595,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>ਐਲਾਨ ਪੜ੍ਹਨ ਲਈ ਕਲਿੱਕ ਕਰੋ</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
