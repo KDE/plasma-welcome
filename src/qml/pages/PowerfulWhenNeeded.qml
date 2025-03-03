@@ -22,7 +22,7 @@ Welcome.Page {
 
         spacing: Kirigami.Units.largeSpacing
 
-        GridLayout {
+        Kirigami.CardsLayout {
             id: grid
 
             readonly property int columnsforHorizontalLayout: 3
