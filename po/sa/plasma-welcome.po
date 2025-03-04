@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-23 00:42+0000\n"
+"POT-Creation-Date: 2025-03-04 00:42+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -283,21 +283,20 @@ msgstr "Welcome Center द्वारा प्रदत्तं पृष्�
 #: src/qml/pages/Discover.qml:22
 #, kde-format
 msgctxt "@title:window"
-msgid "Manage Software"
-msgstr "तन्त्रांश प्रबन्धयतु"
+msgid "Find Great Apps"
+msgstr ""
 
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
 msgctxt ""
-"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
+"@info:usagetip %1 is 'Discover', the name of KDE's software center app, and "
+"%2 is the distro name."
 msgid ""
-"The <application>%1</application> app helps you find and install "
-"applications, games, and tools. You can search or browse by category, look "
-"at screenshots, and read reviews to help you find the perfect app."
+"There’s no need to search the web to download app installers or use a "
+"command-line package manager; KDE’s app store <application>%1</application> "
+"does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
+"try!"
 msgstr ""
-"<application>%1</application> अनुप्रयोगः भवन्तं अनुप्रयोगाः, क्रीडाः, साधनानि च "
-"अन्वेष्टुं संस्थापयितुं च सहायं करोति । भवान् श्रेणीनुसारं अन्वेष्टुं वा गवेषयतुं कर्तुं वा, स्क्रीनशॉट् "
-"अवलोकयितुं, समीक्षां पठितुं च शक्नोति यत् भवान् सम्यक् अनुप्रयोगं अन्वेष्टुं साहाय्यं कर्तुं शक्नोति।."
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -1182,6 +1181,22 @@ msgstr "%1 बीटा"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 बीटा %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "Manage Software"
+#~ msgstr "तन्त्रांश प्रबन्धयतु"
+
+#~ msgctxt ""
+#~ "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
+#~ msgid ""
+#~ "The <application>%1</application> app helps you find and install "
+#~ "applications, games, and tools. You can search or browse by category, "
+#~ "look at screenshots, and read reviews to help you find the perfect app."
+#~ msgstr ""
+#~ "<application>%1</application> अनुप्रयोगः भवन्तं अनुप्रयोगाः, क्रीडाः, साधनानि च "
+#~ "अन्वेष्टुं संस्थापयितुं च सहायं करोति । भवान् श्रेणीनुसारं अन्वेष्टुं वा गवेषयतुं कर्तुं वा, "
+#~ "स्क्रीनशॉट् अवलोकयितुं, समीक्षां पठितुं च शक्नोति यत् भवान् सम्यक् अनुप्रयोगं अन्वेष्टुं साहाय्यं "
+#~ "कर्तुं शक्नोति।."
 
 #~ msgctxt "@item:inlistbox"
 #~ msgid "Sort by Date"

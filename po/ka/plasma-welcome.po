@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-23 00:42+0000\n"
+"POT-Creation-Date: 2025-03-04 00:42+0000\n"
 "PO-Revision-Date: 2025-02-08 04:04+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -281,22 +281,20 @@ msgstr "მისალმების ცენტრის მიერ მო
 #: src/qml/pages/Discover.qml:22
 #, kde-format
 msgctxt "@title:window"
-msgid "Manage Software"
-msgstr "პროგრამების მართვა"
+msgid "Find Great Apps"
+msgstr ""
 
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
 msgctxt ""
-"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
+"@info:usagetip %1 is 'Discover', the name of KDE's software center app, and "
+"%2 is the distro name."
 msgid ""
-"The <application>%1</application> app helps you find and install "
-"applications, games, and tools. You can search or browse by category, look "
-"at screenshots, and read reviews to help you find the perfect app."
+"There’s no need to search the web to download app installers or use a "
+"command-line package manager; KDE’s app store <application>%1</application> "
+"does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
+"try!"
 msgstr ""
-"აპი <application>%1</application> დაგეხმარებათ იპოვოთ და დააყენოთ "
-"აპლიკაციები, თამაშები და პროგრამები. ისინი შეგიძლიათ მოძებნოთ ან "
-"დაათვალიეროთ კატეგორიების მიხედვით, გადახედოთ ეკრანის ანაბეჭდებს და "
-"წაიკითხოთ კომენტარები, რათა თქვენთვის სასურველი პროგრამა იპოვოთ."
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -1196,6 +1194,22 @@ msgstr "%1 ბეტა"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 ბეტა %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "Manage Software"
+#~ msgstr "პროგრამების მართვა"
+
+#~ msgctxt ""
+#~ "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
+#~ msgid ""
+#~ "The <application>%1</application> app helps you find and install "
+#~ "applications, games, and tools. You can search or browse by category, "
+#~ "look at screenshots, and read reviews to help you find the perfect app."
+#~ msgstr ""
+#~ "აპი <application>%1</application> დაგეხმარებათ იპოვოთ და დააყენოთ "
+#~ "აპლიკაციები, თამაშები და პროგრამები. ისინი შეგიძლიათ მოძებნოთ ან "
+#~ "დაათვალიეროთ კატეგორიების მიხედვით, გადახედოთ ეკრანის ანაბეჭდებს და "
+#~ "წაიკითხოთ კომენტარები, რათა თქვენთვის სასურველი პროგრამა იპოვოთ."
 
 #~ msgctxt "@item:inlistbox"
 #~ msgid "Sort by Date"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-23 00:42+0000\n"
+"POT-Creation-Date: 2025-03-04 00:42+0000\n"
 "PO-Revision-Date: 2024-06-07 18:13+0400\n"
 "Last-Translator: Kheyyam Godjayev <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -281,22 +281,20 @@ msgstr "Salamlama mərkəzinin təqdim etdiyi bu səhifəni yükləmək mümkün
 #: src/qml/pages/Discover.qml:22
 #, kde-format
 msgctxt "@title:window"
-msgid "Manage Software"
-msgstr "Proqram təminatını idarə etmək"
+msgid "Find Great Apps"
+msgstr ""
 
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
 msgctxt ""
-"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
+"@info:usagetip %1 is 'Discover', the name of KDE's software center app, and "
+"%2 is the distro name."
 msgid ""
-"The <application>%1</application> app helps you find and install "
-"applications, games, and tools. You can search or browse by category, look "
-"at screenshots, and read reviews to help you find the perfect app."
+"There’s no need to search the web to download app installers or use a "
+"command-line package manager; KDE’s app store <application>%1</application> "
+"does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
+"try!"
 msgstr ""
-"<application>%1</application> tətbiqi sizə tətbiqləri, oyunları və s. "
-"proqramları quraşdırmağa kömək edir. Daha yaxşı tətbiqi tapmaq üçün "
-"kateqoriyalar üzrə axtara, ekran şəkillərinə baxa və şərhləri oxuya "
-"bilərsiniz."
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -1075,6 +1073,22 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "Manage Software"
+#~ msgstr "Proqram təminatını idarə etmək"
+
+#~ msgctxt ""
+#~ "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
+#~ msgid ""
+#~ "The <application>%1</application> app helps you find and install "
+#~ "applications, games, and tools. You can search or browse by category, "
+#~ "look at screenshots, and read reviews to help you find the perfect app."
+#~ msgstr ""
+#~ "<application>%1</application> tətbiqi sizə tətbiqləri, oyunları və s. "
+#~ "proqramları quraşdırmağa kömək edir. Daha yaxşı tətbiqi tapmaq üçün "
+#~ "kateqoriyalar üzrə axtara, ekran şəkillərinə baxa və şərhləri oxuya "
+#~ "bilərsiniz."
 
 #~ msgid ""
 #~ "Display release notes for the current Plasma release, for beta versions."
