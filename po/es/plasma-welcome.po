@@ -1,5 +1,5 @@
 # Spanish translations for plasma-welcome.po package.
-# Copyright (C) 2022 This file is copyright:
+# Copyright (C) 2022-2025 This file is copyright:
 # This file is distributed under the same license as the welcome-app package.
 #
 # Automatically generated, 2022.
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 00:42+0000\n"
-"PO-Revision-Date: 2025-02-08 00:08+0100\n"
+"PO-Revision-Date: 2025-03-04 17:48+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -227,12 +227,12 @@ msgstr "Usada hace 3 horas"
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr "Crear actividad..."
+msgstr "Crear actividad…"
 
 #: src/qml/mock/MockKRunner.qml:81
 #, kde-format
 msgid "Search…"
-msgstr "Buscar..."
+msgstr "Buscar…"
 
 #: src/qml/mock/MockOverview.qml:98
 #, kde-format
@@ -256,7 +256,7 @@ msgstr "Ha ocurrido un error al cargar la página"
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Informar de fallo..."
+msgstr "Informar de fallo…"
 
 #: src/qml/PageError.qml:33
 #, kde-format
@@ -287,7 +287,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Encuentre fabulosas aplicaciones"
 
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
@@ -300,6 +300,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"No hay necesidad de buscar en la web para descargar instaladores de "
+"aplicaciones ni de usar un gestor de paquetes en la consola: <application>"
+"%1</application>, la tienda de aplicaciones de KDE se encarga de todo.<nl/"
+"><nl/>Pulse uno de los iconos siguientes para probarla."
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -604,7 +608,7 @@ msgstr "Volver a intentar"
 #, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Abrir en el navegador..."
+msgstr "Abrir en el navegador…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
@@ -755,7 +759,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Abrir las preferencias..."
+msgstr "Abrir las preferencias…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
 #, kde-kuit-format
@@ -795,7 +799,7 @@ msgstr ""
 "item><item>Sincronice el contenido del portapapeles entre su equipo y su "
 "teléfono.</item><item>Haga que su teléfono suene cuando lo haya extraviado.</"
 "item><item>Copie imágenes, vídeos y otros archivos de su teléfono a su "
-"equipo y viceversa.</item><item>... ¡Y mucho más!</item></list><nl/>Para "
+"equipo y viceversa.</item><item>… ¡Y mucho más!</item></list><nl/>Para "
 "empezar, lance las <interface>Preferencias del sistema</interface> y busque "
 "«KDE Connect». En esa página podrá vincular su teléfono."
 
@@ -877,7 +881,7 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr "... ¡y mucho más!"
+msgstr "… ¡y mucho más!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
@@ -935,7 +939,7 @@ msgstr ""
 "sistema para que se ajuste a sus gustos y preferencias. Las aplicaciones "
 "predeterminadas, los fondos de pantalla, los estilos visuales y los iconos, "
 "los escritorios virtuales, la gestión de energía, los complementos de "
-"terceras partes... Aquí encontrará todo eso."
+"terceras partes… Aquí encontrará todo eso."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
@@ -1030,7 +1034,7 @@ msgstr ""
 "Este es el «Escritorio». Muestra los archivos y las carpetas que contiene la "
 "carpeta <filename>Escritorio</filename> y puede contener elementos gráficos. "
 "Pulse con el botón derecho sobre él y elija <interface>Escritorio e imagen "
-"del fondo...</interface> para configurar el aspecto del escritorio. También "
+"del fondo…</interface> para configurar el aspecto del escritorio. También "
 "puede escoger <interface>Entrar en el modo de edición</interface> para "
 "añadir, eliminar o modificar elementos gráficos."
 

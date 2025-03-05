@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 00:42+0000\n"
-"PO-Revision-Date: 2025-02-07 09:42+0100\n"
+"PO-Revision-Date: 2025-03-04 10:08+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -290,7 +290,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Trobeu aplicacions genials"
 
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
@@ -303,6 +303,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"No hi ha necessitat de cercar a la web per a baixar instal·ladors "
+"d'aplicacions o utilitzar un gestor de paquets de la línia d'ordres; la "
+"botiga d'aplicacions de KDE <application>%1</application> us ho fa tot!<nl/"
+"><nl/>Feu clic a qualsevol de les icones següents per a provar-ho!"
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -1213,19 +1217,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgctxt "@title:window"
-#~ msgid "Manage Software"
-#~ msgstr "Gestió del programari"
-
-#~ msgctxt ""
-#~ "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
-#~ msgid ""
-#~ "The <application>%1</application> app helps you find and install "
-#~ "applications, games, and tools. You can search or browse by category, "
-#~ "look at screenshots, and read reviews to help you find the perfect app."
-#~ msgstr ""
-#~ "L'aplicació <application>%1</application> ajuda a instal·lar aplicacions, "
-#~ "jocs i eines. Podeu cercar o explorar per categoria, veure les captures "
-#~ "de pantalla, i llegir les ressenyes com a ajuda per a trobar l'aplicació "
-#~ "perfecta."

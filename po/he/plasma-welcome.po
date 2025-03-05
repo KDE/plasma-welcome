@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 00:42+0000\n"
-"PO-Revision-Date: 2025-02-07 09:41+0200\n"
+"PO-Revision-Date: 2025-03-04 08:04+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 24.12.2\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 
@@ -281,7 +281,7 @@ msgstr "טעינת העמוד הזה סופק על ידי מרכז קבלת הפ
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "מציאת יישומים מצוינים"
 
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
@@ -294,6 +294,9 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"לא צריך לחפש באינטרנט כדי להוריד תוכניות התקנה של יישומים או להשתמש במנהל "
+"חבילות משורת הפקודות, חנות היישומים של KDE <application>%1</application> כבר "
+"עושה את זה עבורך!<nl/><nl/>לחיצה על כל אחד מהסמלים שלהלן תאפשר לך להתנסות!"
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
