@@ -280,7 +280,7 @@ msgstr "无法加载此页面 (由欢迎中心提供)"
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "发现优秀的应用程序"
 
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
@@ -293,6 +293,9 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"无需搜索互联网以下载应用的安装包，也无需使用命令行软件包管理器；KDE 的应用商"
+"店程序 <application>%1</application> 能够帮您完成这些工作。<nl/><nl/>点击下面"
+"的任意图标即可试用。"
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -524,8 +527,8 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"为了完成这一版本的 Plasma，KDE 的贡献者们已经努力工作了四个月。虽然劳累，但我"
-"们也很享受这一过程。希望新版的 Plasma 能为您带来愉悦的使用体验！"
+"KDE 贡献者们在过去四个月里为这一版本的 Plasma 付出了辛勤的努力。尽管劳累，但"
+"我们也很享受这一过程。希望新版的 Plasma 能为您带来愉悦的使用体验！"
 
 #: src/qml/pages/PlasmaUpdate.qml:29
 #, kde-format
@@ -1089,10 +1092,10 @@ msgid ""
 "done. We hope you love it!"
 msgstr ""
 "欢迎使用 %1 操作系统。此系统正在运行 KDE Plasma 桌面环境。<nl/><nl/>Plasma "
-"(等离子) 是一款由 KDE 出品的自由开源的桌面环境。KDE 是一个由志愿者组成的国际"
-"性软件社区。Plasma 的默认状态简洁直观，无需繁琐的配置即可流畅使用。它还提供了"
-"全面的功能和丰富的自定义选项，让您可以按照自己的想法高效工作。我们祝您获得良"
-"好的使用体验！"
+"(中文含义：等离子体) 是一款由 KDE 出品的自由开源的桌面环境。KDE 是一个由志愿"
+"者组成的国际性软件社区。Plasma 的默认状态简洁直观，无需繁琐的配置即可流畅使"
+"用。它还提供了全面的功能和丰富的自定义选项，让您可以按照自己的想法高效工作。"
+"我们祝您获得良好的使用体验！"
 
 #: src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1159,18 +1162,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgctxt "@title:window"
-#~ msgid "Manage Software"
-#~ msgstr "管理软件"
-
-#~ msgctxt ""
-#~ "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
-#~ msgid ""
-#~ "The <application>%1</application> app helps you find and install "
-#~ "applications, games, and tools. You can search or browse by category, "
-#~ "look at screenshots, and read reviews to help you find the perfect app."
-#~ msgstr ""
-#~ "<application>%1</application> 应用能帮助您查找并安装所需的应用程序、游戏和"
-#~ "实用工具。您可以通过关键词查找程序，也可以按分类浏览程序。您还可以查看屏幕"
-#~ "截图，阅读用户评价，找到最适合自己的应用程序。"
