@@ -37,7 +37,7 @@ Welcome.Page {
                 explanatoryLabel.text = xi18nc("@info", "This is a “Panel” — a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets.");
                 break;
             case mockKickoff:
-                explanatoryLabel.text = i18nc("@info", "This is the “Kickoff” widget, a multipurpose launcher. Here you can launch apps, shut down or restart the system, access recent files, and more. Click on it to get started!");
+                explanatoryLabel.text = i18nc("@info", "This is the “Application Launcher” widget, a multipurpose launcher. Here you can launch apps, shut down or restart the system, access recent files, and more. Click on it to get started!");
                 break;
             case mockTaskManager:
                 explanatoryLabel.text = i18nc("@info", "This is the “Task Manager” widget, where you can switch between open apps and also launch new ones. Drag app icons to re-arrange them.");
