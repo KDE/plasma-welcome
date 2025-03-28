@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-24 00:43+0000\n"
-"PO-Revision-Date: 2025-02-08 01:05+0100\n"
+"PO-Revision-Date: 2025-03-27 20:39+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -286,7 +286,7 @@ msgstr "Ongietorri Guneak hornitutako orri hori ezin izan du zamatu"
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Aplikazio apartak aurkitu"
 
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
@@ -299,6 +299,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"Aplikazio instalatzaileak aurkitzeko ez dago amaraunean bila ibili beharrik, "
+"ezta komando-lerroko pakete kudeatzaile bat erabili beharrik ere; KDEren "
+"<application>%1</application> aplikazio biltegiak hori guztia zuretzako "
+"egiten du!<nl/><nl/>Egin klik beheko ikonoetako edozeinetan proba egiteko!"
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -1044,21 +1048,17 @@ msgstr ""
 "eta trepetak gehitu, kendu eta aldatzeko."
 
 #: src/qml/pages/SimpleByDefault.qml:40
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “Kickoff” widget, a multipurpose launcher. Here you can "
-#| "launch apps, shut down or restart the system, access recent files, and "
-#| "more. Click on it to get started!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “Application Launcher” widget, a multipurpose launcher. Here you "
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Hau “Kickoff” trepeta da, helburu-anizkoitzeko abiarazle bat. Aplikazioak "
-"abiarazi, sistema itzali edo berrabiarazi, azken aldiko fitxategietara "
-"sartu, eta gehiago egin dezakezu hor. Egin klik bere gainean hasteko!"
+"Hau “Aplikazio abiarazlea” trepeta da, helburu-anizkoitzeko abiarazle bat. "
+"Aplikazioak abiarazi, sistema itzali edo berrabiarazi, azken aldiko "
+"fitxategietara sartu, eta gehiago egin dezakezu hor. Egin klik bere gainean "
+"hasteko!"
 
 #: src/qml/pages/SimpleByDefault.qml:43
 #, kde-format
