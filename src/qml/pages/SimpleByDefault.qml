@@ -6,7 +6,9 @@
  */
 
 import QtQuick
+import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+import QtQuick.Effects
 
 import org.kde.kirigami as Kirigami
 import org.kde.ksvg as KSvg
@@ -20,65 +22,196 @@ Welcome.Page {
     id: root
 
     heading: i18nc("@info:window", "Simple by Default")
-    description: xi18nc("@info:usagetip", "Plasma is designed to be simple and usable out of the box. Things are where you would expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/><nl/>Below is a visual representation of a typical Plasma Desktop; move the pointer over or click on something to learn about it!")
+    description: xi18nc("@info:usagetip", "Plasma is designed to be simple and usable out of the box. Things are where you would expect, and there is generally no need to configure anything before you can be comfortable and productive.")
 
-    property var activeItem: null
+    // Internal navigation
+    readonly property bool canDoSlideshow: !mockPanel.overflowing
+    readonly property int slideshowCount: 8
+    property int slideshowIndex: 0
 
-    // NOTE: Without setting accepted devices, a unhover event is sent on tap with a touchscreen, breaking the interaction.
-    // This is set for all HoverHandlers.
-    property var hoverHandlerAcceptedDevices: PointerDevice.Mouse | PointerDevice.TouchPad | PointerDevice.Stylus
+    // Override external navigation for slideshow
+    overrideBack: slideshowIndex != 0 && canDoSlideshow
+    overrideForward: slideshowIndex != (slideshowCount - 1) && canDoSlideshow
 
-    onActiveItemChanged: {
-        switch (activeItem) {
-            case mock:
-                explanatoryLabel.text = xi18nc("@info", "This is the “Desktop”. It shows files and folders that are contained in your <filename>Desktop</filename> folder, and can hold widgets. Right-click on it and choose <interface>Desktop and Wallpaper…</interface> to configure the appearance of the desktop. You can also choose <interface>Enter Edit Mode</interface> to add, remove or modify widgets.")
-                break;
-            case mockPanel:
-                explanatoryLabel.text = xi18nc("@info", "This is a “Panel” — a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets.");
-                break;
-            case mockKickoff:
-                explanatoryLabel.text = i18nc("@info", "This is the “Kickoff” widget, a multipurpose launcher. Here you can launch apps, shut down or restart the system, access recent files, and more. Click on it to get started!");
-                break;
-            case mockTaskManager:
-                explanatoryLabel.text = i18nc("@info", "This is the “Task Manager” widget, where you can switch between open apps and also launch new ones. Drag app icons to re-arrange them.");
-                break;
-            case mockTray:
-                explanatoryLabel.text = i18nc("@info", "This is the “System Tray” widget, which lets you control system functions like changing the volume and connecting to networks. Items will become visible here only when relevant. To see all available items, click the ⌃ arrow next to the clock.");
-                break;
-            case mockClock:
-                explanatoryLabel.text = i18nc("@info", "This is the “Digital Clock” widget. Click on it to show a calendar. It can be also configured to show other timezones and events from your digital calendars.");
-                break;
-            case mockShowDesktop:
-                explanatoryLabel.text = i18nc("@info", "This is the “Peek at Desktop” widget. Click on it to temporarily hide all open windows so you can access the desktop. Click on it again to bring them back.");
-                break;
-            case null:
-            default:
-                // We don't set the text to empty so that the explanation doesn't change height whilst animating away.
-                break;
+    function back() {
+        slideshowIndex -= 1;
+    }
+
+    function forward() {
+        slideshowIndex += 1;
+    }
+
+    // Update internal navigation based on external navigation
+    // i.e. if a user skips to before the slideshow, they'll expect to see the start of it
+    Connections {
+        target: pageStack
+        function onCurrentItemChanged() {
+            let pageIndex = pageStack.items.indexOf(root);
+            if (pageStack.currentIndex < pageIndex) {
+                // External navigation is before our page, so the slideshow should be at beginning
+                slideshowIndex = 0;
+            } else if (pageStack.currentIndex > pageIndex) {
+                // External navigation is after our page, slideshow should be at end
+                slideshowIndex = (slideshowCount - 1);
+            }
         }
     }
 
-    function handleHovered(item, hovered) {
-        if (mockPanel.overflowing) {
-            return;
+    states: [
+        State {
+            name: "overflowing"
+            when: !root.canDoSlideshow
+            PropertyChanges {
+                target: explanatoryLabel
+                text: i18nc("@info", "The window is not large enough to show a visual representation of the Plasma desktop — please expand the window.")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: false }
+            PropertyChanges { target: mock;              blurRadius: 64 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0.6 }
+            PropertyChanges { target: mockPanel;         opacity: 0   }
+            PropertyChanges { target: mockKickoff;       opacity: 1   }
+            PropertyChanges { target: mockTaskManager;   opacity: 1   }
+            PropertyChanges { target: mockTray;          opacity: 1   }
+            PropertyChanges { target: mockClock;         opacity: 1   }
+            PropertyChanges { target: mockShowDesktop;   opacity: 1   }
+        },
+        State {
+            name: "initial"
+            when: root.slideshowIndex == 0
+            PropertyChanges {
+                target: explanatoryLabel
+                text: i18nc("@info", "This is a visual representation of a typical Plasma desktop: continue to learn about all its parts!")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: true }
+            PropertyChanges { target: mock;              blurRadius: 32 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0 }
+            PropertyChanges { target: mockPanel;         opacity: 1 }
+            PropertyChanges { target: mockKickoff;       opacity: 1 }
+            PropertyChanges { target: mockTaskManager;   opacity: 1 }
+            PropertyChanges { target: mockTray;          opacity: 1 }
+            PropertyChanges { target: mockClock;         opacity: 1 }
+            PropertyChanges { target: mockShowDesktop;   opacity: 1 }
+        },
+        State {
+            name: "desktop"
+            when: root.slideshowIndex == 1
+            PropertyChanges {
+                target: explanatoryLabel
+                text: xi18nc("@info", "This is the “Desktop”. It shows files and folders that are contained in your <filename>Desktop</filename> folder, and can hold widgets. Right-click on it and choose <interface>Desktop and Wallpaper…</interface> to configure the appearance of the desktop. You can also choose <interface>Enter Edit Mode</interface> to add, remove or modify widgets.")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: true }
+            PropertyChanges { target: mock;              blurRadius: 0 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0   }
+            PropertyChanges { target: mockPanel;         opacity: 0.4 }
+            PropertyChanges { target: mockKickoff;       opacity: 1   }
+            PropertyChanges { target: mockTaskManager;   opacity: 1   }
+            PropertyChanges { target: mockTray;          opacity: 1   }
+            PropertyChanges { target: mockClock;         opacity: 1   }
+            PropertyChanges { target: mockShowDesktop;   opacity: 1   }
+        },
+        State {
+            name: "panel"
+            when: root.slideshowIndex == 2
+            PropertyChanges {
+                target: explanatoryLabel
+                text: xi18nc("@info", "This is a “Panel” — a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets.")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: true }
+            PropertyChanges { target: mock;              blurRadius: 64 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0.6 }
+            PropertyChanges { target: mockPanel;         opacity: 1   }
+            PropertyChanges { target: mockKickoff;       opacity: 1   }
+            PropertyChanges { target: mockTaskManager;   opacity: 1   }
+            PropertyChanges { target: mockTray;          opacity: 1   }
+            PropertyChanges { target: mockClock;         opacity: 1   }
+            PropertyChanges { target: mockShowDesktop;   opacity: 1   }
+        },
+        State {
+            when: root.slideshowIndex == 3
+            name: "kickoff"
+            PropertyChanges {
+                target: explanatoryLabel
+                text: i18nc("@info", "This is the “Kickoff” widget, a multipurpose launcher. Here you can launch apps, shut down or restart the system, access recent files, and more. Click on it to get started!")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: true }
+            PropertyChanges { target: mock;              blurRadius: 64 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0.6 }
+            PropertyChanges { target: mockPanel;         opacity: 1   }
+            PropertyChanges { target: mockKickoff;       opacity: 1   }
+            PropertyChanges { target: mockTaskManager;   opacity: 0.4 }
+            PropertyChanges { target: mockTray;          opacity: 0.4 }
+            PropertyChanges { target: mockClock;         opacity: 0.4 }
+            PropertyChanges { target: mockShowDesktop;   opacity: 0.4 }
+        },
+        State {
+            when: root.slideshowIndex == 4
+            name: "taskManager"
+            PropertyChanges {
+                target: explanatoryLabel
+                text: i18nc("@info", "This is the “Task Manager” widget, where you can switch between open apps and also launch new ones. Drag app icons to re-arrange them.")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: true }
+            PropertyChanges { target: mock;              blurRadius: 64 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0.6 }
+            PropertyChanges { target: mockPanel;         opacity: 1   }
+            PropertyChanges { target: mockKickoff;       opacity: 0.4 }
+            PropertyChanges { target: mockTaskManager;   opacity: 1   }
+            PropertyChanges { target: mockTray;          opacity: 0.4 }
+            PropertyChanges { target: mockClock;         opacity: 0.4 }
+            PropertyChanges { target: mockShowDesktop;   opacity: 0.4 }
+        },
+        State {
+            when: root.slideshowIndex == 5
+            name: "tray"
+            PropertyChanges {
+                target: explanatoryLabel
+                text: i18nc("@info", "This is the “System Tray” widget, which lets you control system functions like changing the volume and connecting to networks. Items will become visible here only when relevant. To see all available items, click the ⌃ arrow next to the clock.")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: true }
+            PropertyChanges { target: mock;              blurRadius: 64 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0.6 }
+            PropertyChanges { target: mockPanel;         opacity: 1   }
+            PropertyChanges { target: mockKickoff;       opacity: 0.4 }
+            PropertyChanges { target: mockTaskManager;   opacity: 0.4 }
+            PropertyChanges { target: mockTray;          opacity: 1   }
+            PropertyChanges { target: mockClock;         opacity: 0.4 }
+            PropertyChanges { target: mockShowDesktop;   opacity: 0.4 }
+        },
+        State {
+            when: root.slideshowIndex == 6
+            name: "clock"
+            PropertyChanges {
+                target: explanatoryLabel
+                text: i18nc("@info", "This is the “Digital Clock” widget. Click on it to show a calendar. It can be also configured to show other timezones and events from your digital calendars.")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: true }
+            PropertyChanges { target: mock;              blurRadius: 64 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0.6 }
+            PropertyChanges { target: mockPanel;         opacity: 1   }
+            PropertyChanges { target: mockKickoff;       opacity: 0.4 }
+            PropertyChanges { target: mockTaskManager;   opacity: 0.4 }
+            PropertyChanges { target: mockTray;          opacity: 0.4 }
+            PropertyChanges { target: mockClock;         opacity: 1   }
+            PropertyChanges { target: mockShowDesktop;   opacity: 0.4 }
+        },
+        State {
+            when: root.slideshowIndex == 7
+            name: "showDesktop"
+            PropertyChanges {
+                target: explanatoryLabel
+                text: i18nc("@info", "This is the “Peek at Desktop” widget. Click on it to temporarily hide all open windows so you can access the desktop. Click on it again to bring them back.")
+            }
+            PropertyChanges { target: explanatoryIndicator; enabled: true }
+            PropertyChanges { target: mock;              blurRadius: 64 }
+            PropertyChanges { target: backgroundOverlay; opacity: 0.6 }
+            PropertyChanges { target: mockPanel;         opacity: 1   }
+            PropertyChanges { target: mockKickoff;       opacity: 0.4 }
+            PropertyChanges { target: mockTaskManager;   opacity: 0.4 }
+            PropertyChanges { target: mockTray;          opacity: 0.4 }
+            PropertyChanges { target: mockClock;         opacity: 0.4 }
+            PropertyChanges { target: mockShowDesktop;   opacity: 1   }
         }
-
-        if (hovered) {
-            activeItem = item;
-        } else if (!hovered && activeItem === item) {
-            activeItem = null
-        }
-    }
-
-    function handleTapped(item) {
-        if (mockPanel.overflowing) {
-            return;
-        }
-
-        if (activeItem !== item) {
-            activeItem = item;
-        }
-    }
+    ]
 
     PlasmaNMLoader {
         id: nmLoader
@@ -90,16 +223,14 @@ Welcome.Page {
 
         backgroundAlignment: Qt.AlignHCenter | Qt.AlignBottom
 
-        // Handlers for desktop
-        Item {
-            anchors.top: parent.top
-            anchors.left: parent.left
-            anchors.right: parent.right
-            anchors.bottom: mockPanel.top
+        Behavior on blurRadius { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
 
-            HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                            onHoveredChanged: root.handleHovered(mock, hovered) }
-            TapHandler { onTapped: root.handleTapped(mock) }
+        Rectangle {
+            id: backgroundOverlay
+            anchors.fill: parent
+
+            Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+            color: Kirigami.Theme.backgroundColor
         }
 
         Private.MockPanel {
@@ -107,130 +238,67 @@ Welcome.Page {
             anchors.bottom: parent.bottom
             anchors.right: parent.right
 
+            layer.enabled: true
+            Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
             readonly property bool overflowing: parent.width < implicitWidth
 
             width: parent.width
 
             Private.MockKickoffApplet {
                 id: mockKickoff
-
-                opacity: mockPanel.overflowing ? 0 : 1
-                active: root.activeItem == mockKickoff
+                active: root.state == "kickoff"
                 Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
-
-                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                onHoveredChanged: root.handleHovered(mockKickoff, hovered) }
-                TapHandler { onTapped: root.handleTapped(mockKickoff) }
             }
 
             Private.MockTaskManager {
                 id: mockTaskManager
-
-                opacity: mockPanel.overflowing ? 0 : 1
-                active: root.activeItem == mockTaskManager
+                active: root.state == "taskManager"
                 Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
-
-                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                onHoveredChanged: root.handleHovered(mockTaskManager, hovered) }
-                TapHandler { onTapped: root.handleTapped(mockTaskManager) }
             }
 
-            // Handlers for panel, with a minimum free space
+            // Minimum free space
             Item {
                 Layout.preferredWidth: Kirigami.Units.gridUnit * 4
                 Layout.fillWidth: true
                 Layout.fillHeight: true
-
-                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                onHoveredChanged: root.handleHovered(mockPanel, hovered) }
-                TapHandler { onTapped: root.handleTapped(mockPanel) }
             }
 
-            // We have to wrap the tray to add a hover/tap handler
-            // as children get added to the panel's layout
-            Item {
-                width: mockTray.width
-                height: mockTray.height
+            Private.MockSystemTrayApplet {
+                id: mockTray
 
-                opacity: mockPanel.overflowing ? 0 : 1
+                layer.enabled: true
                 Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
 
-                Private.MockSystemTrayApplet {
-                    id: mockTray
+                active: root.state == "tray"
 
-                    active: root.activeItem == mockTray
-
-                    Private.MockSystemTrayIcon { source: "audio-volume-high-symbolic" }
-                    Private.MockSystemTrayIcon { source: "brightness-high-symbolic" }
-                    Private.MockSystemTrayIcon { source: nmLoader.icon }
-                }
-
-                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                onHoveredChanged: root.handleHovered(mockTray, hovered) }
-                TapHandler { onTapped: root.handleTapped(mockTray) }
+                Private.MockSystemTrayIcon { source: "audio-volume-high-symbolic" }
+                Private.MockSystemTrayIcon { source: "brightness-high-symbolic" }
+                Private.MockSystemTrayIcon { source: nmLoader.icon }
             }
 
             Private.MockDigitalClockApplet {
                 id: mockClock
-
-                opacity: mockPanel.overflowing ? 0 : 1
-                active: root.activeItem == mockClock
+                active: root.state == "clock"
                 Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
-
-                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                onHoveredChanged: root.handleHovered(mockClock, hovered) }
-                TapHandler { onTapped: root.handleTapped(mockClock) }
             }
 
             Private.MockShowDesktopApplet {
                 id: mockShowDesktop
-
-                opacity: mockPanel.overflowing ? 0 : 1
-                active: root.activeItem == mockShowDesktop
+                active: root.state == "showDesktop"
                 Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
-
-                HoverHandler { acceptedDevices: root.hoverHandlerAcceptedDevices
-                                onHoveredChanged: root.handleHovered(mockShowDesktop, hovered) }
-                TapHandler { onTapped: root.handleTapped(mockShowDesktop) }
             }
-        }
-
-        PC3.Label {
-            anchors.centerIn: mockPanel
-
-            opacity: mockPanel.overflowing ? 1 : 0
-            visible: opacity > 0
-
-            Behavior on opacity {
-                NumberAnimation {
-                    duration: Kirigami.Units.longDuration
-                    easing.type: Easing.InOutQuad
-                }
-            }
-
-            text: i18nc("@info:placeholder Shown when there is insufficent width", "Expand the window")
-            color: PlasmaCore.Theme.textColor
         }
 
         Item {
             id: explanatoryContainer
 
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: Math.round(-mockPanel.height / 2)
+            anchors.verticalCenterOffset: root.canDoSlideshow ? Math.round(-mockPanel.height / 2) : 0
+            Behavior on anchors.verticalCenterOffset { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
 
             width: explanatoryShadow.width
             height: explanatoryShadow.height
-
-            layer.enabled: true
-            opacity: (root.activeItem == null || mockPanel.overflowing) ? 0 : 1
-            visible: opacity > 0
-
-            Behavior on opacity {
-                NumberAnimation {
-                    duration: Kirigami.Units.longDuration
-                    easing.type: Easing.InOutQuad
-                }
-            }
 
             KSvg.FrameSvgItem {
                 id: explanatoryShadow
@@ -247,7 +315,7 @@ Welcome.Page {
 
             KSvg.FrameSvgItem {
                 id: explanatoryBackground
-                anchors.fill: explanatoryTextContainer
+                anchors.fill: explanatoryLayout
 
                 anchors.topMargin: -margins.top
                 anchors.leftMargin: -margins.left
@@ -257,34 +325,49 @@ Welcome.Page {
                 imagePath: "widgets/tooltip"
             }
 
-            // We have to wrap the label so we can clip the text
-            Item {
-                id: explanatoryTextContainer
+            ColumnLayout {
+                id: explanatoryLayout
                 anchors.centerIn: parent
 
-                width: Math.min(Math.round(explanatoryContainer.parent.width / 1.5), Kirigami.Units.gridUnit * 25) + explanatoryLabel.anchors.margins * 2
-                height: explanatoryLabel.implicitHeight + explanatoryLabel.anchors.margins * 2
+                width: Math.min(Math.round(mock.width / 1.5), Kirigami.Units.gridUnit * 25)
+                height: explanatoryLayout.implicitHeight
 
-                Behavior on height {
-                    NumberAnimation {
-                        // Don't animate the height if we aren't visible!
-                        duration: explanatoryContainer.visible ? Kirigami.Units.shortDuration : 0
-                        easing.type: Easing.InOutQuad
+                spacing: 0
+
+                // Item so we can clip label
+                Item {
+                    Layout.fillWidth: true
+                    Layout.margins: Kirigami.Units.smallSpacing
+                    implicitHeight: explanatoryLabel.implicitHeight
+
+                    Behavior on implicitHeight {
+                        NumberAnimation {
+                            duration: Kirigami.Units.longDuration
+                            easing.type: Easing.InOutQuad
+                        }
+                    }
+
+                    clip: true
+
+                    PC3.Label {
+                        id: explanatoryLabel
+                        anchors.fill: parent
+
+                        horizontalAlignment: Text.AlignHCenter
+                        wrapMode: Text.Wrap
+                        color: PlasmaCore.Theme.textColor
                     }
                 }
 
-                clip: true
+                QQC2.PageIndicator {
+                    id: explanatoryIndicator
+                    Layout.margins: Kirigami.Units.smallSpacing
+                    Layout.alignment: Qt.AlignHCenter
 
-                PC3.Label {
-                    id: explanatoryLabel
-                    anchors.margins: Kirigami.Units.largeSpacing
-                    anchors.left: parent.left
-                    anchors.top: parent.top
-                    anchors.right: parent.right
-
-                    wrapMode: Text.Wrap
-
-                    color: PlasmaCore.Theme.textColor
+                    count: root.slideshowCount
+                    currentIndex: root.slideshowIndex
+                    onCurrentIndexChanged: root.slideshowIndex = currentIndex
+                    interactive: true
                 }
             }
         }

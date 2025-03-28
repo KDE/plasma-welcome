@@ -30,6 +30,74 @@ Kirigami.ApplicationWindow {
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
     pageStack.defaultColumnWidth: width
 
+    // Navigation
+
+    readonly property bool inLayer: pageStack.layers.depth > 1
+    readonly property bool atStart: pageStack.currentIndex === 0
+    readonly property bool atEnd: pageStack.currentIndex === pageStack.depth - 1
+
+    readonly property Kirigami.Action backAction: Kirigami.Action {
+        readonly property bool isSkip: app.atStart && !app.inLayer
+
+        text: isSkip ? i18nc("@action:button", "&Skip") : i18nc("@action:button", "&Back")
+        icon.name: {
+            if (isSkip) {
+                return "dialog-cancel-symbolic";
+            } else {
+                return Qt.application.layoutDirection === Qt.LeftToRight ? "go-previous-symbolic" : "go-previous-rtl-symbolic";
+            }
+        }
+        shortcut: Qt.application.layoutDirection === Qt.LeftToRight ? "Left" : "Right"
+        onTriggered: app.navigateBack(true)
+    }
+
+    readonly property Kirigami.Action forwardAction: Kirigami.Action {
+        readonly property bool isFinish: app.atEnd && !app.inLayer
+
+        text: isFinish ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&Next")
+        icon.name: {
+            if (isFinish) {
+                return "dialog-ok-apply-symbolic";
+            } else {
+                return Qt.application.layoutDirection === Qt.LeftToRight ? "go-next-symbolic" : "go-next-rtl-symbolic";
+            }
+        }
+        shortcut: Qt.application.layoutDirection === Qt.LeftToRight ? "Right" : "Left"
+        onTriggered: app.navigateForward(true)
+    }
+
+    function navigateBack(canQuit = false) {
+        if (app.inLayer) {
+            if (pageStack.layers.currentItem.overrideBack ?? false) {
+                pageStack.layers.currentItem.back();
+            } else {
+                pageStack.layers.pop();
+            }
+        } else if (pageStack.currentItem.overrideBack ?? false) {
+            pageStack.currentItem.back();
+        } else if (app.atStart && canQuit) {
+            Qt.quit();
+        } else if (!app.atStart) {
+            pageStack.currentIndex -= 1;
+        }
+    }
+
+    function navigateForward(canQuit = false) {
+        if (app.inLayer) {
+            if (pageStack.layers.currentItem.overrideForward ?? false) {
+                pageStack.layers.currentItem.forward();
+            } else {
+                pageStack.layers.pop();
+            }
+        } else if (pageStack.currentItem.overrideForward ?? false) {
+            pageStack.currentItem.forward();
+        } else if (app.atEnd && canQuit) {
+            Qt.quit();
+        } else if (!app.atEnd) {
+            pageStack.currentIndex += 1;
+        }
+    }
+
     footer: Footer {
         width: app.width
         contentSource: {
@@ -64,12 +132,14 @@ Kirigami.ApplicationWindow {
 
         function handlePressed(button) {
             if (button === Qt.BackButton) {
-                pageStack.goBack();
+                app.navigateBack();
             } else if (button === Qt.ForwardButton) {
-                pageStack.goForward();
+                app.navigateForward();
             }
         }
     }
+
+    // Page management
 
     function _createPage(page, isDistroPage = false) {
         let component = Qt.createComponent(page);

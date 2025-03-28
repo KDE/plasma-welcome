@@ -19,6 +19,13 @@ Kirigami.Page {
 
     property alias topContent: topContentLayout.children
 
+    // Whether the page wants to steal backwards navigation
+    // page must implement back()
+    property bool overrideBack: false
+    // Whether the page wants to steal forwards navigation
+    // page must implement forward()
+    property bool overrideForward: false
+
     title: heading
     topPadding: 0 // Provided by required header
 
