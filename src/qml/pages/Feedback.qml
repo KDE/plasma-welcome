@@ -16,7 +16,7 @@ Welcome.KCMPage {
     heading: i18nc("@title: window", "Share Anonymous Usage Information")
     description: i18nc("@info:usagetip", "Our developers will use this anonymous data to improve KDE software. You can choose how much to share in System Settings, and here too.")
 
-    show: Private.App.userFeedbackAvailable
+    show: Private.App.kcmAvailable(path)
 
     path: "kcm_feedback"
 }

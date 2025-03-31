@@ -33,7 +33,6 @@ public:
     QString installPrefix() const;
     QString distroPagesDir() const;
     QStringList distroPages() const;
-    bool userFeedbackAvailable() const;
     bool isDistroSnapOnly() const;
 
     Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)
@@ -41,12 +40,13 @@ public:
     Q_PROPERTY(QString installPrefix READ installPrefix CONSTANT)
     Q_PROPERTY(QString distroPagesDir READ distroPagesDir CONSTANT)
     Q_PROPERTY(QStringList distroPages READ distroPages CONSTANT)
-    Q_PROPERTY(bool userFeedbackAvailable READ userFeedbackAvailable CONSTANT)
     Q_PROPERTY(bool isDistroSnapOnly READ isDistroSnapOnly CONSTANT)
     Q_PROPERTY(QString customIntroText MEMBER m_customIntroText CONSTANT)
     Q_PROPERTY(QString customIntroIcon MEMBER m_customIntroIcon CONSTANT)
     Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
     Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
+
+    Q_INVOKABLE bool kcmAvailable(const QString &kcm) const;
 
     void setMode(App::Mode mode);
     void setPages(const QStringList &pages);
