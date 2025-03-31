@@ -107,7 +107,7 @@ Item {
                     // We're intentionally ignoring our 16:10 desktop wallpaper (MockDesktop) - whilst that fits the square
                     // window, we want to maximise what we can fit in our limited height and be more representative of what
                     // a user will see - most use a 16:9 display.
-                    source: "file:" + Private.App.installPrefix + "/share/wallpapers/Next/contents/images/1920x1080.png"
+                    source: "file:" + Private.App.installPrefix + "/share/wallpapers/Next/contents/images/5120x2880.png"
                     mipmap: true
                 }
 
