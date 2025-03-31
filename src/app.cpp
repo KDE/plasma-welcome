@@ -8,6 +8,7 @@
 
 #include <QDir>
 
+#include <KAuthorized>
 #include <KDesktopFile>
 #include <KOSRelease>
 #include <KPluginMetaData>
@@ -73,16 +74,16 @@ QStringList App::distroPages() const
     return pages;
 }
 
-bool App::userFeedbackAvailable() const
-{
-    KPluginMetaData data(QStringLiteral("plasma/kcms/systemsettings/kcm_feedback"));
-    return data.isValid();
-}
-
 // Workaround for lack of appstream info in snaps for advertised items on Discover page
 bool App::isDistroSnapOnly() const
 {
     return KOSRelease().extraValue("UBUNTU_VARIANT") == QStringLiteral("core");
+}
+
+bool App::kcmAvailable(const QString &kcm) const
+{
+    KPluginMetaData data(QStringLiteral("plasma/kcms/systemsettings/%1").arg(kcm));
+    return data.isValid() && KAuthorized::authorizeControlModule(kcm + QLatin1String(".desktop"));
 }
 
 #include "moc_app.cpp"
