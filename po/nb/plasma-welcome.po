@@ -126,8 +126,8 @@ msgctxt "@action:button"
 msgid "Start Contributing!"
 msgstr "Bli med nå!"
 
-#: src/contents/ui/pages/Contribute.qml:44
-#: src/contents/ui/pages/Donate.qml:44 src/contents/ui/pages/Welcome.qml:53
+#: src/contents/ui/pages/Contribute.qml:44 src/contents/ui/pages/Donate.qml:44
+#: src/contents/ui/pages/Welcome.qml:53
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
@@ -190,7 +190,8 @@ msgstr ""
 "Her kan du bidra!<nl/><nl/>Pengegaver finansierer såkalte utviklingssprint, "
 "teknisk infrastruktur og kjøp av tjenester fra eksterne utviklere."
 
-#: src/contents/ui/pages/Donate.qml:22 src/contents/ui/pages/PlasmaUpdate.qml:38
+#: src/contents/ui/pages/Donate.qml:22
+#: src/contents/ui/pages/PlasmaUpdate.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
@@ -389,10 +390,10 @@ msgstr "Aktiviteter"
 msgctxt "@info:usagetip"
 msgid ""
 "Activities can be used to separate high-level projects or workflows so you "
-"can focus on one at a time. You can have an activity for \"Home\", \"School"
-"\", \"Work\", and so on. Each Activity has access to all your files but has "
-"its own set of open apps and windows, recent documents, \"Favorite\" apps, "
-"and desktop widgets.<nl/><nl/>To get started, launch <interface>System "
+"can focus on one at a time. You can have an activity for \"Home\", "
+"\"School\", \"Work\", and so on. Each Activity has access to all your files "
+"but has its own set of open apps and windows, recent documents, \"Favorite\" "
+"apps, and desktop widgets.<nl/><nl/>To get started, launch <interface>System "
 "Settings</interface> and search for \"Activities\". On that page, you can "
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
@@ -467,23 +468,24 @@ msgid ""
 "<shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more. Try "
-"typing any of the following into one of those search fields:<nl/><list><item>"
-"\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in USD\"</"
-"item><item>\"25 miles in km\"</item><item>…And much more!</item></list><nl/"
-">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
-"shortcut> keyboard shortcut and click on the question mark icon."
+"typing any of the following into one of those search fields:<nl/"
+"><list><item>\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in "
+"USD\"</item><item>\"25 miles in km\"</item><item>…And much more!</item></"
+"list><nl/>To learn more, open the KRunner search bar using the "
+"<shortcut>Alt+F2</shortcut> keyboard shortcut and click on the question mark "
+"icon."
 msgstr ""
 "KRunner er det svært kraftige og fleksible søkesystemet i Plasma. Det står "
 "bak søkefunksjonen i programstarteren og oversiktsbildet. Du kan starte et "
 "frittstående søkefelt via hurtigtasten <shortcut>Alt + Mellomrom</shortcut>."
 "<nl/><nl/>Med KRunner kan du finne filer og mapper, men og for eksempel "
 "starte program, søke på nettet, regne pengebeløp om til ulike valutaer og "
-"gjøre matematiske utregninger. Prøv å skrive noe av følgende i "
-"søkefeltet:<nl/><list><item>«klokka Shanghai»</item><item>«27/3»</"
-"item><item>«200 EUR i NOK»</item><item>«25 miles i km»</item><item>… og mye "
-"mer!</item></list><nl/>Du kan lese mer om hva som er mulig ved å åpne "
-"KRunner-feltet med hurtigtasten <shortcut>Alt + Mellomrom</shortcut> og så "
-"trykke på ikonet som viser et spørretegn."
+"gjøre matematiske utregninger. Prøv å skrive noe av følgende i søkefeltet:"
+"<nl/><list><item>«klokka Shanghai»</item><item>«27/3»</item><item>«200 EUR i "
+"NOK»</item><item>«25 miles i km»</item><item>… og mye mer!</item></list><nl/"
+">Du kan lese mer om hva som er mulig ved å åpne KRunner-feltet med "
+"hurtigtasten <shortcut>Alt + Mellomrom</shortcut> og så trykke på ikonet som "
+"viser et spørretegn."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
