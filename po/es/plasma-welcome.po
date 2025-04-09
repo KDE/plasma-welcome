@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-01 00:43+0000\n"
+"POT-Creation-Date: 2025-04-09 00:43+0000\n"
 "PO-Revision-Date: 2025-04-02 00:57+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -252,7 +252,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Ha ocurrido un error al cargar la página"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -283,13 +283,13 @@ msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
 "No se puede cargar esta página proporcionada por el centro de bienvenida"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
 msgstr "Encuentre fabulosas aplicaciones"
 
-#: src/qml/pages/Discover.qml:23
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app, and "
@@ -402,13 +402,13 @@ msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
 msgstr "Invertir"
 
-#: src/qml/pages/Feedback.qml:15
+#: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Compartir información de uso anónimo"
 
-#: src/qml/pages/Feedback.qml:16
+#: src/qml/pages/Feedback.qml:17
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -453,13 +453,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Visitar página web"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Acceso a Internet"
 
-#: src/qml/pages/Network.qml:21
+#: src/qml/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -473,13 +473,13 @@ msgstr ""
 "icono <interface>Redes</interface> de la <interface>Bandeja del sistema</"
 "interface>, que reside en la esquina inferior derecha de la pantalla."
 
-#: src/qml/pages/Network.qml:37
+#: src/qml/pages/Network.qml:40
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "El uso de redes de Plasma no está instalado"
 
-#: src/qml/pages/Network.qml:38
+#: src/qml/pages/Network.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -489,19 +489,19 @@ msgstr ""
 "Para gestionar las conexiones de red, Plasma necesita que esté instalado "
 "<icode>plasma-nm</icode>. Notifique esta carencia a %1."
 
-#: src/qml/pages/Network.qml:208
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Ya tiene conexión"
 
-#: src/qml/pages/Network.qml:209
+#: src/qml/pages/Network.qml:212
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "¡Todo listo!"
 
-#: src/qml/pages/Network.qml:216
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -513,7 +513,7 @@ msgstr ""
 "está usando una versión de desarrollo. Puede usar el botón para mostrar de "
 "forma manual una vista previa de los distintos estados de la página."
 
-#: src/qml/pages/Network.qml:221
+#: src/qml/pages/Network.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

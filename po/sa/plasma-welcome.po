@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-01 00:43+0000\n"
+"POT-Creation-Date: 2025-04-09 00:43+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -250,7 +250,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "पृष्ठं लोड् करणं त्रुटिः"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -280,13 +280,13 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "Welcome Center द्वारा प्रदत्तं पृष्ठं लोड् कर्तुं न शक्यते"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
 msgstr ""
 
-#: src/qml/pages/Discover.qml:23
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app, and "
@@ -396,13 +396,13 @@ msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
 msgstr ""
 
-#: src/qml/pages/Feedback.qml:15
+#: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "अनाम्यवादिनी उपयोग ज्ञानं सांगच्छतु"
 
-#: src/qml/pages/Feedback.qml:16
+#: src/qml/pages/Feedback.qml:17
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -445,13 +445,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "गृहपृष्ठं गच्छन्तु"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "अन्तर्जालस्य उपयोगं कुर्वन्तु"
 
-#: src/qml/pages/Network.qml:21
+#: src/qml/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -465,13 +465,13 @@ msgstr ""
 "Tray</interface> इत्यस्मिन् <interface>Networks</interface> चिह्नं नुदन्तु, यत् पटलस्य "
 "अधः-दक्षिणकोणे निवसति ।."
 
-#: src/qml/pages/Network.qml:37
+#: src/qml/pages/Network.qml:40
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "प्लाज्मा कृते संजालसमर्थनं सम्प्रति न संस्थापितम्"
 
-#: src/qml/pages/Network.qml:38
+#: src/qml/pages/Network.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -481,19 +481,19 @@ msgstr ""
 "संजालसंयोजनानां प्रबन्धनार्थं Plasma इत्यस्य <icode>plasma-nm</icode> संस्थापनस्य "
 "आवश्यकता वर्तते । कृपया एतत् लोपं %1 इत्यस्मै निवेदयन्तु ।"
 
-#: src/qml/pages/Network.qml:208
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "त्वं सम्बद्धः असि"
 
-#: src/qml/pages/Network.qml:209
+#: src/qml/pages/Network.qml:212
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "सर्वं गन्तुं भद्रम्!"
 
-#: src/qml/pages/Network.qml:216
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -504,7 +504,7 @@ msgstr ""
 "इदं पृष्ठं जालसंयोजनं न कृत्वा दर्शितं यतः भवान् विकाससंस्करणस्य उपयोगं करोति । पृष्ठस्य "
 "विभिन्नानि अवस्थानि स्वहस्तेन पूर्वावलोकनार्थं भवन्तः बटनस्य उपयोगं कर्तुं शक्नुवन्ति ।"
 
-#: src/qml/pages/Network.qml:221
+#: src/qml/pages/Network.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

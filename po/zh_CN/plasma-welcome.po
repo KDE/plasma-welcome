@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-01 00:43+0000\n"
+"POT-Creation-Date: 2025-04-09 00:43+0000\n"
 "PO-Revision-Date: 2024-04-23 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -246,7 +246,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "加载页面出错"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -276,13 +276,13 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "无法加载此页面 (由欢迎中心提供)"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
 msgstr "发现优秀的应用程序"
 
-#: src/qml/pages/Discover.qml:23
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app, and "
@@ -390,13 +390,13 @@ msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
 msgstr "倒序"
 
-#: src/qml/pages/Feedback.qml:15
+#: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "分享匿名的使用情况信息"
 
-#: src/qml/pages/Feedback.qml:16
+#: src/qml/pages/Feedback.qml:17
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -439,13 +439,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "访问起始页"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "连接到互联网"
 
-#: src/qml/pages/Network.qml:21
+#: src/qml/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -458,13 +458,13 @@ msgstr ""
 "开网络小程序，请在<interface>系统托盘</interface> 中点击<interface>网络</"
 "interface>图标。它默认位于屏幕的右下角。"
 
-#: src/qml/pages/Network.qml:37
+#: src/qml/pages/Network.qml:40
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Plasma 的网络支持模块目前尚未安装"
 
-#: src/qml/pages/Network.qml:38
+#: src/qml/pages/Network.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -474,19 +474,19 @@ msgstr ""
 "要管理网络连接，Plasma 需要安装 <icode>plasma-nm</icode>。请将此软件包安装缺"
 "漏情况报告给 %1。"
 
-#: src/qml/pages/Network.qml:208
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "您已连接到互联网"
 
-#: src/qml/pages/Network.qml:209
+#: src/qml/pages/Network.qml:212
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "网络连接一切正常"
 
-#: src/qml/pages/Network.qml:216
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -497,7 +497,7 @@ msgstr ""
 "由于您正在使用开发版本的 Plasma，不管网络连接情况如何，程序都会显示此页面。要"
 "手动切换此页面在不同网络连接状态下的预览，请点击“更改状态”按钮。"
 
-#: src/qml/pages/Network.qml:221
+#: src/qml/pages/Network.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

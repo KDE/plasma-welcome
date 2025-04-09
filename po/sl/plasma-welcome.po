@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-01 00:43+0000\n"
+"POT-Creation-Date: 2025-04-09 00:43+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: \n"
@@ -253,7 +253,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Napaka pri nalaganju strani"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -286,13 +286,13 @@ msgid "This page provided by Welcome Center could not be loaded"
 msgstr ""
 "Te strani, zagotovljene od Centra dobrodošlice, ni bilo mogoče naložiti"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
 msgstr "Najdi krasne aplikacije"
 
-#: src/qml/pages/Discover.qml:23
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app, and "
@@ -405,13 +405,13 @@ msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
 msgstr "Obratno"
 
-#: src/qml/pages/Feedback.qml:15
+#: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Deli anonimne podatke o uporabi"
 
-#: src/qml/pages/Feedback.qml:16
+#: src/qml/pages/Feedback.qml:17
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -456,13 +456,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Obiščite domačo stran"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Dostop do interneta"
 
-#: src/qml/pages/Network.qml:21
+#: src/qml/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -476,13 +476,13 @@ msgstr ""
 "ikono <interface>Omrežja</interface> v <interface>sistemskem pladnju</"
 "interface>, ki se nahaja v spodnjem desnem kotu zaslona."
 
-#: src/qml/pages/Network.qml:37
+#: src/qml/pages/Network.qml:40
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Omrežna podpora za Plasmo trenutno ni nameščena"
 
-#: src/qml/pages/Network.qml:38
+#: src/qml/pages/Network.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -492,19 +492,19 @@ msgstr ""
 "Za upravljanje omrežnih povezav Plasma zahteva, da je nameščen <icode>plasma-"
 "nm</icode>. Prosimo, prijavite to opustitev %1."
 
-#: src/qml/pages/Network.qml:208
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Ste povezani"
 
-#: src/qml/pages/Network.qml:209
+#: src/qml/pages/Network.qml:212
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Vse pripravljeno!"
 
-#: src/qml/pages/Network.qml:216
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -516,7 +516,7 @@ msgstr ""
 "razvojno različico. Za ročni predogled različnih stanj strani lahko "
 "uporabite gumb."
 
-#: src/qml/pages/Network.qml:221
+#: src/qml/pages/Network.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

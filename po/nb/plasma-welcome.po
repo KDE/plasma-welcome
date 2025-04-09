@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-01 00:43+0000\n"
+"POT-Creation-Date: 2025-04-09 00:43+0000\n"
 "PO-Revision-Date: 2025-03-02 13:19+0100\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
@@ -248,7 +248,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Feil ved lasting av siden"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -278,13 +278,13 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "Klarte ikke laste inn siden fra velkomstsenteret"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
 msgstr ""
 
-#: src/qml/pages/Discover.qml:23
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is 'Discover', the name of KDE's software center app, and "
@@ -391,13 +391,13 @@ msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
 msgstr "Revers"
 
-#: src/qml/pages/Feedback.qml:15
+#: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Del anonym bruksinformasjon"
 
-#: src/qml/pages/Feedback.qml:16
+#: src/qml/pages/Feedback.qml:17
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -442,13 +442,13 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Besøk hjemmesiden"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Få tilgang til Internett"
 
-#: src/qml/pages/Network.qml:21
+#: src/qml/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -462,13 +462,13 @@ msgstr ""
 "<interface>Nettverk</interface>-ikonet i <interface>systemkurven</"
 "interface>, som vanligvis ligger nede til høyre på skjermen."
 
-#: src/qml/pages/Network.qml:37
+#: src/qml/pages/Network.qml:40
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Nettverksstøtte for Plasma er ikke installert"
 
-#: src/qml/pages/Network.qml:38
+#: src/qml/pages/Network.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -478,19 +478,19 @@ msgstr ""
 "For å håndtere nettverks-tilkoblinger trenger Plasma <icode>plasma-nm</"
 "icode> installert. Meld fra om at dette mangler til %1."
 
-#: src/qml/pages/Network.qml:208
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Du er tilkoblet"
 
-#: src/qml/pages/Network.qml:209
+#: src/qml/pages/Network.qml:212
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Alt er i orden!"
 
-#: src/qml/pages/Network.qml:216
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -502,7 +502,7 @@ msgstr ""
 "statusen til nettverks-tilkoblingen. Du kan se hvordan de ulike sidene ser "
 "ut via knappen."
 
-#: src/qml/pages/Network.qml:221
+#: src/qml/pages/Network.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
