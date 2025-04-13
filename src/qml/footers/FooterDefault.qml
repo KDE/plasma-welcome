@@ -62,6 +62,8 @@ RowLayout {
     QQC2.Button {
         id: nextButton
         Layout.alignment: Qt.AlignRight
+        // Nicer to have the arrow on the side it's pointing to
+        LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.LeftToRight ? !root.atEnd : root.atEnd
 
         enabled: !root.inLayer
 
