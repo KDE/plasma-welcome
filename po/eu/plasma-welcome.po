@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-09 00:43+0000\n"
-"PO-Revision-Date: 2025-03-27 20:39+0100\n"
+"POT-Creation-Date: 2025-04-15 00:43+0000\n"
+"PO-Revision-Date: 2025-04-14 22:40+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -163,13 +163,13 @@ msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Atzera"
 
-#: src/qml/footers/FooterDefault.qml:69
+#: src/qml/footers/FooterDefault.qml:71
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Bukatu"
 
-#: src/qml/footers/FooterDefault.qml:69
+#: src/qml/footers/FooterDefault.qml:71
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -637,20 +637,14 @@ msgid "Powerful When Needed"
 msgstr "Ahaltsua beharrezkoa denean"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity! Here is just a smattering of the things it can do for "
-#| "you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity!<nl/><nl/>"
 msgstr ""
-"Plasma, ezaugarrietan aberatsa den ingurune bat da, zure emankortasuna "
-"hobetzeko diseinatua! Hona hemen zuregatik egin ditzakeen gauzen laburpen "
-"bat:"
+"Plasma, ezaugarrietan oso aberatsa den ingurune bat da, zure emankortasuna "
+"hobetzeko diseinatua!<nl/><nl/>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:47
 #, kde-format
