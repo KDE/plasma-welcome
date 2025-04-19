@@ -27,15 +27,24 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
         launch(QStringList{QStringLiteral("--live-environment")});
     } else {
         // Normal, check if launched before or updated since
-        if (m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty()) {
+        const bool lastSeenVersionEmpty = m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty(); // i.e. have we shown Welcome Center previously
+
+        if (lastSeenVersionEmpty) {
             launch(QStringList{});
         } else if (m_config.readEntry("ShowUpdatePage", true) && isSignificantUpgrade()) {
             launch(QStringList{QStringLiteral("--post-update")});
         }
 
-        // Save current version unless development version
         if (m_currentVersion.microVersion() != 80) {
+            // Save current version when we're not on a development version
             m_config.writeEntry("LastSeenVersion", m_currentVersion.toString());
+            m_config.config()->sync();
+        } else if (lastSeenVersionEmpty) {
+            // Development version, but we haven't seen a previous version
+            // Some people are exclusively using development versions, so let's
+            // initialise it with the release we're developing on, else we'll
+            // just constantly show Welcome Center as if it were a first run
+            m_config.writeEntry("LastSeenVersion", QVersionNumber(m_currentVersion.majorVersion(), m_currentVersion.minorVersion(), 0).toString());
             m_config.config()->sync();
         }
     }
