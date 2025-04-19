@@ -150,7 +150,7 @@ void Release::getPreview()
         announcementUrl.insert(kdeSite.length(), languageCode + "/");
     }
 
-    m_previewNetworkAccessManager->get(QNetworkRequest(announcementUrl));
+    m_previewNetworkAccessManager->get(QNetworkRequest(QUrl(announcementUrl)));
 }
 
 void Release::parsePreviewReply(QNetworkReply *const reply)
