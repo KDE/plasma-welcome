@@ -9,10 +9,10 @@ import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
 import org.kde.ksvg as KSvg
-import org.kde.plasma.core as PlasmaCore
 import org.kde.plasma.components as PC3
 import org.kde.plasma.extras as PlasmaExtras
 import org.kde.milou as Milou
+import org.kde.plasma.welcome.private as Private
 
 Item {
     id: root
@@ -75,8 +75,8 @@ Item {
                     enabled: false
                     opacity: 1
 
-                    color: PlasmaCore.Theme.textColor
-                    placeholderTextColor: PlasmaCore.Theme.disabledTextColor
+                    color: Private.PlasmaColors.textColor
+                    placeholderTextColor: Private.PlasmaColors.disabledTextColor
 
                     placeholderText: i18nd("libplasma6", "Search…")
                     text: root.searchText

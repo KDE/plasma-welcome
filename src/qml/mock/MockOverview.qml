@@ -9,7 +9,6 @@ import QtQuick.Layouts
 import Qt5Compat.GraphicalEffects
 
 import org.kde.kirigami as Kirigami
-import org.kde.plasma.core as PlasmaCore
 import org.kde.plasma.components as PC3
 import org.kde.plasma.extras as PlasmaExtras
 
@@ -113,7 +112,7 @@ Item {
 
                 // For some reason, these are not inherited from MockDesktop
                 Kirigami.Theme.inherit: false
-                Kirigami.Theme.textColor: PlasmaCore.Theme.textColor
+                Kirigami.Theme.textColor: Private.PlasmaColors.textColor
             }
         }
 
@@ -126,7 +125,7 @@ Item {
 
             // For some reason, these are not inherited from MockDesktop
             Kirigami.Theme.inherit: false
-            Kirigami.Theme.textColor: PlasmaCore.Theme.textColor
+            Kirigami.Theme.textColor: Private.PlasmaColors.textColor
         }
 
         // Desktop

@@ -9,8 +9,8 @@ import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
 import org.kde.ksvg as KSvg
-import org.kde.plasma.core as PlasmaCore
 import org.kde.plasma.components as PC3
+import org.kde.plasma.welcome.private as Private
 
 Item {
     id: plasmoid
@@ -149,6 +149,6 @@ Item {
         }
 
         text: i18nc("@info:placeholder Shown when there is insufficent width", "Expand the window")
-        color: PlasmaCore.Theme.textColor
+        color: Private.PlasmaColors.textColor
     }
 }
