@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-15 00:43+0000\n"
+"POT-Creation-Date: 2025-04-28 00:43+0000\n"
 "PO-Revision-Date: 2024-11-25 19:29+0100\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -236,13 +236,13 @@ msgstr "Aktivität erstellen …"
 msgid "Search…"
 msgstr "Suchen …"
 
-#: src/qml/mock/MockOverview.qml:98
+#: src/qml/mock/MockOverview.qml:97
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "Arbeitsfläche 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:211
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -1004,13 +1004,13 @@ msgstr ""
 "ausgeblendeten Symbole anzuzeigen, und dann auf das <interface>Tresore</"
 "interface>-Symbol."
 
-#: src/qml/pages/SimpleByDefault.qml:22
+#: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Von Haus aus einfach"
 
-#: src/qml/pages/SimpleByDefault.qml:23
+#: src/qml/pages/SimpleByDefault.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -1027,7 +1027,7 @@ msgstr ""
 "Arbeitsfläche gezeigt. Bewegen Sie den Mauszeiger über oder klicken Sie auf "
 "etwas, damit Sie Informationen dazu erhalten."
 
-#: src/qml/pages/SimpleByDefault.qml:34
+#: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1044,7 +1044,7 @@ msgstr ""
 "Arbeitsfläche eingerichtet werden. Mit <interface>Bearbeitungsmodus starten</"
 "interface> können Miniprogramme hinzugefügt, geändert oder entfernt werden."
 
-#: src/qml/pages/SimpleByDefault.qml:37
+#: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1057,7 +1057,7 @@ msgstr ""
 "anzeigen</interface> können ihr Verhalten und die Ecken geändert sowie "
 "Miniprogramme hinzugefügt, geändert oder entfernt werden."
 
-#: src/qml/pages/SimpleByDefault.qml:40
+#: src/qml/pages/SimpleByDefault.qml:39
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1075,7 +1075,7 @@ msgstr ""
 "neu gestartet sowie zuletzt verwendete Daten geöffnet werden. Durch einen "
 "Klick wird es gestartet."
 
-#: src/qml/pages/SimpleByDefault.qml:43
+#: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1086,7 +1086,7 @@ msgstr ""
 "und weitere gestartet werden können. Die Symbole können durch Ziehen neu "
 "angeordnet werden."
 
-#: src/qml/pages/SimpleByDefault.qml:46
+#: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1100,7 +1100,7 @@ msgstr ""
 "wenn Sie relevant sind. Durch einen Klick auf den ⌃-Pfeil neben der Uhr "
 "werden alle Symbole angezeigt."
 
-#: src/qml/pages/SimpleByDefault.qml:49
+#: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1112,7 +1112,7 @@ msgstr ""
 "angezeigt. Sie kann auch zur Anzeige anderer Zeitzonen oder Terminen aus "
 "digitalen Kalendern eingerichtet werden."
 
-#: src/qml/pages/SimpleByDefault.qml:52
+#: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
 msgctxt "@info"
 msgid ""

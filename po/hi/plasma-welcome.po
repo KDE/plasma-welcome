@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-15 00:43+0000\n"
+"POT-Creation-Date: 2025-04-28 00:43+0000\n"
 "PO-Revision-Date: 2024-12-15 17:35+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -231,13 +231,13 @@ msgstr "गतिविधि बनाएं…"
 msgid "Search…"
 msgstr "खोजना…"
 
-#: src/qml/mock/MockOverview.qml:98
+#: src/qml/mock/MockOverview.qml:97
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "डेस्कटॉप 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:211
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -975,13 +975,13 @@ msgstr ""
 "आरंभ करने के लिए, छुपे हुए आइटम दिखाने के लिए <इंटरफ़ेस>सिस्टम ट्रे</इंटरफ़ेस> पर तीर पर क्लिक "
 "करें, और फिर <इंटरफ़ेस>वॉल्ट</इंटरफ़ेस> आइकन पर क्लिक करें।"
 
-#: src/qml/pages/SimpleByDefault.qml:22
+#: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "डिफ़ॉल्ट रूप से सरल"
 
-#: src/qml/pages/SimpleByDefault.qml:23
+#: src/qml/pages/SimpleByDefault.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -996,7 +996,7 @@ msgstr ""
 "नहीं होती है।<nl/><nl/>नीचे एक विशिष्ट प्लाज्मा डेस्कटॉप का दृश्य प्रतिनिधित्व है; इसके "
 "बारे में जानने के लिए पॉइंटर को ऊपर ले जाएँ या किसी चीज़ पर क्लिक करें!"
 
-#: src/qml/pages/SimpleByDefault.qml:34
+#: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1012,7 +1012,7 @@ msgstr ""
 "विजेट जोड़ने, हटाने या संशोधित करने के लिए <interface>संपादन मोड दर्ज करें</interface> "
 "भी चुन सकते हैं।"
 
-#: src/qml/pages/SimpleByDefault.qml:37
+#: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1024,7 +1024,7 @@ msgstr ""
 "पैनल कॉन्फ़िगरेशन</इंटरफ़ेस> चुनें ताकि यह बदल सके कि यह कैसे व्यवहार करता है, यह किस स्क्रीन "
 "किनारे पर रहता है, और विजेट जोड़ने, हटाने या संशोधित करने के लिए।"
 
-#: src/qml/pages/SimpleByDefault.qml:40
+#: src/qml/pages/SimpleByDefault.qml:39
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1041,7 +1041,7 @@ msgstr ""
 "को शट डाउन या रीस्टार्ट कर सकते हैं, हाल ही की फ़ाइलों तक पहुँच सकते हैं, और भी बहुत कुछ "
 "कर सकते हैं। आरंभ करने के लिए इस पर क्लिक करें!"
 
-#: src/qml/pages/SimpleByDefault.qml:43
+#: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1051,7 +1051,7 @@ msgstr ""
 "यह \"टास्क मैनेजर\" विजेट है, जहाँ आप खुले हुए ऐप्स के बीच स्विच कर सकते हैं और नए ऐप भी "
 "लॉन्च कर सकते हैं। ऐप आइकन को फिर से व्यवस्थित करने के लिए उन्हें खींचें।"
 
-#: src/qml/pages/SimpleByDefault.qml:46
+#: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1064,7 +1064,7 @@ msgstr ""
 "को नियंत्रित करने देता है। आइटम यहाँ केवल तभी दिखाई देंगे जब वे प्रासंगिक होंगे। सभी उपलब्ध "
 "आइटम देखने के लिए, घड़ी के बगल में ⌃ तीर पर क्लिक करें।"
 
-#: src/qml/pages/SimpleByDefault.qml:49
+#: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1075,7 +1075,7 @@ msgstr ""
 "यह \"डिजिटल घड़ी\" विजेट है। कैलेंडर दिखाने के लिए इस पर क्लिक करें। इसे आपके डिजिटल कैलेंडर "
 "से अन्य समयक्षेत्र और ईवेंट दिखाने के लिए भी कॉन्फ़िगर किया जा सकता है।"
 
-#: src/qml/pages/SimpleByDefault.qml:52
+#: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
 msgctxt "@info"
 msgid ""

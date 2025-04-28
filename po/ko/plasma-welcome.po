@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-15 00:43+0000\n"
+"POT-Creation-Date: 2025-04-28 00:43+0000\n"
 "PO-Revision-Date: 2025-04-07 00:46+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -229,13 +229,13 @@ msgstr "활동 만들기…"
 msgid "Search…"
 msgstr "검색…"
 
-#: src/qml/mock/MockOverview.qml:98
+#: src/qml/mock/MockOverview.qml:97
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "바탕 화면 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:211
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficent width"
 msgid "Expand the window"
@@ -963,13 +963,13 @@ msgstr ""
 "시작하려면 <interface>시스템 트레이</interface>의 화살표를 클릭하여 숨겨진 항"
 "목을 표시한 다음 <interface>비밀 공간</interface> 아이콘을 클릭하십시오."
 
-#: src/qml/pages/SimpleByDefault.qml:22
+#: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "기본적으로 간단하게"
 
-#: src/qml/pages/SimpleByDefault.qml:23
+#: src/qml/pages/SimpleByDefault.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -984,7 +984,7 @@ msgstr ""
 "생산적으로 사용할 수 있습니다.<nl/><nl/>아래는 일반적인 Plasma 데스크톱의 모"
 "습입니다. 마우스 포인터를 갖다 두거나 클릭하면 정보를 알아볼 수 있습니다!"
 
-#: src/qml/pages/SimpleByDefault.qml:34
+#: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1000,7 +1000,7 @@ msgstr ""
 "화면의 모양을 설정할 수 있습니다. <interface>편집 모드 들어가기</interface>"
 "를 통해서 위젯을 추가, 삭제, 수정할 수 있습니다."
 
-#: src/qml/pages/SimpleByDefault.qml:37
+#: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1012,7 +1012,7 @@ msgstr ""
 "클릭하여 <interface>패널 설정 표시</interface>를 선택하면 패널의 행동 조정, "
 "패널이 표시될 화면 경계, 위젯 추가, 삭제, 수정을 할 수 있습니다."
 
-#: src/qml/pages/SimpleByDefault.qml:40
+#: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1023,7 +1023,7 @@ msgstr ""
 "이것은 다기능 실행기인 \"프로그램 실행기\" 위젯입니다. 앱 실행, 시스템 종료 "
 "및 다시 시작, 최근 파일 접근 등을 할 수 있습니다. 시작하려면 클릭하세요!"
 
-#: src/qml/pages/SimpleByDefault.qml:43
+#: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1033,7 +1033,7 @@ msgstr ""
 "이것은 \"작업 관리자\" 위젯입니다. 열린 앱을 전환하고 새 앱을 실행할 수 있습"
 "니다. 앱 아이콘을 드래그하여 순서를 변경할 수 있습니다."
 
-#: src/qml/pages/SimpleByDefault.qml:46
+#: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1046,7 +1046,7 @@ msgstr ""
 "을 제어할 수 있습니다. 항목을 사용해야 할 때에만 표시됩니다. 모든 항목을 표시"
 "하려면 시계 옆에 있는  ⌃ 화살표를 클릭하십시오."
 
-#: src/qml/pages/SimpleByDefault.qml:49
+#: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1057,7 +1057,7 @@ msgstr ""
 "이것은 \"디지털 시계\" 위젯입니다. 클릭하면 달력을 표시합니다. 다른 시간대나 "
 "내 디지털 캘린더의 이벤트를 표시할 수도 있습니다."
 
-#: src/qml/pages/SimpleByDefault.qml:52
+#: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
 msgctxt "@info"
 msgid ""
