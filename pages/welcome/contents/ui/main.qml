@@ -90,7 +90,7 @@ Welcome.Page {
 
                 Image {
                     id: image
-                    source: Private.App.customIntroIcon || "konqi-kde-hi.png"
+                    source: Private.App.customIntroIcon || Qt.resolvedUrl("qrc:/qt/qml/org/kde/plasma/welcome/private/konqi-kde-hi.png")
                     fillMode: Image.PreserveAspectFit
 
                     Kirigami.PlaceholderMessage {

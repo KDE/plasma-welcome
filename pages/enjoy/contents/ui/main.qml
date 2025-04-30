@@ -60,7 +60,7 @@ Welcome.Page {
 
             fillMode: Image.PreserveAspectFit
             mipmap: true
-            source: "konqi-default.png"
+            source: Qt.resolvedUrl("qrc:/qt/qml/org/kde/plasma/welcome/private/konqi-default.png")
         }
 
         Private.ContributionCard {

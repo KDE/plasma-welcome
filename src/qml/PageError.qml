@@ -11,13 +11,13 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
 Kirigami.Page {
     id: root
 
     required property string error
-    required property bool isDistroPage
-    required property bool isUnknownPage
+    required property int pageType
 
     title: i18nc("@info:window", "Error loading page")
 
@@ -25,8 +25,8 @@ Kirigami.Page {
         Kirigami.Action {
             icon.name: "tools-report-bug-symbolic"
             text: i18nc("@action:button", "Report Bug…")
-            onTriggered: Qt.openUrlExternally(isDistroPage ? Welcome.Distro.bugReportUrl() : "https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center")
-            visible: !isUnknownPage
+            onTriggered: Qt.openUrlExternally(root.pageType == Private.App.Distro ? Welcome.Distro.bugReportUrl : "https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center")
+            visible: root.pageType != Private.App.Unknown
         },
         Kirigami.Action {
             icon.name: "edit-copy-symbolic"
@@ -38,17 +38,17 @@ Kirigami.Page {
     Kirigami.PlaceholderMessage {
         anchors.centerIn: parent
 
-        width: parent.width
+        width: parent.width - (Kirigami.Units.gridUnit * 2)
 
         icon.name: "tools-report-bug"
         text: {
-            if (isUnknownPage) {
-                return xi18nc("@info:usagetip", "This page could not be loaded");
-            }
-            if (isDistroPage) {
-                return xi18nc("@info:usagetip", "This page provided by your distribution could not be loaded");
-            } else {
-                return xi18nc("@info:usagetip", "This page provided by Welcome Center could not be loaded");
+            switch (root.pageType) {
+                case Private.App.KDE:
+                    return xi18nc("@info:usagetip", "This page provided by Welcome Center could not be loaded");
+                case Private.App.Distro:
+                    return xi18nc("@info:usagetip", "This page provided by your distribution could not be loaded");
+                case Private.App.Unknown:
+                    return xi18nc("@info:usagetip", "This page could not be loaded");
             }
         }
         explanation: root.error

@@ -79,7 +79,7 @@ Welcome.Page {
         }
     }
 
-    PlasmaNMLoader {
+    Private.PlasmaNMLoader {
         id: nmLoader
     }
 

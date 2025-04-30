@@ -67,6 +67,7 @@ ecm_set_disabled_deprecation_versions(QT 6.8.1
 )
 
 add_subdirectory(src)
+add_subdirectory(pages)
 
 install(PROGRAMS org.kde.plasma-welcome.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.plasma-welcome.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
