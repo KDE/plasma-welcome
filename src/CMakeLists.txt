@@ -9,6 +9,9 @@ add_subdirectory(kded)
 # Public library (org.kde.plasma.welcome)
 add_subdirectory(public)
 
+# Package structure
+add_subdirectory(packagestructure)
+
 # Application, including private library (org.kde.plasma.welcome.private)
 add_executable(plasma-welcome)
 ecm_add_qml_module(plasma-welcome URI "org.kde.plasma.welcome.private" GENERATE_PLUGIN_SOURCE DEPENDENCIES QtQuick)
@@ -19,6 +22,7 @@ target_sources(plasma-welcome PRIVATE
     main.cpp
 
     app.cpp
+    pagesmodel.cpp
     qmlconfig.h
     release.cpp
     plasmacolors.cpp
@@ -49,25 +53,8 @@ ecm_target_qml_sources(plasma-welcome
     qml/mock/MockPlasmoid.qml
     qml/mock/InteractionInhibitor.qml
 
-    qml/pages/PlasmaUpdate.qml
-    qml/pages/Live.qml
-    qml/pages/Welcome.qml
-    qml/pages/Network.qml
-    qml/pages/network/PlasmaNM.qml
-    qml/pages/network/PlasmaNMLoader.qml
-    qml/pages/SimpleByDefault.qml
-    qml/pages/PowerfulWhenNeeded.qml
-    qml/pages/powerfulwhenneeded/PlasmaFeatureCard.qml
-    qml/pages/powerfulwhenneeded/Overview.qml
-    qml/pages/powerfulwhenneeded/KRunner.qml
-    qml/pages/powerfulwhenneeded/KDEConnect.qml
-    qml/pages/powerfulwhenneeded/Activities.qml
-    qml/pages/powerfulwhenneeded/Vaults.qml
-    qml/pages/powerfulwhenneeded/SystemSettings.qml
-    qml/pages/Discover.qml
-    qml/pages/Feedback.qml
-    qml/pages/Enjoy.qml
-    qml/pages/enjoy/Supporters.qml
+    qml/PlasmaNM.qml
+    qml/PlasmaNMLoader.qml
 
     RESOURCES
     assets/krita.png
@@ -78,6 +65,7 @@ ecm_target_qml_sources(plasma-welcome
 
 target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_PAGE_FOLDER=\"${DISTRO_CUSTOM_PAGE_FOLDER}\"")
 target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_INTRO_FILE=\"${DISTRO_CUSTOM_INTRO_FILE}\"")
+target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_CONFIG_FILE=\"${DISTRO_CUSTOM_CONFIG_FILE}\"")
 
 target_link_libraries(plasma-welcome PRIVATE
     plasma-welcome-publicplugin # Link the plugin for the public library
@@ -95,6 +83,7 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::I18n
     KF6::I18nQml
     KF6::JobWidgets
+    KF6::Package
     KF6::Service
     KF6::WindowSystem
     Plasma::Plasma

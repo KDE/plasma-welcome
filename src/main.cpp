@@ -6,6 +6,8 @@
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
+#include <iostream>
+
 #include <QApplication>
 #include <QCommandLineOption>
 #include <QCommandLineParser>
@@ -75,10 +77,9 @@ int main(int argc, char *argv[])
 
     parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
     parser.addOption(QCommandLineOption(QStringLiteral("live-environment"), i18n("Display the live page intended for distro live environments.")));
+    parser.addOption(QCommandLineOption(QStringLiteral("list"), i18n("List all possible pages")));
 
-    QCommandLineOption pagesOption(QStringLiteral("pages"),
-                                   i18n("Specify comma-delimited list of page(s) (by internal name) to be displayed."),
-                                   QStringLiteral("pages"));
+    QCommandLineOption pagesOption(QStringLiteral("pages"), i18n("Specify comma-delimited list of page(s) to display."), QStringLiteral("pages"));
     parser.addOption(pagesOption);
 
     parser.process(app);
@@ -103,24 +104,31 @@ int main(int argc, char *argv[])
 
     // Tell QML about requested mode/pages
     auto appSingleton = engine.singletonInstance<App *>("org.kde.plasma.welcome.private", "App");
-    if (parser.isSet(QStringLiteral("pages"))) {
-        QStringList pages = parser.value(pagesOption).split(",");
-        if (!pages.isEmpty()) {
-            // Ensure each page ends with ".qml"
-            for (QString &page : pages) {
-                if (!page.endsWith(".qml")) {
-                    page.append(".qml");
-                }
-            }
 
-            appSingleton->setMode(App::Mode::Pages);
-            appSingleton->setPages(pages);
+    if (parser.isSet(QStringLiteral("list"))) {
+        std::cout << i18n("The following pages are available:").toLocal8Bit().data() << std::endl;
+
+        for (const auto &page : appSingleton->availablePages()) {
+            std::cout << page.toLocal8Bit().data() << std::endl;
         }
+
+        return 0;
+    }
+
+    QStringList requestedPages;
+    if (parser.isSet(QStringLiteral("pages"))) {
+        requestedPages = parser.value(pagesOption).split(",", Qt::SkipEmptyParts);
+    }
+
+    if (!requestedPages.isEmpty()) {
+        appSingleton->setMode(App::Mode::Pages);
     } else if (parser.isSet(QStringLiteral("post-update"))) {
         appSingleton->setMode(App::Mode::Update);
     } else if (parser.isSet(QStringLiteral("live-environment"))) {
         appSingleton->setMode(App::Mode::Live);
     }
+
+    appSingleton->loadPages(requestedPages);
 
     engine.loadFromModule("org.kde.plasma.welcome.private", "Main");
 

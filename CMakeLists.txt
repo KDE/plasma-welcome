@@ -38,8 +38,9 @@ include(ECMPoQmTools)
 include(ECMQmlModule)
 include(ECMDeprecationSettings)
 
-set(DISTRO_CUSTOM_PAGE_FOLDER "/usr/share/plasma/plasma-welcome/extra-pages/" CACHE STRING "Folder on disk to find custom pages")
+set(DISTRO_CUSTOM_PAGE_FOLDER "/usr/share/plasma/plasma-welcome/extra-pages/" CACHE STRING "Folder on disk to find legacy custom pages")
 set(DISTRO_CUSTOM_INTRO_FILE "/usr/share/plasma/plasma-welcome/intro-customization.desktop" CACHE STRING "File specifying custom intro content")
+set(DISTRO_CUSTOM_CONFIG_FILE "/usr/share/plasma/plasma-welcome/plasma-welcome.conf" CACHE STRING "File specifying custom system configuration")
 
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h *.hpp *.c)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
@@ -67,6 +68,7 @@ ecm_set_disabled_deprecation_versions(QT 6.8.1
 )
 
 add_subdirectory(src)
+add_subdirectory(pages)
 
 install(PROGRAMS org.kde.plasma-welcome.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.plasma-welcome.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})

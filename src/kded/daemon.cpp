@@ -18,7 +18,7 @@ K_PLUGIN_CLASS_WITH_JSON(PlasmaWelcomeDaemon, "kded_plasma-welcome.json")
 
 PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> &)
     : KDEDModule(parent)
-    , m_config(new KConfig(QStringLiteral("plasma-welcomerc")), "General")
+    , m_config(new KConfig(QStringLiteral("plasma-welcomerc"), KConfig::SimpleConfig), "General")
     , m_currentVersion(QVersionNumber::fromString(QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING)))
     , m_previousVersion(QVersionNumber::fromString(m_config.readEntry("LastSeenVersion", QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING))))
 {

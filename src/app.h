@@ -1,14 +1,19 @@
 /*
  *  SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
  *  SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
- *  SPDX-FileCopyrightText: 2024 Oliver Beard <olib141@outlook.com>
+ *  SPDX-FileCopyrightText: 2024-2025 Oliver Beard <olib141@outlook.com>
  *
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
 #pragma once
 
-#include <QQmlEngine>
+#include <QObject>
+#include <qqmlregistration.h>
+
+#include <KConfig>
+
+#include "pagesmodel.h"
 
 // org.kde.plasma.welcome.private, App
 // Provides core functionality for Welcome Center not intended for distro pages
@@ -18,6 +23,14 @@ class App : public QObject
     Q_OBJECT
     QML_ELEMENT
     QML_SINGLETON
+    Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)
+    Q_PROPERTY(PagesModel *pagesModel READ pagesModel CONSTANT)
+    Q_PROPERTY(QString installPrefix READ installPrefix CONSTANT)
+    Q_PROPERTY(bool isDistroSnapOnly READ isDistroSnapOnly CONSTANT)
+    Q_PROPERTY(QString customIntroText MEMBER m_customIntroText CONSTANT)
+    Q_PROPERTY(QString customIntroIcon MEMBER m_customIntroIcon CONSTANT)
+    Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
+    Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
 
 public:
     App(QObject *parent = nullptr);
@@ -30,31 +43,28 @@ public:
     };
     Q_ENUM(Mode)
 
-    QString installPrefix() const;
-    QString distroPagesDir() const;
-    QStringList distroPages() const;
-    bool isDistroSnapOnly() const;
+    void setMode(App::Mode mode);
+    void loadPages(const QStringList &requestedPages);
+    QStringList availablePages() const;
 
-    Q_PROPERTY(Mode mode MEMBER m_mode CONSTANT)
-    Q_PROPERTY(QStringList pages MEMBER m_pages CONSTANT)
-    Q_PROPERTY(QString installPrefix READ installPrefix CONSTANT)
-    Q_PROPERTY(QString distroPagesDir READ distroPagesDir CONSTANT)
-    Q_PROPERTY(QStringList distroPages READ distroPages CONSTANT)
-    Q_PROPERTY(bool isDistroSnapOnly READ isDistroSnapOnly CONSTANT)
-    Q_PROPERTY(QString customIntroText MEMBER m_customIntroText CONSTANT)
-    Q_PROPERTY(QString customIntroIcon MEMBER m_customIntroIcon CONSTANT)
-    Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
-    Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
+    PagesModel *pagesModel() const;
+    QString installPrefix() const;
+    bool isDistroSnapOnly() const;
 
     Q_INVOKABLE bool kcmAvailable(const QString &kcm) const;
 
-    void setMode(App::Mode mode);
-    void setPages(const QStringList &pages);
-
 private:
-    // These members should be set before the QML engine loads Main
+    KConfig *m_appConfig;
+
+    struct ModeConfig {
+        QString configKey;
+        QStringList pageIds;
+    };
+
+    static const QMap<App::Mode, ModeConfig> ModeConfigs;
+
     Mode m_mode;
-    QStringList m_pages;
+    PagesModel *m_pagesModel;
 
     QString m_customIntroText;
     QString m_customIntroIcon;

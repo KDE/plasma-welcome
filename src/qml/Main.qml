@@ -70,6 +70,7 @@ Kirigami.ApplicationWindow {
         }
     }
 
+    /*
     function _createPage(page, isDistroPage = false) {
         let component = Qt.createComponent(page);
         if (component.status !== Component.Error) {
@@ -117,69 +118,26 @@ Kirigami.ApplicationWindow {
             }
         }
     }
+    */
 
     Component.onCompleted: {
-        // Push pages dynamically
-        switch (Private.App.mode) {
-            case Private.App.Update:
-                _pushPage(_createPage("PlasmaUpdate.qml"));
+        Private.App.pagesModel.pages().forEach(page => {
+            // TODO: There must be a better way to do lifetime management than reparenting in QML
+            //page.parent = pageStack;
 
-                break;
+            if ("show" in page && !page.show) {
+                return;
+            }
 
-            case Private.App.Live:
-                _pushPage(_createPage("Live.qml"));
-                // Fallthrough
+            if (pageStack.currentIndex === -1) {
+                pageStack.push(page);
+            } else {
+                // Insert to avoid changing the current page
+                pageStack.insertPage(pageStack.depth, page);
+            }
 
-            case Private.App.Welcome:
-                _pushPage(_createPage("Welcome.qml"));
-
-                _pushPage(_createPage("Network.qml"));
-
-                _pushPage(_createPage("SimpleByDefault.qml"));
-                _pushPage(_createPage("PowerfulWhenNeeded.qml"));
-
-                _pushPage(_createPage("Discover.qml"));
-
-                if (Private.App.mode !== Private.App.Live) {
-                    _pushPage(_createPage("Feedback.qml"));
-                }
-
-                // Append any distro-specific pages that were found
-                for (let i in Private.App.distroPages) {
-                    _pushPage(_createPage(Private.App.distroPages[i], true));
-                }
-
-                _pushPage(_createPage("Enjoy.qml"));
-
-                break;
-
-            case Private.App.Pages:
-                Private.App.pages.forEach(page => {
-                    var error = "";
-                    var warnStrings = "";
-
-                    let tryPage = function(page) {
-                        let component = Qt.createComponent(page);
-                        if (component.status !== Component.Error) {
-                            _pushPage(component.createObject(null));
-                            return true;
-                        } else {
-                            error += component.errorString();
-                            warnStrings += ((warnStrings.length > 0) ? "\n" : "")
-                                            + "Couldn't load page '" + page + "'" + "\n" + "  " + component.errorString();
-                            component.destroy();
-                            return false;
-                        }
-                    }
-
-                    // Try as both a regular page and distro page
-                    if (!tryPage(page) && !tryPage("file://" + Private.App.distroPagesDir + page)) {
-                        console.warn(warnStrings);
-                        _pushPage(_createErrorPage(error, false, true));
-                    }
-                });
-
-                break;
-        }
+            // Ugh
+            Object.defineProperty(page, "pageStack", { value: app.pageStack });
+        });
     }
 }

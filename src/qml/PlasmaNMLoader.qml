@@ -11,7 +11,7 @@ import org.kde.plasma.welcome.private as Private
 
 Loader {
     id: nmLoader
-    source: "PlasmaNM.qml"
+    source: Qt.resolvedUrl("PlasmaNM.qml")
 
     // Defaults for when PlasmaNM is not available
     property bool statusConnected: false
@@ -25,13 +25,6 @@ Loader {
             icon = Qt.binding(() => nmLoader.item.connectionIcon.connectionIcon);
         } else if (status === Loader.Error) {
             console.warn("PlasmaNM integration failed to load (is plasma-nm available?)");
-        }
-    }
-
-    // Continue to the next page automatically when connected
-    onStatusConnectedChanged: {
-        if (statusConnected && pageStack.currentItem === root) {
-            pageStack.currentIndex += 1;
         }
     }
 
