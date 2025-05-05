@@ -11,7 +11,13 @@ add_subdirectory(public)
 
 # Application, including private library (org.kde.plasma.welcome.private)
 add_executable(plasma-welcome)
-ecm_add_qml_module(plasma-welcome URI "org.kde.plasma.welcome.private" GENERATE_PLUGIN_SOURCE DEPENDENCIES QtQuick)
+ecm_add_qml_module(plasma-welcome
+    URI "org.kde.plasma.welcome.private"
+    GENERATE_PLUGIN_SOURCE
+    DEPENDENCIES
+        QtQuick
+    IMPORT_PATH "${CMAKE_BINARY_DIR}/bin"
+)
 
 configure_file(config-plasma-welcome.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma-welcome.h)
 
