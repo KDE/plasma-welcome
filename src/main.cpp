@@ -73,6 +73,7 @@ int main(int argc, char *argv[])
     parser.setApplicationDescription(description);
     aboutData.setupCommandLine(&parser);
 
+    parser.addOption(QCommandLineOption(QStringLiteral("oobe"), i18n("Display the out-of-box experience where the system's first user is created.")));
     parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
     parser.addOption(QCommandLineOption(QStringLiteral("live-environment"), i18n("Display the live page intended for distro live environments.")));
 
@@ -116,6 +117,8 @@ int main(int argc, char *argv[])
             appSingleton->setMode(App::Mode::Pages);
             appSingleton->setPages(pages);
         }
+    } else if (parser.isSet(QStringLiteral("oobe"))) {
+        appSingleton->setMode(App::Mode::OOBE);
     } else if (parser.isSet(QStringLiteral("post-update"))) {
         appSingleton->setMode(App::Mode::Update);
     } else if (parser.isSet(QStringLiteral("live-environment"))) {

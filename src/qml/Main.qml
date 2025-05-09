@@ -121,6 +121,11 @@ Kirigami.ApplicationWindow {
     Component.onCompleted: {
         // Push pages dynamically
         switch (Private.App.mode) {
+        case Private.App.OOBE: // Out of Box Experience
+            _pushPage(_createPage("OOBE.qml"));
+            _pushPage(_createPage("Time.qml"));
+            _pushPage(_createPage("User.qml"));
+            break;
             case Private.App.Update:
                 _pushPage(_createPage("PlasmaUpdate.qml"));
 

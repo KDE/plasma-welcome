@@ -2,7 +2,11 @@
 # SPDX-FileCopyrightText: 2024 Oliver Beard <olib141@outlook.com>
 
 add_library(plasma-welcome-public STATIC)
-ecm_add_qml_module(plasma-welcome-public URI "org.kde.plasma.welcome" GENERATE_PLUGIN_SOURCE)
+ecm_add_qml_module(plasma-welcome-public
+    URI "org.kde.plasma.welcome"
+    GENERATE_PLUGIN_SOURCE
+    IMPORT_PATH "${CMAKE_BINARY_DIR}/bin"
+)
 
 target_sources(plasma-welcome-public PRIVATE
     controller.cpp

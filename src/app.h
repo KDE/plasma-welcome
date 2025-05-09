@@ -23,6 +23,7 @@ public:
     App(QObject *parent = nullptr);
 
     enum Mode {
+        OOBE, // Out-of-box experience
         Pages, // Specified subset of pages via m_pages
         Update, // Post-Plasma update
         Live, // Welcome with added Live page
