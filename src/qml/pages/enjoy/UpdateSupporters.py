@@ -31,8 +31,14 @@ def import_csv(input_file):
             if "E Mail" in row:
                 row["Donor Email"] = row.pop("E Mail")
 
+            if "E Mail Adresse Des Gebers" in row:
+                row["Donor Email"] = row.pop("E Mail Adresse Des Gebers")
+
             if "Anonym Spenden" in row:
                 row["Make Donation Anonymous"] = row.pop("Anonym Spenden")
+
+            if "Spende Anonym Machen" in row:
+                row["Make Donation Anonymous"] = row.pop("Spende Anonym Machen")
 
             if "Gespendet Am" in row:
                 row["Donated At"] = row.pop("Gespendet Am")
