@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:43+0000\n"
-"PO-Revision-Date: 2025-03-15 09:13+0200\n"
+"PO-Revision-Date: 2025-04-08 21:10+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -624,19 +624,14 @@ msgid "Powerful When Needed"
 msgstr "Tehokas kun tarpeen"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity! Here is just a smattering of the things it can do for "
-#| "you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity!<nl/><nl/>"
 msgstr ""
-"Plasma on hyvin monipuolinen ympäristö, joka on suunniteltu tehostamaan "
-"tuottavuuttasi! Tässä on vain makupala siitä, mitä se voi puolestasi tehdä:"
+"Plasma on monipuolinen ympäristö, joka on suunniteltu tehostamaan "
+"tuottavuuttasi!<nl/>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:47
 #, kde-format
@@ -1034,21 +1029,16 @@ msgstr ""
 "asetukset</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “Kickoff” widget, a multipurpose launcher. Here you can "
-#| "launch apps, shut down or restart the system, access recent files, and "
-#| "more. Click on it to get started!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “Application Launcher” widget, a multipurpose launcher. Here you "
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Tämä on ”Kickoff”-sovelma, monikäyttöinen käynnistin. Tästä voi käynnistää "
-"sovelluksia, sammuttaa tai käynnistää tietokoneen uudelleen, käyttää "
-"viimeaikaisia tiedostoja ja muuta. Aloita napsauttamalla sitä!"
+"Tämä on sovelluskäynnistinsovelma, monikäyttöinen käynnistin. Tästä voi "
+"käynnistää sovelluksia, sammuttaa tai käynnistää tietokoneen uudelleen, "
+"käyttää viimeaikaisia tiedostoja ja muuta. Aloita napsauttamalla sitä!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
