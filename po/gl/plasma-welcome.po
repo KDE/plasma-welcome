@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:43+0000\n"
-"PO-Revision-Date: 2025-03-05 07:02+0100\n"
+"PO-Revision-Date: 2025-05-20 06:45+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.2\n"
+"X-Generator: Lokalize 25.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -631,19 +631,14 @@ msgid "Powerful When Needed"
 msgstr "Potente cando cómpre"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity! Here is just a smattering of the things it can do for "
-#| "you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity!<nl/><nl/>"
 msgstr ""
 "Plasma é un contorno repleto de funcionalidades, deseñado para disparar a "
-"produtividade! Velaquí unhas mostras do que pode facer:"
+"produtividade!<nl/><nl/>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:47
 #, kde-format
@@ -1044,21 +1039,16 @@ msgstr ""
 "modificar trebellos."
 
 #: src/qml/pages/SimpleByDefault.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “Kickoff” widget, a multipurpose launcher. Here you can "
-#| "launch apps, shut down or restart the system, access recent files, and "
-#| "more. Click on it to get started!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “Application Launcher” widget, a multipurpose launcher. Here you "
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Este é o trebello de «inicio», un iniciador polivalente. Pode iniciar "
-"aplicacións, apagar ou reiniciar o sistema, acceder a ficheiros recentes, e "
-"máis. Prema nel para comezar!"
+"Este é o trebello de «iniciador de aplicacións», un iniciador polivalente. "
+"Pode iniciar aplicacións, apagar ou reiniciar o sistema, acceder a ficheiros "
+"recentes, e máis. Prema nel para comezar!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
