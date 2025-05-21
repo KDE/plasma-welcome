@@ -30,5 +30,3 @@ target_link_libraries(plasma-welcome-public PRIVATE
     KF6::KCMUtils
     KF6::KIOGui
 )
-
-ecm_finalize_qml_module(plasma-welcome-public)
