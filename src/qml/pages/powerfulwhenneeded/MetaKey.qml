@@ -25,7 +25,9 @@ Welcome.Page {
         }
     ]
 
-    description: xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and shows a symbol of some kind on it, or else the word “Super:”")
+    description: Welcome.Utils.isMac()
+        ? xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac keyboard, this is the “Command” key that has a sort of four-leaf clover symbol on it:")
+        : xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and shows a symbol of some kind on it, or else the word “Super:”")
 
     topContent: [
         MockKeyboard {
@@ -40,7 +42,7 @@ Welcome.Page {
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: xi18nc("@info:usagetip", "What can you do with the <shortcut>Meta</shortcut> key? Here are a few examples:\
-<list><item>Press it: Open the “Kickoff” Application Launcher widget</item>\
+<list><item>Press it: Open the Application Launcher widget</item>\
 <item>Press <shortcut>Meta+[arrow keys]</shortcut>: Tile window to screen edges or corners</item>\
 <item>Press <shortcut>Meta+[number keys]</shortcut>: Launch pinned Task Manager apps</item>\
 <item>Press <shortcut>Meta+R</shortcut>: Start a screen recording</item>\
