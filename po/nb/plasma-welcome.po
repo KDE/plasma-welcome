@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:43+0000\n"
-"PO-Revision-Date: 2025-03-02 13:19+0100\n"
+"PO-Revision-Date: 2025-05-31 20:34+0200\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
 "Language: nb\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.2\n"
+"X-Generator: Lokalize 25.04.1\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -282,7 +282,7 @@ msgstr "Klarte ikke laste inn siden fra velkomstsenteret"
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Finn nyttige programmer"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -295,6 +295,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"Det trengs ikke å søke på nettet for å laste ned installeringsprogram eller "
+"å bruke kommandolinja til en pakkebehandler; KDE sin egen <application>%1</"
+"application> gjør alt for deg!<nl/> <nl/> Trykk på en av ikonene for å prøve "
+"ut!"
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -625,14 +629,14 @@ msgid "Powerful When Needed"
 msgstr "Kraftig når det trengs"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity!<nl/><nl/>"
 msgstr ""
-"Plasma har svært mye funksjonalitet, laget for å gjøre deg supereffektiv! "
-"Her er noen eksempel på hva som finnes:"
+"Plasma har svært mye funksjonalitet, laget for å gjøre deg supereffektiv!<nl/"
+"><nl/>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:47
 #, kde-format
@@ -1029,16 +1033,16 @@ msgstr ""
 "langs, eller for å legge til eller fjerne småprogram."
 
 #: src/qml/pages/SimpleByDefault.qml:39
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “Application Launcher” widget, a multipurpose launcher. Here you "
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Dette er <i>programstarteren</i> (også kalt «Kickoff»). Her kan du blant "
-"annet starte program, slå av eller starte om maskinen og få tilgang til "
-"nylige brukte filer. Trykk på den og prøv deg frem!"
+"Dette er «programstarteren». Her kan du blant annet starte program, slå av "
+"eller starte om maskinen og få tilgang til nylige brukte filer. Trykk på den "
+"og prøv deg frem!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
