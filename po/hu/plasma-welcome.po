@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2023, 2024 Kristof Kiszel <kiszel.kristof@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Kristof Kiszel <kiszel.kristof@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:43+0000\n"
-"PO-Revision-Date: 2024-11-16 20:49+0100\n"
+"PO-Revision-Date: 2025-06-06 23:32+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 25.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -173,12 +173,10 @@ msgid "&Next"
 msgstr "&Tovább"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Oldal megjelenítése a Plasma frissítése után"
+msgstr "Megjelenítés a Plasma frissítése után"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -285,7 +283,7 @@ msgstr "Ez az Üdvözlőközpont által biztosított oldal nem tölthető be"
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Találjon remek alkalmazásokat"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -298,6 +296,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"Nincs szükség az interneten keresgélni az alkalmazások telepítőit vagy egy "
+"csomagkezelőt használni; a KDE alkalmazásboltja, a(z) <application>%1</"
+"application> mindent megtesz Önért!<nl/><nl/>Kattintson az alábbi ikonok "
+"bármelyikére, és próbálja ki!"
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -361,45 +363,39 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Rendezési sorrend: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort Randomly"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr "Rendezés véletlenszerűen"
+msgstr "Véletlenszerű"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Vezetéknév szerint"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort by Name"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "Rendezés név szerint"
+msgstr "Keresztnév szerint"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Start Contributing!"
+#, kde-format
 msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "Közreműködés elkezdése!"
+msgstr "Közreműködés dátuma szerint"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "Fordított"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -557,7 +553,7 @@ msgstr "Hibabejelentés"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Letölti a kiadás bejelentésének egy beágyazott előnézetét?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -566,50 +562,50 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Az előnézet nem töltődött le automatikusan, mivel Ön egy forgalmi díjat "
+"hálózati kapcsolatot használ."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Az előnézet nem tölthető le - hálózati hiba történt (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "Az előnézet nem tölthető be - feldolgozási hiba történt."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Előnézet letöltése"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Letöltés mindenképp"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Újra"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Beállítások megnyitása…"
+msgstr "Megnyitás böngészőben…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Előnézet betöltése automatikusan"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -618,12 +614,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Az előnézet automatikusan betöltődik, amikor ez az oldal megjelenik a "
+"jövőbeli Plasma frissítések esetén, kivéve, ha forgalmi díjas hálózati "
+"kapcsolatot használ."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Kattintson a bejelentés elolvasásához</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -632,20 +631,14 @@ msgid "Powerful When Needed"
 msgstr "Hatékony, amikor szükséges"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity! Here is just a smattering of the things it can do for "
-#| "you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity!<nl/><nl/>"
 msgstr ""
 "A Plasma egy rendkívül funkciógazdag környezet, amelyet úgy terveztek, hogy "
-"felturbózza a hatékonyságát! Íme egy kis ízelítő azokból a dolgokból, amikre "
-"képes:"
+"felturbózza a hatékonyságát!<nl/><nl/>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:47
 #, kde-format
@@ -1051,21 +1044,16 @@ msgstr ""
 "hozzáadásához, eltávolításához vagy módosításához."
 
 #: src/qml/pages/SimpleByDefault.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “Kickoff” widget, a multipurpose launcher. Here you can "
-#| "launch apps, shut down or restart the system, access recent files, and "
-#| "more. Click on it to get started!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “Application Launcher” widget, a multipurpose launcher. Here you "
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Ez a „Kickoff” elem, egy többcélú indító. Itt elindíthat alkalmazásokat, "
-"leállíthatja vagy újraindíthatja a rendszert, hozzáférhet a legutóbbi "
-"fájlokhoz és még sok máshoz. Kattintson rá az indításhoz!"
+"Ez a „Alkalmazásindító” elem, egy többcélú indító. Itt elindíthat "
+"alkalmazásokat, leállíthatja vagy újraindíthatja a rendszert, hozzáférhet a "
+"legutóbbi fájlokhoz és még sok máshoz. Kattintson rá az indításhoz!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
