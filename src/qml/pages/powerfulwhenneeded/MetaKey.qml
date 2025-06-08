@@ -20,7 +20,7 @@ Welcome.Page {
     actions: [
         Kirigami.Action {
             icon.name: "preferences-desktop-keyboard-shortcut"
-            text: i18nc("@action:button", "See more Keyboard Shortcuts…")
+            text: i18nc("@action:button", "Configure Shortcuts…")
             onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_keys")
         }
     ]
