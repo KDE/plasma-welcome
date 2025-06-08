@@ -30,12 +30,103 @@ Welcome.Page {
         : xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and shows a symbol of some kind on it, or else the word “Super:”")
 
     topContent: [
-        MockKeyboard {
+        Item {
+            id: keyboard
+
+            readonly property int keySpacing: Kirigami.Units.largeSpacing
             readonly property int topAndBottomMargins: Kirigami.Units.gridUnit * 2
 
             Layout.alignment: Qt.AlignHCenter
             Layout.topMargin: topAndBottomMargins
             Layout.bottomMargin: topAndBottomMargins
+
+            implicitWidth: pcKeyboardLayout.visible? pcKeyboardLayout.implicitWidth : macKeyboardLayout.implicitWidth
+            implicitHeight: pcKeyboardLayout.visible? pcKeyboardLayout.implicitHeight : macKeyboardLayout.implicitHeight
+
+            // Generic PC keyboard layout, since they're almost all the same on the left
+            // side of the space bar
+            RowLayout {
+                id: pcKeyboardLayout
+
+                visible: !Welcome.Utils.isMac()
+
+                spacing: keyboard.keySpacing
+
+                MockKey {
+                    label: i18nc("The typical label for the keyboard's Ctrl key", "Ctrl")
+                }
+                MockKey {
+                    label: i18nc("The typical label for the keyboard's Function key", "Fn")
+                }
+                MockKey {
+                    id: metaKey
+
+                    property var symbols: [
+                        // Icon name, symbol, or label     If it's an icon, treat it as a mask?
+                        ["icon:applications-all-symbolic", true],
+                        ["⌘", true],
+                        ["icon:start-here", false],
+                        ["icon:preferences-system-linux", false],
+                        ["icon:start-here-kde-symbolic", true],
+                        [i18nc("The typical label for the keyboard's Meta key", "Super"), true],
+                    ]
+                    property int currentSymbolIndex: 0
+
+                    label: symbols[currentSymbolIndex][0]
+                    iconIsMask: symbols[currentSymbolIndex][1]
+                    highlighted: true
+
+
+                    QQC2.ToolTip.text: i18nc("This is a terrible dad joke about the meta key on the keyboard being able to have many symbols. Translate it into one of similar groanworthiness if this is possible; if not, translate it as an empty string.", "I never meta key I didn't like")
+                    QQC2.ToolTip.visible: QQC2.ToolTip.text.length > 0 && metaKeyHoverHandler.hovered
+                    QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+
+                    HoverHandler {
+                        id: metaKeyHoverHandler
+                    }
+
+                    Timer {
+                        interval: Kirigami.Units.humanMoment
+                        running: true
+                        repeat: true
+                        onTriggered: {
+                            if (metaKey.currentSymbolIndex === metaKey.symbols.length - 1) {
+                                metaKey.currentSymbolIndex = 0;
+                            } else {
+                                metaKey.currentSymbolIndex++;
+                            }
+                        }
+                    }
+                }
+                MockKey {
+                    Layout.preferredWidth: Math.round(implicitWidth * 1.5)
+                    label: i18nc("The typical label for the keyboard's Alt key", "Alt")
+                }
+            }
+
+            // Mac keyboard layout, since it's appreciably different and we can detect it
+            RowLayout {
+                id: macKeyboardLayout
+
+                visible: Welcome.Utils.isMac()
+
+                spacing: keyboard.keySpacing
+
+                MockKey {
+                    label: "🌐"
+                }
+                MockKey {
+                    label: "^"
+                }
+                MockKey {
+                    label: "⌥"
+                }
+                MockKey {
+                    Layout.preferredWidth: Math.round(implicitWidth * 1.5)
+                    label: "⌘"
+                    highlighted: true
+                }
+            }
         },
 
         QQC2.Label {
@@ -55,4 +146,64 @@ Welcome.Page {
 <item>…And much more!</item></list>")
         }
     ]
+
+    component MockKey: Rectangle {
+        id: key
+
+        property string label: ""
+        property bool iconIsMask: false
+        property bool highlighted: false
+
+        readonly property bool labelIsIcon: label.startsWith("icon:")
+        readonly property string iconName: labelIsIcon ? label.replace("icon:", ""): ""
+
+        readonly property int keySize: Kirigami.Units.gridUnit * 3
+        readonly property int keyIconSize: Kirigami.Units.iconSizes.medium
+
+        implicitWidth: Math.max(keySize, innerLabel.implicitWidth + (innerLabel.anchors.margins * 2))
+        implicitHeight: keySize
+
+        radius: Kirigami.Units.cornerRadius
+
+        // Hardcode dark colors because:
+        // 1. Most keyboard keys these days are black or at least dark
+        // 2. Reversing colors such that there are bright white keys when using a dark
+        //    theme looks weird
+        color: "#232323"
+        border.color: highlighted ? "deepskyblue" : "black"
+        border.width: highlighted ? 2 : 1
+
+        QQC2.Label {
+            id: innerLabel
+
+            anchors.fill: parent
+            anchors.margins: Kirigami.Units.largeSpacing
+
+            visible: opacity > 0
+            opacity: key.labelIsIcon ? 0 : 1
+            Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
+            text: key.labelIsIcon ? "" : key.label
+            // Show single-character symbols as large as icons
+            font.pointSize: Kirigami.Theme.defaultFont.pointSize * (text.length === 1 ? 2 : 1)
+            color: "white"
+            horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignVCenter
+        }
+
+        Kirigami.Icon {
+            anchors.centerIn: parent
+            width: key.keyIconSize
+            height: key.keyIconSize
+
+            visible: opacity > 0
+            opacity: key.labelIsIcon ? 1 : 0
+            Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
+            source: key.iconName
+            animated: true
+            isMask: key.iconIsMask
+            color: "white"
+        }
+    }
 }

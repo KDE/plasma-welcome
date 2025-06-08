@@ -36,8 +36,6 @@ ecm_target_qml_sources(plasma-welcome
 
     qml/mock/MockCard.qml
     qml/mock/MockActivities.qml
-    qml/mock/MockKey.qml
-    qml/mock/MockKeyboard.qml
     qml/mock/MockKRunner.qml
     qml/mock/MockOverview.qml
     qml/mock/MockPanel.qml
