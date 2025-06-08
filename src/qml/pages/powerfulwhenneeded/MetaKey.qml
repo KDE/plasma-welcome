@@ -34,7 +34,7 @@ Welcome.Page {
             id: keyboard
 
             readonly property int keySpacing: Kirigami.Units.largeSpacing
-            readonly property int topAndBottomMargins: Kirigami.Units.gridUnit * 2
+            readonly property int topAndBottomMargins: Kirigami.Units.gridUnit
 
             Layout.alignment: Qt.AlignHCenter
             Layout.topMargin: topAndBottomMargins
