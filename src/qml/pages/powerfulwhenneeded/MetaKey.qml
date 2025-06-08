@@ -64,9 +64,8 @@ Welcome.Page {
                     property var symbols: [
                         // Icon name, symbol, or label     If it's an icon, treat it as a mask?
                         ["icon:applications-all-symbolic", true],
-                        ["icon:start-here", false],
-                        ["icon:preferences-system-linux", false],
                         ["icon:start-here-kde-symbolic", true],
+                        ["icon:preferences-system-linux", false],
                         [i18nc("The typical label for the keyboard's Meta key", "Super"), true],
                     ]
                     property int currentSymbolIndex: 0

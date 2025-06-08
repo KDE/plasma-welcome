@@ -45,7 +45,7 @@ Welcome.Page {
                     {
                         page: "MetaKey.qml",
                         title: i18nc("@title:row", "Keyboard Shortcuts"),
-                        subtitle: i18nc("@info Caption for Get Keyboard Shortcuts button", "Activate loads of features from the keyboard"),
+                        subtitle: i18nc("@info Caption for Get Keyboard Shortcuts button", "Activate features from the keyboard"),
                         buttonIcon: "preferences-desktop-keyboard-shortcut"
                     },
                     {
