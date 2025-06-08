@@ -64,7 +64,6 @@ Welcome.Page {
                     property var symbols: [
                         // Icon name, symbol, or label     If it's an icon, treat it as a mask?
                         ["icon:applications-all-symbolic", true],
-                        ["⌘", true],
                         ["icon:start-here", false],
                         ["icon:preferences-system-linux", false],
                         ["icon:start-here-kde-symbolic", true],
