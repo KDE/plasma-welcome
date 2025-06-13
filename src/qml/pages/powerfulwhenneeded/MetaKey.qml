@@ -26,7 +26,7 @@ Welcome.Page {
     ]
 
     description: Welcome.Utils.isMac()
-        ? xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac keyboard, this is the “Command” key that has a sort of four-leaf clover symbol on it:")
+        ? xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac keyboard, this is the “Command” key:")
         : xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and shows a symbol of some kind on it, or else the word “Super:”")
 
     topContent: [
@@ -111,17 +111,21 @@ Welcome.Page {
                 spacing: keyboard.keySpacing
 
                 MockKey {
-                    label: "🌐"
+                    label: i18nc("The actual translated label for 'fn' on a Mac keyboard", "fn")
+                    subLabel: "🌐"
                 }
                 MockKey {
                     label: "^"
+                    subLabel: i18nc("The actual translated label for 'control' on a Mac keyboard", "control")
                 }
                 MockKey {
                     label: "⌥"
+                    subLabel: i18nc("The actual translated label for 'option' on a Mac keyboard", "option")
                 }
                 MockKey {
-                    Layout.preferredWidth: Math.round(implicitWidth * 1.5)
+                    // Layout.preferredWidth: Math.round(implicitWidth * 1.5)
                     label: "⌘"
+                    subLabel: i18nc("The actual translated label for 'command' on a Mac keyboard", "command")
                     highlighted: true
                 }
             }
@@ -140,8 +144,7 @@ Welcome.Page {
 <item>Press <shortcut>Meta+Alt+P</shortcut>: Move keyboard focus to panel</item>\
 <item>Press <shortcut>Meta+Esc</shortcut>: Launch System Monitor app</item>\
 <item>Press <shortcut>Meta+.</shortcut>: Launch Emoji Selector app</item>\
-<item>Press <shortcut>Meta+D</shortcut>: Show the desktop</item>\
-<item>…And much more!</item></list>")
+<item>Press <shortcut>Meta+D</shortcut>: Show the desktop</item></list>")
         }
     ]
 
@@ -149,6 +152,7 @@ Welcome.Page {
         id: key
 
         property string label: ""
+        property string subLabel: ""
         property bool iconIsMask: false
         property bool highlighted: false
 
@@ -158,7 +162,9 @@ Welcome.Page {
         readonly property int keySize: Kirigami.Units.gridUnit * 3
         readonly property int keyIconSize: Kirigami.Units.iconSizes.medium
 
-        implicitWidth: Math.max(keySize, innerLabel.implicitWidth + (innerLabel.anchors.margins * 2))
+        implicitWidth: Math.max(keySize,
+                                mainLabel.implicitWidth + (symbolContainer.anchors.margins * 2),
+                                secondaryLabel.implicitWidth + (secondaryLabel.anchors.margins * 2))
         implicitHeight: keySize
 
         radius: Kirigami.Units.cornerRadius
@@ -171,36 +177,61 @@ Welcome.Page {
         border.color: highlighted ? "deepskyblue" : "black"
         border.width: highlighted ? 2 : 1
 
-        QQC2.Label {
-            id: innerLabel
+        Item {
+            id: symbolContainer
 
             anchors.fill: parent
-            anchors.margins: Kirigami.Units.largeSpacing
+            anchors.margins: Welcome.Utils.isMac() ? Kirigami.Units.smallSpacing : Kirigami.Units.largeSpacing
 
-            visible: opacity > 0
-            opacity: key.labelIsIcon ? 0 : 1
-            Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+            QQC2.Label {
+                id: mainLabel
 
-            text: key.labelIsIcon ? "" : key.label
-            // Show single-character symbols as large as icons
-            font.pointSize: Kirigami.Theme.defaultFont.pointSize * (text.length === 1 ? 2 : 1)
-            color: "white"
-            horizontalAlignment: Text.AlignHCenter
-            verticalAlignment: Text.AlignVCenter
+                anchors {
+                    fill: Welcome.Utils.isMac() ? undefined : parent
+                    top: Welcome.Utils.isMac() ? parent.top : undefined
+                    right: Welcome.Utils.isMac() ? parent.right : undefined
+                }
+
+                visible: opacity > 0
+                opacity: key.labelIsIcon ? 0 : 1
+                Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
+                text: key.labelIsIcon ? "" : key.label
+                // Show single-character symbols as large as icons
+                font.pointSize: Kirigami.Theme.defaultFont.pointSize * (text.length > 1 || Welcome.Utils.isMac() ? 1 : 2)
+                color: "white"
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+            }
+
+            Kirigami.Icon {
+                anchors.centerIn: parent
+                width: key.keyIconSize
+                height: key.keyIconSize
+
+                visible: opacity > 0
+                opacity: key.labelIsIcon ? 1 : 0
+                Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+
+                source: key.iconName
+                animated: true
+                isMask: key.iconIsMask
+                color: "white"
+            }
         }
 
-        Kirigami.Icon {
-            anchors.centerIn: parent
-            width: key.keyIconSize
-            height: key.keyIconSize
+        QQC2.Label {
+            id: secondaryLabel
 
-            visible: opacity > 0
-            opacity: key.labelIsIcon ? 1 : 0
-            Behavior on opacity { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad }}
+            anchors {
+                bottom: parent.bottom
+                left: parent.left
+                margins: Kirigami.Units.smallSpacing
+            }
 
-            source: key.iconName
-            animated: true
-            isMask: key.iconIsMask
+            visible: text.length > 0
+
+            text: key.subLabel
             color: "white"
         }
     }
