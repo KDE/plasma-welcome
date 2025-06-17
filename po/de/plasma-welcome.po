@@ -5,6 +5,7 @@
 # Frederik Schwarzer <schwarzer@kde.org>, 2023.
 # SPDX-FileCopyrightText: 2023, 2024 Johannes Obermayr <johannesobermayr@gmx.de>
 # SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
+# SPDX-FileCopyrightText: 2025 Alois Spitzbart <spitz234@hotmail.com>
 #
 # Automatically generated, 2022.
 msgid ""
@@ -12,15 +13,15 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:43+0000\n"
-"PO-Revision-Date: 2025-02-22 03:03+0100\n"
-"Last-Translator: Flori G <Renner03@protonmail.com>\n"
+"PO-Revision-Date: 2025-06-07 13:28+0200\n"
+"Last-Translator: Alois Spitzbart <spitz234@hotmail.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.2\n"
+"X-Generator: Lokalize 25.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -177,12 +178,10 @@ msgid "&Next"
 msgstr "&Weiter"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Diese Seite nach dem Aktualisieren von Plasma zeigen"
+msgstr "Nach dem Aktualisieren von Plasma zeigen"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -289,7 +288,7 @@ msgstr "Diese Seite des Begrüßungsassistenten kann nicht geladen werden"
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Tolle Apps finden"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -302,6 +301,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"Sie müssen nicht mehr das Web durchsuchen, um Installationsprogramme "
+"herunterzuladen oder einen Kommandozeilen-Paketmanager verwenden; KDEs App "
+"Store <application>%1</application> erledigt das alles für Sie!<nl/><nl/"
+">Klicken Sie auf eines der Symbole unten, um es auszuprobieren!"
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -366,45 +369,39 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Sortieren nach: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort Randomly"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr "Zufällig sortieren"
+msgstr "Zufällig"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Nachnamen"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort by Name"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "Nach Namen sortieren"
+msgstr "Vornamen"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Start Contributing!"
+#, kde-format
 msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "Jetzt mitmachen!"
+msgstr "Beitragszeitpunkt"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "Umkehren"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -564,6 +561,7 @@ msgstr "Ein Problem melden"
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
 msgstr ""
+"Eine eingebettete Vorschau der Veröffentlichungsankündigung herunterladen?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -572,50 +570,54 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Die Vorschau wurde nicht automatisch heruntergeladen, da Sie eine "
+"gebührenpflichtige Netzwerkverbindung verwenden."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
 msgstr ""
+"Die Vorschau konnte nicht heruntergeladen werden – es ist ein Netzwerkfehler "
+"aufgetreten (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
 msgstr ""
+"Die Vorschau konnte nicht geladen werden – es ist ein Parse-Fehler "
+"aufgetreten."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Vorschau herunterladen"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Trotzdem herunterladen"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Erneut versuchen"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Einstellungen öffnen ..."
+msgstr "Im Browser öffnen …"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Vorschau automatisch laden"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -624,12 +626,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Die Vorschau wird automatisch geladen, wenn diese Seite für künftige Plasma-"
+"Updates angezeigt wird. Dies ist nur der Fall, wenn Sie eine "
+"gebührenpflichtige Netzwerkverbindung verwenden."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Zum Lesen der Ankündigung klicken</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -638,20 +643,14 @@ msgid "Powerful When Needed"
 msgstr "Mächtig bei Bedarf"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity! Here is just a smattering of the things it can do for "
-#| "you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity!<nl/><nl/>"
 msgstr ""
 "Plasma ist eine extrem funktionsreiche Arbeitsumgebung, wie dafür gemacht, "
-"Ihre Produktivität zu optimieren. Hier nur ein paar wenige Beispiel, was "
-"Plasma für Sie tun kann:"
+"Ihre Produktivität zu optimieren.<nl/><nl/>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:47
 #, kde-format
@@ -1038,8 +1037,8 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
-"Das ist die „Arbeitsfläche”. Sie zeigt die Dateien und Ordner Ihres "
-"<filename>Arbeitsflächen-</filename>Ordners an und kann Miniprogramme "
+"Das ist die „Arbeitsfläche“. Sie zeigt die Dateien und Ordner Ihres "
+"<filename>Arbeitsflächen</filename>-Ordners an und kann Miniprogramme "
 "beinhalten. Durch einen Rechtsklick und Auswahl von <interface>Arbeitsfläche "
 "und Hintergrundbild …</interface> kann das Erscheinungsbild der "
 "Arbeitsfläche eingerichtet werden. Mit <interface>Bearbeitungsmodus starten</"
@@ -1059,22 +1058,17 @@ msgstr ""
 "Miniprogramme hinzugefügt, geändert oder entfernt werden."
 
 #: src/qml/pages/SimpleByDefault.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “Kickoff” widget, a multipurpose launcher. Here you can "
-#| "launch apps, shut down or restart the system, access recent files, and "
-#| "more. Click on it to get started!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “Application Launcher” widget, a multipurpose launcher. Here you "
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Das ist das „Kickoff”-Miniprogramm mit einem universellen Starter. Hier "
-"können unter anderem Anwendungen gestartet, das System heruntergefahren oder "
-"neu gestartet sowie zuletzt verwendete Daten geöffnet werden. Durch einen "
-"Klick wird es gestartet."
+"Das ist das „Anwendungsstarter“-Miniprogramm mit einem universellen Starter. "
+"Hier können unter anderem Anwendungen gestartet, das System heruntergefahren "
+"oder neu gestartet sowie zuletzt verwendete Daten geöffnet werden. Klicken "
+"Sie, um loszulegen!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
