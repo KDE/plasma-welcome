@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:43+0000\n"
-"PO-Revision-Date: 2025-06-03 18:56+0400\n"
+"PO-Revision-Date: 2025-06-17 16:26+0400\n"
 "Last-Translator: linux <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
 "Language: az\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.1\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -473,7 +473,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Hal-hazırda Plasma üçün şəbəkə dəstəyi quraşdırılmayıb"
 
 #: src/qml/pages/Network.qml:41
 #, kde-kuit-format
@@ -482,18 +482,21 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Şəbəkə bağlantılarını idarə etmək üçün Plasma,<icode>plasma nm</icode> "
+"paketini quraşdırmağı tələb edir. Bu paketin olmadığını %1 distributorunun "
+"yaradıcısına məlumat verin."
 
 #: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr ""
+msgstr "Şəbəkəyə qoşuldunuz"
 
 #: src/qml/pages/Network.qml:212
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Başlamaq üçün hər şey hazırdır!"
 
 #: src/qml/pages/Network.qml:219
 #, kde-format
@@ -503,18 +506,21 @@ msgid ""
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
+"Bu səhifənin göstərilməsi şəbəkə bağlantısından asılıdr, çünki hazırda siz "
+"tərtibatçı versiyasından istifadə edirsiniz. Səhifənin müxtəlif "
+"vəziyyətlərini nəzər salmaq üçün düymələrdən istifadə edə bilərsiniz."
 
 #: src/qml/pages/Network.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Vəziyyəti dəyişmək"
 
 #: src/qml/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr ""
+msgstr "Plasma %1 versiyasına yeniləndi"
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
