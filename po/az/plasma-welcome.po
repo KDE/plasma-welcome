@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:43+0000\n"
-"PO-Revision-Date: 2025-06-17 16:26+0400\n"
+"PO-Revision-Date: 2025-06-19 19:43+0400\n"
 "Last-Translator: linux <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
 "Language: az\n"
@@ -530,6 +530,10 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Plasmanın bu beta buraxılışını sinaqdan keçirdiyiniz üçün sizə minnətdarıq. "
+"Onu inkişaf etdirmək üçün sizin rəyləriniz çox faydalıdır! Tapdığınız "
+"xətalar haqqında bizə məlumat verin ki tərtibatçılar bu xətaları "
+"düzəltsinlər."
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -538,6 +542,9 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"KDE çalışanları bu buraxılış üzərində dörd ay əzmlə işlədilər. Ümid edirik "
+"ki, biz Plasma-nı ərsəyə gətirməkdən aldığımız zövq qədər siz də onu "
+"istifadə etməkdən zövq alacaqsınız!"
 
 #: src/qml/pages/PlasmaUpdate.qml:29
 #, kde-format
@@ -780,12 +787,22 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "“KDE Connect”. On that page, you can pair your phone."
 msgstr ""
+"KDE Connect telefonunuzu kompüterinizlə fərqli yollarla əlaqələndirir: <nl/"
+"><list><item>Telefonunuzdakı bildirişləri komputerinizdə görə bilmək</"
+"item><item>Kompüterinizdən telefondakı ismarıclara cavab vermək</"
+"item><item>Mübadilə yaddaşı məzmunlarını telefon və komputeriniz ilə "
+"eyniləşdirmək</item><item>Telefonunuzu itirdikdə zənglə onu tapmaq</"
+"item><item>Şəkilləri, videoları və başqa faylları telefonunuzdan "
+"kompüterinizə və ya əksinə kopyalamaq</item><item>...və bir çox əməllər!</"
+"item></list><nl/>Başlamaq üçün <interface>Sistem ayarları</interface> "
+"tətbiqində \"KDE Connect\"-i tapın. Bu səhifədə telefonunuz ilə komputeriniz "
+"arasında bağlantı yarada bilərsiniz."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr ""
+msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
 #, kde-kuit-format
@@ -798,6 +815,13 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
+"KRunner müstəsna güclü və hərtərəfli bir Plasma axtarış sistemidir. O, "
+"tətbiq başladıcı menyusunda və ümumi baxış ekranında axtarış funksiyasını "
+"təmin edir və həmçinin <shortcut>Alt+Boşluq</shortcut> klaviatura qısa yolu "
+"ilə ondan müstəqil axtarış çubuğu şəklində istifadə edə bilərsiniz.<nl/><nl/"
+">Faylları və ya qovluqları tapmaqla yanaşı KRunner tətbiqləri başlada, "
+"internetdə axtarış edə, valyutaları çevirə hesablama apara və sair "
+"tapşırıqları yerinə yetirə bilər."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
 #, kde-kuit-format
@@ -806,6 +830,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Daha çox öyrənmək üçün <shortcut>Alt+Boşluq</shortcut> klaviatura qısa yolu "
+"ilə KRunneri açın və sual işarəsi nişanına vurun."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
 #, kde-format
@@ -815,7 +841,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "Şanxay vaxtı"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -823,7 +849,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
@@ -832,7 +858,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 avro dollarla"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
@@ -841,7 +867,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 mil km ilə"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
@@ -849,13 +875,13 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...bu heç də hamısı deyil!"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr ""
+msgstr "Ümumi baxış"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:20
 #, kde-kuit-format
