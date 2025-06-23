@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:43+0000\n"
-"PO-Revision-Date: 2025-06-01 15:14+0200\n"
+"PO-Revision-Date: 2025-06-22 11:03+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.07.70\n"
+"X-Generator: Lokalize 25.04.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -295,6 +295,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"For å installera nye program treng du verken søkja på nettet, lasta ned "
+"eigne installerings­program eller bruka kommando­linja – <application>%1</"
+"application> gjer jobben for deg!<nl/><nl/>Trykk på eitt av ikona nedanfor "
+"for å prøva det ut!"
 
 #: src/qml/pages/Discover.qml:107
 #, kde-format
@@ -316,9 +320,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
-"Me håpar du vil få like mykje glede av å bruka Plasma som me har hatt av å "
-"utvikla det for dykk alle! No er det berre å setja i gang. Utforsk dei ulike "
-"funksjonane, installer program og spel som du likar – gjer det som "
+"Me håpar du vil få like mykje glede av å bruka Plasma-systemet som me har "
+"hatt av å utvikla det for dykk alle! No er det berre å setja i gang. Utforsk "
+"dei ulike funksjonane, installer program og spel som du likar – gjer det som "
 "interesserer deg!"
 
 #: src/qml/pages/Enjoy.qml:26
@@ -534,8 +538,8 @@ msgid ""
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
 "KDE-bidragsytarane har dei siste fire månadane arbeidd hardt med denne "
-"utgåva. Me håpar du vil få like mykje glede av å bruka Plasma som me har "
-"hatt av å utvikla det for dykk alle!"
+"utgåva. Me håpar du vil få like mykje glede av å bruka Plasma-systemet som "
+"me har hatt av å utvikla det for dykk alle!"
 
 #: src/qml/pages/PlasmaUpdate.qml:29
 #, kde-format
@@ -547,7 +551,7 @@ msgstr "Meld frå om feil"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Vil du lasta ned ei førehandsvising av kunngjeringa av den nye utgåva?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -556,18 +560,22 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Førehandsvisinga vart ikkje lasta ned automatisk, då du brukar forbruksmålt "
+"Internett-tilgang."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
 msgstr ""
+"Klarte ikkje lasta ned førehandsvisinga: Det oppstod ein nettverksfeil (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
 msgstr ""
+"Klarte ikkje lasta ned førehandsvisinga: Det oppstod ein filtolkingsfeil."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
@@ -597,7 +605,7 @@ msgstr "Opna i nettlesar …"
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Last automatisk ned førehandsvisingar"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -606,6 +614,9 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Førehandsvisingar for framtidige Plasma-oppdateringar vert automatisk lasta "
+"ned viss dette er slått på, utanom viss du brukar forbruksmålt Internett-"
+"tilgang."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
