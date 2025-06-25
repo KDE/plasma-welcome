@@ -65,75 +65,82 @@ Welcome.Page {
         }
     ]
 
-    ColumnLayout {
+    QQC2.AbstractButton {
+        id: konqiButton
+
         anchors.centerIn: parent
-        height: Math.min(parent.height, Kirigami.Units.gridUnit * 17)
-        spacing: Kirigami.Units.smallSpacing
+        height: Math.min(root.height, Kirigami.Units.gridUnit * 17)
 
-        Loader {
-            id: imageContainer
+        property string url: Private.App.customIntroIconLink || plasmaLink.url
 
-            readonly property bool isImage:
-                // Image path in the file
-                Private.App.customIntroIcon.startsWith("file:/") ||
-                // Our default image
-                Private.App.customIntroIcon.length === 0
+        text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
 
-            Layout.alignment: Qt.AlignHCenter
-            Layout.fillHeight: true
-            Layout.maximumWidth: root.width
+        onClicked: Qt.openUrlExternally(url)
 
-            sourceComponent: isImage ? imageComponent : iconComponent
+        contentItem: ColumnLayout {
+            spacing: Kirigami.Units.smallSpacing
 
-            Component {
-                id: imageComponent
+            Loader {
+                id: imageContainer
 
-                Image {
-                    id: image
-                    source: Private.App.customIntroIcon || "konqi-kde-hi.png"
-                    fillMode: Image.PreserveAspectFit
+                readonly property bool isImage:
+                    // Image path in the file
+                    Private.App.customIntroIcon.startsWith("file:/") ||
+                    // Our default image
+                    Private.App.customIntroIcon.length === 0
 
-                    Kirigami.PlaceholderMessage {
-                        width: root.width - (Kirigami.Units.largeSpacing * 4)
-                        anchors.centerIn: parent
-                        text: i18nc("@title", "Image loading failed")
-                        explanation: xi18nc("@info:placeholder", "Could not load <filename>%1</filename>. Make sure it exists.", Private.App.customIntroIcon)
-                        visible: image.status == Image.Error
+                Layout.alignment: Qt.AlignHCenter
+                Layout.fillHeight: true
+                Layout.maximumWidth: root.width
+
+                sourceComponent: isImage ? imageComponent : iconComponent
+
+                Component {
+                    id: imageComponent
+
+                    Image {
+                        id: image
+                        source: Private.App.customIntroIcon || "konqi-kde-hi.png"
+                        fillMode: Image.PreserveAspectFit
+
+                        Kirigami.PlaceholderMessage {
+                            width: root.width - (Kirigami.Units.largeSpacing * 4)
+                            anchors.centerIn: parent
+                            text: i18nc("@title", "Image loading failed")
+                            explanation: xi18nc("@info:placeholder", "Could not load <filename>%1</filename>. Make sure it exists.", Private.App.customIntroIcon)
+                            visible: image.status == Image.Error
+                        }
                     }
                 }
-            }
 
-            Component {
-                id: iconComponent
+                Component {
+                    id: iconComponent
 
-                Kirigami.Icon {
-                    implicitWidth: Kirigami.Units.iconSizes.enormous * 2
-                    implicitHeight: implicitWidth
-                    source: Private.App.customIntroIcon || "kde"
+                    Kirigami.Icon {
+                        implicitWidth: Kirigami.Units.iconSizes.enormous * 2
+                        implicitHeight: implicitWidth
+                        source: Private.App.customIntroIcon || "kde"
+                    }
+                }
+
+                HoverHandler {
+                    id: hoverhandler
+                    cursorShape: Qt.PointingHandCursor
+                }
+
+                QQC2.ToolTip {
+                    visible: hoverhandler.hovered
+                    text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", konqiButton.url)
                 }
             }
 
-            HoverHandler {
-                id: hoverhandler
-                cursorShape: Qt.PointingHandCursor
+            QQC2.Label {
+                Layout.alignment: Qt.AlignHCenter
+                Layout.maximumWidth: Math.round(Math.max(root.width / 2, imageContainer.implicitWidth / 2))
+                text: konqiButton.text
+                wrapMode: Text.Wrap
+                horizontalAlignment: Text.AlignHCenter
             }
-            TapHandler {
-                id: tapHandler
-                property string url: Private.App.customIntroIconLink || plasmaLink.url
-                onTapped: Qt.openUrlExternally(url)
-            }
-            QQC2.ToolTip {
-                visible: hoverhandler.hovered
-                text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", tapHandler.url)
-            }
-        }
-
-        QQC2.Label {
-            Layout.alignment: Qt.AlignHCenter
-            Layout.maximumWidth: Math.round(Math.max(root.width / 2, imageContainer.implicitWidth / 2))
-            text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
-            wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
         }
     }
 }
