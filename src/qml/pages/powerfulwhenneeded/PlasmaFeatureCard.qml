@@ -35,6 +35,12 @@ Kirigami.AbstractCard {
 
     hoverEnabled: true
     showClickFeedback: true
+    focusPolicy: Qt.StrongFocus
+
+    text: root.title
+
+    Accessible.role: Accessible.Button
+    Accessible.description: root.subtitle
 
     TextMetrics {
         id: metrics
