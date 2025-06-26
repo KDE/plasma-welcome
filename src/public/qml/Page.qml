@@ -34,6 +34,7 @@ Kirigami.Page {
             anchors.centerIn: parent
 
             QQC2.Label {
+                focusPolicy: Qt.StrongFocus
                 Layout.fillWidth: true
                 text: page.description
                 wrapMode: Text.WordWrap
