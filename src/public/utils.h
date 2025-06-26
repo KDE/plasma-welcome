@@ -26,4 +26,5 @@ public:
     Q_INVOKABLE void launchApp(const QString &program);
     Q_INVOKABLE void runCommand(const QString &command, QJSValue callback = QJSValue());
     Q_INVOKABLE void copyToClipboard(const QString &content) const;
+    Q_INVOKABLE bool isMac() const;
 };

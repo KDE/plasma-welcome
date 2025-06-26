@@ -8,8 +8,11 @@
 
 #include <QApplication>
 #include <QClipboard>
+#include <QFile>
+#include <QFileInfo>
 #include <QProcess>
 #include <QStandardPaths>
+#include <QTextStream>
 
 #include <KIO/ApplicationLauncherJob>
 #include <KLocalizedString>
@@ -87,6 +90,33 @@ void Utils::runCommand(const QString &command, QJSValue callback)
 void Utils::copyToClipboard(const QString &content) const
 {
     QApplication::clipboard()->setText(content);
+}
+
+bool Utils::isMac() const
+{
+    bool isMac = false;
+
+    const QStringList possibleVendorNameFiles = {
+        QStringLiteral("/sys/class/dmi/id/sys_vendor"), // PCs and Intel macs
+        QStringLiteral("/proc/device-tree/model") // Arm and PPC macs
+    };
+    for (const QString &path : possibleVendorNameFiles) {
+        QFileInfo fileInfo(path);
+        if (fileInfo.exists()) {
+            QFile file(path);
+            if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+                QTextStream in(&file);
+                const QString vendor = in.readLine().trimmed();
+                file.close();
+                if (vendor.startsWith("Apple"), Qt::CaseInsensitive) {
+                    isMac = true;
+                    break;
+                }
+            }
+        }
+    }
+
+    return isMac;
 }
 
 #include "moc_utils.cpp"

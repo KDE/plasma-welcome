@@ -58,12 +58,12 @@ ecm_target_qml_sources(plasma-welcome
     qml/pages/SimpleByDefault.qml
     qml/pages/PowerfulWhenNeeded.qml
     qml/pages/powerfulwhenneeded/PlasmaFeatureCard.qml
+    qml/pages/powerfulwhenneeded/MetaKey.qml
     qml/pages/powerfulwhenneeded/Overview.qml
     qml/pages/powerfulwhenneeded/KRunner.qml
     qml/pages/powerfulwhenneeded/KDEConnect.qml
     qml/pages/powerfulwhenneeded/Activities.qml
     qml/pages/powerfulwhenneeded/Vaults.qml
-    qml/pages/powerfulwhenneeded/SystemSettings.qml
     qml/pages/Discover.qml
     qml/pages/Feedback.qml
     qml/pages/Enjoy.qml

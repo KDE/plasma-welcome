@@ -43,6 +43,12 @@ Welcome.Page {
             Repeater {
                 model: [
                     {
+                        page: "MetaKey.qml",
+                        title: i18nc("@title:row", "Keyboard Shortcuts"),
+                        subtitle: i18nc("@info Caption for Get Keyboard Shortcuts button", "Activate features from the keyboard"),
+                        buttonIcon: "preferences-desktop-keyboard-shortcut"
+                    },
+                    {
                         page: "Overview.qml",
                         title: i18nc("@title:row Name of the 'Overview' KWin effect", "Overview"),
                         subtitle: i18nc("@info Caption for Overview button", "Your system command center"),
@@ -71,12 +77,6 @@ Welcome.Page {
                         title: i18nc("@title:row Short form of the 'Vaults' Plasma feature", "Vaults"),
                         subtitle: i18nc("@info Caption for Plasma Vaults button", "Store sensitive files securely"),
                         buttonIcon: "plasmavault"
-                    },
-                    {
-                        page: "SystemSettings.qml",
-                        title: i18nc("@title:row", "System Settings"),
-                        subtitle: i18nc("@info Caption for Get System Settings button", "Configure the system"),
-                        buttonIcon: "systemsettings"
                     }
                 ]
                 delegate: PlasmaFeatureCard {
