@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-27 00:44+0000\n"
-"PO-Revision-Date: 2025-05-18 09:37+0200\n"
-"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
+"PO-Revision-Date: 2025-06-28 21:05+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.1\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -637,31 +637,28 @@ msgid "Powerful When Needed"
 msgstr "Potente quando serve"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity!<nl/><nl/>Click the cards below to see just a smattering "
 "of what it can do for you:"
 msgstr ""
-"Plasma è un ambiente estremamente ricco di funzionalità, progettato per "
-"potenziare la tua produttività!<nl/><nl/>"
+"Plasma è un ambiente estremamente ricco di funzionalità, progettato per dare "
+"una spinta alla tua produttività!<nl/><nl/>Fai clic sulle schede qui sotto "
+"per vedere solo un assaggio di ciò che può fare per te:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Scorciatoie da tastiera"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "Attiva le funzionalità dalla tastiera"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -889,13 +886,13 @@ msgstr "...e molto altro!"
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Scorciatoie da tastiera"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "Configura le scorciatoie…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -905,6 +902,9 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"Quasi tutto in Plasma può essere fatto con la tastiera, utilizzando "
+"scorciatoie che per lo più coinvolgono il tasto <shortcut>Meta</shortcut>."
+"<nl/><nl/>Su una tastiera Mac, questo è il tasto «Comando»:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -916,24 +916,29 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super:”"
 msgstr ""
+"Quasi tutto in Plasma può essere fatto con la tastiera, utilizzando "
+"scorciatoie che per lo più coinvolgono il tasto <shortcut>Meta</shortcut>."
+"<nl/><nl/>Questo tasto si trova solitamente tra i tasti di sinistra "
+"<shortcut>Ctrl</shortcut> e <shortcut>Alt</shortcut> e contiene un simbolo "
+"di qualche tipo o la parola «Super:»"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -942,37 +947,37 @@ msgctxt ""
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an empty string."
 msgid "I never meta key I didn't like"
-msgstr ""
+msgstr "Non ho mai usato il tasto meta, non mi piaceva"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "control"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "opzione"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "comando"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
@@ -991,6 +996,19 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"Cosa puoi fare con il tasto <shortcut>Meta</shortcut>? Ecco alcuni esempi:"
+"<list><item>Premilo: apri l'avviatore delle applicazioni</item><item>Premi "
+"<shortcut>Meta+[tasti freccia]</shortcut>: affianca la finestra ai bordi o "
+"agli angoli dello schermo</item><item>Premi <shortcut>Meta+[tasti numerici]</"
+"shortcut>: avvia le applicazioni bloccate di Gestione attività</"
+"item><item>Premi <shortcut>Meta+R</shortcut>: avvia una registrazione dello "
+"schermo</item><item>Premi <shortcut>Meta+L</shortcut>: blocca lo schermo</"
+"item><item>Premi <shortcut>Meta+Maiusc+S</shortcut>: attiva/disattiva il "
+"lettore dello schermo</item><item>Premi <shortcut>Meta+Alt+P</shortcut>: "
+"sposta il focus della tastiera sul pannello</item><item>Premi <shortcut>Meta"
+"+Esc</shortcut>: avvia l'applicazione Monitor di sistema</item><item>Premi "
+"<shortcut>Meta+.</shortcut>: avvia il selettore di emoji</item><item>Premi "
+"<shortcut>Meta+D</shortcut>: Mostra il desktop</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
