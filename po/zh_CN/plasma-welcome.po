@@ -622,18 +622,20 @@ msgid ""
 "your productivity!<nl/><nl/>Click the cards below to see just a smattering "
 "of what it can do for you:"
 msgstr ""
+"Plasma 是一款功能强大的桌面环境，可协助您提高工作效率。<nl/><nl/>您可以从下列"
+"功能开始体验："
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "键盘快捷键"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "通过键盘激活功能"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -852,13 +854,13 @@ msgstr "...还有更多功能等待您发现！"
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "键盘快捷键"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "配置快捷键…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -868,6 +870,9 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"Plasma 的几乎任何操作都可以通过键盘快捷键完成，这些快捷键大多涉及 "
+"<shortcut>Meta</shortcut> 键。<nl/><nl/>而在 Mac 键盘上，这个键是 Command "
+"键："
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -879,24 +884,27 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super:”"
 msgstr ""
+"Plasma 的几乎任何操作都可以通过键盘快捷键完成，这些快捷键大多涉及 "
+"<shortcut>Meta</shortcut> 键。<nl/><nl/>此键通常位于左 <shortcut>Ctrl</"
+"shortcut> 和 <shortcut>Alt</shortcut> 键之间，上面印有某种符号或 Super 字样："
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -911,31 +919,31 @@ msgstr ""
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "功能"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "控制"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "选项"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "命令"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
@@ -954,6 +962,16 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"<shortcut>Meta</shortcut> 键能用来做什么？以下是一些示例：<list><item>单按 "
+"Meta 键：打开应用程序启动器挂件 (开始菜单)</item><item>按 <shortcut>Meta+[方"
+"向键]</shortcut>：将窗口吸附到屏幕边缘或四角</item><item>按 <shortcut>Meta"
+"+[数字键]</shortcut>：启动固定在任务管理器上的应用</item><item>按 "
+"<shortcut>Meta+R</shortcut>：开始录屏</item><item>按 <shortcut>Meta+L</"
+"shortcut>：锁屏</item><item>按 <shortcut>Meta+Shift+S</shortcut>：打开/关闭屏"
+"幕阅读器</item><item>按 <shortcut>Meta+Alt+P</shortcut>：将键盘输入的焦点移动"
+"到面板</item><item>按 <shortcut>Meta+Esc</shortcut>：启动系统监视器应用</"
+"item><item>按 <shortcut>Meta+.</shortcut>：启动表情符号选择器应用</"
+"item><item>按 <shortcut>Meta+D</shortcut>：显示桌面</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
