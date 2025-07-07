@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:43+0000\n"
+"POT-Creation-Date: 2025-07-07 02:33+0000\n"
 "PO-Revision-Date: 2025-04-02 09:26+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -113,7 +113,7 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "La commande <command>%1</command>a échoué : %2"
 
-#: src/public/qml/ApplicationIcon.qml:40
+#: src/public/qml/ApplicationIcon.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -302,7 +302,7 @@ msgstr ""
 "pour vous ! <nl/><nl/>Veuillez cliquer sur l’une des icônes ci-dessous pour "
 "essayer !"
 
-#: src/qml/pages/Discover.qml:107
+#: src/qml/pages/Discover.qml:111
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -1184,13 +1184,19 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "En apprendre plus sur %1"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:76
+#, kde-format
+msgctxt "@info"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgstr "La mascotte de KDE Konqi vous accueille dans la communauté KDE !"
+
+#: src/qml/pages/Welcome.qml:109
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Impossible de charger l'image"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:110
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1198,17 +1204,11 @@ msgstr ""
 "Impossible de charger <filename>%1</filename>. Veuillez vérifier que le "
 "fichier existe."
 
-#: src/qml/pages/Welcome.qml:127
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Visitez %1"
-
-#: src/qml/pages/Welcome.qml:134
-#, kde-format
-msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "La mascotte de KDE Konqi vous accueille dans la communauté KDE !"
 
 #: src/release.cpp:43
 #, kde-format

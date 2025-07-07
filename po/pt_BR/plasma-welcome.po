@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:43+0000\n"
+"POT-Creation-Date: 2025-07-07 02:33+0000\n"
 "PO-Revision-Date: 2025-04-12 06:54-0300\n"
 "Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -117,7 +117,7 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "O comando <command>%1</command> falhou: %2"
 
-#: src/public/qml/ApplicationIcon.qml:40
+#: src/public/qml/ApplicationIcon.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -306,7 +306,7 @@ msgstr ""
 "aplicativos do KDE <application>%1</application> faz tudo isso para você!<nl/"
 "><nl/>Clique em qualquer um dos ícones abaixo para experimentar!"
 
-#: src/qml/pages/Discover.qml:107
+#: src/qml/pages/Discover.qml:111
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -1168,13 +1168,19 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Aprenda mais sobre %1"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:76
+#, kde-format
+msgctxt "@info"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgstr "O mascote do KDE, Konqi, dá as boas vindas à comunidade KDE!"
+
+#: src/qml/pages/Welcome.qml:109
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Não foi possível carregar a imagem"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:110
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1182,17 +1188,11 @@ msgstr ""
 "Não foi possível carregar o arquivo <filename>%1</filename>. Certifique-se "
 "de que ele existe."
 
-#: src/qml/pages/Welcome.qml:127
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Visite %1"
-
-#: src/qml/pages/Welcome.qml:134
-#, kde-format
-msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "O mascote do KDE, Konqi, dá as boas vindas à comunidade KDE!"
 
 #: src/release.cpp:43
 #, kde-format

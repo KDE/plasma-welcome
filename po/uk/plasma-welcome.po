@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:43+0000\n"
+"POT-Creation-Date: 2025-07-07 02:33+0000\n"
 "PO-Revision-Date: 2025-04-01 09:05+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -115,7 +115,7 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "Помилка у програмі <command>%1</command>: %2"
 
-#: src/public/qml/ApplicationIcon.qml:40
+#: src/public/qml/ApplicationIcon.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -304,7 +304,7 @@ msgstr ""
 "%1</application>!<nl/><nl/>Натисніть будь-яку з піктограм нижче, щоб "
 "спробувати!"
 
-#: src/qml/pages/Discover.qml:107
+#: src/qml/pages/Discover.qml:111
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -1174,13 +1174,19 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Дізнатися більше про %1"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:76
+#, kde-format
+msgctxt "@info"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgstr "Маскот KDE, Конкі, запрошує вас до спільноти KDE!"
+
+#: src/qml/pages/Welcome.qml:109
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Не вдалося завантажити зображення"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:110
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1188,17 +1194,11 @@ msgstr ""
 "Не вдалося завантажити <filename>%1</filename>. Переконайтеся, що цей файл "
 "існує."
 
-#: src/qml/pages/Welcome.qml:127
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Відвідати %1"
-
-#: src/qml/pages/Welcome.qml:134
-#, kde-format
-msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "Маскот KDE, Конкі, запрошує вас до спільноти KDE!"
 
 #: src/release.cpp:43
 #, kde-format

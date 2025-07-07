@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:43+0000\n"
+"POT-Creation-Date: 2025-07-07 02:33+0000\n"
 "PO-Revision-Date: 2025-04-07 13:28+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -111,7 +111,7 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "命令 <command>%1</command> 失敗：%2"
 
-#: src/public/qml/ApplicationIcon.qml:40
+#: src/public/qml/ApplicationIcon.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -297,7 +297,7 @@ msgstr ""
 "應用程式商店 <application>%1</application> 就能幫您安裝或讓您搜尋應用程式！"
 "<nl/><nl/>點擊下方任何一個按鈕來試試看吧！"
 
-#: src/qml/pages/Discover.qml:107
+#: src/qml/pages/Discover.qml:111
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -1109,29 +1109,29 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "瞭解更多有關 %1 的資訊"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:76
+#, kde-format
+msgctxt "@info"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgstr "KDE 的吉祥物 Konqi 歡迎您來到 KDE 社群！"
+
+#: src/qml/pages/Welcome.qml:109
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "影像載入失敗"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:110
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "無法載入 <filename>%1</filename>。請確定它存在。"
 
-#: src/qml/pages/Welcome.qml:127
+#: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "造訪 %1"
-
-#: src/qml/pages/Welcome.qml:134
-#, kde-format
-msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "KDE 的吉祥物 Konqi 歡迎您來到 KDE 社群！"
 
 #: src/release.cpp:43
 #, kde-format
