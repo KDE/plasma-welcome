@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2025-07-07 18:05+0300\n"
+"PO-Revision-Date: 2025-07-07 18:24+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -142,12 +142,15 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"היישום <application>Discover</application> מסייע לך למצוא ולהתקין יישומים, "
+"משחקים וכלים. אפשר לחפש או לעיין לפי קטגוריות, להסתכל על צילומי מסך ולקרוא "
+"ביקורות כדי לסייע לך למצוא את היישום שהכי מתאים לך."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr ""
+msgstr "להפעיל את Discover כעת"
 
 #: src/contents/ui/pages/Discover.qml:57
 #, kde-format
@@ -165,7 +168,7 @@ msgstr "הצגת %1 בחשיפה"
 #, kde-format
 msgctxt "@title:window"
 msgid "Support Your Freedom"
-msgstr ""
+msgstr "תמיכה בחופש שלך"
 
 #: src/contents/ui/pages/Donate.qml:16
 #, kde-kuit-format
@@ -209,7 +212,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr ""
+msgstr "פלזמה עודכנה לגרסה %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
@@ -225,13 +228,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr ""
+msgstr "אז מה חדש בפלזמה %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Help work on the next release"
-msgstr ""
+msgstr "סיוע בעבודה על הגרסה הבאה"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:19
 #, kde-format
@@ -246,6 +249,8 @@ msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity! Here is just a smattering of the things it can do for you:"
 msgstr ""
+"פלזמה היא סביבה עתירת יכולות שתוכננה לשדרג פלאים את היעילות שלך! הנה קמצוץ "
+"מהדברים שהיא יכולה לעשות בשבילך:"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -313,13 +318,13 @@ msgstr "מרכז הבקרה של המערכת שלך"
 #, kde-format
 msgctxt "@title:row"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "הורדת דברים חדשים ולוהטים"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:103
 #, kde-format
 msgctxt "@info Caption for Get Hot New Stuff button"
 msgid "Extend the system with add-ons"
-msgstr ""
+msgstr "הרחבת המערכת עם תוספות"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:110
 #, kde-format
@@ -345,6 +350,12 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"יישום הכספות של פלזמה מאפשר לך ליצור תיקיות מוצפנות שנקראות <interface>כספות."
+"</interface> בתוך כל כספת אפשר לאחסן סיסמאות, קבצים, תמונות ומסמכים בצורה "
+"מאובטחת הרחק מסקרנים. כספות יכולות לחיות בתוך תיקיות שמסונכרנות גם מול "
+"שירותי ענן, המספקים פרטיות נוספת לתוכן הזה.<nl/><nl/>כדי להתחיל, יש ללחוץ על "
+"החץ ב<interface>מגש המערכת</interface> כדי להציג פריטים מוסתרים ואז ללחוץ על "
+"סמל ה<interface>כספות</interface>."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -376,6 +387,13 @@ msgid ""
 "create more Activities. You can then switch between them using the "
 "<shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
+"אפשר להשתמש בפעילויות כדי להפריד בין מיזמים או תצורות עבודה ברמה גבוהה כדי "
+"לאפשר לך להתמקד על דבר אחד כל פעם. יכולות להיות פעילויות עבור „בית”, "
+"„לימודים”, „עבודה” וכן הלאה. לכל פעילות יש גישה לכל הקבצים שלך אך יש לה ערכת "
+"יישומים וחלונות, מסמכים אחרונים, יישומים „מועדפים” ויישומוני שולחן עבודה "
+"משלה.<nl/><nl/>כדי להתחיל יש להפעיל את <interface>הגדרות המערכת</interface> "
+"ולחפש אחר „פעילויות”. בעמוד הזה, ניתן ליצור פעילויות נוספות. לאחר מכן אפשר "
+"לעבור ביניהן באמצעות מקש הקיצור <shortcut>Meta+Tab</shortcut> במקלדת."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
 #, kde-format
@@ -403,6 +421,13 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"KDE Connect מאפשר לך לשלב את הטלפון עם המחשב שלך במגוון דרכים:<nl/"
+"><list><item>לצפות בהתראות מהטלפון במחשב</item><item>להגיב להודעות מהטלפון "
+"במחשב</item><item>לסנכרן את תוכן לוח הגזירים שלך בין המחשב לטלפון</"
+"item><item>להשמיע צליל בטלפון כשהוא מועבר למקום אחר</item><item>להעתיק "
+"תמונות, סרטונים וקבצים נוספים מהטלפון ולמחשב ולהפך</item><item>…ועוד מגוון "
+"יכולות!</item></list><nl/>כדי להתחיל, יש לפתוח את <interface>הגדרות המערכת</"
+"interface> ולחפש אחר „KDE Connect”. בעמוד הזה, אפשר לצמד את הטלפון שלך."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
@@ -452,12 +477,17 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
+"סקירה מספקת מבט על במסך מלא על כל החלונות הפתוחים ומאפשרת לך לגשת לכל אחד "
+"מהם. היא מציגה גם את החלונות הווירטואליים הנוכחיים שלך, מאפשרת לך להוסיף "
+"עוד, להסיר חלק מהם ולעבור ביניהם. סוף סוף היא מציעה גם שדה חיפוש מבוסס "
+"KRunner שיכול לסנן בין החלונות הפתוחים.<nl/><nl/>אפשר לגשת לסקירה באמצעות "
+"מקשי הקיצור <shortcut>Meta+W</shortcut> במקלדת."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
 msgctxt "@info:window"
 msgid "Get Hot New Stuff"
-msgstr ""
+msgstr "הורדת דברים חדשים ולוהטים"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:267
 #, kde-kuit-format
@@ -504,13 +534,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
-msgstr ""
+msgstr "הגדרות מערכת"
 
 #: src/contents/ui/pages/Welcome.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
-msgstr ""
+msgstr "ברוך בואך לפלזמה מבית KDE‏!"
 
 #: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
@@ -538,7 +568,7 @@ msgstr "קונקי, הקמע של KDE מקבל את פניך לקהילת KDE!"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A welcome app for KDE Plasma"
-msgstr ""
+msgstr "יישום קבלת פנים לפלזמה מבית KDE"
 
 #: src/main.cpp:49
 #, kde-format
