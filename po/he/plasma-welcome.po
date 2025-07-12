@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2025-07-07 18:24+0300\n"
+"PO-Revision-Date: 2025-07-11 10:12+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -63,7 +63,7 @@ msgstr "ה&בא"
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr ""
+msgstr "שיתוף פרטי שימוש אלמוניים עם KDE"
 
 #: src/contents/ui/main.qml:162
 #, kde-format
@@ -79,7 +79,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr ""
+msgstr "חיבור החשבונות המקוונים שלך"
 
 #: src/contents/ui/main.qml:177
 #, kde-format
@@ -88,6 +88,8 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
+"ההגדרה הזאת תאפשר לך לגשת לתוכן שלהם ביישומי KDE. אפשר להגדיר את זה בהגדרות "
+"המערכת וגם דרך כאן."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -366,7 +368,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "הצגת יכולות נוספות"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
@@ -399,7 +401,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "פתיחת עמוד הפעילויות בהגדרות המערכת"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -433,7 +435,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "פתיחת עמוד KDE Connect בהגדרות המערכת"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
@@ -459,6 +461,16 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner היא מערכת החיפוש הגמישה והעוצמתית בטירוף של פלזמה. היא מספקת תשתית "
+"ליכולות החיפוש בתפריט משגר היישומים ומסך הסקירה וניתן לגשת אליה באופן פרטני "
+"באמצעות קיצור המקשים <shortcut>Alt+F2</shortcut> במקלדת.<nl/><nl/>בנוסף "
+"לאיתור הקבצים והתיקיות שלך, KRunner יכול להפעיל יישומים, לחפש באינטרנט, "
+"להמיר בין סוגי מטבעות, לחשב בעיות מתמטיות ועוד מגוון יכולות. כדאי לנסות "
+"להקליד כל אחת מהמחרוזות הבאות לשדה החיפוש:<nl/><list><item>„time Jerusalem”</"
+"item><item>„27/3”</item><item>„200 EUR in USD”</item><item>„25 miles in km”</"
+"item><item>…ועוד מגוון רחב של יכולות!</item></list><nl/>למידע נוסף יש לפתוח "
+"את סרגל החיפוש של KRunner באמצעות מקשי הקיצור <shortcut>Alt+רווח</shortcut> "
+"במקלדת וללחוץ על סמל סימן השאלה."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -500,12 +512,17 @@ msgid ""
 "to implement it themselves.<nl/><nl/>Note that content acquired this way has "
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
+"בכל רחבי פלזמה, הגדרות המערכת ויישומי KDE, אפשר למצוא כפתורים עם הכיתוב "
+"„הורדת [משהו] חדש…”. לחיצה עליהם תציג תוכן מגורמי צד־שלישי שמיועד להרחבת "
+"יכולות המערכת, שנוצר על ידי אנשים כמוך! כך, אפשר להוסיף יכולות שמעניינות "
+"אותך מבלי לבקש ממפתחי KDE לממש את זה בעצמם.<nl/><nl/>כדאי לשים לב שתוכן "
+"שנצרך באופן הזה לא עבר ביקורת על ידי ספק ההפצה שלך לבדיקת שימושיות או יציבות."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "הצגת כל התוכן הזמין מגורמי צד־שלישי"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
@@ -523,12 +540,16 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"פלזמה תוכננה להיות פשוטה ויעילה כבר מהרגע הראשון. הדברים נמצאים איפה שנוח "
+"למצוא אותם ובאופן כללי לא חייבים להגדיר הכול לפני שאפשר להתרווח בנוחות ולבצע "
+"משימות.<nl/><nl/>אבל אם בכל זאת בא לך, כל מה שצריך זה לגשת ליישום "
+"<application>הגדרות המערכת</application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr ""
+msgstr "להפעיל את הגדרות המערכת כעת"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:56
 #, kde-format
