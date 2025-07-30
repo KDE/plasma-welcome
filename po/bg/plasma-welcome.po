@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-07 00:44+0000\n"
-"PO-Revision-Date: 2025-07-20 23:39+0200\n"
+"PO-Revision-Date: 2025-07-28 20:25+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -650,13 +650,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Комбинация от клавиши"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "Активиране на действия от клавиатурата"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -885,13 +885,13 @@ msgstr "...и много други!"
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Клавишни комбинации"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "Настройки на клавишни комбинации…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -901,6 +901,9 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"Почти всичко в Plasma може да бъде направено с клавиатурата с използване на "
+"клавишни комбинации, които най-често използват клавиша <shortcut>Meta</"
+"shortcut>.<nl/><nl/>На Mac клавиатура, това е клавиша “Command”:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -912,24 +915,29 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super:”"
 msgstr ""
+"Почти всичко в Plasma може да бъде направено с клавиатурата с използване на "
+"клавишни комбинации, които най-често включват клавиша <shortcut>Meta</"
+"shortcut>.<nl/><nl/>Обикновено, този клавиш се намира между левия "
+"<shortcut>Ctrl</shortcut> и <shortcut>Alt</shortcut> клавиш и е представен с "
+"определен символ или с надпис “Super:”"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -938,37 +946,37 @@ msgctxt ""
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an empty string."
 msgid "I never meta key I didn't like"
-msgstr ""
+msgstr "I never meta key I didn't like"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "control"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "option"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "command"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
@@ -987,6 +995,21 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"Какво може да направим с клавиша <shortcut>Meta</shortcut>? Ето "
+"няколкопримера:<list><item>Натискане: Отваряне на стартовото меню на панела</"
+"item><item>Едновременно натискане на <shortcut>Meta+[стрелки]</shortcut>: "
+"Разделяне на прозореца на половина и поставянето в съответната половина на "
+"екрана</item><item>Натискане на  <shortcut>Meta+[числата 1 до 0]</shortcut>: "
+"Стартира зададеното в мениджъра на задачи приложение</item><item>Натискане "
+"на <shortcut>Meta+R</shortcut>: Стартира запис на екрана</"
+"item><item>Натискане на <shortcut>Meta+L</shortcut>: Заключване на </"
+"item><item>Натискане на <shortcut>Meta+Shift+S</shortcut>: Включва или "
+"изключва екранния четец</item><item>Натискане на <shortcut>Meta+Alt+P</"
+"shortcut>: Премества фокуса към панела</item><item>Натискане на "
+"<shortcut>Meta+Esc</shortcut>: Стартира Наблюдение на системата</"
+"item><item>Натискане на <shortcut>Meta+.</shortcut>: Стартира приложението "
+"за избор на емотикони</item><item>Натискане на <shortcut>Meta+D</shortcut>: "
+"Показване на работния плот</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
