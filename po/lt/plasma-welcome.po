@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-20 02:40+0000\n"
-"PO-Revision-Date: 2025-01-10 00:38+0200\n"
+"PO-Revision-Date: 2025-08-16 14:24+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -177,12 +177,10 @@ msgid "&Next"
 msgstr "&Kitas"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Rodyti šį puslapį po Plasma atnaujinimo"
+msgstr "Rodyti po Plasma atnaujinimo"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -289,7 +287,7 @@ msgstr "Nepavyko įkelti šio puslapio, kurį pateikė supažindinimas su sistem
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Atraskite nuostabių programų"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -302,6 +300,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"Nėra reikalo ieškoti saityne, kaip atsisiųsti programų diegimo programas ar "
+"naudoti komandų eilutės paketų tvarkytuvę; KDE programų parduotuvė "
+"<application>%1</application> visa tai atlieka už jus!<nl/><nl/>Spustelėkite "
+"ant bet kurios piktogramos žemiau, kad išbandytumėte!"
 
 #: src/qml/pages/Discover.qml:111
 #, kde-format
@@ -366,45 +368,39 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Rikiuoti pagal: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort Randomly"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr "Rikiuoti atsitiktine tvarka"
+msgstr "Atsitiktinai"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Pavardė"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Sort by Name"
+#, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "Rikiuoti pagal pavadinimą"
+msgstr "Vardas"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Start Contributing!"
+#, kde-format
 msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "Pradėkite talkinti!"
+msgstr "Aukojimo data"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "Atvirkštinė tvarka"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -563,7 +559,7 @@ msgstr "Praneškite apie klaidą"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Atsisiųsti įterptą skelbimo apie laidą peržiūrą?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -572,50 +568,50 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Peržiūra nebuvo atsiųsta automatiškai, nes naudojate ribotų duomenų tinklo "
+"ryšį."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Nepavyko atsisiųsti peržiūros – įvyko tinklo klaida (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "Nepavyko įkelti peržiūros – įvyko nagrinėjimo klaida."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Atsisiųsti peržiūrą"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Vis tiek atsisiųsti"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Bandyti dar kartą"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Atverti nuostatas…"
+msgstr "Atverti naršyklėje…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Automatiškai įkelti peržiūrą"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -624,12 +620,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Peržiūra bus įkelta automatiškai, kai šis puslapis bus rodomas būsimuose "
+"Plasma atnaujinimuose, išskyrus atvejus, kai bus naudojamas ribotų duomenų "
+"tinklo ryšys."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Spustelėkite norėdami skaityti pranešimą</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -638,12 +637,7 @@ msgid "Powerful When Needed"
 msgstr "Galinga, kai to reikia"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity! Here is just a smattering of the things it can do for "
-#| "you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
@@ -651,7 +645,8 @@ msgid ""
 "of what it can do for you:"
 msgstr ""
 "Plasma yra nepaprastai daugiafukcė aplinka, sukurta smarkiai padidinti jūsų "
-"produktyvumą! Štai keli iš daugybės dalykų, kaip ji gali jums pasitarnauti:"
+"produktyvumą!<nl/><nl/>Spustelėkite ant žemiau esančių kortelių, kad "
+"pamatytumėte kelis iš daugybės dalykų, kaip ji gali jums pasitarnauti:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
@@ -1055,21 +1050,16 @@ msgstr ""
 "ekraną ir pridėtumėte, pašalintumėte ar modifikuotumėte valdiklius."
 
 #: src/qml/pages/SimpleByDefault.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “Kickoff” widget, a multipurpose launcher. Here you can "
-#| "launch apps, shut down or restart the system, access recent files, and "
-#| "more. Click on it to get started!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “Application Launcher” widget, a multipurpose launcher. Here you "
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Tai yra „Pradžios“ valdiklis, universali paleidyklė. Čia galite paleisti "
-"programas, išjungti sistemą arba paleisti ją iš naujo, pasiekti paskiausiai "
-"naudotus failus ir kt. Spustelėkite ant jo norėdami pradėti!"
+"Tai yra „Programų paleidyklės“ valdiklis, universali paleidyklė. Čia galite "
+"paleisti programas, išjungti sistemą arba paleisti ją iš naujo, pasiekti "
+"paskiausiai naudotus failus ir kt. Spustelėkite ant jo norėdami pradėti!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
