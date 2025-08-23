@@ -56,10 +56,10 @@ Welcome.Page {
                 model: ListModel {
                     id: appsModel
                     ListElement { name: "Krita"; appstream: "org.kde.krita"; snap: "krita"; icon: "krita.png" }
-                    ListElement { name: "Blender"; appstream: "org.blender.Blender"; snap: "blender"; icon: "blender" }
-                    ListElement { name: "VLC"; appstream: "org.videolan.VLC"; snap: "vlc"; icon: "vlc" }
-                    ListElement { name: "GIMP"; appstream: "org.gimp.GIMP"; snap: "gimp"; icon: "gimp" }
-                    ListElement { name: "KStars"; appstream: "org.kde.kstars.desktop"; snap: "kstars"; icon: "kstars" }
+                    ListElement { name: "Blender"; appstream: "org.blender.Blender"; snap: "blender"; icon: "blender.svg" }
+                    ListElement { name: "VLC"; appstream: "org.videolan.VLC"; snap: "vlc"; icon: "vlc.png" }
+                    ListElement { name: "GIMP"; appstream: "org.gimp.GIMP"; snap: "gimp"; icon: "gimp.svg" }
+                    ListElement { name: "KStars"; appstream: "org.kde.kstars.desktop"; snap: "kstars"; icon: "kstars.svg" }
                     ListElement { name: "Endless Sky"; appstream: "io.github.endless_sky.endless_sky"; snap: "endlesssky"; icon: "endlesssky.png" }
                 }
                 delegate: QQC2.AbstractButton {
@@ -70,20 +70,11 @@ Welcome.Page {
                     contentItem: ColumnLayout {
                         spacing: Kirigami.Units.smallSpacing
 
-                        Loader {
+                        Image {
                             Layout.preferredWidth: applicationGrid.itemSize
                             Layout.preferredHeight: applicationGrid.itemSize
 
-                            sourceComponent : model.icon.endsWith(".png") ? imageComponent : iconComponent
-
-                            Component {
-                                id: iconComponent
-                                Kirigami.Icon { source: model.icon }
-                            }
-                            Component {
-                                id: imageComponent
-                                Image { source: model.icon }
-                            }
+                            source: model.icon
                         }
 
                         QQC2.Label {

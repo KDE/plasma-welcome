@@ -70,10 +70,14 @@ ecm_target_qml_sources(plasma-welcome
     qml/pages/enjoy/Supporters.qml
 
     RESOURCES
-    assets/krita.png
+    assets/blender.svg
     assets/endlesssky.png
+    assets/gimp.svg
+    assets/krita.png
     assets/konqi-kde-hi.png
     assets/konqi-default.png
+    assets/kstars.svg
+    assets/vlc.png
 )
 
 target_compile_definitions(plasma-welcome PRIVATE "DISTRO_CUSTOM_PAGE_FOLDER=\"${DISTRO_CUSTOM_PAGE_FOLDER}\"")
