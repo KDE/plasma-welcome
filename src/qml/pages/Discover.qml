@@ -75,6 +75,7 @@ Welcome.Page {
                             Layout.preferredHeight: applicationGrid.itemSize
 
                             source: model.icon
+                            mipmap: true
                         }
 
                         QQC2.Label {
