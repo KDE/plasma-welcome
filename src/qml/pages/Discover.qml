@@ -55,7 +55,7 @@ Welcome.Page {
             Repeater {
                 model: ListModel {
                     id: appsModel
-                    ListElement { name: "Krita"; appstream: "org.kde.krita"; snap: "krita"; icon: "krita.png" }
+                    ListElement { name: "Krita"; appstream: "org.kde.krita"; snap: "krita"; icon: "krita.svg" }
                     ListElement { name: "Blender"; appstream: "org.blender.Blender"; snap: "blender"; icon: "blender.svg" }
                     ListElement { name: "VLC"; appstream: "org.videolan.VLC"; snap: "vlc"; icon: "vlc.png" }
                     ListElement { name: "GIMP"; appstream: "org.gimp.GIMP"; snap: "gimp"; icon: "gimp.svg" }
