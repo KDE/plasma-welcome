@@ -73,7 +73,7 @@ ecm_target_qml_sources(plasma-welcome
     assets/blender.svg
     assets/endlesssky.png
     assets/gimp.svg
-    assets/krita.png
+    assets/krita.svg
     assets/konqi-kde-hi.png
     assets/konqi-default.png
     assets/kstars.svg
