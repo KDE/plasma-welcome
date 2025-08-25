@@ -57,7 +57,7 @@ Welcome.Page {
         position: Kirigami.InlineMessage.Footer
         visible: !openKDEConnectAction.visible
 
-        type: Kirigami.MessageType.Warning
+        type: Kirigami.MessageType.Information
 
         text: i18nc("@info", "KDE Connect is not installed. It may be available in the %1 repositories.", Welcome.Distro.name)
 
