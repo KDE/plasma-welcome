@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-27 00:45+0000\n"
-"PO-Revision-Date: 2025-06-27 05:10+0200\n"
+"PO-Revision-Date: 2025-08-27 06:15+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -768,18 +768,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -790,15 +779,13 @@ msgid ""
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list>"
 msgstr ""
-"KDE Connect-ი საშუალებას გაძლევთ თქვენი კომპიუტერი და ტელეფონი "
+"KDE Connect საშუალებას გაძლევთ თქვენი კომპიუტერი და ტელეფონი "
 "სხვადასხვანაირად მიერთოთ ერთმანეთთან:<nl/><list><item>იხილეთ თქვენი "
 "ტელეფონის შეტყობინებები კომპიუტერზე</item><item>უპასუხეთ ტექსტურ "
 "შეტყობინებებს კომპიუტერიდან</item><item>კომპიუტერისა და ტელეფონის ბაფერის "
 "სინქრონიზაცია</item><item>ტელეფონი აყვირდება, თუ არასწორ ადგილას დადებთ</"
 "item><item>დააკოპირეთ სურათები, ვიდეოები და სხვა ფაილები ტელეფონიდან "
-"კომპიუტერზე და პირიქით</item><item>... და ბევრი სხვა!</item></list><nl/"
-">დასაწყებად გაუშვით <interface>სისტემის მორგება</interface> და მოძებნეთ KDE "
-"connect. იმ გვერდზე შეგიძლიათ ტელეფონი კომპიუტერზე მიაბათ."
+"კომპიუტერზე და პირიქით</item><item>... და ბევრი სხვა!</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -807,26 +794,26 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"დასაწყებად დააწკაპუნეთ ღილაკზე <interface>%1</interface>. ტელეფონთან "
+"დაწყვილება აქ შეგიძლიათ."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "%1-ის გახსნა"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE Connect დაყენებული არაა."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr "KDE Connect-ის დაყენება…"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format

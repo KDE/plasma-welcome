@@ -752,18 +752,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -774,12 +763,6 @@ msgid ""
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list>"
 msgstr ""
-"KDE Connect 能够通过多种方式让您的手机和电脑联动：<nl/><list><item>在电脑上查"
-"看来自手机的通知</item><item>在电脑上回复来自手机的短信</item><item>同步电脑"
-"和手机的剪贴板内容</item><item>手机失踪时让它发出声响</item><item>在电脑和手"
-"机之间复制粘贴图像、视频以及其他文件</item><item>…还有更多功能等待您的发现！"
-"</item></list><nl/>如果您是首次使用 KDE Connect，请打开<interface>系统设置</"
-"interface>对话框，搜索：“KDE Connect”并进入该页面，即可与手机进行配对。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -802,12 +785,10 @@ msgid "KDE Connect is not installed."
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format

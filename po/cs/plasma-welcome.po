@@ -731,18 +731,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -753,15 +742,6 @@ msgid ""
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list>"
 msgstr ""
-"KDE Connect vám umožní několika způsoby propojit váš telefon s počítačem:<nl/"
-"><list><item>Vidět upozornění z vašeho telefonu na počítači</"
-"item><item>Odpovídat na textové zprávy z vašeho telefonu na vašem počítači</"
-"item><item>Synchronizovat obsah schránky mezi vašim počítačem a telefonem</"
-"item><item>Prozvonit váš telefon pokud není na svém místě</"
-"item><item>Kopírovat obrázky, videa a jiné soubory z vašeho telefonu na "
-"počítač a obráceně</item><item>… a mnohem víc!</item></list><nl/>Pro začátek "
-"spusťte <interface>Nastavení Systému</interface> a hledejte “KDE Connect“. "
-"Tam taky můžete spárovat svůj telefon."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -784,12 +764,10 @@ msgid "KDE Connect is not installed."
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
@@ -1238,11 +1216,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgctxt "@title:row"
-#~ msgid "System Settings"
-#~ msgstr "Nastavení systému"
-
-#~ msgctxt "@info:window"
-#~ msgid "System Settings"
-#~ msgstr "Nastavení systému"

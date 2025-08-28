@@ -779,18 +779,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -803,14 +792,11 @@ msgid ""
 msgstr ""
 "KDE Connect vam omogoča integracijo telefona z računalnikom na različne "
 "načine:<nl/><list><item>Ogled obvestil iz telefona v računalniku</"
-"item><item>Odgovarjanje na besedilna sporočila iz telefona v računalniku</"
+"item><item>Odgovarjanje na besedilna sporočila iz telefona na računalniku</"
 "item><item>Sinhronizacijo vsebine odložišč med računalnikom in telefonom</"
-"item><item>Hrupno opozorilo telefona, če je bil postavljen napačno</"
+"item><item>Glasno opozorilo telefona, če je bil postavljen napačno</"
 "item><item>Kopiranje slik, videoposnetkov in drugih datotek iz telefona v "
-"računalnik in obratno</item><item>… in še veliko več! </item></list><nl/>Če "
-"želite začeti, zaženite <interface>Nastavitve sistema</interface> in "
-"poiščite \"KDE Connect\". Na tej strani lahko uparite vaš telefon z "
-"računalnikom."
+"računalnik in obratno</item><item>… in še veliko več! </item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -819,26 +805,26 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"Da začnete kliknite gumb <interface>%1</interface>. Tam lahko uparite vaš "
+"telefon."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "Odpri %1"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE Connect ni nameščen."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr "Namesti KDE Connect…"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
