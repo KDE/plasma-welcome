@@ -6,10 +6,14 @@
  *  SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
+#include <QDesktopServices>
 #include <QDir>
+#include <QProcess>
 
 #include <KAuthorized>
 #include <KDesktopFile>
+#include <KIO/ApplicationLauncherJob>
+#include <KNotificationJobUiDelegate>
 #include <KOSRelease>
 #include <KPluginMetaData>
 
@@ -84,6 +88,30 @@ bool App::kcmAvailable(const QString &kcm) const
 {
     KPluginMetaData data(QStringLiteral("plasma/kcms/systemsettings/%1").arg(kcm));
     return data.isValid() && KAuthorized::authorizeControlModule(kcm + QLatin1String(".desktop"));
+}
+
+// 6.4 only, adaptation to independent KDE Connect changes (KCM -> App)
+void App::performKDEConnectAction() const
+{
+    // First, try to launch the KDE Connect application itself
+    const KService::Ptr appService = KService::serviceByDesktopName("org.kde.kdeconnect.app");
+    if (appService) {
+        auto *job = new KIO::ApplicationLauncherJob(appService);
+        job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
+        job->start();
+
+        return;
+    }
+
+    // Second, try to launch the KCM
+    if (kcmAvailable("kcm_kdeconnect")) {
+        QProcess::startDetached(QStringLiteral("systemsettings"), QStringList{QStringLiteral("kcm_kdeconnect")});
+
+        return;
+    }
+
+    // Finally, KDE Connect must not be installed, so show it in Discover
+    QDesktopServices::openUrl(QUrl("appstream://org.kde.kdeconnect.app"));
 }
 
 #include "moc_app.cpp"

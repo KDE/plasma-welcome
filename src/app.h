@@ -48,6 +48,9 @@ public:
 
     Q_INVOKABLE bool kcmAvailable(const QString &kcm) const;
 
+    // 6.4 only, adaptation to independent KDE Connect changes (KCM -> App)
+    Q_INVOKABLE void performKDEConnectAction() const;
+
     void setMode(App::Mode mode);
     void setPages(const QStringList &pages);
 

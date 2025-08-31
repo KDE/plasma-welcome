@@ -95,6 +95,7 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::I18n
     KF6::I18nQml
     KF6::JobWidgets
+    KF6::KIOGui
     KF6::Service
     KF6::WindowSystem
     Plasma::Plasma

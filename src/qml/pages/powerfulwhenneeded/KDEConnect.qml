@@ -12,6 +12,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.kcmutils as KCMUtils
 
 import org.kde.plasma.welcome as Welcome
+import org.kde.plasma.welcome.private as Private
 
 Welcome.Page {
     heading: i18nc("@info:window", "KDE Connect")
@@ -28,14 +29,11 @@ Welcome.Page {
 <item>…And much more!</item></list>\
 <nl/>To get started, launch <interface>System Settings</interface> and search for “KDE Connect”. On that page, you can pair your phone.")
 
-    // TODO: KDE Connect might not be installed:
-    // We should show an InlineMessage and hide the action.
-
     actions: [
         Kirigami.Action {
             icon.name: "kdeconnect"
             text: i18nc("@action:button", "Open Settings…")
-            onTriggered: KCMUtils.KCMLauncher.openSystemSettings("kcm_kdeconnect")
+            onTriggered: Private.App.performKDEConnectAction()
         }
     ]
 }
