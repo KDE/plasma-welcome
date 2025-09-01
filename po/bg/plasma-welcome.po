@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-27 00:45+0000\n"
-"PO-Revision-Date: 2025-07-28 20:25+0200\n"
+"PO-Revision-Date: 2025-08-31 23:43+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -776,18 +776,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -805,9 +794,7 @@ msgstr ""
 "телефона ви</item><item>Издаване на сигнал от телефона, когато не знаете "
 "къде е</item><item>Копиране на снимки, видеоклипове и други файлове от "
 "телефона в компютъра и обратно</item><item>…И още много други неща!</item></"
-"list><nl/>За да да започнете, стартирайте <interface>Системни настройки</"
-"interface> и потърсете \"KDE Connect\". На тази страница можете да сдвоите "
-"телефона си."
+"list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -816,26 +803,26 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"За да започнете, щракнете върху бутона <interface>%1</interface>. Можете да "
+"сдвоите телефона си там."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "Отваряне на %1"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE Connect не е инсталиран."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr "Инсталиране на KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
