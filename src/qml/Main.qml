@@ -57,7 +57,7 @@ Kirigami.ApplicationWindow {
         id: mouseNavHandler
         anchors.fill: parent
 
-        cursorShape: undefined // Fix LinkButton's cursor shape being overriden
+        cursorShape: undefined // Fix LinkButton's cursor shape being overridden
         acceptedButtons: Qt.BackButton | Qt.ForwardButton
         onPressed: (mouse) => handlePressed(mouse.button)
 

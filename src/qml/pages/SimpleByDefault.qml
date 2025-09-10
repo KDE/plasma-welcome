@@ -207,7 +207,7 @@ Welcome.Page {
                 }
             }
 
-            text: i18nc("@info:placeholder Shown when there is insufficent width", "Expand the window")
+            text: i18nc("@info:placeholder Shown when there is insufficient width", "Expand the window")
             color: Private.PlasmaColors.textColor
         }
 
