@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-11 00:44+0000\n"
-"PO-Revision-Date: 2025-08-27 14:12+0300\n"
+"PO-Revision-Date: 2025-09-11 09:03+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -240,9 +240,7 @@ msgid "Desktop 1"
 msgstr "Стільниця 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when there is insufficent width"
-#| msgid "Expand the window"
+#, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
 msgstr "Розгорнути вікно"
