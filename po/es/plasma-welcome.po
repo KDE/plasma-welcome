@@ -1,15 +1,15 @@
 # Spanish translations for plasma-welcome.po package.
-# Copyright (C) 2022 This file is copyright:
-# This file is distributed under the same license as the welcome-app package.
-#
+# Copyright (C) 2022-2025 This file is copyright:
+# This file is distributed under the same license as the plasma-welcome package.
 # Automatically generated, 2022.
-# SPDX-FileCopyrightText: 2022, 2023 Eloy Cuadra <ecuadra@eloihr.net>
+#
+# SPDX-FileCopyrightText: 2022, 2023, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-10-17 22:29+0200\n"
+"PO-Revision-Date: 2025-09-22 01:38+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -448,7 +448,7 @@ msgstr ""
 "item><item>Sincronice el contenido del portapapeles entre su equipo y su "
 "teléfono.</item><item>Haga que su teléfono suene cuando lo haya extraviado.</"
 "item><item>Copie imágenes, vídeos y otros archivos de su teléfono a su "
-"equipo y viceversa.</item><item>... ¡Y mucho más!</item></list><nl/>Para "
+"equipo y viceversa.</item><item>… ¡Y mucho más!</item></list><nl/>Para "
 "empezar, lance las <interface>Preferencias del sistema</interface> y busque "
 "«KDE Connect». En esa página podrá vincular su teléfono."
 
@@ -491,10 +491,9 @@ msgstr ""
 "calcular problemas matemáticos y mucho más. Pruebe a escribir cualquiera de "
 "los siguientes en uno de esos campos de búsqueda:<nl/><list><item>«hora "
 "Shanghai»</item><item>«27/3»</item><item>«200 EUR en USD»</item><item>«25 "
-"millas en km»</item><item>... ¡y mucho más!</item></list><nl/>Para saber "
-"más, abra la barra de búsqueda de KRunner usando el atajo de teclado "
-"<shortcut>Alt+F2</shortcut> y haga clic en el icono del signo de "
-"interrogación."
+"millas en km»</item><item>… ¡y mucho más!</item></list><nl/>Para saber más, "
+"abra la barra de búsqueda de KRunner usando el atajo de teclado <shortcut>Alt"
+"+F2</shortcut> y haga clic en el icono del signo de interrogación."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -539,10 +538,10 @@ msgid ""
 "not been reviewed by your distributor for functionality or stability."
 msgstr ""
 "A lo largo de Plasma, las «Preferencias del sistema» y las aplicaciones de "
-"KDE, encontrará botones con la etiqueta «Obtener novedades de "
-"[elemento]...». Al pulsarlos se mostrará contenido de terceras partes para "
-"extender el sistema, creado por personas como usted. De este modo, a menudo "
-"es posible añadir las funcionalidades que desea sin tener que pedirles a los "
+"KDE, encontrará botones con la etiqueta «Obtener novedades de [elemento]…». "
+"Al pulsarlos se mostrará contenido de terceras partes para extender el "
+"sistema, creado por personas como usted. De este modo, a menudo es posible "
+"añadir las funcionalidades que desea sin tener que pedirles a los "
 "desarrolladores de KDE que la implementen ellos mismos.<nl/><nl/>Tenga en "
 "cuenta que su distribuidor no ha revisado la funcionalidad ni la estabilidad "
 "del contenido adquirido de esta manera."
@@ -662,43 +661,3 @@ msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
 "Número de versión de Plasma a mostrar en las notas de lanzamiento, como 5.25"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE Connect lets you integrate your phone with your computer in various "
-#~ "ways:"
-#~ msgstr ""
-#~ "KDE Connect le permite integrar el teléfono con su equipo de varias "
-#~ "formas:"
-
-#~ msgctxt "@info:window"
-#~ msgid "Personalize Your System"
-#~ msgstr "Personalizar el sistema"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The <application>System Settings</application> app lets you adjust the "
-#~ "behaviors and appearance of the whole system. From theme options to "
-#~ "device management, you can find it all here."
-#~ msgstr ""
-#~ "La aplicación <application>Preferencias del sistema</application> le "
-#~ "permite ajustar el comportamiento y el aspecto de todo el sistema. Desde "
-#~ "las opciones de los temas hasta la gestión de dispositivos, allí lo "
-#~ "encontrará todo."
-
-#~ msgctxt "@info"
-#~ msgid "Konqi, the KDE mascot"
-#~ msgstr "Konqi, la mascota de KDE"
-
-#~ msgctxt "@title:window"
-#~ msgid "Freedom Isn't Free"
-#~ msgstr "La libertad no es gratuita"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "In System Settings, you can choose to share anonymous usage information "
-#~ "with KDE. You can make that choice here, too."
-#~ msgstr ""
-#~ "En las preferencias del sistema puede escoger si desea compartir "
-#~ "información de uso anónima con KDE. También puede realizar esta elección "
-#~ "aquí."

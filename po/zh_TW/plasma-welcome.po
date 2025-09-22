@@ -1,21 +1,21 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# Kisaragi Hiu <mail@kisaragi-hiu.com>, 2023.
+# SPDX-FileCopyrightText: 2023, 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-03 03:04+0000\n"
-"PO-Revision-Date: 2023-01-21 23:30+0900\n"
+"PO-Revision-Date: 2025-09-22 06:52+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
-"Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -282,7 +282,7 @@ msgstr "將工作、學校，或家庭工作分開"
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr "KDE 連線"
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
@@ -397,13 +397,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "在系統設定當中開啟「活動」的頁面"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr "KDE 連線"
+msgstr "KDE Connect"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:176
 #, kde-kuit-format
@@ -419,12 +419,18 @@ msgid ""
 "get started, launch <interface>System Settings</interface> and search for "
 "\"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
+"KDE Connect 讓您利用不同方式來整合您的手機和電腦：<nl /><list>  <item>在電腦"
+"上看手機的通知</item>  <item>從電腦上回覆手機上的文字訊息</item>  <item>同步"
+"手機與電腦的剪貼簿內容</item>  <item>找不到手機的時候讓它發出噪音</item>  "
+"<item>在電腦和手機之間複製圖片、影片或其他檔案</item>  <item>…還有更多！</"
+"item></list ><nl />要開始使用，啟動 <interface>系統設定</interface> 並搜尋"
+"「KDE Connect」，並在該頁面上與您的手機進行配對。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "在系統設定當中開啟 KDE Connect 的頁面"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
@@ -433,19 +439,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip translators: if needed, change 'Shanghai' to a city that "
-#| "on the other side of the world from likely speakers of the language"
-#| msgid ""
-#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more. Try typing any of the following into one of those search "
-#| "fields:"
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip translators: if needed, change 'Shanghai' to a city that on "
 "the other side of the world from likely speakers of the language"
@@ -462,11 +456,14 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
-"KRunner 是 Plasma 強大且萬用的搜尋系統。它是應用程式啟動器選單與總覽畫面的搜"
-"尋功能的基底，並且也可以作為獨立的搜尋列使用。要叫出這個獨立的搜尋列，可以使"
-"用 <shortcut>Alt+F2</shortcut> 鍵盤快捷鍵。<nl/><nl/>除了尋找您的檔案與資料夾"
-"以外，KRunner 可以啟動應用程式、進行網路搜尋、在貨幣之間轉換、計算數學問題，"
-"還有更多功能。試著輸入以下例子到這些搜尋欄其中之一："
+"KRunner 是 Plasma 強大且萬用的搜尋系統。它提供應用程式啟動器選單與總覽畫面的"
+"搜尋功能，也可以使用 <shortcut>Alt+F2</shortcut> 鍵盤快捷鍵來直接開啟獨立的搜"
+"尋列。<nl/><nl/>除了尋找您的檔案與資料夾以外，KRunner 也可以啟動應用程式、進"
+"行網路搜尋、在貨幣之間轉換、計算數學問題等等。在上述各個搜尋列裡試試看輸入以"
+"下查詢吧：<nl/><list><item>\"時間 New York\"</item><item>\"27/3\"</"
+"item><item>\"200 EUR in USD\"</item ><item>\"400 km > 英哩\"</item><item>…還"
+"有更多！</item></list ><nl/>要瞭解更多，請用 <shortcut>Alt+F2</shortcut> 鍵盤"
+"快捷鍵開啟 KRunner 搜尋列並點擊其中的問號圖示。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -516,7 +513,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "檢視所有可用的第三方內容"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
