@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-11 00:44+0000\n"
-"PO-Revision-Date: 2025-06-19 19:43+0400\n"
+"PO-Revision-Date: 2025-09-21 14:54+0400\n"
 "Last-Translator: linux <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
 "Language: az\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -924,13 +924,13 @@ msgstr "...bu heç də hamısı deyil!"
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klaviatura qısayolları"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "Qısayolları dəyişmək..."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -940,6 +940,9 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"Plasma-da demək olar ki hər şeyi əksər hallarda <shortcut>Meta</shortcut> "
+"düyməsi <nl/><nl/> (Mac-da bu \"Command\" düyməsi adlanır) ilə birlikdə "
+"istifadə olunan klaviatura düymələri ilə idarə etmək olar."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -951,24 +954,29 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super:”"
 msgstr ""
+"Plasma-da demək olar ki hər şeyi əksər hallarda <shortcut>Meta</shortcut> "
+"düyməsi ilə birlikdə istifadə olunan klaviatura düymələri ilə idarə etmək "
+"olar.<nl/><nl/>Bu düymə adətət sol <shortcut>Ctrl</shortcut> və "
+"<shortcut>Alt</shortcut> düymələri arasında yerləşir və üzərində müəyyən bir "
+"simvol və ya \"Super\" sözü əks olunur."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -977,37 +985,37 @@ msgctxt ""
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an empty string."
 msgid "I never meta key I didn't like"
-msgstr ""
+msgstr "Meta? Bu düyməni necə xoşlamamaq olar? 😉"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "control"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "option"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "command"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
@@ -1026,6 +1034,18 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"<shortcut>Meta</shortcut> düyməsi olə nə edə bilərsiniz? Buna bir neçə "
+"nümunə göstərək:<list><item>Üzərinə vurmaq: Tətbiq başladıcını açır</"
+"item><item><shortcut>Meta+[ox düymələri]</shortcut>: Pəncərəni ekranın "
+"kənarlarına və ya küncünə döşəyir.</item><item><shortcut>Meta+[rəqəm "
+"düymələri]</shortcut>: Tapşırıq panelinə bərkidilmiş tətbiqləri başladır.</"
+"item><item><shortcut>Meta+R</shortcut>: Ekranın video qeydiyyatını aparır</"
+"item><item><shortcut>Meta+L</shortcut>: Ekranı kilidləyir</"
+"item><item><shortcut>Meta+Shift+S</shortcut>: Ekran oxuyucunu açır/bağlayır</"
+"item><item><shortcut>Meta+Alt+P</shortcut>: Klaviaturanı panelə fokuslayır</"
+"item><item><shortcut>Meta+Escape</shortcut>: Sistem İzləyici tətbiqini açır</"
+"item><item><shortcut>Meta+.</shortcut>:Emoji seçici tətbiqini açır</"
+"item><item><shortcut>Meta+D</shortcut>İş masasını göstərir</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
@@ -1043,6 +1063,12 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
+"\"Ümumi baxış\" tam ekranlı baxış rejimidir ki, bütün açıq pəncərələri eyni "
+"anda görə və idarə edə bilirsiniz. O həmçinin hazırkı virtual iş masalarını "
+"göstərir, başqalarını əlavə etməyə, onlardan hər hansını silməyə və onlar "
+"arasında keçid etməyə və nəhayətində sizə güclü axtarış vasitəsi olan "
+"KRunner ilə pəncərələr arasında axtarış etməklə lazım olanları göstərməyə "
+"imkan verir."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
 #, kde-kuit-format
@@ -1053,12 +1079,16 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"\"Ümumi baxış\" <shortcut>Meta+W</shortcut> klaviatura qısayolu və kursoru "
+"ekranın yuxarı sol küncündə saxlamaqla aktiv edilə bilər. Həmçinin "
+"<shortcut>Meta+G</shortcut> qısayolu ilə bütün virtual pəncərələr "
+"göstəriləcək tor şəkilli görünüşü aktiv edə bilərsiniz."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr ""
+msgstr "Plasma seyfləri"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:23
 #, kde-kuit-format
@@ -1070,29 +1100,35 @@ msgid ""
 "Vaults can live inside folders that are synced to cloud storage services "
 "too, providing extra privacy for that content."
 msgstr ""
+"Plasma seyfləri sizə <interface>Seyflər</interface> adlanan şifrələnmiş "
+"qovluqlar yaratmağa imkan verir. Seyflər daxilində başqalarının görməsini "
+"istəmədiyiniz şifrələri, faylları, şəkilləri və sənədləri təhlükəsiz şəkildə "
+"saxlaya bilərsiniz. Seyflər bulud yaddaşı ilə eyniləşdirilən qovluqlar "
+"daxilində də yerləşdirilə bilər ki, bu da bu seyfdə olanlar üçün əlavə "
+"məxfiliyi təmin edir."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
-msgstr ""
+msgstr "Seyflər"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:112
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Vacib sənədlər"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:113
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Şəkillərim"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:121
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Kiliddən çıxarmaq və açmaq"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
@@ -1101,12 +1137,15 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Başlamaq üçün <interface>Sistem çəkməcəsində</interface> yerləşən "
+"elementləri görmək üçün ox düyməsinə vurun və buradan <interface>Seyflər</"
+"interface> nişanını seçin."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr ""
+msgstr "İlkin olaraq sadə"
 
 #: src/qml/pages/SimpleByDefault.qml:22
 #, kde-kuit-format
@@ -1118,6 +1157,11 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
+"Plasma, qutudan çıxar çıxmaz sadə və rahat istifadə üçün hazırlanıb. Hər şey "
+"gözlədiyiniz yerdədir və işə başlamaq üçün öncədən heç nəyi tənzimləməyə "
+"ehtiyac yoxdur.<nl/><nl/>Aşağıda tipik Plasma iş masasının vizual təqdimatı "
+"göstərilir. Kursoru öyrənmək istədiyiniz elementin üzərinə gətirin və ya "
+"klikləyin."
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1129,6 +1173,13 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Bu. \"İş masasıdır\". O sizin <filename>İş masası</filename> qovluğunda "
+"yerləşən faylları və qovluqları göstərir. Bundan əlavə burada vidjetlər də "
+"yerləşdirə bilərsiniz. Siçanın sağ düyməsi ilə menyunu açın və iş masasının "
+"görünüşünü tənzimləmək üçün <interface>İş masası və Divar kağızları...</"
+"interface> sətrini seçin. Siz həmçinin vidjetlər əlavə etmək, silmək və "
+"onlara düzəliş etmək üçün <interface>Düzəliş rejimə giriş</interface> "
+"sətrini seçə bilərsiniz."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1138,6 +1189,10 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Bu \"Panel\" konteyneridir və burada vidjetlər yerləşir. Üzərində siçanın "
+"sağ düyməsi ilə menyunu açın və onun davranışını, ekranın hansı kənarında "
+"yerləşəcəyini, ona hansı vidjetləri əlavə edəcəyinizi təyin etmək üçün "
+"<interface>Panel tənzimləmsini göstərmək</interface> girişini seçin."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1147,6 +1202,10 @@ msgid ""
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
+"Bu, çoxfunksiyalı “Tətbiq başladıcı” vidjetidir. Buradan tətbiqləri işə "
+"sala, sistemi söndürə və ya yenidən başlada, son istifadə olunan fayllara "
+"daxil ola və daha çox əməliyyat edə bilərsiniz. Başlamaq üçün üzərinə "
+"klikləyin!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1155,6 +1214,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Bu, \"Tapşırıq meneceri\" vidjetidir. Burada siz tətbiqlər arasında keçid "
+"edə və ya yenisini başlada bilərsiniz. Onların sırasını dəyişmək üçün tətbiq "
+"nişanını tutun və sürüşdürün."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1165,6 +1227,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"Bu, “Sistem çəkməcəsisi” vidjetidir və səs səviyyəsini dəyişmək, internet "
+"şəbəkəsinə qoşulmaq kimi sistem funksiyalarını idarə etməyə imkan verir. "
+"Burada yalnız mövcud və uyğun elementlər görünəcək. Bütün əlçatan "
+"elementləri görmək üçün saatın yanındakı ox (⌃) düyməsinə vurun."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1174,6 +1240,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Bu, \"Rəqəmsal saat\" vidjetidir. Təqvimi göstərmək üçün ona klikləyin. O "
+"həmçinin başqa saat qurşaqlarını və təqvimlərinizdəki tədbirləri göstərəcək "
+"şəkildə tənzimlənə bilər."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1183,12 +1252,15 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Bu, \"İş massına nəzər sal\" vidjetidir. Bütün pəncərələri müvəqqəti "
+"gizlətməklə iş masasına giriş əldə edə bilmək üçün üzərinə vurun. "
+"Pəncərələri geri qaytarmaq üçün yenidən üzərinə vurun."
 
 #: src/qml/pages/Welcome.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr ""
+msgstr "Xoş Gəldiniz"
 
 #: src/qml/pages/Welcome.qml:23
 #, kde-kuit-format
@@ -1200,6 +1272,12 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
+"%1<nl/><nl/>Bu əməliyyat sistemi Plasma ilə işləyir – KDE tərəfindən "
+"yaradılmış, pulsuz və açıq mənbəli masaüstü mühitidir. KDE, dünyanın hər "
+"yerindən gələn könüllü proqramçılardan ibarət beynəlxalq bir icmadır. Plasma "
+"sadə və rahat istifadə üçün dizayn olunub, amma lazım olanda işlərinizi "
+"sürətlə və effektiv görməyinizə imkan verən güclü funksiyalara malikdir. "
+"Ümid edirik ki, onu sevəcəksiniz!"
 
 #: src/qml/pages/Welcome.qml:24
 #, kde-kuit-format
@@ -1211,54 +1289,61 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
+"%1 əməliyyat sisteminə xoş gəlmisiniz!<nl/><nl/>Bu sistem Plasma ilə işləyir "
+"– KDE tərəfindən yaradılmış, pulsuz və açıq mənbəli masaüstü mühitidir. KDE, "
+"dünyanın hər yerindən gələn könüllü proqramçılardan ibarət beynəlxalq bir "
+"icmadır. Plasma sadə və rahat istifadə üçün dizayn olunub, amma lazım olanda "
+"işlərinizi sürətlə və effektiv görməyinizə imkan verən güclü funksiyalara "
+"malikdir. Ümid edirik ki, onu sevəcəksiniz!"
 
 #: src/qml/pages/Welcome.qml:28
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr ""
+msgstr "Salamlama mərkəzi haqqında"
 
 #: src/qml/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "KDE haqqında"
 
 #: src/qml/pages/Welcome.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr ""
+msgstr "KDE cəmiyyəti haqqında daha çox şey öyrənin"
 
 #: src/qml/pages/Welcome.qml:62
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr ""
+msgstr "%1 haqqında daha çox ğyrənin"
 
 #: src/qml/pages/Welcome.qml:76
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "Konqi sizi KDE icmasına xoş gəlmisiniz deyə salamlayır! 🎉"
 
 #: src/qml/pages/Welcome.qml:109
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr ""
+msgstr "Şəkil yüklənmədi"
 
 #: src/qml/pages/Welcome.qml:110
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"<filename>%1</filename> yükləmək mümkün olmadı. Mövcud olduğuna əmin olun."
 
 #: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr ""
+msgstr "%1 səhifəsinə baxın"
 
 #: src/release.cpp:43
 #, kde-format
