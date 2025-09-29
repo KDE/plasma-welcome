@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-23 00:45+0000\n"
-"PO-Revision-Date: 2025-09-21 14:54+0400\n"
+"PO-Revision-Date: 2025-09-28 22:37+0400\n"
 "Last-Translator: linux <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
 "Language: az\n"
@@ -239,12 +239,10 @@ msgid "Desktop 1"
 msgstr "İş masası 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when there is insufficent width"
-#| msgid "Expand the window"
+#, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
-msgstr "Pəncərəni açmaq"
+msgstr "Pəncərəni genişləndirmək"
 
 #: src/qml/PageError.qml:22
 #, kde-format
@@ -636,11 +634,7 @@ msgid "Powerful When Needed"
 msgstr "Lazım oduqda güclü"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
@@ -648,19 +642,20 @@ msgid ""
 "of what it can do for you:"
 msgstr ""
 "Plasma, həddindən artıq çoxfunksiyalı bir mühitdir və ondan məhsuldar "
-"istifadə üçün yaradılıb!<nl/><nl/>"
+"istifadə üçün yaradılıb!<nl/><nl/>Sadəcə aşağıdakı kartlara klikləyin və "
+"imkanlarının kiçik bir hissəsini görün:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klaviatura qısa yolları"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "Funksiyaları klaviaturadan aktiv edin"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -780,18 +775,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -808,10 +792,8 @@ msgstr ""
 "item><item>Mübadilə yaddaşı məzmunlarını telefon və komputeriniz ilə "
 "eyniləşdirmək</item><item>Telefonunuzu itirdikdə zənglə onu tapmaq</"
 "item><item>Şəkilləri, videoları və başqa faylları telefonunuzdan "
-"kompüterinizə və ya əksinə kopyalamaq</item><item>...və bir çox əməllər!</"
-"item></list><nl/>Başlamaq üçün <interface>Sistem ayarları</interface> "
-"tətbiqində \"KDE Connect\"-i tapın. Bu səhifədə telefonunuz ilə komputeriniz "
-"arasında bağlantı yarada bilərsiniz."
+"kompüterinizə və ya əksinə kopyalamaq</item><item>...və daha çoxu!</item></"
+"list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -820,26 +802,26 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"Başlamaq üçün <interface>%1</interface> düyməsinə vurun. Telefonunuzu burada "
+"qoşa bilərsiniz."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "%1 açın"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE Connect quraşdırılmayıb"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr "KDE Connect quraşdırın"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
