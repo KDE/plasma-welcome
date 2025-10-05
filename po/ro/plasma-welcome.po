@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# Sergiu Bivol <sergiu@cip.md>, 2024.
+# SPDX-FileCopyrightText: 2024, 2025 Sergiu Bivol <sergiu@cip.md>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-11 00:44+0000\n"
-"PO-Revision-Date: 2024-02-24 17:17+0000\n"
+"PO-Revision-Date: 2025-10-01 15:34+0100\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
 "Language: ro\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -32,7 +32,7 @@ msgstr "sergiu@cip.md"
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Asistent prietenos pentru inițiere în Plasma"
 
 #: src/main.cpp:47
 #, kde-format
@@ -44,7 +44,7 @@ msgstr "Centru de întâmpinare"
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr ""
+msgstr "© 2021–2024, Comunitatea KDE"
 
 #: src/main.cpp:57
 #, kde-format
@@ -68,7 +68,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:76
 #, kde-format
@@ -85,6 +85,8 @@ msgstr "Afișează pagina live pentru distribuțiile încărcate în memorie."
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
+"Specificați lista de pagini (conform denumirii interne) separate prin "
+"virgulă de afișat."
 
 #: src/public/configModule.cpp:72
 #, kde-format
@@ -96,13 +98,13 @@ msgstr "Modulul cerut %1 nu e cunoscut"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr ""
+msgstr "Comanda <command>%1</command> nu a fost găsită."
 
 #: src/public/controller.cpp:76 src/public/utils.cpp:76
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Nu a fost furnizat niciun mesaj de eroare"
 
 #: src/public/controller.cpp:80 src/public/utils.cpp:80
 #, kde-kuit-format
@@ -110,7 +112,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "Comanda <command>%1</command> a eșuat: %2"
 
 #: src/public/qml/ApplicationIcon.qml:42
 #, kde-format
@@ -131,6 +133,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Dacă mediul Plasma vă e util, luați în considerare implicarea sau donarea de "
+"bani. KDE este o comunitate internațională de voluntari, nu o companie mare. "
+"Contribuțiile dumneavoastră fac o diferență!"
 
 #: src/qml/ContributionCard.qml:29
 #, kde-format
@@ -139,9 +144,7 @@ msgid "Make a donation"
 msgstr "Donați"
 
 #: src/qml/ContributionCard.qml:36
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Get Involved"
+#, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Implicați-vă"
@@ -171,12 +174,10 @@ msgid "&Next"
 msgstr "&Următor"
 
 #: src/qml/footers/FooterUpdate.qml:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show this page after Plasma is updated"
+#, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Arată această pagină după ce Plasma e actualizată"
+msgstr "Arată după ce Plasma e actualizată"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -185,9 +186,7 @@ msgid "&OK"
 msgstr "&Bine"
 
 #: src/qml/mock/MockActivities.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Activități"
@@ -196,54 +195,54 @@ msgstr "Activități"
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr ""
+msgstr "Acasă"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr ""
+msgstr "Școală"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr ""
+msgstr "Lucru"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr ""
+msgstr "Folosită acum"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr ""
+msgstr "Folosită acum 3 ore"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr ""
+msgstr "Creează activitate…"
 
 #: src/qml/mock/MockKRunner.qml:81
 #, kde-format
 msgid "Search…"
-msgstr ""
+msgstr "Caută…"
 
 #: src/qml/mock/MockOverview.qml:97
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr ""
+msgstr "Biroul 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Desfășoară fereastra"
 
 #: src/qml/PageError.qml:22
 #, kde-format
@@ -264,11 +263,10 @@ msgid "Copy Details"
 msgstr "Copiază detaliile"
 
 #: src/qml/PageError.qml:46
-#, fuzzy, kde-kuit-format
-#| msgid "This settings module could not be loaded"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Acest modul de configurare nu a putut fi încărcat"
+msgstr "Această pagină nu a putut fi încărcată"
 
 #: src/qml/PageError.qml:49
 #, kde-kuit-format
@@ -288,7 +286,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Găsiți aplicații bune"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -301,6 +299,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"Nu e nevoie să căutați pe Internet pentru a găsi aplicații sau să folosiți "
+"un gestionar de pachete în linia de comandă – magazinul de aplicații KDE "
+"<application>%1</application> face totul pentru dumneavoastră!<nl/><nl/"
+">Apăsați oricare dintre pictogramele de mai jos pentru a-l încerca!"
 
 #: src/qml/pages/Discover.qml:103
 #, kde-format
@@ -312,7 +314,7 @@ msgstr "Arată %1 în Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Savurați!"
 
 #: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
@@ -322,86 +324,82 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Sperăm că veți îndrăgi Plasma în aceeași măsură în care ne-a plăcut să o "
+"facem pentru dumneavoastră! Acum e timpul pentru acțiune. Explorați-i "
+"funcționalitatea, instalați aplicațiile și jocurile favorite, și faceți ceea "
+"ce vă pasionează!"
 
 #: src/qml/pages/Enjoy.qml:26
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Learn more about the KDE community"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
-msgstr "Află mai multe despre comunitatea KDE"
+msgstr "Aflați mai multe despre comunitatea KDE"
 
 #: src/qml/pages/Enjoy.qml:31
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "Obțineți ajutor pe forumurile de discuții KDE"
 
 #: src/qml/pages/Enjoy.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Membri susținători"
 
 #: src/qml/pages/enjoy/Supporters.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr ""
+msgstr "Membri susținători"
 
 #: src/qml/pages/enjoy/Supporters.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "We thank the following people for supporting us during the Plasma 6 "
-#| "fundraising campaign:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
 msgstr ""
-"Le mulțumim următorilor donatori pentru susținere în timpul campaniei de "
-"strângere a fondurilor pentru Plasma 6:"
+"Le mulțumim următorilor membri susținători ce fac donații repetate pentru "
+"KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Sortează: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr ""
+msgstr "Aleator"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Nume"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr ""
+msgstr "Prenume"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Start Contributing!"
+#, kde-format
 msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "Începeți să contribuiți!"
+msgstr "Data contribuției"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "Invers"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -469,12 +467,16 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
+"Vă puteți conecta la Internet și gestiona conexiunile la rețea cu "
+"<interface>miniaplicația Rețele</interface>. Pentru a o accesa, apăsați "
+"pictograma <interface>Rețele</interface> din <interface>tava de sistem</"
+"interface>, amplasată în colțul din dreapta-jos al ecranului."
 
 #: src/qml/pages/Network.qml:40
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr ""
+msgstr "Suportul de rețelistică pentru Plasma nu e instalat momentan"
 
 #: src/qml/pages/Network.qml:41
 #, kde-kuit-format
@@ -483,18 +485,20 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Pentru a gestiona conexiunile de rețea, Plasma necesită instalarea "
+"<icode>plasma-nm</icode>. Raportați această omisiune la %1."
 
 #: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr ""
+msgstr "Sunteți conectat"
 
 #: src/qml/pages/Network.qml:212
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Gata de plecare!"
 
 #: src/qml/pages/Network.qml:219
 #, kde-format
@@ -504,12 +508,15 @@ msgid ""
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
+"Această pagină e arătată indiferent de starea conectivității deoarece "
+"folosiți o versiune în dezvoltare. Puteți folosi butonul pentru a "
+"previzualiza manual diferitele stări ale paginii."
 
 #: src/qml/pages/Network.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr ""
+msgstr "Schimbă starea"
 
 #: src/qml/pages/PlasmaUpdate.qml:21
 #, kde-format
@@ -525,6 +532,9 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Vă mulțumim că testați această ediție beta a mediului Plasma – părerea "
+"dumneavoastră ne ajută să o îmbunătățim! Raportați orice defect întâlnit "
+"pentru a putea fi remediat."
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -533,11 +543,12 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
+"Colaboratorii KDE au petrecut ultimele patru luni lucrând din greu la "
+"această ediție. Sperăm să vă placă folosirea Plasma la fel de mult cum ne-a "
+"plăcut s-o facem!"
 
 #: src/qml/pages/PlasmaUpdate.qml:29
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Report a bug"
+#, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "Raportează defect"
@@ -546,7 +557,7 @@ msgstr "Raportează defect"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Descărcați o previzualizare încorporată a anunțului de lansare?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -555,50 +566,53 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Previzualizarea nu a fost descărcată automat deoarece folosiți o conexiune "
+"de rețea contorizată."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
 msgstr ""
+"Previzualizarea nu a putut fi descărcată. A intervenit o eroare de rețea "
+"(%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
 msgstr ""
+"Previzualizarea nu a putut fi încărcată. A intervenit o eroare la parcurgere."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Descarcă previzualizarea"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Descarcă oricum"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Reîncearcă"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Open Settings…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Deschide configurările…"
+msgstr "Deschide în navigator…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Încarcă previzualizarea automat"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -607,12 +621,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Previzualizarea va fi încărcată automat la afișarea acestei pagini pentru "
+"următoarele actualizări Plasma, mai puțin atunci când folosiți o conexiune "
+"contorizată."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Apăsați pentru a citi anunțul</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -628,18 +645,21 @@ msgid ""
 "your productivity!<nl/><nl/>Click the cards below to see just a smattering "
 "of what it can do for you:"
 msgstr ""
+"Plasma e un mediu foarte divers în funcționalități, proiectat să vă "
+"amplifice productivitatea!<nl/><nl/>Apăsați pe fișele de mai jos pentru a "
+"vedea un pic din ceea ce poate face pentru dumneavoastră:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Scurtături de tastatură"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "Activați funcționalități cu tastatura"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -725,6 +745,12 @@ msgid ""
 "own set of open apps and windows, recent documents, “Favorite” apps, and "
 "desktop widgets."
 msgstr ""
+"Activitățile pot fi folosite pentru a separa proiecte sau moduri de lucru "
+"majore, astfel încât să vă puteți concentra pe câte unul odată. Puteți avea "
+"o activitate pentru „Acasă”, „Școală”, „Lucru”, și așa mai departe. Fiecare "
+"activitate are acces la toate fișierele dumneavoastră, dar are propriul set "
+"de aplicații și ferestre deschise, documente recente, aplicații favorite și "
+"controale grafice pe birou."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
@@ -741,6 +767,10 @@ msgid ""
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
 msgstr ""
+"Pentru început, lansați <interface>Configurări de sistem</interface> și "
+"căutați „Activități”. Pe acea pagină, puteți crea activități suplimentare. "
+"După aceea, puteți schimba între ele folosind scurtătura de taste "
+"<shortcut>Meta+Q</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -760,6 +790,13 @@ msgid ""
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list>"
 msgstr ""
+"KDE Connect vă permite să integrați telefonul cu calculatorul în diferite "
+"feluri:<list><item>Vedeți pe calculator notificările de pe telefon</"
+"item><item>Răspundeți de pe calculator la mesajele textuale din telefon</"
+"item><item>Sincronizați elementele copiate între calculator și telefon</"
+"item><item>Declanșați un semnal sonor pe telefon când nu-l găsiți</"
+"item><item>Copiați imagini, video și alte fișiere de pe telefon pe "
+"calculator și vice versa</item><item>…și multe altele!</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -768,26 +805,26 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"Apăsați butonul <interface>%1</interface> pentru a începe. Vă puteți asocia "
+"telefonul acolo."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "Deschide %1"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE Connect nu e instalat."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr "Instalează KDE Connect…"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
@@ -806,6 +843,13 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
+"KRunner e sistemul de căutare foarte puternic și versatil din Plasma. Acesta "
+"propulsează funcționalitatea de căutare din meniul Lansatorului de aplicații "
+"și ecranului de privire generală, și poate fi accesat ca bară de căutare de "
+"sine stătătoare folosind scurtătura de taste <shortcut>Alt+Space</shortcut>."
+"<nl/><nl/>Pe lângă căutarea fișierelor și dosarelor, KRunner poate lansa "
+"aplicații, căuta pe Internet, converti între monede, calcula funcții "
+"matematice, și multe altele."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
 #, kde-kuit-format
@@ -814,6 +858,9 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Pentru a afla mai multe, deschideți bara de căutare KRunner folosind "
+"scurtătura de taste <shortcut>Alt+Spațiu</shortcut> și apăsați pe pictograma "
+"cu semn de întrebare."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
 #, kde-format
@@ -823,7 +870,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "ora Boston"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -831,7 +878,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
@@ -840,7 +887,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR în USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
@@ -849,7 +896,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 mile în km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
@@ -857,19 +904,19 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr ""
+msgstr "...și multe altele!"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Scurtături de tastatură"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "Configurează scurtăturile…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -879,6 +926,9 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"Aproape totul în Plasma poate fi făcut cu tastatura, folosind scurtături ce "
+"implică în mare parte tasta <shortcut>Meta</shortcut>.<nl/><nl/>Pe tastatura "
+"Mac, aceasta e tasta „Comandă”:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -890,24 +940,29 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super:”"
 msgstr ""
+"Aproape totul în Plasma poate fi făcut cu tastatura, folosind scurtături ce "
+"implică în mare parte tasta <shortcut>Meta</shortcut>.<nl/><nl/>Această "
+"tastă e situată, de obicei, între tastele <shortcut>Ctrl</shortcut> și "
+"<shortcut>Alt</shortcut> din stânga, și conține fie un simbol, fie cuvântul "
+"„Super”:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -916,37 +971,37 @@ msgctxt ""
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an empty string."
 msgid "I never meta key I didn't like"
-msgstr ""
+msgstr "Trec printr-o <i>meta</i>morfoză!"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "control"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "opțiune"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "comandă"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
@@ -965,6 +1020,19 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"Ce puteți face cu tasta <shortcut>Meta</shortcut>? Iată câteva exemple:"
+"<list><item>Apăsați-o: Deschide Lansatorul de aplicații</item><item>Apăsați "
+"<shortcut>Meta+[taste cu săgeți]</shortcut>: Mozaichează fereastra la "
+"colțurile sau marginile ecranului</item><item>Apăsați <shortcut>Meta+[taste "
+"cu numere]</shortcut>: Lansează aplicații fixate pe gestionarul de sarcini</"
+"item><item>Apăsați <shortcut>Meta+R</shortcut>: Pornește înregistrarea "
+"ecranului</item><item>Apăsați <shortcut>Meta+L</shortcut>: Blochează "
+"ecranul</item><item>Apăsați <shortcut>Meta+Shift+S</shortcut>: Comută "
+"cititorul de ecran</item><item>Apăsați <shortcut>Meta+Alt+P</shortcut>: Mută "
+"focalizarea tastaturii asupra panoului</item><item>Apăsați <shortcut>Meta"
+"+Esc</shortcut>: Lansează aplicația „Monitor de sistem”</item><item>Apăsați "
+"<shortcut>Meta+.</shortcut>: Lansează aplicația „Selector de emoji”</"
+"item><item>Apăsați <shortcut>Meta+D</shortcut>: Arată biroul</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
@@ -982,6 +1050,12 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
+"Prezentarea generală e un strat pe tot ecranul ce vă arată toate ferestrele "
+"deschise, oferind acces facil la oricare dintre acestea. Arată, de asemenea, "
+"birourile virtuale actuale, permițându-vă să mai adăugați unele, să "
+"eliminați altele, și să schimbați între ele. În cele din urmă, aceasta oferă "
+"o casetă de căutare asemănătoare cu KRunner ce poate fi folosită pentru a "
+"filtra ferestrele deschise."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
 #, kde-kuit-format
@@ -992,6 +1066,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Puteți accesa „Prezentarea generală” folosind scurtătura de taste "
+"<shortcut>Meta+W</shortcut>, sau mișcând șoricelul în colțul din stânga-sus "
+"al ecranului. Puteți apăsa și <shortcut>Meta+G</shortcut> pentru "
+"„Vizualizare în grilă”, care arată birourile virtuale într-o grilă."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
@@ -1009,11 +1087,14 @@ msgid ""
 "Vaults can live inside folders that are synced to cloud storage services "
 "too, providing extra privacy for that content."
 msgstr ""
+"Plasma Vaults vă permite să creați dosare criptate, numite <interface>bolți</"
+"interface> În fiecare boltă, vă puteți păstra în siguranță parolele, "
+"fișierele, pozele și documentele, la adăpost de cei curioși. Bolțile se pot "
+"afla în interiorul dosarelor sincronizate cu servicii de stocare în nor, "
+"oferind intimitate sporită pentru acel conținut."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
-#, fuzzy, kde-format
-#| msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
-#| msgid "Vaults"
+#, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
 msgstr "Bolți"
@@ -1022,18 +1103,18 @@ msgstr "Bolți"
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr ""
+msgstr "Documente Importante"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:113
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr ""
+msgstr "Pozele mele"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:121
 #, kde-format
 msgid "Unlock and Open"
-msgstr ""
+msgstr "Deblochează și deschide"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
@@ -1042,6 +1123,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Pentru început, apăsați săgeata din <interface>tava de sistem</interface> "
+"pentru a afișa elementele ascunse, apoi apăsați pictograma <interface>Bolți</"
+"interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1059,6 +1143,11 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
+"Plasma e proiectată să fie simplă și ușor de utilizat. Elementele sunt "
+"amplasate intuitiv și nu e necesar să configurați nimic pentru a beneficia "
+"de confort și productivitate.<nl/><nl/>Mai jos e o reprezentare vizuală a "
+"unui birou Plasma tipic. Mișcați indicatorul sau apăsați pe ceva pentru a "
+"afla detalii!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1070,6 +1159,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Acesta e „biroul”. El arată fișiere și dosare ce se conțin în dosarul "
+"<filename>Desktop</filename>. Poate, de asemenea, să arate controale "
+"grafice. Faceți clic drept pe birou și alegeți <interface>Birou și tapet…</"
+"interface> pentru a configura aspectul biroului. Puteți alege "
+"<interface>Intră în regim de modificare</interface> pentru a adăuga, elimina "
+"sau modifica controalele grafice."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1079,6 +1174,10 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Acesta e un „panou” – un container pentru controale grafice. Faceți clic "
+"drept pe acesta și alegeți <interface>Arată configurările panoului</"
+"interface> pentru a-i schimba comportamentul, muchia ecranului de care se "
+"lipește, precum și pentru a adăuga, elimina sau modifica controale grafice."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1088,6 +1187,9 @@ msgid ""
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
+"Acesta e controlul grafic „Lansator de aplicații”, un lansator cu destinație "
+"multiplă. De aici puteți lansa aplicații, opri sau reporni sistemul, accesa "
+"fișiere recente, și altele. Apăsați-l pentru a începe!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1096,6 +1198,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Acesta e controlul grafic „Gestionar de sarcini”, unde puteți schimba între "
+"aplicațiile deschise și lansa unele noi. Trageți pictogramele aplicațiilor "
+"pentru a le rearanja."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1106,6 +1211,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"Acesta e controlul grafic „Tavă de sistem”, care vă permite să controlați "
+"funcții de sistem ca schimbarea volumului și conectarea la rețele. "
+"Elementele devin vizibile aici doar când e relevant. Pentru a vedea toate "
+"elementele disponibile, apăsați săgeata ⌃ de lângă ceas."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1115,6 +1224,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Acesta e controlul grafic „Ceas digital”.Apăsați-l pentru a afișa un "
+"calendar.Acesta poate fi configurat să arate alte fuse orare și evenimente "
+"din calendarele voastre digitale."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1124,6 +1236,9 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Acesta e controlul grafic „Trage cu ochiul la birou”. Apăsați-l pentru a "
+"ascunde temporar toate ferestrele deschise, astfel încât să puteți accesa "
+"biroul. Apăsați-l iar pentru a le aduce înapoi."
 
 #: src/qml/pages/Welcome.qml:21
 #, kde-format
@@ -1141,6 +1256,10 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
+"%1<nl/><nl/>Acest sistem de operare rulează Plasma, un mediu de birou liber "
+"cu sursă deschisă creat de KDE, o comunitate internațională de voluntari. "
+"Acesta e simplu de la început pentru o experiență armonioasă, dar puternic "
+"când trebuie să vă îndepliniți sarcinile. Sperăm să vă placă!"
 
 #: src/qml/pages/Welcome.qml:24
 #, kde-kuit-format
@@ -1152,38 +1271,41 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
+"Bun venit în sistemul de operare %1 ce rulează KDE Plasma!<nl/><nl/>Plasma e "
+"un mediu de birou liber cu sursă deschisă creat de KDE, o comunitate "
+"internațională de voluntari. Acesta e simplu de la început pentru o "
+"experiență armonioasă, dar puternic când trebuie să vă îndepliniți "
+"sarcinile. Sperăm să vă placă!"
 
 #: src/qml/pages/Welcome.qml:28
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Welcome Center"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Centru de întâmpinare"
+msgstr "Despre Centrul de întâmpinare"
 
 #: src/qml/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "Despre KDE"
 
 #: src/qml/pages/Welcome.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr "Află mai multe despre comunitatea KDE"
+msgstr "Aflați mai multe despre comunitatea KDE"
 
 #: src/qml/pages/Welcome.qml:62
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Află mai multe despre %1"
+msgstr "Aflați mai multe despre %1"
 
 #: src/qml/pages/Welcome.qml:76
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr ""
+msgstr "Konqi, mascota KDE, vă urează bun venit în comunitatea KDE!"
 
 #: src/qml/pages/Welcome.qml:109
 #, kde-format
@@ -1196,12 +1318,14 @@ msgstr "Încărcarea imaginii a eșuat"
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
+"Fișierul <filename>%1</filename> nu a putut fi încărcat. Asigurați-vă că "
+"acesta există."
 
 #: src/qml/pages/Welcome.qml:133
 #, kde-format
 msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
-msgstr "Vizitează %1"
+msgstr "Vizitați %1"
 
 #: src/release.cpp:43
 #, kde-format
