@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-23 00:45+0000\n"
-"PO-Revision-Date: 2025-04-07 00:46+0200\n"
+"PO-Revision-Date: 2025-10-09 01:52+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -236,9 +236,7 @@ msgid "Desktop 1"
 msgstr "바탕 화면 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when there is insufficent width"
-#| msgid "Expand the window"
+#, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
 msgstr "창 확장"
@@ -623,30 +621,27 @@ msgid "Powerful When Needed"
 msgstr "필요할 때 강력하게"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is an extremely feature-rich environment, designed to super-charge "
 "your productivity!<nl/><nl/>Click the cards below to see just a smattering "
 "of what it can do for you:"
 msgstr ""
-"Plasma는 생산성을 강화할 수 있는 다양한 강력한 기능이 있습니다!<nl/><nl/>"
+"Plasma는 생산성을 강화할 수 있는 다양한 강력한 기능이 있습니다!<nl/><nl/>아"
+"래 카드를 클릭하여 Plasma의 주요 기능을 탐색할 수 있습니다."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "키보드 단축키"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "키보드에서 기능 활성화"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -763,18 +758,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -790,9 +774,7 @@ msgstr ""
 "텍스트 메시지를 컴퓨터에서 답장하기</item><item>컴퓨터와 휴대폰의 클립보드 내"
 "용 공유</item><item>휴대폰이 어디에 있는지 기억이 안 날 때 휴대폰 울리기</"
 "item><item>휴대폰에 있는 사진, 동영상, 기타 파일을 컴퓨터로 복사(양방향 가"
-"능)</item><item>… 외에도 더 있습니다!</item></list><nl/>시작하려면 "
-"<interface>시스템 설정</interface>을 실행한 다음 \"KDE Connect\"를 검색하십시"
-"오. 해당 페이지에서 휴대폰과 페어링할 수 있습니다."
+"능)</item><item>… 외에도 더 있습니다!</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -801,26 +783,26 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"시작하려면 <interface>%1</interface> 단추를 클릭하십시오. 휴대폰을 페어링할 "
+"수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "%1 열기"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE Connect가 설치되지 않았습니다."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr "KDE Connect 설치…"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
@@ -903,13 +885,13 @@ msgstr "...그리고 더 있습니다!"
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "키보드 단축키"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "단축키 설정…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -919,6 +901,8 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"Plasma의 거의 모든 것은 <shortcut>Meta</shortcut> 키를 사용한 키보드 단축키로"
+"도 실행할 수 있습니다.<nl/><nl/>Mac에서는 \"Command\" 키입니다."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -930,24 +914,28 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super:”"
 msgstr ""
+"Plasma의 거의 모든 것은 <shortcut>Meta</shortcut> 키를 사용한 키보드 단축키로"
+"도 실행할 수 있습니다.<nl/><nl/>이 키는 대부분 왼쪽 <shortcut>Ctrl</shortcut>"
+"과 <shortcut>Alt</shortcut> 키 사이에 있으며, \"Super\" 키 또는 그림이 그려"
+"져 있는 키입니다."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -956,37 +944,37 @@ msgctxt ""
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an empty string."
 msgid "I never meta key I didn't like"
-msgstr ""
+msgstr "메타 키는 몇 가지 방식으로 부를 수 있음"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "control"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "option"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "command"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
@@ -1005,6 +993,17 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"<shortcut>Meta</shortcut> 키로 할 수 있는 것은 무엇이 있나요? 아래는 간단한 "
+"예제입니다.<list><item>한 번 누르기: 앱 실행기 위젯 열기</"
+"item><item><shortcut>Meta+[화살표 키]</shortcut> 누르기: 창을 화면 가장자리"
+"나 모서리로 타일</item><item><shortcut>Meta+[숫자 키] 누르기</shortcut>: 작"
+"업 관리자에 고정된 앱 실행</item><item><shortcut>Meta+R</shortcut> 누르기: 화"
+"면 녹화 시작</item><item><shortcut>Meta+L</shortcut> 누르기: 화면 잠금</"
+"item><item><shortcut>Meta+Shift+S</shortcut> 누르기: 스크린 리더 활성화/비활"
+"성화</item><item><shortcut>Meta+Alt+P</shortcut> 누르기: 키보드 포커스를 패널"
+"로 이동</item><item><shortcut>Meta+Esc</shortcut> 누르기: 시스템 모니터 앱 실"
+"행</item><item><shortcut>Meta+.</shortcut> 누르기: 이모지 선택기 앱 열기</"
+"item><item><shortcut>Meta+D</shortcut> 누르기: 바탕 화면 표시</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
