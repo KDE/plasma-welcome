@@ -1,21 +1,21 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2023, 2024 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-11 00:44+0000\n"
-"PO-Revision-Date: 2024-08-06 11:28+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2025-10-02 09:41+0200\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -171,7 +171,7 @@ msgstr "&Následující"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr ""
+msgstr "Zobrazit po aktualizaci Plasma"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -236,7 +236,7 @@ msgstr "Plocha 1"
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
-msgstr ""
+msgstr "Roztáhnout okno"
 
 #: src/qml/PageError.qml:22
 #, kde-format
@@ -349,25 +349,25 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Seřadit: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr ""
+msgstr "Náhodné"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Příjmení"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr ""
+msgstr "Jméno"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
 #, kde-format
@@ -375,13 +375,13 @@ msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr ""
+msgstr "Datum příspěvku"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "Obrátit směr"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -610,7 +610,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klávesové zkratky"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
@@ -742,6 +742,13 @@ msgid ""
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list>"
 msgstr ""
+"KDE Connect vám umožní několika způsoby propojit váš telefon s počítačem:<nl/"
+"><list><item>Vidět upozornění z vašeho telefonu na počítači</"
+"item><item>Odpovídat na textové zprávy z vašeho telefonu na vašem počítači</"
+"item><item>Synchronizovat obsah schránky mezi vašim počítačem a telefonem</"
+"item><item>Prozvonit váš telefon pokud není na svém místě</"
+"item><item>Kopírovat obrázky, videa a jiné soubory z vašeho telefonu na "
+"počítač a obráceně</item><item>… a mnohem víc!</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -755,7 +762,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "Otevřít %1"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
@@ -843,13 +850,13 @@ msgstr "... a mnohem více."
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klávesové zkratky"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "Nastavit zkratky…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -875,19 +882,19 @@ msgstr ""
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -902,13 +909,13 @@ msgstr ""
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
@@ -926,7 +933,7 @@ msgstr ""
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "příkaz"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
