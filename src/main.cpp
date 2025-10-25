@@ -21,6 +21,7 @@
 #include <KLocalizedQmlContext>
 #include <KLocalizedString>
 #include <KWindowSystem>
+#include <KirigamiApp>
 
 #include "app.h"
 #include "plasma-welcome-version.h"
@@ -30,16 +31,11 @@ Q_IMPORT_QML_PLUGIN(org_kde_plasma_welcomePlugin);
 
 int main(int argc, char *argv[])
 {
-    auto format = QSurfaceFormat::defaultFormat();
-    format.setOption(QSurfaceFormat::ResetNotification);
-    QSurfaceFormat::setDefaultFormat(format);
+    KirigamiApp::App app(argc, argv);
+    KirigamiApp kapp;
 
-    QApplication app(argc, argv);
-    QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
-    QCoreApplication::setApplicationName(QStringLiteral("plasma-welcome"));
+    app.setWindowIcon(QIcon::fromTheme(QStringLiteral("start-here-kde-plasma")));
     KLocalizedString::setApplicationDomain(QByteArrayLiteral("plasma-welcome"));
-
-    const QString description = i18nc("@info:usagetip", "Friendly onboarding wizard for Plasma");
     KAboutData aboutData(
         // The program name used internally.
         QStringLiteral("plasma-welcome"),
@@ -48,12 +44,11 @@ int main(int argc, char *argv[])
         // The program version string.
         QStringLiteral(PLASMA_WELCOME_VERSION_STRING),
         // Short description of what the app does.
-        description,
+        i18nc("@info:usagetip", "Friendly onboarding wizard for Plasma"),
         // The license this code is released under.
         KAboutLicense::GPL,
         // Copyright Statement.
         i18nc("@info copyright string", "© 2021–2024, KDE Community"));
-    aboutData.setProgramLogo(QIcon::fromTheme(QStringLiteral("start-here-kde-plasma")));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"),
                         i18nc("@info:credit", "Author"),
                         QStringLiteral("kinofhek@gmail.com"),
@@ -63,14 +58,17 @@ int main(int argc, char *argv[])
                         QStringLiteral("nate@kde.org"),
                         QStringLiteral("https://pointieststick.com"));
     aboutData.addAuthor(i18nc("@info:credit", "Oliver Beard"), i18nc("@info:credit", "Author"), QStringLiteral("olib141@outlook.com"));
-    aboutData.setBugAddress(QByteArrayLiteral("https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center"));
+    aboutData.setProductName("welcome center/general");
+    aboutData.setProgramLogo(app.windowIcon());
+
+    aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
+
     KAboutData::setApplicationData(aboutData);
 
     QQmlApplicationEngine engine;
 
     // Parse CLI args
     QCommandLineParser parser;
-    parser.setApplicationDescription(description);
     aboutData.setupCommandLine(&parser);
 
     parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
@@ -122,9 +120,7 @@ int main(int argc, char *argv[])
         appSingleton->setMode(App::Mode::Live);
     }
 
-    engine.loadFromModule("org.kde.plasma.welcome.private", "Main");
-
-    if (engine.rootObjects().isEmpty()) {
+    if (!kapp.start("org.kde.plasma.welcome.private", "Main", &engine)) {
         return -1;
     }
 

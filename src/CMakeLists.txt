@@ -102,6 +102,7 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::Service
     KF6::WindowSystem
     Plasma::Plasma
+    KirigamiApp
 )
 
 kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
