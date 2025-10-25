@@ -10,41 +10,19 @@ import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
 
-Item {
+QQC2.ToolBar {
     id: footer
 
     required property string contentSource
 
-    height: separatorLayout.implicitHeight
+    // Even though a normal footer wouldn't be styled like the header, it seems
+    // like the right thing to do here to help frame the whole application.
+    Kirigami.Theme.inherit: false
+    Kirigami.Theme.colorSet: Kirigami.Theme.Header
 
-    ColumnLayout {
-        id: separatorLayout
-        anchors.left: footer.left
-        anchors.right: footer.right
+    position: QQC2.ToolBar.Footer
 
-        spacing: 0
-
-        Kirigami.Separator {
-            Layout.fillWidth: true
-        }
-
-        // Not using QQC2.Toolbar so that the window can be
-        // dragged from the footer, both appear identical
-        Kirigami.AbstractApplicationHeader {
-            Layout.fillWidth: true
-
-            contentItem: Item {
-                implicitHeight: footerLoader.implicitHeight + footerLoader.anchors.margins * 2
-                implicitWidth: parent.width
-
-                Loader {
-                    id: footerLoader
-                    anchors.fill: parent
-                    anchors.margins: Kirigami.Units.smallSpacing
-
-                    source: footer.contentSource
-                }
-            }
-        }
+    contentItem: Loader {
+        source: footer.contentSource
     }
 }
