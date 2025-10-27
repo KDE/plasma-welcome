@@ -27,7 +27,7 @@ Welcome.Page {
 
     description: Welcome.Utils.isMac()
         ? xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac keyboard, this is the “Command” key:")
-        : xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or the word “Super:”")
+        : xi18nc("@info:usagetip", "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or the word “Super”:")
 
     topContent: [
         Item {
