@@ -1,21 +1,21 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2024 rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>
+# SPDX-FileCopyrightText: 2024, 2025 rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-11 00:44+0000\n"
-"PO-Revision-Date: 2024-10-30 10:50+0100\n"
-"Last-Translator: rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>\n"
+"PO-Revision-Date: 2025-10-28 22:10+0100\n"
+"Last-Translator: Rasmus Rosendahl-Kaa <rasmus@rosendahl-kaa.name>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -287,7 +287,7 @@ msgstr "Denne siver, leveret af Velkomstcenter, kunne ikke indlæses"
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Find fantastiske apps"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -300,6 +300,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"Der er ingen grund til at søge på nettet for at installere apps eller bruge "
+"en kommandolinjebaseret pakkehåndtør; KDE's appstore <application>%1</"
+"application> gør det hele for dig!<nl/><nl/> Klik på enhver af ikonerne "
+"nedenfor for at prøve den af!"
 
 #: src/qml/pages/Discover.qml:103
 #, kde-format
@@ -363,7 +367,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr ""
+msgstr "Sorterings: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
 #, fuzzy, kde-format
@@ -377,7 +381,7 @@ msgstr "Sortér tilfældigt"
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr ""
+msgstr "Efternavn"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
 #, fuzzy, kde-format
@@ -393,13 +397,13 @@ msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr ""
+msgstr "Bidragsdato"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr ""
+msgstr "Omvendt"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
@@ -556,7 +560,7 @@ msgstr "Rapportér en fejl"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Download en indlejret forhåndsvisning af udgivelsesannonceringen?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -565,36 +569,38 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Denne forhåndsvisning er ikke automatisk blevet downloadet, fordi du bruger "
+"en målt netværksforbindelse."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Forhåndsvisningen kunne ikke downloades — en netværksfejl opstod (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "Forhåndvisningen kunne ikke indlæses — der opstod en parsefejl."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Download forhåndsvisning"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Download alligevel"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr ""
+msgstr "Prøv igen"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
 #, fuzzy, kde-format
@@ -608,7 +614,7 @@ msgstr "Åbn indstillinger…"
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Indlæs forhåndsvisninger automatisk"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -617,12 +623,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Denne forhåndsvisning vil automatisk blive indlæst, når denne side vises for "
+"fremtidige Plasma-opdateringer, med mindre der bruges en målt "
+"netværksforbindelse."
 
 #: src/qml/pages/PlasmaUpdate.qml:421
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Klik for at læse annonceringen</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -650,13 +659,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Tastaturgenveje"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "Aktiver funktioner fra tastaturet"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -820,18 +829,20 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"Klik <interface>%1</interface>-knappen for at komme i gang. Du kan forbinde "
+"din telefon der."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "Åben %1"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE-Connect er ikke installeret"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
 #, fuzzy, kde-format
@@ -924,13 +935,13 @@ msgstr "...og meget mere!"
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Tastaturgenveje"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "Indstil genveje…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -940,9 +951,17 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"Næsten alt i Plasma kan gøres via tastaturet, ved at bruge genveje der for "
+"det meste involverer <shortcut>Meta</shortcut>-tasten.<nl/><nl/>På et Mac-"
+"tastatur, er dette \"Kommando\"-tasten."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Almost anything in Plasma can be done with the keyboard, using shortcuts "
+#| "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
+#| "keyboard, this is the “Command” key:"
 msgctxt "@info:usagetip"
 msgid ""
 "Almost anything in Plasma can be done with the keyboard, using shortcuts "
@@ -951,24 +970,27 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super:”"
 msgstr ""
+"Næsten alt i Plasma kan gøres via tastaturet, ved at bruge genveje der for "
+"det meste involverer <shortcut>Meta</shortcut>-tasten.<nl/><nl/>På et Mac-"
+"tastatur, er dette \"Kommando\"-tasten."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -983,31 +1005,31 @@ msgstr ""
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "kontrol"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "tilvalg"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "kommando"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
