@@ -35,3 +35,5 @@ QColor PlasmaColors::backgroundColor() const
 {
     return m_theme.color(Plasma::Theme::BackgroundColor);
 }
+
+#include "moc_plasmacolors.cpp"
