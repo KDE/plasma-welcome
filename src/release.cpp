@@ -12,6 +12,7 @@
 #include <KLocalizedString>
 
 #include "../plasma-welcome-version.h"
+#include "welcome_debug.h"
 
 #include "release.h"
 
@@ -70,7 +71,7 @@ Release::Release(QObject *parent)
 
     // Setup for fetching preview
     if (!QNetworkInformation::loadDefaultBackend()) {
-        qWarning() << "Failed to load QNetworkInformation backend";
+        qCWarning(WELCOME_LOG) << "Failed to load QNetworkInformation backend";
     }
     m_networkInfo = QNetworkInformation::instance();
 
@@ -150,6 +151,8 @@ void Release::getPreview()
         }
     }
 
+    qCInfo(WELCOME_LOG) << "Fetching announcement for preview with URL" << announcementUrl;
+
     m_previewNetworkAccessManager->get(QNetworkRequest(QUrl(announcementUrl)));
 }
 
@@ -164,7 +167,7 @@ void Release::parsePreviewReply(QNetworkReply *const reply)
         emit previewErrorCodeChanged();
         emit previewStatusChanged();
 
-        qWarning() << "Failed to get release announcement preview:" << m_previewErrorCode << reply->errorString();
+        qCWarning(WELCOME_LOG) << "Failed to get announcement preview:" << m_previewErrorCode << reply->errorString();
         return;
     }
 
