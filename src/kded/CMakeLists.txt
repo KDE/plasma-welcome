@@ -3,6 +3,14 @@
 
 kcoreaddons_add_plugin(kded_plasma-welcome INSTALL_NAMESPACE "kf6/kded")
 
+ecm_qt_declare_logging_category(kded_plasma-welcome
+    HEADER welcome_kded_debug.h
+    IDENTIFIER WELCOME_KDED_LOG
+    CATEGORY_NAME org.kde.plasma.welcome.kded
+    DESCRIPTION "Welcome Center (KDED)"
+    EXPORT WELCOME
+)
+
 target_sources(kded_plasma-welcome PRIVATE
     daemon.cpp
     daemon.h

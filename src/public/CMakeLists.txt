@@ -8,6 +8,12 @@ ecm_add_qml_module(plasma-welcome-public
     DEPENDENCIES org.kde.kcmutils
 )
 
+ecm_qt_declare_logging_category(plasma-welcome-public
+    HEADER welcome_debug.h
+    IDENTIFIER WELCOME_LOG
+    CATEGORY_NAME org.kde.plasma.welcome
+)
+
 target_sources(plasma-welcome-public PRIVATE
     controller.cpp
     distro.cpp

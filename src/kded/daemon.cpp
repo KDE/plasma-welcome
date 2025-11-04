@@ -12,6 +12,8 @@
 #include <KPluginFactory>
 
 #include "../plasma-welcome-version.h"
+#include "welcome_kded_debug.h"
+
 #include "daemon.h"
 
 K_PLUGIN_CLASS_WITH_JSON(PlasmaWelcomeDaemon, "kded_plasma-welcome.json")
@@ -22,21 +24,27 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
     , m_currentVersion(QVersionNumber::fromString(QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING)))
     , m_previousVersion(QVersionNumber::fromString(m_config.readEntry("LastSeenVersion", QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING))))
 {
+    qCDebug(WELCOME_KDED_LOG) << "Current version is" << m_currentVersion << "and previous version is" << m_previousVersion;
+
     if (m_config.readEntry("LiveEnvironment", false)) {
         // Live installer, always launch
+        qCInfo(WELCOME_KDED_LOG) << "Launching Welcome Center within live environment";
         launch(QStringList{QStringLiteral("--live-environment")});
     } else {
         // Normal, check if launched before or updated since
         const bool lastSeenVersionEmpty = m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty(); // i.e. have we shown Welcome Center previously
 
         if (lastSeenVersionEmpty) {
+            qCInfo(WELCOME_KDED_LOG) << "Launching Welcome Center with no last seen version";
             launch(QStringList{});
         } else if (m_config.readEntry("ShowUpdatePage", true) && isSignificantUpgrade()) {
+            qCInfo(WELCOME_KDED_LOG) << "Launching Welcome Center following update";
             launch(QStringList{QStringLiteral("--post-update")});
         }
 
         if (m_currentVersion.microVersion() != 80) {
             // Save current version when we're not on a development version
+            qCDebug(WELCOME_KDED_LOG) << "Saving current version";
             m_config.writeEntry("LastSeenVersion", m_currentVersion.toString());
             m_config.config()->sync();
         } else if (lastSeenVersionEmpty) {
@@ -44,6 +52,7 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
             // Some people are exclusively using development versions, so let's
             // initialise it with the release we're developing on, else we'll
             // just constantly show Welcome Center as if it were a first run
+            qCDebug(WELCOME_KDED_LOG) << "Saving current non-debug version";
             m_config.writeEntry("LastSeenVersion", QVersionNumber(m_currentVersion.majorVersion(), m_currentVersion.minorVersion(), 0).toString());
             m_config.config()->sync();
         }

@@ -14,6 +14,8 @@
 #include <KLocalizedString>
 #include <KNotificationJobUiDelegate>
 
+#include "welcome_debug.h"
+
 #include "controller.h"
 
 Controller::Controller(QObject *parent)
@@ -23,7 +25,7 @@ Controller::Controller(QObject *parent)
 
 void Controller::launchApp(const QString &program) const
 {
-    qWarning() << "Controller.launchApp() is deprecated — use Utils.launchApp() instead.";
+    qCWarning(WELCOME_LOG) << "Controller.launchApp() is deprecated — use Utils.launchApp() instead.";
 
     auto *job = new KIO::ApplicationLauncherJob(KService::serviceByDesktopName(program));
     job->setUiDelegate(new KNotificationJobUiDelegate(KJobUiDelegate::AutoErrorHandlingEnabled));
@@ -32,7 +34,7 @@ void Controller::launchApp(const QString &program) const
 
 void Controller::runCommand(const QString &command, QJSValue callback)
 {
-    qWarning() << "Controller.runCommand() is deprecated — use Utils.runCommand() instead.";
+    qCWarning(WELCOME_LOG) << "Controller.runCommand() is deprecated — use Utils.runCommand() instead.";
 
     const bool resultHandled = callback.isCallable();
 
@@ -42,7 +44,7 @@ void Controller::runCommand(const QString &command, QJSValue callback)
     if (QStandardPaths::findExecutable(program).isEmpty()) {
         const QString errorMessage = xi18nc("@info:progress", "The command <command>%1</command> could not be found.", program);
 
-        qWarning() << errorMessage;
+        qCWarning(WELCOME_LOG) << "The command" << program << "could not be found";
         if (resultHandled) {
             callback.call({-1, errorMessage});
         }
@@ -81,7 +83,7 @@ void Controller::runCommand(const QString &command, QJSValue callback)
                                                command,
                                                intermediateText);
 
-        qWarning() << finalOutputText;
+        qCWarning(WELCOME_LOG) << "The command" << command << "failed:" << intermediateText;
         callback.call({exitCode, finalOutputText});
         return;
     });
@@ -89,7 +91,7 @@ void Controller::runCommand(const QString &command, QJSValue callback)
 
 void Controller::copyToClipboard(const QString &text) const
 {
-    qWarning() << "Controller.copyToClipboard() is deprecated — use Utils.copyToClipboard() instead.";
+    qCWarning(WELCOME_LOG) << "Controller.copyToClipboard() is deprecated — use Utils.copyToClipboard() instead.";
 
     QApplication::clipboard()->setText(text);
 }

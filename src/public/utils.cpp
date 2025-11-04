@@ -18,6 +18,8 @@
 #include <KLocalizedString>
 #include <KNotificationJobUiDelegate>
 
+#include "welcome_debug.h"
+
 #include "utils.h"
 
 Utils::Utils(QObject *parent)
@@ -42,7 +44,7 @@ void Utils::runCommand(const QString &command, QJSValue callback)
     if (QStandardPaths::findExecutable(program).isEmpty()) {
         const QString errorMessage = xi18nc("@info:progress", "The command <command>%1</command> could not be found.", program);
 
-        qWarning() << errorMessage;
+        qCWarning(WELCOME_LOG) << "The command" << program << "could not be found";
         if (resultHandled) {
             callback.call({-1, errorMessage});
         }
@@ -81,7 +83,7 @@ void Utils::runCommand(const QString &command, QJSValue callback)
                                                command,
                                                intermediateText);
 
-        qWarning() << finalOutputText;
+        qCWarning(WELCOME_LOG) << "The command" << command << "failed:" << intermediateText;
         callback.call({exitCode, finalOutputText});
         return;
     });

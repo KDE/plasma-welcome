@@ -15,6 +15,14 @@ ecm_add_qml_module(plasma-welcome URI "org.kde.plasma.welcome.private" GENERATE_
 
 configure_file(config-plasma-welcome.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma-welcome.h)
 
+ecm_qt_declare_logging_category(plasma-welcome
+    HEADER welcome_debug.h
+    IDENTIFIER WELCOME_LOG
+    CATEGORY_NAME org.kde.plasma.welcome
+    DESCRIPTION "Welcome Center"
+    EXPORT WELCOME
+)
+
 target_sources(plasma-welcome PRIVATE
     main.cpp
 
