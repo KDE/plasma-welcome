@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-28 00:44+0000\n"
-"PO-Revision-Date: 2025-09-12 14:11+0200\n"
+"POT-Creation-Date: 2025-11-04 00:44+0000\n"
+"PO-Revision-Date: 2025-10-29 14:51+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -93,19 +93,19 @@ msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
 msgstr "Module inconnu %1 demandé"
 
-#: src/public/controller.cpp:43 src/public/utils.cpp:43
+#: src/public/controller.cpp:45 src/public/utils.cpp:45
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "Il est impossible de trouver la commande <command>%1</command>"
 
-#: src/public/controller.cpp:76 src/public/utils.cpp:76
+#: src/public/controller.cpp:78 src/public/utils.cpp:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "Aucun message d'erreur n'a été fourni."
 
-#: src/public/controller.cpp:80 src/public/utils.cpp:80
+#: src/public/controller.cpp:82 src/public/utils.cpp:82
 #, kde-kuit-format
 msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
@@ -936,14 +936,7 @@ msgstr ""
 "><nl/>Sur un clavier de Mac, il s'agit de la touche « Commande » :"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Almost anything in Plasma can be done with the keyboard, using shortcuts "
-#| "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key "
-#| "is usually located between the left <shortcut>Ctrl</shortcut> and "
-#| "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, "
-#| "or the word “Super:”"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Almost anything in Plasma can be done with the keyboard, using shortcuts "
@@ -952,7 +945,7 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super”:"
 msgstr ""
-"Presque tout dans Plasma peut être fait avec le clavier, en utilisant des "
+"Presque tout dans Plasma peut être fait avec le clavier, grâce à des "
 "raccourcis utilisant principalement la touche <shortcut>Meta</shortcut>.<nl/"
 "><nl/>Cette touche est généralement située entre les touches <shortcut>CTRL</"
 "shortcut> à gauche et <shortcut>ALT</shortcut>. Elle contient soit un "
@@ -1032,6 +1025,25 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"Que pouvez-vous faire avec <shortcut> « Meta » </shortcut> ? Voici quelques "
+"exemples :<list><item>Avec un appui dessus : ouverture du composant "
+"graphique de lanceur d’applications, </item><item>Avec appui sur la touche "
+"<shortcut> « Meta » + [Touches de flèche]</shortcut> : affichage de la "
+"fenêtre sur les bords ou les coins de l'écran, </item><item>Avec appui sur "
+"les touches <shortcut> « Meta » + [Touches numériques]</shortcut> : "
+"lancement des applications épinglées dans le gestionnaire de tâches ,</"
+"item><item>Appui sur les touches <shortcut>« Meta » + « R » </shortcut> : "
+"démarrage d'un enregistrement d’écran,</item><item>Appui sur les touches "
+"<shortcut>« Meta » + « L » </shortcut> : verrouillage de l’écran,</"
+"item><item>Appui sur les touches <shortcut>« Meta » + « Maj » + « S » </"
+"shortcut> : activation ou désactivation du lecteur d’écran,</"
+"item><item>Appui sur les touches <shortcut>« Meta » + « ALT » + « P » </"
+"shortcut> : déplacement du focus du clavier vers un panneau,</"
+"item><item>Appui sur les touches <shortcut>« Meta » + « Échap »</shortcut> : "
+"lancement de l'application de surveillance du système,</item><item>Appui sur "
+"les touches <shortcut>« Meta » + « . » </shortcut> : lancement de "
+"l'application de sélection d'émoticônes,</item><item>Appui sur les touches "
+"<shortcut>« Meta » + « D »</shortcut> : affichage du bureau.</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
@@ -1125,7 +1137,7 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Pour commencer, veuillez cliquer sur la flèche de la <interface>boîte à "
+"Pour commencer, veuillez cliquer sur la flèche de la <interface>boite à "
 "miniatures du système</interface> pour afficher les éléments masqués, puis "
 "sur l'icône <interface>Coffres-forts</interface>."
 
@@ -1336,19 +1348,19 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "Visitez %1"
 
-#: src/release.cpp:41
+#: src/release.cpp:42
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 Dév"
 
-#: src/release.cpp:44
+#: src/release.cpp:45
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 Bêta"
 
-#: src/release.cpp:48
+#: src/release.cpp:49
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
