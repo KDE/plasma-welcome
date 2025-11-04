@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-11 00:44+0000\n"
+"POT-Creation-Date: 2025-11-04 02:55+0000\n"
 "PO-Revision-Date: 2025-09-15 12:48+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -93,19 +93,19 @@ msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
 msgstr "طُلبت وحدة مجهولة %1"
 
-#: src/public/controller.cpp:43 src/public/utils.cpp:43
+#: src/public/controller.cpp:45 src/public/utils.cpp:45
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "تعذر العثور على الأمر <command>%1</command>."
 
-#: src/public/controller.cpp:76 src/public/utils.cpp:76
+#: src/public/controller.cpp:78 src/public/utils.cpp:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "لم تتوفر رسالة خطأ"
 
-#: src/public/controller.cpp:80 src/public/utils.cpp:80
+#: src/public/controller.cpp:82 src/public/utils.cpp:82
 #, kde-kuit-format
 msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
@@ -1284,19 +1284,19 @@ msgctxt "@action:button clicking on this takes the user to a web page"
 msgid "Visit %1"
 msgstr "زرّ %1"
 
-#: src/release.cpp:43
+#: src/release.cpp:44
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 Dev"
 
-#: src/release.cpp:46
+#: src/release.cpp:47
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 Beta"
 
-#: src/release.cpp:50
+#: src/release.cpp:51
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
