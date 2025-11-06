@@ -6,20 +6,21 @@
 # SPDX-FileCopyrightText: 2023, 2024 Johannes Obermayr <johannesobermayr@gmx.de>
 # SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
 # SPDX-FileCopyrightText: 2025 Alois Spitzbart <spitz234@hotmail.com>
+# SPDX-FileCopyrightText: 2025 Philipp Kiemle <l10n@prly.mozmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-04 00:44+0000\n"
-"PO-Revision-Date: 2025-09-20 19:52+0200\n"
-"Last-Translator: Alois Spitzbart <spitz234@hotmail.com>\n"
+"PO-Revision-Date: 2025-10-29 10:55+0100\n"
+"Last-Translator: Philipp Kiemle <l10n@prly.mozmail.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -227,12 +228,12 @@ msgstr "Vor 3 Stunden verwendet"
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr "Aktivität erstellen …"
+msgstr "Aktivität erstellen …"
 
 #: src/qml/mock/MockKRunner.qml:81
 #, kde-format
 msgid "Search…"
-msgstr "Suchen …"
+msgstr "Suchen …"
 
 #: src/qml/mock/MockOverview.qml:97
 #, kde-format
@@ -241,12 +242,10 @@ msgid "Desktop 1"
 msgstr "Arbeitsfläche 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when there is insufficent width"
-#| msgid "Expand the window"
+#, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
-msgstr "Fenster maximieren"
+msgstr "Fenster vergrößern"
 
 #: src/qml/PageError.qml:22
 #, kde-format
@@ -258,7 +257,7 @@ msgstr "Fehler beim Laden der Seite"
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Problem melden …"
+msgstr "Problem melden …"
 
 #: src/qml/PageError.qml:33
 #, kde-format
@@ -525,7 +524,7 @@ msgstr "Status ändern"
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Plasma wurde zu %1 aktualisiert"
+msgstr "Plasma wurde auf %1 aktualisiert"
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -611,7 +610,7 @@ msgstr "Erneut versuchen"
 #, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Im Browser öffnen …"
+msgstr "Im Browser öffnen …"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
@@ -658,13 +657,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Tastatur-Kurzbefehle"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "Aktionen mit der Tastatur ausführen"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -763,7 +762,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Einstellungen öffnen ..."
+msgstr "Einstellungen öffnen …"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
 #, kde-kuit-format
@@ -785,18 +784,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -807,7 +795,7 @@ msgid ""
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list>"
 msgstr ""
-"KDE Connect ermöglicht es Ihrem Telefon und Ihrem Rechner auf vielfältige "
+"KDE Connect ermöglicht es Ihrem Telefon und Ihrem Rechner, auf vielfältige "
 "Art und Weise miteinander zu interagieren:<nl/><list><item>Sehen Sie "
 "Benachrichtigungen von Ihrem Telefon auf Ihrem Rechner</"
 "item><item>Beantworten Sie Textnachrichten von Ihrem Telefon auf Ihrem "
@@ -815,9 +803,7 @@ msgstr ""
 "Ihrem Telefon und Ihrem Rechner</item><item>Spielen Sie einen Signalton auf "
 "Ihrem Telefon ab, wenn Sie es verlegt haben</item><item>Kopieren Sie Bilder, "
 "Videos und andere Dateien von Ihrem Telefon auf Ihren Rechner und "
-"andersherum</item><item>…Und vieles mehr!</item></list><nl/>Um zu beginnen, "
-"öffnen Sie die <interface>Systemeinstellungen</interface> und suchen Sie "
-"nach „KDE Connect“. Auf dieser Seite können Sie Ihr Telefon koppeln."
+"andersherum</item><item>… und vieles mehr!</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -826,26 +812,26 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"Um zu beginnen, klicken Sie auf den Knopf <interface>%1</interface>. Dort "
+"können Sie Ihr Telefon koppeln."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "%1 öffnen"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE Connect ist nicht installiert."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr "KDE Connect installieren …"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
@@ -925,19 +911,19 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr "… und vieles mehr!"
+msgstr "... und vieles mehr!"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Tastatur-Kurzbefehle"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "Kurzbefehle einrchten …"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -947,6 +933,9 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"In Plasma kann fast alles mit der Tastatur erledigt werden – durch "
+"Tastenkürzel, meistens mit der <shortcut>Meta</shortcut>-Taste.<nl/><nl/>Auf "
+"einer Mac-Tastatur ist das die „command“-Taste:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -963,20 +952,21 @@ msgstr ""
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Strg"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
+# Mir fällt auf die Schnelle kein Wortwitz dazu ein, also wird das ein leerer String. Ideen?
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
 msgctxt ""
@@ -984,37 +974,37 @@ msgctxt ""
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an empty string."
 msgid "I never meta key I didn't like"
-msgstr ""
+msgstr " "
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "control"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "option"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "command"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
@@ -1033,6 +1023,19 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"Wie kann die <shortcut>Meta</shortcut>-Taste verwendet werden? Hier sind "
+"einige Beispiele:<list><item><shortcut>Meta</shortcut>: Das "
+"Anwendungsstarter-Miniprogramm öffnen</item><item><shortcut>Meta"
+"+[Pfeiltasten]</shortcut>: Fenster an Bildschirmränder oder -ecken anordnen</"
+"item><item><shortcut>Meta+[Zifferntasten]</shortcut>: Angeheftete "
+"Anwendungen starten</item><item><shortcut>Meta+R</shortcut>: Eine "
+"Bildschirmaufzeichnung starten</item><item><shortcut>Meta+L</shortcut>: Den "
+"Bildschirm sperren</item><item><shortcut>Meta+Umschalt+S</shortcut>: "
+"Screenreader ein-/ausschalten</item><item><shortcut>Meta+Alt+P</shortcut>:"
+"Tastaturfokus zu Kontrollleiste verschieben</item><item><shortcut>Meta+Esc</"
+"shortcut>: Systemmonitor starten</item><item><shortcut>Meta+.</shortcut>: "
+"Emoji-Auswahl starten</item><item><shortcut>Meta+D</shortcut>: Blick auf die "
+"Arbeitsfläche</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
@@ -1165,7 +1168,7 @@ msgstr ""
 "Das ist die „Arbeitsfläche“. Sie zeigt die Dateien und Ordner Ihres "
 "<filename>Arbeitsflächen</filename>-Ordners an und kann Miniprogramme "
 "beinhalten. Durch einen Rechtsklick und Auswahl von <interface>Arbeitsfläche "
-"und Hintergrundbild …</interface> kann das Erscheinungsbild der "
+"und Hintergrundbild …</interface> kann das Erscheinungsbild der "
 "Arbeitsfläche eingerichtet werden. Mit <interface>Bearbeitungsmodus starten</"
 "interface> können Miniprogramme hinzugefügt, geändert oder entfernt werden."
 
@@ -1276,8 +1279,8 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Willkommen beim %1-Betriebssystem mit verwendetem KDE Plasma.<nl/><nl/"
-">Plasma ist eine freie und quelloffene Arbeitsumgebung von KDE, einer "
+"Willkommen beim %1-Betriebssystem, das KDE Plasma verwendet.<nl/><nl/>Plasma "
+"ist eine freie und quelloffene Arbeitsumgebung von KDE, einer "
 "internationalen Gemeinschaft von Freiwilligen. Es ist standardmäßig einfach "
 "gehalten, aber ausgesprochen leistungsstark, wenn große Dinge erledigt "
 "werden wollen. Wir hoffen, dass Sie sie lieben werden!"
