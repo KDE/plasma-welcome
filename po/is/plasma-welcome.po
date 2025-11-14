@@ -1,22 +1,22 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# Sveinn í Felli <sv1@fellsnet.is>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2025 Sveinn í Felli <sv1@fellsnet.is>
 # SPDX-FileCopyrightText: 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-04 00:44+0000\n"
-"PO-Revision-Date: 2025-09-17 12:56+0000\n"
-"Last-Translator: Gummi <gudmundure@gmail.com>\n"
-"Language-Team: Icelandic <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2025-11-13 14:48+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -920,14 +920,7 @@ msgstr ""
 "Mac-lyklaborði er það „Command“-lykillinn:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Almost anything in Plasma can be done with the keyboard, using shortcuts "
-#| "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key "
-#| "is usually located between the left <shortcut>Ctrl</shortcut> and "
-#| "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, "
-#| "or the word “Super:”"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Almost anything in Plasma can be done with the keyboard, using shortcuts "
@@ -938,8 +931,8 @@ msgid ""
 msgstr ""
 "Hægt er að gera nánast allt Plasma með lyklaborðinu, venjulega með "
 "flýtilyklasamsetningum með <shortcut>Meta</shortcut>-lyklinum.<nl/><nl/"
-">Þessi lykill er venjulega á milli <shortcut>Ctrl</shortcut>-lykilsins og "
-"<shortcut>Alt</shortcut>-lykilsins og á honum er venjulega e.k. tákn eða "
+">Þessi lykill er venjulega á milli vinstri <shortcut>Ctrl</shortcut> og "
+"<shortcut>Alt</shortcut>-lyklanna og á honum er venjulega e.k. tákn eða "
 "orðið „Super“:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
