@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2025-07-31 21:39+0200\n"
+"PO-Revision-Date: 2025-11-21 21:46+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -238,9 +238,7 @@ msgid "Desktop 1"
 msgstr "1. asztal"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when there is insufficent width"
-#| msgid "Expand the window"
+#, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
 msgstr "Ablak kiterjesztése"
@@ -648,7 +646,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Gyorsbillentyűk"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
@@ -774,18 +772,7 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KDE Connect lets you integrate your phone with your computer in various "
-#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
-#| "item><item>Reply to text messages from your phone on your computer</"
-#| "item><item>Sync your clipboard contents between your computer and your "
-#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
-#| "item><item>Copy pictures, videos, and other files from your phone to your "
-#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
-#| "get started, launch <interface>System Settings</interface> and search for "
-#| "“KDE Connect”. On that page, you can pair your phone."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:"
@@ -803,9 +790,7 @@ msgstr ""
 "szinkronizálása a számítógép és a telefon között.</item><item>Zaj keltése a "
 "telefonon, ha nem találja</item><item>Képek, videók és egyéb fájlok másolása "
 "a telefonról a számítógépre, és fordítva</item><item>...És még sok minden "
-"más!</item></list><nl/>A kezdéshez indítsa el a "
-"<interface>Rendszerbeállításokat</interface>, és keresse meg a „KDE Connect” "
-"menüpontot. Ezen az oldalon párosíthatja a telefonját."
+"más!</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
