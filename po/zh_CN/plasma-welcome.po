@@ -724,7 +724,7 @@ msgstr ""
 "活动功能可以用于区分高优先级的项目或者工作流程，让您可以集中精力办好一件事。"
 "例如您可以建立“家庭”、“学校”、“工作”三种活动来分开处理这些事务。每种活动均可"
 "访问您的全部文件，但它们会分开保存打开的应用程序和窗口、最近文档、常用程序和"
-"桌面挂件。"
+"桌面小部件。"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
@@ -986,10 +986,10 @@ msgid ""
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
 "<shortcut>Meta</shortcut> 键能用来做什么？以下是一些示例：<list><item>单按 "
-"Meta 键：打开应用程序启动器挂件 (开始菜单)</item><item>按 <shortcut>Meta+[方"
-"向键]</shortcut>：将窗口吸附到屏幕边缘或四角</item><item>按 <shortcut>Meta"
-"+[数字键]</shortcut>：启动固定在任务管理器上的应用</item><item>按 "
-"<shortcut>Meta+R</shortcut>：开始录屏</item><item>按 <shortcut>Meta+L</"
+"Meta 键：打开应用程序启动器小部件 (开始菜单)</item><item>按 <shortcut>Meta"
+"+[方向键]</shortcut>：将窗口吸附到屏幕边缘或四角</item><item>按 "
+"<shortcut>Meta+[数字键]</shortcut>：启动固定在任务管理器上的应用</item><item>"
+"按 <shortcut>Meta+R</shortcut>：开始录屏</item><item>按 <shortcut>Meta+L</"
 "shortcut>：锁屏</item><item>按 <shortcut>Meta+Shift+S</shortcut>：打开/关闭屏"
 "幕阅读器</item><item>按 <shortcut>Meta+Alt+P</shortcut>：将键盘输入的焦点移动"
 "到面板</item><item>按 <shortcut>Meta+Esc</shortcut>：启动系统监视器应用</"
@@ -1115,8 +1115,8 @@ msgid ""
 "interface> to add, remove or modify widgets."
 msgstr ""
 "这是系统的“桌面”。桌面可以显示文件和文件夹，它们被保存在当前用户主文件夹的 "
-"<filename>桌面</filename> 文件夹中。桌面还可以显示各种挂件。要添加、移除或者"
-"修改挂件，请请在桌面上点击右键，在菜单中选择<interface>进入编辑模式</"
+"<filename>桌面</filename> 文件夹中。桌面还可以显示各种小部件。要添加、移除或"
+"者修改小部件，请请在桌面上点击右键，在菜单中选择<interface>进入编辑模式</"
 "interface>。要更改桌面的外观，请在桌面上点击右键，在菜单中选择 <interface>配"
 "置桌面和壁纸…</interface>。"
 
@@ -1128,9 +1128,9 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
-"这是“面板” — 它们是用于承载挂件的容器。在面板上点击右键，在菜单中选择 "
+"这是“面板” — 它们是用于承载小部件的容器。在面板上点击右键，在菜单中选择 "
 "<interface>显示面板配置</interface> 以更改面板的行为、贴靠的屏幕边缘、添加、"
-"移除和修改挂件等。"
+"移除和修改小部件等。"
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1140,9 +1140,9 @@ msgid ""
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"这是“应用程序启动器”挂件，它是 Plasma 的多用途启动器，和开始菜单类似。您可以"
-"通过它来启动应用、关机或者重新启动电脑，访问最近文件等各种功能。点击它的图标"
-"即可展开。"
+"这是“应用程序启动器”小部件，它是 Plasma 的多用途启动器，和开始菜单类似。您可"
+"以通过它来启动应用、关机或者重新启动电脑，访问最近文件等各种功能。点击它的图"
+"标即可展开。"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1151,8 +1151,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
-"这是“任务管理器”挂件，您可以通过它来启动应用程序，或者在已打开的多个程序之间"
-"切换。您可以通过拖拽应用程序的图标来对它们进行重新排列。"
+"这是“任务管理器”小部件，您可以通过它来启动应用程序，或者在已打开的多个程序之"
+"间切换。您可以通过拖拽应用程序的图标来对它们进行重新排列。"
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1163,9 +1163,9 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
-"这是“系统托盘”挂件，您可以通过它来控制系统的某些功能，例如调整音量或者连接网"
-"络等。系统托盘默认只会显示当前可用的项目。要显示全部项目，请点击时钟旁边的 ⌃ "
-"上箭头图标。"
+"这是“系统托盘”小部件，您可以通过它来控制系统的某些功能，例如调整音量或者连接"
+"网络等。系统托盘默认只会显示当前可用的项目。要显示全部项目，请点击时钟旁边的 "
+"⌃ 上箭头图标。"
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1175,8 +1175,8 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
-"这是“数字时钟”挂件。在它上面点击还会显示日历。您还可以将它配置为显示其他时区"
-"的时间和您的数字日历的日程。"
+"这是“数字时钟”小部件。在它上面点击还会显示日历。您还可以将它配置为显示其他时"
+"区的时间和您的数字日历的日程。"
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1186,8 +1186,8 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
-"这是“暂时显示桌面”挂件。点击它即可暂时隐藏所有打开的窗口，以便您访问桌面上的"
-"内容。再次点击即可恢复正常状态。"
+"这是“暂时显示桌面”小部件。点击它即可暂时隐藏所有打开的窗口，以便您访问桌面上"
+"的内容。再次点击即可恢复正常状态。"
 
 #: src/qml/pages/Welcome.qml:21
 #, kde-format
