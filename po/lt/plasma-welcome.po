@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2025-09-15 02:08+0300\n"
+"PO-Revision-Date: 2025-12-20 18:35+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -929,14 +929,7 @@ msgstr ""
 "shortcut> klavišas.<nl/><nl/>„Mac“ klaviatūrose tai yra „Command“ klavišas:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Almost anything in Plasma can be done with the keyboard, using shortcuts "
-#| "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key "
-#| "is usually located between the left <shortcut>Ctrl</shortcut> and "
-#| "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, "
-#| "or the word “Super:”"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Almost anything in Plasma can be done with the keyboard, using shortcuts "
