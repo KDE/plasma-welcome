@@ -33,6 +33,8 @@ Item {
         Kirigami.AbstractApplicationHeader {
             Layout.fillWidth: true
 
+            separatorVisible: false
+
             contentItem: Item {
                 implicitHeight: footerLoader.implicitHeight + footerLoader.anchors.margins * 2
                 implicitWidth: parent.width
