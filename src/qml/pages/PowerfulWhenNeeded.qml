@@ -9,6 +9,7 @@ import QtQuick
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.plasma.welcome as Welcome
 
@@ -17,7 +18,7 @@ Welcome.Page {
     // Don't change the weird indentation; it's intentional to make this
     // long string nicer for translators
     description: xi18nc("@info:usagetip", "Plasma is an extremely feature-rich environment, designed to super-charge your productivity!<nl/><nl/>\
-Click the cards below to see just a smattering of what it can do for you:")
+Click below to see just a smattering of what we can do for you:")
 
     ColumnLayout {
         id: layout
@@ -25,66 +26,100 @@ Click the cards below to see just a smattering of what it can do for you:")
 
         spacing: Kirigami.Units.largeSpacing
 
-        GridLayout {
-            id: grid
+        FormCard.FormCard {
+            id: formCard
 
-            readonly property int columnsforHorizontalLayout: 3
-            readonly property int columnsforVerticalLayout: 2
-            readonly property int cellWidth: Math.round(layout.width / columns)
-            readonly property int cellHeight: Math.max(...children.map(item => item.implicitHeight))
-            readonly property int spaceForTitles: Math.round(layout.width / columnsforHorizontalLayout)
-                                                   - children[0].fixedSizeStuff
-                                                   - (columnSpacing * (columnsforHorizontalLayout - 1))
-            readonly property bool verticalLayout: children.some(item => item.implicitTitleWidth > spaceForTitles)
+            // Ensure all delegates reserve a gap if there are any unread
+            // and the gap disappears when there are no unread
+            property bool hasUnread: false
 
-            rows: verticalLayout ? 6 : 2
-            columns: verticalLayout ? columnsforVerticalLayout : columnsforHorizontalLayout
-            rowSpacing: Kirigami.Units.smallSpacing
-            columnSpacing: Kirigami.Units.smallSpacing
+            maximumWidth: Kirigami.Units.gridUnit * 25
 
             Repeater {
                 model: [
                     {
-                        page: "MetaKey.qml",
+                        leadingIcon: "preferences-desktop-keyboard-shortcut",
                         title: i18nc("@title:row", "Keyboard Shortcuts"),
                         subtitle: i18nc("@info Caption for Get Keyboard Shortcuts button", "Activate features from the keyboard"),
-                        buttonIcon: "preferences-desktop-keyboard-shortcut"
+                        page: "MetaKey.qml"
                     },
                     {
-                        page: "Overview.qml",
+                        leadingIcon: "kwin",
                         title: i18nc("@title:row Name of the 'Overview' KWin effect", "Overview"),
                         subtitle: i18nc("@info Caption for Overview button", "Your system command center"),
-                        buttonIcon: "kwin"
+                        page: "Overview.qml"
                     },
                     {
-                        page: "KRunner.qml",
+                        leadingIcon: "krunner",
                         title: i18nc("@title:row", "KRunner"),
                         subtitle: i18nc("@info Caption for KRunner button", "Search for anything"),
-                        buttonIcon: "krunner"
+                        page: "KRunner.qml"
                     },
                     {
-                        page: "KDEConnect.qml",
+                        leadingIcon: "kdeconnect",
                         title: i18nc("@title:row Name of the 'KDE Connect' feature", "KDE Connect"),
                         subtitle: i18nc("@info Caption for KDE Connect button", "Connect your phone and your computer"),
-                        buttonIcon: "kdeconnect"
+                        page: "KDEConnect.qml"
                     },
                     {
-                        page: "Activities.qml",
+                        leadingIcon: "preferences-desktop-activities",
                         title: i18nc("@title:row Name of the 'Activities' Plasma feature", "Activities"),
                         subtitle: i18nc("@info Caption for Activities button. Note that 'Separate' is being used as an imperative verb here, not a noun.", "Separate work, school, or home tasks"),
-                        buttonIcon: "preferences-desktop-activities"
+                        page: "Activities.qml"
                     },
                     {
-                        page: "Vaults.qml",
+                        leadingIcon: "plasmavault",
                         title: i18nc("@title:row Short form of the 'Vaults' Plasma feature", "Vaults"),
                         subtitle: i18nc("@info Caption for Plasma Vaults button", "Store sensitive files securely"),
-                        buttonIcon: "plasmavault"
+                        page: "Vaults.qml"
                     }
                 ]
-                delegate: PlasmaFeatureCard {
-                    Layout.fillWidth: true
-                    Layout.maximumWidth: grid.cellWidth
-                    Layout.preferredHeight: grid.cellHeight
+                delegate: FormCard.FormButtonDelegate {
+                    id: delegate
+
+                    required property string leadingIcon
+                    required property string title
+                    required property string subtitle
+                    required property string page
+
+                    property bool read: false
+
+                    // We can set icon.name, but we want it bigger
+                    leading: Kirigami.Icon {
+                        implicitWidth: Kirigami.Units.iconSizes.medium
+                        implicitHeight: Kirigami.Units.iconSizes.medium
+
+                        source: delegate.leadingIcon
+                    }
+
+                    text: delegate.title
+                    description: delegate.subtitle
+
+                    Binding {
+                        target: formCard
+                        when: !delegate.read
+                        property: "hasUnread"
+                        value: true
+                    }
+
+                    trailing: Rectangle {
+                        id: unreadIndicator
+
+                        implicitWidth: Kirigami.Units.largeSpacing
+                        implicitHeight: Kirigami.Units.largeSpacing
+
+                        opacity: delegate.read ? 0 : 1
+                        visible: formCard.hasUnread
+                        Behavior on opacity { NumberAnimation { duration: Kirigami.Units.shortDuration; easing.type: Easing.InOutQuad }}
+
+                        radius: Infinity
+                        color: Kirigami.Theme.activeTextColor
+                    }
+
+                    onClicked: {
+                        pageStack.layers.push(app._createPage(delegate.page))
+                        delegate.read = true;
+                    }
                 }
             }
         }
