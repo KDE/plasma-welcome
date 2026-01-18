@@ -175,7 +175,7 @@ void Release::parsePreviewReply(QNetworkReply *const reply)
 
     auto tryRegexes = [&data](const QStringList &regexes) -> QString {
         for (QString regexString : regexes) {
-            const QRegularExpression regex(regexString);
+            const QRegularExpression regex(regexString, QRegularExpression::DotMatchesEverythingOption);
             const QRegularExpressionMatch match = regex.match(data);
 
             if (match.hasMatch()) {
@@ -186,14 +186,17 @@ void Release::parsePreviewReply(QNetworkReply *const reply)
         return QString();
     };
 
-    const QString title = tryRegexes({"<h2 class=h1>(.+?)</h2>", // Preferred subtitle on Plasma announcement
-                                      "<meta property=\"og:title\" content=\"(.+?)\"", // OpenGraph title
-                                      "<meta content=\"(.+?)\" property=\"og:title\""}); // OpenGraph title (reversed)
+    const QString title = tryRegexes({"<h2\\s+class=\"h1\"\\s*>([^<]*)</h2>", // Preferred subtitle on Plasma announcement
+                                      "<meta\\s+property=\"og:title\"\\s+content=\"([^\"]*)\"", // OpenGraph title
+                                      "<meta\\s+content=\"([^\"]*)\"\\s+property=\"og:title\"", // OpenGraph title (reversed)
+                                      "<title\\s*>([^<]*)</title>"}); // HTML title
 
-    const QString description = tryRegexes({"<meta property=\"og:description\" content=\"(.+?)\"", // OpenGraph description
-                                            "<meta content=\"(.+?)\" property=\"og:description\""}); // OpenGraph description (reversed)
+    const QString description = tryRegexes({"<meta\\s+property=\"og:description\"\\s+content=\"([^\"]*)\"", // OpenGraph description
+                                            "<meta\\s+content=\"([^\"]*)\"\\s+property=\"og:description\""}); // OpenGraph description (reversed)
 
     if (title.isEmpty() || description.isEmpty()) {
+        qCWarning(WELCOME_LOG) << "Failed to parse announcement preview:" << title << description;
+
         m_previewError = PreviewError::ParseFailure;
         m_previewStatus = PreviewStatus::Unloaded;
 
