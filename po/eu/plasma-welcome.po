@@ -1,7 +1,7 @@
 # Translation for plasma-welcome.po to Euskara/Basque (eu).
 # Copyright (C) 2022-2025 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2023, 2024, 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
 # Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022, 2023, 2024, 2025.
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2025-11-30 15:34+0100\n"
+"PO-Revision-Date: 2026-01-25 13:44+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -745,11 +745,11 @@ msgid ""
 "desktop widgets."
 msgstr ""
 "Jarduerak, maila altuko proiektuak edo lan-fluxuak bereizteko erabil "
-"daitezke, uneoro, bakarrean fokatzeko aukera izan dezazun. \"Etxea\", "
-"\"Eskola\", \"Lana2, eta abarrerako jarduera bana izan dezakezu. Jarduera "
+"daitezke, uneoro, bakarrean fokatzeko aukera izan dezazun. “Etxea”, "
+"“Eskola”, “Lana”, eta abarrerako jarduera bana izan dezakezu. Jarduera "
 "guztiek dute zure fitxategietara sarbidea baina bakoitzak irekitako leiho-"
-"multzo, azkenaldiko dokumentu, \"Gogoko\" aplikazio, eta mahaigaineko "
-"trepeta propioak ditu."
+"multzo, azkenaldiko dokumentu, “Gogoko” aplikazio, eta mahaigaineko trepeta "
+"propioak ditu."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
@@ -767,7 +767,7 @@ msgid ""
 "switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
 msgstr ""
 "Hasteko, abiarazi <interface>Sistemaren ezarpenak</interface> eta bilatu "
-"\"Jarduerak\". Orri horretan, jarduera gehiago sor ditzakezu. Haien artean "
+"“Jarduerak”. Orri horretan, jarduera gehiago sor ditzakezu. Haien artean "
 "aldatzeko, teklatuko <shortcut>Meta+Q</shortcut> lasterbidea erabil dezakezu."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
@@ -927,7 +927,7 @@ msgid ""
 msgstr ""
 "Plasman ia dena egin daiteke teklatuarekin, gehienbat <shortcut>Meta</"
 "shortcut> tekla duten lasterbideak erabiliz.<nl/><nl/>Mac teklatuetan, hori "
-"\"komando\" tekla da:"
+"“komando” tekla da:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -942,7 +942,7 @@ msgstr ""
 "Plasman ia dena teklatuarekin egin daiteke, gehienbat <shortcut>Meta</"
 "shortcut> tekla duten lasterbideak erabiliz.<nl/><nl/>Tekla hori ezkerreko "
 "<shortcut>Ktrl</shortcut> eta <shortcut>Alt</shortcut> teklen artean egon "
-"ohi da, eta nolabaiteko ikur bat edo \"Super\" hitza izaten du:"
+"ohi da, eta nolabaiteko ikur bat edo “Super” hitza izaten du:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
@@ -1159,12 +1159,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
-"Hau \"Mahaigaina\" da. Zure <filename>Mahaigaina</filename> karpetan dauden "
+"Hau “Mahaigaina” da. Zure <filename>Mahaigaina</filename> karpetan dauden "
 "fitxategiak eta karpetak erakusten ditu, eta trepetak atxiki ditzake. Egin "
-"eskuineko klik bere gainean eta hautatu <interface>Mahaigaina eta "
-"hormapapera…</interface> mahaigainaren itxura konfiguratzeko. Trepetak "
-"gehitu, kendu edo aldatzeko, <interface>Sartu editatzeko moduara</interface> "
-"hauta dezakezu."
+"eskuineko klik bere gainean eta hautatu <interface>Mahaigaina eta horma-"
+"papera…</interface> mahaigainaren itxura konfiguratzeko. Trepetak gehitu, "
+"kendu edo aldatzeko, <interface>Sartu editatzeko modura</interface> hauta "
+"dezakezu."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1174,7 +1174,7 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
-"Hau \"Panel\" bat da — trepetei eusteko edukiontzi bat. Egin eskuineko klik "
+"Hau “Panel” bat da — trepetei eusteko edukiontzi bat. Egin eskuineko klik "
 "bere gainean eta hautatu <interface>Erakutsi panelaren konfigurazioa</"
 "interface> bere jokabidea eta pantailaren zein ertzetan dagoen aldatzeko, "
 "eta trepetak gehitu, kendu eta aldatzeko."
@@ -1187,7 +1187,7 @@ msgid ""
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Hau “Aplikazio abiarazlea” trepeta da, helburu-anizkoitzeko abiarazle bat. "
+"Hau “Aplikazio-abiarazlea” trepeta da, helburu-anizkoitzeko abiarazle bat. "
 "Aplikazioak abiarazi, sistema itzali edo berrabiarazi, azken aldiko "
 "fitxategietara sartu, eta gehiago egin dezakezu hor. Egin klik bere gainean "
 "hasteko!"
@@ -1199,9 +1199,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
-"Hau \"Ataza kudeatzailea\" trepeta da, aplikazioen artean aldatzeko eta "
+"Hau “Ataza-kudeatzailea” trepeta da, aplikazioen artean aldatzeko eta "
 "berriak abiarazteko lekua. Arrastatu aplikazioen ikonoak haiek "
-"birrantolatzeko."
+"berrantolatzeko."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1212,7 +1212,7 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
-"Hau \"Sistemaren erretilua\" trepeta da, bolumena aldatzea eta sarera "
+"Hau “Sistemaren erretilua” trepeta da, bolumena aldatzea eta sarera "
 "konektatzea gisako funtzioak agintzen uzten dizu. Beharrezkoa denean, "
 "elementuak ikusgai ipiniko dira. Egin klik erlojuaren ondoko ⌃ geziari "
 "elementu erabilgarri guztiak ikusteko."
@@ -1225,7 +1225,7 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
-"Hau \"Erloju digitala\" trepeta da. Egin klik bere gainean egutegi bat "
+"Hau “Erloju digitala” trepeta da. Egin klik bere gainean egutegi bat "
 "erakusteko. Beste ordu-eremu batzuk eta zure egutegi digitaletako ekitaldiak "
 "erakusteko ere konfigura daiteke."
 
@@ -1237,7 +1237,7 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
-"Hau \"Begiratu mahaigainari\" trepeta da. Egin klik bere gainean, mahaigaina "
+"Hau “Begiratu mahaigainari” trepeta da. Egin klik bere gainean, mahaigaina "
 "ikusteko, irekitako leiho denak ezkutatzeko. Egin klik beregan berriz haiek "
 "atzera ekartzeko."
 
