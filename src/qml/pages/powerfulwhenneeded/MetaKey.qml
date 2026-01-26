@@ -76,7 +76,7 @@ Welcome.Page {
 
 
                     QQC2.ToolTip.text: i18nc("This is a terrible dad joke about the meta key on the keyboard being able to have many symbols. Translate it into one of similar groanworthiness if this is possible; if not, translate it as an empty string.", "I never meta key I didn't like")
-                    QQC2.ToolTip.visible: QQC2.ToolTip.text.length > 0 && metaKeyHoverHandler.hovered
+                    QQC2.ToolTip.visible: QQC2.ToolTip.text.trim().length > 0 && metaKeyHoverHandler.hovered
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
 
                     HoverHandler {
