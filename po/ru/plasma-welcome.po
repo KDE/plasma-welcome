@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"POT-Creation-Date: 2026-01-27 00:46+0000\n"
 "PO-Revision-Date: 2025-11-27 19:36+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -964,11 +964,16 @@ msgid "Super"
 msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "This is a terrible dad joke about the meta key on the keyboard being able "
+#| "to have many symbols. Translate it into one of similar groanworthiness if "
+#| "this is possible; if not, translate it as an empty string."
+#| msgid "I never meta key I didn't like"
 msgctxt ""
 "This is a terrible dad joke about the meta key on the keyboard being able to "
 "have many symbols. Translate it into one of similar groanworthiness if this "
-"is possible; if not, translate it as an empty string."
+"is possible; if not, translate it as an single space."
 msgid "I never meta key I didn't like"
 msgstr "Я ещё не встречал клавишу Meta, которая бы мне не понравилась 😄"
 
