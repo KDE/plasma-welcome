@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2024, 2025 Sergiu Bivol <sergiu@cip.md>
+# SPDX-FileCopyrightText: 2024, 2025, 2026 Sergiu Bivol <sergiu@cip.md>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-27 00:46+0000\n"
-"PO-Revision-Date: 2025-11-27 12:33+0000\n"
+"PO-Revision-Date: 2026-01-28 22:12+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
 "Language: ro\n"
@@ -870,7 +870,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr "ora Boston"
+msgstr "ora Paris"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -965,18 +965,13 @@ msgid "Super"
 msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "This is a terrible dad joke about the meta key on the keyboard being able "
-#| "to have many symbols. Translate it into one of similar groanworthiness if "
-#| "this is possible; if not, translate it as an empty string."
-#| msgid "I never meta key I didn't like"
+#, kde-format
 msgctxt ""
 "This is a terrible dad joke about the meta key on the keyboard being able to "
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an single space."
 msgid "I never meta key I didn't like"
-msgstr "Trec printr-o <i>meta</i>morfoză!"
+msgstr "Trec printr-o <i>meta</i>morfoză"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
@@ -1093,7 +1088,7 @@ msgid ""
 "too, providing extra privacy for that content."
 msgstr ""
 "Plasma Vaults vă permite să creați dosare criptate, numite <interface>bolți</"
-"interface> În fiecare boltă, vă puteți păstra în siguranță parolele, "
+"interface>. În fiecare boltă, vă puteți păstra în siguranță parolele, "
 "fișierele, pozele și documentele, la adăpost de cei curioși. Bolțile se pot "
 "afla în interiorul dosarelor sincronizate cu servicii de stocare în nor, "
 "oferind intimitate sporită pentru acel conținut."
@@ -1229,9 +1224,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
-"Acesta e controlul grafic „Ceas digital”.Apăsați-l pentru a afișa un "
-"calendar.Acesta poate fi configurat să arate alte fuse orare și evenimente "
-"din calendarele voastre digitale."
+"Acesta e controlul grafic „Ceas digital”. Apăsați-l pentru a afișa un "
+"calendar. Acesta poate fi configurat să arate alte fuse orare și evenimente "
+"din calendarele dumneavoastră digitale."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
