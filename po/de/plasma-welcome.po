@@ -6,13 +6,13 @@
 # SPDX-FileCopyrightText: 2023, 2024 Johannes Obermayr <johannesobermayr@gmx.de>
 # SPDX-FileCopyrightText: 2025 Alois Spitzbart <spitz234@hotmail.com>
 # SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
-# SPDX-FileCopyrightText: 2025 Philipp Kiemle <l10n.daphipz@fastmail.de>
+# SPDX-FileCopyrightText: 2025, 2026 Philipp Kiemle <l10n.daphipz@fastmail.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-27 00:46+0000\n"
-"PO-Revision-Date: 2025-11-23 23:55+0100\n"
+"PO-Revision-Date: 2026-01-28 15:43+0100\n"
 "Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -750,12 +750,12 @@ msgid ""
 "desktop widgets."
 msgstr ""
 "Aktivitäten können dazu verwendet werden, spezialisierte Projekte oder "
-"Arbeitsabläufe von einander zu trennen, so dass Sie fokussiert bleiben. Sie "
-"können zum Beispiel jeweils eine Aktivität für „Privates”, „Schule“, "
-"„Arbeit“ usw. anlegen. Jede Aktivität lässt Sie auf alle Ihre Dateien "
-"zugreifen, hat aber eine eigene Zusammenstellung an geöffneten Fenstern, "
-"zuletzt verwendeten Dokumenten, bevorzugten Anwendungen und Miniprogrammen "
-"auf der Arbeitsfläche."
+"Arbeitsabläufe voneinander zu trennen, sodass Sie sich auf eine Sache "
+"konzentrieren können. Sie können zum Beispiel jeweils eine Aktivität für "
+"„Privates”, „Schule“, „Arbeit“ usw. anlegen. Jede Aktivität lässt Sie auf "
+"alle Ihre Dateien zugreifen, hat aber eine eigene Zusammenstellung an "
+"geöffneten Fenstern, zuletzt verwendeten Dokumenten, bevorzugten Anwendungen "
+"und Miniprogrammen auf der Arbeitsfläche."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
@@ -877,7 +877,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr "Uhrzeit Tokyo"
+msgstr "Zeit in Shanghai"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -923,7 +923,7 @@ msgstr "Tastatur-Kurzbefehle"
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr "Kurzbefehle einrchten …"
+msgstr "Kurzbefehle einrichten …"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -973,12 +973,7 @@ msgstr "Super"
 
 # Mir fällt auf die Schnelle kein Wortwitz dazu ein, also wird das ein leerer String. Ideen?
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "This is a terrible dad joke about the meta key on the keyboard being able "
-#| "to have many symbols. Translate it into one of similar groanworthiness if "
-#| "this is possible; if not, translate it as an empty string."
-#| msgid "I never meta key I didn't like"
+#, kde-format
 msgctxt ""
 "This is a terrible dad joke about the meta key on the keyboard being able to "
 "have many symbols. Translate it into one of similar groanworthiness if this "
