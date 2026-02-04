@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2025-10-09 01:52+0200\n"
+"PO-Revision-Date: 2026-02-03 22:26+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -905,14 +905,7 @@ msgstr ""
 "도 실행할 수 있습니다.<nl/><nl/>Mac에서는 \"Command\" 키입니다."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Almost anything in Plasma can be done with the keyboard, using shortcuts "
-#| "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key "
-#| "is usually located between the left <shortcut>Ctrl</shortcut> and "
-#| "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, "
-#| "or the word “Super:”"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Almost anything in Plasma can be done with the keyboard, using shortcuts "
