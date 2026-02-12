@@ -4,7 +4,7 @@
 
 cmake_minimum_required(VERSION 3.16)
 project(welcome)
-set(PROJECT_VERSION "6.5.91")
+set(PROJECT_VERSION "6.6.0")
 
 
 set(PROJECT_DEP_VERSION "6.5.90")
