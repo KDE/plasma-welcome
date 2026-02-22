@@ -1,6 +1,6 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 # SPDX-FileCopyrightText: 2025 Marcel Mrówka <micro.mail88@gmail.com>
 #
 msgid ""
@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-27 00:46+0000\n"
-"PO-Revision-Date: 2025-11-14 09:44+0100\n"
+"PO-Revision-Date: 2026-02-21 08:15+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -955,18 +955,13 @@ msgid "Super"
 msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "This is a terrible dad joke about the meta key on the keyboard being able "
-#| "to have many symbols. Translate it into one of similar groanworthiness if "
-#| "this is possible; if not, translate it as an empty string."
-#| msgid "I never meta key I didn't like"
+#, kde-format
 msgctxt ""
 "This is a terrible dad joke about the meta key on the keyboard being able to "
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an single space."
 msgid "I never meta key I didn't like"
-msgstr "Klawisz Meta to inaczej klawisz z logiem Windowsa"
+msgstr "Nigdy nie spotkałem klawisza, którego nie lubiłem"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
