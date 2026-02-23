@@ -16,7 +16,7 @@ Welcome.Page {
     heading: i18nc("@info:window", "Powerful When Needed")
     // Don't change the weird indentation; it's intentional to make this
     // long string nicer for translators
-    description: xi18nc("@info:usagetip", "Plasma is an extremely feature-rich environment, designed to super-charge your productivity!<nl/><nl/>\
+    description: xi18nc("@info:usagetip", "Plasma is a feature-rich environment, designed to super-charge your productivity!<nl/><nl/>\
 Click the cards below to see just a smattering of what it can do for you:")
 
     ColumnLayout {
