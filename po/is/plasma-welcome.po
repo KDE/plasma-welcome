@@ -1,14 +1,14 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2022, 2023, 2025 Sveinn í Felli <sv1@fellsnet.is>
+# SPDX-FileCopyrightText: 2022, 2023, 2025, 2026 Sveinn í Felli <sv1@fellsnet.is>
 # SPDX-FileCopyrightText: 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-24 00:47+0000\n"
-"PO-Revision-Date: 2025-12-03 16:05+0000\n"
+"PO-Revision-Date: 2026-02-26 09:34+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -631,20 +631,15 @@ msgid "Powerful When Needed"
 msgstr "Öflugt þegar á þarf að halda"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>Click the cards below to see just a "
-#| "smattering of what it can do for you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is a feature-rich environment, designed to super-charge your "
 "productivity!<nl/><nl/>Click the cards below to see just a smattering of "
 "what it can do for you:"
 msgstr ""
-"Plasma býr yfir mjög fjölbreyttum eiginleikum sem auðvelda þér að koma meiru "
-"í verk!<nl/><nl/>Smelltu á spjöldin fyrir neðan til að sjá lítið brot af því "
+"Plasma býr yfir fjölbreyttum eiginleikum sem auðvelda þér að koma meiru í "
+"verk!<nl/><nl/>Smelltu á spjöldin fyrir neðan til að sjá lítið brot af því "
 "sem það getur gert fyrir þig:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
@@ -956,21 +951,16 @@ msgstr "Fn"
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr "Super"
+msgstr "Super (WIN)"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "This is a terrible dad joke about the meta key on the keyboard being able "
-#| "to have many symbols. Translate it into one of similar groanworthiness if "
-#| "this is possible; if not, translate it as an empty string."
-#| msgid "I never meta key I didn't like"
+#, kde-format
 msgctxt ""
 "This is a terrible dad joke about the meta key on the keyboard being able to "
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an single space."
 msgid "I never meta key I didn't like"
-msgstr "Ég kann sko að meta þennan lykil"
+msgstr "Ég kann sko að 'meta' þennan lykil"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
