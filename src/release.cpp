@@ -144,10 +144,11 @@ void Release::getPreview()
 
     const QString kdeSite = QStringLiteral("https://kde.org/");
     if (announcementUrl.startsWith(kdeSite)) {
-        // It's ours, we know how to localise it
-        QString languageCode = KLocalizedString::languages().first().toLower().replace("_", "-");
-        if (languageCode != "c") {
-            announcementUrl.insert(kdeSite.length(), languageCode + "/");
+        // It's ours, we know how to localise it: Hugo uses
+        // lowercase BCP 47 tags, as defined in RFC 5646
+        QString languageTag = QLocale().bcp47Name().toLower();
+        if (languageTag != "en-POSIX") {
+            announcementUrl.insert(kdeSite.length(), languageTag + "/");
         }
     }
 
