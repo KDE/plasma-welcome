@@ -174,30 +174,57 @@ void Release::parsePreviewReply(QNetworkReply *const reply)
 
     const QString data = QString::fromUtf8(reply->readAll());
 
-    auto tryRegexes = [&data](const QStringList &regexes) -> QString {
-        for (QString regexString : regexes) {
-            const QRegularExpression regex(regexString, QRegularExpression::DotMatchesEverythingOption);
+    enum PreviewField {
+        Title,
+        Description
+    };
+
+    struct PreviewRegex {
+        QString source;
+        QString regexString;
+    };
+
+    auto applyRegexes = [this, &data](const PreviewField &previewField, const QList<PreviewRegex> &previewRegexes) {
+        for (const PreviewRegex &previewRegex : previewRegexes) {
+            const QRegularExpression regex(previewRegex.regexString, QRegularExpression::DotMatchesEverythingOption);
             const QRegularExpressionMatch match = regex.match(data);
 
             if (match.hasMatch()) {
-                return QTextDocumentFragment::fromHtml(match.captured(1)).toPlainText();
+                const QString previewString = QTextDocumentFragment::fromHtml(match.captured(1)).toRawText();
+
+                if (previewField == Title) {
+                    m_previewTitle = std::move(previewString);
+                    qCDebug(WELCOME_LOG) << "Parsed title from announcement preview using" << previewRegex.source;
+                } else if (previewField == Description) {
+                    m_previewDescription = std::move(previewString);
+                    qCDebug(WELCOME_LOG) << "Parsed description from announcement preview using" << previewRegex.source;
+                }
+
+                return;
             }
         }
 
-        return QString();
+        if (previewField == Title) {
+            m_previewTitle = QString();
+            qCWarning(WELCOME_LOG) << "Failed to parse title from annoucement preview";
+        } else if (previewField == Description) {
+            m_previewDescription = QString();
+            qCWarning(WELCOME_LOG) << "Failed to parse description from annoucement preview";
+        }
     };
 
-    const QString title = tryRegexes({"<h2\\s+class=\"h1\"\\s*>([^<]*)</h2>", // Preferred subtitle on Plasma announcement
-                                      "<meta\\s+property=\"og:title\"\\s+content=\"([^\"]*)\"", // OpenGraph title
-                                      "<meta\\s+content=\"([^\"]*)\"\\s+property=\"og:title\"", // OpenGraph title (reversed)
-                                      "<title\\s*>([^<]*)</title>"}); // HTML title
+    applyRegexes(Title,
+                 {{"Plasma announcement subtitle with unquoted class", "<h2\\s+class=h1\\s*>([^<]*)</h2>"},
+                  {"Plasma announcement subtitle", "<h2\\s+class=\"h1\"\\s*>([^<]*)</h2>"},
+                  {"OpenGraph title", "<meta\\s+property=\"og:title\"\\s+content=\"([^\"]*)\""},
+                  {"OpenGraph title (reversed)", "<meta\\s+content=\"([^\"]*)\"\\s+property=\"og:title\""},
+                  {"HTML title", "<title\\s*>([^<]*)</title>"}});
 
-    const QString description = tryRegexes({"<meta\\s+property=\"og:description\"\\s+content=\"([^\"]*)\"", // OpenGraph description
-                                            "<meta\\s+content=\"([^\"]*)\"\\s+property=\"og:description\""}); // OpenGraph description (reversed)
+    applyRegexes(Description,
+                 {{"OpenGraph description", "<meta\\s+property=\"og:description\"\\s+content=\"([^\"]*)\""},
+                  {"OpenGraph description (reversed)", "<meta\\s+content=\"([^\"]*)\"\\s+property=\"og:description\""}});
 
-    if (title.isEmpty() || description.isEmpty()) {
-        qCWarning(WELCOME_LOG) << "Failed to parse announcement preview:" << title << description;
-
+    if (m_previewTitle.isEmpty() || m_previewDescription.isEmpty()) {
         m_previewError = PreviewError::ParseFailure;
         m_previewStatus = PreviewStatus::Unloaded;
 
@@ -207,8 +234,6 @@ void Release::parsePreviewReply(QNetworkReply *const reply)
         return;
     }
 
-    m_previewTitle = title;
-    m_previewDescription = description;
     m_previewStatus = PreviewStatus::Loaded;
 
     emit previewTitleChanged();
