@@ -379,7 +379,8 @@ Welcome.Page {
                             Layout.fillWidth: true
 
                             level: 1
-                            maximumLineCount: 1
+                            maximumLineCount: 3
+                            wrapMode: Text.WordWrap
                             elide: Text.ElideRight
                             text: Private.Release.previewTitle
                         }
