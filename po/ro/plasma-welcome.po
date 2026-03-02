@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-24 00:47+0000\n"
-"PO-Revision-Date: 2026-01-28 22:12+0000\n"
+"POT-Creation-Date: 2026-03-02 00:47+0000\n"
+"PO-Revision-Date: 2026-02-28 22:27+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
 "Language: ro\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -625,7 +625,7 @@ msgstr ""
 "următoarele actualizări Plasma, mai puțin atunci când folosiți o conexiune "
 "contorizată."
 
-#: src/qml/pages/PlasmaUpdate.qml:421
+#: src/qml/pages/PlasmaUpdate.qml:422
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
@@ -638,21 +638,16 @@ msgid "Powerful When Needed"
 msgstr "Puternic când trebuie"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>Click the cards below to see just a "
-#| "smattering of what it can do for you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is a feature-rich environment, designed to super-charge your "
 "productivity!<nl/><nl/>Click the cards below to see just a smattering of "
 "what it can do for you:"
 msgstr ""
-"Plasma e un mediu foarte divers în funcționalități, proiectat să vă "
-"amplifice productivitatea!<nl/><nl/>Apăsați pe fișele de mai jos pentru a "
-"vedea un pic din ceea ce poate face pentru dumneavoastră:"
+"Plasma e un mediu divers în funcționalități, proiectat să vă amplifice "
+"productivitatea!<nl/><nl/>Apăsați pe fișele de mai jos pentru a vedea un pic "
+"din ceea ce poate face pentru dumneavoastră:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
