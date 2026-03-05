@@ -1,14 +1,14 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2024, 2025 Toms Trasuns <toms.trasuns@posteo.net>
+# SPDX-FileCopyrightText: 2024, 2025, 2026 Toms Trasuns <toms.trasuns@posteo.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-02 00:47+0000\n"
-"PO-Revision-Date: 2025-08-29 12:48+0300\n"
-"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"PO-Revision-Date: 2026-03-03 16:57+0200\n"
+"Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -237,12 +237,10 @@ msgid "Desktop 1"
 msgstr "1. darbvirsma"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder Shown when there is insufficent width"
-#| msgid "Expand the window"
+#, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
-msgstr "Paplašināt logu"
+msgstr "Izvērst logu"
 
 #: src/qml/PageError.qml:22
 #, kde-format
@@ -630,19 +628,14 @@ msgid "Powerful When Needed"
 msgstr "Jaudīga, kad vajadzīgs"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>Click the cards below to see just a "
-#| "smattering of what it can do for you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is a feature-rich environment, designed to super-charge your "
 "productivity!<nl/><nl/>Click the cards below to see just a smattering of "
 "what it can do for you:"
 msgstr ""
-"„Plasma“ ir iespējām bagāta vide, lai ļautu jums strādāt produktīvi!<nl/><nl/"
+"„Plasma“ ir iespējām bagāta vide, kas ļauj strādāt produktīvi!<nl/><nl/"
 ">Klikšķiniet uz kartiņām, lai redzētu daļu no tā, ko „Plasma“ var piedāvāt:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
@@ -926,14 +919,7 @@ msgstr ""
 "tastatūrās tas ir „Command“ taustiņš:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Almost anything in Plasma can be done with the keyboard, using shortcuts "
-#| "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key "
-#| "is usually located between the left <shortcut>Ctrl</shortcut> and "
-#| "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, "
-#| "or the word “Super:”"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Almost anything in Plasma can be done with the keyboard, using shortcuts "
@@ -943,8 +929,8 @@ msgid ""
 "the word “Super”:"
 msgstr ""
 "„Plasma“ darbvirsmā gandrīz jebkuru darbību varat veikt ar tastatūru, "
-"izmantojot saīsnes, kas visbiežāk izmanto <shortcut>Meta</shortcut> taustiņu."
-"<nl/><nl/>Šis taustiņš visbiežāk atradoas starp kreiso <shortcut>Ctrl</"
+"izmantojot saīsnes, kas visbiežāk lieto <shortcut>Meta</shortcut> taustiņu."
+"<nl/><nl/>Šis taustiņš visbiežāk atrodas starp kreiso <shortcut>Ctrl</"
 "shortcut> un <shortcut>Alt</shortcut> taustiņu un uz tā parasti ir kāds "
 "simbols vai vārds „Super“:"
 
@@ -967,12 +953,7 @@ msgid "Super"
 msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "This is a terrible dad joke about the meta key on the keyboard being able "
-#| "to have many symbols. Translate it into one of similar groanworthiness if "
-#| "this is possible; if not, translate it as an empty string."
-#| msgid "I never meta key I didn't like"
+#, kde-format
 msgctxt ""
 "This is a terrible dad joke about the meta key on the keyboard being able to "
 "have many symbols. Translate it into one of similar groanworthiness if this "
