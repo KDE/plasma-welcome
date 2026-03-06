@@ -14,6 +14,7 @@
 #include <QQmlExtensionPlugin>
 #include <QQuickWindow>
 #include <QSurfaceFormat>
+#include <QtWebEngineQuick>
 
 #include <KAboutData>
 #include <KDBusService>
@@ -33,6 +34,8 @@ int main(int argc, char *argv[])
     auto format = QSurfaceFormat::defaultFormat();
     format.setOption(QSurfaceFormat::ResetNotification);
     QSurfaceFormat::setDefaultFormat(format);
+
+    QtWebEngineQuick::initialize();
 
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));

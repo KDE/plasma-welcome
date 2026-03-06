@@ -59,6 +59,7 @@ public:
     Q_PROPERTY(PreviewStatus previewStatus MEMBER m_previewStatus NOTIFY previewStatusChanged)
     Q_PROPERTY(PreviewError previewError MEMBER m_previewError NOTIFY previewErrorChanged)
     Q_PROPERTY(int previewErrorCode MEMBER m_previewErrorCode NOTIFY previewErrorChanged)
+    Q_PROPERTY(QString previewHtml MEMBER m_previewHtml NOTIFY previewHtmlChanged)
     Q_PROPERTY(QString previewTitle MEMBER m_previewTitle NOTIFY previewTitleChanged)
     Q_PROPERTY(QString previewDescription MEMBER m_previewDescription NOTIFY previewDescriptionChanged)
     Q_INVOKABLE void tryAutomaticPreview();
@@ -68,6 +69,7 @@ Q_SIGNALS:
     void previewStatusChanged();
     void previewErrorChanged();
     void previewErrorCodeChanged();
+    void previewHtmlChanged();
     void previewTitleChanged();
     void previewDescriptionChanged();
 
@@ -83,6 +85,7 @@ private:
     PreviewStatus m_previewStatus;
     PreviewError m_previewError;
     int m_previewErrorCode;
+    QString m_previewHtml;
     QString m_previewTitle;
     QString m_previewDescription;
 };

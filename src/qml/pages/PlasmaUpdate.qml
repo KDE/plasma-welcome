@@ -35,6 +35,21 @@ Welcome.Page {
         if (Private.Config.automaticUpdatePreview) {
             Private.Release.tryAutomaticPreview();
         }
+
+        // Avoid stutter when creating WebPage due to profile instantiation
+        // (because QML singletons are lazy) by forcing instantiation of
+        // the singleton now
+        Private.WebProfile.instance();
+    }
+
+    Component {
+        id: updateAnnouncementPage
+
+        Private.WebPage {
+            id: webPage
+            disableHorizontalScrollBar: true
+            Component.onCompleted: webPage.loadHtml(Private.Release.previewHtml, Private.Release.announcementUrl)
+        }
     }
 
     ColumnLayout {
@@ -77,7 +92,7 @@ Welcome.Page {
 
             onClicked: {
                 if (card.state === "Loaded") {
-                    Qt.openUrlExternally(Private.Release.announcementUrl);
+                    pageStack.layers.push(updateAnnouncementPage);
                 }
             }
 
@@ -86,33 +101,33 @@ Welcome.Page {
             blurRadius: 64
 
             Rectangle {
+                id: underlay
                 anchors.fill: parent
 
-                opacity: 0.7 // Same as overview underlay
-                color: {
-                    // Tint values taken from kirigamiaddons.formcard's FormDelegateBackground
-                    let tintFactor;
+                // Tint values & animation taken from kirigamiaddons.formcard's FormDelegateBackground
+                property real tintFactor: {
                     if (card.showClickFeedback && card.pressed) {
-                        tintFactor = 0.2;
+                        return 0.2;
                     } else if (card.visualFocus) {
-                        tintFactor = 0.1;
+                        return 0.1;
                     } else if (card.hoverEnabled && !Kirigami.Settings.tabletMode && card.hovered) {
-                        tintFactor = 0.07;
+                        return 0.07;
                     } else {
-                        tintFactor = 0;
+                        return 0;
                     }
-
-                    // Tint multiplied by 1/opacity to account for loss in intensity due to opacity
-                    return Kirigami.ColorUtils.tintWithAlpha(Kirigami.Theme.backgroundColor,
-                                                             Kirigami.Theme.highlightColor,
-                                                             tintFactor * (1 / opacity));
                 }
-
-                Behavior on color {
-                    ColorAnimation {
+                Behavior on tintFactor {
+                    NumberAnimation {
                         duration: Kirigami.Units.shortDuration
                     }
                 }
+
+                opacity: 0.7 // Same as overview underlay
+
+                // Tint multiplied by 1/opacity to account for loss in intensity due to opacity
+                color: Kirigami.ColorUtils.tintWithAlpha(Kirigami.Theme.backgroundColor,
+                                                         Kirigami.Theme.highlightColor,
+                                                         tintFactor * (1 / opacity))
             }
 
             Item {
@@ -297,9 +312,6 @@ Welcome.Page {
 
                         // Only show if using no more than a quarter of the available width
                         readonly property bool show: {
-                            if (!releasePreview.visible) {
-                                return false;
-                            }
                             if (releasePreview.width < 0) {
                                 // Initially, it'll be negative
                                 return true;
@@ -409,9 +421,6 @@ Welcome.Page {
 
                     // Only show if there's a grid unit between it and the text
                     readonly property bool show: {
-                        if (!releasePreview.visible) {
-                            return false;
-                        }
                         if (releasePreview.height < 0) {
                             // Initially, it'll be negative
                             return true;

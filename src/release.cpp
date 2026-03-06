@@ -236,6 +236,9 @@ void Release::parsePreviewReply(QNetworkReply *const reply)
 
     m_previewStatus = PreviewStatus::Loaded;
 
+    m_previewHtml = std::move(data);
+
+    emit previewHtmlChanged();
     emit previewTitleChanged();
     emit previewDescriptionChanged();
     emit previewStatusChanged();
