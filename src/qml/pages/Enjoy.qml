@@ -37,12 +37,12 @@ Welcome.Page {
         Kirigami.Action {
             icon.name: "favorite-symbolic"
             text: i18nc("@action:button", "Supporting Members")
-            onTriggered: pageStack.layers.push(supporters)
+            onTriggered: pageStack.layers.push(supportersPage)
         }
     ]
 
     Component {
-        id: supporters
+        id: supportersPage
 
         Supporters {}
     }

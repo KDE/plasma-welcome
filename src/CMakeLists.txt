@@ -32,10 +32,15 @@ target_sources(plasma-welcome PRIVATE
     plasmacolors.cpp
 )
 
+set_source_files_properties(qml/WebProfile.qml
+    PROPERTIES QT_QML_SINGLETON_TYPE TRUE)
+
 ecm_target_qml_sources(plasma-welcome
     SOURCES
     qml/Main.qml
     qml/PageError.qml
+    qml/WebProfile.qml
+    qml/WebPage.qml
     qml/ContributionCard.qml
 
     qml/footers/Footer.qml
@@ -100,6 +105,7 @@ target_link_libraries(plasma-welcome PRIVATE
     Qt::Quick
     Qt::QuickControls2
     Qt::Svg
+    Qt::WebEngineQuick
     KF6::ConfigCore
     KF6::ConfigGui
     KF6::CoreAddons
