@@ -42,20 +42,6 @@ Welcome.Page {
         Private.WebProfile.instance();
     }
 
-    Component {
-        id: updateAnnouncementPage
-
-        Private.WebPage {
-            id: webPage
-
-            // Work around the scrollbar appearing when shrinking window
-            // width as WebEngineView is slow to catch up to resize
-            horizontalScrollBarPolicy: QQC2.ScrollBar.AlwaysOff
-
-            Component.onCompleted: webPage.loadHtml(Private.Release.previewHtml, Private.Release.announcementUrl)
-        }
-    }
-
     ColumnLayout {
         anchors.fill: parent
 
@@ -96,7 +82,17 @@ Welcome.Page {
 
             onClicked: {
                 if (card.state === "Loaded") {
-                    pageStack.layers.push(updateAnnouncementPage);
+                    let component = Qt.createComponent("WebPage.qml");
+                    if (component.status === Component.Ready) {
+                        let page = component.createObject(parent, {
+                            horizontalScrollBarPolicy: QQC2.ScrollBar.AlwaysOff
+                        });
+                        page.loadHtml(Private.Release.previewHtml, Private.Release.announcementUrl);
+                        pageStack.layers.push(page);
+                    } else {
+                        console.error("Cannot create WebPage for announcement:", component.errorString());
+                        Qt.openUrlExternally(Private.Release.announcementUrl);
+                    }
                 }
             }
 
