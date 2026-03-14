@@ -1,37 +1,37 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2023, 2024, 2025 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-02 00:47+0000\n"
-"PO-Revision-Date: 2025-10-02 09:41+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-03-13 14:00+0100\n"
+"Last-Translator:  Vít Pelčák <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Vít Pelčák"
+msgstr "Vít Pelčák,Libor Filípek"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "vit@pelcak.org"
+msgstr "vit@pelcak.org,libor.filipek@gmail.com"
 
 #: src/main.cpp:42
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr ""
+msgstr "Přátelský průvodce nastavením pro Plasma"
 
 #: src/main.cpp:47
 #, kde-format
@@ -67,7 +67,7 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr ""
+msgstr "Oliver Beard"
 
 #: src/main.cpp:76
 #, kde-format
@@ -77,13 +77,15 @@ msgstr "Zobrazit zprávy o vydání pro současnou verzi Plasma."
 #: src/main.cpp:77
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr ""
+msgstr "Zobrazit živou stránku určenou pro živá prostředí distribuce."
 
 #: src/main.cpp:80
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
+"Zadejte seznam stránek (podle interního názvu), které se mají zobrazit, "
+"oddělených čárkami."
 
 #: src/public/configModule.cpp:72
 #, kde-format
@@ -101,7 +103,7 @@ msgstr "Příkaz <command>%1</command> nelze najít."
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr ""
+msgstr "Žádná chybová zpráva nebyla poskytnuta"
 
 #: src/public/controller.cpp:82 src/public/utils.cpp:82
 #, kde-kuit-format
@@ -109,7 +111,7 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr ""
+msgstr "Příkaz <command>%1</command> selhal: %2"
 
 #: src/public/qml/ApplicationIcon.qml:42
 #, kde-format
@@ -130,6 +132,9 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
+"Pokud shledáte Plasma užitečnou, zvažte zapojení se nebo darování. KDE je "
+"mezinárodní dobrovolnická komunita, nikoli velká společnost; vaše příspěvky "
+"mají skutečný význam!"
 
 #: src/qml/ContributionCard.qml:29
 #, kde-format
@@ -278,7 +283,7 @@ msgstr "Tuto stránku poskytovanou Uvítacím centrem nelze načíst"
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr ""
+msgstr "Najděte skvělé aplikace"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -291,6 +296,10 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
+"Není třeba prohledávat web, abyste si stáhli instalační programy aplikací, "
+"ani používat správce balíčků z příkazového řádku; obchod s aplikacemi KDE "
+"<application>%1</application> to udělá za vás!<nl/><nl/>Klikněte na "
+"kteroukoli z ikon níže a vyzkoušejte to!"
 
 #: src/qml/pages/Discover.qml:103
 #, kde-format
@@ -302,7 +311,7 @@ msgstr "Zobrazit %1 v Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr ""
+msgstr "Užijte si to!"
 
 #: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
@@ -312,6 +321,9 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
+"Doufáme, že se vám Plasma bude líbit stejně jako nám, když jsme ji pro vás "
+"vytvářeli! Nyní je čas se do toho pustit. Prozkoumejte její funkce, "
+"nainstalujte si své oblíbené aplikace a hry a pusťte se do toho, co vás baví!"
 
 #: src/qml/pages/Enjoy.qml:26
 #, kde-format
@@ -323,7 +335,7 @@ msgstr "Zjistěte více o komunitě KDE"
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr ""
+msgstr "Získejte pomoc na diskusních fórech KDE"
 
 #: src/qml/pages/Enjoy.qml:39
 #, kde-format
@@ -344,6 +356,8 @@ msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
 msgstr ""
+"Děkujeme následujícím podporujícím členům za jejich pravidelné příspěvky "
+"organizaci KDE:"
 
 #: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
@@ -413,6 +427,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
+"Kliknutím na ikonu níže zahájíte instalaci %1. Alternativně můžete zavřít "
+"okno a prozkoumat živé prostředí nebo pokračovat zde a zjistit více o KDE "
+"Plasma."
 
 #: src/qml/pages/Live.qml:26
 #, kde-kuit-format
@@ -421,6 +438,8 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
+"Můžete zavřít okno a prozkoumat živé prostředí nebo pokračovat zde a zjistit "
+"více o KDE Plasma."
 
 #: src/qml/pages/Live.qml:32
 #, kde-format
@@ -461,6 +480,8 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
+"Pro správu síťových připojení vyžaduje Plasma instalaci <icode>plasma-nm</"
+"icode>. Tuto chybu prosím nahlaste na %1."
 
 #: src/qml/pages/Network.qml:211
 #, kde-format
@@ -472,7 +493,7 @@ msgstr "Jste připojeni"
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr ""
+msgstr "Všechno je připraveno!"
 
 #: src/qml/pages/Network.qml:219
 #, kde-format
@@ -482,6 +503,9 @@ msgid ""
 "using a development version. To manually preview the different states of the "
 "page, you can use the button."
 msgstr ""
+"Tato stránka se zobrazuje bez ohledu na připojení k síti, protože používáte "
+"vývojovou verzi. Chcete-li ručně zobrazit náhled různých stavů stránky, "
+"můžete použít tlačítko."
 
 #: src/qml/pages/Network.qml:224
 #, kde-format
@@ -503,6 +527,9 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
+"Děkujeme za testování této beta verze Plasma — vaše zpětná vazba je pro nás "
+"zásadní, abychom ji mohli vylepšit! Prosím, nahlaste všechny chyby, které "
+"najdete, abychom je mohli opravit."
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -525,7 +552,7 @@ msgstr "Nahlásit chybu"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr ""
+msgstr "Stáhnout vložený náhled oznámení o vydání?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -534,30 +561,31 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
+"Náhled nebyl automaticky stažen, protože používáte měřené připojení k síti."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr ""
+msgstr "Náhled nelze stáhnout – došlo k síťové chybě (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr ""
+msgstr "Náhled nelze načíst – došlo k chybě při zpracování."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr ""
+msgstr "Stáhnout náhled"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr ""
+msgstr "Stáhnout i tak"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
@@ -569,13 +597,13 @@ msgstr "Zkusit znovu"
 #, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr ""
+msgstr "Otevřít v prohlížeči…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr ""
+msgstr "Automaticky načíst náhled"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -584,12 +612,15 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
+"Náhled se načte automaticky při zobrazení této stránky při budoucích "
+"aktualizacích Plasma, s výjimkou případů, kdy používáte měřené připojení k "
+"síti."
 
 #: src/qml/pages/PlasmaUpdate.qml:422
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr ""
+msgstr "<b>Klikněte zde pro přečtení oznámení</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:16
 #, kde-format
@@ -605,6 +636,8 @@ msgid ""
 "productivity!<nl/><nl/>Click the cards below to see just a smattering of "
 "what it can do for you:"
 msgstr ""
+"Plasma je prostředí se spoustou vlastností. Byla navržena aby vám umožnila "
+"dosáhnout maximální efektivity!<nl/><nl/>Zde máte malý náhled toho co umí:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
@@ -616,7 +649,7 @@ msgstr "Klávesové zkratky"
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr ""
+msgstr "Aktivace funkcí z klávesnice"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
 #, kde-format
@@ -723,6 +756,9 @@ msgid ""
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
 msgstr ""
+"Nejprve spusťte <interface>Nastavení systému</interface> a vyhledejte "
+"„Aktivity”. Na této stránce můžete vytvořit další aktivity. Poté můžete mezi "
+"nimi přepínat pomocí klávesové zkratky <shortcut>Meta+Q</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -757,6 +793,8 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
+"Chcete-li začít, klikněte na tlačítko <interface>%1</interface>. Tam můžete "
+"spárovat svůj telefon."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
@@ -768,13 +806,13 @@ msgstr "Otevřít %1"
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr ""
+msgstr "KDE Connect není nainstalována."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
 #, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr ""
+msgstr "Instalace KDE Connect…"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
@@ -793,6 +831,12 @@ msgid ""
 "finding your files and folders, KRunner can launch apps, search the web, "
 "convert between currencies, calculate math problems, and a lot more."
 msgstr ""
+"KRunner je mimořádně výkonný a univerzální vyhledávací systém prostředí "
+"Plasma. Zajišťuje vyhledávací funkce v nabídce Spouštěč aplikací a na "
+"obrazovce Přehled a lze k němu přistupovat jako k samostatnému vyhledávacímu "
+"panelu pomocí klávesové zkratky <shortcut>Alt+Space</shortcut>. <nl/><nl/"
+">Kromě vyhledávání souborů a složek může KRunner spouštět aplikace, "
+"vyhledávat na webu, převádět měny, počítat matematické úlohy a mnoho dalšího."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
 #, kde-kuit-format
@@ -801,6 +845,9 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"Další informace získáte otevřením vyhledávacího pole KRunner pomocí "
+"klávesové zkratky <shortcut>Alt+Space</shortcut> a kliknutím na ikonu "
+"otazníku."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
 #, kde-format
@@ -810,7 +857,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr ""
+msgstr "time Shanghai"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -818,7 +865,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr ""
+msgstr "27 / 3"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
@@ -827,7 +874,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr ""
+msgstr "200 EUR in USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
@@ -836,7 +883,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr ""
+msgstr "25 miles in km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
@@ -866,6 +913,9 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
+"Téměř vše v Plazmě lze provést pomocí klávesnice, a to pomocí klávesových "
+"zkratek, které většinou zahrnují klávesu <shortcut>Meta</shortcut>.<nl/> <nl/"
+">Na klávesnici Mac je to klávesa „Command“:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -877,6 +927,11 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super”:"
 msgstr ""
+"Téměř vše v Plazmě lze provést pomocí klávesnice, a to pomocí klávesových "
+"zkratek , které většinou zahrnují klávesu <shortcut>Meta</shortcut>. <nl/"
+"><nl/>Tato klávesa se obvykle nachází mezi levými klávesami <shortcut>Ctrl</"
+"shortcut> a <shortcut>Alt</shortcut> a obsahuje buď nějaký symbol, nebo "
+"slovo „Super”:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
@@ -903,7 +958,7 @@ msgctxt ""
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an single space."
 msgid "I never meta key I didn't like"
-msgstr ""
+msgstr "Nikdy jsem nepoužíval klávesu Meta, nelíbí se mi to."
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
@@ -921,13 +976,13 @@ msgstr "fn"
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
-msgstr ""
+msgstr "control"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "option"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
@@ -952,6 +1007,20 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
+"Co můžete dělat s klávesou <shortcut>Meta</shortcut>? Zde je několik "
+"příkladů:<list><item>Stiskněte ji: Otevře se widget Spouštěč aplikací</"
+"item><item>Stiskněte <shortcut>Meta+[šipky]</shortcut>: Okno se přilepí k "
+"okraji nebo rohu obrazovky</item><item>Stiskněte <shortcut>Meta+[číselné "
+"klávesy]</shortcut>: Spustí připnuté aplikace Správce úloh</"
+"item><item>Stiskněte <shortcut>Meta+R</shortcut>: Spustí nahrávání "
+"obrazovky</item><item>Stiskněte <shortcut>Meta+L</shortcut>: Zamknout "
+"obrazovku</item><item>Stiskněte <shortcut>Meta+Shift+S</shortcut>: Zapnout/"
+"vypnout čtečku obrazovky</item><item>Stiskněte <shortcut>Meta+Alt+P</"
+"shortcut>: Přesunout zaměření klávesnice na panel</item><item>Stiskněte "
+"<shortcut>Meta+Esc</shortcut>: Spustit aplikaci System Monitor</"
+"item><item>Stiskněte <shortcut>Meta+.</shortcut>: Spustit aplikaci Emoji "
+"Selector</item><item>Stiskněte <shortcut>Meta+D</shortcut>: Zobrazit plochu</"
+"item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
@@ -984,6 +1053,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
+"Přehled můžete otevřít pomocí klávesové zkratky <shortcut>Meta+W</shortcut> "
+"nebo přesunutím myši do levého horního rohu obrazovky. Můžete také stisknout "
+"klávesovou zkratku <shortcut>Meta+G</shortcut> pro zobrazení mřížky, která "
+"zobrazuje virtuální plochy v mřížce."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
@@ -1037,6 +1110,9 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
+"Chcete-li začít, klikněte na šipku na <interface>Systémové liště</"
+"interface>, aby se zobrazily skryté položky, a poté klikněte na ikonu "
+"<interface>Sejfy</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1054,6 +1130,11 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
+"Plasma je navržena tak, aby byla jednoduchá a použitelná ihned po instalaci. "
+"Vše je tam, kde byste to očekávali, a obecně není třeba nic konfigurovat, "
+"abyste se mohli cítit pohodlně a být produktivní.<nl/><nl/>Níže je vizuální "
+"zobrazení typické pracovní plochy Plasma; přesuňte ukazatel myši nebo "
+"klikněte na něco, abyste se o tom dozvěděli více!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1065,6 +1146,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
+"Toto je „Plocha“. Zobrazuje soubory a složky, které jsou obsaženy ve vaší "
+"složce <filename>Desktop</filename>, a může obsahovat widgety. Klikněte na "
+"ni pravým tlačítkem myši a vyberte <interface>Desktop and Wallpaper…</"
+"interface> (Plocha a tapety…), abyste nastavili vzhled plochy. Můžete také "
+"zvolit <interface>Enter Edit Mode</interface> pro přidání, odstranění nebo "
+"úpravu widgetů."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1074,6 +1161,10 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
+"Toto je „Panel“ — kontejner pro widgety. Klikněte na něj pravým tlačítkem "
+"myši a vyberte <interface>Zobrazit nastavení panelu</interface>, abyste "
+"mohli změnit jeho chování, okraj obrazovky, na kterém se nachází, a přidat, "
+"odebrat nebo upravit widgety."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1083,6 +1174,9 @@ msgid ""
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
+"Toto je widget „Spouštěč aplikací“, víceúčelový spouštěč. Zde můžete "
+"spouštět aplikace, vypínat nebo restartovat systém, přistupovat k nedávno "
+"použitým souborům a další funkce. Klikněte na něj a začněte!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1091,6 +1185,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
+"Toto je widget „Správce úloh“, kde můžete přepínat mezi otevřenými "
+"aplikacemi a také spouštět nové. Přetažením ikon aplikací je můžete "
+"přeskupit."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1101,6 +1198,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
+"Toto je widget „Systémová lišta“, který umožňuje ovládat systémové funkce, "
+"jako je změna hlasitosti a připojení k sítím. Položky se zde zobrazí pouze v "
+"případě, že jsou relevantní. Chcete-li zobrazit všechny dostupné položky, "
+"klikněte na šipku ⌃ vedle hodin."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1110,6 +1211,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
+"Toto je widget „Digitální hodiny“. Kliknutím na něj zobrazíte kalendář. Lze "
+"ho také nakonfigurovat tak, aby zobrazoval další časová pásma a události z "
+"vašich digitálních kalendářů."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1119,6 +1223,9 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
+"Toto je widget „Zobrazit plochu“. Kliknutím na něj dočasně skryjete všechna "
+"otevřená okna, abyste měli přístup k ploše. Dalším kliknutím je znovu "
+"zobrazíte."
 
 #: src/qml/pages/Welcome.qml:21
 #, kde-format
@@ -1161,7 +1268,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr ""
+msgstr "O aplikaci Uvítací centrum"
 
 #: src/qml/pages/Welcome.qml:34
 #, kde-format
