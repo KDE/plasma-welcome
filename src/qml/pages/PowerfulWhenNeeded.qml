@@ -29,13 +29,15 @@ Click the cards below to see just a smattering of what it can do for you:")
         FormCard.FormCard {
             id: formCard
 
-            // Ensure all delegates reserve a gap if there are any unread
-            // and the gap disappears when there are no unread
-            property bool hasUnread: false
+            // Ensure all delegates reserve a gap if there are
+            // any unread and no gap when there are no unread
+            property int unreadCount: formCardRepeater.model.length
+            readonly property bool hasUnread: unreadCount > 0
 
             maximumWidth: Kirigami.Units.gridUnit * 25
 
             Repeater {
+                id: formCardRepeater
                 model: [
                     {
                         leadingIcon: "preferences-desktop-keyboard-shortcut",
@@ -95,13 +97,6 @@ Click the cards below to see just a smattering of what it can do for you:")
                     text: delegate.title
                     description: delegate.subtitle
 
-                    Binding {
-                        target: formCard
-                        when: !delegate.read
-                        property: "hasUnread"
-                        value: true
-                    }
-
                     trailing: Rectangle {
                         id: unreadIndicator
 
@@ -119,6 +114,7 @@ Click the cards below to see just a smattering of what it can do for you:")
                     onClicked: {
                         pageStack.layers.push(app._createPage(delegate.page))
                         delegate.read = true;
+                        --formCard.unreadCount;
                     }
                 }
             }
