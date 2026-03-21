@@ -56,7 +56,8 @@ Welcome.Page {
             Layout.alignment: Qt.AlignCenter
             Layout.fillWidth: true
             Layout.fillHeight: true
-            Layout.maximumWidth: Kirigami.Units.gridUnit * 25
+            Layout.maximumWidth: Kirigami.Units.gridUnit * 16
+            Layout.maximumHeight: Kirigami.Units.gridUnit * 16
 
             fillMode: Image.PreserveAspectFit
             mipmap: true

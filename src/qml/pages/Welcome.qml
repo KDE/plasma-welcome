@@ -6,7 +6,7 @@
  */
 
 import QtQuick
-import QtQuick.Controls as QQC2
+import QtQuick.Controls as Controls
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
@@ -65,81 +65,84 @@ Welcome.Page {
         }
     ]
 
-    QQC2.AbstractButton {
-        id: konqiButton
+    Item {
+        id: konqiContainer
+        anchors.fill: parent
 
-        anchors.centerIn: parent
-        height: Math.min(root.height, Kirigami.Units.gridUnit * 17)
+        Controls.AbstractButton {
+            id: konqiButton
+            anchors.centerIn: parent
 
-        property string url: Private.App.customIntroIconLink || plasmaLink.url
+            height: Math.min(konqiContainer.height, implicitHeight)
+            width: Math.min(konqiContainer.width, implicitWidth)
 
-        text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
+            property string url: Private.App.customIntroIconLink || plasmaLink.url
 
-        onClicked: Qt.openUrlExternally(url)
+            text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
 
-        contentItem: ColumnLayout {
-            spacing: Kirigami.Units.smallSpacing
+            HoverHandler {
+                id: hoverHandler
+                cursorShape: Qt.PointingHandCursor
+            }
 
-            Loader {
-                id: imageContainer
+            Controls.ToolTip.text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", konqiButton.url)
+            Controls.ToolTip.visible: hoverHandler.hovered
+            Controls.ToolTip.delay: Kirigami.Units.toolTipDelay
 
-                readonly property bool isImage:
-                    // Image path in the file
-                    Private.App.customIntroIcon.startsWith("file:/") ||
-                    // Our default image
-                    Private.App.customIntroIcon.length === 0
+            contentItem: ColumnLayout {
+                spacing: Kirigami.Units.smallSpacing
 
-                Layout.alignment: Qt.AlignHCenter
-                Layout.fillHeight: true
-                Layout.maximumWidth: root.width
+                Loader {
+                    id: imageContainer
+                    Layout.alignment: Qt.AlignHCenter
+                    Layout.fillHeight: true
+                    Layout.fillWidth: true
+                    Layout.maximumWidth: Kirigami.Units.gridUnit * 16
+                    Layout.maximumHeight: Kirigami.Units.gridUnit * 16
 
-                sourceComponent: isImage ? imageComponent : iconComponent
+                    readonly property bool isImage: Private.App.customIntroIcon.startsWith("file:/") // Image path in file
+                                                    || Private.App.customIntroIcon.length === 0 // or our default image
 
-                Component {
-                    id: imageComponent
+                    sourceComponent: isImage ? imageComponent : iconComponent
 
-                    Image {
-                        id: image
-                        source: Private.App.customIntroIcon || "konqi-kde-hi.png"
-                        fillMode: Image.PreserveAspectFit
+                    Component {
+                        id: imageComponent
 
-                        Kirigami.PlaceholderMessage {
-                            width: root.width - (Kirigami.Units.largeSpacing * 4)
-                            anchors.centerIn: parent
-                            text: i18nc("@title", "Image loading failed")
-                            explanation: xi18nc("@info:placeholder", "Could not load <filename>%1</filename>. Make sure it exists.", Private.App.customIntroIcon)
-                            visible: image.status == Image.Error
+                        Image {
+                            id: image
+
+                            fillMode: Image.PreserveAspectFit
+                            mipmap: true
+                            source: Private.App.customIntroIcon || "konqi-kde-hi.png"
+
+                            Kirigami.PlaceholderMessage {
+                                width: konqiContainer.width
+                                anchors.centerIn: parent
+                                text: i18nc("@title", "Image loading failed")
+                                explanation: xi18nc("@info:placeholder", "Could not load <filename>%1</filename>. Make sure it exists.", Private.App.customIntroIcon)
+                                visible: image.status == Image.Error
+                            }
+                        }
+                    }
+
+                    Component {
+                        id: iconComponent
+
+                        Kirigami.Icon {
+                            implicitWidth: Kirigami.Units.iconSizes.enormous * 2
+                            implicitHeight: implicitWidth
+                            source: Private.App.customIntroIcon || "kde"
                         }
                     }
                 }
 
-                Component {
-                    id: iconComponent
-
-                    Kirigami.Icon {
-                        implicitWidth: Kirigami.Units.iconSizes.enormous * 2
-                        implicitHeight: implicitWidth
-                        source: Private.App.customIntroIcon || "kde"
-                    }
+                Controls.Label {
+                    Layout.alignment: Qt.AlignHCenter
+                    Layout.maximumWidth: Math.max(konqiContainer.width / 2, imageContainer.width / 2)
+                    text: konqiButton.text
+                    wrapMode: Text.Wrap
+                    horizontalAlignment: Text.AlignHCenter
                 }
-
-                HoverHandler {
-                    id: hoverhandler
-                    cursorShape: Qt.PointingHandCursor
-                }
-
-                QQC2.ToolTip {
-                    visible: hoverhandler.hovered
-                    text: i18nc("@action:button clicking on this takes the user to a web page", "Visit %1", konqiButton.url)
-                }
-            }
-
-            QQC2.Label {
-                Layout.alignment: Qt.AlignHCenter
-                Layout.maximumWidth: Math.round(Math.max(root.width / 2, imageContainer.implicitWidth / 2))
-                text: konqiButton.text
-                wrapMode: Text.Wrap
-                horizontalAlignment: Text.AlignHCenter
             }
         }
     }
