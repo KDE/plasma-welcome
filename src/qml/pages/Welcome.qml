@@ -78,7 +78,7 @@ Welcome.Page {
 
             property string url: Private.App.customIntroIconLink || plasmaLink.url
 
-            text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
+            text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community for this 30th anniversary release!")
 
             HoverHandler {
                 id: hoverHandler
@@ -113,7 +113,7 @@ Welcome.Page {
 
                             fillMode: Image.PreserveAspectFit
                             mipmap: true
-                            source: Private.App.customIntroIcon || "konqi-kde-hi.png"
+                            source: Private.App.customIntroIcon || "konqi-30.png"
 
                             Kirigami.PlaceholderMessage {
                                 width: konqiContainer.width
