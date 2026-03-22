@@ -84,9 +84,7 @@ Welcome.Page {
                 if (card.state === "Loaded") {
                     let component = Qt.createComponent("WebPage.qml");
                     if (component.status === Component.Ready) {
-                        let page = component.createObject(parent, {
-                            horizontalScrollBarPolicy: QQC2.ScrollBar.AlwaysOff
-                        });
+                        let page = component.createObject(parent);
                         page.loadHtml(Private.Release.previewHtml, Private.Release.announcementUrl);
                         pageStack.layers.push(page);
                     } else {

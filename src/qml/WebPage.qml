@@ -18,8 +18,6 @@ Kirigami.Page {
     id: page
 
     property alias url: webEngineView.url
-    property alias horizontalScrollBarPolicy: horizontalScrollBar.policy
-    property alias verticalScrollBarPolicy: verticalScrollBar.policy
 
     function loadHtml(html: string, baseUrl: url): void {
         webEngineView.loadHtml(html, baseUrl);
@@ -40,19 +38,14 @@ Kirigami.Page {
 
     Rectangle {
         id: webEngineViewContainer
-        Kirigami.Theme.inherit: false
-        Kirigami.Theme.colorSet: Kirigami.Theme.View
-
         anchors.fill: parent
-        anchors.rightMargin: verticalScrollBar.visible ? verticalScrollBar.width : 0
-        anchors.bottomMargin: horizontalScrollBar.visible ? horizontalScrollBar.height : 0
 
         color: Kirigami.Theme.backgroundColor
         clip: true
 
-        // Wrapping with a Rectangle with a background and clipping helps
-        // rendering issues during resize such as showing content behind
-        // the window, and the web view intruding under the ScrollBar
+        // Wrapping with a Rectangle with a background and clipping helps to avoid
+        // rendering issues during resize such as showing content behind the window
+        // and matches the CSS scrollbar background
 
         WebEngineView {
             id: webEngineView
@@ -60,11 +53,96 @@ Kirigami.Page {
 
             backgroundColor: Kirigami.Theme.backgroundColor
 
-            settings.showScrollBars: false
-
             profile: Private.WebProfile.instance()
 
             Component.onCompleted: {
+                // Breeze scrollbars
+                let breezeScrollBarScript = WebEngine.script();
+                breezeScrollBarScript.name = "";
+                breezeScrollBarScript.sourceCode = `
+                    const sheet = new CSSStyleSheet();
+                    sheet.replaceSync(\`
+                            :root {
+                                /* TODO: Work these out in JS and inject here */
+                                --Kirigami-Units-mediumSpacing: 6px;
+                                --Kirigami-Units-largeSpacing: 8px;
+                                --Kirigami-Units-shortDuration: 100ms;
+                                --Kirigami-Theme-backgroundColor: #EFF0F1;
+                                --Kirigami-Theme-textColor: #232629;
+                                --Kirigami-Theme-focusColor: #3DADE8;
+                                --separator-color: #C6C8C9; /* god knows how this is derived */
+                                --scrollbar-color: #CBCDCD; /* ditto */
+                                --scrollbar-border-color: #B9BABA; /* ??? */
+                                --scrollbar-focus-color: #96CFEC; /* ditto */
+                                --scrollbar-focus-border-color: #A8D6ED; /* bruh */
+                            }
+
+                            html::-webkit-scrollbar {
+                                height: calc((var(--Kirigami-Units-mediumSpacing) * 2) + var(--Kirigami-Units-largeSpacing) + 1px);
+                                width: calc((var(--Kirigami-Units-mediumSpacing) * 2) + var(--Kirigami-Units-largeSpacing) + 1px);
+                                background-color: var(--Kirigami-Theme-backgroundColor);
+                            }
+
+                            html::-webkit-scrollbar:vertical {
+                                border-left: 1px solid var(--separator-color);
+                            }
+
+                            html::-webkit-scrollbar:horizontal {
+                                border-top: 1px solid var(--separator-color);
+                            }
+
+                            html::-webkit-scrollbar-thumb {
+                                background-clip: padding-box;
+                                background-color: var(--scrollbar-color);
+                                box-shadow: inset 0 0 0 1px var(--scrollbar-border-color);
+
+                                transition: background-color var(--Kirigami-Units-shortDuration) easeOutCubic,
+                                            box-shadow var(--Kirigami-Units-shortDuration) easeOutCubic;
+                            }
+
+                            html::-webkit-scrollbar-thumb:hover {
+                                background-color: var(--scrollbar-focus-color);
+                                box-shadow: inset 0 0 0 1px var(--scrollbar-focus-border-color);
+                            }
+
+                            html::-webkit-scrollbar-thumb:vertical {
+                                /* Because of the 1px scrollbar border, we need to adjust the border radii to 'move' the center left 0.5px,
+                                   it is not perfect, but it makes it look much less squished to the left that it is pretty much unnoticable. */
+                                border-top-left-radius: calc(var(--Kirigami-Units-mediumSpacing) + (var(--Kirigami-Units-largeSpacing) / 2) + 1px);
+                                border-bottom-left-radius: calc(var(--Kirigami-Units-mediumSpacing) + (var(--Kirigami-Units-largeSpacing) / 2) + 1px);
+                                border-top-right-radius: calc(var(--Kirigami-Units-mediumSpacing) + (var(--Kirigami-Units-largeSpacing) / 2) + 0.5px);
+                                border-bottom-right-radius: calc(var(--Kirigami-Units-mediumSpacing) + (var(--Kirigami-Units-largeSpacing) / 2) + 0.5px);
+
+                                border-left: calc(var(--Kirigami-Units-mediumSpacing) + 1px) solid transparent;
+                                border-right: var(--Kirigami-Units-mediumSpacing) solid transparent;
+                                border-top: calc(var(--Kirigami-Units-mediumSpacing) / 2) solid transparent;
+                                border-bottom: calc(var(--Kirigami-Units-mediumSpacing) / 2) solid transparent;
+                                min-height: calc(20px + var(--Kirigami-Units-mediumSpacing));
+                            }
+
+                            html::-webkit-scrollbar-thumb:horizontal {
+                                /* Ditto */
+                                border-top-left-radius: calc(var(--Kirigami-Units-mediumSpacing) + (var(--Kirigami-Units-largeSpacing) / 2) + 1px);
+                                border-bottom-left-radius: calc(var(--Kirigami-Units-mediumSpacing) + (var(--Kirigami-Units-largeSpacing) / 2) + 0.5px);
+                                border-top-right-radius: calc(var(--Kirigami-Units-mediumSpacing) + (var(--Kirigami-Units-largeSpacing) / 2) + 1px);
+                                border-bottom-right-radius: calc(var(--Kirigami-Units-mediumSpacing) + (var(--Kirigami-Units-largeSpacing) / 2) + 0.5px);
+
+                                border-left: calc(var(--Kirigami-Units-mediumSpacing) / 2) solid transparent;
+                                border-right: calc(var(--Kirigami-Units-mediumSpacing) / 2) solid transparent;
+                                border-top: calc(var(--Kirigami-Units-mediumSpacing) + 1px) solid transparent;
+                                border-bottom: var(--Kirigami-Units-mediumSpacing) solid transparent;
+                                min-width: calc(20px + var(--Kirigami-Units-mediumSpacing));
+                            }
+
+                            html::-webkit-scrollbar-corner {
+                                background-color: var(--Kirigami-Theme-backgroundColor);
+                            }
+                    \`);
+                    document.adoptedStyleSheets.push(sheet);
+                `;
+                breezeScrollBarScript.injectionPoint = WebEngineScript.DocumentCreation;
+                breezeScrollBarScript.worldId = WebEngineScript.MainWorld;
+
                 // Hide donorbox (we break it by rejecting WebEngineNavigationRequest.OtherNavigation below)
                 let hideDonorBoxScript = WebEngine.script();
                 hideDonorBoxScript.name = "hideDonorBox";
@@ -76,6 +154,7 @@ Kirigami.Page {
                 hideDonorBoxScript.injectionPoint = WebEngineScript.DocumentReady;
                 hideDonorBoxScript.worldId = WebEngineScript.MainWorld;
 
+                webEngineView.userScripts.insert(breezeScrollBarScript);
                 webEngineView.userScripts.insert(hideDonorBoxScript);
             }
 
@@ -162,44 +241,6 @@ Kirigami.Page {
                 text: linkTooltip.text
                 maximumLineCount: 1
                 elide: Text.ElideMiddle
-            }
-        }
-    }
-
-    Controls.ScrollBar {
-        id: verticalScrollBar
-        anchors.top: parent.top
-        anchors.right: parent.right
-        anchors.bottom: horizontalScrollBar.visible ? horizontalScrollBar.top : parent.bottom
-
-        orientation: Qt.Vertical
-        size: webEngineView.contentsSize.height > 0 ? (webEngineView.height / webEngineView.contentsSize.height) : 0
-        position: !pressed && webEngineView.contentsSize.height > 0
-                    ? (webEngineView.scrollPosition.y / webEngineView.contentsSize.height)
-                    : position
-
-        onPositionChanged: {
-            if (pressed) {
-                webEngineView.runJavaScript("window.scrollTo(" + webEngineView.scrollPosition.x + ", " + (position * webEngineView.contentsSize.height) + ");")
-            }
-        }
-    }
-
-    Controls.ScrollBar {
-        id: horizontalScrollBar
-        anchors.left: parent.left
-        anchors.bottom: parent.bottom
-        anchors.right: verticalScrollBar.visible ? verticalScrollBar.left : parent.right
-
-        orientation: Qt.Horizontal
-        size: webEngineView.contentsSize.width > 0 ? (webEngineView.width / webEngineView.contentsSize.width) : 0
-        position: !pressed && webEngineView.contentsSize.width > 0
-                    ? (webEngineView.scrollPosition.x / webEngineView.contentsSize.width)
-                    : position
-
-        onPositionChanged: {
-            if (pressed) {
-                webEngineView.runJavaScript("window.scrollTo(" + (position * webEngineView.contentsSize.width) + ", " + webEngineView.scrollPosition.y + ");")
             }
         }
     }
