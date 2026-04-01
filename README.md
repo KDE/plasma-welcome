@@ -106,37 +106,29 @@ ApplicationIcon {
 
 ### Ignore the exit status
 ```
-Kirigami.Icon {
-    source: "notification"
-    HoverHandler {
-        cursorShape: Qt.PointingHandCursor
-    }
-    TapHandler {
-        onTapped: Controller.runCommand("notify-send foo bar")
-    }
+Button {
+    icon.name: "notification"
+    onClicked: Controller.runCommand("notify-send foo bar")
 }
 ```
 
 ### Handle success and failure
 ```
-Kirigami.Icon {
-    source: "input-touchscreen"
-    HoverHandler {
-        cursorShape: Qt.PointingHandCursor
-    }
-    TapHandler {
-        onTapped: Controller.runCommand("touch /location/that/doesnt/exist", callback)
-        property var callback: (returnStatus, outputText) => {
-            if (returnStatus == 0) {
-                showPassiveNotification(i18n("Um, that wasn't supposed to work. Your distro must be very special."));
-                status.text = i18nc("@info:status", Last command invocation succeeded);
-            } else if (returnStatus == -1) {
-                showPassiveNotification(i18n("`touch` not found; can't touch anything"));
-                status.text = i18nc("@info:status", Last command invocation failed because the command was not found);
-            } else {
-                showPassiveNotification(outputText);
-                status.text = i18nc("@info:status", Last command invocation failed);
-            }
+Button {
+    icon.name: "input-touchscreen"
+
+    onClicked: Controller.runCommand("touch /location/that/doesnt/exist", callback)
+
+    property var callback: (returnStatus, outputText) => {
+        if (returnStatus == 0) {
+            showPassiveNotification(i18n("Um, that wasn't supposed to work. Your distro must be very special."));
+            status.text = i18nc("@info:status", Last command invocation succeeded);
+        } else if (returnStatus == -1) {
+            showPassiveNotification(i18n("`touch` not found; can't touch anything"));
+            status.text = i18nc("@info:status", Last command invocation failed because the command was not found);
+        } else {
+            showPassiveNotification(outputText);
+            status.text = i18nc("@info:status", Last command invocation failed);
         }
     }
 }
@@ -214,48 +206,33 @@ GenericPage {
         }
     ]
 
-    ColumnLayout {
+    Button {
         anchors.centerIn: parent
-        spacing: 0
 
-        Kirigami.Icon {
-            id: image
-            Layout.preferredWidth: Kirigami.Units.gridUnit * 10
-            Layout.preferredHeight: Layout.preferredWidth
+        onClicked: showPassiveNotification(i18n("You have no chance to survive make your time"));
 
-            source: "granatier"
+        QQC2.ToolTip.visible: hovered
+        QQC2.ToolTip.text: i18nc("@action:button", "Detonate the bomb")
+        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
 
-            HoverHandler {
-                id: hoverHandler
-                cursorShape: Qt.PointingHandCursor
+        contentItem: ColumnLayout {
+            spacing: 0
+
+            Kirigami.Icon {
+                id: image
+                Layout.preferredWidth: Kirigami.Units.gridUnit * 10
+                Layout.preferredHeight: Layout.preferredWidth
+
+                source: "granatier"
             }
 
-            TapHandler {
-                onTapped: showPassiveNotification(i18n("You have no chance to survive make your time"));
+            Kirigami.Heading {
+                Layout.alignment: Qt.AlignHCenter
+                Layout.bottomMargin: Kirigami.Units.gridUnit
+                text: i18nc("@title a friendly warning", "Someone set us up the bomb")
+                wrapMode: Text.Wrap
+                level: 3
             }
-
-            QQC2.ToolTip {
-                visible: hoverHandler.hovered
-                text: i18nc("@action:button", "Detonate the bomb")
-            }
-
-            layer.enabled: true
-            layer.effect: DropShadow {
-                transparentBorder: true
-                horizontalOffset: 0
-                verticalOffset: 1
-                radius: 20
-                samples: 20
-                color: Qt.rgba(0, 0, 0, 0.2)
-            }
-        }
-
-        Kirigami.Heading {
-            Layout.alignment: Qt.AlignHCenter
-            Layout.bottomMargin: Kirigami.Units.gridUnit
-            text: i18nc("@title a friendly warning", "Someone set us up the bomb")
-            wrapMode: Text.WordWrap
-            level: 3
         }
     }
 }

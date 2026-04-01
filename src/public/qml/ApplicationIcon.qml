@@ -14,7 +14,7 @@ import org.kde.kirigami as Kirigami
 
 import org.kde.plasma.welcome as Welcome
 
-QQC2.AbstractButton {
+QQC2.ToolButton {
     id: root
 
     required property var application
@@ -26,31 +26,12 @@ QQC2.AbstractButton {
     onClicked: Welcome.Utils.launchApp(application.desktopName)
 
     contentItem: ColumnLayout {
+        spacing: Kirigami.Units.largeSpacing
+
         Kirigami.Icon {
-            id: image
             Layout.preferredWidth: root.size
             Layout.preferredHeight: root.size
             source: root.icon.name
-
-            HoverHandler {
-                id: hoverHandler
-                cursorShape: Qt.PointingHandCursor
-            }
-
-            QQC2.ToolTip {
-                visible: hoverHandler.hovered
-                text: i18nc("@action:button", "Launch %1 now", root.text)
-            }
-
-            layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software
-            layer.effect: MultiEffect {
-                autoPaddingEnabled: true
-                shadowEnabled: true
-                shadowHorizontalOffset: 0
-                shadowVerticalOffset: 1
-                shadowBlur: 1.0
-                shadowColor: Qt.rgba(0, 0, 0, 0.2)
-            }
         }
 
         Kirigami.Heading {
@@ -60,5 +41,10 @@ QQC2.AbstractButton {
             wrapMode: Text.WordWrap
             level: 3
         }
+
     }
+
+    QQC2.ToolTip.visible: hovered
+    QQC2.ToolTip.text: i18nc("@action:button", "Launch %1 now", text)
+    QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
 }

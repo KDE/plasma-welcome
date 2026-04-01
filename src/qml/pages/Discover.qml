@@ -41,15 +41,17 @@ Welcome.Page {
         GridLayout {
             id: applicationGrid
 
-            readonly property int itemSize: Kirigami.Units.iconSizes.huge
-            readonly property int oneRowWidth: ((itemSize + columnSpacing) * appsModel.count) - columnSpacing
-            property bool twoRowlayout:  oneRowWidth > root.width - (root.margins * 2)
+            readonly property int appIconSize: Kirigami.Units.iconSizes.large
+            readonly property int buttonPadding: Kirigami.Units.largeSpacing
+            readonly property int buttonSize: Kirigami.Units.gridUnit * 5
+            readonly property int oneRowWidth: ((buttonSize + columnSpacing) * appsModel.count) - columnSpacing
+            readonly property bool twoRowlayout:  oneRowWidth > root.width - (root.padding * 2)
 
             Layout.alignment: Qt.AlignHCenter
 
             columns: twoRowlayout ? 3 : -1
             rows: twoRowlayout ? 2 : 1
-            columnSpacing: Kirigami.Units.largeSpacing * 4
+            columnSpacing: Kirigami.Units.largeSpacing
             rowSpacing: Kirigami.Units.largeSpacing
 
             Repeater {
@@ -62,47 +64,43 @@ Welcome.Page {
                     ListElement { name: "KStars"; appstream: "org.kde.kstars.desktop"; snap: "kstars"; icon: "kstars.svg" }
                     ListElement { name: "Endless Sky"; appstream: "io.github.endless_sky.endless_sky"; snap: "endlesssky"; icon: "endlesssky.png" }
                 }
-                delegate: QQC2.AbstractButton {
-                    id: appButton
 
-                    text: model.name
+                delegate: QQC2.ToolButton {
+                    Layout.preferredWidth: applicationGrid.buttonSize
+                    Layout.preferredHeight: applicationGrid.buttonSize
+                    padding: applicationGrid.buttonPadding
+
+                    Accessible.name: model.name
 
                     contentItem: ColumnLayout {
                         spacing: Kirigami.Units.smallSpacing
 
                         Image {
-                            Layout.preferredWidth: applicationGrid.itemSize
-                            Layout.preferredHeight: applicationGrid.itemSize
+                            Layout.preferredWidth: applicationGrid.appIconSize
+                            Layout.preferredHeight: applicationGrid.appIconSize
+                            Layout.alignment: Qt.AlignHCenter | Qt.AlignBottom
 
                             source: model.icon
                             mipmap: true
                         }
 
                         QQC2.Label {
-                            Layout.alignment: Qt.AlignHCenter
-                            Layout.maximumWidth: applicationGrid.itemSize
-                            text: appButton.text
+                            Layout.fillWidth: true
+                            text: model.name
                             wrapMode: Text.Wrap
                             horizontalAlignment: Text.AlignHCenter
                             verticalAlignment: Text.AlignTop
                         }
-
-                        HoverHandler {
-                            id: hoverhandler
-                            cursorShape: Qt.PointingHandCursor
-                        }
-                        TapHandler {
-                            onTapped: {
-                            let url = Private.App.isDistroSnapOnly ? `snap://${model.snap}` : `appstream://${model.appstream}`
-                            Qt.openUrlExternally(url)
-                            }
-                        }
-
-                        QQC2.ToolTip {
-                            visible: hoverhandler.hovered
-                            text: i18nc("@action:button %1 is the name of an app", "Show %1 in Discover", appButton.text)
-                        }
                     }
+
+                    onClicked: {
+                        let url = Private.App.isDistroSnapOnly ? `snap://${model.snap}` : `appstream://${model.appstream}`
+                        Qt.openUrlExternally(url)
+                    }
+
+                    QQC2.ToolTip.visible: hovered
+                    QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                    QQC2.ToolTip.text: i18nc("@action:button %1 is the name of an app", "Show %1 in Discover", model.name)
                 }
             }
         }
