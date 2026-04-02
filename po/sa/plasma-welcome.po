@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-22 00:46+0000\n"
+"POT-Creation-Date: 2026-04-02 00:46+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -112,7 +112,7 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "<command>%1</command> इति आदेशः विफलः अभवत् : %2"
 
-#: src/public/qml/ApplicationIcon.qml:42
+#: src/public/qml/ApplicationIcon.qml:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -1277,29 +1277,23 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 विषये अधिकं ज्ञातव्यम्"
 
-#: src/qml/pages/Welcome.qml:76
-#, kde-format
-msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "KDE mascot Konqi भवन्तं KDE समुदाये स्वागतं करोति!"
-
-#: src/qml/pages/Welcome.qml:109
+#: src/qml/pages/Welcome.qml:99
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "चित्रभारणं विफलम् अभवत्"
 
-#: src/qml/pages/Welcome.qml:110
+#: src/qml/pages/Welcome.qml:100
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "<filename>%1</filename> लोड् कर्तुं न शक्यते । तस्य अस्तित्वं सुनिश्चितं कुरुत।."
 
-#: src/qml/pages/Welcome.qml:133
+#: src/qml/pages/Welcome.qml:120
 #, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "%1 इति भ्रमणं कुर्वन्तु"
+msgctxt "@info"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgstr "KDE mascot Konqi भवन्तं KDE समुदाये स्वागतं करोति!"
 
 #: src/release.cpp:42
 #, kde-format
@@ -1318,6 +1312,10 @@ msgstr "%1 बीटा"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 बीटा %2"
+
+#~ msgctxt "@action:button clicking on this takes the user to a web page"
+#~ msgid "Visit %1"
+#~ msgstr "%1 इति भ्रमणं कुर्वन्तु"
 
 #~ msgctxt "@title:row"
 #~ msgid "System Settings"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-22 00:46+0000\n"
+"POT-Creation-Date: 2026-04-02 00:46+0000\n"
 "PO-Revision-Date: 2025-11-21 01:38+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -113,7 +113,7 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "Kommandot <command>%1 </command> misslyckades: %2"
 
-#: src/public/qml/ApplicationIcon.qml:42
+#: src/public/qml/ApplicationIcon.qml:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -1298,29 +1298,23 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Ta reda på mer om %1"
 
-#: src/qml/pages/Welcome.qml:76
-#, kde-format
-msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "KDE:s maskot Konqi välkomnar dig till KDE-gemenskapen!"
-
-#: src/qml/pages/Welcome.qml:109
+#: src/qml/pages/Welcome.qml:99
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Bildinläsning misslyckades"
 
-#: src/qml/pages/Welcome.qml:110
+#: src/qml/pages/Welcome.qml:100
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "Kunde inte läsa in <filename>%1</filename>. Säkerställ att den finns."
 
-#: src/qml/pages/Welcome.qml:133
+#: src/qml/pages/Welcome.qml:120
 #, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "Besök %1"
+msgctxt "@info"
+msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgstr "KDE:s maskot Konqi välkomnar dig till KDE-gemenskapen!"
 
 #: src/release.cpp:42
 #, kde-format
@@ -1339,6 +1333,10 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgctxt "@action:button clicking on this takes the user to a web page"
+#~ msgid "Visit %1"
+#~ msgstr "Besök %1"
 
 #~ msgctxt "@title:row"
 #~ msgid "System Settings"
