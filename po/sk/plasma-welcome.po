@@ -62,7 +62,7 @@ msgstr "&Nasledujúci"
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information With KDE"
-msgstr ""
+msgstr "Zdieľať anonymné informácie o používaní s KDE"
 
 #: src/contents/ui/main.qml:162
 #, kde-format
@@ -78,7 +78,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title: window"
 msgid "Connect Your Online Accounts"
-msgstr ""
+msgstr "Pripojiť vaše online účty"
 
 #: src/contents/ui/main.qml:177
 #, kde-format
@@ -87,6 +87,8 @@ msgid ""
 "This will let you access their content in KDE apps. You can set it up in "
 "System Settings, and here too."
 msgstr ""
+"To vám umožní prístup k ich obsahu v aplikáciách KDE. Môžete to nastaviť v "
+"Systémových nastaveniach a aj tu."
 
 #: src/contents/ui/pages/Contribute.qml:16
 #, kde-format
@@ -143,12 +145,16 @@ msgid ""
 "applications, games, and tools. You can search or browse by category, look "
 "at screenshots, and read reviews to help you find the perfect app."
 msgstr ""
+"Aplikácia <application>Discover</application> vám pomáha nájsť a "
+"nainštalovať aplikácie, hry a nástroje. Môžete vyhľadávať alebo prehliadať "
+"podľa kategórie, prezerať si snímky obrazovky a čítať recenzie, ktoré vám "
+"pomôžu nájsť dokonalú aplikáciu."
 
 #: src/contents/ui/pages/Discover.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch Discover now"
-msgstr ""
+msgstr "Spustiť Discover teraz"
 
 #: src/contents/ui/pages/Discover.qml:57
 #, kde-format
@@ -178,6 +184,10 @@ msgid ""
 "server resources, and expanded employment. Donations are tax-deductible in "
 "Germany."
 msgstr ""
+"KDE zázračne funguje s minimálnym rozpočtom, spoliehajúc sa väčšinou na dary "
+"práce a zdrojov. Môžete pomôcť to zmeniť!<nl/><nl/>Finančné dary pomáhajú "
+"KDE platiť za vývojové stretnutia, hardvér a serverové zdroje a rozšírené "
+"zamestnávanie. Dary sú daňovo odpočítateľné v Nemecku."
 
 #: src/contents/ui/pages/Donate.qml:22
 #: src/contents/ui/pages/PlasmaUpdate.qml:38
@@ -210,7 +220,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to version %1"
-msgstr ""
+msgstr "Plasma bola aktualizovaná na verziu %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:23
 #, kde-kuit-format
@@ -227,7 +237,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Find out what's new in Plasma %1"
-msgstr ""
+msgstr "Zistite, čo je nové v Plasma %1"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:33
 #, kde-format
@@ -368,7 +378,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See More Features"
-msgstr ""
+msgstr "Pozrite si ďalšie funkcie"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:142
 #, kde-format
@@ -403,7 +413,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Activities Page in System Settings"
-msgstr ""
+msgstr "Otvoriť stránku Aktivity v Systémových nastaveniach"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:172
 #, kde-format
@@ -439,7 +449,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open KDE Connect Page in System Settings"
-msgstr ""
+msgstr "Otvoriť stránku KDE Connect v Systémových nastaveniach"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:213
 #, kde-format
@@ -465,6 +475,18 @@ msgid ""
 ">To learn more, open the KRunner search bar using the <shortcut>Alt+F2</"
 "shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
+"KRunner je výnimočne výkonný a všestranný vyhľadávací systém Plasma. Poháňa "
+"funkciu vyhľadávania v ponuke Spúšťač aplikácií a na obrazovke Prehľad a je "
+"prístupný ako samostatný vyhľadávací panel pomocou klávesovej skratky "
+"<shortcut>Alt+F2</shortcut>.<nl/><nl/>Okrem vyhľadávania súborov a "
+"priečinkov dokáže KRunner spúšťať aplikácie, vyhľadávať na webe, prevádzať "
+"medzi menami, počítať matematické problémy a oveľa viac. Skúste napísať "
+"niečo z nasledujúceho do jedného z týchto vyhľadávacích polí:<nl/"
+"><list><item>\"time Shanghai\"</item><item>\"27/3\"</item><item>\"200 EUR in "
+"USD\"</item><item>\"25 miles in km\"</item><item>…A oveľa viac!</item></"
+"list><nl/>Ak sa chcete dozvedieť viac, otvorte vyhľadávací panel KRunner "
+"pomocou klávesovej skratky <shortcut>Alt+F2</shortcut> a kliknite na ikonu "
+"otáznika."
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:245
 #, kde-format
@@ -519,7 +541,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "See All Available 3rd-Party Content"
-msgstr ""
+msgstr "Pozrite si všetok dostupný obsah tretích strán"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:18
 #, kde-format
@@ -537,12 +559,17 @@ msgid ""
 "you'll find what you need in the <application>System Settings</application> "
 "app."
 msgstr ""
+"Plasma je navrhnutá tak, aby bola jednoduchá a použiteľná hneď po "
+"inštalácii. Veci sú tam, kde by ste ich očakávali, a vo všeobecnosti nie je "
+"potrebné nič konfigurovať pred tým, než budete pohodlne a produktívne "
+"pracovať.<nl/><nl/>Ak by ste cítili potrebu, nájdete čo potrebujete v "
+"aplikácii <application>Systémové nastavenia</application>."
 
 #: src/contents/ui/pages/SimpleByDefault.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch System Settings now"
-msgstr ""
+msgstr "Spustiť Systémové nastavenia teraz"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:56
 #, kde-format
@@ -554,7 +581,7 @@ msgstr "Systémové nastavenia"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma!"
-msgstr ""
+msgstr "Vitajte v KDE Plasma!"
 
 #: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
@@ -565,6 +592,11 @@ msgid ""
 "environment is simple by default for a smooth experience, but powerful when "
 "needed to help you really get things done. We hope you love it!"
 msgstr ""
+"Plasma je bezplatné a open-source desktopové prostredie vytvorené KDE, "
+"medzinárodnou komunitou dobrovoľníkov vyvíjajúcich softvér. Desktopové "
+"prostredie Plasma je štandardne jednoduché pre plynulý zážitok, ale výkonné "
+"keď je to potrebné, aby vám pomohlo skutočne veci dokončiť. Dúfame, že si ho "
+"zamilujete!"
 
 #: src/contents/ui/pages/Welcome.qml:22
 #, kde-format
@@ -588,7 +620,7 @@ msgstr "Uvítacia aplikácia pre KDE Plasma"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to KDE Plasma"
-msgstr ""
+msgstr "Vitajte v KDE Plasma"
 
 #: src/main.cpp:57
 #, kde-format
@@ -619,3 +651,5 @@ msgstr "Nate Graham"
 msgid ""
 "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr ""
+"Číslo verzie vydania Plasma, pre ktoré sa majú zobraziť poznámky k vydaniu, "
+"napr. 5.25"
