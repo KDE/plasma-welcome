@@ -41,7 +41,9 @@ Welcome.Page {
         QQC2.Label {
             Layout.fillWidth: true
 
-            text: xi18nc("@info:usagetip", "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut, or by moving your mouse into the top-left corner of the screen. You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows Virtual Desktops in a grid.")
+            text: xi18nc("@info:usagetip", "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, or by moving your mouse into the top-left corner of the screen. You can also press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in a grid.",
+                         Welcome.Utils.globalShortcutText("kwin", "Overview"),
+                         Welcome.Utils.globalShortcutText("kwin", "Grid View"))
             wrapMode: Text.WordWrap
         }
     }

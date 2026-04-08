@@ -14,6 +14,7 @@
 #include <QStandardPaths>
 #include <QTextStream>
 
+#include <KGlobalAccel>
 #include <KIO/ApplicationLauncherJob>
 #include <KLocalizedString>
 #include <KNotificationJobUiDelegate>
@@ -92,6 +93,26 @@ void Utils::runCommand(const QString &command, QJSValue callback)
 void Utils::copyToClipboard(const QString &content) const
 {
     QApplication::clipboard()->setText(content);
+}
+
+QString Utils::globalShortcutText(const QString &componentName, const QString &actionId) const
+{
+    const auto shortcuts = KGlobalAccel::self()->globalShortcut(componentName, actionId);
+
+    if (shortcuts.isEmpty()) {
+        return i18nc("@info:placeholder Refers to an unassigned keyboard shortcut", "Unassigned");
+    }
+
+    // Return the first non-single key shortcut because
+    // something like "Search" is not particularly useful
+    for (auto it = shortcuts.cbegin(); it != shortcuts.cend(); ++it) {
+        if (it->toString(QKeySequence::PortableText).count('+') >= 1) {
+            return it->toString(QKeySequence::NativeText);
+        }
+    }
+
+    // All shortcuts are single key, just return first shortcut
+    return shortcuts.first().toString(QKeySequence::NativeText);
 }
 
 bool Utils::isMac() const
