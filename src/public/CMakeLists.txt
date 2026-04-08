@@ -39,6 +39,7 @@ target_link_libraries(plasma-welcome-public PRIVATE
     KF6::JobWidgets
     KF6::KCMUtils
     KF6::KIOGui
+    KF6::GlobalAccel
 )
 
 ecm_finalize_qml_module(plasma-welcome-public)
