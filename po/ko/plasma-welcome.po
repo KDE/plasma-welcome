@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:46+0000\n"
+"POT-Creation-Date: 2026-04-09 00:47+0000\n"
 "PO-Revision-Date: 2026-02-03 22:26+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -91,19 +91,19 @@ msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
 msgstr "알 수 없는 모듈 %1 요청됨"
 
-#: src/public/controller.cpp:45 src/public/utils.cpp:45
+#: src/public/controller.cpp:45 src/public/utils.cpp:46
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "<command>%1</command> 명령을 찾을 수 없습니다."
 
-#: src/public/controller.cpp:78 src/public/utils.cpp:78
+#: src/public/controller.cpp:78 src/public/utils.cpp:79
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "오류 메시지가 지정되지 않았음"
 
-#: src/public/controller.cpp:82 src/public/utils.cpp:82
+#: src/public/controller.cpp:82 src/public/utils.cpp:83
 #, kde-kuit-format
 msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
@@ -121,6 +121,12 @@ msgstr "%1 실행"
 #, kde-format
 msgid "This settings module could not be loaded"
 msgstr "이 설정 모듈을 불러올 수 없음"
+
+#: src/public/utils.cpp:103
+#, kde-format
+msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
+msgid "Unassigned"
+msgstr ""
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -738,19 +744,25 @@ msgstr ""
 "는\" 앱, 데스크톱 위젯은 분리됩니다."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "설정 열기…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "To get started, launch <interface>System Settings</interface> and search "
+#| "for “Activities”. On that page, you can create more Activities. You can "
+#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
+#| "shortcut."
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
 "“Activities”. On that page, you can create more Activities. You can then "
-"switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
+"switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
 "시작하려면 <interface>시스템 설정</interface>을 실행하여 \"활동\"을 검색하십"
 "시오. 해당 페이지에서 더 많은 활동을 생성할 수 있습니다. <shortcut>Meta+Q</"
@@ -816,15 +828,24 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more."
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
 "powers the search functionality in the Application Launcher menu and the "
 "Overview screen, and it can be accessed as a standalone search bar using the "
-"<shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
-"finding your files and folders, KRunner can launch apps, search the web, "
-"convert between currencies, calculate math problems, and a lot more."
+"<shortcut>%1</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding "
+"your files and folders, KRunner can launch apps, search the web, convert "
+"between currencies, calculate math problems, and a lot more."
 msgstr ""
 "KRunner는 Plasma의 강력한 검색 시스템입니다. 프로그램 실행기 메뉴와 한눈에 보"
 "기 화면에서 검색 기능을 제공하며, <shortcut>Alt+Space</shortcut> 단축키로 검"
@@ -832,17 +853,21 @@ msgstr ""
 "는 것 외에도 앱 실행, 웹 검색, 통화간 환전, 수식 계산 등을 수행할 수 있습니"
 "다."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
+#| "shortcut> keyboard shortcut and click on the question mark icon."
 msgctxt "@info:usagetip"
 msgid ""
-"To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-"shortcut> keyboard shortcut and click on the question mark icon."
+"To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
+"keyboard shortcut and click on the question mark icon."
 msgstr ""
 "더 많은 기능을 알아 보려면 <shortcut>Alt+Space</shortcut> 키를 눌러서 "
 "KRunner 검색 표시줄을 실행한 다음 물음표 아이콘을 클릭하십시오."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -852,7 +877,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "시간 Shanghai"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -860,7 +885,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27/3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -869,7 +894,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 EUR in KRW"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -878,7 +903,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25마일 in 킬로미터"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:79
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -1032,13 +1057,19 @@ msgstr ""
 "검색할 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
+#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
+#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
+#| "Virtual Desktops in a grid."
 msgctxt "@info:usagetip"
 msgid ""
-"You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-"shortcut, or by moving your mouse into the top-left corner of the screen. "
-"You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-"Virtual Desktops in a grid."
+"You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
+"or by moving your mouse into the top-left corner of the screen. You can also "
+"press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
+"a grid."
 msgstr ""
 "<shortcut>Meta+W</shortcut> 단축키를 사용하거나 마우스 커서를 화면 왼쪽 위로 "
 "움직여서 한눈에 보기를 사용할 수 있습니다. <shortcut>Meta+G</shortcut> 단축키"

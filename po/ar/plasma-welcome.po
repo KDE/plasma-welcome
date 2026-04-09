@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:46+0000\n"
+"POT-Creation-Date: 2026-04-09 00:47+0000\n"
 "PO-Revision-Date: 2026-02-25 19:06+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -93,19 +93,19 @@ msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
 msgstr "طُلبت وحدة مجهولة %1"
 
-#: src/public/controller.cpp:45 src/public/utils.cpp:45
+#: src/public/controller.cpp:45 src/public/utils.cpp:46
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "تعذر العثور على الأمر <command>%1</command>."
 
-#: src/public/controller.cpp:78 src/public/utils.cpp:78
+#: src/public/controller.cpp:78 src/public/utils.cpp:79
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "لم تتوفر رسالة خطأ"
 
-#: src/public/controller.cpp:82 src/public/utils.cpp:82
+#: src/public/controller.cpp:82 src/public/utils.cpp:83
 #, kde-kuit-format
 msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
@@ -123,6 +123,12 @@ msgstr "شغل %1 الآن"
 #, kde-format
 msgid "This settings module could not be loaded"
 msgstr "تعذر تحميل وحدة الإعدادات هذه"
+
+#: src/public/utils.cpp:103
+#, kde-format
+msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
+msgid "Unassigned"
+msgstr ""
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -732,19 +738,25 @@ msgstr ""
 "وأدوات سطح المكتب."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
 msgstr "افتح الإعدادات…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "To get started, launch <interface>System Settings</interface> and search "
+#| "for “Activities”. On that page, you can create more Activities. You can "
+#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
+#| "shortcut."
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
 "“Activities”. On that page, you can create more Activities. You can then "
-"switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
+"switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
 "1للبدء، شغّل <interface>إعدادات النظام</interface> وابحث عن \"الأنشطة\". في "
 "تلك الصفحة، يمكنك إنشاء المزيد من الأنشطة. يمكنك بعد ذلك التبديل بينهما "
@@ -808,15 +820,24 @@ msgid "KRunner"
 msgstr "مشغل.ك"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more."
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
 "powers the search functionality in the Application Launcher menu and the "
 "Overview screen, and it can be accessed as a standalone search bar using the "
-"<shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to "
-"finding your files and folders, KRunner can launch apps, search the web, "
-"convert between currencies, calculate math problems, and a lot more."
+"<shortcut>%1</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding "
+"your files and folders, KRunner can launch apps, search the web, convert "
+"between currencies, calculate math problems, and a lot more."
 msgstr ""
 "مشغل.ك هو نظام بحث قوي ومتنوع لبلازما. يقدم خدمة البحث لمطلق التطبيقات وشاشة "
 "نظرة عامة، ويمكن الوصول إليه كشريط بحث مستقل باستخدام اختصار لوحة المفاتيح "
@@ -824,17 +845,21 @@ msgstr ""
 "ومجلداتك؛ يمكن لمشغل.ك تشغيل التطبيقات، والبحث في الويب، وتحويل بين العملات، "
 "وحساب مشاكل الرياضيات، وغير ذلك الكثير. "
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
+#| "shortcut> keyboard shortcut and click on the question mark icon."
 msgctxt "@info:usagetip"
 msgid ""
-"To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-"shortcut> keyboard shortcut and click on the question mark icon."
+"To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
+"keyboard shortcut and click on the question mark icon."
 msgstr ""
 "لمعرفة المزيد، افتح شريط بحث مشغل.ك باستخدام اختصار لوحة المفاتيح "
 "<shortcut>Alt+مسافة</shortcut> وانقر على أيقونة علامة الاستفهام."
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -844,7 +869,7 @@ msgctxt ""
 msgid "time Shanghai"
 msgstr "وقت Shanghai"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -852,7 +877,7 @@ msgctxt ""
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -861,7 +886,7 @@ msgctxt ""
 msgid "200 EUR in USD"
 msgstr "200 EUR إلى USD"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
 msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
@@ -870,7 +895,7 @@ msgctxt ""
 msgid "25 miles in km"
 msgstr "25 miles إلى km"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:79
 #, kde-format
 msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
@@ -1027,13 +1052,19 @@ msgstr ""
 "النوافذ المفتوحة."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
+#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
+#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
+#| "Virtual Desktops in a grid."
 msgctxt "@info:usagetip"
 msgid ""
-"You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-"shortcut, or by moving your mouse into the top-left corner of the screen. "
-"You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-"Virtual Desktops in a grid."
+"You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
+"or by moving your mouse into the top-left corner of the screen. You can also "
+"press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
+"a grid."
 msgstr ""
 "يمكنك الوصول إلى \"نظرة عامة\" باستخدام اختصار لوحة المفاتيح <shortcut>Meta"
 "+W</shortcut>، أو بتحريك الفأرة إلى الزاوية العلوية اليسرى من الشاشة. يمكنك "
