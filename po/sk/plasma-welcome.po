@@ -128,7 +128,7 @@ msgstr "Tento modul nastavení sa nepodarilo načítať"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Nepriradené"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -759,22 +759,16 @@ msgid "Open Settings…"
 msgstr "Otvoriť nastavenia…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
-"To get started, launch <interface>System Settings</interface> and search for "
-"“Activities”. On that page, môžete create more Activities. Môžete then "
-"switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
+"Na začiatok spustite <interface>Nastavenia systému</interface> a vyhľadajte "
+"„Aktivity\". Na tejto stránke môžete vytvárať ďalšie aktivity. Potom medzi "
+"nimi môžete prepínať pomocou klávesovej skratky <shortcut>%1</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -839,16 +833,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -860,30 +845,20 @@ msgid ""
 msgstr ""
 "KRunner je mimoriadne výkonný a všestranný vyhľadávací systém Plasma. "
 "Zabezpečuje funkciu vyhľadávania v menu Spúšťač aplikácií a na obrazovke "
-"Prehľad a je prístupná ako samostatný vyhľadávací panel pomocou klávesovej "
-"skratky <shortcut>Alt+Space</shortcut>.<nl/><nl/>Okrem vyhľadávania súborov "
-"a priečinkov dokáže KRunner spúšťať aplikácie, vyhľadávať na webe, "
-"konvertovať medzi menami, počítať matematické úlohy a mnoho ďalšieho. Skúste "
-"do jedného z týchto vyhľadávacích polí zadať niektorú z nasledujúcich "
-"možností:<nl/><list><item>\"čas Shanghai\"</item><item>\"27/3\"</item><item>"
-"\"200 EUR v USD\"</item><item>\"25 míľa v km\"</item><item>…A oveľa viac!</"
-"item></list><nl/>Ak sa chcete dozvedieť viac, otvorte vyhľadávací panel "
-"KRunner pomocou klávesovej skratky <shortcut>Alt+Space</shortcut> a kliknite "
-"na ikonu otáznika."
+"Prehľad a je prístupný ako samostatný vyhľadávací panel pomocou klávesovej "
+"skratky <shortcut>%1</shortcut>.<nl/><nl/>Okrem vyhľadávania súborov a "
+"priečinkov dokáže KRunner spúšťať aplikácie, vyhľadávať na webe, konvertovať "
+"medzi menami, počítať matematické úlohy a mnoho ďalšieho."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-"shortcut> keyboard shortcut and click on the question mark icon."
+"Ak sa chcete dozvedieť viac, otvorte vyhľadávací panel KRunner pomocou "
+"klávesovej skratky <shortcut>%1</shortcut> a kliknite na ikonu otáznika."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1080,13 +1055,7 @@ msgstr ""
 "pomocou klávesovej skratky <shortcut>Meta+W</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1094,10 +1063,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Môžete access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-"shortcut, or by moving your mouse into the top-left corner of the screen. "
-"Môžete also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-"Virtual Desktops in a grid."
+"Prístup k Prehľadu získate pomocou klávesovej skratky <shortcut>%1</"
+"shortcut> alebo presunutím myši do ľavého horného rohu obrazovky. Môžete "
+"tiež stlačiť <shortcut>%2</shortcut> pre zobrazenie mriežky, ktoré zobrazuje "
+"virtuálne plochy v mriežke."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format

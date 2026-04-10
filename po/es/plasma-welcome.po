@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-09 00:47+0000\n"
-"PO-Revision-Date: 2026-02-24 12:21+0100\n"
+"PO-Revision-Date: 2026-04-09 11:19+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -131,7 +131,7 @@ msgstr "No se puede cargar este módulo de preferencias"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Sin asignar"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -768,13 +768,7 @@ msgid "Open Settings…"
 msgstr "Abrir las preferencias…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -783,7 +777,7 @@ msgid ""
 msgstr ""
 "Para empezar, lance las <interface>Preferencias del sistema</interface> y "
 "busque «Actividades». En esa página podrá crear más actividades. Puede "
-"cambiar entre ellas usando el atajo de teclado <shortcut>Meta+Q</shortcut>."
+"cambiar entre ellas usando el atajo de teclado <shortcut>%1</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -846,16 +840,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -868,25 +853,21 @@ msgstr ""
 "KRunner es el excepcionalmente potente y versátil sistema de búsqueda de "
 "Plasma. Potencia la funcionalidad de búsqueda en el menú del «Lanzador de "
 "aplicaciones» y en la pantalla de «Vista general». Puede acceder a él como "
-"barra de búsqueda independiente usando el atajo de teclado <shortcut>Alt"
-"+Espacio</shortcut>.<nl/><nl/>Además de encontrar archivos y carpetas, "
-"KRunner puede lanzar aplicaciones, buscar en la web, realizar conversiones "
-"de divisas, calcular problemas matemáticos y mucho más."
+"barra de búsqueda independiente usando el atajo de teclado <shortcut>%1</"
+"shortcut>.<nl/><nl/>Además de encontrar archivos y carpetas, KRunner puede "
+"lanzar aplicaciones, buscar en la web, realizar conversiones de divisas, "
+"calcular problemas matemáticos y mucho más."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
 "Para saber más, abra la barra de búsqueda de KRunner usando el atajo de "
-"teclado <shortcut>Alt+Espacio</shortcut> y haga clic en el icono del signo "
-"de interrogación."
+"teclado <shortcut>%1</shortcut> y haga clic en el icono del signo de "
+"interrogación."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1085,13 +1066,7 @@ msgstr ""
 "ventanas abiertas."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1099,10 +1074,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Puede acceder al resumen usando el atajo de teclado <shortcut>Meta+W</"
-"shortcut> o moviendo el ratón a la esquina superior izquierda de la "
-"pantalla. También puede pulsar <shortcut>Meta+G</shortcut> para la vista de "
-"cuadrícula, que muestra todos los escritorios virtuales en una cuadrícula."
+"Puede acceder al resumen usando el atajo de teclado <shortcut>%1</shortcut> "
+"o moviendo el ratón a la esquina superior izquierda de la pantalla. También "
+"puede pulsar <shortcut>%2</shortcut> para la vista de cuadrícula, que "
+"muestra todos los escritorios virtuales en una cuadrícula."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
@@ -1374,7 +1349,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgctxt "@action:button clicking on this takes the user to a web page"
-#~ msgid "Visit %1"
-#~ msgstr "Visitar %1"

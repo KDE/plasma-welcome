@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-09 00:47+0000\n"
-"PO-Revision-Date: 2026-02-24 04:42+0100\n"
+"PO-Revision-Date: 2026-04-09 06:12+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -127,7 +127,7 @@ msgstr "ამ პარამეტრის მოდულის ჩატვ
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "მიუნიჭებელი"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -756,13 +756,7 @@ msgid "Open Settings…"
 msgstr "პარამეტრების გახსნა.…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -771,7 +765,7 @@ msgid ""
 msgstr ""
 "დასაწყებად, გაუშვით <interface>სისტემის მორგება</interface> და მოძებნეთ "
 "\"აქტივობები\". ამ გვერდზე მეტი აქტივობის შექმნა შეგიძლიათ. მათ შორის "
-"გადართვა <shortcut>Meta+Q</shortcut> კლავიატურის მალსახმობით შეგიძლიათ."
+"გადართვა <shortcut>%1</shortcut> კლავიატურის მალსახმობით შეგიძლიათ."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -834,16 +828,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -855,26 +840,20 @@ msgid ""
 msgstr ""
 "KRunner-ი Plasma-ის ძალიან მძლავრი ძებნის სისტემაა. ის აპლიკაციების ძებნის "
 "მენიუს და გადახედვის ფუნქციონალის უკანაბოლოა. ასევე შესაძლებელია მისი, "
-"როგორც ცალკე პროგრამის გამოყენება, <shortcut>Alt+Space</shortcut>-ს "
-"გამოყენებით.<nl/><nl/>თქვენი ფაილებისა და საქაღალდეების მოძებნასთან ერთად "
-"KRunner-ს შეუძლია გაუშვას აპები, მოძებნოს ვებში, გადაიყვანოს ვალუტები, "
-"გამოთვალოს მათემატიკური განტოლებები და ა.შ. სცადეთ აკრიფოთ ერთ-ერთი ამ "
-"ძებნის ველებში."
+"როგორც ცალკე პროგრამის გამოყენება, <shortcut>%1</shortcut>-ს გამოყენებით.<nl/"
+"><nl/>თქვენი ფაილებისა და საქაღალდეების მოძებნასთან ერთად KRunner-ს შეუძლია "
+"გაუშვას აპები, მოძებნოს ვებში, გადაიყვანოს ვალუტები, გამოთვალოს მათემატიკური "
+"განტოლებები და ა.შ. სცადეთ აკრიფოთ ერთ-ერთი ამ ძებნის ველებში."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
 "იმისათვის, რომ შეიტყოთ მეტი, გახსენით KRunner-ის ძებნის პანელი კლავიატურის "
-"მალსახმობით <shortcut>Alt+Space</shortcut> და კითხვის ნიშნის ხატულაზე "
-"დააწკაპუნეთ."
+"მალსახმობით <shortcut>%1</shortcut> და კითხვის ნიშნის ხატულაზე დააწკაპუნეთ."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1071,13 +1050,7 @@ msgstr ""
 "ის მიერ გამოყოფილი ძებნის ველი, რომლითაც ღია ფანჯრების გაფილტვრაც შეიძლიათ."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1085,10 +1058,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"გადახედვასთან წვდომა <shortcut>Meta+W</shortcut> კლავიატურის მალსახმობით, ან "
+"გადახედვასთან წვდომა <shortcut>%1</shortcut> კლავიატურის მალსახმობით, ან "
 "თაგუნას ეკრანის მარცხენა ზედა კუთხეში გადატანით შეგიძლიათ. ვირტუალური "
-"სამუშაო მაგიდების ბადისებრი ხედის საჩვენებლად კი შეგიძლიათ, <shortcut>Meta"
-"+G</shortcut> გამოიყენოთ."
+"სამუშაო მაგიდების ბადისებრი ხედის საჩვენებლად კი შეგიძლიათ, <shortcut>%2</"
+"shortcut> გამოიყენოთ."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
