@@ -63,7 +63,6 @@ int main(int argc, char *argv[])
                         QStringLiteral("nate@kde.org"),
                         QStringLiteral("https://pointieststick.com"));
     aboutData.addAuthor(i18nc("@info:credit", "Oliver Beard"), i18nc("@info:credit", "Author"), QStringLiteral("olib141@outlook.com"));
-    aboutData.setBugAddress(QByteArrayLiteral("https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center"));
     KAboutData::setApplicationData(aboutData);
 
     QQmlApplicationEngine engine;
