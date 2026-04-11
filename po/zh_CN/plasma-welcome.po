@@ -740,22 +740,13 @@ msgid "Open Settings…"
 msgstr "打开设置…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
-"要开始使用活动，请启动 <interface>系统设置</interface> 并搜索“活动”。您可以在"
-"活动页面创建更多活动。您可以使用 <shortcut>Meta+Q</shortcut> 键盘快捷键来切换"
-"活动。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -815,16 +806,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -834,25 +816,14 @@ msgid ""
 "your files and folders, KRunner can launch apps, search the web, convert "
 "between currencies, calculate math problems, and a lot more."
 msgstr ""
-"KRunner 是 Plasma 的搜索系统。它不但功能强大，而且用途多样。您可以在应用程序"
-"启动器菜单、桌面概览屏幕中使用它的搜索功能，也可以按下 <shortcut>Alt + 空格键"
-"</shortcut> 键盘快捷键显示它的独立搜索栏。<nl/><nl/>除了查找文件和文件夹外，"
-"KRunner 还可以启动应用、搜索互联网内容、进行货币换算、数学计算以及执行更多其"
-"他功能。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"要了解更多信息，请使用 <shortcut>Alt + 空格键</shortcut> 键盘快捷键打开 "
-"KRunner 搜索栏，然后点击问号图标。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1043,13 +1014,7 @@ msgstr ""
 "滤显示已打开的窗口。"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1057,9 +1022,6 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"要打开桌面预览，请按下 <shortcut>Meta+W</shortcut> 键盘快捷键或者将鼠标光标移"
-"动到屏幕的左上角。您还可以按下 <shortcut>Meta+G</shortcut> 快捷键激活网格视"
-"图，以网格形式显示虚拟桌面。"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
