@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-09 00:47+0000\n"
-"PO-Revision-Date: 2026-02-25 19:06+0400\n"
+"PO-Revision-Date: 2026-04-11 18:05+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -128,7 +128,7 @@ msgstr "تعذر تحميل وحدة الإعدادات هذه"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "غير مخصص"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -745,13 +745,7 @@ msgid "Open Settings…"
 msgstr "افتح الإعدادات…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -760,7 +754,7 @@ msgid ""
 msgstr ""
 "1للبدء، شغّل <interface>إعدادات النظام</interface> وابحث عن \"الأنشطة\". في "
 "تلك الصفحة، يمكنك إنشاء المزيد من الأنشطة. يمكنك بعد ذلك التبديل بينهما "
-"باستخدام اختصار لوحة المفاتيح <shortcut>Meta+Q</shortcut>."
+"باستخدام اختصار لوحة المفاتيح <shortcut>%1</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -820,16 +814,7 @@ msgid "KRunner"
 msgstr "مشغل.ك"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -841,23 +826,19 @@ msgid ""
 msgstr ""
 "مشغل.ك هو نظام بحث قوي ومتنوع لبلازما. يقدم خدمة البحث لمطلق التطبيقات وشاشة "
 "نظرة عامة، ويمكن الوصول إليه كشريط بحث مستقل باستخدام اختصار لوحة المفاتيح "
-"<shortcut>Alt+رز المسافة</shortcut>. إضافة إلى خدمة العثور على ملفاتك "
-"ومجلداتك؛ يمكن لمشغل.ك تشغيل التطبيقات، والبحث في الويب، وتحويل بين العملات، "
-"وحساب مشاكل الرياضيات، وغير ذلك الكثير. "
+"<shortcut>%1</shortcut>. إضافة إلى خدمة العثور على ملفاتك ومجلداتك؛ يمكن "
+"لمشغل.ك تشغيل التطبيقات، والبحث في الويب، وتحويل بين العملات، وحساب مشاكل "
+"الرياضيات، وغير ذلك الكثير. "
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"لمعرفة المزيد، افتح شريط بحث مشغل.ك باستخدام اختصار لوحة المفاتيح "
-"<shortcut>Alt+مسافة</shortcut> وانقر على أيقونة علامة الاستفهام."
+"لمعرفة المزيد، افتح شريط بحث مشغل.ك باستخدام اختصار لوحة المفاتيح<shortcut>"
+"%1</shortcut> وانقر على أيقونة علامة الاستفهام."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1052,13 +1033,7 @@ msgstr ""
 "النوافذ المفتوحة."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1066,9 +1041,9 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"يمكنك الوصول إلى \"نظرة عامة\" باستخدام اختصار لوحة المفاتيح <shortcut>Meta"
-"+W</shortcut>، أو بتحريك الفأرة إلى الزاوية العلوية اليسرى من الشاشة. يمكنك "
-"أيضًا الضغط على <shortcut>Meta+G</shortcut> لعرض الشبكة، والذي يعرض أجهزة سطح "
+"يمكنك الوصول إلى \"نظرة عامة\" باستخدام اختصار لوحة المفاتيح <shortcut>%1</"
+"shortcut> ، أو بتحريك الفأرة إلى الزاوية العلوية اليسرى من الشاشة. يمكنك "
+"أيضًا الضغط على <shortcut>%2</shortcut> لعرض الشبكة، والذي يعرض أجهزة سطح "
 "المكتب الافتراضية في شبكة."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
