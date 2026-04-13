@@ -4,16 +4,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-09 00:47+0000\n"
-"PO-Revision-Date: 2026-02-26 07:27+0100\n"
+"POT-Creation-Date: 2026-04-13 00:45+0000\n"
+"PO-Revision-Date: 2026-04-11 07:40+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: \n"
+"Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -25,61 +25,61 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xavier.besnard@kde.org"
 
-#: src/main.cpp:42
+#: src/main.cpp:43
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
 msgstr "Assistant convivial d'intégration pour Plasma"
 
-#: src/main.cpp:47
+#: src/main.cpp:48
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
 msgstr "Centre de bienvenue"
 
-#: src/main.cpp:55
+#: src/main.cpp:56
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
 msgstr "© 2021 - 2024, La communauté de KDE"
 
-#: src/main.cpp:57
+#: src/main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:58 src/main.cpp:62 src/main.cpp:65
+#: src/main.cpp:59 src/main.cpp:63 src/main.cpp:66
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Auteur"
 
-#: src/main.cpp:61
+#: src/main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: src/main.cpp:65
+#: src/main.cpp:66
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
 msgstr "Oliver Beard"
 
-#: src/main.cpp:76
+#: src/main.cpp:77
 #, kde-format
 msgid "Display release notes for the current Plasma release."
 msgstr "Afficher la note de version pour la version actuelle de Plasma."
 
-#: src/main.cpp:77
+#: src/main.cpp:78
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
 "Afficher la page en temps réel concernant les environnements en temps réel "
 "des distributions"
 
-#: src/main.cpp:80
+#: src/main.cpp:81
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
@@ -128,7 +128,7 @@ msgstr "Ce module de configuration n'a pas pu être chargé."
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Non assigné"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -768,13 +768,7 @@ msgid "Open Settings…"
 msgstr "Ouvrir la configuration..."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -784,7 +778,7 @@ msgstr ""
 "Pour commencer, veuillez lancer <interface>Configuration du système</"
 "interface> et rechercher « Activités ». Sur cette page, vous pouvez créer "
 "plus d'activités. Vous pouvez ensuite basculer entre elles à l'aide du "
-"raccourci clavier <shortcut>Meta + Q</shortcut>."
+"raccourci clavier <shortcut>%1</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -849,16 +843,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -871,26 +856,29 @@ msgstr ""
 "KRunner est le système de recherche extrêmement puissant et polyvalent de "
 "Plasma. Il alimente la fonction de recherche dans le menu du lanceur "
 "d'applications et dans l'écran de présentation. Il est accessible en tant "
-"que barre de recherche autonome à l'aide du raccourci clavier <shortcut> "
-"« ALT » + « Espace » </shortcut>. <nl/><nl/>En plus de trouver vos fichiers "
-"et vos dossiers, KRunner peut lancer des applications, faire des recherches "
-"sur Internet, faire des conversions de devises, calculer des problèmes "
-"mathématiques et beaucoup d'autres choses."
+"que barre de recherche autonome à l'aide du raccourci clavier <shortcut>%1</"
+"shortcut>. <nl/><nl/>En plus de retrouver vos fichiers et vos dossiers, "
+"KRunner peut lancer des applications, faire des recherches sur Internet, "
+"faire des conversions de devises, calculer des problèmes mathématiques et "
+"beaucoup d'autres choses.KRunner est le système de recherche extrêmement "
+"puissant et polyvalent de Plasma. Il alimente la fonction de recherche dans "
+"le menu du lanceur d'applications et dans l'écran de présentation. Il est "
+"accessible en tant que barre de recherche autonome à l'aide du raccourci "
+"clavier <shortcut> « ALT » + « Espace » </shortcut>. <nl/><nl/>En plus de "
+"trouver vos fichiers et vos dossiers, KRunner peut lancer des applications, "
+"faire des recherches sur Internet, faire des conversions de devises, "
+"calculer des problèmes mathématiques et beaucoup d'autres choses."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"Pour en savoir plus, veuillez ouvrir la barre de recherche KRunner à l'aide "
-"du raccourci clavier <shortcut>ALT + Espace</shortcut> et cliquer sur "
-"l'icône du point d'interrogation."
+"Pour en savoir plus, veuillez ouvrir la barre de recherche de KRunner à "
+"l'aide du raccourci clavier <shortcut>%1</shortcut> et cliquer sur l'icône "
+"du point d'interrogation."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1094,13 +1082,7 @@ msgstr ""
 "également filtrer les fenêtres ouvertes."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1109,10 +1091,10 @@ msgid ""
 "a grid."
 msgstr ""
 "Vous pouvez accéder à la vue d'ensemble à l'aide du raccourci clavier "
-"<shortcut>Meta + W</shortcut> ou en déplaçant votre souris dans le coin "
-"supérieur gauche de l'écran. Vous pouvez également appuyer sur le raccourci "
-"clavier <shortcut>Meta + G</shortcut> pour afficher la vue en grille, "
-"affichant les bureaux virtuels dans une grille."
+"<shortcut>%1</shortcut> ou en déplaçant votre souris dans le coin supérieur "
+"gauche de l'écran. Vous pouvez également appuyer sur le raccourci clavier "
+"<shortcut>%2</shortcut> pour afficher la vue en grille, affichant les "
+"bureaux virtuels dans une grille."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
