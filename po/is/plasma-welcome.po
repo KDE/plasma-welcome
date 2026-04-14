@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-02-26 09:34+0000\n"
+"PO-Revision-Date: 2026-04-13 18:14+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -130,7 +130,7 @@ msgstr "Ekki tókst að hlaða þessa stillingaeiningu"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Ekki úthlutað"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -758,13 +758,7 @@ msgid "Open Settings…"
 msgstr "Opna stillingar…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -773,7 +767,7 @@ msgid ""
 msgstr ""
 "Til að hefjast handa skaltu keyra <interface>Kerfisstillingar</interface> og "
 "leita að “Athafnir”. Á þeirri síðu geturðu sett upp fleiri Athafnir. Síðan "
-"getur þú skipt á milli þeirra mað flýtilyklinum <shortcut>Meta+Q</shortcut>."
+"getur þú skipt á milli þeirra með flýtilyklinum <shortcut>%1</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -836,16 +830,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -857,24 +842,20 @@ msgid ""
 msgstr ""
 "KRunner er ótrúlega öflugt og fjölhæft leitarkerfi Plasma. Það keyrir "
 "leitarvirknina í forritaræsisvalmyndinni og á yfirlitsskjánum og hægt er að "
-"opna það sem sjálfstæðan leitarglugga með því að ýta á<shortcut>Alt+Space</"
+"opna það sem sjálfstæðan leitarglugga með því að ýta á<shortcut>%1</"
 "shortcut>.<nl/><nl/>Auk þess að finna skrárnar þínar og möppur getur KRunner "
 "opnað forrit, leitað á netinu, umreiknað á milli gjaldmiðla, reiknað "
 "stærðfræðidæmi og margt fleira."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"Opnaðu KRunner leitargluggann með <shortcut>Alt+Space</shortcut> "
-"flýtilyklinum og smelltu á spurningamerkið til að fá meiri upplýsingar."
+"Opnaðu KRunner leitargluggann með <shortcut>%1</shortcut> flýtilyklinum og "
+"smelltu á spurningamerkið til að fá meiri upplýsingar."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1071,13 +1052,7 @@ msgstr ""
 "byggir á KRunner sem getur líka síað út opna glugga."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1085,10 +1060,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Þú getur opnað yfirlitsskjáinn með flýtilyklinum <shortcut>Meta+W</shortcut> "
-"eða með því að fara með músarbendilinn efst í vinstra hornið á skjánum. Þú "
-"getur einni ýtt á <shortcut>Meta+G</shortcut> til að sjá reitayfirlit, sem "
-"birtir sýndarskjáborð sem hnitanetsreiti."
+"Þú getur opnað yfirlitsskjáinn með flýtilyklinum <shortcut>%1</shortcut> eða "
+"með því að fara með músarbendilinn efst í vinstra hornið á skjánum. Þú getur "
+"einni ýtt á <shortcut>%2</shortcut> til að sjá reitayfirlit, sem birtir "
+"sýndarskjáborð sem hnitanetsreiti."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
