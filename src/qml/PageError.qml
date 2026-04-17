@@ -25,7 +25,7 @@ Kirigami.Page {
         Kirigami.Action {
             icon.name: "tools-report-bug-symbolic"
             text: i18nc("@action:button", "Report Bug…")
-            onTriggered: Qt.openUrlExternally(isDistroPage ? Welcome.Distro.bugReportUrl() : "https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center")
+            onTriggered: Qt.openUrlExternally(isDistroPage ? Welcome.Distro.bugReportUrl() : "https://bugs.kde.org/enter_bug.cgi?product=plasma-welcome")
             visible: !isUnknownPage
         },
         Kirigami.Action {
