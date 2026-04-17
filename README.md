@@ -75,7 +75,7 @@ These two pages will be added into the wizard, with WelcomeToDistro shown first,
 
 Custom pages are QML files with a root item that inherit from `Kirigami.Page`. Any content within the page is supported, though to maintain visual consistency with existing pages, it is recommended to use `GenericPage`, `ScrollablePage` or `KCMPage` as the root item and set the `heading` and `description` properties, with any custom content going beneath them. You can reference [existing pages](src/qml/pages) when creating your own.
 
-Because pages are written in QML without support for C++ support code, only functions that can be performed entirely with QML are available. If you have a specific use case that can't be supported with these tools, please [file a bug report](https://bugs.kde.org/enter_bug.cgi?product=Welcome%20Center) detailing it.
+Because pages are written in QML without support for C++ support code, only functions that can be performed entirely with QML are available. If you have a specific use case that can't be supported with these tools, please [file a bug report](https://bugs.kde.org/enter_bug.cgi?product=plasma-welcome) detailing it.
 
 Here are some examples of the behavior that can be implemented in custom pages:
 
