@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2023-2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-03-02 05:42+0900\n"
+"PO-Revision-Date: 2026-04-17 19:41+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Lokalize 26.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -126,7 +126,7 @@ msgstr "無法載入此設定模組"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "未指定"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -739,13 +739,7 @@ msgid "Open Settings…"
 msgstr "開啟設定…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -753,8 +747,8 @@ msgid ""
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
 "要開始使用，啟動<interface>系統設定</interface>並搜尋「活動」。在活動設定頁"
-"面，您可以建立更多活動。建立之後您可以使用 <shortcut>Meta+Q</shortcut> 鍵盤快"
-"捷鍵在它們之間切換。"
+"面，您可以建立更多活動。建立之後您可以使用 <shortcut>%1</shortcut> 鍵盤快捷鍵"
+"在它們之間切換。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -815,16 +809,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -835,23 +820,19 @@ msgid ""
 "between currencies, calculate math problems, and a lot more."
 msgstr ""
 "KRunner 是 Plasma 強大且萬用的搜尋系統。它提供應用程式啟動器選單與總覽畫面的"
-"搜尋功能，也可以使用 <shortcut>Alt+Space</shortcut> 鍵盤快捷鍵來直接開啟獨立"
-"的搜尋列。<nl/><nl/>除了尋找您的檔案與資料夾以外，KRunner 也可以啟動應用程"
-"式、進行網路搜尋、在貨幣之間轉換、計算數學問題等等。"
+"搜尋功能，也可以使用 <shortcut>%1</shortcut> 鍵盤快捷鍵來直接開啟獨立的搜尋"
+"列。<nl/><nl/>除了尋找您的檔案與資料夾以外，KRunner 也可以啟動應用程式、進行"
+"網路搜尋、在貨幣之間轉換、計算數學問題等等。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"要瞭解更多，可以透過 <shortcut>Alt+空白鍵</shortcut> 鍵盤快捷鍵來開啟 "
-"KRunner 搜尋列並點擊問號按鈕。"
+"要瞭解更多，可以透過 <shortcut>%1</shortcut> 鍵盤快捷鍵來開啟 KRunner 搜尋列"
+"並點擊問號按鈕。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1043,13 +1024,7 @@ msgstr ""
 "後，它提供一個以 KRunner 為基礎並可過濾開啟視窗的搜尋欄位。"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1057,9 +1032,9 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"您可以使用 <shortcut>Meta+W</shortcut> 鍵盤快捷鍵或是將滑鼠移到螢幕左上角來開"
-"啟「總覽」。您也可以使用 <shortcut>Meta+G</shortcut> 來開啟「格線檢視」，以格"
-"線方式顯示所有虛擬桌面。"
+"您可以使用 <shortcut>%1</shortcut> 鍵盤快捷鍵或是將滑鼠移到螢幕左上角來開啟"
+"「總覽」。您也可以使用 <shortcut>%2</shortcut> 來開啟「格線檢視」，以格線方式"
+"顯示所有虛擬桌面。"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
