@@ -7,20 +7,21 @@
 # SPDX-FileCopyrightText: 2025 Alois Spitzbart <spitz234@hotmail.com>
 # SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
 # SPDX-FileCopyrightText: 2025-2026 Philipp Kiemle <l10n.daphipz@fastmail.de>
+# SPDX-FileCopyrightText: 2026 Alexander Becker <alex-at-kde-l10n-de@freenet.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-03-26 21:22+0100\n"
-"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
+"PO-Revision-Date: 2026-04-22 23:28+0200\n"
+"Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -131,7 +132,7 @@ msgstr "Das Einstellungsmodul kann nicht geladen werden"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Nicht zugewiesen"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -771,13 +772,7 @@ msgid "Open Settings…"
 msgstr "Einstellungen öffnen …"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -787,7 +782,7 @@ msgstr ""
 "Um zu beginnen, öffnen Sie die <interface>Systemeinstellungen</interface> "
 "und suchen Sie nach „Aktivitäten”. Auf dieser Seite können Sie beliebig "
 "viele weitere Aktivitäten anlegen. Um zwischen ihnen zu wechseln, verwenden "
-"Sie den Tastaturkurzbefehl <shortcut>Meta+Q</shortcut>."
+"Sie den Tastaturkurzbefehl <shortcut>%1</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -852,16 +847,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -874,25 +860,21 @@ msgstr ""
 "KRunner ist Plasmas außergewöhnlich leistungsstarkes und vielseitiges "
 "Suchsystem. Es stellt die Suchfunktion im Anwendungsstarter und dem "
 "Überblick-Bildschirm zur Verfügung, kann aber als eigenständige Suchleiste "
-"über den Tastaturkurzbefehl <shortcut>Alt+Leertaste</shortcut> aufgerufen "
-"werden.<nl/><nl/>Neben dem Auffinden von Dateien und Ordnern kann KRunner "
-"auch Anwendungen starten, im Internet suchen, Währungen umrechnen, "
-"mathematische Probleme lösen und vieles mehr."
+"über den Tastaturkurzbefehl <shortcut>%1</shortcut> aufgerufen werden.<nl/"
+"><nl/>Neben dem Auffinden von Dateien und Ordnern kann KRunner auch "
+"Anwendungen starten, im Internet suchen, Währungen umrechnen, mathematische "
+"Probleme lösen und vieles mehr."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
 "Eine weitere Lernmöglichkeit steht durch Öffnen der KRunner-Suchleiste über "
-"den Tastaturkurzbefehl <shortcut>Alt+Leertaste</shortcut> und einen Klick "
-"auf das Fragezeichen-Symbol bereit."
+"den Tastaturkurzbefehl <shortcut>%1</shortcut> und einen Klick auf das "
+"Fragezeichen-Symbol bereit."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1091,13 +1073,7 @@ msgstr ""
 "können."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1105,10 +1081,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Sie können die „Übersicht” mit dem Tastaturkurzbefehl <shortcut>Meta+W</"
-"shortcut> oder Bewegen der Maus in die obere linke Ecke des Bildschirms "
-"öffnen. Mit <shortcut>Meta+G</shortcut> wird die Gitteransicht zur Anzeige "
-"der virtuellen Arbeitsflächen verwendet."
+"Sie können die „Übersicht” mit dem Tastaturkurzbefehl <shortcut>%1</"
+"shortcut> oder durch Bewegen der Maus in die obere linke Ecke des "
+"Bildschirms öffnen. Mit <shortcut>%2</shortcut> werden die virtuellen "
+"Arbeitsflächen in einer Rasteransicht angezeigt."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
