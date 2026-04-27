@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-02-03 22:26+0100\n"
+"PO-Revision-Date: 2026-04-26 20:43+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -126,7 +126,7 @@ msgstr "이 설정 모듈을 불러올 수 없음"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "할당되지 않음"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -627,19 +627,14 @@ msgid "Powerful When Needed"
 msgstr "필요할 때 강력하게"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>Click the cards below to see just a "
-#| "smattering of what it can do for you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is a feature-rich environment, designed to super-charge your "
 "productivity!<nl/><nl/>Click the cards below to see just a smattering of "
 "what it can do for you:"
 msgstr ""
-"Plasma는 생산성을 강화할 수 있는 다양한 강력한 기능이 있습니다!<nl/><nl/>아"
+"Plasma에는 생산성을 강화할 수 있는 다양한 강력한 기능이 있습니다!<nl/><nl/>아"
 "래 카드를 클릭하여 Plasma의 주요 기능을 탐색할 수 있습니다."
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:44
@@ -751,13 +746,7 @@ msgid "Open Settings…"
 msgstr "설정 열기…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -765,7 +754,7 @@ msgid ""
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
 "시작하려면 <interface>시스템 설정</interface>을 실행하여 \"활동\"을 검색하십"
-"시오. 해당 페이지에서 더 많은 활동을 생성할 수 있습니다. <shortcut>Meta+Q</"
+"시오. 해당 페이지에서 더 많은 활동을 생성할 수 있습니다. <shortcut>%1</"
 "shortcut> 키보드 단축키를 통하여 활동간을 전환할 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
@@ -828,16 +817,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -848,24 +828,19 @@ msgid ""
 "between currencies, calculate math problems, and a lot more."
 msgstr ""
 "KRunner는 Plasma의 강력한 검색 시스템입니다. 프로그램 실행기 메뉴와 한눈에 보"
-"기 화면에서 검색 기능을 제공하며, <shortcut>Alt+Space</shortcut> 단축키로 검"
-"색 표시줄처럼 사용할 수 있습니다.<nl/><nl/>KRunner는 파일이나 폴더를 검색하"
-"는 것 외에도 앱 실행, 웹 검색, 통화간 환전, 수식 계산 등을 수행할 수 있습니"
-"다."
+"기 화면에서 검색 기능을 제공하며, <shortcut>%1</shortcut> 단축키로 검색 표시"
+"줄처럼 사용할 수 있습니다.<nl/><nl/>KRunner는 파일이나 폴더를 검색하는 것 외"
+"에도 앱 실행, 웹 검색, 통화간 환전, 수식 계산 등을 수행할 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"더 많은 기능을 알아 보려면 <shortcut>Alt+Space</shortcut> 키를 눌러서 "
-"KRunner 검색 표시줄을 실행한 다음 물음표 아이콘을 클릭하십시오."
+"더 많은 기능을 알아 보려면 <shortcut>%1</shortcut> 키를 눌러서 KRunner 검색 "
+"표시줄을 실행한 다음 물음표 아이콘을 클릭하십시오."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1057,13 +1032,7 @@ msgstr ""
 "검색할 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1071,9 +1040,9 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"<shortcut>Meta+W</shortcut> 단축키를 사용하거나 마우스 커서를 화면 왼쪽 위로 "
-"움직여서 한눈에 보기를 사용할 수 있습니다. <shortcut>Meta+G</shortcut> 단축키"
-"를 사용하여 가상 데스크톱을 격자 형태로 볼 수 있습니다."
+"<shortcut>%1</shortcut> 단축키를 사용하거나 마우스 커서를 화면 왼쪽 위로 움직"
+"여서 한눈에 보기를 사용할 수 있습니다. <shortcut>%2</shortcut> 단축키를 사용"
+"하여 가상 데스크톱을 격자 형태로 볼 수 있습니다."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
