@@ -271,7 +271,7 @@ msgstr "Táto strana could not be loaded"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr "Táto strana provided by your distribution could not be loaded"
+msgstr "Túto stránku poskytnutú vašou distribúciou sa nepodarilo načítať."
 
 #: src/qml/PageError.qml:51
 #, kde-kuit-format
@@ -760,9 +760,10 @@ msgid ""
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
 msgstr ""
-"To get started, launch <interface>System Settings</interface> and search for "
-"“Activities”. On that page, môžete create more Activities. Môžete then "
-"switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
+"Ak chcete začať, spustite <interface>Systémové nastavenia</interface> a "
+"vyhľadajte „Aktivity“. Na tejto stránke môžete vytvoriť ďalšie aktivity. "
+"Môžete medzi nimi prepínať pomocou klávesovej skratky <shortcut>Meta+Q</"
+"shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -799,8 +800,8 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
-"To get started, click the <interface>%1</interface> button. Môžete pair your "
-"phone there."
+"Ak chcete začať, kliknite na tlačidlo <interface>%1</interface>. Tam môžete "
+"spárovať váš telefón."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
@@ -1063,10 +1064,10 @@ msgid ""
 "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
 "Virtual Desktops in a grid."
 msgstr ""
-"Môžete access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-"shortcut, or by moving your mouse into the top-left corner of the screen. "
-"Môžete also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-"Virtual Desktops in a grid."
+"Prehľad môžete otvoriť pomocou klávesovej skratky <shortcut>Meta+W</"
+"shortcut> alebo presunutím myši do ľavého horného rohu obrazovky. Môžete "
+"tiež stlačiť <shortcut>Meta+G</shortcut> pre mriežkové zobrazenie, ktoré "
+"zobrazuje virtuálne plochy v mriežke."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
@@ -1142,11 +1143,11 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
-"Plasma is navrhnutý na be simple and usable out of the box. Things are where "
-"you would expect, and existuje generally no need to configure anything "
-"before môžete be comfortable and productive.<nl/><nl/>Below is a visual "
-"representation of a typical Plasma Desktop; move the pointer over or click "
-"on something to learn about it!"
+"Plasma je navrhnutá tak, aby bola jednoduchá a použiteľná hneď po "
+"inštalácii. Veci sú tam, kde ich očakávate, a zvyčajne nie je potrebné nič "
+"nastavovať, kým začnete pohodlne a produktívne pracovať.<nl/><nl/>Nižšie je "
+"vizuálne znázornenie typickej pracovnej plochy Plasma; presuňte ukazovateľ "
+"myši nad niečo alebo na to kliknite, aby ste sa o tom dozvedeli viac!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1158,11 +1159,12 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
-"Toto je the “Desktop”. It shows files and folders that are contained in your "
-"<filename>Desktop</filename> folder, and can hold widgets. Right-click on it "
-"and choose <interface>Desktop and Wallpaper…</interface> to configure the "
-"appearance of the desktop. Môžete also choose <interface>Enter Edit Mode</"
-"interface> to add, remove or modify widgets."
+"Toto je „Plocha“. Zobrazuje súbory a priečinky, ktoré sú vo vašom priečinku "
+"<filename>Desktop</filename>, a môže zobrazovať miniaplikácie. Kliknite naň "
+"pravým tlačidlom myši a vyberte <interface>Desktop and Wallpaper…</"
+"interface> na nastavenie vzhľadu plochy. Môžete tiež zvoliť <interface>Enter "
+"Edit Mode</interface> na pridávanie, odstraňovanie alebo úpravu "
+"miniaplikácií."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1184,9 +1186,9 @@ msgid ""
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Toto je the “Application Launcher” widget, a multipurpose launcher. Tu "
-"môžete launch apps, shut down or restart the system, access recent files, "
-"and more. Click on it to get started!"
+"Toto je miniaplikácia „Spúšťač aplikácií“, viacúčelový spúšťač. Tu môžete "
+"spúšťať aplikácie, vypnúť alebo reštartovať systém, pristupovať k nedávnym "
+"súborom a mnoho ďalšieho. Kliknite naň, aby ste začali!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1195,8 +1197,9 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
-"Toto je the “Task Manager” widget, wtu môžete switch between open apps and "
-"also launch new ones. Drag app icons to re-arrange them."
+"Toto je miniaplikácia „Správa úloh“. Tu môžete prepínať medzi otvorenými "
+"aplikáciami a tiež spúšťať nové. Presuňte ikony aplikácií na ich "
+"usporiadanie."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1232,9 +1235,9 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
-"Toto je the “Peek at Desktop” widget. Click on it to temporarily hide all "
-"open windows so môžete access the desktop. Click on it again to bring them "
-"back."
+"Toto je miniaplikácia „Pohľad na plochu“. Kliknutím naň dočasne skryjete "
+"všetky otvorené okná, aby ste mohli pristupovať k ploche. Kliknutím znova "
+"ich obnovíte."
 
 #: src/qml/pages/Welcome.qml:21
 #, kde-format
