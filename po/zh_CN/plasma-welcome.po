@@ -173,7 +173,7 @@ msgstr "下一页(&N)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "在 Plasma 有更新时显示"
+msgstr "在 Plasma 更新后显示此页面"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -540,7 +540,7 @@ msgstr "报告程序缺陷"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr "您想要下载该发布通告的嵌入式预览版吗？"
+msgstr "下载本版软件的发布公告预览吗？"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -599,8 +599,8 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
-"当此页面显示未来的 Plasma 更新时，系统会自动加载预览内容，但使用按流量计费的"
-"网络连接时除外。"
+"打开此项后，未来在新版 Plasma 更新时，此页面将自动加载新版软件发布公告的预览 "
+"(使用按流量计费的网络连接时除外)。"
 
 #: src/qml/pages/PlasmaUpdate.qml:422
 #, kde-format
