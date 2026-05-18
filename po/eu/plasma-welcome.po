@@ -1,7 +1,7 @@
 # Translation for plasma-welcome.po to Euskara/Basque (eu).
 # Copyright (C) 2022-2026 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
-# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2023-2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
 # Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022, 2023, 2024, 2025, 2026.
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-02-28 23:09+0100\n"
+"PO-Revision-Date: 2026-05-17 13:13+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -131,7 +131,7 @@ msgstr "Ezin izan du ezarpenen modulua hori zamatu"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Esleitu gabe"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -765,13 +765,7 @@ msgid "Open Settings…"
 msgstr "Ireki ezarpenak…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -780,7 +774,7 @@ msgid ""
 msgstr ""
 "Hasteko, abiarazi <interface>Sistemaren ezarpenak</interface> eta bilatu "
 "“Jarduerak”. Orri horretan, jarduera gehiago sor ditzakezu. Haien artean "
-"aldatzeko, teklatuko <shortcut>Meta+Q</shortcut> lasterbidea erabil dezakezu."
+"aldatzeko, teklatuko <shortcut>%1</shortcut> lasterbidea erabil dezakezu."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -844,16 +838,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -866,25 +851,20 @@ msgstr ""
 "KRunner Plasmaren trebezia anitzeko bilaketa sistema txit ahaltsua da. "
 "Aplikazioak abiarazteko menuko bilaketa funtzionalitatea eta Ikuspegi "
 "orokorra pantaila elikatzen ditu, eta bilaketa-barra autonomo gisa ere atzi "
-"daiteke teklatuko <shortcut>Alt+Zuriunea</shortcut> lasterbidea erabiliz.<nl/"
-"><nl/>Zure fitxategiak eta karpetak bilatzeaz gain, «KRunner»rek aplikazioak "
+"daiteke teklatuko <shortcut>%1</shortcut> lasterbidea erabiliz.<nl/><nl/"
+">Zure fitxategiak eta karpetak bilatzeaz gain, «KRunner»rek aplikazioak "
 "abiarazi, webean bilatu, moneten arteko bihurketak egin, matematika "
 "eragiketak kalkulatu, eta askoz gehiago egin dezake."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"Gehiago jakiteko, ireki «KRunner»ren bilaketa barra teklatuko <shortcut>Alt"
-"+Zuriunea</shortcut> lasterbidea erabiliz eta egin klik galdera-markaren "
-"ikonoan."
+"Gehiago jakiteko, ireki «KRunner»ren bilaketa barra teklatuko <shortcut>%1</"
+"shortcut> lasterbidea erabiliz eta egin klik galdera-markaren ikonoan."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1082,13 +1062,7 @@ msgstr ""
 "eskaintzen du."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1096,10 +1070,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Ikuspegi orokorra atzitzeko, teklatuko <shortcut>Meta+W</shortcut> "
-"lasterbidea erabiliz, edo zure sagua pantailaren goi-ezker ertzera mugituz "
-"egin dezakezu. <shortcut>Meta+G</shortcut> ere saka dezakezu Sareta "
-"ikuspegirako, alegiazko mahaigainak sareta batean erakusten dituena."
+"Ikuspegi orokorra atzitzeko, teklatuko <shortcut>%1</shortcut> lasterbidea "
+"erabiliz, edo zure sagua pantailaren goi-ezker ertzera mugituz egin "
+"dezakezu. <shortcut>%2</shortcut> ere saka dezakezu Sareta ikuspegirako, "
+"alegiazko mahaigainak sareta batean erakusten dituena."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
