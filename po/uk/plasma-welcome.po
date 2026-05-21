@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-13 00:45+0000\n"
+"POT-Creation-Date: 2026-05-21 00:46+0000\n"
 "PO-Revision-Date: 2026-04-09 08:53+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -156,29 +156,29 @@ msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Участь у проєкті"
 
-#: src/qml/footers/FooterDefault.qml:28
+#: src/qml/footers/FooterDefault.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "Проп&устити"
 
-#: src/qml/footers/FooterDefault.qml:28
+#: src/qml/footers/FooterDefault.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Назад"
 
-#: src/qml/footers/FooterDefault.qml:71
-#, kde-format
-msgctxt "@action:button"
-msgid "&Finish"
-msgstr "&Завершити"
-
-#: src/qml/footers/FooterDefault.qml:71
+#: src/qml/footers/FooterDefault.qml:24
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Далі"
+
+#: src/qml/footers/FooterDefault.qml:25
+#, kde-format
+msgctxt "@action:button"
+msgid "&Finish"
+msgstr "&Завершити"
 
 #: src/qml/footers/FooterUpdate.qml:21
 #, kde-format

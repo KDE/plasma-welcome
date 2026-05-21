@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-13 00:45+0000\n"
+"POT-Creation-Date: 2026-05-21 00:46+0000\n"
 "PO-Revision-Date: 2026-04-11 07:40+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
@@ -154,29 +154,29 @@ msgctxt "@action:button"
 msgid "Get involved"
 msgstr "Impliquez vous !"
 
-#: src/qml/footers/FooterDefault.qml:28
+#: src/qml/footers/FooterDefault.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
 msgstr "I&gnorer"
 
-#: src/qml/footers/FooterDefault.qml:28
+#: src/qml/footers/FooterDefault.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Revenir en arrière"
 
-#: src/qml/footers/FooterDefault.qml:71
-#, kde-format
-msgctxt "@action:button"
-msgid "&Finish"
-msgstr "&Terminer"
-
-#: src/qml/footers/FooterDefault.qml:71
+#: src/qml/footers/FooterDefault.qml:24
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
 msgstr "&Suivant"
+
+#: src/qml/footers/FooterDefault.qml:25
+#, kde-format
+msgctxt "@action:button"
+msgid "&Finish"
+msgstr "&Terminer"
 
 #: src/qml/footers/FooterUpdate.qml:21
 #, kde-format
