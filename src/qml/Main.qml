@@ -101,11 +101,14 @@ Kirigami.ApplicationWindow {
     function _pushPage(object) {
         if (object !== null) {
 
-            // Don't push any pages that don't want to be shown
-            if ("show" in object) {
-                if (!object.show) {
-                    object.destroy();
-                    return;
+            // Don't push any pages that don't want to be shown, unless page is explicitly
+            // requested on command line
+            if (Private.App.mode != Private.App.Pages) {
+                if ("show" in object) {
+                    if (!object.show) {
+                        object.destroy();
+                        return;
+                    }
                 }
             }
 

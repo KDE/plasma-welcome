@@ -21,8 +21,7 @@ Welcome.Page {
     heading: i18nc("@info:window", "Access the Internet")
     description: xi18nc("@info:usagetip", "You can connect to the internet and manage your network connections with the <interface>Networks applet</interface>. To access it, click on the <interface>Networks</interface> icon in your <interface>System Tray</interface>, which lives in the bottom-right corner of the screen.")
 
-    show: NetworkInformation.reachability !== NetworkInformation.Reachability.Online || Private.Release.isDevelopment
-
+    show: NetworkInformation.reachability !== NetworkInformation.Reachability.Online
     PlasmaNMLoader {
         id: nmLoader
     }
@@ -216,7 +215,7 @@ Welcome.Page {
     footer: Kirigami.InlineMessage {
         position: Kirigami.InlineMessage.Footer
         visible: Private.Release.isDevelopment
-        text: i18nc("@info", "This page is being shown regardless of network connectivity because you are using a development version. To manually preview the different states of the page, you can use the button.")
+        text: i18nc("@info", "To manually preview the different states of the page, you can use the button.")
         showCloseButton: true
 
         actions: [
