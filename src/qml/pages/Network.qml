@@ -37,13 +37,9 @@ Welcome.Page {
 
         icon.name: "data-warning-symbolic"
         text: i18nc("@info:placeholder", "Networking support for Plasma is not currently installed")
-        explanation: xi18nc("@info:usagetip %1 is the name of the user's distro", "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1.", Welcome.Distro.name)
-        helpfulAction: Kirigami.Action {
-            enabled: nmLoader.state === "NoPlasmaNM"
-            icon.name: "tools-report-bug-symbolic"
-            text: i18nc("@action:button", "Report Bug…")
-            onTriggered: Qt.openUrlExternally(Welcome.Distro.bugReportUrl)
-        }
+        explanation: xi18nc("@info:usagetip %2 is the name of the user's distro", "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please <link url='%1'>report this omission to %2</link>.", Welcome.Distro.bugReportUrl, Welcome.Distro.name)
+        onLinkActivated: link => Qt.openUrlExternally(link)
+
     }
 
     Private.MockCard {
