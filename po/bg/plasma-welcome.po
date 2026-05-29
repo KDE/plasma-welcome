@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Mincho Kondarev <mkondarev@yahoo.de>
+# SPDX-FileCopyrightText: 2023-2026 Mincho Kondarev <mkondarev@yahoo.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-02-25 19:27+0100\n"
+"PO-Revision-Date: 2026-05-28 20:12+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.03.70\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -129,7 +129,7 @@ msgstr "Неуспех при зареждане на този модул с н�
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Неприсвоена"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -638,7 +638,7 @@ msgstr "<b>Кликнете, за да прочетете съобщението
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "Използване на пълната мощност на системата, когато е необходимо"
+msgstr "Мощна, когато е необходимо"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -763,23 +763,17 @@ msgid "Open Settings…"
 msgstr "Отваряне на панела с настройки…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
-"<nl/><nl/>За да започнете, стартирайте <interface>Системни настройки</"
-"interface> и потърсете \"Дейности\". На тази страница можете да да създадете "
-"нови дейности. След това можете да превключвате между тях с помощта на "
-"клавишната комбинация <shortcut>Meta+Q</shortcut>."
+"За да започнете, стартирайте <interface>Системни настройки</interface> и "
+"потърсете \"Дейности\". На тази страница можете да да създадете нови "
+"дейности. След това можете да превключвате между тях с помощта на клавишната "
+"комбинация <shortcut>%1</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -834,7 +828,7 @@ msgstr "KDE Connect не е инсталиран."
 #, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "Инсталиране на KDE Connect"
+msgstr "Инсталиране на KDE Connect…"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
@@ -843,16 +837,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -865,25 +850,21 @@ msgstr ""
 "KRunner е изключително мощната и гъвкава система за търсене на Plasma. Тя "
 "задвижва функциите за търсене в менюто за стартиране на приложения и в "
 "екрана за общ преглед. Може да бъде използвана като самостоятелна лента за "
-"търсене с помощта на <shortcut>Alt+Space</shortcut> клавишна комбинация.<nl/"
-"><nl/>В допълнение към намиране на файлове и папки, KRunner може да стартира "
+"търсене с помощта на <shortcut>%1</shortcut> клавишна комбинация.<nl/><nl/>В "
+"допълнение към намиране на файлове и папки, KRunner може да стартира "
 "приложения, да търси в интернет, да конвертира между валути, да изчислява "
 "математически задачи и много други."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
 "За да научите повече, отворете лентата за търсене на KRunner, като "
-"използвате клавишната комбинация <shortcut>Alt+Space</shortcut>, и щракнете "
-"върху иконата с въпросителен знак."
+"използвате клавишната комбинация <shortcut>%1</shortcut>, и щракнете върху "
+"иконата с въпросителен знак."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1083,13 +1064,7 @@ msgstr ""
 "прозорци."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1097,11 +1072,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"<nl/><nl/>Мoжете да получите достъп до Общ преглед, като използвате "
-"<shortcut>Meta+W</shortcut> клавишна комбинация.или като преместите мишката "
-"в горния ляв ъгъл на екрана. Можете също така да натиснете <shortcut>Meta+G</"
-"shortcut> за изглед решетка, който показва виртуалните работни плотове в "
-"мрежа."
+"Можете да получите достъп до Общ преглед, като използвате <shortcut>%1</"
+"shortcut> клавишна комбинация или като преместите мишката в горния ляв ъгъл "
+"на екрана. Можете също така да натиснете <shortcut>%2</shortcut> за изглед "
+"решетка, който показва виртуалните работни плотове в мрежа."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
@@ -1375,7 +1349,3 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
-
-#~ msgctxt "@action:button clicking on this takes the user to a web page"
-#~ msgid "Visit %1"
-#~ msgstr "Посетете %1"
