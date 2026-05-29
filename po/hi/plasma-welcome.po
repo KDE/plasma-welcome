@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-21 00:46+0000\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 17:35+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -257,7 +257,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "पेज लोड करने में त्रुटि"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -472,13 +472,13 @@ msgstr ""
 "को प्रबंधित कर सकते हैं। इसे एक्सेस करने के लिए, अपने <इंटरफ़ेस>सिस्टम ट्रे</इंटरफ़ेस> में "
 "<इंटरफ़ेस>नेटवर्क</इंटरफ़ेस> आइकन पर क्लिक करें, जो स्क्रीन के निचले-दाएँ कोने में रहता है।"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "प्लाज़्मा के लिए नेटवर्किंग समर्थन वर्तमान में स्थापित नहीं है"
 
-#: src/qml/pages/Network.qml:41
+#: src/qml/pages/Network.qml:40
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -488,31 +488,26 @@ msgstr ""
 "नेटवर्क कनेक्शन प्रबंधित करने के लिए, प्लाज़्मा को <icode>plasma-nm</icode> स्थापित करने "
 "की आवश्यकता है। कृपया इस चूक की रिपोर्ट %1 को करें।"
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "आप कनेक्ट हो गए हैं"
 
-#: src/qml/pages/Network.qml:212
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "सब ठीक है!"
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:218
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This page is being shown regardless of network connectivity because you are "
-"using a development version. To manually preview the different states of the "
-"page, you can use the button."
+"To manually preview the different states of the page, you can use the button."
 msgstr ""
-"यह पृष्ठ नेटवर्क कनेक्टिविटी की परवाह किए बिना दिखाया जा रहा है क्योंकि आप डेवलपमेंट "
-"संस्करण का उपयोग कर रहे हैं। पृष्ठ की विभिन्न स्थितियों का मैन्युअल रूप से पूर्वावलोकन करने के "
-"लिए, आप बटन का उपयोग कर सकते हैं।"
 
-#: src/qml/pages/Network.qml:224
+#: src/qml/pages/Network.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -1340,6 +1335,16 @@ msgstr "%1 बीटा"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 बीटा %2"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "This page is being shown regardless of network connectivity because you "
+#~ "are using a development version. To manually preview the different states "
+#~ "of the page, you can use the button."
+#~ msgstr ""
+#~ "यह पृष्ठ नेटवर्क कनेक्टिविटी की परवाह किए बिना दिखाया जा रहा है क्योंकि आप डेवलपमेंट "
+#~ "संस्करण का उपयोग कर रहे हैं। पृष्ठ की विभिन्न स्थितियों का मैन्युअल रूप से पूर्वावलोकन करने "
+#~ "के लिए, आप बटन का उपयोग कर सकते हैं।"
 
 #~ msgctxt "@action:button clicking on this takes the user to a web page"
 #~ msgid "Visit %1"

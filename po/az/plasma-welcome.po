@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-21 00:46+0000\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
 "PO-Revision-Date: 2026-03-04 22:00+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -256,7 +256,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Səhifənin yüklənməsi xətası"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -475,13 +475,13 @@ msgstr ""
 "ekranın aşağı sağ küncündəki <interface>Sistem çəkməcəsi</interface> "
 "bölməsində <interface>Şəbəkələr</interface> nişanına vurun."
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Hal-hazırda Plasma üçün şəbəkə dəstəyi quraşdırılmayıb"
 
-#: src/qml/pages/Network.qml:41
+#: src/qml/pages/Network.qml:40
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -492,31 +492,26 @@ msgstr ""
 "paketini quraşdırmağı tələb edir. Bu paketin olmadığını %1 distributorunun "
 "yaradıcısına məlumat verin."
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Şəbəkəyə qoşuldunuz"
 
-#: src/qml/pages/Network.qml:212
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Başlamaq üçün hər şey hazırdır!"
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:218
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This page is being shown regardless of network connectivity because you are "
-"using a development version. To manually preview the different states of the "
-"page, you can use the button."
+"To manually preview the different states of the page, you can use the button."
 msgstr ""
-"Bu səhifənin göstərilməsi şəbəkə bağlantısından asılıdr, çünki hazırda siz "
-"tərtibatçı versiyasından istifadə edirsiniz. Səhifənin müxtəlif "
-"vəziyyətlərini nəzər salmaq üçün düymələrdən istifadə edə bilərsiniz."
 
-#: src/qml/pages/Network.qml:224
+#: src/qml/pages/Network.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -1369,6 +1364,16 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "This page is being shown regardless of network connectivity because you "
+#~ "are using a development version. To manually preview the different states "
+#~ "of the page, you can use the button."
+#~ msgstr ""
+#~ "Bu səhifənin göstərilməsi şəbəkə bağlantısından asılıdr, çünki hazırda "
+#~ "siz tərtibatçı versiyasından istifadə edirsiniz. Səhifənin müxtəlif "
+#~ "vəziyyətlərini nəzər salmaq üçün düymələrdən istifadə edə bilərsiniz."
 
 #~ msgctxt "@action:button clicking on this takes the user to a web page"
 #~ msgid "Visit %1"

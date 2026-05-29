@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-21 00:46+0000\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
 "PO-Revision-Date: 2025-09-15 10:07-0500\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -252,7 +252,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "ਸਫ਼ਾ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -461,13 +461,13 @@ msgstr ""
 "<interface>ਨੈੱਟਵਰਕ</interface> ਆਈਕਾਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਜੋ ਕਿ ਸਕਰੀਨ ਦੇ ਹੇਠਾਂ ਸੱਜੇ ਕੋਨੇ ਵਿੱਚ "
 "ਹੁੰਦਾ ਹੈ।"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "ਪਲਾਜ਼ਮਾ ਲਈ ਨੈਟਵਰਕਿੰਗ ਸਹਿਯੋਗ ਇਸ ਵੇਲੇ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ"
 
-#: src/qml/pages/Network.qml:41
+#: src/qml/pages/Network.qml:40
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -477,28 +477,26 @@ msgstr ""
 "ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰਨ ਵਾਸਤੇ ਪਲਾਜ਼ਮਾ ਨੂੰ <icode>plasma-nm</icode> ਇੰਸਟਾਲ "
 "ਚਾਹੀਦਾ ਹੈ। ਇਸ ਕਮੀ ਬਾਰੇ %1 ਨੂੰ ਰਿਪੋਰਟ ਦਿਓ।"
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "ਤੁਸੀਂ ਕਨੈਕਟ ਹੋ"
 
-#: src/qml/pages/Network.qml:212
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "ਸਭ ਤਿਆਰ!"
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:218
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This page is being shown regardless of network connectivity because you are "
-"using a development version. To manually preview the different states of the "
-"page, you can use the button."
+"To manually preview the different states of the page, you can use the button."
 msgstr ""
 
-#: src/qml/pages/Network.qml:224
+#: src/qml/pages/Network.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-21 00:46+0000\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
 "PO-Revision-Date: 2026-03-31 08:30+0900\n"
 "Last-Translator: Mint <5602mint@gmail.com>\n"
 "Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
@@ -254,7 +254,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "ページ読み込みエラー"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -474,13 +474,13 @@ msgstr ""
 "にある、<interface>ネットワーク</interface>アイコンをクリックしてアクセスして"
 "ください。"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "現在、Plasma のネットワークサポートはインストールされていません。"
 
-#: src/qml/pages/Network.qml:41
+#: src/qml/pages/Network.qml:40
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -490,30 +490,26 @@ msgstr ""
 "Plasma 上でネットワーク接続を管理するには、<icode>plasma-nm</icode> が必要で"
 "す。%1 にこの問題を報告してください。"
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "接続されました"
 
-#: src/qml/pages/Network.qml:212
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "準備完了！"
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:218
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This page is being shown regardless of network connectivity because you are "
-"using a development version. To manually preview the different states of the "
-"page, you can use the button."
+"To manually preview the different states of the page, you can use the button."
 msgstr ""
-"開発版が使用されているため、このページはネットワークの状態に関わらず表示され"
-"ています。ボタンを押すとほかの状態のページに変更できます。"
 
-#: src/qml/pages/Network.qml:224
+#: src/qml/pages/Network.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -1343,3 +1339,12 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "This page is being shown regardless of network connectivity because you "
+#~ "are using a development version. To manually preview the different states "
+#~ "of the page, you can use the button."
+#~ msgstr ""
+#~ "開発版が使用されているため、このページはネットワークの状態に関わらず表示さ"
+#~ "れています。ボタンを押すとほかの状態のページに変更できます。"

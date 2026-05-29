@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-21 00:46+0000\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
 "PO-Revision-Date: 2026-04-21 14:10+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -253,7 +253,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "שגיאה בטעינת עמוד"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -467,13 +467,13 @@ msgstr ""
 "interface> שב<interface>מגש המערכת שלך</interface> ששוכן בפינה השמאלית "
 "התחתונה של המסך."
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "לא מותקנת תמיכה בתקשורת רשת בפלזמה כרגע"
 
-#: src/qml/pages/Network.qml:41
+#: src/qml/pages/Network.qml:40
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -483,30 +483,26 @@ msgstr ""
 "כדי לנהל את חיבורי הרשת שלך, פלזמה צריכה שהחבילה <icode>plasma-nm</icode> "
 "תהיה מותקנת. נא לדווח על ההשמטה הזאת אל %1."
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "התחברת"
 
-#: src/qml/pages/Network.qml:212
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "מוכנים לצאת לדרך!"
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:218
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This page is being shown regardless of network connectivity because you are "
-"using a development version. To manually preview the different states of the "
-"page, you can use the button."
+"To manually preview the different states of the page, you can use the button."
 msgstr ""
-"עמוד זה מוצג ללא תלות במצב החיבור לרשת כיוון שבחרת להשתמש בגרסת פיתוח. כדי "
-"להציג ידנית את המצבים השונים של העמוד, אפשר להשתמש בכפתור."
 
-#: src/qml/pages/Network.qml:224
+#: src/qml/pages/Network.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -1305,6 +1301,15 @@ msgstr "%1 בטא"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 בטא %2"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "This page is being shown regardless of network connectivity because you "
+#~ "are using a development version. To manually preview the different states "
+#~ "of the page, you can use the button."
+#~ msgstr ""
+#~ "עמוד זה מוצג ללא תלות במצב החיבור לרשת כיוון שבחרת להשתמש בגרסת פיתוח. "
+#~ "כדי להציג ידנית את המצבים השונים של העמוד, אפשר להשתמש בכפתור."
 
 #~ msgctxt "@action:button clicking on this takes the user to a web page"
 #~ msgid "Visit %1"

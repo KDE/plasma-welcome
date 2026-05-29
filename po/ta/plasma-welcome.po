@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-21 00:46+0000\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
 "PO-Revision-Date: 2025-02-16 17:01+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -255,7 +255,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "பக்கத்தை ஏற்றுவதில் சிக்கல்"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -468,13 +468,13 @@ msgstr ""
 "interface> <interface>பிணையங்கள்</interface> எனும் சின்னத்தைக் கிளிக் செய்யுங்கள். "
 "இயல்பாக, இது திரையின் வலது-கீழ் ஓரத்தில் அமைந்திருக்கும்."
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "பிளாஸ்மாக்கான பிணைய ஆதரவு நிறுவப்படவில்லை"
 
-#: src/qml/pages/Network.qml:41
+#: src/qml/pages/Network.qml:40
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -484,30 +484,26 @@ msgstr ""
 "பிணைய இணைப்புகளை பிளாஸ்மா நிர்வகிக்க, <icode>plasma-nm</icode> நிறுவப்பட்டிருக்க "
 "வெண்டும். இந்த சிக்கலை %1-க்கு தெரிவிக்கவும்."
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "இணைந்துள்ளீர்"
 
-#: src/qml/pages/Network.qml:212
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "சரியாக உள்ளது!"
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:218
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This page is being shown regardless of network connectivity because you are "
-"using a development version. To manually preview the different states of the "
-"page, you can use the button."
+"To manually preview the different states of the page, you can use the button."
 msgstr ""
-"நீங்கள் நிரலாக்கப் பதிப்பைப் பயன்படுத்துவதால் இப்பக்கம் எப்போதும் காட்டப்படும் (பிணைய நிலையைப் "
-"பொருட்படுத்தாமல்). இப்பக்கத்தின் வெவ்வேறு நிலைகளின் முன்னோட்டங்காண, பட்டனைப் பயன்படுத்தலாம்"
 
-#: src/qml/pages/Network.qml:224
+#: src/qml/pages/Network.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -1268,6 +1264,16 @@ msgstr "%1 பீட்டா"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 பீட்டா %2"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "This page is being shown regardless of network connectivity because you "
+#~ "are using a development version. To manually preview the different states "
+#~ "of the page, you can use the button."
+#~ msgstr ""
+#~ "நீங்கள் நிரலாக்கப் பதிப்பைப் பயன்படுத்துவதால் இப்பக்கம் எப்போதும் காட்டப்படும் (பிணைய "
+#~ "நிலையைப் பொருட்படுத்தாமல்). இப்பக்கத்தின் வெவ்வேறு நிலைகளின் முன்னோட்டங்காண, பட்டனைப் "
+#~ "பயன்படுத்தலாம்"
 
 #~ msgctxt "@action:button clicking on this takes the user to a web page"
 #~ msgid "Visit %1"

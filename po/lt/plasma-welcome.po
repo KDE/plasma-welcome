@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-21 00:46+0000\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
 "PO-Revision-Date: 2026-04-10 22:37+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -259,7 +259,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Klaida įkeliant puslapį"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -480,13 +480,13 @@ msgstr ""
 "<interface>Sistemos dėkle</interface>, kuris yra apatiniame dešiniajame "
 "ekrano kampe."
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Darbo tinkle palaikymas, skirtas Plasma, šiuo metu nėra įdiegtas"
 
-#: src/qml/pages/Network.qml:41
+#: src/qml/pages/Network.qml:40
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
@@ -496,31 +496,26 @@ msgstr ""
 "Tam, kad tvarkytų tinklo ryšius, Plasma reikalauja, kad būtų įdiegta "
 "<icode>plasma-nm</icode>. Praneškite apie šį aplaidumą %1."
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Jūs esate prisijungę"
 
-#: src/qml/pages/Network.qml:212
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Viskas paruošta, galime tęsti!"
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:218
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This page is being shown regardless of network connectivity because you are "
-"using a development version. To manually preview the different states of the "
-"page, you can use the button."
+"To manually preview the different states of the page, you can use the button."
 msgstr ""
-"Šis puslapis yra rodomas nepriklausomai nuo tinklo jungiamumo, nes naudojate "
-"plėtojamą versiją. Norėdami rankiniu būdu peržiūrėti skirtingas puslapio "
-"būsenas, galite naudoti šį mygtuką."
 
-#: src/qml/pages/Network.qml:224
+#: src/qml/pages/Network.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -1347,6 +1342,16 @@ msgstr "%1 Beta"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "This page is being shown regardless of network connectivity because you "
+#~ "are using a development version. To manually preview the different states "
+#~ "of the page, you can use the button."
+#~ msgstr ""
+#~ "Šis puslapis yra rodomas nepriklausomai nuo tinklo jungiamumo, nes "
+#~ "naudojate plėtojamą versiją. Norėdami rankiniu būdu peržiūrėti skirtingas "
+#~ "puslapio būsenas, galite naudoti šį mygtuką."
 
 #~ msgctxt "@action:button clicking on this takes the user to a web page"
 #~ msgid "Visit %1"
