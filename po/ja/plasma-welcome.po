@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-03-31 08:30+0900\n"
+"PO-Revision-Date: 2026-05-17 18:10+0900\n"
 "Last-Translator: Mint <5602mint@gmail.com>\n"
 "Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
 "Language: ja\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -127,7 +127,7 @@ msgstr "設定モジュールの読み込みに失敗しました"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "(未割り当て)"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -181,7 +181,7 @@ msgstr "次へ(&N)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Plasma が更新された後表示"
+msgstr "Plasma の更新後に表示"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
@@ -534,7 +534,8 @@ msgid ""
 "find so that we can fix them."
 msgstr ""
 "Plasma のベータ版をテストしていただき、ありがとうございます。あなたのフィード"
-"バックは Plasma の改善に欠かせません！いかなるバグもぜひ報告してください。"
+"バックは Plasma の改善に欠かせません！どんなバグでも、修正につなげるためぜひ"
+"報告をお願いします。"
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -557,7 +558,7 @@ msgstr "バグを報告"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr "リリースのお知らせの組み込まれたプレビューをダウンロードしますか？"
+msgstr "更新情報の埋め込みプレビューをダウンロードしますか？"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -758,13 +759,7 @@ msgid "Open Settings…"
 msgstr "設定を開く..."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -772,8 +767,8 @@ msgid ""
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
 "<interface>システム設定</interface>を起動して、「アクティビティ」ページを検索"
-"してください。そのページでさらにアクティビティを作成できます。<shortcut>Meta"
-"+Q</shortcut> でアクティビティを切り替えられます。"
+"してください。そのページでさらにアクティビティを作成できます。<shortcut>%1</"
+"shortcut> でアクティビティを切り替えられます。"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -833,16 +828,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -853,24 +839,20 @@ msgid ""
 "between currencies, calculate math problems, and a lot more."
 msgstr ""
 "KRunner は Plasma のパワフルで多機能な検索システムです。アプリケーションラン"
-"チャーやオーバービューの検索機能を担っているほか、<shortcut>Alt+Space</"
-"shortcut> を押すと現れるスタンドアロンの検索バーとして使用できます。<nl/><nl/"
-">ファイルやフォルダの検索に加えて、アプリケーションの起動やウェブ検索、通貨換"
-"算、計算など、様々な機能を搭載しています。"
+"チャーやオーバービューの検索機能を担っているほか、<shortcut>%1</shortcut> を"
+"押すと現れるスタンドアロンの検索バーとして使用できます。<nl/><nl/>ファイルや"
+"フォルダの検索に加えて、アプリケーションの起動やウェブ検索、通貨換算、計算な"
+"ど、様々な機能を搭載しています。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"さらなる情報を確認するには、<shortcut>Alt+Space</shortcut> を押して KRunner "
-"検索バーを開き、疑問符アイコンをクリックしてください。"
+"さらなる情報を確認するには、<shortcut>%1</shortcut> を押して KRunner 検索バー"
+"を開き、疑問符アイコンをクリックしてください。"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1063,13 +1045,7 @@ msgstr ""
 "開かれたウィンドウを検索できる検索バーも備わっています。"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1077,8 +1053,8 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"<shortcut>Meta+W</shortcut> ショートカットを使用するか、マウスカーソルを画面"
-"の左上角に移動することでオーバービューにアクセスできます。<shortcut>Meta+G</"
+"<shortcut>%1</shortcut> ショートカットを使用するか、マウスカーソルを画面の左"
+"上角に移動することでオーバービューにアクセスできます。<shortcut>%2</"
 "shortcut> を使用して、仮想デスクトップをグリッドで表示するグリッドビューにア"
 "クセスすることもできます。"
 
