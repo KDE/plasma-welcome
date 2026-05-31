@@ -14,6 +14,7 @@
 #include <QQmlExtensionPlugin>
 #include <QQuickWindow>
 #include <QSurfaceFormat>
+#include <QTimer>
 
 #include <KAboutData>
 #include <KCrash>
@@ -76,6 +77,9 @@ int main(int argc, char *argv[])
 
     parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
     parser.addOption(QCommandLineOption(QStringLiteral("live-environment"), i18n("Display the live page intended for distro live environments.")));
+    QCommandLineOption selfTest(QStringLiteral("self-test"));
+    selfTest.setFlags(QCommandLineOption::HiddenFromHelp);
+    parser.addOption(selfTest);
 
     QCommandLineOption pagesOption(QStringLiteral("pages"),
                                    i18n("Specify comma-delimited list of page(s) (by internal name) to be displayed."),
@@ -127,6 +131,10 @@ int main(int argc, char *argv[])
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
+    }
+
+    if (parser.isSet(selfTest)) {
+        QTimer::singleShot(std::chrono::milliseconds(250), &app, &QCoreApplication::quit);
     }
 
     return app.exec();

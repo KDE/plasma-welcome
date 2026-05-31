@@ -116,3 +116,5 @@ kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
 
 ecm_finalize_qml_module(plasma-welcome)
 install(TARGETS plasma-welcome ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+
+add_test(NAME plasma-welcome-self-test COMMAND plasma-welcome --self-test)
