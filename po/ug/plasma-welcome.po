@@ -1,49 +1,49 @@
-# Copyright (C) 2023 This file is copyright:
+# Uyghur translation for plasma-welcome.
+# Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
+# Abduqadir Abliz <sahranbay@gmail.com>, 2026., YEAR.
 #
-# SPDX-FileCopyrightText: 2023, 2024, 2025 Kristof Kiszel <kiszel.kristof@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:45+0000\n"
-"PO-Revision-Date: 2025-11-21 21:46+0100\n"
-"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
-"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
-"Language: hu\n"
+"PO-Revision-Date: 2026-06-01 18:15-0400\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
+"Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Kiszel Kristóf"
+msgstr "ئابدۇقادىر ئابلىز، غەيرەت كەنجى"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "ulysses@fsf.hu"
+msgstr "sahranbay@gmail.com, gheyret@gmail.com"
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr "Barátságos bevezető varázsló a Plasmához"
+msgstr ""
 
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr "Üdvözlőközpont"
+msgstr "قارشى ئېلىش مەركىزى"
 
 #: src/main.cpp:57
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr "© A KDE közösség, 2021–2024."
+msgstr "© 2021–2024، KDE جامائىتى"
 
 #: src/main.cpp:59
 #, kde-format
@@ -55,7 +55,7 @@ msgstr "Felipe Kinoshita"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Szerző"
+msgstr "يازغۇچى"
 
 #: src/main.cpp:63
 #, kde-format
@@ -67,43 +67,41 @@ msgstr "Nate Graham"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Oliver Beard"
-msgstr "Oliver Beard"
+msgstr ""
 
 #: src/main.cpp:78
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr "Az aktuális Plasma verzió kiadási megjegyzéseinek megjelenítése."
+msgstr ""
 
 #: src/main.cpp:79
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr "A disztribúciók élő környezeteihez szánt oldal megjelenítése."
+msgstr ""
 
 #: src/main.cpp:85
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
-"Adja meg a megjelenítendő oldal(ak) vesszővel elválasztott listáját (belső "
-"név szerint)."
 
 #: src/public/configModule.cpp:72
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr "Ismeretlen modul kérve (%1)"
+msgstr ""
 
 #: src/public/controller.cpp:45 src/public/utils.cpp:46
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr "A(z) <command>%1</command> parancs nem található."
+msgstr "بۇ <command>%1</command> بۇيرۇقنى تاپالمىدى."
 
 #: src/public/controller.cpp:78 src/public/utils.cpp:79
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr "Nincs megadva hibaüzenet"
+msgstr ""
 
 #: src/public/controller.cpp:82 src/public/utils.cpp:83
 #, kde-kuit-format
@@ -111,18 +109,18 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr "A(z) <command>%1</command> parancs sikertelen: %2"
+msgstr ""
 
 #: src/public/qml/ApplicationIcon.qml:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "%1 indítása most"
+msgstr ""
 
 #: src/public/qml/KCMPage.qml:81
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr "Ez a beállítómodul nem tölthető be"
+msgstr ""
 
 #: src/public/utils.cpp:103
 #, kde-format
@@ -138,158 +136,155 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
-"Ha hasznosnak találja a Plasmát, fontolja meg a részvételt vagy az "
-"adományozást. A KDE egy nemzetközi önkéntes közösség, nem pedig egy "
-"nagyvállalat; az Ön hozzájárulásai valódi változást jelentenek!"
 
 #: src/qml/ContributionCard.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "Adományozás"
+msgstr "ئىئانە"
 
 #: src/qml/ContributionCard.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "Közreműködés"
+msgstr "قاتنىشىش"
 
 #: src/qml/footers/FooterDefault.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
-msgstr "Ki&hagyás"
+msgstr "ئاتلا(&S)"
 
 #: src/qml/footers/FooterDefault.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
-msgstr "&Vissza"
+msgstr "قايت(&B)"
 
 #: src/qml/footers/FooterDefault.qml:24
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr "&Tovább"
+msgstr "كېيىنكى(&N)"
 
 #: src/qml/footers/FooterDefault.qml:25
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
-msgstr "&Befejezés"
+msgstr "تامام(&F)"
 
 #: src/qml/footers/FooterUpdate.qml:21
 #, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Megjelenítés a Plasma frissítése után"
+msgstr ""
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr "&OK"
+msgstr "جەزملە(&O)"
 
 #: src/qml/mock/MockActivities.qml:58
 #, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
-msgstr "Aktivitások"
+msgstr "پائالىيەت"
 
 #: src/qml/mock/MockActivities.qml:90
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr "Otthoni"
+msgstr "باش بەت"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr "Iskolai"
+msgstr ""
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr "Munkahelyi"
+msgstr "ئىش"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr "Jelenleg használt"
+msgstr "نۆۋەتتە ئىشلىتىۋاتقىنى"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr "3 órával ezelőtt használva"
+msgstr ""
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr "Aktivitás létrehozása…"
+msgstr "پائالىيەت قۇر…"
 
 #: src/qml/mock/MockKRunner.qml:81
 #, kde-format
 msgid "Search…"
-msgstr "Keresés…"
+msgstr "ئىزدە…"
 
 #: src/qml/mock/MockOverview.qml:97
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr "1. asztal"
+msgstr "1-ئۈستەلئۈستى"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
-msgstr "Ablak kiterjesztése"
+msgstr ""
 
 #: src/qml/PageError.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr "Hiba az oldal betöltésekor"
+msgstr ""
 
 #: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "Hibabejelentés…"
+msgstr ""
 
 #: src/qml/PageError.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "Részletek másolása"
+msgstr "تەپسىلاتىنى كۆچۈر"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "Ez az oldal nem tölthető be"
+msgstr ""
 
 #: src/qml/PageError.qml:49
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr "Ez a disztribúciója által biztosított oldal nem tölthető be"
+msgstr ""
 
 #: src/qml/PageError.qml:51
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr "Ez az Üdvözlőközpont által biztosított oldal nem tölthető be"
+msgstr ""
 
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr "Találjon remek alkalmazásokat"
+msgstr ""
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -302,22 +297,18 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
-"Nincs szükség az interneten keresgélni az alkalmazások telepítőit vagy egy "
-"csomagkezelőt használni; a KDE alkalmazásboltja, a(z) <application>%1</"
-"application> mindent megtesz Önért!<nl/><nl/>Kattintson az alábbi ikonok "
-"bármelyikére, és próbálja ki!"
 
 #: src/qml/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr "A(z) %1 megjelenítése a Discoverben"
+msgstr ""
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr "Élvezze!"
+msgstr ""
 
 #: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
@@ -327,34 +318,30 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
-"Reméljük, hogy a Plasmát legalább annyira szereti, mint amennyire mi "
-"szerettük elkészíteni! Itt az ideje hogy belevágjon. Fedezze fel a "
-"funkcióit, telepítse a kedvenc alkalmazásait és játékait, és "
-"foglalatoskodjon azzal, ami Önt önmagává teszi!"
 
 #: src/qml/pages/Enjoy.qml:26
 #, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
-msgstr "Tudjon meg többet a KDE közösségről"
+msgstr ""
 
 #: src/qml/pages/Enjoy.qml:31
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr "Kérjen segítséget a KDE fórumain"
+msgstr ""
 
 #: src/qml/pages/Enjoy.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr "Támogatók"
+msgstr ""
 
 #: src/qml/pages/enjoy/Supporters.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr "Támogatók"
+msgstr ""
 
 #: src/qml/pages/enjoy/Supporters.qml:19
 #, kde-kuit-format
@@ -363,31 +350,30 @@ msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
 msgstr ""
-"Köszönjük az alábbi támogató tagoknak rendszeres adományaikat a KDE-nek:"
 
 #: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr "Rendezési sorrend: %1"
+msgstr "تەرتىپ: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr "Véletlenszerű"
+msgstr "ئىختىيارىي"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr "Vezetéknév szerint"
+msgstr ""
 
 #: src/qml/pages/enjoy/Supporters.qml:67
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "Keresztnév szerint"
+msgstr ""
 
 #: src/qml/pages/enjoy/Supporters.qml:78
 #, kde-format
@@ -395,19 +381,19 @@ msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "Közreműködés dátuma szerint"
+msgstr ""
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr "Fordított"
+msgstr "ئەكسىچە"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "Névtelen használati információk megosztása"
+msgstr ""
 
 #: src/qml/pages/Feedback.qml:17
 #, kde-format
@@ -416,15 +402,12 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"Fejlesztőink ezeket az anonim adatokat a KDE szoftverek fejlesztésére fogják "
-"használni. Ön a Rendszerbeállításokban és itt is kiválaszthatja, hogy "
-"mennyit szeretne megosztani."
 
 #: src/qml/pages/Live.qml:21
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "Üdvözli a(z) %1!"
+msgstr ""
 
 #: src/qml/pages/Live.qml:24
 #, kde-kuit-format
@@ -434,9 +417,6 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
-"Az alábbi ikon megnyomásával megkezdődik a(z) %1 telepítése. Alternatívaként "
-"bezárhatja az ablakot, hogy felfedezze az élő környezetet, vagy itt "
-"folytathatja a KDE Plasma megismerését."
 
 #: src/qml/pages/Live.qml:26
 #, kde-kuit-format
@@ -445,20 +425,18 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
-"Bezárhatja az ablakot, hogy felfedezze az élő környezetet, vagy itt "
-"folytathatja a KDE Plasma megismerését."
 
 #: src/qml/pages/Live.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr "Honlap felkeresése"
+msgstr ""
 
 #: src/qml/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "Kapcsolódás az internethez"
+msgstr ""
 
 #: src/qml/pages/Network.qml:22
 #, kde-kuit-format
@@ -469,16 +447,12 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
-"Csatlakozhat az internethez és kezelheti hálózati kapcsolatait a "
-"<interface>Hálózatok kisalkalmazással</interface>. Eléréséhez kattintson a "
-"<interface>Hálózatok</interface> ikonra a <interface>Paneltálcán</"
-"interface>, a képernyő jobb alsó sarkában."
 
 #: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr "A hálózatkezelési támogatás a Plasmához nincs telepítve"
+msgstr ""
 
 #: src/qml/pages/Network.qml:40
 #, kde-kuit-format
@@ -487,20 +461,18 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
-"A hálózati kapcsolatok kezeléséhez a <icode>plasma-nm</icode> telepítése "
-"szükséges. Kérjük, jelezze ezt a hiányosságot a(z) %1 készítőinek."
 
 #: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr "Kapcsolódva"
+msgstr ""
 
 #: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr "Minden készen áll!"
+msgstr ""
 
 #: src/qml/pages/Network.qml:218
 #, kde-format
@@ -513,13 +485,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr "Állapotváltás"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "A Plasma frissült erre: %1"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -529,9 +501,6 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
-"Köszönjük, hogy tesztelte a Plasma béta kiadását — visszajelzései a  "
-"alapvető fontosságúak a fejlesztéshez! Kérjük, jelezzen minden hibát, amit "
-"amit talál, hogy kijavíthassuk azokat."
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -540,21 +509,18 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"A KDE közreműködői az elmúlt négy hónapban keményen dolgoztak ezen a "
-"kiadáson. Reméljük, hogy legalább annyira élvezik a Plasma használatát, mint "
-"amennyire mi élveztük a készítését!"
 
 #: src/qml/pages/PlasmaUpdate.qml:29
 #, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
-msgstr "Hibabejelentés"
+msgstr "كەمتۈك مەلۇم قىل"
 
 #: src/qml/pages/PlasmaUpdate.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr "Letölti a kiadás bejelentésének egy beágyazott előnézetét?"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -563,50 +529,48 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
-"Az előnézet nem töltődött le automatikusan, mivel Ön egy forgalmi díjat "
-"hálózati kapcsolatot használ."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr "Az előnézet nem tölthető le - hálózati hiba történt (%1)."
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr "Az előnézet nem tölthető be - feldolgozási hiba történt."
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr "Előnézet letöltése"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr "Letöltés mindenképp"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr "Újra"
+msgstr "قايتا سىنا"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
 #, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "Megnyitás böngészőben…"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr "Előnézet betöltése automatikusan"
+msgstr ""
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -615,44 +579,33 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
-"Az előnézet automatikusan betöltődik, amikor ez az oldal megjelenik a "
-"jövőbeli Plasma frissítések esetén, kivéve, ha forgalmi díjas hálózati "
-"kapcsolatot használ."
 
 #: src/qml/pages/PlasmaUpdate.qml:422
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr "<b>Kattintson a bejelentés elolvasásához</b>"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "Hatékony, amikor szükséges"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>Click the cards below to see just a "
-#| "smattering of what it can do for you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is a feature-rich environment, designed to super-charge your "
 "productivity!<nl/><nl/>Click the cards below to see just a smattering of "
 "what it can do for you:"
 msgstr ""
-"A Plasma egy rendkívül funkciógazdag környezet, amelyet úgy terveztek, hogy "
-"felturbózza a hatékonyságát!<nl/><nl/>Kattintson az alábbi kártyákra, hogy "
-"megtekintse, mit tud Önnek nyújtani:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:44
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr "Gyorsbillentyűk"
+msgstr "ھەرپتاختا تېزلەتمىسى"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:45
 #, kde-format
@@ -664,13 +617,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr "Áttekintés"
+msgstr "ئىخچام كۆرۈنۈش"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:51
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "A rendszer parancsnoki központja"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
@@ -682,25 +635,25 @@ msgstr "KRunner"
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "Keresés bármire"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:62
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr "KDE Connect"
+msgstr "KDE باغلىنىش"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr "Kösse össze telefonját és számítógépét"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:68
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr "Aktivitások"
+msgstr "پائالىيەت"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:69
 #, kde-format
@@ -708,31 +661,31 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr "Válassza szét munkahelyi, iskolai és otthoni tevékenységeit"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Titkos tárolók"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr "Érzékeny fájlok biztonságos tárolása"
+msgstr ""
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr "További Plasma szolgáltatások megismerése"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr "Aktivitások"
+msgstr "پائالىيەت"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:23
 #, kde-kuit-format
@@ -744,44 +697,28 @@ msgid ""
 "own set of open apps and windows, recent documents, “Favorite” apps, and "
 "desktop widgets."
 msgstr ""
-"Az aktivitások a magas szintű projektek vagy munkafolyamatok elkülönítésére "
-"használhatók, hogy Ön egyszerre csak az egyikre koncentrálhasson. Lehet egy "
-"aktivitás az „Otthon”, az „Iskola”, a „Munka” és így tovább. Minden "
-"aktivitás hozzáfér az összes fájljához, de megvan a saját, megnyitott "
-"alkalmazásokból és ablakokból, legutóbbi dokumentumokból, „Kedvenc” "
-"alkalmazásokból és asztali elemekből álló készlete."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "Beállítások megnyitása…"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
-"A kezdéshez indítsa el a <interface>Rendszerbeállításokat</interface>, és "
-"keresse meg az „Aktivitások” menüpontot. Ezen az oldalon további "
-"Aktivitásokat hozhat létre. Ezek között aztán a <shortcut>Meta+Q</shortcut> "
-"billentyűparanccsal válthat."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr "KDE Connect"
+msgstr "KDE باغلىنىش"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
 #, kde-kuit-format
@@ -795,14 +732,6 @@ msgid ""
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list>"
 msgstr ""
-"A KDE Connect segítségével többféleképpen integrálhatja telefonját a "
-"számítógépével:<nl/><list><item>Telefonjáról érkező értesítések "
-"megjelenítése a számítógépén</item><item>Válasz a telefonjára érkező "
-"szöveges üzenetekre a számítógépén</item><item>A vágólap tartalmának "
-"szinkronizálása a számítógép és a telefon között.</item><item>Zaj keltése a "
-"telefonon, ha nem találja</item><item>Képek, videók és egyéb fájlok másolása "
-"a telefonról a számítógépre, és fordítva</item><item>...És még sok minden "
-"más!</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -816,7 +745,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr ""
+msgstr "%1 نى ئاچ"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
@@ -825,12 +754,10 @@ msgid "KDE Connect is not installed."
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:row Name of the 'KDE Connect' feature"
-#| msgid "KDE Connect"
+#, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE Connect"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
@@ -839,16 +766,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -858,28 +776,14 @@ msgid ""
 "your files and folders, KRunner can launch apps, search the web, convert "
 "between currencies, calculate math problems, and a lot more."
 msgstr ""
-"A KRunner a Plasma rendkívül hatékony és sokoldalú keresőrendszere. Ez "
-"biztosítja az alkalmazásindító menü és az áttekintő képernyőn keresési "
-"funkcióját, valamint önálló keresősávként is elérhető az <shortcut>Alt"
-"+Space</shortcut> billentyűparanccsal.<nl/><nl/>A fájlok és mappák "
-"megtalálása mellett a KRunner képes elindítani alkalmazásokat, keresni az "
-"interneten, pénznemek közötti átváltani, matematikai feladatok megoldani és "
-"még sok mást."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"Ha többet szeretne megtudni, nyissa meg a KRunner keresősávját az "
-"<shortcut>Alt+Space</shortcut> billentyűparanccsal, és kattintson a kérdőjel "
-"ikonra."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -889,7 +793,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr "idő Shanghaj"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
@@ -897,7 +801,7 @@ msgctxt ""
 "@info:usagetip An example KRunner query, ensure keywords are localized as "
 "they are in the actual runner plugins."
 msgid "27 / 3"
-msgstr "27 / 3"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
@@ -906,7 +810,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr "200 EUR USD"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
@@ -915,7 +819,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr "25 mérföld km"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:79
 #, kde-format
@@ -923,19 +827,19 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr "…és még sok minden más!"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "ھەرپتاختا تېزلەتمىسى"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr ""
+msgstr "تېزلەتمە سەپلىمە…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -961,7 +865,7 @@ msgstr ""
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
@@ -973,7 +877,7 @@ msgstr ""
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
@@ -988,7 +892,7 @@ msgstr ""
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
@@ -1006,13 +910,13 @@ msgstr ""
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr ""
+msgstr "تاللانما"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr ""
+msgstr "بۇيرۇق"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
@@ -1036,7 +940,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr "Áttekintés"
+msgstr "ئىخچام كۆرۈنۈش"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:20
 #, kde-kuit-format
@@ -1048,21 +952,9 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
-"Az Áttekintés egy teljes képernyőre kiterjedő átfedés, amely az összes "
-"megnyitott ablakot megjeleníti, így bármelyikhez könnyedén hozzáférhet. "
-"Továbbá megjeleníti az aktuális Virtuális asztalokat, lehetővé téve "
-"továbbiak hozzáadását, egyesek eltávolítását és a közöttük való váltást. "
-"Végül pedig egy KRunner-alapú keresőmezőt kínál, amely szűrni is képes a "
-"megnyitott ablakok között."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1070,16 +962,12 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Az áttekintést a <shortcut>Meta+W</shortcut> billentyűkombinációval érheti "
-"el, vagy az egérnek a képernyő bal felső sarkába mozgatásával. A "
-"<shortcut>Meta+G</shortcut> billentyűkombinációt is megnyomhatja a Rács "
-"nézethez, amely a virtuális asztalokat egy rácsban jeleníti meg."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr "Plasma Vaults"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:23
 #, kde-kuit-format
@@ -1091,36 +979,29 @@ msgid ""
 "Vaults can live inside folders that are synced to cloud storage services "
 "too, providing extra privacy for that content."
 msgstr ""
-"A Plasma Vaults lehetővé teszi titkosított mappák, <interface>Titkos "
-"tárolók</interface> létrehozását. Az egyes titkos tárolókon belül "
-"biztonságosan tárolhatja jelszavait, fájljait, képeit és dokumentumait, "
-"biztonságban a kíváncsi szemektől. A titkos tárolók olyan mappákon belül is "
-"lehetnek, amelyek szinkronizálva vannak a felhőalapú tárolási "
-"szolgáltatásokkal is, így extra védettséget biztosítva az adott tartalom "
-"számára."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
-msgstr "Titkos tárolók"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:112
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr "Fontos dokumentumok"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:113
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr "Fényképek"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:121
 #, kde-format
 msgid "Unlock and Open"
-msgstr "Feloldás és megnyitás"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
@@ -1129,15 +1010,12 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Az induláshoz kattintson a <interface>Paneltálca</interface> nyilára a "
-"rejtett elemek megjelenítéséhez, majd kattintson a <interface>Tárak</"
-"interface> ikonra."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "Alapértelmezetten egyszerű"
+msgstr ""
 
 #: src/qml/pages/SimpleByDefault.qml:22
 #, kde-kuit-format
@@ -1149,11 +1027,6 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
-"A Plasmát úgy tervezték, hogy egyszerű és azonnal használható legyen. A "
-"dolgok ott vannak, ahol elvárhatóak, és általában nem kell semmit sem "
-"beállítani, mielőtt kényelmesen és produktívan dolgozhatna.<nl/><nl/>Lent "
-"egy tipikus Plasma asztal látható; vigye a kurzort valami fölé, vagy "
-"kattintson rá, hogy többet tudjon meg róla."
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1165,12 +1038,6 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
-"Ez az „Asztal”. Megjeleníti az <interface>Asztal</interface> mappájában "
-"található fájlokat és mappákat, és tartalmazhat elemeket. Kattintson jobb "
-"gombbal és válassza az <interface>Asztal és háttérkép…</interface> opciót az "
-"Asztal megjelenésének beállításához. Elemek hozzáadásához, eltávolításához "
-"vagy módosításához választhatja a <interface>Belépés a szerkesztőmódba</"
-"interface> lehetőséget is."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1180,10 +1047,6 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
-"Ez egy „panel” — egy tároló elemekhez. Kattintson rá jobb gombbal, és "
-"válassza a <interface>Panelbeállító felület megjelenítése</interface> opciót "
-"a működés megváltoztatásához, hogy melyik képernyőszélen legyen, és elemek "
-"hozzáadásához, eltávolításához vagy módosításához."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1193,9 +1056,6 @@ msgid ""
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"Ez a „Alkalmazásindító” elem, egy többcélú indító. Itt elindíthat "
-"alkalmazásokat, leállíthatja vagy újraindíthatja a rendszert, hozzáférhet a "
-"legutóbbi fájlokhoz és még sok máshoz. Kattintson rá az indításhoz!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1204,8 +1064,6 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
-"Ez a „Feladatkezelő” elem, ahol a megnyitott alkalmazások között váltogathat "
-"és újakat is indíthat. Húzza az alkalmazások ikonjait az átrendezésükhöz."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1216,10 +1074,6 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
-"Ez a „Paneltálca” elem, amellyel a rendszerfunkciókat vezérelheti, például a "
-"hangerő megváltoztatását és a hálózatokhoz való csatlakozást. Az elemek csak "
-"akkor válnak láthatóvá, ha relevánsak. Az összes elérhető elem "
-"megtekintéséhez kattintson a ⌃ nyílra az óra mellett."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1229,9 +1083,6 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
-"Ez a „Digitális óra” elem. Kattintson rá a naptár megjelenítéséhez. "
-"Beállítható úgy is, hogy más időzónákat és eseményeket is megjelenítsen a "
-"digitális naptáraiból."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1241,15 +1092,12 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
-"Ez a „Pillantás az asztalra” elem. Kattintson rá, hogy ideiglenesen elrejtse "
-"az összes nyitott ablakokat, és hozzáférhessen az asztalhoz. Újra "
-"rákattintva ismét megjelenítheti azokat."
 
 #: src/qml/pages/Welcome.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "Üdvözöljük"
+msgstr "مەرھابا"
 
 #: src/qml/pages/Welcome.qml:23
 #, kde-kuit-format
@@ -1261,11 +1109,6 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"%1<nl/><nl/>Ez az operációs rendszer a Plasmát futtatja, egy szabad és nyílt "
-"forráskódú asztali környezet, amelyet a KDE, egy önkéntesekből álló "
-"nemzetközi szoftverközösség hozott létre. Alapértelmezés szerint egyszerűre "
-"tervezték a zökkenőmentes használat érdekében, de hatékony, ha szükséges, "
-"hogy valóban segítsen a dolgok elvégzésében. Reméljük, hogy szeretni fogja!"
 
 #: src/qml/pages/Welcome.qml:24
 #, kde-kuit-format
@@ -1277,280 +1120,63 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"Üdvözli a(z) %1, amely a KDE Plasmát futtatja!<nl/><nl/>A Plasma egy szabad "
-"és nyílt forráskódú asztali környezet, amelyet a KDE, egy önkéntesekből álló "
-"nemzetközi szoftverközösség hozott létre. Alapértelmezés szerint egyszerűre "
-"tervezték a zökkenőmentes használat érdekében, de hatékony, ha szükséges, "
-"hogy valóban segítsen a dolgok elvégzésében. Reméljük, hogy szeretni fogja!"
 
 #: src/qml/pages/Welcome.qml:28
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "Az Üdvözlőközpont névjegye"
+msgstr ""
 
 #: src/qml/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr "A KDE névjegye"
+msgstr "KDE ھەققىدە"
 
 #: src/qml/pages/Welcome.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr "Tudjon meg többet a KDE közösségről"
+msgstr ""
 
 #: src/qml/pages/Welcome.qml:62
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "Tudjon meg többet a(z) %1 disztribúcióról"
+msgstr ""
 
 #: src/qml/pages/Welcome.qml:99
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr "A kép betöltése sikertelen"
+msgstr ""
 
 #: src/qml/pages/Welcome.qml:100
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
-"Nem sikerült betölteni ezt: <filename>%1</filename>. Ellenőrizze, hogy "
-"létezik-e."
 
 #: src/qml/pages/Welcome.qml:120
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
-msgstr "Konqi, a KDE kabalája üdvözli Önt a KDE közösségben!"
+msgstr ""
 
 #: src/release.cpp:42
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr "%1 Dev"
+msgstr ""
 
 #: src/release.cpp:45
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr "%1 Béta"
+msgstr ""
 
 #: src/release.cpp:49
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr "%1 Béta %2"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "This page is being shown regardless of network connectivity because you "
-#~ "are using a development version. To manually preview the different states "
-#~ "of the page, you can use the button."
-#~ msgstr ""
-#~ "Ez az oldal a hálózati kapcsolat állapotától függetlenül megjelenik, mert "
-#~ "egy fejlesztői verziót használ. Az oldal különböző állapotai előnézetének "
-#~ "megtekintéséhez használja a gombot."
-
-#~ msgctxt "@action:button clicking on this takes the user to a web page"
-#~ msgid "Visit %1"
-#~ msgstr "A(z) %1 felkeresése"
-
-#~ msgctxt "@title:row"
-#~ msgid "System Settings"
-#~ msgstr "Rendszerbeállítások"
-
-#~ msgctxt "@info Caption for Get System Settings button"
-#~ msgid "Configure the system"
-#~ msgstr "A rendszer beállítása"
-
-#~ msgctxt "@info:window"
-#~ msgid "System Settings"
-#~ msgstr "Rendszerbeállítások"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The System Settings app lets you extensively customize the system to suit "
-#~ "your tastes and preferences. Default apps, wallpapers, visual styles and "
-#~ "icons, virtual desktops, power management, 3rd-party add-ons — you’ll "
-#~ "find it all there!"
-#~ msgstr ""
-#~ "A Rendszerbeállítások alkalmazás lehetővé teszi a rendszer széleskörű "
-#~ "testreszabását ízlésének és preferenciáinak megfelelően. Alapértelmezett "
-#~ "alkalmazások, háttérképek, vizuális stílusok és ikonok, virtuális "
-#~ "asztalok, energiagazdálkodás, harmadik féltől származó kiegészítők — "
-#~ "mindent megtalál egy helyen!"
-
-#~ msgctxt "@title:window"
-#~ msgid "Manage Software"
-#~ msgstr "Szoftverkezelés"
-
-#~ msgctxt ""
-#~ "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
-#~ msgid ""
-#~ "The <application>%1</application> app helps you find and install "
-#~ "applications, games, and tools. You can search or browse by category, "
-#~ "look at screenshots, and read reviews to help you find the perfect app."
-#~ msgstr ""
-#~ "A(z) <application>%1</application> segít az alkalmazások, játékok és "
-#~ "eszközök keresésében és telepítésében. Kereshet vagy böngészhet "
-#~ "kategóriák szerint, képernyőképeket nézhet, és véleményeket olvashat, "
-#~ "hogy megtalálja a tökéletes alkalmazást."
-
-#~ msgctxt "@item:inlistbox"
-#~ msgid "Sort by Date"
-#~ msgstr "Rendezés dátum szerint"
-
-#~ msgctxt "@label placeholder"
-#~ msgid "Filter…"
-#~ msgstr "Szűrő…"
-
-#~ msgid ""
-#~ "Display release notes for the current Plasma release, for beta versions."
-#~ msgstr ""
-#~ "Az aktuális Plasma verzió kiadási megjegyzéseinek megjelenítése, béta "
-#~ "verziókhoz."
-
-#~ msgctxt "@label:URL"
-#~ msgid "<b>Find out what’s new</b>"
-#~ msgstr "<b>Újdonságokat felfedezése</b>"
-
-#~ msgctxt "@label:URL"
-#~ msgid "Help work on the next release"
-#~ msgstr "Segítség a következő kiadásban"
-
-#~ msgctxt "@action:button"
-#~ msgid "<b>Find out what's new</b>"
-#~ msgstr "<b>Újdonságokat felfedezése</b>"
-
-#~ msgctxt "@action:button"
-#~ msgid "Help work on the next release"
-#~ msgstr "Segítség a következő kiadásban"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The KDE community relies on donations of expertise and funds, and is "
-#~ "supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support "
-#~ "the wider KDE community, and you can make a difference by donating today."
-#~ msgstr ""
-#~ "A KDE közösség a szakértelem és a pénzadományok adományaira támaszkodik, "
-#~ "és a KDE eV támogatja - egy német nonprofit szervezet. A KDE e.V. számára "
-#~ "tett adományok a szélesebb KDE közösséget is támogatják, és Ön is tehet "
-#~ "valamit, ha még ma adományoz!"
-
-#~ msgid "6.0 Dev"
-#~ msgstr "6.0 Dev"
-
-#~ msgid "6.0 Alpha"
-#~ msgstr "6.0 Alpha"
-
-#~ msgid "6.0 Beta 1"
-#~ msgstr "6.0 Béta 1"
-
-#~ msgid "6.0 Beta 2"
-#~ msgstr "6.0 Béta 2"
-
-#~ msgctxt "@label RC meaning Release Candidate"
-#~ msgid "6.0 RC1"
-#~ msgstr "6.0 RC1"
-
-#~ msgctxt "@label RC meaning Release Candidate"
-#~ msgid "6.0 RC2"
-#~ msgstr "6.0 RC2"
-
-#~ msgctxt "@info copyright string"
-#~ msgid "(c) 2021"
-#~ msgstr "(c) 2021"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "KDE is not a big company; it's an international volunteer community, and "
-#~ "its software is made by people like you donating their time and passion. "
-#~ "You too can help make things better, whether it's through translation, "
-#~ "visual design, and promotion, or programming and bug triaging.<nl/><nl/"
-#~ ">By contributing to KDE, you can become part of something special, meet "
-#~ "new friends, learn new skills, and make a difference to millions while "
-#~ "working with people from around the globe to deliver a stunning free "
-#~ "software computing experience."
-#~ msgstr ""
-#~ "A KDE nem egy nagyvállalat; ez egy nemzetközi önkéntes közösség, és a "
-#~ "szoftvereit olyan emberek készítik, mint Ön, akik idejüket és "
-#~ "szenvedélyüket áldozzák rá. Ön is segíthet a dolgok jobbá tételében, "
-#~ "legyen szó fordításról, vizuális tervezésről, promócióról, vagy "
-#~ "programozásrólé és hibakeresésről.<nl/><nl/>Azzal, hogy hozzájárul a KDE-"
-#~ "hez, valami különleges dolog részévé válhat, új embereket ismerhet meg, "
-#~ "új készségeket tanulhat, és milliók számára hozhat változást, miközben a "
-#~ "világ minden tájáról érkező emberekkel dolgozik, hogy egy lenyűgöző "
-#~ "szabad szoftvert hozzunk létre."
-
-#~ msgctxt "@title:window"
-#~ msgid "Support Your Freedom"
-#~ msgstr "Támogassa a szabadságát"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "The KDE community relies on donations of expertise and funds, and is "
-#~ "supported by KDE e.V.--a German nonprofit that manages legal matters, "
-#~ "funds development sprints and server resources, and offers employment "
-#~ "opportunities for KDE developers. Donations to KDE e.V. support the wider "
-#~ "KDE community, and you can make a difference by donating today!<nl/><nl/"
-#~ ">Donations are tax-deductible in Germany."
-#~ msgstr ""
-#~ "A KDE közösség a szakértelem és a pénzadományok adományaira támaszkodik, "
-#~ "és a KDE e.V. támogatja - egy német nonprofit szervezet, amely jogi "
-#~ "ügyeket intéz, pénzeszközöket biztosít fejlesztési sprinteket és "
-#~ "szervereket finanszíroz, valamint munkalehetőséget kínál a KDE "
-#~ "fejlesztőknek. A KDE e.V. számára tett adományok a szélesebb KDE "
-#~ "közösséget is támogatják, és Ön is tehet valamit, ha még ma adományoz!<nl/"
-#~ "><nl/>Az adományok Németországban leírhatók az adóból."
-
-#~ msgctxt "@action:button"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "Plasma 6 támogatók"
-
-#~ msgctxt "@title:window"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "A Plasma 6 támogatói"
-
-#~ msgctxt "@title:row"
-#~ msgid "Get New Stuff"
-#~ msgstr "Új dolgok letöltése"
-
-#~ msgctxt "@info Caption for Get New Stuff button"
-#~ msgid "Extend the system with add-ons"
-#~ msgstr "Bővítse rendszerét kiegészítőkkel"
-
-#~ msgctxt "@info:window"
-#~ msgid "Get New Stuff"
-#~ msgstr "Új dolgok letöltése"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid ""
-#~ "Throughout Plasma, System Settings, and KDE apps, you'll find buttons "
-#~ "marked \"Get New <emphasis>thing</emphasis>…\". Clicking on them will "
-#~ "show you 3rd-party content to extend the system, made by other people "
-#~ "like you! In this way, it is often possible to add functionality you want "
-#~ "without having to ask KDE developers to implement it themselves.<nl/><nl/"
-#~ ">Note that content acquired this way has not been reviewed by your "
-#~ "distributor for functionality or stability."
-#~ msgstr ""
-#~ "A Plasmában, a Rendszerbeállításokban és a KDE alkalmazásokban mindenütt "
-#~ "találhat gombokat, amelyeken a következő felirat szerepel: „Új  "
-#~ "<emphasis>dolgok</emphasis> letöltése...„. Ha ezekre kattint, akkor "
-#~ "megjelennek a rendszer bővítésére szolgáló, más emberek által készített "
-#~ "tartalmak. Ezzel gyakran lehetséges a kívánt funkciókat hozzáadni "
-#~ "anélkül, hogy a hogy a KDE fejlesztőitől kérné, hogy ők maguk valósítsák "
-#~ "meg azokat.<nl/><nl/>Fontos megjegyezni, hogy az ilyen módon megszerzett "
-#~ "tartalmakat a disztribúciója készítője nem vizsgálta felül a "
-#~ "funkcionalitás vagy stabilitás szempontjából."
-
-#~ msgctxt "@action:button"
-#~ msgid "See 3rd-Party Content…"
-#~ msgstr "Harmadik féltől származó tartalom"
-
-#~ msgctxt "@info:usagetip"
-#~ msgid "A welcome app for KDE Plasma"
-#~ msgstr "Üdvözlő alkalmazás a KDE Plasmához"
+msgstr ""
