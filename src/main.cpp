@@ -57,10 +57,7 @@ int main(int argc, char *argv[])
         i18nc("@info copyright string", "© 2021–2024, KDE Community"));
     aboutData.addLicense(KAboutLicense::GPL_V3);
     aboutData.setProgramLogo(QIcon::fromTheme(QStringLiteral("start-here-kde-plasma")));
-    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"),
-                        i18nc("@info:credit", "Author"),
-                        QStringLiteral("kinofhek@gmail.com"),
-                        QStringLiteral("https://fhek.gitlab.io.com"));
+    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"));
     aboutData.addAuthor(i18nc("@info:credit", "Nate Graham"),
                         i18nc("@info:credit", "Author"),
                         QStringLiteral("nate@kde.org"),
