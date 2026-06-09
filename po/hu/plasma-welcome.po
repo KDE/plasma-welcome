@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-06-07 22:20+0200\n"
+"PO-Revision-Date: 2026-06-08 22:52+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -1060,13 +1060,7 @@ msgstr ""
 "megnyitott ablakok között."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1074,10 +1068,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Az áttekintést a <shortcut>Meta+W</shortcut> billentyűkombinációval érheti "
-"el, vagy az egérnek a képernyő bal felső sarkába mozgatásával. A "
-"<shortcut>Meta+G</shortcut> billentyűkombinációt is megnyomhatja a Rács "
-"nézethez, amely a virtuális asztalokat egy rácsban jeleníti meg."
+"Az áttekintést a <shortcut>%1</shortcut> billentyűkombinációval érheti el, "
+"vagy az egérnek a képernyő bal felső sarkába mozgatásával. A <shortcut>%2</"
+"shortcut> billentyűkombinációt is megnyomhatja a Rács nézethez, amely a "
+"virtuális asztalokat egy rácsban jeleníti meg."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
