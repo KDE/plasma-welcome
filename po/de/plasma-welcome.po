@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-22 00:45+0000\n"
+"POT-Creation-Date: 2026-06-27 00:46+0000\n"
 "PO-Revision-Date: 2026-06-05 22:03+0200\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -260,7 +260,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Fehler beim Laden der Seite"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
+#: src/qml/PageError.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -488,28 +488,32 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Die Netzwerkunterstützung von Plasma ist zurzeit nicht installiert"
 
 #: src/qml/pages/Network.qml:40
-#, kde-kuit-format
-msgctxt "@info:usagetip %1 is the name of the user's distro"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
+#| "to be installed. Please report this omission to %1."
+msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
-"be installed. Please report this omission to %1."
+"be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Um Netzwerkverbindungen verwalten zu können, muss <icode>plasma-nm</icode> "
 "installiert sein. Bitte berichten Sie dies an %1."
 
-#: src/qml/pages/Network.qml:210
+#: src/qml/pages/Network.qml:206
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Sie sind verbunden"
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:207
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Alles bereit!"
 
-#: src/qml/pages/Network.qml:218
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -518,7 +522,7 @@ msgstr ""
 "Um eine Vorschau der verschiedenen Zustände dieser Seite manuell anzuzeigen, "
 "können Sie die Schaltfläche verwenden."
 
-#: src/qml/pages/Network.qml:223
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

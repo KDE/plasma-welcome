@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-22 00:45+0000\n"
+"POT-Creation-Date: 2026-06-27 00:46+0000\n"
 "PO-Revision-Date: 2026-05-29 19:13+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -257,7 +257,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Помилка під час спроби завантажити сторінку"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
+#: src/qml/PageError.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -485,28 +485,32 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Підтримку роботи у мережі для Плазми зараз не встановлено"
 
 #: src/qml/pages/Network.qml:40
-#, kde-kuit-format
-msgctxt "@info:usagetip %1 is the name of the user's distro"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
+#| "to be installed. Please report this omission to %1."
+msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
-"be installed. Please report this omission to %1."
+"be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Для керування з'єднаннями мережі Плазмі потрібен встановлений пакунок "
 "<icode>plasma-nm</icode>. Будь ласка, повідомте про цю проблему %1."
 
-#: src/qml/pages/Network.qml:210
+#: src/qml/pages/Network.qml:206
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "З'єднання встановлено"
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:207
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Усе готово!"
 
-#: src/qml/pages/Network.qml:218
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -515,7 +519,7 @@ msgstr ""
 "Для попереднього перегляду вручну різних станів сторінки ви можете "
 "скористатися кнопкою."
 
-#: src/qml/pages/Network.qml:223
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

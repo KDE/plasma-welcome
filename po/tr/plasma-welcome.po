@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-22 00:45+0000\n"
+"POT-Creation-Date: 2026-06-27 00:46+0000\n"
 "PO-Revision-Date: 2026-05-29 13:21+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -255,7 +255,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Sayfa yüklenirken hata"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
+#: src/qml/PageError.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -481,35 +481,39 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Plasma için ağ desteği şu anda kurulu değil"
 
 #: src/qml/pages/Network.qml:40
-#, kde-kuit-format
-msgctxt "@info:usagetip %1 is the name of the user's distro"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %1 is the name of the user's distro"
+#| msgid ""
+#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
+#| "to be installed. Please report this omission to %1."
+msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
-"be installed. Please report this omission to %1."
+"be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Plasma, ağ bağlantılarını yönetmek için <icode>plasma-nm</icode>’nin kurulu "
 "olmasını gerektirir. Bu eksikliği %1 topluluğuna bildirin."
 
-#: src/qml/pages/Network.qml:210
+#: src/qml/pages/Network.qml:206
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Bağlısınız"
 
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:207
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Her şey tamam!"
 
-#: src/qml/pages/Network.qml:218
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
 msgstr "Sayfanın farklı durumlarını önizlemek için düğmeyi kullanabilirsiniz."
 
-#: src/qml/pages/Network.qml:223
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
