@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-27 00:46+0000\n"
-"PO-Revision-Date: 2026-06-19 19:28+0200\n"
+"PO-Revision-Date: 2026-06-27 15:37+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -487,19 +487,15 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "В настоящее время поддержка сети для Plasma не установлена"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Для управления сетевыми подключениями Plasma требуется установка пакета "
-"<icode>plasma-nm</icode>. Сообщите о его отсутствии создателям дистрибутива "
-"%1."
+"<icode>plasma-nm</icode>. <link url='%1'>Сообщите о его отсутствии "
+"создателям дистрибутива %2</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-27 00:46+0000\n"
-"PO-Revision-Date: 2026-05-29 14:49+0200\n"
+"PO-Revision-Date: 2026-06-27 09:27+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.04.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -480,18 +480,15 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Netwerkondersteuning voor Plasma is nu niet geïnstalleerd"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Om netwerkverbindingen te beheren vereist Plasma dat <icode>plasma-nm</"
-"icode> is geïnstalleerd. Rapporteer dit ontbreken aan %1."
+"icode> is geïnstalleerd. Rapporteer <link url='%1'> deze omissie aan %2</"
+"link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format

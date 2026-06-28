@@ -1,17 +1,17 @@
 # Translation of plasma-welcome.po to Catalan (Valencian)
-# Copyright (C) 2022-2026 This_file_is_part_of_KDE
+# Copyright (C) 2022-2025 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 # or the same license as the source of its messages in English.
 #
 # SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Antoni Bella Pérez <antonibella5@yahoo.com>
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2022-2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-27 00:46+0000\n"
-"PO-Revision-Date: 2026-05-29 10:31+0200\n"
+"PO-Revision-Date: 2026-06-27 09:26+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.0\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -489,18 +489,14 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "La implementació de la xarxa de Plasma no està instal·lada actualment"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Per a gestionar les connexions de xarxa, Plasma requerix que s'instal·le "
-"<icode>plasma-nm</icode>. Informeu d'esta omissió a %1."
+"<icode>plasma-nm</icode>. <link url='%1'>Informeu d'esta omissió a %2</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format

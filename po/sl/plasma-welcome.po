@@ -489,18 +489,14 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Omrežna podpora za Plasmo trenutno ni nameščena"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Za upravljanje omrežnih povezav Plasma zahteva, da je nameščen <icode>plasma-"
-"nm</icode>. Prosimo, prijavite to opustitev %1."
+"nm</icode>. Prosim, <link url='%1'>prijavite to opustitev %2</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format

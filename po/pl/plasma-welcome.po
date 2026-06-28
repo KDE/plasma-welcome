@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-27 00:46+0000\n"
-"PO-Revision-Date: 2026-05-09 15:48+0200\n"
+"PO-Revision-Date: 2026-06-27 13:05+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -482,18 +482,14 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Obsługa sieci dla Plazmy nie jest obecnie wgrana."
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
-"Aby zarządzać połączeniami sieciowymi, Plazma potrzebuje wgrania "
-"<icode>plasma-nm</icode>. Zalecamy zgłoszenie tego niedopatrzenia na %1."
+"Aby zarządzać połączeniami sieciowymi, Plazma potrzebuje <icode>plasma-nm</"
+"icode>. Zalecamy <link url='%1'>zgłoszenie tego niedopatrzenia na %2</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format
@@ -512,7 +508,7 @@ msgstr "Wszystko gotowe!"
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
-msgstr ""
+msgstr "Aby ręcznie podejrzeć różne stany tej strony, możesz użyć przycisku."
 
 #: src/qml/pages/Network.qml:219
 #, kde-format
