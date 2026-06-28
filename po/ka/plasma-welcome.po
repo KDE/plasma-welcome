@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-13 00:45+0000\n"
-"PO-Revision-Date: 2026-04-09 06:12+0200\n"
+"PO-Revision-Date: 2026-06-27 04:48+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -479,14 +479,18 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "ქსელის მხარდაჭერა Plasma-სთვის ამჟამად დაყენებული არაა"
 
 #: src/qml/pages/Network.qml:41
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip %2 is the name of the user's distro"
+#| msgid ""
+#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
+#| "to be installed. Please <link url='%1'>report this omission to %2</link>."
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please report this omission to %1."
 msgstr ""
 "ქსელური მიერთებების სამართავად Plasma-ს <icode>plasma-nm</icode> სჭირდება, "
-"დაყენებული იყოს. შეატყობინეთ ეს ლაფსუსი %1-ს."
+"დაყენებული იყოს. შეატყობინეთ <link url='%1'>ეს ლაფსუსი %2-ს</link>."
 
 #: src/qml/pages/Network.qml:211
 #, kde-format
@@ -1330,6 +1334,14 @@ msgstr "%1 ბეტა"
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 ბეტა %2"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "To manually preview the different states of the page, you can use the "
+#~ "button."
+#~ msgstr ""
+#~ "გვერდის სხვადასხვა მდგომარეობის ხელით გადასახედად გადასახედად, შეგიძლიათ, "
+#~ "ღილაკი გამოიყენოთ."
 
 #~ msgctxt "@action:button clicking on this takes the user to a web page"
 #~ msgid "Visit %1"
