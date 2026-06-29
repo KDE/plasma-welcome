@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-27 00:46+0000\n"
-"PO-Revision-Date: 2026-06-22 18:48+0200\n"
+"PO-Revision-Date: 2026-06-28 11:42+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -479,18 +479,14 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Nettverksstøtte for Plasma er ikkje installert"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "For å styra nett-tilkoplingar treng Plasma <icode>plasma-nm</icode> "
-"installert. Meld frå om at dette manglar til %1."
+"installert. <link url='%1'>Meld frå om at dette manglar til %2.</link>"
 
 #: src/qml/pages/Network.qml:206
 #, kde-format
