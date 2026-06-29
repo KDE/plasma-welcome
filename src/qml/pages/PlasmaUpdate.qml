@@ -154,7 +154,7 @@ Welcome.Page {
                             case Private.Release.Metered:
                                 return i18nc("@info", "The preview has not been automatically downloaded because you are using a metered network connection.");
                             case Private.Release.NetworkCode:
-                                return i18nc("@info, %1 is an error code", "The preview could not be downloaded — a network error occurred (%1).").arg(Private.Release.previewErrorCode);
+                                return i18nc("@info, %1 is an error code", "The preview could not be downloaded — a network error occurred (%1).", Private.Release.previewErrorCode);
                             case Private.Release.ParseFailure:
                                 return i18nc("@info", "The preview could not be loaded — a parse error occurred.");
                         }
