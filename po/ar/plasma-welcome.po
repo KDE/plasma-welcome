@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-27 00:46+0000\n"
-"PO-Revision-Date: 2026-06-11 10:46+0400\n"
+"PO-Revision-Date: 2026-06-30 22:39+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -475,18 +475,14 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "حزم توفير الشبكة لبلازما غير مثبتة حاليا"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "لإدارة اتصالات الشبكة، تتطلب بلازما تثبيت <icode>plasma-nm</icode>. الرجاء "
-"الإبلاغ عن هذا الإغفال إلى %1."
+"<link url='%1'>الإبلاغ عن هذا الإغفال إلى %2.</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format

@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-27 00:46+0000\n"
-"PO-Revision-Date: 2026-05-25 17:22+0200\n"
+"PO-Revision-Date: 2026-06-30 16:06+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
-"Language-Team: Interlingua <kde-i18n-it@kde.org>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -483,18 +483,14 @@ msgstr ""
 "Supporto per actuar in rete per Plasma non es currentemente installate "
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Per gerer connexiones de rete, Plasma require que <icode>plasma-nm</icode> "
-"es installate. Pro favor tu reporta iste omission a %1."
+"es installate. Pro favor <link url='%1'> reporta iste omission a  %2</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format
@@ -514,6 +510,8 @@ msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
 msgstr ""
+"Pro previsualisar manualmente le differente statos del pagina, on pote usar "
+"le button."
 
 #: src/qml/pages/Network.qml:219
 #, kde-format
@@ -1382,7 +1380,7 @@ msgstr "%1 Beta %2"
 #~ msgstr ""
 #~ "Le app de Preferentias de Systema te permitte personalisar extensivemente "
 #~ "le systema per adaptar lo a tu gustos e preferentias.  Apps predefinite, "
-#~ "tapetes de papiro, stylos visual e icones,scriptorios virtual, gestion de "
+#~ "fundos de schermo, stylos visual e icones,scriptorios virtual, gestion de "
 #~ "energia, elementos addite de 3-tie partes -- tu trova toto ci!"
 
 #~ msgctxt "@title:window"
