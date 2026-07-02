@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-27 00:46+0000\n"
-"PO-Revision-Date: 2026-06-04 20:05+0200\n"
+"PO-Revision-Date: 2026-07-01 21:49+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -485,18 +485,15 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Plasmarako sarerako euskarria ez dago instalatuta"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Sareko konexioak kudeatzeko, Plasmak <icode>plasma-nm</icode> instalatuta "
-"egotea behar du. Mesedez eman ez-egite honen berri %1(e)n."
+"egotea behar du. Mesedez, <link url='%1'>eman ahanztura honen berri %2(e)"
+"(a)n</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format
