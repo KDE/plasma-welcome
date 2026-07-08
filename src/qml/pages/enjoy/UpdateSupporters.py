@@ -15,6 +15,7 @@ import csv
 from datetime import datetime
 import os
 import sys
+import json
 
 def import_csv(input_file):
     columns = ["Name", "Donor Email", "Make Donation Anonymous", "Donated At"]
@@ -75,7 +76,7 @@ def dedup_email(data):
     return out_data
 
 def js_arr(data):
-    return '["' + '", "'.join(row['Name'] for row in data) + '"]'
+    return json.dumps([row['Name'] for row in data])
 
 # Take input
 if len(sys.argv) > 1:
