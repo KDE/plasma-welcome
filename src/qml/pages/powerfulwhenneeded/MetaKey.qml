@@ -58,26 +58,54 @@ Welcome.Page {
                 MockKey {
                     label: i18nc("The typical label for the keyboard's Function key", "Fn")
                 }
-                MockKey {
-                    id: metaKey
 
-                    property var symbols: [
-                        // Icon name, symbol, or label     If it's an icon, treat it as a mask?
-                        ["icon:applications-all-symbolic", true],
-                        ["icon:start-here-kde-symbolic", true],
-                        ["icon:preferences-system-linux", false],
-                        [i18nc("The typical label for the keyboard's Meta key", "Super"), true],
+                QQC2.StackView {
+                    id: metaKeyStack
+
+                    property int currentIndex: -1
+                    readonly property list<MockKey> metaKeys: [
+                        MockKey {
+                            label: "icon:applications-all-symbolic"
+                            iconIsMask: true
+                            highlighted: true
+                        },
+                        MockKey {
+                            label: "icon:start-here-kde-symbolic"
+                            iconIsMask: true
+                            highlighted: true
+                        },
+                        MockKey {
+                            label: "icon:preferences-system-linux"
+                            highlighted: true
+                        },
+                        MockKey {
+                            label: i18nc("The typical label for the keyboard's Meta key", "Super")
+                            highlighted: true
+                        }
                     ]
-                    property int currentSymbolIndex: 0
 
-                    label: symbols[currentSymbolIndex][0]
-                    iconIsMask: symbols[currentSymbolIndex][1]
-                    highlighted: true
-
+                    Layout.preferredWidth: currentItem?.implicitWidth ?? -1
+                    Layout.preferredHeight: currentItem?.implicitHeight ?? -1
 
                     QQC2.ToolTip.text: i18nc("This is a terrible dad joke about the meta key on the keyboard being able to have many symbols. Translate it into one of similar groanworthiness if this is possible; if not, translate it as an single space.", "I never meta key I didn't like")
                     QQC2.ToolTip.visible: QQC2.ToolTip.text.trim().length > 0 && metaKeyHoverHandler.hovered
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+
+                    replaceEnter: Transition {
+                        // Matches Kirigami.Icon animation
+                        NumberAnimation {
+                            property: "opacity"
+                            from: 0
+                            to: 1
+                            duration: Kirigami.Units.longDuration
+                            easing.type: Easing.InOutCubic
+                        }
+                    }
+                    replaceExit: Transition {
+                        PauseAnimation {
+                            duration: Kirigami.Units.longDuration
+                        }
+                    }
 
                     HoverHandler {
                         id: metaKeyHoverHandler
@@ -85,17 +113,16 @@ Welcome.Page {
 
                     Timer {
                         interval: Kirigami.Units.humanMoment
+                        triggeredOnStart: true
                         running: true
                         repeat: true
                         onTriggered: {
-                            if (metaKey.currentSymbolIndex === metaKey.symbols.length - 1) {
-                                metaKey.currentSymbolIndex = 0;
-                            } else {
-                                metaKey.currentSymbolIndex++;
-                            }
+                            metaKeyStack.currentIndex = (metaKeyStack.currentIndex + 1) % metaKeyStack.metaKeys.length;
+                            metaKeyStack.replaceCurrentItem(metaKeyStack.metaKeys[metaKeyStack.currentIndex]);
                         }
                     }
                 }
+
                 MockKey {
                     Layout.preferredWidth: Math.round(implicitWidth * 1.5)
                     label: i18nc("The typical label for the keyboard's Alt key", "Alt")
