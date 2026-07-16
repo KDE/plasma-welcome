@@ -57,7 +57,7 @@ Item {
                 implicitHeight: Kirigami.Units.iconSizes.smallMedium
                 implicitWidth: Kirigami.Units.iconSizes.smallMedium
 
-                source: "configure"
+                source: "question"
             }
 
             // Wrapped so disabling the search field does not affect the icons
@@ -154,7 +154,7 @@ Item {
                 implicitHeight: Kirigami.Units.iconSizes.smallMedium
                 implicitWidth: Kirigami.Units.iconSizes.smallMedium
 
-                source: "question"
+                source: "configure"
             }
 
             Kirigami.Icon {
