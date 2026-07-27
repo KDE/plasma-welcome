@@ -7,6 +7,9 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
       http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+
+    <kcfgfile name="plasma-welcomerc">
+
     <group name="General">
         <entry name="LastSeenVersion" type="String">
             <label>The last seen release Plasma version. If empty, the welcome experience is shown.</label>
