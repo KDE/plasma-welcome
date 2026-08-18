@@ -1,14 +1,14 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-welcome package.
 #
-# SPDX-FileCopyrightText: 2024, 2025, 2026 Toms Trasuns <toms.trasuns@posteo.net>
+# SPDX-FileCopyrightText: 2024-2026 Toms Trasuns <toms.trasuns@posteo.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-17 00:46+0000\n"
-"PO-Revision-Date: 2026-03-03 16:57+0200\n"
-"Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
+"PO-Revision-Date: 2026-08-15 23:27+0300\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -127,7 +127,7 @@ msgstr "Šo iestatījumu moduli nevar ielādēt"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Nav piešķirts"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -478,25 +478,21 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Nav instalēts „Plasma“ tīkla atbalsts"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Lai pārvaldītu tīkla savienojumus, „Plasma“ nepieciešams instalēt "
-"<icode>plasma-nm</icode>. Par šīs pakotnes iztrūkumu informējiet „%1“ "
-"veidotājus."
+"<icode>plasma-nm</icode>. Par šīs pakotnes iztrūkumu ziņojiet <link url='%1'>"
+"%2</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr "Savienojāties"
+msgstr "Sistēma ir savienojusies"
 
 #: src/qml/pages/Network.qml:207
 #, kde-format
@@ -509,7 +505,7 @@ msgstr "Viss ir gatavs!"
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
-msgstr ""
+msgstr "Lai manuāli apskatītu dažādus šīs lapas stāvokļus, varat lietot pogu."
 
 #: src/qml/pages/Network.qml:219
 #, kde-format
@@ -753,13 +749,7 @@ msgid "Open Settings…"
 msgstr "Atvērt iestatījumus…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -767,9 +757,9 @@ msgid ""
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
 "Lai sāktu, atveriet <interface>Sistēmas iestatījumus</interface> un "
-"meklējiet „Aktivitātes“. Šajā lapā varēsiet izveidot vēl aktivitātes. Kad "
-"tās ir izveidotas, varēsiet starp tām pārslēgties, izmantojot <shortcut>Meta"
-"+Q</shortcut> tastatūras saīsni."
+"meklējiet „Aktivitātes“. Šajā lapā varēsiet izveidot papildu aktivitātes. "
+"Pēc to izveidošanas varēsiet starp tām pārslēgties, lietojot <shortcut>%1</"
+"shortcut> tastatūras saīsni."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -832,16 +822,7 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -853,26 +834,20 @@ msgid ""
 msgstr ""
 "„KRunner“ ir īpaši jaudīga un daudzpusīga „Plasma“ meklēšanas sistēma. Tā ir "
 "pamatā meklēšanas funkcijai programmu palaidējā un pārskata ekrānā, kā arī "
-"tai var piekļūt no atsevišķas meklēšanas joslas, izmantojot tastatūras "
-"saīsni <shortcut>Alt+Space</shortcut> .<nl/><nl/>Papildu datņu un mapju "
-"meklēšanai „KRunner“ var palaist programmas, pārmeklēt tīklu, veikt "
-"konvertāciju starp valūtām, aprēķināt matemātiskas izteiksmes un daudz ko "
-"citu."
+"tai var piekļūt no atsevišķas meklēšanas joslas, lietojot <shortcut>%1</"
+"shortcut> tastatūras saīsni .<nl/><nl/>Papildus datņu un mapju meklēšanai "
+"„KRunner“ var palaist programmas, meklēt internetā, veikt konvertāciju starp "
+"valūtām, rēķināt un daudz ko citu."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"Lai uzzinātu vairāk, atveriet „KRunner“ meklēšanas joslu, izmantojot "
-"tastatūras saīsni <shortcut>Alt+Space</shortcut> un spiediet uz jautājuma "
-"zīmes."
+"Lai uzzinātu vairāk, atveriet „KRunner“ meklēšanas joslu, lietojot <shortcut>"
+"%1</shortcut> tastatūras saīsni, un spiediet uz jautājuma zīmes."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -882,7 +857,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr "laiks Shanghai"
+msgstr "laiks Šanhaja"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
@@ -1070,13 +1045,7 @@ msgstr ""
 "atvērto logu atrašanai."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1084,10 +1053,10 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Pārskatam piekļūt varat, spiežot taustiņu kombināciju <shortcut>Meta+W</"
+"Pārskatam varat piekļūt, spiežot taustiņu kombināciju <shortcut>%1</"
 "shortcut> vai pārvietojot peles kursoru uz ekrāna augšējo kreiso stūri. "
-"Tāpat varat spiest <shortcut>Meta+G</shortcut>, lai atvērtu režģa skatu, "
-"kurā visas virtuālās darbvirsmas ir redzamas kā režģis."
+"Tāpat varat spiest <shortcut>%2</shortcut>, lai atvērtu režģa skatu, kurā "
+"visas virtuālās darbvirsmas ir redzamas kā režģis."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
