@@ -23,7 +23,7 @@ RowLayout {
     readonly property string backText: i18nc("@action:button", "&Back")
     readonly property string nextText: i18nc("@action:button", "&Next")
 
-    property string finishText: i18nc("@action:button", "&Finish")
+    property string finishText: pageStack.depth > 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&OK")
     property string finishIconName: "dialog-ok-apply-symbolic"
     property bool quitOnFinish: true // if false, emit finishClicked signal instead
     signal finishClicked
@@ -63,6 +63,7 @@ RowLayout {
 
     QQC2.Button {
         id: prevButton
+        visible: pageStack.depth > 1
         Layout.alignment: Qt.AlignLeft
         Layout.preferredWidth: (leftPadding === 0 || rightPadding === 0 || spacing === 0) ? -1 : leftPadding + icon.width + spacing + root.buttonTextWidth + rightPadding
 
@@ -97,6 +98,7 @@ RowLayout {
         Layout.alignment: Qt.AlignHCenter
 
         enabled: !root.inLayer
+        visible: pageStack.depth > 1
         count: pageStack.depth
         currentIndex: pageStack.currentIndex
         onCurrentIndexChanged: pageStack.currentIndex = currentIndex
