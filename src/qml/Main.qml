@@ -30,6 +30,7 @@ Kirigami.ApplicationWindow {
     pageStack.defaultColumnWidth: width
 
     footer: Footer {
+        visible: Private.App.mode !== Private.App.SafeMode // no global footer for Safe Mode
         width: app.width
         contentSource: {
             switch (Private.App.mode) {
@@ -126,6 +127,11 @@ Kirigami.ApplicationWindow {
         switch (Private.App.mode) {
             case Private.App.Update:
                 _pushPage(_createPage("PlasmaUpdate.qml"));
+
+                break;
+
+            case Private.App.SafeMode:
+                _pushPage(_createPage("SafeMode.qml"));
 
                 break;
 
