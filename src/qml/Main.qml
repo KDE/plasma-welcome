@@ -30,7 +30,7 @@ Kirigami.ApplicationWindow {
     pageStack.defaultColumnWidth: width
 
     footer: Footer {
-        width: app.width
+        visible: contentItem.visible
         contentSource: {
             switch (Private.App.mode) {
                 case Private.App.Welcome:

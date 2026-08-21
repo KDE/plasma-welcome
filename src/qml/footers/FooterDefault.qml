@@ -13,6 +13,7 @@ import org.kde.kirigami as Kirigami
 RowLayout {
     id: root
 
+    visible: pageStack.depth > 1
     spacing: Kirigami.Units.smallSpacing
 
     readonly property bool inLayer: pageStack.layers.depth > 1

@@ -14,6 +14,7 @@ Item {
     id: footer
 
     required property string contentSource
+    readonly property alias contentItem: footerLoader.item
 
     height: separatorLayout.implicitHeight
 
