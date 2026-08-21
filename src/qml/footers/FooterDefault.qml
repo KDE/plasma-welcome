@@ -22,7 +22,7 @@ RowLayout {
     readonly property string skipText: i18nc("@action:button", "&Skip")
     readonly property string backText: i18nc("@action:button", "&Back")
     readonly property string nextText: i18nc("@action:button", "&Next")
-    readonly property string finishText: i18nc("@action:button", "&Finish")
+    readonly property string finishText: pageStack.depth > 1 ? i18nc("@action:button", "&Finish") : i18nc("@action:button", "&OK")
 
     function removeAccelerator(string: string): string {
         return string.replace(/&(&|[a-zA-Z0-9])/g, m => m[1] === '&' ? '&' : m[1])
@@ -59,6 +59,7 @@ RowLayout {
 
     QQC2.Button {
         id: prevButton
+        visible: pageStack.depth > 1
         Layout.alignment: Qt.AlignLeft
         Layout.preferredWidth: (leftPadding === 0 || rightPadding === 0 || spacing === 0) ? -1 : leftPadding + icon.width + spacing + root.buttonTextWidth + rightPadding
 
@@ -93,6 +94,7 @@ RowLayout {
         Layout.alignment: Qt.AlignHCenter
 
         enabled: !root.inLayer
+        visible: pageStack.depth > 1
         count: pageStack.depth
         currentIndex: pageStack.currentIndex
         onCurrentIndexChanged: pageStack.currentIndex = currentIndex
