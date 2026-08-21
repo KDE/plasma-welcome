@@ -26,7 +26,8 @@ public:
         Pages, // Specified subset of pages via m_pages
         Update, // Post-Plasma update
         Live, // Welcome with added Live page
-        Welcome // Normal experience with all pages
+        Welcome, // Normal experience with all pages
+        SafeMode, // Guidance for Safe Mode session
     };
     Q_ENUM(Mode)
 

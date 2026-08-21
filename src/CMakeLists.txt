@@ -30,6 +30,8 @@ target_sources(plasma-welcome PRIVATE
     qmlconfig.h
     release.cpp
     plasmacolors.cpp
+    safemode.cpp
+    safemodecacheclearer.cpp
 )
 
 ecm_target_qml_sources(plasma-welcome
@@ -58,11 +60,13 @@ ecm_target_qml_sources(plasma-welcome
     qml/mock/InteractionInhibitor.qml
 
     qml/pages/PlasmaUpdate.qml
+    qml/pages/SafeMode.qml
     qml/pages/Live.qml
     qml/pages/Welcome.qml
     qml/pages/Network.qml
     qml/pages/network/PlasmaNM.qml
     qml/pages/network/PlasmaNMLoader.qml
+    qml/pages/safemode/ClearCache.qml
     qml/pages/SimpleByDefault.qml
     qml/pages/PowerfulWhenNeeded.qml
     qml/pages/powerfulwhenneeded/MetaKey.qml
@@ -108,9 +112,11 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::I18n
     KF6::I18nQml
     KF6::JobWidgets
+    KF6::KIOGui
     KF6::Service
     KF6::WindowSystem
     Plasma::Plasma
+    PW::KWorkspace
 )
 
 kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
