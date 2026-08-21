@@ -129,6 +129,11 @@ Kirigami.ApplicationWindow {
 
                 break;
 
+            case Private.App.SafeMode:
+                _pushPage(_createPage("SafeMode.qml"))
+
+                break;
+
             case Private.App.Live:
                 _pushPage(_createPage("Live.qml"));
                 // Fallthrough
