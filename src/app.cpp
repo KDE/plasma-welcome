@@ -47,6 +47,14 @@ void App::setPages(const QStringList &pages)
     m_pages = pages;
 }
 
+SafeModeFixes *App::safeModeFixes()
+{
+    if (!m_safeMode) {
+        m_safeMode = new SafeModeFixes(this);
+    }
+    return m_safeMode;
+}
+
 QString App::installPrefix() const
 {
     return QString::fromLatin1(PLASMA_WELCOME_INSTALL_DIR);
