@@ -74,6 +74,7 @@ int main(int argc, char *argv[])
     aboutData.setupCommandLine(&parser);
 
     parser.addOption(QCommandLineOption(QStringLiteral("post-update"), i18n("Display release notes for the current Plasma release.")));
+    parser.addOption(QCommandLineOption(QStringLiteral("safe-mode"), i18n("Display guidance for a Plasma Safe Mode session.")));
     parser.addOption(QCommandLineOption(QStringLiteral("live-environment"), i18n("Display the live page intended for distro live environments.")));
     QCommandLineOption selfTest(QStringLiteral("self-test"));
     selfTest.setFlags(QCommandLineOption::HiddenFromHelp);
@@ -121,6 +122,8 @@ int main(int argc, char *argv[])
         }
     } else if (parser.isSet(QStringLiteral("post-update"))) {
         appSingleton->setMode(App::Mode::Update);
+    } else if (parser.isSet(QStringLiteral("safe-mode"))) {
+        appSingleton->setMode(App::Mode::SafeMode);
     } else if (parser.isSet(QStringLiteral("live-environment"))) {
         appSingleton->setMode(App::Mode::Live);
     }
