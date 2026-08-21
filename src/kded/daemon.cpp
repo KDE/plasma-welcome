@@ -30,6 +30,10 @@ PlasmaWelcomeDaemon::PlasmaWelcomeDaemon(QObject *parent, const QList<QVariant> 
         // Live installer, always launch
         qCInfo(WELCOME_KDED_LOG) << "Launching Welcome Center within live environment";
         launch(QStringList{QStringLiteral("--live-environment")});
+    } else if (m_config.readEntry("SafeMode", false)) {
+        // Safe mode, always launch (with different content)
+        qCInfo(WELCOME_KDED_LOG) << "Launching Welcome Center within Safe Mode session";
+        launch(QStringList{QStringLiteral("--safe-mode")});
     } else {
         // Normal, check if launched before or updated since
         const bool lastSeenVersionEmpty = m_config.readEntry("LastSeenVersion", QStringLiteral("")).isEmpty(); // i.e. have we shown Welcome Center previously
