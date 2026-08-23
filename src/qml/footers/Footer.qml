@@ -15,36 +15,39 @@ Item {
 
     required property string contentSource
 
-    height: separatorLayout.implicitHeight
+    height: footerToolBar.implicitHeight
 
-    ColumnLayout {
-        id: separatorLayout
+    QQC2.ToolBar {
+        id: footerToolBar
         anchors.left: footer.left
         anchors.right: footer.right
 
-        spacing: 0
+        position: QQC2.ToolBar.Footer
 
-        Kirigami.Separator {
-            Layout.fillWidth: true
+        implicitHeight: footerLoader.implicitHeight + footerLoader.anchors.topMargin + footerLoader.anchors.bottomMargin
+
+        contentItem: Loader {
+            id: footerLoader
+            anchors.fill: parent
+            anchors.margins: Kirigami.Units.mediumSpacing
+
+            source: footer.contentSource
         }
 
-        // Not using QQC2.Toolbar so that the window can be
-        // dragged from the footer, both appear identical
-        Kirigami.AbstractApplicationHeader {
-            Layout.fillWidth: true
+        /*
+         * Behave like a header, as it frames the page more nicely. This is done by setting colorSet and manually
+         * providing window dragging, rather than relying on theme or abusing AbstractApplicationHeader.
+         */
 
-            separatorVisible: false
+        Kirigami.Theme.inherit: false
+        Kirigami.Theme.colorSet: Kirigami.Theme.Header
 
-            contentItem: Item {
-                implicitHeight: footerLoader.implicitHeight + footerLoader.anchors.margins * 2
-                implicitWidth: parent.width
-
-                Loader {
-                    id: footerLoader
-                    anchors.fill: parent
-                    anchors.margins: Kirigami.Units.smallSpacing
-
-                    source: footer.contentSource
+        DragHandler {
+            target: null
+            grabPermissions: PointerHandler.TakeOverForbidden | PointerHandler.ApprovesTakeOverByAnything
+            onActiveChanged: {
+                if (active) {
+                    footerToolBar.Window.window.startSystemMove();
                 }
             }
         }
