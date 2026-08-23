@@ -56,6 +56,7 @@ ecm_target_qml_sources(plasma-welcome
     qml/mock/panel/MockShowDesktopApplet.qml
     qml/mock/MockPlasmoid.qml
     qml/mock/InteractionInhibitor.qml
+    qml/mock/MockKDEConnectApp.qml
 
     qml/pages/PlasmaUpdate.qml
     qml/pages/Live.qml
