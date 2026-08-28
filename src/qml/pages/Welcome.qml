@@ -10,7 +10,6 @@ import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
-import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.plasma.welcome as Welcome
 import org.kde.plasma.welcome.private as Private
@@ -22,33 +21,6 @@ Welcome.Page {
     description: Private.App.customIntroText.length > 0
             ? xi18nc("@info:usagetip %1 is custom text supplied by the distro", "%1<nl/><nl/>This operating system is running Plasma, a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Private.App.customIntroText)
             : xi18nc("@info:usagetip %1 is the name of the user's distro", "Welcome to the %1 operating system running KDE Plasma!<nl/><nl/>Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!", Welcome.Distro.name)
-
-    actions: [
-        Kirigami.Action {
-            text: i18nc("@action:inmenu", "About Welcome Center")
-            icon.name: "start-here-kde-plasma"
-            onTriggered: pageStack.layers.push(aboutAppPage)
-            displayHint: Kirigami.DisplayHint.AlwaysHide
-        },
-        Kirigami.Action {
-            text: i18nc("@action:inmenu", "About KDE")
-            icon.name: "kde"
-            onTriggered: pageStack.layers.push(aboutKDEPage)
-            displayHint: Kirigami.DisplayHint.AlwaysHide
-        }
-    ]
-
-    Component {
-        id: aboutKDEPage
-
-        FormCard.AboutKDEPage {}
-    }
-
-    Component {
-        id: aboutAppPage
-
-        FormCard.AboutPage {}
-    }
 
     topContent: [
         Kirigami.UrlButton {

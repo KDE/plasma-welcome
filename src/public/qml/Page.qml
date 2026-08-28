@@ -22,6 +22,46 @@ Kirigami.Page {
 
     property alias topContent: topContentLayout.children
 
+    Component {
+        id: globalToolBarMenuSeparator
+
+        Kirigami.Separator {
+            Layout.fillHeight: true
+        }
+    }
+
+    // HACK: Insert a separator action before the GlobalDrawer's
+    //       handle button, when the actionToolBar has content.
+    actions: [
+        Kirigami.Action {
+            displayComponent: Item {
+                width: 0
+                height: 0
+
+                Component.onCompleted: {
+                    const actionToolBar = parent.parent;
+                    const rowLayout = actionToolBar.parent;
+
+                    if (!(actionToolBar instanceof Kirigami.ActionToolBar)
+                        || !(rowLayout instanceof RowLayout)) {
+                        return;
+                    }
+
+                    // Detatch the last item so our separator is in the right place
+                    const lastItem = rowLayout.children[rowLayout.children.length - 1];
+                    lastItem.parent = null;
+
+                    // Add the separator
+                    const separator = globalToolBarMenuSeparator.createObject(rowLayout);
+                    separator.visible = Qt.binding(() => actionToolBar.visibleWidth > 0);
+
+                    // And add it back
+                    lastItem.parent = rowLayout;
+                }
+            }
+        }
+    ]
+
     title: heading
     topPadding: 0 // Provided by required header
 

@@ -10,6 +10,7 @@ import QtQuick
 
 import org.kde.config as KConfig
 import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.plasma.welcome as Welcome
 import org.kde.plasma.welcome.private as Private
@@ -28,6 +29,51 @@ Kirigami.ApplicationWindow {
 
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
     pageStack.defaultColumnWidth: width
+
+    contextDrawer: Kirigami.GlobalDrawer {
+        isMenu: !Kirigami.Settings.isMobile
+        edge: Application.layoutDirection === Qt.RightToLeft ? Qt.LeftEdge : Qt.RightEdge
+        enabled: true
+        handleVisible: true
+
+        actions: [
+            Kirigami.Action {
+                text: i18nc("@action:inmenu", "About Welcome Center")
+                icon.name: "start-here-kde-plasma"
+                onTriggered: app._layersPushOrReplaceApplicationPage(aboutAppPage)
+                enabled: !(pageStack.layers.currentItem instanceof FormCard.AboutPage)
+                displayHint: Kirigami.DisplayHint.AlwaysHide
+            },
+            Kirigami.Action {
+                text: i18nc("@action:inmenu", "About KDE")
+                icon.name: "kde"
+                onTriggered: app._layersPushOrReplaceApplicationPage(aboutKDEPage)
+                enabled: !(pageStack.layers.currentItem instanceof FormCard.AboutKDEPage)
+                displayHint: Kirigami.DisplayHint.AlwaysHide
+            }
+        ]
+    }
+
+    function _layersPushOrReplaceApplicationPage(component : Component): void {
+        if (pageStack.layers.currentItem instanceof FormCard.AboutPage
+            || pageStack.layers.currentItem instanceof FormCard.AboutKDEPage)
+        {
+            pageStack.layers.pop();
+        }
+        pageStack.layers.push(component);
+    }
+
+    Component {
+        id: aboutAppPage
+
+        FormCard.AboutPage {}
+    }
+
+    Component {
+        id: aboutKDEPage
+
+        FormCard.AboutKDEPage {}
+    }
 
     footer: Footer {
         width: app.width
