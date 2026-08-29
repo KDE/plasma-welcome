@@ -8,6 +8,7 @@
 
 #include <QVersionNumber>
 
+#include <KConfig>
 #include <KConfigGroup>
 #include <KDEDModule>
 
@@ -22,7 +23,8 @@ private:
     bool isSignificantUpgrade() const;
     void launch(const QStringList &args);
 
-    KConfigGroup m_config;
+    KConfig m_config;
+    KConfigGroup m_configGroup;
     const QVersionNumber m_currentVersion;
     const QVersionNumber m_previousVersion;
 };
