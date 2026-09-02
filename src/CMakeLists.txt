@@ -30,6 +30,7 @@ target_sources(plasma-welcome PRIVATE
     qmlconfig.h
     release.cpp
     plasmacolors.cpp
+    safemodefixes.cpp
 )
 
 ecm_target_qml_sources(plasma-welcome
@@ -59,11 +60,16 @@ ecm_target_qml_sources(plasma-welcome
 
     qml/pages/PlasmaUpdate.qml
     qml/pages/SafeMode.qml
+    qml/pages/SafeModeFixes.qml
     qml/pages/Live.qml
     qml/pages/Welcome.qml
     qml/pages/Network.qml
     qml/pages/network/PlasmaNM.qml
     qml/pages/network/PlasmaNMLoader.qml
+    qml/pages/safemode/ClearCache.qml
+    qml/pages/safemode/ResetCustomizations.qml
+    qml/pages/safemode/RestoreCustomizations.qml
+    qml/pages/safemode/ExitSafeMode.qml
     qml/pages/SimpleByDefault.qml
     qml/pages/PowerfulWhenNeeded.qml
     qml/pages/powerfulwhenneeded/MetaKey.qml
@@ -84,6 +90,7 @@ ecm_target_qml_sources(plasma-welcome
     assets/krita.svg
     assets/konqi-kde-hi.png
     assets/konqi-default.png
+    assets/konqi-safemode.png
     assets/kstars.svg
     assets/vlc.png
 )
@@ -108,9 +115,11 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::I18n
     KF6::I18nQml
     KF6::JobWidgets
+    KF6::KIOGui
     KF6::Service
     KF6::WindowSystem
     Plasma::Plasma
+    PW::KWorkspace
 )
 
 kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)

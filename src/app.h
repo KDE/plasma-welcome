@@ -8,6 +8,8 @@
 
 #pragma once
 
+#include "safemodefixes.h"
+
 #include <QQmlEngine>
 
 // org.kde.plasma.welcome.private, App
@@ -46,11 +48,14 @@ public:
     Q_PROPERTY(QString customIntroIcon MEMBER m_customIntroIcon CONSTANT)
     Q_PROPERTY(QString customIntroIconLink MEMBER m_customIntroIconLink CONSTANT)
     Q_PROPERTY(QString customIntroIconCaption MEMBER m_customIntroIconCaption CONSTANT)
+    Q_PROPERTY(SafeModeFixes *safeModeFixes READ safeModeFixes CONSTANT)
 
     Q_INVOKABLE bool kcmAvailable(const QString &kcm) const;
 
     void setMode(App::Mode mode);
     void setPages(const QStringList &pages);
+
+    SafeModeFixes *safeModeFixes();
 
 private:
     // These members should be set before the QML engine loads Main
@@ -61,4 +66,6 @@ private:
     QString m_customIntroIcon;
     QString m_customIntroIconLink;
     QString m_customIntroIconCaption;
+
+    SafeModeFixes *m_safeMode = nullptr;
 };

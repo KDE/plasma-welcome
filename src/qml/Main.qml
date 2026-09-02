@@ -132,6 +132,8 @@ Kirigami.ApplicationWindow {
             case Private.App.SafeMode:
                 _pushPage(_createPage("SafeMode.qml"))
 
+                _pushPage(_createPage("SafeModeFixes.qml"));
+
                 break;
 
             case Private.App.Live:
