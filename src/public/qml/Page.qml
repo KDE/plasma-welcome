@@ -14,15 +14,21 @@ import org.kde.kirigami as Kirigami
 Kirigami.Page {
     id: page
 
-    required property string heading
+    required title
     required property string description
+
+    /*!
+      \brief Here for compatibility; will be removed in Plasma 7 or earlier.
+
+      \deprecated use title property instead
+     */
+    property alias heading: page.title
 
     // This property can overridden to conditionally hide the page
     property bool show: true
 
     property alias topContent: topContentLayout.children
 
-    title: heading
     topPadding: 0 // Provided by required header
 
     header: Item {
