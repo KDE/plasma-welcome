@@ -6,9 +6,9 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-17 00:46+0000\n"
-"PO-Revision-Date: 2026-06-06 20:19+0900\n"
+"PO-Revision-Date: 2026-08-31 22:06+0900\n"
 "Last-Translator: Mint <5602mint@gmail.com>\n"
-"Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -481,18 +481,14 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "現在、Plasma のネットワークサポートはインストールされていません。"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Plasma 上でネットワーク接続を管理するには、<icode>plasma-nm</icode> が必要で"
-"す。%1 にこの問題を報告してください。"
+"す。<link url='%1'>%2 にこの問題を報告</link> してください。"
 
 #: src/qml/pages/Network.qml:206
 #, kde-format
@@ -920,7 +916,7 @@ msgid ""
 msgstr ""
 "Plasma では、ショートカットを使用すればほとんどのことはキーボードで行えます。"
 "多くのショートカットは <shortcut>Meta</shortcut> キーを使用して入力します。"
-"<nl/><nl/>Mac のキーボードでは \"Command\" キーです。"
+"<nl/><nl/>Mac のキーボードでは “Command” キーです。"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -936,7 +932,7 @@ msgstr ""
 "多くのショートカットは <shortcut>Meta</shortcut> キーを使用して入力します。"
 "<nl/><nl/>通常、このキーは左側の <shortcut>Ctrl</shortcut> キーと "
 "<shortcut>Alt</shortcut> キーの間にあり、なにかアイコンが描かれているか "
-"\"Super\" と書かれています。"
+"“Super” と書かれています。"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
