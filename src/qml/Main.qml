@@ -40,6 +40,8 @@ Kirigami.ApplicationWindow {
                 case Private.App.Update:
                 case Private.App.Beta:
                     return "FooterUpdate.qml";
+                case Private.App.SafeMode:
+                    return "FooterSafeMode.qml";
             }
         }
 
