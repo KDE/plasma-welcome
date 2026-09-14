@@ -41,6 +41,7 @@ ecm_target_qml_sources(plasma-welcome
 
     qml/footers/Footer.qml
     qml/footers/FooterDefault.qml
+    qml/footers/FooterSafeMode.qml
     qml/footers/FooterUpdate.qml
 
     qml/mock/MockCard.qml
