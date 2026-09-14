@@ -22,7 +22,11 @@ RowLayout {
     readonly property string skipText: i18nc("@action:button", "&Skip")
     readonly property string backText: i18nc("@action:button", "&Back")
     readonly property string nextText: i18nc("@action:button", "&Next")
-    readonly property string finishText: i18nc("@action:button", "&Finish")
+
+    property string finishText: i18nc("@action:button", "&Finish")
+    property string finishIconName: "dialog-ok-apply-symbolic"
+    property bool quitOnFinish: true // if false, emit finishClicked signal instead
+    signal finishClicked
 
     function removeAccelerator(string: string): string {
         return string.replace(/&(&|[a-zA-Z0-9])/g, m => m[1] === '&' ? '&' : m[1])
@@ -113,7 +117,7 @@ RowLayout {
             text: root.atEnd ? root.finishText : root.nextText
             icon.name: {
                 if (root.atEnd) {
-                    return "dialog-ok-apply-symbolic";
+                    return root.finishIconName;
                 } else if (Qt.application.layoutDirection === Qt.LeftToRight) {
                     "go-next-symbolic"
                 } else {
@@ -127,8 +131,10 @@ RowLayout {
             onTriggered: {
                 if (!root.atEnd) {
                     pageStack.currentIndex += 1;
-                } else {
+                } else if (quitOnFinish) {
                     Qt.quit();
+                } else {
+                    root.finishClicked();
                 }
             }
         }
