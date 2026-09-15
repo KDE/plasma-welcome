@@ -17,7 +17,7 @@ import org.kde.plasma.welcome.private as Private
 Welcome.Page {
     id: root
 
-    heading: i18nc("@title:window", "Enjoy It!")
+    title: i18nc("@title:window", "Enjoy It!")
     description: xi18nc("@info:usagetip", "We hope you love Plasma as much as we loved making it for you! Now it’s time to jump right in. Explore its features, install your favorite apps and games, and get busy doing what makes you you!")
 
     topContent: [

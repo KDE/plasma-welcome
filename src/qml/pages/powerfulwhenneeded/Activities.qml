@@ -19,7 +19,7 @@ import org.kde.plasma.welcome.private as Private
 Welcome.Page {
     id: root
 
-    heading: i18nc("@info:window", "Activities")
+    title: i18nc("@info:window", "Activities")
     description: xi18nc("@info:usagetip", "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for “Home”, “School”, “Work”, and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, “Favorite” apps, and desktop widgets.")
 
     actions: [
