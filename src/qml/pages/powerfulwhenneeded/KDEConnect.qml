@@ -14,7 +14,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.welcome as Welcome
 
 Welcome.Page {
-    heading: i18nc("@info:window", "KDE Connect")
+    title: i18nc("@info:window", "KDE Connect")
 
     // Don't change the weird indentation; it's intentional to make this
     // long string nicer for translators

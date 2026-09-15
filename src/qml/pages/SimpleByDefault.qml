@@ -18,7 +18,7 @@ import org.kde.plasma.welcome.private as Private
 Welcome.Page {
     id: root
 
-    heading: i18nc("@info:window", "Simple by Default")
+    title: i18nc("@info:window", "Simple by Default")
     description: xi18nc("@info:usagetip", "Plasma is designed to be simple and usable out of the box. Things are where you would expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/><nl/>Below is a visual representation of a typical Plasma Desktop; move the pointer over or click on something to learn about it!")
 
     property var activeItem: null

@@ -15,7 +15,7 @@ import org.kde.plasma.welcome as Welcome
 Welcome.ScrollablePage {
     id: root
 
-    heading: i18nc("@title:window", "Supporting Members")
+    title: i18nc("@title:window", "Supporting Members")
     description: xi18nc("@info:usagetip", "We thank the following supporting members for their recurring donation to KDE:")
 
     enum SortOrders {

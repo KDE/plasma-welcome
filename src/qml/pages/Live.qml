@@ -18,7 +18,7 @@ Welcome.Page {
 
     property bool installerAvailable: Private.Config.liveInstaller.length !== 0
 
-    heading: i18nc("@title:window %1 is the name of the user's distro", "Welcome to %1!", Welcome.Distro.name)
+    title: i18nc("@title:window %1 is the name of the user's distro", "Welcome to %1!", Welcome.Distro.name)
     description: installerAvailable
                  ? xi18nc("@info:usagetip %1 is the name of the user's distro",
                           "Pressing the icon below will begin installing %1. Alternatively, you can close the window to explore the live environment or continue here to find out about KDE Plasma.", Welcome.Distro.name)

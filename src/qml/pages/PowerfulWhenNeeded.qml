@@ -14,7 +14,7 @@ import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.plasma.welcome as Welcome
 
 Welcome.Page {
-    heading: i18nc("@info:window", "Powerful When Needed")
+    title: i18nc("@info:window", "Powerful When Needed")
     // Don't change the weird indentation; it's intentional to make this
     // long string nicer for translators
     description: xi18nc("@info:usagetip", "Plasma is a feature-rich environment, designed to super-charge your productivity!<nl/><nl/>\

@@ -15,7 +15,7 @@ import org.kde.kcmutils as KCMUtils
 import org.kde.plasma.welcome as Welcome
 
 Welcome.Page {
-    heading: i18nc("@info:window", "Keyboard Shortcuts")
+    title: i18nc("@info:window", "Keyboard Shortcuts")
 
     actions: [
         Kirigami.Action {

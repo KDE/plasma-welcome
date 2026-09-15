@@ -18,7 +18,7 @@ Welcome.Page {
 
     readonly property bool isPrerelease: Private.Release.isBeta || Private.Release.isDevelopment
 
-    heading: i18nc("@title:window", "Plasma has been updated to %1", Private.Release.friendlyVersion)
+    title: i18nc("@title:window", "Plasma has been updated to %1", Private.Release.friendlyVersion)
     description: isPrerelease ? xi18nc("@info:usagetip", "Thank you for testing this beta release of Plasma — your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them.") : xi18nc("@info:usagetip", "KDE contributors have spent the last four months hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!")
 
     topContent: [

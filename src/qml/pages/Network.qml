@@ -18,7 +18,7 @@ import org.kde.plasma.welcome.private as Private
 Welcome.Page {
     id: root
 
-    heading: i18nc("@info:window", "Access the Internet")
+    title: i18nc("@info:window", "Access the Internet")
     description: xi18nc("@info:usagetip", "You can connect to the internet and manage your network connections with the <interface>Networks applet</interface>. To access it, click on the <interface>Networks</interface> icon in your <interface>System Tray</interface>, which lives in the bottom-right corner of the screen.")
 
     show: NetworkInformation.reachability !== NetworkInformation.Reachability.Online
