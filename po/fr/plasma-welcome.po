@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-17 00:46+0000\n"
+"POT-Creation-Date: 2026-09-20 16:19+0000\n"
 "PO-Revision-Date: 2026-06-28 14:51+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
@@ -1347,10 +1347,14 @@ msgstr ""
 "Impossible de charger <filename>%1</filename>. Veuillez vérifier que le "
 "fichier existe."
 
-#: src/qml/pages/Welcome.qml:120
-#, kde-format
+#: src/qml/pages/Welcome.qml:121
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgid ""
+"The KDE mascot Konqi welcomes you to the KDE community for this 30th "
+"anniversary release!"
 msgstr "La mascotte de KDE Konqi vous accueille dans la communauté KDE !"
 
 #: src/release.cpp:42
