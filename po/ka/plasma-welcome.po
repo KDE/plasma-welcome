@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-17 00:46+0000\n"
+"POT-Creation-Date: 2026-09-20 18:06+0000\n"
 "PO-Revision-Date: 2026-06-28 06:33+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -1304,10 +1304,14 @@ msgstr ""
 "ფაილის <filename>%1</filename> ჩატვირთვის შეცდომა. დარწმუნდით, რომ ის "
 "არსებობს."
 
-#: src/qml/pages/Welcome.qml:120
-#, kde-format
+#: src/qml/pages/Welcome.qml:121
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgid ""
+"The KDE mascot Konqi welcomes you to the KDE community for this 30th "
+"anniversary release!"
 msgstr "KDE-ის თილისმა კონქსი მოგესალმებათ KDE-ის საძმოში!"
 
 #: src/release.cpp:42

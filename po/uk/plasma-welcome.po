@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-17 00:46+0000\n"
+"POT-Creation-Date: 2026-09-20 18:06+0000\n"
 "PO-Revision-Date: 2026-06-27 09:51+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -1327,10 +1327,14 @@ msgstr ""
 "Не вдалося завантажити <filename>%1</filename>. Переконайтеся, що цей файл "
 "існує."
 
-#: src/qml/pages/Welcome.qml:120
-#, kde-format
+#: src/qml/pages/Welcome.qml:121
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgid ""
+"The KDE mascot Konqi welcomes you to the KDE community for this 30th "
+"anniversary release!"
 msgstr "Маскот KDE, Конкі, запрошує вас до спільноти KDE!"
 
 #: src/release.cpp:42

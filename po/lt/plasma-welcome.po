@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-17 00:46+0000\n"
+"POT-Creation-Date: 2026-09-20 18:06+0000\n"
 "PO-Revision-Date: 2026-06-29 15:40+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1322,10 +1322,14 @@ msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "Nepavyko įkelti <filename>%1</filename>. Įsitikinkite, kad jis yra."
 
-#: src/qml/pages/Welcome.qml:120
-#, kde-format
+#: src/qml/pages/Welcome.qml:121
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgid ""
+"The KDE mascot Konqi welcomes you to the KDE community for this 30th "
+"anniversary release!"
 msgstr "KDE talismanas Konqi sveikina jus KDE bendruomenėje!"
 
 #: src/release.cpp:42

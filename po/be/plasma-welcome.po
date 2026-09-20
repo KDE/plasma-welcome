@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-17 00:46+0000\n"
+"POT-Creation-Date: 2026-09-20 18:06+0000\n"
 "PO-Revision-Date: 2024-06-20 17:30\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -1354,10 +1354,14 @@ msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
 "Не ўдалося запусціць<filename>%1</filename>. Пераканайцеся, што файл існуе."
 
-#: src/qml/pages/Welcome.qml:120
-#, kde-format
+#: src/qml/pages/Welcome.qml:121
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgctxt "@info"
-msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+msgid ""
+"The KDE mascot Konqi welcomes you to the KDE community for this 30th "
+"anniversary release!"
 msgstr "Талісман KDE Konqi вітае вас у супольнасці KDE!"
 
 #: src/release.cpp:42
