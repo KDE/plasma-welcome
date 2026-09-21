@@ -90,7 +90,7 @@ Welcome.Page {
 
                 Image {
                     id: image
-                    source: Private.App.customIntroIcon || "konqi-30.png"
+                    source: Private.App.customIntroIcon || "konqi-kde-hi.png"
                     fillMode: Image.PreserveAspectFit
 
                     Kirigami.PlaceholderMessage {
@@ -118,7 +118,7 @@ Welcome.Page {
             Layout.alignment: Qt.AlignHCenter
             Layout.maximumWidth: Math.round(Math.max(root.width / 2, imageContainer.width / 2))
             Layout.fillWidth: true
-            text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community for this 30th anniversary release!")
+            text: Private.App.customIntroIconCaption || i18nc("@info", "The KDE mascot Konqi welcomes you to the KDE community!")
             wrapMode: Text.Wrap
             horizontalAlignment: Text.AlignHCenter
         }
