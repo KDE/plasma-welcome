@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 18:06+0000\n"
-"PO-Revision-Date: 2026-06-27 09:27+0200\n"
+"PO-Revision-Date: 2026-09-21 10:41+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -1313,14 +1313,14 @@ msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "Kon <filename>%1</filename> niet laden. Ga na dat het bestaat."
 
 #: src/qml/pages/Welcome.qml:121
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "The KDE mascot Konqi welcomes you to the KDE community for this 30th "
 "anniversary release!"
-msgstr "De mascotte van KDE, Konqi, verwelkomt u in de KDE-gemeenschap!"
+msgstr ""
+"De mascotte van KDE, Konqi, verwelkomt u in de KDE-gemeenschap voor deze "
+"uitgave bij de 30ste verjaardag!"
 
 #: src/release.cpp:42
 #, kde-format
