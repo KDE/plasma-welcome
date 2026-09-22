@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 18:06+0000\n"
-"PO-Revision-Date: 2026-06-28 14:51+0200\n"
+"PO-Revision-Date: 2026-09-21 09:04+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -1348,14 +1348,14 @@ msgstr ""
 "fichier existe."
 
 #: src/qml/pages/Welcome.qml:121
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "The KDE mascot Konqi welcomes you to the KDE community for this 30th "
 "anniversary release!"
-msgstr "La mascotte de KDE Konqi vous accueille dans la communauté KDE !"
+msgstr ""
+"La mascotte de KDE, Konqi, vous accueille dans la communauté KDE, avec cette "
+"version pour son trentième anniversaire !"
 
 #: src/release.cpp:42
 #, kde-format
