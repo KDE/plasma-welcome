@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 16:19+0000\n"
-"PO-Revision-Date: 2026-07-05 19:37+0200\n"
+"PO-Revision-Date: 2026-09-21 17:57+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -1303,14 +1303,14 @@ msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "Kunde inte läsa in <filename>%1</filename>. Säkerställ att den finns."
 
 #: src/qml/pages/Welcome.qml:121
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "The KDE mascot Konqi welcomes you to the KDE community for this 30th "
 "anniversary release!"
-msgstr "KDE:s maskot Konqi välkomnar dig till KDE-gemenskapen!"
+msgstr ""
+"KDE:s maskot Konqi välkomnar dig till KDE-gemenskapen för denna 30-"
+"årsjubileumsutgåva!"
 
 #: src/release.cpp:42
 #, kde-format
