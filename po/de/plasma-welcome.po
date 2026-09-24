@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 16:19+0000\n"
-"PO-Revision-Date: 2026-09-16 21:49+0200\n"
+"PO-Revision-Date: 2026-09-21 21:44+0200\n"
 "Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -1331,18 +1331,18 @@ msgstr "Das Laden des Bildes ist fehlgeschlagen"
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr ""
-"<filename>%1</filename> lässt sich nicht laden. Vergewissern Sie sich, dass "
-"die Datei existiert."
+"<filename>%1</filename> kann nicht geladen werden. Vergewissern Sie sich, "
+"dass die Datei existiert."
 
 #: src/qml/pages/Welcome.qml:121
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "The KDE mascot Konqi welcomes you to the KDE community for this 30th "
 "anniversary release!"
-msgstr "Das KDE-Maskottchen Konqi begrüßt Sie in der KDE-Gemeinschaft!"
+msgstr ""
+"Das KDE-Maskottchen Konqi begrüßt Sie in der KDE-Gemeinschaft und zu dieser "
+"30-Jahre-Jubiläumsversion!"
 
 #: src/release.cpp:42
 #, kde-format
