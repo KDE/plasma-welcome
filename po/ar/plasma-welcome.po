@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 18:06+0000\n"
-"PO-Revision-Date: 2026-06-30 22:39+0400\n"
+"PO-Revision-Date: 2026-09-23 17:39+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -1275,14 +1275,14 @@ msgid "Could not load <filename>%1</filename>. Make sure it exists."
 msgstr "تعذر تحميل <filename>%1</filename>. تأكد من وجوده."
 
 #: src/qml/pages/Welcome.qml:121
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "The KDE mascot Konqi welcomes you to the KDE community for this 30th "
 "anniversary release!"
-msgstr "تميمة كِيدِي كونكي ترحب بك في مجتمع كِيدِي!"
+msgstr ""
+"ترحب «كونكي»، شخصية كيدي الترويجية، بكم في مجتمع كيدي بمناسبة إصدار الذكرى "
+"الثلاثين!"
 
 #: src/release.cpp:42
 #, kde-format
