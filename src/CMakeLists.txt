@@ -61,7 +61,6 @@ ecm_target_qml_sources(plasma-welcome
 
     qml/pages/PlasmaUpdate.qml
     qml/pages/SafeMode.qml
-    qml/pages/SafeModeFixes.qml
     qml/pages/Live.qml
     qml/pages/Welcome.qml
     qml/pages/Network.qml
