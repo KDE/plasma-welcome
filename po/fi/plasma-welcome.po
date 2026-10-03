@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 16:19+0000\n"
-"PO-Revision-Date: 2026-03-03 15:16+0200\n"
+"PO-Revision-Date: 2026-08-24 19:40+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -127,7 +127,7 @@ msgstr "Tämän asetusosion lataaminen epäonnistui"
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr ""
+msgstr "Ei kytketty"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -476,18 +476,15 @@ msgid "Networking support for Plasma is not currently installed"
 msgstr "Plasman verkkotukea ei ole asennettu"
 
 #: src/qml/pages/Network.qml:40
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the name of the user's distro"
-#| msgid ""
-#| "To manage network connections, Plasma requires <icode>plasma-nm</icode> "
-#| "to be installed. Please report this omission to %1."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
 "Verkkoyhteyksien hallitsemiseksi Plasma vaatii asentamaan <icode>plasma-nm</"
-"icode>-paketin. Ilmoita puutteesta: %1."
+"icode>-paketin. <link url='%1'>Ilmoita tästä puutteesta osoitteeseen %2</"
+"link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format
@@ -506,7 +503,7 @@ msgstr "Valmiina lähtöön!"
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
-msgstr ""
+msgstr "Painikkeen avulla voi esikatsella sivun eri tiloja."
 
 #: src/qml/pages/Network.qml:219
 #, kde-format
@@ -630,12 +627,7 @@ msgid "Powerful When Needed"
 msgstr "Tehokas kun tarpeen"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:20
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "Plasma is an extremely feature-rich environment, designed to super-charge "
-#| "your productivity!<nl/><nl/>Click the cards below to see just a "
-#| "smattering of what it can do for you:"
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "Plasma is a feature-rich environment, designed to super-charge your "
@@ -756,13 +748,7 @@ msgid "Open Settings…"
 msgstr "Avaa asetukset…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To get started, launch <interface>System Settings</interface> and search "
-#| "for “Activities”. On that page, you can create more Activities. You can "
-#| "then switch between them using the <shortcut>Meta+Q</shortcut> keyboard "
-#| "shortcut."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To get started, launch <interface>System Settings</interface> and search for "
@@ -771,8 +757,8 @@ msgid ""
 msgstr ""
 "Alkuun pääsee käynnistämällä <interface>järjestelmäasetukset</interface> ja "
 "etsimällä ”aktiviteetteja”. Kyseisellä sivulla voi luoda lisää "
-"aktiviteetteja, joiden välillä voi vaihtaa <shortcut>Meta+Q</shortcut>-"
-"pikanäppäimellä."
+"aktiviteetteja, joiden välillä voi vaihtaa pikanäppäimellä <shortcut>%1</"
+"shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -836,16 +822,7 @@ msgstr "KRunner"
 
 # *** TARKISTA: ”in”-kyselyjen kotoistettu asu on mikä???
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
-#| "It powers the search functionality in the Application Launcher menu and "
-#| "the Overview screen, and it can be accessed as a standalone search bar "
-#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
-#| "addition to finding your files and folders, KRunner can launch apps, "
-#| "search the web, convert between currencies, calculate math problems, and "
-#| "a lot more."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "KRunner is Plasma’s exceptionally powerful and versatile search system. It "
@@ -857,24 +834,20 @@ msgid ""
 msgstr ""
 "KRunner on Plasman poikkeuksellisen tehokas ja monipuolikas hakujärjestelmä. "
 "Se on sovelluskäynnistinvalikon ja yleiskuvanäkymän hakutoimintojen takana, "
-"mutta sitä voi käyttää myös itsenäisenä hakurivinä <shortcut>Alt+Välilyönti</"
-"shortcut>-pikanäppäimellä.<nl/><nl/>Tiedostojen ja kansioiden etsimisen "
-"lisäksi KRunner voi käynnistää sovelluksia, etsiä tietoa verkosta, muuntaa "
+"mutta sitä voi käyttää myös itsenäisenä hakurivinä pikanäppäimellä <shortcut>"
+"%1</shortcut>.<nl/><nl/>Tiedostojen ja kansioiden etsimisen lisäksi KRunner "
+"voi käynnistää sovelluksia, etsiä tietoa verkosta, muuntaa "
 "valuuttayksiköitä, laskea laskuja ja paljon muuta."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
-#| "shortcut> keyboard shortcut and click on the question mark icon."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"Lisätietoa saa avaamalla KRunnerin hakurivin <shortcut>Alt+Välilyönti</"
-"shortcut>-pikanäppäimellä ja napsauttamalla kysymysmerkkikuvaketta."
+"Lisätietoa saa avaamalla KRunnerin hakurivin pikanäppäimellä <shortcut>%1</"
+"shortcut> ja napsauttamalla kysymysmerkkikuvaketta."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -1072,13 +1045,7 @@ msgstr ""
 "myös KRunner-pohjaisen hakurivin, jolla suodattaa avoimia ikkunoita."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard "
-#| "shortcut, or by moving your mouse into the top-left corner of the screen. "
-#| "You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows "
-#| "Virtual Desktops in a grid."
+#, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
 "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, "
@@ -1086,10 +1053,9 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"Yleiskuvaan pääsee <shortcut>Meta+W</shortcut>-pikanäppäimellä tai "
-"siirtämällä hiiren näytön ylävasempaan nurkkaan. Ruudukkonäkymän, jossa "
-"virtuaalityöpöydät esitetään ruudukkona, saa <shortcut>Meta+G</shortcut>-"
-"pikanäppäimellä."
+"Yleiskuvaan pääsee pikanäppäimellä <shortcut>%1</shortcut> tai siirtämällä "
+"hiiren näytön ylävasempaan nurkkaan. Virtuaalityöpöydät ruudukkona esittävän "
+"näkymän saa pikanäppäimellä <shortcut>%2</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
