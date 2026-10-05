@@ -1,50 +1,49 @@
-# Uyghur translation for plasma-welcome.
-# Copyright (C) YEAR This file is copyright:
-# This file is distributed under the same license as the plasma-welcome package.
-# Abduqadir Abliz <sahranbay@gmail.com>, 2026.
-#
+# Nemanja Hiršl <nemhirsl@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 16:19+0000\n"
-"PO-Revision-Date: 2026-10-03 19:42-0400\n"
-"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
-"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
-"Language: ug\n"
+"PO-Revision-Date: 2026-10-03 22:09+0200\n"
+"Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@ijekavianlatin\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.9\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "ئابدۇقادىر ئابلىز، غەيرەت كەنجى"
+msgstr "Nemanja Hiršl"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "sahranbay@gmail.com, gheyret@gmail.com"
+msgstr "nemhirsl@gmail.com"
 
 #: src/main.cpp:44
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Friendly onboarding wizard for Plasma"
-msgstr "Plasma نىڭ دوستانە يېتەكچىسى"
+msgstr "Prijateljski čarobnjak za upoznavanje sa Plasmom"
 
 #: src/main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Welcome Center"
-msgstr "قارشى ئېلىش مەركىزى"
+msgstr "Centar dobrodošlice"
 
 #: src/main.cpp:57
 #, kde-format
 msgctxt "@info copyright string"
 msgid "© 2021–2024, KDE Community"
-msgstr "© 2021–2024، KDE جامائىتى"
+msgstr "© 2021–2024, zajednica KDE‑a"
 
 #: src/main.cpp:60
 #, kde-format
@@ -56,7 +55,7 @@ msgstr "Felipe Kinoshita"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "يازغۇچى"
+msgstr "Autor"
 
 #: src/main.cpp:61
 #, kde-format
@@ -73,38 +72,38 @@ msgstr "Oliver Beard"
 #: src/main.cpp:76
 #, kde-format
 msgid "Display release notes for the current Plasma release."
-msgstr "نۆۋەتتىكى Plasma نەشرىنىڭ تارقىتىش خاتىرىسىنى كۆرسىتىدۇ."
+msgstr "Prikaži bilješke o izdanju za tekuće izdanje Plasme."
 
 #: src/main.cpp:77
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr "تارقىتىش نەشرىنىڭ شۇئان مۇھىتىغا تەييارلانغان بەتنى كۆرسىتىدۇ."
+msgstr "Prikaži stranicu namijenjenu živim okruženjima distribucija."
 
 #: src/main.cpp:83
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr ""
-"كۆرسىتىدىغان پەش بىلەن ئايرىلغان بەت تىزىمى (ئىچكى ئىسىم بويىچە) نى "
-"كۆرسىتىشنى بەلگىلەيدۇ."
+"Zarezima razdvojen spisak stranica (po unutrašnjem imenu) koje treba "
+"prikazati."
 
 #: src/public/configModule.cpp:72
 #, kde-format
 msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
-msgstr "يوچۇن بۆلەك %1 ئىلتىماس قىلىندى"
+msgstr "Zahtijevan je nepoznat modul %1"
 
 #: src/public/controller.cpp:45 src/public/utils.cpp:46
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
-msgstr "بۇ <command>%1</command> بۇيرۇقنى تاپالمىدى."
+msgstr "Ne mogu da nađem naredbu <command>%1</command>."
 
 #: src/public/controller.cpp:78 src/public/utils.cpp:79
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
-msgstr "خاتالىق ئۇچۇرى تەمىنلەنمىگەن"
+msgstr "Nema poruke o grešci"
 
 #: src/public/controller.cpp:82 src/public/utils.cpp:83
 #, kde-kuit-format
@@ -112,24 +111,24 @@ msgctxt ""
 "@info:progress %1 is the command being run, and %2 is the human-readable "
 "error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
-msgstr "<command>%1</command> بۇيرۇقى مەغلۇپ بولدى: %2"
+msgstr "Naredba <command>%1</command> nije uspjela: %2"
 
 #: src/public/qml/ApplicationIcon.qml:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
-msgstr "ھازىر %1 نى قوزغات"
+msgstr "Pokreni %1 sada"
 
 #: src/public/qml/KCMPage.qml:81
 #, kde-format
 msgid "This settings module could not be loaded"
-msgstr "بۇ تەڭشەك بۆلىكىنى يۈكلىيەلمىدى"
+msgstr "Ne mogu da učitam ovaj modul postavki"
 
 #: src/public/utils.cpp:103
 #, kde-format
 msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
 msgid "Unassigned"
-msgstr "تەقسىملەنمىگەن"
+msgstr "Nedodijeljena"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -139,158 +138,158 @@ msgid ""
 "is an international volunteer community, not a big company; your "
 "contributions make a real difference!"
 msgstr ""
-"ئەگەر Plasma كېرەكلىك دەپ قارىغان بولسىڭىز، بىزگە قوشۇلۇپ تۆھپە قوشۇڭ ياكى "
-"ئىئانە قىلىڭ. KDE خەلقئارالىق پىدائىي جامائەت، چوڭ شىركەت ئەمەس؛ تۆھپىڭىز "
-"ھەقىقىي پەرق يارىتىدۇ!"
+"Ako vam je Plasma korisna, razmislite da se uključite ili donirate. KDE je "
+"međunarodna zajednica dobrovoljaca, a ne velika kompanija; vaš doprinos "
+"zaista nešto mijenja!"
 
 #: src/qml/ContributionCard.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "ئىئانە"
+msgstr "Doniraj"
 
 #: src/qml/ContributionCard.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "Get involved"
-msgstr "قاتنىشىش"
+msgstr "Uključi se"
 
 #: src/qml/footers/FooterDefault.qml:22
 #, kde-format
 msgctxt "@action:button"
 msgid "&Skip"
-msgstr "ئاتلا(&S)"
+msgstr "&Preskoči"
 
 #: src/qml/footers/FooterDefault.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
-msgstr "قايت(&B)"
+msgstr "&Nazad"
 
 #: src/qml/footers/FooterDefault.qml:24
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
-msgstr "كېيىنكى(&N)"
+msgstr "&Sljedeće"
 
 #: src/qml/footers/FooterDefault.qml:25
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
-msgstr "تامام(&F)"
+msgstr "&Završi"
 
 #: src/qml/footers/FooterUpdate.qml:21
 #, kde-format
 msgctxt "@option:check"
 msgid "Show after Plasma is updated"
-msgstr "Plasma يېڭىلانغاندىن كېيىن كۆرسەت"
+msgstr "Prikaži poslije ažuriranja Plasme"
 
 #: src/qml/footers/FooterUpdate.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr "جەزملە(&O)"
+msgstr "&U redu"
 
 #: src/qml/mock/MockActivities.qml:58
 #, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
-msgstr "پائالىيەت"
+msgstr "Aktivnosti"
 
 #: src/qml/mock/MockActivities.qml:90
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Home"
-msgstr "باش بەت"
+msgstr "Kuća"
 
 #: src/qml/mock/MockActivities.qml:91
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "School"
-msgstr "مەكتەپ"
+msgstr "Škola"
 
 #: src/qml/mock/MockActivities.qml:92
 #, kde-format
 msgctxt "@title The name of an example Plasma activity"
 msgid "Work"
-msgstr "ئىش"
+msgstr "Posao"
 
 #: src/qml/mock/MockActivities.qml:169
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Currently being used"
-msgstr "نۆۋەتتە ئىشلىتىۋاتقىنى"
+msgstr "Trenutno se koristi"
 
 #: src/qml/mock/MockActivities.qml:170
 #, kde-format
 msgctxt "@info:status An example last used message for a Plasma activity"
 msgid "Used 3 hours ago"
-msgstr "3 سائەت ئىلگىرى ئىشلىتىلگەن"
+msgstr "Korišćeno prije 3 sata"
 
 #: src/qml/mock/MockActivities.qml:188
 #, kde-format
 msgctxt "@action:button Button in the Plasma activities sidebar"
 msgid "Create activity…"
-msgstr "پائالىيەت قۇر…"
+msgstr "Napravi aktivnost…"
 
 #: src/qml/mock/MockKRunner.qml:81
 #, kde-format
 msgid "Search…"
-msgstr "ئىزدە…"
+msgstr "Traži…"
 
 #: src/qml/mock/MockOverview.qml:97
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
-msgstr "1-ئۈستەلئۈستى"
+msgstr "Površ 1"
 
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
-msgstr "كۆزنەكنى ياي"
+msgstr "Raširite prozor"
 
 #: src/qml/PageError.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr "بەت يۈكلەشتە خاتالىق كۆرۈلدى"
+msgstr "Greška pri učitavanju stranice"
 
 #: src/qml/PageError.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
-msgstr "كەمتۈك مەلۇم قىل…"
+msgstr "Prijavi grešku…"
 
 #: src/qml/PageError.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr "تەپسىلاتىنى كۆچۈر"
+msgstr "Kopiraj detalje"
 
 #: src/qml/PageError.qml:46
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page could not be loaded"
-msgstr "بۇ بەتنى يۈكلىگىلى بولمىدى"
+msgstr "Ne mogu da učitam ovu stranicu"
 
 #: src/qml/PageError.qml:49
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by your distribution could not be loaded"
-msgstr "تارقىتىش نەشرى تەمىنلىگەن بۇ بەتنى يۈكلىگىلى بولمىدى"
+msgstr "Ne mogu da učitam ovu stranicu koju pruža vaša distribucija"
 
 #: src/qml/PageError.qml:51
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
-msgstr "قارشى ئېلىش مەركىزى تەمىنلىگەن بۇ بەتنى يۈكلىگىلى بولمىدى"
+msgstr "Ne mogu da učitam ovu stranicu koju pruža Centar dobrodošlice"
 
 #: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Great Apps"
-msgstr "قالتىس ئەپ ئىزدە"
+msgstr "Sjajni programi"
 
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
@@ -303,22 +302,22 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
-"توردىن ئەپ ئىزدەپ ئورناتقۇچ چۈشۈرۈش ياكى بۇيرۇق قۇرى بوغچا باشقۇرغۇچ  "
-"ئىشلىتىش ھاجەتسىز؛ KDE نىڭ ئەپ دۇكىنى <application>%1</application> سىزگە "
-"ياردەملىشىپ ھەممىنى قىلىپ بېرىدۇ!<nl/><nl/>تۆۋەندىكى خالىغان سىنبەلگىنى "
-"چېكىپ سىناپ ئىشلىتەلەيسىز!"
+"Nema potrebe da pretražujete veb i preuzimate instalere programa ili da "
+"koristite menadžer paketa u komandnoj liniji; prodavnica programa KDE‑a, "
+"<application>%1</application>, sve to radi umjesto vas!<nl/><nl/>Kliknite na "
+"bilo koju ikonicu ispod da je isprobate!"
 
 #: src/qml/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
-msgstr "Discover دا %1 نى كۆرسەت"
+msgstr "Prikaži %1 u Otkrivaču"
 
 #: src/qml/pages/Enjoy.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr "ھۇزۇرلىنىڭ!"
+msgstr "Prijatan rad!"
 
 #: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
@@ -328,33 +327,34 @@ msgid ""
 "to jump right in. Explore its features, install your favorite apps and "
 "games, and get busy doing what makes you you!"
 msgstr ""
-"بىز Plasma غا سىڭدۈرگەن مېھرىمىزنى ياقتۇرۇشىڭىزنى ئارزۇ قىلىمىز! ھازىر "
-"ئۇنىڭغا شۇڭغۇپ، ئىقتىدارلىرىنى بايقاپ، ياقتۇرىدىغان ئەپ ۋە ئويۇننى ئورنىتىپ، "
-"كۈندىلىك خىزمىتىڭىزنى باشلايدىغان ۋاقىت كەلدى!"
+"Nadamo se da ćete voljeti Plasmu koliko smo mi voljeli da je pravimo za vas! "
+"Sada je vrijeme da počnete. Istražite njene mogućnosti, instalirajte "
+"omiljene programe i igre i posvetite se onome što vas čini onakvima kakvi "
+"jeste!"
 
 #: src/qml/pages/Enjoy.qml:26
 #, kde-format
 msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
-msgstr "KDE جامائىتى ھەققىدە مول بىلىم"
+msgstr "Saznaj više o zajednici KDE‑a"
 
 #: src/qml/pages/Enjoy.qml:31
 #, kde-format
 msgctxt "@label:URL"
 msgid "Get help at KDE’s discussion forums"
-msgstr "KDE نىڭ مۇنبىرى ئارقىلىق ياردەمگە ئېرىشىش"
+msgstr "Potraži pomoć na forumima KDE‑a"
 
 #: src/qml/pages/Enjoy.qml:39
 #, kde-format
 msgctxt "@action:button"
 msgid "Supporting Members"
-msgstr "ئەزالارنى قوللاش"
+msgstr "Članovi podržavaoci"
 
 #: src/qml/pages/enjoy/Supporters.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Supporting Members"
-msgstr "ئەزالارنى قوللاش"
+msgstr "Članovi podržavaoci"
 
 #: src/qml/pages/enjoy/Supporters.qml:19
 #, kde-kuit-format
@@ -363,32 +363,32 @@ msgid ""
 "We thank the following supporting members for their recurring donation to "
 "KDE:"
 msgstr ""
-"بىز KDE ئۈچۈن كۆپ قېتىم ئىئانە قىلغان تۆۋەندىكى قوللىغۇچى ئەزالارغا رەھمەت "
-"ئېيتىمىز:"
+"Zahvaljujemo sljedećim članovima podržavaocima na njihovim redovnim "
+"donacijama KDE‑u:"
 
 #: src/qml/pages/enjoy/Supporters.qml:39
 #, kde-format
 msgctxt "@action:button %1 is the selected sort order, e.g. Random"
 msgid "Sort: %1"
-msgstr "تەرتىپ: %1"
+msgstr "Ređanje: %1"
 
 #: src/qml/pages/enjoy/Supporters.qml:45
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Random"
-msgstr "ئىختىيارىي"
+msgstr "Nasumično"
 
 #: src/qml/pages/enjoy/Supporters.qml:56
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "Last Name"
-msgstr "تەگئات"
+msgstr "Prezime"
 
 #: src/qml/pages/enjoy/Supporters.qml:67
 #, kde-format
 msgctxt "@action:inmenu An order to sort a list"
 msgid "First Name"
-msgstr "ئاتى"
+msgstr "Ime"
 
 #: src/qml/pages/enjoy/Supporters.qml:78
 #, kde-format
@@ -396,19 +396,19 @@ msgctxt ""
 "@action:inmenu An order to sort a list, referring to the date a user has "
 "first made a donation"
 msgid "Contribution Date"
-msgstr "تۆھپە ۋاقتى"
+msgstr "Datum doprinosa"
 
 #: src/qml/pages/enjoy/Supporters.qml:91
 #, kde-format
 msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
-msgstr "ئەكسىچە"
+msgstr "Obrnuto"
 
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
-msgstr "ئاتسىز ئىشلىتىش ئەھۋالى ئۇچۇرىنى ھەمبەھىرلەيدۇ"
+msgstr "Slanje anonimnih podataka o korišćenju"
 
 #: src/qml/pages/Feedback.qml:17
 #, kde-format
@@ -417,15 +417,14 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"ئىجادكارلىرىمىز بۇ ئاتسىز سانلىق مەلۇماتنى ئىشلىتىپ KDE يۇمشاق دېتالىنى "
-"ياخشىلايدۇ. سىستېما تەڭشىكىدە ھەمبەھىرلەيدىغان سانلىق مەلۇماتنى "
-"تاللىيالايسىز، بۇ بەتتىمۇ تاللىغىلى بولىدۇ."
+"Naši programeri koristiće ove anonimne podatke da poboljšaju KDE softver. "
+"Koliko ćete slati možete izabrati u Sistemskim postavkama, a i ovdje."
 
 #: src/qml/pages/Live.qml:21
 #, kde-format
 msgctxt "@title:window %1 is the name of the user's distro"
 msgid "Welcome to %1!"
-msgstr "%1 غا خۇش كەپسىز!"
+msgstr "Dobro došli u sistem %1!"
 
 #: src/qml/pages/Live.qml:24
 #, kde-kuit-format
@@ -435,9 +434,9 @@ msgid ""
 "close the window to explore the live environment or continue here to find "
 "out about KDE Plasma."
 msgstr ""
-"تۆۋەندىكى توپچە چېكىلسە %1 نى ئورنىتىشقا باشلايدۇ. مەزكۇر كۆزنەكنى يېپىپ "
-"شۇئان مۇھىتىنى زىيارەت قىلالايسىز ياكى KDE Plasma نىڭ ئىقتىدار تونۇشتۇرۇشىنى "
-"كۆرۈشنى داۋاملاشتۇرالايسىز."
+"Pritiskom na ikonicu ispod počinje instaliranje sistema %1. Možete i da "
+"zatvorite prozor i istražite živo okruženje, ili da nastavite ovdje i "
+"saznate više o KDE Plasmi."
 
 #: src/qml/pages/Live.qml:26
 #, kde-kuit-format
@@ -446,20 +445,20 @@ msgid ""
 "You can close the window to explore the live environment or continue here to "
 "find out about KDE Plasma."
 msgstr ""
-"مەزكۇر كۆزنەكنى يېپىپ KDE Plasma نىڭ ئىقتىدار تونۇشتۇرۇشىنى كۆرۈشنى "
-"داۋاملاشتۇرالايسىز."
+"Možete da zatvorite prozor i istražite živo okruženje, ili da nastavite "
+"ovdje i saznate više o KDE Plasmi."
 
 #: src/qml/pages/Live.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
-msgstr "باش بەت زىيارەت قىل"
+msgstr "Posjeti domaću stranicu"
 
 #: src/qml/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "ئىنتېرنېت زىيارىتى"
+msgstr "Pristup internetu"
 
 #: src/qml/pages/Network.qml:22
 #, kde-kuit-format
@@ -470,16 +469,16 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
-"سىز <interface>تور ئەپچە</interface> ئارقىلىق ئىنتېرنېتقا باغلىنىپ، تور "
-"باغلىنىشىنى باشقۇرالايسىز.تور ئەپچىنى زىيارەت قىلىشتا، <interface>سىستېما "
-"قونداق</interface> تا <interface>تور</interface> سىنبەلگىنى چېكىڭ. ئۇ "
-"كۆڭۈلدىكى ئەھۋالدا ئېكراننىڭ سول ئاستى بۇرجىكىدە."
+"Na internet se možete povezati i mrežnim vezama upravljati pomoću "
+"<interface>apleta Mreže</interface>. Da biste mu pristupili, kliknite na "
+"ikonicu <interface>Mreže</interface> u <interface>sistemskoj kaseti</"
+"interface>, koja se nalazi u donjem desnom uglu ekrana."
 
 #: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
-msgstr "نۆۋەتتە Plasma نىڭ تور قوللىشى ئورنىتىلمىغان"
+msgstr "Podrška za umrežavanje u Plasmi trenutno nije instalirana"
 
 #: src/qml/pages/Network.qml:40
 #, kde-kuit-format
@@ -488,21 +487,21 @@ msgid ""
 "To manage network connections, Plasma requires <icode>plasma-nm</icode> to "
 "be installed. Please <link url='%1'>report this omission to %2</link>."
 msgstr ""
-"تور باغلىنىشىنى باشقۇرۇشتا، Plasma غا <icode>plasma-nm</icode> نى ئورنىتىش "
-"زۆرۈر. بۇ يۇمشاق دېتال بوغچىسىنىڭ كەمتۈكلۈك ئەھۋالىنى <link url='%1'>%2 غا "
-"مەلۇم قىلىڭ</link>."
+"Da bi upravljala mrežnim vezama, Plasma zahtijeva da bude instaliran "
+"<icode>plasma-nm</icode>. <link url='%1'>Prijavite ovaj propust distribuciji "
+"%2</link>."
 
 #: src/qml/pages/Network.qml:206
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
-msgstr "باغلاندىڭىز"
+msgstr "Povezani ste"
 
 #: src/qml/pages/Network.qml:207
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
-msgstr "ھەممىسى تەييار بولدى!"
+msgstr "Sve je spremno!"
 
 #: src/qml/pages/Network.qml:214
 #, kde-format
@@ -510,20 +509,19 @@ msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
 msgstr ""
-"مەزكۇر بەتنىڭ پەرقلىق ھالىتىنى ئالدىن كۆزەتمەكچى بولسىڭىز، بۇ توپچىنى "
-"ئىشلىتىڭ."
+"Da biste ručno pregledali različita stanja stranice, možete koristiti dugme."
 
 #: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
-msgstr "ھالىتىنى ئۆزگەرت"
+msgstr "Promijeni stanje"
 
 #: src/qml/pages/PlasmaUpdate.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Plasma has been updated to %1"
-msgstr "Plasma نەشرى %1 غا يېڭىلانغان"
+msgstr "Plasma je ažurirana na %1"
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -533,10 +531,9 @@ msgid ""
 "fundamental to helping us improve it! Please report any and all bugs you "
 "find so that we can fix them."
 msgstr ""
-"مەزكۇر Plasma سىناق نەشرىنى سىنىغانلىقىڭىزغا كۆپ رەھمەت — قايتۇرما "
-"ئىنكاسىڭىز ئۇنى ياخشىلىشىمىزغا زور ياردەم بېرىدۇ. ئەگەر ئىشلىتىش جەريانىدا "
-"ھەر قانداق پىروگرامما كەمتۈكلۈك مەسىلىسىگە يولۇقسىڭىز، بىزگە مەلۇم قىلىڭ "
-"ئاندىن بىز ئۇنى ئوڭشىيالايمىز."
+"Hvala što isprobavate ovo beta izdanje Plasme — vaše povratne informacije su "
+"nam od suštinske važnosti za njeno poboljšanje! Prijavite sve greške na koje "
+"naiđete, da bismo mogli da ih popravimo."
 
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
@@ -545,21 +542,21 @@ msgid ""
 "KDE contributors have spent the last four months hard at work on this "
 "release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr ""
-"KDE تۆھپىكارلىرى ئۆتكەن تۆت ئايدا مەزكۇر نەشرىدىكى Plasma غا كۆپ ئەجىر "
-"سىڭدۈردى. خۇددى بىز Plasma نى ياسىغاندا ھۇزۇرلانغاندەك، سىزنىڭمۇ ئۇنى "
-"ئىشلىتىپ ھۇزۇرلىنىشىڭىزنى ئۈمىد قىلىمىز!"
+"Doprinosioci KDE‑a proveli su protekla četiri mjeseca marljivo radeći na "
+"ovom izdanju. Nadamo se da ćete uživati u Plasmi koliko smo mi uživali "
+"praveći je!"
 
 #: src/qml/pages/PlasmaUpdate.qml:29
 #, kde-format
 msgctxt "@label:URL"
 msgid "Report a bug"
-msgstr "كەمتۈك مەلۇم قىل"
+msgstr "Prijavi grešku"
 
 #: src/qml/pages/PlasmaUpdate.qml:153
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr "مەزكۇر تارقىتىش ئۇقتۇرۇشىنىڭ سىڭدۈرمە ئالدىن كۆزىتىشىنى چۈشۈرەمسىز؟"
+msgstr "Preuzeti ugniježđeni pregled najave izdanja?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -568,50 +565,50 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
-"ئالدىن كۆزىتىش ئۆزلۈكىدىن چۈشۈرۈلمەيدۇ چۈنكى ئېقىمغا ھەق ھېسابلىنىدىغان تور "
-"باغلىنىشىنى ئىشلىتىۋاتىسىز."
+"Pregled nije automatski preuzet zato što koristite mrežnu vezu koja se "
+"naplaćuje po protoku."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr "ئالدىن كۆزىتىشنى چۈشۈرگىلى بولمىدى — تور خاتالىقى كۆرۈلدى(%1)."
+msgstr "Ne mogu da preuzmem pregled — došlo je do mrežne greške (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr "ئالدىن كۆزىتىشنى يۈكلىيەلمىدى — تەھلىل قىلىپ يېشىش خاتالىقى كۆرۈلدى."
+msgstr "Ne mogu da učitam pregled — došlo je do greške pri raščlanjivanju."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr "ئالدىن كۆزىتىشنى چۈشۈر"
+msgstr "Preuzmi pregled"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Anyway"
-msgstr "چۈشۈرۈۋەر"
+msgstr "Ipak preuzmi"
 
 #: src/qml/pages/PlasmaUpdate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
-msgstr "قايتا سىنا"
+msgstr "Pokušaj ponovo"
 
 #: src/qml/pages/PlasmaUpdate.qml:182
 #, kde-format
 msgctxt "@action:button"
 msgid "Open in Browser…"
-msgstr "توركۆرگۈدە ئاچ…"
+msgstr "Otvori u pregledaču…"
 
 #: src/qml/pages/PlasmaUpdate.qml:228
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr "ئالدىن كۆزىتىشنى يۈكلە"
+msgstr "Automatski učitaj pregled"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -620,21 +617,21 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
-"مەزكۇر بەت كەلگۈسىدىكى Plasma يېڭىلىنىشىنى كۆرسەتكەندە، سىستېما ئۆزلۈكىدىن "
-"ئالدىن كۆزىتىش مەزمۇنىنى يۈكلەيدۇ ئەمما ئېقىمغا ھەق ھېسابلىنىدىغان تور "
-"باغلىنىشى ئىشلىتىش بۇنىڭ سىرتىدا."
+"Pregled će se automatski učitavati pri prikazivanju ove stranice za buduća "
+"ažuriranja Plasme, osim pri korišćenju mrežne veze koja se naplaćuje po "
+"protoku."
 
 #: src/qml/pages/PlasmaUpdate.qml:422
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
-msgstr "<b>ئۇقتۇرۇشنى ئوقۇش ئۈچۈن چېكىلىدۇ</b>"
+msgstr "<b>Kliknite da pročitate najavu</b>"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "ئېھتىياجغا ئاساسەن خاسلاشتۇرۇلسا ئىقتىدارى كۈچلۈك"
+msgstr "Moćna kada zatreba"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -644,63 +641,63 @@ msgid ""
 "productivity!<nl/><nl/>Click the cards below to see just a smattering of "
 "what it can do for you:"
 msgstr ""
-"Plasma ئىقتىدارى مول ئۈستەلئۈستى مۇھىتى، خىزمەت ئۈنۈمىڭىزنى زور دەرىجىدە "
-"ئاشۇرۇش ئۈچۈن لايىھەلەنگەن!<nl/><nl/>تۆۋەندىكى كارتىنى چېكىپ ئۇنىڭ سىز ئۈچۈن "
-"نېمىلەرنى قىلىپ بېرەلەيدىغانلىقىنى كۆرۈڭ:"
+"Plasma je okruženje bogato mogućnostima, osmišljeno da vam višestruko poveća "
+"produktivnost!<nl/><nl/>Kliknite na kartice ispod da vidite tek djelić onoga "
+"što može da uradi za vas:"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:44
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
-msgstr "ھەرپتاختا تېزلەتمىسى"
+msgstr "Prečice sa tastature"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:45
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
-msgstr "ھەرپتاختىدىن ئىقتىدارنى ئاكتىپلايدۇ"
+msgstr "Pokrećite mogućnosti sa tastature"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
-msgstr "ئىخچام كۆرۈنۈش"
+msgstr "Pregled"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:51
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
-msgstr "سىستېما قوماندانلىق مەركىزى"
+msgstr "Centar naredbi vašeg sistema"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
-msgstr "KRunner"
+msgstr "K‑izvođač"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:57
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
-msgstr "ھەر قانداق نەرسىنى ئىزدەيدۇ"
+msgstr "Tražite bilo šta"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:62
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
-msgstr "KDE باغلىنىش"
+msgstr "KDE‑konekcija"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
-msgstr "تېلېفون بىلە كومپيۇتېرنى باغلايدۇ"
+msgstr "Povežite telefon i računar"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:68
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
-msgstr "پائالىيەت"
+msgstr "Aktivnosti"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:69
 #, kde-format
@@ -708,31 +705,31 @@ msgctxt ""
 "@info Caption for Activities button. Note that 'Separate' is being used as "
 "an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
-msgstr "خىزمەت، مەكتەپ ياكى ئائىلە ۋەزىپىسىنى ئايرىيدۇ"
+msgstr "Razdvojte poslovne, školske ili kućne zadatke"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
-msgstr "Vaults"
+msgstr "Trezori"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
-msgstr "سەزگۈر ھۆججەتنى بىخەتەر ساقلايدۇ"
+msgstr "Bezbjedno čuvajte osjetljive fajlove"
 
 #: src/qml/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr "Plasma ئىقتىدارى ھەققىدىكى مول بىلىم"
+msgstr "Saznaj više o mogućnostima Plasme"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Activities"
-msgstr "پائالىيەت"
+msgstr "Aktivnosti"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:23
 #, kde-kuit-format
@@ -744,19 +741,18 @@ msgid ""
 "own set of open apps and windows, recent documents, “Favorite” apps, and "
 "desktop widgets."
 msgstr ""
-"پائالىيەت ئىقتىدارى يۇقىرى ئالدىنلىقتىكى قۇرۇلۇش ياكى خىزمەت ئېقىمىنى "
-"پەرقلەندۈرۈپ، دىققىتىڭىزنى بىر ئىشقا مەركەزلەشتۈرەلەيسىز. مەسىلەن، سىز "
-"«ئائىلە»، «مەكتەپ»، «خىزمەت» دەپ ئۈچ خىل پائالىيەت قۇرۇپ بۇ ئىشلارنى بىر "
-"تەرەپ قىلىشنى ئايرىيالايسىز. ھەر بىر خىل پائالىيەت بارلىق ھۆججەتلىرىڭىزنى "
-"زىيارەت قىلالايدۇ ئەمما ئۇلار ئېچىلغان پىروگرامما ۋە كۆزنەك، يېقىنقى پۈتۈك، "
-"«ياقتۇرىدىغان» ئەپ ۋە ئۈستەلئۈستى ئەپچىنى ئايرىم ساقلايدۇ."
+"Aktivnosti služe za razdvajanje krupnih projekata ili tokova rada, tako da "
+"se možete usredsrediti na jedan po jedan. Možete imati aktivnosti „Kuća“, "
+"„Škola“, „Posao“ i tako dalje. Svaka aktivnost ima pristup svim vašim "
+"fajlovima, ali ima svoj skup otvorenih programa i prozora, nedavnih "
+"dokumenata, „omiljenih“ programa i vidžeta na površi."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
-msgstr "تەڭشەك ئاچ…"
+msgstr "Otvori postavke…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
 #, kde-kuit-format
@@ -766,16 +762,15 @@ msgid ""
 "“Activities”. On that page, you can create more Activities. You can then "
 "switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
-"ئىشلىتىشنى باشلاش ئۈچۈن، <interface>سىستېما تەڭشەك</interface> نى قوزغىتىپ "
-"«پائالىيەت» نى ئىزدەڭ. پائالىيەت بېتىدە تېخىمۇ كۆپ پائالىيەت قۇرالايسىز. "
-"يەنە <shortcut>%1</shortcut> ھەرپتاختا تېزلەتمىسىنى ئىشلىتىپ پائالىيەت "
-"ئارىسىدا ئالماشتۇرالايسىز."
+"Za početak pokrenite <interface>Sistemske postavke</interface> i potražite "
+"„Aktivnosti“. Na toj stranici možete napraviti još aktivnosti. Zatim se "
+"između njih možete prebacivati prečicom <shortcut>%1</shortcut>."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "KDE Connect"
-msgstr "KDE باغلىنىش"
+msgstr "KDE‑konekcija"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
 #, kde-kuit-format
@@ -789,14 +784,13 @@ msgid ""
 "item><item>Copy pictures, videos, and other files from your phone to your "
 "computer, and vice versa</item><item>…And much more!</item></list>"
 msgstr ""
-"KDE باغلىنىش كۆپ خىل ئۇسۇلدا تېلېفون بىلەن كومپيۇتېرنى توپلاشتۇرىدۇ:<nl/"
-"><list><item>كومپيۇتېردا تېلېفوننىڭ ئۇقتۇرۇشىنى كۆرگىلى بولىدۇ</"
-"item><item>كومپيۇتېردا تېلېفوندا كەلگەن قىسقا ئۇچۇرغا جاۋاب قايتۇرغىلى "
-"بولىدۇ</item><item>كومپيۇتېر بىلەن تېلېفون ئارىسىدا چاپلاش تاختىسىنىڭ "
-"مەزمۇنىنى قەدەمداشلىيالايدۇ</item><item>تېلېفون يىتىپ كەتكەندە ئۇنىڭدىن "
-"ئاۋاز چىقىرالايدۇ</item><item>كومپيۇتېر بىلەن تېلېفون ئارىسىدا سۈرەت، سىن ۋە "
-"باشقا ھۆججەتنى كۆچۈرۈپ چاپلىغىلى بولىدۇ</item><item>…تېخىمۇ كۆپ ئىقتىدارى "
-"بار!</item></list>"
+"KDE‑konekcija vam omogućava da na razne načine povežete telefon sa računarom:"
+"<nl/><list><item>Gledajte obavještenja sa telefona na računaru</"
+"item><item>Odgovarajte na tekstualne poruke sa telefona na računaru</"
+"item><item>Usklađujte sadržaj klipborda između računara i telefona</"
+"item><item>Pustite zvuk na telefonu kad ga zagubite</item><item>Kopirajte "
+"slike, video snimke i druge fajlove sa telefona na računar i obrnuto</"
+"item><item>…I još mnogo toga!</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
@@ -805,32 +799,32 @@ msgid ""
 "To get started, click the <interface>%1</interface> button. You can pair "
 "your phone there."
 msgstr ""
-"ئىشلىتىشنى باشلاشتا، <interface>%1</interface> توپچىنى چېكىڭ. ئۇ جايدا "
-"تېلېفونىڭىزنى جۈپلىيەلەيسىز."
+"Za početak kliknite na dugme <interface>%1</interface>. Tamo možete upariti "
+"telefon."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1"
-msgstr "%1 نى ئاچ"
+msgstr "Otvori program %1"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
 #, kde-format
 msgctxt "@info"
 msgid "KDE Connect is not installed."
-msgstr "KDE باغلىنىش ئورنىتىلمىغان."
+msgstr "KDE‑konekcija nije instalirana."
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
 #, kde-format
 msgctxt "@action:button Install KDE Connect"
 msgid "Install KDE Connect…"
-msgstr "KDE باغلىنىشنى ئورنات…"
+msgstr "Instaliraj KDE‑konekciju…"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "KRunner"
-msgstr "KRunner"
+msgstr "K‑izvođač"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
 #, kde-kuit-format
@@ -843,13 +837,12 @@ msgid ""
 "your files and folders, KRunner can launch apps, search the web, convert "
 "between currencies, calculate math problems, and a lot more."
 msgstr ""
-"KRunner پىروگراممىسى Plasma دىكى ئىقتىدارى كۈچلۈك ۋە ئىشلىتىلىشى كۆپ خىل "
-"ئىزدەش سىستېمىسى. پىروگرامما قوزغاتقۇچ تىزىملىكى، ئىخچام كۆرۈنۈش ئېكرانىدا "
-"ئۇنىڭ ئىزدەش ئىقتىدارىنى ئىشلىتەلەيسىز، يەنە <shortcut>%1</shortcut> "
-"ھەرپتاختا تېزلەتمىسىنى بېسىپ ئۇنىڭ مۇستەقىل ئىزدەش بالدىقىنى كۆرسىتەلەيسىز."
-"<nl/><nl/>ھۆججەت ۋە قىسقۇچ ئىزدەشتىن سىرت يەنە، KRunner پىروگرامما قوزغىتىش، "
-"تور مەزمۇنى ئىزدەش، پۇل بىرلىكىنى ئايلاندۇرۇش، ماتېماتىكىلىق ھېسابلاش "
-"مەسىلىسى ۋە تېخىمۇ كۆپ ئىقتىدارنى ئىجرا قىلالايدۇ."
+"K‑izvođač je izuzetno moćan i svestran sistem pretrage u Plasmi. Pokreće "
+"pretragu u meniju pokretača programa i na ekranu pregleda, a može se pozvati "
+"i kao samostalna traka za pretragu, prečicom <shortcut>%1</shortcut>.<nl/"
+"><nl/>Osim što nalazi vaše fajlove i fascikle, K‑izvođač može da pokreće "
+"programe, pretražuje veb, pretvara valute, rješava matematičke zadatke i još "
+"mnogo toga."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
 #, kde-kuit-format
@@ -858,8 +851,8 @@ msgid ""
 "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> "
 "keyboard shortcut and click on the question mark icon."
 msgstr ""
-"تېخىمۇ كۆپ ئۇچۇرنى بىلىشتە، <shortcut>%1</shortcut> ھەرپتاختا تېزلەتمىسىدە "
-"KRunner نىڭ ئىزدەش بالدىقىنى ئېچىپ ئاندىن سوئال بەلگىسى چېكىلىدۇ."
+"Da biste saznali više, otvorite traku za pretragu K‑izvođača prečicom "
+"<shortcut>%1</shortcut> i kliknite na ikonicu sa znakom pitanja."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
@@ -869,7 +862,7 @@ msgctxt ""
 "city that on the other side of the world from likely speakers of the "
 "language."
 msgid "time Shanghai"
-msgstr "ئۈرۈمچى ۋاقتى"
+msgstr "vrijeme Šangaj"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
@@ -886,7 +879,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the currency "
 "conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
-msgstr "200 EUR قانچە USD"
+msgstr "200 EUR u USD"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
@@ -895,7 +888,7 @@ msgctxt ""
 "they are in the actual runner plugins. If needed, change the conversion to a "
 "likely one for speakers of the language."
 msgid "25 miles in km"
-msgstr "25 miles قانچە km"
+msgstr "25 milja u km"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:79
 #, kde-format
@@ -903,19 +896,19 @@ msgctxt ""
 "@info:usagetip An addendum to example KRunner queries, intentionally using "
 "'...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
-msgstr "…ۋە تېخىمۇ كۆپ!"
+msgstr "...i još mnogo toga!"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
-msgstr "ھەرپتاختا تېزلەتمىسى"
+msgstr "Prečice sa tastature"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
-msgstr "تېزلەتمە سەپلىمە…"
+msgstr "Podesi prečice…"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
@@ -925,9 +918,9 @@ msgid ""
 "that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac "
 "keyboard, this is the “Command” key:"
 msgstr ""
-"Plasma دىكى ھەر قانداق مەشغۇلاتنى ھەرپتاختىدا تاماملىغىلى بولىدۇ، بۇ "
-"تېزلەتمىنىڭ كۆپ قىسمى <shortcut>Meta</shortcut> كۇنۇپكىسىغا چېتىلىدۇ.<nl/"
-"><nl/>Mac ھەرپتاختىدا، بۇ «Command» كۇنۇپكىسى:"
+"Skoro sve u Plasmi može se uraditi tastaturom, prečicama koje uglavnom "
+"uključuju taster <shortcut>Meta</shortcut>.<nl/><nl/>Na tastaturi Applea to "
+"je taster „Command“:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
 #, kde-kuit-format
@@ -939,11 +932,10 @@ msgid ""
 "<shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or "
 "the word “Super”:"
 msgstr ""
-"Plasma دىكى ھەر قانداق مەشغۇلاتنى ھەرپتاختىدا تاماملىغىلى بولىدۇ، بۇ "
-"تېزلەتمىنىڭ كۆپ قىسمى <shortcut>Meta</shortcut> كۇنۇپكىسىغا چېتىلىدۇ.<nl/"
-"><nl/>بۇ كۇنۇپكا ئادەتتە سول <shortcut>Ctrl</shortcut> بىلەن <shortcut>Alt</"
-"shortcut> كۇنۇپكىسى ئارىسىدا بولىدۇ ھەمدە بەزى بەلگە ياكى «Super» سۆزى بىلەن "
-"ئىپادىلىنىدۇ:"
+"Skoro sve u Plasmi može se uraditi tastaturom, prečicama koje uglavnom "
+"uključuju taster <shortcut>Meta</shortcut>.<nl/><nl/>Ovaj taster se obično "
+"nalazi između lijevih tastera <shortcut>Ctrl</shortcut> i <shortcut>Alt</"
+"shortcut>, a na njemu je neki simbol ili riječ „Super“:"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
@@ -970,7 +962,7 @@ msgctxt ""
 "have many symbols. Translate it into one of similar groanworthiness if this "
 "is possible; if not, translate it as an single space."
 msgid "I never meta key I didn't like"
-msgstr "شەكلى خىلمۇ-خىل Meta كۇنۇپكىسى"
+msgstr "Ko god da je na tasteru, meta je ista"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
@@ -994,13 +986,13 @@ msgstr "control"
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
-msgstr "تاللانما"
+msgstr "option"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:155
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
-msgstr "بۇيرۇق"
+msgstr "command"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:164
 #, kde-kuit-format
@@ -1019,26 +1011,26 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
-"<shortcut>Meta</shortcut> كۇنۇپكىسى بىلەن نېمە ئىش قىلغىلى بولىدۇ؟ "
-"تۆۋەندىكىسى بىر قىسىم ئەمەلىي مىسال:<list><item>بېسىلسا: پىروگرامما "
-"قوزغاتقۇچ ئەپچىنى ئاچىدۇ</item><item><shortcut>Meta+[يا ئوق كۇنۇپكىسى]</"
-"shortcut> بېسىلسا: كۆزنەكنى ئېكران گىرۋىكى ياكى بۇلۇڭىغا جىپسالايدۇ</"
-"item><item><shortcut>Meta+[سان كۇنۇپكىسى]</shortcut> بېسىلسا: ۋەزىپە "
-"باشقۇرغۇچقا مىخلانغا پىروگراممىنى قوزغىتىدۇ</item><item><shortcut>Meta+R</"
-"shortcut> بېسىلسا: ئېكراننى سىنغا خاتىرىلەيدۇ</item><item><shortcut>Meta+L</"
-"shortcut> بېسىلسا: ئېكراننى قۇلۇپلايدۇ</item><item><shortcut>Meta+Shift+S</"
-"shortcut> بېسىلسا: ئېكران ئوقۇغۇچنى ئاچ/تاقا</item><item><shortcut>Meta+Alt"
-"+P</shortcut> بېسىلسا: ھەرپتاختا فوكۇسىنى كۆزنەكچىگە يۆتكەيدۇ</"
-"item><item><shortcut>Meta+Esc</shortcut> بېسىلسا: سىستېما كۆزەتكۈچ "
-"پىروگراممىسىنى قوزغىتىدۇ</item><item><shortcut>Meta+.</shortcut> بېسىلسا: "
-"چىراي ئىپادە تاللىغۇچ پىروگراممىسىنى قوزغىتىدۇ</item><item><shortcut>Meta+D</"
-"shortcut> بېسىلسا: ئۈستەلئۈستىنى كۆرسىتىدۇ</item></list>"
+"Šta možete da uradite tasterom <shortcut>Meta</shortcut>? Evo nekoliko "
+"primjera:<list><item>Pritisnite ga: otvaranje vidžeta „Pokretač programa“</"
+"item><item>Pritisnite <shortcut>Meta+[tasteri strelica]</shortcut>: "
+"popločavanje prozora uz ivice ili uglove ekrana</item><item>Pritisnite "
+"<shortcut>Meta+[brojčani tasteri]</shortcut>: pokretanje programa zakačenih "
+"u menadžeru zadataka</item><item>Pritisnite <shortcut>Meta+R</shortcut>: "
+"početak snimanja ekrana</item><item>Pritisnite <shortcut>Meta+L</shortcut>: "
+"zaključavanje ekrana</item><item>Pritisnite <shortcut>Meta+Shift+S</"
+"shortcut>: uključivanje i isključivanje čitača ekrana</item><item>Pritisnite "
+"<shortcut>Meta+Alt+P</shortcut>: pomijeranje fokusa tastature na panel</"
+"item><item>Pritisnite <shortcut>Meta+Esc</shortcut>: pokretanje programa "
+"„Nadzornik sistema“</item><item>Pritisnite <shortcut>Meta+.</shortcut>: "
+"pokretanje programa „Birač emodžija“</item><item>Pritisnite <shortcut>Meta"
+"+D</shortcut>: prikaz površi</item></list>"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
 msgid "Overview"
-msgstr "ئىخچام كۆرۈنۈش"
+msgstr "Pregled"
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:20
 #, kde-kuit-format
@@ -1050,12 +1042,11 @@ msgid ""
 "Finally, it offers a KRunner-powered search field that can also filter "
 "through open windows."
 msgstr ""
-"ئىخچام كۆرۈنۈش تولۇق ئېكران دەستىلەنمە كۆرۈنۈش بولۇپ، ئۇ ئېچىلغان ھەممە "
-"كۆزنەكنى كۆرسىتىدۇ، خالىغان بىرىنى زىيارەت قىلالايسىز. ئۇ يەنە نۆۋەتتىكى "
-"مەۋھۇم ئۈستەلئۈستىنىمۇ كۆرسىتىدۇ، خالىغان مەۋھۇم ئۈستەلئۈستى ئارىسىدا "
-"ئالماشتۇرالايسىز، مەۋھۇم ئۈستەلئۈستى قوشۇپ ۋە چىقىرىۋېتەلەيسىز. ئۇ KRunner "
-"تەمىنلىگەن ئىزدەش بالداق ئىقتىدارىنى ئىشلىتىپ سىستېما ئىقتىدارىنى ئىزدەش "
-"ئىقتىدارىدىن پايدىلىنىپ ئېچىلغان كۆزنەكنىمۇ سۈزەلەيدۇ."
+"Pregled je sloj preko cijelog ekrana koji prikazuje sve vaše otvorene "
+"prozore i omogućava lak pristup svakom od njih. Prikazuje i trenutne "
+"virtuelne površi, pa možete dodavati nove, uklanjati neke i prebacivati se "
+"između njih. Najzad, nudi polje za pretragu koje pokreće K‑izvođač, a koje "
+"može da filtrira i otvorene prozore."
 
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
 #, kde-kuit-format
@@ -1066,16 +1057,15 @@ msgid ""
 "press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in "
 "a grid."
 msgstr ""
-"سىز <shortcut>%1</shortcut> ھەرپتاختا تېزلەتمىسى ياكى چاشقىنەك نىشانلىغۇچنى "
-"ئېكراننىڭ سول ئوڭ بۇرجىكىگە يۆتكەپ ئىخچام كۆرۈنۈشنى زىيارەت قىلالايسىز. يەنە "
-"<shortcut>%2</shortcut> نى بېسىپ شادا كۆرۈنۈشنى ئاكتىپلاپ، مەۋھۇم "
-"ئۈستەلئۈستىنى شادا شەكلىدە كۆرسىتەلەيسىز."
+"Pregledu možete pristupiti prečicom <shortcut>%1</shortcut> ili pomijeranjem "
+"miša u gornji lijevi ugao ekrana. Možete pritisnuti i <shortcut>%2</"
+"shortcut> za mrežni prikaz, koji prikazuje virtuelne površi u mreži."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
 msgctxt "@info:window"
 msgid "Plasma Vaults"
-msgstr "Plasma Vaults"
+msgstr "Plasma trezori"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:23
 #, kde-kuit-format
@@ -1087,34 +1077,34 @@ msgid ""
 "Vaults can live inside folders that are synced to cloud storage services "
 "too, providing extra privacy for that content."
 msgstr ""
-"Plasma Vaults پىروگراممىسى <interface>Vaults.</interface> دەپ ئاتىلىدىغان "
-"شىفىرلانغان قىسقۇچ قۇرۇشىڭىزغا يول قويىدۇ. ئۇنىڭدا ئىم، ھۆججەت، رەسىم ۋە "
-"پۈتۈكنى بىخەتەر ساقلاپ، باشقىلارنىڭ ئوغرىلىشىنىڭ ئالدىنى ئالالايسىز. Vaults "
-"يەنە ھۆججەت سۈپىتىدە توردىكى بۇلۇت ساقلاش مۇلازىمىتى بىلەن قەدەمداشلاپ، "
-"بۇلۇت مۇلازىمىتىدىكى مەزمۇن ئۈچۈن قوشۇمچە شەخسىيەت بىلەن تەمىنلەيدۇ."
+"Plasma trezori vam omogućavaju da napravite šifrovane fascikle, koje se zovu "
+"<interface>trezori.</interface> U svakom trezoru možete bezbjedno čuvati "
+"lozinke, fajlove, slike i dokumente, daleko od radoznalih očiju. Trezori "
+"mogu biti i u fasciklama koje se usklađuju sa servisima za skladištenje u "
+"oblaku, što pruža dodatnu privatnost za taj sadržaj."
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
 #, kde-format
 msgctxt "@title:window Title of the Plasma Vaults popup"
 msgid "Vaults"
-msgstr "Vaults"
+msgstr "Trezori"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:112
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "Important Documents"
-msgstr "مۇھىم پۈتۈك"
+msgstr "Važni dokumenti"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:113
 #, kde-format
 msgctxt "@title The name of an example Plasma vault"
 msgid "My Photos"
-msgstr "سۈرەتلىرىم"
+msgstr "Moje fotografije"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:121
 #, kde-format
 msgid "Unlock and Open"
-msgstr "قۇلۇپنى ئاچ ۋە ئاچ"
+msgstr "Otključaj i otvori"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
@@ -1123,15 +1113,15 @@ msgid ""
 "To get started, click the arrow on the <interface>System Tray</interface> to "
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"ئىشلىتىشنى باشلاشتا، <interface>سىستېما قونداق</interface> تىكى يا ئوق "
-"سىنبەلگىنى چېكىپ يوشۇرۇن تۈرلەرنى كۆرسەتكىلى بولىدۇ، ئاندىن "
-"<interface>Vaults</interface> سىنبەلگىسى چېكىلسە بولىدۇ."
+"Za početak kliknite na strelicu u <interface>sistemskoj kaseti</interface> "
+"da prikažete skrivene stavke, a zatim kliknite na ikonicu "
+"<interface>Trezori</interface>."
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "كۆڭۈلدىكى ھالەتتە ئاددىي"
+msgstr "Podrazumijevano jednostavna"
 
 #: src/qml/pages/SimpleByDefault.qml:22
 #, kde-kuit-format
@@ -1143,11 +1133,11 @@ msgid ""
 "representation of a typical Plasma Desktop; move the pointer over or click "
 "on something to learn about it!"
 msgstr ""
-"Plasma نى قولغا ئېلىپلا ئىشلەتكىلى بولىدىغان ئاددىي لايىھەلەنگەن. كۆڭۈلدىكى "
-"سەپلىمىسى زور كۆپچىلىك كىشىنىڭ ئىشلىتىش ئادىتىنى ئويلاشقان بولۇپ، مۇرەككەپ "
-"سەپلەش ھاجەتسىز بولۇپ، كومپيۇتېرنى راھەت ئۈنۈملۈك ئىشلىتەلەيسىز.<nl/><nl/"
-">تۆۋەندە Plasma ئۈستەلئۈستىنىڭ ئەنئەنىۋى ھالىتى كۆرسىتىلگەن. نىشاننى چېكىپ "
-"ياكى چاشقىنەكتە نىشانلانسا ئۇنىڭ ئىقتىدارىنى بىلگىلى بولىدۇ!"
+"Plasma je osmišljena da bude jednostavna i upotrebljiva odmah po "
+"instaliranju. Stvari su tamo gdje ih očekujete i uglavnom nema potrebe da "
+"išta podešavate da biste se osjećali prijatno i bili produktivni.<nl/><nl/"
+">Ispod je vizuelni prikaz tipične površi Plasme; prijeđite pokazivačem preko "
+"nečega ili kliknite na to da biste saznali šta je!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1159,11 +1149,11 @@ msgid ""
 "appearance of the desktop. You can also choose <interface>Enter Edit Mode</"
 "interface> to add, remove or modify widgets."
 msgstr ""
-"بۇ «ئۈستەلئۈستى». ئۇ <filename>ئۈستەلئۈستى</filename> قىسقۇچىدىكى ھۆججەت ۋە "
-"قىسقۇچنى كۆرسىتىدۇ، ئۇنىڭغا ئەپچە قويغىلى بولىدۇ. ئوڭ چېكىپ "
-"<interface>ئۈستەلئۈستى ۋە تام قەغەز…</interface> نى تاللاپ ئۈستەلئۈستىنىڭ "
-"قىياپىتىنى سەپلىگىلى بولىدۇ. يەنە <interface>تەھرىرلەش ھالىتىگە كىر</"
-"interface> نى تاللاپ ئەپچە قوشۇپ، چىقىرىۋېتىپ ياكى ئۆزگەرتكىلى بولىدۇ."
+"Ovo je „površ“. Prikazuje fajlove i fascikle koje se nalaze u vašoj fascikli "
+"<filename>Desktop</filename> i može da sadrži vidžete. Kliknite desnim "
+"dugmetom na nju i izaberite <interface>Površ i tapet…</interface> da "
+"podesite izgled površi. Možete izabrati i <interface>Uđi u režim uređivanja</"
+"interface> da dodate, uklonite ili izmijenite vidžete."
 
 #: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
@@ -1173,10 +1163,10 @@ msgid ""
 "choose <interface>Show Panel Configuration</interface> to change how it "
 "behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr ""
-"بۇ «كۆزنەكچە» — ئۇ ئەپچە قاچىلايدىغان يۈكدان. كۆزنەكچىدە چاشقىنەكنى ئوڭ "
-"چېكىپ، تىزىملىكتىن <interface>كۆزنەكچە سەپلىمىسىنى كۆرسەت</interface> نى "
-"تاللاپ كۆزنەكچە قىلمىشى، ئېكران گىرۋىكىگە يېپىشتۇرۇش، ئەپچە قوشۇش، "
-"چىقىرىۋېتىش ۋە ئۆزگەرتىش مەشغۇلاتىنى سەپلىيەلەيدۇ."
+"Ovo je „panel“ — sadržalac za vidžete. Kliknite desnim dugmetom na njega i "
+"izaberite <interface>Prikaži postavu panela</interface> da promijenite kako "
+"se ponaša, uz koju ivicu ekrana stoji, i da dodate, uklonite ili izmijenite "
+"vidžete."
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -1186,10 +1176,9 @@ msgid ""
 "can launch apps, shut down or restart the system, access recent files, and "
 "more. Click on it to get started!"
 msgstr ""
-"بۇ «پىروگرامما قوزغاتقۇچ» ئەپچە، ئۇ كۆپ ئىشلىتىلىدىغان قوزغاتقۇچ. باشلا "
-"تىزىملىكىگە ئوخشاپ كېتىدۇ. قوزغاتقۇچ ئارقىلىق پىروگرامما قوزغىتىش، "
-"كومپيۇتېرنى تاقاش ياكى قايتا قوزغىتىش، يېقىنقى ھۆججەتنى زىيارەت قىلىش ۋە "
-"باشقا مەشغۇلاتنى قوزغىتالايسىز. ئۇنى چېكىپ باشلىيالايسىز!"
+"Ovo je vidžet „Pokretač programa“, višenamjenski pokretač. Ovdje možete "
+"pokretati programe, ugasiti ili ponovo pokrenuti sistem, pristupiti nedavnim "
+"fajlovima i još mnogo toga. Kliknite na njega da počnete!"
 
 #: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
@@ -1198,9 +1187,8 @@ msgid ""
 "This is the “Task Manager” widget, where you can switch between open apps "
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
-"بۇ «ۋەزىپە باشقۇرغۇچ» ئەپچە، ئۇنىڭ بىلەن پىروگرامما قوزغىتىپ ياكى ئوچۇق "
-"پىروگراممىلار ئارا ئالماشتۇرالايسىز. پىروگرامما ياكى ئەپ سىنبەلگىسىنى سۆرەش "
-"ئارقىلىق ئۇلارنىڭ تەرتىپىنى قايتا تەرتىپلىيەلەيسىز."
+"Ovo je vidžet „Menadžer zadataka“, u kom možete prelaziti između otvorenih "
+"programa i pokretati nove. Prevucite ikonice programa da ih preuredite."
 
 #: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
@@ -1211,10 +1199,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ⌃ "
 "arrow next to the clock."
 msgstr ""
-"بۇ «سىستېما قونداق» ئەپچە، ئاۋاز كۈچلۈكلۈكىنى ئۆزگەرتىش ۋە تورغا باغلاش "
-"قاتارلىق سىستېما ئىقتىدارلىرىنى تىزگىنلىيەلەيسىز. كۆڭۈلدىكى ئەھۋالدا سىستېما "
-"قونداقتا نۆۋەتتىكى ئىشلەتكىلى بولىدىغان تۈرنىلا كۆرسەتكىلى بولىدۇ. ھەممە "
-"تۈرنى كۆرسىتىشتە، سائەتنىڭ يېنىدىكى ⌃ يا ئوق چېكىلىدۇ."
+"Ovo je vidžet „Sistemska kaseta“, pomoću kog možete upravljati sistemom, na "
+"primjer mijenjati jačinu zvuka i povezivati se na mreže. Stavke će se ovdje "
+"pojaviti samo kad su bitne. Da biste vidjeli sve dostupne stavke, kliknite "
+"na strelicu ⌃ pored sata."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
@@ -1224,9 +1212,9 @@ msgid ""
 "be also configured to show other timezones and events from your digital "
 "calendars."
 msgstr ""
-"بۇ «رەقەملىك سائەت» ئەپچە، ئۇنى چەكسە يىلنامە كۆرۈنىدۇ. ئۇ يەنە رەقەملىك "
-"يىلنامەدىن باشقا ۋاقىت رايونى ۋە پائالىيەتنى كۆرسىتىپ، ئۇلارنى سەپلىگىلى "
-"بولىدۇ."
+"Ovo je vidžet „Digitalni sat“. Kliknite na njega da prikažete kalendar. Može "
+"se podesiti i da prikazuje druge vremenske zone i događaje iz vaših "
+"digitalnih kalendara."
 
 #: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
@@ -1236,15 +1224,14 @@ msgid ""
 "open windows so you can access the desktop. Click on it again to bring them "
 "back."
 msgstr ""
-"بۇ «ئۈستەلئۈستى كۆرسەت» ئەپچە. ئۇنى چەكسە ئۈستەلئۈستىدىكى زىيارەت قىلغىلى "
-"بولىدىغان بارلىق ئوچۇق كۆزنەكنى ۋاقىتلىق يوشۇرۇپ، ئۈستەلئۈستىنى زىيارەت "
-"قىلغىلى بولىدۇ. يەنە بىر چېكىلسە ئەسلىدىكى ھالىتىگە قايتۇرىدۇ."
+"Ovo je vidžet „Zaviri u površ“. Kliknite na njega da privremeno sakrijete "
+"sve otvorene prozore i pristupite površi. Kliknite ponovo da ih vratite."
 
 #: src/qml/pages/Welcome.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Welcome"
-msgstr "خۇش كەپسىز"
+msgstr "Dobro došli"
 
 #: src/qml/pages/Welcome.qml:23
 #, kde-kuit-format
@@ -1256,13 +1243,11 @@ msgid ""
 "but powerful when needed to help you really get things done. We hope you "
 "love it!"
 msgstr ""
-"%1<nl/><nl/> بۇ مەشغۇلات سىستېمىسى Plasma نى ئىجرا قىلىۋاتىدۇ، ئۇ KDE "
-"جامائىتى قۇرغان ئەركىن ۋە ئوچۇق كودلۇق ئۈستەلئۈستى مۇھىتى بولۇپ، "
-"پىدائىيلاردىن تەشكىللەنگەن خەلقئارالىق يۇمشاق دېتال جامائىتى. كۆڭۈلدىكى "
-"ئەھۋالدا Plasma ئاددىي ۋە ئىشلىتىشكە قولايلىق لايىھەلەنگەن بولۇپ، مۇرەككەپ "
-"تەڭشەش ئېلىپ بارمايلا ئىشلەتكىلى بولىدۇ. Plasma نىڭ ئىقتىدارى كۈچلۈك بولۇپلا "
-"قالماي يەنە مول تەڭشەك تاللانمىسى بىلەن  تەمىنلىگەن ۋەزىپىنى ئۈنۈملۈك "
-"بېجىرىشىڭىزگە ياردەم بېرىدۇ. ئۇنى ياقتۇرۇشىڭىزنى ئۈمىد قىلىمىز!"
+"%1<nl/><nl/>Na ovom operativnom sistemu radi Plasma, slobodno okruženje "
+"površi otvorenog koda, koje je stvorio KDE, međunarodna softverska zajednica "
+"dobrovoljaca. Osmišljena je da bude podrazumijevano jednostavna, za uglađeno "
+"iskustvo, ali moćna kada zatreba, da vam pomogne da zaista obavite posao. "
+"Nadamo se da ćete je zavoljeti!"
 
 #: src/qml/pages/Welcome.qml:24
 #, kde-kuit-format
@@ -1274,49 +1259,47 @@ msgid ""
 "a smooth experience, but powerful when needed to help you really get things "
 "done. We hope you love it!"
 msgstr ""
-"%1 غا خۇش كەلدىڭىز، بۇ مەشغۇلات سىستېمىسى Plasma نى ئىجرا قىلىۋاتىدۇ، ئۇ KDE "
-"جامائىتى قۇرغان ئەركىن ۋە ئوچۇق كودلۇق ئۈستەلئۈستى مۇھىتى بولۇپ، "
-"پىدائىيلاردىن تەشكىللەنگەن خەلقئارالىق يۇمشاق دېتال جامائىتى. كۆڭۈلدىكى "
-"ئەھۋالدا Plasma ئاددىي ۋە ئىشلىتىشكە قولايلىق لايىھەلەنگەن بولۇپ، مۇرەككەپ "
-"تەڭشەش ئېلىپ بارمايلا ئىشلەتكىلى بولىدۇ. Plasma نىڭ ئىقتىدارى كۈچلۈك بولۇپلا "
-"قالماي يەنە مول تەڭشەك تاللانمىسى بىلەن  تەمىنلىگەن. ۋەزىپىنى ئۈنۈملۈك "
-"بېجىرىشىڭىزگە ياردەم بېرىدۇ. ئۇنى ياقتۇرۇشىڭىزنى ئۈمىد قىلىمىز!"
+"Dobro došli u operativni sistem %1 sa KDE Plasmom!<nl/><nl/>Plasma je "
+"slobodno okruženje površi otvorenog koda, koje je stvorio KDE, međunarodna "
+"softverska zajednica dobrovoljaca. Osmišljena je da bude podrazumijevano "
+"jednostavna, za uglađeno iskustvo, ali moćna kada zatreba, da vam pomogne da "
+"zaista obavite posao. Nadamo se da ćete je zavoljeti!"
 
 #: src/qml/pages/Welcome.qml:28
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Welcome Center"
-msgstr "قارشى ئېلىش مەركىزى ھەققىدە"
+msgstr "O Centru dobrodošlice"
 
 #: src/qml/pages/Welcome.qml:34
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr "KDE ھەققىدە"
+msgstr "O KDE‑u"
 
 #: src/qml/pages/Welcome.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr "KDE جامائىتى ھەققىدە مول بىلىم"
+msgstr "Saznaj više o zajednici KDE‑a"
 
 #: src/qml/pages/Welcome.qml:62
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
-msgstr "%1 ھەققىدىكى مول بىلىم"
+msgstr "Saznaj više o sistemu %1"
 
 #: src/qml/pages/Welcome.qml:99
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr "سۈرەت يۈكلىيەلمىدى"
+msgstr "Ne mogu da učitam sliku"
 
 #: src/qml/pages/Welcome.qml:100
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr "<filename>%1</filename> نى يۈكلىيەلمىدى. ئۇنىڭ مەۋجۇتلۇقىنى جەزملەڭ."
+msgstr "Ne mogu da učitam <filename>%1</filename>. Provjerite da li postoji."
 
 #: src/qml/pages/Welcome.qml:121
 #, kde-format
@@ -1325,23 +1308,23 @@ msgid ""
 "The KDE mascot Konqi welcomes you to the KDE community for this 30th "
 "anniversary release!"
 msgstr ""
-"KDE نىڭ قۇت بەلگىسى Konqi سىزنىڭ 30 يىللىق نەشرىنى ئىشلىتىشىڭىزنى ۋە KDE "
-"جامائىتىگە كەلگىنىڭىزنى قارشى ئالىدۇ!"
+"Konki, maskota KDE‑a, želi vam dobrodošlicu u zajednicu KDE‑a povodom "
+"izdanja za 30. godišnjicu!"
 
 #: src/release.cpp:42
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
-msgstr "%1 ئىجادىيەت نەشرى"
+msgstr "razvojno izdanje %1"
 
 #: src/release.cpp:45
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
-msgstr "%1 سىناق نەشرى"
+msgstr "%1 beta"
 
 #: src/release.cpp:49
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
-msgstr "%1 سىناق نەشرى %2"
+msgstr "%1 beta %2"

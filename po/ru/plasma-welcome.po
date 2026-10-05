@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 16:19+0000\n"
-"PO-Revision-Date: 2026-09-22 21:30+0200\n"
+"PO-Revision-Date: 2026-10-04 10:06+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -81,7 +81,7 @@ msgstr "Вывести заметки к текущему выпуску Plasma.
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr ""
-"Вывести страницу,предназначенную для работы дистрибутива в режиме без "
+"Вывести страницу, предназначенную для работы дистрибутива в режиме без "
 "установки."
 
 #: src/main.cpp:83
@@ -193,7 +193,7 @@ msgstr "Открывать после обновления Plasma"
 #, kde-format
 msgctxt "@action:button"
 msgid "&OK"
-msgstr "&OK"
+msgstr "&ОК"
 
 #: src/qml/mock/MockActivities.qml:58
 #, kde-format
@@ -309,9 +309,9 @@ msgid ""
 "does it all for you!<nl/><nl/>Click on any of the icons below to give it a "
 "try!"
 msgstr ""
-"Нет необходимости искать установщики приложений в интернете или использовать "
+"Нет необходимости искать установщики приложений в Интернете или использовать "
 "менеджер пакетов через командную строку — магазин приложений KDE "
-"<application>%1</application> сделает всё сам!<nl/><nl/>Нажми на любой "
+"<application>%1</application> сделает всё сам!<nl/><nl/>Нажмите на любой "
 "значок ниже, чтобы попробовать!"
 
 #: src/qml/pages/Discover.qml:103
@@ -452,7 +452,7 @@ msgid ""
 "find out about KDE Plasma."
 msgstr ""
 "Вы можете закрыть окно, чтобы продолжить изучение Plasma без установки, или "
-"продолжить в этом приложении, чтобы узнать больше KDE Plasma."
+"продолжить в этом приложении, чтобы узнать больше о KDE Plasma."
 
 #: src/qml/pages/Live.qml:32
 #, kde-format
@@ -464,7 +464,7 @@ msgstr "Посетить домашнюю страницу"
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
-msgstr "Доступ в интернет"
+msgstr "Доступ в Интернет"
 
 #: src/qml/pages/Network.qml:22
 #, kde-kuit-format
@@ -475,10 +475,10 @@ msgid ""
 "<interface>Networks</interface> icon in your <interface>System Tray</"
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
-"Для настройки подключения к интернету и управления сетевыми подключениями "
+"Для настройки подключения к Интернету и управления сетевыми подключениями "
 "служит виджет <interface>Сети</interface>, который открывается после нажатия "
-"на значок <interface>Сетевые подключения</interface> в <interface>системном "
-"лотке</interface> в правом нижнем углу экрана."
+"на значок <interface>Сети</interface> в <interface>системном лотке</"
+"interface> в правом нижнем углу экрана."
 
 #: src/qml/pages/Network.qml:39
 #, kde-format
@@ -563,7 +563,7 @@ msgstr "Сообщить об ошибке"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr "Скачать встроенный предварительный просмотр анонса выпуска?"
+msgstr "Загрузить встроенный предварительный просмотр анонса выпуска?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -624,9 +624,9 @@ msgid ""
 "The preview will be loaded automatically when this page is shown for future "
 "Plasma updates, except when using a metered network connection."
 msgstr ""
-"Предварительный просмотр будет загружаться автоматически при отображении "
-"этой страницы для будущих обновлений Plasma, за исключением случаев "
-"использования тарифицируемого сетевого соединения."
+"Предварительный просмотр будет загружаться автоматически при показе этой "
+"страницы для будущих обновлений Plasma, за исключением случаев использования "
+"тарифицируемого сетевого соединения."
 
 #: src/qml/pages/PlasmaUpdate.qml:422
 #, kde-format
@@ -850,7 +850,7 @@ msgstr ""
 "её помощью выполняется поиск в меню запуска приложений и на экране обзора, а "
 "также она доступна как отдельная строка поиска по комбинации клавиш "
 "<shortcut>%1</shortcut>.<nl/><nl/>Помимо поиска файлов и папок, KRunner "
-"может запускать приложения, выполнять поиск в Интернете, конвертировать "
+"может запускать приложения, выполнять поиск в Интернете, пересчитывать "
 "валюты, решать математические задачи и многое другое."
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
@@ -1069,7 +1069,7 @@ msgid ""
 "a grid."
 msgstr ""
 "Вызвать эффект «Обзор» возможно несколькими способами: используйте "
-"комбинацию клавиш <shortcut>%1</shortcut> или  переместите курсор мыши в "
+"комбинацию клавиш <shortcut>%1</shortcut> или переместите курсор мыши в "
 "левый верхний угол экрана. Также возможно использовать комбинацию клавиш "
 "<shortcut>%2</shortcut> для вызова режима просмотра виртуальных рабочих "
 "столов сеткой."
