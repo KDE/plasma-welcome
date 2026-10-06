@@ -79,6 +79,18 @@ Kirigami.ScrollablePage {
                         subtitle: i18nc("@info subtitle for Open Config Folder", "Safe to try; cache files are automatically regenerated"),
                         page: "ClearCache.qml"
                     },
+                    {
+                        leadingIcon: "edit-reset",
+                        title: i18nc("@title:row", "Reset Customizations and Restore Defaults"),
+                        subtitle: i18nc("@info subtitle for Reset Customizations", "Your data will be safely backed up"),
+                        page: "ResetCustomizations.qml"
+                    },
+                    {
+                        leadingIcon: "document-import",
+                        title: i18nc("@title:row", "Restore Customizations"),
+                        subtitle: i18nc("@info subtitle for Restore Customizations", "Select a backup location to restore previous customizations"),
+                        page: "RestoreCustomizations.qml"
+                    },
                 ]
                 delegate: FormCard.FormButtonDelegate {
                     id: delegate
