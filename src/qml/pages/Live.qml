@@ -58,6 +58,8 @@ Welcome.Page {
             id: application
             desktopName: Private.Config.liveInstaller
         }
+
+        tooltip: i18nc("@info:tooltip %1 is the name of the user's distro", "Install %1 now", Welcome.Distro.name)
         size: Kirigami.Units.gridUnit * 10
         visible: root.installerAvailable
     }

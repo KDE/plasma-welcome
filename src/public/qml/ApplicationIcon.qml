@@ -20,6 +20,8 @@ QQC2.ToolButton {
     required property var application
     required property int size
 
+    property string tooltip: i18nc("@action:button", "Launch %1 now", text)
+
     icon.name: application.icon ?? "unknown"
     text: application.name ?? ""
 
@@ -45,6 +47,6 @@ QQC2.ToolButton {
     }
 
     QQC2.ToolTip.visible: hovered
-    QQC2.ToolTip.text: i18nc("@action:button", "Launch %1 now", text)
+    QQC2.ToolTip.text: root.tooltip
     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
 }
