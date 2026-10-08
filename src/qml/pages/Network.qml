@@ -24,6 +24,13 @@ Welcome.Page {
     show: NetworkInformation.reachability !== NetworkInformation.Reachability.Online
     PlasmaNMLoader {
         id: nmLoader
+
+        // Continue to the next page automatically when connected
+        onStatusConnectedChanged: {
+            if (statusConnected && pageStack.currentItem === root) {
+                pageStack.currentIndex += 1;
+            }
+        }
     }
 
     Kirigami.PlaceholderMessage {
