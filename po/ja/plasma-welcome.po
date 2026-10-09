@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 16:19+0000\n"
+"POT-Creation-Date: 2026-10-09 00:49+0000\n"
 "PO-Revision-Date: 2026-08-31 22:06+0900\n"
 "Last-Translator: Mint <5602mint@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -112,7 +112,7 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "コマンド <command>%1</command> の実行に失敗しました: %2"
 
-#: src/public/qml/ApplicationIcon.qml:48
+#: src/public/qml/ApplicationIcon.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -453,6 +453,12 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "ホームページを訪れる"
+
+#: src/qml/pages/Live.qml:62
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of the user's distro"
+msgid "Install %1 now"
+msgstr ""
 
 #: src/qml/pages/Network.qml:21
 #, kde-format

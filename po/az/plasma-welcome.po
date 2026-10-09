@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 16:19+0000\n"
+"POT-Creation-Date: 2026-10-09 00:49+0000\n"
 "PO-Revision-Date: 2026-09-24 23:19+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -113,7 +113,7 @@ msgctxt ""
 msgid "The command <command>%1</command> failed: %2"
 msgstr "<command>%1</command> əmrini icra etmək mümkün olmadı: %2"
 
-#: src/public/qml/ApplicationIcon.qml:48
+#: src/public/qml/ApplicationIcon.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -454,6 +454,12 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Ev səhifəsinə baxmaq"
+
+#: src/qml/pages/Live.qml:62
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of the user's distro"
+msgid "Install %1 now"
+msgstr ""
 
 #: src/qml/pages/Network.qml:21
 #, kde-format
