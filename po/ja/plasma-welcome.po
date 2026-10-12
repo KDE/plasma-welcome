@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 16:19+0000\n"
-"PO-Revision-Date: 2026-02-21 12:42+0900\n"
+"PO-Revision-Date: 2026-10-10 23:07+0900\n"
 "Last-Translator: Mint <5602mint@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -72,9 +72,9 @@ msgid ""
 "Our developers will use this anonymous data to improve KDE software. You can "
 "choose how much to share in System Settings, and here too."
 msgstr ""
-"送信された匿名のデータは、KDE のソフトウェアを改善するために開発者によって活"
-"用されます。このページやシステム設定でどの程度の情報を送信するか設定できま"
-"す。"
+"送信された匿名のデータは、開発者が KDE のソフトウェアを改善する上で活用されま"
+"す。このページやシステム設定からどの程度の情報を送信するか設定することができ"
+"ます。"
 
 #: src/contents/ui/main.qml:176
 #, kde-format
@@ -194,7 +194,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Make a donation"
-msgstr "寄付する"
+msgstr "寄付"
 
 #: src/contents/ui/pages/Network.qml:20
 #, kde-format
@@ -212,9 +212,9 @@ msgid ""
 "interface>, which lives in the bottom-right corner of the screen."
 msgstr ""
 "<interface>ネットワークウィジェット</interface>で、インターネットへの接続と接"
-"続の管理を行えます。スクリーン右下の<interface>システムトレイ</interface>の中"
-"にある、<interface>ネットワーク</interface>アイコンをクリックしてアクセスして"
-"ください。"
+"続の管理を行うことができます。スクリーン右下の<interface>システムトレイ</"
+"interface>の中にある<interface>ネットワーク</interface>アイコンから開いてくだ"
+"さい。"
 
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
 #, kde-format
@@ -249,7 +249,7 @@ msgstr "次のリリースのために支援する"
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
-msgstr "必要なときパワフル"
+msgstr "必要なときはパワフルに"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:20
 #, kde-kuit-format
@@ -339,7 +339,7 @@ msgstr "システムをアドオンで拡張"
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
-msgstr "Plasma の機能についてさらに知る"
+msgstr "Plasma の機能についてくわしく"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:121
 #, kde-format
@@ -359,12 +359,12 @@ msgid ""
 "click the arrow on the <interface>System Tray</interface> to show hidden "
 "items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Plasma Vaults で、<interface>Vaults</interface>と呼ばれる暗号化されたフォルダ"
-"を作成できます。パスワード、ファイル、画像や文書を Vaults の中で安全に保管で"
-"きます。Vaults はクラウドストレージサービスと同期されたフォルダの中にも作成で"
-"きます。<nl/><nl/><interface>システムトレイ</interface>上の矢印をクリックして"
-"アイテムを表示し、<interface>Vaults</interface>アイコンをクリックして作成して"
-"ください。"
+"Plasma Vaults では、暗号化された<interface>Vaults</interface>と呼ばれるフォル"
+"ダを作成し、パスワード、ファイル、画像やドキュメントを Vaults の中で安全に保"
+"管することができます。Vaults はクラウドストレージサービスと同期されたフォルダ"
+"の中にも作成することができます。<nl/><nl/><interface>システムトレイ</"
+"interface>の矢印をクリックして表示されるアイコンのうち、<interface>Vaults</"
+"interface>から作成することができます。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:154
@@ -435,7 +435,7 @@ msgstr ""
 "スマホの通知をコンピュータから確認</item><item>スマホが受信したテキストメッ"
 "セージにコンピュータから返信</item><item>クリップボードを同期</item><item>な"
 "くしたスマホから音を出す</item><item>画像、ビデオやその他のファイルをデバイス"
-"間で送受信</item><item>...その他にもたくさんの機能があります！</item></"
+"間で送受信</item><item>…その他にもたくさんの機能があります！</item></"
 "list><nl/><interface>システム設定</interface>にある KDE Connect のページか"
 "ら、スマホをペアリングしてください。"
 
@@ -497,10 +497,10 @@ msgid ""
 "through open windows.<nl/><nl/>You can access Overview using the "
 "<shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
-"オーバービューは、すべての開かれたウィンドウを並べて表示する全画面オーバーレ"
-"イです。仮想デスクトップの一覧表示、追加、削除や切り替えを行えます。さらに、"
-"開かれたウィンドウを検索できる検索バーも備わっています。<nl/><nl/"
-"><shortcut>Meta+W</shortcut> でオーバービューにアクセスできます。"
+"オーバービューは、起動中のウィンドウを一覧表示する全画面オーバーレイです。ま"
+"た、仮想デスクトップの作成や削除、切り替えも行うことができます。さらに、ウィ"
+"ンドウ用の検索バーもそなわっています。<nl/><nl/><shortcut>Meta+W</shortcut> "
+"でオーバービューにアクセスできます。"
 
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:266
 #, kde-format
@@ -537,7 +537,7 @@ msgstr "すべてのサードパーティコンテンツを見る"
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
-msgstr "デフォルトではシンプル"
+msgstr "普段はシンプルに"
 
 #: src/contents/ui/pages/SimpleByDefault.qml:19
 #, kde-kuit-format
@@ -590,7 +590,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn more about the KDE community"
-msgstr "KDE コミュニティについて知る"
+msgstr "KDE コミュニティについて"
 
 #: src/contents/ui/pages/Welcome.qml:39
 #, kde-format
