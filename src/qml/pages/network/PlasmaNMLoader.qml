@@ -28,13 +28,6 @@ Loader {
         }
     }
 
-    // Continue to the next page automatically when connected
-    onStatusConnectedChanged: {
-        if (statusConnected && pageStack.currentItem === root) {
-            pageStack.currentIndex += 1;
-        }
-    }
-
     states: [
         State {
             name: "NoPlasmaNM" // Shows error message
