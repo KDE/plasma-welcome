@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-09 00:49+0000\n"
+"POT-Creation-Date: 2026-10-14 00:50+0000\n"
 "PO-Revision-Date: 2024-12-15 17:35+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -478,13 +478,13 @@ msgstr ""
 "को प्रबंधित कर सकते हैं। इसे एक्सेस करने के लिए, अपने <इंटरफ़ेस>सिस्टम ट्रे</इंटरफ़ेस> में "
 "<इंटरफ़ेस>नेटवर्क</इंटरफ़ेस> आइकन पर क्लिक करें, जो स्क्रीन के निचले-दाएँ कोने में रहता है।"
 
-#: src/qml/pages/Network.qml:39
+#: src/qml/pages/Network.qml:46
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "प्लाज़्मा के लिए नेटवर्किंग समर्थन वर्तमान में स्थापित नहीं है"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:47
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip %1 is the name of the user's distro"
 #| msgid ""
@@ -498,26 +498,26 @@ msgstr ""
 "नेटवर्क कनेक्शन प्रबंधित करने के लिए, प्लाज़्मा को <icode>plasma-nm</icode> स्थापित करने "
 "की आवश्यकता है। कृपया इस चूक की रिपोर्ट %1 को करें।"
 
-#: src/qml/pages/Network.qml:206
+#: src/qml/pages/Network.qml:213
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "आप कनेक्ट हो गए हैं"
 
-#: src/qml/pages/Network.qml:207
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "सब ठीक है!"
 
-#: src/qml/pages/Network.qml:214
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
 msgstr ""
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
