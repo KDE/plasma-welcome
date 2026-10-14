@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 18:06+0000\n"
+"POT-Creation-Date: 2026-10-14 03:13+0000\n"
 "PO-Revision-Date: 2026-09-22 00:17+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -464,13 +464,13 @@ msgstr ""
 "線。要使用它，請點擊螢幕右下角的<interface>系統匣</interface>中的<interface>"
 "網路</interface>圖示。"
 
-#: src/qml/pages/Network.qml:39
+#: src/qml/pages/Network.qml:46
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "目前並未安裝 Plasma 的網路支援"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:47
 #, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
@@ -480,26 +480,26 @@ msgstr ""
 "Plasma 要管理網路連線需要安裝 <icode>plasma-nm</icode> 元件。請<link "
 "url='%1'>向 %2 回報缺乏此元件的問題</link>。"
 
-#: src/qml/pages/Network.qml:206
+#: src/qml/pages/Network.qml:213
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "您已連線"
 
-#: src/qml/pages/Network.qml:207
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "一切準備就緒！"
 
-#: src/qml/pages/Network.qml:214
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
 msgstr "要手動預覽頁面的不同狀態，可以使用按鈕。"
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

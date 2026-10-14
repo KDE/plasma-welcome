@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 18:06+0000\n"
+"POT-Creation-Date: 2026-10-14 03:13+0000\n"
 "PO-Revision-Date: 2024-06-20 17:30\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -483,13 +483,13 @@ msgstr ""
 "пстрыкніце па значку <interface>Сеткі</interface> на <interface>Прасторы "
 "апавяшчэнняў</interface> у правым ніжнім куце экрана."
 
-#: src/qml/pages/Network.qml:39
+#: src/qml/pages/Network.qml:46
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Падтрымка сеткі для Plasma не ўсталяваная"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:47
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip %1 is the name of the user's distro"
 #| msgid ""
@@ -504,26 +504,26 @@ msgstr ""
 "<icode>plasma-nm</icode>. Калі ласка, паведаміце пра гэтую недакладнасць на "
 "%1."
 
-#: src/qml/pages/Network.qml:206
+#: src/qml/pages/Network.qml:213
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Вы падлучаныя"
 
-#: src/qml/pages/Network.qml:207
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Усё добра!"
 
-#: src/qml/pages/Network.qml:214
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
 msgstr ""
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

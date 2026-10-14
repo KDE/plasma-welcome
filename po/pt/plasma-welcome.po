@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 18:06+0000\n"
+"POT-Creation-Date: 2026-10-14 03:13+0000\n"
 "PO-Revision-Date: 2026-07-11 13:53+0100\n"
 "Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
@@ -475,13 +475,13 @@ msgstr ""
 "ícone <interface>Redes</interface> na <interface>Área de Notificação</"
 "interface>, que se encontra no canto inferior direito do ecrã."
 
-#: src/qml/pages/Network.qml:39
+#: src/qml/pages/Network.qml:46
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "O suporte de rede para o Plasma não está atualmente instalado"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:47
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip %1 is the name of the user's distro"
 #| msgid ""
@@ -495,19 +495,19 @@ msgstr ""
 "Para gerir ligações de rede, o Plasma requer que o <icode>plasma-nm</icode> "
 "esteja instalado. Por favor, comunique esta falta a %1."
 
-#: src/qml/pages/Network.qml:206
+#: src/qml/pages/Network.qml:213
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Está ligado"
 
-#: src/qml/pages/Network.qml:207
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Tudo pronto!"
 
-#: src/qml/pages/Network.qml:214
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -516,7 +516,7 @@ msgstr ""
 "Para pré-visualizar manualmente os diferentes estados da página, pode "
 "utilizar o botão."
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

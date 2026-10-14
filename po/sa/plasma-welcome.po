@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 18:06+0000\n"
+"POT-Creation-Date: 2026-10-14 03:13+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -473,13 +473,13 @@ msgstr ""
 "Tray</interface> इत्यस्मिन् <interface>Networks</interface> चिह्नं नुदन्तु, यत् पटलस्य "
 "अधः-दक्षिणकोणे निवसति ।."
 
-#: src/qml/pages/Network.qml:39
+#: src/qml/pages/Network.qml:46
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "प्लाज्मा कृते संजालसमर्थनं सम्प्रति न संस्थापितम्"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:47
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip %1 is the name of the user's distro"
 #| msgid ""
@@ -493,26 +493,26 @@ msgstr ""
 "संजालसंयोजनानां प्रबन्धनार्थं Plasma इत्यस्य <icode>plasma-nm</icode> संस्थापनस्य "
 "आवश्यकता वर्तते । कृपया एतत् लोपं %1 इत्यस्मै निवेदयन्तु ।"
 
-#: src/qml/pages/Network.qml:206
+#: src/qml/pages/Network.qml:213
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "त्वं सम्बद्धः असि"
 
-#: src/qml/pages/Network.qml:207
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "सर्वं गन्तुं भद्रम्!"
 
-#: src/qml/pages/Network.qml:214
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
 msgstr ""
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"

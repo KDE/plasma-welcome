@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 18:06+0000\n"
+"POT-Creation-Date: 2026-10-14 03:13+0000\n"
 "PO-Revision-Date: 2026-09-21 08:26+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -481,13 +481,13 @@ msgstr ""
 "icona <interface>Xarxes</interface> de la <interface>safata del sistema</"
 "interface>, que està a la cantonada inferior dreta de la pantalla."
 
-#: src/qml/pages/Network.qml:39
+#: src/qml/pages/Network.qml:46
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "La implementació de la xarxa del Plasma no està instal·lada actualment"
 
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:47
 #, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the user's distro"
 msgid ""
@@ -498,19 +498,19 @@ msgstr ""
 "<icode>plasma-nm</icode>. <link url='%1'>Informeu d'aquesta omissió a %2</"
 "link>."
 
-#: src/qml/pages/Network.qml:206
+#: src/qml/pages/Network.qml:213
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Hi ha connexió"
 
-#: src/qml/pages/Network.qml:207
+#: src/qml/pages/Network.qml:214
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Connexió correcta!"
 
-#: src/qml/pages/Network.qml:214
+#: src/qml/pages/Network.qml:221
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -519,7 +519,7 @@ msgstr ""
 "Per a previsualitzar manualment els diferents estats de la pàgina, podeu "
 "utilitzar el botó."
 
-#: src/qml/pages/Network.qml:219
+#: src/qml/pages/Network.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
