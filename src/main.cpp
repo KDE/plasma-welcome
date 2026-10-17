@@ -84,6 +84,11 @@ int main(int argc, char *argv[])
                                    QStringLiteral("pages"));
     parser.addOption(pagesOption);
 
+#if PLASMA_WELCOME_VERSION_PATCH == 80
+    parser.addOption(QCommandLineOption(QStringLiteral("release-version"), QStringLiteral("Development build: Override the release version"), QStringLiteral("version")));
+    parser.addOption(QCommandLineOption(QStringLiteral("release-kde-site"), QStringLiteral("Development build: Override the release KDE site"), QStringLiteral("kde-site")));
+#endif
+
     parser.process(app);
     aboutData.processCommandLine(&parser);
 
