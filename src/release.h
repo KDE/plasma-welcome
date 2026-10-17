@@ -75,6 +75,9 @@ private:
     void parsePreviewReply(QNetworkReply *const reply);
 
     QVersionNumber m_version;
+    QString m_kdeSite;
+    QString m_languageTag;
+
     QString m_friendlyVersion;
     QString m_announcementUrl;
 

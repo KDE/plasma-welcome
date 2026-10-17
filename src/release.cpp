@@ -14,15 +14,47 @@
 #include "../plasma-welcome-version.h"
 #include "welcome_debug.h"
 
+#if PLASMA_WELCOME_VERSION_PATCH == 80
+#include <QCommandLineParser>
+#include <QCommandLineOption>
+#include <QCoreApplication>
+#endif
+
 #include "release.h"
 
 Release::Release(QObject *parent)
     : QObject(parent)
+    , m_version(QVersionNumber::fromString(QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING)))
+    , m_kdeSite(QStringLiteral("https://kde.org/"))
+    , m_languageTag(QLocale().bcp47Name().toLower())
 {
-    m_version = QVersionNumber::fromString(QString::fromLatin1(PLASMA_WELCOME_VERSION_STRING));
+
+#if PLASMA_WELCOME_VERSION_PATCH == 80
+    // Allow overriding version and kdeSite for testing future release apperance:
+    // e.g. --release-version 6.8.0 --release-site=http://localhost:1313/
+    QCommandLineParser parser;
+    QCommandLineOption versionOverrideOption(QStringLiteral("release-version"), {}, QStringLiteral("version"));
+    QCommandLineOption kdeSiteOverrideOption(QStringLiteral("release-kde-site"), {}, QStringLiteral("kde-site"));
+    parser.addOption(versionOverrideOption);
+    parser.addOption(kdeSiteOverrideOption);
+    parser.parse(QCoreApplication::arguments());
+
+    if (parser.isSet(versionOverrideOption)) {
+        const QString versionOverride = parser.value(versionOverrideOption);
+        m_version = QVersionNumber::fromString(versionOverride);
+        qCInfo(WELCOME_LOG) << "Overriding with version" << versionOverride;
+    }
+
+    if (parser.isSet(kdeSiteOverrideOption)) {
+        const QString kdeSiteOverride = parser.value(kdeSiteOverrideOption);
+        m_kdeSite = kdeSiteOverride;
+        m_languageTag = QString(); // A local hugo server does not handle localisation
+        qCInfo(WELCOME_LOG) << "Overriding with site" << kdeSiteOverride;
+    }
+#endif
 
     // Friendly version string, matching desktop preview banner
-    if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80 || PLASMA_WELCOME_VERSION_PATCH >= 90) {
+    if (m_version.microVersion() == 80 || m_version.microVersion() >= 90) {
         // Development or beta version
 
         // finalMajor, finalMinor is the final version in the line
@@ -31,21 +63,21 @@ Release::Release(QObject *parent)
         constexpr int finalMinor = 27;
 
         // Incremented minor, which is zeroed and major incremented when we reach the final version in the major release line
-        int major = (PLASMA_WELCOME_VERSION_MAJOR == finalMajor && PLASMA_WELCOME_VERSION_MINOR == finalMinor) ? PLASMA_WELCOME_VERSION_MAJOR + 1
-                                                                                                               : PLASMA_WELCOME_VERSION_MAJOR;
-        int minor = (PLASMA_WELCOME_VERSION_MAJOR == finalMajor && PLASMA_WELCOME_VERSION_MINOR == finalMinor) ? 0 : PLASMA_WELCOME_VERSION_MINOR + 1;
+        int major = (m_version.majorVersion() == finalMajor && m_version.minorVersion() == finalMinor) ? m_version.majorVersion()  + 1
+                                                                                                       : m_version.majorVersion() ;
+        int minor = (m_version.majorVersion() == finalMajor && m_version.minorVersion() == finalMinor) ? 0 : m_version.minorVersion() + 1;
 
         const QString version = QStringLiteral("%1.%2").arg(QString::number(major), QString::number(minor));
 
-        if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80) {
+        if (m_version.microVersion() == 80) {
             // Development version
             m_friendlyVersion = i18nc("@label %1 is the Plasma version", "%1 Dev", version);
-        } else if constexpr (PLASMA_WELCOME_VERSION_PATCH == 90) {
+        } else if (m_version.microVersion() == 90) {
             // Beta version
             m_friendlyVersion = i18nc("@label %1 is the Plasma version", "%1 Beta", version);
-        } else if constexpr (PLASMA_WELCOME_VERSION_PATCH > 90) {
+        } else if (m_version.microVersion() > 90) {
             // Beta version beyond 1
-            constexpr int betaNumber = PLASMA_WELCOME_VERSION_PATCH - 89;
+            int betaNumber = m_version.microVersion() - 89;
             m_friendlyVersion = i18nc("@label %1 is the Plasma version, %2 is the beta release number", "%1 Beta %2", version, betaNumber);
         } else {
             Q_UNREACHABLE();
@@ -56,17 +88,17 @@ Release::Release(QObject *parent)
     }
 
     // Announcement URL
-    if constexpr (PLASMA_WELCOME_VERSION_PATCH == 80) {
+    if (m_version.microVersion() == 80) {
         // Development version
         m_announcementUrl = QStringLiteral("https://invent.kde.org/groups/plasma/-/activity/");
-    } else if constexpr (PLASMA_WELCOME_VERSION_PATCH >= 90) {
+    } else if (m_version.microVersion() >= 90) {
         // Beta version
-        m_announcementUrl = QStringLiteral("https://kde.org/announcements/plasma/%1/%1.%2.90/")
-                                .arg(QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
+        m_announcementUrl = QStringLiteral("%1announcements/plasma/%2/%2.%3.90/")
+                                .arg(m_kdeSite, QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
     } else {
         // Release version
-        m_announcementUrl = QStringLiteral("https://kde.org/announcements/plasma/%1/%1.%2.0/")
-                                .arg(QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
+        m_announcementUrl = QStringLiteral("%1announcements/plasma/%2/%2.%3.0/")
+                                .arg(m_kdeSite, QString::number(m_version.majorVersion()), QString::number(m_version.minorVersion()));
     }
 
     // Setup for fetching preview
@@ -85,12 +117,12 @@ Release::Release(QObject *parent)
 
 bool Release::isBeta() const
 {
-    return PLASMA_WELCOME_VERSION_MINOR >= 80 || PLASMA_WELCOME_VERSION_PATCH >= 90;
+    return m_version.minorVersion() >= 80 || m_version.microVersion() >= 90;
 }
 
 bool Release::isDevelopment() const
 {
-    return PLASMA_WELCOME_VERSION_PATCH == 80;
+    return m_version.microVersion() == 80;
 }
 
 QString Release::announcementUrl() const
@@ -141,14 +173,11 @@ void Release::getPreview()
 
     // Try getting the announcement for the current language
     QString announcementUrl = m_announcementUrl;
-
-    const QString kdeSite = QStringLiteral("https://kde.org/");
-    if (announcementUrl.startsWith(kdeSite)) {
+    if (announcementUrl.startsWith(m_kdeSite)) {
         // It's ours, we know how to localise it: Hugo uses
         // lowercase BCP 47 tags, as defined in RFC 5646
-        QString languageTag = QLocale().bcp47Name().toLower();
-        if (languageTag != "en-POSIX") {
-            announcementUrl.insert(kdeSite.length(), languageTag + "/");
+        if (m_languageTag != "en-POSIX" && !m_languageTag.isEmpty()) {
+            announcementUrl.insert(m_kdeSite.length(), m_languageTag + "/");
         }
     }
 
