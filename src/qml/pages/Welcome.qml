@@ -93,6 +93,24 @@ Welcome.Page {
                     source: Private.App.customIntroIcon || "konqi-30.png"
                     fillMode: Image.PreserveAspectFit
 
+                    readonly property bool isDefaultImage: Private.App.customIntroIcon.length === 0
+                    readonly property string donationUrl: "https://kde.org/community/donations?source=plasma-welcome"
+
+                    HoverHandler {
+                        id: hoverHandler
+                        enabled: image.isDefaultImage
+                        cursorShape: Qt.PointingHandCursor
+                    }
+
+                    TapHandler {
+                        enabled: image.isDefaultImage
+                        onTapped: Qt.openUrlExternally(image.donationUrl)
+                    }
+
+                    QQC2.ToolTip.visible: hoverHandler.hovered && image.isDefaultImage
+                    QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                    QQC2.ToolTip.text: image.donationUrl
+
                     Kirigami.PlaceholderMessage {
                         width: image.width
                         anchors.centerIn: parent
