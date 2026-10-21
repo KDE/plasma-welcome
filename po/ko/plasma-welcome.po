@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-14 00:50+0000\n"
+"POT-Creation-Date: 2026-10-21 00:53+0000\n"
 "PO-Revision-Date: 2026-09-28 23:37+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -1289,19 +1289,19 @@ msgid ""
 msgstr ""
 "KDE 마스코트 Konqi가 30주년 릴리스를 맞이하여 KDE 커뮤니티로 초대합니다!"
 
-#: src/release.cpp:42
+#: src/release.cpp:74
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 개발"
 
-#: src/release.cpp:45
+#: src/release.cpp:77
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 베타"
 
-#: src/release.cpp:49
+#: src/release.cpp:81
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"

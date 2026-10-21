@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-14 00:50+0000\n"
+"POT-Creation-Date: 2026-10-21 00:53+0000\n"
 "PO-Revision-Date: 2026-10-09 12:17+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -1328,19 +1328,19 @@ msgstr ""
 "De mascotte van KDE, Konqi, verwelkomt u in de KDE-gemeenschap voor deze "
 "uitgave bij de 30ste verjaardag!"
 
-#: src/release.cpp:42
+#: src/release.cpp:74
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 Ontw"
 
-#: src/release.cpp:45
+#: src/release.cpp:77
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 beta"
 
-#: src/release.cpp:49
+#: src/release.cpp:81
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
