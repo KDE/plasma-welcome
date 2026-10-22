@@ -84,11 +84,18 @@ Kirigami.ScrollablePage {
                 Repeater {
                     model: [
                         {
-                            checkboxTitle: i18nc("@title:row", "Reset configuration"),
-                            successTitle: i18nc("@title:row", "Configuration was backed up"),
-                            checkboxSubtitle: i18nc("@info possible contents of XDG config folder, for reset, backup, and restore",
-                                                    "System settings, application settings, applet settings, …"),
-                            backupCategory: Private.SafeModeFixes.BackupCategories.ConfigDir,
+                            checkboxTitle: i18nc("@title:row", "Reset Plasma configuration"),
+                            successTitle: i18nc("@title:row", "Plasma configuration was backed up"),
+                            checkboxSubtitle: i18nc("@info possible contents of Plasma-related XDG config files, for reset, backup, and restore",
+                                                    "System settings, desktop & applet settings."),
+                            backupCategory: Private.SafeModeFixes.BackupCategories.PlasmaConfig,
+                        },
+                        {
+                            checkboxTitle: i18nc("@title:row", "Reset app & miscellaneous configuration"),
+                            successTitle: i18nc("@title:row", "App & miscellaneous configuration was backed up"),
+                            checkboxSubtitle: i18nc("@info possible contents of non-Plasma XDG config files, for reset, backup, and restore",
+                                                    "Settings for all other software apart from Plasma."), // TODO: Select which other settings to back up and reset.
+                            backupCategory: Private.SafeModeFixes.BackupCategories.NonPlasmaConfig,
                         },
                         {
                             checkboxTitle: i18nc("@title:row", "Reset state"),
@@ -116,7 +123,7 @@ Kirigami.ScrollablePage {
                         readonly property bool available: (root.safeMode.availableBackupSources & delegate.backupCategory) !== 0
                         readonly property bool successfulCompletion: (root.safeMode.successfulBackupCategories & delegate.backupCategory) !== 0
 
-                        subtitle: (available || successfulCompletion) ? checkboxSubtitle : i18nc("@info can't back up a folder that doesn't exist", "Not present in your user account.")
+                        subtitle: (available || successfulCompletion) ? checkboxSubtitle : i18nc("@info can't back up files that don't exist", "Not present in your user account.")
 
                         contentItem: QQC2.CheckBox {
                             text: successfulCompletion ? delegate.successTitle : delegate.checkboxTitle
@@ -134,22 +141,22 @@ Kirigami.ScrollablePage {
         }
 
         Kirigami.InlineMessage {
-            visible: root.safeMode.preExistingBackupTargetDirs.length > 0
+            visible: root.safeMode.preExistingBackupTargetPaths.length > 0
             Layout.fillWidth: true
             type: Kirigami.MessageType.Warning
             text: i18ncp("@info",
-                         "The following backup folder already exists: <ul>%2</ul> Select a different backup destination or delete your previous backup folder to continue.",
-                         "The following backup folders already exist: <ul>%2</ul> Select a different backup destination or delete your previous backup folders to continue.",
-                         root.safeMode.preExistingBackupTargetDirs.length,
-                         root.safeMode.preExistingBackupTargetDirs.map((url) => "<li>" + new URL(url).pathname + "</li>").join()
+                         "The following backup destination already exists: <ul>%2</ul> Select a different backup destination or delete your previously backed-up files to continue.",
+                         "The following backup destinations already exist: <ul>%2</ul> Select a different backup destination or delete your previously backed-up files to continue.",
+                         root.safeMode.preExistingBackupTargetPaths.length,
+                         root.safeMode.preExistingBackupTargetPaths.map((url) => "<li>" + new URL(url).pathname + "</li>").join()
             )
         }
 
         QQC2.Button {
             Layout.alignment: Qt.AlignHCenter
-            visible: root.safeMode.successfulBackupCategories === 0
+            visible: root.safeMode.successfulBackupCategories === 0 || enabled
             enabled: (root.safeMode.availableBackupSources & root.safeMode.selectedBackupCategories) !== 0
-                     && root.safeMode.preExistingBackupTargetDirs.length === 0
+                     && root.safeMode.preExistingBackupTargetPaths.length === 0
             icon.name: "edit-reset"
             text: xi18nc("@action:button", "Back Up and Reset Customizations")
 

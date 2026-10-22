@@ -7,10 +7,13 @@
 #pragma once
 
 #include <QFile>
+#include <QHash>
 #include <QObject>
+#include <QSet>
 #include <QUrl>
 #include <qqmlregistration.h>
 
+class BackupCategoryInfo;
 class KDirWatch;
 class KJob;
 
@@ -22,9 +25,10 @@ class SafeModeFixes : public QObject
 
 public:
     enum class BackupCategory {
-        DataDir = 0x1,
-        ConfigDir = 0x2,
+        PlasmaConfig = 0x1,
+        NonPlasmaConfig = 0x2,
         StateDir = 0x4,
+        DataDir = 0x8,
     };
     Q_DECLARE_FLAGS(BackupCategories, BackupCategory)
     Q_FLAG(BackupCategories)
@@ -39,27 +43,25 @@ private:
     Q_PROPERTY(
         BackupCategories selectedBackupCategories READ selectedBackupCategories WRITE setSelectedBackupCategories NOTIFY selectedBackupCategoriesChanged FINAL)
     Q_PROPERTY(BackupCategories successfulBackupCategories READ successfulBackupCategories NOTIFY successfulBackupCategoriesChanged FINAL)
-    Q_PROPERTY(QList<QUrl> preExistingBackupTargetDirs READ preExistingBackupTargetDirs NOTIFY preExistingBackupTargetDirsChanged FINAL)
+    Q_PROPERTY(QList<QUrl> preExistingBackupTargetPaths READ preExistingBackupTargetPaths NOTIFY preExistingBackupTargetPathsChanged FINAL)
 
     Q_PROPERTY(BackupCategories availableRestoreSources READ availableRestoreSources NOTIFY availableRestoreSourcesChanged FINAL)
     Q_PROPERTY(BackupCategories selectedRestoreCategories READ selectedRestoreCategories WRITE setSelectedRestoreCategories NOTIFY
                    selectedRestoreCategoriesChanged FINAL)
     Q_PROPERTY(BackupCategories successfulRestoreCategories READ successfulRestoreCategories NOTIFY successfulRestoreCategoriesChanged FINAL)
-    Q_PROPERTY(QList<QUrl> preExistingRestoreTargetDirs READ preExistingRestoreTargetDirs NOTIFY preExistingRestoreTargetDirsChanged FINAL)
+    Q_PROPERTY(QList<QUrl> preExistingRestoreTargetPaths READ preExistingRestoreTargetPaths NOTIFY preExistingRestoreTargetPathsChanged FINAL)
 
     Q_PROPERTY(bool hasUserLogError READ hasUserLogError NOTIFY userLogErrorChanged FINAL)
 
 public:
     SafeModeFixes(QObject *parent = nullptr);
+    ~SafeModeFixes();
 
     QUrl origCacheDir() const;
     bool origCacheDirExists() const;
 
-    QUrl origCustomizationDir(BackupCategory which) const;
-
     void setBackupDir(const QUrl &dir);
     QUrl backupDir() const;
-    QUrl backupSubDir(BackupCategory which) const;
 
     BackupCategories availableBackupSources() const;
     QMap<BackupCategory, QUrl> availableBackupSourceDirs() const;
@@ -79,8 +81,8 @@ public:
     BackupCategories successfulRestoreCategories() const;
     Q_SCRIPTABLE void resetSuccessfulRestoreCategories();
 
-    QList<QUrl> preExistingBackupTargetDirs() const;
-    QList<QUrl> preExistingRestoreTargetDirs() const;
+    QList<QUrl> preExistingBackupTargetPaths() const;
+    QList<QUrl> preExistingRestoreTargetPaths() const;
 
     bool hasUserLogError() const;
 
@@ -100,38 +102,38 @@ Q_SIGNALS:
     void availableBackupSourcesChanged();
     void selectedBackupCategoriesChanged();
     void successfulBackupCategoriesChanged();
-    void preExistingBackupTargetDirsChanged();
+    void preExistingBackupTargetPathsChanged();
 
     void availableRestoreSourcesChanged();
     void selectedRestoreCategoriesChanged();
     void successfulRestoreCategoriesChanged();
-    void preExistingRestoreTargetDirsChanged();
+    void preExistingRestoreTargetPathsChanged();
 
     void userLogErrorChanged();
 
 private:
+    QList<QUrl> conflictingPathsForCategory(const BackupCategoryInfo &categoryInfo, const QUrl &categoryTargetDir) const;
+
     enum class MessageType {
         Intention,
         Progress,
+        Warning,
         Error,
         CosmeticSpacing,
     };
-
-    QString i18nCategoryName(BackupCategory) const;
-
     void userLog(MessageType, const QString &msg);
     void resetUserLog(const QString &filepath = QString());
 
-    void addOrigDirWatches();
-    void removeOrigDirWatches();
-    void setOrigDirExists(const QString &path, bool exists);
-
-    void addBackupSubDirWatches();
-    void removeBackupSubDirWatches();
-    void setBackupSubDirExists(const QString &path, bool exists);
-
+    void activateDirWatches();
     void suspendDirWatches();
-    void resumeDirWatches();
+
+    void updateOrigCacheDirExists();
+    void updateAvailableBackupSources();
+    void updateAvailableRestoreSources();
+
+private Q_SLOTS:
+    void onOrigDirChanged(const QString &path);
+    void onBackupSubDirChanged(const QString &path);
 
 private:
     QString m_origDataDir;
@@ -139,6 +141,7 @@ private:
     QString m_origStateDir;
     QString m_origCacheDir;
     QUrl m_backupDir;
+    std::vector<BackupCategoryInfo> m_backupCategoryInfo;
     BackupCategories m_selectedBackupCategories;
     BackupCategories m_successfulBackupCategories;
     BackupCategories m_availableBackupSources;
@@ -147,6 +150,10 @@ private:
     BackupCategories m_availableRestoreSources;
     KDirWatch *m_origDirWatch;
     KDirWatch *m_backupDirWatch;
+    QSet<QString> m_origDirWatches;
+    QSet<QString> m_backupDirWatches;
+    QHash<BackupCategory, QSet<QString>> m_availableBackupSourcePaths;
+    QHash<BackupCategory, QSet<QString>> m_availableRestoreSourcePaths;
     QFile m_userLogFile;
     bool m_hasUserLogError = false;
     bool m_origCacheDirExists = false;

@@ -83,11 +83,18 @@ Kirigami.ScrollablePage {
                 Repeater {
                     model: [
                         {
-                            checkboxTitle: i18nc("@title:row", "Restore configuration"),
-                            successTitle: i18nc("@title:row", "Configuration was restored"),
-                            checkboxSubtitle: i18nc("@info possible contents of XDG config folder, for reset, backup, and restore",
-                                                    "System settings, application settings, applet settings, …"),
-                            backupCategory: Private.SafeModeFixes.BackupCategories.ConfigDir,
+                            checkboxTitle: i18nc("@title:row", "Restore Plasma configuration"),
+                            successTitle: i18nc("@title:row", "Plasma configuration was restored"),
+                            checkboxSubtitle: i18nc("@info possible contents of Plasma-related XDG config files, for reset, backup, and restore",
+                                                    "System settings, desktop & applet settings."),
+                            backupCategory: Private.SafeModeFixes.BackupCategories.PlasmaConfig,
+                        },
+                        {
+                            checkboxTitle: i18nc("@title:row", "Restore app & miscellaneous configuration"),
+                            successTitle: i18nc("@title:row", "App & miscellaneous configuration was restored"),
+                            checkboxSubtitle: i18nc("@info possible contents of non-Plasma XDG config files, for reset, backup, and restore",
+                                                    "Settings for all other software apart from Plasma."), // TODO: Select which other settings to back up and reset.
+                            backupCategory: Private.SafeModeFixes.BackupCategories.NonPlasmaConfig,
                         },
                         {
                             checkboxTitle: i18nc("@title:row", "Restore state"),
@@ -115,7 +122,7 @@ Kirigami.ScrollablePage {
                         readonly property bool available: (root.safeMode.availableRestoreSources & delegate.backupCategory) !== 0
                         readonly property bool successfulCompletion: (root.safeMode.successfulRestoreCategories & delegate.backupCategory) !== 0
 
-                        subtitle: (available || successfulCompletion) ? checkboxSubtitle : i18nc("@info can't back up a folder that doesn't exist", "Not present in your backup.")
+                        subtitle: (available || successfulCompletion) ? checkboxSubtitle : i18nc("@info can't back up files that don't exist", "Not present in your backup.")
 
                         contentItem: QQC2.CheckBox {
                             text: successfulCompletion ? delegate.successTitle : delegate.checkboxTitle
@@ -133,22 +140,22 @@ Kirigami.ScrollablePage {
         }
 
         Kirigami.InlineMessage {
-            visible: root.safeMode.preExistingRestoreTargetDirs.length > 0
+            visible: root.safeMode.preExistingRestoreTargetPaths.length > 0
             Layout.fillWidth: true
             type: Kirigami.MessageType.Warning
             text: i18ncp("@info",
-                         "The following customization folder already exists: <ul>%2</ul> Move or delete your customization folder to continue.",
-                         "The following customization folders already exist: <ul>%2</ul> Move or delete your customization folders to continue.",
-                         root.safeMode.preExistingRestoreTargetDirs.length,
-                         root.safeMode.preExistingRestoreTargetDirs.map((url) => "<li>" + new URL(url).pathname + "</li>").join()
+                         "The following restore destination already exists: <ul>%2</ul> Move or delete your customization files to make room for the backed-up version.",
+                         "The following restore destination already exist: <ul>%2</ul> Move or delete your customization files to make room for the backed-up version.",
+                         root.safeMode.preExistingRestoreTargetPaths.length,
+                         root.safeMode.preExistingRestoreTargetPaths.map((url) => "<li>" + new URL(url).pathname + "</li>").join()
             )
         }
 
         QQC2.Button {
             Layout.alignment: Qt.AlignHCenter
-            visible: root.safeMode.successfulRestoreCategories === 0
+            visible: root.safeMode.successfulRestoreCategories === 0 || enabled
             enabled: (root.safeMode.availableRestoreSources & root.safeMode.selectedRestoreCategories) !== 0
-                     && root.safeMode.preExistingRestoreTargetDirs.length === 0
+                     && root.safeMode.preExistingRestoreTargetPaths.length === 0
             icon.name: "edit-reset"
             text: xi18nc("@action:button", "Restore Customizations")
 
