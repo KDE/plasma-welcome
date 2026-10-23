@@ -92,6 +92,7 @@ Welcome.Page {
                     id: image
                     source: Private.App.customIntroIcon || "konqi-30.png"
                     fillMode: Image.PreserveAspectFit
+                    mipmap: true
 
                     Kirigami.PlaceholderMessage {
                         width: image.width
