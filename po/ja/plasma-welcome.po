@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-21 00:53+0000\n"
-"PO-Revision-Date: 2026-10-10 23:07+0900\n"
+"POT-Creation-Date: 2026-10-24 00:52+0000\n"
+"PO-Revision-Date: 2026-10-17 15:29+0900\n"
 "Last-Translator: Mint <5602mint@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -456,7 +456,7 @@ msgstr "ホームページ"
 #, kde-format
 msgctxt "@info:tooltip %1 is the name of the user's distro"
 msgid "Install %1 now"
-msgstr ""
+msgstr "今すぐ %1 をインストール"
 
 #: src/qml/pages/Network.qml:21
 #, kde-format
@@ -1012,7 +1012,7 @@ msgid ""
 "</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</"
 "shortcut>: Show the desktop</item></list>"
 msgstr ""
-"<shortcut>Meta</shortcut> キーで行える操作を一部をご紹介します。<list><item>"
+"<shortcut>Meta</shortcut> キーで行える操作の一部をご紹介します。<list><item>"
 "押す: アプリケーションランチャーを開く</item><item><shortcut>Meta+矢印キー</"
 "shortcut>: ウィンドウをタイル化して配置</item><item><shortcut>Meta+数字キー</"
 "shortcut>: タスクマネージャにピン留めされたアプリケーションを起動</"
@@ -1181,7 +1181,7 @@ msgid ""
 "and also launch new ones. Drag app icons to re-arrange them."
 msgstr ""
 "これは「タスクマネージャ」ウィジェットです。このウィジェットでアプリケーショ"
-"ンの起動や切り替えを行うことができます。また、アイコンをドラックすると並び替"
+"ンの起動や切り替えを行うことができます。また、アイコンをドラッグすると並び替"
 "えできます。"
 
 #: src/qml/pages/SimpleByDefault.qml:45
@@ -1283,13 +1283,13 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "%1 について"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "画像の読み込みに失敗しました"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:101
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1297,7 +1297,7 @@ msgstr ""
 "<filename>%1</filename> を読み込めませんでした。ファイルが存在しているか確認"
 "してください。"
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:122
 #, kde-format
 msgctxt "@info"
 msgid ""

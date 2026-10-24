@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-21 00:53+0000\n"
+"POT-Creation-Date: 2026-10-24 00:52+0000\n"
 "PO-Revision-Date: 2026-06-15 13:17+0100\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -1314,13 +1314,13 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Aflați mai multe despre %1"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Încărcarea imaginii a eșuat"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:101
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1328,7 +1328,7 @@ msgstr ""
 "Fișierul <filename>%1</filename> nu a putut fi încărcat. Asigurați-vă că "
 "acesta există."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:122
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "The KDE mascot Konqi welcomes you to the KDE community!"
