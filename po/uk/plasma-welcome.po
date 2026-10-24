@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-14 03:13+0000\n"
+"POT-Creation-Date: 2026-10-24 02:55+0000\n"
 "PO-Revision-Date: 2026-09-22 17:57+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -1313,13 +1313,13 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Дізнатися більше про %1"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Не вдалося завантажити зображення"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:101
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1327,7 +1327,7 @@ msgstr ""
 "Не вдалося завантажити <filename>%1</filename>. Переконайтеся, що цей файл "
 "існує."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:122
 #, kde-format
 msgctxt "@info"
 msgid ""

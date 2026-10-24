@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-14 03:13+0000\n"
+"POT-Creation-Date: 2026-10-24 02:55+0000\n"
 "PO-Revision-Date: 2026-09-21 09:04+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
@@ -1333,13 +1333,13 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "En apprendre plus sur %1"
 
-#: src/qml/pages/Welcome.qml:99
+#: src/qml/pages/Welcome.qml:100
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
 msgstr "Impossible de charger l'image"
 
-#: src/qml/pages/Welcome.qml:100
+#: src/qml/pages/Welcome.qml:101
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
@@ -1347,7 +1347,7 @@ msgstr ""
 "Impossible de charger <filename>%1</filename>. Veuillez vérifier que le "
 "fichier existe."
 
-#: src/qml/pages/Welcome.qml:121
+#: src/qml/pages/Welcome.qml:122
 #, kde-format
 msgctxt "@info"
 msgid ""
