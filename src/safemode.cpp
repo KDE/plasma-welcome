@@ -6,6 +6,7 @@
 
 #include "safemode.h"
 
+#include "safemodebackuprestore.h"
 #include "safemodecacheclearer.h"
 
 #include <QtEnvironmentVariables>
@@ -27,6 +28,14 @@ SafeModeCacheClearer *SafeMode::cacheClearer()
         m_cacheClearer = new SafeModeCacheClearer(this);
     }
     return m_cacheClearer;
+}
+
+SafeModeBackupRestore *SafeMode::backupRestore()
+{
+    if (!m_backupRestore) {
+        m_backupRestore = new SafeModeBackupRestore(this);
+    }
+    return m_backupRestore;
 }
 
 #include "moc_safemode.cpp"
