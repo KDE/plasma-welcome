@@ -31,6 +31,7 @@ target_sources(plasma-welcome PRIVATE
     release.cpp
     plasmacolors.cpp
     safemode.cpp
+    safemodebackuprestore.cpp
     safemodecacheclearer.cpp
 )
 
@@ -67,6 +68,8 @@ ecm_target_qml_sources(plasma-welcome
     qml/pages/network/PlasmaNM.qml
     qml/pages/network/PlasmaNMLoader.qml
     qml/pages/safemode/ClearCache.qml
+    qml/pages/safemode/ResetCustomizations.qml
+    qml/pages/safemode/RestoreCustomizations.qml
     qml/pages/SimpleByDefault.qml
     qml/pages/PowerfulWhenNeeded.qml
     qml/pages/powerfulwhenneeded/MetaKey.qml
