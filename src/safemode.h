@@ -30,8 +30,6 @@ public:
 
     SafeModeCacheClearer *cacheClearer();
 
-    Q_SCRIPTABLE void requestLogoutPrompt();
-
 private:
     SafeModeCacheClearer *m_cacheClearer = nullptr;
     bool m_actuallyInSafeMode = false;

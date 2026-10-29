@@ -12,6 +12,7 @@ import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
+import org.kde.kworkspace as KWorkspace
 
 import org.kde.plasma.welcome as Welcome
 import org.kde.plasma.welcome.private as Private
@@ -113,7 +114,8 @@ Kirigami.ScrollablePage {
         actions: Kirigami.Action {
             icon.name: Qt.application.layoutDirection === Qt.RightToLeft ? "system-log-out-rtl-symbolic" : "system-log-out-symbolic"
             text: i18nc("@action:button", "E&xit Safe Mode…")
-            onTriggered: Private.SafeMode.requestLogoutPrompt()
+            readonly property KWorkspace.SessionManagement sessionManagement: KWorkspace.SessionManagement {}
+            onTriggered: sessionManagement.requestLogout(KWorkspace.SessionManagement.ConfirmationMode.ForcePrompt)
         }
     }
 }

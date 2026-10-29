@@ -11,7 +11,7 @@ add_subdirectory(public)
 
 # Application, including private library (org.kde.plasma.welcome.private)
 add_executable(plasma-welcome)
-ecm_add_qml_module(plasma-welcome URI "org.kde.plasma.welcome.private" GENERATE_PLUGIN_SOURCE DEPENDENCIES QtQuick)
+ecm_add_qml_module(plasma-welcome URI "org.kde.plasma.welcome.private" GENERATE_PLUGIN_SOURCE DEPENDENCIES QtQuick org.kde.kworkspace)
 
 configure_file(config-plasma-welcome.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma-welcome.h)
 
@@ -116,7 +116,6 @@ target_link_libraries(plasma-welcome PRIVATE
     KF6::Service
     KF6::WindowSystem
     Plasma::Plasma
-    PW::KWorkspace
 )
 
 kconfig_add_kcfg_files(plasma-welcome GENERATE_MOC config.kcfgc)
