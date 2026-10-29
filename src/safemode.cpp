@@ -8,8 +8,6 @@
 
 #include "safemodecacheclearer.h"
 
-#include <kworkspace6/sessionmanagement.h>
-
 #include <QtEnvironmentVariables>
 
 SafeMode::SafeMode(QObject *parent)
@@ -29,12 +27,6 @@ SafeModeCacheClearer *SafeMode::cacheClearer()
         m_cacheClearer = new SafeModeCacheClearer(this);
     }
     return m_cacheClearer;
-}
-
-void SafeMode::requestLogoutPrompt()
-{
-    static SessionManagement *sessionManagement = new SessionManagement();
-    sessionManagement->requestLogout(SessionManagement::ConfirmationMode::ForcePrompt);
 }
 
 #include "moc_safemode.cpp"
