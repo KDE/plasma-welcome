@@ -131,7 +131,7 @@ bool Utils::isMac() const
                 QTextStream in(&file);
                 const QString vendor = in.readLine().trimmed();
                 file.close();
-                if (vendor.startsWith("Apple"), Qt::CaseInsensitive) {
+                if (vendor.startsWith("Apple", Qt::CaseInsensitive)) {
                     isMac = true;
                     break;
                 }
