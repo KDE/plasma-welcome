@@ -788,10 +788,10 @@ void SafeModeBackupRestore::suspendDirWatches()
     m_backupDirWatches.clear();
 }
 
-static QSet<QString> existingSourcePathsIn(const QString &categorySourceDir, const CategoryInfo &categoryInfo)
+static QSet<QString> existingSourcePaths(const CategoryInfo &categoryInfo, const QString &categorySourceDir)
 {
     if (categoryInfo.isEntireDir()) {
-        return {};
+        return QDir(categorySourceDir).exists() ? QSet<QString>{"."_L1} : QSet<QString>{};
     }
 
     Q_ASSERT(categoryInfo.files != nullptr);
@@ -826,17 +826,10 @@ void SafeModeBackupRestore::updateAvailableBackupSources()
     bool changed = false;
 
     for (const auto &info : m_categoryInfo) {
-        bool hasSources = false;
+        auto &sources = m_availableBackupSourcePaths[info.category];
+        sources = existingSourcePaths(info, info.origDirRoot);
 
-        if (info.isEntireDir()) {
-            hasSources = QDir(info.origDirRoot).exists();
-            m_availableBackupSourcePaths[info.category] = hasSources ? QSet<QString>{"."_L1} : QSet<QString>{};
-        } else {
-            const auto sourcePaths = existingSourcePathsIn(info.origDirRoot, info);
-            hasSources = !sourcePaths.isEmpty();
-            m_availableBackupSourcePaths[info.category] = sourcePaths;
-        }
-
+        const bool hasSources = !sources.isEmpty();
         if (m_availableBackupSources.testFlag(info.category) != hasSources) {
             m_availableBackupSources.setFlag(info.category, hasSources);
             changed = true;
@@ -854,17 +847,10 @@ void SafeModeBackupRestore::updateAvailableRestoreSources()
     bool changed = false;
 
     for (const auto &info : m_categoryInfo) {
-        bool hasSources = false;
+        auto &sources = m_availableRestoreSourcePaths[info.category];
+        sources = existingSourcePaths(info, info.backupCategoryRoot);
 
-        if (info.isEntireDir()) {
-            hasSources = QDir(info.backupCategoryRoot).exists();
-            m_availableRestoreSourcePaths[info.category] = hasSources ? QSet<QString>{"."_L1} : QSet<QString>{};
-        } else {
-            const auto sourcePaths = existingSourcePathsIn(info.backupCategoryRoot, info);
-            hasSources = !sourcePaths.isEmpty();
-            m_availableRestoreSourcePaths[info.category] = sourcePaths;
-        }
-
+        const bool hasSources = !sources.isEmpty();
         if (m_availableRestoreSources.testFlag(info.category) != hasSources) {
             m_availableRestoreSources.setFlag(info.category, hasSources);
             changed = true;
