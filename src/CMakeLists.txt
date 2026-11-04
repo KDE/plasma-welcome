@@ -31,6 +31,7 @@ target_sources(plasma-welcome PRIVATE
     release.cpp
     plasmacolors.cpp
     safemode.cpp
+    safemodebackupcategories.cpp
     safemodebackuprestore.cpp
     safemodecacheclearer.cpp
 )

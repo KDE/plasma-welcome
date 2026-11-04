@@ -87,28 +87,28 @@ Kirigami.ScrollablePage {
                             successTitle: i18nc("@title:row", "KDE Plasma configuration was restored"),
                             checkboxSubtitle: i18nc("@info possible contents of Plasma-related XDG config files, for reset, backup, and restore",
                                                     "System settings, desktop & applet settings."),
-                            category: Private.SafeModeBackupRestore.Categories.PlasmaConfig,
+                            category: Private.SafeModeBackup.Category.PlasmaConfig,
                         },
                         {
                             checkboxTitle: i18nc("@title:row", "Restore app & miscellaneous configuration"),
                             successTitle: i18nc("@title:row", "App & miscellaneous configuration was restored"),
                             checkboxSubtitle: i18nc("@info possible contents of non-Plasma XDG config files, for reset, backup, and restore",
                                                     "Settings for all other software apart from KDE Plasma."), // TODO: Select which other settings to back up and reset.
-                            category: Private.SafeModeBackupRestore.Categories.NonPlasmaConfig,
+                            category: Private.SafeModeBackup.Category.NonPlasmaConfig,
                         },
                         {
                             checkboxTitle: i18nc("@title:row", "Restore state"),
                             successTitle: i18nc("@title:row", "State was restored"),
                             checkboxSubtitle: i18nc("@info possible contents of XDG state folder, for reset, backup, and restore",
                                                     "Recent file history, restored window sizes, power draw history, …"),
-                            category: Private.SafeModeBackupRestore.Categories.State,
+                            category: Private.SafeModeBackup.Category.State,
                         },
                         {
                             checkboxTitle: i18nc("@title:row", "Restore desktop & application data"),
                             successTitle: i18nc("@title:row", "Desktop & application data was restored"),
                             checkboxSubtitle: i18nc("@info possible contents of XDG data folder, for reset, backup, and restore",
                                                     "Favorites, downloaded extensions, application sessions, custom menu entries, …"),
-                            category: Private.SafeModeBackupRestore.Categories.Data,
+                            category: Private.SafeModeBackup.Category.Data,
                         }
                     ]
                     delegate: Kirigami.FormEntry {

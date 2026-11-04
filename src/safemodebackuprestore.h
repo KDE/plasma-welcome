@@ -6,6 +6,8 @@
 
 #pragma once
 
+#include "safemodebackupcategories.h"
+
 #include <QFile>
 #include <QHash>
 #include <QObject>
@@ -13,7 +15,6 @@
 #include <QUrl>
 #include <qqmlintegration.h>
 
-class CategoryInfo;
 class KDirWatch;
 class KJob;
 
@@ -24,14 +25,8 @@ class SafeModeBackupRestore : public QObject
     QML_UNCREATABLE("access via Private.SafeModeBackupRestore instead")
 
 public:
-    enum class Category {
-        PlasmaConfig = 0x1,
-        NonPlasmaConfig = 0x2,
-        State = 0x4,
-        Data = 0x8,
-    };
-    Q_DECLARE_FLAGS(Categories, Category)
-    Q_FLAG(Categories)
+    using Category = SafeModeBackup::Category;
+    using Categories = SafeModeBackup::Categories;
 
 private:
     Q_PROPERTY(QUrl backupDir READ backupDir WRITE setBackupDir NOTIFY backupDirChanged FINAL)
@@ -100,6 +95,8 @@ Q_SIGNALS:
     void userLogErrorChanged();
 
 private:
+    using CategoryInfo = SafeModeBackup::CategoryInfo;
+
     void updateBackupCategoryRoots();
     QList<QUrl> conflictingPathsForCategory(const CategoryInfo &categoryInfo, const QUrl &categoryTargetDir) const;
 
