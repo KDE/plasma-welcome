@@ -20,6 +20,7 @@ namespace SafeModeBackup
 QSet<QString> makePlasmaConfigPaths()
 {
     return QSet<QString>{
+        // folders
         "autostart"_L1,
         "fontconfig"_L1,
         "glib-2.0"_L1,
@@ -37,9 +38,12 @@ QSet<QString> makePlasmaConfigPaths()
         "qtvirtualkeyboard"_L1,
         "session"_L1,
         "systemd"_L1,
+
+        // files
         "baloofileinformationrc"_L1,
         "baloofilerc"_L1,
         "bluedevilglobalrc"_L1,
+        "breezerc"_L1,
         "device_automounter_kcmrc"_L1,
         "discoverrc"_L1,
         "dolphinrc"_L1,
@@ -64,6 +68,7 @@ QSet<QString> makePlasmaConfigPaths()
         "khotkeysrc"_L1, // obsolete
         "kinfocenterrc"_L1,
         "kiorc"_L1,
+        "klipperrc"_L1,
         "kmenueditrc"_L1,
         "kmixctrlrc"_L1,
         "kmixrc"_L1,
@@ -73,19 +78,25 @@ QSet<QString> makePlasmaConfigPaths()
         "kscreenlockerrc"_L1,
         "kservicemenurc"_L1,
         "ksmserverrc"_L1,
+        "ksplashrc"_L1,
         "ksysguardrc"_L1,
         "ktimezonedrc"_L1,
         "ktrashrc"_L1,
         "kuprc"_L1,
+        "Kvantum"_L1,
         "kwalletrc"_L1,
         "kwinoutputconfig.json"_L1,
         "kwinrc"_L1,
+        "kwinrulesrc"_L1,
         "kxkbrc"_L1,
         "mimeapps.list"_L1,
+        "oxygenrc"_L1,
         "plasma.emojierrc"_L1,
+        "plasma_calendar_holiday_regions"_L1,
         "plasma-localerc"_L1,
         "plasma-nm"_L1,
         "plasma-org.kde.plasma.desktop-appletsrc"_L1,
+        "plasma-systemmonitorrc"_L1,
         "plasma-welcomerc"_L1,
         "PlasmaDiscoverUpdates"_L1,
         "plasmanotifyrc"_L1,
