@@ -8,6 +8,7 @@
 
 #include <KLocalizedString>
 
+#include <QFileInfo>
 #include <QStandardPaths>
 #include <QtEnvironmentVariables>
 
@@ -124,7 +125,13 @@ public:
 
     bool containsRelativePath(const QString &testedRelativePath) const override
     {
-        return m_relativePaths.contains(testedRelativePath);
+        if (m_relativePaths.contains(testedRelativePath)) {
+            return true;
+        } else if (QString parentPath = QFileInfo(testedRelativePath).path(); parentPath != "."_L1 && parentPath != ".."_L1) {
+            return containsRelativePath(parentPath);
+        } else {
+            return false;
+        }
     }
 
     bool containsPartsOfRelativeDir(const QString &testedRelativeDir) const override
