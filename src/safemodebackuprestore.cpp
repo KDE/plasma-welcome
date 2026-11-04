@@ -797,14 +797,26 @@ static QSet<QString> existingSourcePathsIn(const QString &categorySourceDir, con
     Q_ASSERT(categoryInfo.files != nullptr);
 
     using F = QDirListing::IteratorFlag;
-    const QDirListing::IteratorFlags flags = F::Recursive | F::IncludeHidden | F::IncludeBrokenSymlinks | F::ExcludeOther;
 
+    // Recurse directories only if they contain files that are relevant for this category.
+    QStringList recursedDirs{categorySourceDir};
+    QStringList nextRecursedDirs;
     QSet<QString> sourcePaths;
-    for (const QDirListing::DirEntry &entry : QDirListing(categorySourceDir, flags)) {
-        QString relativePath = QDir(categorySourceDir).relativeFilePath(entry.filePath());
-        if (categoryInfo.files->containsRelativePath(relativePath)) {
-            sourcePaths.insert(relativePath);
+
+    while (!recursedDirs.isEmpty()) {
+        nextRecursedDirs.clear();
+
+        for (const auto &dir : recursedDirs) {
+            for (const QDirListing::DirEntry &entry : QDirListing(categorySourceDir, F::IncludeHidden | F::IncludeBrokenSymlinks | F::ExcludeOther)) {
+                QString relativePath = QDir(categorySourceDir).relativeFilePath(entry.filePath());
+                if (categoryInfo.files->containsRelativePath(relativePath)) {
+                    sourcePaths.insert(relativePath);
+                } else if (categoryInfo.files->containsPartsOfRelativeDir(relativePath)) {
+                    nextRecursedDirs.append(entry.filePath());
+                }
+            }
         }
+        recursedDirs = nextRecursedDirs;
     }
     return sourcePaths;
 }
