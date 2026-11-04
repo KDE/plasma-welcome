@@ -8,6 +8,7 @@
 
 #include <KLocalizedString>
 
+#include <QDir>
 #include <QFileInfo>
 #include <QStandardPaths>
 #include <QtEnvironmentVariables>
@@ -215,6 +216,39 @@ std::vector<CategoryInfo> makeCategoryInfo()
                               u"data"_s);
 
     return categoryInfo;
+}
+
+QSet<QString> existingSourcePaths(const CategoryInfo &categoryInfo, const QString &categorySourceDir)
+{
+    if (categoryInfo.isEntireDir()) {
+        return QDir(categorySourceDir).exists() ? QSet<QString>{"."_L1} : QSet<QString>{};
+    }
+
+    Q_ASSERT(categoryInfo.files != nullptr);
+
+    using F = QDirListing::IteratorFlag;
+
+    // Recurse directories only if they contain files that are relevant for this category.
+    QStringList recursedDirs{categorySourceDir};
+    QStringList nextRecursedDirs;
+    QSet<QString> sourcePaths;
+
+    while (!recursedDirs.isEmpty()) {
+        nextRecursedDirs.clear();
+
+        for (const auto &dir : recursedDirs) {
+            for (const QDirListing::DirEntry &entry : QDirListing(dir, F::IncludeHidden | F::IncludeBrokenSymlinks | F::ExcludeOther)) {
+                QString relativePath = QDir(categorySourceDir).relativeFilePath(entry.filePath());
+                if (categoryInfo.files->containsRelativePath(relativePath)) {
+                    sourcePaths.insert(relativePath);
+                } else if (categoryInfo.files->containsPartsOfRelativeDir(relativePath)) {
+                    nextRecursedDirs.append(entry.filePath());
+                }
+            }
+        }
+        recursedDirs = nextRecursedDirs;
+    }
+    return sourcePaths;
 }
 } // namespace SafeModeBackup
 

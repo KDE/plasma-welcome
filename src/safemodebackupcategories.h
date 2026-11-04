@@ -52,4 +52,6 @@ struct CategoryInfo {
 
 std::vector<CategoryInfo> makeCategoryInfo();
 
+QSet<QString> existingSourcePaths(const CategoryInfo &categoryInfo, const QString &categorySourceDir);
+
 } // namespace SafeModeBackup
