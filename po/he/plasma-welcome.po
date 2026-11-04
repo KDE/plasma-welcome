@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-03 00:57+0000\n"
-"PO-Revision-Date: 2026-10-09 09:58+0300\n"
+"PO-Revision-Date: 2026-11-03 20:20+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -1177,13 +1177,7 @@ msgstr ""
 "אפשר לגרור את הסמלים כדי לסדר אותם באופן שמתאים לך."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the ⌃ "
-#| "arrow next to the clock."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -1193,7 +1187,7 @@ msgid ""
 msgstr ""
 "זה וידג׳ט „שורת המערכת”, שמאפשר לך לשלוט ביכולות מערכת כגון שינוי עוצמת השמע "
 "והתחברות לרשתות. הפריטים גלויים רק כשהם נחוצים. כדי לצפות בכל הפריטים "
-"הזמינים, יש ללחוץ על החץ שליד השעון."
+"הזמינים, יש ללחוץ על החץ ^ שליד השעון."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
