@@ -24,24 +24,10 @@ class SafeModeBackupRestore : public QObject
     QML_ELEMENT
     QML_UNCREATABLE("access via Private.SafeModeBackupRestore instead")
 
-public:
-    using Category = SafeModeBackup::Category;
-    using Categories = SafeModeBackup::Categories;
-
 private:
     Q_PROPERTY(QUrl backupDir READ backupDir WRITE setBackupDir NOTIFY backupDirChanged FINAL)
-
-    Q_PROPERTY(Categories availableBackupSources READ availableBackupSources NOTIFY availableBackupSourcesChanged FINAL)
-    Q_PROPERTY(Categories selectedBackupCategories READ selectedBackupCategories WRITE setSelectedBackupCategories NOTIFY selectedBackupCategoriesChanged FINAL)
-    Q_PROPERTY(Categories successfulBackupCategories READ successfulBackupCategories NOTIFY successfulBackupCategoriesChanged FINAL)
-    Q_PROPERTY(QList<QUrl> preExistingBackupTargetPaths READ preExistingBackupTargetPaths NOTIFY preExistingBackupTargetPathsChanged FINAL)
-
-    Q_PROPERTY(Categories availableRestoreSources READ availableRestoreSources NOTIFY availableRestoreSourcesChanged FINAL)
-    Q_PROPERTY(
-        Categories selectedRestoreCategories READ selectedRestoreCategories WRITE setSelectedRestoreCategories NOTIFY selectedRestoreCategoriesChanged FINAL)
-    Q_PROPERTY(Categories successfulRestoreCategories READ successfulRestoreCategories NOTIFY successfulRestoreCategoriesChanged FINAL)
-    Q_PROPERTY(QList<QUrl> preExistingRestoreTargetPaths READ preExistingRestoreTargetPaths NOTIFY preExistingRestoreTargetPathsChanged FINAL)
-
+    Q_PROPERTY(SafeModeBackup::CategoryModel *backupCategories READ backupCategories CONSTANT FINAL)
+    Q_PROPERTY(SafeModeBackup::CategoryModel *restoreCategories READ restoreCategories CONSTANT FINAL)
     Q_PROPERTY(bool hasUserLogError READ hasUserLogError NOTIFY userLogErrorChanged FINAL)
 
 public:
@@ -51,26 +37,11 @@ public:
     void setBackupDir(const QUrl &dir);
     QUrl backupDir() const;
 
-    Categories availableBackupSources() const;
-    QMap<Category, QUrl> availableBackupSourceDirs() const;
+    SafeModeBackup::CategoryModel *backupCategories() const;
+    SafeModeBackup::CategoryModel *restoreCategories() const;
 
-    Categories availableRestoreSources() const;
-    QMap<Category, QUrl> availableRestoreSourceDirs() const;
-
-    void setSelectedBackupCategories(Categories);
-    Categories selectedBackupCategories() const;
-
-    Categories successfulBackupCategories() const;
-    Q_SCRIPTABLE void resetSuccessfulBackupCategories();
-
-    void setSelectedRestoreCategories(Categories);
-    Categories selectedRestoreCategories() const;
-
-    Categories successfulRestoreCategories() const;
-    Q_SCRIPTABLE void resetSuccessfulRestoreCategories();
-
-    QList<QUrl> preExistingBackupTargetPaths() const;
-    QList<QUrl> preExistingRestoreTargetPaths() const;
+    Q_INVOKABLE void resetSuccessfulBackupCategories();
+    Q_INVOKABLE void resetSuccessfulRestoreCategories();
 
     bool hasUserLogError() const;
 
@@ -81,24 +52,16 @@ public:
 
 Q_SIGNALS:
     void backupDirChanged();
-
-    void availableBackupSourcesChanged();
-    void selectedBackupCategoriesChanged();
-    void successfulBackupCategoriesChanged();
-    void preExistingBackupTargetPathsChanged();
-
-    void availableRestoreSourcesChanged();
-    void selectedRestoreCategoriesChanged();
-    void successfulRestoreCategoriesChanged();
-    void preExistingRestoreTargetPathsChanged();
-
     void userLogErrorChanged();
 
 private:
+    using Category = SafeModeBackup::Category;
+    using Categories = SafeModeBackup::Categories;
     using CategoryInfo = SafeModeBackup::CategoryInfo;
 
     void updateBackupCategoryRoots();
     QList<QUrl> conflictingPathsForCategory(const CategoryInfo &categoryInfo, const QUrl &categoryTargetDir) const;
+    void updateConflicts();
 
     enum class MessageType {
         Intention,
@@ -120,14 +83,10 @@ private Q_SLOTS:
 private:
     QUrl m_backupDir;
     std::vector<CategoryInfo> m_categoryInfo;
-    Categories m_availableBackupSources;
-    Categories m_selectedBackupCategories;
-    Categories m_successfulBackupCategories;
-    Categories m_availableRestoreSources;
-    Categories m_selectedRestoreCategories;
-    Categories m_successfulRestoreCategories;
-    KDirWatch *m_origDirWatch;
-    KDirWatch *m_backupDirWatch;
+    SafeModeBackup::CategoryModel *m_backupCategories = nullptr;
+    SafeModeBackup::CategoryModel *m_restoreCategories = nullptr;
+    KDirWatch *m_origDirWatch = nullptr;
+    KDirWatch *m_backupDirWatch = nullptr;
     QSet<QString> m_origDirWatches;
     QSet<QString> m_backupDirWatches;
     QHash<Category, QSet<QString>> m_availableBackupSourcePaths;

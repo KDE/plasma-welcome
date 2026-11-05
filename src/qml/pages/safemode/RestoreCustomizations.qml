@@ -24,18 +24,7 @@ Kirigami.ScrollablePage {
 
     title: i18nc("@title", "Restore Customizations")
 
-    Connections {
-        target: root.backupRestore
-        enabled: root.visible
-
-        function onAvailableRestoreSourcesChanged() {
-            // Explicitly uncheck backup categories without source files.
-            root.backupRestore.selectedRestoreCategories &= root.backupRestore.availableRestoreSources;
-        }
-    }
-
     function initPage() {
-        root.backupRestore.selectedRestoreCategories &= root.backupRestore.availableRestoreSources;
         root.backupRestore.resetSuccessfulRestoreCategories();
     }
     onVisibleChanged: visible && initPage()
@@ -70,7 +59,7 @@ Kirigami.ScrollablePage {
                     }
                     trailingItems: QQC2.Button {
                         icon.name: "document-open-folder-symbolic"
-                        enabled: root.backupRestore.successfulRestoreCategories === 0
+                        enabled: root.backupRestore.restoreCategories.successfulCategories === 0
                         text: i18nc("@action:button change backup folder for user customizations", "&Change…")
                         onClicked: { backupDirDialog.open(); }
                     }
@@ -81,57 +70,27 @@ Kirigami.ScrollablePage {
                 Layout.fillWidth: true
 
                 Repeater {
-                    model: [
-                        {
-                            checkboxTitle: i18nc("@title:row", "Restore KDE Plasma configuration"),
-                            successTitle: i18nc("@title:row", "KDE Plasma configuration was restored"),
-                            checkboxSubtitle: i18nc("@info possible contents of Plasma-related XDG config files, for reset, backup, and restore",
-                                                    "System settings, desktop & applet settings."),
-                            category: Private.SafeModeBackup.Category.PlasmaConfig,
-                        },
-                        {
-                            checkboxTitle: i18nc("@title:row", "Restore app & miscellaneous configuration"),
-                            successTitle: i18nc("@title:row", "App & miscellaneous configuration was restored"),
-                            checkboxSubtitle: i18nc("@info possible contents of non-Plasma XDG config files, for reset, backup, and restore",
-                                                    "Settings for all other software apart from KDE Plasma."), // TODO: Select which other settings to back up and reset.
-                            category: Private.SafeModeBackup.Category.NonPlasmaConfig,
-                        },
-                        {
-                            checkboxTitle: i18nc("@title:row", "Restore state"),
-                            successTitle: i18nc("@title:row", "State was restored"),
-                            checkboxSubtitle: i18nc("@info possible contents of XDG state folder, for reset, backup, and restore",
-                                                    "Recent file history, restored window sizes, power draw history, …"),
-                            category: Private.SafeModeBackup.Category.State,
-                        },
-                        {
-                            checkboxTitle: i18nc("@title:row", "Restore desktop & application data"),
-                            successTitle: i18nc("@title:row", "Desktop & application data was restored"),
-                            checkboxSubtitle: i18nc("@info possible contents of XDG data folder, for reset, backup, and restore",
-                                                    "Favorites, downloaded extensions, application sessions, custom menu entries, …"),
-                            category: Private.SafeModeBackup.Category.Data,
-                        }
-                    ]
+                    model: root.backupRestore.restoreCategories
+
                     delegate: Kirigami.FormEntry {
                         id: delegate
 
-                        required property string checkboxTitle
-                        required property string successTitle
-                        required property string checkboxSubtitle
                         required property int category
+                        required property string categoryTitle
+                        required property string categorySuccessTitle
+                        required property string categoryDescription
+                        required property bool isAvailable
+                        required property bool isSelected
+                        required property bool wasSuccessful
 
-                        readonly property bool available: (root.backupRestore.availableRestoreSources & delegate.category) !== 0
-                        readonly property bool successfulCompletion: (root.backupRestore.successfulRestoreCategories & delegate.category) !== 0
-
-                        subtitle: (available || successfulCompletion) ? checkboxSubtitle : i18nc("@info can't back up files that don't exist", "Not present in your backup.")
+                        subtitle: (isAvailable || wasSuccessful) ? categoryDescription : i18nc("@info can't back up files that don't exist", "Not present in your backup.")
 
                         contentItem: QQC2.CheckBox {
-                            text: successfulCompletion ? delegate.successTitle : delegate.checkboxTitle
-                            enabled: available && !successfulCompletion
-                            checked: (enabled && (root.backupRestore.selectedRestoreCategories & delegate.category) !== 0) || successfulCompletion
+                            text: delegate.wasSuccessful ? delegate.categorySuccessTitle : delegate.categoryTitle
+                            enabled: delegate.isAvailable && !delegate.wasSuccessful
+                            checked: delegate.wasSuccessful || (delegate.isAvailable && delegate.isSelected)
                             onToggled: {
-                                root.backupRestore.selectedRestoreCategories = checked
-                                    ? (root.backupRestore.selectedRestoreCategories | delegate.category)
-                                    : (root.backupRestore.selectedRestoreCategories & (root.backupRestore.selectedRestoreCategories ^ delegate.category));
+                                root.backupRestore.restoreCategories.setCategorySelected(delegate.category, checked);
                             }
                         }
                     }
@@ -141,8 +100,9 @@ Kirigami.ScrollablePage {
 
         QQC2.Button {
             Layout.alignment: Qt.AlignHCenter
-            enabled: (root.backupRestore.availableRestoreSources & root.backupRestore.selectedRestoreCategories) !== 0
-                     && root.backupRestore.preExistingRestoreTargetPaths.length === 0
+            enabled: (root.backupRestore.restoreCategories.availableCategories
+                      & root.backupRestore.restoreCategories.selectedCategories) !== 0
+                     && root.backupRestore.restoreCategories.conflictingPaths.length === 0
             icon.name: "edit-reset"
             text: xi18nc("@action:button", "&Restore Customizations")
 
@@ -155,26 +115,25 @@ Kirigami.ScrollablePage {
         currentFolder: root.backupRestore.backupDir
         onAccepted: {
             root.backupRestore.backupDir = selectedFolder;
-            root.backupRestore.resetSuccessfulRestoreCategories();
         }
     }
 
     footer: ColumnLayout {
         Kirigami.InlineMessage {
-            visible: root.backupRestore.preExistingRestoreTargetPaths.length > 0
+            visible: root.backupRestore.restoreCategories.conflictingPaths.length > 0
             Layout.fillWidth: true
             text: i18ncp("@info",
                          "The following restore destination already exists: <ul>%2</ul> Move or delete your customization files to make room for the backed-up version.",
                          "The following restore destination already exist: <ul>%2</ul> Move or delete your customization files to make room for the backed-up version.",
-                         root.backupRestore.preExistingRestoreTargetPaths.length,
-                         root.backupRestore.preExistingRestoreTargetPaths.map((url) => "<li>" + new URL(url).pathname + "</li>").join()
+                         root.backupRestore.restoreCategories.conflictingPaths.length,
+                         root.backupRestore.restoreCategories.conflictingPaths.map((url) => "<li>" + new URL(url).pathname + "</li>").join()
             )
             position: Kirigami.InlineMessage.Position.Footer
             type: Kirigami.MessageType.Warning
         }
 
         Kirigami.InlineMessage {
-            visible: root.backupRestore.successfulRestoreCategories !== 0 && !root.backupRestore.hasUserLogError
+            visible: root.backupRestore.restoreCategories.successfulCategories !== 0 && !root.backupRestore.hasUserLogError
             Layout.fillWidth: true
             text: i18nc("@info", "User customizations were successfully restored.")
             actions: [

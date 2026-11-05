@@ -6,8 +6,12 @@
 
 #pragma once
 
+#include <QAbstractListModel>
+#include <QHash>
+#include <QList>
 #include <QSet>
 #include <QString>
+#include <QUrl>
 #include <qqmlintegration.h>
 
 #include <memory>
@@ -27,31 +31,131 @@ enum class Category {
 Q_FLAG_NS(Category)
 using Categories = QFlags<Category>;
 
+enum class Operation {
+    Backup,
+    Restore,
+};
+
 struct CategoryInfo {
-    class FileAndDirPaths
-    {
-    public:
+    struct FileAndDirPaths {
         virtual ~FileAndDirPaths() = default;
         virtual bool containsRelativePath(const QString &testedPath) const = 0;
         virtual bool containsPartsOfRelativeDir(const QString &testedDir) const = 0;
         virtual QSet<QString> knownRelativePaths() const = 0;
     };
 
+    struct Strings {
+        QString logTitle;
+        QString description;
+        QString backupTitle;
+        QString backupSuccessTitle;
+        QString restoreTitle;
+        QString restoreSuccessTitle;
+    };
+
     const Category category;
-    const QString localizedName;
     const QString origDirRoot;
     const QString backupSubDirName;
     std::unique_ptr<FileAndDirPaths> files;
+    const Strings strings;
     QString backupCategoryRoot; // gets updated as backup dir changes
 
     bool isEntireDir() const
     {
-        return files ? false : true;
+        return !files;
     }
+
+    QString logTitle() const
+    {
+        return strings.logTitle;
+    }
+
+    bool containsRelativePath(const QString &relativePath) const
+    {
+        return files && files->containsRelativePath(relativePath);
+    }
+
+    bool containsPartsOfRelativeDir(const QString &relativeDir) const
+    {
+        return files && files->containsPartsOfRelativeDir(relativeDir);
+    }
+
+    QSet<QString> knownRelativePaths() const
+    {
+        return files ? files->knownRelativePaths() : QSet<QString>{};
+    }
+
+    QSet<QString> existingSourcePaths(const QString &categorySourceDir) const;
 };
 
 std::vector<CategoryInfo> makeCategoryInfo();
 
-QSet<QString> existingSourcePaths(const CategoryInfo &categoryInfo, const QString &categorySourceDir);
+class CategoryModel : public QAbstractListModel
+{
+    Q_OBJECT
+    QML_ANONYMOUS
+
+    Q_PROPERTY(Categories availableCategories READ availableCategories NOTIFY availableCategoriesChanged FINAL)
+    Q_PROPERTY(Categories selectedCategories READ selectedCategories NOTIFY selectedCategoriesChanged FINAL)
+    Q_PROPERTY(Categories successfulCategories READ successfulCategories NOTIFY successfulCategoriesChanged FINAL)
+    Q_PROPERTY(QList<QUrl> conflictingPaths READ conflictingPaths NOTIFY conflictingPathsChanged FINAL)
+
+public:
+    enum Role {
+        CategoryRole = Qt::UserRole + 1,
+        CategoryTitleRole,
+        CategorySuccessTitleRole,
+        CategoryDescriptionRole,
+        AvailableRole,
+        SelectedRole,
+        SuccessfulRole,
+        ConflictingPathsRole,
+    };
+    Q_ENUM(Role)
+
+    CategoryModel(const std::vector<CategoryInfo> &categoryInfo, Operation operation, QObject *parent = nullptr);
+    ~CategoryModel() override = default;
+
+    int rowCount(const QModelIndex &parent = QModelIndex()) const override;
+    QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
+    QHash<int, QByteArray> roleNames() const override;
+
+    Categories availableCategories() const;
+    Categories selectedCategories() const;
+    Categories successfulCategories() const;
+    QList<QUrl> conflictingPaths() const;
+
+    bool isSelected(Category category) const;
+
+    void setAvailable(Category category, bool available);
+    void setSelected(Category category, bool selected);
+    void setSelectedCategories(Categories categories);
+    Q_INVOKABLE void setCategorySelected(int category, bool selected);
+    void setSuccessful(Category category, bool successful);
+    void setConflictingPaths(Category category, const QList<QUrl> &paths);
+    void resetSuccessful();
+
+Q_SIGNALS:
+    void availableCategoriesChanged();
+    void selectedCategoriesChanged();
+    void successfulCategoriesChanged();
+    void conflictingPathsChanged();
+
+private:
+    struct Row {
+        Category category;
+        QString title;
+        QString successTitle;
+        QString description;
+        bool available = false;
+        bool selected = false;
+        bool successful = false;
+        QList<QUrl> conflictingPaths;
+    };
+
+    int rowFor(Category category) const;
+
+    std::vector<Row> m_rows;
+};
 
 } // namespace SafeModeBackup
