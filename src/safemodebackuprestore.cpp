@@ -20,10 +20,10 @@
 #include <QDirListing>
 #include <QFileInfo>
 #include <QStandardPaths>
+#include <QtAssert>
 #include <QtEnvironmentVariables>
 
 #include <algorithm>
-#include <memory>
 
 #include "welcome_debug.h"
 
@@ -317,6 +317,30 @@ static std::unique_ptr<KJob> makeCategoryMoveJob(const CategoryInfo &categoryInf
     return compositeJob;
 }
 
+bool SafeModeBackupRestore::checkValidFilesForCategory(const CategoryInfo &categoryInfo,
+                                                       const QSet<QString> &relativeSourcePaths,
+                                                       const QUrl &sourceDir,
+                                                       const QUrl &targetDir)
+{
+    if (relativeSourcePaths.isEmpty()) {
+        userLog(MessageType::Error,
+                i18nc("@info:status backup log error - %1 is a backup category, %2 is a folder path",
+                      "%1: Aborting - no source files found in `%2`",
+                      categoryInfo.logTitle(),
+                      sourceDir.toLocalFile()));
+        return false;
+    }
+    if (const auto conflictingPaths = conflictingPathsForCategory(categoryInfo, targetDir); !conflictingPaths.isEmpty()) {
+        userLog(MessageType::Error,
+                i18nc("@info:status backup log error - %1 is a backup category, %2 is a folder path or a collection of files",
+                      "%1: Aborting - target backup files already exist: %2",
+                      categoryInfo.logTitle(),
+                      formatPathsForLog(conflictingPaths)));
+        return false;
+    }
+    return true;
+}
+
 bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
 {
     if (previousJob && previousJob->error()) {
@@ -364,71 +388,25 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
             MessageType::Intention,
             i18nc("@info:status backup log - %1 is a backup category, %2 is a folder path", "%1: Backing up files to `%2`", info.logTitle(), targetDirPath));
 
-        if (relativeSourcePaths.isEmpty()) {
-            userLog(MessageType::Error,
-                    i18nc("@info:status backup log error - %1 is a backup category, %2 is a folder path",
-                          "%1: Didn't move customization dirs - no customization files found in `%2`",
-                          info.logTitle(),
-                          info.origDirRoot));
-            return false;
-        }
-        if (const auto conflictingPaths = conflictingPathsForCategory(info, targetDir); !conflictingPaths.isEmpty()) {
-            userLog(MessageType::Error,
-                    i18nc("@info:status backup log error - %1 is a backup category, %2 is a folder path or a collection of files",
-                          "%1: Didn't move customization dirs - target backup files already exist: %2",
-                          info.logTitle(),
-                          formatPathsForLog(conflictingPaths)));
+        if (!checkValidFilesForCategory(info, relativeSourcePaths, sourceDir, targetDir)) {
             return false;
         }
         std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(info, sourceDir, targetDir, m_backupDir, relativeSourcePaths);
 
-        QObject::connect(categoryJob.get(), &KJob::infoMessage, this, [this, name = info.logTitle()](KJob *, const QString &message) {
-            userLog(MessageType::Intention,
-                    i18nc("@info:status backup/restore log - %1 is backup category, %2 is an info message from the move job", "%1: %2", name, message));
-        });
-        QObject::connect(categoryJob.get(), &KJob::warning, this, [this, name = info.logTitle()](KJob *, const QString &message) {
-            userLog(MessageType::Warning,
-                    i18nc("@info:status backup/restore log - %1 is backup category, %2 is an info message from the move job", "%1: %2", name, message));
-        });
         QObject::connect(categoryJob.get(), &KJob::result, this, [this, category = info.category, name = info.logTitle(), targetDirPath](KJob *categoryJob) {
-            if (categoryJob->error()) {
-                userLog(MessageType::Error,
-                        i18nc("@info:status backup/restore log error - %1 is the category name, %2 is a folder path, %3 is the error message",
-                              "%1: Error moving files into `%2`: %3",
-                              name,
-                              targetDirPath,
-                              categoryJob->errorString()));
-            } else {
-                userLog(MessageType::Progress,
-                        i18nc("@info:status successful backup/restore log - %1 is the category name, %2 is a folder path",
-                              "%1: Successfully reset and backed up into `%2`",
-                              name,
-                              targetDirPath));
-                userLog(MessageType::CosmeticSpacing, ""_L1);
-
+            if (!categoryJob->error()) {
                 m_backupCategories->setSuccessful(category, true);
 
                 // Also pre-select it for restoring this backup, in case the user wants to move it right back.
                 m_restoreCategories->setSelected(category, true);
             }
         });
+        connectJobUpdatesToUserLog(categoryJob.get(), Operation::Backup, info.logTitle(), targetDirPath);
         compositeJob->addSubjob(categoryJob.release());
     }
 
     userLog(MessageType::CosmeticSpacing, ""_L1);
-
-    QObject::connect(compositeJob.get(), &KJob::result, this, [this](KJob *job) {
-        if (job->error()) {
-            userLog(MessageType::Error, i18nc("@info:status backup log", "Errors encountered while backing up customizations, see above."));
-        } else {
-            userLog(MessageType::Progress, i18nc("@info:status backup log", "Customizations were successfully backed up."));
-        }
-        activateDirWatches();
-    });
-    suspendDirWatches();
-    compositeJob->start();
-    compositeJob.release(); // asynchronous, self-deleting KIO jobs
-
+    startOperation(std::move(compositeJob), Operation::Backup);
     return true;
 }
 
@@ -469,72 +447,89 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
                       info.logTitle(),
                       sourceDirPath));
 
-        if (relativeSourcePaths.isEmpty()) {
-            userLog(MessageType::Error,
-                    i18nc("@info:status backup log error - %1 is backup category, %2 is a folder path",
-                          "%1: Didn't restore customization dirs - no backup files found in `%2`",
-                          info.logTitle(),
-                          sourceDirPath));
-            return false;
-        }
-        if (const auto conflictingPaths = conflictingPathsForCategory(info, info.origDirRoot); !conflictingPaths.isEmpty()) {
-            userLog(MessageType::Error,
-                    i18nc("@info:status backup log error - %1 is backup category, %2 is a folder path or a collection of files",
-                          "%1: Didn't restore customization dirs - target customization files already exist: %2",
-                          info.logTitle(),
-                          formatPathsForLog(conflictingPaths)));
+        if (!checkValidFilesForCategory(info, relativeSourcePaths, sourceDir, targetDir)) {
             return false;
         }
         std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(info, sourceDir, targetDir, QUrl(), relativeSourcePaths);
 
-        QObject::connect(categoryJob.get(), &KJob::infoMessage, this, [this, name = info.logTitle()](KJob *, const QString &message) {
-            userLog(MessageType::Intention,
-                    i18nc("@info:status backup/restore log - %1 is backup category, %2 is an info message from the move job", "%1: %2", name, message));
-        });
-        QObject::connect(categoryJob.get(), &KJob::warning, this, [this, name = info.logTitle()](KJob *, const QString &message) {
-            userLog(MessageType::Warning,
-                    i18nc("@info:status backup/restore log - %1 is backup category, %2 is an info message from the move job", "%1: %2", name, message));
-        });
-        QObject::connect(categoryJob.get(), &KJob::result, this, [this, category = info.category, name = info.logTitle(), sourceDirPath](KJob *categoryJob) {
-            if (categoryJob->error()) {
-                userLog(MessageType::Error,
-                        i18nc("@info:status backup/restore log error - %1 is the category name, %2 is a folder path, %3 is the error message",
-                              "%1: Error moving files from `%2`: %3",
-                              name,
-                              sourceDirPath,
-                              categoryJob->errorString()));
-            } else {
-                userLog(MessageType::Progress,
-                        i18nc("@info:status successful backup/restore log - %1 is the category name, %2 is a folder path",
-                              "%1: Successfully restored from `%2`",
-                              name,
-                              sourceDirPath));
-                userLog(MessageType::CosmeticSpacing, ""_L1);
-
+        QObject::connect(categoryJob.get(), &KJob::result, this, [this, category = info.category](KJob *categoryJob) {
+            if (!categoryJob->error()) {
                 m_restoreCategories->setSuccessful(category, true);
 
                 // Also pre-select it for backup, in case the user wants to back it up again right away.
                 m_backupCategories->setSelected(category, true);
             }
         });
+        connectJobUpdatesToUserLog(categoryJob.get(), Operation::Restore, info.logTitle(), sourceDirPath);
         compositeJob->addSubjob(categoryJob.release());
     }
 
     userLog(MessageType::CosmeticSpacing, ""_L1);
+    startOperation(std::move(compositeJob), Operation::Restore);
+    return true;
+}
 
-    QObject::connect(compositeJob.get(), &KJob::result, this, [this](KJob *job) {
-        if (job->error()) {
-            userLog(MessageType::Error, i18nc("@info:status restore log", "Errors encountered while restoring customizations, see above."));
+void SafeModeBackupRestore::connectJobUpdatesToUserLog(KJob *job, Operation operation, const QString &categoryTitle, const QString &categoryBackupRoot)
+{
+    QObject::connect(job, &KJob::infoMessage, this, [this, categoryTitle](KJob *, const QString &message) {
+        userLog(MessageType::Intention,
+                i18nc("@info:status backup/restore log - %1 is a backup category, %2 is an info message from the move job", "%1: %2", categoryTitle, message));
+    });
+    QObject::connect(job, &KJob::warning, this, [this, categoryTitle](KJob *, const QString &message) {
+        userLog(MessageType::Warning,
+                i18nc("@info:status backup/restore log - %1 is a backup category, %2 is an info message from the move job", "%1: %2", categoryTitle, message));
+    });
+    QObject::connect(job, &KJob::result, this, [this, operation, categoryTitle, categoryBackupRoot](KJob *categoryJob) {
+        if (categoryJob->error()) {
+            userLog(MessageType::Error,
+                    i18nc("@info:status backup/restore log error - %1 is a backup category, %2 is a folder path, %3 is the error message",
+                          "%1: Error moving files into `%2`: %3",
+                          categoryTitle,
+                          categoryBackupRoot,
+                          categoryJob->errorString()));
+            return;
+        }
+        switch (operation) {
+        case Operation::Backup:
+            userLog(MessageType::Progress,
+                    i18nc("@info:status successful backup/restore log - %1 is a backup category, %2 is a folder path",
+                          "%1: Successfully reset and backed up into `%2`",
+                          categoryTitle,
+                          categoryBackupRoot));
+            break;
+        case Operation::Restore:
+            userLog(MessageType::Progress,
+                    i18nc("@info:status successful backup/restore log - %1 is a backup category, %2 is a folder path",
+                          "%1: Successfully restored from `%2`",
+                          categoryTitle,
+                          categoryBackupRoot));
+            break;
+        }
+        userLog(MessageType::CosmeticSpacing, ""_L1);
+    });
+}
+
+void SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation operation)
+{
+    Q_ASSERT(operation == Operation::Backup || operation == Operation::Restore);
+
+    QObject::connect(job.get(), &KJob::result, this, [this, operation](KJob *finishedJob) {
+        const bool isBackup = operation == Operation::Backup;
+        if (finishedJob->error()) {
+            userLog(MessageType::Error,
+                    isBackup ? i18nc("@info:status backup log", "Errors encountered while backing up customizations, see above.")
+                             : i18nc("@info:status restore log", "Errors encountered while restoring customizations, see above."));
         } else {
-            userLog(MessageType::Progress, i18nc("@info:status restore log", "Customizations were successfully restored."));
+            userLog(MessageType::Progress,
+                    isBackup ? i18nc("@info:status backup log", "Customizations were successfully backed up.")
+                             : i18nc("@info:status restore log", "Customizations were successfully restored."));
         }
         activateDirWatches();
     });
-    suspendDirWatches();
-    compositeJob->start();
-    compositeJob.release(); // asynchronous, self-deleting KIO jobs
 
-    return true;
+    suspendDirWatches();
+    job->start();
+    job.release(); // asynchronous, self-deleting KIO jobs
 }
 
 void SafeModeBackupRestore::userLog(MessageType msgType, const QString &msg)

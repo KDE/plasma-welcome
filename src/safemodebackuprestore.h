@@ -15,6 +15,8 @@
 #include <QUrl>
 #include <qqmlintegration.h>
 
+#include <memory>
+
 class KDirWatch;
 class KJob;
 
@@ -58,10 +60,14 @@ private:
     using Category = SafeModeBackup::Category;
     using Categories = SafeModeBackup::Categories;
     using CategoryInfo = SafeModeBackup::CategoryInfo;
+    using Operation = SafeModeBackup::Operation;
 
     void updateBackupCategoryRoots();
-    QList<QUrl> conflictingPathsForCategory(const CategoryInfo &categoryInfo, const QUrl &categoryTargetDir) const;
+    QList<QUrl> conflictingPathsForCategory(const CategoryInfo &, const QUrl &categoryTargetDir) const;
     void updateConflicts();
+    bool checkValidFilesForCategory(const CategoryInfo &, const QSet<QString> &relativeSourcePaths, const QUrl &sourceDir, const QUrl &targetDir);
+    void connectJobUpdatesToUserLog(KJob *job, Operation operation, const QString &categoryTitle, const QString &backupCategoryRoot);
+    void startOperation(std::unique_ptr<KJob> job, Operation operation);
 
     enum class MessageType {
         Intention,
