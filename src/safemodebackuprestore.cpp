@@ -47,31 +47,6 @@ QUrl subPathUrl(const QUrl &url, const QString &subdirname)
     return newUrl;
 }
 
-QList<QUrl> intersectionAsUrls(const QSet<QString> &relativePathsA, const QSet<QString> &relativePathsB, const QUrl &rootDirForUrl)
-{
-    QList<QUrl> result;
-
-    for (const QString &relativePathB : relativePathsB) {
-        if (relativePathsA.contains(relativePathB)) {
-            result.append(subPathUrl(rootDirForUrl, relativePathB));
-        }
-    }
-    std::ranges::sort(result);
-    return result;
-}
-
-QString formatPathsForLog(const QList<QUrl> &paths)
-{
-    if (paths.size() == 1) {
-        return '`'_L1 + paths.first().path() + '`'_L1;
-    }
-    QString str;
-    for (const QUrl &path : paths) {
-        str += "\n  - `"_L1 + path.path() + '`'_L1;
-    }
-    return str;
-}
-
 class SequentialCompositeJob : public KCompositeJob
 {
     Q_OBJECT
@@ -230,6 +205,17 @@ QList<QUrl> SafeModeBackupRestore::conflictingPathsForCategory(const CategoryInf
         return {};
     }
 
+    const auto intersectionAsUrls = [](const QSet<QString> &relativePathsA, const QSet<QString> &relativePathsB, const QUrl &rootDirForUrl) -> QList<QUrl> {
+        QList<QUrl> result;
+        for (const QString &relativePathB : relativePathsB) {
+            if (relativePathsA.contains(relativePathB)) {
+                result.append(subPathUrl(rootDirForUrl, relativePathB));
+            }
+        }
+        std::ranges::sort(result);
+        return result;
+    };
+
     if (categoryInfo.isEntireDir()) {
         return QFileInfo(categoryTargetDir.toLocalFile()).exists() ? QList<QUrl>{categoryTargetDir} : QList<QUrl>{};
     } else {
@@ -322,6 +308,17 @@ bool SafeModeBackupRestore::checkValidFilesForCategory(const CategoryInfo &categ
                                                        const QUrl &sourceDir,
                                                        const QUrl &targetDir)
 {
+    const auto formatPathsForLog = [](const QList<QUrl> &paths) -> QString {
+        if (paths.size() == 1) {
+            return '`'_L1 + paths.first().path() + '`'_L1;
+        }
+        QString str;
+        for (const QUrl &path : paths) {
+            str += "\n  - `"_L1 + path.path() + '`'_L1;
+        }
+        return str;
+    };
+
     if (relativeSourcePaths.isEmpty()) {
         userLog(MessageType::Error,
                 i18nc("@info:status backup log error - %1 is a backup category, %2 is a folder path",
