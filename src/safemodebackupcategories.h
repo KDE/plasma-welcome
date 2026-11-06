@@ -118,9 +118,8 @@ public:
     bool isSelected(Category category) const;
 
     void setAvailable(Category category, bool available);
-    void setSelected(Category category, bool selected);
+    Q_INVOKABLE void setSelected(Category category, bool selected);
     void selectDefaultCategories();
-    Q_INVOKABLE void setCategorySelected(int category, bool selected);
     void setSuccessful(Category category, bool successful);
     void setConflictingPaths(Category category, const QList<QUrl> &paths);
     void resetSuccessful();

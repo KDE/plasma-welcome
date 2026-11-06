@@ -90,7 +90,7 @@ Kirigami.ScrollablePage {
                             enabled: delegate.isAvailable && !delegate.wasSuccessful
                             checked: delegate.wasSuccessful || (delegate.isAvailable && delegate.isSelected)
                             onToggled: {
-                                root.backupRestore.restoreCategories.setCategorySelected(delegate.category, checked);
+                                root.backupRestore.restoreCategories.setSelected(delegate.category, checked);
                             }
                         }
                     }

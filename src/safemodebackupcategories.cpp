@@ -492,11 +492,6 @@ void CategoryModel::setSelected(Category category, bool selected)
     Q_EMIT conflictingPathsChanged();
 }
 
-void CategoryModel::setCategorySelected(int category, bool selected)
-{
-    setSelected(category, selected);
-}
-
 void CategoryModel::selectDefaultCategories()
 {
     bool changed = false;
