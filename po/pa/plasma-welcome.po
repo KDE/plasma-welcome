@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-03 00:57+0000\n"
+"POT-Creation-Date: 2026-11-06 00:54+0000\n"
 "PO-Revision-Date: 2026-07-24 22:12-0500\n"
 "Last-Translator: A S Alam <aman@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -75,11 +75,18 @@ msgid "Display release notes for the current Plasma release."
 msgstr "ਮੌਜੂਦਾ ਪਲਾਜ਼ਮਾ ਰੀਲਿਜ਼ ਲਈ ਰੀਲਿਜ਼ ਨੋਟਿਸ ਵੇਖਾਓ।"
 
 #: src/main.cpp:77
+#, fuzzy, kde-format
+#| msgid ""
+#| "Display release notes for the current Plasma release, for beta versions."
+msgid "Display guidance for a Plasma Safe Mode session."
+msgstr "ਮੌਜੂਦਾ ਪਲਾਜ਼ਮਾ ਰੀਲਿਜ਼, ਬੀਟਾ ਵਰਜ਼ਨਾਂ ਲਈ ਰੀਲਿਜ਼ ਨੋਟਿਸ ਵੇਖਾਓ।"
+
+#: src/main.cpp:78
 #, kde-format
 msgid "Display the live page intended for distro live environments."
 msgstr "ਡਿਸਟਰੋ ਲਾਈਵ ਇਨਵਾਇਰਮੈਂਟ ਦੀ ਬਜਾਏ ਲਾਈਵ ਸਫ਼ਾ ਦਿਖਾਓ।"
 
-#: src/main.cpp:83
+#: src/main.cpp:84
 #, kde-format
 msgid ""
 "Specify comma-delimited list of page(s) (by internal name) to be displayed."
@@ -158,6 +165,7 @@ msgid "&Skip"
 msgstr "ਛੱਡੋ(&S)"
 
 #: src/qml/footers/FooterDefault.qml:23
+#: src/qml/pages/safemode/ClearCache.qml:58
 #, kde-format
 msgctxt "@action:button"
 msgid "&Back"
@@ -1043,6 +1051,141 @@ msgid ""
 "show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
 
+#: src/qml/pages/SafeMode.qml:23
+#, kde-format
+msgctxt "@title"
+msgid "This is a Safe Mode Session"
+msgstr ""
+
+#: src/qml/pages/SafeMode.qml:27
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Plasma 6 Supporters"
+msgctxt "@action:button"
+msgid "Help & Support"
+msgstr "ਪਲਾਜ਼ਮਾ 6 ਦੇ ਸਹਿਯੋਗੀ"
+
+#: src/qml/pages/SafeMode.qml:29
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"https://kde.org/support/<nl/><nl/>Find out more information or ask others "
+"for help with KDE software."
+msgstr ""
+
+#: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Welcome Center"
+msgstr "ਜੀ ਆਇਆਂ ਨੂੰ ਸੈਂਟਰ ਬਾਰੇ"
+
+#: src/qml/pages/SafeMode.qml:39 src/qml/pages/Welcome.qml:34
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "KDE ਬਾਰੇ"
+
+#: src/qml/pages/SafeMode.qml:65
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Your usual KDE Plasma and app settings have been safely preserved for later, "
+"but are not being used right now. They will be used again when you return to "
+"your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
+"try fixing your regular Plasma session:"
+msgstr ""
+
+#: src/qml/pages/SafeMode.qml:79
+#, kde-format
+msgctxt "@title:row"
+msgid "Clear Cache Files"
+msgstr ""
+
+#: src/qml/pages/SafeMode.qml:80
+#, kde-format
+msgctxt "@info subtitle for Open Config Folder"
+msgid "Safe to try; cache files are automatically regenerated"
+msgstr ""
+
+#: src/qml/pages/SafeMode.qml:113
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
+"when you return to your regular Plasma session."
+msgstr ""
+
+#: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "E&xit Safe Mode…"
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:21
+#, kde-format
+msgctxt "@title"
+msgid "Clear Cache Files"
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:33
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"KDE Plasma, system services, and applications create cache files to help "
+"with performance. Sometimes these go stale, and can cause problems.<nl/><nl/"
+">Often the problem lies elsewhere, but clearing the caches doesn't hurt to "
+"try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
+"customizations will remain untouched."
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "&Clear Cache Files"
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:54
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"No cache directory was found at <filename>%1</filename>. Cache files do not "
+"need to be cleared."
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:55
+#, kde-format
+msgctxt "@info"
+msgid "The session environment does not specify a cache directory to clear."
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:69
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:86
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
+"message>"
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:91
+#, kde-format
+msgctxt "@action:button"
+msgid "&Open Cache Folder"
+msgstr ""
+
+#: src/qml/pages/safemode/ClearCache.qml:96
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Retry"
+msgctxt "@action:button"
+msgid "&Retry"
+msgstr "ਮੁੜ-ਕੋਸ਼ਿਸ਼"
+
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
@@ -1159,18 +1302,6 @@ msgstr ""
 "ਮੁਫ਼ਤ ਅਤੇ ਆਜ਼ਾਦ ਸਰੋਤ ਡੈਸਕਟਾਪ ਇਨਵਾਇਰਮੈਂਟ ਨੂੰ ਚਲਾ ਰਿਹਾ ਹੈ। ਇਸ ਨੂੰ ਸੌਖੇ ਤਜਰਬੇ ੂਮੂਲ ਰੂਪ ਵਿੱਚ ਸਰਲ, ਪਰ "
 "ਤੁਹਾਨੂੰ ਕੰਮ ਪੂਰੇ ਕਰਨ ਲਈ ਮਦਦ ਵਾਸਤੇ ਮਜ਼ਬੂਤ ਬਣਾਇਆ ਗਿਆ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਪਸੰਦ ਆਵੇਗਾ।"
 
-#: src/qml/pages/Welcome.qml:28
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Welcome Center"
-msgstr "ਜੀ ਆਇਆਂ ਨੂੰ ਸੈਂਟਰ ਬਾਰੇ"
-
-#: src/qml/pages/Welcome.qml:34
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About KDE"
-msgstr "KDE ਬਾਰੇ"
-
 #: src/qml/pages/Welcome.qml:57
 #, kde-format
 msgctxt "@action:button"
@@ -1260,10 +1391,6 @@ msgstr "%1 ਬੀਟਾ %2"
 #~ msgid "Filter…"
 #~ msgstr "ਫਿਲਟਰ…"
 
-#~ msgid ""
-#~ "Display release notes for the current Plasma release, for beta versions."
-#~ msgstr "ਮੌਜੂਦਾ ਪਲਾਜ਼ਮਾ ਰੀਲਿਜ਼, ਬੀਟਾ ਵਰਜ਼ਨਾਂ ਲਈ ਰੀਲਿਜ਼ ਨੋਟਿਸ ਵੇਖਾਓ।"
-
 #~ msgctxt "@label:URL"
 #~ msgid "<b>Find out what’s new</b>"
 #~ msgstr "<b>ਪਤਾ ਕਰੋ ਕਿ ਨਵਾਂ ਕੀ ਹੈ</b>"
@@ -1307,10 +1434,6 @@ msgstr "%1 ਬੀਟਾ %2"
 #~ msgctxt "@title:window"
 #~ msgid "Support Your Freedom"
 #~ msgstr "ਆਪਣੀ ਆਜ਼ਾਦੀ ਨੂੰ ਸਹਿਯੋਗ ਦਿਓ"
-
-#~ msgctxt "@action:button"
-#~ msgid "Plasma 6 Supporters"
-#~ msgstr "ਪਲਾਜ਼ਮਾ 6 ਦੇ ਸਹਿਯੋਗੀ"
 
 #~ msgctxt "@title:window"
 #~ msgid "Plasma 6 Supporters"
