@@ -142,8 +142,8 @@ SafeModeBackupRestore::SafeModeBackupRestore(QObject *parent)
     activateDirWatches();
 
     // set sensible selections based on available sources that were initialized by activateDirWatches()
-    m_backupCategories->selectAvailableCategories({Category::PlasmaConfig, Category::State});
-    m_restoreCategories->selectAllAvailableCategories();
+    m_backupCategories->selectDefaultCategories();
+    m_restoreCategories->selectDefaultCategories();
 }
 
 SafeModeBackupRestore::~SafeModeBackupRestore()
@@ -394,7 +394,7 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
             if (!categoryJob->error()) {
                 m_backupCategories->setSuccessful(category, true);
 
-                // Also pre-select it for restoring this backup, in case the user wants to move it right back.
+                // Pre-select for restoring, in case the user wants to move it back right away.
                 m_restoreCategories->setAvailable(category, true);
                 m_restoreCategories->setSelected(category, true);
             }
@@ -454,7 +454,7 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
             if (!categoryJob->error()) {
                 m_restoreCategories->setSuccessful(category, true);
 
-                // Also pre-select it for backup, in case the user wants to back it up again right away.
+                // Pre-select for backup, in case the user wants to back it up again right away.
                 m_backupCategories->setAvailable(category, true);
                 m_backupCategories->setSelected(category, true);
             }

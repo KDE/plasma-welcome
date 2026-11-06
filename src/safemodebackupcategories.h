@@ -14,21 +14,13 @@
 #include <QUrl>
 #include <qqmlintegration.h>
 
-#include <initializer_list>
 #include <memory>
 #include <vector>
 
 namespace SafeModeBackup
 {
-Q_NAMESPACE
-QML_ELEMENT
-
-enum class Category {
-    PlasmaConfig,
-    NonPlasmaConfig,
-    State,
-    Data,
-};
+// Opaque identifier for a customization category. Values are assigned in makeCategoryInfo().
+using Category = int;
 
 enum class Operation {
     Backup,
@@ -57,6 +49,7 @@ struct CategoryInfo {
     const QString backupSubDirName;
     std::unique_ptr<FileAndDirPaths> files;
     const Strings strings;
+    const bool backupSelectedByDefault;
     QString backupCategoryRoot; // gets updated as backup dir changes
 
     bool isEntireDir() const
@@ -126,8 +119,7 @@ public:
 
     void setAvailable(Category category, bool available);
     void setSelected(Category category, bool selected);
-    void selectAllAvailableCategories();
-    void selectAvailableCategories(std::initializer_list<Category> categories);
+    void selectDefaultCategories();
     Q_INVOKABLE void setCategorySelected(int category, bool selected);
     void setSuccessful(Category category, bool successful);
     void setConflictingPaths(Category category, const QList<QUrl> &paths);
@@ -144,6 +136,7 @@ private:
         QString title;
         QString successTitle;
         QString description;
+        bool selectedByDefault = false;
         bool available = false;
         bool selected = false;
         bool successful = false;

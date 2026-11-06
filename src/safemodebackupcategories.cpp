@@ -205,11 +205,22 @@ std::vector<CategoryInfo> makeCategoryInfo()
 
     std::vector<CategoryInfo> categoryInfo;
 
-    categoryInfo.emplace_back(
-        Category::PlasmaConfig,
+    const auto addCategory = [&categoryInfo](const QString &origDirRoot,
+                                             const QString &backupSubDirName,
+                                             std::unique_ptr<CategoryInfo::FileAndDirPaths> files,
+                                             bool backupSelectedByDefault,
+                                             CategoryInfo::Strings strings) {
+        const auto category = static_cast<Category>(categoryInfo.size());
+        categoryInfo.emplace_back(category, origDirRoot, backupSubDirName, std::move(files), std::move(strings), backupSelectedByDefault);
+    };
+    const bool BackupSelectedByDefault = true;
+    const bool NoBackupByDefault = false;
+
+    addCategory( //
         origConfigDir,
         u"config-plasma"_s,
         std::move(plasmaConfigPaths),
+        BackupSelectedByDefault,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "KDE Plasma configuration"),
             .description = i18nc("@info possible contents of Plasma-related XDG config files, for reset, backup, and restore",
@@ -219,11 +230,11 @@ std::vector<CategoryInfo> makeCategoryInfo()
             .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore KDE Plasma configuration"),
             .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "KDE Plasma configuration was restored"),
         });
-    categoryInfo.emplace_back(
-        Category::NonPlasmaConfig,
+    addCategory( //
         origConfigDir,
         u"config"_s,
         std::move(nonPlasmaConfigPaths),
+        NoBackupByDefault,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "App & miscellaneous configuration"),
             .description = i18nc("@info possible contents of non-Plasma XDG config files, for reset, backup, and restore",
@@ -235,11 +246,11 @@ std::vector<CategoryInfo> makeCategoryInfo()
             .restoreSuccessTitle =
                 i18nc("@title:row checkbox label after this category was successfully restored", "App & miscellaneous configuration was restored"),
         });
-    categoryInfo.emplace_back(
-        Category::State,
+    addCategory( //
         origStateDir,
         u"state"_s,
         nullptr,
+        BackupSelectedByDefault,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "State"),
             .description = i18nc("@info possible contents of XDG state folder, for reset, backup, and restore",
@@ -249,11 +260,11 @@ std::vector<CategoryInfo> makeCategoryInfo()
             .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore state"),
             .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "State was restored"),
         });
-    categoryInfo.emplace_back(
-        Category::Data,
+    addCategory( //
         origDataDir,
         u"data"_s,
         nullptr,
+        NoBackupByDefault,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "Desktop & application data"),
             .description = i18nc("@info possible contents of XDG data folder, for reset, backup, and restore",
@@ -314,10 +325,12 @@ CategoryModel::CategoryModel(const std::vector<CategoryInfo> &categoryInfo, Oper
         case Operation::Backup:
             row.title = info.strings.backupTitle;
             row.successTitle = info.strings.backupSuccessTitle;
+            row.selectedByDefault = info.backupSelectedByDefault;
             break;
         case Operation::Restore:
             row.title = info.strings.restoreTitle;
             row.successTitle = info.strings.restoreSuccessTitle;
+            row.selectedByDefault = true;
             break;
         }
 
@@ -343,7 +356,7 @@ QVariant CategoryModel::data(const QModelIndex &index, int role) const
     case CategoryTitleRole:
         return row.title;
     case CategoryRole:
-        return static_cast<int>(row.category);
+        return row.category;
     case CategorySuccessTitleRole:
         return row.successTitle;
     case CategoryDescriptionRole:
@@ -481,37 +494,15 @@ void CategoryModel::setSelected(Category category, bool selected)
 
 void CategoryModel::setCategorySelected(int category, bool selected)
 {
-    setSelected(static_cast<Category>(category), selected);
+    setSelected(category, selected);
 }
 
-void CategoryModel::selectAllAvailableCategories()
+void CategoryModel::selectDefaultCategories()
 {
     bool changed = false;
 
     for (size_t i = 0; i < m_rows.size(); ++i) {
-        if (!m_rows[i].available || m_rows[i].selected) {
-            continue;
-        }
-
-        m_rows[i].selected = true;
-        changed = true;
-
-        const QModelIndex modelIndex = index(static_cast<int>(i));
-        Q_EMIT dataChanged(modelIndex, modelIndex, {SelectedRole});
-    }
-
-    if (changed) {
-        Q_EMIT hasSelectedCategoriesChanged();
-        Q_EMIT conflictingPathsChanged();
-    }
-}
-
-void CategoryModel::selectAvailableCategories(std::initializer_list<Category> categories)
-{
-    bool changed = false;
-
-    for (size_t i = 0; i < m_rows.size(); ++i) {
-        const bool selected = m_rows[i].available && std::ranges::find(categories, m_rows[i].category) != categories.end();
+        const bool selected = m_rows[i].available && m_rows[i].selectedByDefault;
         if (m_rows[i].selected == selected) {
             continue;
         }
