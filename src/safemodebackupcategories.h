@@ -14,6 +14,7 @@
 #include <QUrl>
 #include <qqmlintegration.h>
 
+#include <initializer_list>
 #include <memory>
 #include <vector>
 
@@ -23,13 +24,11 @@ Q_NAMESPACE
 QML_ELEMENT
 
 enum class Category {
-    PlasmaConfig = 0x1,
-    NonPlasmaConfig = 0x2,
-    State = 0x4,
-    Data = 0x8,
+    PlasmaConfig,
+    NonPlasmaConfig,
+    State,
+    Data,
 };
-Q_FLAG_NS(Category)
-using Categories = QFlags<Category>;
 
 enum class Operation {
     Backup,
@@ -95,9 +94,8 @@ class CategoryModel : public QAbstractListModel
     Q_OBJECT
     QML_ANONYMOUS
 
-    Q_PROPERTY(Categories availableCategories READ availableCategories NOTIFY availableCategoriesChanged FINAL)
-    Q_PROPERTY(Categories selectedCategories READ selectedCategories NOTIFY selectedCategoriesChanged FINAL)
-    Q_PROPERTY(Categories successfulCategories READ successfulCategories NOTIFY successfulCategoriesChanged FINAL)
+    Q_PROPERTY(bool hasSelectedCategories READ hasSelectedCategories NOTIFY hasSelectedCategoriesChanged FINAL)
+    Q_PROPERTY(bool hasSuccessfulCategories READ hasSuccessfulCategories NOTIFY hasSuccessfulCategoriesChanged FINAL)
     Q_PROPERTY(QList<QUrl> conflictingPaths READ conflictingPaths NOTIFY conflictingPathsChanged FINAL)
 
 public:
@@ -120,25 +118,24 @@ public:
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;
 
-    Categories availableCategories() const;
-    Categories selectedCategories() const;
-    Categories successfulCategories() const;
+    bool hasSelectedCategories() const;
+    bool hasSuccessfulCategories() const;
     QList<QUrl> conflictingPaths() const;
 
     bool isSelected(Category category) const;
 
     void setAvailable(Category category, bool available);
     void setSelected(Category category, bool selected);
-    void setSelectedCategories(Categories categories);
+    void selectAllAvailableCategories();
+    void selectAvailableCategories(std::initializer_list<Category> categories);
     Q_INVOKABLE void setCategorySelected(int category, bool selected);
     void setSuccessful(Category category, bool successful);
     void setConflictingPaths(Category category, const QList<QUrl> &paths);
     void resetSuccessful();
 
 Q_SIGNALS:
-    void availableCategoriesChanged();
-    void selectedCategoriesChanged();
-    void successfulCategoriesChanged();
+    void hasSelectedCategoriesChanged();
+    void hasSuccessfulCategoriesChanged();
     void conflictingPathsChanged();
 
 private:

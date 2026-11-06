@@ -60,7 +60,7 @@ Kirigami.ScrollablePage {
                     }
                     trailingItems: QQC2.Button {
                         icon.name: "document-open-folder-symbolic"
-                        enabled: root.backupRestore.backupCategories.successfulCategories === 0
+                        enabled: !root.backupRestore.backupCategories.hasSuccessfulCategories
                         text: i18nc("@action:button change backup folder for user customizations", "&Change…")
                         onClicked: { backupDirDialog.open(); }
                     }
@@ -101,8 +101,7 @@ Kirigami.ScrollablePage {
 
         QQC2.Button {
             Layout.alignment: Qt.AlignHCenter
-            enabled: (root.backupRestore.backupCategories.availableCategories
-                      & root.backupRestore.backupCategories.selectedCategories) !== 0
+            enabled: root.backupRestore.backupCategories.hasSelectedCategories
                      && root.backupRestore.backupCategories.conflictingPaths.length === 0
             icon.name: "edit-reset"
             text: xi18nc("@action:button", "Back Up and &Reset Customizations")
@@ -134,7 +133,7 @@ Kirigami.ScrollablePage {
         }
 
         Kirigami.InlineMessage {
-            visible: root.backupRestore.backupCategories.successfulCategories !== 0 && !root.backupRestore.hasUserLogError
+            visible: root.backupRestore.backupCategories.hasSuccessfulCategories && !root.backupRestore.hasUserLogError
             Layout.fillWidth: true
             text: i18nc("@info", "User customizations were successfully backed up.")
             actions: [

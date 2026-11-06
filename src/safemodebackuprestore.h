@@ -58,7 +58,6 @@ Q_SIGNALS:
 
 private:
     using Category = SafeModeBackup::Category;
-    using Categories = SafeModeBackup::Categories;
     using CategoryInfo = SafeModeBackup::CategoryInfo;
     using Operation = SafeModeBackup::Operation;
 

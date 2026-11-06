@@ -13,6 +13,8 @@
 #include <QStandardPaths>
 #include <QtEnvironmentVariables>
 
+#include <algorithm>
+
 using namespace Qt::StringLiterals;
 
 namespace SafeModeBackup
@@ -373,37 +375,24 @@ QHash<int, QByteArray> CategoryModel::roleNames() const
     };
 }
 
-Categories CategoryModel::availableCategories() const
+bool CategoryModel::hasSelectedCategories() const
 {
-    Categories categories;
-    for (const Row &row : m_rows) {
-        if (row.available) {
-            categories |= row.category;
-        }
-    }
-    return categories;
-}
-
-Categories CategoryModel::selectedCategories() const
-{
-    Categories categories;
     for (const Row &row : m_rows) {
         if (row.selected) {
-            categories |= row.category;
+            return true;
         }
     }
-    return categories;
+    return false;
 }
 
-Categories CategoryModel::successfulCategories() const
+bool CategoryModel::hasSuccessfulCategories() const
 {
-    Categories categories;
     for (const Row &row : m_rows) {
         if (row.successful) {
-            categories |= row.category;
+            return true;
         }
     }
-    return categories;
+    return false;
 }
 
 QList<QUrl> CategoryModel::conflictingPaths() const
@@ -458,10 +447,9 @@ void CategoryModel::setAvailable(Category category, bool available)
 
     const QModelIndex modelIndex = index(rowIndex);
     Q_EMIT dataChanged(modelIndex, modelIndex, changedRoles);
-    Q_EMIT availableCategoriesChanged();
 
     if (selectionCleared) {
-        Q_EMIT selectedCategoriesChanged();
+        Q_EMIT hasSelectedCategoriesChanged();
         Q_EMIT conflictingPathsChanged();
     }
 }
@@ -478,11 +466,16 @@ void CategoryModel::setSelected(Category category, bool selected)
         return;
     }
 
+    // This model does not allow selecting an unavailable category. If needed, set it available first.
+    if (selected && !row.available) {
+        return;
+    }
+
     row.selected = selected;
 
     const QModelIndex modelIndex = index(rowIndex);
     Q_EMIT dataChanged(modelIndex, modelIndex, {SelectedRole});
-    Q_EMIT selectedCategoriesChanged();
+    Q_EMIT hasSelectedCategoriesChanged();
     Q_EMIT conflictingPathsChanged();
 }
 
@@ -491,12 +484,34 @@ void CategoryModel::setCategorySelected(int category, bool selected)
     setSelected(static_cast<Category>(category), selected);
 }
 
-void CategoryModel::setSelectedCategories(Categories categories)
+void CategoryModel::selectAllAvailableCategories()
 {
     bool changed = false;
 
     for (size_t i = 0; i < m_rows.size(); ++i) {
-        const bool selected = categories.testFlag(m_rows[i].category);
+        if (!m_rows[i].available || m_rows[i].selected) {
+            continue;
+        }
+
+        m_rows[i].selected = true;
+        changed = true;
+
+        const QModelIndex modelIndex = index(static_cast<int>(i));
+        Q_EMIT dataChanged(modelIndex, modelIndex, {SelectedRole});
+    }
+
+    if (changed) {
+        Q_EMIT hasSelectedCategoriesChanged();
+        Q_EMIT conflictingPathsChanged();
+    }
+}
+
+void CategoryModel::selectAvailableCategories(std::initializer_list<Category> categories)
+{
+    bool changed = false;
+
+    for (size_t i = 0; i < m_rows.size(); ++i) {
+        const bool selected = m_rows[i].available && std::ranges::find(categories, m_rows[i].category) != categories.end();
         if (m_rows[i].selected == selected) {
             continue;
         }
@@ -509,7 +524,7 @@ void CategoryModel::setSelectedCategories(Categories categories)
     }
 
     if (changed) {
-        Q_EMIT selectedCategoriesChanged();
+        Q_EMIT hasSelectedCategoriesChanged();
         Q_EMIT conflictingPathsChanged();
     }
 }
@@ -530,7 +545,7 @@ void CategoryModel::setSuccessful(Category category, bool successful)
 
     const QModelIndex modelIndex = index(rowIndex);
     Q_EMIT dataChanged(modelIndex, modelIndex, {SuccessfulRole});
-    Q_EMIT successfulCategoriesChanged();
+    Q_EMIT hasSuccessfulCategoriesChanged();
 }
 
 void CategoryModel::resetSuccessful()
@@ -550,7 +565,7 @@ void CategoryModel::resetSuccessful()
     }
 
     if (changed) {
-        Q_EMIT successfulCategoriesChanged();
+        Q_EMIT hasSuccessfulCategoriesChanged();
     }
 }
 
