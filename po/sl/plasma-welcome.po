@@ -79,11 +79,9 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Prikaži opombe ob izdaji za trenutno izdajo Plasme."
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr "Prikaži opombe ob izdaji za trenutno izdajo Plasme za beta različice."
+msgstr "Prikaži navodila za sejo varnega načina Plasma."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1144,15 +1142,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "To je seja v varnem načinu"
 
 #: src/qml/pages/SafeMode.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Plasma 6 Supporters"
+#, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr "Podporniki Plasma 6"
+msgstr "Pomoč in podpora"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1161,6 +1157,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Poiščite več informacij ali prosite druge "
+"za pomoč pri uporabi programske opreme KDE."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1183,18 +1181,22 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"Vaše običajne nastavitve KDE Plasma in aplikacij so bile varno shranjene za "
+"pozneje, vendar jih trenutno ne uporabljate. Ponovno bodo uporabljene, ko se "
+"vrnete v svojo običajno sejo Plasma.<nl/><nl/>Tukaj je nekaj korakov, s "
+"katerimi lahko poskusite popraviti svojo običajno sejo Plasma:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Počisti datoteke predpomnilnika"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
-msgstr ""
+msgstr "Varno za poskus; datoteke predpomnilnika se samodejno obnovijo"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1203,18 +1205,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Ročne spremembe, ki ste jih naredili v KDE Plasmi in aplikacijah v varnem "
+"načinu, bodo izgubljene, ko se vrnete v običajno sejo Plasma."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "Izhod iz varnega načina…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Počisti datoteke predpomnilnika"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1226,12 +1230,17 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"KDE Plasma, sistemske storitve in aplikacije ustvarjajo datoteke "
+"predpomnilnika za izboljšanje delovanja. Včasih te zastarijo in lahko "
+"povzročijo težave.<nl/><nl/>Pogosto je težava drugje, vendar brisanje "
+"predpomnilnikov ni odveč, saj se bodo po potrebi samodejno obnovili.<nl/><nl/"
+">Vaše prilagoditve bodo ostale nedotaknjene."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "Počisti datoteke predpomnilnika"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1240,18 +1249,22 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"Ni bilo mogoče najti nobenega imenika predpomnilnika na <filename>%1</"
+"filename>. Datotek predpomnilnika ni treba počistiti."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr ""
+msgstr "Okolje seje ne določa imenika predpomnilnika za brisanje."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
 msgstr ""
+"Datoteke predpomnilnika so bile izbrisane:<nl/><filename>%1</filename> je "
+"bil izbrisan."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1260,20 +1273,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"Neuspelo brisanje predpomnilnika pri <filename>%1</filename><nl/><message>"
+"%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "&Odpri mapo predpomnilnika"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Poskusi znova"
+msgstr "Poskusite znova"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

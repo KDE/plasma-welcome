@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-06 00:54+0000\n"
-"PO-Revision-Date: 2026-10-09 08:58+0200\n"
+"PO-Revision-Date: 2026-11-06 11:48+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -81,7 +81,7 @@ msgstr "Mostra les notes de llançament de la versió actual de Plasma."
 #: src/main.cpp:77
 #, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr ""
+msgstr "Mostra una orientació per a una sessió en mode segur de Plasma."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1151,13 +1151,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "Esta és una sessió en mode segur"
 
 #: src/qml/pages/SafeMode.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr ""
+msgstr "Ajuda i suport"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1166,6 +1166,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Obteniu més informació o demaneu ajuda a "
+"altres sobre el programari KDE."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1188,18 +1190,24 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"La vostra configuració habitual de Plasma i de les aplicacions KDE s'han "
+"conservat de manera segura per a més tard, però ara mateix no s'estan "
+"utilitzant. S'utilitzaran de nou quan torneu a la sessió normal de Plasma."
+"<nl/><nl/>Ací hi ha algunes accions que podeu fer per a intentar corregir la "
+"sessió normal de Plasma:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Neteja els fitxers de memòria cau"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
 msgstr ""
+"És segur provar-ho; els fitxers de memòria cau es regeneren automàticament"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1208,18 +1216,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Els canvis manuals fets a Plasma de KDE i a les aplicacions mentre s'està en "
+"mode segur es perdran quan torneu a la sessió normal de Plasma."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "I&x del mode segur…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Neteja els fitxers de memòria cau"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1231,12 +1241,18 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"Plasma de KDE, els serveis del sistema i les aplicacions creen fitxers de "
+"memòria cau que ajuden el rendiment. De vegades estos es queden estancats i "
+"poden causar problemes.<nl/><nl/>Sovint el problema es troba en un altre "
+"lloc, però netejar les memòries cau no fa mal de provar-ho, ja que es "
+"regeneraran automàticament quan siga necessari.<nl/><nl/>Les vostres "
+"personalitzacions romandran intactes."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "&Neteja els fitxers de memòria &cau"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1245,18 +1261,23 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"No s'ha trobat cap directori de memòria cau a <filename>%1</filename>. No "
+"cal netejar els fitxers de memòria cau."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
 msgstr ""
+"L'entorn de la sessió no especifica cap directori de memòria cau a netejar."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
 msgstr ""
+"S'han netejat els fitxers de memòria cau:<nl/><filename>%1</filename> s'ha "
+"suprimit."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1265,20 +1286,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"Ha fallat mentre es netejava la memòria cau a <filename>%1</filename>:<nl/"
+"><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "O&bri la carpeta de memòria cau"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Torna-ho a intentar"
+msgstr "&Reintenta"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1356,13 +1377,7 @@ msgstr ""
 "per a reorganitzar-les."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the ⌃ "
-#| "arrow next to the clock."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -1373,7 +1388,7 @@ msgstr ""
 "Este és el giny «Safata del sistema», que permet controlar funcions del "
 "sistema com canviar el volum i connectar-se a xarxes. Els elements només "
 "seran visibles ací quan siguen rellevants. Per a veure tots els elements "
-"disponibles, cliqueu damunt de la fletxa al costat del rellotge."
+"disponibles, cliqueu damunt de la fletxa ^ al costat del rellotge."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format

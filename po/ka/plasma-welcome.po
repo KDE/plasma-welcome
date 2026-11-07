@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-06 00:54+0000\n"
-"PO-Revision-Date: 2026-11-03 03:28+0100\n"
+"PO-Revision-Date: 2026-11-06 05:51+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -76,11 +76,9 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Plasma-ის მიმდინარე რელიზის შენიშვნების ჩვენება."
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr "Plasma-ის მიმდინარე რელიზის და ბეტა ვერსიების შენიშვნების ჩვენება."
+msgstr "Plasma-ის უსაფრთხო რეჟიმის სესიის სახელმძღვანელოს ჩვენება."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1135,15 +1133,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "ეს უსაფრთხო რეჟიმის სესიაა"
 
 #: src/qml/pages/SafeMode.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Plasma 6 Supporters"
+#, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr "Plasma 6-ის მხარდამჭერები"
+msgstr "დახმარება და მხარდაჭერა"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1152,6 +1148,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>გაიგეთ მეტი, ან სთხოვეთ სხვებს დახმარება "
+"KDE-ის პროგრამებთან დაკავშირებით."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1174,18 +1172,23 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"თქვენი ჩვეული KDE Plasma-ის და აპლიკაციის პარამეტრები უსაფრთხოდაა შენახული, "
+"მაგრამ ახლა არ გამოიყენება. ისინი ისევ იქნება გამოყენებული, როცა თქვენს "
+"ჩვეულებრივ Plasma-ის სესიას დაუბრუნდებით.<nl/><nl/>აქ მოცემულია რამდენიმე "
+"ქმედება, რომელიც შეგიძლიათ, შეასრულოთ, რომ სცადოთ თქვენი ჩვეულებრივი Plasma-"
+"ის სესია შეაკეთოთ:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "კეშის ფაილების გასუფთავება"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
-msgstr ""
+msgstr "ცდა უსაფრთხოა, რადგან კეშის ფაილების რეგენერაცია ავტომატურად ხდება"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1194,18 +1197,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"უსაფრთხო რეჟიმში KDE Plasma-ში და აპებში ხელით შეტანილი ცვლილებები "
+"დაიკარგება, როცა თქვენ Plasma-ის ჩვეულებრივ სესიაში დაბრუნდებით."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "გასვლა უსა&ფრთხო რეჟიმიდან…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "კეშის ფაილების გასუფთავება"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1217,12 +1222,17 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"KDE Plasma, სისტემური სერვისები და აპლიკაციები ქმნიან კეშის ფაილებს, რომ "
+"სწრაფად იმუშაონ. ხანდახან ეს ფაილები ზიანდება და შეუძლიათ, პრობლემები "
+"გამოიწვიონ.<nl/><nl/>ხშირად ამ პრობლემებს რაღაც სხვა იწვევს, მაგრამ კეშის "
+"გასუფთავება ცდად ღირს, რადგან, როცა საჭიროა, მისი გენერაცია ისევ მოხდება.<nl/"
+"><nl/>თქვენი პარამეტრები ხელშეუხებელი დარჩება."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "&კეშის ფაილების გასუფთავება"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1231,18 +1241,21 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"მისამართზე <filename>%1</filename> კეშის საქაღალდე აღმოჩენილი არაა. კეშის "
+"ფაილების გასუფთავება საჭირო არაა."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
 msgstr ""
+"სესიის გარემო არ მიუთითებს კეშის საქაღალდეს, რომლის გასუფთავებაც უნდა მოხდეს."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
-msgstr ""
+msgstr "კეშის ფაილების გასუფთავდა:<nl/>წაიშალა <filename>%1</filename>."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1251,20 +1264,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"კეშის გასუფთავების შეცდომა მისამართზე <filename>%1</filename>:<nl/><message>"
+"%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "კეშის საქა&ღალდის გახსნა"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "თავიდან ცდა"
+msgstr "თვიდან &ცდა"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

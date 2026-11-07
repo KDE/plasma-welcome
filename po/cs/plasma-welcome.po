@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-06 00:54+0000\n"
-"PO-Revision-Date: 2026-11-04 00:39+0100\n"
+"PO-Revision-Date: 2026-11-06 11:37+0100\n"
 "Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 26.08.2\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -79,7 +79,7 @@ msgstr "Zobrazit zprávy o vydání pro současnou verzi Plasma."
 #: src/main.cpp:77
 #, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr ""
+msgstr "Zobrazit pokyny pro sezení v bezpečném režimu Plasma."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1136,13 +1136,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "Toto je sezení v nouzovém režimu"
 
 #: src/qml/pages/SafeMode.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr ""
+msgstr "Nápověda a podpora"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1151,6 +1151,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Získejte další informace nebo požádejte "
+"ostatní o pomoc se softwarem KDE."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1173,18 +1175,25 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"Vaše obvyklá nastavení prostředí KDE Plasma a aplikací byla bezpečně uložena "
+"pro pozdější použití, ale v tuto chvíli se nepoužívají. Budou znovu použita, "
+"až se vrátíte ke své obvyklému sezení Plasma.<nl/><nl/>Zde je několik kroků, "
+"které můžete podniknout, abyste se pokusili opravit své obvyklé sezení "
+"Plasma:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Vymazat soubory mezipaměti"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
 msgstr ""
+"Můžete to bez obav vyzkoušet; soubory mezipaměti se automaticky znovu "
+"vygenerují"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1193,18 +1202,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Ruční změny provedené v prostředí KDE Plasma a v aplikacích v nouzovém "
+"režimu se ztratí, jakmile se vrátíte do běžného sezení Plasma."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "Ukončit nou&zový režim…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Vymazat soubory mezipaměti"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1216,12 +1227,18 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"KDE Plasma, systémové služby a aplikace vytvářejí soubory mezipaměti, které "
+"přispívají k lepšímu výkonu. Někdy se tyto soubory stanou zastaralými a "
+"mohou způsobit problémy.<nl/><nl/>Často je příčina problému jinde, ale "
+"vyčištění mezipaměti rozhodně neuškodí, protože v případě potřeby se "
+"automaticky znovu vygenerují.<nl/><nl/>Vaše vlastní nastavení zůstanou beze "
+"změny."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "&Vymazat soubory mezipaměti"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1230,18 +1247,22 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"V adresáři <filename>%1</filename> nebyl nalezen žádný adresář s mezipamětí. "
+"Soubory mezipaměti není nutné mazat."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr ""
+msgstr "Prostředí sezení neurčuje adresář mezipaměti, který má být vymazán."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
 msgstr ""
+"Soubory mezipaměti byly vymazány:<nl/>Soubor <filename>%1</filename> byl "
+"odstraněn."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1250,20 +1271,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"Nepodařilo se vymazat mezipaměť v souboru <filename>%1</filename>:<nl/"
+"><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "&Otevřít složku s mezipamětí"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Zkusit znovu"
+msgstr "&Znovu"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
