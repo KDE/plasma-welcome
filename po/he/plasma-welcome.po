@@ -6,17 +6,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-06 00:54+0000\n"
-"PO-Revision-Date: 2026-11-03 20:20+0200\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: צוות התרגום של KDE ישראל\n"
+"POT-Creation-Date: 2026-11-08 03:00+0000\n"
+"PO-Revision-Date: 2026-11-08 00:11+0200\n"
+"Last-Translator: Yaron Shahrabani <sh-yaron@ubuntu.com>\n"
+"Language-Team: Hebrew <kde-l10n-he@kde.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -76,11 +76,9 @@ msgid "Display release notes for the current Plasma release."
 msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה."
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr "הצגת מסרי המהדורה למהדורה הנוכחית של פלזמה, גרסאות בטא."
+msgstr "הצגת הנחיות להפעלת מצב בטוח של פלזמה."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1118,15 +1116,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "זאת הפעלה במצב בטוח"
 
 #: src/qml/pages/SafeMode.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Plasma 6 Supporters"
+#, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr "תומכי פלזמה 6"
+msgstr "עזרה ותמיכה"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1135,6 +1131,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>להיחשף למידע נוסף או לבקש עזרה מאחרים "
+"בנוגע לתוכנות של KDE."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1157,18 +1155,21 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"הפלזמה הרגילה שלך מבית KDE והגדרות היישומים שלך נשמרו להמשך, אך לא נעשה בהם "
+"שימוש כרגע. הם יחזרו לשימוש עם חזרתך להפעלת הפלזמה הרגילה שלך.<nl/><nl/>הנה "
+"כמה פעולות שניתן לנקוט בהן כדי לנסות לתקן את הפעלת הפלזמה הרגילה שלך."
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "פינוי קובצי מטמון"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
-msgstr ""
+msgstr "בטוח לנסות, קובצי המטמון נוצרים מחדש אוטומטית"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1177,18 +1178,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"שינויים ידניים בפלזמה מבית KDE ויישומים תוך כדי מצב בטוח יאבדו בעת חזרה "
+"להפעלת הפלזמה הרגילה שלך."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "י&ציאה ממצב בטוח…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "פינוי קובצי מטמון"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1200,12 +1203,16 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"פלזמה מבית KDE, שירותי המערכת והיישומים יוצרים קובצי מטמון כדי לסייע "
+"בביצועים. לפעמים הקבצים האלה מאבדים ממשמעותם ויכולים לגרום לצרות.<nl/><nl/"
+">לרוב הבעיה נמצאת במקום אחר אבל לא מזיק לנסות לפנות את המטמון כיוון שהוא "
+"ייווצר מחדש בעת הצורך.<nl/><nl/>ההתאמות שביצעת תישמרנה."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "&פינוי קובצי מטמון"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1214,18 +1221,19 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"לא נמצאה תיקיית מטמון ב־<filename>%1</filename>. אין צורך לפנות קובצי מטמון."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr ""
+msgstr "סביבת ההפעלה לא מציינת איזו תיקיית מטמון לפינוי."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
-msgstr ""
+msgstr "קובצי המטמון פונו:<nl/><filename>%1</filename> נמחק."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1233,21 +1241,19 @@ msgctxt "@info"
 msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
-msgstr ""
+msgstr "פינוי המטמון ב־<filename>%1</filename> נכשל:<nl/><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "&פתיחת תיקיית מטמון"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "לנסות שוב"
+msgstr "לנסות &שוב"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

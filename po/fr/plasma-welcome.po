@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-06 00:54+0000\n"
-"PO-Revision-Date: 2026-11-04 17:45+0100\n"
+"POT-Creation-Date: 2026-11-08 03:00+0000\n"
+"PO-Revision-Date: 2026-11-07 10:46+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -73,13 +73,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Afficher la note de version pour la version actuelle de Plasma."
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
 msgstr ""
-"Afficher les notes de version pour la version actuelle de Plasma pour les "
-"versions « Bêta »."
+"Afficher les instructions pour une session en mode sans échec de Plasma."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1172,15 +1169,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "Ceci est une session en mode sans échec."
 
 #: src/qml/pages/SafeMode.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Plasma 6 Supporters"
+#, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr "Donateurs pour Plasma 6"
+msgstr "Aide"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1189,6 +1184,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Découvrez plus d'informations ou demandez "
+"de l'aide à d'autres personnes avec les logiciels de KDE."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1211,18 +1208,25 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"Votre configuration normale de KDE Plasma et de vos applications a été "
+"conservée en toute sécurité pour plus tard. Mais, elle ne sera pas utilisée "
+"pour le moment. Elle sera réutilisée lorsque vous reviendrez à votre séance "
+"normale de Plasma.<nl/><nl/>Voici quelques actions que vous pouvez "
+"entreprendre pour essayer de réparer votre séance normale de Plasma :"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Effacer les fichiers de cache"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
 msgstr ""
+"Essayez-le en toute sécurité. Les fichiers de cache sont automatiquement "
+"régénérés"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1231,18 +1235,21 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Les modifications manuelles apportées à KDE Plasma et aux applications en "
+"mode sans échec seront perdues lorsque vous reviendrez à votre session "
+"normale de Plasma ."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "&Quitter le mode sans échec..."
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Effacer les fichiers de cache"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1254,12 +1261,18 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"KDE Plasma, les services du système et les applications créent des fichiers "
+"de cache pour améliorer leurs performances. Parfois, ceux-ci deviennent "
+"obsolètes et peuvent causer des problèmes.<nl/><nl/>Souvent, le problème "
+"réside ailleurs, mais l'effacement des caches est une action à tenter sans "
+"risque. En effet, ils seront automatiquement régénérés en cas de besoin.<nl/"
+"><nl/>Vos personnalisations resteront intactes."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "Effa&cer les fichiers cache"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1268,18 +1281,23 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"Aucun dossier de cache n'a été trouvé dans <filename>%1</filename>. Les "
+"fichiers de cache n'ont pas besoin d'être effacés."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
 msgstr ""
+"L'environnement de session ne spécifie aucun dossier de cache à effacer."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
 msgstr ""
+"Les fichiers de cache ont été effacés :<nl/><filename>%1</filename> a été "
+"supprimé."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1288,20 +1306,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"Échec de la suppression du cache à <filename>%1</filename> :<nl/><message>"
+"%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "&Ouvrir le dossier de cache"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Réessayer"
+msgstr "&Réessayer"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-06 00:54+0000\n"
-"PO-Revision-Date: 2026-11-03 22:16+0300\n"
+"POT-Creation-Date: 2026-11-08 03:00+0000\n"
+"PO-Revision-Date: 2026-11-07 19:42+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -78,7 +78,7 @@ msgstr "Geçerli Plasma sürümü için sürüm notlarını görüntüle"
 #: src/main.cpp:77
 #, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr ""
+msgstr "Plasma Güvenli Kip oturumları için kılavuz bilgisi görüntüle"
 
 #: src/main.cpp:78
 #, kde-format
@@ -1136,13 +1136,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "Güvenli Kiptesiniz"
 
 #: src/qml/pages/SafeMode.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr ""
+msgstr "Yardım ve Destek"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1151,6 +1151,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Daha fazla bilgi alın veya KDE yazılımları "
+"ile ilgili yardım için başkalarına başvurun."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1173,18 +1175,24 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"Her zamanki KDE Plasma ve uygulama ayarlarınız daha sonra kullanılmak üzere "
+"güvenli bir şekilde saklandı; ancak şu anda kullanılmıyorlar. Normal Plasma "
+"oturumunuza döndüğünüzde bunlar yeniden etkin olacaktır.<nl/><nl/>Normal "
+"Plasma oturumunuzu düzeltmeyi denemek için gerçekleştirebileceğiniz bazı "
+"işlemler şunlardır:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Önbellek Dosyalarını Temizle"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
 msgstr ""
+"Denemesi güvenlidir; önbellek dosyaları kendiliğinden yeniden üretilirler."
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1193,18 +1201,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Güvenli kipteyken KDE Plasma ve uygulamalar üzerinde elle yapılan "
+"değişiklikler, normal Plasma oturumunuza döndüğünüzde kaybolacaktır."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "&Güvenli Kipten Çık…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Önbellek Dosyalarını Temizle"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1216,12 +1226,17 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"KDE Plasma, sistem hizmetleri ve uygulamalar; başarıma yardımcı olmak için "
+"önbellek dosyaları oluşturur. Bazen bunlar eskiyebilir ve sorunlara neden "
+"olabilir.<nl/><nl/>Genellikle sorun başka yerdedir; ancak gerektiğinde "
+"kendiliğinden yeniden oluşturulacakları için önbellekleri temizlemekten "
+"zarar gelmez.<nl/><nl/>Özelleştirmelerinize dokunulmaz."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "Ö&nbellek Dosyalarını Temizle"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1230,18 +1245,20 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"<filename>%1</filename> konumunda bulunan önbellek dizini yok. Önbellek "
+"dosyalarının temizlenmesine şu an için gerek bulunmuyor."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr ""
+msgstr "Bu oturum ortamı, temizlenecek bir önbellek dizini belirtmiyor."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
-msgstr ""
+msgstr "Önbellek dosyaları temizlendi:<nl/><filename>%1</filename> silindi."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1250,20 +1267,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"<filename>%1</filename> konumundaki önbellek dosyaları temizlenemedi:<nl/"
+"><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "Ö&nbellek Klasörünü Aç"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Yeniden Dene"
+msgstr "&Yeniden Dene"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
