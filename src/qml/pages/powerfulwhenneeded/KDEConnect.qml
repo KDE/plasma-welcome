@@ -65,7 +65,7 @@ Welcome.Page {
             Kirigami.Action {
                 icon.name: "edit-download-symbolic"
                 text: i18nc("@action:button Install KDE Connect", "Install KDE Connect…")
-                onTriggered: Qt.openUrlExternally("appstream://org.kde.kdeconnect.app")
+                onTriggered: Qt.openUrlExternally("appstream://org.kde.kdeconnect")
             }
         ]
     }
