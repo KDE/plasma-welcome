@@ -7,6 +7,7 @@
 #include "safemodebackuprestore.h"
 
 #include <KCompositeJob>
+#include <KDirWatch>
 #include <KIO/CopyJob>
 #include <KIO/DeleteJob>
 #include <KIO/MkpathJob>
@@ -17,6 +18,7 @@
 
 #include <QDateTime>
 #include <QDir>
+#include <QDirListing>
 #include <QFileInfo>
 #include <QTextStream>
 #include <QtAssert>
@@ -122,11 +124,24 @@ SafeModeBackupRestore::SafeModeBackupRestore(const QString &homeDir, QObject *pa
     , m_categoryInfo(SafeModeBackup::makeCategoryInfo())
     , m_backupCategories(new CategoryModel(m_categoryInfo, Operation::Backup, this))
     , m_restoreCategories(new CategoryModel(m_categoryInfo, Operation::Restore, this))
+    , m_origDirWatch(new KDirWatch(this))
+    , m_backupDirWatch(new KDirWatch(this))
 {
     updateBackupCategoryRoots();
-    updateAvailableCategories();
 
-    // set sensible selections based on available sources that were initialized by updateAvailableCategories()
+    // watch the user's original XDG home directories (plus selected subdirectories)
+    QObject::connect(m_origDirWatch, &KDirWatch::created, this, &SafeModeBackupRestore::updateAvailableCategories);
+    QObject::connect(m_origDirWatch, &KDirWatch::deleted, this, &SafeModeBackupRestore::updateAvailableCategories);
+    QObject::connect(m_origDirWatch, &KDirWatch::dirty, this, &SafeModeBackupRestore::updateAvailableCategories);
+
+    // inside the selected backup directory, watch directories for each backup category (plus selected subdirectories)
+    QObject::connect(m_backupDirWatch, &KDirWatch::created, this, &SafeModeBackupRestore::updateAvailableCategories);
+    QObject::connect(m_backupDirWatch, &KDirWatch::deleted, this, &SafeModeBackupRestore::updateAvailableCategories);
+    QObject::connect(m_backupDirWatch, &KDirWatch::dirty, this, &SafeModeBackupRestore::updateAvailableCategories);
+
+    activateDirWatches();
+
+    // set sensible selections based on available sources that were initialized by activateDirWatches()
     m_backupCategories->selectDefaultCategories();
     m_restoreCategories->selectDefaultCategories();
 }
@@ -143,9 +158,10 @@ void SafeModeBackupRestore::setBackupDir(const QUrl &dir)
     resetSuccessfulBackupCategories();
     resetSuccessfulRestoreCategories();
 
+    suspendDirWatches();
     m_backupDir = dir;
     updateBackupCategoryRoots();
-    updateAvailableCategories();
+    activateDirWatches();
     Q_EMIT backupDirChanged();
 }
 
@@ -565,9 +581,10 @@ void SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation 
                     isBackup ? i18nc("@info:status backup log", "Customizations were successfully backed up.")
                              : i18nc("@info:status restore log", "Customizations were successfully restored."));
         }
-        updateAvailableCategories();
+        activateDirWatches();
     });
 
+    suspendDirWatches();
     job->start();
     job.release(); // asynchronous, self-deleting KIO jobs
 }
@@ -646,6 +663,109 @@ void SafeModeBackupRestore::openBackupDirWithHighlightedUserLog()
         }
     });
     // highlightInFileManager() starts the job automatically
+}
+
+static void collectWatchDirsForSource(const CategoryInfo &info, const QString &categorySourceDir, QSet<QString> &watchDirs)
+{
+    if (categorySourceDir.isEmpty()) {
+        return;
+    }
+
+    const QSet<QString> knownPaths = info.knownRelativePaths();
+
+    if (info.isEntireDir() || knownPaths.isEmpty()) {
+        watchDirs.insert(categorySourceDir);
+    } else {
+        for (const QString &relPath : knownPaths) {
+            const QString absolutePath = subPath(categorySourceDir, relPath);
+            watchDirs.insert(QFileInfo(absolutePath).path());
+        }
+    }
+}
+
+static void collectWatchDirsForTarget(const CategoryInfo &info,
+                                      const QString &categoryTargetDir,
+                                      QSet<QString> &targetWatchDirs,
+                                      const QString &categorySourceDir,
+                                      QSet<QString> &sourceWatchDirs)
+{
+    using F = QDirListing::IteratorFlag;
+
+    if (categoryTargetDir.isEmpty()) {
+        return;
+    }
+
+    targetWatchDirs.insert(categoryTargetDir);
+
+    if (info.isEntireDir()) {
+        return;
+    }
+
+    // We want to detect when a source file can't be moved due to the corresponding target path already existing.
+    // Watch directories that exist inside the target directory and *may* include files on the source side.
+    QStringList recursedDirs{categoryTargetDir};
+    QStringList nextRecursedDirs;
+
+    while (!recursedDirs.isEmpty()) {
+        nextRecursedDirs.clear();
+
+        for (const auto &dir : recursedDirs) {
+            for (const QDirListing::DirEntry &entry : QDirListing(dir, F::DirsOnly | F::IncludeHidden)) {
+                const QString relativeDir = QDir(categoryTargetDir).relativeFilePath(entry.filePath());
+
+                if (info.containsPartsOfRelativeDir(relativeDir)) {
+                    targetWatchDirs.insert(entry.filePath());
+                    nextRecursedDirs.append(entry.filePath());
+
+                    if (!categorySourceDir.isEmpty()) {
+                        const QString correspondingSourcePath = subPath(categorySourceDir, relativeDir);
+                        sourceWatchDirs.insert(correspondingSourcePath);
+                    }
+                }
+            }
+        }
+        recursedDirs = nextRecursedDirs;
+    }
+}
+
+void SafeModeBackupRestore::activateDirWatches()
+{
+    QSet<QString> origDirWatches;
+    QSet<QString> backupSubDirWatches;
+
+    for (const auto &info : m_categoryInfo) {
+        QString backupSubDir = info.backupCategoryRoot;
+
+        collectWatchDirsForSource(info, info.origDirRoot, origDirWatches);
+        collectWatchDirsForTarget(info, backupSubDir, backupSubDirWatches, info.origDirRoot, origDirWatches);
+        collectWatchDirsForSource(info, backupSubDir, backupSubDirWatches);
+        collectWatchDirsForTarget(info, info.origDirRoot, origDirWatches, backupSubDir, backupSubDirWatches);
+    }
+
+    m_origDirWatches = origDirWatches;
+    for (const QString &dir : m_origDirWatches) {
+        m_origDirWatch->addDir(dir);
+    }
+
+    m_backupDirWatches = backupSubDirWatches;
+    for (const QString &dir : m_backupDirWatches) {
+        m_backupDirWatch->addDir(dir);
+    }
+
+    updateAvailableCategories();
+}
+
+void SafeModeBackupRestore::suspendDirWatches()
+{
+    for (const auto &dir : m_origDirWatches) {
+        m_origDirWatch->removeDir(dir);
+    }
+    m_origDirWatches.clear();
+
+    for (const auto &dir : m_backupDirWatches) {
+        m_backupDirWatch->removeDir(dir);
+    }
+    m_backupDirWatches.clear();
 }
 
 #include "moc_safemodebackuprestore.cpp"
