@@ -204,15 +204,19 @@ std::vector<CategoryInfo> makeCategoryInfo()
     const auto addCategory = [&categoryInfo](const QString &origDirRoot,
                                              const QString &backupSubDirName,
                                              std::unique_ptr<CategoryInfo::FileAndDirPaths> files,
+                                             bool backupSelectedByDefault,
                                              CategoryInfo::Strings strings) {
         const auto category = static_cast<Category>(categoryInfo.size());
-        categoryInfo.emplace_back(category, origDirRoot, backupSubDirName, std::move(files), std::move(strings));
+        categoryInfo.emplace_back(category, origDirRoot, backupSubDirName, std::move(files), std::move(strings), backupSelectedByDefault);
     };
+    const bool BackupSelectedByDefault = true;
+    const bool NoBackupByDefault = false;
 
     addCategory( //
         origConfigDir,
         u"config-plasma"_s,
         std::move(plasmaConfigPaths),
+        BackupSelectedByDefault,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "KDE Plasma configuration"),
             .description = i18nc("@info possible contents of Plasma-related XDG config files, for reset, backup, and restore",
@@ -226,6 +230,7 @@ std::vector<CategoryInfo> makeCategoryInfo()
         origConfigDir,
         u"config"_s,
         std::move(nonPlasmaConfigPaths),
+        NoBackupByDefault,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "App & miscellaneous configuration"),
             .description = i18nc("@info possible contents of non-Plasma XDG config files, for reset, backup, and restore",
@@ -241,6 +246,7 @@ std::vector<CategoryInfo> makeCategoryInfo()
         origStateDir,
         u"state"_s,
         nullptr,
+        BackupSelectedByDefault,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "State"),
             .description = i18nc("@info possible contents of XDG state folder, for reset, backup, and restore",
@@ -254,6 +260,7 @@ std::vector<CategoryInfo> makeCategoryInfo()
         origDataDir,
         u"data"_s,
         nullptr,
+        NoBackupByDefault,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "Desktop & application data"),
             .description = i18nc("@info possible contents of XDG data folder, for reset, backup, and restore",
@@ -314,10 +321,12 @@ CategoryModel::CategoryModel(const std::vector<CategoryInfo> &categoryInfo, Oper
         case Operation::Backup:
             row.title = info.strings.backupTitle;
             row.successTitle = info.strings.backupSuccessTitle;
+            row.selectedByDefault = info.backupSelectedByDefault;
             break;
         case Operation::Restore:
             row.title = info.strings.restoreTitle;
             row.successTitle = info.strings.restoreSuccessTitle;
+            row.selectedByDefault = true;
             break;
         }
 
@@ -350,6 +359,8 @@ QVariant CategoryModel::data(const QModelIndex &index, int role) const
         return row.description;
     case AvailableRole:
         return row.available;
+    case SelectedRole:
+        return row.selected;
     case SuccessfulRole:
         return row.successful;
     case ConflictingPathsRole:
@@ -367,15 +378,16 @@ QHash<int, QByteArray> CategoryModel::roleNames() const
         {SuccessTitleRole, "successTitle"},
         {DescriptionRole, "description"},
         {AvailableRole, "isAvailable"},
+        {SelectedRole, "isSelected"},
         {SuccessfulRole, "wasSuccessful"},
         {ConflictingPathsRole, "conflictingPaths"},
     };
 }
 
-bool CategoryModel::hasAvailableCategories() const
+bool CategoryModel::hasSelectedCategories() const
 {
     for (const Row &row : m_rows) {
-        if (row.available) {
+        if (row.selected) {
             return true;
         }
     }
@@ -396,7 +408,7 @@ QList<QUrl> CategoryModel::conflictingPaths() const
 {
     QList<QUrl> paths;
     for (const Row &row : m_rows) {
-        if (row.available) {
+        if (row.selected) {
             paths += row.conflictingPaths;
         }
     }
@@ -413,6 +425,12 @@ int CategoryModel::rowFor(Category category) const
     return -1;
 }
 
+bool CategoryModel::isSelected(Category category) const
+{
+    const int rowIndex = rowFor(category);
+    return rowIndex >= 0 && m_rows[rowIndex].selected;
+}
+
 void CategoryModel::setAvailable(Category category, bool available)
 {
     const int rowIndex = rowFor(category);
@@ -425,11 +443,72 @@ void CategoryModel::setAvailable(Category category, bool available)
         return;
     }
 
+    const bool wasAvailable = row.available;
     row.available = available;
 
+    QList<int> changedRoles{AvailableRole};
+    const bool selectionCleared = wasAvailable && !available && row.selected;
+
+    if (selectionCleared) {
+        row.selected = false;
+        changedRoles.append(SelectedRole);
+    }
+
     const QModelIndex modelIndex = index(rowIndex);
-    Q_EMIT dataChanged(modelIndex, modelIndex, {AvailableRole});
-    Q_EMIT hasAvailableCategoriesChanged();
+    Q_EMIT dataChanged(modelIndex, modelIndex, changedRoles);
+
+    if (selectionCleared) {
+        Q_EMIT hasSelectedCategoriesChanged();
+        Q_EMIT conflictingPathsChanged();
+    }
+}
+
+void CategoryModel::setSelected(Category category, bool selected)
+{
+    const int rowIndex = rowFor(category);
+    if (rowIndex < 0) {
+        return;
+    }
+
+    Row &row = m_rows[rowIndex];
+    if (row.selected == selected) {
+        return;
+    }
+
+    // This model does not allow selecting an unavailable category. If needed, set it available first.
+    if (selected && !row.available) {
+        return;
+    }
+
+    row.selected = selected;
+
+    const QModelIndex modelIndex = index(rowIndex);
+    Q_EMIT dataChanged(modelIndex, modelIndex, {SelectedRole});
+    Q_EMIT hasSelectedCategoriesChanged();
+    Q_EMIT conflictingPathsChanged();
+}
+
+void CategoryModel::selectDefaultCategories()
+{
+    bool changed = false;
+
+    for (size_t i = 0; i < m_rows.size(); ++i) {
+        const bool selected = m_rows[i].available && m_rows[i].selectedByDefault;
+        if (m_rows[i].selected == selected) {
+            continue;
+        }
+
+        m_rows[i].selected = selected;
+        changed = true;
+
+        const QModelIndex modelIndex = index(static_cast<int>(i));
+        Q_EMIT dataChanged(modelIndex, modelIndex, {SelectedRole});
+    }
+
+    if (changed) {
+        Q_EMIT hasSelectedCategoriesChanged();
+        Q_EMIT conflictingPathsChanged();
+    }
 }
 
 void CategoryModel::setSuccessful(Category category, bool successful)
@@ -488,7 +567,10 @@ void CategoryModel::setConflictingPaths(Category category, const QList<QUrl> &pa
 
     const QModelIndex modelIndex = index(rowIndex);
     Q_EMIT dataChanged(modelIndex, modelIndex, {ConflictingPathsRole});
-    Q_EMIT conflictingPathsChanged();
+
+    if (row.selected) {
+        Q_EMIT conflictingPathsChanged();
+    }
 }
 
 } // namespace SafeModeBackup

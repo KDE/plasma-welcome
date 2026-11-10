@@ -74,16 +74,23 @@ Kirigami.ScrollablePage {
                     delegate: Kirigami.FormEntry {
                         id: delegate
 
+                        required property int category
                         required property string title
                         required property string successTitle
                         required property string description
                         required property bool isAvailable
+                        required property bool isSelected
                         required property bool wasSuccessful
 
                         subtitle: (isAvailable || wasSuccessful) ? description : i18nc("@info can't back up files that don't exist", "Not present in your user account.")
 
-                        contentItem: QQC2.Label {
+                        contentItem: QQC2.CheckBox {
                             text: delegate.wasSuccessful ? delegate.successTitle : delegate.title
+                            enabled: delegate.isAvailable && !delegate.wasSuccessful
+                            checked: delegate.wasSuccessful || (delegate.isAvailable && delegate.isSelected)
+                            onToggled: {
+                                root.backupRestore.backupCategories.setSelected(delegate.category, checked);
+                            }
                         }
                     }
                 }
@@ -93,7 +100,7 @@ Kirigami.ScrollablePage {
         QQC2.Button {
             Layout.alignment: Qt.AlignHCenter
             enabled: root.hasBackupDir
-                     && root.backupRestore.backupCategories.hasAvailableCategories
+                     && root.backupRestore.backupCategories.hasSelectedCategories
                      && root.backupRestore.backupCategories.conflictingPaths.length === 0
             icon.name: "edit-reset"
             text: xi18nc("@action:button", "Back Up and &Reset Customizations")

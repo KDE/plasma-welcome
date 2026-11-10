@@ -49,6 +49,7 @@ struct CategoryInfo {
     const QString backupSubDirName;
     std::unique_ptr<FileAndDirPaths> files;
     const Strings strings;
+    const bool backupSelectedByDefault;
     QString backupCategoryRoot; // gets updated as backup dir changes
 
     bool isEntireDir() const
@@ -86,7 +87,7 @@ class CategoryModel : public QAbstractListModel
     Q_OBJECT
     QML_ANONYMOUS
 
-    Q_PROPERTY(bool hasAvailableCategories READ hasAvailableCategories NOTIFY hasAvailableCategoriesChanged FINAL)
+    Q_PROPERTY(bool hasSelectedCategories READ hasSelectedCategories NOTIFY hasSelectedCategoriesChanged FINAL)
     Q_PROPERTY(bool hasSuccessfulCategories READ hasSuccessfulCategories NOTIFY hasSuccessfulCategoriesChanged FINAL)
     Q_PROPERTY(QList<QUrl> conflictingPaths READ conflictingPaths NOTIFY conflictingPathsChanged FINAL)
 
@@ -97,6 +98,7 @@ public:
         SuccessTitleRole,
         DescriptionRole,
         AvailableRole,
+        SelectedRole,
         SuccessfulRole,
         ConflictingPathsRole,
     };
@@ -109,17 +111,21 @@ public:
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;
 
-    bool hasAvailableCategories() const;
+    bool hasSelectedCategories() const;
     bool hasSuccessfulCategories() const;
     QList<QUrl> conflictingPaths() const;
 
+    bool isSelected(Category category) const;
+
     void setAvailable(Category category, bool available);
+    Q_INVOKABLE void setSelected(Category category, bool selected);
+    void selectDefaultCategories();
     void setSuccessful(Category category, bool successful);
     void setConflictingPaths(Category category, const QList<QUrl> &paths);
     void resetSuccessful();
 
 Q_SIGNALS:
-    void hasAvailableCategoriesChanged();
+    void hasSelectedCategoriesChanged();
     void hasSuccessfulCategoriesChanged();
     void conflictingPathsChanged();
 
@@ -129,7 +135,9 @@ private:
         QString title;
         QString successTitle;
         QString description;
+        bool selectedByDefault = false;
         bool available = false;
+        bool selected = false;
         bool successful = false;
         QList<QUrl> conflictingPaths;
     };
