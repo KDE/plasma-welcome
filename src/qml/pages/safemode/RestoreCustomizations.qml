@@ -64,6 +64,30 @@ Kirigami.ScrollablePage {
                     }
                 }
             }
+
+            Kirigami.FormGroup {
+                Layout.fillWidth: true
+
+                Repeater {
+                    model: root.backupRestore.restoreCategories
+
+                    delegate: Kirigami.FormEntry {
+                        id: delegate
+
+                        required property string title
+                        required property string successTitle
+                        required property string description
+                        required property bool isAvailable
+                        required property bool wasSuccessful
+
+                        subtitle: (isAvailable || wasSuccessful) ? description : i18nc("@info can't back up files that don't exist", "Not present in your backup.")
+
+                        contentItem: QQC2.Label {
+                            text: delegate.wasSuccessful ? delegate.successTitle : delegate.title
+                        }
+                    }
+                }
+            }
         }
 
         QQC2.Button {
