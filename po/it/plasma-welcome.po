@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-08 03:00+0000\n"
-"PO-Revision-Date: 2026-10-09 16:08+0200\n"
+"PO-Revision-Date: 2026-11-06 14:35+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -76,13 +76,10 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Visualizza le note di rilascio per la versione attuale di Plasma."
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
 msgstr ""
-"Visualizza le note sulla versione per la versione attuale di Plasma, per le "
-"versioni beta."
+"Visualizza le indicazioni per una sessione in modalità provvisoria di Plasma."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1149,15 +1146,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "Questa è una sessione in modalità provvisoria"
 
 #: src/qml/pages/SafeMode.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Plasma 6 Supporters"
+#, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr "Sostenitori di Plasma 6"
+msgstr "Aiuto e supporto"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1166,6 +1161,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Trova ulteriori informazioni o chiedi "
+"aiuto ad altri riguardo al software KDE."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1188,18 +1185,24 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"Le tue impostazioni abituali di KDE Plasma e delle applicazioni sono state "
+"conservate al sicuro per un utilizzo futuro, ma al momento non sono in uso. "
+"Saranno ripristinate quando tornerai alla tua normale sessione di Plasma.<nl/"
+"><nl/>Ecco alcune operazioni che puoi eseguire per cercare di risolvere i "
+"problemi della tua normale sessione di Plasma:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Cancella i file della cache"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
 msgstr ""
+"Puoi provare senza rischi; i file della cache sono rigenerati automaticamente"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1208,18 +1211,21 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Le modifiche apportate manualmente a KDE Plasma e alle applicazioni durante "
+"la modalità provvisoria andranno perse al ritorno alla normale sessione di "
+"Plasma."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "Esci dalla mo&dalità provvisoria…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Cancella i file della cache"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1231,12 +1237,18 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"KDE Plasma, i servizi di sistema e le applicazioni creano file di cache per "
+"migliorare le prestazioni. A volte questi file diventano obsoleti e possono "
+"causare problemi.<nl/><nl/>Spesso la causa del problema è un'altra, ma "
+"tentare di svuotare le cache non comporta rischi, poiché saranno rigenerate "
+"automaticamente quando necessario.<nl/><nl/>Le tue personalizzazioni "
+"rimarranno inalterate."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "&Cancella i file della cache"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1245,18 +1257,23 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"Non è stata trovata alcuna cartella di cache in <filename>%1</filename>. Non "
+"è necessario eliminare i file della cache."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
 msgstr ""
+"L'ambiente di sessione non specifica una cartella di cache da svuotare."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
 msgstr ""
+"I file della cache sono stati cancellati:<nl/><filename>%1</filename> è "
+"stato eliminato."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1265,20 +1282,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"Impossibile svuotare la cache in <filename>%1</filename>:<nl/><message>%2</"
+"message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "&Apri cartella della cache"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Riprova"
+msgstr "&Riprova"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1355,13 +1372,7 @@ msgstr ""
 "icone delle applicazioni per riorganizzarle."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the ⌃ "
-#| "arrow next to the clock."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -1371,8 +1382,8 @@ msgid ""
 msgstr ""
 "Questo è l'oggetto «Vassoio di sistema», che ti consente di controllare le "
 "funzioni del sistema come la modifica del volume e la connessione alle reti. "
-"Gli elementi diventeranno visibili qui solo quando pertinenti. Per vedere "
-"tutti gli elementi disponibili, fai clic sulla freccia accanto all'orologio."
+"Gli elementi diventeranno visibili qui solo se necessario. Per vedere tutti "
+"gli elementi disponibili, fai clic sulla freccia ^ accanto all'orologio."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
