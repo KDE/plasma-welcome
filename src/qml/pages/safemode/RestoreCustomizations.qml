@@ -106,10 +106,15 @@ Kirigami.ScrollablePage {
         }
 
         Kirigami.InlineMessage {
-            visible: root.backupRestore.restoreCategories.hasSuccessfulCategories
+            visible: root.backupRestore.restoreCategories.hasSuccessfulCategories && !root.backupRestore.hasUserLogError
             Layout.fillWidth: true
             text: i18nc("@info", "User customizations were successfully restored.")
             actions: [
+                Kirigami.Action {
+                    icon.name: "document-open-symbolic"
+                    text: i18nc("@action:button", "Open Restoration &Log")
+                    onTriggered: root.backupRestore.openUserLog()
+                },
                 Kirigami.Action {
                     icon.name: Qt.application.layoutDirection === Qt.RightToLeft ? "system-log-out-rtl-symbolic" : "system-log-out-symbolic"
                     text: i18nc("@action:button", "E&xit Safe Mode…")
@@ -118,6 +123,21 @@ Kirigami.ScrollablePage {
             ]
             position: Kirigami.InlineMessage.Position.Footer
             type: Kirigami.MessageType.Positive
+        }
+
+        Kirigami.InlineMessage {
+            visible: root.backupRestore.hasUserLogError
+            Layout.fillWidth: true
+            text: i18nc("@info", "There were errors while restoring user customizations.")
+            actions: [
+                Kirigami.Action {
+                    icon.name: "document-open-folder-symbolic"
+                    text: i18nc("@action:button", "Open Restoration &Log")
+                    onTriggered: root.backupRestore.openUserLog()
+                }
+            ]
+            position: Kirigami.InlineMessage.Position.Footer
+            type: Kirigami.MessageType.Error
         }
     }
 }

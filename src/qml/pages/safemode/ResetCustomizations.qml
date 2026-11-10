@@ -106,14 +106,19 @@ Kirigami.ScrollablePage {
         }
 
         Kirigami.InlineMessage {
-            visible: root.backupRestore.backupCategories.hasSuccessfulCategories
+            visible: root.backupRestore.backupCategories.hasSuccessfulCategories && !root.backupRestore.hasUserLogError
             Layout.fillWidth: true
             text: i18nc("@info", "User customizations were successfully backed up.")
             actions: [
                 Kirigami.Action {
                     icon.name: "document-open-folder-symbolic"
                     text: i18nc("@action:button", "Open Backup &Folder")
-                    onTriggered: root.backupRestore.openBackupDir()
+                    onTriggered: root.backupRestore.openBackupDirWithHighlightedUserLog()
+                },
+                Kirigami.Action {
+                    icon.name: "document-open-symbolic"
+                    text: i18nc("@action:button", "Open Backup &Log")
+                    onTriggered: root.backupRestore.openUserLog()
                 },
                 Kirigami.Action {
                     icon.name: Qt.application.layoutDirection === Qt.RightToLeft ? "system-log-out-rtl-symbolic" : "system-log-out-symbolic"
@@ -123,6 +128,19 @@ Kirigami.ScrollablePage {
             ]
             position: Kirigami.InlineMessage.Position.Footer
             type: Kirigami.MessageType.Positive
+        }
+
+        Kirigami.InlineMessage {
+            visible: root.backupRestore.hasUserLogError
+            Layout.fillWidth: true
+            text: i18nc("@info", "There were errors while backing up user customizations.")
+            actions: Kirigami.Action {
+                icon.name: "document-open-folder-symbolic"
+                text: i18nc("@action:button", "Open Backup &Log")
+                onTriggered: root.backupRestore.openUserLog()
+            }
+            position: Kirigami.InlineMessage.Position.Footer
+            type: Kirigami.MessageType.Error
         }
     }
 }
