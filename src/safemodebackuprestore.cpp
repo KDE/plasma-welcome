@@ -125,6 +125,10 @@ SafeModeBackupRestore::SafeModeBackupRestore(const QString &homeDir, QObject *pa
 {
     updateBackupCategoryRoots();
     updateAvailableCategories();
+
+    // set sensible selections based on available sources that were initialized by updateAvailableCategories()
+    m_backupCategories->selectDefaultCategories();
+    m_restoreCategories->selectDefaultCategories();
 }
 
 SafeModeBackupRestore::~SafeModeBackupRestore()
@@ -389,13 +393,13 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
     compositeJob->setAbortOnError(false);
 
     for (const auto &info : m_categoryInfo) {
-        const auto relativeSourcePaths = m_availableBackupSourcePaths.value(info.category);
-        if (relativeSourcePaths.isEmpty()) {
+        if (!m_backupCategories->isSelected(info.category)) {
             continue;
         }
         const QUrl sourceDir = QUrl::fromLocalFile(info.origDirRoot);
         const QString targetDirPath = info.backupCategoryRoot;
         const QUrl targetDir = QUrl::fromLocalFile(targetDirPath);
+        const auto relativeSourcePaths = m_availableBackupSourcePaths.value(info.category);
 
         userLog(
             MessageType::Intention,
@@ -410,9 +414,9 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
             if (!categoryJob->error()) {
                 m_backupCategories->setSuccessful(category, true);
 
-                // The moved files now exist in the backup directory, so this category
-                // can be made available for restoring.
+                // Pre-select for restoring, in case the user wants to move it back right away.
                 m_restoreCategories->setAvailable(category, true);
+                m_restoreCategories->setSelected(category, true);
             }
         });
         connectJobUpdatesToUserLog(categoryJob.get(), Operation::Backup, info.logTitle(), targetDirPath);
@@ -450,13 +454,13 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
     QSet<QString> sourceDirsToPrune;
 
     for (const auto &info : m_categoryInfo) {
-        const auto relativeSourcePaths = m_availableRestoreSourcePaths.value(info.category);
-        if (relativeSourcePaths.isEmpty()) {
+        if (!m_restoreCategories->isSelected(info.category)) {
             continue;
         }
         const QString sourceDirPath = info.backupCategoryRoot;
         const QUrl sourceDir = QUrl::fromLocalFile(sourceDirPath);
         const QUrl targetDir = QUrl::fromLocalFile(info.origDirRoot);
+        const auto relativeSourcePaths = m_availableRestoreSourcePaths.value(info.category);
 
         userLog(MessageType::Intention,
                 i18nc("@info:status restore log - %1 is a backup category, %2 is a folder path",
@@ -480,9 +484,9 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
             if (!categoryJob->error()) {
                 m_restoreCategories->setSuccessful(category, true);
 
-                // The restored files now exist in the original directory, so this category
-                // can be made available for backing up again.
+                // Pre-select for backup, in case the user wants to back it up again right away.
                 m_backupCategories->setAvailable(category, true);
+                m_backupCategories->setSelected(category, true);
             }
         });
         connectJobUpdatesToUserLog(categoryJob.get(), Operation::Restore, info.logTitle(), sourceDirPath);
