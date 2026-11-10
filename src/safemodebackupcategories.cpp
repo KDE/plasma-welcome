@@ -215,6 +215,12 @@ std::vector<CategoryInfo> makeCategoryInfo()
         std::move(plasmaConfigPaths),
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "KDE Plasma configuration"),
+            .description = i18nc("@info possible contents of Plasma-related XDG config files, for reset, backup, and restore",
+                                 "System settings, desktop & applet settings."),
+            .backupTitle = i18nc("@title:row checkbox label in the Reset Customizations page", "Reset KDE Plasma configuration"),
+            .backupSuccessTitle = i18nc("@title:row checkbox label after this category was successfully backed up", "KDE Plasma configuration was backed up"),
+            .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore KDE Plasma configuration"),
+            .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "KDE Plasma configuration was restored"),
         });
     addCategory( //
         origConfigDir,
@@ -222,6 +228,14 @@ std::vector<CategoryInfo> makeCategoryInfo()
         std::move(nonPlasmaConfigPaths),
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "App & miscellaneous configuration"),
+            .description = i18nc("@info possible contents of non-Plasma XDG config files, for reset, backup, and restore",
+                                 "Settings for all other software apart from KDE Plasma."),
+            .backupTitle = i18nc("@title:row checkbox label in the Reset Customizations page", "Reset app & miscellaneous configuration"),
+            .backupSuccessTitle =
+                i18nc("@title:row checkbox label after this category was successfully backed up", "App & miscellaneous configuration was backed up"),
+            .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore app & miscellaneous configuration"),
+            .restoreSuccessTitle =
+                i18nc("@title:row checkbox label after this category was successfully restored", "App & miscellaneous configuration was restored"),
         });
     addCategory( //
         origStateDir,
@@ -229,6 +243,12 @@ std::vector<CategoryInfo> makeCategoryInfo()
         nullptr,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "State"),
+            .description = i18nc("@info possible contents of XDG state folder, for reset, backup, and restore",
+                                 "Recent file history, restored window sizes, power draw history, …"),
+            .backupTitle = i18nc("@title:row checkbox label in the Reset Customizations page", "Reset state"),
+            .backupSuccessTitle = i18nc("@title:row checkbox label after this category was successfully backed up", "State was backed up"),
+            .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore state"),
+            .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "State was restored"),
         });
     addCategory( //
         origDataDir,
@@ -236,6 +256,12 @@ std::vector<CategoryInfo> makeCategoryInfo()
         nullptr,
         CategoryInfo::Strings{
             .logTitle = i18nc("@info backup/restore category name used in status logs", "Desktop & application data"),
+            .description = i18nc("@info possible contents of XDG data folder, for reset, backup, and restore",
+                                 "Favorites, downloaded extensions, application sessions, custom menu entries, …"),
+            .backupTitle = i18nc("@title:row checkbox label in the Reset Customizations page", "Reset desktop & application data"),
+            .backupSuccessTitle = i18nc("@title:row checkbox label after this category was successfully backed up", "Desktop & application data was backed up"),
+            .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore desktop & application data"),
+            .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "Desktop & application data was restored"),
         });
 
     return categoryInfo;
@@ -274,16 +300,76 @@ QSet<QString> CategoryInfo::existingSourcePaths(const QString &categorySourceDir
     return sourcePaths;
 }
 
-CategoryModel::CategoryModel(const std::vector<CategoryInfo> &categoryInfo, QObject *parent)
-    : QObject(parent)
+CategoryModel::CategoryModel(const std::vector<CategoryInfo> &categoryInfo, Operation operation, QObject *parent)
+    : QAbstractListModel(parent)
 {
     m_rows.reserve(categoryInfo.size());
 
     for (const CategoryInfo &info : categoryInfo) {
         Row row;
         row.category = info.category;
+        row.description = info.strings.description;
+
+        switch (operation) {
+        case Operation::Backup:
+            row.title = info.strings.backupTitle;
+            row.successTitle = info.strings.backupSuccessTitle;
+            break;
+        case Operation::Restore:
+            row.title = info.strings.restoreTitle;
+            row.successTitle = info.strings.restoreSuccessTitle;
+            break;
+        }
+
         m_rows.push_back(std::move(row));
     }
+}
+
+int CategoryModel::rowCount(const QModelIndex &parent) const
+{
+    return parent.isValid() ? 0 : static_cast<int>(m_rows.size());
+}
+
+QVariant CategoryModel::data(const QModelIndex &index, int role) const
+{
+    if (!index.isValid() || index.row() < 0 || index.row() >= rowCount()) {
+        return {};
+    }
+
+    const Row &row = m_rows[index.row()];
+
+    switch (role) {
+    case Qt::DisplayRole:
+    case TitleRole:
+        return row.title;
+    case CategoryRole:
+        return row.category;
+    case SuccessTitleRole:
+        return row.successTitle;
+    case DescriptionRole:
+        return row.description;
+    case AvailableRole:
+        return row.available;
+    case SuccessfulRole:
+        return row.successful;
+    case ConflictingPathsRole:
+        return QVariant::fromValue(row.conflictingPaths);
+    default:
+        return {};
+    }
+}
+
+QHash<int, QByteArray> CategoryModel::roleNames() const
+{
+    return {
+        {CategoryRole, "category"},
+        {TitleRole, "title"},
+        {SuccessTitleRole, "successTitle"},
+        {DescriptionRole, "description"},
+        {AvailableRole, "isAvailable"},
+        {SuccessfulRole, "wasSuccessful"},
+        {ConflictingPathsRole, "conflictingPaths"},
+    };
 }
 
 bool CategoryModel::hasAvailableCategories() const
@@ -341,6 +427,8 @@ void CategoryModel::setAvailable(Category category, bool available)
 
     row.available = available;
 
+    const QModelIndex modelIndex = index(rowIndex);
+    Q_EMIT dataChanged(modelIndex, modelIndex, {AvailableRole});
     Q_EMIT hasAvailableCategoriesChanged();
 }
 
@@ -358,6 +446,8 @@ void CategoryModel::setSuccessful(Category category, bool successful)
 
     row.successful = successful;
 
+    const QModelIndex modelIndex = index(rowIndex);
+    Q_EMIT dataChanged(modelIndex, modelIndex, {SuccessfulRole});
     Q_EMIT hasSuccessfulCategoriesChanged();
 }
 
@@ -372,6 +462,9 @@ void CategoryModel::resetSuccessful()
 
         m_rows[i].successful = false;
         changed = true;
+
+        const QModelIndex modelIndex = index(static_cast<int>(i));
+        Q_EMIT dataChanged(modelIndex, modelIndex, {SuccessfulRole});
     }
 
     if (changed) {
@@ -393,6 +486,8 @@ void CategoryModel::setConflictingPaths(Category category, const QList<QUrl> &pa
 
     row.conflictingPaths = paths;
 
+    const QModelIndex modelIndex = index(rowIndex);
+    Q_EMIT dataChanged(modelIndex, modelIndex, {ConflictingPathsRole});
     Q_EMIT conflictingPathsChanged();
 }
 

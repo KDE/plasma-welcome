@@ -120,8 +120,8 @@ SafeModeBackupRestore::SafeModeBackupRestore(const QString &homeDir, QObject *pa
     : QObject(parent)
     , m_backupDir(homeDir.isEmpty() ? QUrl() : QUrl::fromLocalFile(homeDir + "/Customizations Backup"_L1))
     , m_categoryInfo(SafeModeBackup::makeCategoryInfo())
-    , m_backupCategories(new CategoryModel(m_categoryInfo, this))
-    , m_restoreCategories(new CategoryModel(m_categoryInfo, this))
+    , m_backupCategories(new CategoryModel(m_categoryInfo, Operation::Backup, this))
+    , m_restoreCategories(new CategoryModel(m_categoryInfo, Operation::Restore, this))
 {
     updateBackupCategoryRoots();
     updateAvailableCategories();

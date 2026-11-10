@@ -6,8 +6,9 @@
 
 #pragma once
 
+#include <QAbstractListModel>
+#include <QHash>
 #include <QList>
-#include <QObject>
 #include <QSet>
 #include <QString>
 #include <QUrl>
@@ -36,6 +37,11 @@ struct CategoryInfo {
 
     struct Strings {
         QString logTitle;
+        QString description;
+        QString backupTitle;
+        QString backupSuccessTitle;
+        QString restoreTitle;
+        QString restoreSuccessTitle;
     };
 
     const Category category;
@@ -75,7 +81,7 @@ struct CategoryInfo {
 
 std::vector<CategoryInfo> makeCategoryInfo();
 
-class CategoryModel : public QObject
+class CategoryModel : public QAbstractListModel
 {
     Q_OBJECT
     QML_ANONYMOUS
@@ -85,8 +91,23 @@ class CategoryModel : public QObject
     Q_PROPERTY(QList<QUrl> conflictingPaths READ conflictingPaths NOTIFY conflictingPathsChanged FINAL)
 
 public:
-    CategoryModel(const std::vector<CategoryInfo> &categoryInfo, QObject *parent = nullptr);
+    enum Role {
+        CategoryRole = Qt::UserRole + 1,
+        TitleRole,
+        SuccessTitleRole,
+        DescriptionRole,
+        AvailableRole,
+        SuccessfulRole,
+        ConflictingPathsRole,
+    };
+    Q_ENUM(Role)
+
+    CategoryModel(const std::vector<CategoryInfo> &categoryInfo, Operation operation, QObject *parent = nullptr);
     ~CategoryModel() override = default;
+
+    int rowCount(const QModelIndex &parent = QModelIndex()) const override;
+    QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
+    QHash<int, QByteArray> roleNames() const override;
 
     bool hasAvailableCategories() const;
     bool hasSuccessfulCategories() const;
@@ -105,6 +126,9 @@ Q_SIGNALS:
 private:
     struct Row {
         Category category;
+        QString title;
+        QString successTitle;
+        QString description;
         bool available = false;
         bool successful = false;
         QList<QUrl> conflictingPaths;
