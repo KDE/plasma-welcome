@@ -113,8 +113,10 @@ Click the cards below to see just a smattering of what it can do for you:")
 
                     onClicked: {
                         pageStack.layers.push(app._createPage(delegate.page))
+                        if (!delegate.read) {
+                            --formCard.unreadCount;
+                        }
                         delegate.read = true;
-                        --formCard.unreadCount;
                     }
                 }
             }
