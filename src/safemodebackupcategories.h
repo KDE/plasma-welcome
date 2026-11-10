@@ -21,6 +21,11 @@ namespace SafeModeBackup
 // Opaque identifier for a customization category. Values are assigned in makeCategoryInfo().
 using Category = int;
 
+enum class Operation {
+    Backup,
+    Restore,
+};
+
 struct CategoryInfo {
     struct FileAndDirPaths {
         virtual ~FileAndDirPaths() = default;
@@ -29,15 +34,25 @@ struct CategoryInfo {
         virtual QSet<QString> knownRelativePaths() const = 0;
     };
 
+    struct Strings {
+        QString logTitle;
+    };
+
     const Category category;
     const QString origDirRoot;
     const QString backupSubDirName;
     std::unique_ptr<FileAndDirPaths> files;
+    const Strings strings;
     QString backupCategoryRoot; // gets updated as backup dir changes
 
     bool isEntireDir() const
     {
         return !files;
+    }
+
+    QString logTitle() const
+    {
+        return strings.logTitle;
     }
 
     bool containsRelativePath(const QString &relativePath) const

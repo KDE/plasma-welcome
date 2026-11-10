@@ -6,6 +6,8 @@
 
 #include "safemodebackupcategories.h"
 
+#include <KLocalizedString>
+
 #include <QDir>
 #include <QDirListing>
 #include <QFile>
@@ -199,16 +201,42 @@ std::vector<CategoryInfo> makeCategoryInfo()
 
     std::vector<CategoryInfo> categoryInfo;
 
-    const auto addCategory =
-        [&categoryInfo](const QString &origDirRoot, const QString &backupSubDirName, std::unique_ptr<CategoryInfo::FileAndDirPaths> files) {
-            const auto category = static_cast<Category>(categoryInfo.size());
-            categoryInfo.emplace_back(category, origDirRoot, backupSubDirName, std::move(files));
-        };
+    const auto addCategory = [&categoryInfo](const QString &origDirRoot,
+                                             const QString &backupSubDirName,
+                                             std::unique_ptr<CategoryInfo::FileAndDirPaths> files,
+                                             CategoryInfo::Strings strings) {
+        const auto category = static_cast<Category>(categoryInfo.size());
+        categoryInfo.emplace_back(category, origDirRoot, backupSubDirName, std::move(files), std::move(strings));
+    };
 
-    addCategory(origConfigDir, u"config-plasma"_s, std::move(plasmaConfigPaths));
-    addCategory(origConfigDir, u"config"_s, std::move(nonPlasmaConfigPaths));
-    addCategory(origStateDir, u"state"_s, nullptr);
-    addCategory(origDataDir, u"data"_s, nullptr);
+    addCategory( //
+        origConfigDir,
+        u"config-plasma"_s,
+        std::move(plasmaConfigPaths),
+        CategoryInfo::Strings{
+            .logTitle = i18nc("@info backup/restore category name used in status logs", "KDE Plasma configuration"),
+        });
+    addCategory( //
+        origConfigDir,
+        u"config"_s,
+        std::move(nonPlasmaConfigPaths),
+        CategoryInfo::Strings{
+            .logTitle = i18nc("@info backup/restore category name used in status logs", "App & miscellaneous configuration"),
+        });
+    addCategory( //
+        origStateDir,
+        u"state"_s,
+        nullptr,
+        CategoryInfo::Strings{
+            .logTitle = i18nc("@info backup/restore category name used in status logs", "State"),
+        });
+    addCategory( //
+        origDataDir,
+        u"data"_s,
+        nullptr,
+        CategoryInfo::Strings{
+            .logTitle = i18nc("@info backup/restore category name used in status logs", "Desktop & application data"),
+        });
 
     return categoryInfo;
 }
