@@ -17,6 +17,7 @@
 
 #include <memory>
 
+class KDirWatch;
 class KJob;
 
 class SafeModeBackupRestore : public QObject
@@ -79,11 +80,18 @@ private:
     void userLog(MessageType, const QString &msg);
     void resetUserLog(const QString &filepath = QString());
 
+    void activateDirWatches();
+    void suspendDirWatches();
+
 private:
     QUrl m_backupDir;
     std::vector<CategoryInfo> m_categoryInfo;
     SafeModeBackup::CategoryModel *m_backupCategories = nullptr;
     SafeModeBackup::CategoryModel *m_restoreCategories = nullptr;
+    KDirWatch *m_origDirWatch = nullptr;
+    KDirWatch *m_backupDirWatch = nullptr;
+    QSet<QString> m_origDirWatches;
+    QSet<QString> m_backupDirWatches;
     QHash<Category, QSet<QString>> m_availableBackupSourcePaths;
     QHash<Category, QSet<QString>> m_availableRestoreSourcePaths;
     QFile m_userLogFile;
