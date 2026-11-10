@@ -190,35 +190,39 @@ private:
     const CategoryInfo::FileAndDirPaths *m_excludedFiles;
 };
 
-std::vector<CategoryInfo> makeCategoryInfo()
+CategoryTree makeCategoryTree(const QString &homeDir)
 {
     const QString origConfigDir = QDir::cleanPath(QFile::decodeName(qgetenv("KDE_SAFEMODE_ORIG_XDG_CONFIG_HOME")));
     const QString origDataDir = QDir::cleanPath(QFile::decodeName(qgetenv("KDE_SAFEMODE_ORIG_XDG_DATA_HOME")));
     const QString origStateDir = QDir::cleanPath(QFile::decodeName(qgetenv("KDE_SAFEMODE_ORIG_XDG_STATE_HOME")));
+    const QString flatpakDir = homeDir.isEmpty() ? QString() : (homeDir + "/.var/app"_L1);
 
     auto plasmaConfigPaths = std::make_unique<KnownFileAndDirPaths>(makePlasmaConfigPaths());
     auto nonPlasmaConfigPaths = std::make_unique<RemainingFileAndDirPaths>(plasmaConfigPaths.get());
 
-    std::vector<CategoryInfo> categoryInfo;
+    CategoryTree tree;
 
-    const auto addCategory = [&categoryInfo](const QString &origDirRoot,
-                                             const QString &backupSubDirName,
-                                             std::unique_ptr<CategoryInfo::FileAndDirPaths> files,
-                                             bool backupSelectedByDefault,
-                                             CategoryInfo::Strings strings) {
-        const auto category = static_cast<Category>(categoryInfo.size());
-        categoryInfo.emplace_back(category, origDirRoot, backupSubDirName, std::move(files), std::move(strings), backupSelectedByDefault);
+    const auto addGroup = [&tree](const bool backupSelectedByDefault, CategoryGroupInfo::Strings strings) -> CategoryGroup {
+        const auto group = static_cast<CategoryGroup>(tree.groups.size());
+        tree.groups.emplace_back(group, std::move(strings), backupSelectedByDefault, std::vector<Category>{});
+        return group;
     };
+    const auto addCategory = [&tree](const CategoryGroup group,
+                                     const QString &origDirRoot,
+                                     const QString &backupSubDirName,
+                                     std::unique_ptr<CategoryInfo::FileAndDirPaths> files,
+                                     QString logTitle) {
+        const auto category = static_cast<Category>(tree.categories.size());
+        tree.categories.emplace_back(category, group, origDirRoot, backupSubDirName, std::move(files), std::move(logTitle));
+        tree.groups[group].categories.push_back(category);
+    };
+
     const bool BackupSelectedByDefault = true;
     const bool NoBackupByDefault = false;
 
-    addCategory( //
-        origConfigDir,
-        u"config-plasma"_s,
-        std::move(plasmaConfigPaths),
+    const auto plasmaConfigGroup = addGroup( //
         BackupSelectedByDefault,
-        CategoryInfo::Strings{
-            .logTitle = i18nc("@info backup/restore category name used in status logs", "KDE Plasma configuration"),
+        CategoryGroupInfo::Strings{
             .description = i18nc("@info possible contents of Plasma-related XDG config files, for reset, backup, and restore",
                                  "System settings, desktop & applet settings."),
             .backupTitle = i18nc("@title:row checkbox label in the Reset Customizations page", "Reset KDE Plasma configuration"),
@@ -226,15 +230,17 @@ std::vector<CategoryInfo> makeCategoryInfo()
             .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore KDE Plasma configuration"),
             .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "KDE Plasma configuration was restored"),
         });
-    addCategory( //
-        origConfigDir,
-        u"config"_s,
-        std::move(nonPlasmaConfigPaths),
+    addCategory(plasmaConfigGroup,
+                origConfigDir,
+                u"config-plasma"_s,
+                std::move(plasmaConfigPaths),
+                i18nc("@info backup/restore category name used in status logs", "KDE Plasma configuration"));
+
+    const auto appMiscGroup = addGroup( //
         NoBackupByDefault,
-        CategoryInfo::Strings{
-            .logTitle = i18nc("@info backup/restore category name used in status logs", "App & miscellaneous configuration"),
+        CategoryGroupInfo::Strings{
             .description = i18nc("@info possible contents of non-Plasma XDG config files, for reset, backup, and restore",
-                                 "Settings for all other software apart from KDE Plasma."),
+                                 "Settings for Flatpak apps and other software apart from KDE Plasma."),
             .backupTitle = i18nc("@title:row checkbox label in the Reset Customizations page", "Reset app & miscellaneous configuration"),
             .backupSuccessTitle =
                 i18nc("@title:row checkbox label after this category was successfully backed up", "App & miscellaneous configuration was backed up"),
@@ -242,13 +248,20 @@ std::vector<CategoryInfo> makeCategoryInfo()
             .restoreSuccessTitle =
                 i18nc("@title:row checkbox label after this category was successfully restored", "App & miscellaneous configuration was restored"),
         });
-    addCategory( //
-        origStateDir,
-        u"state"_s,
-        nullptr,
+    addCategory(appMiscGroup,
+                origConfigDir,
+                u"config"_s,
+                std::move(nonPlasmaConfigPaths),
+                i18nc("@info backup/restore category name used in status logs", "Non-Plasma configuration"));
+    addCategory(appMiscGroup,
+                flatpakDir,
+                u"var-app"_s,
+                nullptr,
+                i18nc("@info backup/restore category name used in status logs", "Flatpak app settings & data"));
+
+    const auto stateGroup = addGroup( //
         BackupSelectedByDefault,
-        CategoryInfo::Strings{
-            .logTitle = i18nc("@info backup/restore category name used in status logs", "State"),
+        CategoryGroupInfo::Strings{
             .description = i18nc("@info possible contents of XDG state folder, for reset, backup, and restore",
                                  "Recent file history, restored window sizes, power draw history, …"),
             .backupTitle = i18nc("@title:row checkbox label in the Reset Customizations page", "Reset state"),
@@ -256,13 +269,11 @@ std::vector<CategoryInfo> makeCategoryInfo()
             .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore state"),
             .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "State was restored"),
         });
-    addCategory( //
-        origDataDir,
-        u"data"_s,
-        nullptr,
+    addCategory(stateGroup, origStateDir, u"state"_s, nullptr, i18nc("@info backup/restore category name used in status logs", "State"));
+
+    const auto dataGroup = addGroup( //
         NoBackupByDefault,
-        CategoryInfo::Strings{
-            .logTitle = i18nc("@info backup/restore category name used in status logs", "Desktop & application data"),
+        CategoryGroupInfo::Strings{
             .description = i18nc("@info possible contents of XDG data folder, for reset, backup, and restore",
                                  "Favorites, downloaded extensions, application sessions, custom menu entries, …"),
             .backupTitle = i18nc("@title:row checkbox label in the Reset Customizations page", "Reset desktop & application data"),
@@ -270,8 +281,9 @@ std::vector<CategoryInfo> makeCategoryInfo()
             .restoreTitle = i18nc("@title:row checkbox label in the Restore Customizations page", "Restore desktop & application data"),
             .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "Desktop & application data was restored"),
         });
+    addCategory(dataGroup, origDataDir, u"data"_s, nullptr, i18nc("@info backup/restore category name used in status logs", "Desktop & application data"));
 
-    return categoryInfo;
+    return tree;
 }
 
 QSet<QString> CategoryInfo::existingSourcePaths(const QString &categorySourceDir) const
@@ -307,15 +319,16 @@ QSet<QString> CategoryInfo::existingSourcePaths(const QString &categorySourceDir
     return sourcePaths;
 }
 
-CategoryModel::CategoryModel(const std::vector<CategoryInfo> &categoryInfo, Operation operation, QObject *parent)
+CategoryModel::CategoryModel(const CategoryTree &categoryTree, Operation operation, QObject *parent)
     : QAbstractListModel(parent)
 {
-    m_rows.reserve(categoryInfo.size());
+    m_rows.reserve(categoryTree.groups.size());
 
-    for (const CategoryInfo &info : categoryInfo) {
+    for (const CategoryGroupInfo &info : categoryTree.groups) {
         Row row;
-        row.category = info.category;
+        row.group = info.group;
         row.description = info.strings.description;
+        row.categories = info.categories;
 
         switch (operation) {
         case Operation::Backup:
@@ -328,6 +341,12 @@ CategoryModel::CategoryModel(const std::vector<CategoryInfo> &categoryInfo, Oper
             row.successTitle = info.strings.restoreSuccessTitle;
             row.selectedByDefault = true;
             break;
+        }
+
+        m_rowForGroup.insert(row.group, static_cast<int>(m_rows.size()));
+        for (const Category category : row.categories) {
+            m_groupForCategory.insert(category, row.group);
+            m_categoryState.insert(category, CategoryState{});
         }
 
         m_rows.push_back(std::move(row));
@@ -351,20 +370,20 @@ QVariant CategoryModel::data(const QModelIndex &index, int role) const
     case Qt::DisplayRole:
     case TitleRole:
         return row.title;
-    case CategoryRole:
-        return row.category;
+    case CategoryGroupRole:
+        return row.group;
     case SuccessTitleRole:
         return row.successTitle;
     case DescriptionRole:
         return row.description;
     case AvailableRole:
-        return row.available;
-    case SelectedRole:
-        return row.selected;
+        return groupAvailable(row);
+    case SelectionStateRole:
+        return groupSelectionState(row);
     case SuccessfulRole:
-        return row.successful;
+        return groupSuccessful(row);
     case ConflictingPathsRole:
-        return QVariant::fromValue(row.conflictingPaths);
+        return QVariant::fromValue(groupConflictingPaths(row));
     default:
         return {};
     }
@@ -373,12 +392,12 @@ QVariant CategoryModel::data(const QModelIndex &index, int role) const
 QHash<int, QByteArray> CategoryModel::roleNames() const
 {
     return {
-        {CategoryRole, "category"},
+        {CategoryGroupRole, "categoryGroup"},
         {TitleRole, "title"},
         {SuccessTitleRole, "successTitle"},
         {DescriptionRole, "description"},
         {AvailableRole, "isAvailable"},
-        {SelectedRole, "isSelected"},
+        {SelectionStateRole, "selectionState"},
         {SuccessfulRole, "wasSuccessful"},
         {ConflictingPathsRole, "conflictingPaths"},
     };
@@ -386,8 +405,8 @@ QHash<int, QByteArray> CategoryModel::roleNames() const
 
 bool CategoryModel::hasSelectedCategories() const
 {
-    for (const Row &row : m_rows) {
-        if (row.selected) {
+    for (const CategoryState &state : m_categoryState) {
+        if (state.selected) {
             return true;
         }
     }
@@ -397,7 +416,7 @@ bool CategoryModel::hasSelectedCategories() const
 bool CategoryModel::hasSuccessfulCategories() const
 {
     for (const Row &row : m_rows) {
-        if (row.successful) {
+        if (groupSuccessful(row)) {
             return true;
         }
     }
@@ -408,84 +427,176 @@ QList<QUrl> CategoryModel::conflictingPaths() const
 {
     QList<QUrl> paths;
     for (const Row &row : m_rows) {
-        if (row.selected) {
-            paths += row.conflictingPaths;
+        paths += groupConflictingPaths(row);
+    }
+    return paths;
+}
+
+int CategoryModel::rowIndexForGroup(CategoryGroup group) const
+{
+    auto it = m_rowForGroup.constFind(group);
+    return it != m_rowForGroup.constEnd() ? *it : -1;
+}
+
+bool CategoryModel::isCategorySelected(Category category) const
+{
+    auto it = m_categoryState.constFind(category);
+    return it != m_categoryState.constEnd() && it->selected;
+}
+
+bool CategoryModel::groupAvailable(const Row &row) const
+{
+    for (const Category category : row.categories) {
+        auto it = m_categoryState.constFind(category);
+        if (it != m_categoryState.constEnd() && it->available) {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool CategoryModel::groupSuccessful(const Row &row) const
+{
+    bool anySucceeded = false;
+
+    for (const Category category : row.categories) {
+        auto it = m_categoryState.constFind(category);
+        if (it == m_categoryState.constEnd()) {
+            continue;
+        }
+
+        if (it->result == Result::Failed || it->result == Result::Operating) {
+            return false;
+        }
+        if (it->result == Result::Succeeded) {
+            anySucceeded = true;
+        }
+    }
+
+    return anySucceeded;
+}
+
+Qt::CheckState CategoryModel::groupSelectionState(const Row &row) const
+{
+    bool anyAvailable = false;
+    bool anySelected = false;
+    bool anyUnselected = false;
+
+    for (const Category category : row.categories) {
+        auto it = m_categoryState.constFind(category);
+        if (it == m_categoryState.constEnd() || !it->available) {
+            continue;
+        }
+
+        anyAvailable = true;
+        if (it->selected) {
+            anySelected = true;
+        } else {
+            anyUnselected = true;
+        }
+    }
+
+    if (!anyAvailable || !anySelected) {
+        return Qt::Unchecked;
+    }
+    return anyUnselected ? Qt::PartiallyChecked : Qt::Checked;
+}
+
+QList<QUrl> CategoryModel::groupConflictingPaths(const Row &row) const
+{
+    QList<QUrl> paths;
+    for (const Category category : row.categories) {
+        auto it = m_categoryState.constFind(category);
+        if (it != m_categoryState.constEnd() && it->selected) {
+            paths += it->conflictingPaths;
         }
     }
     return paths;
 }
 
-int CategoryModel::rowFor(Category category) const
+void CategoryModel::emitGroupChanged(CategoryGroup group, const QList<int> &roles)
 {
-    for (size_t i = 0; i < m_rows.size(); ++i) {
-        if (m_rows[i].category == category) {
-            return static_cast<int>(i);
-        }
-    }
-    return -1;
-}
-
-bool CategoryModel::isSelected(Category category) const
-{
-    const int rowIndex = rowFor(category);
-    return rowIndex >= 0 && m_rows[rowIndex].selected;
-}
-
-void CategoryModel::setAvailable(Category category, bool available)
-{
-    const int rowIndex = rowFor(category);
+    const int rowIndex = rowIndexForGroup(group);
     if (rowIndex < 0) {
         return;
-    }
-
-    Row &row = m_rows[rowIndex];
-    if (row.available == available) {
-        return;
-    }
-
-    const bool wasAvailable = row.available;
-    row.available = available;
-
-    QList<int> changedRoles{AvailableRole};
-    const bool selectionCleared = wasAvailable && !available && row.selected;
-
-    if (selectionCleared) {
-        row.selected = false;
-        changedRoles.append(SelectedRole);
     }
 
     const QModelIndex modelIndex = index(rowIndex);
-    Q_EMIT dataChanged(modelIndex, modelIndex, changedRoles);
-
-    if (selectionCleared) {
-        Q_EMIT hasSelectedCategoriesChanged();
-        Q_EMIT conflictingPathsChanged();
-    }
+    Q_EMIT dataChanged(modelIndex, modelIndex, roles);
 }
 
-void CategoryModel::setSelected(Category category, bool selected)
+void CategoryModel::setCategoryAvailable(Category category, bool available)
 {
-    const int rowIndex = rowFor(category);
-    if (rowIndex < 0) {
+    auto it = m_categoryState.find(category);
+    if (it == m_categoryState.end() || it->available == available) {
         return;
     }
 
-    Row &row = m_rows[rowIndex];
-    if (row.selected == selected) {
+    // This model does not allow selecting an unavailable category.
+    const bool selectionCleared = it->available && !available && it->selected;
+
+    it->available = available;
+    if (selectionCleared) {
+        it->selected = false;
+    }
+
+    if (selectionCleared) {
+        emitGroupChanged(m_groupForCategory.value(category), {AvailableRole, SelectionStateRole, ConflictingPathsRole});
+        Q_EMIT hasSelectedCategoriesChanged();
+        Q_EMIT conflictingPathsChanged();
+    } else {
+        // A single-category availability change can also affect the group selection tristate.
+        emitGroupChanged(m_groupForCategory.value(category), {AvailableRole, SelectionStateRole});
+    }
+}
+
+void CategoryModel::setCategorySelected(Category category, bool selected)
+{
+    auto it = m_categoryState.find(category);
+    if (it == m_categoryState.end() || it->selected == selected) {
         return;
     }
 
     // This model does not allow selecting an unavailable category. If needed, set it available first.
-    if (selected && !row.available) {
+    if (selected && !it->available) {
         return;
     }
 
-    row.selected = selected;
+    it->selected = selected;
 
-    const QModelIndex modelIndex = index(rowIndex);
-    Q_EMIT dataChanged(modelIndex, modelIndex, {SelectedRole});
+    emitGroupChanged(m_groupForCategory.value(category), {SelectionStateRole});
     Q_EMIT hasSelectedCategoriesChanged();
     Q_EMIT conflictingPathsChanged();
+}
+
+void CategoryModel::setGroupSelected(CategoryGroup group, Qt::CheckState checkState)
+{
+    const int rowIndex = rowIndexForGroup(group);
+    if (rowIndex < 0) {
+        return;
+    }
+
+    const bool selected = checkState != Qt::Unchecked;
+    bool changed = false;
+
+    for (const Category category : m_rows[rowIndex].categories) {
+        auto it = m_categoryState.find(category);
+        if (it == m_categoryState.end() || it->selected == selected) {
+            continue;
+        }
+        if (selected && !it->available) {
+            continue;
+        }
+
+        it->selected = selected;
+        changed = true;
+    }
+
+    if (changed) {
+        emitGroupChanged(group, {SelectionStateRole});
+        Q_EMIT hasSelectedCategoriesChanged();
+        Q_EMIT conflictingPathsChanged();
+    }
 }
 
 void CategoryModel::selectDefaultCategories()
@@ -493,16 +604,29 @@ void CategoryModel::selectDefaultCategories()
     bool changed = false;
 
     for (size_t i = 0; i < m_rows.size(); ++i) {
-        const bool selected = m_rows[i].available && m_rows[i].selectedByDefault;
-        if (m_rows[i].selected == selected) {
-            continue;
+        const Row &row = m_rows[i];
+        bool rowChanged = false;
+
+        for (const Category category : row.categories) {
+            auto it = m_categoryState.find(category);
+            if (it == m_categoryState.end()) {
+                continue;
+            }
+
+            const bool selected = it->available && row.selectedByDefault;
+            if (it->selected == selected) {
+                continue;
+            }
+
+            it->selected = selected;
+            rowChanged = true;
+            changed = true;
         }
 
-        m_rows[i].selected = selected;
-        changed = true;
-
-        const QModelIndex modelIndex = index(static_cast<int>(i));
-        Q_EMIT dataChanged(modelIndex, modelIndex, {SelectedRole});
+        if (rowChanged) {
+            const QModelIndex modelIndex = index(static_cast<int>(i));
+            Q_EMIT dataChanged(modelIndex, modelIndex, {SelectionStateRole});
+        }
     }
 
     if (changed) {
@@ -511,65 +635,73 @@ void CategoryModel::selectDefaultCategories()
     }
 }
 
-void CategoryModel::setSuccessful(Category category, bool successful)
+void CategoryModel::setCategoryResult(Category category, Result result)
 {
-    const int rowIndex = rowFor(category);
-    if (rowIndex < 0) {
+    auto it = m_categoryState.find(category);
+    if (it == m_categoryState.end() || it->result == result) {
         return;
     }
 
-    Row &row = m_rows[rowIndex];
-    if (row.successful == successful) {
-        return;
-    }
+    it->result = result;
 
-    row.successful = successful;
-
-    const QModelIndex modelIndex = index(rowIndex);
-    Q_EMIT dataChanged(modelIndex, modelIndex, {SuccessfulRole});
+    emitGroupChanged(m_groupForCategory.value(category), {SuccessfulRole});
     Q_EMIT hasSuccessfulCategoriesChanged();
 }
 
-void CategoryModel::resetSuccessful()
+void CategoryModel::setCategoryConflictingPaths(Category category, const QList<QUrl> &paths)
 {
-    bool changed = false;
+    auto it = m_categoryState.find(category);
+    if (it == m_categoryState.end() || it->conflictingPaths == paths) {
+        return;
+    }
+
+    it->conflictingPaths = paths;
+
+    emitGroupChanged(m_groupForCategory.value(category), {ConflictingPathsRole});
+
+    if (it->selected) {
+        Q_EMIT conflictingPathsChanged();
+    }
+}
+
+void CategoryModel::resetCategoryResults()
+{
+    resetCategoryResults({Result::Succeeded, Result::Failed, Result::Operating});
+}
+
+void CategoryModel::resetCategoryResults(std::initializer_list<Result> which)
+{
+    bool anySuccessfulChanged = false;
 
     for (size_t i = 0; i < m_rows.size(); ++i) {
-        if (!m_rows[i].successful) {
-            continue;
+        const Row &row = m_rows[i];
+        const bool wasSuccessful = groupSuccessful(row);
+        bool rowChanged = false;
+
+        for (const Category category : row.categories) {
+            auto it = m_categoryState.find(category);
+            if (it == m_categoryState.end()) {
+                continue;
+            }
+
+            if (std::ranges::contains(which, it->result)) {
+                it->result = Result::NotAttempted;
+                rowChanged = true;
+            }
         }
 
-        m_rows[i].successful = false;
-        changed = true;
-
+        if (!rowChanged) {
+            continue;
+        }
+        if (groupSuccessful(row) != wasSuccessful) {
+            anySuccessfulChanged = true;
+        }
         const QModelIndex modelIndex = index(static_cast<int>(i));
         Q_EMIT dataChanged(modelIndex, modelIndex, {SuccessfulRole});
     }
 
-    if (changed) {
+    if (anySuccessfulChanged) {
         Q_EMIT hasSuccessfulCategoriesChanged();
-    }
-}
-
-void CategoryModel::setConflictingPaths(Category category, const QList<QUrl> &paths)
-{
-    const int rowIndex = rowFor(category);
-    if (rowIndex < 0) {
-        return;
-    }
-
-    Row &row = m_rows[rowIndex];
-    if (row.conflictingPaths == paths) {
-        return;
-    }
-
-    row.conflictingPaths = paths;
-
-    const QModelIndex modelIndex = index(rowIndex);
-    Q_EMIT dataChanged(modelIndex, modelIndex, {ConflictingPathsRole});
-
-    if (row.selected) {
-        Q_EMIT conflictingPathsChanged();
     }
 }
 

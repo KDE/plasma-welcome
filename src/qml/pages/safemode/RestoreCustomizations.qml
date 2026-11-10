@@ -74,12 +74,12 @@ Kirigami.ScrollablePage {
                     delegate: Kirigami.FormEntry {
                         id: delegate
 
-                        required property int category
+                        required property int categoryGroup
                         required property string title
                         required property string successTitle
                         required property string description
                         required property bool isAvailable
-                        required property bool isSelected
+                        required property int selectionState
                         required property bool wasSuccessful
 
                         subtitle: (isAvailable || wasSuccessful) ? description : i18nc("@info can't back up files that don't exist", "Not present in your backup.")
@@ -87,9 +87,11 @@ Kirigami.ScrollablePage {
                         contentItem: QQC2.CheckBox {
                             text: delegate.wasSuccessful ? delegate.successTitle : delegate.title
                             enabled: delegate.isAvailable && !delegate.wasSuccessful
-                            checked: delegate.wasSuccessful || (delegate.isAvailable && delegate.isSelected)
+                            tristate: true
+                            checkState: delegate.wasSuccessful ? Qt.Checked : delegate.selectionState
+                            nextCheckState: () => checkState == Qt.Checked ? Qt.Unchecked : Qt.Checked
                             onToggled: {
-                                root.backupRestore.restoreCategories.setSelected(delegate.category, checked);
+                                root.backupRestore.restoreCategories.setGroupSelected(delegate.categoryGroup, checkState);
                             }
                         }
                     }
