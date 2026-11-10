@@ -68,7 +68,7 @@ private:
     void updateConflicts();
     bool checkValidFilesForCategory(const CategoryInfo &, const QSet<QString> &relativeSourcePaths, const QUrl &sourceDir, const QUrl &targetDir);
     void connectJobUpdatesToUserLog(KJob *job, Operation operation, const QString &categoryTitle, const QString &backupCategoryRoot);
-    void startOperation(std::unique_ptr<KJob> job, Operation operation);
+    void startOperation(std::unique_ptr<KJob> job, Operation operation, const QList<Category> &scheduledCategories);
 
     enum class MessageType {
         Intention,
@@ -85,7 +85,7 @@ private:
 
 private:
     QUrl m_backupDir;
-    std::vector<CategoryInfo> m_categoryInfo;
+    SafeModeBackup::CategoryTree m_categoryTree;
     SafeModeBackup::CategoryModel *m_backupCategories = nullptr;
     SafeModeBackup::CategoryModel *m_restoreCategories = nullptr;
     KDirWatch *m_origDirWatch = nullptr;

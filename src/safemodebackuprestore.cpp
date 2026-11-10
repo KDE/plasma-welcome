@@ -121,9 +121,9 @@ void SequentialCompositeJob::slotResult(KJob *job)
 SafeModeBackupRestore::SafeModeBackupRestore(const QString &homeDir, QObject *parent)
     : QObject(parent)
     , m_backupDir(homeDir.isEmpty() ? QUrl() : QUrl::fromLocalFile(homeDir + "/Customizations Backup"_L1))
-    , m_categoryInfo(SafeModeBackup::makeCategoryInfo())
-    , m_backupCategories(new CategoryModel(m_categoryInfo, Operation::Backup, this))
-    , m_restoreCategories(new CategoryModel(m_categoryInfo, Operation::Restore, this))
+    , m_categoryTree(SafeModeBackup::makeCategoryTree(homeDir))
+    , m_backupCategories(new CategoryModel(m_categoryTree, Operation::Backup, this))
+    , m_restoreCategories(new CategoryModel(m_categoryTree, Operation::Restore, this))
     , m_origDirWatch(new KDirWatch(this))
     , m_backupDirWatch(new KDirWatch(this))
 {
@@ -172,7 +172,7 @@ QUrl SafeModeBackupRestore::backupDir() const
 
 void SafeModeBackupRestore::updateBackupCategoryRoots()
 {
-    for (auto &info : m_categoryInfo) {
+    for (auto &info : m_categoryTree.categories) {
         info.backupCategoryRoot = m_backupDir.isLocalFile() ? subPath(m_backupDir.toLocalFile(), info.backupSubDirName) : QString();
     }
 }
@@ -190,13 +190,13 @@ CategoryModel *SafeModeBackupRestore::restoreCategories() const
 void SafeModeBackupRestore::resetSuccessfulBackupCategories()
 {
     resetUserLog();
-    m_backupCategories->resetSuccessful();
+    m_backupCategories->resetCategoryResults();
 }
 
 void SafeModeBackupRestore::resetSuccessfulRestoreCategories()
 {
     resetUserLog();
-    m_restoreCategories->resetSuccessful();
+    m_restoreCategories->resetCategoryResults();
 }
 
 QList<QUrl> SafeModeBackupRestore::conflictingPathsForCategory(const CategoryInfo &categoryInfo, const QUrl &categoryTargetDir) const
@@ -227,24 +227,24 @@ QList<QUrl> SafeModeBackupRestore::conflictingPathsForCategory(const CategoryInf
 
 void SafeModeBackupRestore::updateConflicts()
 {
-    for (const auto &info : m_categoryInfo) {
-        m_backupCategories->setConflictingPaths(info.category, conflictingPathsForCategory(info, QUrl::fromLocalFile(info.backupCategoryRoot)));
-        m_restoreCategories->setConflictingPaths(info.category, conflictingPathsForCategory(info, QUrl::fromLocalFile(info.origDirRoot)));
+    for (const auto &info : m_categoryTree.categories) {
+        m_backupCategories->setCategoryConflictingPaths(info.category, conflictingPathsForCategory(info, QUrl::fromLocalFile(info.backupCategoryRoot)));
+        m_restoreCategories->setCategoryConflictingPaths(info.category, conflictingPathsForCategory(info, QUrl::fromLocalFile(info.origDirRoot)));
     }
 }
 
 void SafeModeBackupRestore::updateAvailableCategories()
 {
-    for (const auto &info : m_categoryInfo) {
+    for (const auto &info : m_categoryTree.categories) {
         auto &sources = m_availableBackupSourcePaths[info.category];
         sources = info.existingSourcePaths(info.origDirRoot);
-        m_backupCategories->setAvailable(info.category, !sources.isEmpty());
+        m_backupCategories->setCategoryAvailable(info.category, !sources.isEmpty());
     }
 
-    for (const auto &info : m_categoryInfo) {
+    for (const auto &info : m_categoryTree.categories) {
         auto &sources = m_availableRestoreSourcePaths[info.category];
         sources = info.existingSourcePaths(info.backupCategoryRoot);
-        m_restoreCategories->setAvailable(info.category, !sources.isEmpty());
+        m_restoreCategories->setCategoryAvailable(info.category, !sources.isEmpty());
     }
 
     updateConflicts();
@@ -359,7 +359,7 @@ bool SafeModeBackupRestore::checkValidFilesForCategory(const CategoryInfo &categ
         userLog(MessageType::Error,
                 i18nc("@info:status backup log error - %1 is a backup category, %2 is a folder path",
                       "%1: Aborting - no source files found in `%2`",
-                      categoryInfo.logTitle(),
+                      categoryInfo.logTitle,
                       sourceDir.toLocalFile()));
         return false;
     }
@@ -367,7 +367,7 @@ bool SafeModeBackupRestore::checkValidFilesForCategory(const CategoryInfo &categ
         userLog(MessageType::Error,
                 i18nc("@info:status backup log error - %1 is a backup category, %2 is a folder path or a collection of files",
                       "%1: Aborting - target backup files already exist: %2",
-                      categoryInfo.logTitle(),
+                      categoryInfo.logTitle,
                       formatPathsForLog(conflictingPaths)));
         return false;
     }
@@ -408,39 +408,46 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
     auto compositeJob = std::make_unique<SequentialCompositeJob>();
     compositeJob->setAbortOnError(false);
 
-    for (const auto &info : m_categoryInfo) {
-        if (!m_backupCategories->isSelected(info.category)) {
+    m_backupCategories->resetCategoryResults({Result::Failed});
+    QList<Category> scheduledCategories;
+
+    for (const auto &info : m_categoryTree.categories) {
+        if (!m_backupCategories->isCategorySelected(info.category)) {
             continue;
         }
+
         const QUrl sourceDir = QUrl::fromLocalFile(info.origDirRoot);
         const QString targetDirPath = info.backupCategoryRoot;
         const QUrl targetDir = QUrl::fromLocalFile(targetDirPath);
         const auto relativeSourcePaths = m_availableBackupSourcePaths.value(info.category);
 
-        userLog(
-            MessageType::Intention,
-            i18nc("@info:status backup log - %1 is a backup category, %2 is a folder path", "%1: Backing up files to `%2`", info.logTitle(), targetDirPath));
+        userLog(MessageType::Intention,
+                i18nc("@info:status backup log - %1 is a backup category, %2 is a folder path", "%1: Backing up files to `%2`", info.logTitle, targetDirPath));
 
         if (!checkValidFilesForCategory(info, relativeSourcePaths, sourceDir, targetDir)) {
+            m_backupCategories->setCategoryResult(info.category, Result::Failed);
             return false;
         }
         std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(info, sourceDir, targetDir, m_backupDir, relativeSourcePaths);
 
         QObject::connect(categoryJob.get(), &KJob::result, this, [this, category = info.category](KJob *categoryJob) {
-            if (!categoryJob->error()) {
-                m_backupCategories->setSuccessful(category, true);
+            const Result result = categoryJob->error() ? Result::Failed : Result::Succeeded;
+            m_backupCategories->setCategoryResult(category, result);
 
+            if (result == Result::Succeeded) {
                 // Pre-select for restoring, in case the user wants to move it back right away.
-                m_restoreCategories->setAvailable(category, true);
-                m_restoreCategories->setSelected(category, true);
+                m_restoreCategories->setCategoryAvailable(category, true);
+                m_restoreCategories->setCategorySelected(category, true);
             }
         });
-        connectJobUpdatesToUserLog(categoryJob.get(), Operation::Backup, info.logTitle(), targetDirPath);
+        connectJobUpdatesToUserLog(categoryJob.get(), Operation::Backup, info.logTitle, targetDirPath);
         compositeJob->addSubjob(categoryJob.release());
+
+        scheduledCategories.append(info.category);
     }
 
     userLog(MessageType::CosmeticSpacing, ""_L1);
-    startOperation(std::move(compositeJob), Operation::Backup);
+    startOperation(std::move(compositeJob), Operation::Backup, scheduledCategories);
     return true;
 }
 
@@ -466,13 +473,17 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
     auto compositeJob = std::make_unique<SequentialCompositeJob>();
     compositeJob->setAbortOnError(false);
 
+    m_restoreCategories->resetCategoryResults({Result::Failed});
+    QList<Category> scheduledCategories;
+
     // Only for the restore operation: Remove empty backup subdirs after moving files back to original dir(s)
     QSet<QString> sourceDirsToPrune;
 
-    for (const auto &info : m_categoryInfo) {
-        if (!m_restoreCategories->isSelected(info.category)) {
+    for (const auto &info : m_categoryTree.categories) {
+        if (!m_restoreCategories->isCategorySelected(info.category)) {
             continue;
         }
+
         const QString sourceDirPath = info.backupCategoryRoot;
         const QUrl sourceDir = QUrl::fromLocalFile(sourceDirPath);
         const QUrl targetDir = QUrl::fromLocalFile(info.origDirRoot);
@@ -481,10 +492,11 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
         userLog(MessageType::Intention,
                 i18nc("@info:status restore log - %1 is a backup category, %2 is a folder path",
                       "%1: Restoring backup files from `%2`",
-                      info.logTitle(),
+                      info.logTitle,
                       sourceDirPath));
 
         if (!checkValidFilesForCategory(info, relativeSourcePaths, sourceDir, targetDir)) {
+            m_restoreCategories->setCategoryResult(info.category, Result::Failed);
             return false;
         }
 
@@ -497,16 +509,19 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
         std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(info, sourceDir, targetDir, QUrl(), relativeSourcePaths);
 
         QObject::connect(categoryJob.get(), &KJob::result, this, [this, category = info.category](KJob *categoryJob) {
-            if (!categoryJob->error()) {
-                m_restoreCategories->setSuccessful(category, true);
+            const Result result = categoryJob->error() ? Result::Failed : Result::Succeeded;
+            m_restoreCategories->setCategoryResult(category, result);
 
+            if (result == Result::Succeeded) {
                 // Pre-select for backup, in case the user wants to back it up again right away.
-                m_backupCategories->setAvailable(category, true);
-                m_backupCategories->setSelected(category, true);
+                m_backupCategories->setCategoryAvailable(category, true);
+                m_backupCategories->setCategorySelected(category, true);
             }
         });
-        connectJobUpdatesToUserLog(categoryJob.get(), Operation::Restore, info.logTitle(), sourceDirPath);
+        connectJobUpdatesToUserLog(categoryJob.get(), Operation::Restore, info.logTitle, sourceDirPath);
         compositeJob->addSubjob(categoryJob.release());
+
+        scheduledCategories.append(info.category);
     }
 
     if (!sourceDirsToPrune.isEmpty()) {
@@ -522,7 +537,7 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
     }
 
     userLog(MessageType::CosmeticSpacing, ""_L1);
-    startOperation(std::move(compositeJob), Operation::Restore);
+    startOperation(std::move(compositeJob), Operation::Restore, scheduledCategories);
     return true;
 }
 
@@ -566,12 +581,21 @@ void SafeModeBackupRestore::connectJobUpdatesToUserLog(KJob *job, Operation oper
     });
 }
 
-void SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation operation)
+void SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation operation, const QList<Category> &scheduledCategories)
 {
     Q_ASSERT(operation == Operation::Backup || operation == Operation::Restore);
 
-    QObject::connect(job.get(), &KJob::result, this, [this, operation](KJob *finishedJob) {
-        const bool isBackup = operation == Operation::Backup;
+    const bool isBackup = operation == Operation::Backup;
+    CategoryModel *model = isBackup ? m_backupCategories : m_restoreCategories;
+
+    for (const Category category : scheduledCategories) {
+        model->setCategoryResult(category, Result::Operating);
+    }
+
+    QObject::connect(job.get(), &KJob::result, this, [this, isBackup, model](KJob *finishedJob) {
+        // Any category that still has an Operating result didn't report back. Reset it to NotAttempted.
+        model->resetCategoryResults({Result::Operating});
+
         if (finishedJob->error()) {
             userLog(MessageType::Error,
                     isBackup ? i18nc("@info:status backup log", "Errors encountered while backing up customizations, see above.")
@@ -733,7 +757,7 @@ void SafeModeBackupRestore::activateDirWatches()
     QSet<QString> origDirWatches;
     QSet<QString> backupSubDirWatches;
 
-    for (const auto &info : m_categoryInfo) {
+    for (const auto &info : m_categoryTree.categories) {
         QString backupSubDir = info.backupCategoryRoot;
 
         collectWatchDirsForSource(info, info.origDirRoot, origDirWatches);

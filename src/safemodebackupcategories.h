@@ -14,17 +14,27 @@
 #include <QUrl>
 #include <qqmlintegration.h>
 
+#include <initializer_list>
 #include <memory>
 #include <vector>
 
 namespace SafeModeBackup
 {
-// Opaque identifier for a customization category. Values are assigned in makeCategoryInfo().
+// Opaque identifiers for operation and UI selections, respectively. Values are assigned in makeCategoryTree().
 using Category = int;
+using CategoryGroup = int;
 
 enum class Operation {
     Backup,
     Restore,
+};
+
+// Most recent operation outcome for a Category.
+enum class Result {
+    NotAttempted,
+    Succeeded,
+    Failed,
+    Operating,
 };
 
 struct CategoryInfo {
@@ -35,31 +45,17 @@ struct CategoryInfo {
         virtual QSet<QString> knownRelativePaths() const = 0;
     };
 
-    struct Strings {
-        QString logTitle;
-        QString description;
-        QString backupTitle;
-        QString backupSuccessTitle;
-        QString restoreTitle;
-        QString restoreSuccessTitle;
-    };
-
     const Category category;
+    const CategoryGroup group;
     const QString origDirRoot;
     const QString backupSubDirName;
     std::unique_ptr<FileAndDirPaths> files;
-    const Strings strings;
-    const bool backupSelectedByDefault;
+    const QString logTitle;
     QString backupCategoryRoot; // gets updated as backup dir changes
 
     bool isEntireDir() const
     {
         return !files;
-    }
-
-    QString logTitle() const
-    {
-        return strings.logTitle;
     }
 
     bool containsRelativePath(const QString &relativePath) const
@@ -80,7 +76,27 @@ struct CategoryInfo {
     QSet<QString> existingSourcePaths(const QString &categorySourceDir) const;
 };
 
-std::vector<CategoryInfo> makeCategoryInfo();
+struct CategoryGroupInfo {
+    struct Strings {
+        QString description;
+        QString backupTitle;
+        QString backupSuccessTitle;
+        QString restoreTitle;
+        QString restoreSuccessTitle;
+    };
+
+    const CategoryGroup group;
+    const Strings strings;
+    const bool backupSelectedByDefault;
+    std::vector<Category> categories;
+};
+
+struct CategoryTree {
+    std::vector<CategoryGroupInfo> groups;
+    std::vector<CategoryInfo> categories;
+};
+
+CategoryTree makeCategoryTree(const QString &homeDir);
 
 class CategoryModel : public QAbstractListModel
 {
@@ -93,18 +109,18 @@ class CategoryModel : public QAbstractListModel
 
 public:
     enum Role {
-        CategoryRole = Qt::UserRole + 1,
+        CategoryGroupRole = Qt::UserRole + 1,
         TitleRole,
         SuccessTitleRole,
         DescriptionRole,
         AvailableRole,
-        SelectedRole,
+        SelectionStateRole,
         SuccessfulRole,
         ConflictingPathsRole,
     };
     Q_ENUM(Role)
 
-    CategoryModel(const std::vector<CategoryInfo> &categoryInfo, Operation operation, QObject *parent = nullptr);
+    CategoryModel(const CategoryTree &categoryTree, Operation operation, QObject *parent = nullptr);
     ~CategoryModel() override = default;
 
     int rowCount(const QModelIndex &parent = QModelIndex()) const override;
@@ -115,14 +131,18 @@ public:
     bool hasSuccessfulCategories() const;
     QList<QUrl> conflictingPaths() const;
 
-    bool isSelected(Category category) const;
+    bool isCategorySelected(Category category) const;
 
-    void setAvailable(Category category, bool available);
-    Q_INVOKABLE void setSelected(Category category, bool selected);
+    void setCategoryAvailable(Category category, bool available);
+    Q_INVOKABLE void setCategorySelected(Category category, bool selected);
+    void setCategoryResult(Category category, Result result);
+    void setCategoryConflictingPaths(Category category, const QList<QUrl> &paths);
+
+    Q_INVOKABLE void setGroupSelected(CategoryGroup group, Qt::CheckState checkState);
+
     void selectDefaultCategories();
-    void setSuccessful(Category category, bool successful);
-    void setConflictingPaths(Category category, const QList<QUrl> &paths);
-    void resetSuccessful();
+    void resetCategoryResults();
+    void resetCategoryResults(std::initializer_list<Result> which);
 
 Q_SIGNALS:
     void hasSelectedCategoriesChanged();
@@ -131,20 +151,32 @@ Q_SIGNALS:
 
 private:
     struct Row {
-        Category category;
+        CategoryGroup group;
         QString title;
         QString successTitle;
         QString description;
         bool selectedByDefault = false;
+        std::vector<Category> categories;
+    };
+
+    struct CategoryState {
         bool available = false;
         bool selected = false;
-        bool successful = false;
+        Result result = Result::NotAttempted;
         QList<QUrl> conflictingPaths;
     };
 
-    int rowFor(Category category) const;
+    int rowIndexForGroup(CategoryGroup group) const;
+    bool groupAvailable(const Row &row) const;
+    bool groupSuccessful(const Row &row) const;
+    Qt::CheckState groupSelectionState(const Row &row) const;
+    QList<QUrl> groupConflictingPaths(const Row &row) const;
+    void emitGroupChanged(CategoryGroup group, const QList<int> &roles);
 
     std::vector<Row> m_rows;
+    QHash<Category, CategoryGroup> m_groupForCategory;
+    QHash<CategoryGroup, int> m_rowForGroup;
+    QHash<Category, CategoryState> m_categoryState;
 };
 
 } // namespace SafeModeBackup
