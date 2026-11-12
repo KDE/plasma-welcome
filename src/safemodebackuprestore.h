@@ -67,9 +67,12 @@ private:
     using Operation = SafeModeBackup::Operation;
 
     void updateBackupCategoryRoots();
+    bool isBackupDirAllowed(const QUrl &dir) const;
+
     QList<QUrl> conflictingPathsForCategory(const CategoryInfo &, const QUrl &categoryTargetDir) const;
     void updateConflicts();
     bool checkValidFilesForCategory(const CategoryInfo &, const QSet<QString> &relativeSourcePaths, const QUrl &sourceDir, const QUrl &targetDir);
+
     void connectJobUpdatesToUserLog(KJob *job, Operation operation, const QString &categoryTitle, const QString &backupCategoryRoot);
     bool startOperation(std::unique_ptr<KJob> job, Operation operation, const QList<Category> &scheduledCategories);
     void setOperating(bool operating);

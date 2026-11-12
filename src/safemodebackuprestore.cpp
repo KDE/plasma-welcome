@@ -48,6 +48,17 @@ QUrl subPathUrl(const QUrl &url, const QString &subdirname)
     return newUrl;
 }
 
+bool isSameOrInside(const QString &path, const QString &containingDir)
+{
+    if (path.isEmpty() || containingDir.isEmpty()) {
+        return false;
+    }
+    if (path == containingDir) {
+        return true;
+    }
+    return path.startsWith(containingDir.endsWith(u'/') ? containingDir : (containingDir + u"/"_s));
+}
+
 class SequentialCompositeJob : public KCompositeJob
 {
     Q_OBJECT
@@ -151,9 +162,25 @@ SafeModeBackupRestore::~SafeModeBackupRestore()
 {
 }
 
+bool SafeModeBackupRestore::isBackupDirAllowed(const QUrl &dir) const
+{
+    if (!dir.isLocalFile()) {
+        return false;
+    }
+
+    return std::ranges::none_of(m_categoryTree.categories, [backupDir = QDir::cleanPath(dir.toLocalFile())](const CategoryInfo &info) {
+        const QString sourceRoot = QDir::cleanPath(info.origDirRoot);
+        return isSameOrInside(backupDir, sourceRoot) || isSameOrInside(sourceRoot, backupDir);
+    });
+}
+
 void SafeModeBackupRestore::setBackupDir(const QUrl &dir)
 {
     if (m_isOperating || m_backupDir == dir) {
+        return;
+    }
+    if (!isBackupDirAllowed(dir)) {
+        qCWarning(WELCOME_LOG) << "Not setting backup directory - must be located where it can't overlap customization folders:" << dir;
         return;
     }
     resetSuccessfulBackupCategories();
