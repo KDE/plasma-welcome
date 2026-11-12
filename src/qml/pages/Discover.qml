@@ -98,7 +98,7 @@ Welcome.Page {
                         Qt.openUrlExternally(url)
                     }
 
-                    QQC2.ToolTip.visible: hovered
+                    QQC2.ToolTip.visible: hovered || visualFocus
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                     QQC2.ToolTip.text: i18nc("@action:button %1 is the name of an app", "Show %1 in Discover", model.name)
                 }

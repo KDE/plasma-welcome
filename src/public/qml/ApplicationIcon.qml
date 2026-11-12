@@ -46,7 +46,7 @@ QQC2.ToolButton {
 
     }
 
-    QQC2.ToolTip.visible: hovered
+    QQC2.ToolTip.visible: hovered || visualFocus
     QQC2.ToolTip.text: root.tooltip
     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
 }

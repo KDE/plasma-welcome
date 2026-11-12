@@ -212,7 +212,7 @@ GenericPage {
 
         onClicked: showPassiveNotification(i18n("You have no chance to survive make your time"));
 
-        QQC2.ToolTip.visible: hovered
+        QQC2.ToolTip.visible: hovered || visualFocus
         QQC2.ToolTip.text: i18nc("@action:button", "Detonate the bomb")
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
 
