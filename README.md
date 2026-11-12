@@ -21,7 +21,7 @@ There are several mutually exclusive usage modes:
 | ![Welcome to KDE Plasma!](https://cdn.kde.org/screenshots/plasma-welcome/plasma-welcome-page-1.png) | ![Managing Software](https://cdn.kde.org/screenshots/plasma-welcome/plasma-welcome-page-2.png) | ![Getting Involved](https://cdn.kde.org/screenshots/plasma-welcome/plasma-welcome-page-6.png) |
 
 # For live distributions
-When Welcome Center is ran in a live environment, it can show a reduced wizard with a page welcoming the user to the disibution and without any settings pages.
+When Welcome Center is run in a live environment, it can show a reduced wizard with a page welcoming the user to the distribution, without any settings pages.
 
 To ensure that Welcome Center's launcher recognizes the live environment, you will need to create/change the config in your live user's `~/.config/plasma-welcomerc`:
 
@@ -47,7 +47,7 @@ Type=Application
 # Required; becomes the first paragraph on the Welcome page
 # Don't forget to offer translations of the text!
 Name=Welcome to NateOS! It's the best OS ever, until it explodes. Did you know that's a feature? It's right there on the box!
-Name[fr]=Bienvenue sur NateOS! C'est le meilleur système d'exploitation du monde, justqu'à qu'il esplose. Saviez-vous que c'est intentionnel? C'est écrit sur la boîte!
+Name[fr]=Bienvenue sur NateOS ! C'est le meilleur système d'exploitation du monde, jusqu'à ce qu'il explose. Saviez-vous que c'est intentionnel ? C'est écrit sur la boîte !
 
 # Optional; replaces the default image on the Welcome page
 # can be an icon name or an absolute path to an image on disk beginning with file:/
@@ -74,9 +74,9 @@ To make custom pages visible to the app, place them in `/usr/share/plasma/plasma
 
 These two pages will be added into the wizard, with WelcomeToDistro shown first, and then InstallMediaCodecs.
 
-Custom pages are QML files with a root item that inherit from `Kirigami.Page`. Any content within the page is supported, though to maintain visual consistency with existing pages, it is recommended to use `GenericPage`, `ScrollablePage` or `KCMPage` as the root item and set the `heading` and `description` properties, with any custom content going beneath them. You can reference [existing pages](src/qml/pages) when creating your own.
+Custom pages are QML files with a root item that inherits from `Kirigami.Page`. Any content within the page is supported, though to maintain visual consistency with existing pages, it is recommended to use `GenericPage`, `ScrollablePage` or `KCMPage` as the root item and set the `heading` and `description` properties, with any custom content going beneath them. You can reference [existing pages](src/qml/pages) when creating your own.
 
-Because pages are written in QML without support for C++ support code, only functions that can be performed entirely with QML are available. If you have a specific use case that can't be supported with these tools, please [file a bug report](https://bugs.kde.org/enter_bug.cgi?product=plasma-welcome) detailing it.
+Because pages are written in QML without C++ support code, only functions that can be performed entirely with QML are available. If you have a specific use case that can't be supported with these tools, please [file a bug report](https://bugs.kde.org/enter_bug.cgi?product=plasma-welcome) detailing it.
 
 Here are some examples of the behavior that can be implemented in custom pages:
 
@@ -103,7 +103,7 @@ ApplicationIcon {
 ```
 
 ## Run a terminal command
-`Controller.runCommand()` allows you to run a terminal command. If you need to check the exit status of the command or get text output from it, then use the version that takes callback function, and implement it as needed for handling the success and failure cases.
+`Controller.runCommand()` allows you to run a terminal command. If you need to check the exit status of the command or get text output from it, then use the version that takes a callback function, and implement it as needed for handling the success and failure cases.
 
 ### Ignore the exit status
 ```
@@ -150,7 +150,7 @@ KCMPage {
 ```
 
 ## Show a layer
-To show a layer in your page, create a component for the layer's page and push push it with `pageStack.layers.push(layerComponentId)`. You should consider whether a `Kirigami.OverlaySheet` might be more appropriate.
+To show a layer in your page, create a component for the layer's page and push it with `pageStack.layers.push(layerComponentId)`. You should consider whether a `Kirigami.OverlaySheet` might be more appropriate.
 
 ```
 GenericPage {
