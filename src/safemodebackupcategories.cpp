@@ -212,6 +212,9 @@ CategoryTree makeCategoryTree(const QString &homeDir)
                                      const QString &backupSubDirName,
                                      std::unique_ptr<CategoryInfo::FileAndDirPaths> files,
                                      QString logTitle) {
+        if (origDirRoot.isEmpty()) {
+            return;
+        }
         const auto category = static_cast<Category>(tree.categories.size());
         tree.categories.emplace_back(category, group, origDirRoot, backupSubDirName, std::move(files), std::move(logTitle));
         tree.groups[group].categories.push_back(category);
@@ -282,6 +285,16 @@ CategoryTree makeCategoryTree(const QString &homeDir)
             .restoreSuccessTitle = i18nc("@title:row checkbox label after this category was successfully restored", "Desktop & application data was restored"),
         });
     addCategory(dataGroup, origDataDir, u"data"_s, nullptr, i18nc("@info backup/restore category name used in status logs", "Desktop & application data"));
+
+    // Only include non-empty groups. std::erase_if() can't copy structs with const members, so create a new list.
+    std::vector<CategoryGroupInfo> nonEmptyGroups;
+    nonEmptyGroups.reserve(tree.groups.size());
+    for (CategoryGroupInfo &group : tree.groups) {
+        if (!group.categories.empty()) {
+            nonEmptyGroups.push_back(std::move(group));
+        }
+    }
+    tree.groups = std::move(nonEmptyGroups);
 
     return tree;
 }
