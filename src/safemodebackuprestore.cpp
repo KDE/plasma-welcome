@@ -447,8 +447,7 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
     }
 
     userLog(MessageType::CosmeticSpacing, ""_L1);
-    startOperation(std::move(compositeJob), Operation::Backup, scheduledCategories);
-    return true;
+    return startOperation(std::move(compositeJob), Operation::Backup, scheduledCategories);
 }
 
 bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
@@ -537,8 +536,7 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
     }
 
     userLog(MessageType::CosmeticSpacing, ""_L1);
-    startOperation(std::move(compositeJob), Operation::Restore, scheduledCategories);
-    return true;
+    return startOperation(std::move(compositeJob), Operation::Restore, scheduledCategories);
 }
 
 void SafeModeBackupRestore::connectJobUpdatesToUserLog(KJob *job, Operation operation, const QString &categoryTitle, const QString &categoryBackupRoot)
@@ -581,9 +579,14 @@ void SafeModeBackupRestore::connectJobUpdatesToUserLog(KJob *job, Operation oper
     });
 }
 
-void SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation operation, const QList<Category> &scheduledCategories)
+bool SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation operation, const QList<Category> &scheduledCategories)
 {
     Q_ASSERT(operation == Operation::Backup || operation == Operation::Restore);
+
+    if (scheduledCategories.isEmpty()) {
+        userLog(MessageType::Error, i18nc("@info:status backup/restore log", "No customization categories were selected; nothing to do."));
+        return false;
+    }
 
     const bool isBackup = operation == Operation::Backup;
     CategoryModel *model = isBackup ? m_backupCategories : m_restoreCategories;
@@ -611,6 +614,7 @@ void SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation 
     suspendDirWatches();
     job->start();
     job.release(); // asynchronous, self-deleting KIO jobs
+    return true;
 }
 
 void SafeModeBackupRestore::userLog(MessageType msgType, const QString &msg)
