@@ -59,7 +59,8 @@ Kirigami.ScrollablePage {
                     }
                     trailingItems: QQC2.Button {
                         icon.name: "document-open-folder-symbolic"
-                        enabled: !root.backupRestore.restoreCategories.hasSuccessfulCategories
+                        enabled: !root.backupRestore.isOperating
+                                 && !root.backupRestore.restoreCategories.hasSuccessfulCategories
                         text: i18nc("@action:button change backup folder for user customizations", "&Change…")
                         onClicked: backupDirDialog.open()
                     }
@@ -87,7 +88,7 @@ Kirigami.ScrollablePage {
 
                         contentItem: QQC2.CheckBox {
                             text: delegate.wasSuccessful ? delegate.successTitle : delegate.title
-                            enabled: delegate.isAvailable && !delegate.wasSuccessful
+                            enabled: delegate.isAvailable && !delegate.wasSuccessful && !root.backupRestore.isOperating
                             tristate: true
                             checkState: delegate.wasSuccessful ? Qt.Checked : delegate.selectionState
                             nextCheckState: () => checkState == Qt.Checked ? Qt.Unchecked : Qt.Checked
@@ -103,6 +104,7 @@ Kirigami.ScrollablePage {
         QQC2.Button {
             Layout.alignment: Qt.AlignHCenter
             enabled: root.hasBackupDir
+                     && !root.backupRestore.isOperating
                      && root.backupRestore.restoreCategories.hasSelectedCategories
                      && root.backupRestore.restoreCategories.conflictingPaths.length === 0
             icon.name: "edit-reset"
@@ -135,6 +137,7 @@ Kirigami.ScrollablePage {
             actions: Kirigami.Action {
                 text: xi18nc("@action:button", "Check &Again")
                 icon.name: "view-refresh-symbolic"
+                enabled: !root.backupRestore.isOperating
                 onTriggered: root.backupRestore.updateAvailableCategories()
             }
         }

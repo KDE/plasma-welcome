@@ -31,6 +31,7 @@ private:
     Q_PROPERTY(SafeModeBackup::CategoryModel *backupCategories READ backupCategories CONSTANT FINAL)
     Q_PROPERTY(SafeModeBackup::CategoryModel *restoreCategories READ restoreCategories CONSTANT FINAL)
     Q_PROPERTY(bool hasUserLogError READ hasUserLogError NOTIFY userLogErrorChanged FINAL)
+    Q_PROPERTY(bool isOperating READ isOperating NOTIFY isOperatingChanged FINAL)
 
 public:
     SafeModeBackupRestore(const QString &homeDir, QObject *parent = nullptr);
@@ -48,6 +49,7 @@ public:
     Q_INVOKABLE void resetSuccessfulRestoreCategories();
 
     bool hasUserLogError() const;
+    bool isOperating() const;
 
     Q_SCRIPTABLE bool moveCustomizationsToBackupDir(KJob *previousJob = nullptr);
     Q_SCRIPTABLE void openBackupDirWithHighlightedUserLog();
@@ -57,6 +59,7 @@ public:
 Q_SIGNALS:
     void backupDirChanged();
     void userLogErrorChanged();
+    void isOperatingChanged();
 
 private:
     using Category = SafeModeBackup::Category;
@@ -69,6 +72,7 @@ private:
     bool checkValidFilesForCategory(const CategoryInfo &, const QSet<QString> &relativeSourcePaths, const QUrl &sourceDir, const QUrl &targetDir);
     void connectJobUpdatesToUserLog(KJob *job, Operation operation, const QString &categoryTitle, const QString &backupCategoryRoot);
     bool startOperation(std::unique_ptr<KJob> job, Operation operation, const QList<Category> &scheduledCategories);
+    void setOperating(bool operating);
 
     enum class MessageType {
         Intention,
@@ -96,4 +100,5 @@ private:
     QHash<Category, QSet<QString>> m_availableRestoreSourcePaths;
     QFile m_userLogFile;
     bool m_hasUserLogError = false;
+    bool m_isOperating = false;
 };

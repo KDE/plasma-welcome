@@ -20,6 +20,7 @@
 #include <QDir>
 #include <QDirListing>
 #include <QFileInfo>
+#include <QScopeGuard>
 #include <QTextStream>
 #include <QtAssert>
 
@@ -152,7 +153,7 @@ SafeModeBackupRestore::~SafeModeBackupRestore()
 
 void SafeModeBackupRestore::setBackupDir(const QUrl &dir)
 {
-    if (m_backupDir == dir) {
+    if (m_isOperating || m_backupDir == dir) {
         return;
     }
     resetSuccessfulBackupCategories();
@@ -189,12 +190,18 @@ CategoryModel *SafeModeBackupRestore::restoreCategories() const
 
 void SafeModeBackupRestore::resetSuccessfulBackupCategories()
 {
+    if (m_isOperating) {
+        return;
+    }
     resetUserLog();
     m_backupCategories->resetCategoryResults();
 }
 
 void SafeModeBackupRestore::resetSuccessfulRestoreCategories()
 {
+    if (m_isOperating) {
+        return;
+    }
     resetUserLog();
     m_restoreCategories->resetCategoryResults();
 }
@@ -376,9 +383,17 @@ bool SafeModeBackupRestore::checkValidFilesForCategory(const CategoryInfo &categ
 
 bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
 {
+    if (m_isOperating && !previousJob) {
+        return false;
+    }
+    auto operatingGuard = qScopeGuard([this] {
+        setOperating(false);
+    });
+
     if (previousJob && previousJob->error()) {
         return false;
     }
+    setOperating(true);
 
     if (!m_backupDir.isLocalFile()) {
         qCWarning(WELCOME_LOG) << "Didn't move customization dirs - invalid backup directory:" << m_backupDir;
@@ -390,6 +405,7 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
         auto createBackupDirJob = KIO::mkpath(m_backupDir);
         QObject::connect(createBackupDirJob, &KJob::result, this, &SafeModeBackupRestore::moveCustomizationsToBackupDir);
         createBackupDirJob->start();
+        operatingGuard.dismiss();
         return true;
     } else if (!backupDirInfo.isDir()) {
         qCWarning(WELCOME_LOG) << "Didn't move customization dirs - backup directory exists but is not a directory:" << m_backupDir;
@@ -447,11 +463,16 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
     }
 
     userLog(MessageType::CosmeticSpacing, ""_L1);
+    operatingGuard.dismiss();
     return startOperation(std::move(compositeJob), Operation::Backup, scheduledCategories);
 }
 
 bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
 {
+    if (m_isOperating) {
+        return false;
+    }
+
     if (!m_backupDir.isLocalFile()) {
         qCWarning(WELCOME_LOG) << "Didn't restore customization dirs - invalid backup directory:" << m_backupDir;
         return false;
@@ -462,6 +483,12 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
         qCWarning(WELCOME_LOG) << "Didn't restore customization dirs - backup directory is not a directory:" << m_backupDir;
         return false;
     }
+
+    auto operatingGuard = qScopeGuard([this] {
+        setOperating(false);
+    });
+    setOperating(true);
+
     updateAvailableCategories();
 
     resetUserLog(backupDir.filePath(QDateTime::currentDateTime().toString(u"yyyy-MM-dd hhmm.ss 'Customizations Restore Log.txt'")));
@@ -536,6 +563,7 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
     }
 
     userLog(MessageType::CosmeticSpacing, ""_L1);
+    operatingGuard.dismiss();
     return startOperation(std::move(compositeJob), Operation::Restore, scheduledCategories);
 }
 
@@ -585,6 +613,7 @@ bool SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation 
 
     if (scheduledCategories.isEmpty()) {
         userLog(MessageType::Error, i18nc("@info:status backup/restore log", "No customization categories were selected; nothing to do."));
+        setOperating(false);
         return false;
     }
 
@@ -609,6 +638,7 @@ bool SafeModeBackupRestore::startOperation(std::unique_ptr<KJob> job, Operation 
                              : i18nc("@info:status restore log", "Customizations were successfully restored."));
         }
         activateDirWatches();
+        setOperating(false);
     });
 
     suspendDirWatches();
@@ -669,6 +699,20 @@ void SafeModeBackupRestore::resetUserLog(const QString &filepath)
 bool SafeModeBackupRestore::hasUserLogError() const
 {
     return m_hasUserLogError;
+}
+
+bool SafeModeBackupRestore::isOperating() const
+{
+    return m_isOperating;
+}
+
+void SafeModeBackupRestore::setOperating(bool operating)
+{
+    if (m_isOperating == operating) {
+        return;
+    }
+    m_isOperating = operating;
+    Q_EMIT isOperatingChanged();
 }
 
 void SafeModeBackupRestore::openUserLog()
