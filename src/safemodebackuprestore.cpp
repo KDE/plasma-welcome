@@ -268,6 +268,25 @@ static std::unique_ptr<KJob> makeCategoryMoveJob(const CategoryInfo &categoryInf
     return compositeJob;
 }
 
+static void addParentDirs(const QString &sourceRoot, const QString &relativePath, QSet<QString> &dirs)
+{
+    if (sourceRoot.isEmpty()) {
+        return;
+    }
+    dirs.insert(sourceRoot);
+
+    QString relativeDir = QFileInfo(relativePath).path();
+    while (!relativeDir.isEmpty() && relativeDir != u"."_s) {
+        const QString absoluteDir = subPath(sourceRoot, relativeDir);
+        if (dirs.contains(absoluteDir)) {
+            // This directory and all of its ancestors are already queued.
+            break;
+        }
+        dirs.insert(absoluteDir);
+        relativeDir = QFileInfo(relativeDir).path();
+    }
+}
+
 bool SafeModeBackupRestore::checkValidFilesForCategory(const CategoryInfo &categoryInfo,
                                                        const QSet<QString> &relativeSourcePaths,
                                                        const QUrl &sourceDir,
@@ -357,6 +376,9 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
     auto compositeJob = std::make_unique<SequentialCompositeJob>();
     compositeJob->setAbortOnError(false);
 
+    // Only for the restore operation: Remove empty backup subdirs after moving files back to original dir(s)
+    QSet<QString> sourceDirsToPrune;
+
     for (const auto &info : m_categoryInfo) {
         const auto relativeSourcePaths = m_availableRestoreSourcePaths.value(info.category);
         if (relativeSourcePaths.isEmpty()) {
@@ -369,6 +391,13 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
         if (!checkValidFilesForCategory(info, relativeSourcePaths, sourceDir, targetDir)) {
             return false;
         }
+
+        if (!info.isEntireDir()) {
+            for (const QString &relativePath : relativeSourcePaths) {
+                addParentDirs(info.backupCategoryRoot, relativePath, sourceDirsToPrune);
+            }
+        }
+
         std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(info, sourceDir, targetDir, QUrl(), relativeSourcePaths);
 
         QObject::connect(categoryJob.get(), &KJob::result, this, [this, category = info.category](KJob *categoryJob) {
@@ -381,6 +410,18 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
             }
         });
         compositeJob->addSubjob(categoryJob.release());
+    }
+
+    if (!sourceDirsToPrune.isEmpty()) {
+        QList<QString> dirsToPrune = sourceDirsToPrune.values();
+        // Children sort after their parents, so remove in reverse order.
+        std::ranges::sort(dirsToPrune);
+
+        QObject::connect(compositeJob.get(), &KJob::result, this, [dirsToPrune] {
+            for (auto it = dirsToPrune.crbegin(); it != dirsToPrune.crend(); ++it) {
+                QDir().rmdir(*it);
+            }
+        });
     }
 
     startOperation(std::move(compositeJob));
