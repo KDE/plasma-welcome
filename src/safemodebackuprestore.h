@@ -68,7 +68,7 @@ private:
     void updateConflicts();
     bool checkValidFilesForCategory(const CategoryInfo &, const QSet<QString> &relativeSourcePaths, const QUrl &sourceDir, const QUrl &targetDir);
     void connectJobUpdatesToUserLog(KJob *job, Operation operation, const QString &categoryTitle, const QString &backupCategoryRoot);
-    void startOperation(std::unique_ptr<KJob> job, Operation operation, const QList<Category> &scheduledCategories);
+    bool startOperation(std::unique_ptr<KJob> job, Operation operation, const QList<Category> &scheduledCategories);
 
     enum class MessageType {
         Intention,
