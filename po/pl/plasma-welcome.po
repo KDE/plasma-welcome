@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-08 03:00+0000\n"
-"PO-Revision-Date: 2026-10-04 14:43+0200\n"
+"PO-Revision-Date: 2026-11-11 18:17+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -77,12 +77,9 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Wyświetl uwagi do wydania dla bieżącego wydania Plazmy."
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr ""
-"Wyświetl uwagi do wydania dla bieżącego wydania Plazmy w wersjach beta."
+msgstr "Wyświetl przewodnik dla posiedzenia Plazmy w trybie bezpiecznym."
 
 #: src/main.cpp:78
 #, kde-format
@@ -328,7 +325,7 @@ msgstr "Pokaż %1 w Discover"
 #, kde-format
 msgctxt "@title:window"
 msgid "Enjoy It!"
-msgstr "Miłej zabawy!"
+msgstr "Dobrej zabawy!"
 
 #: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
@@ -468,7 +465,7 @@ msgstr "Odwiedź stronę domową"
 #, kde-format
 msgctxt "@info:tooltip %1 is the name of the user's distro"
 msgid "Install %1 now"
-msgstr ""
+msgstr "Wgraj %1 teraz"
 
 #: src/qml/pages/Network.qml:21
 #, kde-format
@@ -1136,15 +1133,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "To posiedzenie jest w trybie bezpiecznym"
 
 #: src/qml/pages/SafeMode.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Plasma 6 Supporters"
+#, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr "Osoby wspierające Plazmę 6"
+msgstr "Pomoc i wsparcie"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1153,6 +1148,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Dowiedz się więcej lub poproś innych o "
+"pomoc z oprogramowaniem KDE."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1175,18 +1172,24 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"Twoje zwykłe ustawienia Plazmy KDE i aplikacji zostały bezpiecznie zapisane "
+"na później, lecz nie są obecnie używane. Zostaną użyte ponownie, gdy wrócisz "
+"do swojego zwykłego posiedzenia Plazmy.<nl/><nl/>Oto kilka działań, które "
+"możesz podjąć, aby spróbować naprawić swoje zwykłe posiedzenie Plazmy:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Wyczyść pliki pamięci podręcznej"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
 msgstr ""
+"Jest to bezpieczne do wypróbowania; pliki pamięci podręcznej są samoczynnie "
+"odtwarzane"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1195,18 +1198,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Stracisz ręczne wprowadzone zmiany w Plazmie KDE oraz aplikacjach w trybie "
+"bezpiecznym, gdy powrócisz do zwykłego posiedzenia Plazmy."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "Wyłącz &tryb bezpieczny…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Wyczyść pliki pamięci podręcznej"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1218,12 +1223,18 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"Plazma KDE, usługi systemowe oraz aplikacje tworzą pliki pamięci podręcznej "
+"dla lepszej wydajności. Czasami jednak pliki te przedawniają się i mogą "
+"powodować kłopoty.<nl/><nl/>Często przyczyna leży w innym miejscu, lecz "
+"wyczyszczenie tych pamięci podręcznych nie zaszkodzi, bo zostaną samoczynnie "
+"odtworzone, gdy zajdzie taka potrzeba.<nl/><nl/>Ustawienia, które "
+"dostosowałeś, pozostaną bez zmian."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "Wy&czyść pliki pamięci podręcznej"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1232,18 +1243,22 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"Nie znaleziono katalogu pamięci podręcznej w <filename>%1</filename>. Wobec "
+"tego nie trzeba usuwać plików pamięci podręcznej."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
 msgstr ""
+"Środowisko posiedzenia nie wskazuje katalogu pamięci podręcznej do "
+"wyczyszczenia."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
-msgstr ""
+msgstr "Wyczyszczono pliki pamięci podręcznej:<nl/><filename>%1</filename>."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1252,20 +1267,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"Nie udało się wyczyścić pamięci podręcznej w <filename>%1</filename>:<nl/"
+"><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "&Otwórz katalog pamięci podręcznej"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Ponów"
+msgstr "Utwó&rz nową"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1344,13 +1359,7 @@ msgstr ""
 "aplikacji, wystarczy, że je przeciągniesz."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the ⌃ "
-#| "arrow next to the clock."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -1361,7 +1370,7 @@ msgstr ""
 "To jest \"tacka systemowa\", z której można sterować różnymi rzeczami jak "
 "np. głośność, czy łączność z siecią. Rzeczy na niej będą pojawiać się wtedy, "
 "gdy zajdzie potrzeba. Aby jednak zobaczyć wszystkie dostępne rzeczy, "
-"naciśnij na strzałce ⌃ obok zegara."
+"naciśnij na strzałce ^ obok zegara."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
