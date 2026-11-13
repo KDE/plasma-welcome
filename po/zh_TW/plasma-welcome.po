@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-08 03:00+0000\n"
-"PO-Revision-Date: 2026-11-03 19:57+0900\n"
+"POT-Creation-Date: 2026-11-13 01:01+0000\n"
+"PO-Revision-Date: 2026-11-12 19:06+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -75,11 +75,9 @@ msgid "Display release notes for the current Plasma release."
 msgstr "顯示目前使用的 Plasma 版本的發行註記。"
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr "為 beta 版本顯示目前使用的 Plasma 版本的發行註記。"
+msgstr "為 Plasma 安全模式工作階段顯示說明。"
 
 #: src/main.cpp:78
 #, kde-format
@@ -714,7 +712,7 @@ msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "安全地儲存敏感檔案"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:124
+#: src/qml/pages/PowerfulWhenNeeded.qml:126
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
@@ -1103,15 +1101,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "這是安全模式工作階段"
 
 #: src/qml/pages/SafeMode.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Plasma 6 Supporters"
+#, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr "Plasma 6 贊助者"
+msgstr "協助與支援"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1120,6 +1116,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>取得更多 KDE 軟體的資訊，或是向其他人取得幫"
+"助。"
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1142,18 +1140,21 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"您平常的 KDE Plasma 與應用程式設定已安全保存，但目前未在使用中。回到平常的 "
+"Plasma 工作階段時便會恢復使用您平常的設定值。<nl/><nl/>要修復您平常的 Plasma "
+"工作階段，這些動作可能會有幫助："
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "清除快取檔案"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
-msgstr ""
+msgstr "可以安全嘗試；快取檔案需要時便會重新產生"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1162,18 +1163,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"在安全模式對 KDE Plasma 與應用程式做的設定變更不會保留，回到平常的 Plasma 工"
+"作階段時便會喪失。"
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "離開安全模式(&X)…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "清除快取檔案"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1185,12 +1188,15 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"KDE Plasma、系統服務與應用程式皆會產生快取檔案以幫助改善效能。有的時候這些快"
+"取資料會過時而導致問題發生。<nl/><nl/>通常真正的問題在其他地方，但清除快取也"
+"不會有傷害，因為快取資料需要時便會重新產生。<nl/><nl/>您的設定值不會被影響。"
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "清除快取檔案(&C)"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1198,19 +1204,19 @@ msgctxt "@info"
 msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
-msgstr ""
+msgstr "在 <filename>%1</filename> 找不到快取目錄，因此不需要清除快取。"
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr ""
+msgstr "工作階段環境並沒有指定要清除的快取目錄。"
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
-msgstr ""
+msgstr "快取檔案已清除：<nl/><filename>%1</filename> 已被刪除。"
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1219,20 +1225,19 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"清除位於 <filename>%1</filename> 的快取失敗：<nl/><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "開啟快取資料夾(&O)"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "重試"
+msgstr "重試(&R)"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format

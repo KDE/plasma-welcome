@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-08 03:00+0000\n"
-"PO-Revision-Date: 2026-10-27 18:37+0100\n"
+"POT-Creation-Date: 2026-11-13 01:01+0000\n"
+"PO-Revision-Date: 2026-11-12 21:47+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.11.70\n"
+"X-Generator: Lokalize 26.08.3\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -732,7 +732,7 @@ msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Lagra sensitive filer på ein trygg måte"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:124
+#: src/qml/pages/PowerfulWhenNeeded.qml:126
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
@@ -1139,7 +1139,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr ""
+msgstr "Hjelp og støtte"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1148,6 +1148,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Finn meir informasjon eller spør andre om "
+"hjelp med KDE-program."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1175,13 +1177,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Tøm mellomlagerfilene"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
-msgstr ""
+msgstr "Trygt å prøva. Mellomlagerfilene vert genererte på nytt automatisk."
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1195,13 +1197,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "&Avslutt sikkermodus …"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Tøm mellomlagerfiler"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format

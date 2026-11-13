@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-08 03:00+0000\n"
-"PO-Revision-Date: 2026-11-06 16:13+0400\n"
+"POT-Creation-Date: 2026-11-13 01:01+0000\n"
+"PO-Revision-Date: 2026-11-12 09:07+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -77,11 +77,9 @@ msgid "Display release notes for the current Plasma release."
 msgstr "اعرض ملاحظات الإصدارة لإصدارة بلازما الحالية."
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr "اعرض ملاحظات الإصدارة لإصدارة بلازما الحالية، لإصدرات البيتا."
+msgstr "اعرض الإرشادات لجلسة وضع الأمان في بلازما."
 
 #: src/main.cpp:78
 #, kde-format
@@ -719,7 +717,7 @@ msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "احفظ الملفات الحساسة بأمان"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:124
+#: src/qml/pages/PowerfulWhenNeeded.qml:126
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
@@ -1114,7 +1112,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "هذه جلسة وضع الأمان"
 
 #: src/qml/pages/SafeMode.qml:27
 #, kde-format
@@ -1129,6 +1127,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>اعثر على مزيد من المعلومات أو اطلب "
+"المساعدة من الآخرين بشأن برمجيات كيدي."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1151,6 +1151,10 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"حُفظت إعدادات كيدي بلازما والتطبيقات المعتادة لديك بأمان لاستخدامها لاحقًا، "
+"لكنها لا تُستخدم الآن. ستُستخدم مجددًا عند عودتك إلى جلسة بلازما العادية.<nl/"
+"><nl/>إليك بعض الإجراءات التي يمكنك اتخاذها لمحاولة إصلاح جلسة بلازما "
+"العادية:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
@@ -1162,7 +1166,7 @@ msgstr "امحُ خبيئة الملفات"
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
-msgstr ""
+msgstr "آمن للتجربة؛ تُعاد توليد ملفات الخبيئة آليًا"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1171,12 +1175,14 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"ستفقد التغييرات اليدوية التي أجريتها على كيدي بلازما والتطبيقات أثناء وضع "
+"الأمان عند عودتك إلى جلسة بلازما العادية."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "ا&خرج من وضع الأمان…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
@@ -1194,12 +1200,16 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"تنشئ كيدي بلازما وخدمات النظام والتطبيقات ملفات خبيئة للمساعدة في الأداء. "
+"تصبح هذه الملفات قديمة أحيانًا، وقد تسبب مشكلات.<nl/><nl/>غالبًا ما تكمن "
+"المشكلة في مكان آخر، لكن مسح الخبيئة لا يضر بالمحاولة، إذ تُعاد توليدها آليًا "
+"عند الحاجة.<nl/><nl/>ستبقى تخصيصاتك دون مساس."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "ا&مسح ملفات الخبيئة"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1208,18 +1218,20 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"لم يُعثر على مجلد خبيئة في <filename>%1</filename>. لا حاجة لمسح ملفات "
+"الخبيئة."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr ""
+msgstr "لا تحدد بيئة الجلسة مجلد خبيئة لمسحه."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
-msgstr ""
+msgstr "مُسحت ملفات الخبيئة:<nl/><filename>%1</filename> حُذف."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1227,13 +1239,13 @@ msgctxt "@info"
 msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
-msgstr ""
+msgstr "تعذر مسح الخبيئة في <filename>%1</filename>:<nl/><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "ا&فتح مجلد الخبيئة"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
 #, kde-format
