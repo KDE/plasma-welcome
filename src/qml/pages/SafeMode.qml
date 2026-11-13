@@ -78,7 +78,22 @@ Kirigami.ScrollablePage {
                         leadingIcon: "edit-clear-all",
                         title: i18nc("@title:row", "Clear Cache Files"),
                         subtitle: i18nc("@info subtitle for Open Config Folder", "Safe to try; cache files are automatically regenerated"),
-                        page: "ClearCache.qml"
+                        page: "ClearCache.qml",
+                        worksOutsideOfSafeMode: true
+                    },
+                    {
+                        leadingIcon: "edit-reset",
+                        title: i18nc("@title:row", "Reset Customizations and Restore Defaults"),
+                        subtitle: i18nc("@info subtitle for Reset Customizations", "Your data will be safely backed up"),
+                        page: "ResetCustomizations.qml",
+                        worksOutsideOfSafeMode: false
+                    },
+                    {
+                        leadingIcon: "document-import",
+                        title: i18nc("@title:row", "Restore Customizations"),
+                        subtitle: i18nc("@info subtitle for Restore Customizations", "Select a backup location to restore previous customizations"),
+                        page: "RestoreCustomizations.qml",
+                        worksOutsideOfSafeMode: false
                     },
                 ]
                 delegate: FormCard.FormButtonDelegate {
@@ -88,6 +103,7 @@ Kirigami.ScrollablePage {
                     required property string title
                     required property string subtitle
                     required property string page
+                    required property bool worksOutsideOfSafeMode
 
                     // We can set icon.name, but we want it bigger
                     leading: Kirigami.Icon {
@@ -98,7 +114,11 @@ Kirigami.ScrollablePage {
                     }
 
                     text: delegate.title
-                    description: delegate.subtitle
+                    description: (worksOutsideOfSafeMode || Private.SafeMode.actuallyInSafeMode)
+                                 ? delegate.subtitle
+                                 : i18nc("@info subtitle for disabled pages when invoked with --safe-mode without actually being in a Safe Mode session",
+                                         "Only available in a real Safe Mode session")
+                    enabled: (worksOutsideOfSafeMode || Private.SafeMode.actuallyInSafeMode)
 
                     onClicked: pageStack.layers.push(app._createPage(delegate.page))
                 }
