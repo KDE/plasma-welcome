@@ -165,13 +165,30 @@ void SafeModeBackupRestore::resetSuccessfulRestoreCategories()
     m_restoreCategories->resetSuccessful();
 }
 
-QList<QUrl> SafeModeBackupRestore::conflictingPathsForCategory(const CategoryInfo &, const QUrl &categoryTargetDir) const
+QList<QUrl> SafeModeBackupRestore::conflictingPathsForCategory(const CategoryInfo &categoryInfo, const QUrl &categoryTargetDir) const
 {
     if (!categoryTargetDir.isValid()) {
         return {};
     }
 
-    return QFileInfo(categoryTargetDir.toLocalFile()).exists() ? QList<QUrl>{categoryTargetDir} : QList<QUrl>{};
+    const auto intersectionAsUrls = [](const QSet<QString> &relativePathsA, const QSet<QString> &relativePathsB, const QUrl &rootDirForUrl) -> QList<QUrl> {
+        QList<QUrl> result;
+        for (const QString &relativePathB : relativePathsB) {
+            if (relativePathsA.contains(relativePathB)) {
+                result.append(subPathUrl(rootDirForUrl, relativePathB));
+            }
+        }
+        std::ranges::sort(result);
+        return result;
+    };
+
+    if (categoryInfo.isEntireDir()) {
+        return QFileInfo(categoryTargetDir.toLocalFile()).exists() ? QList<QUrl>{categoryTargetDir} : QList<QUrl>{};
+    } else {
+        return intersectionAsUrls(m_availableRestoreSourcePaths.value(categoryInfo.category),
+                                  m_availableBackupSourcePaths.value(categoryInfo.category),
+                                  categoryTargetDir);
+    }
 }
 
 void SafeModeBackupRestore::updateConflicts()
@@ -212,10 +229,42 @@ static void addMoveSubJob(SequentialCompositeJob *compositeJob, const QUrl &sour
     compositeJob->addSubjob(moveJob.release());
 }
 
-static std::unique_ptr<KJob> makeCategoryMoveJob(const QUrl &categorySourceRoot, const QUrl &categoryTargetRoot)
+static void addMkpathSubJob(SequentialCompositeJob *compositeJob, const QUrl &dir, const QUrl &baseUrl = QUrl())
+{
+    std::unique_ptr<KJob> mkpathJob(KIO::mkpath(dir, baseUrl));
+
+    QObject::connect(mkpathJob.get(), &KJob::result, compositeJob, [compositeJob](KJob *mkpathJob) {
+        if (mkpathJob->error()) {
+            compositeJob->setSubJobError(mkpathJob);
+        }
+    });
+
+    compositeJob->addSubjob(mkpathJob.release());
+}
+
+static std::unique_ptr<KJob> makeCategoryMoveJob(const CategoryInfo &categoryInfo,
+                                                 const QUrl &categorySourceRoot,
+                                                 const QUrl &categoryTargetRoot,
+                                                 const QUrl &baseUrl,
+                                                 const QSet<QString> &relativeSourcePaths)
 {
     auto compositeJob = std::make_unique<SequentialCompositeJob>();
-    addMoveSubJob(compositeJob.get(), categorySourceRoot, categoryTargetRoot);
+
+    if (categoryInfo.isEntireDir()) {
+        addMoveSubJob(compositeJob.get(), categorySourceRoot, categoryTargetRoot);
+    } else {
+        QSet<QString> createdDirs;
+
+        for (const QString &relativePath : relativeSourcePaths) {
+            const QUrl target = subPathUrl(categoryTargetRoot, relativePath);
+
+            if (const QString targetParentDir = QFileInfo(target.toLocalFile()).path(); !createdDirs.contains(targetParentDir)) {
+                addMkpathSubJob(compositeJob.get(), QUrl::fromLocalFile(targetParentDir), baseUrl);
+                createdDirs.insert(targetParentDir);
+            }
+            addMoveSubJob(compositeJob.get(), subPathUrl(categorySourceRoot, relativePath), target);
+        }
+    }
     return compositeJob;
 }
 
@@ -273,7 +322,7 @@ bool SafeModeBackupRestore::moveCustomizationsToBackupDir(KJob *previousJob)
         if (!checkValidFilesForCategory(info, relativeSourcePaths, sourceDir, targetDir)) {
             return false;
         }
-        std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(sourceDir, targetDir);
+        std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(info, sourceDir, targetDir, m_backupDir, relativeSourcePaths);
 
         QObject::connect(categoryJob.get(), &KJob::result, this, [this, category = info.category](KJob *categoryJob) {
             if (!categoryJob->error()) {
@@ -320,7 +369,7 @@ bool SafeModeBackupRestore::restoreCustomizationsFromBackupDir()
         if (!checkValidFilesForCategory(info, relativeSourcePaths, sourceDir, targetDir)) {
             return false;
         }
-        std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(sourceDir, targetDir);
+        std::unique_ptr<KJob> categoryJob = makeCategoryMoveJob(info, sourceDir, targetDir, QUrl(), relativeSourcePaths);
 
         QObject::connect(categoryJob.get(), &KJob::result, this, [this, category = info.category](KJob *categoryJob) {
             if (!categoryJob->error()) {

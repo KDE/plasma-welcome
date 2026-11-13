@@ -13,6 +13,7 @@
 #include <QUrl>
 #include <qqmlintegration.h>
 
+#include <memory>
 #include <vector>
 
 namespace SafeModeBackup
@@ -21,10 +22,38 @@ namespace SafeModeBackup
 using Category = int;
 
 struct CategoryInfo {
+    struct FileAndDirPaths {
+        virtual ~FileAndDirPaths() = default;
+        virtual bool containsRelativePath(const QString &testedPath) const = 0;
+        virtual bool containsPartsOfRelativeDir(const QString &testedDir) const = 0;
+        virtual QSet<QString> knownRelativePaths() const = 0;
+    };
+
     const Category category;
     const QString origDirRoot;
     const QString backupSubDirName;
+    std::unique_ptr<FileAndDirPaths> files;
     QString backupCategoryRoot; // gets updated as backup dir changes
+
+    bool isEntireDir() const
+    {
+        return !files;
+    }
+
+    bool containsRelativePath(const QString &relativePath) const
+    {
+        return files && files->containsRelativePath(relativePath);
+    }
+
+    bool containsPartsOfRelativeDir(const QString &relativeDir) const
+    {
+        return files && files->containsPartsOfRelativeDir(relativeDir);
+    }
+
+    QSet<QString> knownRelativePaths() const
+    {
+        return files ? files->knownRelativePaths() : QSet<QString>{};
+    }
 
     QSet<QString> existingSourcePaths(const QString &categorySourceDir) const;
 };
