@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-13 01:01+0000\n"
-"PO-Revision-Date: 2026-10-09 15:40+0200\n"
+"PO-Revision-Date: 2026-11-14 16:15+0100\n"
 "Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
@@ -77,7 +77,7 @@ msgstr "Прикажи белешке о издању за текуће изда
 #: src/main.cpp:77
 #, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr ""
+msgstr "Прикажи упутства за сесију Плазме у безбедном режиму."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1131,13 +1131,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "Ово је сесија у безбедном режиму"
 
 #: src/qml/pages/SafeMode.qml:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr ""
+msgstr "Помоћ и подршка"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1146,6 +1146,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Сазнајте више или затражите од других "
+"помоћ око КДЕ софтвера."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1168,18 +1170,22 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"Ваше уобичајене поставке КДЕ Плазме и програма безбедно су сачуване за "
+"касније, али се тренутно не користе. Поново ће се користити кад се вратите у "
+"своју редовну сесију Плазме.<nl/><nl/>Ево неких радњи којима можете покушати "
+"да поправите своју редовну сесију Плазме:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Очисти фајлове кеша"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
-msgstr ""
+msgstr "Безбедно за пробу; фајлови кеша се аутоматски поново стварају"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1188,18 +1194,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Ручне измене КДЕ Плазме и програма начињене у безбедном режиму биће "
+"изгубљене кад се вратите у своју редовну сесију Плазме."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "&Изађи из безбедног режима…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Чишћење фајлова кеша"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1211,12 +1219,17 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"КДЕ Плазма, системски сервиси и програми праве фајлове кеша да би рад био "
+"бржи. Понекад они застаре и могу да изазову проблеме.<nl/><nl/>Проблем је "
+"често негде другде, али не шкоди да покушате са чишћењем кешева, јер ће се "
+"по потреби аутоматски поново створити.<nl/><nl/>Ваше измене поставки остаће "
+"нетакнуте."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "&Очисти фајлове кеша"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1225,18 +1238,21 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"Није нађена фасцикла кеша на <filename>%1</filename>. Фајлове кеша није "
+"потребно чистити."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr ""
+msgstr "Окружење сесије не наводи фасциклу кеша за чишћење."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
 msgstr ""
+"Фајлови кеша су очишћени:<nl/>фасцикла <filename>%1</filename> је обрисана."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1245,20 +1261,19 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"Не могу да очистим кеш на <filename>%1</filename>:<nl/><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "Отвори &фасциклу кеша"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Покушај поново"
+msgstr "&Покушај поново"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1334,13 +1349,7 @@ msgstr ""
 "програма и покретати нове. Превуците иконице програма да их преуредите."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the ⌃ "
-#| "arrow next to the clock."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -1351,7 +1360,7 @@ msgstr ""
 "Ово је виџет „Системска касета“, помоћу ког можете управљати системом, на "
 "пример мењати јачину звука и повезивати се на мреже. Ставке ће се овде "
 "појавити само кад су битне. Да бисте видели све доступне ставке, кликните на "
-"стрелицу ⌃ поред сата."
+"стрелицу ^ поред сата."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
