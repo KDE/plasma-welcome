@@ -69,7 +69,7 @@ Kirigami.ScrollablePage {
             text: xi18nc("@info", "Cache files have been cleared:<nl/><filename>%1</filename> was deleted.", new URL(root.cacheClearer.cacheDir).pathname)
             actions: Kirigami.Action {
                 icon.name: Qt.application.layoutDirection === Qt.RightToLeft ? "system-log-out-rtl-symbolic" : "system-log-out-symbolic"
-                text: i18nc("@action:button", "E&xit Safe Mode…")
+                text: i18nc("@action:button", "E&xit Safe Mode")
                 readonly property KWorkspace.SessionManagement sessionManagement: KWorkspace.SessionManagement {}
                 onTriggered: sessionManagement.requestLogout(KWorkspace.SessionManagement.ConfirmationMode.ForcePrompt)
             }
