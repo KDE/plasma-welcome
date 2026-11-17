@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-13 01:01+0000\n"
-"PO-Revision-Date: 2026-11-07 19:42+0300\n"
+"PO-Revision-Date: 2026-11-16 19:25+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -520,7 +520,7 @@ msgstr "Her şey tamam!"
 msgctxt "@info"
 msgid ""
 "To manually preview the different states of the page, you can use the button."
-msgstr "Sayfanın farklı durumlarını önizlemek için düğmeyi kullanabilirsiniz."
+msgstr "Sayfanın farklı durumlarını ön izlemek için düğmeyi kullanabilirsiniz."
 
 #: src/qml/pages/Network.qml:226
 #, kde-format
@@ -567,7 +567,7 @@ msgstr "Hata Bildir"
 #, kde-format
 msgctxt "@info"
 msgid "Download an embedded preview of the release announcement?"
-msgstr "Yayım duyurusunun gömülü bir önizlemesi indirilsin mi?"
+msgstr "Yayım duyurusunun gömülü bir ön izlemesi indirilsin mi?"
 
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
@@ -576,26 +576,26 @@ msgid ""
 "The preview has not been automatically downloaded because you are using a "
 "metered network connection."
 msgstr ""
-"Önizleme kendiliğinden indirilmedi; çünkü ölçülü bir ağ bağlantısı "
+"Ön izleme kendiliğinden indirilmedi; çünkü ölçülü bir ağ bağlantısı "
 "kullanıyorsunuz."
 
 #: src/qml/pages/PlasmaUpdate.qml:157
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "The preview could not be downloaded — a network error occurred (%1)."
-msgstr "Önizleme indirilemedi — bir ağ hatası oluştu (%1)."
+msgstr "Ön izleme indirilemedi — bir ağ hatası oluştu (%1)."
 
 #: src/qml/pages/PlasmaUpdate.qml:159
 #, kde-format
 msgctxt "@info"
 msgid "The preview could not be loaded — a parse error occurred."
-msgstr "Önizleme yüklenemedi — bir ayrıştırma hatası oluştu."
+msgstr "Ön izleme yüklenemedi — bir ayrıştırma hatası oluştu."
 
 #: src/qml/pages/PlasmaUpdate.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Download Preview"
-msgstr "Önizlemeyi İndir"
+msgstr "Ön İzlemeyi İndir"
 
 #: src/qml/pages/PlasmaUpdate.qml:178
 #, kde-format
@@ -619,7 +619,7 @@ msgstr "Tarayıcıda Aç…"
 #, kde-format
 msgctxt "@option:check"
 msgid "Load preview automatically"
-msgstr "Önizlemeyi kendiliğinden yükle"
+msgstr "Ön izlemeyi kendiliğinden yükle"
 
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
@@ -629,7 +629,7 @@ msgid ""
 "Plasma updates, except when using a metered network connection."
 msgstr ""
 "Ölçülü bir ağ bağlantısının kullanıldığı durumlar dışında, sonraki Plasma "
-"güncellemeleri için bu sayfa gösterildiğinde önizleme kendiliğinden "
+"güncellemeleri için bu sayfa gösterildiğinde ön izleme kendiliğinden "
 "yüklenecektir."
 
 #: src/qml/pages/PlasmaUpdate.qml:422
