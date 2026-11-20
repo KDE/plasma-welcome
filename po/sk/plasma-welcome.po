@@ -76,11 +76,9 @@ msgid "Display release notes for the current Plasma release."
 msgstr "Zobraziť poznámky k vydaniu aktuálnej verzie Plasma."
 
 #: src/main.cpp:77
-#, fuzzy, kde-format
-#| msgid ""
-#| "Display release notes for the current Plasma release, for beta versions."
+#, kde-format
 msgid "Display guidance for a Plasma Safe Mode session."
-msgstr "Zobrazenie poznámok k aktuálnej verzii systému Plasma pre beta verzie."
+msgstr "Zobraziť pokyny pre sedenie Plasmy v núdzovom režime."
 
 #: src/main.cpp:78
 #, kde-format
@@ -1141,15 +1139,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "This is a Safe Mode Session"
-msgstr ""
+msgstr "Toto je sedenie v núdzovom režime"
 
 #: src/qml/pages/SafeMode.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Plasma 6 Supporters"
+#, kde-format
 msgctxt "@action:button"
 msgid "Help & Support"
-msgstr "Plasma 6 Podporovatelia"
+msgstr "Pomocník a podpora"
 
 #: src/qml/pages/SafeMode.qml:29
 #, kde-kuit-format
@@ -1158,6 +1154,8 @@ msgid ""
 "https://kde.org/support/<nl/><nl/>Find out more information or ask others "
 "for help with KDE software."
 msgstr ""
+"https://kde.org/support/<nl/><nl/>Získajte viac informácií alebo požiadajte "
+"ostatných o pomoc so softvérom KDE."
 
 #: src/qml/pages/SafeMode.qml:33 src/qml/pages/Welcome.qml:28
 #, kde-format
@@ -1180,18 +1178,23 @@ msgid ""
 "your regular Plasma session.<nl/><nl/>Here are some actions you can take to "
 "try fixing your regular Plasma session:"
 msgstr ""
+"Vaše obvyklé nastavenia KDE Plasma a aplikácií boli bezpečne uschované na "
+"neskôr, ale práve sa nepoužívajú. Znova sa použijú, keď sa vrátite do svojho "
+"bežného sedenia Plasmy.<nl/><nl/>Tu je niekoľko krokov, ktorými môžete "
+"skúsiť opraviť svoje bežné sedenie Plasmy:"
 
 #: src/qml/pages/SafeMode.qml:79
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Vymazať súbory vyrovnávacej pamäte"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
 msgstr ""
+"Bezpečné vyskúšať; súbory vyrovnávacej pamäte sa automaticky vytvoria znova"
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1200,18 +1203,20 @@ msgid ""
 "Manual changes made to KDE Plasma and apps while in Safe Mode will be lost "
 "when you return to your regular Plasma session."
 msgstr ""
+"Ručné zmeny v KDE Plasma a aplikáciách urobené v núdzovom režime sa po "
+"návrate do bežného sedenia Plasmy stratia."
 
 #: src/qml/pages/SafeMode.qml:116 src/qml/pages/safemode/ClearCache.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "E&xit Safe Mode…"
-msgstr ""
+msgstr "&Ukončiť núdzový režim…"
 
 #: src/qml/pages/safemode/ClearCache.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr ""
+msgstr "Vymazať súbory vyrovnávacej pamäte"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1223,12 +1228,17 @@ msgid ""
 "try, as they will be automatically regenerated when needed.<nl/><nl/>Your "
 "customizations will remain untouched."
 msgstr ""
+"KDE Plasma, systémové služby a aplikácie vytvárajú súbory vyrovnávacej "
+"pamäte na zlepšenie výkonu. Niekedy zastarajú a môžu spôsobovať problémy.<nl/"
+"><nl/>Problém je často inde, ale vymazanie vyrovnávacej pamäte nezaškodí, "
+"pretože sa podľa potreby automaticky vytvorí znova.<nl/><nl/>Vaše "
+"prispôsobenia zostanú nedotknuté."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr ""
+msgstr "&Vymazať súbory vyrovnávacej pamäte"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1237,18 +1247,22 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
+"V <filename>%1</filename> sa nenašiel žiadny adresár vyrovnávacej pamäte. "
+"Súbory vyrovnávacej pamäte nie je potrebné mazať."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr ""
+msgstr "Prostredie sedenia neurčuje adresár vyrovnávacej pamäte na vymazanie."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
 msgstr ""
+"Súbory vyrovnávacej pamäte boli vymazané:<nl/><filename>%1</filename> bol "
+"odstránený."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1257,20 +1271,20 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
+"Nepodarilo sa vymazať vyrovnávaciu pamäť v <filename>%1</filename>:<nl/"
+"><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr ""
+msgstr "&Otvoriť priečinok vyrovnávacej pamäte"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:button"
 msgid "&Retry"
-msgstr "Skúsiť znova"
+msgstr "&Opakovať"
 
 #: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
@@ -1347,13 +1361,7 @@ msgstr ""
 "usporiadanie."
 
 #: src/qml/pages/SimpleByDefault.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This is the “System Tray” widget, which lets you control system functions "
-#| "like changing the volume and connecting to networks. Items will become "
-#| "visible here only when relevant. To see all available items, click the ⌃ "
-#| "arrow next to the clock."
+#, kde-format
 msgctxt "@info"
 msgid ""
 "This is the “System Tray” widget, which lets you control system functions "
@@ -1361,10 +1369,10 @@ msgid ""
 "visible here only when relevant. To see all available items, click the ^ "
 "arrow next to the clock."
 msgstr ""
-"Toto je the “System Tray” widget, which lets you control system functions "
-"like changing the volume and connecting to networks. Items will become "
-"visible here only when relevant. To see all available items, click the ⌃ "
-"arrow next to the clock."
+"Toto je widget „Systémová lišta“, ktorý vám umožňuje ovládať systémové "
+"funkcie, ako je zmena hlasitosti a pripájanie k sieťam. Položky sa tu "
+"zobrazia iba vtedy, keď sú relevantné. Ak chcete zobraziť všetky dostupné "
+"položky, kliknite na šípku ^ vedľa hodín."
 
 #: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format

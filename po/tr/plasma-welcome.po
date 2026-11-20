@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: welcome-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-13 01:01+0000\n"
-"PO-Revision-Date: 2026-11-16 19:25+0300\n"
+"PO-Revision-Date: 2026-11-19 19:28+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -1185,14 +1185,14 @@ msgstr ""
 #, kde-format
 msgctxt "@title:row"
 msgid "Clear Cache Files"
-msgstr "Önbellek Dosyalarını Temizle"
+msgstr "Ön Bellek Dosyalarını Temizle"
 
 #: src/qml/pages/SafeMode.qml:80
 #, kde-format
 msgctxt "@info subtitle for Open Config Folder"
 msgid "Safe to try; cache files are automatically regenerated"
 msgstr ""
-"Denemesi güvenlidir; önbellek dosyaları kendiliğinden yeniden üretilirler."
+"Denemesi güvenlidir; ön bellek dosyaları kendiliğinden yeniden üretilirler."
 
 #: src/qml/pages/SafeMode.qml:113
 #, kde-format
@@ -1214,7 +1214,7 @@ msgstr "&Güvenli Kipten Çık…"
 #, kde-format
 msgctxt "@title"
 msgid "Clear Cache Files"
-msgstr "Önbellek Dosyalarını Temizle"
+msgstr "Ön Bellek Dosyalarını Temizle"
 
 #: src/qml/pages/safemode/ClearCache.qml:33
 #, kde-kuit-format
@@ -1229,14 +1229,14 @@ msgstr ""
 "KDE Plasma, sistem hizmetleri ve uygulamalar; başarıma yardımcı olmak için "
 "önbellek dosyaları oluşturur. Bazen bunlar eskiyebilir ve sorunlara neden "
 "olabilir.<nl/><nl/>Genellikle sorun başka yerdedir; ancak gerektiğinde "
-"kendiliğinden yeniden oluşturulacakları için önbellekleri temizlemekten "
+"kendiliğinden yeniden oluşturulacakları için ön bellekleri temizlemekten "
 "zarar gelmez.<nl/><nl/>Özelleştirmelerinize dokunulmaz."
 
 #: src/qml/pages/safemode/ClearCache.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "&Clear Cache Files"
-msgstr "Ö&nbellek Dosyalarını Temizle"
+msgstr "Ö&n Bellek Dosyalarını Temizle"
 
 #: src/qml/pages/safemode/ClearCache.qml:54
 #, kde-kuit-format
@@ -1245,20 +1245,20 @@ msgid ""
 "No cache directory was found at <filename>%1</filename>. Cache files do not "
 "need to be cleared."
 msgstr ""
-"<filename>%1</filename> konumunda bulunan önbellek dizini yok. Önbellek "
+"<filename>%1</filename> konumunda bulunan ön bellek dizini yok. Ön bellek "
 "dosyalarının temizlenmesine şu an için gerek bulunmuyor."
 
 #: src/qml/pages/safemode/ClearCache.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "The session environment does not specify a cache directory to clear."
-msgstr "Bu oturum ortamı, temizlenecek bir önbellek dizini belirtmiyor."
+msgstr "Bu oturum ortamı, temizlenecek bir ön bellek dizini belirtmiyor."
 
 #: src/qml/pages/safemode/ClearCache.qml:69
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cache files have been cleared:<nl/><filename>%1</filename> was deleted."
-msgstr "Önbellek dosyaları temizlendi:<nl/><filename>%1</filename> silindi."
+msgstr "Ön bellek dosyaları temizlendi:<nl/><filename>%1</filename> silindi."
 
 #: src/qml/pages/safemode/ClearCache.qml:86
 #, kde-kuit-format
@@ -1267,14 +1267,14 @@ msgid ""
 "Failed to clear the cache at <filename>%1</filename>:<nl/><message>%2</"
 "message>"
 msgstr ""
-"<filename>%1</filename> konumundaki önbellek dosyaları temizlenemedi:<nl/"
+"<filename>%1</filename> konumundaki ön bellek dosyaları temizlenemedi:<nl/"
 "><message>%2</message>"
 
 #: src/qml/pages/safemode/ClearCache.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open Cache Folder"
-msgstr "Ö&nbellek Klasörünü Aç"
+msgstr "Ö&n Bellek Klasörünü Aç"
 
 #: src/qml/pages/safemode/ClearCache.qml:96
 #, kde-format
